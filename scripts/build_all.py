@@ -81,6 +81,9 @@ def run_stage_1(db: sqlite3.Connection, source: Path):
     from ingest.ingest_biography import run as ingest_biography
     ingest_biography(db, source)
 
+    from ingest.ingest_folder_dates import run as ingest_folder_dates
+    ingest_folder_dates(db, source)
+
 
 def run_stage_2(db: sqlite3.Connection, source: Path):
     """Stage 2: Heuristic linking."""
@@ -112,7 +115,14 @@ def run_stage_3(db: sqlite3.Connection, source: Path):
     print("\n" + "=" * 60)
     print("STAGE 3: LLM ENRICHMENT")
     print("=" * 60)
-    print("  (Not yet implemented — skipping)")
+
+    try:
+        from enrich.enrich_accepted_terms import run as enrich_accepted
+        enrich_accepted(db, source)
+    except ImportError:
+        print("  SKIP: enrich_accepted_terms not available")
+
+    print("  (LLM-based enrichment not yet implemented)")
 
 
 def run_stage_4(db: sqlite3.Connection, source: Path):
