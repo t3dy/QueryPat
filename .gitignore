@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+site/node_modules/
+
+# Build output
+site/dist/
+
+# Database (rebuilt from pipeline)
+database/unified.sqlite
+database/unified.sqlite-wal
+database/unified.sqlite-shm
+
+# Audit reports (rebuilt)
+audit_report.json
+audit_report.md
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Claude internal
+.claude/
+
+# PDFs (too large for git, kept locally)
+PKD LLM Chats/
