@@ -1,0 +1,114 @@
+{
+  "name_id": "NAME_father-rasch",
+  "canonical_form": "Father Rasch",
+  "slug": "father-rasch",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Father Rasch is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 4 Exegesis passages. Context: \"Dick explores \"Immanence\" using Parmenides' \"All\" and Kozyrev's time theory, concluding that God is total in every \"micropoint.\"",
+  "full_description": null,
+  "mention_count": 4,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_30",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Father Rasch",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores \"Immanence\" using Parmenides' \"All\" and Kozyrev's time theory, concluding that God is total in every \"micropoint.\" He argues that the Father (Yahweh/Judgment) took his place during the 1",
+      "title": "U_Claudia_30.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_36",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Father Rasch",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his internal \"guide\" as St. Luke, \"the beloved physician,\" who is a non-terrestrial entity of high authority. He reinterprets the ending of *Tears* as a ciphered \"Acts of the Apostles\"",
+      "title": "U_Claudia_36.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_32",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Father Rasch",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies Christ’s purpose not as suffering, but as an “Ontological Alteration” of reality that demonstration immortality. He views the \"Second Comforter\" (St. Sophia) as the released, ubiquitou",
+      "title": "U_Claudia_32.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Father Rasch",
+      "date_display": "September 15, 1975",
+      "summary": "Dick rejects the common Christian emphasis on suffering, arguing that Christ's purpose was to alter the ontology of the world. He discovers a \"steganographic\" message—the word **\"Felix\"**—embedded in ",
+      "title": "1975-09-15_SECTION_012_02.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

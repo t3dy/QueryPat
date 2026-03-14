@@ -1,0 +1,75 @@
+{
+  "name_id": "NAME_ae-van-vogt",
+  "canonical_form": "A.E. van Vogt",
+  "slug": "ae-van-vogt",
+  "entity_type": "character",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "A.E. van Vogt is a fictional character referenced in Philip K. Dick's Exegesis. Appears in 3 Exegesis passages. Context: \"Dick identifies his experience as an \"evolutionary advance\" (Cosmic Consciousness) and the \"next step up\" for the human species.\"",
+  "full_description": null,
+  "mention_count": 3,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_21",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "A.E. van Vogt",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as an \"evolutionary advance\" (Cosmic Consciousness) and the \"next step up\" for the human species. He reinterprets the \"Fall\" as a lack of perception and argues that the ",
+      "title": "U_Claudia_21.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_86",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "A.E. van Vogt",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that *Flow My Tears* contains \"cooked\" (divinely inspired/interpolated) material that parallels the Book of Acts with impossible precision. He concludes that Jesus is \"here\" in a state of ",
+      "title": "1976-09-15_Dorothy_86.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_11",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "A.E. van Vogt",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his 3-74 experience as the \"epiphany\" of a buried personality (Thomas) who has been inserting \"code\" into his novels for years. He theorizes that the Gnosis is transmitted genetically ",
+      "title": "1976-09-15_Dorothy_11.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Satan",
+      "slug": "satan",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "name_id": "NAME_jesus",
+  "canonical_form": "Jesus",
+  "slug": "jesus",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Yahweh saves",
+  "origin_language": "Hebrew/Aramaic",
+  "allusion_type": [
+    "biblical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Jesus (Hebrew/Aramaic: \"Yahweh saves\") is a divine or mythological figure appearing in Philip K. Dick's Exegesis. In the biblical tradition, Jesus is central figure of christianity; teacher and messiah. Core of PKD's christological theology in the Exegesis. Appears in 12 Exegesis passages. Associated with dictionary terms: Jesus. Context: \"Conclusion of Section 1.\"",
+  "full_description": null,
+  "mention_count": 12,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_biblical_jesus",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Christ",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_04",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jesus",
+      "date_display": "February 27, 1975",
+      "summary": "Conclusion of Section 1. Dick summarizes the \"Great Cycle\" of the Earth: a seasonal move from Greco-Roman \"Spring\" to 2000 years of \"Winter\" (100 AD to 1970 AD), followed by the current \"Rebirth\" or r",
+      "title": "1975-02-27_Claudia_04.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_14",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jesus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Miracle of Transubstantiation\" as the mechanism by which God sanctifies and replaces ordinary reality (\"trash of the alley\"). He concludes that his experiences of the \"Logos\" were",
+      "title": "U_Claudia_14.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_22",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jesus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick proposes a \"Light Body\" theory of immortality: a 2,000-year-old collective \"Bioplasmic\" entity (the fellowship of Christ) re-enters human hosts through the 3rd eye/pineal gland. He identifies the",
+      "title": "U_Claudia_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_06",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jesus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the pineal gland as the \"third eye\" and the biological receptor for the \"Other Sun\" (Sun of Righteousness). He links this to the 1974 chromatic phosphene experience and argues that Chr",
+      "title": "U_Claudia_06.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_11",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jesus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"Holy Spirit\" (Elijah) as the precursor to the \"Second Birth\" of the Logos/Wisdom (Santa Sophia). He details a shift from the \"warrior\" survival instincts of 1974 to the \"reproductiv",
+      "title": "U_Claudia_11.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_34",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jesus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as a literal \"Passover Epiphany\" occurring in August 1974, coinciding with Nixon’s resignation. He concludes that God used \"plagues\" to pull down the modern Egypt (Nixon",
+      "title": "U_Claudia_34.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_24",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jesus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick plots his next novel (*To Scare the Dead*), revolving around the \"Possession\" of a government agent (Nicholas Brady) by an ancient Essene spirit. He defines \"Christian Anamnesis\" as the \"Remembra",
+      "title": "U_Claudia_24.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jesus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick elaborates on the \"Kingship of God\" as a subtle, behind-the-scenes seizing of power. He uses metaphors of rescued animals and a \"Lord of the Flies\" scenario to explain the intervention of Truth a",
+      "title": "U_Claudia_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_07",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jesus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick contrasts Gnosticism (external grace) with Neoplatonism (self-attainment), concluding that the 1974 experience was a \"zygote\" formation between the human \"egg\" and cosmic \"spermatika.\" He reinter",
+      "title": "U_Claudia_07.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_25",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jesus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick synthesizes the \"Light Body\" and \"Re-entry\" theories: the Holy Spirit is a collective \"Light Creature\" (The Fellowship of Christ) that re-enters history through the pineal gland. He concludes tha",
+      "title": "U_Claudia_25.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jesus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the subjective vs. objective nature of his 1974 experience, concluding that the Parousia has occurred through a \"retrograde\" system of time. He compares reality to a film or LP record th",
+      "title": "U_Claudia_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_31",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jesus",
+      "date_display": "September 15, 1976",
+      "summary": "Dick codifies his realization into a 26-point \"Alphabet\" of Gnosis, detailing the Fall, the role of Zebra (the restorer), the nature of the intercessor (unfallen primordial man), and the cosmic battle",
+      "title": "1976-09-15_Dorothy_31.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Essene",
+      "slug": "essene",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Holy Spirit",
+      "slug": "holy-spirit",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paraclete",
+      "slug": "paraclete",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas Aquinas",
+      "slug": "thomas-aquinas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Moses",
+      "slug": "moses",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Empedocles",
+      "slug": "empedocles",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Firebright",
+      "slug": "firebright",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plotinus",
+      "slug": "plotinus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zagreus",
+      "slug": "zagreus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Kathy",
+      "slug": "kathy",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Philo",
+      "slug": "philo",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "John",
+      "slug": "john",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Jesus",
+    "domain": "biblical",
+    "brief": "Central figure of Christianity; teacher and messiah",
+    "etymology": "Yahweh saves",
+    "origin_language": "Hebrew/Aramaic",
+    "significance": "Core of PKD's christological theology in the Exegesis",
+    "source_text": "Gospels"
+  }
+}

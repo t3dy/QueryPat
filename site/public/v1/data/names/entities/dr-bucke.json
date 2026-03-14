@@ -1,0 +1,60 @@
+{
+  "name_id": "NAME_dr-bucke",
+  "canonical_form": "Dr. Bucke",
+  "slug": "dr-bucke",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Dr. Bucke is a divine or mythological figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick identifies his experience as an \"evolutionary advance\" (Cosmic Consciousness) and the \"next step up\" for the human species.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_21",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Dr. Bucke",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as an \"evolutionary advance\" (Cosmic Consciousness) and the \"next step up\" for the human species. He reinterprets the \"Fall\" as a lack of perception and argues that the ",
+      "title": "U_Claudia_21.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_27",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Dr. Bucke",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" He explores the brain's \"Right Hemisphere\" as the location of",
+      "title": "U_Claudia_27.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Kathy",
+      "slug": "kathy",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

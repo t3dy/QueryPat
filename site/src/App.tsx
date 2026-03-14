@@ -13,6 +13,8 @@ import Biography from './pages/Biography'
 import Scholars from './pages/Scholars'
 import Names from './pages/Names'
 import NameDetail from './pages/NameDetail'
+import Bookmarks from './pages/Bookmarks'
+import TagResults from './pages/TagResults'
 import './App.css'
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
           <Route path="names" element={<Names />} />
           <Route path="names/:slug" element={<NameDetail />} />
           <Route path="analytics" element={<Analytics />} />
+          <Route path="bookmarks" element={<Bookmarks />} />
+          <Route path="tag/:tagname" element={<TagResults />} />
         </Route>
       </Routes>
     </HashRouter>

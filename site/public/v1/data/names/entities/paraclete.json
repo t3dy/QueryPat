@@ -1,0 +1,72 @@
+{
+  "name_id": "NAME_paraclete",
+  "canonical_form": "Paraclete",
+  "slug": "paraclete",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Paraclete is a historical figure referenced in Philip K. Dick's Exegesis. Associated with dictionary terms: Paraclete. Context: \"Dick synthesizes the \"Light Body\" and \"Re-entry\" theories: the Holy Spirit is a collective \"Light Creature\" (The Fellowship of Christ) that re-enters history through the pineal gland.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Helper",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Comforter",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_25",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Paraclete",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick synthesizes the \"Light Body\" and \"Re-entry\" theories: the Holy Spirit is a collective \"Light Creature\" (The Fellowship of Christ) that re-enters history through the pineal gland. He concludes tha",
+      "title": "U_Claudia_25.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Paraclete",
+      "slug": "paraclete",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas Aquinas",
+      "slug": "thomas-aquinas",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

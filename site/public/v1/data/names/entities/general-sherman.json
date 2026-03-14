@@ -1,0 +1,43 @@
+{
+  "name_id": "NAME_general-sherman",
+  "canonical_form": "General Sherman",
+  "slug": "general-sherman",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "General Sherman is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick identifies his 1974 experience as a \"Discernment of the Present\" rather than an \"Anamnesis of the Past,\" concluding that Imperial Rome *exists now* in a metaphysical form.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Andrew Jackson",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_31",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "General Sherman",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his 1974 experience as a \"Discernment of the Present\" rather than an \"Anamnesis of the Past,\" concluding that Imperial Rome *exists now* in a metaphysical form. He proposes that 1,500 ",
+      "title": "U_Claudia_31.txt"
+    }
+  ],
+  "related_terms": []
+}

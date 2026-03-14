@@ -1,0 +1,63 @@
+{
+  "name_id": "NAME_marcuse",
+  "canonical_form": "Marcuse",
+  "slug": "marcuse",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Marcuse is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick reconciles his dualistic visions (J-J vs.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_44",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Marcuse",
+      "date_display": "September 15, 1976",
+      "summary": "Dick reconciles his dualistic visions (J-J vs. Zebra) with Hegelian monism, arguing that the \"Incarnation\" (Christ/Zebra) is the fusion of the finite and infinite that abolishes the \"sundering\" of wor",
+      "title": "1976-09-15_Dorothy_44.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Daniel",
+      "slug": "daniel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

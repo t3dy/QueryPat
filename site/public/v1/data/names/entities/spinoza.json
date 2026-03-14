@@ -1,0 +1,193 @@
+{
+  "name_id": "NAME_spinoza",
+  "canonical_form": "Spinoza",
+  "slug": "spinoza",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "From Espinosa (thorny)",
+  "origin_language": "Portuguese/Hebrew",
+  "allusion_type": [
+    "philosophical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Spinoza (Portuguese/Hebrew: \"From Espinosa (thorny)\") is a historical figure appearing in Philip K. Dick's Exegesis. In the philosophical tradition, Spinoza is 17th century rationalist; God as Nature (Deus sive Natura). PKD engages with Spinoza's pantheism and substance monism. Appears in 7 Exegesis passages. Associated with dictionary terms: Spinoza. Context: \"Dick identifies the Egyptian deity Ptah as the \"Immanent Mind\" and \"Logos\" doctrine precursor.\"",
+  "full_description": null,
+  "mention_count": 7,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_philosophical_spinoza",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Hume",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_13",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Spinoza",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the Egyptian deity Ptah as the \"Immanent Mind\" and \"Logos\" doctrine precursor. He argues that the \"Miracle of Transubstantiation\" (the Mass) is a literal reality he witnessed in 1974, ",
+      "title": "U_Claudia_13.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_49",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Spinoza",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Astraea/Virgo\" (Justice) as the entity that healed his blood pressure and promised judgment by fire for the despoilers of Earth (Vietnam). He reinterprets reality as a \"Two-Player Gam",
+      "title": "U_Claudia_49.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_126",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Spinoza",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes his boldest surmise yet: that the 1974 intervention was a \"surgical\" re-editing of history that nullified the \"evil tyrant\" Nixon across all linear time (past, present, and future). He v",
+      "title": "1976-09-15_Dorothy_126.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_44",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Spinoza",
+      "date_display": "September 15, 1976",
+      "summary": "Dick reconciles his dualistic visions (J-J vs. Zebra) with Hegelian monism, arguing that the \"Incarnation\" (Christ/Zebra) is the fusion of the finite and infinite that abolishes the \"sundering\" of wor",
+      "title": "1976-09-15_Dorothy_44.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_82",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Spinoza",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the world as a \"Teaching Machine\" created by a \"sick/fevered\" demiurge (James-James). He argues that ethical choices (balking) are the only way to \"grade\" out of this simulation and re",
+      "title": "1976-09-15_Dorothy_82.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_54",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Spinoza",
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that 3-74 was a \"theolepsy\" (divine possession) where St. Sophia \"avatared\" herself through him to prepare the world for the Parousia. He interprets the fall of the \"Tyrant\" (Nixon) as ",
+      "title": "1976-09-15_Dorothy_54.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_128",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Spinoza",
+      "date_display": "September 15, 1976",
+      "summary": "Dick outlines a three-stage progression of the human experience with the Divine: 1) Suffering/Dread (The world is real and hostile), 2) Amazement/Pantheism (The world is alive and animate), and 3) Bli",
+      "title": "1976-09-15_Dorothy_128.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Aristotle",
+      "slug": "aristotle",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Daniel",
+      "slug": "daniel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Noos",
+      "slug": "noos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Spinoza",
+    "domain": "philosophical",
+    "brief": "17th century rationalist; God as Nature (Deus sive Natura)",
+    "etymology": "From Espinosa (thorny)",
+    "origin_language": "Portuguese/Hebrew",
+    "significance": "PKD engages with Spinoza's pantheism and substance monism",
+    "source_text": "Ethics"
+  }
+}

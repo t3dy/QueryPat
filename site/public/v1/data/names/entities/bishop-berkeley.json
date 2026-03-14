@@ -1,0 +1,38 @@
+{
+  "name_id": "NAME_bishop-berkeley",
+  "canonical_form": "Bishop Berkeley",
+  "slug": "bishop-berkeley",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Bishop Berkeley is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick refines his view of theolepsy as an \"Internal Theophany\" where the immanent God in the \"Atman\" is proved identical to the Brahman without.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_12",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Bishop Berkeley",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his view of theolepsy as an \"Internal Theophany\" where the immanent God in the \"Atman\" is proved identical to the Brahman without. He defines the Kingdom of God as our ancestral \"Garden\" ",
+      "title": "1976-09-15_Dorothy_12.txt"
+    }
+  ],
+  "related_terms": []
+}

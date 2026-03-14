@@ -1,0 +1,83 @@
+{
+  "name_id": "NAME_pilate",
+  "canonical_form": "Pilate",
+  "slug": "pilate",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Pilate is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick identifies the Egyptian deity Ptah as the \"Immanent Mind\" and \"Logos\" doctrine precursor.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Herod",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_13",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pilate",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the Egyptian deity Ptah as the \"Immanent Mind\" and \"Logos\" doctrine precursor. He argues that the \"Miracle of Transubstantiation\" (the Mass) is a literal reality he witnessed in 1974, ",
+      "title": "U_Claudia_13.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_120",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pilate",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes several cultural and literary motifs—from *The Bacchae* to Hollywood comedies—to illustrate a \"King of Tears\" (the artifact) who brutally rules over a kingdom without realizing that t",
+      "title": "1976-09-15_Dorothy_120.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

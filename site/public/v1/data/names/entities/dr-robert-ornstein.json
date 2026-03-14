@@ -1,0 +1,45 @@
+{
+  "name_id": "NAME_dr-robert-ornstein",
+  "canonical_form": "Dr. Robert Ornstein",
+  "slug": "dr-robert-ornstein",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Dr. Robert Ornstein is a historical figure referenced in Philip K. Dick's Exegesis.",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-03-04_SECTION_006_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Dr. Robert Ornstein",
+      "date_display": "March 4, 1975",
+      "summary": "Dick writes to Dr. Robert Ornstein, framing his mystical experience as the clinical activation of his brain's right hemisphere. He outlines the premise of his novel *TO SCARE THE DEAD* (VALIS), featur",
+      "title": "1975-03-04_SECTION_006_01.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

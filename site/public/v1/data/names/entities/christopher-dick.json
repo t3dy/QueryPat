@@ -1,0 +1,54 @@
+{
+  "name_id": "NAME_christopher-dick",
+  "canonical_form": "Christopher Dick",
+  "slug": "christopher-dick",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Christopher Dick is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick writes to Dorothy summarizing his 3-74 experience (the \"conversion year\").\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-12_Dorothy_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christopher Dick",
+      "date_display": "September 12, 1976",
+      "summary": "Dick writes to Dorothy summarizing his 3-74 experience (the \"conversion year\"). He introduces the term \"VALIS\" (Vast Active Living Intelligence System), details his role in toppling Nixon through lett",
+      "title": "1976-09-12_Dorothy_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christopher Dick",
+      "date_display": "September 15, 1976",
+      "summary": "Dick reflects on an interview with a reporter that clarifies his 1974 experience as the \"answer\" to his lifelong philosophical question \"What is real?\". He lists the physical and symbolic \"causal fact",
+      "title": "1976-09-15_Dorothy_01.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

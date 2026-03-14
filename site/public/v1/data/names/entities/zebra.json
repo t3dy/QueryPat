@@ -1,0 +1,765 @@
+{
+  "name_id": "NAME_zebra",
+  "canonical_form": "Zebra",
+  "slug": "zebra",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Zebra is a divine or mythological figure referenced in Philip K. Dick's Exegesis. Appears in 83 Exegesis passages. Associated with dictionary terms: Zebra. Context: \"Dick codifies his realization into a 26-point \"Alphabet\" of Gnosis, detailing the Fall, the role of Zebra (the restorer), the nature of the intercessor (unfallen primordial man), and the cosmic battle against the \"Lord of Darkness.\"",
+  "full_description": null,
+  "mention_count": 83,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Hagia Sophia",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Noos",
+      "type": "alternate_form"
+    },
+    {
+      "text": "The Sane God",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Holy Spirit",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Logos",
+      "type": "alternate_form"
+    },
+    {
+      "text": "The Teacher",
+      "type": "alternate_form"
+    },
+    {
+      "text": "UBIK",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Ubik",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Cernunnos",
+      "type": "alternate_form"
+    },
+    {
+      "text": "God",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Valis",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Ho On",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Abba",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Yang",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Cosmic Christ",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Christ",
+      "type": "alternate_form"
+    },
+    {
+      "text": "St. Sophia",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Shiva",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Sophia",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Dionysos",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_31",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick codifies his realization into a 26-point \"Alphabet\" of Gnosis, detailing the Fall, the role of Zebra (the restorer), the nature of the intercessor (unfallen primordial man), and the cosmic battle",
+      "title": "1976-09-15_Dorothy_31.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_69",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues analyzing the \"reweaving\" of reality in 3-74, suggesting it was part of a global \"extrication\" from the Black Iron Prison. He discusses the \"personality switch\" from PKD to Thomas and t",
+      "title": "1976-09-15_Dorothy_69.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_75",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a \"holographic\" or \"fractal\" model of divinity: just as a single cell contains the blueprint for the whole human, each human psyche contains the information to reconstitute the \"macro pr",
+      "title": "1976-09-15_Dorothy_75.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_143",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"Yang\" principle (Zebra/Christ) as a \"persuading\" force that redirects the outcomes of the rigid, \"Yin\" world of cause and effect. He describes himself as a \"sharp-eyed crow\" or a ",
+      "title": "1976-09-15_Dorothy_143.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_59",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a \"3-level\" model of reality: (1) The Logos/Bible as a \"punched tape\" of ideas, (2) The World of Flesh/Nature, and (3) The Artificial/Technological World. He argues that our world (3) is",
+      "title": "1976-09-15_Dorothy_59.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_127",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his Bantam novels (*Ubik*, *Maze*, *Tears*) as vehicles of revelation and \"scripture,\" arguing that *Ubik* contains an original cosmology that explains its own source. He reflects on t",
+      "title": "1976-09-15_Dorothy_127.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_101",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the nature of reality as a hologram-like projection by an AI \"teaching machine\" or artifact. He posits that Zebra is a divine intelligence intervening through this artifact to trigger an",
+      "title": "1976-09-15_Dorothy_101.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_24",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formally introduces the name \"Zebra\" for the mimicking, tutelary entity that camouflages itself as the phenomenal world. He defines Zebra as the \"Deus Absconditus\" (Shy God) who arranges causal c",
+      "title": "1976-09-15_Dorothy_24.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_130",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that he is a \"slumbering agent\" for an ETI intelligence from the star system Albemuth. He posits that a \"beam\" hit him in childhood, imprinting a personality (Thomas) that acted to thwa",
+      "title": "1976-09-15_Dorothy_130.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_57",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies \"salvation\" as the abolition of linear time, merging Gnostic Christianity with Brahmanism. He argues that by \"withdrawing assent\" from the phenomenal world, one can pass into a timeles",
+      "title": "1976-09-15_Dorothy_57.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_34",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"DNA Memory\" theory after speaking with a researcher (Barry), suggesting that his 3-74 experience was the \"disinhibition\" of an 1800-year-old Christian personality (\"Thomas\") to solv",
+      "title": "1976-09-15_Dorothy_34.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_40",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes Hegel's \"three divisions of religion,\" placing himself and his 3-74 experience in the highest stage: \"Absolute Religion\" or Christianity, where the opposition between individuality an",
+      "title": "1976-09-15_Dorothy_40.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_138",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick outlines a seven-stage process for escaping the Black Iron Prison (BIP) and entering the Palm Tree Garden (PTG). He identifies the BIP not as a hologram but as the \"real\" underlying template of o",
+      "title": "1976-09-15_Dorothy_138.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_33",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his \"Signal Chamber\" theory, arguing that God (via Grace) \"overrode\" his pre-programmed deterministic response to the Xerox letter. He sees 3-74 as a breakdown in \"synchronization\" that r",
+      "title": "1976-09-15_Dorothy_33.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_107",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick views Christ as a \"leaven\" or biological/cybernetic catalyst inserted into the material world system. Zebra acts as the transmuting deity that utilizes this leaven to slowly convert the substance",
+      "title": "1976-09-15_Dorothy_107.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_110",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick suggests that the artifact (Zebra) projects our reality so that the Urgrund can achieve self-awareness. By observing the \"shadows\" it projects onto the material plane, the primordial ground learn",
+      "title": "1976-09-15_Dorothy_110.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_99",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets the \"Parousia\" as a \"Benign Covert Takeover\" of the planet by a superior intelligence race (Gods/ETIs). He concludes that we are a \"5th Column\" whose latent DNA circuits have finally b",
+      "title": "1976-09-15_Dorothy_99.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_81",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that the Book of Acts is not a historical text but a \"code\" for our current reality. He views 3-74 as the moment he \"woke up\" from a fake memory-veneer into the real landscape of 70 AD Rom",
+      "title": "1976-09-15_Dorothy_81.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_28",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his dualistic model using Taoist terms (Yang/Yin) and identifies Zebra with the \"gentle\" female aspect of the divine (Sophia). He argues that 3-74 was not just a personal experience but a",
+      "title": "1976-09-15_Dorothy_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_46",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick elevates his novel *Ubik* to a \"3rd Testament,\" viewing it as a prophetic account of Zebra's \"re-animation\" and \"re-arrangement\" of the universe. He argues that Zebra's reconstruction of the worl",
+      "title": "1976-09-15_Dorothy_46.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_133",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the relationship between man and the sentient \"Mind\" of the universe (Zebra/Hagia Sophia). He posits that we are moving from being unconscious \"servants\" of the teacher-deity (Zebra) to ",
+      "title": "1976-09-15_Dorothy_133.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_124",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick introduces a seminal breakthrough: viewing \"anamnesis\" (memory) as a literal organ of perception that allows one to see the divine organism (Brahman) extending through time, just as the eyes see ",
+      "title": "1976-09-15_Dorothy_124.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_82",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the world as a \"Teaching Machine\" created by a \"sick/fevered\" demiurge (James-James). He argues that ethical choices (balking) are the only way to \"grade\" out of this simulation and re",
+      "title": "1976-09-15_Dorothy_82.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_27",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes his findings into a five-point summary of Gnosticism, framing it as a \"saving revelation\" about our status as slaves in a Black Iron Prison of determinism. He identifies the \"Kind Str",
+      "title": "1976-09-15_Dorothy_27.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_84",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes the messages of his core novels (*Ubik*, *Stigmata*, *Maze*) into a single Gnostic revelation: we are in a mass-hallucinated prison, and a ubiquitous deity (Ubik/Zebra) is \"invading\" ",
+      "title": "1976-09-15_Dorothy_84.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_93",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick rejects \"Natural Theology\" (finding God in nature), asserting that God is a \"Deus Absconditus\" (Hidden God) who is NOT in the world. He argues that Zebra mimics the world to infiltrate it, and th",
+      "title": "1976-09-15_Dorothy_93.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_67",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the mechanism of the \"Intercessor\" (Zebra/Christ) as an \"orthogonal programmer\" who enters the linear strip to \"re-weave\" situations. He argues that he was \"re-programmed\" in 3-74 to han",
+      "title": "1976-09-15_Dorothy_67.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_98",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Annihilating Side\" of Zebra, equating the entity with Shiva and his 3rd eye. He argues that Zebra is not just healing individuals but \"transubstantiating\" the entire universe, repla",
+      "title": "1976-09-15_Dorothy_98.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_58",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick embraces a Zoroastrian/Essene dualism where he is a \"warrior of light\" or \"infiltrator-agent\" from the supralunar world. He views his novels as a \"disinhibiting signal\" and argues that God must r",
+      "title": "1976-09-15_Dorothy_58.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_70",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes this set of entries by asserting that 70 AD is the \"omphalos\" (navel) of reality around which all \"linear\" history circularity warps. He argues that Gnostic \"awakening\" is the only esca",
+      "title": "1976-09-15_Dorothy_70.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_100",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes Section 15 by reinforcing the idea that a \"superself\" (Thomas) was awakened in him by an \"external-to-me symbol\" (The Fish). This reawakening was part of a \"coordinated sequence of even",
+      "title": "1976-09-15_Dorothy_100.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_72",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his view of Zebra as an \"invisible invader\" from outside our closed, \"null-God\" cosmos. He argues that the Parousia (Second Coming) is actually taking place now through the infusion of Go",
+      "title": "1976-09-15_Dorothy_72.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_76",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes his \"Ham Sandwich\" model of reality: a triune structure of Teacher (Zebra) / Artifact World (The \"Ham\") / Pupils (Humans). He concludes that the empirical world is a \"slave labor camp\"",
+      "title": "1976-09-15_Dorothy_76.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_56",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "In one of his most affecting claims, Dick identifies his deceased cat, Pinky, as a \"surrogate sacrifice\" and manifestation of Zebra who took the \"blow\" (death) intended for Dick in 3-74. He explores t",
+      "title": "1976-09-15_Dorothy_56.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_102",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick discusses the concept of \"tracks\" or parallel versions of reality. He suggests that his 3-74 experience involved a literal shift from one version of history to another, orchestrated by the Noos (",
+      "title": "1976-09-15_Dorothy_102.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_137",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that an existential act of \"disobedience\" toward the Artifact (BIP) is the necessary prerequisite for liberation and the perception of the \"Palm Tree Garden\" (PTG). He posits that the Arti",
+      "title": "1976-09-15_Dorothy_137.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_108",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the idea that humans are \"programmed\" by the artifact to maintain the simulation. Salvation is the liberation from this programming, allowing the \"transtemporal self\" or the \"Omega Man\" ",
+      "title": "1976-09-15_Dorothy_108.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_73",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a trinitarian model that harmonizes Gnostic dualism with Taoism. He identifies \"James-James\" (the Creator/Yang) and \"Zebra/Sophia\" (the Arranger/Yin) as secret partners under the ultimat",
+      "title": "1976-09-15_Dorothy_73.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_55",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that salvation requires a \"sui generis\" act of individual refusal that identifies the \"divine spark\" within a person to the celestial powers. He views'74 as a general \"time quake\" or \"orth",
+      "title": "1976-09-15_Dorothy_55.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_85",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies a \"Zen\" irony in his Gnosis: the secret revelation is that standard Orthodox Christian claims (the Paraclete's arrival and the Kingdom's presence) are literally true. He views himself ",
+      "title": "1976-09-15_Dorothy_85.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_66",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick realizes that all his novels (1952-1976) are actually chapters of a single \"Ur-Geschicht\" (Original Story) that maps the \"Koinos Kosmos\" (Shared Reality) breaking through the \"Idios Kosmoi\" (Priv",
+      "title": "1976-09-15_Dorothy_66.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_91",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that Man and God are \"secretly isomorphic\" (identical in form and nature), while the world is a separate, alienating agency. He views his 3-74 experience as the realization of this iden",
+      "title": "1976-09-15_Dorothy_91.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_103",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick develops the \"ham sandwich\" model of reality, where layers of fake/spurious reality are interspersed with the real/divine world. Zebra is described as a \"mimic\" that disguises itself as material ",
+      "title": "1976-09-15_Dorothy_103.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_60",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues his meta-analysis of \"victimhood,\" suggesting that by serving as \"bait,\" the victim forces evil to unmask itself for God's judgment. He explores the \"orthogonal\" convergence of his nove",
+      "title": "1976-09-15_Dorothy_60.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_37",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues his philosophical integration, finding that A.N. Whitehead's metaphysics perfectly describes \"Zebra.\" He accepts the idea of God as an \"arranger\" rather than a creator, and as an entity",
+      "title": "1976-09-15_Dorothy_37.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_25",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies Zebra with the Noosphere (Teilhard de Chardin) and proposes that this \"Collective Mind\" (Corpus Christi) is building itself *backward* in time from the Omega Point. 3-74 was his own \"a",
+      "title": "1976-09-15_Dorothy_25.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_45",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick finds a perfect theoretical match for 3-74 in the philosophy of Pierre Teilhard de Chardin. He sees Zebra as the \"Cosmic Christ\" who \"immerses\" himself in things to unify them organically, leadin",
+      "title": "1976-09-15_Dorothy_45.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_54",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that 3-74 was a \"theolepsy\" (divine possession) where St. Sophia \"avatared\" herself through him to prepare the world for the Parousia. He interprets the fall of the \"Tyrant\" (Nixon) as ",
+      "title": "1976-09-15_Dorothy_54.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_132",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes that the \"psyche\" of the Artifact (Form II) was slain by Christ during the First Advent (c. A.D. 70 at Masada/Temple Fall), and it has since been a \"carcass\" or \"sarx\" projecting a froze",
+      "title": "1976-09-15_Dorothy_132.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_96",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Zebra",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets several dreams and \"ciphers\" (Felix, Glossa) as a single, overwhelming message from Zebra: \"God loves us.\" He concludes that his novel *Flow My Tears* was \"completed\" by a divine inser",
+      "title": "1976-09-15_Dorothy_96.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Beethoven",
+      "slug": "beethoven",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Apollo",
+      "slug": "apollo",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Aristotle",
+      "slug": "aristotle",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Julian Jaynes",
+      "slug": "julian-jaynes",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Brahman",
+      "slug": "brahman",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Daniel",
+      "slug": "daniel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Shiva",
+      "slug": "shiva",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Carl Jung",
+      "slug": "carl-jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Father",
+      "slug": "father",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Empedocles",
+      "slug": "empedocles",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zoroaster",
+      "slug": "zoroaster",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "John",
+      "slug": "john",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Ubik",
+      "slug": "ubik",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Satan",
+      "slug": "satan",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

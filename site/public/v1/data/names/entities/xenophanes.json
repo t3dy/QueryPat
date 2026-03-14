@@ -1,0 +1,63 @@
+{
+  "name_id": "NAME_xenophanes",
+  "canonical_form": "Xenophanes",
+  "slug": "xenophanes",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Foreign voice",
+  "origin_language": "Greek",
+  "allusion_type": [
+    "classical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Xenophanes (Greek: \"Foreign voice\") is a historical figure appearing in Philip K. Dick's Exegesis. In the classical tradition, Xenophanes is pre-socratic critic of anthropomorphic gods. Referenced in PKD's critique of false conceptions of the divine. Appears in 2 Exegesis passages. Context: \"Dick explores the \"Divine Agony\" of a God who has become enslaved to his own artifact.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_classical_xenophanes",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Anaxagoras",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_118",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Xenophanes",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Divine Agony\" of a God who has become enslaved to his own artifact. He posits that the artifact is now \"teaching\" God fragments (humans) to remember their true identity. He introduc",
+      "title": "1976-09-15_Dorothy_118.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_122",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Xenophanes",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Absolute\" through the lens of process philosophers like Bohme and Driesch, viewing history as a dialectic where God \"makes himself.\" He describes a cosmic board game where a wise, b",
+      "title": "1976-09-15_Dorothy_122.txt"
+    }
+  ],
+  "related_terms": [],
+  "reference": {
+    "canonical_form": "Xenophanes",
+    "domain": "classical",
+    "brief": "Pre-Socratic critic of anthropomorphic gods",
+    "etymology": "Foreign voice",
+    "origin_language": "Greek",
+    "significance": "Referenced in PKD's critique of false conceptions of the divine",
+    "source_text": "Fragments"
+  }
+}

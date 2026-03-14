@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom'
+import Breadcrumbs from './Breadcrumbs'
 
 export default function Layout() {
   return (
@@ -13,9 +14,10 @@ export default function Layout() {
         <NavLink to="/biography">Biography</NavLink>
         <NavLink to="/scholars">Scholars</NavLink>
         <NavLink to="/names">Names</NavLink>
-        <NavLink to="/analytics">Analytics</NavLink>
+        <NavLink to="/bookmarks">Bookmarks</NavLink>
       </nav>
       <main className="app-main">
+        <Breadcrumbs />
         <Outlet />
       </main>
     </div>

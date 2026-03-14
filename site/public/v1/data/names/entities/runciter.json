@@ -1,0 +1,167 @@
+{
+  "name_id": "NAME_runciter",
+  "canonical_form": "Runciter",
+  "slug": "runciter",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Runciter is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 8 Exegesis passages. Associated with dictionary terms: Runciter. Context: \"Dick formalizes the \"Ham Sandwich\" model of reality: Man - World - God.\"",
+  "full_description": null,
+  "mention_count": 8,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Ubik",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_83",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Runciter",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes the \"Ham Sandwich\" model of reality: Man - World - God. He concludes that his entire writing career was a \"preparatory dissolving\" of the world-slice, which allowed the \"God-slice\" (*U",
+      "title": "1976-09-15_Dorothy_83.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_53",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Runciter",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his theory of \"orthogonal intervention,\" arguing that true change enters linear time \"at right angles\" from another dimension. He views his own \"anamnesis\" (memory restoration) as the key",
+      "title": "1976-09-15_Dorothy_53.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_84",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Runciter",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes the messages of his core novels (*Ubik*, *Stigmata*, *Maze*) into a single Gnostic revelation: we are in a mass-hallucinated prison, and a ubiquitous deity (Ubik/Zebra) is \"invading\" ",
+      "title": "1976-09-15_Dorothy_84.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_127",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Runciter",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his Bantam novels (*Ubik*, *Maze*, *Tears*) as vehicles of revelation and \"scripture,\" arguing that *Ubik* contains an original cosmology that explains its own source. He reflects on t",
+      "title": "1976-09-15_Dorothy_127.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_46",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Runciter",
+      "date_display": "September 15, 1976",
+      "summary": "Dick elevates his novel *Ubik* to a \"3rd Testament,\" viewing it as a prophetic account of Zebra's \"re-animation\" and \"re-arrangement\" of the universe. He argues that Zebra's reconstruction of the worl",
+      "title": "1976-09-15_Dorothy_46.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_10",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Runciter",
+      "date_display": "September 15, 1976",
+      "summary": "Dick introduces the theory of the \"Black Iron Prison\" (BIP) as the true, underlying state of the world, concealed by the \"James-James\" demiurge. He contrasts this with the \"Palm Tree Garden\" (the real",
+      "title": "1976-09-15_Dorothy_10.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_61",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Runciter",
+      "date_display": "September 15, 1976",
+      "summary": "Dick develops a \"womb\" model of cosmogony: Level 1 (Holy Wisdom/Logos) creates Level 2 (Nature/Egg) to give birth to Level 3 (Sentient Replicant), which will eventually be absorbed back into Level 1. ",
+      "title": "1976-09-15_Dorothy_61.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_09",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Runciter",
+      "date_display": "September 15, 1976",
+      "summary": "Dick fully embraces a Hindu framework, identifying the world as \"Maya\" (wizardry/illusion) and his 3-74 experience as the death of the \"empirical ego\" leading to \"enlightenment\" (Liberation). He equat",
+      "title": "1976-09-15_Dorothy_09.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Augustine",
+      "slug": "augustine",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Brahman",
+      "slug": "brahman",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Ubik",
+      "slug": "ubik",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

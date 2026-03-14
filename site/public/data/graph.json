@@ -1,356 +1,6 @@
 {
   "nodes": [
     {
-      "id": "TERM_pleroma",
-      "label": "Pleroma",
-      "slug": "pleroma",
-      "category": "Top Term",
-      "weight": 24
-    },
-    {
-      "id": "TERM_st-paul",
-      "label": "St. Paul",
-      "slug": "st-paul",
-      "category": "Christian Theology",
-      "weight": 0
-    },
-    {
-      "id": "TERM_origen",
-      "label": "Origen",
-      "slug": "origen",
-      "category": "Christian Theology",
-      "weight": 0
-    },
-    {
-      "id": "TERM_thomas-aquinas",
-      "label": "Thomas Aquinas",
-      "slug": "thomas-aquinas",
-      "category": "Christian Theology",
-      "weight": 0
-    },
-    {
-      "id": "TERM_meister-eckhart",
-      "label": "Meister Eckhart",
-      "slug": "meister-eckhart",
-      "category": "Christian Mysticism",
-      "weight": 0
-    },
-    {
-      "id": "TERM_giordano-bruno",
-      "label": "Giordano Bruno",
-      "slug": "giordano-bruno",
-      "category": "Hermeticism / Magic",
-      "weight": 0
-    },
-    {
-      "id": "TERM_baruch-spinoza",
-      "label": "Baruch Spinoza",
-      "slug": "baruch-spinoza",
-      "category": "Early Modern Philosophy",
-      "weight": 0
-    },
-    {
-      "id": "TERM_gottfried-wilhelm-leibniz",
-      "label": "Gottfried Wilhelm Leibniz",
-      "slug": "gottfried-wilhelm-leibniz",
-      "category": "Early Modern Philosophy",
-      "weight": 0
-    },
-    {
-      "id": "TERM_george-berkeley",
-      "label": "George Berkeley",
-      "slug": "george-berkeley",
-      "category": "Idealism",
-      "weight": 0
-    },
-    {
-      "id": "TERM_immanuel-kant",
-      "label": "Immanuel Kant",
-      "slug": "immanuel-kant",
-      "category": "German Idealism",
-      "weight": 0
-    },
-    {
-      "id": "TERM_arthur-schopenhauer",
-      "label": "Arthur Schopenhauer",
-      "slug": "arthur-schopenhauer",
-      "category": "German Idealism",
-      "weight": 0
-    },
-    {
-      "id": "TERM_gwf-hegel",
-      "label": "G.W.F. Hegel",
-      "slug": "gwf-hegel",
-      "category": "German Idealism",
-      "weight": 0
-    },
-    {
-      "id": "TERM_friedrich-nietzsche",
-      "label": "Friedrich Nietzsche",
-      "slug": "friedrich-nietzsche",
-      "category": "Modern Philosophy",
-      "weight": 0
-    },
-    {
-      "id": "TERM_william-james",
-      "label": "William James",
-      "slug": "william-james",
-      "category": "Pragmatism",
-      "weight": 0
-    },
-    {
-      "id": "TERM_alfred-north-whitehead",
-      "label": "Alfred North Whitehead",
-      "slug": "alfred-north-whitehead",
-      "category": "Process Philosophy",
-      "weight": 0
-    },
-    {
-      "id": "TERM_henri-bergson",
-      "label": "Henri Bergson",
-      "slug": "henri-bergson",
-      "category": "Process Philosophy",
-      "weight": 0
-    },
-    {
-      "id": "TERM_carl-jung",
-      "label": "Carl Jung",
-      "slug": "carl-jung",
-      "category": "Depth Psychology",
-      "weight": 0
-    },
-    {
-      "id": "TERM_julian-jaynes",
-      "label": "Julian Jaynes",
-      "slug": "julian-jaynes",
-      "category": "Psychology",
-      "weight": 0
-    },
-    {
-      "id": "TERM_teilhard-de-chardin",
-      "label": "Teilhard de Chardin",
-      "slug": "teilhard-de-chardin",
-      "category": "Christian Theology",
-      "weight": 0
-    },
-    {
-      "id": "TERM_emanuel-swedenborg",
-      "label": "Emanuel Swedenborg",
-      "slug": "emanuel-swedenborg",
-      "category": "Christian Mysticism",
-      "weight": 0
-    },
-    {
-      "id": "TERM_arthur-koestler",
-      "label": "Arthur Koestler",
-      "slug": "arthur-koestler",
-      "category": "Science Writing",
-      "weight": 0
-    },
-    {
-      "id": "TERM_norbert-wiener",
-      "label": "Norbert Wiener",
-      "slug": "norbert-wiener",
-      "category": "Information Theory",
-      "weight": 0
-    },
-    {
-      "id": "TERM_claude-shannon",
-      "label": "Claude Shannon",
-      "slug": "claude-shannon",
-      "category": "Information Theory",
-      "weight": 0
-    },
-    {
-      "id": "TERM_erwin-schrodinger",
-      "label": "Erwin Schrodinger",
-      "slug": "erwin-schrodinger",
-      "category": "Physics",
-      "weight": 0
-    },
-    {
-      "id": "TERM_rudolf-otto",
-      "label": "Rudolf Otto",
-      "slug": "rudolf-otto",
-      "category": "Theology",
-      "weight": 0
-    },
-    {
-      "id": "TERM_adi-shankara",
-      "label": "Adi Shankara",
-      "slug": "adi-shankara",
-      "category": "Vedanta",
-      "weight": 0
-    },
-    {
-      "id": "TERM_vladimir-vernadsky",
-      "label": "Vladimir Vernadsky",
-      "slug": "vladimir-vernadsky",
-      "category": "Earth Science",
-      "weight": 0
-    },
-    {
-      "id": "TERM_the-empire-never-ended",
-      "label": "The Empire Never Ended",
-      "slug": "the-empire-never-ended",
-      "category": "PKD Visionary",
-      "weight": 0
-    },
-    {
-      "id": "TERM_2-3-74",
-      "label": "2-3-74",
-      "slug": "2-3-74",
-      "category": "PKD Visionary",
-      "weight": 0
-    },
-    {
-      "id": "TERM_pink-beam",
-      "label": "Pink Beam",
-      "slug": "pink-beam",
-      "category": "PKD Visionary",
-      "weight": 0
-    },
-    {
-      "id": "TERM_plasmate",
-      "label": "Plasmate",
-      "slug": "plasmate",
-      "category": "PKD Visionary",
-      "weight": 0
-    },
-    {
-      "id": "TERM_homoplasmate",
-      "label": "Homoplasmate",
-      "slug": "homoplasmate",
-      "category": "PKD Visionary",
-      "weight": 0
-    },
-    {
-      "id": "TERM_tractates-cryptica-scriptura",
-      "label": "Tractates Cryptica Scriptura",
-      "slug": "tractates-cryptica-scriptura",
-      "category": "PKD Visionary",
-      "weight": 0
-    },
-    {
-      "id": "TERM_orthogonal-time",
-      "label": "Orthogonal Time",
-      "slug": "orthogonal-time",
-      "category": "Time Metaphysics",
-      "weight": 0
-    },
-    {
-      "id": "TERM_living-information",
-      "label": "Living Information",
-      "slug": "living-information",
-      "category": "Information Metaphysics",
-      "weight": 0
-    },
-    {
-      "id": "TERM_the-palm-tree-garden",
-      "label": "The Palm Tree Garden",
-      "slug": "the-palm-tree-garden",
-      "category": "PKD Visionary",
-      "weight": 0
-    },
-    {
-      "id": "TERM_ai-voice",
-      "label": "AI Voice",
-      "slug": "ai-voice",
-      "category": "PKD Visionary",
-      "weight": 0
-    },
-    {
-      "id": "TERM_cosmic-teletype",
-      "label": "Cosmic Teletype",
-      "slug": "cosmic-teletype",
-      "category": "PKD Visionary",
-      "weight": 0
-    },
-    {
-      "id": "TERM_retrograde-time",
-      "label": "Retrograde Time",
-      "slug": "retrograde-time",
-      "category": "Time Metaphysics",
-      "weight": 0
-    },
-    {
-      "id": "TERM_demiurge",
-      "label": "Demiurge",
-      "slug": "demiurge",
-      "category": "Neoplatonism / Gnosticism",
-      "weight": 0
-    },
-    {
-      "id": "TERM_noosphere",
-      "label": "Noosphere",
-      "slug": "noosphere",
-      "category": "Information Metaphysics",
-      "weight": 0
-    },
-    {
-      "id": "TERM_microcosm-macrocosm",
-      "label": "Microcosm-Macrocosm",
-      "slug": "microcosm-macrocosm",
-      "category": "Hermeticism / Magic",
-      "weight": 0
-    },
-    {
-      "id": "TERM_inner-firmament",
-      "label": "Inner Firmament",
-      "slug": "inner-firmament",
-      "category": "Hermeticism / Magic",
-      "weight": 0
-    },
-    {
-      "id": "TERM_emanation",
-      "label": "Emanation",
-      "slug": "emanation",
-      "category": "Neoplatonism / Gnosticism",
-      "weight": 0
-    },
-    {
-      "id": "TERM_entelechy",
-      "label": "Entelechy",
-      "slug": "entelechy",
-      "category": "Process Philosophy",
-      "weight": 0
-    },
-    {
-      "id": "TERM_phenomenal-world",
-      "label": "Phenomenal World",
-      "slug": "phenomenal-world",
-      "category": "German Idealism",
-      "weight": 0
-    },
-    {
-      "id": "TERM_numinous",
-      "label": "Numinous",
-      "slug": "numinous",
-      "category": "Theology",
-      "weight": 0
-    },
-    {
-      "id": "TERM_advaita-vedanta",
-      "label": "Advaita Vedanta",
-      "slug": "advaita-vedanta",
-      "category": "Vedanta",
-      "weight": 0
-    },
-    {
-      "id": "TERM_bicameral-mind",
-      "label": "Bicameral Mind",
-      "slug": "bicameral-mind",
-      "category": "Psychology",
-      "weight": 0
-    },
-    {
-      "id": "TERM_simulation-theory",
-      "label": "Simulation Theory",
-      "slug": "simulation-theory",
-      "category": "Information Metaphysics",
-      "weight": 0
-    },
-    {
       "id": "TERM_gnosticism",
       "label": "Gnosticism",
       "slug": "gnosticism",
@@ -442,13 +92,6 @@
       "weight": 109
     },
     {
-      "id": "TERM_zebrapedia",
-      "label": "Zebrapedia",
-      "slug": "zebrapedia",
-      "category": "Top Term",
-      "weight": 108
-    },
-    {
       "id": "TERM_hegel",
       "label": "Hegel",
       "slug": "hegel",
@@ -484,6 +127,13 @@
       "weight": 50
     },
     {
+      "id": "TERM_pleroma",
+      "label": "Pleroma",
+      "slug": "pleroma",
+      "category": "Top Term",
+      "weight": 24
+    },
+    {
       "id": "TERM_christ",
       "label": "Christ",
       "slug": "christ",
@@ -517,20 +167,6 @@
       "slug": "ubik",
       "category": "Top Term",
       "weight": 1527
-    },
-    {
-      "id": "TERM_toso",
-      "label": "Toso",
-      "slug": "toso",
-      "category": "Top Term",
-      "weight": 1495
-    },
-    {
-      "id": "TERM_indexed",
-      "label": "Indexed",
-      "slug": "indexed",
-      "category": "Top Term",
-      "weight": 1140
     },
     {
       "id": "TERM_spirit",
@@ -953,13 +589,6 @@
       "weight": 170
     },
     {
-      "id": "TERM_harpax",
-      "label": "Harpax",
-      "slug": "harpax",
-      "category": "Top Term",
-      "weight": 168
-    },
-    {
       "id": "TERM_after",
       "label": "After",
       "slug": "after",
@@ -995,13 +624,6 @@
       "weight": 162
     },
     {
-      "id": "TERM_gabriel",
-      "label": "Gabriel",
-      "slug": "gabriel",
-      "category": "Top Term",
-      "weight": 159
-    },
-    {
       "id": "TERM_folder",
       "label": "Folder",
       "slug": "folder",
@@ -1014,20 +636,6 @@
       "slug": "paraclete",
       "category": "Top Term",
       "weight": 157
-    },
-    {
-      "id": "TERM_mckee",
-      "label": "Mckee",
-      "slug": "mckee",
-      "category": "Top Term",
-      "weight": 155
-    },
-    {
-      "id": "TERM_gabriel-mckee",
-      "label": "Gabriel Mckee",
-      "slug": "gabriel-mckee",
-      "category": "Top Term",
-      "weight": 154
     },
     {
       "id": "TERM_faith",
@@ -1863,13 +1471,6 @@
       "weight": 60
     },
     {
-      "id": "TERM_indexed-folder",
-      "label": "Indexed\nFolder",
-      "slug": "indexed-folder",
-      "category": "Top Term",
-      "weight": 60
-    },
-    {
       "id": "TERM_essene",
       "label": "Essene",
       "slug": "essene",
@@ -2169,58 +1770,409 @@
       "slug": "hans-jonas",
       "category": "Top Term",
       "weight": 11
+    },
+    {
+      "id": "TERM_st-paul",
+      "label": "St. Paul",
+      "slug": "st-paul",
+      "category": "Christian Theology",
+      "weight": 0
+    },
+    {
+      "id": "TERM_origen",
+      "label": "Origen",
+      "slug": "origen",
+      "category": "Christian Theology",
+      "weight": 0
+    },
+    {
+      "id": "TERM_thomas-aquinas",
+      "label": "Thomas Aquinas",
+      "slug": "thomas-aquinas",
+      "category": "Christian Theology",
+      "weight": 0
+    },
+    {
+      "id": "TERM_meister-eckhart",
+      "label": "Meister Eckhart",
+      "slug": "meister-eckhart",
+      "category": "Christian Mysticism",
+      "weight": 0
+    },
+    {
+      "id": "TERM_giordano-bruno",
+      "label": "Giordano Bruno",
+      "slug": "giordano-bruno",
+      "category": "Hermeticism / Magic",
+      "weight": 0
+    },
+    {
+      "id": "TERM_baruch-spinoza",
+      "label": "Baruch Spinoza",
+      "slug": "baruch-spinoza",
+      "category": "Early Modern Philosophy",
+      "weight": 0
+    },
+    {
+      "id": "TERM_gottfried-wilhelm-leibniz",
+      "label": "Gottfried Wilhelm Leibniz",
+      "slug": "gottfried-wilhelm-leibniz",
+      "category": "Early Modern Philosophy",
+      "weight": 0
+    },
+    {
+      "id": "TERM_george-berkeley",
+      "label": "George Berkeley",
+      "slug": "george-berkeley",
+      "category": "Idealism",
+      "weight": 0
+    },
+    {
+      "id": "TERM_immanuel-kant",
+      "label": "Immanuel Kant",
+      "slug": "immanuel-kant",
+      "category": "German Idealism",
+      "weight": 0
+    },
+    {
+      "id": "TERM_arthur-schopenhauer",
+      "label": "Arthur Schopenhauer",
+      "slug": "arthur-schopenhauer",
+      "category": "German Idealism",
+      "weight": 0
+    },
+    {
+      "id": "TERM_gwf-hegel",
+      "label": "G.W.F. Hegel",
+      "slug": "gwf-hegel",
+      "category": "German Idealism",
+      "weight": 0
+    },
+    {
+      "id": "TERM_friedrich-nietzsche",
+      "label": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "category": "Modern Philosophy",
+      "weight": 0
+    },
+    {
+      "id": "TERM_william-james",
+      "label": "William James",
+      "slug": "william-james",
+      "category": "Pragmatism",
+      "weight": 0
+    },
+    {
+      "id": "TERM_alfred-north-whitehead",
+      "label": "Alfred North Whitehead",
+      "slug": "alfred-north-whitehead",
+      "category": "Process Philosophy",
+      "weight": 0
+    },
+    {
+      "id": "TERM_henri-bergson",
+      "label": "Henri Bergson",
+      "slug": "henri-bergson",
+      "category": "Process Philosophy",
+      "weight": 0
+    },
+    {
+      "id": "TERM_carl-jung",
+      "label": "Carl Jung",
+      "slug": "carl-jung",
+      "category": "Depth Psychology",
+      "weight": 0
+    },
+    {
+      "id": "TERM_julian-jaynes",
+      "label": "Julian Jaynes",
+      "slug": "julian-jaynes",
+      "category": "Psychology",
+      "weight": 0
+    },
+    {
+      "id": "TERM_teilhard-de-chardin",
+      "label": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "category": "Christian Theology",
+      "weight": 0
+    },
+    {
+      "id": "TERM_emanuel-swedenborg",
+      "label": "Emanuel Swedenborg",
+      "slug": "emanuel-swedenborg",
+      "category": "Christian Mysticism",
+      "weight": 0
+    },
+    {
+      "id": "TERM_arthur-koestler",
+      "label": "Arthur Koestler",
+      "slug": "arthur-koestler",
+      "category": "Science Writing",
+      "weight": 0
+    },
+    {
+      "id": "TERM_norbert-wiener",
+      "label": "Norbert Wiener",
+      "slug": "norbert-wiener",
+      "category": "Information Theory",
+      "weight": 0
+    },
+    {
+      "id": "TERM_claude-shannon",
+      "label": "Claude Shannon",
+      "slug": "claude-shannon",
+      "category": "Information Theory",
+      "weight": 0
+    },
+    {
+      "id": "TERM_erwin-schrodinger",
+      "label": "Erwin Schrodinger",
+      "slug": "erwin-schrodinger",
+      "category": "Physics",
+      "weight": 0
+    },
+    {
+      "id": "TERM_rudolf-otto",
+      "label": "Rudolf Otto",
+      "slug": "rudolf-otto",
+      "category": "Theology",
+      "weight": 0
+    },
+    {
+      "id": "TERM_adi-shankara",
+      "label": "Adi Shankara",
+      "slug": "adi-shankara",
+      "category": "Vedanta",
+      "weight": 0
+    },
+    {
+      "id": "TERM_vladimir-vernadsky",
+      "label": "Vladimir Vernadsky",
+      "slug": "vladimir-vernadsky",
+      "category": "Earth Science",
+      "weight": 0
+    },
+    {
+      "id": "TERM_the-empire-never-ended",
+      "label": "The Empire Never Ended",
+      "slug": "the-empire-never-ended",
+      "category": "PKD Visionary",
+      "weight": 0
+    },
+    {
+      "id": "TERM_2-3-74",
+      "label": "2-3-74",
+      "slug": "2-3-74",
+      "category": "PKD Visionary",
+      "weight": 0
+    },
+    {
+      "id": "TERM_pink-beam",
+      "label": "Pink Beam",
+      "slug": "pink-beam",
+      "category": "PKD Visionary",
+      "weight": 0
+    },
+    {
+      "id": "TERM_plasmate",
+      "label": "Plasmate",
+      "slug": "plasmate",
+      "category": "PKD Visionary",
+      "weight": 0
+    },
+    {
+      "id": "TERM_homoplasmate",
+      "label": "Homoplasmate",
+      "slug": "homoplasmate",
+      "category": "PKD Visionary",
+      "weight": 0
+    },
+    {
+      "id": "TERM_tractates-cryptica-scriptura",
+      "label": "Tractates Cryptica Scriptura",
+      "slug": "tractates-cryptica-scriptura",
+      "category": "PKD Visionary",
+      "weight": 0
+    },
+    {
+      "id": "TERM_orthogonal-time",
+      "label": "Orthogonal Time",
+      "slug": "orthogonal-time",
+      "category": "Time Metaphysics",
+      "weight": 0
+    },
+    {
+      "id": "TERM_living-information",
+      "label": "Living Information",
+      "slug": "living-information",
+      "category": "Information Metaphysics",
+      "weight": 0
+    },
+    {
+      "id": "TERM_the-palm-tree-garden",
+      "label": "The Palm Tree Garden",
+      "slug": "the-palm-tree-garden",
+      "category": "PKD Visionary",
+      "weight": 0
+    },
+    {
+      "id": "TERM_ai-voice",
+      "label": "AI Voice",
+      "slug": "ai-voice",
+      "category": "PKD Visionary",
+      "weight": 0
+    },
+    {
+      "id": "TERM_cosmic-teletype",
+      "label": "Cosmic Teletype",
+      "slug": "cosmic-teletype",
+      "category": "PKD Visionary",
+      "weight": 0
+    },
+    {
+      "id": "TERM_retrograde-time",
+      "label": "Retrograde Time",
+      "slug": "retrograde-time",
+      "category": "Time Metaphysics",
+      "weight": 0
+    },
+    {
+      "id": "TERM_demiurge",
+      "label": "Demiurge",
+      "slug": "demiurge",
+      "category": "Neoplatonism / Gnosticism",
+      "weight": 0
+    },
+    {
+      "id": "TERM_noosphere",
+      "label": "Noosphere",
+      "slug": "noosphere",
+      "category": "Information Metaphysics",
+      "weight": 0
+    },
+    {
+      "id": "TERM_microcosm-macrocosm",
+      "label": "Microcosm-Macrocosm",
+      "slug": "microcosm-macrocosm",
+      "category": "Hermeticism / Magic",
+      "weight": 0
+    },
+    {
+      "id": "TERM_inner-firmament",
+      "label": "Inner Firmament",
+      "slug": "inner-firmament",
+      "category": "Hermeticism / Magic",
+      "weight": 0
+    },
+    {
+      "id": "TERM_emanation",
+      "label": "Emanation",
+      "slug": "emanation",
+      "category": "Neoplatonism / Gnosticism",
+      "weight": 0
+    },
+    {
+      "id": "TERM_entelechy",
+      "label": "Entelechy",
+      "slug": "entelechy",
+      "category": "Process Philosophy",
+      "weight": 0
+    },
+    {
+      "id": "TERM_phenomenal-world",
+      "label": "Phenomenal World",
+      "slug": "phenomenal-world",
+      "category": "German Idealism",
+      "weight": 0
+    },
+    {
+      "id": "TERM_numinous",
+      "label": "Numinous",
+      "slug": "numinous",
+      "category": "Theology",
+      "weight": 0
+    },
+    {
+      "id": "TERM_advaita-vedanta",
+      "label": "Advaita Vedanta",
+      "slug": "advaita-vedanta",
+      "category": "Vedanta",
+      "weight": 0
+    },
+    {
+      "id": "TERM_bicameral-mind",
+      "label": "Bicameral Mind",
+      "slug": "bicameral-mind",
+      "category": "Psychology",
+      "weight": 0
+    },
+    {
+      "id": "TERM_simulation-theory",
+      "label": "Simulation Theory",
+      "slug": "simulation-theory",
+      "category": "Information Metaphysics",
+      "weight": 0
+    },
+    {
+      "id": "TERM_zebrapedia",
+      "label": "Zebrapedia",
+      "slug": "zebrapedia",
+      "category": "Top Term",
+      "weight": 108
+    },
+    {
+      "id": "TERM_toso",
+      "label": "Toso",
+      "slug": "toso",
+      "category": "Top Term",
+      "weight": 1495
+    },
+    {
+      "id": "TERM_indexed",
+      "label": "Indexed",
+      "slug": "indexed",
+      "category": "Top Term",
+      "weight": 1140
+    },
+    {
+      "id": "TERM_harpax",
+      "label": "Harpax",
+      "slug": "harpax",
+      "category": "Top Term",
+      "weight": 168
+    },
+    {
+      "id": "TERM_gabriel",
+      "label": "Gabriel",
+      "slug": "gabriel",
+      "category": "Top Term",
+      "weight": 159
+    },
+    {
+      "id": "TERM_mckee",
+      "label": "Mckee",
+      "slug": "mckee",
+      "category": "Top Term",
+      "weight": 155
+    },
+    {
+      "id": "TERM_gabriel-mckee",
+      "label": "Gabriel Mckee",
+      "slug": "gabriel-mckee",
+      "category": "Top Term",
+      "weight": 154
+    },
+    {
+      "id": "TERM_indexed-folder",
+      "label": "Indexed\nFolder",
+      "slug": "indexed-folder",
+      "category": "Top Term",
+      "weight": 60
     }
   ],
   "edges": [
     {
-      "source": "TERM_pleroma",
-      "target": "TERM_acts",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_pleroma",
-      "target": "TERM_advent",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_pleroma",
-      "target": "TERM_anamnesis",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_pleroma",
-      "target": "TERM_because",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_pleroma",
-      "target": "TERM_bible",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_pleroma",
-      "target": "TERM_brahman",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_pleroma",
-      "target": "TERM_christ",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_pleroma",
-      "target": "TERM_christian",
-      "relation": "related",
-      "weight": null
-    },
-    {
       "source": "TERM_gnosticism",
       "target": "TERM_acts",
       "relation": "related",
@@ -2791,54 +2743,6 @@
       "weight": null
     },
     {
-      "source": "TERM_zebrapedia",
-      "target": "TERM_advent",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_zebrapedia",
-      "target": "TERM_anamnesis",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_zebrapedia",
-      "target": "TERM_because",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_zebrapedia",
-      "target": "TERM_bible",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_zebrapedia",
-      "target": "TERM_christ",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_zebrapedia",
-      "target": "TERM_christian",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_zebrapedia",
-      "target": "TERM_christianity",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_zebrapedia",
-      "target": "TERM_complete",
-      "relation": "related",
-      "weight": null
-    },
-    {
       "source": "TERM_hegel",
       "target": "TERM_acts",
       "relation": "related",
@@ -3069,6 +2973,54 @@
     {
       "source": "TERM_phil",
       "target": "TERM_complete",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_pleroma",
+      "target": "TERM_acts",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_pleroma",
+      "target": "TERM_advent",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_pleroma",
+      "target": "TERM_anamnesis",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_pleroma",
+      "target": "TERM_because",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_pleroma",
+      "target": "TERM_bible",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_pleroma",
+      "target": "TERM_brahman",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_pleroma",
+      "target": "TERM_christ",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_pleroma",
+      "target": "TERM_christian",
       "relation": "related",
       "weight": null
     },
@@ -6123,36 +6075,6 @@
     {
       "source": "TERM_platonist",
       "target": "TERM_christianity",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_harpax",
-      "target": "TERM_after",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_harpax",
-      "target": "TERM_again",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_harpax",
-      "target": "TERM_although",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_harpax",
-      "target": "TERM_anamnesis",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_harpax",
-      "target": "TERM_another",
       "relation": "related",
       "weight": null
     },
@@ -6325,36 +6247,6 @@
       "weight": null
     },
     {
-      "source": "TERM_gabriel",
-      "target": "TERM_advent",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_gabriel",
-      "target": "TERM_after",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_gabriel",
-      "target": "TERM_again",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_gabriel",
-      "target": "TERM_although",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_gabriel",
-      "target": "TERM_anamnesis",
-      "relation": "related",
-      "weight": null
-    },
-    {
       "source": "TERM_paraclete",
       "target": "TERM_acts",
       "relation": "related",
@@ -6387,66 +6279,6 @@
     {
       "source": "TERM_paraclete",
       "target": "TERM_although",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_mckee",
-      "target": "TERM_after",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_mckee",
-      "target": "TERM_again",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_mckee",
-      "target": "TERM_although",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_mckee",
-      "target": "TERM_anamnesis",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_mckee",
-      "target": "TERM_another",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_gabriel-mckee",
-      "target": "TERM_after",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_gabriel-mckee",
-      "target": "TERM_again",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_gabriel-mckee",
-      "target": "TERM_although",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_gabriel-mckee",
-      "target": "TERM_anamnesis",
-      "relation": "related",
-      "weight": null
-    },
-    {
-      "source": "TERM_gabriel-mckee",
-      "target": "TERM_another",
       "relation": "related",
       "weight": null
     },
@@ -11769,6 +11601,174 @@
     {
       "source": "TERM_sein",
       "target": "TERM_apollo",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_zebrapedia",
+      "target": "TERM_advent",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_zebrapedia",
+      "target": "TERM_anamnesis",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_zebrapedia",
+      "target": "TERM_because",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_zebrapedia",
+      "target": "TERM_bible",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_zebrapedia",
+      "target": "TERM_christ",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_zebrapedia",
+      "target": "TERM_christian",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_zebrapedia",
+      "target": "TERM_christianity",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_zebrapedia",
+      "target": "TERM_complete",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_harpax",
+      "target": "TERM_after",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_harpax",
+      "target": "TERM_again",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_harpax",
+      "target": "TERM_although",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_harpax",
+      "target": "TERM_anamnesis",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_harpax",
+      "target": "TERM_another",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_gabriel",
+      "target": "TERM_advent",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_gabriel",
+      "target": "TERM_after",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_gabriel",
+      "target": "TERM_again",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_gabriel",
+      "target": "TERM_although",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_gabriel",
+      "target": "TERM_anamnesis",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_mckee",
+      "target": "TERM_after",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_mckee",
+      "target": "TERM_again",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_mckee",
+      "target": "TERM_although",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_mckee",
+      "target": "TERM_anamnesis",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_mckee",
+      "target": "TERM_another",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_gabriel-mckee",
+      "target": "TERM_after",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_gabriel-mckee",
+      "target": "TERM_again",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_gabriel-mckee",
+      "target": "TERM_although",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_gabriel-mckee",
+      "target": "TERM_anamnesis",
+      "relation": "related",
+      "weight": null
+    },
+    {
+      "source": "TERM_gabriel-mckee",
+      "target": "TERM_another",
       "relation": "related",
       "weight": null
     }

@@ -1,0 +1,168 @@
+{
+  "name_id": "NAME_sergeant-kelly",
+  "canonical_form": "Sergeant Kelly",
+  "slug": "sergeant-kelly",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Sergeant Kelly is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 8 Exegesis passages. Context: \"Dick identifies the \"Miracle of Transubstantiation\" as the mechanism by which God sanctifies and replaces ordinary reality (\"trash of the alley\").\"",
+  "full_description": null,
+  "mention_count": 8,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_14",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Sergeant Kelly",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Miracle of Transubstantiation\" as the mechanism by which God sanctifies and replaces ordinary reality (\"trash of the alley\"). He concludes that his experiences of the \"Logos\" were",
+      "title": "U_Claudia_14.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_28",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Sergeant Kelly",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"Lived Myth\" (Joseph Campbell) and \"Ma'at\" (Right Order) as keys to his 1974 experience. He identifies the \"Xerox Letter\" as a ritual repudiation of materialism and a transformation ",
+      "title": "U_Claudia_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Sergeant Kelly",
+      "date_display": "September 15, 1976",
+      "summary": "Dick performs a clinical meta-analysis of his own \"psychosis,\" suggesting that 3-74 was a \"biological adaptative system\" where religious archetypes (Brahman/Christ) acted as a \"metabolic toxin\" that d",
+      "title": "1976-09-15_Dorothy_47.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_55",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Sergeant Kelly",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that salvation requires a \"sui generis\" act of individual refusal that identifies the \"divine spark\" within a person to the celestial powers. He views'74 as a general \"time quake\" or \"orth",
+      "title": "1976-09-15_Dorothy_55.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_32",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Sergeant Kelly",
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that 3-74 was an \"expansion of the present slot\" via \"perceptual memory,\" allowing him to see 2000 years of change in months. He identifies the \"constants\" that emerged from this accele",
+      "title": "1976-09-15_Dorothy_32.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_60",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Sergeant Kelly",
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues his meta-analysis of \"victimhood,\" suggesting that by serving as \"bait,\" the victim forces evil to unmask itself for God's judgment. He explores the \"orthogonal\" convergence of his nove",
+      "title": "1976-09-15_Dorothy_60.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_03",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Sergeant Kelly",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"genealogical table\" of the Second Incarnation (St. Sophia). He reacts to a news report about Soviet microwave weapons causing \"words in the head,\" initially fearing 3-74 was a telep",
+      "title": "1976-09-15_Dorothy_03.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Sergeant Kelly",
+      "date_display": "September 15, 1976",
+      "summary": "Dick embraces the \"Impostor\" theme of his fiction, theorizing that he is a \"linked extension\" (a programmed \"sleeper\") for a benign, non-human \"Mantis\" race. He sees reality as an \"orthogonal metamorp",
+      "title": "1976-09-15_Dorothy_49.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Carl Jung",
+      "slug": "carl-jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Daniel",
+      "slug": "daniel",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

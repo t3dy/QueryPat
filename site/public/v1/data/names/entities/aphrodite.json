@@ -1,0 +1,75 @@
+{
+  "name_id": "NAME_aphrodite",
+  "canonical_form": "Aphrodite",
+  "slug": "aphrodite",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Aphrodite is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 3 Exegesis passages. Context: \"Dick explores the \"genealogical table\" of the Second Incarnation (St.\"",
+  "full_description": null,
+  "mention_count": 3,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_03",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Aphrodite",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"genealogical table\" of the Second Incarnation (St. Sophia). He reacts to a news report about Soviet microwave weapons causing \"words in the head,\" initially fearing 3-74 was a telep",
+      "title": "1976-09-15_Dorothy_03.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_23",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Aphrodite",
+      "date_display": "September 15, 1976",
+      "summary": "Dick integrates his ETI theory, suggesting that humans are \"escaped prisoners\" from another star system (Albemuth) who are hiding on Earth behind a \"veil\" (Maya). He posits that the Nixon gang and oth",
+      "title": "1976-09-15_Dorothy_23.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_133",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Aphrodite",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the relationship between man and the sentient \"Mind\" of the universe (Zebra/Hagia Sophia). He posits that we are moving from being unconscious \"servants\" of the teacher-deity (Zebra) to ",
+      "title": "1976-09-15_Dorothy_133.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

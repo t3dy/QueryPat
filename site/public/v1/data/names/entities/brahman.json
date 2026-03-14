@@ -1,0 +1,111 @@
+{
+  "name_id": "NAME_brahman",
+  "canonical_form": "Brahman",
+  "slug": "brahman",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Brahman is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 5 Exegesis passages. Associated with dictionary terms: Brahman. Context: \"Dick proposes a \"3-level\" model of reality: (1) The Logos/Bible as a \"punched tape\" of ideas, (2) The World of Flesh/Nature, and (3) The Artificial/Technological World.\"",
+  "full_description": null,
+  "mention_count": 5,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_59",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brahman",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a \"3-level\" model of reality: (1) The Logos/Bible as a \"punched tape\" of ideas, (2) The World of Flesh/Nature, and (3) The Artificial/Technological World. He argues that our world (3) is",
+      "title": "1976-09-15_Dorothy_59.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_28",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brahman",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his dualistic model using Taoist terms (Yang/Yin) and identifies Zebra with the \"gentle\" female aspect of the divine (Sophia). He argues that 3-74 was not just a personal experience but a",
+      "title": "1976-09-15_Dorothy_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_39",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brahman",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes that God (Brahman) is \"waking up\" inside us and that our lives are a \"voluntary bardo\" or \"incarnated amnesia\" where God shared the fate of the \"little creatures.\" To remember one's iden",
+      "title": "1976-09-15_Dorothy_39.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_57",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brahman",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies \"salvation\" as the abolition of linear time, merging Gnostic Christianity with Brahmanism. He argues that by \"withdrawing assent\" from the phenomenal world, one can pass into a timeles",
+      "title": "1976-09-15_Dorothy_57.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_09",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brahman",
+      "date_display": "September 15, 1976",
+      "summary": "Dick fully embraces a Hindu framework, identifying the world as \"Maya\" (wizardry/illusion) and his 3-74 experience as the death of the \"empirical ego\" leading to \"enlightenment\" (Liberation). He equat",
+      "title": "1976-09-15_Dorothy_09.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Brahman",
+      "slug": "brahman",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Daniel",
+      "slug": "daniel",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

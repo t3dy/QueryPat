@@ -12,7 +12,7 @@ interface Analytics {
     timeline_events: number
   }
   top_terms: { name: string; count: number; category: string }[]
-  segments_per_year: { year: string; count: number }[]
+  segments_per_year: { year: string; count: number; bio_events?: number; has_content?: boolean }[]
 }
 
 export default function Dashboard() {
@@ -69,16 +69,48 @@ export default function Dashboard() {
 
         <div className="detail-section">
           <h2>Browse by Year</h2>
-          <ul>
-            {data.segments_per_year.map(y => (
-              <li key={y.year}>
-                <Link to={`/timeline/${y.year}`}>{y.year}</Link>
-                <span style={{color:'var(--text-muted)', marginLeft:'0.5rem'}}>
-                  ({y.count} entries)
-                </span>
-              </li>
-            ))}
-          </ul>
+          <p style={{color:'var(--text-muted)', fontSize:'0.85rem', margin:'0.25rem 0 0.75rem'}}>
+            Philip K. Dick (1928&ndash;1982)
+          </p>
+          {(() => {
+            const decades = new Map<string, typeof data.segments_per_year>()
+            for (const y of data.segments_per_year) {
+              const dec = y.year.slice(0, 3) + '0s'
+              if (!decades.has(dec)) decades.set(dec, [])
+              decades.get(dec)!.push(y)
+            }
+            return Array.from(decades.entries()).map(([dec, years]) => (
+              <div key={dec} style={{marginBottom:'0.75rem'}}>
+                <div style={{fontWeight:600, fontSize:'0.85rem', color:'var(--text-muted)', marginBottom:'0.25rem'}}>{dec}</div>
+                <div style={{display:'flex', flexWrap:'wrap', gap:'0.25rem'}}>
+                  {years.map(y => {
+                    const total = y.count + (y.bio_events || 0)
+                    const hasContent = y.has_content || total > 0
+                    return (
+                      <Link
+                        key={y.year}
+                        to={hasContent ? `/timeline/${y.year}` : '#'}
+                        style={{
+                          display:'inline-block',
+                          padding:'0.2rem 0.45rem',
+                          fontSize:'0.8rem',
+                          borderRadius:'4px',
+                          textDecoration:'none',
+                          background: y.count > 100 ? 'var(--accent)' : y.count > 0 ? 'var(--accent-muted, rgba(var(--accent-rgb, 100,100,200), 0.2))' : hasContent ? 'var(--bg-elevated, #f0f0f0)' : 'transparent',
+                          color: y.count > 100 ? '#fff' : hasContent ? 'var(--text)' : 'var(--text-muted)',
+                          opacity: hasContent ? 1 : 0.4,
+                          cursor: hasContent ? 'pointer' : 'default',
+                        }}
+                        title={`${y.year}: ${y.count} Exegesis entries${y.bio_events ? `, ${y.bio_events} biography events` : ''}`}
+                      >
+                        {y.year.slice(2)}
+                      </Link>
+                    )
+                  })}
+                </div>
+              </div>
+            ))
+          })()}
         </div>
       </div>
     </>

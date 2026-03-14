@@ -1,0 +1,468 @@
+{
+  "name_id": "NAME_richard-nixon",
+  "canonical_form": "Richard Nixon",
+  "slug": "richard-nixon",
+  "entity_type": "character",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Richard Nixon is a fictional character referenced in Philip K. Dick's Exegesis. Appears in 34 Exegesis passages. Context: \"Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death.\"",
+  "full_description": null,
+  "mention_count": 34,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "February 27, 1975",
+      "summary": "Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death. He connects this act to broader cosmological ideas from Empedocles about the necessity of strif",
+      "title": "1975-02-27_Claudia_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_12",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick proposes a \"Brain Colony\" or \"Grain Brain\" model of the universe, where individual humans are interconnected cells in a vast compound eye of the Immanent Mind. He explores the \"male womb\" of Zeus",
+      "title": "U_Claudia_12.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-12_Dorothy_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 12, 1976",
+      "summary": "Dick writes to Dorothy summarizing his 3-74 experience (the \"conversion year\"). He introduces the term \"VALIS\" (Vast Active Living Intelligence System), details his role in toppling Nixon through lett",
+      "title": "1976-09-12_Dorothy_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_36",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick discovers that his 3-74 vision \"confirms\" Hegel's philosophy of history: that God (Spirit) develops himself toward perfection through the dialectical growth of human freedom. He redefines himself",
+      "title": "1976-09-15_Dorothy_36.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick performs a clinical meta-analysis of his own \"psychosis,\" suggesting that 3-74 was a \"biological adaptative system\" where religious archetypes (Brahman/Christ) acted as a \"metabolic toxin\" that d",
+      "title": "1976-09-15_Dorothy_47.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_91",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that Man and God are \"secretly isomorphic\" (identical in form and nature), while the world is a separate, alienating agency. He views his 3-74 experience as the realization of this iden",
+      "title": "1976-09-15_Dorothy_91.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_69",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues analyzing the \"reweaving\" of reality in 3-74, suggesting it was part of a global \"extrication\" from the Black Iron Prison. He discusses the \"personality switch\" from PKD to Thomas and t",
+      "title": "1976-09-15_Dorothy_69.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_98",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Annihilating Side\" of Zebra, equating the entity with Shiva and his 3rd eye. He argues that Zebra is not just healing individuals but \"transubstantiating\" the entire universe, repla",
+      "title": "1976-09-15_Dorothy_98.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_22",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical \"mundane\" theory: that he was \"occupied\" by a secret Christian Soviet doctor (or defected KGB operator) who used his brain to flee the \"Gulag\" (Black Iron Prison). He also refi",
+      "title": "1976-09-15_Dorothy_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_58",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick embraces a Zoroastrian/Essene dualism where he is a \"warrior of light\" or \"infiltrator-agent\" from the supralunar world. He views his novels as a \"disinhibiting signal\" and argues that God must r",
+      "title": "1976-09-15_Dorothy_58.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_54",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that 3-74 was a \"theolepsy\" (divine possession) where St. Sophia \"avatared\" herself through him to prepare the world for the Parousia. He interprets the fall of the \"Tyrant\" (Nixon) as ",
+      "title": "1976-09-15_Dorothy_54.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_65",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes his \"Orthogonal Time\" theory using the \"Wealthy Patron\" and \"Symphony\" metaphors. He argues that history is a \"linear strip\" that can be \"reworked\" or \"improved\" at a specific nexus po",
+      "title": "1976-09-15_Dorothy_65.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_48",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Elijah\" role in his 3-74 experience, seeing himself as a forerunner to the Parousia who \"heals\" the world's timeline. He also introduces a radical \"Anti-Matter Universe\" theory for ",
+      "title": "1976-09-15_Dorothy_48.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_34",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"DNA Memory\" theory after speaking with a researcher (Barry), suggesting that his 3-74 experience was the \"disinhibition\" of an 1800-year-old Christian personality (\"Thomas\") to solv",
+      "title": "1976-09-15_Dorothy_34.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_63",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself as a member of a \"secret, authentic Christian church\" that has been in an illegal revolution against \"Rome\" (the hidden victor of history) since 70 AD. He claims his writing wa",
+      "title": "1976-09-15_Dorothy_63.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_06",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes investigative journalism (*Playboy*, *Rolling Stone*) to conclude that Nixon was a mere \"puppet\" of a larger technocratic/financial conglomerate. He argues that only a divine force (t",
+      "title": "1976-09-15_Dorothy_06.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_08",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick reveals a \"steganographic\" reading of his own work, specifically the \"Felix\" message hidden within *Flow My Tears*. He argues that the Parousia required a \"topological superimposition\" (Rome Two)",
+      "title": "1976-09-15_Dorothy_08.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_33",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his \"Signal Chamber\" theory, arguing that God (via Grace) \"overrode\" his pre-programmed deterministic response to the Xerox letter. He sees 3-74 as a breakdown in \"synchronization\" that r",
+      "title": "1976-09-15_Dorothy_33.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_92",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical new theory: \"Valis\" and \"Thomas\" are not external gods or ancient people, but PKD's own \"future evolved self\" traveling backward in time via the gene-pool. This \"Omega Man\" int",
+      "title": "1976-09-15_Dorothy_92.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_15",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes that God is \"reweaving\" history backward from the Omega Point to improve the human lot. He defines the \"Black Iron Prison\" (BIP) as the original, un-intervened track (Alpha/Hell) and the",
+      "title": "1976-09-15_Dorothy_15.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_56",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "In one of his most affecting claims, Dick identifies his deceased cat, Pinky, as a \"surrogate sacrifice\" and manifestation of Zebra who took the \"blow\" (death) intended for Dick in 3-74. He explores t",
+      "title": "1976-09-15_Dorothy_56.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_35",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets his 3-74 experience through the lens of the Book of Daniel, identifying Richard Nixon with the \"harsh and grim king\" (the Master of Stratagems) whose \"Iron Empire\" (BIP) was broken by ",
+      "title": "1976-09-15_Dorothy_35.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_26",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the idea that 3-74 was an \"override\" of his regular social/political programming. He theorizes that he was \"switched\" from an alternate track (Black Iron Prison/Soviet agent) to a new on",
+      "title": "1976-09-15_Dorothy_26.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_74",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies a startling 1:1 correspondence between his 1967 story \"Faith of Our Fathers\" and his 3-74 experiences. He concludes that the Xerox letter was a \"phony test/trap\" (using \"party jargon\")",
+      "title": "1976-09-15_Dorothy_74.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_99",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets the \"Parousia\" as a \"Benign Covert Takeover\" of the planet by a superior intelligence race (Gods/ETIs). He concludes that we are a \"5th Column\" whose latent DNA circuits have finally b",
+      "title": "1976-09-15_Dorothy_99.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_95",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself as a \"5th Columnist\" (secret agent) for an \"invader\" from either the future or another star system. He refines the \"Thomas\" personality as a \"Transtemporal Self\" that spans tho",
+      "title": "1976-09-15_Dorothy_95.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_55",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that salvation requires a \"sui generis\" act of individual refusal that identifies the \"divine spark\" within a person to the celestial powers. He views'74 as a general \"time quake\" or \"orth",
+      "title": "1976-09-15_Dorothy_55.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_51",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick realizes that his 1959 novel *Time Out of Joint* was a prophetic \"reversal\" of his 3-74 experience. While the novel depicts a fake 1950s that is actually the future, 3-74 revealed a fake 1974 tha",
+      "title": "1976-09-15_Dorothy_51.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_44",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick reconciles his dualistic visions (J-J vs. Zebra) with Hegelian monism, arguing that the \"Incarnation\" (Christ/Zebra) is the fusion of the finite and infinite that abolishes the \"sundering\" of wor",
+      "title": "1976-09-15_Dorothy_44.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_41",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his experience with Hegel's third stage of religion (Absolute Spirit), arguing that evolution has moved from the biological to the historical. He predicts the emergence of a \"new type ",
+      "title": "1976-09-15_Dorothy_41.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_62",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a staggering \"solution\" to his experiences: it is actually still ~90 AD, and the last 2000 years of history is a \"lie\" or \"delusion\" generated by Satan/the Empire to break human faith. H",
+      "title": "1976-09-15_Dorothy_62.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_87",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets the transition from the beginning of Acts (small church) to the end (Rome penetrated) as a roadmap for the 3-74 revolution. He identifies our reality as a \"hologram-like fake\" (Klingso",
+      "title": "1976-09-15_Dorothy_87.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_52",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself as the \"prisoner\" archetype from his own novels (*Frolix 8*, *Tears*, *Maze of Death*), arguing that his personal rescue in 3-74 was part of a necessary \"printout\" of the divin",
+      "title": "1976-09-15_Dorothy_52.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_97",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Richard Nixon",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his writing as a sequence of \"Gnostic signals\" to other amnesiac \"invaders.\" He interprets the fall of Nixon (1974) as the mythic/archetypal \"deposing of the false king\" (Klingsor's Ca",
+      "title": "1976-09-15_Dorothy_97.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Aristotle",
+      "slug": "aristotle",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Beethoven",
+      "slug": "beethoven",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Shiva",
+      "slug": "shiva",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Carl Jung",
+      "slug": "carl-jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Chrissy",
+      "slug": "chrissy",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Valis",
+      "slug": "valis",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zeus",
+      "slug": "zeus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Daniel",
+      "slug": "daniel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

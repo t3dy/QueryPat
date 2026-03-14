@@ -1,0 +1,515 @@
+{
+  "seg_id": "SEG_EXEG_1975-03-05_Ursula_02",
+  "doc_id": "DOC_EXEG_SECTION_005",
+  "slug": "1975-03-05-ursula-02",
+  "title": "1975-03-05_Ursula_02.txt",
+  "position": 2,
+  "date_start": "1975-03-05",
+  "date_end": "1975-03-05",
+  "date_display": "March 5, 1975",
+  "date_confidence": "exact",
+  "date_basis": "chunk_manifest",
+  "concise_summary": "Continuation and conclusion of the letter to Le Guin. Dick iterates on the literal nature of St. Paul's harvest parables, linking the end of linear \"Winter\" to his dream of Bach's Cantata 4.",
+  "key_claims": [
+    "St. Paul's parables of the \"first fruits of the harvest\" were meant literally.",
+    "The command to \"Wake up!\" is being issued through dreams (the \"Active Dreamer\").",
+    "The \"Bonds of death\" (Cantata 4) are relaxing as the Christos/Dionysos awakens the human seed."
+  ],
+  "recurring_concepts": [
+    "First Fruits / Harvest",
+    "Active Dreamer",
+    "Linear vs. Orthogonal Time",
+    "Die Stunde ist da! (The hour is here)"
+  ],
+  "people_entities": [
+    "Ursula K. Le Guin (Recipient)",
+    "St. Paul",
+    "Christos",
+    "J.S. Bach"
+  ],
+  "texts_works": [
+    "Cantata 4 (\"Christ lag in Todesbanden\")",
+    "Cantata 140 (\"Wachet auf, ruft uns die Stimme\")",
+    "Pauline Texts"
+  ],
+  "autobiographical": [
+    "Dreaming the words \"CANTATA 4\" and subsequently researching the text."
+  ],
+  "theological_motifs": [
+    "Biblical Literarism",
+    "Eschatology (The Final Days as awakening)"
+  ],
+  "literary_self_ref": [
+    "Re-interpretation of Christian doctrine through the lens of SF concepts (Linear/Orthogonal time)."
+  ],
+  "symbols_images": [
+    "Seed/Slumbering root (The human spirit)",
+    "Net of thorns (Linear entrapment)",
+    "Voice of Spring (God's command)"
+  ],
+  "tensions": [
+    "None (Summary matches the prior half)."
+  ],
+  "evidence_quotes": [
+    "\"From this is can be seen what Paul meant by such terms as 'You are the first fruits of the harvest.' We read this and assume mere poetry. That is was literally meant -- did that occur to us?\"",
+    "\"The Bonds of death... have relaxed.\""
+  ],
+  "uncertainty_flags": [
+    "None."
+  ],
+  "reading_excerpt": "From this is can be seen what Paul meant by such terms as 'You are the first fruits of the harvest.' We read this and assume mere poetry. That is was literally meant -- did that occur to us?",
+  "word_count": 191,
+  "raw_text": "always feels that way; each seed, each slumbering root and bulb, must in its half-life state, buried in ice and waiting, experience all of this: we share a common reality. From this is can be seen what Paul meant by such terms as \"You are the first fruits of the harvest.\" We read this and assume mere poetry. That is was literally meant -- did that occur to us? But to take it literally we had to grasp the existence of (1) lineal time versus orthogonal time; and (2) the Active Dreamer who instead of saying, Dream on, dream on, sleep on, suddenly begins in our dreams to say, Die Stunde ist da! Throw off the chains, the net of thorns; it is Cantata 140 and Cantata 4 together. The Bonds of death (the thrall of Winter equals the bonds of death) have relaxed, and as exemplar, the Christos leads us into full-life, out of the half-life we've been in. Sorry to take so much of your time here, Ursula, but in my dreams I saw the words CANTATA 4, and when I had read the text, I began to understand.",
+  "raw_text_char_count": 999,
+  "linked_terms": [
+    {
+      "term_id": "TERM_always",
+      "name": "Always",
+      "slug": "always",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "always"
+    },
+    {
+      "term_id": "TERM_christos",
+      "name": "Christos",
+      "slug": "christos",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Christos"
+    },
+    {
+      "term_id": "TERM_death",
+      "name": "Death",
+      "slug": "death",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "death"
+    },
+    {
+      "term_id": "TERM_dream",
+      "name": "Dream",
+      "slug": "dream",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Dream"
+    },
+    {
+      "term_id": "TERM_half",
+      "name": "Half",
+      "slug": "half",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "half"
+    },
+    {
+      "term_id": "TERM_have",
+      "name": "Have",
+      "slug": "have",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "have"
+    },
+    {
+      "term_id": "TERM_instead",
+      "name": "Instead",
+      "slug": "instead",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "instead"
+    },
+    {
+      "term_id": "TERM_into",
+      "name": "Into",
+      "slug": "into",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "into"
+    },
+    {
+      "term_id": "TERM_life",
+      "name": "Life",
+      "slug": "life",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "life"
+    },
+    {
+      "term_id": "TERM_literally",
+      "name": "Literally",
+      "slug": "literally",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "literally"
+    },
+    {
+      "term_id": "TERM_much",
+      "name": "Much",
+      "slug": "much",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "much"
+    },
+    {
+      "term_id": "TERM_orthogonal-time",
+      "name": "Orthogonal Time",
+      "slug": "orthogonal-time",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "orthogonal time"
+    },
+    {
+      "term_id": "TERM_paul",
+      "name": "Paul",
+      "slug": "paul",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Paul"
+    },
+    {
+      "term_id": "TERM_reality",
+      "name": "Reality",
+      "slug": "reality",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "reality"
+    },
+    {
+      "term_id": "TERM_seen",
+      "name": "Seen",
+      "slug": "seen",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "seen"
+    },
+    {
+      "term_id": "TERM_share",
+      "name": "Share",
+      "slug": "share",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "share"
+    },
+    {
+      "term_id": "TERM_such",
+      "name": "Such",
+      "slug": "such",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "such"
+    },
+    {
+      "term_id": "TERM_suddenly",
+      "name": "Suddenly",
+      "slug": "suddenly",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "suddenly"
+    },
+    {
+      "term_id": "TERM_take",
+      "name": "Take",
+      "slug": "take",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "take"
+    },
+    {
+      "term_id": "TERM_time",
+      "name": "Time",
+      "slug": "time",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "time"
+    },
+    {
+      "term_id": "TERM_ursula",
+      "name": "Ursula",
+      "slug": "ursula",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Ursula"
+    },
+    {
+      "term_id": "TERM_winter",
+      "name": "Winter",
+      "slug": "winter",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Winter"
+    },
+    {
+      "term_id": "TERM_being",
+      "name": "Being",
+      "slug": "being",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "being"
+    },
+    {
+      "term_id": "TERM_conclusion",
+      "name": "Conclusion",
+      "slug": "conclusion",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "conclusion"
+    },
+    {
+      "term_id": "TERM_dick",
+      "name": "Dick",
+      "slug": "dick",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Dick"
+    },
+    {
+      "term_id": "TERM_dionysos",
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Dionysos"
+    },
+    {
+      "term_id": "TERM_human",
+      "name": "Human",
+      "slug": "human",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "human"
+    },
+    {
+      "term_id": "TERM_linear",
+      "name": "Linear",
+      "slug": "linear",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "linear"
+    },
+    {
+      "term_id": "TERM_nature",
+      "name": "Nature",
+      "slug": "nature",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "nature"
+    },
+    {
+      "term_id": "TERM_st-paul",
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Paul"
+    },
+    {
+      "term_id": "TERM_through",
+      "name": "Through",
+      "slug": "through",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "through"
+    },
+    {
+      "term_id": "TERM_were",
+      "name": "Were",
+      "slug": "were",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "were"
+    },
+    {
+      "term_id": "TERM_ursula",
+      "name": "Ursula",
+      "slug": "ursula",
+      "match_type": "conceptual",
+      "confidence": 4,
+      "matched_text": "Ursula"
+    }
+  ],
+  "linked_names": [
+    {
+      "name_id": "NAME_st-paul",
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "match_type": "exact_mention",
+      "confidence": 2
+    },
+    {
+      "name_id": "NAME_ursula-k-le-guin",
+      "name": "Ursula K. Le Guin",
+      "slug": "ursula-k-le-guin",
+      "match_type": "exact_mention",
+      "confidence": 2
+    },
+    {
+      "name_id": "NAME_christos",
+      "name": "Christos",
+      "slug": "christos",
+      "match_type": "exact_mention",
+      "confidence": 2
+    },
+    {
+      "name_id": "NAME_js-bach",
+      "name": "J.S. Bach",
+      "slug": "js-bach",
+      "match_type": "exact_mention",
+      "confidence": 2
+    }
+  ],
+  "evidence_excerpts": [
+    {
+      "text": "(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of years for our species, and for our animal friends as well -- thes",
+      "matched_alias": "Christos",
+      "term_id": "TERM_christos",
+      "term_name": "Christos",
+      "term_slug": "christos"
+    },
+    {
+      "text": "coffins, severally, and individually, as shown in the novel.\n\n(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of yea",
+      "matched_alias": "Complete",
+      "term_id": "TERM_complete",
+      "term_name": "Complete",
+      "term_slug": "complete"
+    },
+    {
+      "text": "Sorry to take so much of your time here, Ursula, but in my dreams I saw the words CANTATA 4, and when I had read the text, I began to understand.\n\nLast edit almost 3 years ago by twsullivan\n27\nComplete\n27\nMarch 4, 1975\n\nDear Dr. Ornstein:",
+      "matched_alias": "Complete",
+      "term_id": "TERM_complete",
+      "term_name": "Complete",
+      "term_slug": "complete"
+    },
+    {
+      "text": "coffins, severally, and individually, as shown in the novel.\n\n(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of yea",
+      "matched_alias": "Days",
+      "term_id": "TERM_days",
+      "term_name": "Days",
+      "term_slug": "days"
+    },
+    {
+      "text": "(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of years for our species, and for our animal friends as well -- thes",
+      "matched_alias": "Death",
+      "term_id": "TERM_death",
+      "term_name": "Death",
+      "term_slug": "death"
+    },
+    {
+      "text": "(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of years for our species, and for our animal friends as well -- thes",
+      "matched_alias": "Dream",
+      "term_id": "TERM_dream",
+      "term_name": "Dream",
+      "term_slug": "dream"
+    },
+    {
+      "text": "coffins, severally, and individually, as shown in the novel.\n\n(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of yea",
+      "matched_alias": "Except",
+      "term_id": "TERM_except",
+      "term_name": "Except",
+      "term_slug": "except"
+    },
+    {
+      "text": "coffins, severally, and individually, as shown in the novel.\n\n(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of yea",
+      "matched_alias": "Final",
+      "term_id": "TERM_final",
+      "term_name": "Final",
+      "term_slug": "final"
+    },
+    {
+      "text": "(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of years for our species, and for our animal friends as well -- thes",
+      "matched_alias": "Instead",
+      "term_id": "TERM_instead",
+      "term_name": "Instead",
+      "term_slug": "instead"
+    },
+    {
+      "text": "Last edit almost 3 years ago by twsullivan\n27\nComplete\n27\nMarch 4, 1975\n\nDear Dr. Ornstein:\n\nRecently I met Mr. Henry Korman and Mr. Tony Hiss (Tony had come by to interview me for the New Yorker). I got into a marvelous discussion with Henry about Sufi and I mentioned my admiration, bordering on fanatic enthusiasm, for your pioneer work with bilateral brain hemispheric parity. Thus, I, having learned that they know you, and am summoning my courage to write you and ask, What has become of me, si",
+      "matched_alias": "March",
+      "term_id": "TERM_march",
+      "term_name": "March",
+      "term_slug": "march"
+    },
+    {
+      "text": "coffins, severally, and individually, as shown in the novel.\n\n(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of yea",
+      "matched_alias": "More",
+      "term_id": "TERM_more",
+      "term_name": "More",
+      "term_slug": "more"
+    },
+    {
+      "text": "coffins, severally, and individually, as shown in the novel.\n\n(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of yea",
+      "matched_alias": "Orphics",
+      "term_id": "TERM_orphic",
+      "term_name": "Orphic",
+      "term_slug": "orphic"
+    },
+    {
+      "text": "(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of years for our species, and for our animal friends as well -- thes",
+      "matched_alias": "Paul",
+      "term_id": "TERM_paul",
+      "term_name": "Paul",
+      "term_slug": "paul"
+    },
+    {
+      "text": "coffins, severally, and individually, as shown in the novel.\n\n(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of yea",
+      "matched_alias": "Pauline",
+      "term_id": "TERM_pauline",
+      "term_name": "Pauline",
+      "term_slug": "pauline"
+    },
+    {
+      "text": "coffins, severally, and individually, as shown in the novel.\n\n(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of yea",
+      "matched_alias": "Platonism",
+      "term_id": "TERM_platonism",
+      "term_name": "Platonism",
+      "term_slug": "platonism"
+    },
+    {
+      "text": "coffins, severally, and individually, as shown in the novel.\n\n(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of yea",
+      "matched_alias": "Real",
+      "term_id": "TERM_real",
+      "term_name": "Real",
+      "term_slug": "real"
+    },
+    {
+      "text": "coffins, severally, and individually, as shown in the novel.\n\n(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of yea",
+      "matched_alias": "Reality",
+      "term_id": "TERM_reality",
+      "term_name": "Reality",
+      "term_slug": "reality"
+    },
+    {
+      "text": "coffins, severally, and individually, as shown in the novel.\n\n(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of yea",
+      "matched_alias": "Spring",
+      "term_id": "TERM_spring",
+      "term_name": "Spring",
+      "term_slug": "spring"
+    },
+    {
+      "text": "(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of years for our species, and for our animal friends as well -- thes",
+      "matched_alias": "Such",
+      "term_id": "TERM_such",
+      "term_name": "Such",
+      "term_slug": "such"
+    },
+    {
+      "text": "(eight) Those in half-life are not dead, nor is the root slumbering under the snow (the symbol of both Christ and Dionysos: it looks dead but is only asleep, waiting to be awakened by the voice of spring). We are those slumbering roots. We are dormant. It is difficult intellectually to understand this, that we are neither fully alive nor fully dead (Aristotle taught us that we have to be A or not-A), but in fact these thousands of years for our species, and for our animal friends as well -- thes",
+      "matched_alias": "Suddenly",
+      "term_id": "TERM_suddenly",
+      "term_name": "Suddenly",
+      "term_slug": "suddenly"
+    }
+  ],
+  "neighbors": [
+    {
+      "seg_id": "SEG_EXEG_1975-03-05_Ursula_01",
+      "title": "1975-03-05_Ursula_01.txt",
+      "position": 1
+    }
+  ],
+  "document": {
+    "title": "Ursula",
+    "doc_type": "exegesis_section",
+    "author": "Philip K. Dick",
+    "date_display": "March 5, 1975"
+  }
+}

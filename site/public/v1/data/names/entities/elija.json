@@ -1,0 +1,62 @@
+{
+  "name_id": "NAME_elija",
+  "canonical_form": "Elija",
+  "slug": "elija",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Elija is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick identifies himself and other \"secret Christians\" as \"phagocytes\" or \"metabolic toxins\" sent into the world-organism to dissolve the \"malignant complex\" that is the Black Iron Prison (BIP).\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Elias",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Elija",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself and other \"secret Christians\" as \"phagocytes\" or \"metabolic toxins\" sent into the world-organism to dissolve the \"malignant complex\" that is the Black Iron Prison (BIP). He des",
+      "title": "1976-09-15_Dorothy_140.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jung",
+      "slug": "jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Sophia",
+      "slug": "sophia",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

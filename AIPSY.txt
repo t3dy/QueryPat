@@ -1,0 +1,503 @@
+You are working inside the cloned QueryPat repository.
+
+You are acting as:
+- a senior AI engineering lead
+- a digital-humanities research architect
+- a scholarly workflow designer
+
+Your task is to produce a complete implementation plan for expanding the QueryPat system with two new research studies:
+
+1) an AI Topics Study
+2) a Psychology Topics Study
+
+The goal is to build a pipeline and website viewer that analyzes a large PDF corpus of PKD-related texts.
+
+Important: do NOT start coding yet.  
+This task is planning and design only.
+
+Your output will become the blueprint for implementation.
+
+---------------------------------------------------------------------
+
+PROJECT CONTEXT
+
+The corpus consists of:
+
+• PKD fiction (novels, stories)
+• Exegesis materials
+• letters and interviews
+• biographies and critical scholarship
+• contextual intellectual sources
+
+The QueryPat repo already contains a working pipeline including:
+
+• SQLite knowledge database
+• ingestion scripts
+• text extraction ingestion
+• canonical term ingestion
+• entity linking
+• evidence packet generation
+• timeline and biography extraction
+• archive ingestion
+• JSON export to site/public/data
+• a static research viewer site
+
+You must build on this architecture rather than replacing it.
+
+Do NOT design a separate pipeline detached from QueryPat.
+
+---------------------------------------------------------------------
+
+REPO ARCHITECTURE CONSTRAINTS
+
+Assume these core components already exist and should be reused:
+
+Pipeline layers:
+- documents
+- document_texts
+- segments
+- terms
+- term_aliases
+- term_segments
+- evidence_packets
+- evidence_excerpts
+- timeline_events
+- biography_events
+
+Archive ingestion and export:
+- archive catalog → documents/assets
+- archive/index.json
+- archive/docs/{slug}.json
+
+Site export pipeline:
+SQLite → export_json.py → site/public/data/
+
+Search already indexes archive documents.
+
+The Archive section of the website already functions as the “Library” for PDFs, including summaries and metadata.
+
+Therefore:
+
+Do NOT design a separate Library system.
+
+Instead:
+extend the existing Archive system where necessary.
+
+---------------------------------------------------------------------
+
+RESEARCH DESIGN REQUIREMENT
+
+The studies must preserve evidentiary layers.
+
+Never collapse them early.
+
+For PKD research this distinction is critical.
+
+Use a four-lane evidence architecture.
+
+Lane A
+Primary fiction
+(stories, novels, essays)
+
+Lane B
+Exegesis and self-theorizing
+(Exegesis notebooks, letters, interviews)
+
+Lane C
+Biographical and critical scholarship
+
+Lane D
+Synthesis layer
+(dictionary entries and topic dossiers)
+
+Every analytical claim must be traceable to A, B, or C.
+
+The synthesis layer must explicitly distinguish them.
+
+---------------------------------------------------------------------
+
+STUDY 1: AI TOPICS
+
+Study the representation of artificial intelligence and related ideas across PKD texts.
+
+Core topics include:
+
+AI
+robots
+androids
+artificial persons
+simulation
+machine intelligence
+control systems
+automation
+cybernetics
+surveillance
+bureaucratic control
+programming
+counterfeit humanity
+empathy testing
+implanted memory
+fabricated identity
+posthuman cognition
+simulation of mind
+labor automation
+technological domination
+reality testing
+false reality
+android affect
+
+---------------------------------------------------------------------
+
+STUDY 2: PSYCHOLOGY TOPICS
+
+This study must explicitly distinguish:
+
+• psychology represented in fiction
+• psychology theorized in the Exegesis
+• psychology reconstructed by biographers/critics
+
+Include conventional psychological topics and PKD-specific ones.
+
+Examples:
+
+paranoia
+schizophrenia
+psychosis
+empathy
+trauma
+addiction
+amphetamine use
+identity diffusion
+double/doppelgänger
+dream interpretation
+Jung
+synchronicity
+archetype
+split-brain
+memory
+false memory
+therapy/psychiatry
+anamnesis
+
+Include specifically:
+
+hypnagogic state
+hypnopompic state
+dream rituals of Asclepius
+
+Also include PKD border-zone topics between psychology, religion, and metaphysics.
+
+---------------------------------------------------------------------
+
+RESEARCH OUTPUT MODEL
+
+The system should produce scholarly topic dossiers rather than short glossary blurbs.
+
+Each topic page should include:
+
+Definition  
+PKD relevance  
+In the fiction  
+In the Exegesis  
+Intellectual background  
+Scholarly debate  
+Chronology  
+Key passages  
+Contradictions  
+Related works  
+Related thinkers  
+Related entries  
+Editorial notes  
+Open questions
+
+Prose style:
+
+• college reading level
+• analytical and evidence-based
+• avoid jargon density
+• do not reproduce long copyrighted passages
+• separate evidentiary layers explicitly
+• do not diagnose PKD
+
+---------------------------------------------------------------------
+
+PIPELINE DESIGN REQUIREMENTS
+
+The study pipeline must combine:
+
+1) deterministic Python methods
+2) Claude-assisted interpretive analysis
+3) semi-autonomous looping across many texts
+4) reusable Claude Skills
+5) fair-use scholarly output
+
+Deterministic tasks should include:
+
+• corpus intake
+• metadata normalization
+• text segmentation
+• lexicon matching
+• page-span indexing
+• evidence packet assembly
+• cross-linking
+• JSON export
+
+Interpretive tasks should include:
+
+• passage classification
+• psychological topic tagging
+• AI topic tagging
+• contradiction detection
+• topic synthesis
+• scholarly entry drafting
+
+---------------------------------------------------------------------
+
+TEXT PROCESSING
+
+Segmentation rules:
+
+Fiction:
+chunk by scene or chapter windows
+
+Exegesis:
+chunk by dated notebook entry or argument block
+
+Criticism:
+chunk by section or paragraph clusters
+
+Preserve:
+
+• page numbers
+• character offsets
+• segment IDs
+
+---------------------------------------------------------------------
+
+PASSAGE CLASSIFICATION ONTOLOGY
+
+Each matched passage should be classified using fields like:
+
+source_mode
+fiction
+exegesis
+letter
+interview
+criticism
+
+psych_mode
+clinical
+psychoanalytic
+Jungian
+existential
+neuropsychological
+anti-psychiatric
+mystical
+popular psychology
+
+claim_type
+definition
+symptom description
+causal theory
+allegory
+self-report
+critique
+comparison
+unresolved
+
+confidence
+high
+medium
+low
+
+---------------------------------------------------------------------
+
+EVIDENCE PACKET MODEL
+
+For each topic generate evidence packets containing:
+
+representative PKD passages  
+Exegesis passages  
+secondary commentary  
+chronology  
+contradictions
+
+Contradictions must be preserved rather than resolved.
+
+---------------------------------------------------------------------
+
+CLAUDE SKILLS
+
+Define reusable Claude Skills such as:
+
+corpus auditor
+topic candidate extractor
+AI-topic tagger
+psychology-topic tagger
+passage classifier
+evidence packet builder
+contradiction mapper
+topic-entry drafter
+chronology synthesizer
+fair-use reviewer
+viewer integration planner
+
+Each skill must define:
+
+purpose  
+inputs  
+outputs  
+guardrails  
+deterministic steps before/after
+
+---------------------------------------------------------------------
+
+AGENT SWARM DESIGN
+
+Design a workflow where multiple agents can process the corpus.
+
+Example roles:
+
+Corpus scanner
+Topic candidate detector
+Passage classifier
+Evidence packet builder
+Entry synthesizer
+Reviewer
+
+Include:
+
+parallelizable tasks
+sequential tasks
+batch processing strategy
+checkpointing
+token efficiency
+artifact outputs
+
+---------------------------------------------------------------------
+
+WEBSITE VIEWER
+
+Design a new “Studies” section of the QueryPat site.
+
+It should integrate with the existing relational knowledge browser.
+
+Structure options:
+
+Option A
+Top-level Studies section
+  AI Study
+  Psychology Study
+
+Option B
+Separate top-level sections
+
+Explain which option fits QueryPat best.
+
+The viewer should support:
+
+topic browsing
+lane filtering (fiction / exegesis / criticism)
+chronology view
+related works
+related persons
+related thinkers
+contradictions
+evidence packets
+cross-links to dictionary entries
+cross-links to archive documents
+
+Avoid unnecessary graph visualizations unless they genuinely aid navigation.
+
+---------------------------------------------------------------------
+
+ARCHIVE INTEGRATION
+
+The Archive section of the site already functions as the PDF Library.
+
+Do not redesign it.
+
+Instead:
+
+• integrate study results with archive documents
+• allow topic pages to link to archive documents
+• surface archive summaries in topic evidence panels
+• allow “related documents” browsing
+
+---------------------------------------------------------------------
+
+FIRST-WAVE BUILD ORDER
+
+Phase 1
+Define ontology of AI and psychology topics.
+
+Phase 2
+Identify candidate passages for 20 seed topics.
+
+Phase 3
+Generate evidence packets.
+
+Phase 4
+Draft seed entries.
+
+Phase 5
+Export JSON bundles.
+
+Phase 6
+Implement site viewer.
+
+Priority psychology topics:
+
+paranoia
+schizophrenia
+psychosis
+empathy
+identity diffusion
+double/doppelgänger
+trauma
+twin motif
+addiction
+amphetamine use
+dream interpretation
+Jung
+synchronicity
+archetype
+split-brain
+memory
+false reality
+gaslighting / brainwashing
+therapy / psychiatry
+anamnesis
+hypnagogic state
+hypnopompic state
+dream rituals of Asclepius
+
+---------------------------------------------------------------------
+
+FINAL DELIVERABLE
+
+Produce a highly structured implementation blueprint with the following sections:
+
+1. Repo reuse analysis
+2. Research architecture
+3. Data model and schema extensions
+4. Pipeline design
+5. Claude Skills design
+6. Agent swarm architecture
+7. Website viewer architecture
+8. Fair-use and scholarly style guide
+9. First-wave build order
+10. Concrete repo implementation plan
+
+Do NOT start coding.
+
+Be explicit about:
+
+• which existing QueryPat scripts should be reused
+• which ones should be extended
+• which new scripts would be required
+• which schema changes are needed
+• which JSON exports the viewer will require
+• which frontend routes/components should be added
+
+The output should be a detailed operational design suitable for direct implementation in the QueryPat repo.

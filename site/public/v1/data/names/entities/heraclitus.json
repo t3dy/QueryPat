@@ -1,0 +1,164 @@
+{
+  "name_id": "NAME_heraclitus",
+  "canonical_form": "Heraclitus",
+  "slug": "heraclitus",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Glory of Hera",
+  "origin_language": "Greek",
+  "allusion_type": [
+    "classical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Heraclitus (Greek: \"Glory of Hera\") is a historical figure appearing in Philip K. Dick's Exegesis. In the classical tradition, Heraclitus is pre-socratic philosopher of flux and logos. PKD frequently invokes Heraclitus on change and the hidden logos. Appears in 6 Exegesis passages. Associated with dictionary terms: Heraclitus. Context: \"Dick proposes a \"Light Body\" theory of immortality: a 2,000-year-old collective \"Bioplasmic\" entity (the fellowship of Christ) re-enters human hosts through the 3rd eye/pineal gland.\"",
+  "full_description": null,
+  "mention_count": 6,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_classical_heraclitus",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Parmenides",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Empedocles",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_22",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Heraclitus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick proposes a \"Light Body\" theory of immortality: a 2,000-year-old collective \"Bioplasmic\" entity (the fellowship of Christ) re-enters human hosts through the 3rd eye/pineal gland. He identifies the",
+      "title": "U_Claudia_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_50",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Heraclitus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick refines his theory of \"Systole and Diastole\" (The Breathing Universe), proposing that the universe consists of two simultaneous time-loops moving in opposite directions. He identifies the \"Retrog",
+      "title": "U_Claudia_50.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_12",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Heraclitus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick proposes a \"Brain Colony\" or \"Grain Brain\" model of the universe, where individual humans are interconnected cells in a vast compound eye of the Immanent Mind. He explores the \"male womb\" of Zeus",
+      "title": "U_Claudia_12.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Henry_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Heraclitus",
+      "date_display": "February 29, 1975",
+      "summary": "Dick confesses to being \"tricked\" by Erasmus, who pretended to be Dionysos. He explores the \"substitution code\" of Jesus/Zeus/Zagreus and the concept of the \"God of the very desperate\" who gathers up ",
+      "title": "U_Henry_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_124",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Heraclitus",
+      "date_display": "September 15, 1976",
+      "summary": "Dick introduces a seminal breakthrough: viewing \"anamnesis\" (memory) as a literal organ of perception that allows one to see the divine organism (Brahman) extending through time, just as the eyes see ",
+      "title": "1976-09-15_Dorothy_124.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_126",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Heraclitus",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes his boldest surmise yet: that the 1974 intervention was a \"surgical\" re-editing of history that nullified the \"evil tyrant\" Nixon across all linear time (past, present, and future). He v",
+      "title": "1976-09-15_Dorothy_126.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zeus",
+      "slug": "zeus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Heraclitus",
+    "domain": "classical",
+    "brief": "Pre-Socratic philosopher of flux and logos",
+    "etymology": "Glory of Hera",
+    "origin_language": "Greek",
+    "significance": "PKD frequently invokes Heraclitus on change and the hidden logos",
+    "source_text": "Fragments (DK)"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name_id": "NAME_st-teresa-of-avila",
+  "canonical_form": "St. Teresa of Avila",
+  "slug": "st-teresa-of-avila",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "St. Teresa of Avila is a divine or mythological figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick identifies his 1974 experience as the \"Second Advent,\" occurring pluralistically within individual minds rather than in a single visible man.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_09",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Teresa of Avila",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his 1974 experience as the \"Second Advent,\" occurring pluralistically within individual minds rather than in a single visible man. He analyzes the \"Parousia\" as the abolition of time a",
+      "title": "U_Claudia_09.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_69",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Teresa of Avila",
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues analyzing the \"reweaving\" of reality in 3-74, suggesting it was part of a global \"extrication\" from the Black Iron Prison. He discusses the \"personality switch\" from PKD to Thomas and t",
+      "title": "1976-09-15_Dorothy_69.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

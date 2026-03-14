@@ -1,0 +1,107 @@
+{
+  "name_id": "NAME_asklepios",
+  "canonical_form": "Asklepios",
+  "slug": "asklepios",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Cut open",
+  "origin_language": "Greek (uncertain)",
+  "allusion_type": [
+    "classical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Asklepios (Greek (uncertain): \"Cut open\") is a divine or mythological figure appearing in Philip K. Dick's Exegesis. In the classical tradition, Asklepios is god of healing; son of apollo. PKD identifies Asklepios as a healing guide figure in his visions. Appears in 4 Exegesis passages. Context: \"Dick identifies the pineal gland as the \"third eye\" and the biological receptor for the \"Other Sun\" (Sun of Righteousness).\"",
+  "full_description": null,
+  "mention_count": 4,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_classical_asklepios",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_06",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Asklepios",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the pineal gland as the \"third eye\" and the biological receptor for the \"Other Sun\" (Sun of Righteousness). He links this to the 1974 chromatic phosphene experience and argues that Chr",
+      "title": "U_Claudia_06.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_42",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Asklepios",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick provides a 24-point list documenting his transformation after the 1974 \"Spirit Birth.\" He argues that he has been \"remade in the most fundamental way,\" comparing his experience to a \"spiritual tr",
+      "title": "U_Claudia_42.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_44",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Asklepios",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies *Tears* as an \"Apocalyptic Novel\" and his 1974 experience as a \"revealed\" validation of the Bible's divine origin. He argues that the Parousia is virtually here, signaled by the arriva",
+      "title": "U_Claudia_44.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_43",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Asklepios",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores \"Spontaneous Psychic Integration\" (Jungian) and the \"Bardo Thodol\" journey he underwent between 1970 and 1974. He identifies the \"Vast Active Living Intelligence System\" (VALIS) as the s",
+      "title": "U_Claudia_43.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jung",
+      "slug": "jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Asklepios",
+    "domain": "classical",
+    "brief": "God of healing; son of Apollo",
+    "etymology": "Cut open",
+    "origin_language": "Greek (uncertain)",
+    "significance": "PKD identifies Asklepios as a healing guide figure in his visions",
+    "source_text": "Epidaurian inscriptions"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name_id": "NAME_wordsworth",
+  "canonical_form": "Wordsworth",
+  "slug": "wordsworth",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Wordsworth is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick explores the \"Adoptionalist\" theory of his experience: that he was \"raised\" to a superhuman level and \"incorporated\" into the building of the New Earth.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_38",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Wordsworth",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Adoptionalist\" theory of his experience: that he was \"raised\" to a superhuman level and \"incorporated\" into the building of the New Earth. He reflects on the \"Thomas\" personality as",
+      "title": "1976-09-15_Dorothy_38.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_55",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Wordsworth",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that salvation requires a \"sui generis\" act of individual refusal that identifies the \"divine spark\" within a person to the celestial powers. He views'74 as a general \"time quake\" or \"orth",
+      "title": "1976-09-15_Dorothy_55.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

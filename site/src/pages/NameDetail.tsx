@@ -1,6 +1,11 @@
 import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { useData } from '../hooks/useData'
+import { formatSegmentTitle } from '../utils/formatTitle'
+import EntityLayout from '../components/EntityLayout'
+import ExploreFooter from '../components/ExploreFooter'
+import BacklinksPanel from '../components/BacklinksPanel'
+import HoverPreview from '../components/HoverPreview'
 
 interface NameData {
   name_id: string
@@ -72,23 +77,64 @@ export default function NameDetail() {
     )
   }
 
-  return (
-    <>
-      <div className="page-header">
-        <h1>{name.canonical_form}</h1>
-        <p>
-          <span className="badge badge-category">
-            {TYPE_LABELS[name.entity_type] || name.entity_type}
-          </span>
-          {' '}
-          {name.source_type && <span className="confidence-label">{name.source_type}</span>}
-          {' '}
-          <span style={{color:'var(--text-muted)'}}>
-            {name.mention_count} mention{name.mention_count !== 1 ? 's' : ''}
-          </span>
-        </p>
-      </div>
+  const tags = (name.allusion_type || []).map(a => ({
+    label: a,
+    to: `/tag/${encodeURIComponent(a.toLowerCase())}`,
+  }))
 
+  const exploreGroups = [
+    {
+      section: 'In the Dictionary',
+      items: (name.related_terms || []).slice(0, 3).map(r => ({ label: r.name, to: `/dictionary/${r.slug}` })),
+      totalCount: (name.related_terms || []).length,
+    },
+    {
+      section: 'In the Exegesis',
+      items: (name.linked_segments || []).slice(0, 3).map(s => ({
+        label: formatSegmentTitle(s.title, s.seg_id),
+        to: `/segments/${s.seg_id}`,
+      })),
+      totalCount: (name.linked_segments || []).length,
+    },
+  ]
+
+  const backlinkGroups = [
+    {
+      type: 'Exegesis Summaries',
+      items: (name.linked_segments || []).map(s => ({
+        label: formatSegmentTitle(s.title, s.seg_id),
+        to: `/segments/${s.seg_id}`,
+        date: s.date_display,
+      })),
+    },
+    {
+      type: 'Dictionary Terms',
+      items: (name.related_terms || []).map(r => ({
+        label: r.name,
+        to: `/dictionary/${r.slug}`,
+      })),
+    },
+  ]
+
+  return (
+    <EntityLayout
+      title={name.canonical_form}
+      entityType="name"
+      entityId={name.slug}
+      badges={[
+        { label: TYPE_LABELS[name.entity_type] || name.entity_type },
+        ...(name.source_type ? [{ label: name.source_type }] : []),
+      ]}
+      description={`${name.mention_count} mention${name.mention_count !== 1 ? 's' : ''} in the Exegesis`}
+      tags={tags}
+      backLink={{ label: 'Back to Names', to: '/names' }}
+      footer={
+        <>
+          <ExploreFooter groups={exploreGroups} />
+          <BacklinksPanel groups={backlinkGroups} />
+        </>
+      }
+    >
       {name.aliases && name.aliases.length > 0 && (
         <div className="detail-section">
           <h2>Also Known As</h2>
@@ -139,7 +185,7 @@ export default function NameDetail() {
             <p><strong>PKD significance:</strong> {name.reference.significance}</p>
           )}
           {name.reference.source_text && (
-            <p style={{fontSize:'0.85rem', color:'var(--text-muted)'}}>Source: {name.reference.source_text}</p>
+            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Source: {name.reference.source_text}</p>
           )}
         </div>
       )}
@@ -147,17 +193,11 @@ export default function NameDetail() {
       {name.related_terms && name.related_terms.length > 0 && (
         <div className="detail-section">
           <h2>Related Dictionary Terms</h2>
-          <div style={{display:'flex', flexWrap:'wrap', gap:'0.5rem'}}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
             {name.related_terms.map((r, i) => (
-              <Link
-                key={i}
-                to={`/dictionary/${r.slug}`}
-                className="badge badge-category"
-                style={{textDecoration:'none'}}
-                title={r.relation}
-              >
+              <HoverPreview key={i} to={`/dictionary/${r.slug}`} className="badge badge-category" style={{ textDecoration: 'none' }} title={r.relation}>
                 {r.name}
-              </Link>
+              </HoverPreview>
             ))}
           </div>
         </div>
@@ -167,15 +207,15 @@ export default function NameDetail() {
         <div className="detail-section">
           <h2>Linked Segments ({name.linked_segments.length})</h2>
           {name.linked_segments.map((seg, i) => (
-            <div key={i} className={`confidence-${seg.confidence}`} style={{marginBottom:'0.75rem'}}>
-              <div style={{display:'flex', gap:'0.75rem', alignItems:'baseline'}}>
-                <Link to={`/segments/${seg.seg_id}`} style={{fontWeight:600}}>
-                  {seg.title || seg.seg_id}
-                </Link>
-                <span style={{color:'var(--text-muted)', fontSize:'0.85rem'}}>{seg.date_display}</span>
+            <div key={i} className={`confidence-${seg.confidence}`} style={{ marginBottom: '0.75rem' }}>
+              <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'baseline' }}>
+                <HoverPreview to={`/segments/${seg.seg_id}`} style={{ fontWeight: 600 }}>
+                  {formatSegmentTitle(seg.title, seg.seg_id)}
+                </HoverPreview>
+                <span style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>{seg.date_display}</span>
               </div>
               {seg.summary && (
-                <p style={{fontSize:'0.85rem', color:'var(--text-secondary)', marginTop:'0.25rem'}}>
+                <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.25rem' }}>
                   {seg.summary}
                 </p>
               )}
@@ -197,10 +237,6 @@ export default function NameDetail() {
           <p>{name.card_description}</p>
         </div>
       )}
-
-      <div style={{marginTop:'2rem', paddingTop:'1rem', borderTop:'1px solid var(--border-light)'}}>
-        <Link to="/names">Back to Names</Link>
-      </div>
-    </>
+    </EntityLayout>
   )
 }

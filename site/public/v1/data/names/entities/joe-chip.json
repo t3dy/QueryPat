@@ -1,0 +1,107 @@
+{
+  "name_id": "NAME_joe-chip",
+  "canonical_form": "Joe Chip",
+  "slug": "joe-chip",
+  "entity_type": "character",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Joe Chip is a fictional character referenced in Philip K. Dick's Exegesis. Appears in 3 Exegesis passages. First appears in *UBIK*. Context: \"The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time.\"",
+  "full_description": null,
+  "mention_count": 3,
+  "first_work": "UBIK",
+  "work_list": [
+    "UBIK"
+  ],
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Joe Chip",
+      "date_display": "February 27, 1975",
+      "summary": "The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time. He claims this retrograde m",
+      "title": "1975-02-27_Claudia_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_83",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Joe Chip",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes the \"Ham Sandwich\" model of reality: Man - World - God. He concludes that his entire writing career was a \"preparatory dissolving\" of the world-slice, which allowed the \"God-slice\" (*U",
+      "title": "1976-09-15_Dorothy_83.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_82",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Joe Chip",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the world as a \"Teaching Machine\" created by a \"sick/fevered\" demiurge (James-James). He argues that ethical choices (balking) are the only way to \"grade\" out of this simulation and re",
+      "title": "1976-09-15_Dorothy_82.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

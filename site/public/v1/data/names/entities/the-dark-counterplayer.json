@@ -1,0 +1,78 @@
+{
+  "name_id": "NAME_the-dark-counterplayer",
+  "canonical_form": "The Dark Counterplayer",
+  "slug": "the-dark-counterplayer",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "The Dark Counterplayer is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick concludes his letter by describing the \"two worlds\" hidden beneath the veil (*Dokos*): the Iron Empire and the Palm Tree Garden.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-12_Dorothy_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "The Dark Counterplayer",
+      "date_display": "September 12, 1976",
+      "summary": "Dick concludes his letter by describing the \"two worlds\" hidden beneath the veil (*Dokos*): the Iron Empire and the Palm Tree Garden. He introduces the \"Cosmic Game\" between the Wise Mind and the Dark",
+      "title": "1976-09-12_Dorothy_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_67",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "The Dark Counterplayer",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the mechanism of the \"Intercessor\" (Zebra/Christ) as an \"orthogonal programmer\" who enters the linear strip to \"re-weave\" situations. He argues that he was \"re-programmed\" in 3-74 to han",
+      "title": "1976-09-15_Dorothy_67.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Julian Jaynes",
+      "slug": "julian-jaynes",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

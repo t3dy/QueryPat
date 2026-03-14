@@ -2,6 +2,10 @@ import { useParams, Link } from 'react-router-dom'
 import { useData } from '../hooks/useData'
 import { useMemo } from 'react'
 import { formatSegmentTitle } from '../utils/formatTitle'
+import EntityLayout from '../components/EntityLayout'
+import ExploreFooter from '../components/ExploreFooter'
+import BacklinksPanel from '../components/BacklinksPanel'
+import HoverPreview from '../components/HoverPreview'
 
 interface ArchiveSummary {
   doc_id: string
@@ -88,7 +92,6 @@ export default function SegmentDetail() {
   const { data: seg, loading, error } = useData<SegmentData>(`segments/${id}.json`)
   const { data: archiveIndex } = useData<ArchiveSummary[]>('archive/index.json')
 
-
   const docSlugMap = useMemo(() => {
     const map = new Map<string, string>()
     if (!archiveIndex) return map
@@ -110,7 +113,6 @@ export default function SegmentDetail() {
     )
   }
 
-  // Separate linked terms by confidence
   const strongTerms = (seg.linked_terms || []).filter(t => t.confidence <= 2)
   const mediumTerms = (seg.linked_terms || []).filter(t => t.confidence === 3)
   const weakTerms = (seg.linked_terms || []).filter(t => t.confidence >= 4)
@@ -118,39 +120,85 @@ export default function SegmentDetail() {
   const yearMatch = seg.date_start?.match(/^(\d{4})/)
   const year = yearMatch ? yearMatch[1] : null
 
-  return (
-    <>
-      <div className="page-header">
-        <h1>{formatSegmentTitle(seg.title, seg.seg_id)}</h1>
-        <p>
-          {seg.date_display}
-          {seg.date_confidence && seg.date_confidence !== 'exact' && (
-            <span className="badge badge-category" style={{marginLeft:'0.5rem'}}>
-              {seg.date_confidence}
-            </span>
-          )}
-          {seg.word_count && <span style={{marginLeft:'1rem', color:'var(--text-muted)'}}>{seg.word_count.toLocaleString()} words</span>}
-        </p>
-        {seg.document && (
-          <p style={{fontSize:'0.85rem', color:'var(--text-muted)'}}>
-            {seg.document.doc_type === 'exegesis_section' ? 'Exegesis' : seg.document.doc_type.replace(/_/g, ' ')}
-            {seg.document.title && seg.document.title !== 'Letter' && ` \u2014 ${seg.document.title} section`}
-          </p>
-        )}
-      </div>
+  const conceptTags = (seg.recurring_concepts || []).slice(0, 6).map(c => ({
+    label: c,
+    to: `/tag/${encodeURIComponent(c.toLowerCase())}`,
+  }))
 
+  const exploreGroups = [
+    {
+      section: 'In the Dictionary',
+      items: strongTerms.slice(0, 3).map(t => ({ label: t.name, to: `/dictionary/${t.slug}` })),
+      totalCount: seg.linked_terms.length,
+    },
+    {
+      section: 'In the Exegesis',
+      items: seg.neighbors.filter(n => n.position !== seg.position).slice(0, 3).map(n => ({
+        label: formatSegmentTitle(n.title, n.seg_id),
+        to: `/segments/${n.seg_id}`,
+      })),
+      totalCount: seg.neighbors.length,
+    },
+    ...(seg.doc_id && docSlugMap.get(seg.doc_id) ? [{
+      section: 'In the Archive',
+      items: [{ label: seg.document?.title || 'Source document', to: `/archive/${docSlugMap.get(seg.doc_id)}` }],
+    }] : []),
+  ]
+
+  const backlinkGroups = [
+    {
+      type: 'Dictionary Terms',
+      items: strongTerms.concat(mediumTerms).map(t => ({
+        label: t.name,
+        to: `/dictionary/${t.slug}`,
+      })),
+    },
+    {
+      type: 'Names',
+      items: (seg.linked_names || []).map(n => ({
+        label: n.name,
+        to: `/names/${n.slug}`,
+      })),
+    },
+  ]
+
+  const badges = [
+    ...(seg.date_confidence && seg.date_confidence !== 'exact' ? [{ label: seg.date_confidence }] : []),
+  ]
+
+  const docLabel = seg.document
+    ? (seg.document.doc_type === 'exegesis_section' ? 'Exegesis' : seg.document.doc_type.replace(/_/g, ' '))
+      + (seg.document.title && seg.document.title !== 'Letter' ? ` \u2014 ${seg.document.title} section` : '')
+    : undefined
+
+  return (
+    <EntityLayout
+      title={formatSegmentTitle(seg.title, seg.seg_id)}
+      entityType="segment"
+      entityId={seg.seg_id}
+      badges={badges}
+      description={`${seg.date_display}${seg.word_count ? ` \u2022 ${seg.word_count.toLocaleString()} words` : ''}${docLabel ? ` \u2022 ${docLabel}` : ''}`}
+      tags={conceptTags}
+      backLink={{ label: 'Back to Timeline', to: year ? `/timeline/${year}` : '/timeline' }}
+      footer={
+        <>
+          <ExploreFooter groups={exploreGroups} />
+          <BacklinksPanel groups={backlinkGroups} />
+        </>
+      }
+    >
       {/* Navigation between segments */}
       {seg.neighbors && seg.neighbors.length > 0 && (
-        <div style={{display:'flex', justifyContent:'space-between', marginBottom:'1rem', fontSize:'0.85rem'}}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem', fontSize: '0.85rem' }}>
           {seg.neighbors.find(n => n.position < (seg.position ?? 0))
             ? <Link to={`/segments/${seg.neighbors.find(n => n.position < (seg.position ?? 0))!.seg_id}`}>
-                ← Previous chunk
+                &larr; Previous chunk
               </Link>
             : <span />
           }
           {seg.neighbors.find(n => n.position > (seg.position ?? Infinity))
             ? <Link to={`/segments/${seg.neighbors.find(n => n.position > (seg.position ?? Infinity))!.seg_id}`}>
-                Next chunk →
+                Next chunk &rarr;
               </Link>
             : <span />
           }
@@ -164,22 +212,15 @@ export default function SegmentDetail() {
         </div>
       )}
 
-      {/* Raw Exegesis text hidden — verbatim PKD text not displayed */}
-
       <Section title="Key Claims" items={seg.key_claims} />
-      <Section title="Recurring Concepts" items={seg.recurring_concepts} linkTo="dictionary" />
+      <Section title="Recurring Concepts" items={seg.recurring_concepts} tagLink />
       <Section title="People & Entities" items={seg.people_entities} />
       <Section title="Texts & Works Referenced" items={seg.texts_works} />
       <Section title="Autobiographical Events" items={seg.autobiographical} />
       <Section title="Theological & Philosophical Motifs" items={seg.theological_motifs} />
       <Section title="Symbols, Images & Metaphors" items={seg.symbols_images} />
       <Section title="Tensions & Contradictions" items={seg.tensions} />
-
-      {/* Evidence quotes hidden — verbatim PKD text not displayed */}
-
       <Section title="Uncertainty Flags" items={seg.uncertainty_flags} />
-
-      {/* Reading excerpt hidden — verbatim PKD text not displayed */}
 
       {/* Linked Terms with confidence badges */}
       {(strongTerms.length > 0 || mediumTerms.length > 0 || weakTerms.length > 0) && (
@@ -187,38 +228,38 @@ export default function SegmentDetail() {
           <h2>Linked Terms ({seg.linked_terms.length})</h2>
 
           {strongTerms.length > 0 && (
-            <div style={{marginBottom:'0.75rem'}}>
-              <h3 style={{fontSize:'0.85rem', color:'var(--text-muted)', marginBottom:'0.5rem'}}>
+            <div style={{ marginBottom: '0.75rem' }}>
+              <h3 style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>
                 Text-confirmed ({strongTerms.length})
               </h3>
-              <div style={{display:'flex', flexWrap:'wrap', gap:'0.4rem'}}>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
                 {strongTerms.map((t, i) => (
-                  <Link key={i} to={`/dictionary/${t.slug}`}
+                  <HoverPreview key={i} to={`/dictionary/${t.slug}`}
                     className="badge badge-category"
-                    style={{textDecoration:'none'}}
+                    style={{ textDecoration: 'none' }}
                     title={`${CONFIDENCE_LABELS[t.confidence]}${t.matched_text ? ': "' + t.matched_text + '"' : ''}`}
                   >
                     {t.name}
-                  </Link>
+                  </HoverPreview>
                 ))}
               </div>
             </div>
           )}
 
           {mediumTerms.length > 0 && (
-            <div style={{marginBottom:'0.75rem'}}>
-              <h3 style={{fontSize:'0.85rem', color:'var(--text-muted)', marginBottom:'0.5rem'}}>
+            <div style={{ marginBottom: '0.75rem' }}>
+              <h3 style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>
                 Fuzzy matches ({mediumTerms.length})
               </h3>
-              <div style={{display:'flex', flexWrap:'wrap', gap:'0.4rem', opacity:0.85}}>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem', opacity: 0.85 }}>
                 {mediumTerms.map((t, i) => (
-                  <Link key={i} to={`/dictionary/${t.slug}`}
+                  <HoverPreview key={i} to={`/dictionary/${t.slug}`}
                     className="badge badge-category"
-                    style={{textDecoration:'none', opacity:0.8}}
+                    style={{ textDecoration: 'none', opacity: 0.8 }}
                     title={`${CONFIDENCE_LABELS[t.confidence]}${t.matched_text ? ': "' + t.matched_text + '"' : ''}`}
                   >
                     {t.name}
-                  </Link>
+                  </HoverPreview>
                 ))}
               </div>
             </div>
@@ -226,23 +267,23 @@ export default function SegmentDetail() {
 
           {weakTerms.length > 0 && (
             <div>
-              <h3 style={{fontSize:'0.85rem', color:'var(--text-muted)', marginBottom:'0.5rem'}}>
+              <h3 style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>
                 Conceptual ({weakTerms.length})
               </h3>
-              <div style={{display:'flex', flexWrap:'wrap', gap:'0.4rem', opacity:0.7}}>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem', opacity: 0.7 }}>
                 {weakTerms.slice(0, 30).map((t, i) => (
-                  <Link key={i} to={`/dictionary/${t.slug}`}
+                  <HoverPreview key={i} to={`/dictionary/${t.slug}`}
                     style={{
-                      textDecoration:'none', fontSize:'0.8rem',
-                      color:'var(--text-secondary)', borderBottom:'1px dotted var(--border-light)',
+                      textDecoration: 'none', fontSize: '0.8rem',
+                      color: 'var(--text-secondary)', borderBottom: '1px dotted var(--border-light)',
                     }}
                     title={CONFIDENCE_LABELS[t.confidence]}
                   >
                     {t.name}
-                  </Link>
+                  </HoverPreview>
                 ))}
                 {weakTerms.length > 30 && (
-                  <span style={{fontSize:'0.8rem', color:'var(--text-muted)'}}>
+                  <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
                     +{weakTerms.length - 30} more
                   </span>
                 )}
@@ -256,14 +297,14 @@ export default function SegmentDetail() {
       {seg.linked_names && seg.linked_names.length > 0 && (
         <div className="detail-section">
           <h2>Names ({seg.linked_names.length})</h2>
-          <div style={{display:'flex', flexWrap:'wrap', gap:'0.4rem'}}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
             {seg.linked_names.map((n, i) => (
-              <Link key={i} to={`/names/${n.slug}`}
+              <HoverPreview key={i} to={`/names/${n.slug}`}
                 className="badge badge-category"
-                style={{textDecoration:'none'}}
+                style={{ textDecoration: 'none' }}
               >
                 {n.name}
-              </Link>
+              </HoverPreview>
             ))}
           </div>
         </div>
@@ -274,18 +315,18 @@ export default function SegmentDetail() {
         <div className="detail-section">
           <h2>Evidence Linked to This Segment ({seg.evidence_excerpts.length})</h2>
           {seg.evidence_excerpts.map((ev, i) => (
-            <div key={i} style={{marginBottom:'0.75rem'}}>
-              <div style={{fontSize:'0.85rem', marginBottom:'0.25rem'}}>
-                <Link to={`/dictionary/${ev.term_slug}`} style={{fontWeight:600}}>
+            <div key={i} style={{ marginBottom: '0.75rem' }}>
+              <div style={{ fontSize: '0.85rem', marginBottom: '0.25rem' }}>
+                <HoverPreview to={`/dictionary/${ev.term_slug}`} style={{ fontWeight: 600 }}>
                   {ev.term_name}
-                </Link>
+                </HoverPreview>
                 {ev.matched_alias && ev.matched_alias !== ev.term_name && (
-                  <span style={{color:'var(--text-muted)', marginLeft:'0.5rem'}}>
+                  <span style={{ color: 'var(--text-muted)', marginLeft: '0.5rem' }}>
                     (matched: "{ev.matched_alias}")
                   </span>
                 )}
               </div>
-              <div className="evidence-excerpt" style={{fontSize:'0.85rem'}}>
+              <div className="evidence-excerpt" style={{ fontSize: '0.85rem' }}>
                 {ev.text}
               </div>
             </div>
@@ -293,17 +334,16 @@ export default function SegmentDetail() {
         </div>
       )}
 
-      <div style={{marginTop:'2rem', paddingTop:'1rem', borderTop:'1px solid var(--border-light)', display:'flex', gap:'1rem'}}>
-        <Link to={year ? `/timeline/${year}` : '/timeline'}>Back to Timeline</Link>
-        {seg.doc_id && docSlugMap.get(seg.doc_id) && (
-          <Link to={`/archive/${docSlugMap.get(seg.doc_id)}`}>View Document</Link>
-        )}
-      </div>
-    </>
+      {seg.doc_id && docSlugMap.get(seg.doc_id) && (
+        <div style={{ marginTop: '1rem' }}>
+          <Link to={`/archive/${docSlugMap.get(seg.doc_id)}`}>View Source Document &rarr;</Link>
+        </div>
+      )}
+    </EntityLayout>
   )
 }
 
-function Section({ title, items, linkTo }: { title: string; items: string[] | null; linkTo?: string }) {
+function Section({ title, items, tagLink }: { title: string; items: string[] | null; tagLink?: boolean }) {
   if (!items || items.length === 0) return null
 
   return (
@@ -312,8 +352,8 @@ function Section({ title, items, linkTo }: { title: string; items: string[] | nu
       <ul>
         {items.map((item, i) => (
           <li key={i}>
-            {linkTo ? (
-              <Link to={`/${linkTo}/${item.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>
+            {tagLink ? (
+              <Link to={`/tag/${encodeURIComponent(item.toLowerCase())}`}>
                 {item}
               </Link>
             ) : (

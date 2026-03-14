@@ -1,0 +1,90 @@
+{
+  "name_id": "NAME_st-luke",
+  "canonical_form": "St. Luke",
+  "slug": "st-luke",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "St. Luke is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 4 Exegesis passages. Context: \"Dick provides a 24-point list documenting his transformation after the 1974 \"Spirit Birth.\"",
+  "full_description": null,
+  "mention_count": 4,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_42",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Luke",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick provides a 24-point list documenting his transformation after the 1974 \"Spirit Birth.\" He argues that he has been \"remade in the most fundamental way,\" comparing his experience to a \"spiritual tr",
+      "title": "U_Claudia_42.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_36",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Luke",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his internal \"guide\" as St. Luke, \"the beloved physician,\" who is a non-terrestrial entity of high authority. He reinterprets the ending of *Tears* as a ciphered \"Acts of the Apostles\"",
+      "title": "U_Claudia_36.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_43",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Luke",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores \"Spontaneous Psychic Integration\" (Jungian) and the \"Bardo Thodol\" journey he underwent between 1970 and 1974. He identifies the \"Vast Active Living Intelligence System\" (VALIS) as the s",
+      "title": "U_Claudia_43.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_35",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Luke",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his role as a \"Wolf in Sheep’s Clothing\" (or vice versa), covertly delivering the Gospel to Marxists through his fiction. He identifies his \"Spirit Guide\" as St. Luke (the \"Beloved Phy",
+      "title": "U_Claudia_35.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jung",
+      "slug": "jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas Aquinas",
+      "slug": "thomas-aquinas",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

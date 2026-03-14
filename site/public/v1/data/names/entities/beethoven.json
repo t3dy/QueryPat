@@ -1,0 +1,100 @@
+{
+  "name_id": "NAME_beethoven",
+  "canonical_form": "Beethoven",
+  "slug": "beethoven",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Beethoven is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 3 Exegesis passages. Associated with dictionary terms: Beethoven. Context: \"Dick uses Whitehead's and Leibniz's philosophy to argue that humans are \"memory spools\" or \"perceiving cells\" within the vast organism of God.\"",
+  "full_description": null,
+  "mention_count": 3,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Bach",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Schiller",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Schubert",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_42",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Beethoven",
+      "date_display": "September 15, 1976",
+      "summary": "Dick uses Whitehead's and Leibniz's philosophy to argue that humans are \"memory spools\" or \"perceiving cells\" within the vast organism of God. Our primary purpose is \"witnessing,\" allowing the total o",
+      "title": "1976-09-15_Dorothy_42.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_36",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Beethoven",
+      "date_display": "September 15, 1976",
+      "summary": "Dick discovers that his 3-74 vision \"confirms\" Hegel's philosophy of history: that God (Spirit) develops himself toward perfection through the dialectical growth of human freedom. He redefines himself",
+      "title": "1976-09-15_Dorothy_36.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_65",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Beethoven",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes his \"Orthogonal Time\" theory using the \"Wealthy Patron\" and \"Symphony\" metaphors. He argues that history is a \"linear strip\" that can be \"reworked\" or \"improved\" at a specific nexus po",
+      "title": "1976-09-15_Dorothy_65.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Beethoven",
+      "slug": "beethoven",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

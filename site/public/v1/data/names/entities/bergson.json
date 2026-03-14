@@ -1,0 +1,95 @@
+{
+  "name_id": "NAME_bergson",
+  "canonical_form": "Bergson",
+  "slug": "bergson",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Bergson is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 4 Exegesis passages. Context: \"Dick identifies his experience as an \"evolutionary advance\" (Cosmic Consciousness) and the \"next step up\" for the human species.\"",
+  "full_description": null,
+  "mention_count": 4,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Teilhard de Chardin",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_21",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Bergson",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as an \"evolutionary advance\" (Cosmic Consciousness) and the \"next step up\" for the human species. He reinterprets the \"Fall\" as a lack of perception and argues that the ",
+      "title": "U_Claudia_21.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_27",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Bergson",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" He explores the brain's \"Right Hemisphere\" as the location of",
+      "title": "U_Claudia_27.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Henry_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Bergson",
+      "date_display": "February 29, 1975",
+      "summary": "Dick confesses to being \"tricked\" by Erasmus, who pretended to be Dionysos. He explores the \"substitution code\" of Jesus/Zeus/Zagreus and the concept of the \"God of the very desperate\" who gathers up ",
+      "title": "U_Henry_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_05",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Bergson",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets the Eucharist as an authentic transportation to an \"orthogonal universe\" where Christ still lives. He links his experience to the \"Feast of Agape\" and the legalistic/Roman suppression ",
+      "title": "1976-09-15_Dorothy_05.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Kathy",
+      "slug": "kathy",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

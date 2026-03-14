@@ -1,0 +1,183 @@
+{
+  "name_id": "NAME_palmer-eldritch",
+  "canonical_form": "Palmer Eldritch",
+  "slug": "palmer-eldritch",
+  "entity_type": "character",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Palmer Eldritch is a fictional character referenced in Philip K. Dick's Exegesis. Appears in 9 Exegesis passages. Associated with dictionary terms: Palmer Eldritch. Context: \"Dick synthesizes the \"Magdeburg hemispheres\" of his 1974 experience: the external transformation of Fullerton into Rome and the internal transformation of himself into an early Christian Essene.\"",
+  "full_description": null,
+  "mention_count": 9,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_05",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Palmer Eldritch",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick synthesizes the \"Magdeburg hemispheres\" of his 1974 experience: the external transformation of Fullerton into Rome and the internal transformation of himself into an early Christian Essene. He id",
+      "title": "U_Claudia_05.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_06",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Palmer Eldritch",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the pineal gland as the \"third eye\" and the biological receptor for the \"Other Sun\" (Sun of Righteousness). He links this to the 1974 chromatic phosphene experience and argues that Chr",
+      "title": "U_Claudia_06.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_106",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Palmer Eldritch",
+      "date_display": "September 15, 1976",
+      "summary": "Dick analyzes his own novels, specifically *The Three Stigmata of Palmer Eldritch* and *A Maze of Death*, as accidental or subconscious conduits for gnostic truth. He believes these stories were \"enco",
+      "title": "1976-09-15_Dorothy_106.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_27",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Palmer Eldritch",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes his findings into a five-point summary of Gnosticism, framing it as a \"saving revelation\" about our status as slaves in a Black Iron Prison of determinism. He identifies the \"Kind Str",
+      "title": "1976-09-15_Dorothy_27.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_84",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Palmer Eldritch",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes the messages of his core novels (*Ubik*, *Stigmata*, *Maze*) into a single Gnostic revelation: we are in a mass-hallucinated prison, and a ubiquitous deity (Ubik/Zebra) is \"invading\" ",
+      "title": "1976-09-15_Dorothy_84.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_90",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Palmer Eldritch",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes Section 15 with a profound synthesis: the \"Grand Design\" of the Programmer (Zebra) uses suffering as a \"magic alchemy\" to trigger the sudden identity of the individual with Christ. He a",
+      "title": "1976-09-15_Dorothy_90.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_65",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Palmer Eldritch",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes his \"Orthogonal Time\" theory using the \"Wealthy Patron\" and \"Symphony\" metaphors. He argues that history is a \"linear strip\" that can be \"reworked\" or \"improved\" at a specific nexus po",
+      "title": "1976-09-15_Dorothy_65.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_48",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Palmer Eldritch",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Elijah\" role in his 3-74 experience, seeing himself as a forerunner to the Parousia who \"heals\" the world's timeline. He also introduces a radical \"Anti-Matter Universe\" theory for ",
+      "title": "1976-09-15_Dorothy_48.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_125",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Palmer Eldritch",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that his 3-74 experience was a \"second pass\" of history—a literal time-reversion where God intervened to \"remaster\" events that had previously gone uncorrected. He identifies \"Zebra\" as",
+      "title": "1976-09-15_Dorothy_125.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Beethoven",
+      "slug": "beethoven",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Empedocles",
+      "slug": "empedocles",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

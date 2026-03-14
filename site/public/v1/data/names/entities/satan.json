@@ -1,0 +1,158 @@
+{
+  "name_id": "NAME_satan",
+  "canonical_form": "Satan",
+  "slug": "satan",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Adversary",
+  "origin_language": "Hebrew",
+  "allusion_type": [
+    "biblical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Satan (Hebrew: \"Adversary\") is a historical figure appearing in Philip K. Dick's Exegesis. In the biblical tradition, Satan is cosmic antagonist; the accuser. PKD's theology of evil and the Black Iron Prison. Appears in 6 Exegesis passages. Associated with dictionary terms: Satan. Context: \"Dick argues that *Flow My Tears* contains \"cooked\" (divinely inspired/interpolated) material that parallels the Book of Acts with impossible precision.\"",
+  "full_description": null,
+  "mention_count": 6,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_biblical_satan",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Ahriman",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Nixon",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_86",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Satan",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that *Flow My Tears* contains \"cooked\" (divinely inspired/interpolated) material that parallels the Book of Acts with impossible precision. He concludes that Jesus is \"here\" in a state of ",
+      "title": "1976-09-15_Dorothy_86.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_144",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Satan",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formally merges seven distinct philosophical and religious traditions into a \"Synthetic Cosmology\" aimed at defining the 2-source struggle between Zebra (Yang) and the Black Iron Prison (Yin). He",
+      "title": "1976-09-15_Dorothy_144.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_81",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Satan",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that the Book of Acts is not a historical text but a \"code\" for our current reality. He views 3-74 as the moment he \"woke up\" from a fake memory-veneer into the real landscape of 70 AD Rom",
+      "title": "1976-09-15_Dorothy_81.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_80",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Satan",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that 3-74 was the planting of a \"Micro-Cosmos Seed\" (Thomas/Telos) within him to replace the \"Scramble World\" of the Empire. He views his writing and experiences as \"world-creation,\" wh",
+      "title": "1976-09-15_Dorothy_80.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_89",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Satan",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the Zoroastrian/Gnostic conflict between Hyper-universe I (Life) and II (Death). He views Christ as a \"salient\" (an invasive wedge) sent from I into the \"corpse\" of II to expand and dest",
+      "title": "1976-09-15_Dorothy_89.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_14",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Satan",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his 1974 ordeal with the Xerox letter as a \"Great Assize\" or trial of choice. By choosing \"correctly\" (choosing the light), he believes he cancelled his \"Karmic Burden\" (Sin) and obtai",
+      "title": "1976-09-15_Dorothy_14.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Satan",
+      "slug": "satan",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Apollo",
+      "slug": "apollo",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Valis",
+      "slug": "valis",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Baruch Spinoza",
+      "slug": "baruch-spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Satan",
+    "domain": "biblical",
+    "brief": "Cosmic antagonist; the accuser",
+    "etymology": "Adversary",
+    "origin_language": "Hebrew",
+    "significance": "PKD's theology of evil and the Black Iron Prison",
+    "source_text": "Job; Isaiah 14; Revelation"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name_id": "NAME_stanislaw-lem",
+  "canonical_form": "Stanislaw Lem",
+  "slug": "stanislaw-lem",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Stanislaw Lem is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick identifies his role as a \"Wolf in Sheep’s Clothing\" (or vice versa), covertly delivering the Gospel to Marxists through his fiction.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_35",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Stanislaw Lem",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his role as a \"Wolf in Sheep’s Clothing\" (or vice versa), covertly delivering the Gospel to Marxists through his fiction. He identifies his \"Spirit Guide\" as St. Luke (the \"Beloved Phy",
+      "title": "U_Claudia_35.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas Aquinas",
+      "slug": "thomas-aquinas",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

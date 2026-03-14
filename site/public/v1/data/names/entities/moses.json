@@ -1,0 +1,89 @@
+{
+  "name_id": "NAME_moses",
+  "canonical_form": "Moses",
+  "slug": "moses",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Drawn from water",
+  "origin_language": "Hebrew/Egyptian",
+  "allusion_type": [
+    "biblical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Moses (Hebrew/Egyptian: \"Drawn from water\") is a historical figure appearing in Philip K. Dick's Exegesis. In the biblical tradition, Moses is lawgiver and prophet who led exodus. Referenced in PKD's discussions of divine law and theophany. Appears in 2 Exegesis passages. Associated with dictionary terms: Moses. Context: \"Dick identifies his experience as a literal \"Passover Epiphany\" occurring in August 1974, coinciding with Nixon’s resignation.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_biblical_moses",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_34",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Moses",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as a literal \"Passover Epiphany\" occurring in August 1974, coinciding with Nixon’s resignation. He concludes that God used \"plagues\" to pull down the modern Egypt (Nixon",
+      "title": "U_Claudia_34.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_33",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Moses",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Passover/Exodus\" as the primary paradigm for his 1974 experience, concluding that Yahweh (the Nature-God) intervened from \"outside the state\" to free him. He reinterprets his cat ",
+      "title": "U_Claudia_33.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Moses",
+      "slug": "moses",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Moses",
+    "domain": "biblical",
+    "brief": "Lawgiver and prophet who led Exodus",
+    "etymology": "Drawn from water",
+    "origin_language": "Hebrew/Egyptian",
+    "significance": "Referenced in PKD's discussions of divine law and theophany",
+    "source_text": "Exodus; Deuteronomy"
+  }
+}

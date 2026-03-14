@@ -1,0 +1,78 @@
+{
+  "name_id": "NAME_harvey",
+  "canonical_form": "Harvey",
+  "slug": "harvey",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Harvey is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick concludes that Man and God are \"secretly isomorphic\" (identical in form and nature), while the world is a separate, alienating agency.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_91",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Harvey",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that Man and God are \"secretly isomorphic\" (identical in form and nature), while the world is a separate, alienating agency. He views his 3-74 experience as the realization of this iden",
+      "title": "1976-09-15_Dorothy_91.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_90",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Harvey",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes Section 15 with a profound synthesis: the \"Grand Design\" of the Programmer (Zebra) uses suffering as a \"magic alchemy\" to trigger the sudden identity of the individual with Christ. He a",
+      "title": "1976-09-15_Dorothy_90.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

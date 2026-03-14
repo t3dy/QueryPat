@@ -1,0 +1,51 @@
+{
+  "name_id": "NAME_christos",
+  "canonical_form": "Christos",
+  "slug": "christos",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Christos is a divine or mythological figure referenced in Philip K. Dick's Exegesis. Associated with dictionary terms: Christos. Context: \"Continuation and conclusion of the letter to Le Guin.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-03-05_Ursula_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christos",
+      "date_display": "March 5, 1975",
+      "summary": "Continuation and conclusion of the letter to Le Guin. Dick iterates on the literal nature of St. Paul's harvest parables, linking the end of linear \"Winter\" to his dream of Bach's Cantata 4.",
+      "title": "1975-03-05_Ursula_02.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Christos",
+      "slug": "christos",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

@@ -31,18 +31,8 @@
       "category": "Top Term"
     },
     {
-      "name": "Toso",
-      "count": 1495,
-      "category": "Top Term"
-    },
-    {
       "name": "Thomas",
       "count": 1481,
-      "category": "Top Term"
-    },
-    {
-      "name": "Indexed",
-      "count": 1140,
       "category": "Top Term"
     },
     {
@@ -68,11 +58,6 @@
     {
       "name": "Jesus",
       "count": 926,
-      "category": "Top Term"
-    },
-    {
-      "name": "Complete",
-      "count": 851,
       "category": "Top Term"
     },
     {
@@ -149,24 +134,353 @@
       "name": "Felix",
       "count": 355,
       "category": "Top Term"
+    },
+    {
+      "name": "Greek",
+      "count": 354,
+      "category": "Top Term"
+    },
+    {
+      "name": "Ditheon",
+      "count": 346,
+      "category": "Top Term"
+    },
+    {
+      "name": "Satan",
+      "count": 343,
+      "category": "Top Term"
     }
   ],
   "segments_per_year": [
     {
+      "year": "1928",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1929",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1930",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1931",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1932",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1933",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1934",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1935",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1936",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1937",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1938",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1939",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1940",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1941",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1942",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1943",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1944",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1945",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1946",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1947",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1948",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1949",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1950",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1951",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1952",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1953",
+      "count": 0,
+      "bio_events": 1,
+      "has_content": true
+    },
+    {
+      "year": "1954",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1955",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1956",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1957",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1958",
+      "count": 0,
+      "bio_events": 1,
+      "has_content": true
+    },
+    {
+      "year": "1959",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1960",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1961",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1962",
+      "count": 0,
+      "bio_events": 1,
+      "has_content": true
+    },
+    {
+      "year": "1963",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1964",
+      "count": 0,
+      "bio_events": 1,
+      "has_content": true
+    },
+    {
+      "year": "1965",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1966",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1967",
+      "count": 0,
+      "bio_events": 3,
+      "has_content": true
+    },
+    {
+      "year": "1968",
+      "count": 0,
+      "bio_events": 1,
+      "has_content": true
+    },
+    {
+      "year": "1969",
+      "count": 0,
+      "bio_events": 2,
+      "has_content": true
+    },
+    {
+      "year": "1970",
+      "count": 0,
+      "bio_events": 5,
+      "has_content": true
+    },
+    {
+      "year": "1971",
+      "count": 0,
+      "bio_events": 4,
+      "has_content": true
+    },
+    {
+      "year": "1972",
+      "count": 0,
+      "bio_events": 4,
+      "has_content": true
+    },
+    {
+      "year": "1973",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1974",
+      "count": 0,
+      "bio_events": 80,
+      "has_content": true
+    },
+    {
       "year": "1975",
-      "count": 87
+      "count": 87,
+      "bio_events": 41,
+      "has_content": true
     },
     {
       "year": "1976",
-      "count": 244
+      "count": 244,
+      "bio_events": 300,
+      "has_content": true
+    },
+    {
+      "year": "1977",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
     },
     {
       "year": "1978",
-      "count": 400
+      "count": 400,
+      "bio_events": 4,
+      "has_content": true
+    },
+    {
+      "year": "1979",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
+    },
+    {
+      "year": "1980",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
     },
     {
       "year": "1981",
-      "count": 376
+      "count": 376,
+      "bio_events": 0,
+      "has_content": true
+    },
+    {
+      "year": "1982",
+      "count": 0,
+      "bio_events": 0,
+      "has_content": false
     }
   ],
   "term_categories": [
@@ -361,5 +675,40 @@
       "type": "exegesis",
       "count": 410
     }
-  ]
+  ],
+  "evidentiary_lanes": [
+    {
+      "lane": "A",
+      "label": "Fiction",
+      "count": 50
+    },
+    {
+      "lane": "B",
+      "label": "Exegesis",
+      "count": 34
+    },
+    {
+      "lane": "C",
+      "label": "Scholarship",
+      "count": 83
+    },
+    {
+      "lane": "D",
+      "label": "Synthesis",
+      "count": 7
+    },
+    {
+      "lane": "E",
+      "label": "Primary",
+      "count": 72
+    }
+  ],
+  "quality": {
+    "terms_accepted": 302,
+    "terms_with_evidence": 249,
+    "archive_with_text": 180,
+    "archive_with_lanes": 246,
+    "segments_with_works": 735,
+    "biography_with_location": 448
+  }
 }

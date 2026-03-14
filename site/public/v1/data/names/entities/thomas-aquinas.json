@@ -1,0 +1,99 @@
+{
+  "name_id": "NAME_thomas-aquinas",
+  "canonical_form": "Thomas Aquinas",
+  "slug": "thomas-aquinas",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Thomas Aquinas is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 3 Exegesis passages. Associated with dictionary terms: Thomas Aquinas. Context: \"Dick identifies his experience as a literal fulfillment of Biblical promise (Psalm 116) and a commissioning into the class of \"prophets.\"",
+  "full_description": null,
+  "mention_count": 3,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_23",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas Aquinas",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as a literal fulfillment of Biblical promise (Psalm 116) and a commissioning into the class of \"prophets.\" He concludes that \"Santa Sophia\" (Holy Wisdom) is returning to",
+      "title": "U_Claudia_23.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_35",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas Aquinas",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his role as a \"Wolf in Sheep’s Clothing\" (or vice versa), covertly delivering the Gospel to Marxists through his fiction. He identifies his \"Spirit Guide\" as St. Luke (the \"Beloved Phy",
+      "title": "U_Claudia_35.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_25",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas Aquinas",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick synthesizes the \"Light Body\" and \"Re-entry\" theories: the Holy Spirit is a collective \"Light Creature\" (The Fellowship of Christ) that re-enters history through the pineal gland. He concludes tha",
+      "title": "U_Claudia_25.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Thomas Aquinas",
+      "slug": "thomas-aquinas",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paraclete",
+      "slug": "paraclete",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

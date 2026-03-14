@@ -67,15 +67,45 @@ def export_timeline(db: sqlite3.Connection, data_dir: Path):
         year = row[4][:4] if row[4] else 'unknown'
         years[year].append(seg)
 
-    # Write index
-    index = [{'year': y, 'count': len(segs)} for y, segs in sorted(years.items())]
+    # Load biography events per year
+    bio_rows = db.execute("""
+        SELECT bio_id, summary, date_start, date_end,
+               event_type, source_name, date_confidence
+        FROM biography_events
+        WHERE date_start IS NOT NULL
+        ORDER BY date_start
+    """).fetchall()
+    bio_years = defaultdict(list)
+    for br in bio_rows:
+        yr = br[2][:4] if br[2] else None
+        if yr and 1928 <= int(yr) <= 1982:
+            bio_years[yr].append({
+                'bio_id': br[0], 'summary': br[1],
+                'date_start': br[2], 'date_end': br[3],
+                'event_type': br[4], 'source_name': br[5],
+                'date_confidence': br[6],
+                '_type': 'biography_event',
+            })
+
+    # Merge all years (segments + biography events)
+    all_year_keys = sorted(set(years.keys()) | set(bio_years.keys()))
+
+    # Write index with both counts
+    index = []
+    for y in all_year_keys:
+        seg_count = len(years.get(y, []))
+        bio_count = len(bio_years.get(y, []))
+        index.append({'year': y, 'count': seg_count, 'bio_events': bio_count})
     _write_json(timeline_dir / 'index.json', index)
 
-    # Write per-year files
-    for year, segs in years.items():
-        _write_json(years_dir / f'{year}.json', segs)
+    # Write per-year files (segments + biography events combined)
+    for y in all_year_keys:
+        year_data = years.get(y, [])
+        if bio_years.get(y):
+            year_data = year_data + bio_years[y]
+        _write_json(years_dir / f'{y}.json', year_data)
 
-    print(f"    {len(rows)} segments across {len(years)} years")
+    print(f"    {len(rows)} segments + {len(bio_rows)} bio events across {len(all_year_keys)} years")
 
 
 def export_dictionary(db: sqlite3.Connection, data_dir: Path):
@@ -185,11 +215,25 @@ def export_archive(db: sqlite3.Connection, data_dir: Path):
     docs_dir = arch_dir / 'docs'
     ensure_dir(docs_dir)
 
-    rows = db.execute("""
+    # Check for new columns
+    doc_cols = [c[1] for c in db.execute("PRAGMA table_info(documents)").fetchall()]
+    has_lane = 'evidentiary_lane' in doc_cols
+    has_reliability = 'source_reliability' in doc_cols
+
+    # Load document_topics if table exists
+    doc_topics = defaultdict(lambda: defaultdict(list))
+    try:
+        for t in db.execute("SELECT doc_id, topic_type, topic_value FROM document_topics"):
+            doc_topics[t[0]][t[1]].append(t[2])
+    except sqlite3.OperationalError:
+        pass
+
+    lane_col = ", evidentiary_lane, source_reliability" if has_lane else ""
+    rows = db.execute(f"""
         SELECT doc_id, title, slug, author, doc_type, category,
                date_display, date_start, is_pkd_authored,
                card_summary, page_summary, page_count,
-               ingest_level, extraction_status
+               ingest_level, extraction_status{lane_col}
         FROM documents
         WHERE doc_type != 'exegesis_section'
         ORDER BY category, title
@@ -205,11 +249,19 @@ def export_archive(db: sqlite3.Connection, data_dir: Path):
             'card_summary': row[9], 'page_count': row[11],
             'ingest_level': row[12], 'extraction_status': row[13],
         }
+        if has_lane:
+            entry['evidentiary_lane'] = row[14]
+            entry['source_reliability'] = row[15]
         index.append(entry)
 
-        # Detail file includes page_summary
+        # Detail file includes page_summary and topics
         detail = dict(entry)
         detail['page_summary'] = row[10]
+        topics = doc_topics.get(row[0], {})
+        if topics:
+            detail['people_mentioned'] = topics.get('person', [])
+            detail['works_discussed'] = topics.get('work', [])
+            detail['linked_terms'] = topics.get('term', [])
 
         # Get linked assets
         assets = db.execute("""
@@ -232,14 +284,19 @@ def export_segments(db: sqlite3.Connection, data_dir: Path):
     seg_dir = data_dir / 'segments'
     ensure_dir(seg_dir)
 
-    rows = db.execute("""
+    # Check for works_referenced column
+    seg_cols_info = [c[1] for c in db.execute("PRAGMA table_info(segments)").fetchall()]
+    has_works_ref = 'works_referenced' in seg_cols_info
+    works_col = ", works_referenced" if has_works_ref else ""
+
+    rows = db.execute(f"""
         SELECT seg_id, doc_id, slug, title, position,
                date_start, date_end, date_display, date_confidence, date_basis,
                concise_summary, key_claims, recurring_concepts, people_entities,
                texts_works, autobiographical, theological_motifs, literary_self_ref,
                symbols_images, tensions, evidence_quotes, uncertainty_flags,
                reading_excerpt, word_count,
-               raw_text, raw_text_char_count
+               raw_text, raw_text_char_count{works_col}
         FROM segments
         ORDER BY date_start NULLS LAST, position
     """).fetchall()
@@ -251,11 +308,13 @@ def export_segments(db: sqlite3.Connection, data_dir: Path):
             'symbols_images', 'tensions', 'evidence_quotes', 'uncertainty_flags',
             'reading_excerpt', 'word_count',
             'raw_text', 'raw_text_char_count']
+    if has_works_ref:
+        cols.append('works_referenced')
 
     json_fields = {'key_claims', 'recurring_concepts', 'people_entities',
                    'texts_works', 'autobiographical', 'theological_motifs',
                    'literary_self_ref', 'symbols_images', 'tensions',
-                   'evidence_quotes', 'uncertainty_flags'}
+                   'evidence_quotes', 'uncertainty_flags', 'works_referenced'}
 
     exported = 0
     for row in rows:
@@ -411,13 +470,17 @@ def export_analytics(db: sqlite3.Connection, data_dir: Path):
 
     analytics = {}
 
-    # Term frequency top 30
+    # Term frequency top 30 (exclude non-Exegesis terms like Toso)
+    _excluded_terms = {'Toso', 'Indexed', 'Complete'}
     rows = db.execute("""
         SELECT canonical_name, mention_count, primary_category
         FROM terms WHERE status IN ('accepted', 'provisional')
-        ORDER BY mention_count DESC LIMIT 30
+        ORDER BY mention_count DESC LIMIT 60
     """).fetchall()
-    analytics['top_terms'] = [{'name': r[0], 'count': r[1], 'category': r[2]} for r in rows]
+    analytics['top_terms'] = [
+        {'name': r[0], 'count': r[1], 'category': r[2]}
+        for r in rows if r[0] not in _excluded_terms
+    ][:30]
 
     # Segments per year
     rows = db.execute("""
@@ -426,7 +489,30 @@ def export_analytics(db: sqlite3.Connection, data_dir: Path):
         WHERE date_start IS NOT NULL
         GROUP BY year ORDER BY year
     """).fetchall()
-    analytics['segments_per_year'] = [{'year': r[0], 'count': r[1]} for r in rows]
+    seg_by_year = {r[0]: r[1] for r in rows}
+
+    # Biography events per year
+    bio_rows = db.execute("""
+        SELECT SUBSTR(date_start, 1, 4) AS year, COUNT(*) AS cnt
+        FROM biography_events
+        WHERE date_start IS NOT NULL
+        GROUP BY year ORDER BY year
+    """).fetchall()
+    bio_by_year = {r[0]: r[1] for r in bio_rows}
+
+    # Build full year range (1928-1982 = PKD's lifetime)
+    all_years = []
+    for y in range(1928, 1983):
+        yr = str(y)
+        segs = seg_by_year.get(yr, 0)
+        bios = bio_by_year.get(yr, 0)
+        all_years.append({
+            'year': yr,
+            'count': segs,
+            'bio_events': bios,
+            'has_content': segs > 0 or bios > 0,
+        })
+    analytics['segments_per_year'] = all_years
 
     # Category distribution (terms)
     rows = db.execute("""
@@ -498,6 +584,44 @@ def export_analytics(db: sqlite3.Connection, data_dir: Path):
     except sqlite3.OperationalError:
         pass
 
+    # Evidentiary lane distribution
+    try:
+        lane_rows = db.execute("""
+            SELECT evidentiary_lane, COUNT(*) FROM documents
+            WHERE evidentiary_lane IS NOT NULL
+            GROUP BY evidentiary_lane ORDER BY evidentiary_lane
+        """).fetchall()
+        lane_labels = {'A': 'Fiction', 'B': 'Exegesis', 'C': 'Scholarship', 'D': 'Synthesis', 'E': 'Primary'}
+        analytics['evidentiary_lanes'] = [
+            {'lane': r[0], 'label': lane_labels.get(r[0], r[0]), 'count': r[1]} for r in lane_rows
+        ]
+    except sqlite3.OperationalError:
+        pass
+
+    # Quality scores
+    try:
+        total_accepted = db.execute("SELECT COUNT(*) FROM terms WHERE status = 'accepted'").fetchone()[0]
+        analytics['quality'] = {
+            'terms_accepted': total_accepted,
+            'terms_with_evidence': db.execute(
+                "SELECT COUNT(DISTINCT t.term_id) FROM terms t JOIN evidence_packets ep ON ep.term_id = t.term_id WHERE t.status = 'accepted'"
+            ).fetchone()[0],
+            'archive_with_text': db.execute(
+                "SELECT COUNT(*) FROM document_texts WHERE text_content IS NOT NULL AND length(text_content) > 100"
+            ).fetchone()[0],
+            'archive_with_lanes': db.execute(
+                "SELECT COUNT(*) FROM documents WHERE evidentiary_lane IS NOT NULL"
+            ).fetchone()[0] if 'evidentiary_lane' in [c[1] for c in db.execute("PRAGMA table_info(documents)").fetchall()] else 0,
+            'segments_with_works': db.execute(
+                "SELECT COUNT(*) FROM segments WHERE works_referenced IS NOT NULL"
+            ).fetchone()[0] if 'works_referenced' in [c[1] for c in db.execute("PRAGMA table_info(segments)").fetchall()] else 0,
+            'biography_with_location': db.execute(
+                "SELECT COUNT(*) FROM biography_events WHERE location IS NOT NULL AND location != ''"
+            ).fetchone()[0] if 'location' in [c[1] for c in db.execute("PRAGMA table_info(biography_events)").fetchall()] else 0,
+        }
+    except Exception:
+        pass
+
     _write_json(data_dir / 'analytics.json', analytics)
 
 
@@ -507,12 +631,16 @@ def export_biography(db: sqlite3.Connection, data_dir: Path):
     bio_dir = data_dir / 'biography'
     ensure_dir(bio_dir)
 
-    rows = db.execute("""
+    bio_cols_info = [c[1] for c in db.execute("PRAGMA table_info(biography_events)").fetchall()]
+    has_location = 'location' in bio_cols_info
+    loc_col = ", location" if has_location else ""
+
+    rows = db.execute(f"""
         SELECT bio_id, event_type, summary, detail,
                date_start, date_end, date_display, date_confidence,
                source_type, source_name, source_doc_id, source_seg_id,
                contradicted_by, contradiction_note, reliability,
-               people_involved, notes
+               people_involved, notes{loc_col}
         FROM biography_events
         ORDER BY date_start NULLS LAST, bio_id
     """).fetchall()
@@ -533,6 +661,8 @@ def export_biography(db: sqlite3.Connection, data_dir: Path):
             'people_involved': _parse_json(row[15]),
             'notes': row[16],
         }
+        if has_location:
+            event['location'] = row[17]
         events.append(event)
         type_counts[row[1]] += 1
 
@@ -570,10 +700,15 @@ def export_names(db: sqlite3.Connection, data_dir: Path):
         return
 
     # Index: all public names
-    rows = db.execute("""
+    # Check for segment_mention_count
+    name_cols_info = [c[1] for c in db.execute("PRAGMA table_info(names)").fetchall()]
+    has_seg_count = 'segment_mention_count' in name_cols_info
+    seg_count_col = ", segment_mention_count" if has_seg_count else ""
+
+    rows = db.execute(f"""
         SELECT name_id, canonical_form, slug, entity_type, source_type,
                status, review_state, mention_count, card_description,
-               etymology, allusion_type, first_work
+               etymology, allusion_type, first_work{seg_count_col}
         FROM names
         WHERE status IN ('accepted', 'provisional', 'unreviewed')
         ORDER BY mention_count DESC
@@ -581,7 +716,7 @@ def export_names(db: sqlite3.Connection, data_dir: Path):
 
     index = []
     for row in rows:
-        index.append({
+        entry = {
             'name_id': row[0], 'canonical_form': row[1], 'slug': row[2],
             'entity_type': row[3], 'source_type': row[4],
             'status': row[5], 'review_state': row[6],
@@ -590,7 +725,10 @@ def export_names(db: sqlite3.Connection, data_dir: Path):
             'etymology': row[9],
             'allusion_type': _parse_json(row[10]),
             'first_work': row[11],
-        })
+        }
+        if has_seg_count:
+            entry['segment_mention_count'] = row[12] or 0
+        index.append(entry)
     _write_json(names_dir / 'index.json', index)
 
     # Per-name detail files

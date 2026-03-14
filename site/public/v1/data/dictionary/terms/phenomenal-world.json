@@ -1,0 +1,430 @@
+{
+  "term_id": "TERM_phenomenal-world",
+  "canonical_name": "Phenomenal World",
+  "slug": "phenomenal-world",
+  "status": "accepted",
+  "review_state": "machine-drafted",
+  "primary_category": "German Idealism",
+  "thematic_categories": null,
+  "mention_count": 0,
+  "score": null,
+  "definition": null,
+  "interpretive_note": null,
+  "visionary_significance": null,
+  "scholarly_caution": null,
+  "card_description": "Kant's realm of appearances; what PKD called the false reality concealing the noumenal.",
+  "full_description": "Kant's realm of appearances; what PKD called the false reality concealing the noumenal.\n\n**Category:** German Idealism\n\n**Key segment contexts:**\n- (March 5, 1975) Dick proposes to Le Guin that they are \"twin outcomes\" of a single underlying mystical experience. He outlines an eight-point cosmological schema involving \"orthogonal time\" (ontological time) vers...\n- (September 15, 1976) Dick reveals a \"steganographic\" reading of his own work, specifically the \"Felix\" message hidden within *Flow My Tears*. He argues that the Parousia required a \"topological superimposition\" (Rome T...\n- (September 15, 1976) Dick fully embraces a Hindu framework, identifying the world as \"Maya\" (wizardry/illusion) and his 3-74 experience as the death of the \"empirical ego\" leading to \"enlightenment\" (Liberation). He eq...",
+  "first_appearance": null,
+  "peak_usage_start": null,
+  "peak_usage_end": null,
+  "see_also": null,
+  "provenance": "llm_chat_extraction",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-03-12 19:37:09",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-03-05_Ursula_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "March 5, 1975",
+      "summary": "Dick proposes to Le Guin that they are \"twin outcomes\" of a single underlying mystical experience. He outlines an eight-point cosmological schema involving \"orthogonal time\" (ontological time) versus ",
+      "title": "1975-03-05_Ursula_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_08",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick reveals a \"steganographic\" reading of his own work, specifically the \"Felix\" message hidden within *Flow My Tears*. He argues that the Parousia required a \"topological superimposition\" (Rome Two)",
+      "title": "1976-09-15_Dorothy_08.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_09",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick fully embraces a Hindu framework, identifying the world as \"Maya\" (wizardry/illusion) and his 3-74 experience as the death of the \"empirical ego\" leading to \"enlightenment\" (Liberation). He equat",
+      "title": "1976-09-15_Dorothy_09.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_10",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick introduces the theory of the \"Black Iron Prison\" (BIP) as the true, underlying state of the world, concealed by the \"James-James\" demiurge. He contrasts this with the \"Palm Tree Garden\" (the real",
+      "title": "1976-09-15_Dorothy_10.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_22",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical \"mundane\" theory: that he was \"occupied\" by a secret Christian Soviet doctor (or defected KGB operator) who used his brain to flee the \"Gulag\" (Black Iron Prison). He also refi",
+      "title": "1976-09-15_Dorothy_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_23",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick integrates his ETI theory, suggesting that humans are \"escaped prisoners\" from another star system (Albemuth) who are hiding on Earth behind a \"veil\" (Maya). He posits that the Nixon gang and oth",
+      "title": "1976-09-15_Dorothy_23.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_24",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick formally introduces the name \"Zebra\" for the mimicking, tutelary entity that camouflages itself as the phenomenal world. He defines Zebra as the \"Deus Absconditus\" (Shy God) who arranges causal c",
+      "title": "1976-09-15_Dorothy_24.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_39",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes that God (Brahman) is \"waking up\" inside us and that our lives are a \"voluntary bardo\" or \"incarnated amnesia\" where God shared the fate of the \"little creatures.\" To remember one's iden",
+      "title": "1976-09-15_Dorothy_39.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_42",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick uses Whitehead's and Leibniz's philosophy to argue that humans are \"memory spools\" or \"perceiving cells\" within the vast organism of God. Our primary purpose is \"witnessing,\" allowing the total o",
+      "title": "1976-09-15_Dorothy_42.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_46",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick elevates his novel *Ubik* to a \"3rd Testament,\" viewing it as a prophetic account of Zebra's \"re-animation\" and \"re-arrangement\" of the universe. He argues that Zebra's reconstruction of the worl",
+      "title": "1976-09-15_Dorothy_46.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_53",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his theory of \"orthogonal intervention,\" arguing that true change enters linear time \"at right angles\" from another dimension. He views his own \"anamnesis\" (memory restoration) as the key",
+      "title": "1976-09-15_Dorothy_53.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_57",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies \"salvation\" as the abolition of linear time, merging Gnostic Christianity with Brahmanism. He argues that by \"withdrawing assent\" from the phenomenal world, one can pass into a timeles",
+      "title": "1976-09-15_Dorothy_57.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_58",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick embraces a Zoroastrian/Essene dualism where he is a \"warrior of light\" or \"infiltrator-agent\" from the supralunar world. He views his novels as a \"disinhibiting signal\" and argues that God must r",
+      "title": "1976-09-15_Dorothy_58.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_59",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a \"3-level\" model of reality: (1) The Logos/Bible as a \"punched tape\" of ideas, (2) The World of Flesh/Nature, and (3) The Artificial/Technological World. He argues that our world (3) is",
+      "title": "1976-09-15_Dorothy_59.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_70",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes this set of entries by asserting that 70 AD is the \"omphalos\" (navel) of reality around which all \"linear\" history circularity warps. He argues that Gnostic \"awakening\" is the only esca",
+      "title": "1976-09-15_Dorothy_70.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_106",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick analyzes his own novels, specifically *The Three Stigmata of Palmer Eldritch* and *A Maze of Death*, as accidental or subconscious conduits for gnostic truth. He believes these stories were \"enco",
+      "title": "1976-09-15_Dorothy_106.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_108",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the idea that humans are \"programmed\" by the artifact to maintain the simulation. Salvation is the liberation from this programming, allowing the \"transtemporal self\" or the \"Omega Man\" ",
+      "title": "1976-09-15_Dorothy_108.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_113",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick discusses the Urgrund’s intervention to transmute the projected reality into a stable divine kingdom. He introduces the \"divine marriage\" between humanity and Christ/Logos as the final synthesis ",
+      "title": "1976-09-15_Dorothy_113.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_114",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick analyzes how our sense of causality is manipulated by a higher intelligence (Noos). He suggests that what we perceive as \"cause and effect\" is often a concealment used by Zebra to move the world ",
+      "title": "1976-09-15_Dorothy_114.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_121",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick rejects the idea that suffering has a divine purpose, calling it a \"trap\" by the artifact. He posits that the Urgrund's power is explicitly opposed to suffering, but its intervention is currently",
+      "title": "1976-09-15_Dorothy_121.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_125",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that his 3-74 experience was a \"second pass\" of history—a literal time-reversion where God intervened to \"remaster\" events that had previously gone uncorrected. He identifies \"Zebra\" as",
+      "title": "1976-09-15_Dorothy_125.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_127",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his Bantam novels (*Ubik*, *Maze*, *Tears*) as vehicles of revelation and \"scripture,\" arguing that *Ubik* contains an original cosmology that explains its own source. He reflects on t",
+      "title": "1976-09-15_Dorothy_127.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_129",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"Form-Axis\" (from *Ubik*) as an orthogonal time-axis along which he regressed to AD 70. He argues that this regression was not just subjective but a \"reversion to essence,\" reveali",
+      "title": "1976-09-15_Dorothy_129.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_135",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"profound mystery\" of his identity shift in 3-74, concluding that his \"PKD\" personality was a retroactive replacement for his authentic \"Thomas\" personality. He posits that the \"Urgr",
+      "title": "1976-09-15_Dorothy_135.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_141",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick outlines a radical \"Nine-Stage\" trajectory of the human soul's descent into and ascent out of the Black Iron Prison (BIP). He defines our world as a \"fake fake\"—a layered illusion where the initi",
+      "title": "1976-09-15_Dorothy_141.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_142",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his novel *Ubik* as an accurate depiction of the \"unscrambling\" of reality into Form I (Life/Real) and Form II (Dead/Hologram). He posits that Form I (Zebra) is a \"supralunar\" invader ",
+      "title": "1976-09-15_Dorothy_142.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_143",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"Yang\" principle (Zebra/Christ) as a \"persuading\" force that redirects the outcomes of the rigid, \"Yin\" world of cause and effect. He describes himself as a \"sharp-eyed crow\" or a ",
+      "title": "1976-09-15_Dorothy_143.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_146",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_146.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_147",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_147.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_148",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_148.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_153",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_153.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_159",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_159.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_169",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_169.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_172",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_172.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_178",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_178.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_190",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_190.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_191",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_191.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_203",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_203.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_204",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_204.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_210",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_210.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_217",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_217.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_222",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_222.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_26",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_26.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_28",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_29",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_29.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_30",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_30.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_50",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_50.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_96.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_97",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_97.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_98.txt"
+    }
+  ],
+  "related_terms": [],
+  "evidence": []
+}

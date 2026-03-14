@@ -1,0 +1,149 @@
+{
+  "name_id": "NAME_daniel",
+  "canonical_form": "Daniel",
+  "slug": "daniel",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "God is my judge",
+  "origin_language": "Hebrew",
+  "allusion_type": [
+    "biblical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Daniel (Hebrew: \"God is my judge\") is a historical figure appearing in Philip K. Dick's Exegesis. In the biblical tradition, Daniel is prophet and interpreter of dreams in babylon. Dream interpretation parallels PKD's visionary claims. Appears in 6 Exegesis passages. Associated with dictionary terms: Daniel. Context: \"Dick reconciles his dualistic visions (J-J vs.\"",
+  "full_description": null,
+  "mention_count": 6,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_biblical_daniel",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_44",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Daniel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick reconciles his dualistic visions (J-J vs. Zebra) with Hegelian monism, arguing that the \"Incarnation\" (Christ/Zebra) is the fusion of the finite and infinite that abolishes the \"sundering\" of wor",
+      "title": "1976-09-15_Dorothy_44.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_59",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Daniel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a \"3-level\" model of reality: (1) The Logos/Bible as a \"punched tape\" of ideas, (2) The World of Flesh/Nature, and (3) The Artificial/Technological World. He argues that our world (3) is",
+      "title": "1976-09-15_Dorothy_59.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_58",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Daniel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick embraces a Zoroastrian/Essene dualism where he is a \"warrior of light\" or \"infiltrator-agent\" from the supralunar world. He views his novels as a \"disinhibiting signal\" and argues that God must r",
+      "title": "1976-09-15_Dorothy_58.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_60",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Daniel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues his meta-analysis of \"victimhood,\" suggesting that by serving as \"bait,\" the victim forces evil to unmask itself for God's judgment. He explores the \"orthogonal\" convergence of his nove",
+      "title": "1976-09-15_Dorothy_60.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_04",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Daniel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical theory: humans are not \"fallen men\" but \"fallen angels\" with degenerated memories and powers. He views 3-74 as a \"pre-experience of the Parousia\" occurring out of sync with lin",
+      "title": "1976-09-15_Dorothy_04.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_50",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Daniel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"Voice\" he heard (St. Sophia) as Holy Wisdom/Christ/Holy Spirit, unifying them into a \"pluriform\" Trinity. He argues that he was \"adopted\" by the deity to play an historic role, us",
+      "title": "1976-09-15_Dorothy_50.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Daniel",
+      "slug": "daniel",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Brahman",
+      "slug": "brahman",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Gabriel",
+      "slug": "gabriel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plotinus",
+      "slug": "plotinus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Father",
+      "slug": "father",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Daniel",
+    "domain": "biblical",
+    "brief": "Prophet and interpreter of dreams in Babylon",
+    "etymology": "God is my judge",
+    "origin_language": "Hebrew",
+    "significance": "Dream interpretation parallels PKD's visionary claims",
+    "source_text": "Book of Daniel"
+  }
+}

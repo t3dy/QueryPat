@@ -7469,5 +7469,45 @@
     "reading_excerpt": null,
     "word_count": 998,
     "has_raw_text": true
+  },
+  {
+    "bio_id": 640,
+    "summary": "The 1978 realization that he has a \"childish but interesting\" mind that finds God in the trash.",
+    "date_start": "1978",
+    "date_end": null,
+    "event_type": "relationship",
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 643,
+    "summary": "The 1978 realization that \"St. Sophia will be born again\" (1984 target).",
+    "date_start": "1978",
+    "date_end": null,
+    "event_type": "vision",
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 630,
+    "summary": "The April 25, 1978 \"Still Small Voice\" experience.",
+    "date_start": "1978-04-25",
+    "date_end": null,
+    "event_type": "other",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 631,
+    "summary": "The financial record of April 25, 1978 (Checking/Savings notes).",
+    "date_start": "1978-04-25",
+    "date_end": null,
+    "event_type": "financial",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   }
 ]

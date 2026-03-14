@@ -1,0 +1,71 @@
+{
+  "name_id": "NAME_whitehead",
+  "canonical_form": "Whitehead",
+  "slug": "whitehead",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Descriptive surname",
+  "origin_language": "English",
+  "allusion_type": [
+    "philosophical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Whitehead (English: \"Descriptive surname\") is a historical figure appearing in Philip K. Dick's Exegesis. In the philosophical tradition, Whitehead is 20th century process philosopher; reality as events not substances. PKD's process theology draws on Whitehead's dynamic metaphysics. Appears in 2 Exegesis passages. Context: \"Dick explores the \"Absolute\" through the lens of process philosophers like Bohme and Driesch, viewing history as a dialectic where God \"makes himself.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_philosophical_whitehead",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_122",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Whitehead",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Absolute\" through the lens of process philosophers like Bohme and Driesch, viewing history as a dialectic where God \"makes himself.\" He describes a cosmic board game where a wise, b",
+      "title": "1976-09-15_Dorothy_122.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_40",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Whitehead",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes Hegel's \"three divisions of religion,\" placing himself and his 3-74 experience in the highest stage: \"Absolute Religion\" or Christianity, where the opposition between individuality an",
+      "title": "1976-09-15_Dorothy_40.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Whitehead",
+    "domain": "philosophical",
+    "brief": "20th century process philosopher; reality as events not substances",
+    "etymology": "Descriptive surname",
+    "origin_language": "English",
+    "significance": "PKD's process theology draws on Whitehead's dynamic metaphysics",
+    "source_text": "Process and Reality"
+  }
+}

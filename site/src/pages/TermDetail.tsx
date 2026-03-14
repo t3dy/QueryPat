@@ -3,6 +3,10 @@ import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { useData } from '../hooks/useData'
 import { formatSegmentTitle } from '../utils/formatTitle'
+import EntityLayout from '../components/EntityLayout'
+import ExploreFooter from '../components/ExploreFooter'
+import BacklinksPanel from '../components/BacklinksPanel'
+import HoverPreview from '../components/HoverPreview'
 
 interface CuratedBioEvent {
   id: string
@@ -108,22 +112,78 @@ export default function TermDetail() {
     )
   }
 
-  return (
-    <>
-      <div className="page-header">
-        <h1>{term.canonical_name}</h1>
-        <p>
-          <span className={`badge badge-${term.status}`}>{term.status}</span>
-          {' '}
-          <span className="confidence-label">{term.review_state}</span>
-          {' '}
-          {term.primary_category && <span className="badge badge-category">{term.primary_category}</span>}
-          <span style={{marginLeft:'1rem', color:'var(--text-muted)'}}>
-            {term.mention_count.toLocaleString()} mentions
-          </span>
-        </p>
-      </div>
+  const tags = [
+    ...(term.primary_category ? [{ label: term.primary_category, to: `/tag/${encodeURIComponent(term.primary_category.toLowerCase())}` }] : []),
+    ...(term.thematic_categories || []).map(c => ({ label: c, to: `/tag/${encodeURIComponent(c.toLowerCase())}` })),
+  ]
 
+  const exploreGroups = [
+    {
+      section: 'In the Dictionary',
+      items: term.related_terms.slice(0, 3).map(r => ({ label: r.name, to: `/dictionary/${r.slug}` })),
+      totalCount: term.related_terms.length,
+      seeAllTo: undefined,
+    },
+    {
+      section: 'In the Biography',
+      items: matchingEvents.slice(0, 3).map(ev => ({ label: `${ev.date}: ${ev.event}`, to: `/biography?q=${encodeURIComponent(term.canonical_name)}` })),
+      totalCount: matchingEvents.length,
+    },
+    {
+      section: 'In the Exegesis',
+      items: term.linked_segments.slice(0, 3).map(s => ({
+        label: formatSegmentTitle(s.title, s.seg_id),
+        to: `/segments/${s.seg_id}`,
+      })),
+      totalCount: term.linked_segments.length,
+    },
+  ]
+
+  const backlinkGroups = [
+    {
+      type: 'Exegesis Summaries',
+      items: term.linked_segments.map(s => ({
+        label: formatSegmentTitle(s.title, s.seg_id),
+        to: `/segments/${s.seg_id}`,
+        date: s.date_display,
+      })),
+    },
+    {
+      type: 'Biography Events',
+      items: matchingEvents.map(ev => ({
+        label: ev.event,
+        to: `/biography?q=${encodeURIComponent(term.canonical_name)}`,
+        date: ev.date,
+      })),
+    },
+    {
+      type: 'Dictionary Terms',
+      items: term.related_terms.map(r => ({
+        label: r.name,
+        to: `/dictionary/${r.slug}`,
+      })),
+    },
+  ]
+
+  return (
+    <EntityLayout
+      title={term.canonical_name}
+      entityType="term"
+      entityId={term.slug}
+      badges={[
+        { label: term.status, className: `badge-${term.status}` },
+        ...(term.primary_category ? [{ label: term.primary_category }] : []),
+      ]}
+      description={`${term.mention_count.toLocaleString()} mentions across the Exegesis`}
+      tags={tags}
+      backLink={{ label: 'Back to Dictionary', to: '/dictionary' }}
+      footer={
+        <>
+          <ExploreFooter groups={exploreGroups} />
+          <BacklinksPanel groups={backlinkGroups} />
+        </>
+      }
+    >
       {term.aliases.length > 0 && (
         <div className="detail-section">
           <h2>Also Known As</h2>
@@ -137,7 +197,7 @@ export default function TermDetail() {
           <p>
             First appearance: <strong>{term.first_appearance}</strong>
             {term.peak_usage_start && (
-              <span style={{marginLeft:'1.5rem'}}>
+              <span style={{ marginLeft: '1.5rem' }}>
                 Peak usage: <strong>{term.peak_usage_start}{term.peak_usage_end && term.peak_usage_end !== term.peak_usage_start ? `-${term.peak_usage_end}` : ''}</strong>
               </span>
             )}
@@ -149,7 +209,6 @@ export default function TermDetail() {
         <div className="detail-section">
           <h2>Description</h2>
           <ReactMarkdown>{
-            /* Strip verbatim Exegesis text that appears after "From the Exegesis:" */
             term.full_description.split(/\*\*From the Exegesis:\*\*/)[0].trim()
           }</ReactMarkdown>
         </div>
@@ -165,16 +224,11 @@ export default function TermDetail() {
       {term.related_terms.length > 0 && (
         <div className="detail-section">
           <h2>Related Terms</h2>
-          <div style={{display:'flex', flexWrap:'wrap', gap:'0.5rem'}}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
             {term.related_terms.slice(0, 30).map((r, i) => (
-              <Link
-                key={i}
-                to={`/dictionary/${r.slug}`}
-                className="badge badge-category"
-                style={{textDecoration:'none'}}
-              >
+              <HoverPreview key={i} to={`/dictionary/${r.slug}`} className="badge badge-category" style={{ textDecoration: 'none' }}>
                 {r.name}
-              </Link>
+              </HoverPreview>
             ))}
           </div>
         </div>
@@ -184,48 +238,42 @@ export default function TermDetail() {
         <div className="detail-section">
           <h2>Exegesis Summary Segments ({term.linked_segments.length})</h2>
           {term.linked_segments.map((seg, i) => (
-            <div key={i} className={`confidence-${seg.confidence}`} style={{marginBottom:'0.75rem'}}>
-              <div style={{display:'flex', gap:'0.75rem', alignItems:'baseline', flexWrap:'wrap'}}>
-                <Link to={`/segments/${seg.seg_id}`} style={{fontWeight:600}}>
+            <div key={i} className={`confidence-${seg.confidence}`} style={{ marginBottom: '0.75rem' }}>
+              <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'baseline', flexWrap: 'wrap' }}>
+                <HoverPreview to={`/segments/${seg.seg_id}`} style={{ fontWeight: 600 }}>
                   {formatSegmentTitle(seg.title, seg.seg_id)}
-                </Link>
-                <span style={{color:'var(--text-muted)', fontSize:'0.85rem'}}>{seg.date_display}</span>
+                </HoverPreview>
+                <span style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>{seg.date_display}</span>
                 <span className="confidence-label">{seg.match_type}</span>
               </div>
-              {seg.summary && <p style={{fontSize:'0.85rem', color:'var(--text-secondary)', marginTop:'0.25rem'}}>{seg.summary}</p>}
+              {seg.summary && <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.25rem' }}>{seg.summary}</p>}
             </div>
           ))}
         </div>
       )}
 
-      {/* Evidence passages hidden — verbatim PKD text not displayed */}
-
       {matchingEvents.length > 0 && (
         <div className="detail-section">
           <h2>Related Biography Events ({matchingEvents.length})</h2>
           {matchingEvents.map(ev => (
-            <div key={ev.id} className="card" style={{marginBottom:'0.75rem'}}>
-              <div style={{display:'flex', gap:'0.75rem', alignItems:'baseline', flexWrap:'wrap'}}>
-                <strong style={{fontSize:'0.85rem'}}>{ev.date}</strong>
+            <div key={ev.id} className="card" style={{ marginBottom: '0.75rem' }}>
+              <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'baseline', flexWrap: 'wrap' }}>
+                <strong style={{ fontSize: '0.85rem' }}>{ev.date}</strong>
                 <span className="badge badge-category">{ev.category}</span>
                 <span className="importance-dots">{'●'.repeat(ev.importance)}</span>
               </div>
-              <p style={{fontSize:'0.9rem', marginTop:'0.35rem'}}>{ev.event}</p>
+              <p style={{ fontSize: '0.9rem', marginTop: '0.35rem' }}>{ev.event}</p>
               <div className="card-meta">
                 {ev.location && <span>{ev.location}</span>}
                 <span>{ev.source}</span>
               </div>
             </div>
           ))}
-          <Link to={`/biography?q=${encodeURIComponent(term.canonical_name)}`} style={{fontSize:'0.9rem'}}>
+          <Link to={`/biography?q=${encodeURIComponent(term.canonical_name)}`} style={{ fontSize: '0.9rem' }}>
             View all in Biography &rarr;
           </Link>
         </div>
       )}
-
-      <div style={{marginTop:'2rem', paddingTop:'1rem', borderTop:'1px solid var(--border-light)'}}>
-        <Link to="/dictionary">Back to Dictionary</Link>
-      </div>
-    </>
+    </EntityLayout>
   )
 }

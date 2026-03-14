@@ -1,0 +1,116 @@
+{
+  "name_id": "NAME_aristotle",
+  "canonical_form": "Aristotle",
+  "slug": "aristotle",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Best purpose",
+  "origin_language": "Greek (Aristos + telos)",
+  "allusion_type": [
+    "classical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Aristotle (Greek (Aristos + telos): \"Best purpose\") is a historical figure appearing in Philip K. Dick's Exegesis. In the classical tradition, Aristotle is philosopher of substance and form; plato's student. PKD engages with Aristotelian categories when discussing substance and form. Appears in 3 Exegesis passages. Associated with dictionary terms: Aristotle. Context: \"Dick identifies the \"Holy Spirit\" as a collective immortal Light Body that re-entered him to stimulate his \"Third Soul\" (Aristotelian/immortal).\"",
+  "full_description": null,
+  "mention_count": 3,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_classical_aristotle",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_26",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Aristotle",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Holy Spirit\" as a collective immortal Light Body that re-entered him to stimulate his \"Third Soul\" (Aristotelian/immortal). He draws a parallel between his 1974 experience and the",
+      "title": "U_Claudia_26.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_54",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Aristotle",
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that 3-74 was a \"theolepsy\" (divine possession) where St. Sophia \"avatared\" herself through him to prepare the world for the Parousia. He interprets the fall of the \"Tyrant\" (Nixon) as ",
+      "title": "1976-09-15_Dorothy_54.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_142",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Aristotle",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his novel *Ubik* as an accurate depiction of the \"unscrambling\" of reality into Form I (Life/Real) and Form II (Dead/Hologram). He posits that Form I (Zebra) is a \"supralunar\" invader ",
+      "title": "1976-09-15_Dorothy_142.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Aristotle",
+      "slug": "aristotle",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Aristotle",
+    "domain": "classical",
+    "brief": "Philosopher of substance and form; Plato's student",
+    "etymology": "Best purpose",
+    "origin_language": "Greek (Aristos + telos)",
+    "significance": "PKD engages with Aristotelian categories when discussing substance and form",
+    "source_text": "Metaphysics; Categories"
+  }
+}

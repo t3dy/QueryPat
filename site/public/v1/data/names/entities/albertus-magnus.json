@@ -1,0 +1,38 @@
+{
+  "name_id": "NAME_albertus-magnus",
+  "canonical_form": "Albertus Magnus",
+  "slug": "albertus-magnus",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Albertus Magnus is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Conclusion of the letter to Henry Korman.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Henry_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Albertus Magnus",
+      "date_display": "February 29, 1975",
+      "summary": "Conclusion of the letter to Henry Korman. Dick discusses the alchemical transmutation as a spontaneous, irreversible psychic process and links his \"teletype\" communication with Erasmus to the AI syste",
+      "title": "U_Henry_02.txt"
+    }
+  ],
+  "related_terms": []
+}

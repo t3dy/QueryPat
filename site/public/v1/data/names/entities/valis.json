@@ -1,0 +1,135 @@
+{
+  "name_id": "NAME_valis",
+  "canonical_form": "VALIS",
+  "slug": "valis",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "VALIS is a divine or mythological figure referenced in Philip K. Dick's Exegesis. Appears in 4 Exegesis passages. Associated with dictionary terms: Valis. Context: \"Dick formulaizes a law of \"Cosmic Justice\" (Ma'at/Tao): when an oppressor (B) \"oversteps\" its limit against an innocent victim (C), it triggers a \"justification\" by Valis that confers divinity (Apotheosis) on the victim and destroys the oppressor.\"",
+  "full_description": null,
+  "mention_count": 4,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Future PKD",
+      "type": "alternate_form"
+    },
+    {
+      "text": "God",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Ma'at",
+      "type": "alternate_form"
+    },
+    {
+      "text": "St. Sophia",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Tao",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_79",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "VALIS",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formulaizes a law of \"Cosmic Justice\" (Ma'at/Tao): when an oppressor (B) \"oversteps\" its limit against an innocent victim (C), it triggers a \"justification\" by Valis that confers divinity (Apothe",
+      "title": "1976-09-15_Dorothy_79.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_07",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "VALIS",
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that the return of St. Sophia manifests as a \"network\" of individuals acting on divine impulse. He connects the Parousia to a \"Time Reversal\" (the Hobart Effect) where entropic time bec",
+      "title": "1976-09-15_Dorothy_07.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_80",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "VALIS",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that 3-74 was the planting of a \"Micro-Cosmos Seed\" (Thomas/Telos) within him to replace the \"Scramble World\" of the Empire. He views his writing and experiences as \"world-creation,\" wh",
+      "title": "1976-09-15_Dorothy_80.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_92",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "VALIS",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical new theory: \"Valis\" and \"Thomas\" are not external gods or ancient people, but PKD's own \"future evolved self\" traveling backward in time via the gene-pool. This \"Omega Man\" int",
+      "title": "1976-09-15_Dorothy_92.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Valis",
+      "slug": "valis",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Apollo",
+      "slug": "apollo",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Satan",
+      "slug": "satan",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Empedocles",
+      "slug": "empedocles",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Chrissy",
+      "slug": "chrissy",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Orphic",
+      "slug": "orphic",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

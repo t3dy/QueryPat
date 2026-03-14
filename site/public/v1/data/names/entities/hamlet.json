@@ -1,0 +1,90 @@
+{
+  "name_id": "NAME_hamlet",
+  "canonical_form": "Hamlet",
+  "slug": "hamlet",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Hamlet is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 3 Exegesis passages. Context: \"Dick identifies the \"Second Advent\" as a \"Secret Kingdom\" existing in eternity while the \"usurper\" (Satan/Empire) remains in control of linear time.\"",
+  "full_description": null,
+  "mention_count": 3,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "King Pentheus",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Jesus",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_15",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hamlet",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Second Advent\" as a \"Secret Kingdom\" existing in eternity while the \"usurper\" (Satan/Empire) remains in control of linear time. He uses a \"Regicide\" story (the rightful heir retur",
+      "title": "U_Claudia_15.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_03",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hamlet",
+      "date_display": "September 15, 1975",
+      "summary": "Dick explores the \"Rome Two\" superimposition theory, identifying the Nixon administration as the return of the Roman Empire and the fall of Nixon as a true historical victory for Christ. He introduces",
+      "title": "1975-09-15_SECTION_012_03.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_08",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hamlet",
+      "date_display": "September 15, 1976",
+      "summary": "Dick reveals a \"steganographic\" reading of his own work, specifically the \"Felix\" message hidden within *Flow My Tears*. He argues that the Parousia required a \"topological superimposition\" (Rome Two)",
+      "title": "1976-09-15_Dorothy_08.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Empedocles",
+      "slug": "empedocles",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

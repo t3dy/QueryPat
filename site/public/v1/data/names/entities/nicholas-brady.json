@@ -1,0 +1,116 @@
+{
+  "name_id": "NAME_nicholas-brady",
+  "canonical_form": "Nicholas Brady",
+  "slug": "nicholas-brady",
+  "entity_type": "character",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Nicholas Brady is a fictional character referenced in Philip K. Dick's Exegesis. Appears in 4 Exegesis passages. First appears in *To Scare the Dead*. Context: \"Dick identifies his experience as a literal fulfillment of Biblical promise (Psalm 116) and a commissioning into the class of \"prophets.\"",
+  "full_description": null,
+  "mention_count": 4,
+  "first_work": "To Scare the Dead",
+  "work_list": [
+    "To Scare the Dead"
+  ],
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_23",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Nicholas Brady",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as a literal fulfillment of Biblical promise (Psalm 116) and a commissioning into the class of \"prophets.\" He concludes that \"Santa Sophia\" (Holy Wisdom) is returning to",
+      "title": "U_Claudia_23.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_24",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Nicholas Brady",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick plots his next novel (*To Scare the Dead*), revolving around the \"Possession\" of a government agent (Nicholas Brady) by an ancient Essene spirit. He defines \"Christian Anamnesis\" as the \"Remembra",
+      "title": "U_Claudia_24.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_35",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Nicholas Brady",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his role as a \"Wolf in Sheep’s Clothing\" (or vice versa), covertly delivering the Gospel to Marxists through his fiction. He identifies his \"Spirit Guide\" as St. Luke (the \"Beloved Phy",
+      "title": "U_Claudia_35.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-04_SECTION_006_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Nicholas Brady",
+      "date_display": "March 4, 1975",
+      "summary": "Dick writes to Dr. Robert Ornstein, framing his mystical experience as the clinical activation of his brain's right hemisphere. He outlines the premise of his novel *TO SCARE THE DEAD* (VALIS), featur",
+      "title": "1975-03-04_SECTION_006_01.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Essene",
+      "slug": "essene",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Holy Spirit",
+      "slug": "holy-spirit",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas Aquinas",
+      "slug": "thomas-aquinas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

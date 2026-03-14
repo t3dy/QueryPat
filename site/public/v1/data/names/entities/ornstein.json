@@ -1,0 +1,45 @@
+{
+  "name_id": "NAME_ornstein",
+  "canonical_form": "Ornstein",
+  "slug": "ornstein",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Ornstein is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_27",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ornstein",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" He explores the brain's \"Right Hemisphere\" as the location of",
+      "title": "U_Claudia_27.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Kathy",
+      "slug": "kathy",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

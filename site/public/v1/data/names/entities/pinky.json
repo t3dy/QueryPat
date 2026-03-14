@@ -1,0 +1,279 @@
+{
+  "name_id": "NAME_pinky",
+  "canonical_form": "Pinky",
+  "slug": "pinky",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Pinky is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 16 Exegesis passages. Associated with dictionary terms: Pinky. Context: \"Dick identifies the \"Second Advent\" as a \"Secret Kingdom\" existing in eternity while the \"usurper\" (Satan/Empire) remains in control of linear time.\"",
+  "full_description": null,
+  "mention_count": 16,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Misty",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Ralph",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_15",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Second Advent\" as a \"Secret Kingdom\" existing in eternity while the \"usurper\" (Satan/Empire) remains in control of linear time. He uses a \"Regicide\" story (the rightful heir retur",
+      "title": "U_Claudia_15.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_14",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Miracle of Transubstantiation\" as the mechanism by which God sanctifies and replaces ordinary reality (\"trash of the alley\"). He concludes that his experiences of the \"Logos\" were",
+      "title": "U_Claudia_14.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_22",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick proposes a \"Light Body\" theory of immortality: a 2,000-year-old collective \"Bioplasmic\" entity (the fellowship of Christ) re-enters human hosts through the 3rd eye/pineal gland. He identifies the",
+      "title": "U_Claudia_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "February 27, 1975",
+      "summary": "Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death. He connects this act to broader cosmological ideas from Empedocles about the necessity of strif",
+      "title": "1975-02-27_Claudia_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Tony_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "circa 1975-1976",
+      "summary": "Draft of a memorial piece for Tony Boucher. Dick explores Boucher's fear of the universe, his role as a mentor, and the startling claim that his cat Pinky was Boucher's reincarnation.",
+      "title": "U_Tony_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_30",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores \"Immanence\" using Parmenides' \"All\" and Kozyrev's time theory, concluding that God is total in every \"micropoint.\" He argues that the Father (Yahweh/Judgment) took his place during the 1",
+      "title": "U_Claudia_30.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_13",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the Egyptian deity Ptah as the \"Immanent Mind\" and \"Logos\" doctrine precursor. He argues that the \"Miracle of Transubstantiation\" (the Mass) is a literal reality he witnessed in 1974, ",
+      "title": "U_Claudia_13.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_34",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as a literal \"Passover Epiphany\" occurring in August 1974, coinciding with Nixon’s resignation. He concludes that God used \"plagues\" to pull down the modern Egypt (Nixon",
+      "title": "U_Claudia_34.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_49",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Astraea/Virgo\" (Justice) as the entity that healed his blood pressure and promised judgment by fire for the despoilers of Earth (Vietnam). He reinterprets reality as a \"Two-Player Gam",
+      "title": "U_Claudia_49.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_33",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Passover/Exodus\" as the primary paradigm for his 1974 experience, concluding that Yahweh (the Nature-God) intervened from \"outside the state\" to free him. He reinterprets his cat ",
+      "title": "U_Claudia_33.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick elaborates on the \"Kingship of God\" as a subtle, behind-the-scenes seizing of power. He uses metaphors of rescued animals and a \"Lord of the Flies\" scenario to explain the intervention of Truth a",
+      "title": "U_Claudia_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_47",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick elaborates on the \"Pylon Doorway\" (Golden Rectangle) vision from 1974, identifying it as the threshold to the \"Spiritual Universe\" (Minoan/Aegean world). He reinterprets Pinky’s death as a \"surro",
+      "title": "U_Claudia_47.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "February 27, 1975",
+      "summary": "The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time. He claims this retrograde m",
+      "title": "1975-02-27_Claudia_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_56",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "September 15, 1976",
+      "summary": "In one of his most affecting claims, Dick identifies his deceased cat, Pinky, as a \"surrogate sacrifice\" and manifestation of Zebra who took the \"blow\" (death) intended for Dick in 3-74. He explores t",
+      "title": "1976-09-15_Dorothy_56.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_123",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "September 15, 1976",
+      "summary": "Dick clarifies his \"3-element schema\" (God, the Artifact, and Man) to explain the hostility of the world and Christ's suffering. He argues that the artifact's world has turned \"feral\" even to its crea",
+      "title": "1976-09-15_Dorothy_123.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_96",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Pinky",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets several dreams and \"ciphers\" (Felix, Glossa) as a single, overwhelming message from Zebra: \"God loves us.\" He concludes that his novel *Flow My Tears* was \"completed\" by a divine inser",
+      "title": "1976-09-15_Dorothy_96.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Moses",
+      "slug": "moses",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Empedocles",
+      "slug": "empedocles",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

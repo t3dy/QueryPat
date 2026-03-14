@@ -147,6 +147,12 @@ def run_stage_2(db: sqlite3.Connection, source: Path):
     ingest_cooccurrences(db, source)
 
 
+def run_stage_2b(db: sqlite3.Connection, source: Path):
+    """Stage 2b: Corpus discovery (terms, people, works, events not yet in DB)."""
+    from discover.discovery_pipeline import run as run_discovery
+    run_discovery(db, source)
+
+
 def run_stage_3(db: sqlite3.Connection, source: Path):
     """Stage 3: LLM enrichment (skippable)."""
     print("\n" + "=" * 60)
@@ -320,6 +326,8 @@ def main():
                         help='Validation report only')
     parser.add_argument('--fresh', action='store_true',
                         help='Drop and recreate database')
+    parser.add_argument('--discover', action='store_true',
+                        help='Run Stage 2b corpus discovery after linking')
 
     args = parser.parse_args()
 
@@ -352,6 +360,10 @@ def main():
 
     # Stage 2: always run
     run_stage_2(db, args.source)
+
+    # Stage 2b: corpus discovery (optional, outputs JSON review files)
+    if args.discover:
+        run_stage_2b(db, args.source)
 
     if args.deterministic_only:
         run_audit(db)

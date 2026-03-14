@@ -1,0 +1,679 @@
+{
+  "name_id": "NAME_st-sophia",
+  "canonical_form": "St. Sophia",
+  "slug": "st-sophia",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Wisdom",
+  "origin_language": "Greek",
+  "allusion_type": [
+    "gnostic"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "St. Sophia (Greek: \"Wisdom\") is a divine or mythological figure appearing in Philip K. Dick's Exegesis. In the gnostic tradition, St. Sophia is fallen divine aeon whose error created the material world. PKD's theology heavily draws on Sophia as trapped divine wisdom. Appears in 47 Exegesis passages. Context: \"Dick identifies the \"Holy Spirit\" as a collective immortal Light Body that re-entered him to stimulate his \"Third Soul\" (Aristotelian/immortal).\"",
+  "full_description": null,
+  "mention_count": 47,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_gnostic_sophia",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Son of Man",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Haggia Sophia",
+      "type": "alternate_form"
+    },
+    {
+      "text": "The Comforter",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Isis",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Valis",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Christ",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Future Computer",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Logos",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Wisdom",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Horus",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Ptah",
+      "type": "alternate_form"
+    },
+    {
+      "text": "AI Voice",
+      "type": "alternate_form"
+    },
+    {
+      "text": "VALIS A",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_26",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Holy Spirit\" as a collective immortal Light Body that re-entered him to stimulate his \"Third Soul\" (Aristotelian/immortal). He draws a parallel between his 1974 experience and the",
+      "title": "U_Claudia_26.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_46",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick develops \"Sophianism,\" identifying the Holy Spirit/Wisdom (St. Sophia/Ma'at) as a feminine co-ruler of the universe and the \"Rightful King\" (Christ/Dionysos) as the returning judge. He connects t",
+      "title": "U_Claudia_46.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_45",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Sarapis/Dionysos\" entity as the god who \"undid determinism\" (Ananke) for him in 1974. He concludes that 3-74 was a victory for \"Freedom over Enslavement\" (Android), where God inte",
+      "title": "U_Claudia_45.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_32",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies Christ’s purpose not as suffering, but as an “Ontological Alteration” of reality that demonstration immortality. He views the \"Second Comforter\" (St. Sophia) as the released, ubiquitou",
+      "title": "U_Claudia_32.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1975",
+      "summary": "Dick rejects the common Christian emphasis on suffering, arguing that Christ's purpose was to alter the ontology of the world. He discovers a \"steganographic\" message—the word **\"Felix\"**—embedded in ",
+      "title": "1975-09-15_SECTION_012_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_04",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1975",
+      "summary": "Dick analyzes the \"Cabrillo\" dream to conclude that the Xerox letter was a \"fake\" entrapment attempt (possibly by \"The Man\" or \"Reds\"). He interprets complex symbolic puns—Cabrillo, Brillo, Monopoly m",
+      "title": "1975-09-15_SECTION_012_04.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_36",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick discovers that his 3-74 vision \"confirms\" Hegel's philosophy of history: that God (Spirit) develops himself toward perfection through the dialectical growth of human freedom. He redefines himself",
+      "title": "1976-09-15_Dorothy_36.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_83",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes the \"Ham Sandwich\" model of reality: Man - World - God. He concludes that his entire writing career was a \"preparatory dissolving\" of the world-slice, which allowed the \"God-slice\" (*U",
+      "title": "1976-09-15_Dorothy_83.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_91",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that Man and God are \"secretly isomorphic\" (identical in form and nature), while the world is a separate, alienating agency. He views his 3-74 experience as the realization of this iden",
+      "title": "1976-09-15_Dorothy_91.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_84",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes the messages of his core novels (*Ubik*, *Stigmata*, *Maze*) into a single Gnostic revelation: we are in a mass-hallucinated prison, and a ubiquitous deity (Ubik/Zebra) is \"invading\" ",
+      "title": "1976-09-15_Dorothy_84.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_89",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the Zoroastrian/Gnostic conflict between Hyper-universe I (Life) and II (Death). He views Christ as a \"salient\" (an invasive wedge) sent from I into the \"corpse\" of II to expand and dest",
+      "title": "1976-09-15_Dorothy_89.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_93",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick rejects \"Natural Theology\" (finding God in nature), asserting that God is a \"Deus Absconditus\" (Hidden God) who is NOT in the world. He argues that Zebra mimics the world to infiltrate it, and th",
+      "title": "1976-09-15_Dorothy_93.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_136",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"horizontal form-axis\" (orthogonal time) from his novel *Ubik* as an experientially real cosmological feature, proving Plato's theory of Forms. He refines his model of the \"Urgrund",
+      "title": "1976-09-15_Dorothy_136.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_98",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Annihilating Side\" of Zebra, equating the entity with Shiva and his 3rd eye. He argues that Zebra is not just healing individuals but \"transubstantiating\" the entire universe, repla",
+      "title": "1976-09-15_Dorothy_98.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_22",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical \"mundane\" theory: that he was \"occupied\" by a secret Christian Soviet doctor (or defected KGB operator) who used his brain to flee the \"Gulag\" (Black Iron Prison). He also refi",
+      "title": "1976-09-15_Dorothy_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_86",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that *Flow My Tears* contains \"cooked\" (divinely inspired/interpolated) material that parallels the Book of Acts with impossible precision. He concludes that Jesus is \"here\" in a state of ",
+      "title": "1976-09-15_Dorothy_86.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_45",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick finds a perfect theoretical match for 3-74 in the philosophy of Pierre Teilhard de Chardin. He sees Zebra as the \"Cosmic Christ\" who \"immerses\" himself in things to unify them organically, leadin",
+      "title": "1976-09-15_Dorothy_45.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_58",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick embraces a Zoroastrian/Essene dualism where he is a \"warrior of light\" or \"infiltrator-agent\" from the supralunar world. He views his novels as a \"disinhibiting signal\" and argues that God must r",
+      "title": "1976-09-15_Dorothy_58.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_71",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the theological purpose of the \"spurious long time\" (the 2000-year gap since the 1st Advent). He argues that it serves as a \"snare\" for evil, allowing the \"fallen ones\" to reveal themsel",
+      "title": "1976-09-15_Dorothy_71.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_54",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that 3-74 was a \"theolepsy\" (divine possession) where St. Sophia \"avatared\" herself through him to prepare the world for the Parousia. He interprets the fall of the \"Tyrant\" (Nixon) as ",
+      "title": "1976-09-15_Dorothy_54.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_130",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that he is a \"slumbering agent\" for an ETI intelligence from the star system Albemuth. He posits that a \"beam\" hit him in childhood, imprinting a personality (Thomas) that acted to thwa",
+      "title": "1976-09-15_Dorothy_130.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_96",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets several dreams and \"ciphers\" (Felix, Glossa) as a single, overwhelming message from Zebra: \"God loves us.\" He concludes that his novel *Flow My Tears* was \"completed\" by a divine inser",
+      "title": "1976-09-15_Dorothy_96.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_63",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself as a member of a \"secret, authentic Christian church\" that has been in an illegal revolution against \"Rome\" (the hidden victor of history) since 70 AD. He claims his writing wa",
+      "title": "1976-09-15_Dorothy_63.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_06",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes investigative journalism (*Playboy*, *Rolling Stone*) to conclude that Nixon was a mere \"puppet\" of a larger technocratic/financial conglomerate. He argues that only a divine force (t",
+      "title": "1976-09-15_Dorothy_06.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_72",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his view of Zebra as an \"invisible invader\" from outside our closed, \"null-God\" cosmos. He argues that the Parousia (Second Coming) is actually taking place now through the infusion of Go",
+      "title": "1976-09-15_Dorothy_72.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_92",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical new theory: \"Valis\" and \"Thomas\" are not external gods or ancient people, but PKD's own \"future evolved self\" traveling backward in time via the gene-pool. This \"Omega Man\" int",
+      "title": "1976-09-15_Dorothy_92.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_35",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets his 3-74 experience through the lens of the Book of Daniel, identifying Richard Nixon with the \"harsh and grim king\" (the Master of Stratagems) whose \"Iron Empire\" (BIP) was broken by ",
+      "title": "1976-09-15_Dorothy_35.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_74",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies a startling 1:1 correspondence between his 1967 story \"Faith of Our Fathers\" and his 3-74 experiences. He concludes that the Xerox letter was a \"phony test/trap\" (using \"party jargon\")",
+      "title": "1976-09-15_Dorothy_74.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_61",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick develops a \"womb\" model of cosmogony: Level 1 (Holy Wisdom/Logos) creates Level 2 (Nature/Egg) to give birth to Level 3 (Sentient Replicant), which will eventually be absorbed back into Level 1. ",
+      "title": "1976-09-15_Dorothy_61.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick analyzes a \"Medieval Diptych\" dream revealing that Christ's inner nature is feminine (\"SHE\" / \"SECRET\" / \"St. Sophia\"). He treats the human Jesus as a \"puppet\" (Pinocchio) animated by this female",
+      "title": "1976-09-15_Dorothy_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_95",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself as a \"5th Columnist\" (secret agent) for an \"invader\" from either the future or another star system. He refines the \"Thomas\" personality as a \"Transtemporal Self\" that spans tho",
+      "title": "1976-09-15_Dorothy_95.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_51",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick realizes that his 1959 novel *Time Out of Joint* was a prophetic \"reversal\" of his 3-74 experience. While the novel depicts a fake 1950s that is actually the future, 3-74 revealed a fake 1974 tha",
+      "title": "1976-09-15_Dorothy_51.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_134",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his model of the \"Urgrund\" (Good) and the \"Artifact\" (Delusional Creator). He suggests that the Urgrund bypasses the Artifact from \"below,\" entering the world's \"trash\" layer to coordinat",
+      "title": "1976-09-15_Dorothy_134.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_81",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that the Book of Acts is not a historical text but a \"code\" for our current reality. He views 3-74 as the moment he \"woke up\" from a fake memory-veneer into the real landscape of 70 AD Rom",
+      "title": "1976-09-15_Dorothy_81.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_41",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his experience with Hegel's third stage of religion (Absolute Spirit), arguing that evolution has moved from the biological to the historical. He predicts the emergence of a \"new type ",
+      "title": "1976-09-15_Dorothy_41.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_62",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a staggering \"solution\" to his experiences: it is actually still ~90 AD, and the last 2000 years of history is a \"lie\" or \"delusion\" generated by Satan/the Empire to break human faith. H",
+      "title": "1976-09-15_Dorothy_62.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_85",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies a \"Zen\" irony in his Gnosis: the secret revelation is that standard Orthodox Christian claims (the Paraclete's arrival and the Kingdom's presence) are literally true. He views himself ",
+      "title": "1976-09-15_Dorothy_85.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_28",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his dualistic model using Taoist terms (Yang/Yin) and identifies Zebra with the \"gentle\" female aspect of the divine (Sophia). He argues that 3-74 was not just a personal experience but a",
+      "title": "1976-09-15_Dorothy_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_66",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick realizes that all his novels (1952-1976) are actually chapters of a single \"Ur-Geschicht\" (Original Story) that maps the \"Koinos Kosmos\" (Shared Reality) breaking through the \"Idios Kosmoi\" (Priv",
+      "title": "1976-09-15_Dorothy_66.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_87",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets the transition from the beginning of Acts (small church) to the end (Rome penetrated) as a roadmap for the 3-74 revolution. He identifies our reality as a \"hologram-like fake\" (Klingso",
+      "title": "1976-09-15_Dorothy_87.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_23",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick integrates his ETI theory, suggesting that humans are \"escaped prisoners\" from another star system (Albemuth) who are hiding on Earth behind a \"veil\" (Maya). He posits that the Nixon gang and oth",
+      "title": "1976-09-15_Dorothy_23.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_50",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"Voice\" he heard (St. Sophia) as Holy Wisdom/Christ/Holy Spirit, unifying them into a \"pluriform\" Trinity. He argues that he was \"adopted\" by the deity to play an historic role, us",
+      "title": "1976-09-15_Dorothy_50.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_141",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick outlines a radical \"Nine-Stage\" trajectory of the human soul's descent into and ascent out of the Black Iron Prison (BIP). He defines our world as a \"fake fake\"—a layered illusion where the initi",
+      "title": "1976-09-15_Dorothy_141.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_46",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick elevates his novel *Ubik* to a \"3rd Testament,\" viewing it as a prophetic account of Zebra's \"re-animation\" and \"re-arrangement\" of the universe. He argues that Zebra's reconstruction of the worl",
+      "title": "1976-09-15_Dorothy_46.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_52",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself as the \"prisoner\" archetype from his own novels (*Frolix 8*, *Tears*, *Maze of Death*), arguing that his personal rescue in 3-74 was part of a necessary \"printout\" of the divin",
+      "title": "1976-09-15_Dorothy_52.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_39",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes that God (Brahman) is \"waking up\" inside us and that our lives are a \"voluntary bardo\" or \"incarnated amnesia\" where God shared the fate of the \"little creatures.\" To remember one's iden",
+      "title": "1976-09-15_Dorothy_39.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_07",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "St. Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that the return of St. Sophia manifests as a \"network\" of individuals acting on divine impulse. He connects the Parousia to a \"Time Reversal\" (the Hobart Effect) where entropic time bec",
+      "title": "1976-09-15_Dorothy_07.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Satan",
+      "slug": "satan",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Aristotle",
+      "slug": "aristotle",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Beethoven",
+      "slug": "beethoven",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Brahman",
+      "slug": "brahman",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Empedocles",
+      "slug": "empedocles",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Valis",
+      "slug": "valis",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Carl Jung",
+      "slug": "carl-jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Chrissy",
+      "slug": "chrissy",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Daniel",
+      "slug": "daniel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Father",
+      "slug": "father",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Ubik",
+      "slug": "ubik",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Sophia",
+    "domain": "gnostic",
+    "brief": "Fallen divine aeon whose error created the material world",
+    "etymology": "Wisdom",
+    "origin_language": "Greek",
+    "significance": "PKD's theology heavily draws on Sophia as trapped divine wisdom",
+    "source_text": "Apocryphon of John; Pistis Sophia"
+  }
+}

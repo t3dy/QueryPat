@@ -1,0 +1,66 @@
+{
+  "name_id": "NAME_rog-phillips",
+  "canonical_form": "Rog Phillips",
+  "slug": "rog-phillips",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Rog Phillips is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick explores the \"Fallen\" state of humanity through the metaphor of a fairy child in the mortal world (*The Red Feather*).\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_03",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Rog Phillips",
+      "date_display": "February 27, 1975",
+      "summary": "Dick explores the \"Fallen\" state of humanity through the metaphor of a fairy child in the mortal world (*The Red Feather*). He concludes that orthogonal time leads back to a childhood state where the ",
+      "title": "1975-02-27_Claudia_03.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Rog Phillips",
+      "date_display": "February 27, 1975",
+      "summary": "The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time. He claims this retrograde m",
+      "title": "1975-02-27_Claudia_01.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name_id": "NAME_jakob-bohme",
+  "canonical_form": "Jakob Bohme",
+  "slug": "jakob-bohme",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Jakob Bohme is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick explores the \"Absolute\" through the lens of process philosophers like Bohme and Driesch, viewing history as a dialectic where God \"makes himself.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_122",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jakob Bohme",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Absolute\" through the lens of process philosophers like Bohme and Driesch, viewing history as a dialectic where God \"makes himself.\" He describes a cosmic board game where a wise, b",
+      "title": "1976-09-15_Dorothy_122.txt"
+    }
+  ],
+  "related_terms": []
+}

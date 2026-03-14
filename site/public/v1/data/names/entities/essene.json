@@ -1,0 +1,68 @@
+{
+  "name_id": "NAME_essene",
+  "canonical_form": "Essene",
+  "slug": "essene",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Essene is a historical figure referenced in Philip K. Dick's Exegesis. Associated with dictionary terms: Essene. Context: \"Dick plots his next novel (*To Scare the Dead*), revolving around the \"Possession\" of a government agent (Nicholas Brady) by an ancient Essene spirit.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Qumran community",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_24",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Essene",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick plots his next novel (*To Scare the Dead*), revolving around the \"Possession\" of a government agent (Nicholas Brady) by an ancient Essene spirit. He defines \"Christian Anamnesis\" as the \"Remembra",
+      "title": "U_Claudia_24.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Essene",
+      "slug": "essene",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Holy Spirit",
+      "slug": "holy-spirit",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

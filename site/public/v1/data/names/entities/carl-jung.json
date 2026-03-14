@@ -1,0 +1,77 @@
+{
+  "name_id": "NAME_carl-jung",
+  "canonical_form": "Carl Jung",
+  "slug": "carl-jung",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Carl Jung is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Associated with dictionary terms: Carl Jung. Context: \"Dick performs a clinical meta-analysis of his own \"psychosis,\" suggesting that 3-74 was a \"biological adaptative system\" where religious archetypes (Brahman/Christ) acted as a \"metabolic toxin\" that destroyed his paranoid complex.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "John W. Perry",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Carl Jung",
+      "date_display": "September 15, 1976",
+      "summary": "Dick performs a clinical meta-analysis of his own \"psychosis,\" suggesting that 3-74 was a \"biological adaptative system\" where religious archetypes (Brahman/Christ) acted as a \"metabolic toxin\" that d",
+      "title": "1976-09-15_Dorothy_47.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_52",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Carl Jung",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself as the \"prisoner\" archetype from his own novels (*Frolix 8*, *Tears*, *Maze of Death*), arguing that his personal rescue in 3-74 was part of a necessary \"printout\" of the divin",
+      "title": "1976-09-15_Dorothy_52.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Carl Jung",
+      "slug": "carl-jung",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

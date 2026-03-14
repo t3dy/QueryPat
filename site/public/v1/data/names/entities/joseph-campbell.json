@@ -1,0 +1,171 @@
+{
+  "name_id": "NAME_joseph-campbell",
+  "canonical_form": "Joseph Campbell",
+  "slug": "joseph-campbell",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Joseph Campbell is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 7 Exegesis passages. Context: \"Dick identifies the \"Second Advent\" as a \"Secret Kingdom\" existing in eternity while the \"usurper\" (Satan/Empire) remains in control of linear time.\"",
+  "full_description": null,
+  "mention_count": 7,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_15",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Joseph Campbell",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Second Advent\" as a \"Secret Kingdom\" existing in eternity while the \"usurper\" (Satan/Empire) remains in control of linear time. He uses a \"Regicide\" story (the rightful heir retur",
+      "title": "U_Claudia_15.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_28",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Joseph Campbell",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"Lived Myth\" (Joseph Campbell) and \"Ma'at\" (Right Order) as keys to his 1974 experience. He identifies the \"Xerox Letter\" as a ritual repudiation of materialism and a transformation ",
+      "title": "U_Claudia_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_13",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Joseph Campbell",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the Egyptian deity Ptah as the \"Immanent Mind\" and \"Logos\" doctrine precursor. He argues that the \"Miracle of Transubstantiation\" (the Mass) is a literal reality he witnessed in 1974, ",
+      "title": "U_Claudia_13.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_18",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Joseph Campbell",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick links the \"Spirit of Truth\" (the inner voice) to his high school physics test, concluding that it provides \"absolute for sure intervention.\" He interprets his novel *Flow My Tears* as a revealed ",
+      "title": "U_Claudia_18.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_12",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Joseph Campbell",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick proposes a \"Brain Colony\" or \"Grain Brain\" model of the universe, where individual humans are interconnected cells in a vast compound eye of the Immanent Mind. He explores the \"male womb\" of Zeus",
+      "title": "U_Claudia_12.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_27",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Joseph Campbell",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" He explores the brain's \"Right Hemisphere\" as the location of",
+      "title": "U_Claudia_27.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_144",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Joseph Campbell",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formally merges seven distinct philosophical and religious traditions into a \"Synthetic Cosmology\" aimed at defining the 2-source struggle between Zebra (Yang) and the Black Iron Prison (Yin). He",
+      "title": "1976-09-15_Dorothy_144.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Baruch Spinoza",
+      "slug": "baruch-spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Satan",
+      "slug": "satan",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Kathy",
+      "slug": "kathy",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zeus",
+      "slug": "zeus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Empedocles",
+      "slug": "empedocles",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Taverner",
+      "slug": "taverner",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

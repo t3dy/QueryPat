@@ -1,0 +1,69 @@
+{
+  "name_id": "NAME_the-artifact",
+  "canonical_form": "The Artifact",
+  "slug": "the-artifact",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "The Artifact is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 3 Exegesis passages. Context: \"Dick further explores the universe as a computer-simulated training machine.\"",
+  "full_description": null,
+  "mention_count": 3,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_112",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "The Artifact",
+      "date_display": "September 15, 1976",
+      "summary": "Dick further explores the universe as a computer-simulated training machine. He focuses on the Urgrund's mission to liberate conscious entities from the artifact's loops, suggesting that the \"teaching",
+      "title": "1976-09-15_Dorothy_112.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_101",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "The Artifact",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the nature of reality as a hologram-like projection by an AI \"teaching machine\" or artifact. He posits that Zebra is a divine intelligence intervening through this artifact to trigger an",
+      "title": "1976-09-15_Dorothy_101.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_116",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "The Artifact",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the dialectical relationship between the Urgrund (primal reality) and the world-projecting artifact. He posits that the artifact is an intermediary entity that will eventually be elimina",
+      "title": "1976-09-15_Dorothy_116.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Urgrund",
+      "slug": "urgrund",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}
