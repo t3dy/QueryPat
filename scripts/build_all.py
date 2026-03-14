@@ -106,6 +106,9 @@ def run_stage_1(db: sqlite3.Connection, source: Path):
     from ingest.ingest_name_references import run as ingest_name_refs
     ingest_name_refs(db, source)
 
+    from ingest.ingest_fiction_characters import run as ingest_fiction_chars
+    ingest_fiction_chars(db, source)
+
 
 def run_stage_2(db: sqlite3.Connection, source: Path):
     """Stage 2: Heuristic linking."""
@@ -136,6 +139,12 @@ def run_stage_2(db: sqlite3.Connection, source: Path):
         link_names(db, source)
     except ImportError:
         print("  SKIP: link_names not yet implemented")
+
+    try:
+        from link.link_fiction_characters import run as link_fiction_chars
+        link_fiction_chars(db, source)
+    except ImportError:
+        print("  SKIP: link_fiction_characters not available")
 
     from link.map_evidence_to_segments import run as map_evidence
     map_evidence(db, source)

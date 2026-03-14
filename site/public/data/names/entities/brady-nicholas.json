@@ -1,0 +1,77 @@
+{
+  "name_id": "NAME_brady-nicholas",
+  "canonical_form": "Brady (Nicholas)",
+  "slug": "brady-nicholas",
+  "entity_type": "character",
+  "source_type": "fiction",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": "Horselover Fat's friend",
+  "symbolic_note": null,
+  "card_description": "Brady (Nicholas) is a character in Philip K. Dick's *VALIS*. Character in the VALIS novel (distinct from Radio Free Albemuth's Nicholas Brady). Name note: Horselover Fat's friend. The friend who witnesses the visionary's transformation. First appears in *VALIS*. Context: \"Dick identifies his experience as a literal fulfillment of Biblical promise (Psalm 116) and a commissioning into the class of \"prophets.\"",
+  "full_description": null,
+  "mention_count": 0,
+  "first_work": "VALIS",
+  "work_list": [
+    "VALIS"
+  ],
+  "reference_id": "REF_literary_brady-nicholas",
+  "provenance": "ingest_fiction_characters",
+  "notes": null,
+  "created_at": "2026-03-14 06:43:21",
+  "updated_at": "2026-03-14 06:49:52",
+  "segment_mention_count": 0,
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_23",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brady",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as a literal fulfillment of Biblical promise (Psalm 116) and a commissioning into the class of \"prophets.\" He concludes that \"Santa Sophia\" (Holy Wisdom) is returning to",
+      "title": "U_Claudia_23.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_24",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brady",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick plots his next novel (*To Scare the Dead*), revolving around the \"Possession\" of a government agent (Nicholas Brady) by an ancient Essene spirit. He defines \"Christian Anamnesis\" as the \"Remembra",
+      "title": "U_Claudia_24.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_35",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brady",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his role as a \"Wolf in Sheep’s Clothing\" (or vice versa), covertly delivering the Gospel to Marxists through his fiction. He identifies his \"Spirit Guide\" as St. Luke (the \"Beloved Phy",
+      "title": "U_Claudia_35.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-04_SECTION_006_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brady",
+      "date_display": "March 4, 1975",
+      "summary": "Dick writes to Dr. Robert Ornstein, framing his mystical experience as the clinical activation of his brain's right hemisphere. He outlines the premise of his novel *TO SCARE THE DEAD* (VALIS), featur",
+      "title": "1975-03-04_SECTION_006_01.txt"
+    }
+  ],
+  "related_terms": [],
+  "reference": {
+    "canonical_form": "Brady (Nicholas)",
+    "domain": "literary",
+    "brief": "Character in the VALIS novel (distinct from Radio Free Albemuth's Nicholas Brady)",
+    "etymology": null,
+    "origin_language": null,
+    "significance": "The friend who witnesses the visionary's transformation",
+    "source_text": "VALIS"
+  }
+}

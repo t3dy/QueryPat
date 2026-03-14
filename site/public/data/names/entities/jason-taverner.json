@@ -2,26 +2,28 @@
   "name_id": "NAME_jason-taverner",
   "canonical_form": "Jason Taverner",
   "slug": "jason-taverner",
-  "entity_type": "historical_person",
-  "source_type": "exegesis",
+  "entity_type": "character",
+  "source_type": "both",
   "status": "provisional",
   "review_state": "machine-drafted",
-  "etymology": null,
+  "etymology": "Taverner = innkeeper / host",
   "origin_language": null,
   "allusion_type": null,
   "allusion_target": null,
-  "wordplay_note": null,
+  "wordplay_note": "A host whose world no longer hosts him — erased from all records",
   "symbolic_note": null,
-  "card_description": "Jason Taverner is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 3 Exegesis passages. Context: \"Dick argues that *Flow My Tears* contains \"cooked\" (divinely inspired/interpolated) material that parallels the Book of Acts with impossible precision.\"",
+  "card_description": "Jason Taverner (meaning \"Taverner = innkeeper / host\") is a character in Philip K. Dick's *Flow My Tears the Policeman Said*. Famous TV entertainer who wakes up in a world where no one knows he exists. Name note: A host whose world no longer hosts him — erased from all records. Celebrity and identity as social constructs — without records you cease to exist. Appears in 3 Exegesis passages. First appears in *Flow My Tears the Policeman Said*. Context: \"Dick argues that *Flow My Tears* contains \"cooked\" (divinely inspired/interpolated) material that parallels the Book of Acts with impossible precision.\"",
   "full_description": null,
   "mention_count": 3,
-  "first_work": null,
-  "work_list": null,
-  "reference_id": null,
+  "first_work": "Flow My Tears the Policeman Said",
+  "work_list": [
+    "Flow My Tears the Policeman Said"
+  ],
+  "reference_id": "REF_literary_jason-taverner",
   "provenance": "ingest_names_from_segments",
   "notes": null,
   "created_at": "2026-03-12 19:34:08",
-  "updated_at": "2026-03-12 19:37:10",
+  "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 3,
   "aliases": [
     {
@@ -81,5 +83,14 @@
       "relation": "co_occurs",
       "confidence": 4
     }
-  ]
+  ],
+  "reference": {
+    "canonical_form": "Jason Taverner",
+    "domain": "literary",
+    "brief": "Famous TV entertainer who wakes up in a world where no one knows he exists",
+    "etymology": "Taverner = innkeeper / host",
+    "origin_language": null,
+    "significance": "Celebrity and identity as social constructs — without records you cease to exist",
+    "source_text": "Flow My Tears the Policeman Said"
+  }
 }

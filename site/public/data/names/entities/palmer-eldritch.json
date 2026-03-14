@@ -3,25 +3,27 @@
   "canonical_form": "Palmer Eldritch",
   "slug": "palmer-eldritch",
   "entity_type": "character",
-  "source_type": "exegesis",
+  "source_type": "both",
   "status": "provisional",
   "review_state": "machine-drafted",
-  "etymology": null,
+  "etymology": "Palmer = pilgrim; Eldritch = eerie/supernatural",
   "origin_language": null,
   "allusion_type": null,
   "allusion_target": null,
-  "wordplay_note": null,
+  "wordplay_note": "The eerie pilgrim — a holy traveler who returns as something alien",
   "symbolic_note": null,
-  "card_description": "Palmer Eldritch is a fictional character referenced in Philip K. Dick's Exegesis. Appears in 9 Exegesis passages. Associated with dictionary terms: Palmer Eldritch. Context: \"Dick synthesizes the \"Magdeburg hemispheres\" of his 1974 experience: the external transformation of Fullerton into Rome and the internal transformation of himself into an early Christian Essene.\"",
+  "card_description": "Palmer Eldritch (meaning \"Palmer = pilgrim; Eldritch = eerie/supernatural\") is a character in Philip K. Dick's *The Three Stigmata of Palmer Eldritch*. Industrialist who returns from Proxima Centauri transformed into an alien-possessed entity. Name note: The eerie pilgrim — a holy traveler who returns as something alien. The three stigmata (artificial eyes steel teeth prosthetic hand) parody Christ's wounds. Appears in 9 Exegesis passages. First appears in *The Three Stigmata of Palmer Eldritch*. Associated with dictionary terms: Palmer Eldritch. Context: \"Dick synthesizes the \"Magdeburg hemispheres\" of his 1974 experience: the external transformation of Fullerton into Rome and the internal transformation of himself into an early Christian Essene.\"",
   "full_description": null,
   "mention_count": 9,
-  "first_work": null,
-  "work_list": null,
-  "reference_id": null,
+  "first_work": "The Three Stigmata of Palmer Eldritch",
+  "work_list": [
+    "The Three Stigmata of Palmer Eldritch"
+  ],
+  "reference_id": "REF_literary_palmer-eldritch",
   "provenance": "ingest_names_from_segments",
   "notes": null,
   "created_at": "2026-03-12 19:34:08",
-  "updated_at": "2026-03-12 19:37:10",
+  "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 9,
   "aliases": [],
   "linked_segments": [
@@ -105,6 +107,15 @@
       "date_display": "September 15, 1976",
       "summary": "Dick concludes that his 3-74 experience was a \"second pass\" of history—a literal time-reversion where God intervened to \"remaster\" events that had previously gone uncorrected. He identifies \"Zebra\" as",
       "title": "1976-09-15_Dorothy_125.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_142",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Palmer Eldritch",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his novel *Ubik* as an accurate depiction of the \"unscrambling\" of reality into Form I (Life/Real) and Form II (Dead/Hologram). He posits that Form I (Zebra) is a \"supralunar\" invader ",
+      "title": "1976-09-15_Dorothy_142.txt"
     }
   ],
   "related_terms": [
@@ -180,5 +191,14 @@
       "relation": "co_occurs",
       "confidence": 4
     }
-  ]
+  ],
+  "reference": {
+    "canonical_form": "Palmer Eldritch",
+    "domain": "literary",
+    "brief": "Industrialist who returns from Proxima Centauri transformed into an alien-possessed entity",
+    "etymology": "Palmer = pilgrim; Eldritch = eerie/supernatural",
+    "origin_language": null,
+    "significance": "The three stigmata (artificial eyes steel teeth prosthetic hand) parody Christ's wounds",
+    "source_text": "The Three Stigmata of Palmer Eldritch"
+  }
 }

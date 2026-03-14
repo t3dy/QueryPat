@@ -2,26 +2,28 @@
   "name_id": "NAME_felix-buckman",
   "canonical_form": "Felix Buckman",
   "slug": "felix-buckman",
-  "entity_type": "historical_person",
-  "source_type": "exegesis",
+  "entity_type": "character",
+  "source_type": "both",
   "status": "provisional",
   "review_state": "machine-drafted",
-  "etymology": null,
+  "etymology": "Felix = happy/fortunate; Buckman = man of the buck/deer",
   "origin_language": null,
   "allusion_type": null,
   "allusion_target": null,
-  "wordplay_note": null,
+  "wordplay_note": "Happy man who is deeply unhappy; police general who weeps",
   "symbolic_note": null,
-  "card_description": "Felix Buckman is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 10 Exegesis passages. Context: \"Dick explores the \"Lived Myth\" (Joseph Campbell) and \"Ma'at\" (Right Order) as keys to his 1974 experience.\"",
+  "card_description": "Felix Buckman (meaning \"Felix = happy/fortunate; Buckman = man of the buck/deer\") is a character in Philip K. Dick's *Flow My Tears the Policeman Said*. Police general of the totalitarian regime who undergoes an epiphany of compassion. Name note: Happy man who is deeply unhappy; police general who weeps. The tears of the policeman — even an authoritarian functionary can experience agape. Appears in 10 Exegesis passages. First appears in *Flow My Tears the Policeman Said*. Context: \"Dick explores the \"Lived Myth\" (Joseph Campbell) and \"Ma'at\" (Right Order) as keys to his 1974 experience.\"",
   "full_description": null,
   "mention_count": 10,
-  "first_work": null,
-  "work_list": null,
-  "reference_id": null,
+  "first_work": "Flow My Tears the Policeman Said",
+  "work_list": [
+    "Flow My Tears the Policeman Said"
+  ],
+  "reference_id": "REF_literary_felix-buckman",
   "provenance": "ingest_names_from_segments",
   "notes": null,
   "created_at": "2026-03-12 19:34:08",
-  "updated_at": "2026-03-12 19:37:10",
+  "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 10,
   "aliases": [
     {
@@ -119,6 +121,15 @@
       "date_display": "September 15, 1976",
       "summary": "Dick interprets several dreams and \"ciphers\" (Felix, Glossa) as a single, overwhelming message from Zebra: \"God loves us.\" He concludes that his novel *Flow My Tears* was \"completed\" by a divine inser",
       "title": "1976-09-15_Dorothy_96.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_97",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Felix Buckman",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his writing as a sequence of \"Gnostic signals\" to other amnesiac \"invaders.\" He interprets the fall of Nixon (1974) as the mythic/archetypal \"deposing of the false king\" (Klingsor's Ca",
+      "title": "1976-09-15_Dorothy_97.txt"
     }
   ],
   "related_terms": [
@@ -188,5 +199,14 @@
       "relation": "co_occurs",
       "confidence": 4
     }
-  ]
+  ],
+  "reference": {
+    "canonical_form": "Felix Buckman",
+    "domain": "literary",
+    "brief": "Police general of the totalitarian regime who undergoes an epiphany of compassion",
+    "etymology": "Felix = happy/fortunate; Buckman = man of the buck/deer",
+    "origin_language": null,
+    "significance": "The tears of the policeman — even an authoritarian functionary can experience agape",
+    "source_text": "Flow My Tears the Policeman Said"
+  }
 }

@@ -1,0 +1,50 @@
+{
+  "name_id": "NAME_bill-in-edie",
+  "canonical_form": "Bill (in Edie)",
+  "slug": "bill-in-edie",
+  "entity_type": "character",
+  "source_type": "fiction",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": "The dead twin who speaks from inside his sister's body",
+  "symbolic_note": null,
+  "card_description": "Bill (in Edie) is a character in Philip K. Dick's *Dr. Bloodmoney*. Edie's dead twin brother who exists as a consciousness within her body. Name note: The dead twin who speaks from inside his sister's body. Death that is not death — consciousness persisting in impossible forms. First appears in *Dr. Bloodmoney*. Context: \"Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death.\"",
+  "full_description": null,
+  "mention_count": 0,
+  "first_work": "Dr. Bloodmoney",
+  "work_list": [
+    "Dr. Bloodmoney"
+  ],
+  "reference_id": "REF_literary_bill-in-edie",
+  "provenance": "ingest_fiction_characters",
+  "notes": null,
+  "created_at": "2026-03-14 06:43:21",
+  "updated_at": "2026-03-14 06:49:52",
+  "segment_mention_count": 0,
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Bill",
+      "date_display": "February 27, 1975",
+      "summary": "Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death. He connects this act to broader cosmological ideas from Empedocles about the necessity of strif",
+      "title": "1975-02-27_Claudia_02.txt"
+    }
+  ],
+  "related_terms": [],
+  "reference": {
+    "canonical_form": "Bill (in Edie)",
+    "domain": "literary",
+    "brief": "Edie's dead twin brother who exists as a consciousness within her body",
+    "etymology": null,
+    "origin_language": null,
+    "significance": "Death that is not death — consciousness persisting in impossible forms",
+    "source_text": "Dr. Bloodmoney"
+  }
+}

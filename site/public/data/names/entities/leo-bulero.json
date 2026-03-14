@@ -2,26 +2,28 @@
   "name_id": "NAME_leo-bulero",
   "canonical_form": "Leo Bulero",
   "slug": "leo-bulero",
-  "entity_type": "historical_person",
-  "source_type": "exegesis",
+  "entity_type": "character",
+  "source_type": "both",
   "status": "provisional",
   "review_state": "machine-drafted",
-  "etymology": null,
+  "etymology": "Bulero = bull; Leo = lion",
   "origin_language": null,
   "allusion_type": null,
   "allusion_target": null,
-  "wordplay_note": null,
+  "wordplay_note": "Lion-bull — powerful beast of commerce",
   "symbolic_note": null,
-  "card_description": "Leo Bulero is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick identifies his novel *Ubik* as an accurate depiction of the \"unscrambling\" of reality into Form I (Life/Real) and Form II (Dead/Hologram).\"",
+  "card_description": "Leo Bulero (meaning \"Bulero = bull; Leo = lion\") is a character in Philip K. Dick's *The Three Stigmata of Palmer Eldritch*. Head of Perky Pat Layouts Inc. who battles Palmer Eldritch's competing drug Chew-Z. Name note: Lion-bull — powerful beast of commerce. Corporate titan versus cosmic invader — capitalism against alien gnosis. First appears in *The Three Stigmata of Palmer Eldritch*. Context: \"Dick identifies his novel *Ubik* as an accurate depiction of the \"unscrambling\" of reality into Form I (Life/Real) and Form II (Dead/Hologram).\"",
   "full_description": null,
   "mention_count": 1,
-  "first_work": null,
-  "work_list": null,
-  "reference_id": null,
+  "first_work": "The Three Stigmata of Palmer Eldritch",
+  "work_list": [
+    "The Three Stigmata of Palmer Eldritch"
+  ],
+  "reference_id": "REF_literary_leo-bulero",
   "provenance": "ingest_names_from_segments",
   "notes": null,
   "created_at": "2026-03-12 19:34:08",
-  "updated_at": "2026-03-12 19:37:10",
+  "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 1,
   "aliases": [
     {
@@ -65,5 +67,14 @@
       "relation": "co_occurs",
       "confidence": 4
     }
-  ]
+  ],
+  "reference": {
+    "canonical_form": "Leo Bulero",
+    "domain": "literary",
+    "brief": "Head of Perky Pat Layouts Inc. who battles Palmer Eldritch's competing drug Chew-Z",
+    "etymology": "Bulero = bull; Leo = lion",
+    "origin_language": null,
+    "significance": "Corporate titan versus cosmic invader — capitalism against alien gnosis",
+    "source_text": "The Three Stigmata of Palmer Eldritch"
+  }
 }

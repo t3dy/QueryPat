@@ -632,7 +632,7 @@
     "archive_docs_with_text": 181,
     "evidence_mapped_to_segments": 10046,
     "term_cooccurrences": 73104,
-    "names": 410
+    "names": 592
   },
   "link_confidence_dist": [
     {
@@ -651,15 +651,15 @@
   "names_by_type": [
     {
       "type": "historical_person",
-      "count": 362
-    },
-    {
-      "type": "deity_figure",
-      "count": 32
+      "count": 361
     },
     {
       "type": "character",
-      "count": 12
+      "count": 196
+    },
+    {
+      "type": "deity_figure",
+      "count": 31
     },
     {
       "type": "organization",
@@ -673,7 +673,15 @@
   "names_by_source": [
     {
       "type": "exegesis",
-      "count": 410
+      "count": 401
+    },
+    {
+      "type": "fiction",
+      "count": 182
+    },
+    {
+      "type": "both",
+      "count": 9
     }
   ],
   "evidentiary_lanes": [

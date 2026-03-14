@@ -35,23 +35,40 @@ def run(db: sqlite3.Connection, source_dir: Path):
 
         parts = []
 
-        # 1. Opening line based on entity type
-        type_labels = {
-            'character': 'fictional character',
-            'deity_figure': 'divine or mythological figure',
-            'historical_person': 'historical figure',
-            'place': 'place name',
-            'organization': 'organization',
-            'other': 'name',
-        }
-        type_label = type_labels.get(entity_type, 'name')
+        # Also fetch wordplay_note for fiction characters
+        wordplay_note = db.execute(
+            "SELECT wordplay_note FROM names WHERE name_id = ?", (name_id,)
+        ).fetchone()
+        wordplay = wordplay_note[0] if wordplay_note and wordplay_note[0] else None
 
-        if etymology and origin_lang:
-            parts.append(f"{canonical} ({origin_lang}: \"{etymology}\") is a {type_label} appearing in Philip K. Dick's Exegesis.")
-        elif etymology:
-            parts.append(f"{canonical} (meaning \"{etymology}\") is a {type_label} appearing in Philip K. Dick's Exegesis.")
+        # 1. Opening line — fiction characters get a different template
+        is_fiction = (entity_type == 'character' and source_type in ('fiction', 'both'))
+
+        if is_fiction and first_work:
+            # Fiction character: lead with the work title
+            works = json.loads(work_list) if work_list else [first_work]
+            work_str = f"*{works[0]}*"
+            if etymology:
+                parts.append(f"{canonical} (meaning \"{etymology}\") is a character in Philip K. Dick's {work_str}.")
+            else:
+                parts.append(f"{canonical} is a character in Philip K. Dick's {work_str}.")
         else:
-            parts.append(f"{canonical} is a {type_label} referenced in Philip K. Dick's Exegesis.")
+            type_labels = {
+                'character': 'fictional character',
+                'deity_figure': 'divine or mythological figure',
+                'historical_person': 'historical figure',
+                'place': 'place name',
+                'organization': 'organization',
+                'other': 'name',
+            }
+            type_label = type_labels.get(entity_type, 'name')
+
+            if etymology and origin_lang:
+                parts.append(f"{canonical} ({origin_lang}: \"{etymology}\") is a {type_label} appearing in Philip K. Dick's Exegesis.")
+            elif etymology:
+                parts.append(f"{canonical} (meaning \"{etymology}\") is a {type_label} appearing in Philip K. Dick's Exegesis.")
+            else:
+                parts.append(f"{canonical} is a {type_label} referenced in Philip K. Dick's Exegesis.")
 
         # 2. Reference context
         if ref_id:
@@ -61,10 +78,17 @@ def run(db: sqlite3.Connection, source_dir: Path):
             """, (ref_id,)).fetchone()
             if ref:
                 brief, significance, domain, source_text = ref
-                if brief:
+                if domain == 'literary' and brief:
+                    # Fiction reference: use brief as role description
+                    parts.append(f" {brief}.")
+                    if wordplay:
+                        parts.append(f" Name note: {wordplay}.")
+                    if significance:
+                        parts.append(f" {significance}.")
+                elif brief:
                     parts.append(f" In the {domain} tradition, {canonical} is {brief.lower() if brief[0].isupper() and not brief.startswith('The') else brief}.")
-                if significance:
-                    parts.append(f" {significance}.")
+                    if significance:
+                        parts.append(f" {significance}.")
 
         # 3. Mention frequency
         if mentions and mentions > 1:

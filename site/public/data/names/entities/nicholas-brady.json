@@ -3,27 +3,27 @@
   "canonical_form": "Nicholas Brady",
   "slug": "nicholas-brady",
   "entity_type": "character",
-  "source_type": "exegesis",
+  "source_type": "both",
   "status": "provisional",
   "review_state": "machine-drafted",
-  "etymology": null,
+  "etymology": "Nicholas = victory of the people; Brady = spirited",
   "origin_language": null,
   "allusion_type": null,
   "allusion_target": null,
-  "wordplay_note": null,
+  "wordplay_note": "The spirited victor who receives alien transmissions",
   "symbolic_note": null,
-  "card_description": "Nicholas Brady is a fictional character referenced in Philip K. Dick's Exegesis. Appears in 4 Exegesis passages. First appears in *To Scare the Dead*. Context: \"Dick identifies his experience as a literal fulfillment of Biblical promise (Psalm 116) and a commissioning into the class of \"prophets.\"",
+  "card_description": "Nicholas Brady (meaning \"Nicholas = victory of the people; Brady = spirited\") is a character in Philip K. Dick's *Radio Free Albemuth*. Record store clerk who receives visions from the VALIS satellite. Name note: The spirited victor who receives alien transmissions. PKD's first attempt at the VALIS narrative — the ordinary man as divine radio receiver. Appears in 4 Exegesis passages. First appears in *Radio Free Albemuth*. Context: \"Dick identifies his experience as a literal fulfillment of Biblical promise (Psalm 116) and a commissioning into the class of \"prophets.\"",
   "full_description": null,
   "mention_count": 4,
   "first_work": "To Scare the Dead",
   "work_list": [
-    "To Scare the Dead"
+    "Radio Free Albemuth"
   ],
-  "reference_id": null,
+  "reference_id": "REF_literary_nicholas-brady",
   "provenance": "ingest_names_from_segments",
   "notes": null,
   "created_at": "2026-03-12 19:34:08",
-  "updated_at": "2026-03-12 19:37:10",
+  "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 4,
   "aliases": [],
   "linked_segments": [
@@ -113,5 +113,14 @@
       "relation": "co_occurs",
       "confidence": 4
     }
-  ]
+  ],
+  "reference": {
+    "canonical_form": "Nicholas Brady",
+    "domain": "literary",
+    "brief": "Record store clerk who receives visions from the VALIS satellite",
+    "etymology": "Nicholas = victory of the people; Brady = spirited",
+    "origin_language": null,
+    "significance": "PKD's first attempt at the VALIS narrative — the ordinary man as divine radio receiver",
+    "source_text": "Radio Free Albemuth"
+  }
 }

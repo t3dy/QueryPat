@@ -3,27 +3,27 @@
   "canonical_form": "Joe Chip",
   "slug": "joe-chip",
   "entity_type": "character",
-  "source_type": "exegesis",
+  "source_type": "both",
   "status": "provisional",
   "review_state": "machine-drafted",
-  "etymology": null,
+  "etymology": "Chip = microchip / small piece",
   "origin_language": null,
   "allusion_type": null,
   "allusion_target": null,
-  "wordplay_note": null,
+  "wordplay_note": "An everyman reduced to a chip of a person — impoverished and diminished",
   "symbolic_note": null,
-  "card_description": "Joe Chip is a fictional character referenced in Philip K. Dick's Exegesis. Appears in 3 Exegesis passages. First appears in *UBIK*. Context: \"The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time.\"",
+  "card_description": "Joe Chip (meaning \"Chip = microchip / small piece\") is a character in Philip K. Dick's *Ubik*. Technician and protagonist who discovers he may be in half-life after a bomb explosion. Name note: An everyman reduced to a chip of a person — impoverished and diminished. The little man struggling against entropy and corporate control of reality. Appears in 3 Exegesis passages. First appears in *Ubik*. Context: \"The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time.\"",
   "full_description": null,
   "mention_count": 3,
   "first_work": "UBIK",
   "work_list": [
-    "UBIK"
+    "Ubik"
   ],
-  "reference_id": null,
+  "reference_id": "REF_literary_joe-chip",
   "provenance": "ingest_names_from_segments",
   "notes": null,
   "created_at": "2026-03-12 19:34:08",
-  "updated_at": "2026-03-12 19:37:10",
+  "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 3,
   "aliases": [],
   "linked_segments": [
@@ -104,5 +104,14 @@
       "relation": "co_occurs",
       "confidence": 4
     }
-  ]
+  ],
+  "reference": {
+    "canonical_form": "Joe Chip",
+    "domain": "literary",
+    "brief": "Technician and protagonist who discovers he may be in half-life after a bomb explosion",
+    "etymology": "Chip = microchip / small piece",
+    "origin_language": null,
+    "significance": "The little man struggling against entropy and corporate control of reality",
+    "source_text": "Ubik"
+  }
 }

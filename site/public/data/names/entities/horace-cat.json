@@ -1,0 +1,50 @@
+{
+  "name_id": "NAME_horace-cat",
+  "canonical_form": "Horace (cat)",
+  "slug": "horace-cat",
+  "entity_type": "character",
+  "source_type": "fiction",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": "A dignified name for a cat",
+  "symbolic_note": null,
+  "card_description": "Horace (cat) is a character in Philip K. Dick's *Nick and the Glimmung*. Peter's cat who plays a crucial role in the confrontation with Glimmung. Name note: A dignified name for a cat. The wise animal — PKD loved cats and gave them narrative importance. First appears in *Nick and the Glimmung*. Context: \"Dick explores the relationship between man and the sentient \"Mind\" of the universe (Zebra/Hagia Sophia).\"",
+  "full_description": null,
+  "mention_count": 0,
+  "first_work": "Nick and the Glimmung",
+  "work_list": [
+    "Nick and the Glimmung"
+  ],
+  "reference_id": "REF_literary_horace-cat",
+  "provenance": "ingest_fiction_characters",
+  "notes": null,
+  "created_at": "2026-03-14 06:43:21",
+  "updated_at": "2026-03-14 06:49:52",
+  "segment_mention_count": 0,
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_133",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Horace",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the relationship between man and the sentient \"Mind\" of the universe (Zebra/Hagia Sophia). He posits that we are moving from being unconscious \"servants\" of the teacher-deity (Zebra) to ",
+      "title": "1976-09-15_Dorothy_133.txt"
+    }
+  ],
+  "related_terms": [],
+  "reference": {
+    "canonical_form": "Horace (cat)",
+    "domain": "literary",
+    "brief": "Peter's cat who plays a crucial role in the confrontation with Glimmung",
+    "etymology": null,
+    "origin_language": null,
+    "significance": "The wise animal — PKD loved cats and gave them narrative importance",
+    "source_text": "Nick and the Glimmung"
+  }
+}

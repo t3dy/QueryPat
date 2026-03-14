@@ -1,0 +1,50 @@
+{
+  "name_id": "NAME_mike-westaway",
+  "canonical_form": "Mike Westaway",
+  "slug": "mike-westaway",
+  "entity_type": "character",
+  "source_type": "fiction",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": "Federal agent who runs Donna as a handler",
+  "symbolic_note": null,
+  "card_description": "Mike Westaway is a character in Philip K. Dick's *A Scanner Darkly*. Donna's handler in the federal narcotics operation. Name note: Federal agent who runs Donna as a handler. The invisible hand of state control behind personal relationships. First appears in *A Scanner Darkly*. Context: \"Dick formalizes his \"Ham Sandwich\" model of reality: a triune structure of Teacher (Zebra) / Artifact World (The \"Ham\") / Pupils (Humans).\"",
+  "full_description": null,
+  "mention_count": 0,
+  "first_work": "A Scanner Darkly",
+  "work_list": [
+    "A Scanner Darkly"
+  ],
+  "reference_id": "REF_literary_mike-westaway",
+  "provenance": "ingest_fiction_characters",
+  "notes": null,
+  "created_at": "2026-03-14 06:43:21",
+  "updated_at": "2026-03-14 06:49:52",
+  "segment_mention_count": 0,
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_76",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Mike Westaway",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes his \"Ham Sandwich\" model of reality: a triune structure of Teacher (Zebra) / Artifact World (The \"Ham\") / Pupils (Humans). He concludes that the empirical world is a \"slave labor camp\"",
+      "title": "1976-09-15_Dorothy_76.txt"
+    }
+  ],
+  "related_terms": [],
+  "reference": {
+    "canonical_form": "Mike Westaway",
+    "domain": "literary",
+    "brief": "Donna's handler in the federal narcotics operation",
+    "etymology": null,
+    "origin_language": null,
+    "significance": "The invisible hand of state control behind personal relationships",
+    "source_text": "A Scanner Darkly"
+  }
+}

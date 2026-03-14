@@ -3,27 +3,27 @@
   "canonical_form": "Nick",
   "slug": "nick",
   "entity_type": "character",
-  "source_type": "exegesis",
+  "source_type": "both",
   "status": "provisional",
   "review_state": "machine-drafted",
   "etymology": null,
   "origin_language": null,
   "allusion_type": null,
   "allusion_target": null,
-  "wordplay_note": null,
+  "wordplay_note": "Common name suggesting everyman",
   "symbolic_note": null,
-  "card_description": "Nick is a fictional character referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. First appears in *dream*. Context: \"Dick details the transition from the \"Father\" stage (1974 - Justice/Warrior) to the \"Son\" stage (1975 - Spring King/Dancing Youth).\"",
+  "card_description": "Nick is a character in Philip K. Dick's *Nick and the Glimmung*. The titular Nick. Name note: Common name suggesting everyman. The ordinary name in the extraordinary situation. Appears in 2 Exegesis passages. First appears in *Nick and the Glimmung*. Context: \"Dick details the transition from the \"Father\" stage (1974 - Justice/Warrior) to the \"Son\" stage (1975 - Spring King/Dancing Youth).\"",
   "full_description": null,
   "mention_count": 2,
   "first_work": "dream",
   "work_list": [
-    "dream"
+    "Nick and the Glimmung"
   ],
-  "reference_id": null,
+  "reference_id": "REF_literary_nick",
   "provenance": "ingest_names_from_segments",
   "notes": null,
   "created_at": "2026-03-12 19:34:08",
-  "updated_at": "2026-03-12 19:37:10",
+  "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 2,
   "aliases": [
     {
@@ -86,5 +86,14 @@
       "relation": "co_occurs",
       "confidence": 4
     }
-  ]
+  ],
+  "reference": {
+    "canonical_form": "Nick",
+    "domain": "literary",
+    "brief": "The titular Nick",
+    "etymology": null,
+    "origin_language": null,
+    "significance": "The ordinary name in the extraordinary situation",
+    "source_text": "Nick and the Glimmung"
+  }
 }

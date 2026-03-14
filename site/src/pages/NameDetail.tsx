@@ -62,6 +62,13 @@ const TYPE_LABELS: Record<string, string> = {
   other: 'Other',
 }
 
+const SOURCE_LABELS: Record<string, string> = {
+  fiction: 'Fiction',
+  exegesis: 'Exegesis',
+  both: 'Both',
+  reference: 'Reference',
+}
+
 export default function NameDetail() {
   const { slug } = useParams()
   const { data: name, loading, error } = useData<NameData>(`names/entities/${slug}.json`)
@@ -76,6 +83,8 @@ export default function NameDetail() {
       </div>
     )
   }
+
+  const isFiction = name.entity_type === 'character' && (name.source_type === 'fiction' || name.source_type === 'both')
 
   const tags = (name.allusion_type || []).map(a => ({
     label: a,
@@ -123,9 +132,13 @@ export default function NameDetail() {
       entityId={name.slug}
       badges={[
         { label: TYPE_LABELS[name.entity_type] || name.entity_type },
-        ...(name.source_type ? [{ label: name.source_type }] : []),
+        ...(name.source_type ? [{ label: SOURCE_LABELS[name.source_type] || name.source_type }] : []),
       ]}
-      description={`${name.mention_count} mention${name.mention_count !== 1 ? 's' : ''} in the Exegesis`}
+      description={
+        isFiction && name.first_work
+          ? `Character in ${name.first_work}${name.mention_count > 0 ? ` · ${name.mention_count} Exegesis mention${name.mention_count !== 1 ? 's' : ''}` : ''}`
+          : `${name.mention_count} mention${name.mention_count !== 1 ? 's' : ''} in the Exegesis`
+      }
       tags={tags}
       backLink={{ label: 'Back to Names', to: '/names' }}
       footer={
@@ -135,6 +148,12 @@ export default function NameDetail() {
         </>
       }
     >
+      {name.card_description && !name.full_description && (
+        <div className="detail-section">
+          <p style={{ fontSize: '1.05rem', lineHeight: '1.6' }}>{name.card_description}</p>
+        </div>
+      )}
+
       {name.aliases && name.aliases.length > 0 && (
         <div className="detail-section">
           <h2>Also Known As</h2>
@@ -142,14 +161,23 @@ export default function NameDetail() {
         </div>
       )}
 
-      {(name.etymology || name.origin_language || name.allusion_type) && (
+      {name.work_list && name.work_list.length > 0 && (
         <div className="detail-section">
-          <h2>Etymology & Allusion</h2>
+          <h2>{isFiction ? 'Appears In' : 'Works'}</h2>
+          <p>{name.work_list.map((w, i) => <em key={i}>{w}{i < name.work_list!.length - 1 ? ', ' : ''}</em>)}</p>
+        </div>
+      )}
+
+      {(name.etymology || name.origin_language || name.wordplay_note || name.symbolic_note || name.allusion_type) && (
+        <div className="detail-section">
+          <h2>Etymology & Wordplay</h2>
           {name.etymology && (
             <p><strong>Etymology:</strong> {name.etymology}
               {name.origin_language && <span> ({name.origin_language})</span>}
             </p>
           )}
+          {name.wordplay_note && <p><strong>Wordplay:</strong> {name.wordplay_note}</p>}
+          {name.symbolic_note && <p><strong>Symbolic charge:</strong> {name.symbolic_note}</p>}
           {name.allusion_type && name.allusion_type.length > 0 && (
             <p><strong>Allusion domains:</strong> {name.allusion_type.join(', ')}</p>
           )}
@@ -159,32 +187,17 @@ export default function NameDetail() {
         </div>
       )}
 
-      {(name.wordplay_note || name.symbolic_note) && (
-        <div className="detail-section">
-          <h2>Wordplay & Symbolism</h2>
-          {name.wordplay_note && <p><strong>Wordplay:</strong> {name.wordplay_note}</p>}
-          {name.symbolic_note && <p><strong>Symbolic charge:</strong> {name.symbolic_note}</p>}
-        </div>
-      )}
-
-      {name.work_list && name.work_list.length > 0 && (
-        <div className="detail-section">
-          <h2>Works</h2>
-          <p>{name.work_list.join(', ')}</p>
-        </div>
-      )}
-
       {name.reference && (
         <div className="detail-section">
-          <h2>Reference: {name.reference.domain}</h2>
-          <p><strong>{name.reference.canonical_form}</strong> — {name.reference.brief}</p>
-          {name.reference.etymology && (
+          <h2>{isFiction ? 'Character Role' : `Reference: ${name.reference.domain}`}</h2>
+          <p>{name.reference.brief}</p>
+          {name.reference.significance && (
+            <p><strong>Thematic significance:</strong> {name.reference.significance}</p>
+          )}
+          {!isFiction && name.reference.etymology && (
             <p><strong>Etymology:</strong> {name.reference.etymology} ({name.reference.origin_language})</p>
           )}
-          {name.reference.significance && (
-            <p><strong>PKD significance:</strong> {name.reference.significance}</p>
-          )}
-          {name.reference.source_text && (
+          {name.reference.source_text && !isFiction && (
             <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Source: {name.reference.source_text}</p>
           )}
         </div>
@@ -231,12 +244,6 @@ export default function NameDetail() {
         </div>
       )}
 
-      {name.card_description && !name.full_description && (
-        <div className="detail-section">
-          <h2>Description</h2>
-          <p>{name.card_description}</p>
-        </div>
-      )}
     </EntityLayout>
   )
 }

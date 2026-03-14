@@ -2,26 +2,28 @@
   "name_id": "NAME_glimmung",
   "canonical_form": "Glimmung",
   "slug": "glimmung",
-  "entity_type": "historical_person",
-  "source_type": "exegesis",
+  "entity_type": "character",
+  "source_type": "both",
   "status": "provisional",
   "review_state": "machine-drafted",
   "etymology": null,
   "origin_language": null,
   "allusion_type": null,
   "allusion_target": null,
-  "wordplay_note": null,
+  "wordplay_note": "Named for glimmering — a being of flickering divine light",
   "symbolic_note": null,
-  "card_description": "Glimmung is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick interprets the transition from the beginning of Acts (small church) to the end (Rome penetrated) as a roadmap for the 3-74 revolution.\"",
+  "card_description": "Glimmung is a character in Philip K. Dick's *Galactic Pot-Healer*. Alien deity-figure who recruits artisans from across the galaxy to raise a cathedral. Name note: Named for glimmering — a being of flickering divine light. The ambiguous god — both creator and potential destroyer. First appears in *Galactic Pot-Healer*. Context: \"Dick interprets the transition from the beginning of Acts (small church) to the end (Rome penetrated) as a roadmap for the 3-74 revolution.\"",
   "full_description": null,
   "mention_count": 1,
-  "first_work": null,
-  "work_list": null,
-  "reference_id": null,
+  "first_work": "Galactic Pot-Healer",
+  "work_list": [
+    "Galactic Pot-Healer"
+  ],
+  "reference_id": "REF_literary_glimmung",
   "provenance": "ingest_names_from_segments",
   "notes": null,
   "created_at": "2026-03-12 19:34:08",
-  "updated_at": "2026-03-12 19:37:10",
+  "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 1,
   "aliases": [],
   "linked_segments": [
@@ -42,5 +44,14 @@
       "relation": "co_occurs",
       "confidence": 4
     }
-  ]
+  ],
+  "reference": {
+    "canonical_form": "Glimmung",
+    "domain": "literary",
+    "brief": "Alien deity-figure who recruits artisans from across the galaxy to raise a cathedral",
+    "etymology": null,
+    "origin_language": null,
+    "significance": "The ambiguous god — both creator and potential destroyer",
+    "source_text": "Galactic Pot-Healer"
+  }
 }
