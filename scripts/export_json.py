@@ -44,7 +44,8 @@ def export_timeline(db: sqlite3.Connection, data_dir: Path):
         SELECT seg_id, doc_id, slug, title,
                date_start, date_end, date_display, date_confidence,
                concise_summary, recurring_concepts, people_entities, tensions,
-               reading_excerpt, word_count
+               reading_excerpt, word_count,
+               CASE WHEN raw_text IS NOT NULL THEN 1 ELSE 0 END AS has_raw_text
         FROM segments
         WHERE date_start IS NOT NULL
         ORDER BY date_start, position
@@ -61,6 +62,7 @@ def export_timeline(db: sqlite3.Connection, data_dir: Path):
             'tensions': _parse_json(row[11]),
             'reading_excerpt': row[12],
             'word_count': row[13],
+            'has_raw_text': bool(row[14]),
         }
         year = row[4][:4] if row[4] else 'unknown'
         years[year].append(seg)
@@ -224,6 +226,115 @@ def export_archive(db: sqlite3.Connection, data_dir: Path):
     print(f"    {len(index)} archive documents exported")
 
 
+def export_segments(db: sqlite3.Connection, data_dir: Path):
+    """Export individual segment detail files with raw text."""
+    print("  Exporting segment detail files...")
+    seg_dir = data_dir / 'segments'
+    ensure_dir(seg_dir)
+
+    rows = db.execute("""
+        SELECT seg_id, doc_id, slug, title, position,
+               date_start, date_end, date_display, date_confidence, date_basis,
+               concise_summary, key_claims, recurring_concepts, people_entities,
+               texts_works, autobiographical, theological_motifs, literary_self_ref,
+               symbols_images, tensions, evidence_quotes, uncertainty_flags,
+               reading_excerpt, word_count,
+               raw_text, raw_text_char_count
+        FROM segments
+        ORDER BY date_start NULLS LAST, position
+    """).fetchall()
+
+    cols = ['seg_id', 'doc_id', 'slug', 'title', 'position',
+            'date_start', 'date_end', 'date_display', 'date_confidence', 'date_basis',
+            'concise_summary', 'key_claims', 'recurring_concepts', 'people_entities',
+            'texts_works', 'autobiographical', 'theological_motifs', 'literary_self_ref',
+            'symbols_images', 'tensions', 'evidence_quotes', 'uncertainty_flags',
+            'reading_excerpt', 'word_count',
+            'raw_text', 'raw_text_char_count']
+
+    json_fields = {'key_claims', 'recurring_concepts', 'people_entities',
+                   'texts_works', 'autobiographical', 'theological_motifs',
+                   'literary_self_ref', 'symbols_images', 'tensions',
+                   'evidence_quotes', 'uncertainty_flags'}
+
+    exported = 0
+    for row in rows:
+        seg = dict(zip(cols, row))
+        seg_id = seg['seg_id']
+
+        # Parse JSON array fields
+        for field in json_fields:
+            seg[field] = _parse_json(seg.get(field))
+
+        # Get linked terms (all confidence levels, sorted)
+        linked_terms = db.execute("""
+            SELECT ts.term_id, t.canonical_name, t.slug,
+                   ts.match_type, ts.link_confidence, ts.matched_text
+            FROM term_segments ts
+            JOIN terms t ON ts.term_id = t.term_id
+            WHERE ts.seg_id = ?
+            ORDER BY ts.link_confidence, t.canonical_name
+        """, (seg_id,)).fetchall()
+        seg['linked_terms'] = [{
+            'term_id': r[0], 'name': r[1], 'slug': r[2],
+            'match_type': r[3], 'confidence': r[4], 'matched_text': r[5],
+        } for r in linked_terms]
+
+        # Get linked names
+        linked_names = db.execute("""
+            SELECT ns.name_id, n.canonical_form, n.slug,
+                   ns.match_type, ns.link_confidence
+            FROM name_segments ns
+            JOIN names n ON ns.name_id = n.name_id
+            WHERE ns.seg_id = ?
+            ORDER BY ns.link_confidence
+        """, (seg_id,)).fetchall()
+        seg['linked_names'] = [{
+            'name_id': r[0], 'name': r[1], 'slug': r[2],
+            'match_type': r[3], 'confidence': r[4],
+        } for r in linked_names]
+
+        # Get evidence excerpts linked to this segment
+        evidence = db.execute("""
+            SELECT ee.excerpt_text, ee.matched_alias,
+                   ep.term_id, t.canonical_name, t.slug
+            FROM evidence_excerpts ee
+            JOIN evidence_packets ep ON ee.ev_id = ep.ev_id
+            JOIN terms t ON ep.term_id = t.term_id
+            WHERE ee.seg_id = ?
+            LIMIT 20
+        """, (seg_id,)).fetchall()
+        seg['evidence_excerpts'] = [{
+            'text': r[0][:500], 'matched_alias': r[1],
+            'term_id': r[2], 'term_name': r[3], 'term_slug': r[4],
+        } for r in evidence]
+
+        # Get neighbor segments
+        if seg.get('doc_id') and seg.get('position') is not None:
+            neighbors = db.execute("""
+                SELECT seg_id, title, position FROM segments
+                WHERE doc_id = ? AND position IN (?, ?)
+                ORDER BY position
+            """, (seg['doc_id'], seg['position'] - 1, seg['position'] + 1)).fetchall()
+            seg['neighbors'] = [{'seg_id': r[0], 'title': r[1], 'position': r[2]} for r in neighbors]
+
+        # Get parent document info
+        doc = db.execute("""
+            SELECT title, doc_type, author, date_display
+            FROM documents WHERE doc_id = ?
+        """, (seg['doc_id'],)).fetchone()
+        if doc:
+            seg['document'] = {
+                'title': doc[0], 'doc_type': doc[1],
+                'author': doc[2], 'date_display': doc[3],
+            }
+
+        _write_json(seg_dir / f'{seg_id}.json', seg)
+        exported += 1
+
+    print(f"    {exported} segment detail files exported")
+
+
 def export_search_index(db: sqlite3.Connection, data_dir: Path):
     """Export precomputed search index for Fuse.js."""
     print("  Exporting search index...")
@@ -272,6 +383,23 @@ def export_search_index(db: sqlite3.Connection, data_dir: Path):
             'text': (row[4] or '')[:300],
             'category': row[5],
         })
+
+    # Names
+    try:
+        rows = db.execute("""
+            SELECT name_id, slug, canonical_form, card_description, entity_type, etymology
+            FROM names
+            WHERE status IN ('accepted', 'provisional', 'unreviewed')
+        """).fetchall()
+        for row in rows:
+            entries.append({
+                'type': 'name',
+                'id': row[0], 'slug': row[1], 'title': row[2],
+                'text': (row[3] or row[5] or '')[:300],
+                'category': row[4],
+            })
+    except sqlite3.OperationalError:
+        pass  # names table doesn't exist yet
 
     _write_json(data_dir / 'search_index.json', entries)
     print(f"    {len(entries)} search entries")
@@ -326,6 +454,49 @@ def export_analytics(db: sqlite3.Connection, data_dir: Path):
         'archive_docs': db.execute("SELECT COUNT(*) FROM documents WHERE doc_type != 'exegesis_section'").fetchone()[0],
         'timeline_events': db.execute("SELECT COUNT(*) FROM timeline_events").fetchone()[0],
     }
+
+    # Substrate coverage
+    try:
+        analytics['totals']['segments_with_raw_text'] = db.execute(
+            "SELECT COUNT(*) FROM segments WHERE raw_text IS NOT NULL"
+        ).fetchone()[0]
+        analytics['totals']['segments_with_summary'] = db.execute(
+            "SELECT COUNT(*) FROM segments WHERE concise_summary IS NOT NULL"
+        ).fetchone()[0]
+        analytics['totals']['archive_docs_with_text'] = db.execute(
+            "SELECT COUNT(*) FROM document_texts WHERE text_content IS NOT NULL"
+        ).fetchone()[0]
+        analytics['totals']['evidence_mapped_to_segments'] = db.execute(
+            "SELECT COUNT(*) FROM evidence_excerpts WHERE seg_id IS NOT NULL"
+        ).fetchone()[0]
+        analytics['totals']['term_cooccurrences'] = db.execute(
+            "SELECT COUNT(*) FROM term_cooccurrences"
+        ).fetchone()[0]
+
+        # Link confidence distribution
+        conf_rows = db.execute("""
+            SELECT link_confidence, COUNT(*) FROM term_segments
+            GROUP BY link_confidence ORDER BY link_confidence
+        """).fetchall()
+        analytics['link_confidence_dist'] = [
+            {'confidence': r[0], 'count': r[1]} for r in conf_rows
+        ]
+    except sqlite3.OperationalError:
+        pass
+
+    # Add names analytics if table exists
+    try:
+        analytics['totals']['names'] = db.execute("SELECT COUNT(*) FROM names").fetchone()[0]
+        rows = db.execute("""
+            SELECT entity_type, COUNT(*) FROM names GROUP BY entity_type ORDER BY COUNT(*) DESC
+        """).fetchall()
+        analytics['names_by_type'] = [{'type': r[0], 'count': r[1]} for r in rows]
+        rows = db.execute("""
+            SELECT source_type, COUNT(*) FROM names GROUP BY source_type ORDER BY COUNT(*) DESC
+        """).fetchall()
+        analytics['names_by_source'] = [{'type': r[0] or 'unknown', 'count': r[1]} for r in rows]
+    except sqlite3.OperationalError:
+        pass
 
     _write_json(data_dir / 'analytics.json', analytics)
 
@@ -382,6 +553,111 @@ def export_biography(db: sqlite3.Connection, data_dir: Path):
     _write_json(bio_dir / 'events.json', events)
 
     print(f"    {len(events)} biography events exported")
+
+
+def export_names(db: sqlite3.Connection, data_dir: Path):
+    """Export names data for the Names tab."""
+    print("  Exporting names...")
+    names_dir = data_dir / 'names'
+    entities_dir = names_dir / 'entities'
+    ensure_dir(entities_dir)
+
+    # Check if names table exists
+    try:
+        db.execute("SELECT 1 FROM names LIMIT 1")
+    except sqlite3.OperationalError:
+        print("    SKIP: names table not found")
+        return
+
+    # Index: all public names
+    rows = db.execute("""
+        SELECT name_id, canonical_form, slug, entity_type, source_type,
+               status, review_state, mention_count, card_description,
+               etymology, allusion_type, first_work
+        FROM names
+        WHERE status IN ('accepted', 'provisional', 'unreviewed')
+        ORDER BY mention_count DESC
+    """).fetchall()
+
+    index = []
+    for row in rows:
+        index.append({
+            'name_id': row[0], 'canonical_form': row[1], 'slug': row[2],
+            'entity_type': row[3], 'source_type': row[4],
+            'status': row[5], 'review_state': row[6],
+            'mention_count': row[7],
+            'card_description': (row[8] or '')[:300],
+            'etymology': row[9],
+            'allusion_type': _parse_json(row[10]),
+            'first_work': row[11],
+        })
+    _write_json(names_dir / 'index.json', index)
+
+    # Per-name detail files
+    for name_row in index:
+        name_id = name_row['name_id']
+        slug = name_row['slug']
+
+        # Full name data
+        full = db.execute("SELECT * FROM names WHERE name_id = ?", (name_id,)).fetchone()
+        cols = [d[0] for d in db.execute("SELECT * FROM names LIMIT 0").description]
+        name_data = dict(zip(cols, full))
+
+        # Parse JSON fields
+        for field in ['allusion_type', 'work_list']:
+            name_data[field] = _parse_json(name_data.get(field))
+
+        # Aliases
+        aliases = db.execute("""
+            SELECT alias_text, alias_type FROM name_aliases WHERE name_id = ?
+        """, (name_id,)).fetchall()
+        name_data['aliases'] = [{'text': a[0], 'type': a[1]} for a in aliases]
+
+        # Linked segments (confidence <= 3)
+        linked_segs = db.execute("""
+            SELECT ns.seg_id, ns.match_type, ns.link_confidence, ns.matched_text,
+                   s.date_display, s.concise_summary, s.title
+            FROM name_segments ns
+            JOIN segments s ON ns.seg_id = s.seg_id
+            WHERE ns.name_id = ? AND ns.link_confidence <= 3
+            ORDER BY s.date_start
+            LIMIT 50
+        """, (name_id,)).fetchall()
+        name_data['linked_segments'] = [{
+            'seg_id': r[0], 'match_type': r[1], 'confidence': r[2],
+            'matched_text': r[3], 'date_display': r[4],
+            'summary': (r[5] or '')[:200], 'title': r[6],
+        } for r in linked_segs]
+
+        # Related terms (via name_terms)
+        related_terms = db.execute("""
+            SELECT t.canonical_name, t.slug, nt.relation_type, nt.link_confidence
+            FROM name_terms nt
+            JOIN terms t ON nt.term_id = t.term_id
+            WHERE nt.name_id = ?
+            ORDER BY nt.link_confidence
+        """, (name_id,)).fetchall()
+        name_data['related_terms'] = [{
+            'name': r[0], 'slug': r[1], 'relation': r[2], 'confidence': r[3],
+        } for r in related_terms]
+
+        # Reference match
+        if name_data.get('reference_id'):
+            ref = db.execute("""
+                SELECT canonical_form, domain, brief, etymology, origin_language,
+                       significance, source_text
+                FROM name_references WHERE ref_id = ?
+            """, (name_data['reference_id'],)).fetchone()
+            if ref:
+                name_data['reference'] = {
+                    'canonical_form': ref[0], 'domain': ref[1], 'brief': ref[2],
+                    'etymology': ref[3], 'origin_language': ref[4],
+                    'significance': ref[5], 'source_text': ref[6],
+                }
+
+        _write_json(entities_dir / f'{slug}.json', name_data)
+
+    print(f"    {len(index)} names exported")
 
 
 def export_graph(db: sqlite3.Connection, data_dir: Path):
@@ -448,6 +724,8 @@ def run(db: sqlite3.Connection, project_dir: Path):
     export_dictionary(db, data_dir)
     export_archive(db, data_dir)
     export_biography(db, data_dir)
+    export_names(db, data_dir)
+    export_segments(db, data_dir)
     export_search_index(db, data_dir)
     export_analytics(db, data_dir)
     export_graph(db, data_dir)

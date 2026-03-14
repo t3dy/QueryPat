@@ -3,7 +3,7 @@
   "canonical_name": "Acts",
   "slug": "acts",
   "status": "provisional",
-  "review_state": "unreviewed",
+  "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
   "mention_count": 1801,
@@ -12,8 +12,8 @@
   "interpretive_note": "Primary Source Evidence: \"...Last edit over 5 years ago by Harpax\n184\nNeeds Review\n184\nrendering of material from \"Revelation\" and \"Acts,\" showing the activity of the Holy Spirit. The Mission's presentation that the Spirit did this before strengthens my convictions about TEARS. I have seen in my own writing dramatically how the Spirit can infuse & inspire writing, making its revelation known through human beings, its good new...\"",
   "visionary_significance": null,
   "scholarly_caution": null,
-  "card_description": null,
-  "full_description": null,
+  "card_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 1801. Referenced 1801 times across the corpus. First appears in segments dated 1975-02-27. Acts appears 1801 times in the Exegesis corpus. From the Exegesis: \"Recently I met Mr. Henry Korman and Mr. Tony Hiss (Tony had come by to interview me for the New Yorker). I got into a marvelous discussion with Henry about Sufi and I mentioned my admiration, borde...\" Segment context: \"Dick explores the distinction between the \"God of the structure\" (the Creator) and the \"God of the discarded bits\" (Christ).\" Related to: Adam, Advent, Again, Anamnesis, Anyhow.",
+  "full_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 1801. Referenced 1801 times across the corpus. First appears in segments dated 1975-02-27. Acts appears 1801 times in the Exegesis corpus. From the Exegesis: \"Recently I met Mr. Henry Korman and Mr. Tony Hiss (Tony had come by to interview me for the New Yorker). I got into a marvelous discussion with Henry about Sufi and I mentioned my admiration, borde...\" Segment context: \"Dick explores the distinction between the \"God of the structure\" (the Creator) and the \"God of the discarded bits\" (Christ).\" Related to: Adam, Advent, Again, Anamnesis, Anyhow.\n\n**Category:** Top Term\n\n**Frequency:** 1801 mentions. First appears 1975-02-27.\n\n**From the Exegesis:**\n> Recently I met Mr. Henry Korman and Mr. Tony Hiss (Tony had come by to interview me for the New Yorker). I got into a marvelous discussion with Henry about Sufi and I mentioned my admiration, bordering on fanatic enthusiasm, for your pioneer work with bilateral brain hemispheric parity. Thus, I, ...\n> NB: The difference between Ghosticism and Neoplatonism is basically that (one) the Neoplatonists believed you could achieve it yourself, whereas (two) the Gnostics believed that the Redeemer did it for you. I think that (two) the Gnostics are correct; it is not something which you acheive, but wh...\n> This news (in Psy Today) about the pineal body being a light-receiving organ or gland is so exciting to me because it means that the chromatic phosphene source I experienced did not merely go to the light-sensitive part of my brain, but also to my pineal gland. Since the pineal gland is the \"thir...\n\n**Key segment contexts:**\n- (circa 1975-1976) Dick explores the distinction between the \"God of the structure\" (the Creator) and the \"God of the discarded bits\" (Christ). He details his experience of the \"mirror opposite universe\" where time r...\n- (circa 1975-1976) Dick identifies the pineal gland as the \"third eye\" and the biological receptor for the \"Other Sun\" (Sun of Righteousness). He links this to the 1974 chromatic phosphene experience and argues that ...\n- (circa 1975-1976) Dick identifies the Egyptian deity Ptah as the \"Immanent Mind\" and \"Logos\" doctrine precursor. He argues that the \"Miracle of Transubstantiation\" (the Mass) is a literal reality he witnessed in 197...\n\n**Related terms:** Adam (related), Advent (related), Again (related), Anamnesis (related), Anyhow (related), Aristotle (related), Atman (related), Augustine (related), Bacchae (related), Bardo (related)",
   "first_appearance": "1975-02-27",
   "peak_usage_start": "1978",
   "peak_usage_end": "1978",
@@ -29,10 +29,411 @@
   ],
   "provenance": null,
   "notes": null,
-  "created_at": "2026-03-12 14:35:55",
-  "updated_at": "2026-03-12 14:35:55",
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-03-12 19:37:10",
   "aliases": [],
-  "linked_segments": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_04",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the distinction between the \"God of the structure\" (the Creator) and the \"God of the discarded bits\" (Christ). He details his experience of the \"mirror opposite universe\" where time runs",
+      "title": "U_Claudia_04.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_06",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the pineal gland as the \"third eye\" and the biological receptor for the \"Other Sun\" (Sun of Righteousness). He links this to the 1974 chromatic phosphene experience and argues that Chr",
+      "title": "U_Claudia_06.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_13",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the Egyptian deity Ptah as the \"Immanent Mind\" and \"Logos\" doctrine precursor. He argues that the \"Miracle of Transubstantiation\" (the Mass) is a literal reality he witnessed in 1974, ",
+      "title": "U_Claudia_13.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_17",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick develops the \"Steuben Cup\" myth: humans are \"creating angels\" who were given the \"draught of Lethe\" and are now laboring to recreate the divine model (Christ) from memory. He identifies his 1974 ",
+      "title": "U_Claudia_17.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_19",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"Daimon of Socrates\" (verified by Rollo May) as the source of his 1974 \"Voice\" and Attic Greek. He identifies this entity as \"Eros\" (Life/Joy) and concludes that he was \"possessed\" b",
+      "title": "U_Claudia_19.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_23",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as a literal fulfillment of Biblical promise (Psalm 116) and a commissioning into the class of \"prophets.\" He concludes that \"Santa Sophia\" (Holy Wisdom) is returning to",
+      "title": "U_Claudia_23.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_28",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"Lived Myth\" (Joseph Campbell) and \"Ma'at\" (Right Order) as keys to his 1974 experience. He identifies the \"Xerox Letter\" as a ritual repudiation of materialism and a transformation ",
+      "title": "U_Claudia_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_35",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his role as a \"Wolf in Sheep’s Clothing\" (or vice versa), covertly delivering the Gospel to Marxists through his fiction. He identifies his \"Spirit Guide\" as St. Luke (the \"Beloved Phy",
+      "title": "U_Claudia_35.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_36",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his internal \"guide\" as St. Luke, \"the beloved physician,\" who is a non-terrestrial entity of high authority. He reinterprets the ending of *Tears* as a ciphered \"Acts of the Apostles\"",
+      "title": "U_Claudia_36.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_38",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Divine Birth\" in his soul as the realization of Meister Eckhart's theology, where the \"Wise Old Man\" (the Father) is born from the mortal man. He rejects the \"Suffering Servant\" m",
+      "title": "U_Claudia_38.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_44",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies *Tears* as an \"Apocalyptic Novel\" and his 1974 experience as a \"revealed\" validation of the Bible's divine origin. He argues that the Parousia is virtually here, signaled by the arriva",
+      "title": "U_Claudia_44.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_47",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick elaborates on the \"Pylon Doorway\" (Golden Rectangle) vision from 1974, identifying it as the threshold to the \"Spiritual Universe\" (Minoan/Aegean world). He reinterprets Pinky’s death as a \"surro",
+      "title": "U_Claudia_47.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-04_SECTION_006_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "March 4, 1975",
+      "summary": "Dick writes to Dr. Robert Ornstein, framing his mystical experience as the clinical activation of his brain's right hemisphere. He outlines the premise of his novel *TO SCARE THE DEAD* (VALIS), featur",
+      "title": "1975-03-04_SECTION_006_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_03",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1975",
+      "summary": "Dick explores the \"Rome Two\" superimposition theory, identifying the Nixon administration as the return of the Roman Empire and the fall of Nixon as a true historical victory for Christ. He introduces",
+      "title": "1975-09-15_SECTION_012_03.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_04",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1975",
+      "summary": "Dick analyzes the \"Cabrillo\" dream to conclude that the Xerox letter was a \"fake\" entrapment attempt (possibly by \"The Man\" or \"Reds\"). He interprets complex symbolic puns—Cabrillo, Brillo, Monopoly m",
+      "title": "1975-09-15_SECTION_012_04.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_02",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_03",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_03.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_04",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_04.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_09",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_09.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_10",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_10.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_12",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_12.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_14",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_14.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_17",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_17.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_19",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_19.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_05",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets the Eucharist as an authentic transportation to an \"orthogonal universe\" where Christ still lives. He links his experience to the \"Feast of Agape\" and the legalistic/Roman suppression ",
+      "title": "1976-09-15_Dorothy_05.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_06",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes investigative journalism (*Playboy*, *Rolling Stone*) to conclude that Nixon was a mere \"puppet\" of a larger technocratic/financial conglomerate. He argues that only a divine force (t",
+      "title": "1976-09-15_Dorothy_06.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_07",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that the return of St. Sophia manifests as a \"network\" of individuals acting on divine impulse. He connects the Parousia to a \"Time Reversal\" (the Hobart Effect) where entropic time bec",
+      "title": "1976-09-15_Dorothy_07.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_08",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick reveals a \"steganographic\" reading of his own work, specifically the \"Felix\" message hidden within *Flow My Tears*. He argues that the Parousia required a \"topological superimposition\" (Rome Two)",
+      "title": "1976-09-15_Dorothy_08.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_15",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes that God is \"reweaving\" history backward from the Omega Point to improve the human lot. He defines the \"Black Iron Prison\" (BIP) as the original, un-intervened track (Alpha/Hell) and the",
+      "title": "1976-09-15_Dorothy_15.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_16",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes his massive day of theorizing by realizing the 1st Advent is an \"Eternal Now\" (always occurring at the vernal equinox) and the \"Rome\" memories were incidentals of an \"Internal Epiphany.",
+      "title": "1976-09-15_Dorothy_16.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_22",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical \"mundane\" theory: that he was \"occupied\" by a secret Christian Soviet doctor (or defected KGB operator) who used his brain to flee the \"Gulag\" (Black Iron Prison). He also refi",
+      "title": "1976-09-15_Dorothy_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_27",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes his findings into a five-point summary of Gnosticism, framing it as a \"saving revelation\" about our status as slaves in a Black Iron Prison of determinism. He identifies the \"Kind Str",
+      "title": "1976-09-15_Dorothy_27.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_28",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his dualistic model using Taoist terms (Yang/Yin) and identifies Zebra with the \"gentle\" female aspect of the divine (Sophia). He argues that 3-74 was not just a personal experience but a",
+      "title": "1976-09-15_Dorothy_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_29",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_29.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_37",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues his philosophical integration, finding that A.N. Whitehead's metaphysics perfectly describes \"Zebra.\" He accepts the idea of God as an \"arranger\" rather than a creator, and as an entity",
+      "title": "1976-09-15_Dorothy_37.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_39",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes that God (Brahman) is \"waking up\" inside us and that our lives are a \"voluntary bardo\" or \"incarnated amnesia\" where God shared the fate of the \"little creatures.\" To remember one's iden",
+      "title": "1976-09-15_Dorothy_39.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_41",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his experience with Hegel's third stage of religion (Absolute Spirit), arguing that evolution has moved from the biological to the historical. He predicts the emergence of a \"new type ",
+      "title": "1976-09-15_Dorothy_41.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_48",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Elijah\" role in his 3-74 experience, seeing himself as a forerunner to the Parousia who \"heals\" the world's timeline. He also introduces a radical \"Anti-Matter Universe\" theory for ",
+      "title": "1976-09-15_Dorothy_48.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick embraces the \"Impostor\" theme of his fiction, theorizing that he is a \"linked extension\" (a programmed \"sleeper\") for a benign, non-human \"Mantis\" race. He sees reality as an \"orthogonal metamorp",
+      "title": "1976-09-15_Dorothy_49.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_58",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick embraces a Zoroastrian/Essene dualism where he is a \"warrior of light\" or \"infiltrator-agent\" from the supralunar world. He views his novels as a \"disinhibiting signal\" and argues that God must r",
+      "title": "1976-09-15_Dorothy_58.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_59",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a \"3-level\" model of reality: (1) The Logos/Bible as a \"punched tape\" of ideas, (2) The World of Flesh/Nature, and (3) The Artificial/Technological World. He argues that our world (3) is",
+      "title": "1976-09-15_Dorothy_59.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_60",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues his meta-analysis of \"victimhood,\" suggesting that by serving as \"bait,\" the victim forces evil to unmask itself for God's judgment. He explores the \"orthogonal\" convergence of his nove",
+      "title": "1976-09-15_Dorothy_60.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_61",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick develops a \"womb\" model of cosmogony: Level 1 (Holy Wisdom/Logos) creates Level 2 (Nature/Egg) to give birth to Level 3 (Sentient Replicant), which will eventually be absorbed back into Level 1. ",
+      "title": "1976-09-15_Dorothy_61.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_63",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself as a member of a \"secret, authentic Christian church\" that has been in an illegal revolution against \"Rome\" (the hidden victor of history) since 70 AD. He claims his writing wa",
+      "title": "1976-09-15_Dorothy_63.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_66",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick realizes that all his novels (1952-1976) are actually chapters of a single \"Ur-Geschicht\" (Original Story) that maps the \"Koinos Kosmos\" (Shared Reality) breaking through the \"Idios Kosmoi\" (Priv",
+      "title": "1976-09-15_Dorothy_66.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_73",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a trinitarian model that harmonizes Gnostic dualism with Taoism. He identifies \"James-James\" (the Creator/Yang) and \"Zebra/Sophia\" (the Arranger/Yin) as secret partners under the ultimat",
+      "title": "1976-09-15_Dorothy_73.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_76",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes his \"Ham Sandwich\" model of reality: a triune structure of Teacher (Zebra) / Artifact World (The \"Ham\") / Pupils (Humans). He concludes that the empirical world is a \"slave labor camp\"",
+      "title": "1976-09-15_Dorothy_76.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_77",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick analyzes the deterministic \"inner tape\" (DNA/Ancestral programming) that controls humans like \"robots.\" He argues that 3-74 was a \"volitional override\" of this biological script by a \"conscious s",
+      "title": "1976-09-15_Dorothy_77.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_78",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick develops the \"Scramble Generator\" model: the \"Black Iron Prison\" (BIP) is a machine (Yahweh/Demiurge) that scrambles our perceptions. He argues that Christ/OCCP is a \"telos seed\" (explosive) smug",
+      "title": "1976-09-15_Dorothy_78.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_79",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick formulaizes a law of \"Cosmic Justice\" (Ma'at/Tao): when an oppressor (B) \"oversteps\" its limit against an innocent victim (C), it triggers a \"justification\" by Valis that confers divinity (Apothe",
+      "title": "1976-09-15_Dorothy_79.txt"
+    }
+  ],
   "related_terms": [
     {
       "name": "Absolute",

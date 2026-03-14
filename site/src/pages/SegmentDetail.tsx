@@ -1,6 +1,12 @@
 import { useParams, Link } from 'react-router-dom'
 import { useData } from '../hooks/useData'
-import { useState } from 'react'
+import { useMemo } from 'react'
+import { formatSegmentTitle } from '../utils/formatTitle'
+
+interface ArchiveSummary {
+  doc_id: string
+  slug: string
+}
 
 interface LinkedTerm {
   term_id: string
@@ -80,7 +86,17 @@ const CONFIDENCE_LABELS: Record<number, string> = {
 export default function SegmentDetail() {
   const { id } = useParams()
   const { data: seg, loading, error } = useData<SegmentData>(`segments/${id}.json`)
-  const [showRawText, setShowRawText] = useState(false)
+  const { data: archiveIndex } = useData<ArchiveSummary[]>('archive/index.json')
+
+
+  const docSlugMap = useMemo(() => {
+    const map = new Map<string, string>()
+    if (!archiveIndex) return map
+    for (const entry of archiveIndex) {
+      map.set(entry.doc_id, entry.slug)
+    }
+    return map
+  }, [archiveIndex])
 
   if (loading) return <div className="loading">Loading...</div>
 
@@ -105,7 +121,7 @@ export default function SegmentDetail() {
   return (
     <>
       <div className="page-header">
-        <h1>{seg.title || seg.seg_id}</h1>
+        <h1>{formatSegmentTitle(seg.title, seg.seg_id)}</h1>
         <p>
           {seg.date_display}
           {seg.date_confidence && seg.date_confidence !== 'exact' && (
@@ -113,12 +129,12 @@ export default function SegmentDetail() {
               {seg.date_confidence}
             </span>
           )}
-          {seg.word_count && <span style={{marginLeft:'1rem', color:'var(--text-muted)'}}>{seg.word_count} words</span>}
-          {seg.raw_text && <span style={{marginLeft:'0.5rem', color:'var(--text-muted)'}}> | {seg.raw_text_char_count?.toLocaleString()} chars</span>}
+          {seg.word_count && <span style={{marginLeft:'1rem', color:'var(--text-muted)'}}>{seg.word_count.toLocaleString()} words</span>}
         </p>
         {seg.document && (
           <p style={{fontSize:'0.85rem', color:'var(--text-muted)'}}>
-            From: {seg.document.title} ({seg.document.doc_type})
+            {seg.document.doc_type === 'exegesis_section' ? 'Exegesis' : seg.document.doc_type.replace(/_/g, ' ')}
+            {seg.document.title && seg.document.title !== 'Letter' && ` \u2014 ${seg.document.title} section`}
           </p>
         )}
       </div>
@@ -148,40 +164,7 @@ export default function SegmentDetail() {
         </div>
       )}
 
-      {/* Raw text toggle */}
-      {seg.raw_text && (
-        <div className="detail-section">
-          <h2>
-            PKD's Text
-            <button
-              onClick={() => setShowRawText(!showRawText)}
-              style={{
-                marginLeft:'1rem', fontSize:'0.8rem', padding:'0.2rem 0.6rem',
-                background:'var(--bg-secondary)', border:'1px solid var(--border-light)',
-                borderRadius:'4px', cursor:'pointer', color:'var(--text-primary)',
-              }}
-            >
-              {showRawText ? 'Hide' : 'Show'} full text
-            </button>
-          </h2>
-          {showRawText && (
-            <div style={{
-              whiteSpace: 'pre-wrap',
-              fontFamily: 'Georgia, serif',
-              fontSize: '0.95rem',
-              lineHeight: '1.7',
-              maxHeight: '60vh',
-              overflow: 'auto',
-              padding: '1rem',
-              background: 'var(--bg-secondary)',
-              borderRadius: '6px',
-              border: '1px solid var(--border-light)',
-            }}>
-              {seg.raw_text}
-            </div>
-          )}
-        </div>
-      )}
+      {/* Raw Exegesis text hidden — verbatim PKD text not displayed */}
 
       <Section title="Key Claims" items={seg.key_claims} />
       <Section title="Recurring Concepts" items={seg.recurring_concepts} linkTo="dictionary" />
@@ -192,23 +175,11 @@ export default function SegmentDetail() {
       <Section title="Symbols, Images & Metaphors" items={seg.symbols_images} />
       <Section title="Tensions & Contradictions" items={seg.tensions} />
 
-      {seg.evidence_quotes && seg.evidence_quotes.length > 0 && (
-        <div className="detail-section">
-          <h2>Evidence Quotes</h2>
-          {seg.evidence_quotes.map((q, i) => (
-            <div key={i} className="evidence-excerpt">{q}</div>
-          ))}
-        </div>
-      )}
+      {/* Evidence quotes hidden — verbatim PKD text not displayed */}
 
       <Section title="Uncertainty Flags" items={seg.uncertainty_flags} />
 
-      {seg.reading_excerpt && (
-        <div className="detail-section">
-          <h2>Reading Excerpt</h2>
-          <div className="evidence-excerpt">{seg.reading_excerpt}</div>
-        </div>
-      )}
+      {/* Reading excerpt hidden — verbatim PKD text not displayed */}
 
       {/* Linked Terms with confidence badges */}
       {(strongTerms.length > 0 || mediumTerms.length > 0 || weakTerms.length > 0) && (
@@ -225,6 +196,25 @@ export default function SegmentDetail() {
                   <Link key={i} to={`/dictionary/${t.slug}`}
                     className="badge badge-category"
                     style={{textDecoration:'none'}}
+                    title={`${CONFIDENCE_LABELS[t.confidence]}${t.matched_text ? ': "' + t.matched_text + '"' : ''}`}
+                  >
+                    {t.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {mediumTerms.length > 0 && (
+            <div style={{marginBottom:'0.75rem'}}>
+              <h3 style={{fontSize:'0.85rem', color:'var(--text-muted)', marginBottom:'0.5rem'}}>
+                Fuzzy matches ({mediumTerms.length})
+              </h3>
+              <div style={{display:'flex', flexWrap:'wrap', gap:'0.4rem', opacity:0.85}}>
+                {mediumTerms.map((t, i) => (
+                  <Link key={i} to={`/dictionary/${t.slug}`}
+                    className="badge badge-category"
+                    style={{textDecoration:'none', opacity:0.8}}
                     title={`${CONFIDENCE_LABELS[t.confidence]}${t.matched_text ? ': "' + t.matched_text + '"' : ''}`}
                   >
                     {t.name}
@@ -305,7 +295,9 @@ export default function SegmentDetail() {
 
       <div style={{marginTop:'2rem', paddingTop:'1rem', borderTop:'1px solid var(--border-light)', display:'flex', gap:'1rem'}}>
         <Link to={year ? `/timeline/${year}` : '/timeline'}>Back to Timeline</Link>
-        {seg.doc_id && <Link to={`/archive/${seg.doc_id}`}>View Document</Link>}
+        {seg.doc_id && docSlugMap.get(seg.doc_id) && (
+          <Link to={`/archive/${docSlugMap.get(seg.doc_id)}`}>View Document</Link>
+        )}
       </div>
     </>
   )

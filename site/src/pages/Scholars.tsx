@@ -123,6 +123,12 @@ export default function Scholars() {
             onChange={e => setSearch(e.target.value)}
           />
 
+          {filtered.length === 0 && (
+            <p style={{ textAlign: 'center', color: 'var(--text-muted)', padding: '3rem' }}>
+              No scholars match the current filters.
+            </p>
+          )}
+
           <div className="card-grid">
             {filtered.map(s => {
               const isExpanded = expandedId === s.scholar_id

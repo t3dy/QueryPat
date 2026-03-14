@@ -136,6 +136,12 @@ export default function Names() {
               </div>
             ))}
           </div>
+
+          {filtered.length === 0 && (
+            <p style={{ textAlign: 'center', color: 'var(--text-muted)', padding: '3rem' }}>
+              No names match the current filters.
+            </p>
+          )}
         </div>
       </div>
     </>

@@ -108,6 +108,12 @@ export default function Archive() {
               </div>
             ))}
           </div>
+
+          {filtered.length === 0 && (
+            <p style={{ textAlign: 'center', color: 'var(--text-muted)', padding: '3rem' }}>
+              No documents match the current filters.
+            </p>
+          )}
         </div>
       </div>
     </>

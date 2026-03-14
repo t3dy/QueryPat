@@ -24,15 +24,17 @@ export default function Dashboard() {
 
   return (
     <>
-      <div className="page-header">
+      <div className="hero-header">
         <h1>The Exegesis Knowledge Portal</h1>
-        <p>A unified scholarly browser for Philip K. Dick's <em>Exegesis</em></p>
+        <p className="hero-subtitle">
+          A scholarly reference for Philip K. Dick's <em>Exegesis</em> &mdash; theology, philosophy, and vision
+        </p>
       </div>
 
       <div className="stats-grid">
         <Link to="/timeline" className="stat-card" style={{textDecoration:'none'}}>
           <div className="stat-value">{t.segments.toLocaleString()}</div>
-          <div className="stat-label">Segments</div>
+          <div className="stat-label">Exegesis Summaries</div>
         </Link>
         <Link to="/dictionary" className="stat-card" style={{textDecoration:'none'}}>
           <div className="stat-value">{t.terms_public.toLocaleString()}</div>
@@ -42,17 +44,17 @@ export default function Dashboard() {
           <div className="stat-value">{t.archive_docs.toLocaleString()}</div>
           <div className="stat-label">Archive Documents</div>
         </Link>
-        <div className="stat-card">
-          <div className="stat-value">{t.evidence_packets.toLocaleString()}</div>
-          <div className="stat-label">Evidence Packets</div>
-        </div>
+        <Link to="/biography" className="stat-card" style={{textDecoration:'none'}}>
+          <div className="stat-value">119</div>
+          <div className="stat-label">Biography Events</div>
+        </Link>
       </div>
 
-      <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'2rem'}}>
+      <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'2rem', marginTop:'1rem'}}>
         <div className="detail-section">
-          <h2>Top Terms</h2>
+          <h2>Key Concepts</h2>
           <ul>
-            {data.top_terms.slice(0, 15).map(t => (
+            {data.top_terms.slice(0, 12).map(t => (
               <li key={t.name}>
                 <Link to={`/dictionary/${t.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>
                   {t.name}
@@ -66,13 +68,13 @@ export default function Dashboard() {
         </div>
 
         <div className="detail-section">
-          <h2>Segments by Year</h2>
+          <h2>Browse by Year</h2>
           <ul>
             {data.segments_per_year.map(y => (
               <li key={y.year}>
                 <Link to={`/timeline/${y.year}`}>{y.year}</Link>
                 <span style={{color:'var(--text-muted)', marginLeft:'0.5rem'}}>
-                  ({y.count} segments)
+                  ({y.count} entries)
                 </span>
               </li>
             ))}

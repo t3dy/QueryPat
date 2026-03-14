@@ -3,7 +3,7 @@
   "canonical_name": "Diagram",
   "slug": "diagram",
   "status": "provisional",
-  "review_state": "unreviewed",
+  "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
   "mention_count": 92,
@@ -12,8 +12,8 @@
   "interpretive_note": "Primary Source Evidence: \"...Last edit over 5 years ago by Harpax\n132\nNeeds Review\n132\nEvery time in my life that I've heard the spirit it's been when my normal (linear) thinking had exasperated & exhausted itself -- reached its end without results, but each time, results were still absolutely necessary. This alone makes a circumstantial case for locating the spirit, the Inward Light, in the right hemisphere (I suppose). Norm...\"",
   "visionary_significance": null,
   "scholarly_caution": null,
-  "card_description": null,
-  "full_description": null,
+  "card_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 92. Referenced 92 times across the corpus. Diagram appears 92 times in the Exegesis corpus. From the Exegesis: \"Last edit over 5 years ago by Harpax\n132\nNeeds Review\n132\nEvery time in my life that I've heard the spirit it's been when my normal (linear) thinking had exasperated & exhausted itself -- reached i...\" Segment context: \"Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" Related to: Acts, Adam, Advent, After, Again.",
+  "full_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 92. Referenced 92 times across the corpus. Diagram appears 92 times in the Exegesis corpus. From the Exegesis: \"Last edit over 5 years ago by Harpax\n132\nNeeds Review\n132\nEvery time in my life that I've heard the spirit it's been when my normal (linear) thinking had exasperated & exhausted itself -- reached i...\" Segment context: \"Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" Related to: Acts, Adam, Advent, After, Again.\n\n**Category:** Top Term\n\n**Frequency:** 92 mentions.\n\n**From the Exegesis:**\n> Last edit over 5 years ago by Harpax\n132\nNeeds Review\n132\nEvery time in my life that I've heard the spirit it's been when my normal (linear) thinking had exasperated & exhausted itself -- reached its end without results, but each time, results were still absolutely necessary. This alone makes a c...\n> What ultimately does this dream teach me? The evolution of the Savior from His two sources, one of which is manifest, the other a crypte morphe. The spirit as \"parent\" will not determine anything in terms of gender. Also, in the use of a string puppet, the puppeteer is never supposed to be visibl...\n> The sort of people who Christ hung around with are the same kind (in modern form: e..g. narks & users) that I prefer to hang around with. Gentile, proper, \"good\" people make me restless & uneasy; I know they won't understand me or accept me as I am - instead they will judge me. It was that latter...\n\n**Key segment contexts:**\n- (circa 1975-1976) Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" He explores the brain's \"Right Hemisphere\" as the location...\n- (September 15, 1976) Dick explores the \"genealogical table\" of the Second Incarnation (St. Sophia). He reacts to a news report about Soviet microwave weapons causing \"words in the head,\" initially fearing 3-74 was a te...\n- (September 15, 1976) Dick performs a clinical meta-analysis of his own \"psychosis,\" suggesting that 3-74 was a \"biological adaptative system\" where religious archetypes (Brahman/Christ) acted as a \"metabolic toxin\" tha...\n\n**Related terms:** Acts (related), Adam (related), Advent (related), After (related), Again (related), Although (related)",
   "first_appearance": null,
   "peak_usage_start": null,
   "peak_usage_end": null,
@@ -29,10 +29,411 @@
   ],
   "provenance": null,
   "notes": null,
-  "created_at": "2026-03-12 14:35:55",
-  "updated_at": "2026-03-12 14:35:55",
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-03-12 19:37:10",
   "aliases": [],
-  "linked_segments": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_27",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" He explores the brain's \"Right Hemisphere\" as the location of",
+      "title": "U_Claudia_27.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_03",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"genealogical table\" of the Second Incarnation (St. Sophia). He reacts to a news report about Soviet microwave weapons causing \"words in the head,\" initially fearing 3-74 was a telep",
+      "title": "1976-09-15_Dorothy_03.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick performs a clinical meta-analysis of his own \"psychosis,\" suggesting that 3-74 was a \"biological adaptative system\" where religious archetypes (Brahman/Christ) acted as a \"metabolic toxin\" that d",
+      "title": "1976-09-15_Dorothy_47.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_52",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself as the \"prisoner\" archetype from his own novels (*Frolix 8*, *Tears*, *Maze of Death*), arguing that his personal rescue in 3-74 was part of a necessary \"printout\" of the divin",
+      "title": "1976-09-15_Dorothy_52.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_53",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his theory of \"orthogonal intervention,\" arguing that true change enters linear time \"at right angles\" from another dimension. He views his own \"anamnesis\" (memory restoration) as the key",
+      "title": "1976-09-15_Dorothy_53.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_132",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes that the \"psyche\" of the Artifact (Form II) was slain by Christ during the First Advent (c. A.D. 70 at Masada/Temple Fall), and it has since been a \"carcass\" or \"sarx\" projecting a froze",
+      "title": "1976-09-15_Dorothy_132.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_133",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the relationship between man and the sentient \"Mind\" of the universe (Zebra/Hagia Sophia). He posits that we are moving from being unconscious \"servants\" of the teacher-deity (Zebra) to ",
+      "title": "1976-09-15_Dorothy_133.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_134",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his model of the \"Urgrund\" (Good) and the \"Artifact\" (Delusional Creator). He suggests that the Urgrund bypasses the Artifact from \"below,\" entering the world's \"trash\" layer to coordinat",
+      "title": "1976-09-15_Dorothy_134.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_135",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"profound mystery\" of his identity shift in 3-74, concluding that his \"PKD\" personality was a retroactive replacement for his authentic \"Thomas\" personality. He posits that the \"Urgr",
+      "title": "1976-09-15_Dorothy_135.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_136",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"horizontal form-axis\" (orthogonal time) from his novel *Ubik* as an experientially real cosmological feature, proving Plato's theory of Forms. He refines his model of the \"Urgrund",
+      "title": "1976-09-15_Dorothy_136.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_138",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick outlines a seven-stage process for escaping the Black Iron Prison (BIP) and entering the Palm Tree Garden (PTG). He identifies the BIP not as a hologram but as the \"real\" underlying template of o",
+      "title": "1976-09-15_Dorothy_138.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_139",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick posits that our linear history is actually a \"lamination\" of segments from a single, supratemporal event: the war between Christ and the Black Iron Prison. He identifies himself as \"Thomas,\" an i",
+      "title": "1976-09-15_Dorothy_139.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself and other \"secret Christians\" as \"phagocytes\" or \"metabolic toxins\" sent into the world-organism to dissolve the \"malignant complex\" that is the Black Iron Prison (BIP). He des",
+      "title": "1976-09-15_Dorothy_140.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_141",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick outlines a radical \"Nine-Stage\" trajectory of the human soul's descent into and ascent out of the Black Iron Prison (BIP). He defines our world as a \"fake fake\"—a layered illusion where the initi",
+      "title": "1976-09-15_Dorothy_141.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_151",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_151.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_152",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_152.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_153",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_153.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_170",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_170.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_172",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_172.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_176",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_176.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_177",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_177.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_178",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_178.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_179",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_179.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_182",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_182.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_197",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_197.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_207",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_207.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_230",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_230.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_232",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_232.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_233",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_233.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_12",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_12.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_13",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_13.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_28",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_29",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_29.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_32",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_32.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_33",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_33.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_35",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_35.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_37",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_37.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_38",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_38.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_41",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_41.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_54",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_54.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_56",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_56.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_59",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_59.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_60",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_60.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_61",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_61.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_62",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_62.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_74",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_74.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_87",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_87.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_91",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_91.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_92",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_92.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_100",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_100.txt"
+    }
+  ],
   "related_terms": [
     {
       "name": "Absolute",

@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import { Link, useParams, NavLink } from 'react-router-dom'
 import { useData } from '../hooks/useData'
+import { formatSegmentTitle } from '../utils/formatTitle'
 
 interface TimelineIndex {
   year: string
@@ -43,8 +44,8 @@ export default function Timeline() {
   return (
     <>
       <div className="page-header">
-        <h1>Timeline</h1>
-        <p>Chronological browsing of the Exegesis corpus</p>
+        <h1>Exegesis Timeline</h1>
+        <p>Browse Philip K. Dick's <em>Exegesis</em> writings in chronological order</p>
       </div>
 
       <div className="sidebar-layout">
@@ -75,16 +76,16 @@ export default function Timeline() {
           ) : (
             <>
               <p style={{color:'var(--text-muted)', marginBottom:'1rem', fontSize:'0.85rem'}}>
-                {filtered.length} segment{filtered.length !== 1 ? 's' : ''} in {selectedYear}
+                {filtered.length} entr{filtered.length !== 1 ? 'ies' : 'y'} in {selectedYear}
               </p>
               {filtered.map(seg => (
                 <div key={seg.seg_id} className="card" style={{marginBottom:'0.75rem'}}>
                   <h3>
-                    <Link to={`/segments/${seg.seg_id}`}>{seg.title || seg.seg_id}</Link>
+                    <Link to={`/segments/${seg.seg_id}`}>{formatSegmentTitle(seg.title, seg.seg_id)}</Link>
                   </h3>
                   <div className="card-meta">
                     <span>{seg.date_display}</span>
-                    {seg.word_count && <span>{seg.word_count} words</span>}
+                    {seg.word_count && <span>{seg.word_count.toLocaleString()} words</span>}
                     {seg.date_confidence && seg.date_confidence !== 'exact' && (
                       <span className="badge badge-category">{seg.date_confidence}</span>
                     )}
@@ -93,7 +94,7 @@ export default function Timeline() {
                     <p style={{marginTop:'0.5rem'}}>{seg.concise_summary}</p>
                   )}
                   {seg.recurring_concepts && seg.recurring_concepts.length > 0 && (
-                    <div className="card-meta" style={{marginTop:'0.5rem'}}>
+                    <div style={{display:'flex', flexWrap:'wrap', gap:'0.35rem', marginTop:'0.5rem'}}>
                       {seg.recurring_concepts.slice(0, 5).map(c => (
                         <span key={c} className="badge badge-category">{c}</span>
                       ))}

@@ -3,7 +3,7 @@
   "canonical_name": "Kathy",
   "slug": "kathy",
   "status": "provisional",
-  "review_state": "unreviewed",
+  "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
   "mention_count": 57,
@@ -12,8 +12,8 @@
   "interpretive_note": "Primary Source Evidence: \"...Last edit almost 5 years ago by svayambhu108\n213\nNeeds Review\n213\nNow, take what Eric was saying about the American Founding Fathers and tneir belief that history exactly repeats itself, and their study of it, esp. of Greece and Rome. Suppose a great 2,000 year cycle has turned so that we are superimposed over the First Century A.D., as I saw (following this idea, Vico-like, about history). Again ...\"",
   "visionary_significance": null,
   "scholarly_caution": null,
-  "card_description": null,
-  "full_description": null,
+  "card_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 57. Referenced 57 times across the corpus. Kathy appears 57 times in the Exegesis corpus. From the Exegesis: \"He was not a great man.\n\nHence, I was not in a situational jeopardy, within a limited crisis thrall; my life at stake for an interval; it is Aeon thrall removed; it was always there and would alway...\" Segment context: \"Dick explores the distinction between the \"God of the structure\" (the Creator) and the \"God of the discarded bits\" (Christ).\" Related to: Acts, Adam, Advent, After, Again.",
+  "full_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 57. Referenced 57 times across the corpus. Kathy appears 57 times in the Exegesis corpus. From the Exegesis: \"He was not a great man.\n\nHence, I was not in a situational jeopardy, within a limited crisis thrall; my life at stake for an interval; it is Aeon thrall removed; it was always there and would alway...\" Segment context: \"Dick explores the distinction between the \"God of the structure\" (the Creator) and the \"God of the discarded bits\" (Christ).\" Related to: Acts, Adam, Advent, After, Again.\n\n**Category:** Top Term\n\n**Frequency:** 57 mentions.\n\n**From the Exegesis:**\n> He was not a great man.\n\nHence, I was not in a situational jeopardy, within a limited crisis thrall; my life at stake for an interval; it is Aeon thrall removed; it was always there and would always have been. The immediate situation was only a worsening of an endless thrall.\n\nSo the total thrall...\n> You get enough darkness and it turns spontaneously to light. You get enough light, etc.\n\nFor all purposes which are ours, we should contrue our universe as under the dominion of two distinct RUs, if not more, and a compound of both -- so in a sense, not as real as both or either of them. But mayb...\n> the dream showed me clearly that the primary miracle, the one which of necessity must precede all others, is the miracle of life born out of the unliving, the miracle of creation itself; then the movement up the evolutionary scale, from form to higher form to highest form; this surely is the prim...\n\n**Key segment contexts:**\n- (circa 1975-1976) Dick explores the distinction between the \"God of the structure\" (the Creator) and the \"God of the discarded bits\" (Christ). He details his experience of the \"mirror opposite universe\" where time r...\n- (circa 1975-1976) Dick explores the \"Holy Spirit\" (Elijah) as the precursor to the \"Second Birth\" of the Logos/Wisdom (Santa Sophia). He details a shift from the \"warrior\" survival instincts of 1974 to the \"reproduc...\n- (circa 1975-1976) Dick identifies his 1974 merger with the \"Daimon\" as the \"Second Birth\" and the \"Pearl of Great Price.\" He concludes that the Daimon (Eros/Will) is the source of his precognitive writing and that h...\n\n**Related terms:** Acts (related), Adam (related), Advent (related), After (related), Again (related), Although (related)",
   "first_appearance": null,
   "peak_usage_start": null,
   "peak_usage_end": null,
@@ -29,10 +29,315 @@
   ],
   "provenance": null,
   "notes": null,
-  "created_at": "2026-03-12 14:35:55",
-  "updated_at": "2026-03-12 14:35:55",
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-03-12 19:37:10",
   "aliases": [],
-  "linked_segments": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_04",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the distinction between the \"God of the structure\" (the Creator) and the \"God of the discarded bits\" (Christ). He details his experience of the \"mirror opposite universe\" where time runs",
+      "title": "U_Claudia_04.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_11",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"Holy Spirit\" (Elijah) as the precursor to the \"Second Birth\" of the Logos/Wisdom (Santa Sophia). He details a shift from the \"warrior\" survival instincts of 1974 to the \"reproductiv",
+      "title": "U_Claudia_11.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_20",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his 1974 merger with the \"Daimon\" as the \"Second Birth\" and the \"Pearl of Great Price.\" He concludes that the Daimon (Eros/Will) is the source of his precognitive writing and that he w",
+      "title": "U_Claudia_20.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_27",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" He explores the brain's \"Right Hemisphere\" as the location of",
+      "title": "U_Claudia_27.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_35",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his role as a \"Wolf in Sheep’s Clothing\" (or vice versa), covertly delivering the Gospel to Marxists through his fiction. He identifies his \"Spirit Guide\" as St. Luke (the \"Beloved Phy",
+      "title": "U_Claudia_35.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_37",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick refines the \"Black Iron Prison\" metaphor, describing a metal prison breached by \"live signals\" (roots) that teach slaves how to lift the siege. He identifies \"James-James\" (the Creator) as a pote",
+      "title": "U_Claudia_37.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_38",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Divine Birth\" in his soul as the realization of Meister Eckhart's theology, where the \"Wise Old Man\" (the Father) is born from the mortal man. He rejects the \"Suffering Servant\" m",
+      "title": "U_Claudia_38.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_39",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Possession by God\" (Dionysian mystery) as the secret core of Christianity, rediscovered by Meister Eckhart. He reinterprets his 1974 experience as a \"recollection\" (anamnesis) of his ",
+      "title": "U_Claudia_39.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_03",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1975",
+      "summary": "Dick explores the \"Rome Two\" superimposition theory, identifying the Nixon administration as the return of the Roman Empire and the fall of Nixon as a true historical victory for Christ. He introduces",
+      "title": "1975-09-15_SECTION_012_03.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_14",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_14.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_08",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick reveals a \"steganographic\" reading of his own work, specifically the \"Felix\" message hidden within *Flow My Tears*. He argues that the Parousia required a \"topological superimposition\" (Rome Two)",
+      "title": "1976-09-15_Dorothy_08.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_41",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his experience with Hegel's third stage of religion (Absolute Spirit), arguing that evolution has moved from the biological to the historical. He predicts the emergence of a \"new type ",
+      "title": "1976-09-15_Dorothy_41.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_126",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes his boldest surmise yet: that the 1974 intervention was a \"surgical\" re-editing of history that nullified the \"evil tyrant\" Nixon across all linear time (past, present, and future). He v",
+      "title": "1976-09-15_Dorothy_126.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_168",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_168.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_199",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_199.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_205",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_205.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_236",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_236.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_07",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_07.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_65",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_65.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_66",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_66.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_102",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_102.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_117",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_117.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_131",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_131.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_132",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_132.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_146",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_146.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_176",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_176.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_180",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_180.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_193",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_193.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_194",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_194.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_195",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_195.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_198",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_198.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_199",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_199.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_200",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_200.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_336",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_336.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_337",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_337.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_346",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_346.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_143",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_143.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_187",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_187.txt"
+    }
+  ],
   "related_terms": [
     {
       "name": "Absolute",

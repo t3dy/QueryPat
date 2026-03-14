@@ -3,7 +3,7 @@
   "canonical_name": "House",
   "slug": "house",
   "status": "provisional",
-  "review_state": "unreviewed",
+  "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
   "mention_count": 66,
@@ -12,8 +12,8 @@
   "interpretive_note": "Primary Source Evidence: \"...Needs Review\n249\nAnd yet few men see or know that the Parousia has come. But as the JWs point out, they never saw Satan all these years; thus they do not see Christ returned either, nor anything else, except the ex¬ ternals, only the externals. The most powerful tyranny in the history of the world was deposed, and what stood against him in worldly terms? Nothing; yet he resigned. Contrast this wit...\"",
   "visionary_significance": null,
   "scholarly_caution": null,
-  "card_description": null,
-  "full_description": null,
+  "card_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 66. Referenced 66 times across the corpus. House appears 66 times in the Exegesis corpus. From the Exegesis: \"Ruffie Rat; that's what Tessa calls herself, also without realizing how these lives live on from the past.\n\nI think if seen in proper perspective, sub sepcia aeternitatis, we're like WIND IN THE WI...\" Segment context: \"The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time.\" Related to: Acts, After, Again, Although, Anamnesis.",
+  "full_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 66. Referenced 66 times across the corpus. House appears 66 times in the Exegesis corpus. From the Exegesis: \"Ruffie Rat; that's what Tessa calls herself, also without realizing how these lives live on from the past.\n\nI think if seen in proper perspective, sub sepcia aeternitatis, we're like WIND IN THE WI...\" Segment context: \"The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time.\" Related to: Acts, After, Again, Although, Anamnesis.\n\n**Category:** Top Term\n\n**Frequency:** 66 mentions.\n\n**From the Exegesis:**\n> Ruffie Rat; that's what Tessa calls herself, also without realizing how these lives live on from the past.\n\nI think if seen in proper perspective, sub sepcia aeternitatis, we're like WIND IN THE WILLOWS, to God. (\"A motorcar???\")\n\nGod has returned. Resumed his Kingship (the Kingdom of God has bee...\n> Last edit over 5 years ago by A23\n5\nComplete\n5\nkarma on me, not really; I had that lesson in me, that understanding. Yet -- I felt sorry for the rat, since it didn't want to die. The lesson was for me the hardest of all: that things must be done in response to decissions or considerations or need...\n> Complete\n5\nkarma on me, not really; I had that lesson in me, that understanding. Yet -- I felt sorry for the rat, since it didn't want to die. The lesson was for me the hardest of all: that things must be done in response to decissions or considerations or needs or directive or to accord with a h...\n\n**Key segment contexts:**\n- (February 27, 1975) The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time. He claims this retrograd...\n- (February 27, 1975) Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death. He connects this act to broader cosmological ideas from Empedocles about the necessity of st...\n- (circa 1975-1976) Dick elaborates on the \"Kingship of God\" as a subtle, behind-the-scenes seizing of power. He uses metaphors of rescued animals and a \"Lord of the Flies\" scenario to explain the intervention of Trut...\n\n**Related terms:** Acts (related), After (related), Again (related), Although (related), Anamnesis (related)",
   "first_appearance": null,
   "peak_usage_start": null,
   "peak_usage_end": null,
@@ -29,10 +29,411 @@
   ],
   "provenance": null,
   "notes": null,
-  "created_at": "2026-03-12 14:35:55",
-  "updated_at": "2026-03-12 14:35:55",
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-03-12 19:37:10",
   "aliases": [],
-  "linked_segments": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "February 27, 1975",
+      "summary": "The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time. He claims this retrograde m",
+      "title": "1975-02-27_Claudia_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_02",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "February 27, 1975",
+      "summary": "Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death. He connects this act to broader cosmological ideas from Empedocles about the necessity of strif",
+      "title": "1975-02-27_Claudia_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick elaborates on the \"Kingship of God\" as a subtle, behind-the-scenes seizing of power. He uses metaphors of rescued animals and a \"Lord of the Flies\" scenario to explain the intervention of Truth a",
+      "title": "U_Claudia_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_18",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick links the \"Spirit of Truth\" (the inner voice) to his high school physics test, concluding that it provides \"absolute for sure intervention.\" He interprets his novel *Flow My Tears* as a revealed ",
+      "title": "U_Claudia_18.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_31",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his 1974 experience as a \"Discernment of the Present\" rather than an \"Anamnesis of the Past,\" concluding that Imperial Rome *exists now* in a metaphysical form. He proposes that 1,500 ",
+      "title": "U_Claudia_31.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_34",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as a literal \"Passover Epiphany\" occurring in August 1974, coinciding with Nixon’s resignation. He concludes that God used \"plagues\" to pull down the modern Egypt (Nixon",
+      "title": "U_Claudia_34.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_04",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1975",
+      "summary": "Dick analyzes the \"Cabrillo\" dream to conclude that the Xerox letter was a \"fake\" entrapment attempt (possibly by \"The Man\" or \"Reds\"). He interprets complex symbolic puns—Cabrillo, Brillo, Monopoly m",
+      "title": "1975-09-15_SECTION_012_04.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_10",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_10.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_16",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes his massive day of theorizing by realizing the 1st Advent is an \"Eternal Now\" (always occurring at the vernal equinox) and the \"Rome\" memories were incidentals of an \"Internal Epiphany.",
+      "title": "1976-09-15_Dorothy_16.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_22",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical \"mundane\" theory: that he was \"occupied\" by a secret Christian Soviet doctor (or defected KGB operator) who used his brain to flee the \"Gulag\" (Black Iron Prison). He also refi",
+      "title": "1976-09-15_Dorothy_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_41",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his experience with Hegel's third stage of religion (Absolute Spirit), arguing that evolution has moved from the biological to the historical. He predicts the emergence of a \"new type ",
+      "title": "1976-09-15_Dorothy_41.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick embraces the \"Impostor\" theme of his fiction, theorizing that he is a \"linked extension\" (a programmed \"sleeper\") for a benign, non-human \"Mantis\" race. He sees reality as an \"orthogonal metamorp",
+      "title": "1976-09-15_Dorothy_49.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_51",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick realizes that his 1959 novel *Time Out of Joint* was a prophetic \"reversal\" of his 3-74 experience. While the novel depicts a fake 1950s that is actually the future, 3-74 revealed a fake 1974 tha",
+      "title": "1976-09-15_Dorothy_51.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_52",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself as the \"prisoner\" archetype from his own novels (*Frolix 8*, *Tears*, *Maze of Death*), arguing that his personal rescue in 3-74 was part of a necessary \"printout\" of the divin",
+      "title": "1976-09-15_Dorothy_52.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_69",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues analyzing the \"reweaving\" of reality in 3-74, suggesting it was part of a global \"extrication\" from the Black Iron Prison. He discusses the \"personality switch\" from PKD to Thomas and t",
+      "title": "1976-09-15_Dorothy_69.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_87",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets the transition from the beginning of Acts (small church) to the end (Rome penetrated) as a roadmap for the 3-74 revolution. He identifies our reality as a \"hologram-like fake\" (Klingso",
+      "title": "1976-09-15_Dorothy_87.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_96",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets several dreams and \"ciphers\" (Felix, Glossa) as a single, overwhelming message from Zebra: \"God loves us.\" He concludes that his novel *Flow My Tears* was \"completed\" by a divine inser",
+      "title": "1976-09-15_Dorothy_96.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_100",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes Section 15 by reinforcing the idea that a \"superself\" (Thomas) was awakened in him by an \"external-to-me symbol\" (The Fish). This reawakening was part of a \"coordinated sequence of even",
+      "title": "1976-09-15_Dorothy_100.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_109",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick posits that humans are currently in a \"half-alive\" or \"half-born\" state, trapped in a \"prison\" of the material artifact. The process of salvation is a literal metamorphosis into a higher state of",
+      "title": "1976-09-15_Dorothy_109.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_135",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"profound mystery\" of his identity shift in 3-74, concluding that his \"PKD\" personality was a retroactive replacement for his authentic \"Thomas\" personality. He posits that the \"Urgr",
+      "title": "1976-09-15_Dorothy_135.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself and other \"secret Christians\" as \"phagocytes\" or \"metabolic toxins\" sent into the world-organism to dissolve the \"malignant complex\" that is the Black Iron Prison (BIP). He des",
+      "title": "1976-09-15_Dorothy_140.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_164",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_164.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_189",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_189.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_190",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_190.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_201",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_201.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_203",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_203.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_219",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_219.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_236",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_236.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_240",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_240.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_04",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_04.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_05",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_05.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_09",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_09.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_10",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_10.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_20",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_20.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_22",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_28",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_34",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_34.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_36",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_36.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_41",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_41.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_42",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_42.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_55",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_55.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_56",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_56.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_63",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_63.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_72",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_72.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_76",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_76.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_79",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_79.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_80",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_80.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_81",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_81.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_84",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_84.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_100",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_100.txt"
+    }
+  ],
   "related_terms": [
     {
       "name": "Absolute",

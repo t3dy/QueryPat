@@ -55,6 +55,19 @@ def init_db(db_path: Path, fresh: bool = False) -> sqlite3.Connection:
     return db
 
 
+def run_stage_0(db: sqlite3.Connection, source: Path):
+    """Stage 0: Corpus acquisition and text extraction."""
+    print("\n" + "=" * 60)
+    print("STAGE 0: CORPUS EXTRACTION")
+    print("=" * 60)
+
+    from ingest.ingest_archive_texts import run as ingest_archive_texts
+    ingest_archive_texts(db, source)
+
+    from ingest.ingest_exegesis_raw_chunks import run as ingest_raw_chunks
+    ingest_raw_chunks(db, source)
+
+
 def run_stage_1(db: sqlite3.Connection, source: Path):
     """Stage 1: Deterministic extraction."""
     print("\n" + "=" * 60)
@@ -84,6 +97,15 @@ def run_stage_1(db: sqlite3.Connection, source: Path):
     from ingest.ingest_folder_dates import run as ingest_folder_dates
     ingest_folder_dates(db, source)
 
+    from ingest.ingest_names_from_segments import run as ingest_names_segments
+    ingest_names_segments(db, source)
+
+    from ingest.ingest_names_from_biography import run as ingest_names_bio
+    ingest_names_bio(db, source)
+
+    from ingest.ingest_name_references import run as ingest_name_refs
+    ingest_name_refs(db, source)
+
 
 def run_stage_2(db: sqlite3.Connection, source: Path):
     """Stage 2: Heuristic linking."""
@@ -109,6 +131,21 @@ def run_stage_2(db: sqlite3.Connection, source: Path):
     except ImportError:
         print("  SKIP: link_and_validate not yet implemented")
 
+    try:
+        from link.link_names import run as link_names
+        link_names(db, source)
+    except ImportError:
+        print("  SKIP: link_names not yet implemented")
+
+    from link.map_evidence_to_segments import run as map_evidence
+    map_evidence(db, source)
+
+    from link.upgrade_term_segment_links import run as upgrade_links
+    upgrade_links(db, source)
+
+    from link.ingest_evidence_cooccurrences import run as ingest_cooccurrences
+    ingest_cooccurrences(db, source)
+
 
 def run_stage_3(db: sqlite3.Connection, source: Path):
     """Stage 3: LLM enrichment (skippable)."""
@@ -121,6 +158,30 @@ def run_stage_3(db: sqlite3.Connection, source: Path):
         enrich_accepted(db, source)
     except ImportError:
         print("  SKIP: enrich_accepted_terms not available")
+
+    try:
+        from enrich.enrich_provisional_terms import run as enrich_provisional
+        enrich_provisional(db, source)
+    except ImportError:
+        print("  SKIP: enrich_provisional_terms not available")
+
+    try:
+        from enrich.enrich_names import run as enrich_names
+        enrich_names(db, source)
+    except ImportError:
+        print("  SKIP: enrich_names not available")
+
+    try:
+        from enrich.enrich_biography import run as enrich_biography
+        enrich_biography(db, source)
+    except ImportError:
+        print("  SKIP: enrich_biography not available")
+
+    try:
+        from enrich.enrich_reading_excerpts import run as enrich_excerpts
+        enrich_excerpts(db, source)
+    except ImportError:
+        print("  SKIP: enrich_reading_excerpts not available")
 
     print("  (LLM-based enrichment not yet implemented)")
 
@@ -194,6 +255,25 @@ def run_audit(db: sqlite3.Connection):
             ("Timeline events", "SELECT COUNT(*) FROM timeline_events"),
             ("Assets", "SELECT COUNT(*) FROM assets"),
             ("Annotations", "SELECT COUNT(*) FROM annotations"),
+            ("Names", "SELECT COUNT(*) FROM names"),
+            ("  - by type", ""),
+            ("    character", "SELECT COUNT(*) FROM names WHERE entity_type = 'character'"),
+            ("    deity_figure", "SELECT COUNT(*) FROM names WHERE entity_type = 'deity_figure'"),
+            ("    historical_person", "SELECT COUNT(*) FROM names WHERE entity_type = 'historical_person'"),
+            ("    other", "SELECT COUNT(*) FROM names WHERE entity_type NOT IN ('character','deity_figure','historical_person')"),
+            ("Name aliases", "SELECT COUNT(*) FROM name_aliases"),
+            ("Name-segment links", "SELECT COUNT(*) FROM name_segments"),
+            ("Name references", "SELECT COUNT(*) FROM name_references"),
+            ("", ""),
+            ("Segments with raw text", "SELECT COUNT(*) FROM segments WHERE raw_text IS NOT NULL"),
+            ("Segments with summaries", "SELECT COUNT(*) FROM segments WHERE concise_summary IS NOT NULL"),
+            ("Archive docs with extracted text", "SELECT COUNT(*) FROM document_texts WHERE text_content IS NOT NULL"),
+            ("Archive docs needing OCR", "SELECT COUNT(*) FROM document_texts WHERE ocr_required = 1"),
+            ("Evidence excerpts with seg_id", "SELECT COUNT(*) FROM evidence_excerpts WHERE seg_id IS NOT NULL"),
+            ("Term-segment confidence 1 (exact text)", "SELECT COUNT(*) FROM term_segments WHERE link_confidence = 1"),
+            ("Term-segment confidence 2 (alias/summary)", "SELECT COUNT(*) FROM term_segments WHERE link_confidence = 2"),
+            ("Term-segment confidence 4 (conceptual)", "SELECT COUNT(*) FROM term_segments WHERE link_confidence = 4"),
+            ("Term co-occurrences", "SELECT COUNT(*) FROM term_cooccurrences"),
             ("", ""),
             ("Orphan terms (no evidence)", "SELECT COUNT(*) FROM terms t WHERE NOT EXISTS (SELECT 1 FROM evidence_packets ep WHERE ep.term_id = t.term_id) AND NOT EXISTS (SELECT 1 FROM term_segments ts WHERE ts.term_id = t.term_id)"),
             ("Segments without dates", "SELECT COUNT(*) FROM segments WHERE date_start IS NULL"),
@@ -264,8 +344,11 @@ def main():
 
     db = init_db(args.db, fresh=args.fresh)
 
-    # Stage 1: always run
+    # Stage 1: always run (creates documents, segments, terms, evidence)
     run_stage_1(db, args.source)
+
+    # Stage 0: corpus text substrate (must run after Stage 1 creates docs/segments)
+    run_stage_0(db, args.source)
 
     # Stage 2: always run
     run_stage_2(db, args.source)

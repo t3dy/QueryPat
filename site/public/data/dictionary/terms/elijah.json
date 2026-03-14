@@ -3,7 +3,7 @@
   "canonical_name": "Elijah",
   "slug": "elijah",
   "status": "provisional",
-  "review_state": "unreviewed",
+  "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
   "mention_count": 233,
@@ -12,8 +12,8 @@
   "interpretive_note": "Primary Source Evidence: \"...I never after that \"found\" myself in daytime in an earlier moment, such as Crete, but recalled them in dreams; those were the foundations of Christianity. The Rome-Christ period was actually there and actually experienced during full wakefulness, as present. Yet, it was still now. But now He has returned. I was now and yet superimposed Rome of 2000 years ago: 1974 Fullerton and Rome c 45. I gather...\"",
   "visionary_significance": null,
   "scholarly_caution": null,
-  "card_description": null,
-  "full_description": null,
+  "card_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 233. Referenced 233 times across the corpus. Elijah appears 233 times in the Exegesis corpus. From the Exegesis: \"I forgot; only after that did I see anything else (e.g. Dionysos). My experience wouldkn't have been possible in our lineal time prior to March 1974. (He wasn't here.) And He remains; hence they ca...\" Segment context: \"The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time.\" Related to: Acts, Advent, Anamnesis, Because, Bible.",
+  "full_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 233. Referenced 233 times across the corpus. Elijah appears 233 times in the Exegesis corpus. From the Exegesis: \"I forgot; only after that did I see anything else (e.g. Dionysos). My experience wouldkn't have been possible in our lineal time prior to March 1974. (He wasn't here.) And He remains; hence they ca...\" Segment context: \"The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time.\" Related to: Acts, Advent, Anamnesis, Because, Bible.\n\n**Category:** Top Term\n\n**Frequency:** 233 mentions.\n\n**From the Exegesis:**\n> I forgot; only after that did I see anything else (e.g. Dionysos). My experience wouldkn't have been possible in our lineal time prior to March 1974. (He wasn't here.) And He remains; hence they can reoccur.\n\n(N.B. The Iron City --Rome-- [****?] didn't just go away...we threw it over, the tyranny...\n> Jesus spoke of a coming \"Kingship of God\" which, He said, \"Is among you/ around you/ within you.\" It could arrive any time. When it arrives, many men, most men, won't know. Since God created this world in the first place, the angle of error may be slight, and the percentage which He must remove a...\n> prisoners, the giving them their first glimpse of the pasture which is their reward. It is as if humane people came across a place where animals were imprisoned under cruel conditions: overworked, starved, animals which were ill and unattended, and, finally, put to death in vicious ways without r...\n\n**Key segment contexts:**\n- (February 27, 1975) The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time. He claims this retrograd...\n- (circa 1975-1976) Dick elaborates on the \"Kingship of God\" as a subtle, behind-the-scenes seizing of power. He uses metaphors of rescued animals and a \"Lord of the Flies\" scenario to explain the intervention of Trut...\n- (circa 1975-1976) Dick identifies the pineal gland as the \"third eye\" and the biological receptor for the \"Other Sun\" (Sun of Righteousness). He links this to the 1974 chromatic phosphene experience and argues that ...\n\n**Related terms:** Acts (related), Advent (related), Anamnesis (related), Because (related), Bible (related), Christ (related), Christian (related), Christianity (related), Dionysos (related), Like (related)",
   "first_appearance": null,
   "peak_usage_start": null,
   "peak_usage_end": null,
@@ -29,10 +29,411 @@
   ],
   "provenance": null,
   "notes": null,
-  "created_at": "2026-03-12 14:35:55",
-  "updated_at": "2026-03-12 14:35:55",
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-03-12 19:37:10",
   "aliases": [],
-  "linked_segments": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "February 27, 1975",
+      "summary": "The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time. He claims this retrograde m",
+      "title": "1975-02-27_Claudia_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick elaborates on the \"Kingship of God\" as a subtle, behind-the-scenes seizing of power. He uses metaphors of rescued animals and a \"Lord of the Flies\" scenario to explain the intervention of Truth a",
+      "title": "U_Claudia_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_06",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the pineal gland as the \"third eye\" and the biological receptor for the \"Other Sun\" (Sun of Righteousness). He links this to the 1974 chromatic phosphene experience and argues that Chr",
+      "title": "U_Claudia_06.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_07",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick contrasts Gnosticism (external grace) with Neoplatonism (self-attainment), concluding that the 1974 experience was a \"zygote\" formation between the human \"egg\" and cosmic \"spermatika.\" He reinter",
+      "title": "U_Claudia_07.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_08",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"erotic\" nature of divine possession, equating the Holy Spirit with the \"Yang\" that impregnates the human \"Yin.\" He redefines the Trinity as a biological reproduction process and ide",
+      "title": "U_Claudia_08.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_09",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his 1974 experience as the \"Second Advent,\" occurring pluralistically within individual minds rather than in a single visible man. He analyzes the \"Parousia\" as the abolition of time a",
+      "title": "U_Claudia_09.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_10",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick details the transition from the \"Father\" stage (1974 - Justice/Warrior) to the \"Son\" stage (1975 - Spring King/Dancing Youth). He posits that the \"Light Creatures\" have returned to the world afte",
+      "title": "U_Claudia_10.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_11",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"Holy Spirit\" (Elijah) as the precursor to the \"Second Birth\" of the Logos/Wisdom (Santa Sophia). He details a shift from the \"warrior\" survival instincts of 1974 to the \"reproductiv",
+      "title": "U_Claudia_11.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_13",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the Egyptian deity Ptah as the \"Immanent Mind\" and \"Logos\" doctrine precursor. He argues that the \"Miracle of Transubstantiation\" (the Mass) is a literal reality he witnessed in 1974, ",
+      "title": "U_Claudia_13.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_14",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Miracle of Transubstantiation\" as the mechanism by which God sanctifies and replaces ordinary reality (\"trash of the alley\"). He concludes that his experiences of the \"Logos\" were",
+      "title": "U_Claudia_14.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_18",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick links the \"Spirit of Truth\" (the inner voice) to his high school physics test, concluding that it provides \"absolute for sure intervention.\" He interprets his novel *Flow My Tears* as a revealed ",
+      "title": "U_Claudia_18.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_19",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"Daimon of Socrates\" (verified by Rollo May) as the source of his 1974 \"Voice\" and Attic Greek. He identifies this entity as \"Eros\" (Life/Joy) and concludes that he was \"possessed\" b",
+      "title": "U_Claudia_19.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_20",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his 1974 merger with the \"Daimon\" as the \"Second Birth\" and the \"Pearl of Great Price.\" He concludes that the Daimon (Eros/Will) is the source of his precognitive writing and that he w",
+      "title": "U_Claudia_20.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_21",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as an \"evolutionary advance\" (Cosmic Consciousness) and the \"next step up\" for the human species. He reinterprets the \"Fall\" as a lack of perception and argues that the ",
+      "title": "U_Claudia_21.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_22",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick proposes a \"Light Body\" theory of immortality: a 2,000-year-old collective \"Bioplasmic\" entity (the fellowship of Christ) re-enters human hosts through the 3rd eye/pineal gland. He identifies the",
+      "title": "U_Claudia_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_23",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as a literal fulfillment of Biblical promise (Psalm 116) and a commissioning into the class of \"prophets.\" He concludes that \"Santa Sophia\" (Holy Wisdom) is returning to",
+      "title": "U_Claudia_23.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_24",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick plots his next novel (*To Scare the Dead*), revolving around the \"Possession\" of a government agent (Nicholas Brady) by an ancient Essene spirit. He defines \"Christian Anamnesis\" as the \"Remembra",
+      "title": "U_Claudia_24.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_30",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores \"Immanence\" using Parmenides' \"All\" and Kozyrev's time theory, concluding that God is total in every \"micropoint.\" He argues that the Father (Yahweh/Judgment) took his place during the 1",
+      "title": "U_Claudia_30.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_33",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Passover/Exodus\" as the primary paradigm for his 1974 experience, concluding that Yahweh (the Nature-God) intervened from \"outside the state\" to free him. He reinterprets his cat ",
+      "title": "U_Claudia_33.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_34",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as a literal \"Passover Epiphany\" occurring in August 1974, coinciding with Nixon’s resignation. He concludes that God used \"plagues\" to pull down the modern Egypt (Nixon",
+      "title": "U_Claudia_34.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_40",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick describes a \"blissful mystical experience\" where he perceives God's activity as a \"Tao-istic mechanism\" (Ma'at) that re-establishes equilibrium below the surface of evil. He concludes that 3-74 w",
+      "title": "U_Claudia_40.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_44",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies *Tears* as an \"Apocalyptic Novel\" and his 1974 experience as a \"revealed\" validation of the Bible's divine origin. He argues that the Parousia is virtually here, signaled by the arriva",
+      "title": "U_Claudia_44.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_45",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Sarapis/Dionysos\" entity as the god who \"undid determinism\" (Ananke) for him in 1974. He concludes that 3-74 was a victory for \"Freedom over Enslavement\" (Android), where God inte",
+      "title": "U_Claudia_45.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_48",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick bridges his personal experience with the \"regression of things\" in *Ubik*, proposing that the universe is a \"mutually hallucinated\" world where humans are \"half-alive\" (in cold-pac) being roused ",
+      "title": "U_Claudia_48.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1975",
+      "summary": "After a business letter regarding a lost $500 check, Dick pivots to a theological breakthrough: the Kingdom of God is located in the \"Future,\" and he reached it by \"running out of time\" in March 1974.",
+      "title": "1975-09-15_SECTION_012_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_09",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_09.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_10",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_10.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_18",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_18.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_20",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_20.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick reflects on an interview with a reporter that clarifies his 1974 experience as the \"answer\" to his lifelong philosophical question \"What is real?\". He lists the physical and symbolic \"causal fact",
+      "title": "1976-09-15_Dorothy_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_34",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"DNA Memory\" theory after speaking with a researcher (Barry), suggesting that his 3-74 experience was the \"disinhibition\" of an 1800-year-old Christian personality (\"Thomas\") to solv",
+      "title": "1976-09-15_Dorothy_34.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_37",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues his philosophical integration, finding that A.N. Whitehead's metaphysics perfectly describes \"Zebra.\" He accepts the idea of God as an \"arranger\" rather than a creator, and as an entity",
+      "title": "1976-09-15_Dorothy_37.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_48",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Elijah\" role in his 3-74 experience, seeing himself as a forerunner to the Parousia who \"heals\" the world's timeline. He also introduces a radical \"Anti-Matter Universe\" theory for ",
+      "title": "1976-09-15_Dorothy_48.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick embraces the \"Impostor\" theme of his fiction, theorizing that he is a \"linked extension\" (a programmed \"sleeper\") for a benign, non-human \"Mantis\" race. He sees reality as an \"orthogonal metamorp",
+      "title": "1976-09-15_Dorothy_49.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_51",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick realizes that his 1959 novel *Time Out of Joint* was a prophetic \"reversal\" of his 3-74 experience. While the novel depicts a fake 1950s that is actually the future, 3-74 revealed a fake 1974 tha",
+      "title": "1976-09-15_Dorothy_51.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_54",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that 3-74 was a \"theolepsy\" (divine possession) where St. Sophia \"avatared\" herself through him to prepare the world for the Parousia. He interprets the fall of the \"Tyrant\" (Nixon) as ",
+      "title": "1976-09-15_Dorothy_54.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_65",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes his \"Orthogonal Time\" theory using the \"Wealthy Patron\" and \"Symphony\" metaphors. He argues that history is a \"linear strip\" that can be \"reworked\" or \"improved\" at a specific nexus po",
+      "title": "1976-09-15_Dorothy_65.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_85",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies a \"Zen\" irony in his Gnosis: the secret revelation is that standard Orthodox Christian claims (the Paraclete's arrival and the Kingdom's presence) are literally true. He views himself ",
+      "title": "1976-09-15_Dorothy_85.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_86",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that *Flow My Tears* contains \"cooked\" (divinely inspired/interpolated) material that parallels the Book of Acts with impossible precision. He concludes that Jesus is \"here\" in a state of ",
+      "title": "1976-09-15_Dorothy_86.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_93",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick rejects \"Natural Theology\" (finding God in nature), asserting that God is a \"Deus Absconditus\" (Hidden God) who is NOT in the world. He argues that Zebra mimics the world to infiltrate it, and th",
+      "title": "1976-09-15_Dorothy_93.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_121",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick rejects the idea that suffering has a divine purpose, calling it a \"trap\" by the artifact. He posits that the Urgrund's power is explicitly opposed to suffering, but its intervention is currently",
+      "title": "1976-09-15_Dorothy_121.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_135",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"profound mystery\" of his identity shift in 3-74, concluding that his \"PKD\" personality was a retroactive replacement for his authentic \"Thomas\" personality. He posits that the \"Urgr",
+      "title": "1976-09-15_Dorothy_135.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself and other \"secret Christians\" as \"phagocytes\" or \"metabolic toxins\" sent into the world-organism to dissolve the \"malignant complex\" that is the Black Iron Prison (BIP). He des",
+      "title": "1976-09-15_Dorothy_140.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_144",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick formally merges seven distinct philosophical and religious traditions into a \"Synthetic Cosmology\" aimed at defining the 2-source struggle between Zebra (Yang) and the Black Iron Prison (Yin). He",
+      "title": "1976-09-15_Dorothy_144.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_161",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_161.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_188",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_188.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_205",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_205.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_218",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_218.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_219",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_219.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_223",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_223.txt"
+    }
+  ],
   "related_terms": [
     {
       "name": "Acts",

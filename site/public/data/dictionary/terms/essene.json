@@ -3,7 +3,7 @@
   "canonical_name": "Essene",
   "slug": "essene",
   "status": "provisional",
-  "review_state": "unreviewed",
+  "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
   "mention_count": 60,
@@ -12,8 +12,8 @@
   "interpretive_note": "Primary Source Evidence: \"...Last edit over 5 years ago by Harpax\n\n76\nWe then are discussing possession by Elijah and possession by God in the form of the Holy spirit; it is the same thing. Now Malachi talks about God ending Elijah; read, \"The Father will send the Holy Spirit,\" and this refining and purifying process is to make the human temple (body-mind) ready for the implantation. I must reassign dates on the Parousia, the...\"",
   "visionary_significance": null,
   "scholarly_caution": null,
-  "card_description": null,
-  "full_description": null,
+  "card_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 60. Referenced 60 times across the corpus. Essene appears 60 times in the Exegesis corpus. From the Exegesis: \"Dear Claudia,\n\nI've read the LEM piece in SFS further and it is a bit like your approach, but not enough to bother you....however, do read it first, when you receive the thing.\n\nLet me offer some f...\" Segment context: \"Dick synthesizes the \"Magdeburg hemispheres\" of his 1974 experience: the external transformation of Fullerton into Rome and the internal transformation of himself into an early Christian Essene.\" Related to: Acts, Advent, After, Again, Although.",
+  "full_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 60. Referenced 60 times across the corpus. Essene appears 60 times in the Exegesis corpus. From the Exegesis: \"Dear Claudia,\n\nI've read the LEM piece in SFS further and it is a bit like your approach, but not enough to bother you....however, do read it first, when you receive the thing.\n\nLet me offer some f...\" Segment context: \"Dick synthesizes the \"Magdeburg hemispheres\" of his 1974 experience: the external transformation of Fullerton into Rome and the internal transformation of himself into an early Christian Essene.\" Related to: Acts, Advent, After, Again, Although.\n\n**Category:** Top Term\n\n**Frequency:** 60 mentions.\n\n**From the Exegesis:**\n> Dear Claudia,\n\nI've read the LEM piece in SFS further and it is a bit like your approach, but not enough to bother you....however, do read it first, when you receive the thing.\n\nLet me offer some further notes on the plot basis I mailed you for my book: I am more and more convinced that all myste...\n> Let me offer some further notes on the plot basis I mailed you for my book: I am more and more convinced that all mystery deities from Dionysos to the Christos were/was the same. That he resurrected the dead or sleeping man the way the forces of spring/nature revive all sleeping roots, bulbs, tre...\n> Recently I met Mr. Henry Korman and Mr. Tony Hiss (Tony had come by to interview me for the New Yorker). I got into a marvelous discussion with Henry about Sufi and I mentioned my admiration, bordering on fanatic enthusiasm, for your pioneer work with bilateral brain hemispheric parity. Thus, I, ...\n\n**Key segment contexts:**\n- (circa 1975-1976) Dick synthesizes the \"Magdeburg hemispheres\" of his 1974 experience: the external transformation of Fullerton into Rome and the internal transformation of himself into an early Christian Essene. He...\n- (circa 1975-1976) Dick identifies his 1974 experience as the \"Second Advent,\" occurring pluralistically within individual minds rather than in a single visible man. He analyzes the \"Parousia\" as the abolition of tim...\n- (circa 1975-1976) Dick proposes a \"Light Body\" theory of immortality: a 2,000-year-old collective \"Bioplasmic\" entity (the fellowship of Christ) re-enters human hosts through the 3rd eye/pineal gland. He identifies ...\n\n**Related terms:** Acts (related), Advent (related), After (related), Again (related), Although (related), Anamnesis (related)\n\n**Also known as:** Essenes",
   "first_appearance": null,
   "peak_usage_start": null,
   "peak_usage_end": null,
@@ -29,15 +29,416 @@
   ],
   "provenance": null,
   "notes": null,
-  "created_at": "2026-03-12 14:35:55",
-  "updated_at": "2026-03-12 14:35:55",
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-03-12 19:37:10",
   "aliases": [
     {
       "text": "Essenes",
       "type": "alternate_name"
     }
   ],
-  "linked_segments": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_05",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick synthesizes the \"Magdeburg hemispheres\" of his 1974 experience: the external transformation of Fullerton into Rome and the internal transformation of himself into an early Christian Essene. He id",
+      "title": "U_Claudia_05.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_09",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his 1974 experience as the \"Second Advent,\" occurring pluralistically within individual minds rather than in a single visible man. He analyzes the \"Parousia\" as the abolition of time a",
+      "title": "U_Claudia_09.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_14",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Miracle of Transubstantiation\" as the mechanism by which God sanctifies and replaces ordinary reality (\"trash of the alley\"). He concludes that his experiences of the \"Logos\" were",
+      "title": "U_Claudia_14.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_17",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick develops the \"Steuben Cup\" myth: humans are \"creating angels\" who were given the \"draught of Lethe\" and are now laboring to recreate the divine model (Christ) from memory. He identifies his 1974 ",
+      "title": "U_Claudia_17.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_22",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick proposes a \"Light Body\" theory of immortality: a 2,000-year-old collective \"Bioplasmic\" entity (the fellowship of Christ) re-enters human hosts through the 3rd eye/pineal gland. He identifies the",
+      "title": "U_Claudia_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_23",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as a literal fulfillment of Biblical promise (Psalm 116) and a commissioning into the class of \"prophets.\" He concludes that \"Santa Sophia\" (Holy Wisdom) is returning to",
+      "title": "U_Claudia_23.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_24",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick plots his next novel (*To Scare the Dead*), revolving around the \"Possession\" of a government agent (Nicholas Brady) by an ancient Essene spirit. He defines \"Christian Anamnesis\" as the \"Remembra",
+      "title": "U_Claudia_24.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_35",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his role as a \"Wolf in Sheep’s Clothing\" (or vice versa), covertly delivering the Gospel to Marxists through his fiction. He identifies his \"Spirit Guide\" as St. Luke (the \"Beloved Phy",
+      "title": "U_Claudia_35.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_39",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Possession by God\" (Dionysian mystery) as the secret core of Christianity, rediscovered by Meister Eckhart. He reinterprets his 1974 experience as a \"recollection\" (anamnesis) of his ",
+      "title": "U_Claudia_39.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_42",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick provides a 24-point list documenting his transformation after the 1974 \"Spirit Birth.\" He argues that he has been \"remade in the most fundamental way,\" comparing his experience to a \"spiritual tr",
+      "title": "U_Claudia_42.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_43",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores \"Spontaneous Psychic Integration\" (Jungian) and the \"Bardo Thodol\" journey he underwent between 1970 and 1974. He identifies the \"Vast Active Living Intelligence System\" (VALIS) as the s",
+      "title": "U_Claudia_43.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_44",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies *Tears* as an \"Apocalyptic Novel\" and his 1974 experience as a \"revealed\" validation of the Bible's divine origin. He argues that the Parousia is virtually here, signaled by the arriva",
+      "title": "U_Claudia_44.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-04_SECTION_006_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "March 4, 1975",
+      "summary": "Dick writes to Dr. Robert Ornstein, framing his mystical experience as the clinical activation of his brain's right hemisphere. He outlines the premise of his novel *TO SCARE THE DEAD* (VALIS), featur",
+      "title": "1975-03-04_SECTION_006_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_04",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical theory: humans are not \"fallen men\" but \"fallen angels\" with degenerated memories and powers. He views 3-74 as a \"pre-experience of the Parousia\" occurring out of sync with lin",
+      "title": "1976-09-15_Dorothy_04.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_37",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues his philosophical integration, finding that A.N. Whitehead's metaphysics perfectly describes \"Zebra.\" He accepts the idea of God as an \"arranger\" rather than a creator, and as an entity",
+      "title": "1976-09-15_Dorothy_37.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_45",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick finds a perfect theoretical match for 3-74 in the philosophy of Pierre Teilhard de Chardin. He sees Zebra as the \"Cosmic Christ\" who \"immerses\" himself in things to unify them organically, leadin",
+      "title": "1976-09-15_Dorothy_45.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick performs a clinical meta-analysis of his own \"psychosis,\" suggesting that 3-74 was a \"biological adaptative system\" where religious archetypes (Brahman/Christ) acted as a \"metabolic toxin\" that d",
+      "title": "1976-09-15_Dorothy_47.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_48",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Elijah\" role in his 3-74 experience, seeing himself as a forerunner to the Parousia who \"heals\" the world's timeline. He also introduces a radical \"Anti-Matter Universe\" theory for ",
+      "title": "1976-09-15_Dorothy_48.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_53",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his theory of \"orthogonal intervention,\" arguing that true change enters linear time \"at right angles\" from another dimension. He views his own \"anamnesis\" (memory restoration) as the key",
+      "title": "1976-09-15_Dorothy_53.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_54",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that 3-74 was a \"theolepsy\" (divine possession) where St. Sophia \"avatared\" herself through him to prepare the world for the Parousia. He interprets the fall of the \"Tyrant\" (Nixon) as ",
+      "title": "1976-09-15_Dorothy_54.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_56",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "In one of his most affecting claims, Dick identifies his deceased cat, Pinky, as a \"surrogate sacrifice\" and manifestation of Zebra who took the \"blow\" (death) intended for Dick in 3-74. He explores t",
+      "title": "1976-09-15_Dorothy_56.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_57",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies \"salvation\" as the abolition of linear time, merging Gnostic Christianity with Brahmanism. He argues that by \"withdrawing assent\" from the phenomenal world, one can pass into a timeles",
+      "title": "1976-09-15_Dorothy_57.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_58",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick embraces a Zoroastrian/Essene dualism where he is a \"warrior of light\" or \"infiltrator-agent\" from the supralunar world. He views his novels as a \"disinhibiting signal\" and argues that God must r",
+      "title": "1976-09-15_Dorothy_58.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_69",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues analyzing the \"reweaving\" of reality in 3-74, suggesting it was part of a global \"extrication\" from the Black Iron Prison. He discusses the \"personality switch\" from PKD to Thomas and t",
+      "title": "1976-09-15_Dorothy_69.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_70",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes this set of entries by asserting that 70 AD is the \"omphalos\" (navel) of reality around which all \"linear\" history circularity warps. He argues that Gnostic \"awakening\" is the only esca",
+      "title": "1976-09-15_Dorothy_70.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_94",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his \"Cybernetic Model\": the Universe is a \"Magnamind\" or \"Self-Repairing AI Brain System.\" We are its \"memory coils\" that have fallen into \"forgetfulness and ignorance\" (malfunction). Sal",
+      "title": "1976-09-15_Dorothy_94.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_98",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Annihilating Side\" of Zebra, equating the entity with Shiva and his 3rd eye. He argues that Zebra is not just healing individuals but \"transubstantiating\" the entire universe, repla",
+      "title": "1976-09-15_Dorothy_98.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_99",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets the \"Parousia\" as a \"Benign Covert Takeover\" of the planet by a superior intelligence race (Gods/ETIs). He concludes that we are a \"5th Column\" whose latent DNA circuits have finally b",
+      "title": "1976-09-15_Dorothy_99.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_109",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick posits that humans are currently in a \"half-alive\" or \"half-born\" state, trapped in a \"prison\" of the material artifact. The process of salvation is a literal metamorphosis into a higher state of",
+      "title": "1976-09-15_Dorothy_109.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_113",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick discusses the Urgrund’s intervention to transmute the projected reality into a stable divine kingdom. He introduces the \"divine marriage\" between humanity and Christ/Logos as the final synthesis ",
+      "title": "1976-09-15_Dorothy_113.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_131",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his \"2-Source\" theory, identifying our world as a \"projected mixture\" or hologram of two hyper-realities: Form I (Palm Tree Garden/Heaven/Light) and Form II (Black Iron Prison/Hell/Night)",
+      "title": "1976-09-15_Dorothy_131.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_172",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_172.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_207",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_207.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_231",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_231.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_232",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_232.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_237",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_237.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_241",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_241.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_13",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_13.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_27",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_27.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_58",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_58.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_79",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_79.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_114",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_114.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_118",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_118.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_126",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_126.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_154",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_154.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_161",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_161.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_162",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_162.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_212",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_212.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_338",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_338.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_339",
+      "match_type": "alias_mention",
+      "confidence": 2,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_339.txt"
+    }
+  ],
   "related_terms": [
     {
       "name": "Absolute",

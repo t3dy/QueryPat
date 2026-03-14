@@ -20,10 +20,19 @@
   "see_also": null,
   "provenance": "llm_chat_extraction",
   "notes": null,
-  "created_at": "2026-03-12 14:35:56",
-  "updated_at": "2026-03-12 14:35:56",
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-03-12 19:37:09",
   "aliases": [],
-  "linked_segments": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_01.txt"
+    }
+  ],
   "related_terms": [],
   "evidence": []
 }

@@ -3,7 +3,7 @@
     "id": "pkd_bio_1928_birth",
     "date": "1928-12-16",
     "date_precision": "day",
-    "event": "Birth of Philip Kindred Dick and twin sister Jane",
+    "event": "Philip Kindred Dick and twin sister Jane are born in Chicago",
     "category": "birth",
     "entities": [
       "Jane Dick",
@@ -33,7 +33,7 @@
     "id": "pkd_bio_1929_jane_death",
     "date": "1929-01",
     "date_precision": "month",
-    "event": "Death of twin sister Jane Dick during infancy",
+    "event": "Twin sister Jane Dick dies during infancy from malnutrition at six weeks old",
     "category": "family",
     "entities": [
       "Jane Dick"
@@ -47,7 +47,7 @@
     "id": "pkd_bio_1931_parent_separation",
     "date": "1931",
     "date_precision": "year",
-    "event": "Parents Edgar and Dorothy Dick separate",
+    "event": "Parents Edgar and Dorothy Dick formally separate when Philip is two years old",
     "category": "family",
     "entities": [
       "Dorothy Dick",
@@ -62,13 +62,13 @@
     "id": "pkd_bio_1933_parent_divorce",
     "date": "1933",
     "date_precision": "year",
-    "event": "Divorce of parents Dorothy and Edgar Dick finalized",
+    "event": "Divorce of parents Dorothy and Edgar Dick finalized in Washington",
     "category": "family",
     "entities": [
       "Dorothy Dick",
       "Edgar Dick"
     ],
-    "location": "",
+    "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -77,7 +77,7 @@
     "id": "pkd_bio_1933_move_dc",
     "date": "1933-1934",
     "date_precision": "range",
-    "event": "Moves with mother Dorothy to Washington, D.C.",
+    "event": "Moves with mother Dorothy to Washington, D.C. during early childhood",
     "category": "residence",
     "entities": [
       "Dorothy Dick"
@@ -91,9 +91,11 @@
     "id": "pkd_bio_1934_elementary_school",
     "date": "1934",
     "date_precision": "year",
-    "event": "Enters elementary school in Washington, D.C.",
+    "event": "Enters elementary school in Washington, D.C. at age five",
     "category": "education",
-    "entities": [],
+    "entities": [
+      "Dorothy Dick"
+    ],
     "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 2,
@@ -103,7 +105,7 @@
     "id": "pkd_bio_1937_move_berkeley",
     "date": "1937",
     "date_precision": "year",
-    "event": "Moves with mother to Berkeley, California",
+    "event": "Moves with mother Dorothy to Berkeley, California at age eight",
     "category": "residence",
     "entities": [
       "Dorothy Dick"
@@ -117,9 +119,11 @@
     "id": "pkd_bio_1938_anxiety_episodes",
     "date": "1938-1939",
     "date_precision": "range",
-    "event": "Experiences anxiety and vertigo episodes during school years",
+    "event": "Experiences anxiety and vertigo episodes during elementary school years in Berkeley",
     "category": "health",
-    "entities": [],
+    "entities": [
+      "Dorothy Dick"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
@@ -129,7 +133,7 @@
     "id": "pkd_bio_1940_sf_discovery",
     "date": "1940",
     "date_precision": "year",
-    "event": "Discovers science-fiction magazines including Stirring Science Stories",
+    "event": "Discovers science-fiction magazines including Stirring Science Stories at age eleven",
     "category": "reading",
     "entities": [
       "Don Wollheim"
@@ -143,7 +147,7 @@
     "id": "pkd_bio_1940_baum_reading",
     "date": "1940-1941",
     "date_precision": "range",
-    "event": "Reads L. Frank Baum and early fantasy literature",
+    "event": "Reads L. Frank Baum and early fantasy literature during childhood",
     "category": "reading",
     "entities": [
       "L. Frank Baum"
@@ -157,9 +161,11 @@
     "id": "pkd_bio_1941_early_writing",
     "date": "1941-1942",
     "date_precision": "range",
-    "event": "Begins writing early stories as a teenager",
+    "event": "Begins writing early short stories as a teenager in Berkeley",
     "category": "publication",
-    "entities": [],
+    "entities": [
+      "Berkeley Daily Gazette"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
@@ -185,9 +191,11 @@
     "id": "pkd_bio_1944_berkeley_high",
     "date": "1944",
     "date_precision": "year",
-    "event": "Attends Berkeley High School",
+    "event": "Enrolls at Berkeley High School and participates in creative writing activities",
     "category": "education",
-    "entities": [],
+    "entities": [
+      "Berkeley High School"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
@@ -197,9 +205,12 @@
     "id": "pkd_bio_1944_philosophy_reading",
     "date": "1944-1945",
     "date_precision": "range",
-    "event": "Reads philosophy and psychology independently as teenager",
+    "event": "Reads philosophy and psychology independently as a high school teenager",
     "category": "reading",
-    "entities": [],
+    "entities": [
+      "Plato",
+      "Immanuel Kant"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
@@ -209,9 +220,11 @@
     "id": "pkd_bio_1945_sf_fan_circles",
     "date": "1945-1946",
     "date_precision": "range",
-    "event": "Participates in Bay Area science-fiction fan circles",
+    "event": "Participates in Bay Area science-fiction fan circles during high school years",
     "category": "friendship",
-    "entities": [],
+    "entities": [
+      "Bay Area Science Fiction Association"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
@@ -221,7 +234,7 @@
     "id": "pkd_bio_1946_platonism",
     "date": "1946",
     "date_precision": "year",
-    "event": "First exposure to Platonism and classical philosophy",
+    "event": "Gains first exposure to Platonism and classical Greek philosophy",
     "category": "philosophical_influence",
     "entities": [
       "Plato"
@@ -249,7 +262,7 @@
     "id": "pkd_bio_1947_ucb",
     "date": "1947",
     "date_precision": "year",
-    "event": "Brief enrollment at University of California Berkeley",
+    "event": "Enrolls briefly at the University of California Berkeley before dropping out",
     "category": "education",
     "entities": [
       "UC Berkeley"
@@ -263,9 +276,11 @@
     "id": "pkd_bio_1947_radio_shop",
     "date": "1947",
     "date_precision": "year",
-    "event": "Begins working at University Radio Shop record store",
+    "event": "Begins working at University Radio Shop record store in Berkeley",
     "category": "employment",
-    "entities": [],
+    "entities": [
+      "University Radio Shop"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
@@ -275,9 +290,12 @@
     "id": "pkd_bio_1947_music_reading",
     "date": "1947-1948",
     "date_precision": "range",
-    "event": "Undertakes deep reading in classical music theory and opera",
+    "event": "Undertakes deep reading in classical music theory and opera history",
     "category": "reading",
-    "entities": [],
+    "entities": [
+      "Ludwig van Beethoven",
+      "Richard Wagner"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
@@ -287,7 +305,7 @@
     "id": "pkd_bio_1948_marriage_marlin",
     "date": "1948",
     "date_precision": "year",
-    "event": "Marriage to Jeanette Marlin",
+    "event": "Marries Jeanette Marlin in his first brief marriage at age nineteen",
     "category": "marriage",
     "entities": [
       "Jeanette Marlin"
@@ -301,9 +319,12 @@
     "id": "pkd_bio_1948_existentialism",
     "date": "1948",
     "date_precision": "year",
-    "event": "Begins reading existentialist philosophy",
+    "event": "Begins reading existentialist philosophy including Heidegger and Sartre",
     "category": "philosophical_influence",
-    "entities": [],
+    "entities": [
+      "Martin Heidegger",
+      "Jean-Paul Sartre"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
@@ -313,7 +334,7 @@
     "id": "pkd_bio_1948_freud_reading",
     "date": "1948-1950",
     "date_precision": "range",
-    "event": "Reads Freud and early psychoanalytic literature",
+    "event": "Reads Freud and early psychoanalytic literature during late teens",
     "category": "reading",
     "entities": [
       "Sigmund Freud"
@@ -327,12 +348,12 @@
     "id": "pkd_bio_1950_divorce_marlin",
     "date": "1950",
     "date_precision": "year",
-    "event": "Divorce from Jeanette Marlin",
+    "event": "Divorces Jeanette Marlin after a brief and troubled first marriage",
     "category": "divorce",
     "entities": [
       "Jeanette Marlin"
     ],
-    "location": "",
+    "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -341,12 +362,12 @@
     "id": "pkd_bio_1950_marriage_kleo",
     "date": "1950",
     "date_precision": "year",
-    "event": "Marriage to Kleo Apostolides",
+    "event": "Marries Kleo Apostolides in his second marriage in Berkeley",
     "category": "marriage",
     "entities": [
       "Kleo Apostolides"
     ],
-    "location": "",
+    "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
     "notes": ""
@@ -355,7 +376,7 @@
     "id": "pkd_bio_1950_kant_reading",
     "date": "1950-1952",
     "date_precision": "range",
-    "event": "Reads Kant and Schopenhauer intensively",
+    "event": "Reads Kant and Schopenhauer intensively during early writing career",
     "category": "philosophical_influence",
     "entities": [
       "Immanuel Kant",
@@ -370,9 +391,12 @@
     "id": "pkd_bio_1950_sf_correspondence",
     "date": "1950-1953",
     "date_precision": "range",
-    "event": "Corresponds with other science-fiction writers through pulp networks",
+    "event": "Corresponds with other science-fiction writers through pulp magazine networks",
     "category": "correspondence",
-    "entities": [],
+    "entities": [
+      "Anthony Boucher",
+      "Fantasy and Science Fiction"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
@@ -382,7 +406,7 @@
     "id": "pkd_bio_1951_first_story_sales",
     "date": "1951",
     "date_precision": "year",
-    "event": "Begins selling short stories to pulp science-fiction magazines",
+    "event": "Begins selling short stories to pulp science-fiction magazines professionally",
     "category": "publication",
     "entities": [
       "Planet Stories",
@@ -397,9 +421,12 @@
     "id": "pkd_bio_1951_sf_fandom",
     "date": "1951-1953",
     "date_precision": "range",
-    "event": "Socializes with Bay Area science-fiction writers and fandom",
+    "event": "Socializes with Bay Area science-fiction writers and active fan community",
     "category": "friendship",
-    "entities": [],
+    "entities": [
+      "Anthony Boucher",
+      "Robert Duncan"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
@@ -409,7 +436,7 @@
     "id": "pkd_bio_1952_ace_novels",
     "date": "1952",
     "date_precision": "year",
-    "event": "Writes early novels for Ace Books",
+    "event": "Writes early science-fiction novels intended for publication by Ace Books",
     "category": "publication",
     "entities": [
       "Ace Books"
@@ -423,7 +450,7 @@
     "id": "pkd_bio_1952_whitehead_reading",
     "date": "1952",
     "date_precision": "year",
-    "event": "Reads Alfred North Whitehead and process philosophy",
+    "event": "Reads Alfred North Whitehead and process philosophy for the first time",
     "category": "philosophical_influence",
     "entities": [
       "Alfred North Whitehead"
@@ -437,12 +464,12 @@
     "id": "pkd_bio_1952_wollheim_friendship",
     "date": "1952-1954",
     "date_precision": "range",
-    "event": "Develops friendship with science-fiction editor Don Wollheim",
+    "event": "Develops friendship with science-fiction editor Don Wollheim at Ace Books",
     "category": "professional_network",
     "entities": [
       "Don Wollheim"
     ],
-    "location": "",
+    "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
     "notes": ""
@@ -451,12 +478,12 @@
     "id": "pkd_bio_1953_heinlein_support",
     "date": "1953",
     "date_precision": "year",
-    "event": "Receives financial assistance from Robert A. Heinlein",
+    "event": "Receives financial assistance from Robert A. Heinlein during difficult period",
     "category": "professional_network",
     "entities": [
       "Robert A. Heinlein"
     ],
-    "location": "",
+    "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
     "notes": "Establishes correspondence and borrows money during financial difficulties"
@@ -465,12 +492,12 @@
     "id": "pkd_bio_1954_ace_acceptance",
     "date": "1954",
     "date_precision": "year",
-    "event": "First novel accepted for publication by Ace Books",
+    "event": "First novel accepted for publication by Ace Books as paperback original",
     "category": "publication",
     "entities": [
       "Ace Books"
     ],
-    "location": "",
+    "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
     "notes": ""
@@ -479,14 +506,14 @@
     "id": "pkd_bio_1954_french_realism",
     "date": "1954-1956",
     "date_precision": "range",
-    "event": "Reads Stendhal, Flaubert, and Maupassant intensively",
+    "event": "Reads Stendhal, Flaubert, and Maupassant intensively as literary models",
     "category": "reading",
     "entities": [
       "Stendhal",
       "Gustave Flaubert",
       "Guy de Maupassant"
     ],
-    "location": "",
+    "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
     "notes": ""
@@ -495,10 +522,12 @@
     "id": "pkd_bio_1954_mainstream_attempts",
     "date": "1954-1957",
     "date_precision": "range",
-    "event": "Attempts to break into mainstream literary fiction market",
+    "event": "Attempts to break into mainstream literary fiction market with realist novels",
     "category": "publication",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Scott Meredith Literary Agency"
+    ],
+    "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -507,9 +536,11 @@
     "id": "pkd_bio_1954_mainstream_fiction",
     "date": "1954-1957",
     "date_precision": "range",
-    "event": "Attempts to break into mainstream literary fiction market",
+    "event": "Writes several mainstream realist novels that publishers consistently reject",
     "category": "publication",
-    "entities": [],
+    "entities": [
+      "Confessions of a Crap Artist"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
@@ -519,12 +550,13 @@
     "id": "pkd_bio_1955_solar_lottery",
     "date": "1955",
     "date_precision": "year",
-    "event": "Publication of novel Solar Lottery",
+    "event": "Publishes debut novel Solar Lottery through Ace Books as paperback original",
     "category": "publication",
     "entities": [
+      "Solar Lottery",
       "Ace Books"
     ],
-    "location": "",
+    "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
     "notes": ""
@@ -533,12 +565,12 @@
     "id": "pkd_bio_1955_divorce_kleo",
     "date": "1955",
     "date_precision": "year",
-    "event": "Divorce from Kleo Apostolides",
+    "event": "Divorces Kleo Apostolides after five years of marriage in Berkeley",
     "category": "divorce",
     "entities": [
       "Kleo Apostolides"
     ],
-    "location": "",
+    "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -547,12 +579,12 @@
     "id": "pkd_bio_1955_wagner_music",
     "date": "1955-1957",
     "date_precision": "range",
-    "event": "Immerses in classical music and Wagnerian opera",
+    "event": "Immerses in classical music listening and Wagnerian opera appreciation",
     "category": "reading",
     "entities": [
       "Richard Wagner"
     ],
-    "location": "",
+    "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
     "notes": ""
@@ -561,7 +593,7 @@
     "id": "pkd_bio_1955_classical_music",
     "date": "1955-1957",
     "date_precision": "range",
-    "event": "Sustained immersion in classical music and Wagnerian opera",
+    "event": "Sustained immersion in classical music and Wagnerian opera during Berkeley years",
     "category": "reading",
     "entities": [
       "Richard Wagner"
@@ -575,12 +607,12 @@
     "id": "pkd_bio_1956_marriage_anne",
     "date": "1956",
     "date_precision": "year",
-    "event": "Marriage to Anne Williams Rubinstein",
+    "event": "Marries Anne Williams Rubinstein in his third marriage in the Bay Area",
     "category": "marriage",
     "entities": [
       "Anne Williams Rubinstein"
     ],
-    "location": "",
+    "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
     "notes": ""
@@ -589,7 +621,7 @@
     "id": "pkd_bio_1956_point_reyes",
     "date": "1956",
     "date_precision": "year",
-    "event": "Moves to Point Reyes Station area with Anne",
+    "event": "Moves to Point Reyes Station area with Anne in rural Marin County",
     "category": "residence",
     "entities": [
       "Anne Williams Rubinstein"
@@ -603,12 +635,12 @@
     "id": "pkd_bio_1956_jung_early",
     "date": "1956-1958",
     "date_precision": "range",
-    "event": "Reads Carl Jung's psychological works for the first time",
+    "event": "Reads Carl Jung's psychological works for the first time in depth",
     "category": "philosophical_influence",
     "entities": [
       "Carl Jung"
     ],
-    "location": "",
+    "location": "Point Reyes Station, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -617,12 +649,12 @@
     "id": "pkd_bio_1957_buber",
     "date": "1957-1959",
     "date_precision": "range",
-    "event": "Reads Martin Buber and Jewish theological writings",
+    "event": "Reads Martin Buber and Jewish theological writings on dialogue and faith",
     "category": "philosophical_influence",
     "entities": [
       "Martin Buber"
     ],
-    "location": "",
+    "location": "Point Reyes Station, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -631,9 +663,12 @@
     "id": "pkd_bio_1958_mainstream_novels",
     "date": "1958",
     "date_precision": "year",
-    "event": "Writes several mainstream novels that remain unpublished",
+    "event": "Writes several mainstream realist novels that remain unpublished during his lifetime",
     "category": "publication",
-    "entities": [],
+    "entities": [
+      "Confessions of a Crap Artist",
+      "The Man Whose Teeth Were All Exactly Alike"
+    ],
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 3,
@@ -643,10 +678,12 @@
     "id": "pkd_bio_1958_breakdown",
     "date": "1958",
     "date_precision": "year",
-    "event": "Experiences nervous breakdown and psychological crisis",
+    "event": "Experiences nervous breakdown and psychological crisis in Point Reyes Station",
     "category": "health",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Anne Williams Rubinstein"
+    ],
+    "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 4,
     "notes": ""
@@ -655,12 +692,12 @@
     "id": "pkd_bio_1958_gnosticism",
     "date": "1958-1960",
     "date_precision": "range",
-    "event": "Develops growing interest in Gnostic religious thought",
+    "event": "Develops growing interest in Gnostic religious thought and ancient heresies",
     "category": "philosophical_influence",
     "entities": [
       "Gnosticism"
     ],
-    "location": "",
+    "location": "Point Reyes Station, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -669,7 +706,7 @@
     "id": "pkd_bio_1959_marin_county",
     "date": "1959",
     "date_precision": "year",
-    "event": "Moves to rural Marin County with Anne",
+    "event": "Moves to rural Marin County property with Anne and stepdaughters",
     "category": "residence",
     "entities": [
       "Anne Williams Rubinstein"
@@ -683,12 +720,13 @@
     "id": "pkd_bio_1959_plato",
     "date": "1959-1961",
     "date_precision": "range",
-    "event": "Reads works of Plato and Neoplatonist philosophers",
+    "event": "Reads works of Plato and Neoplatonist philosophers including Plotinus",
     "category": "philosophical_influence",
     "entities": [
-      "Plato"
+      "Plato",
+      "Plotinus"
     ],
-    "location": "",
+    "location": "Point Reyes Station, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -697,10 +735,11 @@
     "id": "pkd_bio_1960_daughter_laura",
     "date": "1960",
     "date_precision": "year",
-    "event": "Birth of daughter Laura Archer Dick",
+    "event": "Daughter Laura Archer Dick born to Philip and Anne in Marin County",
     "category": "family",
     "entities": [
-      "Laura Archer Dick"
+      "Laura Archer Dick",
+      "Anne Williams Rubinstein"
     ],
     "location": "Marin County, California",
     "source": "Sutin",
@@ -711,12 +750,13 @@
     "id": "pkd_bio_1960_taoism",
     "date": "1960-1962",
     "date_precision": "range",
-    "event": "Reads Taoist texts including the Tao Te Ching",
+    "event": "Reads Taoist texts including the Tao Te Ching and Chuang Tzu",
     "category": "reading",
     "entities": [
-      "Tao Te Ching"
+      "Tao Te Ching",
+      "Chuang Tzu"
     ],
-    "location": "",
+    "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -730,7 +770,7 @@
     "entities": [
       "I Ching"
     ],
-    "location": "",
+    "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 4,
     "notes": "Used while writing The Man in the High Castle"
@@ -739,12 +779,13 @@
     "id": "pkd_bio_1962_high_castle",
     "date": "1962",
     "date_precision": "year",
-    "event": "Publication of The Man in the High Castle",
+    "event": "Publishes The Man in the High Castle through Putnam as hardcover edition",
     "category": "publication",
     "entities": [
+      "The Man in the High Castle",
       "Putnam"
     ],
-    "location": "",
+    "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 5,
     "notes": ""
@@ -753,12 +794,13 @@
     "id": "pkd_bio_1963_hugo_award",
     "date": "1963",
     "date_precision": "year",
-    "event": "Wins Hugo Award for The Man in the High Castle",
+    "event": "Wins the Hugo Award for Best Novel for The Man in the High Castle",
     "category": "award",
     "entities": [
-      "Hugo Award"
+      "Hugo Award",
+      "The Man in the High Castle"
     ],
-    "location": "",
+    "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 5,
     "notes": ""
@@ -767,12 +809,12 @@
     "id": "pkd_bio_1963_divorce_anne",
     "date": "1963",
     "date_precision": "year",
-    "event": "Divorce from Anne Williams Rubinstein",
+    "event": "Divorces Anne Williams Rubinstein after seven years of marriage",
     "category": "divorce",
     "entities": [
       "Anne Williams Rubinstein"
     ],
-    "location": "",
+    "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -781,12 +823,12 @@
     "id": "pkd_bio_1963_marriage_hackett",
     "date": "1963",
     "date_precision": "year",
-    "event": "Marriage to Nancy Hackett",
+    "event": "Marries Nancy Hackett in his fourth marriage in the Bay Area",
     "category": "marriage",
     "entities": [
       "Nancy Hackett"
     ],
-    "location": "",
+    "location": "Oakland, California",
     "source": "Sutin",
     "importance": 4,
     "notes": ""
@@ -795,10 +837,13 @@
     "id": "pkd_bio_1963_patristic",
     "date": "1963-1964",
     "date_precision": "range",
-    "event": "Reads early Christian theology and patristic sources",
+    "event": "Reads early Christian theology and patristic sources including Augustine",
     "category": "reading",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Augustine",
+      "Origen"
+    ],
+    "location": "Oakland, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -807,9 +852,12 @@
     "id": "pkd_bio_1963_counterculture",
     "date": "1963-1965",
     "date_precision": "range",
-    "event": "Engages with Bay Area counterculture intellectual scene",
+    "event": "Engages with Bay Area counterculture intellectual scene in the mid-nineteen-sixties",
     "category": "friendship",
-    "entities": [],
+    "entities": [
+      "Ray Nelson",
+      "Jack Spicer"
+    ],
     "location": "Bay Area, California",
     "source": "Sutin",
     "importance": 2,
@@ -819,10 +867,13 @@
     "id": "pkd_bio_1964_three_stigmata",
     "date": "1964",
     "date_precision": "year",
-    "event": "Writes The Three Stigmata of Palmer Eldritch",
+    "event": "Writes The Three Stigmata of Palmer Eldritch during a prolific period",
     "category": "publication",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "The Three Stigmata of Palmer Eldritch",
+      "Doubleday"
+    ],
+    "location": "Oakland, California",
     "source": "Sutin",
     "importance": 4,
     "notes": ""
@@ -831,10 +882,12 @@
     "id": "pkd_bio_1964_amphetamine",
     "date": "1964-1965",
     "date_precision": "range",
-    "event": "Increasing amphetamine use during prolific writing period",
+    "event": "Increasing amphetamine use during an extremely prolific writing period",
     "category": "drug_use",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Nancy Hackett"
+    ],
+    "location": "Oakland, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -843,10 +896,13 @@
     "id": "pkd_bio_1964_mysticism",
     "date": "1964-1966",
     "date_precision": "range",
-    "event": "Develops interest in mysticism and comparative religion",
+    "event": "Develops interest in mysticism and comparative religion across traditions",
     "category": "philosophical_influence",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Meister Eckhart",
+      "Jakob Boehme"
+    ],
+    "location": "Oakland, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -855,12 +911,12 @@
     "id": "pkd_bio_1965_divorce_hackett",
     "date": "1965",
     "date_precision": "year",
-    "event": "Divorce from Nancy Hackett",
+    "event": "Divorces Nancy Hackett after a short and difficult fourth marriage",
     "category": "divorce",
     "entities": [
       "Nancy Hackett"
     ],
-    "location": "",
+    "location": "Oakland, California",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -874,7 +930,7 @@
     "entities": [
       "Teilhard de Chardin"
     ],
-    "location": "",
+    "location": "Oakland, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -883,12 +939,12 @@
     "id": "pkd_bio_1965_tillich",
     "date": "1965-1966",
     "date_precision": "range",
-    "event": "Reads existential theology of Paul Tillich",
+    "event": "Reads existential theology of Paul Tillich and systematic theology texts",
     "category": "philosophical_influence",
     "entities": [
       "Paul Tillich"
     ],
-    "location": "",
+    "location": "Oakland, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -897,12 +953,12 @@
     "id": "pkd_bio_1966_hackett_remarriage",
     "date": "1966",
     "date_precision": "year",
-    "event": "Brief remarriage to Nancy Hackett",
+    "event": "Briefly remarries Nancy Hackett before a second and final separation",
     "category": "marriage",
     "entities": [
       "Nancy Hackett"
     ],
-    "location": "",
+    "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -911,9 +967,11 @@
     "id": "pkd_bio_1966_san_rafael",
     "date": "1966",
     "date_precision": "year",
-    "event": "Moves to San Rafael area",
+    "event": "Moves to the San Rafael area in Marin County north of San Francisco",
     "category": "residence",
-    "entities": [],
+    "entities": [
+      "Nancy Hackett"
+    ],
     "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 3,
@@ -937,12 +995,12 @@
     "id": "pkd_bio_1966_jung_reading",
     "date": "c. 1966",
     "date_precision": "approximate",
-    "event": "Sustained reading of Carl Jung's analytical psychology",
+    "event": "Sustained reading of Carl Jung's analytical psychology and archetypes theory",
     "category": "philosophical_influence",
     "entities": [
       "Carl Jung"
     ],
-    "location": "",
+    "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -951,10 +1009,13 @@
     "id": "pkd_bio_1966_metaphysics",
     "date": "1966-1967",
     "date_precision": "range",
-    "event": "Expands reading in philosophy of time and metaphysics",
+    "event": "Expands reading in philosophy of time, metaphysics, and ontology",
     "category": "philosophical_influence",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Henri Bergson",
+      "Martin Heidegger"
+    ],
+    "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -963,9 +1024,11 @@
     "id": "pkd_bio_1967_paranoia_drugs",
     "date": "1967",
     "date_precision": "year",
-    "event": "Experiences increasing paranoia alongside continued drug use",
+    "event": "Experiences increasing paranoia alongside continued amphetamine drug use",
     "category": "drug_use",
-    "entities": [],
+    "entities": [
+      "Nancy Hackett"
+    ],
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
@@ -975,9 +1038,11 @@
     "id": "pkd_bio_1967_counterculture_social",
     "date": "1967-1969",
     "date_precision": "range",
-    "event": "Participates in Berkeley and Marin counterculture social circles",
+    "event": "Participates in Berkeley and Marin counterculture social circles during late sixties",
     "category": "friendship",
-    "entities": [],
+    "entities": [
+      "Ray Nelson"
+    ],
     "location": "Bay Area, California",
     "source": "Sutin",
     "importance": 2,
@@ -987,9 +1052,12 @@
     "id": "pkd_bio_1968_androids",
     "date": "1968",
     "date_precision": "year",
-    "event": "Writes Do Androids Dream of Electric Sheep?",
+    "event": "Publishes Do Androids Dream of Electric Sheep through Doubleday",
     "category": "publication",
-    "entities": [],
+    "entities": [
+      "Do Androids Dream of Electric Sheep?",
+      "Doubleday"
+    ],
     "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 5,
@@ -1004,7 +1072,7 @@
     "entities": [
       "Bhagavad Gita"
     ],
-    "location": "",
+    "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -1013,10 +1081,13 @@
     "id": "pkd_bio_1969_ubik",
     "date": "1969",
     "date_precision": "year",
-    "event": "Publication of Ubik",
+    "event": "Publishes the novel Ubik exploring themes of entropy and false realities",
     "category": "publication",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Ubik",
+      "Doubleday"
+    ],
+    "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 4,
     "notes": ""
@@ -1025,7 +1096,7 @@
     "id": "pkd_bio_1969_powers_theology",
     "date": "1969-1971",
     "date_precision": "range",
-    "event": "Discusses theology and mysticism with Tim Powers and other writers",
+    "event": "Discusses theology and mysticism with Tim Powers and other young writers",
     "category": "friendship",
     "entities": [
       "Tim Powers"
@@ -1039,7 +1110,7 @@
     "id": "pkd_bio_1970_separation_hackett",
     "date": "1970",
     "date_precision": "year",
-    "event": "Separates from Nancy Hackett after escalating marital problems",
+    "event": "Separates from Nancy Hackett after escalating marital problems in San Rafael",
     "category": "divorce",
     "entities": [
       "Nancy Hackett"
@@ -1053,10 +1124,13 @@
     "id": "pkd_bio_1970_early_christianity",
     "date": "1970",
     "date_precision": "year",
-    "event": "Begins intense study of early Christianity and its origins",
+    "event": "Begins intense study of early Christianity and its origins in antiquity",
     "category": "reading",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Acts of the Apostles",
+      "Early Church Fathers"
+    ],
+    "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -1065,7 +1139,7 @@
     "id": "pkd_bio_1970_separation_nancy",
     "date": "1970",
     "date_precision": "year",
-    "event": "Separates from Nancy Hackett amid escalating marital conflict",
+    "event": "Separates from Nancy Hackett amid escalating marital conflict in San Rafael",
     "category": "divorce",
     "entities": [
       "Nancy Hackett"
@@ -1079,9 +1153,12 @@
     "id": "pkd_bio_1971_burglary",
     "date": "1971",
     "date_precision": "year",
-    "event": "Home in San Rafael burglarized under mysterious circumstances",
+    "event": "Home in San Rafael burglarized under mysterious and never-resolved circumstances",
     "category": "crime",
-    "entities": [],
+    "entities": [
+      "FBI",
+      "San Rafael Police Department"
+    ],
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 4,
@@ -1091,9 +1168,11 @@
     "id": "pkd_bio_1971_hospitalization",
     "date": "1971",
     "date_precision": "year",
-    "event": "Hospitalized for psychiatric evaluation related to paranoia",
+    "event": "Hospitalized for psychiatric evaluation related to paranoia and depression",
     "category": "health",
-    "entities": [],
+    "entities": [
+      "Marin General Hospital"
+    ],
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 4,
@@ -1105,7 +1184,10 @@
     "date_precision": "year",
     "event": "Develops paranoid theories about government surveillance of his household",
     "category": "health",
-    "entities": [],
+    "entities": [
+      "FBI",
+      "CIA"
+    ],
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
@@ -1115,13 +1197,13 @@
     "id": "pkd_bio_1971_gnostic_reading",
     "date": "1971-1972",
     "date_precision": "range",
-    "event": "Reads Gnostic texts and Nag Hammadi library materials",
+    "event": "Reads Gnostic texts and Nag Hammadi library materials in translation",
     "category": "reading",
     "entities": [
       "Gnosticism",
       "Nag Hammadi library"
     ],
-    "location": "",
+    "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -1130,10 +1212,13 @@
     "id": "pkd_bio_1972_vancouver",
     "date": "1972",
     "date_precision": "year",
-    "event": "Moves to Vancouver during period of personal crisis",
+    "event": "Moves to Vancouver during a period of deep personal crisis",
     "category": "residence",
-    "entities": [],
-    "location": "Vancouver, Canada",
+    "entities": [
+      "Michael Walsh",
+      "University of British Columbia"
+    ],
+    "location": "Vancouver, British Columbia",
     "source": "Sutin",
     "importance": 4,
     "notes": ""
@@ -1142,10 +1227,12 @@
     "id": "pkd_bio_1972_suicide_attempt",
     "date": "1972",
     "date_precision": "year",
-    "event": "Attempts suicide while living in Vancouver",
+    "event": "Attempts suicide while living in Vancouver and is hospitalized afterward",
     "category": "health",
-    "entities": [],
-    "location": "Vancouver, Canada",
+    "entities": [
+      "X-Kalay Foundation"
+    ],
+    "location": "Vancouver, British Columbia",
     "source": "Sutin",
     "importance": 5,
     "notes": ""
@@ -1154,10 +1241,12 @@
     "id": "pkd_bio_1972_return_us",
     "date": "1972",
     "date_precision": "year",
-    "event": "Returns to the United States from Canada",
+    "event": "Returns to the United States from Canada and settles in Orange County",
     "category": "residence",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Willis McNelly"
+    ],
+    "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -1166,7 +1255,7 @@
     "id": "pkd_bio_1972_meets_tessa",
     "date": "1972",
     "date_precision": "year",
-    "event": "Meets Tessa Busby in Fullerton, California",
+    "event": "Meets Tessa Busby in Fullerton, California after returning from Vancouver",
     "category": "friendship",
     "entities": [
       "Tessa Dick"
@@ -1180,7 +1269,7 @@
     "id": "pkd_bio_1973_marriage_tessa",
     "date": "1973",
     "date_precision": "year",
-    "event": "Marriage to Tessa Busby",
+    "event": "Marries Tessa Busby in his fifth and final marriage in Fullerton",
     "category": "marriage",
     "entities": [
       "Tessa Dick"
@@ -1194,10 +1283,11 @@
     "id": "pkd_bio_1973_christopher_birth",
     "date": "1973",
     "date_precision": "year",
-    "event": "Birth of son Christopher Dick",
+    "event": "Son Christopher Dick born to Philip and Tessa in Fullerton",
     "category": "family",
     "entities": [
-      "Christopher Dick"
+      "Christopher Dick",
+      "Tessa Dick"
     ],
     "location": "Fullerton, California",
     "source": "Sutin",
@@ -1208,10 +1298,13 @@
     "id": "pkd_bio_1973_messianism",
     "date": "1973",
     "date_precision": "year",
-    "event": "Develops fascination with messianic and prophetic religious traditions",
+    "event": "Develops fascination with messianic and prophetic religious traditions in reading",
     "category": "religious_experience",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Elijah",
+      "Book of Daniel"
+    ],
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -1220,9 +1313,11 @@
     "id": "pkd_bio_1974_exegesis_begin",
     "date": "1974",
     "date_precision": "year",
-    "event": "Begins writing the Exegesis notebooks",
+    "event": "Begins writing the Exegesis notebooks as ongoing theological journal",
     "category": "religious_thought",
-    "entities": [],
+    "entities": [
+      "Exegesis"
+    ],
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 5,
@@ -1232,9 +1327,12 @@
     "id": "pkd_bio_1974_dreams_theology",
     "date": "1974-1975",
     "date_precision": "range",
-    "event": "Interprets recurring dreams as encoded theological messages",
+    "event": "Interprets recurring dreams as encoded theological messages from a higher source",
     "category": "visionary_experience",
-    "entities": [],
+    "entities": [
+      "Zebra",
+      "Thomas"
+    ],
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
@@ -1246,8 +1344,11 @@
     "date_precision": "range",
     "event": "Begins systematic philosophical speculation on the nature of time and reality",
     "category": "religious_thought",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Plato",
+      "Parmenides"
+    ],
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
     "notes": ""
@@ -1256,12 +1357,13 @@
     "id": "pkd_bio_1974_black_iron_prison",
     "date": "1974-1977",
     "date_precision": "range",
-    "event": "Develops Black Iron Prison theory and hidden Roman Empire concept",
+    "event": "Develops Black Iron Prison theory and hidden Roman Empire concept in Exegesis",
     "category": "religious_thought",
     "entities": [
-      "Gnosticism"
+      "Gnosticism",
+      "Black Iron Prison"
     ],
-    "location": "",
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
     "notes": ""
@@ -1270,10 +1372,12 @@
     "id": "pkd_bio_1974_exegesis_ongoing",
     "date": "1974-1982",
     "date_precision": "range",
-    "event": "Writes thousands of pages of theological speculation in the Exegesis",
+    "event": "Writes thousands of pages of theological speculation in the Exegesis journals",
     "category": "religious_thought",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Exegesis"
+    ],
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 5,
     "notes": ""
@@ -1296,7 +1400,7 @@
     "id": "pkd_bio_1974_02_03_pink_light",
     "date": "1974-02-03",
     "date_precision": "day",
-    "event": "Reports first pink light visionary experience during dental recovery",
+    "event": "Reports first pink light visionary experience during dental recovery at home",
     "category": "visionary_experience",
     "entities": [
       "Zebra"
@@ -1310,7 +1414,7 @@
     "id": "pkd_bio_1974_03_son_diagnosis",
     "date": "1974-03",
     "date_precision": "month",
-    "event": "Reports vision that reveals undiagnosed medical condition in infant son",
+    "event": "Reports vision that reveals undiagnosed inguinal hernia in infant son Christopher",
     "category": "visionary_experience",
     "entities": [
       "Christopher Dick"
@@ -1324,7 +1428,7 @@
     "id": "pkd_bio_1974_03_zebra",
     "date": "1974-03",
     "date_precision": "month",
-    "event": "Develops concept of Zebra as cosmic intelligence behind visions",
+    "event": "Develops concept of Zebra as cosmic intelligence behind his visions",
     "category": "religious_thought",
     "entities": [
       "Zebra"
@@ -1338,7 +1442,7 @@
     "id": "pkd_bio_1975_separation_tessa",
     "date": "1975",
     "date_precision": "year",
-    "event": "Separates from Tessa Dick",
+    "event": "Separates from Tessa Dick after two years of marriage in Fullerton",
     "category": "divorce",
     "entities": [
       "Tessa Dick"
@@ -1352,10 +1456,13 @@
     "id": "pkd_bio_1975_correspondence_scholars",
     "date": "1975-1978",
     "date_precision": "range",
-    "event": "Corresponds with scholars and writers about theology and philosophy",
+    "event": "Corresponds with scholars and writers about theology, philosophy, and mysticism",
     "category": "correspondence",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Patricia Warrick",
+      "Stanislaw Lem"
+    ],
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -1364,9 +1471,11 @@
     "id": "pkd_bio_1976_valis_drafts",
     "date": "1976",
     "date_precision": "year",
-    "event": "Completes early drafts of VALIS-related material",
+    "event": "Completes early drafts of VALIS-related material drawn from the Exegesis",
     "category": "publication",
-    "entities": [],
+    "entities": [
+      "VALIS"
+    ],
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 3,
@@ -1376,10 +1485,13 @@
     "id": "pkd_bio_1976_living_information",
     "date": "1976-1978",
     "date_precision": "range",
-    "event": "Develops theory of living information and cosmic mind in the Exegesis",
+    "event": "Develops theory of living information and cosmic mind in the Exegesis notebooks",
     "category": "religious_thought",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Logos",
+      "Living Information"
+    ],
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
     "notes": ""
@@ -1388,12 +1500,13 @@
     "id": "pkd_bio_1976_gnosticism_study",
     "date": "1976-1979",
     "date_precision": "range",
-    "event": "Conducts sustained study of Gnosticism and early Christian heresies",
+    "event": "Conducts sustained study of Gnosticism and early Christian heresies in depth",
     "category": "reading",
     "entities": [
-      "Gnosticism"
+      "Gnosticism",
+      "Hans Jonas"
     ],
-    "location": "",
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -1402,10 +1515,13 @@
     "id": "pkd_bio_1977_scanner_darkly",
     "date": "1977",
     "date_precision": "year",
-    "event": "Publication of A Scanner Darkly",
+    "event": "Publishes A Scanner Darkly drawing on his drug culture experiences",
     "category": "publication",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "A Scanner Darkly",
+      "Doubleday"
+    ],
+    "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 4,
     "notes": ""
@@ -1414,12 +1530,12 @@
     "id": "pkd_bio_1977_valis_theology",
     "date": "1977-1979",
     "date_precision": "range",
-    "event": "Develops VALIS theology as systematic framework in the Exegesis",
+    "event": "Develops VALIS theology as systematic framework in the Exegesis notebooks",
     "category": "religious_thought",
     "entities": [
       "VALIS"
     ],
-    "location": "",
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
     "notes": ""
@@ -1428,10 +1544,12 @@
     "id": "pkd_bio_1978_exegesis_continued",
     "date": "1978",
     "date_precision": "year",
-    "event": "Intensifies Exegesis writing with expanded theological speculation",
+    "event": "Intensifies Exegesis writing with expanded theological and cosmological speculation",
     "category": "religious_thought",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Exegesis"
+    ],
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -1440,10 +1558,13 @@
     "id": "pkd_bio_1978_mysticism_reading",
     "date": "1978-1980",
     "date_precision": "range",
-    "event": "Reads scholarly works on mysticism and religious psychology",
+    "event": "Reads scholarly works on mysticism, religious psychology, and altered states",
     "category": "reading",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "William James",
+      "Rudolf Otto"
+    ],
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -1452,10 +1573,12 @@
     "id": "pkd_bio_1979_orange_county",
     "date": "1979",
     "date_precision": "year",
-    "event": "Moves to Orange County during later writing period",
+    "event": "Moves to a new apartment in Orange County during his later writing period",
     "category": "residence",
-    "entities": [],
-    "location": "Orange County, California",
+    "entities": [
+      "Tessa Dick"
+    ],
+    "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -1464,10 +1587,12 @@
     "id": "pkd_bio_1979_lectures",
     "date": "1979",
     "date_precision": "year",
-    "event": "Delivers public lectures discussing mystical experiences and theology",
+    "event": "Delivers public lectures discussing mystical experiences and theological ideas",
     "category": "lecture",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Metz Science Fiction Convention"
+    ],
+    "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -1476,10 +1601,12 @@
     "id": "pkd_bio_1979_fan_correspondence",
     "date": "1979-1981",
     "date_precision": "range",
-    "event": "Maintains correspondence with fans about metaphysics and religion",
+    "event": "Maintains extensive correspondence with fans about metaphysics and religion",
     "category": "correspondence",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Paul Williams"
+    ],
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 2,
     "notes": ""
@@ -1488,10 +1615,13 @@
     "id": "pkd_bio_1980_hollywood_attention",
     "date": "1980",
     "date_precision": "year",
-    "event": "Receives increased attention from Hollywood for film adaptations",
+    "event": "Receives increased attention from Hollywood studios for film adaptations of novels",
     "category": "film_adaptation",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Hampton Fancher",
+      "Blade Runner"
+    ],
+    "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -1500,10 +1630,13 @@
     "id": "pkd_bio_1980_simulation_theory",
     "date": "1980",
     "date_precision": "year",
-    "event": "Deepens Exegesis reflection on simulation theory and nature of reality",
+    "event": "Deepens Exegesis reflection on simulation theory and the nature of reality",
     "category": "religious_thought",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "Plato",
+      "Simulation Theory"
+    ],
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -1512,10 +1645,11 @@
     "id": "pkd_bio_1981_blade_runner_visit",
     "date": "1981",
     "date_precision": "year",
-    "event": "Visits Blade Runner film production and meets Ridley Scott",
+    "event": "Visits the Blade Runner film production set and meets director Ridley Scott",
     "category": "film_adaptation",
     "entities": [
-      "Ridley Scott"
+      "Ridley Scott",
+      "Blade Runner"
     ],
     "location": "Los Angeles, California",
     "source": "Arnold",
@@ -1526,10 +1660,13 @@
     "id": "pkd_bio_1981_divine_invasion",
     "date": "1981",
     "date_precision": "year",
-    "event": "Publication of The Divine Invasion",
+    "event": "Publishes The Divine Invasion as the second novel in the VALIS trilogy",
     "category": "publication",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "The Divine Invasion",
+      "Simon and Schuster"
+    ],
+    "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 4,
     "notes": ""
@@ -1540,8 +1677,11 @@
     "date_precision": "year",
     "event": "Incorporates religious visions into late novels including The Divine Invasion",
     "category": "religious_thought",
-    "entities": [],
-    "location": "",
+    "entities": [
+      "The Divine Invasion",
+      "VALIS"
+    ],
+    "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
     "notes": ""
@@ -1550,9 +1690,11 @@
     "id": "pkd_bio_1982_stroke",
     "date": "1982-02",
     "date_precision": "month",
-    "event": "Suffers stroke leading to hospitalization",
+    "event": "Suffers a major stroke at home leading to hospitalization in Santa Ana",
     "category": "health",
-    "entities": [],
+    "entities": [
+      "St. Joseph Hospital"
+    ],
     "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 5,
@@ -1562,9 +1704,11 @@
     "id": "pkd_bio_1982_death",
     "date": "1982-03-02",
     "date_precision": "day",
-    "event": "Death of Philip K. Dick",
+    "event": "Philip K. Dick dies at age fifty-three following a series of strokes",
     "category": "death",
-    "entities": [],
+    "entities": [
+      "St. Joseph Hospital"
+    ],
     "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 5,

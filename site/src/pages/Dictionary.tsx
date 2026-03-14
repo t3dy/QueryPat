@@ -115,6 +115,12 @@ export default function Dictionary() {
               </div>
             ))}
           </div>
+
+          {filtered.length === 0 && (
+            <p style={{ textAlign: 'center', color: 'var(--text-muted)', padding: '3rem' }}>
+              No terms match the current filters.
+            </p>
+          )}
         </div>
       </div>
     </>

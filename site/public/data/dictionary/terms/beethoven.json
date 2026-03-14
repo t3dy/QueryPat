@@ -3,7 +3,7 @@
   "canonical_name": "Beethoven",
   "slug": "beethoven",
   "status": "provisional",
-  "review_state": "unreviewed",
+  "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
   "mention_count": 59,
@@ -12,8 +12,8 @@
   "interpretive_note": "Primary Source Evidence: \"...131\nDespite all rational objections, I can best envision the new persons when I think of Kathy and Stephanie, seeing as how society had no real role in fashioning them. Something in each must have. All I could do at the time was view externals and wonder.\n\nA new level of homeostasis, maybe; containing the source of knowledge as well as wisdom. Manufacturing what one knows -- which is to say, manuf...\"",
   "visionary_significance": null,
   "scholarly_caution": null,
-  "card_description": null,
-  "full_description": null,
+  "card_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 59. Referenced 59 times across the corpus. First appears in segments dated 1975-02-27. Beethoven appears 59 times in the Exegesis corpus. From the Exegesis: \"Let us consider the miracle involved. When God enters time, when he pierces our world, he pierces the veil and rends it -- where go the usual categories of personal-subjective, then-now etc? Did He...\" Segment context: \"Dick explores the subjective vs.\" Related to: Acts, After, Again, Although, Anamnesis.",
+  "full_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 59. Referenced 59 times across the corpus. First appears in segments dated 1975-02-27. Beethoven appears 59 times in the Exegesis corpus. From the Exegesis: \"Let us consider the miracle involved. When God enters time, when he pierces our world, he pierces the veil and rends it -- where go the usual categories of personal-subjective, then-now etc? Did He...\" Segment context: \"Dick explores the subjective vs.\" Related to: Acts, After, Again, Although, Anamnesis.\n\n**Category:** Top Term\n\n**Frequency:** 59 mentions. First appears 1975-02-27.\n\n**From the Exegesis:**\n> Let us consider the miracle involved. When God enters time, when he pierces our world, he pierces the veil and rends it -- where go the usual categories of personal-subjective, then-now etc? Did He come for all men or just me? Will what happened to me in March 1974 still later on happen for other...\n> 131\nDespite all rational objections, I can best envision the new persons when I think of Kathy and Stephanie, seeing as how society had no real role in fashioning them. Something in each must have. All I could do at the time was view externals and wonder.\n\nA new level of homeostasis, maybe; conta...\n> Last edit over 4 years ago by dstoerger\n72\nNeeds Review\n72\nHe was more myself than I was. Suppose I say he was the real self - very well. But what does that make me? My own fierce hostility toward oppression generate out of him, caused by his presence, hidden in me? By seeing him I at last unders...\n\n**Key segment contexts:**\n- (circa 1975-1976) Dick explores the subjective vs. objective nature of his 1974 experience, concluding that the Parousia has occurred through a \"retrograde\" system of time. He compares reality to a film or LP record...\n- (circa 1975-1976) Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" He explores the brain's \"Right Hemisphere\" as the location...\n- (September 15, 1976) Dick proposes a radical \"mundane\" theory: that he was \"occupied\" by a secret Christian Soviet doctor (or defected KGB operator) who used his brain to flee the \"Gulag\" (Black Iron Prison). He also r...\n\n**Related terms:** Acts (related), After (related), Again (related), Although (related), Anamnesis (related)",
   "first_appearance": "1975-02-27",
   "peak_usage_start": "1981",
   "peak_usage_end": "1981",
@@ -29,10 +29,411 @@
   ],
   "provenance": null,
   "notes": null,
-  "created_at": "2026-03-12 14:35:55",
-  "updated_at": "2026-03-12 14:35:55",
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-03-12 19:37:10",
   "aliases": [],
-  "linked_segments": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_02",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the subjective vs. objective nature of his 1974 experience, concluding that the Parousia has occurred through a \"retrograde\" system of time. He compares reality to a film or LP record th",
+      "title": "U_Claudia_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_27",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" He explores the brain's \"Right Hemisphere\" as the location of",
+      "title": "U_Claudia_27.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_22",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical \"mundane\" theory: that he was \"occupied\" by a secret Christian Soviet doctor (or defected KGB operator) who used his brain to flee the \"Gulag\" (Black Iron Prison). He also refi",
+      "title": "1976-09-15_Dorothy_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_23",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick integrates his ETI theory, suggesting that humans are \"escaped prisoners\" from another star system (Albemuth) who are hiding on Earth behind a \"veil\" (Maya). He posits that the Nixon gang and oth",
+      "title": "1976-09-15_Dorothy_23.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_36",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick discovers that his 3-74 vision \"confirms\" Hegel's philosophy of history: that God (Spirit) develops himself toward perfection through the dialectical growth of human freedom. He redefines himself",
+      "title": "1976-09-15_Dorothy_36.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_38",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Adoptionalist\" theory of his experience: that he was \"raised\" to a superhuman level and \"incorporated\" into the building of the New Earth. He reflects on the \"Thomas\" personality as",
+      "title": "1976-09-15_Dorothy_38.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_42",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick uses Whitehead's and Leibniz's philosophy to argue that humans are \"memory spools\" or \"perceiving cells\" within the vast organism of God. Our primary purpose is \"witnessing,\" allowing the total o",
+      "title": "1976-09-15_Dorothy_42.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_65",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes his \"Orthogonal Time\" theory using the \"Wealthy Patron\" and \"Symphony\" metaphors. He argues that history is a \"linear strip\" that can be \"reworked\" or \"improved\" at a specific nexus po",
+      "title": "1976-09-15_Dorothy_65.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_172",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_172.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_188",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_188.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_214",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_214.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_219",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_219.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_220",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_220.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_237",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_237.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_56",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_56.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_61",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_61.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_119",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_119.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_120",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_120.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_121",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_121.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_132",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_132.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_164",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_164.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_177",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_177.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_204",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_204.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_213",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_213.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_220",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_220.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_281",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_281.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_333",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_333.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_353",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_353.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_354",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_354.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_08",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_08.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_09",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_09.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_40",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_40.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_53",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_53.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_55",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_55.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_56",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_56.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_70",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_70.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_71",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_71.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_75",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_75.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_98",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_98.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_116",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_116.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_118",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_118.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_119",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_119.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_121",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_121.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_156",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_156.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_157",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_157.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_159",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_159.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_160",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_160.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_161",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_161.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_162",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_162.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_178",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_178.txt"
+    }
+  ],
   "related_terms": [
     {
       "name": "Absolute",

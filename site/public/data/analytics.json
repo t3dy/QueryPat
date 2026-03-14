@@ -312,6 +312,54 @@
     "terms_total": 911,
     "evidence_packets": 506,
     "archive_docs": 228,
-    "timeline_events": 4
-  }
+    "timeline_events": 4,
+    "segments_with_raw_text": 882,
+    "segments_with_summary": 207,
+    "archive_docs_with_text": 181,
+    "evidence_mapped_to_segments": 10046,
+    "term_cooccurrences": 73104,
+    "names": 410
+  },
+  "link_confidence_dist": [
+    {
+      "confidence": 1,
+      "count": 125914
+    },
+    {
+      "confidence": 2,
+      "count": 3093
+    },
+    {
+      "confidence": 4,
+      "count": 8125
+    }
+  ],
+  "names_by_type": [
+    {
+      "type": "historical_person",
+      "count": 362
+    },
+    {
+      "type": "deity_figure",
+      "count": 32
+    },
+    {
+      "type": "character",
+      "count": 12
+    },
+    {
+      "type": "organization",
+      "count": 3
+    },
+    {
+      "type": "place",
+      "count": 1
+    }
+  ],
+  "names_by_source": [
+    {
+      "type": "exegesis",
+      "count": 410
+    }
+  ]
 }

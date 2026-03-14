@@ -3,7 +3,7 @@
   "canonical_name": "Self",
   "slug": "self",
   "status": "provisional",
-  "review_state": "unreviewed",
+  "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
   "mention_count": 78,
@@ -12,8 +12,8 @@
   "interpretive_note": "Primary Source Evidence: \"...Last edit over 5 years ago by Harpax\n132\nNeeds Review\n132\nEvery time in my life that I've heard the spirit it's been when my normal (linear) thinking had exasperated & exhausted itself -- reached its end without results, but each time, results were still absolutely necessary. This alone makes a circumstantial case for locating the spirit, the Inward Light, in the right hemisphere (I suppose). Norm...\"",
   "visionary_significance": null,
   "scholarly_caution": null,
-  "card_description": null,
-  "full_description": null,
+  "card_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 78. Referenced 78 times across the corpus. Self appears 78 times in the Exegesis corpus. From the Exegesis: \"karma on me, not really; I had that lesson in me, that understanding. Yet -- I felt sorry for the rat, since it didn't want to die. The lesson was for me the hardest of all: that things must be don...\" Segment context: \"Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death.\" Related to: Acts, Adam, Advent, After, Again.",
+  "full_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 78. Referenced 78 times across the corpus. Self appears 78 times in the Exegesis corpus. From the Exegesis: \"karma on me, not really; I had that lesson in me, that understanding. Yet -- I felt sorry for the rat, since it didn't want to die. The lesson was for me the hardest of all: that things must be don...\" Segment context: \"Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death.\" Related to: Acts, Adam, Advent, After, Again.\n\n**Category:** Top Term\n\n**Frequency:** 78 mentions.\n\n**From the Exegesis:**\n> karma on me, not really; I had that lesson in me, that understanding. Yet -- I felt sorry for the rat, since it didn't want to die. The lesson was for me the hardest of all: that things must be done in response to decissions or considerations or needs or directive or to accord with a higher moral...\n> Let me offer some further notes on the plot basis I mailed you for my book: I am more and more convinced that all mystery deities from Dionysos to the Christos were/was the same. That he resurrected the dead or sleeping man the way the forces of spring/nature revive all sleeping roots, bulbs, tre...\n> Recently I met Mr. Henry Korman and Mr. Tony Hiss (Tony had come by to interview me for the New Yorker). I got into a marvelous discussion with Henry about Sufi and I mentioned my admiration, bordering on fanatic enthusiasm, for your pioneer work with bilateral brain hemispheric parity. Thus, I, ...\n\n**Key segment contexts:**\n- (February 27, 1975) Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death. He connects this act to broader cosmological ideas from Empedocles about the necessity of st...\n- (circa 1975-1976) Dick contrasts Gnosticism (external grace) with Neoplatonism (self-attainment), concluding that the 1974 experience was a \"zygote\" formation between the human \"egg\" and cosmic \"spermatika.\" He rein...\n- (circa 1975-1976) Dick explores the \"erotic\" nature of divine possession, equating the Holy Spirit with the \"Yang\" that impregnates the human \"Yin.\" He redefines the Trinity as a biological reproduction process and ...\n\n**Related terms:** Acts (related), Adam (related), Advent (related), After (related), Again (related), Although (related)",
   "first_appearance": null,
   "peak_usage_start": null,
   "peak_usage_end": null,
@@ -29,10 +29,411 @@
   ],
   "provenance": null,
   "notes": null,
-  "created_at": "2026-03-12 14:35:55",
-  "updated_at": "2026-03-12 14:35:55",
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-03-12 19:37:10",
   "aliases": [],
-  "linked_segments": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_02",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "February 27, 1975",
+      "summary": "Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death. He connects this act to broader cosmological ideas from Empedocles about the necessity of strif",
+      "title": "1975-02-27_Claudia_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_07",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick contrasts Gnosticism (external grace) with Neoplatonism (self-attainment), concluding that the 1974 experience was a \"zygote\" formation between the human \"egg\" and cosmic \"spermatika.\" He reinter",
+      "title": "U_Claudia_07.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_08",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"erotic\" nature of divine possession, equating the Holy Spirit with the \"Yang\" that impregnates the human \"Yin.\" He redefines the Trinity as a biological reproduction process and ide",
+      "title": "U_Claudia_08.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_10",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick details the transition from the \"Father\" stage (1974 - Justice/Warrior) to the \"Son\" stage (1975 - Spring King/Dancing Youth). He posits that the \"Light Creatures\" have returned to the world afte",
+      "title": "U_Claudia_10.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_17",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick develops the \"Steuben Cup\" myth: humans are \"creating angels\" who were given the \"draught of Lethe\" and are now laboring to recreate the divine model (Christ) from memory. He identifies his 1974 ",
+      "title": "U_Claudia_17.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_27",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" He explores the brain's \"Right Hemisphere\" as the location of",
+      "title": "U_Claudia_27.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_28",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"Lived Myth\" (Joseph Campbell) and \"Ma'at\" (Right Order) as keys to his 1974 experience. He identifies the \"Xerox Letter\" as a ritual repudiation of materialism and a transformation ",
+      "title": "U_Claudia_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_29",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Dead and Reborn God\" experience as the emotional core of the Fish-Christian underground. He concludes that the universe is \"inside-out\" or \"backward,\" with God (the Void) found in",
+      "title": "U_Claudia_29.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_35",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his role as a \"Wolf in Sheep’s Clothing\" (or vice versa), covertly delivering the Gospel to Marxists through his fiction. He identifies his \"Spirit Guide\" as St. Luke (the \"Beloved Phy",
+      "title": "U_Claudia_35.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_37",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick refines the \"Black Iron Prison\" metaphor, describing a metal prison breached by \"live signals\" (roots) that teach slaves how to lift the siege. He identifies \"James-James\" (the Creator) as a pote",
+      "title": "U_Claudia_37.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_38",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Divine Birth\" in his soul as the realization of Meister Eckhart's theology, where the \"Wise Old Man\" (the Father) is born from the mortal man. He rejects the \"Suffering Servant\" m",
+      "title": "U_Claudia_38.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_39",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Possession by God\" (Dionysian mystery) as the secret core of Christianity, rediscovered by Meister Eckhart. He reinterprets his 1974 experience as a \"recollection\" (anamnesis) of his ",
+      "title": "U_Claudia_39.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_43",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores \"Spontaneous Psychic Integration\" (Jungian) and the \"Bardo Thodol\" journey he underwent between 1970 and 1974. He identifies the \"Vast Active Living Intelligence System\" (VALIS) as the s",
+      "title": "U_Claudia_43.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_49",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Astraea/Virgo\" (Justice) as the entity that healed his blood pressure and promised judgment by fire for the despoilers of Earth (Vietnam). He reinterprets reality as a \"Two-Player Gam",
+      "title": "U_Claudia_49.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Henry_02",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "February 29, 1975",
+      "summary": "Conclusion of the letter to Henry Korman. Dick discusses the alchemical transmutation as a spontaneous, irreversible psychic process and links his \"teletype\" communication with Erasmus to the AI syste",
+      "title": "U_Henry_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-04_SECTION_006_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "March 4, 1975",
+      "summary": "Dick writes to Dr. Robert Ornstein, framing his mystical experience as the clinical activation of his brain's right hemisphere. He outlines the premise of his novel *TO SCARE THE DEAD* (VALIS), featur",
+      "title": "1975-03-04_SECTION_006_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_03",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1975",
+      "summary": "Dick explores the \"Rome Two\" superimposition theory, identifying the Nixon administration as the return of the Roman Empire and the fall of Nixon as a true historical victory for Christ. He introduces",
+      "title": "1975-09-15_SECTION_012_03.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_05",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_05.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_06",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_06.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_07",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_07.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_08",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_08.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_09",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_09.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_11",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_11.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_12",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_12.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_13",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_13.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_14",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_14.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_15",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_15.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_19",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "November 5, 1975",
+      "summary": "",
+      "title": "1975-11-05_SECTION_013_19.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-12_Dorothy_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 12, 1976",
+      "summary": "Dick writes to Dorothy summarizing his 3-74 experience (the \"conversion year\"). He introduces the term \"VALIS\" (Vast Active Living Intelligence System), details his role in toppling Nixon through lett",
+      "title": "1976-09-12_Dorothy_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_04",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical theory: humans are not \"fallen men\" but \"fallen angels\" with degenerated memories and powers. He views 3-74 as a \"pre-experience of the Parousia\" occurring out of sync with lin",
+      "title": "1976-09-15_Dorothy_04.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_08",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick reveals a \"steganographic\" reading of his own work, specifically the \"Felix\" message hidden within *Flow My Tears*. He argues that the Parousia required a \"topological superimposition\" (Rome Two)",
+      "title": "1976-09-15_Dorothy_08.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_09",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick fully embraces a Hindu framework, identifying the world as \"Maya\" (wizardry/illusion) and his 3-74 experience as the death of the \"empirical ego\" leading to \"enlightenment\" (Liberation). He equat",
+      "title": "1976-09-15_Dorothy_09.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_10",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick introduces the theory of the \"Black Iron Prison\" (BIP) as the true, underlying state of the world, concealed by the \"James-James\" demiurge. He contrasts this with the \"Palm Tree Garden\" (the real",
+      "title": "1976-09-15_Dorothy_10.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_11",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his 3-74 experience as the \"epiphany\" of a buried personality (Thomas) who has been inserting \"code\" into his novels for years. He theorizes that the Gnosis is transmitted genetically ",
+      "title": "1976-09-15_Dorothy_11.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_12",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his view of theolepsy as an \"Internal Theophany\" where the immanent God in the \"Atman\" is proved identical to the Brahman without. He defines the Kingdom of God as our ancestral \"Garden\" ",
+      "title": "1976-09-15_Dorothy_12.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_13",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Man from the Future\" theory, suggesting that his 74 experience was a \"retroactive mending\" of the past by a sentient entity traveling backward from the end of time. He considers tha",
+      "title": "1976-09-15_Dorothy_13.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_14",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his 1974 ordeal with the Xerox letter as a \"Great Assize\" or trial of choice. By choosing \"correctly\" (choosing the light), he believes he cancelled his \"Karmic Burden\" (Sin) and obtai",
+      "title": "1976-09-15_Dorothy_14.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_15",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes that God is \"reweaving\" history backward from the Omega Point to improve the human lot. He defines the \"Black Iron Prison\" (BIP) as the original, un-intervened track (Alpha/Hell) and the",
+      "title": "1976-09-15_Dorothy_15.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_16",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes his massive day of theorizing by realizing the 1st Advent is an \"Eternal Now\" (always occurring at the vernal equinox) and the \"Rome\" memories were incidentals of an \"Internal Epiphany.",
+      "title": "1976-09-15_Dorothy_16.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_18",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_18.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_19",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_19.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_21",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick discusses the transformation of the \"Urwelt\" (supralunar reality) and his experience of being a \"hollow vessel\" for a divine purpose. He distinguishes between the localized Christ of the 1st Adve",
+      "title": "1976-09-15_Dorothy_21.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_22",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical \"mundane\" theory: that he was \"occupied\" by a secret Christian Soviet doctor (or defected KGB operator) who used his brain to flee the \"Gulag\" (Black Iron Prison). He also refi",
+      "title": "1976-09-15_Dorothy_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_23",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick integrates his ETI theory, suggesting that humans are \"escaped prisoners\" from another star system (Albemuth) who are hiding on Earth behind a \"veil\" (Maya). He posits that the Nixon gang and oth",
+      "title": "1976-09-15_Dorothy_23.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_24",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick formally introduces the name \"Zebra\" for the mimicking, tutelary entity that camouflages itself as the phenomenal world. He defines Zebra as the \"Deus Absconditus\" (Shy God) who arranges causal c",
+      "title": "1976-09-15_Dorothy_24.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_25",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies Zebra with the Noosphere (Teilhard de Chardin) and proposes that this \"Collective Mind\" (Corpus Christi) is building itself *backward* in time from the Omega Point. 3-74 was his own \"a",
+      "title": "1976-09-15_Dorothy_25.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_26",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the idea that 3-74 was an \"override\" of his regular social/political programming. He theorizes that he was \"switched\" from an alternate track (Black Iron Prison/Soviet agent) to a new on",
+      "title": "1976-09-15_Dorothy_26.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_27",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes his findings into a five-point summary of Gnosticism, framing it as a \"saving revelation\" about our status as slaves in a Black Iron Prison of determinism. He identifies the \"Kind Str",
+      "title": "1976-09-15_Dorothy_27.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_28",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his dualistic model using Taoist terms (Yang/Yin) and identifies Zebra with the \"gentle\" female aspect of the divine (Sophia). He argues that 3-74 was not just a personal experience but a",
+      "title": "1976-09-15_Dorothy_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_29",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_29.txt"
+    }
+  ],
   "related_terms": [
     {
       "name": "Absolute",

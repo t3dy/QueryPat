@@ -3,7 +3,7 @@
   "canonical_name": "Taoist",
   "slug": "taoist",
   "status": "provisional",
-  "review_state": "unreviewed",
+  "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
   "mention_count": 58,
@@ -12,8 +12,8 @@
   "interpretive_note": "Primary Source Evidence: \"...for my survival, defensive in nature; this explains the ferocity I felt, the awareness of combat, of an antagonist. None of that in 75; in springtime when the pineal body was reignited, only the St. Sophia cycle remained, and was pleasurable, as reproduction should be. It is always necessary that an organism survive intrinsically if it is to reproduce. If Firebright was to be born --the young bear...\"",
   "visionary_significance": null,
   "scholarly_caution": null,
-  "card_description": null,
-  "full_description": null,
+  "card_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 58. Referenced 58 times across the corpus. Taoist appears 58 times in the Exegesis corpus. From the Exegesis: \"for my survival, defensive in nature; this explains the ferocity I felt, the awareness of combat, of an antagonist. None of that in 75; in springtime when the pineal body was reignited, only the St...\" Segment context: \"Dick explores the \"Holy Spirit\" (Elijah) as the precursor to the \"Second Birth\" of the Logos/Wisdom (Santa Sophia).\" Related to: Acts, After, Again, Although, Anamnesis.",
+  "full_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 58. Referenced 58 times across the corpus. Taoist appears 58 times in the Exegesis corpus. From the Exegesis: \"for my survival, defensive in nature; this explains the ferocity I felt, the awareness of combat, of an antagonist. None of that in 75; in springtime when the pineal body was reignited, only the St...\" Segment context: \"Dick explores the \"Holy Spirit\" (Elijah) as the precursor to the \"Second Birth\" of the Logos/Wisdom (Santa Sophia).\" Related to: Acts, After, Again, Although, Anamnesis.\n\n**Category:** Top Term\n\n**Frequency:** 58 mentions.\n\n**From the Exegesis:**\n> for my survival, defensive in nature; this explains the ferocity I felt, the awareness of combat, of an antagonist. None of that in 75; in springtime when the pineal body was reignited, only the St. Sophia cycle remained, and was pleasurable, as reproduction should be. It is always necessary that...\n> Last edit almost 3 years ago by svayambhu108\n55\nNeeds Review\n55\n( The secret partnership. Perceive the creator properly (as The Gnostics did) + you comprehend a sick genius who cares not what becomes of his creations. Observe the other entity, which brings order out of chaos, + you see good, but ...\n> Last edit almost 3 years ago by svayambhu108\n\n56\no This Taoist trinitarianism isn't as nutty as it first might seem, because 3 temporal ages can logically (a priori) be determined: First: yang the creator creates (O.T.) second: yin the recepticle + receiver intervenes + beging to form the cosmos ...\n\n**Key segment contexts:**\n- (circa 1975-1976) Dick explores the \"Holy Spirit\" (Elijah) as the precursor to the \"Second Birth\" of the Logos/Wisdom (Santa Sophia). He details a shift from the \"warrior\" survival instincts of 1974 to the \"reproduc...\n- (September 15, 1976) Dick proposes a trinitarian model that harmonizes Gnostic dualism with Taoism. He identifies \"James-James\" (the Creator/Yang) and \"Zebra/Sophia\" (the Arranger/Yin) as secret partners under the ulti...\n- (September 15, 1976) Dick analyzes the deterministic \"inner tape\" (DNA/Ancestral programming) that controls humans like \"robots.\" He argues that 3-74 was a \"volitional override\" of this biological script by a \"consciou...\n\n**Related terms:** Acts (related), After (related), Again (related), Although (related), Anamnesis (related)",
   "first_appearance": null,
   "peak_usage_start": null,
   "peak_usage_end": null,
@@ -29,10 +29,363 @@
   ],
   "provenance": null,
   "notes": null,
-  "created_at": "2026-03-12 14:35:55",
-  "updated_at": "2026-03-12 14:35:55",
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-03-12 19:37:10",
   "aliases": [],
-  "linked_segments": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_11",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"Holy Spirit\" (Elijah) as the precursor to the \"Second Birth\" of the Logos/Wisdom (Santa Sophia). He details a shift from the \"warrior\" survival instincts of 1974 to the \"reproductiv",
+      "title": "U_Claudia_11.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_28",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his dualistic model using Taoist terms (Yang/Yin) and identifies Zebra with the \"gentle\" female aspect of the divine (Sophia). He argues that 3-74 was not just a personal experience but a",
+      "title": "1976-09-15_Dorothy_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_73",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a trinitarian model that harmonizes Gnostic dualism with Taoism. He identifies \"James-James\" (the Creator/Yang) and \"Zebra/Sophia\" (the Arranger/Yin) as secret partners under the ultimat",
+      "title": "1976-09-15_Dorothy_73.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_77",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick analyzes the deterministic \"inner tape\" (DNA/Ancestral programming) that controls humans like \"robots.\" He argues that 3-74 was a \"volitional override\" of this biological script by a \"conscious s",
+      "title": "1976-09-15_Dorothy_77.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_79",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick formulaizes a law of \"Cosmic Justice\" (Ma'at/Tao): when an oppressor (B) \"oversteps\" its limit against an innocent victim (C), it triggers a \"justification\" by Valis that confers divinity (Apothe",
+      "title": "1976-09-15_Dorothy_79.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_80",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that 3-74 was the planting of a \"Micro-Cosmos Seed\" (Thomas/Telos) within him to replace the \"Scramble World\" of the Empire. He views his writing and experiences as \"world-creation,\" wh",
+      "title": "1976-09-15_Dorothy_80.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_145",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "In a massive concluding synthesis of Section 15, Dick unifies his lifetime of thought into a \"Diploid\" cosmology. He posits that the Godhead is \"out of round\"—experiencing a \"crisis\" or \"wobble\" (osci",
+      "title": "1976-09-15_Dorothy_145.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_146",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_146.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_194",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_194.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_234",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_234.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_05",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_05.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_06",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_06.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_20",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_20.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_114",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_114.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_139",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_139.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_142",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_142.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_270",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_270.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_272",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_272.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_273",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_273.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_274",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_274.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_275",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_275.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_278",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_278.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_290",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_290.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_291",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_291.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_292",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_292.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_293",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_293.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_294",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_294.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_300",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_300.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_337",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_337.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_354",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_354.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_364",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_364.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_25",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_25.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_28",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_34",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_34.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_95",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_95.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_97",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_97.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_98",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_98.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_99",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_99.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_134",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_134.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_150",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_150.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_155",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_155.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_156",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_156.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_166",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_166.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_167",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_167.txt"
+    }
+  ],
   "related_terms": [
     {
       "name": "Absolute",

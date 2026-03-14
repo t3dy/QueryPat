@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { useData } from '../hooks/useData'
+import { formatSegmentTitle } from '../utils/formatTitle'
 
 interface CuratedBioEvent {
   id: string
@@ -147,7 +148,10 @@ export default function TermDetail() {
       {term.full_description && (
         <div className="detail-section">
           <h2>Description</h2>
-          <ReactMarkdown>{term.full_description}</ReactMarkdown>
+          <ReactMarkdown>{
+            /* Strip verbatim Exegesis text that appears after "From the Exegesis:" */
+            term.full_description.split(/\*\*From the Exegesis:\*\*/)[0].trim()
+          }</ReactMarkdown>
         </div>
       )}
 
@@ -178,12 +182,12 @@ export default function TermDetail() {
 
       {term.linked_segments.length > 0 && (
         <div className="detail-section">
-          <h2>Linked Segments ({term.linked_segments.length})</h2>
+          <h2>Exegesis Summary Segments ({term.linked_segments.length})</h2>
           {term.linked_segments.map((seg, i) => (
             <div key={i} className={`confidence-${seg.confidence}`} style={{marginBottom:'0.75rem'}}>
-              <div style={{display:'flex', gap:'0.75rem', alignItems:'baseline'}}>
+              <div style={{display:'flex', gap:'0.75rem', alignItems:'baseline', flexWrap:'wrap'}}>
                 <Link to={`/segments/${seg.seg_id}`} style={{fontWeight:600}}>
-                  {seg.title || seg.seg_id}
+                  {formatSegmentTitle(seg.title, seg.seg_id)}
                 </Link>
                 <span style={{color:'var(--text-muted)', fontSize:'0.85rem'}}>{seg.date_display}</span>
                 <span className="confidence-label">{seg.match_type}</span>
@@ -194,23 +198,7 @@ export default function TermDetail() {
         </div>
       )}
 
-      {term.evidence.length > 0 && (
-        <div className="detail-section">
-          <h2>Evidence Passages</h2>
-          {term.evidence.map((ev, i) => (
-            <div key={i} style={{marginBottom:'1rem'}}>
-              <div className="card-meta" style={{marginBottom:'0.25rem'}}>
-                <span>Lines {ev.line_start}-{ev.line_end}</span>
-                <span className="confidence-label">{ev.source_method}</span>
-                {ev.matched_alias !== term.canonical_name && (
-                  <span>matched: "{ev.matched_alias}"</span>
-                )}
-              </div>
-              <div className="evidence-excerpt">{ev.text}</div>
-            </div>
-          ))}
-        </div>
-      )}
+      {/* Evidence passages hidden — verbatim PKD text not displayed */}
 
       {matchingEvents.length > 0 && (
         <div className="detail-section">

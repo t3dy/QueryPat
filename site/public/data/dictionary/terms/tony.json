@@ -3,7 +3,7 @@
   "canonical_name": "Tony",
   "slug": "tony",
   "status": "provisional",
-  "review_state": "unreviewed",
+  "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
   "mention_count": 82,
@@ -12,8 +12,8 @@
   "interpretive_note": "Primary Source Evidence: \"...food just when it’s ripe and perfect. The dog tries to warn the family, but it’s always early in the morning and his barking just annoys them. The story ends when the family decides they have to get rid of the dog, due to his barking, at which point one of the Roogs or garbagemen says to the dog, “We’ll be back to get the people pretty soon.” I never could understand why no one but Tony Boucher co...\"",
   "visionary_significance": null,
   "scholarly_caution": null,
-  "card_description": null,
-  "full_description": null,
+  "card_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 82. Referenced 82 times across the corpus. First appears in segments dated 1975-02-27. Tony appears 82 times in the Exegesis corpus. From the Exegesis: \"Last edit over 5 years ago by Toso\n3\nComplete\n3\nTessa's name for me (without her knowing all this, supra) is Rowie Rog. A combination of sounds which pierce to my soul, for evident reasons. Rog Phi...\" Segment context: \"The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time.\" Related to: Acts, Advent, After, Again, Although.",
+  "full_description": "A critical conceptual unit within the top term domain of the Exegesis. Mentions: 82. Referenced 82 times across the corpus. First appears in segments dated 1975-02-27. Tony appears 82 times in the Exegesis corpus. From the Exegesis: \"Last edit over 5 years ago by Toso\n3\nComplete\n3\nTessa's name for me (without her knowing all this, supra) is Rowie Rog. A combination of sounds which pierce to my soul, for evident reasons. Rog Phi...\" Segment context: \"The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time.\" Related to: Acts, Advent, After, Again, Although.\n\n**Category:** Top Term\n\n**Frequency:** 82 mentions. First appears 1975-02-27.\n\n**From the Exegesis:**\n> Last edit over 5 years ago by Toso\n3\nComplete\n3\nTessa's name for me (without her knowing all this, supra) is Rowie Rog. A combination of sounds which pierce to my soul, for evident reasons. Rog Phillips, by the way, was a friend of Tony Boucher, also dead...Ich Bin die liethe etc. Preface to UBIK...\n> Mrs. Phyllis Boucher 2643 Dana St. Berkeley, Calif.\n\nDear Phyllis,\n\nI have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that...\n> I have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this,...\n\n**Key segment contexts:**\n- (February 27, 1975) The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time. He claims this retrograd...\n- (circa 1975-1976) Draft of a memorial piece for Tony Boucher. Dick explores Boucher's fear of the universe, his role as a mentor, and the startling claim that his cat Pinky was Boucher's reincarnation.\n- (circa 1975-1976) Conclusion of the Boucher memorial and follow-up notes. Dick recounts a mystical experience of light, a premonition of death, and a dream involving Gestapo agents.\n\n**Related terms:** Acts (related), Advent (related), After (related), Again (related), Although (related), Anamnesis (related)",
   "first_appearance": "1975-02-27",
   "peak_usage_start": "1981",
   "peak_usage_end": "1981",
@@ -29,10 +29,155 @@
   ],
   "provenance": null,
   "notes": null,
-  "created_at": "2026-03-12 14:35:55",
-  "updated_at": "2026-03-12 14:35:55",
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-03-12 19:37:10",
   "aliases": [],
-  "linked_segments": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "February 27, 1975",
+      "summary": "The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time. He claims this retrograde m",
+      "title": "1975-02-27_Claudia_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Tony_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Draft of a memorial piece for Tony Boucher. Dick explores Boucher's fear of the universe, his role as a mentor, and the startling claim that his cat Pinky was Boucher's reincarnation.",
+      "title": "U_Tony_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Tony_02",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Conclusion of the Boucher memorial and follow-up notes. Dick recounts a mystical experience of light, a premonition of death, and a dream involving Gestapo agents.",
+      "title": "U_Tony_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-02_Phyllis_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "March 2, 1975",
+      "summary": "A personal letter to Phyllis Boucher accompanying an essay about Tony Boucher. Dick discusses his current life in Fullerton, his family, and his religious development.",
+      "title": "1975-03-02_Phyllis_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-04_SECTION_006_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "March 4, 1975",
+      "summary": "Dick writes to Dr. Robert Ornstein, framing his mystical experience as the clinical activation of his brain's right hemisphere. He outlines the premise of his novel *TO SCARE THE DEAD* (VALIS), featur",
+      "title": "1975-03-04_SECTION_006_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-12_Dorothy_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 12, 1976",
+      "summary": "Dick writes to Dorothy summarizing his 3-74 experience (the \"conversion year\"). He introduces the term \"VALIS\" (Vast Active Living Intelligence System), details his role in toppling Nixon through lett",
+      "title": "1976-09-12_Dorothy_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_16",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes his massive day of theorizing by realizing the 1st Advent is an \"Eternal Now\" (always occurring at the vernal equinox) and the \"Rome\" memories were incidentals of an \"Internal Epiphany.",
+      "title": "1976-09-15_Dorothy_16.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_111",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "Dick discusses \"magic memory\" (anamnesis) as the key to immortality and divine wisdom. He introduces the \"Pons Dei\" (Bridge of God) as the connection between the human mind and the divine mind, activa",
+      "title": "1976-09-15_Dorothy_111.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_197",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_197.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_16",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_16.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_50",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_50.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_106",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_106.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_29",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_29.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_30",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_30.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_31",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_31.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_32",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_32.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_33",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_33.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_94",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_94.txt"
+    }
+  ],
   "related_terms": [
     {
       "name": "Acts",

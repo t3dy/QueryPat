@@ -188,3 +188,13 @@ def make_asset_id(slug: str) -> str:
 def make_evidence_id(term_slug: str, seg_id: str) -> str:
     """Generate an evidence packet ID."""
     return f"EV_{term_slug}_{seg_id}"
+
+
+def make_name_id(canonical_form: str) -> str:
+    """Generate a stable name ID from canonical form."""
+    return f"NAME_{make_slug(canonical_form)}"
+
+
+def make_ref_id(domain: str, canonical_form: str) -> str:
+    """Generate a reference entry ID."""
+    return f"REF_{domain}_{make_slug(canonical_form)}"

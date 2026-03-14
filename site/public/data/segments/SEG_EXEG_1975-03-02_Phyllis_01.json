@@ -1,0 +1,708 @@
+{
+  "seg_id": "SEG_EXEG_1975-03-02_Phyllis_01",
+  "doc_id": "DOC_EXEG_SECTION_002",
+  "slug": "1975-03-02-phyllis-01",
+  "title": "1975-03-02_Phyllis_01.txt",
+  "position": 1,
+  "date_start": "1975-03-02",
+  "date_end": "1975-03-02",
+  "date_display": "March 2, 1975",
+  "date_confidence": "exact",
+  "date_basis": "chunk_manifest",
+  "concise_summary": "A personal letter to Phyllis Boucher accompanying an essay about Tony Boucher. Dick discusses his current life in Fullerton, his family, and his religious development.",
+  "key_claims": [
+    "Dick has developed \"strongly religious convictions\" that God (\"Our Good Friend\") intervenes to save those who fall behind.",
+    "*Confessions of a Crap Artist* is science fiction \"in the broadest sense.\"",
+    "Dick refuses to \"deny s-f\" like Kurt Vonnegut."
+  ],
+  "recurring_concepts": [
+    "The Pressure of Time/Falling Behind",
+    "Science Fiction as a broad genre identity"
+  ],
+  "people_entities": [
+    "Phyllis Boucher (Recipient)",
+    "Tony Boucher (Subject of essay)",
+    "Tony Hiss (Sufi Magazine editor)",
+    "Robert Ornstein (Staff member)",
+    "Tessa (Wife)",
+    "Christopher (Son)",
+    "Kurt Vonnegut (Negative comparison)"
+  ],
+  "texts_works": [
+    "The Real World (Sufi Magazine)",
+    "New Yorker (\"Talk of the Town\")",
+    "Rolling Stone (Upcoming interview)",
+    "*Confessions of a Crap Artist*"
+  ],
+  "autobiographical": [
+    "Living in Fullerton, CA (\"north of Disneyland\").",
+    "Son Christopher is 1.5 years old.",
+    "Written while under work pressure (started at 7:30 AM)."
+  ],
+  "theological_motifs": [
+    "Process Theology (God \"scooping up\" the fallen)",
+    "Sufism (connection to magazine)"
+  ],
+  "literary_self_ref": [
+    "Refusal to abandon SF branding despite experimental work."
+  ],
+  "symbols_images": [
+    "Being \"scooped up\" by God."
+  ],
+  "tensions": [
+    "Contrast between the \"pressure\" to keep up and the religious assurance of being \"scooped up\" if one falls."
+  ],
+  "evidence_quotes": [
+    "\"I have developed strongly religious convictions that Our Good Friend is watching to reach out and scoop us up, when we fall behind.\"",
+    "\"I will not go Vonnegut’s route and deny s-f.\""
+  ],
+  "uncertainty_flags": [
+    "None."
+  ],
+  "reading_excerpt": "I have developed strongly religious convictions that Our Good Friend is watching to reach out and scoop us up, when we fall behind.",
+  "word_count": 401,
+  "raw_text": "March 2, 1975 Mrs. Phyllis Boucher 2643 Dana St. Berkeley, Calif. Dear Phyllis, I have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a very good magazine (it is put out by Tony Hiss, you writes the “Talk of the Town” in the New Yorker, and boasts such people as Robert Ornstein in its staff; it is what they call (ouch) a class magazine. The paper is high quality, too. I hope that you like this piece (they may not). They just accepted a poem by my wife Tessa, and then told me that they’d like to be able to get both of us together in an issue. So the heat is on me to Come Through (I’ve been working since seven-thirty a.m.). You’ll note that I’m living in Southern California now, “north of Disneyland,” as Tony Hiss put it when he interviewed me for the New Yorker. I’m still writing s-f. I’ve got a lovely little 1.5 year-old son named Christopher, my wife Tessa is incredibly beautiful and very young (the pressure is on me, always, in all ways, to keep going, to not fall behind… alas, we all do eventually, I guess, but then, I have developed strongly religious convictions that Our Good Friend is watching to reach out and scoop us up, when we fall behind). I’ve enclosed two or three pictures of us… I do hope all goes well with you, and I would so much enjoy hearing from you, and knowing about you these days. I’m into screenplay writing now… also Rolling Stone is doing a long article/interview with me, and, at long last, an experimental S-F novel of mine is coming out. But I will not go Vonnegut’s route and deny s-f if I make it literarily-experimentally; even my experimental novel, CONFESSIONS OF A CRAP ARTIST, is in the broadest sense, science-fiction. Dear Phyllis. How are you? With deep personal regards, Philip K. Dick 1405 Cameo Lane #4 Fullerton, Calif 92631, USA",
+  "raw_text_char_count": 2166,
+  "linked_terms": [
+    {
+      "term_id": "TERM_although",
+      "name": "Although",
+      "slug": "although",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "although"
+    },
+    {
+      "term_id": "TERM_always",
+      "name": "Always",
+      "slug": "always",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "always"
+    },
+    {
+      "term_id": "TERM_behind",
+      "name": "Behind",
+      "slug": "behind",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "behind"
+    },
+    {
+      "term_id": "TERM_berkeley",
+      "name": "Berkeley",
+      "slug": "berkeley",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Berkeley"
+    },
+    {
+      "term_id": "TERM_both",
+      "name": "Both",
+      "slug": "both",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "both"
+    },
+    {
+      "term_id": "TERM_boucher",
+      "name": "Boucher",
+      "slug": "boucher",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Boucher"
+    },
+    {
+      "term_id": "TERM_calif",
+      "name": "Calif",
+      "slug": "calif",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Calif"
+    },
+    {
+      "term_id": "TERM_christopher",
+      "name": "Christopher",
+      "slug": "christopher",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Christopher"
+    },
+    {
+      "term_id": "TERM_coming",
+      "name": "Coming",
+      "slug": "coming",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "coming"
+    },
+    {
+      "term_id": "TERM_days",
+      "name": "Days",
+      "slug": "days",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "days"
+    },
+    {
+      "term_id": "TERM_dear",
+      "name": "Dear",
+      "slug": "dear",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Dear"
+    },
+    {
+      "term_id": "TERM_dick",
+      "name": "Dick",
+      "slug": "dick",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Dick"
+    },
+    {
+      "term_id": "TERM_even",
+      "name": "Even",
+      "slug": "even",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "even"
+    },
+    {
+      "term_id": "TERM_eventually",
+      "name": "Eventually",
+      "slug": "eventually",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "eventually"
+    },
+    {
+      "term_id": "TERM_fall",
+      "name": "Fall",
+      "slug": "fall",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "fall"
+    },
+    {
+      "term_id": "TERM_fullerton",
+      "name": "Fullerton",
+      "slug": "fullerton",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Fullerton"
+    },
+    {
+      "term_id": "TERM_good",
+      "name": "Good",
+      "slug": "good",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "good"
+    },
+    {
+      "term_id": "TERM_have",
+      "name": "Have",
+      "slug": "have",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "have"
+    },
+    {
+      "term_id": "TERM_having",
+      "name": "Having",
+      "slug": "having",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "having"
+    },
+    {
+      "term_id": "TERM_into",
+      "name": "Into",
+      "slug": "into",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "into"
+    },
+    {
+      "term_id": "TERM_just",
+      "name": "Just",
+      "slug": "just",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "just"
+    },
+    {
+      "term_id": "TERM_knowing",
+      "name": "Knowing",
+      "slug": "knowing",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "knowing"
+    },
+    {
+      "term_id": "TERM_like",
+      "name": "Like",
+      "slug": "like",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "like"
+    },
+    {
+      "term_id": "TERM_living",
+      "name": "Living",
+      "slug": "living",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "living"
+    },
+    {
+      "term_id": "TERM_long",
+      "name": "Long",
+      "slug": "long",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "long"
+    },
+    {
+      "term_id": "TERM_love",
+      "name": "Love",
+      "slug": "love",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "love"
+    },
+    {
+      "term_id": "TERM_march",
+      "name": "March",
+      "slug": "march",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "March"
+    },
+    {
+      "term_id": "TERM_memory",
+      "name": "Memory",
+      "slug": "memory",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "memory"
+    },
+    {
+      "term_id": "TERM_much",
+      "name": "Much",
+      "slug": "much",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "much"
+    },
+    {
+      "term_id": "TERM_ornstein",
+      "name": "Ornstein",
+      "slug": "ornstein",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Ornstein"
+    },
+    {
+      "term_id": "TERM_people",
+      "name": "People",
+      "slug": "people",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "people"
+    },
+    {
+      "term_id": "TERM_philip",
+      "name": "Philip",
+      "slug": "philip",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Philip"
+    },
+    {
+      "term_id": "TERM_rather",
+      "name": "Rather",
+      "slug": "rather",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "rather"
+    },
+    {
+      "term_id": "TERM_real",
+      "name": "Real",
+      "slug": "real",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Real"
+    },
+    {
+      "term_id": "TERM_reason",
+      "name": "Reason",
+      "slug": "reason",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "reason"
+    },
+    {
+      "term_id": "TERM_since",
+      "name": "Since",
+      "slug": "since",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "since"
+    },
+    {
+      "term_id": "TERM_still",
+      "name": "Still",
+      "slug": "still",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "still"
+    },
+    {
+      "term_id": "TERM_such",
+      "name": "Such",
+      "slug": "such",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "such"
+    },
+    {
+      "term_id": "TERM_tessa",
+      "name": "Tessa",
+      "slug": "tessa",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Tessa"
+    },
+    {
+      "term_id": "TERM_these",
+      "name": "These",
+      "slug": "these",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "these"
+    },
+    {
+      "term_id": "TERM_thought",
+      "name": "Thought",
+      "slug": "thought",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "thought"
+    },
+    {
+      "term_id": "TERM_three",
+      "name": "Three",
+      "slug": "three",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "three"
+    },
+    {
+      "term_id": "TERM_through",
+      "name": "Through",
+      "slug": "through",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Through"
+    },
+    {
+      "term_id": "TERM_tony",
+      "name": "Tony",
+      "slug": "tony",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "Tony"
+    },
+    {
+      "term_id": "TERM_very",
+      "name": "Very",
+      "slug": "very",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "very"
+    },
+    {
+      "term_id": "TERM_well",
+      "name": "Well",
+      "slug": "well",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "well"
+    },
+    {
+      "term_id": "TERM_will",
+      "name": "Will",
+      "slug": "will",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "will"
+    },
+    {
+      "term_id": "TERM_world",
+      "name": "World",
+      "slug": "world",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "World"
+    },
+    {
+      "term_id": "TERM_would",
+      "name": "Would",
+      "slug": "would",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "matched_text": "would"
+    },
+    {
+      "term_id": "TERM_life",
+      "name": "Life",
+      "slug": "life",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "life"
+    },
+    {
+      "term_id": "TERM_those",
+      "name": "Those",
+      "slug": "those",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "those"
+    },
+    {
+      "term_id": "TERM_tony-boucher",
+      "name": "Tony Boucher",
+      "slug": "tony-boucher",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Tony Boucher"
+    },
+    {
+      "term_id": "TERM_christopher",
+      "name": "Christopher",
+      "slug": "christopher",
+      "match_type": "conceptual",
+      "confidence": 4,
+      "matched_text": "Christopher"
+    },
+    {
+      "term_id": "TERM_tessa",
+      "name": "Tessa",
+      "slug": "tessa",
+      "match_type": "conceptual",
+      "confidence": 4,
+      "matched_text": "Tessa"
+    },
+    {
+      "term_id": "TERM_tony",
+      "name": "Tony",
+      "slug": "tony",
+      "match_type": "conceptual",
+      "confidence": 4,
+      "matched_text": "Tony"
+    }
+  ],
+  "linked_names": [
+    {
+      "name_id": "NAME_christopher",
+      "name": "Christopher",
+      "slug": "christopher",
+      "match_type": "exact_mention",
+      "confidence": 2
+    },
+    {
+      "name_id": "NAME_tessa",
+      "name": "Tessa",
+      "slug": "tessa",
+      "match_type": "exact_mention",
+      "confidence": 2
+    },
+    {
+      "name_id": "NAME_tony-boucher",
+      "name": "Tony Boucher",
+      "slug": "tony-boucher",
+      "match_type": "exact_mention",
+      "confidence": 2
+    },
+    {
+      "name_id": "NAME_phyllis-boucher",
+      "name": "Phyllis Boucher",
+      "slug": "phyllis-boucher",
+      "match_type": "exact_mention",
+      "confidence": 2
+    },
+    {
+      "name_id": "NAME_tony-hiss",
+      "name": "Tony Hiss",
+      "slug": "tony-hiss",
+      "match_type": "exact_mention",
+      "confidence": 2
+    },
+    {
+      "name_id": "NAME_robert-ornstein",
+      "name": "Robert Ornstein",
+      "slug": "robert-ornstein",
+      "match_type": "exact_mention",
+      "confidence": 2
+    },
+    {
+      "name_id": "NAME_kurt-vonnegut",
+      "name": "Kurt Vonnegut",
+      "slug": "kurt-vonnegut",
+      "match_type": "exact_mention",
+      "confidence": 2
+    }
+  ],
+  "evidence_excerpts": [
+    {
+      "text": "Mrs. Phyllis Boucher 2643 Dana St. Berkeley, Calif.\n\nDear Phyllis,\n\nI have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a ve",
+      "matched_alias": "Although",
+      "term_id": "TERM_although",
+      "term_name": "Although",
+      "term_slug": "although"
+    },
+    {
+      "text": "Dear Phyllis,\n\nI have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a very good magazine (it is put out by Tony Hiss, you wri",
+      "matched_alias": "Both",
+      "term_id": "TERM_both",
+      "term_name": "Both",
+      "term_slug": "both"
+    },
+    {
+      "text": "I’ve enclosed two or three pictures of us… I do hope all goes well with you, and I would so much enjoy hearing from you, and knowing about you these days. I’m into screenplay writing now… also Rolling Stone is doing a long article/interview with me, and, at long last, an experimental S-F novel of mine is coming out. But I will not go Vonnegut’s route and deny s-f if I make it literarily-experimentally; even my experimental novel, CONFESSIONS OF A CRAP ARTIST, is in the broadest sense, science-fi",
+      "matched_alias": "Calif",
+      "term_id": "TERM_calif",
+      "term_name": "Calif",
+      "term_slug": "calif"
+    },
+    {
+      "text": "I have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a very good magazine (it is put out by Tony Hiss, you writes the “Talk o",
+      "matched_alias": "Christopher",
+      "term_id": "TERM_christopher",
+      "term_name": "Christopher",
+      "term_slug": "christopher"
+    },
+    {
+      "text": "I hope that you like this piece (they may not). They just accepted a poem by my wife Tessa, and then told me that they’d like to be able to get both of us together in an issue. So the heat is on me to Come Through (I’ve been working since seven-thirty a.m.).\n\nYou’ll note that I’m living in Southern California now, “north of Disneyland,” as Tony Hiss put it when he interviewed me for the New Yorker. I’m still writing s-f. I’ve got a lovely little 1.5 year-old son named Christopher, my wife Tessa ",
+      "matched_alias": "Days",
+      "term_id": "TERM_days",
+      "term_name": "Days",
+      "term_slug": "days"
+    },
+    {
+      "text": "I’ve enclosed two or three pictures of us… I do hope all goes well with you, and I would so much enjoy hearing from you, and knowing about you these days. I’m into screenplay writing now… also Rolling Stone is doing a long article/interview with me, and, at long last, an experimental S-F novel of mine is coming out. But I will not go Vonnegut’s route and deny s-f if I make it literarily-experimentally; even my experimental novel, CONFESSIONS OF A CRAP ARTIST, is in the broadest sense, science-fi",
+      "matched_alias": "Dick",
+      "term_id": "TERM_dick",
+      "term_name": "Dick",
+      "term_slug": "dick"
+    },
+    {
+      "text": "I hope that you like this piece (they may not). They just accepted a poem by my wife Tessa, and then told me that they’d like to be able to get both of us together in an issue. So the heat is on me to Come Through (I’ve been working since seven-thirty a.m.).\n\nYou’ll note that I’m living in Southern California now, “north of Disneyland,” as Tony Hiss put it when he interviewed me for the New Yorker. I’m still writing s-f. I’ve got a lovely little 1.5 year-old son named Christopher, my wife Tessa ",
+      "matched_alias": "Even",
+      "term_id": "TERM_even",
+      "term_name": "Even",
+      "term_slug": "even"
+    },
+    {
+      "text": "I have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a very good magazine (it is put out by Tony Hiss, you writes the “Talk o",
+      "matched_alias": "Fall",
+      "term_id": "TERM_fall",
+      "term_name": "Fall",
+      "term_slug": "fall"
+    },
+    {
+      "text": "I’ve enclosed two or three pictures of us… I do hope all goes well with you, and I would so much enjoy hearing from you, and knowing about you these days. I’m into screenplay writing now… also Rolling Stone is doing a long article/interview with me, and, at long last, an experimental S-F novel of mine is coming out. But I will not go Vonnegut’s route and deny s-f if I make it literarily-experimentally; even my experimental novel, CONFESSIONS OF A CRAP ARTIST, is in the broadest sense, science-fi",
+      "matched_alias": "Fullerton",
+      "term_id": "TERM_fullerton",
+      "term_name": "Fullerton",
+      "term_slug": "fullerton"
+    },
+    {
+      "text": "Mrs. Phyllis Boucher 2643 Dana St. Berkeley, Calif.\n\nDear Phyllis,\n\nI have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a ve",
+      "matched_alias": "Good",
+      "term_id": "TERM_good",
+      "term_name": "Good",
+      "term_slug": "good"
+    },
+    {
+      "text": "I have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a very good magazine (it is put out by Tony Hiss, you writes the “Talk o",
+      "matched_alias": "Good",
+      "term_id": "TERM_good",
+      "term_name": "Good",
+      "term_slug": "good"
+    },
+    {
+      "text": "Mrs. Phyllis Boucher 2643 Dana St. Berkeley, Calif.\n\nDear Phyllis,\n\nI have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a ve",
+      "matched_alias": "Have",
+      "term_id": "TERM_have",
+      "term_name": "Have",
+      "term_slug": "have"
+    },
+    {
+      "text": "I have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a very good magazine (it is put out by Tony Hiss, you writes the “Talk o",
+      "matched_alias": "Have",
+      "term_id": "TERM_have",
+      "term_name": "Have",
+      "term_slug": "have"
+    },
+    {
+      "text": "Mrs. Phyllis Boucher 2643 Dana St. Berkeley, Calif.\n\nDear Phyllis,\n\nI have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a ve",
+      "matched_alias": "Having",
+      "term_id": "TERM_having",
+      "term_name": "Having",
+      "term_slug": "having"
+    },
+    {
+      "text": "Philip K. Dick 1405 Cameo Lane #4 Fullerton, Calif 92631, USA\n\nLast edit over 5 years ago by Zebrapedia\n13\nIndexed\n13\nDear Tony,\n\nEnclosed is the piece I’ve been working my ass off for The Real World. I’m glad you liked Tessa’s poem, and that as you say you’re going to publish it in the next issue, but that sort of puts pressure on me to come through – I’ve been on this piece like as of today 7:30 a.m. at the typewriter. You asked for “short.” What is short? I kept it short, I hope short enough.",
+      "matched_alias": "Indexed",
+      "term_id": "TERM_indexed",
+      "term_name": "Indexed",
+      "term_slug": "indexed"
+    },
+    {
+      "text": "Mrs. Phyllis Boucher 2643 Dana St. Berkeley, Calif.\n\nDear Phyllis,\n\nI have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a ve",
+      "matched_alias": "Just",
+      "term_id": "TERM_just",
+      "term_name": "Just",
+      "term_slug": "just"
+    },
+    {
+      "text": "Dear Phyllis,\n\nI have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a very good magazine (it is put out by Tony Hiss, you wri",
+      "matched_alias": "Just",
+      "term_id": "TERM_just",
+      "term_name": "Just",
+      "term_slug": "just"
+    },
+    {
+      "text": "Dear Phyllis,\n\nI have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a very good magazine (it is put out by Tony Hiss, you wri",
+      "matched_alias": "Like",
+      "term_id": "TERM_like",
+      "term_name": "Like",
+      "term_slug": "like"
+    },
+    {
+      "text": "I have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a very good magazine (it is put out by Tony Hiss, you writes the “Talk o",
+      "matched_alias": "Living",
+      "term_id": "TERM_living",
+      "term_name": "Living",
+      "term_slug": "living"
+    },
+    {
+      "text": "Mrs. Phyllis Boucher 2643 Dana St. Berkeley, Calif.\n\nDear Phyllis,\n\nI have long thought about you, wondering how you are, and my having just now written the short enclosed piece, which is about Tony, gives me pretext to write you as well as the opportunity to extend this copy of the piece so that you might read it. My love and memory of Tony are combined in this, although I must admit in a rather odd way; the reason is that this was commissioned by the Sufi Magazine The Real World, which is a ve",
+      "matched_alias": "Love",
+      "term_id": "TERM_love",
+      "term_name": "Love",
+      "term_slug": "love"
+    }
+  ],
+  "neighbors": [],
+  "document": {
+    "title": "Phyllis",
+    "doc_type": "exegesis_section",
+    "author": "Philip K. Dick",
+    "date_display": "March 2, 1975"
+  }
+}

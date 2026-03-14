@@ -63,6 +63,7 @@ CREATE TABLE documents (
     section_order       INTEGER,                    -- for ordering exegesis sections
     section_type        TEXT,                       -- Letter, Journal
     source_filename     TEXT,
+    text_char_count     INTEGER,                    -- total extracted text chars
     card_summary        TEXT,                       -- short summary for grid cards
     page_summary        TEXT,                       -- detailed summary
     category            TEXT,                       -- archive taxonomy category
@@ -118,6 +119,11 @@ CREATE TABLE segments (
     evidence_quotes     TEXT,                       -- JSON array
     uncertainty_flags   TEXT,                       -- JSON array
     reading_excerpt     TEXT,
+
+    -- Raw corpus text (from .txt chunk files)
+    raw_text            TEXT,
+    raw_text_source     TEXT,                   -- file path or extraction method
+    raw_text_char_count INTEGER,
 
     notes               TEXT,
     created_at          TEXT DEFAULT (datetime('now')),
@@ -437,6 +443,202 @@ CREATE INDEX idx_bio_date ON biography_events(date_start);
 CREATE INDEX idx_bio_reliability ON biography_events(reliability);
 
 -- ============================================================
+-- NAMES (proper name analysis for PKD digital humanities)
+-- ============================================================
+
+-- Core name entities (analogous to terms but for proper names)
+CREATE TABLE names (
+    name_id             TEXT PRIMARY KEY,           -- NAME_*
+    canonical_form      TEXT NOT NULL UNIQUE,
+    slug                TEXT NOT NULL UNIQUE,
+
+    -- Classification
+    entity_type         TEXT NOT NULL CHECK (entity_type IN (
+                            'character', 'place', 'organization',
+                            'deity_figure', 'historical_person', 'other'
+                        )),
+    source_type         TEXT CHECK (source_type IN (
+                            'fiction', 'exegesis', 'both', 'reference'
+                        )),
+
+    -- Triage (same two-axis system as terms)
+    status              TEXT NOT NULL DEFAULT 'unreviewed' CHECK (status IN (
+                            'accepted', 'provisional', 'alias', 'background', 'rejected'
+                        )),
+    review_state        TEXT NOT NULL DEFAULT 'unreviewed' CHECK (review_state IN (
+                            'unreviewed', 'machine-drafted', 'human-revised', 'publication-ready'
+                        )),
+
+    -- Name analysis fields
+    etymology           TEXT,                       -- etymological meaning
+    origin_language     TEXT,                       -- Greek, Hebrew, Latin, English, etc.
+    allusion_type       TEXT,                       -- JSON array: ["biblical","classical"]
+    allusion_target     TEXT,                       -- what the name alludes to
+    wordplay_note       TEXT,                       -- puns, anagrams, phonetic play
+    symbolic_note       TEXT,                       -- symbolic charge analysis
+    card_description    TEXT,                       -- short description for grid cards
+    full_description    TEXT,                       -- long scholarly essay
+
+    -- Corpus presence
+    mention_count       INTEGER DEFAULT 0,
+    first_work          TEXT,                       -- first PKD work where name appears
+    work_list           TEXT,                       -- JSON array of work titles
+
+    -- Cross-reference to mini knowledge base
+    reference_id        TEXT,                       -- FK to name_references if matched
+
+    provenance          TEXT,
+    notes               TEXT,
+    created_at          TEXT DEFAULT (datetime('now')),
+    updated_at          TEXT DEFAULT (datetime('now'))
+);
+
+CREATE INDEX idx_names_type ON names(entity_type);
+CREATE INDEX idx_names_status ON names(status);
+CREATE INDEX idx_names_slug ON names(slug);
+CREATE INDEX idx_names_count ON names(mention_count DESC);
+
+-- ============================================================
+
+CREATE TABLE name_aliases (
+    alias_id            INTEGER PRIMARY KEY AUTOINCREMENT,
+    name_id             TEXT NOT NULL,
+    alias_text          TEXT NOT NULL,
+    alias_type          TEXT DEFAULT 'spelling' CHECK (alias_type IN (
+                            'spelling', 'nickname', 'alternate_form', 'parenthetical'
+                        )),
+    FOREIGN KEY (name_id) REFERENCES names(name_id),
+    UNIQUE (name_id, alias_text)
+);
+
+CREATE INDEX idx_name_aliases_name ON name_aliases(name_id);
+CREATE INDEX idx_name_aliases_text ON name_aliases(alias_text);
+
+-- ============================================================
+
+CREATE TABLE name_segments (
+    name_id             TEXT NOT NULL,
+    seg_id              TEXT NOT NULL,
+    match_type          TEXT NOT NULL CHECK (match_type IN (
+                            'exact_mention', 'alias_mention', 'inferred', 'character_ref'
+                        )),
+    link_confidence     INTEGER NOT NULL CHECK (link_confidence BETWEEN 1 AND 5),
+    link_method         TEXT NOT NULL,
+    matched_text        TEXT,
+    context_snippet     TEXT,
+
+    PRIMARY KEY (name_id, seg_id, match_type),
+    FOREIGN KEY (name_id) REFERENCES names(name_id),
+    FOREIGN KEY (seg_id) REFERENCES segments(seg_id)
+);
+
+CREATE INDEX idx_name_seg_name ON name_segments(name_id);
+CREATE INDEX idx_name_seg_seg ON name_segments(seg_id);
+CREATE INDEX idx_name_seg_confidence ON name_segments(link_confidence);
+
+-- ============================================================
+
+CREATE TABLE name_terms (
+    name_id             TEXT NOT NULL,
+    term_id             TEXT NOT NULL,
+    relation_type       TEXT NOT NULL CHECK (relation_type IN (
+                            'alludes_to', 'embodies_concept', 'named_after',
+                            'discussed_alongside', 'co_occurs'
+                        )),
+    link_confidence     INTEGER CHECK (link_confidence BETWEEN 1 AND 5),
+    link_method         TEXT,
+
+    PRIMARY KEY (name_id, term_id, relation_type),
+    FOREIGN KEY (name_id) REFERENCES names(name_id),
+    FOREIGN KEY (term_id) REFERENCES terms(term_id)
+);
+
+CREATE INDEX idx_name_term_name ON name_terms(name_id);
+CREATE INDEX idx_name_term_term ON name_terms(term_id);
+
+-- ============================================================
+
+-- Mini knowledge base for allusion targets (biblical, classical, etc.)
+CREATE TABLE name_references (
+    ref_id              TEXT PRIMARY KEY,           -- REF_{domain}_{slug}
+    canonical_form      TEXT NOT NULL,
+    domain              TEXT NOT NULL CHECK (domain IN (
+                            'biblical', 'classical', 'philosophical', 'literary',
+                            'gnostic', 'historical', 'mythological', 'linguistic'
+                        )),
+    brief               TEXT NOT NULL,              -- one-line description
+    etymology           TEXT,                       -- etymological meaning
+    origin_language     TEXT,
+    significance        TEXT,                       -- why relevant to PKD studies
+    source_text         TEXT,                       -- e.g., "Genesis 3:1", "Republic VII"
+    created_at          TEXT DEFAULT (datetime('now'))
+);
+
+CREATE INDEX idx_name_ref_domain ON name_references(domain);
+CREATE INDEX idx_name_ref_form ON name_references(canonical_form);
+
+-- ============================================================
+-- CORPUS SUBSTRATE (document text extraction + raw segment text)
+-- ============================================================
+
+-- Extracted text from archive PDFs (full document level)
+CREATE TABLE document_texts (
+    text_id             TEXT PRIMARY KEY,
+    doc_id              TEXT NOT NULL,
+    extraction_method   TEXT CHECK (extraction_method IN (
+                            'pymupdf', 'ocr', 'manual', 'pre_extracted'
+                        )),
+    extraction_status   TEXT CHECK (extraction_status IN (
+                            'pending', 'complete', 'failed', 'partial'
+                        )),
+    extractability_score REAL,              -- 0.0-1.0 (printable char ratio)
+    ocr_required        INTEGER DEFAULT 0,
+    text_content        TEXT,
+    char_count          INTEGER,
+    created_at          TEXT DEFAULT (datetime('now')),
+
+    FOREIGN KEY (doc_id) REFERENCES documents(doc_id)
+);
+
+CREATE INDEX idx_doc_texts_doc ON document_texts(doc_id);
+CREATE INDEX idx_doc_texts_status ON document_texts(extraction_status);
+
+-- Per-page extracted text for archive PDFs
+CREATE TABLE page_texts (
+    page_text_id        TEXT PRIMARY KEY,
+    doc_id              TEXT NOT NULL,
+    page_num            INTEGER NOT NULL,
+    extraction_method   TEXT,
+    extraction_status   TEXT,
+    page_text           TEXT,
+    char_count          INTEGER,
+
+    FOREIGN KEY (doc_id) REFERENCES documents(doc_id)
+);
+
+CREATE INDEX idx_page_texts_doc ON page_texts(doc_id);
+
+-- Term co-occurrence from evidence passages
+CREATE TABLE term_cooccurrences (
+    co_id               INTEGER PRIMARY KEY AUTOINCREMENT,
+    term_id_a           TEXT NOT NULL,
+    term_id_b           TEXT NOT NULL,
+    seg_id              TEXT,
+    source_excerpt_id   INTEGER,
+    weight              REAL DEFAULT 1.0,
+    co_method           TEXT,
+
+    FOREIGN KEY (term_id_a) REFERENCES terms(term_id),
+    FOREIGN KEY (term_id_b) REFERENCES terms(term_id),
+    FOREIGN KEY (seg_id) REFERENCES segments(seg_id),
+    FOREIGN KEY (source_excerpt_id) REFERENCES evidence_excerpts(excerpt_id)
+);
+
+CREATE INDEX idx_cooccur_a ON term_cooccurrences(term_id_a);
+CREATE INDEX idx_cooccur_b ON term_cooccurrences(term_id_b);
+CREATE INDEX idx_cooccur_seg ON term_cooccurrences(seg_id);
+
+-- ============================================================
 -- VIEWS (convenience queries)
 -- ============================================================
 
@@ -456,6 +658,15 @@ SELECT t.term_id, t.canonical_name, t.status,
 FROM terms t
 LEFT JOIN term_aliases ta ON t.term_id = ta.term_id
 GROUP BY t.term_id;
+
+-- Public names: accepted + provisional only
+CREATE VIEW v_public_names AS
+SELECT n.*, COUNT(ns.seg_id) AS linked_segment_count
+FROM names n
+LEFT JOIN name_segments ns ON n.name_id = ns.name_id AND ns.link_confidence <= 3
+WHERE n.status IN ('accepted', 'provisional')
+GROUP BY n.name_id
+ORDER BY n.mention_count DESC;
 
 -- Segment with document context
 CREATE VIEW v_segment_detail AS
