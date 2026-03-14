@@ -10,6 +10,9 @@ import ArchiveDetail from './pages/ArchiveDetail'
 import Search from './pages/Search'
 import Analytics from './pages/Analytics'
 import Biography from './pages/Biography'
+import Scholars from './pages/Scholars'
+import Names from './pages/Names'
+import NameDetail from './pages/NameDetail'
 import './App.css'
 
 function App() {
@@ -27,6 +30,9 @@ function App() {
           <Route path="archive/:slug" element={<ArchiveDetail />} />
           <Route path="search" element={<Search />} />
           <Route path="biography" element={<Biography />} />
+          <Route path="scholars" element={<Scholars />} />
+          <Route path="names" element={<Names />} />
+          <Route path="names/:slug" element={<NameDetail />} />
           <Route path="analytics" element={<Analytics />} />
         </Route>
       </Routes>

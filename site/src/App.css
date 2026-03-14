@@ -312,6 +312,88 @@ a:hover { text-decoration: underline; }
   font-style: italic;
 }
 
+/* Entity linking */
+.entity-linked {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  background: rgba(123, 63, 0, 0.12);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.entity-linked:hover {
+  background: rgba(123, 63, 0, 0.22);
+  text-decoration: none;
+}
+
+.entity-tag {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.entity-tag:hover {
+  background: var(--border-light);
+}
+
+/* Importance dots */
+.importance-dots {
+  color: var(--accent);
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+
+/* Tab switcher */
+.tab-bar {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 1.5rem;
+}
+
+.tab-button {
+  padding: 0.6rem 1.25rem;
+  background: none;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.tab-button:hover {
+  color: var(--text-primary);
+}
+
+.tab-button.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-weight: 600;
+}
+
+/* Category color dots */
+.category-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 0.4rem;
+}
+
 @media (max-width: 768px) {
   .sidebar-layout { grid-template-columns: 1fr; }
   .sidebar { position: static; max-height: none; }

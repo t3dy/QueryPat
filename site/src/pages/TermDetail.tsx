@@ -1,6 +1,20 @@
+import { useState, useEffect, useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { useData } from '../hooks/useData'
+
+interface CuratedBioEvent {
+  id: string
+  date: string
+  date_precision: string
+  event: string
+  category: string
+  entities: string[]
+  location: string
+  source: string
+  importance: number
+  notes: string
+}
 
 interface TermData {
   term_id: string
@@ -43,9 +57,44 @@ interface TermData {
   }[]
 }
 
+function getLastName(name: string): string | null {
+  const parts = name.trim().split(/\s+/)
+  return parts.length > 1 ? parts[parts.length - 1] : null
+}
+
+function matchesEntity(entity: string, canonicalName: string, aliases: { text: string; type: string }[]): boolean {
+  const entityLower = entity.toLowerCase()
+  if (entityLower === canonicalName.toLowerCase()) return true
+  if (aliases.some(a => a.text.toLowerCase() === entityLower)) return true
+  const canonLastName = getLastName(canonicalName)
+  if (canonLastName && entityLower === canonLastName.toLowerCase()) return true
+  for (const a of aliases) {
+    const aliasLast = getLastName(a.text)
+    if (aliasLast && entityLower === aliasLast.toLowerCase()) return true
+  }
+  return false
+}
+
 export default function TermDetail() {
   const { slug } = useParams()
   const { data: term, loading, error } = useData<TermData>(`dictionary/terms/${slug}.json`)
+
+  const [bioEvents, setBioEvents] = useState<CuratedBioEvent[] | null>(null)
+
+  useEffect(() => {
+    if (!term) return
+    fetch(`${import.meta.env.BASE_URL}data/biography/curated.json`)
+      .then(r => { if (r.ok) return r.json(); throw new Error('not found') })
+      .then((data: CuratedBioEvent[]) => setBioEvents(data))
+      .catch(() => setBioEvents(null))
+  }, [term])
+
+  const matchingEvents = useMemo(() => {
+    if (!bioEvents || !term) return []
+    return bioEvents.filter(ev =>
+      ev.entities.some(e => matchesEntity(e, term.canonical_name, term.aliases))
+    )
+  }, [bioEvents, term])
 
   if (loading) return <div className="loading">Loading...</div>
   if (error || !term) {
@@ -160,6 +209,29 @@ export default function TermDetail() {
               <div className="evidence-excerpt">{ev.text}</div>
             </div>
           ))}
+        </div>
+      )}
+
+      {matchingEvents.length > 0 && (
+        <div className="detail-section">
+          <h2>Related Biography Events ({matchingEvents.length})</h2>
+          {matchingEvents.map(ev => (
+            <div key={ev.id} className="card" style={{marginBottom:'0.75rem'}}>
+              <div style={{display:'flex', gap:'0.75rem', alignItems:'baseline', flexWrap:'wrap'}}>
+                <strong style={{fontSize:'0.85rem'}}>{ev.date}</strong>
+                <span className="badge badge-category">{ev.category}</span>
+                <span className="importance-dots">{'●'.repeat(ev.importance)}</span>
+              </div>
+              <p style={{fontSize:'0.9rem', marginTop:'0.35rem'}}>{ev.event}</p>
+              <div className="card-meta">
+                {ev.location && <span>{ev.location}</span>}
+                <span>{ev.source}</span>
+              </div>
+            </div>
+          ))}
+          <Link to={`/biography?q=${encodeURIComponent(term.canonical_name)}`} style={{fontSize:'0.9rem'}}>
+            View all in Biography &rarr;
+          </Link>
         </div>
       )}
 

@@ -11,6 +11,8 @@ export default function Layout() {
         <NavLink to="/archive">Archive</NavLink>
         <NavLink to="/search">Search</NavLink>
         <NavLink to="/biography">Biography</NavLink>
+        <NavLink to="/scholars">Scholars</NavLink>
+        <NavLink to="/names">Names</NavLink>
         <NavLink to="/analytics">Analytics</NavLink>
       </nav>
       <main className="app-main">
