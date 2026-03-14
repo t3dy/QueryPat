@@ -1,0 +1,180 @@
+{
+  "name_id": "NAME_ursula-k-le-guin",
+  "canonical_form": "Ursula K. Le Guin",
+  "slug": "ursula-k-le-guin",
+  "entity_type": "character",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Ursula K. Le Guin is a fictional character referenced in Philip K. Dick's Exegesis. Appears in 8 Exegesis passages. Context: \"Dick bridges his personal experience with the \"regression of things\" in *Ubik*, proposing that the universe is a \"mutually hallucinated\" world where humans are \"half-alive\" (in cold-pac) being roused by the Savior’s voice.\"",
+  "full_description": null,
+  "mention_count": 8,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_48",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ursula K. Le Guin",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick bridges his personal experience with the \"regression of things\" in *Ubik*, proposing that the universe is a \"mutually hallucinated\" world where humans are \"half-alive\" (in cold-pac) being roused ",
+      "title": "U_Claudia_48.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_20",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ursula K. Le Guin",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his 1974 merger with the \"Daimon\" as the \"Second Birth\" and the \"Pearl of Great Price.\" He concludes that the Daimon (Eros/Will) is the source of his precognitive writing and that he w",
+      "title": "U_Claudia_20.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_09",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ursula K. Le Guin",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his 1974 experience as the \"Second Advent,\" occurring pluralistically within individual minds rather than in a single visible man. He analyzes the \"Parousia\" as the abolition of time a",
+      "title": "U_Claudia_09.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_21",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ursula K. Le Guin",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his experience as an \"evolutionary advance\" (Cosmic Consciousness) and the \"next step up\" for the human species. He reinterprets the \"Fall\" as a lack of perception and argues that the ",
+      "title": "U_Claudia_21.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-05_Ursula_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ursula K. Le Guin",
+      "date_display": "March 5, 1975",
+      "summary": "Continuation and conclusion of the letter to Le Guin. Dick iterates on the literal nature of St. Paul's harvest parables, linking the end of linear \"Winter\" to his dream of Bach's Cantata 4.",
+      "title": "1975-03-05_Ursula_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-05_Ursula_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ursula K. Le Guin",
+      "date_display": "March 5, 1975",
+      "summary": "Dick proposes to Le Guin that they are \"twin outcomes\" of a single underlying mystical experience. He outlines an eight-point cosmological schema involving \"orthogonal time\" (ontological time) versus ",
+      "title": "1975-03-05_Ursula_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_66",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ursula K. Le Guin",
+      "date_display": "September 15, 1976",
+      "summary": "Dick realizes that all his novels (1952-1976) are actually chapters of a single \"Ur-Geschicht\" (Original Story) that maps the \"Koinos Kosmos\" (Shared Reality) breaking through the \"Idios Kosmoi\" (Priv",
+      "title": "1976-09-15_Dorothy_66.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_84",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ursula K. Le Guin",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes the messages of his core novels (*Ubik*, *Stigmata*, *Maze*) into a single Gnostic revelation: we are in a mass-hallucinated prison, and a ubiquitous deity (Ubik/Zebra) is \"invading\" ",
+      "title": "1976-09-15_Dorothy_84.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Kathy",
+      "slug": "kathy",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christos",
+      "slug": "christos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

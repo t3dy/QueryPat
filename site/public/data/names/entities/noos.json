@@ -1,0 +1,71 @@
+{
+  "name_id": "NAME_noos",
+  "canonical_form": "Noos",
+  "slug": "noos",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Noos is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Associated with dictionary terms: Noos. Context: \"Dick analyzes how our sense of causality is manipulated by a higher intelligence (Noos).\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Zebra",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_114",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Noos",
+      "date_display": "September 15, 1976",
+      "summary": "Dick analyzes how our sense of causality is manipulated by a higher intelligence (Noos). He suggests that what we perceive as \"cause and effect\" is often a concealment used by Zebra to move the world ",
+      "title": "1976-09-15_Dorothy_114.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_128",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Noos",
+      "date_display": "September 15, 1976",
+      "summary": "Dick outlines a three-stage progression of the human experience with the Divine: 1) Suffering/Dread (The world is real and hostile), 2) Amazement/Pantheism (The world is alive and animate), and 3) Bli",
+      "title": "1976-09-15_Dorothy_128.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Noos",
+      "slug": "noos",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

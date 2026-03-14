@@ -1,0 +1,63 @@
+{
+  "name_id": "NAME_terence-and-dennis-mckenna",
+  "canonical_form": "Terence and Dennis McKenna",
+  "slug": "terence-and-dennis-mckenna",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Terence and Dennis McKenna is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick identifies the McKenna brothers' \"Hologram Universe\" theory (from *The Invisible Landscape*) as the most accurate model for his 3-74 experiences.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_88",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Terence and Dennis McKenna",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the McKenna brothers' \"Hologram Universe\" theory (from *The Invisible Landscape*) as the most accurate model for his 3-74 experiences. He identifies \"PTG I\" (Palm Tree Garden) and \"BIP",
+      "title": "1976-09-15_Dorothy_88.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

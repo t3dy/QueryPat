@@ -1,0 +1,99 @@
+{
+  "name_id": "NAME_art-spiegelman",
+  "canonical_form": "Art Spiegelman",
+  "slug": "art-spiegelman",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Art Spiegelman is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 3 Exegesis passages. Context: \"Dick identifies his internal \"guide\" as St.\"",
+  "full_description": null,
+  "mention_count": 3,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_36",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Art Spiegelman",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his internal \"guide\" as St. Luke, \"the beloved physician,\" who is a non-terrestrial entity of high authority. He reinterprets the ending of *Tears* as a ciphered \"Acts of the Apostles\"",
+      "title": "U_Claudia_36.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_26",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Art Spiegelman",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Holy Spirit\" as a collective immortal Light Body that re-entered him to stimulate his \"Third Soul\" (Aristotelian/immortal). He draws a parallel between his 1974 experience and the",
+      "title": "U_Claudia_26.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_33",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Art Spiegelman",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Passover/Exodus\" as the primary paradigm for his 1974 experience, concluding that Yahweh (the Nature-God) intervened from \"outside the state\" to free him. He reinterprets his cat ",
+      "title": "U_Claudia_33.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Aristotle",
+      "slug": "aristotle",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Moses",
+      "slug": "moses",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

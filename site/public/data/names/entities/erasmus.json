@@ -1,0 +1,153 @@
+{
+  "name_id": "NAME_erasmus",
+  "canonical_form": "Erasmus",
+  "slug": "erasmus",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Erasmus is a divine or mythological figure referenced in Philip K. Dick's Exegesis. Appears in 7 Exegesis passages. Context: \"Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death.\"",
+  "full_description": null,
+  "mention_count": 7,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Erasmus",
+      "date_display": "February 27, 1975",
+      "summary": "Dick continues writing to Claudia, further elaborating on the spiritual significance of the rat's death. He connects this act to broader cosmological ideas from Empedocles about the necessity of strif",
+      "title": "1975-02-27_Claudia_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_17",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Erasmus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick develops the \"Steuben Cup\" myth: humans are \"creating angels\" who were given the \"draught of Lethe\" and are now laboring to recreate the divine model (Christ) from memory. He identifies his 1974 ",
+      "title": "U_Claudia_17.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_18",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Erasmus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick links the \"Spirit of Truth\" (the inner voice) to his high school physics test, concluding that it provides \"absolute for sure intervention.\" He interprets his novel *Flow My Tears* as a revealed ",
+      "title": "U_Claudia_18.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Erasmus",
+      "date_display": "February 27, 1975",
+      "summary": "The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time. He claims this retrograde m",
+      "title": "1975-02-27_Claudia_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Henry_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Erasmus",
+      "date_display": "February 29, 1975",
+      "summary": "Conclusion of the letter to Henry Korman. Dick discusses the alchemical transmutation as a spontaneous, irreversible psychic process and links his \"teletype\" communication with Erasmus to the AI syste",
+      "title": "U_Henry_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Henry_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Erasmus",
+      "date_display": "February 29, 1975",
+      "summary": "Dick confesses to being \"tricked\" by Erasmus, who pretended to be Dionysos. He explores the \"substitution code\" of Jesus/Zeus/Zagreus and the concept of the \"God of the very desperate\" who gathers up ",
+      "title": "U_Henry_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-04_SECTION_006_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Erasmus",
+      "date_display": "March 4, 1975",
+      "summary": "Dick writes to Dr. Robert Ornstein, framing his mystical experience as the clinical activation of his brain's right hemisphere. He outlines the premise of his novel *TO SCARE THE DEAD* (VALIS), featur",
+      "title": "1975-03-04_SECTION_006_01.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Plotinus",
+      "slug": "plotinus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Taverner",
+      "slug": "taverner",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

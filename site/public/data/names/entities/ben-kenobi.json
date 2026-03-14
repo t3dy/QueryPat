@@ -1,0 +1,104 @@
+{
+  "name_id": "NAME_ben-kenobi",
+  "canonical_form": "Ben Kenobi",
+  "slug": "ben-kenobi",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Ben Kenobi is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 3 Exegesis passages. Context: \"Dick explores the mechanism of the \"Intercessor\" (Zebra/Christ) as an \"orthogonal programmer\" who enters the linear strip to \"re-weave\" situations.\"",
+  "full_description": null,
+  "mention_count": 3,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Christ",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_67",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ben Kenobi",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the mechanism of the \"Intercessor\" (Zebra/Christ) as an \"orthogonal programmer\" who enters the linear strip to \"re-weave\" situations. He argues that he was \"re-programmed\" in 3-74 to han",
+      "title": "1976-09-15_Dorothy_67.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_65",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ben Kenobi",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes his \"Orthogonal Time\" theory using the \"Wealthy Patron\" and \"Symphony\" metaphors. He argues that history is a \"linear strip\" that can be \"reworked\" or \"improved\" at a specific nexus po",
+      "title": "1976-09-15_Dorothy_65.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_64",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ben Kenobi",
+      "date_display": "September 15, 1976",
+      "summary": "In a profound pivot, Dick interprets his entire life and 3-74 experience through the lens of George Lucas's *Star Wars*. He identifies Christ as \"Ben Kenobi\" (a dead but omnipresent guide), himself as",
+      "title": "1976-09-15_Dorothy_64.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Beethoven",
+      "slug": "beethoven",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Julian Jaynes",
+      "slug": "julian-jaynes",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

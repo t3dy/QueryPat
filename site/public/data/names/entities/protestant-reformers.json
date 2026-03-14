@@ -1,0 +1,51 @@
+{
+  "name_id": "NAME_protestant-reformers",
+  "canonical_form": "Protestant Reformers",
+  "slug": "protestant-reformers",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Protestant Reformers is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick identifies the \"Holy Spirit\" as a collective immortal Light Body that re-entered him to stimulate his \"Third Soul\" (Aristotelian/immortal).\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_26",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Protestant Reformers",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Holy Spirit\" as a collective immortal Light Body that re-entered him to stimulate his \"Third Soul\" (Aristotelian/immortal). He draws a parallel between his 1974 experience and the",
+      "title": "U_Claudia_26.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Aristotle",
+      "slug": "aristotle",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

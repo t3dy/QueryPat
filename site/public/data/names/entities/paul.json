@@ -1,0 +1,164 @@
+{
+  "name_id": "NAME_paul",
+  "canonical_form": "Paul",
+  "slug": "paul",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Small/humble",
+  "origin_language": "Latin (Paulus)",
+  "allusion_type": [
+    "biblical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Paul (Latin (Paulus): \"Small/humble\") is a historical figure appearing in Philip K. Dick's Exegesis. In the biblical tradition, Paul is apostle who received vision on road to damascus. PKD saw parallels between Paul's Damascus vision and his own 2-3-74 experience. Appears in 7 Exegesis passages. Associated with dictionary terms: Paul. Context: \"Dick identifies his role as a \"Wolf in Sheep’s Clothing\" (or vice versa), covertly delivering the Gospel to Marxists through his fiction.\"",
+  "full_description": null,
+  "mention_count": 7,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_biblical_st-paul",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_35",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Paul",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his role as a \"Wolf in Sheep’s Clothing\" (or vice versa), covertly delivering the Gospel to Marxists through his fiction. He identifies his \"Spirit Guide\" as St. Luke (the \"Beloved Phy",
+      "title": "U_Claudia_35.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_36",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Paul",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his internal \"guide\" as St. Luke, \"the beloved physician,\" who is a non-terrestrial entity of high authority. He reinterprets the ending of *Tears* as a ciphered \"Acts of the Apostles\"",
+      "title": "U_Claudia_36.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Paul",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick elaborates on the \"Kingship of God\" as a subtle, behind-the-scenes seizing of power. He uses metaphors of rescued animals and a \"Lord of the Flies\" scenario to explain the intervention of Truth a",
+      "title": "U_Claudia_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_47",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Paul",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick elaborates on the \"Pylon Doorway\" (Golden Rectangle) vision from 1974, identifying it as the threshold to the \"Spiritual Universe\" (Minoan/Aegean world). He reinterprets Pinky’s death as a \"surro",
+      "title": "U_Claudia_47.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_42",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Paul",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick provides a 24-point list documenting his transformation after the 1974 \"Spirit Birth.\" He argues that he has been \"remade in the most fundamental way,\" comparing his experience to a \"spiritual tr",
+      "title": "U_Claudia_42.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Paul",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the subjective vs. objective nature of his 1974 experience, concluding that the Parousia has occurred through a \"retrograde\" system of time. He compares reality to a film or LP record th",
+      "title": "U_Claudia_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_142",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Paul",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his novel *Ubik* as an accurate depiction of the \"unscrambling\" of reality into Form I (Life/Real) and Form II (Dead/Hologram). He posits that Form I (Zebra) is a \"supralunar\" invader ",
+      "title": "1976-09-15_Dorothy_142.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Aristotle",
+      "slug": "aristotle",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas Aquinas",
+      "slug": "thomas-aquinas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "John",
+      "slug": "john",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "St. Paul",
+    "domain": "biblical",
+    "brief": "Apostle who received vision on road to Damascus",
+    "etymology": "Small/humble",
+    "origin_language": "Latin (Paulus)",
+    "significance": "PKD saw parallels between Paul's Damascus vision and his own 2-3-74 experience",
+    "source_text": "Acts 9; Pauline Epistles"
+  }
+}

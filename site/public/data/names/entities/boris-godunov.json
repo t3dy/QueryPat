@@ -1,0 +1,45 @@
+{
+  "name_id": "NAME_boris-godunov",
+  "canonical_form": "Boris Godunov",
+  "slug": "boris-godunov",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Boris Godunov is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick identifies his writing as a sequence of \"Gnostic signals\" to other amnesiac \"invaders.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_97",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Boris Godunov",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his writing as a sequence of \"Gnostic signals\" to other amnesiac \"invaders.\" He interprets the fall of Nixon (1974) as the mythic/archetypal \"deposing of the false king\" (Klingsor's Ca",
+      "title": "1976-09-15_Dorothy_97.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

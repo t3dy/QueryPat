@@ -1,0 +1,51 @@
+{
+  "name_id": "NAME_martin-luther",
+  "canonical_form": "Martin Luther",
+  "slug": "martin-luther",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Martin Luther is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick confesses to being \"tricked\" by Erasmus, who pretended to be Dionysos.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Henry_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Martin Luther",
+      "date_display": "February 29, 1975",
+      "summary": "Dick confesses to being \"tricked\" by Erasmus, who pretended to be Dionysos. He explores the \"substitution code\" of Jesus/Zeus/Zagreus and the concept of the \"God of the very desperate\" who gathers up ",
+      "title": "U_Henry_01.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

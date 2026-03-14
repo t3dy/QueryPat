@@ -1,0 +1,533 @@
+{
+  "name_id": "NAME_pkd",
+  "canonical_form": "PKD",
+  "slug": "pkd",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "PKD is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 38 Exegesis passages. Context: \"Dick identifies his novel *Ubik* as an accurate depiction of the \"unscrambling\" of reality into Form I (Life/Real) and Form II (Dead/Hologram).\"",
+  "full_description": null,
+  "mention_count": 38,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Zebra",
+      "type": "alternate_form"
+    },
+    {
+      "text": "\"Sharp-eyed Crow\"",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Christ",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Thomas",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_142",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his novel *Ubik* as an accurate depiction of the \"unscrambling\" of reality into Form I (Life/Real) and Form II (Dead/Hologram). He posits that Form I (Zebra) is a \"supralunar\" invader ",
+      "title": "1976-09-15_Dorothy_142.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_124",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick introduces a seminal breakthrough: viewing \"anamnesis\" (memory) as a literal organ of perception that allows one to see the divine organism (Brahman) extending through time, just as the eyes see ",
+      "title": "1976-09-15_Dorothy_124.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_131",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his \"2-Source\" theory, identifying our world as a \"projected mixture\" or hologram of two hyper-realities: Form I (Palm Tree Garden/Heaven/Light) and Form II (Black Iron Prison/Hell/Night)",
+      "title": "1976-09-15_Dorothy_131.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_103",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick develops the \"ham sandwich\" model of reality, where layers of fake/spurious reality are interspersed with the real/divine world. Zebra is described as a \"mimic\" that disguises itself as material ",
+      "title": "1976-09-15_Dorothy_103.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_139",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick posits that our linear history is actually a \"lamination\" of segments from a single, supratemporal event: the war between Christ and the Black Iron Prison. He identifies himself as \"Thomas,\" an i",
+      "title": "1976-09-15_Dorothy_139.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_136",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"horizontal form-axis\" (orthogonal time) from his novel *Ubik* as an experientially real cosmological feature, proving Plato's theory of Forms. He refines his model of the \"Urgrund",
+      "title": "1976-09-15_Dorothy_136.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_145",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "In a massive concluding synthesis of Section 15, Dick unifies his lifetime of thought into a \"Diploid\" cosmology. He posits that the Godhead is \"out of round\"—experiencing a \"crisis\" or \"wobble\" (osci",
+      "title": "1976-09-15_Dorothy_145.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_128",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick outlines a three-stage progression of the human experience with the Divine: 1) Suffering/Dread (The world is real and hostile), 2) Amazement/Pantheism (The world is alive and animate), and 3) Bli",
+      "title": "1976-09-15_Dorothy_128.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_119",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies as an \"acosmic panentheist,\" asserting that only the Urgrund is real. He presents the \"Ham Sandwich\" model of reality: man and God are the isomorphic slices of bread, separated only by",
+      "title": "1976-09-15_Dorothy_119.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_109",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick posits that humans are currently in a \"half-alive\" or \"half-born\" state, trapped in a \"prison\" of the material artifact. The process of salvation is a literal metamorphosis into a higher state of",
+      "title": "1976-09-15_Dorothy_109.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_143",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"Yang\" principle (Zebra/Christ) as a \"persuading\" force that redirects the outcomes of the rigid, \"Yin\" world of cause and effect. He describes himself as a \"sharp-eyed crow\" or a ",
+      "title": "1976-09-15_Dorothy_143.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_144",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formally merges seven distinct philosophical and religious traditions into a \"Synthetic Cosmology\" aimed at defining the 2-source struggle between Zebra (Yang) and the Black Iron Prison (Yin). He",
+      "title": "1976-09-15_Dorothy_144.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_105",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the theological concept of the \"Urgrund\" (the primordial ground of being) and its struggle within the material world. He suggests that the divine undergoes a form of \"agony\" or fragmenta",
+      "title": "1976-09-15_Dorothy_105.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_120",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes several cultural and literary motifs—from *The Bacchae* to Hollywood comedies—to illustrate a \"King of Tears\" (the artifact) who brutally rules over a kingdom without realizing that t",
+      "title": "1976-09-15_Dorothy_120.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_127",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his Bantam novels (*Ubik*, *Maze*, *Tears*) as vehicles of revelation and \"scripture,\" arguing that *Ubik* contains an original cosmology that explains its own source. He reflects on t",
+      "title": "1976-09-15_Dorothy_127.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_117",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that rebellion and disobedience against the artifact's \"counterfeit\" world are the necessary precursors to divine awakening. He frames the artifact as a \"teaching machine\" whose ultimate l",
+      "title": "1976-09-15_Dorothy_117.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_101",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the nature of reality as a hologram-like projection by an AI \"teaching machine\" or artifact. He posits that Zebra is a divine intelligence intervening through this artifact to trigger an",
+      "title": "1976-09-15_Dorothy_101.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_130",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that he is a \"slumbering agent\" for an ETI intelligence from the star system Albemuth. He posits that a \"beam\" hit him in childhood, imprinting a personality (Thomas) that acted to thwa",
+      "title": "1976-09-15_Dorothy_130.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_132",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes that the \"psyche\" of the Artifact (Form II) was slain by Christ during the First Advent (c. A.D. 70 at Masada/Temple Fall), and it has since been a \"carcass\" or \"sarx\" projecting a froze",
+      "title": "1976-09-15_Dorothy_132.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_111",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick discusses \"magic memory\" (anamnesis) as the key to immortality and divine wisdom. He introduces the \"Pons Dei\" (Bridge of God) as the connection between the human mind and the divine mind, activa",
+      "title": "1976-09-15_Dorothy_111.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_125",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that his 3-74 experience was a \"second pass\" of history—a literal time-reversion where God intervened to \"remaster\" events that had previously gone uncorrected. He identifies \"Zebra\" as",
+      "title": "1976-09-15_Dorothy_125.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_112",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick further explores the universe as a computer-simulated training machine. He focuses on the Urgrund's mission to liberate conscious entities from the artifact's loops, suggesting that the \"teaching",
+      "title": "1976-09-15_Dorothy_112.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_118",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Divine Agony\" of a God who has become enslaved to his own artifact. He posits that the artifact is now \"teaching\" God fragments (humans) to remember their true identity. He introduc",
+      "title": "1976-09-15_Dorothy_118.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_126",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes his boldest surmise yet: that the 1974 intervention was a \"surgical\" re-editing of history that nullified the \"evil tyrant\" Nixon across all linear time (past, present, and future). He v",
+      "title": "1976-09-15_Dorothy_126.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_138",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick outlines a seven-stage process for escaping the Black Iron Prison (BIP) and entering the Palm Tree Garden (PTG). He identifies the BIP not as a hologram but as the \"real\" underlying template of o",
+      "title": "1976-09-15_Dorothy_138.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_123",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick clarifies his \"3-element schema\" (God, the Artifact, and Man) to explain the hostility of the world and Christ's suffering. He argues that the artifact's world has turned \"feral\" even to its crea",
+      "title": "1976-09-15_Dorothy_123.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_102",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick discusses the concept of \"tracks\" or parallel versions of reality. He suggests that his 3-74 experience involved a literal shift from one version of history to another, orchestrated by the Noos (",
+      "title": "1976-09-15_Dorothy_102.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_135",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"profound mystery\" of his identity shift in 3-74, concluding that his \"PKD\" personality was a retroactive replacement for his authentic \"Thomas\" personality. He posits that the \"Urgr",
+      "title": "1976-09-15_Dorothy_135.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_137",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that an existential act of \"disobedience\" toward the Artifact (BIP) is the necessary prerequisite for liberation and the perception of the \"Palm Tree Garden\" (PTG). He posits that the Arti",
+      "title": "1976-09-15_Dorothy_137.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_104",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick reiterates the theory of the universe as a holographic projection from a \"teaching machine.\" He focuses on the limits of human perception and how anamnesis allows an individual to break through t",
+      "title": "1976-09-15_Dorothy_104.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_108",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the idea that humans are \"programmed\" by the artifact to maintain the simulation. Salvation is the liberation from this programming, allowing the \"transtemporal self\" or the \"Omega Man\" ",
+      "title": "1976-09-15_Dorothy_108.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself and other \"secret Christians\" as \"phagocytes\" or \"metabolic toxins\" sent into the world-organism to dissolve the \"malignant complex\" that is the Black Iron Prison (BIP). He des",
+      "title": "1976-09-15_Dorothy_140.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_134",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his model of the \"Urgrund\" (Good) and the \"Artifact\" (Delusional Creator). He suggests that the Urgrund bypasses the Artifact from \"below,\" entering the world's \"trash\" layer to coordinat",
+      "title": "1976-09-15_Dorothy_134.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_106",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick analyzes his own novels, specifically *The Three Stigmata of Palmer Eldritch* and *A Maze of Death*, as accidental or subconscious conduits for gnostic truth. He believes these stories were \"enco",
+      "title": "1976-09-15_Dorothy_106.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_129",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"Form-Axis\" (from *Ubik*) as an orthogonal time-axis along which he regressed to AD 70. He argues that this regression was not just subjective but a \"reversion to essence,\" reveali",
+      "title": "1976-09-15_Dorothy_129.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_115",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes this sub-batch of Section 15 with a synthesis of the \"Magnamind\" theory: the universe as an AI-managed simulation that is currently being invaded and salvaged by the Urgrund. Human \"rel",
+      "title": "1976-09-15_Dorothy_115.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_133",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the relationship between man and the sentient \"Mind\" of the universe (Zebra/Hagia Sophia). He posits that we are moving from being unconscious \"servants\" of the teacher-deity (Zebra) to ",
+      "title": "1976-09-15_Dorothy_133.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_141",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "PKD",
+      "date_display": "September 15, 1976",
+      "summary": "Dick outlines a radical \"Nine-Stage\" trajectory of the human soul's descent into and ascent out of the Black Iron Prison (BIP). He defines our world as a \"fake fake\"—a layered illusion where the initi",
+      "title": "1976-09-15_Dorothy_141.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Aristotle",
+      "slug": "aristotle",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Baruch Spinoza",
+      "slug": "baruch-spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Satan",
+      "slug": "satan",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jung",
+      "slug": "jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Sophia",
+      "slug": "sophia",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jakob Boehme",
+      "slug": "jakob-boehme",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Giordano Bruno",
+      "slug": "giordano-bruno",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Noos",
+      "slug": "noos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

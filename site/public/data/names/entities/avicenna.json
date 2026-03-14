@@ -1,0 +1,72 @@
+{
+  "name_id": "NAME_avicenna",
+  "canonical_form": "Avicenna",
+  "slug": "avicenna",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Avicenna is a divine or mythological figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick refines his theory of \"orthogonal intervention,\" arguing that true change enters linear time \"at right angles\" from another dimension.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_53",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Avicenna",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his theory of \"orthogonal intervention,\" arguing that true change enters linear time \"at right angles\" from another dimension. He views his own \"anamnesis\" (memory restoration) as the key",
+      "title": "1976-09-15_Dorothy_53.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_68",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Avicenna",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"linear world\" (1974) as a communal dream or \"hallucination\" (*Maze of Death*) that we are \"doomed to repeat\" until we wake up. He argues that 3-74 was his \"waking\" into the \"authe",
+      "title": "1976-09-15_Dorothy_68.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

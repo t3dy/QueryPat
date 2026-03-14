@@ -1,0 +1,78 @@
+{
+  "name_id": "NAME_john",
+  "canonical_form": "John",
+  "slug": "john",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "John is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Associated with dictionary terms: John. Context: \"Dick explores the subjective vs.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "John",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the subjective vs. objective nature of his 1974 experience, concluding that the Parousia has occurred through a \"retrograde\" system of time. He compares reality to a film or LP record th",
+      "title": "U_Claudia_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_100",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "John",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes Section 15 by reinforcing the idea that a \"superself\" (Thomas) was awakened in him by an \"external-to-me symbol\" (The Fish). This reawakening was part of a \"coordinated sequence of even",
+      "title": "1976-09-15_Dorothy_100.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "John",
+      "slug": "john",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paul",
+      "slug": "paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

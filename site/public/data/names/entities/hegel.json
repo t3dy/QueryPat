@@ -1,0 +1,222 @@
+{
+  "name_id": "NAME_hegel",
+  "canonical_form": "Hegel",
+  "slug": "hegel",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Unknown",
+  "origin_language": "German",
+  "allusion_type": [
+    "philosophical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Hegel (German: \"Unknown\") is a historical figure appearing in Philip K. Dick's Exegesis. In the philosophical tradition, Hegel is 19th century idealist; dialectical progression of Spirit. PKD uses Hegelian dialectic in his theology of thesis-antithesis-synthesis. Appears in 10 Exegesis passages. Associated with dictionary terms: Hegel. Context: \"Dick discovers that his 3-74 vision \"confirms\" Hegel's philosophy of history: that God (Spirit) develops himself toward perfection through the dialectical growth of human freedom.\"",
+  "full_description": null,
+  "mention_count": 10,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_philosophical_hegel",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Empedocles",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Robert Anton Wilson",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Will Durant",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_36",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hegel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick discovers that his 3-74 vision \"confirms\" Hegel's philosophy of history: that God (Spirit) develops himself toward perfection through the dialectical growth of human freedom. He redefines himself",
+      "title": "1976-09-15_Dorothy_36.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_51",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hegel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick realizes that his 1959 novel *Time Out of Joint* was a prophetic \"reversal\" of his 3-74 experience. While the novel depicts a fake 1950s that is actually the future, 3-74 revealed a fake 1974 tha",
+      "title": "1976-09-15_Dorothy_51.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_44",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hegel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick reconciles his dualistic visions (J-J vs. Zebra) with Hegelian monism, arguing that the \"Incarnation\" (Christ/Zebra) is the fusion of the finite and infinite that abolishes the \"sundering\" of wor",
+      "title": "1976-09-15_Dorothy_44.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_41",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hegel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his experience with Hegel's third stage of religion (Absolute Spirit), arguing that evolution has moved from the biological to the historical. He predicts the emergence of a \"new type ",
+      "title": "1976-09-15_Dorothy_41.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_71",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hegel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the theological purpose of the \"spurious long time\" (the 2000-year gap since the 1st Advent). He argues that it serves as a \"snare\" for evil, allowing the \"fallen ones\" to reveal themsel",
+      "title": "1976-09-15_Dorothy_71.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_46",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hegel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick elevates his novel *Ubik* to a \"3rd Testament,\" viewing it as a prophetic account of Zebra's \"re-animation\" and \"re-arrangement\" of the universe. He argues that Zebra's reconstruction of the worl",
+      "title": "1976-09-15_Dorothy_46.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_37",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hegel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues his philosophical integration, finding that A.N. Whitehead's metaphysics perfectly describes \"Zebra.\" He accepts the idea of God as an \"arranger\" rather than a creator, and as an entity",
+      "title": "1976-09-15_Dorothy_37.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_93",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hegel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick rejects \"Natural Theology\" (finding God in nature), asserting that God is a \"Deus Absconditus\" (Hidden God) who is NOT in the world. He argues that Zebra mimics the world to infiltrate it, and th",
+      "title": "1976-09-15_Dorothy_93.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_145",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hegel",
+      "date_display": "September 15, 1976",
+      "summary": "In a massive concluding synthesis of Section 15, Dick unifies his lifetime of thought into a \"Diploid\" cosmology. He posits that the Godhead is \"out of round\"—experiencing a \"crisis\" or \"wobble\" (osci",
+      "title": "1976-09-15_Dorothy_145.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_40",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Hegel",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes Hegel's \"three divisions of religion,\" placing himself and his 3-74 experience in the highest stage: \"Absolute Religion\" or Christianity, where the opposition between individuality an",
+      "title": "1976-09-15_Dorothy_40.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Beethoven",
+      "slug": "beethoven",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Sophia",
+      "slug": "sophia",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Daniel",
+      "slug": "daniel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Ubik",
+      "slug": "ubik",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Hegel",
+    "domain": "philosophical",
+    "brief": "19th century idealist; dialectical progression of Spirit",
+    "etymology": "Unknown",
+    "origin_language": "German",
+    "significance": "PKD uses Hegelian dialectic in his theology of thesis-antithesis-synthesis",
+    "source_text": "Phenomenology of Spirit; Logic"
+  }
+}

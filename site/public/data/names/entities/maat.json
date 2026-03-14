@@ -1,0 +1,128 @@
+{
+  "name_id": "NAME_maat",
+  "canonical_form": "Ma'at",
+  "slug": "maat",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Ma'at is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 5 Exegesis passages. Context: \"Dick explores the \"Lived Myth\" (Joseph Campbell) and \"Ma'at\" (Right Order) as keys to his 1974 experience.\"",
+  "full_description": null,
+  "mention_count": 5,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Osiris",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Ptath",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Horus",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Hathor",
+      "type": "alternate_form"
+    },
+    {
+      "text": "The One",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Thoth",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Tao",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_28",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ma'at",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"Lived Myth\" (Joseph Campbell) and \"Ma'at\" (Right Order) as keys to his 1974 experience. He identifies the \"Xerox Letter\" as a ritual repudiation of materialism and a transformation ",
+      "title": "U_Claudia_28.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_46",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ma'at",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick develops \"Sophianism,\" identifying the Holy Spirit/Wisdom (St. Sophia/Ma'at) as a feminine co-ruler of the universe and the \"Rightful King\" (Christ/Dionysos) as the returning judge. He connects t",
+      "title": "U_Claudia_46.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_99",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ma'at",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets the \"Parousia\" as a \"Benign Covert Takeover\" of the planet by a superior intelligence race (Gods/ETIs). He concludes that we are a \"5th Column\" whose latent DNA circuits have finally b",
+      "title": "1976-09-15_Dorothy_99.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_77",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ma'at",
+      "date_display": "September 15, 1976",
+      "summary": "Dick analyzes the deterministic \"inner tape\" (DNA/Ancestral programming) that controls humans like \"robots.\" He argues that 3-74 was a \"volitional override\" of this biological script by a \"conscious s",
+      "title": "1976-09-15_Dorothy_77.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_97",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Ma'at",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his writing as a sequence of \"Gnostic signals\" to other amnesiac \"invaders.\" He interprets the fall of Nixon (1974) as the mythic/archetypal \"deposing of the false king\" (Klingsor's Ca",
+      "title": "1976-09-15_Dorothy_97.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Shiva",
+      "slug": "shiva",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

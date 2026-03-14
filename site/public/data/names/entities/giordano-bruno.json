@@ -1,0 +1,56 @@
+{
+  "name_id": "NAME_giordano-bruno",
+  "canonical_form": "Giordano Bruno",
+  "slug": "giordano-bruno",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Unknown",
+  "origin_language": "Italian",
+  "allusion_type": [
+    "philosophical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Giordano Bruno (Italian: \"Unknown\") is a historical figure appearing in Philip K. Dick's Exegesis. In the philosophical tradition, Giordano Bruno is 16th century philosopher burned for heresy; infinite worlds. PKD references Bruno's cosmic pluralism and martyrdom for truth. Associated with dictionary terms: Giordano Bruno. Context: \"Dick argues that rebellion and disobedience against the artifact's \"counterfeit\" world are the necessary precursors to divine awakening.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_philosophical_giordano-bruno",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_117",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Giordano Bruno",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that rebellion and disobedience against the artifact's \"counterfeit\" world are the necessary precursors to divine awakening. He frames the artifact as a \"teaching machine\" whose ultimate l",
+      "title": "1976-09-15_Dorothy_117.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Giordano Bruno",
+      "slug": "giordano-bruno",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    }
+  ],
+  "reference": {
+    "canonical_form": "Giordano Bruno",
+    "domain": "philosophical",
+    "brief": "16th century philosopher burned for heresy; infinite worlds",
+    "etymology": "Unknown",
+    "origin_language": "Italian",
+    "significance": "PKD references Bruno's cosmic pluralism and martyrdom for truth",
+    "source_text": "De l'infinito"
+  }
+}

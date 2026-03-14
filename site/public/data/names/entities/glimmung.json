@@ -1,0 +1,45 @@
+{
+  "name_id": "NAME_glimmung",
+  "canonical_form": "Glimmung",
+  "slug": "glimmung",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Glimmung is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick interprets the transition from the beginning of Acts (small church) to the end (Rome penetrated) as a roadmap for the 3-74 revolution.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_87",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Glimmung",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets the transition from the beginning of Acts (small church) to the end (Rome penetrated) as a roadmap for the 3-74 revolution. He identifies our reality as a \"hologram-like fake\" (Klingso",
+      "title": "1976-09-15_Dorothy_87.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

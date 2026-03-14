@@ -1,0 +1,136 @@
+{
+  "name_id": "NAME_kathy",
+  "canonical_form": "Kathy",
+  "slug": "kathy",
+  "entity_type": "character",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Kathy is a fictional character referenced in Philip K. Dick's Exegesis. Appears in 5 Exegesis passages. First appears in *dream*. Associated with dictionary terms: Kathy. Context: \"Dick identifies his 1974 merger with the \"Daimon\" as the \"Second Birth\" and the \"Pearl of Great Price.\"",
+  "full_description": null,
+  "mention_count": 5,
+  "first_work": "dream",
+  "work_list": [
+    "dream"
+  ],
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Stephanie",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_20",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Kathy",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his 1974 merger with the \"Daimon\" as the \"Second Birth\" and the \"Pearl of Great Price.\" He concludes that the Daimon (Eros/Will) is the source of his precognitive writing and that he w",
+      "title": "U_Claudia_20.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_38",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Kathy",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Divine Birth\" in his soul as the realization of Meister Eckhart's theology, where the \"Wise Old Man\" (the Father) is born from the mortal man. He rejects the \"Suffering Servant\" m",
+      "title": "U_Claudia_38.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_11",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Kathy",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"Holy Spirit\" (Elijah) as the precursor to the \"Second Birth\" of the Logos/Wisdom (Santa Sophia). He details a shift from the \"warrior\" survival instincts of 1974 to the \"reproductiv",
+      "title": "U_Claudia_11.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_27",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Kathy",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Conscience\" (Socrates' Daimon) as the entry point for the \"Holy Spirit\" into social action, leading to a \"Godly Anarchy.\" He explores the brain's \"Right Hemisphere\" as the location of",
+      "title": "U_Claudia_27.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_04",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Kathy",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the distinction between the \"God of the structure\" (the Creator) and the \"God of the discarded bits\" (Christ). He details his experience of the \"mirror opposite universe\" where time runs",
+      "title": "U_Claudia_04.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Kathy",
+      "slug": "kathy",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Philo",
+      "slug": "philo",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jung",
+      "slug": "jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Meister Eckhart",
+      "slug": "meister-eckhart",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

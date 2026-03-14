@@ -1,0 +1,102 @@
+{
+  "name_id": "NAME_tony-boucher",
+  "canonical_form": "Tony Boucher",
+  "slug": "tony-boucher",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Tony Boucher is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 6 Exegesis passages. Context: \"Conclusion of the Boucher memorial and follow-up notes.\"",
+  "full_description": null,
+  "mention_count": 6,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Tony_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Tony Boucher",
+      "date_display": "circa 1975-1976",
+      "summary": "Conclusion of the Boucher memorial and follow-up notes. Dick recounts a mystical experience of light, a premonition of death, and a dream involving Gestapo agents.",
+      "title": "U_Tony_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Tony_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Tony Boucher",
+      "date_display": "circa 1975-1976",
+      "summary": "Draft of a memorial piece for Tony Boucher. Dick explores Boucher's fear of the universe, his role as a mentor, and the startling claim that his cat Pinky was Boucher's reincarnation.",
+      "title": "U_Tony_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-02-27_Claudia_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Tony Boucher",
+      "date_display": "February 27, 1975",
+      "summary": "The author writes to Claudia, interpreting the \"decay backward of forms\" seen by the character Joe Chip in the novel *UBIK* as movement along the \"orthogonal\" axis of time. He claims this retrograde m",
+      "title": "1975-02-27_Claudia_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-02_Phyllis_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Tony Boucher",
+      "date_display": "March 2, 1975",
+      "summary": "A personal letter to Phyllis Boucher accompanying an essay about Tony Boucher. Dick discusses his current life in Fullerton, his family, and his religious development.",
+      "title": "1975-03-02_Phyllis_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_12",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Tony Boucher",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his view of theolepsy as an \"Internal Theophany\" where the immanent God in the \"Atman\" is proved identical to the Brahman without. He defines the Kingdom of God as our ancestral \"Garden\" ",
+      "title": "1976-09-15_Dorothy_12.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_21",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Tony Boucher",
+      "date_display": "September 15, 1976",
+      "summary": "Dick discusses the transformation of the \"Urwelt\" (supralunar reality) and his experience of being a \"hollow vessel\" for a divine purpose. He distinguishes between the localized Christ of the 1st Adve",
+      "title": "1976-09-15_Dorothy_21.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

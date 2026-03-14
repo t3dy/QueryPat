@@ -1,0 +1,105 @@
+{
+  "name_id": "NAME_brasmus",
+  "canonical_form": "Brasmus",
+  "slug": "brasmus",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Brasmus is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 3 Exegesis passages. Context: \"Dick proposes a \"Light Body\" theory of immortality: a 2,000-year-old collective \"Bioplasmic\" entity (the fellowship of Christ) re-enters human hosts through the 3rd eye/pineal gland.\"",
+  "full_description": null,
+  "mention_count": 3,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_22",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brasmus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick proposes a \"Light Body\" theory of immortality: a 2,000-year-old collective \"Bioplasmic\" entity (the fellowship of Christ) re-enters human hosts through the 3rd eye/pineal gland. He identifies the",
+      "title": "U_Claudia_22.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_20",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brasmus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his 1974 merger with the \"Daimon\" as the \"Second Birth\" and the \"Pearl of Great Price.\" He concludes that the Daimon (Eros/Will) is the source of his precognitive writing and that he w",
+      "title": "U_Claudia_20.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_25",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brasmus",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick synthesizes the \"Light Body\" and \"Re-entry\" theories: the Holy Spirit is a collective \"Light Creature\" (The Fellowship of Christ) that re-enters history through the pineal gland. He concludes tha",
+      "title": "U_Claudia_25.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Kathy",
+      "slug": "kathy",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Paraclete",
+      "slug": "paraclete",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas Aquinas",
+      "slug": "thomas-aquinas",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

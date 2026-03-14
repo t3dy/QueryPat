@@ -1,0 +1,554 @@
+{
+  "name_id": "NAME_christ",
+  "canonical_form": "Christ",
+  "slug": "christ",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Anointed one",
+  "origin_language": "Greek (Christos)",
+  "allusion_type": [
+    "biblical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Christ (Greek (Christos): \"Anointed one\") is a divine or mythological figure appearing in Philip K. Dick's Exegesis. In the biblical tradition, Christ is title for the messiah; the anointed. PKD's theology centers on the living Christ as cosmic principle. Appears in 34 Exegesis passages. Associated with dictionary terms: Christ. Context: \"Dick synthesizes the \"Magdeburg hemispheres\" of his 1974 experience: the external transformation of Fullerton into Rome and the internal transformation of himself into an early Christian Essene.\"",
+  "full_description": null,
+  "mention_count": 34,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_biblical_christ",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Savior",
+      "type": "alternate_form"
+    },
+    {
+      "text": "God",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Zebra",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Valis",
+      "type": "alternate_form"
+    },
+    {
+      "text": "The Great Vine",
+      "type": "alternate_form"
+    },
+    {
+      "text": "The Savior",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Logos",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Dionysos",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_05",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick synthesizes the \"Magdeburg hemispheres\" of his 1974 experience: the external transformation of Fullerton into Rome and the internal transformation of himself into an early Christian Essene. He id",
+      "title": "U_Claudia_05.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_04",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the distinction between the \"God of the structure\" (the Creator) and the \"God of the discarded bits\" (Christ). He details his experience of the \"mirror opposite universe\" where time runs",
+      "title": "U_Claudia_04.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-05_Ursula_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "March 5, 1975",
+      "summary": "Dick proposes to Le Guin that they are \"twin outcomes\" of a single underlying mystical experience. He outlines an eight-point cosmological schema involving \"orthogonal time\" (ontological time) versus ",
+      "title": "1975-03-05_Ursula_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_124",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick introduces a seminal breakthrough: viewing \"anamnesis\" (memory) as a literal organ of perception that allows one to see the divine organism (Brahman) extending through time, just as the eyes see ",
+      "title": "1976-09-15_Dorothy_124.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick performs a clinical meta-analysis of his own \"psychosis,\" suggesting that 3-74 was a \"biological adaptative system\" where religious archetypes (Brahman/Christ) acted as a \"metabolic toxin\" that d",
+      "title": "1976-09-15_Dorothy_47.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_131",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his \"2-Source\" theory, identifying our world as a \"projected mixture\" or hologram of two hyper-realities: Form I (Palm Tree Garden/Heaven/Light) and Form II (Black Iron Prison/Hell/Night)",
+      "title": "1976-09-15_Dorothy_131.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_32",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that 3-74 was an \"expansion of the present slot\" via \"perceptual memory,\" allowing him to see 2000 years of change in months. He identifies the \"constants\" that emerged from this accele",
+      "title": "1976-09-15_Dorothy_32.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_121",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick rejects the idea that suffering has a divine purpose, calling it a \"trap\" by the artifact. He posits that the Urgrund's power is explicitly opposed to suffering, but its intervention is currently",
+      "title": "1976-09-15_Dorothy_121.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_91",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that Man and God are \"secretly isomorphic\" (identical in form and nature), while the world is a separate, alienating agency. He views his 3-74 experience as the realization of this iden",
+      "title": "1976-09-15_Dorothy_91.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_89",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the Zoroastrian/Gnostic conflict between Hyper-universe I (Life) and II (Death). He views Christ as a \"salient\" (an invasive wedge) sent from I into the \"corpse\" of II to expand and dest",
+      "title": "1976-09-15_Dorothy_89.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_139",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick posits that our linear history is actually a \"lamination\" of segments from a single, supratemporal event: the war between Christ and the Black Iron Prison. He identifies himself as \"Thomas,\" an i",
+      "title": "1976-09-15_Dorothy_139.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_93",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick rejects \"Natural Theology\" (finding God in nature), asserting that God is a \"Deus Absconditus\" (Hidden God) who is NOT in the world. He argues that Zebra mimics the world to infiltrate it, and th",
+      "title": "1976-09-15_Dorothy_93.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_67",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the mechanism of the \"Intercessor\" (Zebra/Christ) as an \"orthogonal programmer\" who enters the linear strip to \"re-weave\" situations. He argues that he was \"re-programmed\" in 3-74 to han",
+      "title": "1976-09-15_Dorothy_67.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_145",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "In a massive concluding synthesis of Section 15, Dick unifies his lifetime of thought into a \"Diploid\" cosmology. He posits that the Godhead is \"out of round\"—experiencing a \"crisis\" or \"wobble\" (osci",
+      "title": "1976-09-15_Dorothy_145.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_98",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Annihilating Side\" of Zebra, equating the entity with Shiva and his 3rd eye. He argues that Zebra is not just healing individuals but \"transubstantiating\" the entire universe, repla",
+      "title": "1976-09-15_Dorothy_98.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_75",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a \"holographic\" or \"fractal\" model of divinity: just as a single cell contains the blueprint for the whole human, each human psyche contains the information to reconstitute the \"macro pr",
+      "title": "1976-09-15_Dorothy_75.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_119",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies as an \"acosmic panentheist,\" asserting that only the Urgrund is real. He presents the \"Ham Sandwich\" model of reality: man and God are the isomorphic slices of bread, separated only by",
+      "title": "1976-09-15_Dorothy_119.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_59",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a \"3-level\" model of reality: (1) The Logos/Bible as a \"punched tape\" of ideas, (2) The World of Flesh/Nature, and (3) The Artificial/Technological World. He argues that our world (3) is",
+      "title": "1976-09-15_Dorothy_59.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_70",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes this set of entries by asserting that 70 AD is the \"omphalos\" (navel) of reality around which all \"linear\" history circularity warps. He argues that Gnostic \"awakening\" is the only esca",
+      "title": "1976-09-15_Dorothy_70.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_57",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies \"salvation\" as the abolition of linear time, merging Gnostic Christianity with Brahmanism. He argues that by \"withdrawing assent\" from the phenomenal world, one can pass into a timeles",
+      "title": "1976-09-15_Dorothy_57.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_111",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick discusses \"magic memory\" (anamnesis) as the key to immortality and divine wisdom. He introduces the \"Pons Dei\" (Bridge of God) as the connection between the human mind and the divine mind, activa",
+      "title": "1976-09-15_Dorothy_111.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_132",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes that the \"psyche\" of the Artifact (Form II) was slain by Christ during the First Advent (c. A.D. 70 at Masada/Temple Fall), and it has since been a \"carcass\" or \"sarx\" projecting a froze",
+      "title": "1976-09-15_Dorothy_132.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_113",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick discusses the Urgrund’s intervention to transmute the projected reality into a stable divine kingdom. He introduces the \"divine marriage\" between humanity and Christ/Logos as the final synthesis ",
+      "title": "1976-09-15_Dorothy_113.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_33",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his \"Signal Chamber\" theory, arguing that God (via Grace) \"overrode\" his pre-programmed deterministic response to the Xerox letter. He sees 3-74 as a breakdown in \"synchronization\" that r",
+      "title": "1976-09-15_Dorothy_33.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_92",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical new theory: \"Valis\" and \"Thomas\" are not external gods or ancient people, but PKD's own \"future evolved self\" traveling backward in time via the gene-pool. This \"Omega Man\" int",
+      "title": "1976-09-15_Dorothy_92.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_79",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formulaizes a law of \"Cosmic Justice\" (Ma'at/Tao): when an oppressor (B) \"oversteps\" its limit against an innocent victim (C), it triggers a \"justification\" by Valis that confers divinity (Apothe",
+      "title": "1976-09-15_Dorothy_79.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_123",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick clarifies his \"3-element schema\" (God, the Artifact, and Man) to explain the hostility of the world and Christ's suffering. He argues that the artifact's world has turned \"feral\" even to its crea",
+      "title": "1976-09-15_Dorothy_123.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_107",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick views Christ as a \"leaven\" or biological/cybernetic catalyst inserted into the material world system. Zebra acts as the transmuting deity that utilizes this leaven to slowly convert the substance",
+      "title": "1976-09-15_Dorothy_107.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_68",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"linear world\" (1974) as a communal dream or \"hallucination\" (*Maze of Death*) that we are \"doomed to repeat\" until we wake up. He argues that 3-74 was his \"waking\" into the \"authe",
+      "title": "1976-09-15_Dorothy_68.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself and other \"secret Christians\" as \"phagocytes\" or \"metabolic toxins\" sent into the world-organism to dissolve the \"malignant complex\" that is the Black Iron Prison (BIP). He des",
+      "title": "1976-09-15_Dorothy_140.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_38",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Adoptionalist\" theory of his experience: that he was \"raised\" to a superhuman level and \"incorporated\" into the building of the New Earth. He reflects on the \"Thomas\" personality as",
+      "title": "1976-09-15_Dorothy_38.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_50",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"Voice\" he heard (St. Sophia) as Holy Wisdom/Christ/Holy Spirit, unifying them into a \"pluriform\" Trinity. He argues that he was \"adopted\" by the deity to play an historic role, us",
+      "title": "1976-09-15_Dorothy_50.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_94",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his \"Cybernetic Model\": the Universe is a \"Magnamind\" or \"Self-Repairing AI Brain System.\" We are its \"memory coils\" that have fallen into \"forgetfulness and ignorance\" (malfunction). Sal",
+      "title": "1976-09-15_Dorothy_94.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_39",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Christ",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes that God (Brahman) is \"waking up\" inside us and that our lives are a \"voluntary bardo\" or \"incarnated amnesia\" where God shared the fate of the \"little creatures.\" To remember one's iden",
+      "title": "1976-09-15_Dorothy_39.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Baruch Spinoza",
+      "slug": "baruch-spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jung",
+      "slug": "jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Sophia",
+      "slug": "sophia",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Julian Jaynes",
+      "slug": "julian-jaynes",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Brahman",
+      "slug": "brahman",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Daniel",
+      "slug": "daniel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Carl Jung",
+      "slug": "carl-jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Chrissy",
+      "slug": "chrissy",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Valis",
+      "slug": "valis",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jakob Boehme",
+      "slug": "jakob-boehme",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Father",
+      "slug": "father",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Orphic",
+      "slug": "orphic",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Satan",
+      "slug": "satan",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Kathy",
+      "slug": "kathy",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Empedocles",
+      "slug": "empedocles",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Christ",
+    "domain": "biblical",
+    "brief": "Title for the messiah; the anointed",
+    "etymology": "Anointed one",
+    "origin_language": "Greek (Christos)",
+    "significance": "PKD's theology centers on the living Christ as cosmic principle",
+    "source_text": "New Testament"
+  }
+}

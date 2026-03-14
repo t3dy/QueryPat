@@ -1,0 +1,129 @@
+{
+  "name_id": "NAME_doris",
+  "canonical_form": "Doris",
+  "slug": "doris",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Doris is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 5 Exegesis passages. Context: \"Dick explores the \"erotic\" nature of divine possession, equating the Holy Spirit with the \"Yang\" that impregnates the human \"Yin.\"",
+  "full_description": null,
+  "mention_count": 5,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_08",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Doris",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"erotic\" nature of divine possession, equating the Holy Spirit with the \"Yang\" that impregnates the human \"Yin.\" He redefines the Trinity as a biological reproduction process and ide",
+      "title": "U_Claudia_08.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_06",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Doris",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the pineal gland as the \"third eye\" and the biological receptor for the \"Other Sun\" (Sun of Righteousness). He links this to the 1974 chromatic phosphene experience and argues that Chr",
+      "title": "U_Claudia_06.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Doris",
+      "date_display": "September 15, 1975",
+      "summary": "After a business letter regarding a lost $500 check, Dick pivots to a theological breakthrough: the Kingdom of God is located in the \"Future,\" and he reached it by \"running out of time\" in March 1974.",
+      "title": "1975-09-15_SECTION_012_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-17_Doris_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Doris",
+      "date_display": "September 17, 1975",
+      "summary": "Dick identifies the \"active spirit\" of 3-74 with the feminine personification of Wisdom (Haggia Sophia) from the apocryphal \"Wisdom of Solomon.\" He proposes that the world is undergoing a secret \"tran",
+      "title": "1975-09-17_Doris_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_136",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Doris",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"horizontal form-axis\" (orthogonal time) from his novel *Ubik* as an experientially real cosmological feature, proving Plato's theory of Forms. He refines his model of the \"Urgrund",
+      "title": "1976-09-15_Dorothy_136.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zeus",
+      "slug": "zeus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

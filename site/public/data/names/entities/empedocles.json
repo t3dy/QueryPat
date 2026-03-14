@@ -1,0 +1,184 @@
+{
+  "name_id": "NAME_empedocles",
+  "canonical_form": "Empedocles",
+  "slug": "empedocles",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Glory of the people",
+  "origin_language": "Greek",
+  "allusion_type": [
+    "classical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Empedocles (Greek: \"Glory of the people\") is a historical figure appearing in Philip K. Dick's Exegesis. In the classical tradition, Empedocles is pre-socratic philosopher of love and strife. Referenced in PKD's discussions of cosmic forces in tension. Appears in 6 Exegesis passages. Associated with dictionary terms: Empedocles. Context: \"Dick identifies the \"Second Advent\" as a \"Secret Kingdom\" existing in eternity while the \"usurper\" (Satan/Empire) remains in control of linear time.\"",
+  "full_description": null,
+  "mention_count": 6,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_classical_empedocles",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Plato",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_15",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Empedocles",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Second Advent\" as a \"Secret Kingdom\" existing in eternity while the \"usurper\" (Satan/Empire) remains in control of linear time. He uses a \"Regicide\" story (the rightful heir retur",
+      "title": "U_Claudia_15.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_05",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Empedocles",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick synthesizes the \"Magdeburg hemispheres\" of his 1974 experience: the external transformation of Fullerton into Rome and the internal transformation of himself into an early Christian Essene. He id",
+      "title": "U_Claudia_05.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_07",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Empedocles",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick contrasts Gnosticism (external grace) with Neoplatonism (self-attainment), concluding that the 1974 experience was a \"zygote\" formation between the human \"egg\" and cosmic \"spermatika.\" He reinter",
+      "title": "U_Claudia_07.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_03",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Empedocles",
+      "date_display": "September 15, 1975",
+      "summary": "Dick explores the \"Rome Two\" superimposition theory, identifying the Nixon administration as the return of the Roman Empire and the fall of Nixon as a true historical victory for Christ. He introduces",
+      "title": "1975-09-15_SECTION_012_03.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_73",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Empedocles",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a trinitarian model that harmonizes Gnostic dualism with Taoism. He identifies \"James-James\" (the Creator/Yang) and \"Zebra/Sophia\" (the Arranger/Yin) as secret partners under the ultimat",
+      "title": "1976-09-15_Dorothy_73.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_07",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Empedocles",
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that the return of St. Sophia manifests as a \"network\" of individuals acting on divine impulse. He connects the Parousia to a \"Time Reversal\" (the Hobart Effect) where entropic time bec",
+      "title": "1976-09-15_Dorothy_07.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Empedocles",
+      "slug": "empedocles",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Valis",
+      "slug": "valis",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Firebright",
+      "slug": "firebright",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plotinus",
+      "slug": "plotinus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zagreus",
+      "slug": "zagreus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zoroaster",
+      "slug": "zoroaster",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Empedocles",
+    "domain": "classical",
+    "brief": "Pre-Socratic philosopher of love and strife",
+    "etymology": "Glory of the people",
+    "origin_language": "Greek",
+    "significance": "Referenced in PKD's discussions of cosmic forces in tension",
+    "source_text": "Fragments"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "name_id": "NAME_vishnu",
+  "canonical_form": "Vishnu",
+  "slug": "vishnu",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Vishnu is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 4 Exegesis passages. Context: \"Dick identifies Zebra with the Noosphere (Teilhard de Chardin) and proposes that this \"Collective Mind\" (Corpus Christi) is building itself *backward* in time from the Omega Point.\"",
+  "full_description": null,
+  "mention_count": 4,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Yang",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Shiva",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Yin",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Brahman",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_25",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Vishnu",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies Zebra with the Noosphere (Teilhard de Chardin) and proposes that this \"Collective Mind\" (Corpus Christi) is building itself *backward* in time from the Omega Point. 3-74 was his own \"a",
+      "title": "1976-09-15_Dorothy_25.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_73",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Vishnu",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a trinitarian model that harmonizes Gnostic dualism with Taoism. He identifies \"James-James\" (the Creator/Yang) and \"Zebra/Sophia\" (the Arranger/Yin) as secret partners under the ultimat",
+      "title": "1976-09-15_Dorothy_73.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_08",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Vishnu",
+      "date_display": "September 15, 1976",
+      "summary": "Dick reveals a \"steganographic\" reading of his own work, specifically the \"Felix\" message hidden within *Flow My Tears*. He argues that the Parousia required a \"topological superimposition\" (Rome Two)",
+      "title": "1976-09-15_Dorothy_08.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_09",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Vishnu",
+      "date_display": "September 15, 1976",
+      "summary": "Dick fully embraces a Hindu framework, identifying the world as \"Maya\" (wizardry/illusion) and his 3-74 experience as the death of the \"empirical ego\" leading to \"enlightenment\" (Liberation). He equat",
+      "title": "1976-09-15_Dorothy_09.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Brahman",
+      "slug": "brahman",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Empedocles",
+      "slug": "empedocles",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zoroaster",
+      "slug": "zoroaster",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

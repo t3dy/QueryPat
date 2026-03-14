@@ -1,0 +1,98 @@
+{
+  "name_id": "NAME_sophia",
+  "canonical_form": "Sophia",
+  "slug": "sophia",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Wisdom",
+  "origin_language": "Greek",
+  "allusion_type": [
+    "gnostic"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Sophia (Greek: \"Wisdom\") is a divine or mythological figure appearing in Philip K. Dick's Exegesis. In the gnostic tradition, Sophia is fallen divine aeon whose error created the material world. PKD's theology heavily draws on Sophia as trapped divine wisdom. Appears in 2 Exegesis passages. Associated with dictionary terms: Sophia. Context: \"Dick identifies himself and other \"secret Christians\" as \"phagocytes\" or \"metabolic toxins\" sent into the world-organism to dissolve the \"malignant complex\" that is the Black Iron Prison (BIP).\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_gnostic_sophia",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Artifact",
+      "type": "alternate_form"
+    },
+    {
+      "text": "Yaldabaoth",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself and other \"secret Christians\" as \"phagocytes\" or \"metabolic toxins\" sent into the world-organism to dissolve the \"malignant complex\" that is the Black Iron Prison (BIP). He des",
+      "title": "1976-09-15_Dorothy_140.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_145",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Sophia",
+      "date_display": "September 15, 1976",
+      "summary": "In a massive concluding synthesis of Section 15, Dick unifies his lifetime of thought into a \"Diploid\" cosmology. He posits that the Godhead is \"out of round\"—experiencing a \"crisis\" or \"wobble\" (osci",
+      "title": "1976-09-15_Dorothy_145.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Sophia",
+      "slug": "sophia",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jung",
+      "slug": "jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Sophia",
+    "domain": "gnostic",
+    "brief": "Fallen divine aeon whose error created the material world",
+    "etymology": "Wisdom",
+    "origin_language": "Greek",
+    "significance": "PKD's theology heavily draws on Sophia as trapped divine wisdom",
+    "source_text": "Apocryphon of John; Pistis Sophia"
+  }
+}

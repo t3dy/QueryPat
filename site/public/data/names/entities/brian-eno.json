@@ -1,0 +1,83 @@
+{
+  "name_id": "NAME_brian-eno",
+  "canonical_form": "Brian Eno",
+  "slug": "brian-eno",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Brian Eno is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick refines his \"Cybernetic Model\": the Universe is a \"Magnamind\" or \"Self-Repairing AI Brain System.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Julian Jaynes",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_94",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brian Eno",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his \"Cybernetic Model\": the Universe is a \"Magnamind\" or \"Self-Repairing AI Brain System.\" We are its \"memory coils\" that have fallen into \"forgetfulness and ignorance\" (malfunction). Sal",
+      "title": "1976-09-15_Dorothy_94.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_99",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Brian Eno",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets the \"Parousia\" as a \"Benign Covert Takeover\" of the planet by a superior intelligence race (Gods/ETIs). He concludes that we are a \"5th Column\" whose latent DNA circuits have finally b",
+      "title": "1976-09-15_Dorothy_99.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Shiva",
+      "slug": "shiva",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

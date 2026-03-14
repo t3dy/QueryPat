@@ -1,0 +1,63 @@
+{
+  "name_id": "NAME_wb-yeats",
+  "canonical_form": "W.B. Yeats",
+  "slug": "wb-yeats",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "W.B. Yeats is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick explores the \"erotic\" nature of divine possession, equating the Holy Spirit with the \"Yang\" that impregnates the human \"Yin.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_08",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "W.B. Yeats",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick explores the \"erotic\" nature of divine possession, equating the Holy Spirit with the \"Yang\" that impregnates the human \"Yin.\" He redefines the Trinity as a biological reproduction process and ide",
+      "title": "U_Claudia_08.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zeus",
+      "slug": "zeus",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

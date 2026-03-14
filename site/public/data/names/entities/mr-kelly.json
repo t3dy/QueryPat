@@ -1,0 +1,66 @@
+{
+  "name_id": "NAME_mr-kelly",
+  "canonical_form": "Mr. Kelly",
+  "slug": "mr-kelly",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Mr. Kelly is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick identifies \"Astraea/Virgo\" (Justice) as the entity that healed his blood pressure and promised judgment by fire for the despoilers of Earth (Vietnam).\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_49",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Mr. Kelly",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies \"Astraea/Virgo\" (Justice) as the entity that healed his blood pressure and promised judgment by fire for the despoilers of Earth (Vietnam). He reinterprets reality as a \"Two-Player Gam",
+      "title": "U_Claudia_49.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_48",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Mr. Kelly",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick bridges his personal experience with the \"regression of things\" in *Ubik*, proposing that the universe is a \"mutually hallucinated\" world where humans are \"half-alive\" (in cold-pac) being roused ",
+      "title": "U_Claudia_48.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

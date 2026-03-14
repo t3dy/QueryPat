@@ -1,0 +1,63 @@
+{
+  "name_id": "NAME_dr-buck",
+  "canonical_form": "Dr. Buck",
+  "slug": "dr-buck",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Dr. Buck is a divine or mythological figure referenced in Philip K. Dick's Exegesis. Context: \"Dick proposes a \"holographic\" or \"fractal\" model of divinity: just as a single cell contains the blueprint for the whole human, each human psyche contains the information to reconstitute the \"macro proto-organism\" (Christ/Vine).\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_75",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Dr. Buck",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a \"holographic\" or \"fractal\" model of divinity: just as a single cell contains the blueprint for the whole human, each human psyche contains the information to reconstitute the \"macro pr",
+      "title": "1976-09-15_Dorothy_75.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

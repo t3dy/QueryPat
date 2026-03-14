@@ -1,0 +1,38 @@
+{
+  "name_id": "NAME_nixon-gang",
+  "canonical_form": "Nixon Gang",
+  "slug": "nixon-gang",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Nixon Gang is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick integrates his ETI theory, suggesting that humans are \"escaped prisoners\" from another star system (Albemuth) who are hiding on Earth behind a \"veil\" (Maya).\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_23",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Nixon Gang",
+      "date_display": "September 15, 1976",
+      "summary": "Dick integrates his ETI theory, suggesting that humans are \"escaped prisoners\" from another star system (Albemuth) who are hiding on Earth behind a \"veil\" (Maya). He posits that the Nixon gang and oth",
+      "title": "1976-09-15_Dorothy_23.txt"
+    }
+  ],
+  "related_terms": []
+}

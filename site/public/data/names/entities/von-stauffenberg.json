@@ -1,0 +1,66 @@
+{
+  "name_id": "NAME_von-stauffenberg",
+  "canonical_form": "Von Stauffenberg",
+  "slug": "von-stauffenberg",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Von Stauffenberg is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick describes a \"blissful mystical experience\" where he perceives God's activity as a \"Tao-istic mechanism\" (Ma'at) that re-establishes equilibrium below the surface of evil.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_40",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Von Stauffenberg",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick describes a \"blissful mystical experience\" where he perceives God's activity as a \"Tao-istic mechanism\" (Ma'at) that re-establishes equilibrium below the surface of evil. He concludes that 3-74 w",
+      "title": "U_Claudia_40.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_46",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Von Stauffenberg",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick develops \"Sophianism,\" identifying the Holy Spirit/Wisdom (St. Sophia/Ma'at) as a feminine co-ruler of the universe and the \"Rightful King\" (Christ/Dionysos) as the returning judge. He connects t",
+      "title": "U_Claudia_46.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

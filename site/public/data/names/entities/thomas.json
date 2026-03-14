@@ -1,0 +1,575 @@
+{
+  "name_id": "NAME_thomas",
+  "canonical_form": "Thomas",
+  "slug": "thomas",
+  "entity_type": "deity_figure",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Thomas is a divine or mythological figure referenced in Philip K. Dick's Exegesis. Appears in 42 Exegesis passages. Associated with dictionary terms: Thomas. Context: \"Dick identifies Christ’s purpose not as suffering, but as an “Ontological Alteration” of reality that demonstration immortality.\"",
+  "full_description": null,
+  "mention_count": 42,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "PKD",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_32",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies Christ’s purpose not as suffering, but as an “Ontological Alteration” of reality that demonstration immortality. He views the \"Second Comforter\" (St. Sophia) as the released, ubiquitou",
+      "title": "U_Claudia_32.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-04_SECTION_006_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "March 4, 1975",
+      "summary": "Dick writes to Dr. Robert Ornstein, framing his mystical experience as the clinical activation of his brain's right hemisphere. He outlines the premise of his novel *TO SCARE THE DEAD* (VALIS), featur",
+      "title": "1975-03-04_SECTION_006_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick performs a clinical meta-analysis of his own \"psychosis,\" suggesting that 3-74 was a \"biological adaptative system\" where religious archetypes (Brahman/Christ) acted as a \"metabolic toxin\" that d",
+      "title": "1976-09-15_Dorothy_47.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_84",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick synthesizes the messages of his core novels (*Ubik*, *Stigmata*, *Maze*) into a single Gnostic revelation: we are in a mass-hallucinated prison, and a ubiquitous deity (Ubik/Zebra) is \"invading\" ",
+      "title": "1976-09-15_Dorothy_84.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_139",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick posits that our linear history is actually a \"lamination\" of segments from a single, supratemporal event: the war between Christ and the Black Iron Prison. He identifies himself as \"Thomas,\" an i",
+      "title": "1976-09-15_Dorothy_139.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_16",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes his massive day of theorizing by realizing the 1st Advent is an \"Eternal Now\" (always occurring at the vernal equinox) and the \"Rome\" memories were incidentals of an \"Internal Epiphany.",
+      "title": "1976-09-15_Dorothy_16.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_67",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the mechanism of the \"Intercessor\" (Zebra/Christ) as an \"orthogonal programmer\" who enters the linear strip to \"re-weave\" situations. He argues that he was \"re-programmed\" in 3-74 to han",
+      "title": "1976-09-15_Dorothy_67.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_69",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues analyzing the \"reweaving\" of reality in 3-74, suggesting it was part of a global \"extrication\" from the Black Iron Prison. He discusses the \"personality switch\" from PKD to Thomas and t",
+      "title": "1976-09-15_Dorothy_69.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_75",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a \"holographic\" or \"fractal\" model of divinity: just as a single cell contains the blueprint for the whole human, each human psyche contains the information to reconstitute the \"macro pr",
+      "title": "1976-09-15_Dorothy_75.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_86",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that *Flow My Tears* contains \"cooked\" (divinely inspired/interpolated) material that parallels the Book of Acts with impossible precision. He concludes that Jesus is \"here\" in a state of ",
+      "title": "1976-09-15_Dorothy_86.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_80",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes that 3-74 was the planting of a \"Micro-Cosmos Seed\" (Thomas/Telos) within him to replace the \"Scramble World\" of the Empire. He views his writing and experiences as \"world-creation,\" wh",
+      "title": "1976-09-15_Dorothy_80.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_71",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the theological purpose of the \"spurious long time\" (the 2000-year gap since the 1st Advent). He argues that it serves as a \"snare\" for evil, allowing the \"fallen ones\" to reveal themsel",
+      "title": "1976-09-15_Dorothy_71.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_54",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that 3-74 was a \"theolepsy\" (divine possession) where St. Sophia \"avatared\" herself through him to prepare the world for the Parousia. He interprets the fall of the \"Tyrant\" (Nixon) as ",
+      "title": "1976-09-15_Dorothy_54.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_65",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes his \"Orthogonal Time\" theory using the \"Wealthy Patron\" and \"Symphony\" metaphors. He argues that history is a \"linear strip\" that can be \"reworked\" or \"improved\" at a specific nexus po",
+      "title": "1976-09-15_Dorothy_65.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_48",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Elijah\" role in his 3-74 experience, seeing himself as a forerunner to the Parousia who \"heals\" the world's timeline. He also introduces a radical \"Anti-Matter Universe\" theory for ",
+      "title": "1976-09-15_Dorothy_48.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_70",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes this set of entries by asserting that 70 AD is the \"omphalos\" (navel) of reality around which all \"linear\" history circularity warps. He argues that Gnostic \"awakening\" is the only esca",
+      "title": "1976-09-15_Dorothy_70.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_57",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies \"salvation\" as the abolition of linear time, merging Gnostic Christianity with Brahmanism. He argues that by \"withdrawing assent\" from the phenomenal world, one can pass into a timeles",
+      "title": "1976-09-15_Dorothy_57.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_90",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes Section 15 with a profound synthesis: the \"Grand Design\" of the Programmer (Zebra) uses suffering as a \"magic alchemy\" to trigger the sudden identity of the individual with Christ. He a",
+      "title": "1976-09-15_Dorothy_90.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_34",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"DNA Memory\" theory after speaking with a researcher (Barry), suggesting that his 3-74 experience was the \"disinhibition\" of an 1800-year-old Christian personality (\"Thomas\") to solv",
+      "title": "1976-09-15_Dorothy_34.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_63",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself as a member of a \"secret, authentic Christian church\" that has been in an illegal revolution against \"Rome\" (the hidden victor of history) since 70 AD. He claims his writing wa",
+      "title": "1976-09-15_Dorothy_63.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_96",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick interprets several dreams and \"ciphers\" (Felix, Glossa) as a single, overwhelming message from Zebra: \"God loves us.\" He concludes that his novel *Flow My Tears* was \"completed\" by a divine inser",
+      "title": "1976-09-15_Dorothy_96.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_100",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick concludes Section 15 by reinforcing the idea that a \"superself\" (Thomas) was awakened in him by an \"external-to-me symbol\" (The Fish). This reawakening was part of a \"coordinated sequence of even",
+      "title": "1976-09-15_Dorothy_100.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_72",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his view of Zebra as an \"invisible invader\" from outside our closed, \"null-God\" cosmos. He argues that the Parousia (Second Coming) is actually taking place now through the infusion of Go",
+      "title": "1976-09-15_Dorothy_72.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_76",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes his \"Ham Sandwich\" model of reality: a triune structure of Teacher (Zebra) / Artifact World (The \"Ham\") / Pupils (Humans). He concludes that the empirical world is a \"slave labor camp\"",
+      "title": "1976-09-15_Dorothy_76.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_78",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick develops the \"Scramble Generator\" model: the \"Black Iron Prison\" (BIP) is a machine (Yahweh/Demiurge) that scrambles our perceptions. He argues that Christ/OCCP is a \"telos seed\" (explosive) smug",
+      "title": "1976-09-15_Dorothy_78.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_64",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "In a profound pivot, Dick interprets his entire life and 3-74 experience through the lens of George Lucas's *Star Wars*. He identifies Christ as \"Ben Kenobi\" (a dead but omnipresent guide), himself as",
+      "title": "1976-09-15_Dorothy_64.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_92",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick proposes a radical new theory: \"Valis\" and \"Thomas\" are not external gods or ancient people, but PKD's own \"future evolved self\" traveling backward in time via the gene-pool. This \"Omega Man\" int",
+      "title": "1976-09-15_Dorothy_92.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_79",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formulaizes a law of \"Cosmic Justice\" (Ma'at/Tao): when an oppressor (B) \"oversteps\" its limit against an innocent victim (C), it triggers a \"justification\" by Valis that confers divinity (Apothe",
+      "title": "1976-09-15_Dorothy_79.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_61",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick develops a \"womb\" model of cosmogony: Level 1 (Holy Wisdom/Logos) creates Level 2 (Nature/Egg) to give birth to Level 3 (Sentient Replicant), which will eventually be absorbed back into Level 1. ",
+      "title": "1976-09-15_Dorothy_61.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_11",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies his 3-74 experience as the \"epiphany\" of a buried personality (Thomas) who has been inserting \"code\" into his novels for years. He theorizes that the Gnosis is transmitted genetically ",
+      "title": "1976-09-15_Dorothy_11.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_68",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"linear world\" (1974) as a communal dream or \"hallucination\" (*Maze of Death*) that we are \"doomed to repeat\" until we wake up. He argues that 3-74 was his \"waking\" into the \"authe",
+      "title": "1976-09-15_Dorothy_68.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_95",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies himself as a \"5th Columnist\" (secret agent) for an \"invader\" from either the future or another star system. He refines the \"Thomas\" personality as a \"Transtemporal Self\" that spans tho",
+      "title": "1976-09-15_Dorothy_95.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_55",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that salvation requires a \"sui generis\" act of individual refusal that identifies the \"divine spark\" within a person to the celestial powers. He views'74 as a general \"time quake\" or \"orth",
+      "title": "1976-09-15_Dorothy_55.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_81",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick argues that the Book of Acts is not a historical text but a \"code\" for our current reality. He views 3-74 as the moment he \"woke up\" from a fake memory-veneer into the real landscape of 70 AD Rom",
+      "title": "1976-09-15_Dorothy_81.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_38",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Adoptionalist\" theory of his experience: that he was \"raised\" to a superhuman level and \"incorporated\" into the building of the New Earth. He reflects on the \"Thomas\" personality as",
+      "title": "1976-09-15_Dorothy_38.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_53",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his theory of \"orthogonal intervention,\" arguing that true change enters linear time \"at right angles\" from another dimension. He views his own \"anamnesis\" (memory restoration) as the key",
+      "title": "1976-09-15_Dorothy_53.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_77",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick analyzes the deterministic \"inner tape\" (DNA/Ancestral programming) that controls humans like \"robots.\" He argues that 3-74 was a \"volitional override\" of this biological script by a \"conscious s",
+      "title": "1976-09-15_Dorothy_77.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_66",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick realizes that all his novels (1952-1976) are actually chapters of a single \"Ur-Geschicht\" (Original Story) that maps the \"Koinos Kosmos\" (Shared Reality) breaking through the \"Idios Kosmoi\" (Priv",
+      "title": "1976-09-15_Dorothy_66.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_129",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"Form-Axis\" (from *Ubik*) as an orthogonal time-axis along which he regressed to AD 70. He argues that this regression was not just subjective but a \"reversion to essence,\" reveali",
+      "title": "1976-09-15_Dorothy_129.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_46",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick elevates his novel *Ubik* to a \"3rd Testament,\" viewing it as a prophetic account of Zebra's \"re-animation\" and \"re-arrangement\" of the universe. He argues that Zebra's reconstruction of the worl",
+      "title": "1976-09-15_Dorothy_46.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_88",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the McKenna brothers' \"Hologram Universe\" theory (from *The Invisible Landscape*) as the most accurate model for his 3-74 experiences. He identifies \"PTG I\" (Palm Tree Garden) and \"BIP",
+      "title": "1976-09-15_Dorothy_88.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Thomas",
+      "date_display": "September 15, 1976",
+      "summary": "Dick embraces the \"Impostor\" theme of his fiction, theorizing that he is a \"linked extension\" (a programmed \"sleeper\") for a benign, non-human \"Mantis\" race. He sees reality as an \"orthogonal metamorp",
+      "title": "1976-09-15_Dorothy_49.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "discussed_alongside",
+      "confidence": 2
+    },
+    {
+      "name": "Satan",
+      "slug": "satan",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Apollo",
+      "slug": "apollo",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Valis",
+      "slug": "valis",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Aristotle",
+      "slug": "aristotle",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Spinoza",
+      "slug": "spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Baruch Spinoza",
+      "slug": "baruch-spinoza",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Beethoven",
+      "slug": "beethoven",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Palmer Eldritch",
+      "slug": "palmer-eldritch",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Julian Jaynes",
+      "slug": "julian-jaynes",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Brahman",
+      "slug": "brahman",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Carl Jung",
+      "slug": "carl-jung",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Chrissy",
+      "slug": "chrissy",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "slug": "teilhard-de-chardin",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Orphic",
+      "slug": "orphic",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "John",
+      "slug": "john",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Ubik",
+      "slug": "ubik",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

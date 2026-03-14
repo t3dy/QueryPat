@@ -1,0 +1,51 @@
+{
+  "name_id": "NAME_cyrus",
+  "canonical_form": "Cyrus",
+  "slug": "cyrus",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Cyrus is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick realizes that his 1959 novel *Time Out of Joint* was a prophetic \"reversal\" of his 3-74 experience.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_51",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Cyrus",
+      "date_display": "September 15, 1976",
+      "summary": "Dick realizes that his 1959 novel *Time Out of Joint* was a prophetic \"reversal\" of his 3-74 experience. While the novel depicts a fake 1950s that is actually the future, 3-74 revealed a fake 1974 tha",
+      "title": "1976-09-15_Dorothy_51.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

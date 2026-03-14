@@ -1,0 +1,51 @@
+{
+  "name_id": "NAME_mckenna-brothers",
+  "canonical_form": "McKenna Brothers",
+  "slug": "mckenna-brothers",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "McKenna Brothers is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick refines his \"2-Source\" theory, identifying our world as a \"projected mixture\" or hologram of two hyper-realities: Form I (Palm Tree Garden/Heaven/Light) and Form II (Black Iron Prison/Hell/Night).\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_131",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "McKenna Brothers",
+      "date_display": "September 15, 1976",
+      "summary": "Dick refines his \"2-Source\" theory, identifying our world as a \"projected mixture\" or hologram of two hyper-realities: Form I (Palm Tree Garden/Heaven/Light) and Form II (Black Iron Prison/Hell/Night)",
+      "title": "1976-09-15_Dorothy_131.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Parmenides",
+      "slug": "parmenides",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

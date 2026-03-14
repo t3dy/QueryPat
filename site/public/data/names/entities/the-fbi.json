@@ -1,0 +1,51 @@
+{
+  "name_id": "NAME_the-fbi",
+  "canonical_form": "The FBI",
+  "slug": "the-fbi",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "The FBI is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick formalizes the \"Ham Sandwich\" model of reality: Man - World - God.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_83",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "The FBI",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes the \"Ham Sandwich\" model of reality: Man - World - God. He concludes that his entire writing career was a \"preparatory dissolving\" of the world-slice, which allowed the \"God-slice\" (*U",
+      "title": "1976-09-15_Dorothy_83.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Runciter",
+      "slug": "runciter",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

@@ -1,13 +1,48 @@
 import { useParams, Link } from 'react-router-dom'
 import { useData } from '../hooks/useData'
+import { useState } from 'react'
+
+interface LinkedTerm {
+  term_id: string
+  name: string
+  slug: string
+  match_type: string
+  confidence: number
+  matched_text: string | null
+}
+
+interface LinkedName {
+  name_id: string
+  name: string
+  slug: string
+  match_type: string
+  confidence: number
+}
+
+interface EvidenceExcerpt {
+  text: string
+  matched_alias: string
+  term_id: string
+  term_name: string
+  term_slug: string
+}
+
+interface Neighbor {
+  seg_id: string
+  title: string
+  position: number
+}
 
 interface SegmentData {
   seg_id: string
   doc_id: string
   title: string
+  position: number | null
+  date_start: string | null
   date_display: string
   date_confidence: string
-  concise_summary: string
+  date_basis: string | null
+  concise_summary: string | null
   key_claims: string[] | null
   recurring_concepts: string[] | null
   people_entities: string[] | null
@@ -18,28 +53,38 @@ interface SegmentData {
   tensions: string[] | null
   evidence_quotes: string[] | null
   uncertainty_flags: string[] | null
-  reading_excerpt: string
+  reading_excerpt: string | null
   word_count: number
+  raw_text: string | null
+  raw_text_char_count: number | null
+  linked_terms: LinkedTerm[]
+  linked_names: LinkedName[]
+  evidence_excerpts: EvidenceExcerpt[]
+  neighbors: Neighbor[]
+  document: {
+    title: string
+    doc_type: string
+    author: string
+    date_display: string
+  } | null
 }
 
-// Segment detail is loaded from the year file; we search for the segment
-// For now, we fetch all years and find the segment
+const CONFIDENCE_LABELS: Record<number, string> = {
+  1: 'exact text match',
+  2: 'alias/summary match',
+  3: 'fuzzy match',
+  4: 'conceptual link',
+  5: 'speculative',
+}
+
 export default function SegmentDetail() {
   const { id } = useParams()
-
-  // Try to extract year from segment ID for efficient loading
-  const yearMatch = id?.match(/^SEG_EXEG_(\d{4})/)
-  const year = yearMatch ? yearMatch[1] : null
-
-  const { data: segments, loading } = useData<SegmentData[]>(
-    year ? `timeline/years/${year}.json` : 'timeline/index.json'
-  )
+  const { data: seg, loading, error } = useData<SegmentData>(`segments/${id}.json`)
+  const [showRawText, setShowRawText] = useState(false)
 
   if (loading) return <div className="loading">Loading...</div>
 
-  const seg = segments?.find(s => s.seg_id === id)
-
-  if (!seg) {
+  if (error || !seg) {
     return (
       <div className="page-header">
         <h1>Segment Not Found</h1>
@@ -48,6 +93,14 @@ export default function SegmentDetail() {
       </div>
     )
   }
+
+  // Separate linked terms by confidence
+  const strongTerms = (seg.linked_terms || []).filter(t => t.confidence <= 2)
+  const mediumTerms = (seg.linked_terms || []).filter(t => t.confidence === 3)
+  const weakTerms = (seg.linked_terms || []).filter(t => t.confidence >= 4)
+
+  const yearMatch = seg.date_start?.match(/^(\d{4})/)
+  const year = yearMatch ? yearMatch[1] : null
 
   return (
     <>
@@ -61,13 +114,72 @@ export default function SegmentDetail() {
             </span>
           )}
           {seg.word_count && <span style={{marginLeft:'1rem', color:'var(--text-muted)'}}>{seg.word_count} words</span>}
+          {seg.raw_text && <span style={{marginLeft:'0.5rem', color:'var(--text-muted)'}}> | {seg.raw_text_char_count?.toLocaleString()} chars</span>}
         </p>
+        {seg.document && (
+          <p style={{fontSize:'0.85rem', color:'var(--text-muted)'}}>
+            From: {seg.document.title} ({seg.document.doc_type})
+          </p>
+        )}
       </div>
+
+      {/* Navigation between segments */}
+      {seg.neighbors && seg.neighbors.length > 0 && (
+        <div style={{display:'flex', justifyContent:'space-between', marginBottom:'1rem', fontSize:'0.85rem'}}>
+          {seg.neighbors.find(n => n.position < (seg.position ?? 0))
+            ? <Link to={`/segments/${seg.neighbors.find(n => n.position < (seg.position ?? 0))!.seg_id}`}>
+                ← Previous chunk
+              </Link>
+            : <span />
+          }
+          {seg.neighbors.find(n => n.position > (seg.position ?? Infinity))
+            ? <Link to={`/segments/${seg.neighbors.find(n => n.position > (seg.position ?? Infinity))!.seg_id}`}>
+                Next chunk →
+              </Link>
+            : <span />
+          }
+        </div>
+      )}
 
       {seg.concise_summary && (
         <div className="detail-section">
           <h2>Summary</h2>
           <p>{seg.concise_summary}</p>
+        </div>
+      )}
+
+      {/* Raw text toggle */}
+      {seg.raw_text && (
+        <div className="detail-section">
+          <h2>
+            PKD's Text
+            <button
+              onClick={() => setShowRawText(!showRawText)}
+              style={{
+                marginLeft:'1rem', fontSize:'0.8rem', padding:'0.2rem 0.6rem',
+                background:'var(--bg-secondary)', border:'1px solid var(--border-light)',
+                borderRadius:'4px', cursor:'pointer', color:'var(--text-primary)',
+              }}
+            >
+              {showRawText ? 'Hide' : 'Show'} full text
+            </button>
+          </h2>
+          {showRawText && (
+            <div style={{
+              whiteSpace: 'pre-wrap',
+              fontFamily: 'Georgia, serif',
+              fontSize: '0.95rem',
+              lineHeight: '1.7',
+              maxHeight: '60vh',
+              overflow: 'auto',
+              padding: '1rem',
+              background: 'var(--bg-secondary)',
+              borderRadius: '6px',
+              border: '1px solid var(--border-light)',
+            }}>
+              {seg.raw_text}
+            </div>
+          )}
         </div>
       )}
 
@@ -98,8 +210,102 @@ export default function SegmentDetail() {
         </div>
       )}
 
-      <div style={{marginTop:'2rem', paddingTop:'1rem', borderTop:'1px solid var(--border-light)'}}>
+      {/* Linked Terms with confidence badges */}
+      {(strongTerms.length > 0 || mediumTerms.length > 0 || weakTerms.length > 0) && (
+        <div className="detail-section">
+          <h2>Linked Terms ({seg.linked_terms.length})</h2>
+
+          {strongTerms.length > 0 && (
+            <div style={{marginBottom:'0.75rem'}}>
+              <h3 style={{fontSize:'0.85rem', color:'var(--text-muted)', marginBottom:'0.5rem'}}>
+                Text-confirmed ({strongTerms.length})
+              </h3>
+              <div style={{display:'flex', flexWrap:'wrap', gap:'0.4rem'}}>
+                {strongTerms.map((t, i) => (
+                  <Link key={i} to={`/dictionary/${t.slug}`}
+                    className="badge badge-category"
+                    style={{textDecoration:'none'}}
+                    title={`${CONFIDENCE_LABELS[t.confidence]}${t.matched_text ? ': "' + t.matched_text + '"' : ''}`}
+                  >
+                    {t.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {weakTerms.length > 0 && (
+            <div>
+              <h3 style={{fontSize:'0.85rem', color:'var(--text-muted)', marginBottom:'0.5rem'}}>
+                Conceptual ({weakTerms.length})
+              </h3>
+              <div style={{display:'flex', flexWrap:'wrap', gap:'0.4rem', opacity:0.7}}>
+                {weakTerms.slice(0, 30).map((t, i) => (
+                  <Link key={i} to={`/dictionary/${t.slug}`}
+                    style={{
+                      textDecoration:'none', fontSize:'0.8rem',
+                      color:'var(--text-secondary)', borderBottom:'1px dotted var(--border-light)',
+                    }}
+                    title={CONFIDENCE_LABELS[t.confidence]}
+                  >
+                    {t.name}
+                  </Link>
+                ))}
+                {weakTerms.length > 30 && (
+                  <span style={{fontSize:'0.8rem', color:'var(--text-muted)'}}>
+                    +{weakTerms.length - 30} more
+                  </span>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Linked Names */}
+      {seg.linked_names && seg.linked_names.length > 0 && (
+        <div className="detail-section">
+          <h2>Names ({seg.linked_names.length})</h2>
+          <div style={{display:'flex', flexWrap:'wrap', gap:'0.4rem'}}>
+            {seg.linked_names.map((n, i) => (
+              <Link key={i} to={`/names/${n.slug}`}
+                className="badge badge-category"
+                style={{textDecoration:'none'}}
+              >
+                {n.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Evidence from dictionary terms */}
+      {seg.evidence_excerpts && seg.evidence_excerpts.length > 0 && (
+        <div className="detail-section">
+          <h2>Evidence Linked to This Segment ({seg.evidence_excerpts.length})</h2>
+          {seg.evidence_excerpts.map((ev, i) => (
+            <div key={i} style={{marginBottom:'0.75rem'}}>
+              <div style={{fontSize:'0.85rem', marginBottom:'0.25rem'}}>
+                <Link to={`/dictionary/${ev.term_slug}`} style={{fontWeight:600}}>
+                  {ev.term_name}
+                </Link>
+                {ev.matched_alias && ev.matched_alias !== ev.term_name && (
+                  <span style={{color:'var(--text-muted)', marginLeft:'0.5rem'}}>
+                    (matched: "{ev.matched_alias}")
+                  </span>
+                )}
+              </div>
+              <div className="evidence-excerpt" style={{fontSize:'0.85rem'}}>
+                {ev.text}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <div style={{marginTop:'2rem', paddingTop:'1rem', borderTop:'1px solid var(--border-light)', display:'flex', gap:'1rem'}}>
         <Link to={year ? `/timeline/${year}` : '/timeline'}>Back to Timeline</Link>
+        {seg.doc_id && <Link to={`/archive/${seg.doc_id}`}>View Document</Link>}
       </div>
     </>
   )

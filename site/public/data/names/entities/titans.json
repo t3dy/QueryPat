@@ -1,0 +1,69 @@
+{
+  "name_id": "NAME_titans",
+  "canonical_form": "Titans",
+  "slug": "titans",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Titans is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick contrasts Gnosticism (external grace) with Neoplatonism (self-attainment), concluding that the 1974 experience was a \"zygote\" formation between the human \"egg\" and cosmic \"spermatika.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_07",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Titans",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick contrasts Gnosticism (external grace) with Neoplatonism (self-attainment), concluding that the 1974 experience was a \"zygote\" formation between the human \"egg\" and cosmic \"spermatika.\" He reinter",
+      "title": "U_Claudia_07.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Empedocles",
+      "slug": "empedocles",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Firebright",
+      "slug": "firebright",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus",
+      "slug": "jesus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plotinus",
+      "slug": "plotinus",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zagreus",
+      "slug": "zagreus",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

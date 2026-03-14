@@ -1,0 +1,56 @@
+{
+  "name_id": "NAME_donna",
+  "canonical_form": "Donna",
+  "slug": "donna",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Donna is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick formalizes his \"Ham Sandwich\" model of reality: a triune structure of Teacher (Zebra) / Artifact World (The \"Ham\") / Pupils (Humans).\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [
+    {
+      "text": "Mike Westaway",
+      "type": "alternate_form"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_76",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Donna",
+      "date_display": "September 15, 1976",
+      "summary": "Dick formalizes his \"Ham Sandwich\" model of reality: a triune structure of Teacher (Zebra) / Artifact World (The \"Ham\") / Pupils (Humans). He concludes that the empirical world is a \"slave labor camp\"",
+      "title": "1976-09-15_Dorothy_76.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Thomas",
+      "slug": "thomas",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

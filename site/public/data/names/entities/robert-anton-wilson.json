@@ -1,0 +1,60 @@
+{
+  "name_id": "NAME_robert-anton-wilson",
+  "canonical_form": "Robert Anton Wilson",
+  "slug": "robert-anton-wilson",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Robert Anton Wilson is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick identifies a startling 1:1 correspondence between his 1967 story \"Faith of Our Fathers\" and his 3-74 experiences.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_74",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Robert Anton Wilson",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies a startling 1:1 correspondence between his 1967 story \"Faith of Our Fathers\" and his 3-74 experiences. He concludes that the Xerox letter was a \"phony test/trap\" (using \"party jargon\")",
+      "title": "1976-09-15_Dorothy_74.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_136",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Robert Anton Wilson",
+      "date_display": "September 15, 1976",
+      "summary": "Dick identifies the \"horizontal form-axis\" (orthogonal time) from his novel *Ubik* as an experientially real cosmological feature, proving Plato's theory of Forms. He refines his model of the \"Urgrund",
+      "title": "1976-09-15_Dorothy_136.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

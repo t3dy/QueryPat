@@ -1,0 +1,45 @@
+{
+  "name_id": "NAME_kurt-vonnegut",
+  "canonical_form": "Kurt Vonnegut",
+  "slug": "kurt-vonnegut",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Kurt Vonnegut is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"A personal letter to Phyllis Boucher accompanying an essay about Tony Boucher.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-03-02_Phyllis_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Kurt Vonnegut",
+      "date_display": "March 2, 1975",
+      "summary": "A personal letter to Phyllis Boucher accompanying an essay about Tony Boucher. Dick discusses his current life in Fullerton, his family, and his religious development.",
+      "title": "1975-03-02_Phyllis_01.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Tessa",
+      "slug": "tessa",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

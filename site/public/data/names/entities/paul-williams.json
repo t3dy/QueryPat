@@ -1,0 +1,72 @@
+{
+  "name_id": "NAME_paul-williams",
+  "canonical_form": "Paul Williams",
+  "slug": "paul-williams",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Paul Williams is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick identifies his 1974 merger with the \"Daimon\" as the \"Second Birth\" and the \"Pearl of Great Price.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_20",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Paul Williams",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies his 1974 merger with the \"Daimon\" as the \"Second Birth\" and the \"Pearl of Great Price.\" He concludes that the Daimon (Eros/Will) is the source of his precognitive writing and that he w",
+      "title": "U_Claudia_20.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_36",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Paul Williams",
+      "date_display": "September 15, 1976",
+      "summary": "Dick discovers that his 3-74 vision \"confirms\" Hegel's philosophy of history: that God (Spirit) develops himself toward perfection through the dialectical growth of human freedom. He redefines himself",
+      "title": "1976-09-15_Dorothy_36.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Beethoven",
+      "slug": "beethoven",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Kathy",
+      "slug": "kathy",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

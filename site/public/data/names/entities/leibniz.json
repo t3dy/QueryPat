@@ -1,0 +1,107 @@
+{
+  "name_id": "NAME_leibniz",
+  "canonical_form": "Leibniz",
+  "slug": "leibniz",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": "Unknown",
+  "origin_language": "German",
+  "allusion_type": [
+    "philosophical"
+  ],
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Leibniz (German: \"Unknown\") is a historical figure appearing in Philip K. Dick's Exegesis. In the philosophical tradition, Leibniz is 17th century rationalist; monads and pre-established harmony. PKD references Leibniz on possible worlds and the best of all possible worlds. Appears in 4 Exegesis passages. Context: \"Dick uses Whitehead's and Leibniz's philosophy to argue that humans are \"memory spools\" or \"perceiving cells\" within the vast organism of God.\"",
+  "full_description": null,
+  "mention_count": 4,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": "REF_philosophical_leibniz",
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_42",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Leibniz",
+      "date_display": "September 15, 1976",
+      "summary": "Dick uses Whitehead's and Leibniz's philosophy to argue that humans are \"memory spools\" or \"perceiving cells\" within the vast organism of God. Our primary purpose is \"witnessing,\" allowing the total o",
+      "title": "1976-09-15_Dorothy_42.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_37",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Leibniz",
+      "date_display": "September 15, 1976",
+      "summary": "Dick continues his philosophical integration, finding that A.N. Whitehead's metaphysics perfectly describes \"Zebra.\" He accepts the idea of God as an \"arranger\" rather than a creator, and as an entity",
+      "title": "1976-09-15_Dorothy_37.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_98",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Leibniz",
+      "date_display": "September 15, 1976",
+      "summary": "Dick explores the \"Annihilating Side\" of Zebra, equating the entity with Shiva and his 3rd eye. He argues that Zebra is not just healing individuals but \"transubstantiating\" the entire universe, repla",
+      "title": "1976-09-15_Dorothy_98.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_32",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Leibniz",
+      "date_display": "September 15, 1976",
+      "summary": "Dick theorizes that 3-74 was an \"expansion of the present slot\" via \"perceptual memory,\" allowing him to see 2000 years of change in months. He identifies the \"constants\" that emerged from this accele",
+      "title": "1976-09-15_Dorothy_32.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Hegel",
+      "slug": "hegel",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Beethoven",
+      "slug": "beethoven",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Christ",
+      "slug": "christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ],
+  "reference": {
+    "canonical_form": "Leibniz",
+    "domain": "philosophical",
+    "brief": "17th century rationalist; monads and pre-established harmony",
+    "etymology": "Unknown",
+    "origin_language": "German",
+    "significance": "PKD references Leibniz on possible worlds and the best of all possible worlds",
+    "source_text": "Monadology"
+  }
+}

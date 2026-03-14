@@ -1,0 +1,38 @@
+{
+  "name_id": "NAME_sullivan",
+  "canonical_form": "Sullivan",
+  "slug": "sullivan",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Sullivan is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick analyzes the \"Cabrillo\" dream to conclude that the Xerox letter was a \"fake\" entrapment attempt (possibly by \"The Man\" or \"Reds\").\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_04",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Sullivan",
+      "date_display": "September 15, 1975",
+      "summary": "Dick analyzes the \"Cabrillo\" dream to conclude that the Xerox letter was a \"fake\" entrapment attempt (possibly by \"The Man\" or \"Reds\"). He interprets complex symbolic puns—Cabrillo, Brillo, Monopoly m",
+      "title": "1975-09-15_SECTION_012_04.txt"
+    }
+  ],
+  "related_terms": []
+}

@@ -1,0 +1,72 @@
+{
+  "name_id": "NAME_jack-scovil",
+  "canonical_form": "Jack Scovil",
+  "slug": "jack-scovil",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Jack Scovil is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"After a business letter regarding a lost $500 check, Dick pivots to a theological breakthrough: the Kingdom of God is located in the \"Future,\" and he reached it by \"running out of time\" in March 1974.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jack Scovil",
+      "date_display": "September 15, 1975",
+      "summary": "After a business letter regarding a lost $500 check, Dick pivots to a theological breakthrough: the Kingdom of God is located in the \"Future,\" and he reached it by \"running out of time\" in March 1974.",
+      "title": "1975-09-15_SECTION_012_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_02",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jack Scovil",
+      "date_display": "September 15, 1975",
+      "summary": "Dick rejects the common Christian emphasis on suffering, arguing that Christ's purpose was to alter the ontology of the world. He discovers a \"steganographic\" message—the word **\"Felix\"**—embedded in ",
+      "title": "1975-09-15_SECTION_012_02.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Elijah",
+      "slug": "elijah",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Nixon",
+      "slug": "nixon",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Jesus Christ",
+      "slug": "jesus-christ",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

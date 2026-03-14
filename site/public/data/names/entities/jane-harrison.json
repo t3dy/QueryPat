@@ -1,0 +1,60 @@
+{
+  "name_id": "NAME_jane-harrison",
+  "canonical_form": "Jane Harrison",
+  "slug": "jane-harrison",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Jane Harrison is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick identifies the \"Sarapis/Dionysos\" entity as the god who \"undid determinism\" (Ananke) for him in 1974.\"",
+  "full_description": null,
+  "mention_count": 2,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_45",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jane Harrison",
+      "date_display": "circa 1975-1976",
+      "summary": "Dick identifies the \"Sarapis/Dionysos\" entity as the god who \"undid determinism\" (Ananke) for him in 1974. He concludes that 3-74 was a victory for \"Freedom over Enslavement\" (Android), where God inte",
+      "title": "U_Claudia_45.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_U_Henry_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Jane Harrison",
+      "date_display": "February 29, 1975",
+      "summary": "Dick confesses to being \"tricked\" by Erasmus, who pretended to be Dionysos. He explores the \"substitution code\" of Jesus/Zeus/Zagreus and the concept of the \"God of the very desperate\" who gathers up ",
+      "title": "U_Henry_01.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Dionysos",
+      "slug": "dionysos",
+      "relation": "co_occurs",
+      "confidence": 4
+    },
+    {
+      "name": "Heraclitus",
+      "slug": "heraclitus",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}

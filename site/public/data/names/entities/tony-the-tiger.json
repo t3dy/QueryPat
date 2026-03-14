@@ -1,0 +1,45 @@
+{
+  "name_id": "NAME_tony-the-tiger",
+  "canonical_form": "Tony the Tiger",
+  "slug": "tony-the-tiger",
+  "entity_type": "historical_person",
+  "source_type": "exegesis",
+  "status": "provisional",
+  "review_state": "machine-drafted",
+  "etymology": null,
+  "origin_language": null,
+  "allusion_type": null,
+  "allusion_target": null,
+  "wordplay_note": null,
+  "symbolic_note": null,
+  "card_description": "Tony the Tiger is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Draft of a memorial piece for Tony Boucher.\"",
+  "full_description": null,
+  "mention_count": 1,
+  "first_work": null,
+  "work_list": null,
+  "reference_id": null,
+  "provenance": "ingest_names_from_segments",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:08",
+  "updated_at": "2026-03-12 19:37:10",
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Tony_01",
+      "match_type": "exact_mention",
+      "confidence": 2,
+      "matched_text": "Tony the Tiger",
+      "date_display": "circa 1975-1976",
+      "summary": "Draft of a memorial piece for Tony Boucher. Dick explores Boucher's fear of the universe, his role as a mentor, and the startling claim that his cat Pinky was Boucher's reincarnation.",
+      "title": "U_Tony_01.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Pinky",
+      "slug": "pinky",
+      "relation": "co_occurs",
+      "confidence": 4
+    }
+  ]
+}
