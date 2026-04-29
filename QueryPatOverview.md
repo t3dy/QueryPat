@@ -1,6 +1,6 @@
 # QueryPat — Methodology Overview
 
-How the database is built, how the website surfaces it, and what governs the editorial decisions inside both. Companion to [PKDontology.md](PKDontology.md) (the editorial frame), [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md) (the writing roadmap), and [README.md](README.md) (project surface).
+How the database is built, how the website surfaces it, and what governs the editorial decisions inside both. Companion to [PKDontology.md](PKDontology.md) (the editorial frame), [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md) (the writing roadmap), [HANDOVER.md](HANDOVER.md) (current state and queued work), and [README.md](README.md) (project surface).
 
 This document is for someone who needs to understand how QueryPat works end-to-end — the data model, the pipeline, the editorial system, and the rendering layer — without reading the code.
 
@@ -8,7 +8,11 @@ This document is for someone who needs to understand how QueryPat works end-to-e
 
 ## 1. What QueryPat is
 
-A unified scholarly browser for Philip K. Dick's *Exegesis* and the surrounding archival, biographical, and critical literature. It integrates three previously separate systems — a chronological text viewer, a term-extraction dictionary pipeline, and a PDF archive catalog — into a single SQLite database, and exposes that database as a static React site deployed via GitHub Pages.
+QueryPat is a **scholarly knowledge portal about Philip K. Dick** — his life, his fiction, his *Exegesis*, his correspondence, the academic and fan scholarship around him, and the cultural reception of his work. The codename "QueryPat" is the project repository name; the user-facing site is the **Philip K. Dick Knowledge Portal**.
+
+The *Exegesis* is one major source within this larger frame — alongside biography, novels and stories, letters and interviews, scholarly monographs and articles, fan publications, and adaptations. Earlier versions of the site centered the *Exegesis* (the project began as a viewer for that text), but the scope has broadened: the data model already covers the full PKD-as-author surface area, and a current redesign is rebalancing the navigation and dashboard so the *Exegesis* sits as one discrete tab rather than as the project's center of gravity. See [HANDOVER.md](HANDOVER.md) for the active redesign plan.
+
+The codebase integrates three previously separate systems — a chronological text viewer, a term-extraction dictionary pipeline, and a PDF archive catalog — into a single SQLite database, and exposes that database as a static React site deployed via GitHub Pages.
 
 The site answers four standing researcher questions (per [PKDontology §1](PKDontology.md)):
 

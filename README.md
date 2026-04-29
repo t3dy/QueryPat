@@ -1,11 +1,15 @@
-# QueryPat — Exegesis Knowledge Portal
+# QueryPat — Philip K. Dick Knowledge Portal
 
-A unified scholarly browser for Philip K. Dick's *Exegesis*, integrating text analysis, a term dictionary, a PDF archive catalog, biographical event tracking, and entity-linked navigation into a single static site.
+A scholarly knowledge portal about Philip K. Dick (1928–1982): his life, his fiction, his *Exegesis*, his correspondence, the academic and fan scholarship that surrounds him, and the cultural reception of his work. Built as a single static site backed by a unified SQLite database.
 
-**Live site:** [t3dy.github.io/QueryPat](https://t3dy.github.io/QueryPat/) (current — v3 in progress)
+The *Exegesis* is one major source within this larger frame — alongside biography, novels and stories, letters and interviews, scholarly monographs and articles, fan publications, and the adaptations and visual/musical reception. The site treats PKD studies as a contested archive: claims are sourced to evidentiary lanes, interpretations are attributed to whoever holds them, and contradictions across sources are surfaced rather than silently adjudicated.
+
+> **Note (April 2026):** Site title and landing-page redesign in progress — the displayed title is being changed to "Philip K. Dick Knowledge Portal" and the dashboard is being rebalanced so the *Exegesis* sits as its own discrete tab rather than as the centerpiece. See [HANDOVER.md](HANDOVER.md) for the active redesign plan.
+
+**Live site:** [t3dy.github.io/QueryPat](https://t3dy.github.io/QueryPat/) (currently shipping v3 + v4 — see [HANDOVER.md](HANDOVER.md) for what's next)
 **Previous version (v1.0):** [t3dy.github.io/QueryPat/v1](https://t3dy.github.io/QueryPat/v1/)
 
-For methodology: [QueryPatOverview.md](QueryPatOverview.md). For the editorial frame: [PKDontology.md](PKDontology.md). For the current writing roadmap: [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md).
+For methodology: [QueryPatOverview.md](QueryPatOverview.md). For the editorial frame: [PKDontology.md](PKDontology.md). For the current writing roadmap: [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md). For session continuity: [HANDOVER.md](HANDOVER.md).
 
 ---
 

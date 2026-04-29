@@ -298,6 +298,45 @@ Out of scope for v3 (deferred):
 - Search ranking improvements
 - Multi-language coverage (Italian, French criticism in original language)
 - AIPSY blueprint execution (separate document)
-- Site UI redesign
 
 These wait until v3's writing-quality baseline is in place.
+
+---
+
+## 10. Site IA redesign — added April 2026
+
+The user's directive in mid-conversation broadened the project scope: **the site is a knowledge portal about PKD as an author, not a viewer for the *Exegesis* alone.** This adds work to v3 that was originally scoped out.
+
+### 10.1 Rebrand
+
+- Site title: `QueryPat - Exegesis Knowledge Portal` → **`Philip K. Dick Knowledge Portal`**
+- Files to edit: [site/index.html](site/index.html), [site/src/pages/Dashboard.tsx](site/src/pages/Dashboard.tsx), and any meta/OG tags
+- Repo name stays `QueryPat` (project codename); user-visible branding is the new title
+
+### 10.2 Dashboard redesign
+
+The current dashboard ([Dashboard.tsx](site/src/pages/Dashboard.tsx)) leads with `<h1>The Exegesis Knowledge Portal</h1>` and a subtitle about the *Exegesis*; the four headlined stat cards center "Exegesis Summaries"; the right-side rail is "Browse by Year" tied to *Exegesis* segment counts.
+
+Redesign should:
+- Lead with PKD-as-author orientation (dates 1928–1982, brief framing of what the portal contains and how to navigate it)
+- Surface the breadth — fiction, letters, interviews, scholarship, fan publications, the Exegesis, adaptations — as comparable tiles
+- Demote the *Exegesis* to one prominent tile rather than the centerpiece
+- Rebalance visual weight across Timeline, Dictionary, Archive, Biography, Names, Scholars, Studies
+
+### 10.3 Exegesis as its own tab
+
+Decision needed: rename "Timeline" → "Exegesis" if Timeline is mostly Exegesis content, *or* keep "Timeline" as the unified life-and-publications-and-Exegesis chronology and add a separate "Exegesis" tab dedicated to the manuscript navigator and editorial / annotation context. **Recommendation: separate them.** The user explicitly framed the *Exegesis* as warranting its own tab.
+
+### 10.4 Timeline data fix — publications on the timeline
+
+Current state: `analytics.json` `segments_per_year` reports `has_content = true` only when `count + bio_events > 0`. Most pre-1974 years have neither, so the "Browse by Year" rendering greys them out as unclickable — even though PKD wrote and published prolifically through the 1950s and 1960s. This is the design flaw the user flagged.
+
+Fix:
+1. **Add a `publications` field** to per-year timeline JSON files (`timeline/years/{year}.json`). Each publication: title, date_display, date_start, type (novel / story / essay / letter), publisher / venue, link to relevant document or work entity.
+2. **Source data:** at minimum mine the `documents` table where `is_pkd_authored = true` and `category` is novels/short_stories/letters/etc. More authoritative: build a canonical `works` table per [PKDontology §2.2](PKDontology.md) from a known PKD bibliography.
+3. **Update `analytics.json`** so `has_content` reflects publications too. The 1950s and 1960s should light up.
+4. **Update Timeline page** to render publications as a third entry type alongside Exegesis segments and biography events, with its own card style.
+
+### 10.5 Order of operations
+
+The IA work should land before further v3 prose expansion, because the rebrand changes the editorial frame slightly: scholar profiles and document summaries that lean on "Exegesis Knowledge Portal" framing will need light revision to match the broader "PKD Knowledge Portal" framing. Status: most current v3 prose already speaks in PKD-broad terms (the editorial templates were written that way), but the dashboard and home-page copy will need careful pass-through after the redesign.
