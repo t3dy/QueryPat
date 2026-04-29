@@ -9,6 +9,16 @@ interface ScholarPDF {
   pages?: number
 }
 
+interface ScholarDispute {
+  opponent: string
+  issue: string
+}
+
+interface ScholarQuote {
+  quote: string
+  source?: string
+}
+
 interface Scholar {
   scholar_id: string
   name: string
@@ -20,6 +30,10 @@ interface Scholar {
   relevance: string
   archive_pdfs: ScholarPDF[]
   pdf_count: number
+  key_arguments?: string[]
+  scholarly_lineage?: string
+  disputes?: ScholarDispute[]
+  quotable_lines?: ScholarQuote[]
 }
 
 const TIER_NAMES: Record<number, string> = {
@@ -188,6 +202,57 @@ export default function Scholars() {
                             Relevance
                           </h4>
                           <p>{s.relevance}</p>
+                        </div>
+                      )}
+
+                      {s.key_arguments && s.key_arguments.length > 0 && (
+                        <div style={{ marginBottom: '1rem' }}>
+                          <h4 style={{ fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.25rem' }}>
+                            Key Arguments
+                          </h4>
+                          <ul style={{ margin: 0, paddingLeft: '1.25rem' }}>
+                            {s.key_arguments.map((a, i) => <li key={i}>{a}</li>)}
+                          </ul>
+                        </div>
+                      )}
+
+                      {s.scholarly_lineage && (
+                        <div style={{ marginBottom: '1rem' }}>
+                          <h4 style={{ fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.25rem' }}>
+                            Scholarly Lineage
+                          </h4>
+                          <p>{s.scholarly_lineage}</p>
+                        </div>
+                      )}
+
+                      {s.disputes && s.disputes.length > 0 && (
+                        <div style={{ marginBottom: '1rem' }}>
+                          <h4 style={{ fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.25rem' }}>
+                            Disputes
+                          </h4>
+                          <ul style={{ margin: 0, paddingLeft: '1.25rem' }}>
+                            {s.disputes.map((d, i) => (
+                              <li key={i}>
+                                <strong>{d.opponent}:</strong> {d.issue}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+
+                      {s.quotable_lines && s.quotable_lines.length > 0 && (
+                        <div style={{ marginBottom: '1rem' }}>
+                          <h4 style={{ fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.25rem' }}>
+                            Quotable Lines
+                          </h4>
+                          <ul style={{ margin: 0, paddingLeft: '1.25rem', listStyle: 'none' }}>
+                            {s.quotable_lines.map((q, i) => (
+                              <li key={i} style={{ marginBottom: '0.5rem' }}>
+                                <em>"{q.quote}"</em>
+                                {q.source && <span style={{ opacity: 0.6, fontSize: '0.85rem' }}> — {q.source}</span>}
+                              </li>
+                            ))}
+                          </ul>
                         </div>
                       )}
 
