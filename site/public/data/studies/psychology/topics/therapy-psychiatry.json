@@ -1,0 +1,402 @@
+{
+  "topic_id": "TOPIC_PSY_therapy_psychiatry",
+  "study_id": "psychology",
+  "canonical_name": "Therapy / Psychiatry",
+  "slug": "therapy-psychiatry",
+  "status": "drafted",
+  "definition": "Therapy and psychiatry in PKD's work encompass the institutional and interpersonal dimensions of mental health treatment — therapeutic encounters, psychiatric authority, rehabilitation programs, and PKD's own ambivalent relationship with the psychiatric profession.",
+  "pkd_relevance": "PKD both sought and resisted psychiatric help throughout his life, and this ambivalence permeates his fiction. His therapists and psychiatrists are sometimes sympathetic but often agents of social control. His treatment centers are sometimes healing environments but more often systems of containment. This reflects PKD's Laingian suspicion that psychiatry pathologizes valid perceptions.",
+  "in_the_fiction": "Dick depicts therapeutic and psychiatric settings in Clans of the Alphane Moon (1964), an entire society organized by psychiatric diagnostic categories. Martian Time-Slip (1964) features Dr. Glaub, a sympathetic but limited psychiatrist. A Scanner Darkly (1977) presents New-Path, a rehabilitation program that is itself a front for the drug it purports to treat. The psychiatric ward recurs across PKD's fiction as a space of ambiguous authority.",
+  "in_the_exegesis": "Dick writes about his own therapy experiences and engages in extensive self-analysis throughout the Exegesis. He applies various psychological frameworks (Jungian, Freudian, neuropsychological) to his own experiences, effectively conducting a prolonged self-therapy. He also reflects on the limits of psychiatric categories for capturing his 2-3-74 experiences.",
+  "intellectual_background": "PKD's treatment of psychiatry is shaped by Laing's anti-psychiatry movement, Szasz's critiques of institutional psychiatry, the Jungian therapeutic tradition, and the broader countercultural suspicion of medical authority in the 1960s-70s. His personal experience in therapy provides empirical grounding.",
+  "scholarly_debate": "Sutin documents PKD's therapeutic history. Palmer reads PKD's anti-psychiatric stance as a coherent philosophical position, not merely personal resentment. Mackey argues that PKD's fiction critiques specific institutional practices rather than therapy as such. Davis notes that the Exegesis functions as a form of self-directed therapeutic writing.",
+  "chronology_summary": "Psychiatric themes appear from Clans of the Alphane Moon (1964) onward, with the critique deepening through A Scanner Darkly (1977). The Exegesis represents PKD's most sustained engagement with therapeutic self-examination.",
+  "contradictions_summary": "PKD critiques psychiatric authority while relying on psychiatric and psychological frameworks for self-understanding. He simultaneously rejects diagnostic categories and uses them, distrusts therapists and engages in prolonged self-therapy.",
+  "related_thinkers": [],
+  "editorial_notes": "Present PKD's psychiatric encounters as biographical facts and his critiques of psychiatry as intellectual positions. Cross-reference with Schizophrenia, Psychosis, and Addiction for the conditions therapy addresses. Note that PKD's anti-psychiatry reflects a specific historical moment.",
+  "open_questions": [
+    "Does PKD's fiction offer a coherent alternative to institutional psychiatry, or only a critique?",
+    "How does PKD's depiction of therapy compare with contemporaneous anti-psychiatric literature (Laing, Szasz, Kesey)?",
+    "Is the Exegesis itself a therapeutic document, and if so, what kind of therapy does it represent?"
+  ],
+  "passage_count": 16,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": null,
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "evidence_packets": [
+    {
+      "ev_id": "SEV_RAW_TOPIC_PSY_therapy_psychiatry",
+      "claim_text": null,
+      "evidence_summary": null,
+      "confidence": null,
+      "source_method": "deterministic",
+      "lane_a_count": 1,
+      "lane_b_count": 9,
+      "lane_c_count": 6,
+      "passages": [
+        {
+          "passage_id": 19597,
+          "lane": "A",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_DICK_PHILIP_KINDRED_THE_SIMULACRA_LIBGEN",
+          "doc_title": "The Simulacra",
+          "passage_text": "The buzzing, super-alert, obnoxiously persistent reporting machine said, 'Is it true, Dr Egon Superb, that\nyou're going to try to enter your office today?'\n  \n There should have been some way to keep reporting machines out of one's house, Dr Superb reflected.\nHowever, there was not. He said, 'Yes. As soon as I finish this breakfast which I am eating I will get into\nmy wheel, drive to downtown San Francisco, park in a lot, walk directly to my office on Post Street,\nwhere as usual I will give psyc",
+          "matched_terms": [
+            "psychotherapy"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19604,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "God is the outcome, the backward teleological purpose of it all. In my James-James dream, Kathy represents the last step it can go causually; for the next step to occur (from man the mortal to God the immortal) someone adventitious (the scouts) must come here, from non-Earth, outside, etc. They relieve the tension (pressure) on the incumbent form, the human being, by a transmutation of him, rather than a \"higher species\" born from a physical womb. It will somehow resemble a healing or therapeuti",
+          "matched_terms": [
+            "therapeutic"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19608,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Conclusion: the person has a rich fantasy world. He has dissociated personalities + experiences (ever since an auto accident he has complained of periodic amnesia). The \"hidden message\" in the novel + the \"remembering ancient Rome\" indicate strong unconscious wishes directed toward Christ's imagines return. It is touching that the human hopes for a redeemer could yield such elaborate phantasies. A dearth of real experiences is indicated. Therapy indicated.",
+          "matched_terms": [
+            "Therapy"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19609,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "These instincts, which 'present the delusive appearance of forces striving after change + progress' actually impel the organism toward the reinstatement of earlier, more stable states, ultimately to inorganic existence. The originally biological principle that ontogeny recapitulates phylogeny has received very wide psychological extension in psychoanalysis; most recently Carl Jung has identified his doctrine of the collective unconscious with that of 'the microcosm containing the archetype of al",
+          "matched_terms": [
+            "psychoanalysis"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19612,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "In my view There is a floating discorporate super + consciousness that descends on humans, this is \"baptism in the spirit\": it enters from outside: it is not in the person; it is not intrinsic, innate; so his soul is not in him simply waiting to be released or assembled If this is the case, justification does indeed lie beyond the person's reach, on his own. what t psychiatry isn't going to help him.",
+          "matched_terms": [
+            "psychiatry"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19605,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "..but on a deeper level, although it \"fits,\" really, the mystery deepens. \"Of course it lapsed into Attic Greek. After all, that's the language it used when it talked to Socrates.\" As Dr. Bear said, \"Why Greek, and not, say, Hebrew?\" Well, here is the answer. I guess (chuckle chuckle, very nervously. This is mind-blowing. This must mean something, everything. And validated by today's foremost psychiatrist.",
+          "matched_terms": [
+            "psychiatrist"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19610,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "➀ Well, so does the Gold Fish + the te Sophia revelation! tl it went on to the epiphany or + theophany, ego the info about Chrissys birth defect. An outright theophany the process that began with the divine material in \"Tears\" I e I dreamed I was working on my exegesis in it I reasoned: Freud showed that there are \"forgotten\" childhood (i.e. early) traumas, + his whole therapy consisted in taking the patient back to the trauma + reliving it, thus exor cising it + the neuritic fear it created in ",
+          "matched_terms": [
+            "therapy"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19606,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "(This was used in CLANS somewhat, when Ledebur had visions about the ship arriving.) Pre-cog dreams. The cities he dreams himself in are futuristic -- from the next century! Also -- my MBS script, later made into a minor short story, where the guy had a phobia from an event in the future -- why can't I expand on this story idea, here? Make a novel use of it? Man who remembers the future rather than the past -- the psychiatrist setting, even.",
+          "matched_terms": [
+            "psychiatrist"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19611,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It should have been the first place I looked. E of PH on universals (near the end of the article); \"That experience, thought, and language depend on the use of universals, in some sense, is undeniable, and the explanation of this is to be given by a suitably illuminating description of the world we experience ... The philosophical history of universals has been plagued by the persistent treatment of words as names, which has been made easier by philosophers' taking as their examples only objects",
+          "matched_terms": [
+            "treatment"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19607,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "God is the outcome, the backward teleological purpose of it all. In my James-James dream, Kathy represents the last step it can go causually; for the next step to occur (from man the mortal to God the immortal) someone adventitious (the scouts) must come here, from non-Earth, outside, etc. They relieve the tension (pressure) on the incumbent form, the human being, by a transmutation of him, rather than a \"higher species\" born from a physical womb. It will somehow resemble a healing or therapeuti",
+          "matched_terms": [
+            "therapeutic"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19602,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_SFC31",
+          "doc_title": "SF Commentary, Issue 31 (Philip Dick in Vancouver)",
+          "passage_text": ":: \nEXTRA CREDITS FOR SFC 30; Drawing page 19 by \nLindsay Cox; production help by Ken Ford (who \njoins the exclusive band); and the Space Age's \naddress is 317 Swanston Street, Melbourne.\nS F COMMENTARY 30 CHECKLIST\nBrian Aldiss: REPORT ON PROBABILITY A (45) * \nAustralian Union of Students: QUALITY IN AUSTRA­\nLIAN EDUCATION CONFERENCE, MAY 1972 (27-38, 48) \n* Mike Bailey (4) * THE BIBLE (36) * Bill Bowers \n(ed«): OUTWORLDS (46) * Boyers and Orrill \n(eds.); LAING AND ANTI-PSYCHIATRY (42) * Ray",
+          "matched_terms": [
+            "PSYCHIATRY"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19600,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_PKD_DOC_ADDR_PKD_ADDRESSES",
+          "doc_title": "Philip K. Dick: Addresses and Residences Chronology",
+          "passage_text": "Columbia, Vancouver, BC,\nCanada\nConference\nVenue\nIn 1972, Dick delivered his influential\nspeech \"The Android and the Human\" at\nVCON 2.\nMetz City Hall, Metz,\nFrance\nConference\nVenue\nIn 1977, gave \"If You Find This World Bad,\nYou Should See Some of the Others\" at\nthe Metz Sci-Fi Festival.\nSir Francis Drake Hotel,\nSan Francisco, CA\nConvention\nVenue\nAttended the 12th World Science Fiction\nConvention (Worldcon) in 1954.\nX-Kalay Rehabilitation\nCenter, Vancouver, BC,\nCanada\nRehab Center\nUnderwent treat",
+          "matched_terms": [
+            "treatment"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19598,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_ME_AND_PKD",
+          "doc_title": "Me and PKD",
+          "passage_text": "He had this experience that changed his life, and\nspent the rest of his life working on it. That’s kind of like my story. Similarly, when he sold his first\nstory, from then on out, he was a writer, which is how I’ve always felt about my artwork. We both\nhad decisive moments that solidified our life’s work. I painted him immediately and thus began\nmy real journey into PKD. I bought the Exegesis along with any other book I could find.\nDick often includes discussions about psychology and therapy in",
+          "matched_terms": [
+            "therapy"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19603,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_SIMULACRUM_MELTDOWN_03",
+          "doc_title": "Simulacrum Meltdown, Issue 3",
+          "passage_text": "last issue.  The web is great, but these printed artifacts should not be neglected. \n \nI'd like to correct some statements in SimMelt #2 about the timing of \"Vulcan's Hammer\".  First of all, there \nis definitely a long sf story that predates \"Time Pawn\", and that is \"The Variable Man\", from the pre-SMLA \nperiod.  It is easily the longest story not later expanded into a novel (and I believe only because it was \nalready used as the title story in a collection was it not ripe for such treatment).",
+          "matched_terms": [
+            "treatment"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19601,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1984_MAR_VOL_11_",
+          "doc_title": "Towards a Theory of Paranoia: The Science Fiction of Philip K. Dick",
+          "passage_text": "various ways-as reification, for instance, by Luk'acs, and as counter-finality by \nSartre. Yet Philip Dick, when writing discursively of quasi-living \"things,\" \nchooses a term not directly related to Marxism at all but one drawn from the \nThis content downloaded from 91.229.229.158 on Fri, 20 Jun 2014 22:50:30 PM\nAll use subject to JSTOR Terms and Conditions\n16 \nSCIENCE-FICTION STUDIES, VOLUME 11 (1984) \ndifferent science of psychoanalysis: paranoia.",
+          "matched_terms": [
+            "psychoanalysis"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19599,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_ME_AND_PKD",
+          "doc_title": "Me and PKD",
+          "passage_text": "One day I\nwent to the bookstore to look for a new PKD book. I walked right in, went to the section, saw\nDeus Irae, picked it up and went to the counter. This was probably my fastest and most decisive\nbookstore trip ever. When I walked up to the counter there was a lady standing there talking to\nthe teller about her new business. Conversationally I just chimed in “Oh, what’s your business?”\nThe woman told me she was about to open a private therapy practice and I immediately said,",
+          "matched_terms": [
+            "therapy"
+          ],
+          "claim_type": null,
+          "confidence": null
+        }
+      ]
+    }
+  ],
+  "contradictions": [],
+  "chronology": [
+    {
+      "year": "1964",
+      "date": "1964",
+      "doc_title": "The Simulacra",
+      "event_type": "novel",
+      "doc_id": "DOC_ARCH_DICK_PHILIP_KINDRED_THE_SIMULACRA_LIBGEN",
+      "doc_slug": "dick-philip-kindred-the-simulacra-libgen-li"
+    },
+    {
+      "year": "1972",
+      "date": "1972",
+      "doc_title": "SF Commentary, Issue 31 (Philip Dick in Vancouver)",
+      "event_type": "archive_pdf",
+      "doc_id": "DOC_ARCH_SFC31",
+      "doc_slug": "sfc31"
+    },
+    {
+      "year": "1975",
+      "date": "1975-02-27",
+      "doc_title": "Claudia",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_010",
+      "doc_slug": "section-010"
+    },
+    {
+      "year": "1976",
+      "date": "1976-09-15",
+      "doc_title": "Dorothy",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_015",
+      "doc_slug": "section-015"
+    },
+    {
+      "year": "1978",
+      "date": "1978-10-10",
+      "doc_title": "Letter",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_016",
+      "doc_slug": "section-016"
+    },
+    {
+      "year": "1981",
+      "date": "1981-04-16",
+      "doc_title": "Pat",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_017",
+      "doc_slug": "section-017"
+    },
+    {
+      "year": "1984",
+      "date": "1984",
+      "doc_title": "Towards a Theory of Paranoia: The Science Fiction of Philip K. Dick",
+      "event_type": "scholarship",
+      "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1984_MAR_VOL_11_",
+      "doc_slug": "science-fiction-studies-1984-mar-vol-11-iss-1-towards-a-theory-of-paranoia-the-s"
+    },
+    {
+      "year": "2001",
+      "date": "2001",
+      "doc_title": "Simulacrum Meltdown, Issue 3",
+      "event_type": "archive_pdf",
+      "doc_id": "DOC_ARCH_SIMULACRUM_MELTDOWN_03",
+      "doc_slug": "simulacrum-meltdown-03"
+    }
+  ],
+  "related_documents": [
+    {
+      "doc_id": "DOC_EXEG_SECTION_010",
+      "title": "Claudia",
+      "doc_type": "exegesis_section",
+      "relevance": "substantial",
+      "passage_count": 4,
+      "slug": "section-010"
+    },
+    {
+      "doc_id": "DOC_ARCH_ME_AND_PKD",
+      "title": "Me and PKD",
+      "doc_type": "archive_pdf",
+      "relevance": "mentions",
+      "passage_count": 2,
+      "slug": "me-and-pkd"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_015",
+      "title": "Dorothy",
+      "doc_type": "exegesis_section",
+      "relevance": "mentions",
+      "passage_count": 2,
+      "slug": "section-015"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_016",
+      "title": "Letter",
+      "doc_type": "exegesis_section",
+      "relevance": "mentions",
+      "passage_count": 2,
+      "slug": "section-016"
+    },
+    {
+      "doc_id": "DOC_ARCH_DICK_PHILIP_KINDRED_THE_SIMULACRA_LIBGEN",
+      "title": "The Simulacra",
+      "doc_type": "novel",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "dick-philip-kindred-the-simulacra-libgen-li"
+    },
+    {
+      "doc_id": "DOC_ARCH_PKD_DOC_ADDR_PKD_ADDRESSES",
+      "title": "Philip K. Dick: Addresses and Residences Chronology",
+      "doc_type": "scholarship",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "pkd-doc-addr-pkd-addresses"
+    },
+    {
+      "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1984_MAR_VOL_11_",
+      "title": "Towards a Theory of Paranoia: The Science Fiction of Philip K. Dick",
+      "doc_type": "scholarship",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "science-fiction-studies-1984-mar-vol-11-iss-1-towards-a-theory-of-paranoia-the-s"
+    },
+    {
+      "doc_id": "DOC_ARCH_SFC31",
+      "title": "SF Commentary, Issue 31 (Philip Dick in Vancouver)",
+      "doc_type": "archive_pdf",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "sfc31"
+    },
+    {
+      "doc_id": "DOC_ARCH_SIMULACRUM_MELTDOWN_03",
+      "title": "Simulacrum Meltdown, Issue 3",
+      "doc_type": "archive_pdf",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "simulacrum-meltdown-03"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_017",
+      "title": "Pat",
+      "doc_type": "exegesis_section",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "section-017"
+    }
+  ],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": []
+}

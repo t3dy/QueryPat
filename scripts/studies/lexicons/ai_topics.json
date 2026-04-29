@@ -1,0 +1,140 @@
+{
+  "ai": {
+    "primary": ["artificial intelligence", "AI"],
+    "aliases": ["machine mind", "thinking machine", "electronic brain", "computer intelligence"],
+    "exclusions": [],
+    "context_markers": ["sentient", "conscious", "program", "algorithm"]
+  },
+  "robots": {
+    "primary": ["robot", "robots"],
+    "aliases": ["automaton", "automata", "mechanical man", "mechanical men"],
+    "exclusions": [],
+    "context_markers": ["factory", "labor", "servo", "mechanical"]
+  },
+  "androids": {
+    "primary": ["android", "androids"],
+    "aliases": ["artificial person", "artificial human", "humanoid robot", "simulacrum", "simulacra", "andy", "andys"],
+    "exclusions": ["Android phone", "Android OS", "android app"],
+    "context_markers": ["Deckard", "Voigt-Kampff", "empathy test", "bounty hunter", "Nexus", "Rosen", "replicant"]
+  },
+  "artificial-persons": {
+    "primary": ["artificial person", "artificial persons"],
+    "aliases": ["synthetic human", "synthetic person", "manufactured being", "constructed person"],
+    "exclusions": [],
+    "context_markers": ["legal status", "personhood", "rights", "citizenship"]
+  },
+  "simulation": {
+    "primary": ["simulation", "simulated"],
+    "aliases": ["virtual reality", "simulated world", "simulated reality", "fake world", "illusory world", "constructed reality"],
+    "exclusions": ["flight simulation", "computer simulation"],
+    "context_markers": ["matrix", "fake", "illusion", "veil", "Maya", "demiurge", "Black Iron Prison"]
+  },
+  "machine-intelligence": {
+    "primary": ["machine intelligence"],
+    "aliases": ["computer mind", "electronic consciousness", "machine thought", "machine consciousness", "artificial mind"],
+    "exclusions": [],
+    "context_markers": ["Turing", "sentience", "cognition", "program"]
+  },
+  "control-systems": {
+    "primary": ["control system", "control systems"],
+    "aliases": ["social control", "political control", "totalitarian system", "authoritarian control", "technocratic control"],
+    "exclusions": [],
+    "context_markers": ["state", "government", "surveillance", "authority", "power"]
+  },
+  "automation": {
+    "primary": ["automation", "automated"],
+    "aliases": ["mechanization", "mechanized", "automatic", "self-operating"],
+    "exclusions": [],
+    "context_markers": ["labor", "worker", "factory", "job", "employment", "obsolete"]
+  },
+  "cybernetics": {
+    "primary": ["cybernetics", "cybernetic"],
+    "aliases": ["feedback loop", "feedback system", "Wiener", "information theory", "systems theory"],
+    "exclusions": [],
+    "context_markers": ["Norbert Wiener", "control", "communication", "system", "feedback"]
+  },
+  "surveillance": {
+    "primary": ["surveillance"],
+    "aliases": ["monitoring", "watching", "spying", "wiretap", "wiretapping", "eavesdrop", "eavesdropping", "bugging"],
+    "exclusions": [],
+    "context_markers": ["police", "government", "paranoia", "scanner", "Fred", "Hank"]
+  },
+  "bureaucratic-control": {
+    "primary": ["bureaucracy", "bureaucratic"],
+    "aliases": ["bureaucratic control", "administrative control", "paper-pushing", "red tape", "kafkaesque"],
+    "exclusions": [],
+    "context_markers": ["form", "document", "permit", "authority", "clerk", "official"]
+  },
+  "programming": {
+    "primary": ["programming", "programmed"],
+    "aliases": ["coded", "pre-programmed", "implanted program", "behavioral programming", "conditioned"],
+    "exclusions": ["computer programming", "TV programming"],
+    "context_markers": ["behavior", "control", "free will", "autonomy", "choice"]
+  },
+  "counterfeit-humanity": {
+    "primary": ["counterfeit human", "counterfeit humanity"],
+    "aliases": ["fake human", "imitation human", "passing as human", "mimicking humanity", "false human"],
+    "exclusions": [],
+    "context_markers": ["Voigt-Kampff", "empathy", "android", "test", "real", "authentic"]
+  },
+  "empathy-testing": {
+    "primary": ["empathy test", "empathy testing"],
+    "aliases": ["Voigt-Kampff", "Voigt-Kampff test", "Boneli test", "empathy scale", "humanity test"],
+    "exclusions": [],
+    "context_markers": ["android", "bounty hunter", "Deckard", "reaction time", "pupil", "blush response"]
+  },
+  "implanted-memory": {
+    "primary": ["implanted memory", "implanted memories"],
+    "aliases": ["false memory", "artificial memory", "memory implant", "fabricated memory", "manufactured memory", "inserted memory"],
+    "exclusions": [],
+    "context_markers": ["Rachael", "Deckard", "owl", "photograph", "remember", "childhood"]
+  },
+  "fabricated-identity": {
+    "primary": ["fabricated identity", "false identity"],
+    "aliases": ["constructed identity", "fake identity", "assumed identity", "manufactured identity", "cover identity"],
+    "exclusions": [],
+    "context_markers": ["who am I", "real name", "disguise", "impostor", "authentic self"]
+  },
+  "posthuman-cognition": {
+    "primary": ["posthuman", "post-human"],
+    "aliases": ["transhuman", "enhanced cognition", "augmented mind", "evolved consciousness", "superhuman intelligence"],
+    "exclusions": [],
+    "context_markers": ["evolution", "transcendence", "beyond human", "next stage"]
+  },
+  "simulation-of-mind": {
+    "primary": ["simulation of mind", "simulated mind"],
+    "aliases": ["mind simulation", "artificial consciousness", "synthetic consciousness", "machine consciousness"],
+    "exclusions": [],
+    "context_markers": ["consciousness", "awareness", "sentience", "qualia", "inner life"]
+  },
+  "labor-automation": {
+    "primary": ["labor automation"],
+    "aliases": ["automated labor", "robot worker", "robot labor", "machine labor", "technological unemployment", "job replacement"],
+    "exclusions": [],
+    "context_markers": ["worker", "employment", "obsolete", "displaced", "economic"]
+  },
+  "technological-domination": {
+    "primary": ["technological domination"],
+    "aliases": ["technocracy", "machine domination", "technological tyranny", "technological control", "technology as oppression"],
+    "exclusions": [],
+    "context_markers": ["control", "power", "oppression", "resistance", "freedom"]
+  },
+  "reality-testing": {
+    "primary": ["reality testing", "reality test"],
+    "aliases": ["what is real", "test of reality", "distinguish real from fake", "authenticity test"],
+    "exclusions": [],
+    "context_markers": ["real", "fake", "illusion", "authentic", "genuine", "counterfeit"]
+  },
+  "false-reality": {
+    "primary": ["false reality", "fake reality"],
+    "aliases": ["simulated reality", "illusory reality", "constructed reality", "manufactured reality", "pseudo-reality"],
+    "exclusions": [],
+    "context_markers": ["simulation", "matrix", "veil", "illusion", "Maya", "dream", "hallucination"]
+  },
+  "android-affect": {
+    "primary": ["android affect", "android emotion"],
+    "aliases": ["machine emotion", "artificial emotion", "robot feeling", "synthetic feeling", "artificial empathy"],
+    "exclusions": [],
+    "context_markers": ["feel", "emotion", "empathy", "love", "compassion", "android", "Rachael", "Luba Luft"]
+  }
+}

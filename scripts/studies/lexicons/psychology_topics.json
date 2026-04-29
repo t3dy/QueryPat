@@ -1,0 +1,140 @@
+{
+  "paranoia": {
+    "primary": ["paranoia", "paranoid"],
+    "aliases": ["persecution complex", "persecutory", "conspiracy", "they are watching", "being followed", "paranoid ideation"],
+    "exclusions": [],
+    "context_markers": ["fear", "suspicion", "government", "plot", "watched", "followed", "spy", "agent"]
+  },
+  "schizophrenia": {
+    "primary": ["schizophrenia", "schizophrenic"],
+    "aliases": ["split personality", "dissociation", "psychotic break", "thought disorder", "hebephrenic"],
+    "exclusions": [],
+    "context_markers": ["voices", "hallucination", "delusion", "reality", "break", "hospital", "diagnosis"]
+  },
+  "psychosis": {
+    "primary": ["psychosis", "psychotic"],
+    "aliases": ["break with reality", "delusional", "hallucinating", "mad", "madness", "insanity", "insane"],
+    "exclusions": [],
+    "context_markers": ["reality", "delusion", "hallucination", "hospital", "episode", "breakdown"]
+  },
+  "empathy": {
+    "primary": ["empathy", "empathic"],
+    "aliases": ["compassion", "fellow-feeling", "emotional attunement", "emotional resonance", "caritas", "agape"],
+    "exclusions": [],
+    "context_markers": ["human", "android", "animal", "suffering", "feel", "care", "Mercer", "Mercerism"]
+  },
+  "trauma": {
+    "primary": ["trauma", "traumatic"],
+    "aliases": ["traumatized", "PTSD", "post-traumatic", "psychological wound", "psychic wound"],
+    "exclusions": ["physical trauma", "head trauma"],
+    "context_markers": ["childhood", "abuse", "neglect", "loss", "death", "memory", "recovery"]
+  },
+  "addiction": {
+    "primary": ["addiction", "addicted"],
+    "aliases": ["substance abuse", "drug dependency", "chemical dependency", "habit", "compulsion"],
+    "exclusions": [],
+    "context_markers": ["drug", "substance", "withdrawal", "dependency", "using", "clean", "sober"]
+  },
+  "amphetamine-use": {
+    "primary": ["amphetamine", "amphetamines"],
+    "aliases": ["speed", "Semoxydrine", "Benzedrine", "Dexedrine", "stimulant", "pep pills", "uppers"],
+    "exclusions": [],
+    "context_markers": ["writing", "productivity", "prescription", "abuse", "withdrawal", "crash", "manic"]
+  },
+  "identity-diffusion": {
+    "primary": ["identity diffusion", "identity crisis"],
+    "aliases": ["who am I", "loss of identity", "identity confusion", "dissolved identity", "fragmented identity", "identity dissolution"],
+    "exclusions": [],
+    "context_markers": ["self", "authentic", "real", "fake", "double", "mirror", "reflection"]
+  },
+  "double-doppelganger": {
+    "primary": ["double", "doppelgänger", "doppelganger"],
+    "aliases": ["twin", "mirror image", "duplicate", "copy", "other self", "alter ego", "shadow self"],
+    "exclusions": ["double check", "double down"],
+    "context_markers": ["identical", "mirror", "reflection", "impostor", "replacement", "clone"]
+  },
+  "dream-interpretation": {
+    "primary": ["dream interpretation", "dream analysis"],
+    "aliases": ["dream meaning", "dream symbol", "dream symbolism", "oneiric", "dream work", "dreamwork"],
+    "exclusions": [],
+    "context_markers": ["Freud", "Jung", "unconscious", "symbol", "manifest", "latent", "nightmare"]
+  },
+  "jung": {
+    "primary": ["Jung", "Jungian"],
+    "aliases": ["Carl Jung", "C.G. Jung", "analytical psychology", "depth psychology"],
+    "exclusions": [],
+    "context_markers": ["archetype", "collective unconscious", "individuation", "shadow", "anima", "animus", "Self", "synchronicity", "mandala"]
+  },
+  "synchronicity": {
+    "primary": ["synchronicity"],
+    "aliases": ["meaningful coincidence", "acausal connecting principle", "acausal parallelism"],
+    "exclusions": [],
+    "context_markers": ["Jung", "coincidence", "meaning", "pattern", "connection", "causal"]
+  },
+  "archetype": {
+    "primary": ["archetype", "archetypal"],
+    "aliases": ["archetype pattern", "universal pattern", "primordial image"],
+    "exclusions": [],
+    "context_markers": ["Jung", "collective unconscious", "shadow", "anima", "hero", "trickster", "mother", "father"]
+  },
+  "split-brain": {
+    "primary": ["split-brain", "split brain"],
+    "aliases": ["hemispheric lateralization", "left brain right brain", "corpus callosum", "bicameral mind", "bicameral"],
+    "exclusions": [],
+    "context_markers": ["hemisphere", "lateralization", "Jaynes", "consciousness", "bilateral"]
+  },
+  "memory": {
+    "primary": ["memory", "memories"],
+    "aliases": ["remembrance", "recollection", "recall", "mnemonic"],
+    "exclusions": ["in memory of", "memory card", "memory chip"],
+    "context_markers": ["remember", "forget", "past", "childhood", "lost", "recovered", "implanted", "false"]
+  },
+  "false-memory": {
+    "primary": ["false memory", "false memories"],
+    "aliases": ["implanted memory", "fabricated memory", "manufactured memory", "pseudo-memory", "confabulation"],
+    "exclusions": [],
+    "context_markers": ["implant", "artificial", "real", "authentic", "believe", "Rachael", "android"]
+  },
+  "therapy-psychiatry": {
+    "primary": ["therapy", "psychiatry", "psychiatrist", "therapist"],
+    "aliases": ["psychotherapy", "psychoanalysis", "psychoanalyst", "analyst", "counseling", "treatment", "therapeutic"],
+    "exclusions": ["physical therapy"],
+    "context_markers": ["patient", "session", "couch", "diagnosis", "treatment", "medication", "hospital"]
+  },
+  "anamnesis": {
+    "primary": ["anamnesis"],
+    "aliases": ["unforgetting", "recollection of the divine", "Platonic recollection", "anamnetic"],
+    "exclusions": [],
+    "context_markers": ["Plato", "remembering", "divine", "knowledge", "past life", "pre-existence", "2-3-74"]
+  },
+  "hypnagogic-state": {
+    "primary": ["hypnagogic", "hypnagogia"],
+    "aliases": ["falling asleep vision", "pre-sleep state", "threshold consciousness", "half-sleep", "liminal sleep"],
+    "exclusions": [],
+    "context_markers": ["sleep", "vision", "image", "phosphene", "threshold", "between", "waking"]
+  },
+  "hypnopompic-state": {
+    "primary": ["hypnopompic"],
+    "aliases": ["waking vision", "post-sleep state", "waking from sleep", "morning vision"],
+    "exclusions": [],
+    "context_markers": ["waking", "sleep", "vision", "morning", "dream", "consciousness"]
+  },
+  "dream-rituals-of-asclepius": {
+    "primary": ["Asclepius", "Asclepian"],
+    "aliases": ["temple sleep", "incubation", "dream incubation", "dream temple", "Asklepios", "Aesculapius"],
+    "exclusions": [],
+    "context_markers": ["healing", "dream", "temple", "Greek", "ritual", "vision", "cure", "serpent"]
+  },
+  "twin-motif": {
+    "primary": ["twin", "twins"],
+    "aliases": ["twin sister", "twin brother", "Jane Dick", "twinship", "lost twin"],
+    "exclusions": ["Twin Peaks"],
+    "context_markers": ["Jane", "sister", "death", "loss", "double", "mirror", "other half", "birth"]
+  },
+  "gaslighting-brainwashing": {
+    "primary": ["gaslighting", "brainwashing"],
+    "aliases": ["mind control", "thought control", "psychological manipulation", "coercive persuasion", "mental manipulation"],
+    "exclusions": [],
+    "context_markers": ["control", "manipulate", "reality", "doubt", "crazy", "sane", "insane"]
+  }
+}

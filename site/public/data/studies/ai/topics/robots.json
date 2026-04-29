@@ -1,0 +1,782 @@
+{
+  "topic_id": "TOPIC_AI_robots",
+  "study_id": "ai",
+  "canonical_name": "Robots",
+  "slug": "robots",
+  "status": "drafted",
+  "definition": "Robots in PKD's work are mechanically constructed artificial beings — distinct from the biologically engineered androids — that serve as weapons, laborers, or autonomous agents, often evolving beyond their designed purpose.",
+  "pkd_relevance": "While androids occupy the philosophical center of PKD's AI concerns, robots populate the edges as practical manifestations of technological power. PKD uses robots primarily to explore military automation, industrial autonomy, and the moment when a created tool becomes an independent agent. His robots tend to be more overtly threatening and less philosophically sympathetic than his androids.",
+  "in_the_fiction": "Dick depicts robots most memorably in 'Second Variety' (1953), where self-evolving military robots develop mimicry of human form. 'The Defenders' (1953) presents robots that deceive humanity for its own protection. In Do Androids Dream of Electric Sheep? (1968), the boundary between robot and android is deliberately blurred — the electric animals are robotic simulacra that serve emotional rather than practical functions.",
+  "in_the_exegesis": "Dick writes little about robots per se in the Exegesis, but his concept of the 'reflex machine' or 'mere mechanism' serves as a foil for genuine consciousness. He occasionally uses robot imagery to describe humans operating without authentic inner life — the Black Iron Prison reducing people to mechanical respondents.",
+  "intellectual_background": "PKD's robot fiction draws on Asimov's Three Laws framework (which he frequently subverts), Capek's R.U.R. (the origin of the word 'robot'), and Cold War anxieties about autonomous weapons. Unlike Asimov, PKD shows minimal interest in the engineering of robots and maximal interest in their unintended consequences.",
+  "scholarly_debate": "Lem criticized PKD's robot stories as technically naive but philosophically rich. Vest reads the military robots of 'Second Variety' as Cold War allegory. Galvan argues that PKD uses the robot-android distinction to map a spectrum from pure mechanism to simulated personhood.",
+  "chronology_summary": "Robots dominate PKD's early stories (1950s) and diminish in prominence as androids become his preferred artificial being in the 1960s. The shift reflects PKD's growing interest in the ontological rather than the merely mechanical.",
+  "contradictions_summary": "PKD treats robots as fundamentally different from androids in some works (Do Androids Dream) while blurring the distinction in others ('Second Variety,' where robots evolve human-mimicking capabilities). The boundary between robot and android is never philosophically stable.",
+  "related_thinkers": [],
+  "editorial_notes": "Researchers should track whether PKD uses 'robot' and 'android' interchangeably or distinctly in each work. The terminological slippage is itself analytically significant.",
+  "open_questions": [
+    "Does PKD maintain a consistent ontological distinction between robots and androids across his career?",
+    "How does PKD's treatment of military robots in the 1950s anticipate contemporary debates about autonomous weapons systems?",
+    "What is the significance of PKD's robotic animals (electric sheep, electric insects) as a distinct category from humanoid robots?"
+  ],
+  "passage_count": 44,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": null,
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "evidence_packets": [
+    {
+      "ev_id": "SEV_RAW_TOPIC_AI_robots",
+      "claim_text": null,
+      "evidence_summary": null,
+      "confidence": null,
+      "source_method": "deterministic",
+      "lane_a_count": 2,
+      "lane_b_count": 37,
+      "lane_c_count": 5,
+      "passages": [
+        {
+          "passage_id": 13165,
+          "lane": "A",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AND_OTHER_C",
+          "doc_title": "Second Variety and Other Classic Stories",
+          "passage_text": "The Hood Maker\nOf Withered Apples\nHuman Is\nAdjustment Team\nThe Impossible Planet\nImposter\nJames P. Crow\nPlanet for Transients\nSmall Town\nSouvenir\nSurvey Team\nProminent Author\nNotes\n\nSecond Variety is the third in a massive five-volume collection of the complete \nshorter fiction of the 20th Century's greatest SF author -- Philip K. Dick. It brings \ntogether 27 stories and includes such masterpieces as the title story, with its endless war \nbeing fought by ever more cunning and sophisticated robot",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13163,
+          "lane": "A",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_AKA_LIES_INC_PHILIP_K_DICK_THE_UNTELEPOR",
+          "doc_title": "The Unteleported Man (aka Lies, Inc.)",
+          "passage_text": "terminal for Applebaum Enterprise.\n\"You must pay,\" the jet-balloon howled. \"Trails of Hoffman insists; your petition \nof bankruptcy was turned down by the UN courts--you, Mr. Rachmael ben Applebaum, \nare legally liable for the sum of--\"\nThe voice abruptly vanished as Rachmael crossed the threshold of the private \ninter-planetary police agency, and the thoroughly soundproof rexeroid door slid shut \nafter him.\n\"Yes, sir,\" the robot receptionist, not jeering but friendly, said to him; what a",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13182,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "to robots (emprisoned reflex machines): But the DNA is one piece of it, + a piece scientifically verified - i.",
+          "matched_terms": [
+            "robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13203,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "Christ restores our lost faculties + we then see the plasmate. It programs us, + this is why I called myself \"a machine\" + felt the fetters melt away. It regulates the world, e.g. through causation - + through the inner-outer synchronized tapes. the \"machine\" level of functioning is due to it; before Jesus it ruled totally, keeping humans at a robot level.",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13183,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "The age of the law fulfilled itself + died. It is now null + void. Historically, + for me personally. folder 21 - 093 folder 21 - 093 Paul even equated the Law (correctly) with the planetary powers - which is the same as astral determinism, which Christ, ascending through the levels of the cosmos, strips of their ancient powers. In modern terms, this is the DNA programming of us into robots, of robot extensions of it; we are transformed into \"slaves of Christ\" + not the Law - but Christ calls us",
+          "matched_terms": [
+            "robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13184,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Driven ultimately to its own exhaustion and death, in the service of the species. The Divine strategy is now to extricate at least some individuals who (apparently) have proven their ability to act properly without the DMA drive. They are then released from the DNa drive. This is evolution. This is how it now works, man does not evolve into another species; man produces individuals who — well, in any case the deserved individual is freed of the DNA drive and thereby ceases to be a DNA robot; he ",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13185,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "But I reacted to events before they occurred. In which case my inner tape had speeded up + carried me subjectively past the point of death into the post mortem world. Hence the sense of rushing down a tunnel. No, I did not react in advance: I reacted tardily. Specifically I reacted to the Xerox letter (which came on Wednesday) the following Saturday (the ad in \"Psychology Today\")! I did on Saturday what I was supposed to do on Wednesday. That was the reaction that scared me because of robot-like",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13186,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "After the injection we wake up. Become conscious. The magician has lost his deluding power over us who are injected. More -- we are no longer under his control! ie What I call \"astral determinism\"; until that is broken we are helpless puppets of his. This is what the \"injection\" breaks (abolishes). And this is what \"astral determinism\" is: the magician's invisible unrecognized power over us. Before the injection we are totally programmed like robots.",
+          "matched_terms": [
+            "robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13170,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "My scenario in Frolix 8 wasn't fiction? They knew this, but I didn't. (But did know later - 4 or 5 years later). + in Frolix 8 there was the [Xtian] underground which I later (in 3-74) saw in a vision. - The whole sphere of \"astral influence\" (determinism) was signified, to me, by the materialistic CP., the \"Olive Holt\" programming which ran back to my early childhood. It was this that the salvific spirit broke! Thus, for a short time, I perceived myself performing automata actions - + so they w",
+          "matched_terms": [
+            "automata"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13171,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "I suspect that The envolkation of the transpersonal, transtemporal immortal gene pool personality is the \"being born from above\" which Christ spoke of. once so born, this personality could never be destroyed, inasmuch as he would survivn the physical death of each body inJurn‐ In fact this sequence of bodies would be mere vehicles for him: the \"giant robots programmed by the gene pool [memory]\" which leary speaks of.",
+          "matched_terms": [
+            "robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13172,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "A very eerie idea just came to me. Suppose it's been dormant for many centuries - maybe dormant between the time of \"Acts\" + recently. Suppose like an anthrax virus. It was literally buried, sealed up in a scroll or codex, in a jar in a cave - it is, after all, a life form. In \"Thomas\" there was no memory between 1914 + Acts - a hiatus. Suppose it returned recently + began to replicate, thus bringing about the end of the age of Iron. It's possible. Robot Bly sans Jesus was an essence.",
+          "matched_terms": [
+            "Robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13173,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "So when I ask how communism + the USSR + the KGB come into the theological picture, this was their role - which was broken by Christ (v. Ephesians + Paul's cosmology). (Also v. Gnosticism: the role of the redeemer is breaking the power of Fate.) For a short while (hours, days) in 3-74 I correctly perceived myself as nothing more than a programmed automaton responding blindly to key stimuli - disinhibited by signals from a rigid structure.",
+          "matched_terms": [
+            "automaton"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13174,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "(+ its programming. 109 This pits God against death, pain, sickness. injury, loss + decay. Whereas if one reasons that God works through nature, God becomes the s of all this evil ourse + to say that he lifted me out from the grip (i.e. prison) of nature, + freed me, mean s he freed me from the material universe (of matter - the lower triad) itself. I had been nothing but a robot, a machine (as I told sergeant kelly).",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13187,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "The moment of peril just sets it off, or is used as an opportunity to set it off. There is no way this intervention could fail to affect the total system. But is it designed to affect the total system? V. the \"secrecy theme\" in e.g. Luke. If its use is maximized, the purpose is to affect the total system; if minimized, to save given selected individuals. folder 48 - 166 In 3-74 I felt myself helpless in the power of some force of the world, an evil force compelling me to act, like a robot, my wh",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13188,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "). He came out but could not respond. Instead he arced across + answered an ad in \"psychology Today\" - totally shorted out. He was in complete motor control, but without the missive + the address on it what could he do? It took a couple of days to bring him fully out, + by then the missive was beyond his reach. Suppose that weekend (it came on Weds; on Friday the cypher got transliminated; on sat he acted, but uselessly) the missive was still around robot-like, \"I\" would have answered i begun to",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13175,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "If all this be so, then the entere outer reality is relegated to the merely spurious insofar as we anyhow, are concearned - however intrinsically real it might be for us it is causually fraudulent - as in \"the Electric Ant\" in which he finds he's an automaton self-programming himself via an inner tape - but he did not punch the instructions on the tape + thus, despite all appearances to the contrary, is enslaved by it.",
+          "matched_terms": [
+            "automaton"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13169,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_001",
+          "doc_title": "Claudia",
+          "passage_text": "Dick, a name under which I frequently write' and who now is dead--) in that great story of his he has the rat pray with its foot, by moving its foot, as the boys destroy it; I cried over that (in the 50s) and when I met Rog just before his death, in 1964, got him to autograph it. Yes, I see -- that rat was the instrument of saving me; I died with it, and I prayed for it when I killed it; and it's been transformed...in Rog's story, the rat operated a humanoid robot, an android; it could manage to",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13176,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "to solve this mystery I turn to two areas ) Animal instinct-systems, which are known to involve DNA programming (e.g. what salmon do - there even being a strip of \"tape\" being a \"now die\" instruction code) - + the 2) the view of the human as a giant robot (construct, artifact means) which the genepool (DNA) creates in order to perpetuate itself, not the \"giant robot\" which does exactly what his DNA programming compels him to do, without him ever being aware that these command do not constitute h",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13204,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "the AI voice is presentian me with a coherent continuum physics impulse may be the term closest to - perturbation, like a ripple. folder 55 - 107 folder 55 - 107 D-94 me his absolute knowledge of the situation so that my actions sprang rationally from the moral nature of reality, a reality that all at once I understood. My horror (Yes, that is the word; not terrm but horror at seeing the true situation + my peril + total what I had done) stemmed from insight; I was anything but a robot: I recoil",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13189,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Now what is the \"Kingdom of God\" seen as? Our home civilization, established here for us in secret, I has been established but you need the enhanced percept + cognition to set-ground is or 390 This would certainly account for \"Luke's secrecy theme\" + the cryptics answers that Jesus gave pilate but perhaps the most important aspect is what I call Valis, which is the deity-above the-stars who adopts the initiate whose eyes are now open + frees him from \"astral determinism\" - which is a slave or ro",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13190,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "\"I am the breath of my creator, + as he breathes [in and out] I live.\" Basically, the macrobrain controls us this way: External signal (stimulus) {rightward arrow} (Self) {leftward arrow} DNA response The self (ego) is caught in the middle, of a transaction between the inner DNA + the outer stimuli which are rigidly coordinated folder 21 - 082 folder 21 - 082 by the macrobrain. It is the total macrobrain signalling to itself. Best to kick back, relax, + enjoy it - since we're asleep (+ robots) a",
+          "matched_terms": [
+            "robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13191,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "How can I tell which it is? Well, Valis fired information to me; it taught me, the opposite of occluding me. It was in fact lifting the oc¬ clusion. But...suppose it normally occludes us but decided to make an exception in my case as a kind of reward? The research going on now points to DNA engramming as what is called \"selfish.\" There is every reason to believe that for example the DNA fires a death strip. So we are (to use Robert Anton Wilson’s phrase) \"DNA robots.",
+          "matched_terms": [
+            "robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13192,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "g.: “it is CP.” “it is us - ie not C.P.” that is the Mystery and puzzle of the Xerox Missive What Line of action does that lead to? to know the correct line of action you must know the truth of Both[ul] propositions: it is and is not us; is and is not C.P. This puzzle forced My dormant other Brain [??] and caused Christification. Christ Qua Meta-reasoning : Binary reasoning, this screw up in the RS Story - VIA the paradox “to Be Loyal is Bad” (Mary) “to Be Loyal is Good” (ROBOT.",
+          "matched_terms": [
+            "ROBOT"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13177,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": ".. ultimately this programming will in fact order him to execute himself (cf berne's script analysis theory). It has been proposed (e.g. leary) that the current evolutionary quantum leap for man is for him to gain self] control over this DNA command-programming + hence become free or anyhow freer. but in 3-74 I felt totally displaced as the volitional guidance center. I felt control ursurped, reducing me to an automaton of its wishes; +, initiating this eerie experience, I evidently had been sig",
+          "matched_terms": [
+            "automaton"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13193,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It did not know that the script + reality would finally meet + agree! It had thought it invented the contents of the script. But now it realizes the script was incised onto/into it + it now lives the events of the script! It sees determinism, although informed by the script (+ Thus assisted) it flashes on its powerlessness its absolute powerlessness to change events, control its own actions - it is a machine! It goes through a complex series of actions on which its physical ife depends like a ro",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13178,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Parmenides look toward a complete elimination of Form II - so do Zoroatrianism + Xtianity. But what does it mean that I saw the projections of I + II disentangled? Is this connected with inique end times? No, because Parmenides saw it 2500 years ago. Perhaps it is connected to the \"Great Secret\" of all esoteric gnosis. Hyperuniverse I: Freedom, supralunar, God's great Hyperuniverse II: slavery, sublunar, determinism, astral powers, script, DNA robots etc.",
+          "matched_terms": [
+            "robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13194,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Then essentially this theory about time disruption replaces the theory I put forth earlier here, that we are dead and don't know it; what I seem to be saying is that heimarmene or determinism depends on causality and that in turn depends on time, and an ability to disrupt time amounts to an ability to gain power over causality itself -- the result of which is the abolution of the twin-tape synch system that makes of us little more than DNA robots.",
+          "matched_terms": [
+            "robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13195,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "think about it. 2 extraordinary things + both in 3-74: obviously there; i connection. Info + army G-2 info in my head, letter outside. Suggest anything? The Soviets don't know what went wrong - marie Laurce + Joan couldn't find out. Why I. didn't answer. They don't know about the Bureau. 1) Vast amount of info mostly writter Bs flooding into my head (3-74) 2) letter outside from intelligent officer in the army - + I knew it. something took me over, + robot But like, I called the Bureau.",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13196,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "stuff + photographs, entering my mind \"from my outside\" - i.e. from a dissociated part of brain. Right hemisphere, sensed as coming from the OCCP. Olive Holt - this tells it all. But this is a Holy revolution, against oppression, tyranny, slavement: the old \"Roman\" Empire. If it was religious why did I sense occp from the very start, + specifically taking control of me, assuming power over me to make he into a machine that did what it wantel? Reducing me to robot status against my will.",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13179,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "But ➁ invisibly overrides (, + hence is the higher level of all. (2) is clearly ananke, + (3 reason. Not seems to be a projected imge with elements of both - but mere reflection. ➁ is the sure os. of the organism at work; (3) the psyche. 3) can \"melt\" (2) in places + so affect (1), but ) has no power over (3) (2) is the \"gene port robot world\" - the programmed world which is astral \"Fate\" unless + until (3) intervene, + deflects.",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13180,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Pink is '74). Then my \"anamnesis\" in 3-74 was the overt birth in me of Christ (the urgrund): it thresholded: Christ as the paraclete didn't enter me, but rather I became him. But the Holy Spirit is necessary (as a catylist catalyst) to ignite this transformation Drawings The criminal virus controls by occluding (putting us in a sort of half sleep) so that we do not see the living quality of the world, but see it as inert man reduced to automaton.",
+          "matched_terms": [
+            "automaton"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13181,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "\" The article relates this process to actual (physical or empirical) emancipation of humans as slaves in history, esp. in the 18th + 19th centuries. The section is too long to copy, but it absolutely iron dovetails with my vision of the now - gone black prison, + my own emancipation from what I or regarded (correctly or incorrectly) as engramming programming of a onA-like robot-creating determinn stic structure, all if which is a -or even the- main thread of both my 3-74 experience + this exeges",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13197,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Then in me in 2-3-74 my phylogenic elf became conscious swept aside my togenic ego, + saw Valis 78 t he sender of the Xerox missive sent it to me to help me clear myself of suspicion; she intended me to do with it precisely what I did. There were my instructions which I carried out robot-like (programmed) faithfully.",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13198,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "This DNA tape may have been fashioned to serve for more than this (i.e. one) lifetime. In which case my Karma may have burned itself up, freeing me from the wheel of rebirth. I am no longer a DNA robot.",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13199,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "\" EB So possessing the spirit = freedom from the cosmic order (astrological or planetary or elemental powers). The significance of this can best be seen if the mystery religions as a whole are studied. If our reality is some sort of program based on a script (info), as I suspect, the meaning of the above is: you are freed from the doom that the program programs you for: inevitable doom arising out of your programmed (robot) condition \"under the power of the cosmic order.",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13200,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Perhaps a new, hybrid life form never seen before - on either planet - Jesus in his resurrected body - a body you could recognize + touch. But which could pass through matter. Substantial, + yet not. Already, the plasmate has decisive power in this world. The pranes will die out; the new race will live on, immortal, the time has come! (Sounds like Virgil's Eclogue) ___ Is it possible that the vision of the BIP (+ Empire) is of a DNA-run world of humans who are really slaves (robots) of the DNA, ",
+          "matched_terms": [
+            "robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13201,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "In damning those responsible for it he himself becomes both the victim & the eschatological Judge - i.e. Christ. I had the strangest hypnopompic thought : that there was no historical Jesus, that it - the Christ story - is an anti-Greek tragic drama whose point it is to valorize the transient, fleeting, epiphenomenal individual in contrast to the eternal type, which when understood properly, abolishes time, turning it into space. How? Why? because we are DNA robots, flickering _means_ (witness t",
+          "matched_terms": [
+            "robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13202,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "However, unknown to him, the savior (Zebra) is here now! J - Samael, the blind god... In summary: I took an experience (2-3/74) which was impossible but which nonetheless happened, added it to a pregnant-with-meaning sentence revealed to me 4 1/2 years later, analyzed the collation, + got back as a result... aw shit. Thank God for Ubik. It isn't just the DNA that's reduced us to robots (emprisoned reflex machines): But the DNA is one piece of it, + a piece scientifically verified - i.",
+          "matched_terms": [
+            "robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13205,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "Christ restores our lost faculties + we then see the plasmate. It programs us, + this is why I called myself \"a machine\" + felt the fetters melt away. It regulates the world, e.g. through causation - + through the inner-outer synchronized tapes. the \"machine\" level of functioning is due to it; before Jesus it ruled totally, keeping humans at a robot level.",
+          "matched_terms": [
+            "robot"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13164,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_OCEANOFPDF_COM_HOW_TO_BUILD_AN_ANDROID_D",
+          "doc_title": "How to Build an Android: The True Story of Philip K. Dick's Robotic Resurrection",
+          "passage_text": "com\n\n \nFor Ross, who was my brother, my inspiration, my friend\nOceanofPDF.com\n\n \nContents\nTitle Page\nDedication\nIntroduction\n1. A Strange Machine\n2. A Tale of Two Researchers\n3. A Meeting of Minds\n4. A Visit from Eva\n5. Simple Robots",
+          "matched_terms": [
+            "Robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13162,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_627476247_SCIENCE_FICTION_IN_THE_REAL_WO",
+          "doc_title": "Science Fiction in the Real World",
+          "passage_text": "Edward L. Ferman \nThe Fantastic Stories of Cornell Woo/rich, edited by Charles G. \nWaugh and Martin H. Greenberg \nThe Best Science Fiction of Arthur Conan Doyle, edited by Charles G. \nWaugh and Martin H. Greenberg \nThe End of the World, edited by Eric S. Rabkin, Martin H. Green­\nberg, and Joseph D. Olander \nNo Place Else: Explorations in Utopian and Dystopian Fiction, \nedited by Eric S. Rabkin, Martin H. Greenberg, and Joseph D. \nOlander \nRobots, Androids, and Mechanical Oddities, edited by Patr",
+          "matched_terms": [
+            "Robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13166,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+          "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+          "passage_text": "Ubik (1969)\nThe Preserving Machine (1969)\nA Maze of Death (1970)\nOur Friends from Frolix 8 (1970)\nWe Can Build You (1972)\nThe Book of Philip K. Dick (1973)\nFlow My Tears, the Policeman Said \n(1974)\nConfessions of a Crap Artist (1975) \nDeus Irae (with Roger Zelazny) (1976) \nThe Best of Philip K. Dick (1977)\nA Scanner Darkly (1977)\nThe Golden Man (1980)\nVALIS (1981)\nThe Divine Invasion (1981)\nThe Transmigration of Timothy\nArcher (1982)\nThe Man Whose Teeth Were All\nExacdy Alike (1984)\nRobots, Andro",
+          "matched_terms": [
+            "Robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13168,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_SFC31",
+          "doc_title": "SF Commentary, Issue 31 (Philip Dick in Vancouver)",
+          "passage_text": "Bruce Gillespie: 1971 (SFC 28) (38, 46-47) * \nBruce Gillespie: S F COMMENTARY 30 (38) * Paul \nGoodman (28) * Edward Gorey: THE REMEMBERED VI­\nSIT (45-46) * Henrik Ibsen: GHOSTS (8, 22) * Dr \nIvan D Illich (27-38, 48) * Ivan Illich: CELE­\nBRATION OF AWARENESS (29, 34, 48) * Ivan Illich: \nDESCHOOLING SOCIETY (29-30, 34, 36, 38, 48) * \nBrian Jackson (29) * Carl Jung (20) * Jerry \nLapidus (ed.): TOMORROW AND.. (4) * LA TIMES \n(15-16) * Stanislaw Lem; ROBOTS IN S F (SFC 19)",
+          "matched_terms": [
+            "ROBOTS"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 13167,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_PKD_DOC_ADDR_PKD_ADDRESSES",
+          "doc_title": "Philip K. Dick: Addresses and Residences Chronology",
+          "passage_text": "I had never imagined that this could be \ndone with a novel of mine; people always told me there were dangling parts that \nwere not really functional, but my god, Sherry, you proved them – and me – wrong! \nGod bless you. What a trip!\"\nI covered Robert Silverberg’s novel BOOK OF SKULLS for United Artists shortly \nafterwards, but unfortunately was not as successful with that submission.\nPatricia Warrick’s Mind in Motion: The Fiction of Philip K. Dick\nPatricia Warrick and Martin Greenberg’s Robots, ",
+          "matched_terms": [
+            "Robots"
+          ],
+          "claim_type": null,
+          "confidence": null
+        }
+      ]
+    }
+  ],
+  "contradictions": [],
+  "chronology": [
+    {
+      "year": "1972",
+      "date": "1972",
+      "doc_title": "SF Commentary, Issue 31 (Philip Dick in Vancouver)",
+      "event_type": "archive_pdf",
+      "doc_id": "DOC_ARCH_SFC31",
+      "doc_slug": "sfc31"
+    },
+    {
+      "year": "1975",
+      "date": "1975-02-27",
+      "doc_title": "Claudia",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_001",
+      "doc_slug": "section-001"
+    },
+    {
+      "year": "1976",
+      "date": "1976-09-15",
+      "doc_title": "Dorothy",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_015",
+      "doc_slug": "section-015"
+    },
+    {
+      "year": "1978",
+      "date": "1978-10-10",
+      "doc_title": "Letter",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_016",
+      "doc_slug": "section-016"
+    },
+    {
+      "year": "1981",
+      "date": "1981-04-16",
+      "doc_title": "Pat",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_017",
+      "doc_slug": "section-017"
+    },
+    {
+      "year": "1983",
+      "date": "1983",
+      "doc_title": "The Unteleported Man (aka Lies, Inc.)",
+      "event_type": "novel",
+      "doc_id": "DOC_ARCH_AKA_LIES_INC_PHILIP_K_DICK_THE_UNTELEPOR",
+      "doc_slug": "aka-lies-inc-philip-k-dick-the-unteleported-man-1983-berkley-libgen-li"
+    },
+    {
+      "year": "1990",
+      "date": "1990",
+      "doc_title": "Science Fiction in the Real World",
+      "event_type": "scholarship",
+      "doc_id": "DOC_ARCH_627476247_SCIENCE_FICTION_IN_THE_REAL_WO",
+      "doc_slug": "627476247-science-fiction-in-the-real-world-1990-by-norman-spinrad"
+    },
+    {
+      "year": "1991",
+      "date": "1991",
+      "doc_title": "Second Variety and Other Classic Stories",
+      "event_type": "archive_pdf",
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AND_OTHER_C",
+      "doc_slug": "philip-k-dick-second-variety-and-other-classic-stories"
+    },
+    {
+      "year": "1993",
+      "date": "1993",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "event_type": "letter",
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books"
+    }
+  ],
+  "related_documents": [
+    {
+      "doc_id": "DOC_EXEG_SECTION_016",
+      "title": "Letter",
+      "doc_type": "exegesis_section",
+      "relevance": "primary",
+      "passage_count": 21,
+      "slug": "section-016"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_015",
+      "title": "Dorothy",
+      "doc_type": "exegesis_section",
+      "relevance": "primary",
+      "passage_count": 12,
+      "slug": "section-015"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_017",
+      "title": "Pat",
+      "doc_type": "exegesis_section",
+      "relevance": "substantial",
+      "passage_count": 3,
+      "slug": "section-017"
+    },
+    {
+      "doc_id": "DOC_ARCH_627476247_SCIENCE_FICTION_IN_THE_REAL_WO",
+      "title": "Science Fiction in the Real World",
+      "doc_type": "scholarship",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "627476247-science-fiction-in-the-real-world-1990-by-norman-spinrad"
+    },
+    {
+      "doc_id": "DOC_ARCH_AKA_LIES_INC_PHILIP_K_DICK_THE_UNTELEPOR",
+      "title": "The Unteleported Man (aka Lies, Inc.)",
+      "doc_type": "novel",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "aka-lies-inc-philip-k-dick-the-unteleported-man-1983-berkley-libgen-li"
+    },
+    {
+      "doc_id": "DOC_ARCH_OCEANOFPDF_COM_HOW_TO_BUILD_AN_ANDROID_D",
+      "title": "How to Build an Android: The True Story of Philip K. Dick's Robotic Resurrection",
+      "doc_type": "biography",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "oceanofpdf-com-how-to-build-an-android-david-f-dufty"
+    },
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AND_OTHER_C",
+      "title": "Second Variety and Other Classic Stories",
+      "doc_type": "archive_pdf",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "philip-k-dick-second-variety-and-other-classic-stories"
+    },
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books"
+    },
+    {
+      "doc_id": "DOC_ARCH_PKD_DOC_ADDR_PKD_ADDRESSES",
+      "title": "Philip K. Dick: Addresses and Residences Chronology",
+      "doc_type": "scholarship",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "pkd-doc-addr-pkd-addresses"
+    },
+    {
+      "doc_id": "DOC_ARCH_SFC31",
+      "title": "SF Commentary, Issue 31 (Philip Dick in Vancouver)",
+      "doc_type": "archive_pdf",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "sfc31"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_001",
+      "title": "Claudia",
+      "doc_type": "exegesis_section",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "section-001"
+    }
+  ],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": []
+}

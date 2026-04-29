@@ -683,3 +683,244 @@ FROM timeline_events tl
 LEFT JOIN segments s ON tl.seg_id = s.seg_id
 LEFT JOIN documents d ON tl.doc_id = d.doc_id
 ORDER BY tl.date_start;
+
+-- ============================================================
+-- RESEARCH STUDIES (AI Topics & Psychology Topics)
+-- ============================================================
+
+CREATE TABLE IF NOT EXISTS studies (
+    study_id            TEXT PRIMARY KEY,           -- "ai" or "psychology"
+    study_label         TEXT NOT NULL,
+    study_description   TEXT,
+    topic_count         INTEGER DEFAULT 0,
+    created_at          TEXT DEFAULT (datetime('now')),
+    updated_at          TEXT DEFAULT (datetime('now'))
+);
+
+CREATE TABLE IF NOT EXISTS study_topics (
+    topic_id            TEXT PRIMARY KEY,           -- TOPIC_AI_* or TOPIC_PSY_*
+    study_id            TEXT NOT NULL,
+    canonical_name      TEXT NOT NULL,
+    slug                TEXT NOT NULL,
+
+    -- Status tracking
+    status              TEXT NOT NULL DEFAULT 'seed' CHECK (status IN (
+                            'seed', 'scanning', 'evidence_built', 'drafted',
+                            'reviewed', 'published'
+                        )),
+    priority            INTEGER DEFAULT 0,
+
+    -- Dossier content (populated by Claude drafting)
+    definition          TEXT,
+    pkd_relevance       TEXT,
+    in_the_fiction      TEXT,
+    in_the_exegesis     TEXT,
+    intellectual_background TEXT,
+    scholarly_debate    TEXT,
+    chronology_summary  TEXT,
+    contradictions_summary TEXT,
+    related_thinkers    TEXT,                       -- JSON array
+    editorial_notes     TEXT,
+    open_questions      TEXT,                       -- JSON array
+
+    -- Card-level fields
+    card_description    TEXT,
+
+    -- Metrics
+    passage_count       INTEGER DEFAULT 0,
+    evidence_count      INTEGER DEFAULT 0,
+    contradiction_count INTEGER DEFAULT 0,
+
+    -- Chronology
+    first_appearance    TEXT,
+    peak_period_start   TEXT,
+    peak_period_end     TEXT,
+
+    -- Cross-linking (JSON arrays)
+    related_topics      TEXT,
+    related_terms       TEXT,
+    related_names       TEXT,
+
+    provenance          TEXT,
+    notes               TEXT,
+    created_at          TEXT DEFAULT (datetime('now')),
+    updated_at          TEXT DEFAULT (datetime('now')),
+
+    FOREIGN KEY (study_id) REFERENCES studies(study_id),
+    UNIQUE (study_id, slug)
+);
+
+CREATE INDEX IF NOT EXISTS idx_study_topics_study ON study_topics(study_id);
+CREATE INDEX IF NOT EXISTS idx_study_topics_status ON study_topics(status);
+CREATE INDEX IF NOT EXISTS idx_study_topics_slug ON study_topics(slug);
+
+-- ============================================================
+
+CREATE TABLE IF NOT EXISTS study_passages (
+    passage_id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    topic_id            TEXT NOT NULL,
+
+    -- Source location
+    doc_id              TEXT,
+    seg_id              TEXT,
+    page_num            INTEGER,
+    char_offset_start   INTEGER,
+    char_offset_end     INTEGER,
+
+    -- Passage content
+    passage_text        TEXT NOT NULL,
+    context_before      TEXT,
+    context_after       TEXT,
+
+    -- Evidentiary lane (derived from document)
+    lane                TEXT CHECK (lane IN ('A', 'B', 'C')),
+
+    -- Classification (Claude-assigned)
+    source_mode         TEXT CHECK (source_mode IN (
+                            'fiction', 'exegesis', 'letter', 'interview', 'criticism'
+                        )),
+    claim_type          TEXT CHECK (claim_type IN (
+                            'definition', 'symptom_description', 'causal_theory',
+                            'allegory', 'self_report', 'critique', 'comparison',
+                            'unresolved'
+                        )),
+    confidence          TEXT CHECK (confidence IN ('high', 'medium', 'low')),
+
+    -- Mode-specific classification
+    psych_mode          TEXT,
+    ai_mode             TEXT,
+
+    -- Matching metadata
+    matched_terms       TEXT,                       -- JSON array
+    match_method        TEXT CHECK (match_method IN (
+                            'lexicon_exact', 'lexicon_alias', 'claude_conceptual',
+                            'claude_inferred'
+                        )),
+
+    -- Review
+    fair_use_status     TEXT DEFAULT 'pending' CHECK (fair_use_status IN (
+                            'pending', 'approved', 'trimmed', 'rejected'
+                        )),
+    editorial_status    TEXT DEFAULT 'unreviewed',
+
+    notes               TEXT,
+    created_at          TEXT DEFAULT (datetime('now')),
+
+    FOREIGN KEY (topic_id) REFERENCES study_topics(topic_id),
+    FOREIGN KEY (doc_id) REFERENCES documents(doc_id),
+    FOREIGN KEY (seg_id) REFERENCES segments(seg_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_study_passages_topic ON study_passages(topic_id);
+CREATE INDEX IF NOT EXISTS idx_study_passages_doc ON study_passages(doc_id);
+CREATE INDEX IF NOT EXISTS idx_study_passages_seg ON study_passages(seg_id);
+CREATE INDEX IF NOT EXISTS idx_study_passages_lane ON study_passages(lane);
+CREATE INDEX IF NOT EXISTS idx_study_passages_claim ON study_passages(claim_type);
+
+-- ============================================================
+
+CREATE TABLE IF NOT EXISTS study_evidence_packets (
+    ev_id               TEXT PRIMARY KEY,           -- SEV_*
+    topic_id            TEXT NOT NULL,
+
+    claim_text          TEXT,
+    evidence_summary    TEXT,
+    confidence          TEXT CHECK (confidence IN (
+                            'strong', 'moderate', 'weak', 'speculative'
+                        )),
+    source_method       TEXT CHECK (source_method IN (
+                            'deterministic', 'heuristic', 'llm', 'editorial'
+                        )),
+    editorial_status    TEXT DEFAULT 'unreviewed',
+
+    lane_a_count        INTEGER DEFAULT 0,
+    lane_b_count        INTEGER DEFAULT 0,
+    lane_c_count        INTEGER DEFAULT 0,
+
+    notes               TEXT,
+    created_at          TEXT DEFAULT (datetime('now')),
+    updated_at          TEXT DEFAULT (datetime('now')),
+
+    FOREIGN KEY (topic_id) REFERENCES study_topics(topic_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_study_ev_topic ON study_evidence_packets(topic_id);
+
+-- ============================================================
+
+CREATE TABLE IF NOT EXISTS study_contradictions (
+    contradiction_id    INTEGER PRIMARY KEY AUTOINCREMENT,
+    topic_id            TEXT NOT NULL,
+
+    passage_id_a        INTEGER NOT NULL,
+    passage_id_b        INTEGER NOT NULL,
+
+    summary             TEXT NOT NULL,
+    explanation         TEXT,
+
+    contradiction_type  TEXT CHECK (contradiction_type IN (
+                            'factual', 'interpretive', 'chronological',
+                            'self_vs_critic', 'fiction_vs_exegesis',
+                            'early_vs_late'
+                        )),
+
+    notes               TEXT,
+    created_at          TEXT DEFAULT (datetime('now')),
+
+    FOREIGN KEY (topic_id) REFERENCES study_topics(topic_id),
+    FOREIGN KEY (passage_id_a) REFERENCES study_passages(passage_id),
+    FOREIGN KEY (passage_id_b) REFERENCES study_passages(passage_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_study_contra_topic ON study_contradictions(topic_id);
+
+-- ============================================================
+
+CREATE TABLE IF NOT EXISTS study_topic_terms (
+    topic_id            TEXT NOT NULL,
+    term_id             TEXT NOT NULL,
+    relation_type       TEXT DEFAULT 'related' CHECK (relation_type IN (
+                            'primary', 'related', 'contrasts', 'subsumes'
+                        )),
+    PRIMARY KEY (topic_id, term_id),
+    FOREIGN KEY (topic_id) REFERENCES study_topics(topic_id),
+    FOREIGN KEY (term_id) REFERENCES terms(term_id)
+);
+
+CREATE TABLE IF NOT EXISTS study_topic_names (
+    topic_id            TEXT NOT NULL,
+    name_id             TEXT NOT NULL,
+    relation_type       TEXT DEFAULT 'related',
+    PRIMARY KEY (topic_id, name_id),
+    FOREIGN KEY (topic_id) REFERENCES study_topics(topic_id),
+    FOREIGN KEY (name_id) REFERENCES names(name_id)
+);
+
+CREATE TABLE IF NOT EXISTS study_topic_docs (
+    topic_id            TEXT NOT NULL,
+    doc_id              TEXT NOT NULL,
+    relevance           TEXT DEFAULT 'mentions' CHECK (relevance IN (
+                            'primary', 'substantial', 'mentions'
+                        )),
+    passage_count       INTEGER DEFAULT 0,
+    PRIMARY KEY (topic_id, doc_id),
+    FOREIGN KEY (topic_id) REFERENCES study_topics(topic_id),
+    FOREIGN KEY (doc_id) REFERENCES documents(doc_id)
+);
+
+-- ============================================================
+
+CREATE VIEW IF NOT EXISTS v_study_topic_summary AS
+SELECT st.*,
+       s.study_label,
+       COUNT(DISTINCT sp.passage_id) AS total_passages,
+       COUNT(DISTINCT CASE WHEN sp.lane = 'A' THEN sp.passage_id END) AS fiction_passages,
+       COUNT(DISTINCT CASE WHEN sp.lane = 'B' THEN sp.passage_id END) AS exegesis_passages,
+       COUNT(DISTINCT CASE WHEN sp.lane = 'C' THEN sp.passage_id END) AS scholarship_passages,
+       COUNT(DISTINCT sc.contradiction_id) AS contradictions
+FROM study_topics st
+JOIN studies s ON st.study_id = s.study_id
+LEFT JOIN study_passages sp ON st.topic_id = sp.topic_id
+LEFT JOIN study_contradictions sc ON st.topic_id = sc.topic_id
+WHERE st.status IN ('drafted', 'reviewed', 'published')
+GROUP BY st.topic_id;

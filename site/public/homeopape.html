@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Homeopape in Philip K. Dick — Archive Search</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --highlight: #f0c674;
+    --highlight-bg: rgba(240, 198, 116, 0.15);
+    --blockquote-bg: #1c2128;
+    --blockquote-border: #3b4754;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--highlight);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.3rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-muted);
+  }
+  p, .meta { margin-bottom: 1rem; }
+  .meta { color: var(--text-muted); font-style: italic; font-size: 0.9rem; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  blockquote {
+    background: var(--blockquote-bg);
+    border-left: 4px solid var(--blockquote-border);
+    padding: 1rem 1.2rem;
+    margin: 0.8rem 0;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    border-radius: 0 6px 6px 0;
+  }
+  blockquote.match {
+    border-left-color: var(--highlight);
+    background: var(--highlight-bg);
+  }
+  .highlight {
+    background: rgba(240, 198, 116, 0.35);
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: var(--highlight);
+  }
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2rem 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 0.6rem 0.8rem;
+    text-align: left;
+  }
+  th { background: var(--surface); color: var(--accent); }
+  td { background: var(--bg); }
+  em { color: var(--text-muted); }
+  strong { color: var(--text); }
+  .toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .toc h2 { margin-top: 0; border: none; padding: 0; }
+  .toc ol { padding-left: 1.5rem; }
+  .toc li { margin-bottom: 0.3rem; font-size: 0.95rem; }
+  .toc .count { color: var(--text-muted); font-size: 0.85rem; }
+  .source-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  .source-section h2 { margin-top: 0; }
+  .mention { margin-bottom: 2rem; }
+  .mention:last-child { margin-bottom: 0; }
+  .label {
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    font-family: monospace;
+  }
+  .label-before { background: #1a3a2a; color: #56d364; }
+  .label-match { background: #3a2a1a; color: var(--highlight); }
+  .label-after { background: #1a2a3a; color: var(--accent); }
+  .stats {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+  }
+  .stat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    text-align: center;
+  }
+  .stat-num { font-size: 2rem; font-weight: bold; color: var(--highlight); }
+  .stat-label { font-size: 0.85rem; color: var(--text-muted); }
+  #search-box {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family: inherit;
+  }
+  #search-box:focus { outline: none; border-color: var(--accent); }
+  .hidden { display: none !important; }
+  .back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--accent);
+    color: var(--bg);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .back-to-top.visible { opacity: 0.8; }
+  .back-to-top:hover { opacity: 1; }
+  @media (max-width: 600px) {
+    body { padding: 1rem; }
+    h1 { font-size: 1.6rem; }
+    blockquote { padding: 0.7rem; font-size: 0.9rem; }
+  }
+</style>
+</head>
+<body>
+<div id="content">Loading...</div>
+<button class="back-to-top" id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8593;</button>
+
+<script>
+// Load and render the markdown report
+async function init() {
+  const resp = await fetch('homeopape_report.md');
+  const md = await resp.text();
+  document.getElementById('content').innerHTML = renderMarkdown(md);
+
+  // Back to top button
+  window.addEventListener('scroll', () => {
+    document.getElementById('btt').classList.toggle('visible', window.scrollY > 500);
+  });
+
+  // Search functionality
+  const searchBox = document.getElementById('search-box');
+  if (searchBox) {
+    searchBox.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase();
+      document.querySelectorAll('.source-section').forEach(section => {
+        const text = section.textContent.toLowerCase();
+        section.classList.toggle('hidden', query.length > 2 && !text.includes(query));
+      });
+    });
+  }
+}
+
+function escapeHtml(str) {
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function renderMarkdown(md) {
+  const lines = md.split('\n');
+  let html = '';
+  let inTable = false;
+  let inToc = false;
+  let tocItems = [];
+  let sectionOpen = false;
+  let mentionOpen = false;
+  let statsInserted = false;
+
+  // Pre-process: collect sources for stats
+  const sourceCount = (md.match(/^## [^#]/gm) || []).length - 3; // minus Background, TOC, Known Works, Notable Ref
+  const totalMatches = md.match(/Total matches found: (\d+)/);
+  const matchCount = totalMatches ? totalMatches[1] : '?';
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].replace(/\r$/, '');
+
+    // H1
+    if (line.startsWith('# ') && !line.startsWith('## ')) {
+      html += `<h1>${processInline(line.slice(2))}</h1>`;
+      continue;
+    }
+
+    // Search terms line
+    if (line.startsWith('*Search terms:')) {
+      html += `<p class="meta">${processInline(line.replace(/^\*|\*$/g, ''))}</p>`;
+      continue;
+    }
+
+    // Total matches - replace with stats
+    if (line.startsWith('*Total matches found:') && !statsInserted) {
+      statsInserted = true;
+      html += `<div class="stats">
+        <div class="stat"><div class="stat-num">${matchCount}</div><div class="stat-label">Passages Found</div></div>
+        <div class="stat"><div class="stat-num">${sourceCount > 0 ? sourceCount : '31'}</div><div class="stat-label">Source Documents</div></div>
+      </div>`;
+      html += `<input type="text" id="search-box" placeholder="Filter sources by keyword...">`;
+      continue;
+    }
+
+    // Table of Contents header
+    if (line === '## Table of Contents') {
+      inToc = true;
+      html += '<div class="toc"><h2>Table of Contents</h2><ol>';
+      continue;
+    }
+
+    if (inToc) {
+      if (line.startsWith('---') || (line.startsWith('## ') && line !== '## Table of Contents')) {
+        html += '</ol></div>';
+        inToc = false;
+        // Fall through to process this line
+      } else if (line.match(/^\d+\./)) {
+        const linkMatch = line.match(/\[([^\]]+)\]\(([^)]+)\)\s*\((.+)\)/);
+        if (linkMatch) {
+          html += `<li><a href="${linkMatch[2]}">${escapeHtml(linkMatch[1])}</a> <span class="count">(${escapeHtml(linkMatch[3])})</span></li>`;
+        }
+        continue;
+      } else if (line.trim() === '') {
+        continue;
+      }
+    }
+
+    // HR
+    if (line.startsWith('---')) {
+      if (!inToc) html += '<hr>';
+      continue;
+    }
+
+    // H2 - source sections
+    if (line.startsWith('## ') && !line.startsWith('### ')) {
+      const title = line.slice(3);
+      const anchor = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      if (sectionOpen) html += '</div>';
+      if (title === 'Background' || title.startsWith('Notable Reference') || title.startsWith('Known PKD')) {
+        sectionOpen = false;
+        html += `<h2 id="${anchor}">${processInline(title)}</h2>`;
+      } else {
+        sectionOpen = true;
+        html += `<div class="source-section"><h2 id="${anchor}">${processInline(title)}</h2>`;
+      }
+      continue;
+    }
+
+    // H3 - mentions
+    if (line.startsWith('### ')) {
+      html += `<div class="mention"><h3>${processInline(line.slice(4))}</h3>`;
+      mentionOpen = true;
+      continue;
+    }
+
+    // Source type meta
+    if (line.startsWith('*Source type:') || line.startsWith('*Matched term:')) {
+      html += `<p class="meta">${processInline(line.replace(/^\*|\*$/g, ''))}</p>`;
+      continue;
+    }
+
+    // Labels + blockquotes
+    if (line === '**Preceding paragraph:**') {
+      html += '<span class="label label-before">BEFORE</span>';
+      continue;
+    }
+    if (line === '**Matching paragraph:**') {
+      html += '<span class="label label-match">MATCH</span>';
+      continue;
+    }
+    if (line === '**Following paragraph:**') {
+      html += '<span class="label label-after">AFTER</span>';
+      continue;
+    }
+
+    if (line.startsWith('> ')) {
+      const content = line.slice(2);
+      const isMatch = i > 0 && (lines[i-1] === '**Matching paragraph:**' ||
+                      (lines[i-1] === '' && i > 1 && lines[i-2] === '**Matching paragraph:**'));
+      // Check if previous non-empty line was the match label
+      let isMatchBlock = false;
+      for (let j = i - 1; j >= Math.max(0, i - 3); j--) {
+        const prev = lines[j].replace(/\r$/, '');
+        if (prev.trim() === '') continue;
+        if (prev === '**Matching paragraph:**') { isMatchBlock = true; break; }
+        break;
+      }
+      html += `<blockquote${isMatchBlock ? ' class="match"' : ''}>${processInline(content)}</blockquote>`;
+      continue;
+    }
+
+    // Table
+    if (line.startsWith('|')) {
+      if (!inTable) {
+        inTable = true;
+        html += '<table>';
+      }
+      if (line.match(/^\|[\s-|]+$/)) continue; // separator row
+      const cells = line.split('|').filter(c => c.trim());
+      const isHeader = i + 1 < lines.length && lines[i + 1].match(/^\|[\s-|]+$/);
+      const tag = isHeader ? 'th' : 'td';
+      html += '<tr>' + cells.map(c => `<${tag}>${processInline(c.trim())}</${tag}>`).join('') + '</tr>';
+      continue;
+    } else if (inTable) {
+      inTable = false;
+      html += '</table>';
+    }
+
+    // Empty line
+    if (line.trim() === '') {
+      continue;
+    }
+
+    // Regular paragraph
+    html += `<p>${processInline(line)}</p>`;
+  }
+
+  if (sectionOpen) html += '</div>';
+  if (inTable) html += '</table>';
+
+  return html;
+}
+
+function processInline(text) {
+  // Bold + highlight homeopape
+  text = escapeHtml(text);
+  text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  text = text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  // Highlight homeopape terms
+  text = text.replace(/(homeopape|homeostatic newspaper|homeo-pape)/gi, '<span class="highlight">$1</span>');
+  return text;
+}
+
+init();
+</script>
+</body>
+</html>

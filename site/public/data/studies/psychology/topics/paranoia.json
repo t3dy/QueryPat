@@ -1,0 +1,1995 @@
+{
+  "topic_id": "TOPIC_PSY_paranoia",
+  "study_id": "psychology",
+  "canonical_name": "Paranoia",
+  "slug": "paranoia",
+  "status": "drafted",
+  "definition": "Paranoia in PKD's work refers to the pervasive sense that reality is conspiratorially organized against the subject — a theme that operates simultaneously as a psychiatric condition depicted in fiction, a lived experience described in the Exegesis, and a narrative engine that drives some of PKD's most powerful stories.",
+  "pkd_relevance": "Paranoia is inseparable from PKD's biography and art. His fiction is populated with characters who suspect that their reality is manipulated by hidden forces — and who are frequently proven right. PKD's own experiences, including the November 1971 break-in at his San Rafael home and the events of 2-3-74, blurred the line between paranoid ideation and genuine threat. The Exegesis contains extended reflections on whether his perceptions were pathological or revelatory.",
+  "in_the_fiction": "PKD's fiction deploys paranoia as both theme and structure. In A Scanner Darkly, Bob Arctor surveys himself without knowing it, embodying paranoia as recursive self-suspicion. In The Man in the High Castle, characters discover that their entire historical reality may be false. Stories like 'Adjustment Team' and novels like Time Out of Joint present ordinary people who discover that powerful agencies have constructed their perceived reality. In PKD's fiction, the paranoid is often the one character who perceives reality accurately.",
+  "in_the_exegesis": "The Exegesis records PKD's sustained attempt to determine whether his paranoid perceptions were symptoms of mental illness or accurate perceptions of a hidden reality. He describes the break-in, the pink light experience, and subsequent events through multiple competing frameworks: political conspiracy, divine revelation, psychiatric disorder, and information-theoretic models. Notably, PKD does not simply endorse or dismiss paranoia but treats it as an epistemological problem that resists resolution.",
+  "intellectual_background": "PKD's treatment of paranoia draws on Cold War culture, psychoanalytic theory, and existential philosophy. The political climate of the 1950s-70s — McCarthyism, COINTELPRO, Watergate — provided real-world validation for paranoid narratives. Laing's anti-psychiatric work suggested that 'madness' could be a sane response to an insane world, a position PKD explored without fully endorsing.",
+  "scholarly_debate": "Critics disagree about whether PKD's paranoia should be read as political allegory, psychological self-portraiture, or epistemological exploration. Some scholars (Freedman, Jameson) emphasize the Marxist-political dimension: paranoia as recognition of systemic domination. Others (Sutin, Rickman) foreground the biographical dimension. A third camp (Davis, Kripal) reads PKD's paranoia as a modern shamanic or mystical sensitivity.",
+  "chronology_summary": "Paranoia themes appear throughout PKD's career, intensifying after the 1971 break-in and the 2-3-74 experiences. The Exegesis represents PKD's most sustained engagement with paranoia as a philosophical problem.",
+  "contradictions_summary": "The central tension in PKD's treatment of paranoia is whether it represents a clinical pathology or a heightened perceptual capacity. The Exegesis does not resolve this tension but holds both possibilities in suspension. A secondary contradiction exists between the fiction (where paranoid characters are often vindicated) and the Exegesis (where PKD is less certain about his own case).",
+  "related_thinkers": [],
+  "editorial_notes": "Researchers should avoid diagnosing PKD and instead focus on how paranoia functions in his intellectual and creative system. The term 'paranoia' carries clinical weight that PKD himself was aware of and deliberately played with.",
+  "open_questions": [
+    "Is PKD's fiction best understood as a literary exploration of paranoia or as a paranoid literary form?",
+    "How does PKD's treatment of paranoia relate to the political surveillance culture of the 1970s?",
+    "Does the Exegesis ultimately distinguish between justified and pathological paranoia, or refuse to?"
+  ],
+  "passage_count": 78,
+  "evidence_count": 6,
+  "contradiction_count": 5,
+  "first_appearance": null,
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "evidence_packets": [
+    {
+      "ev_id": "SEV_PSYCHOLOGY_paranoia_001",
+      "claim_text": "PKD develops theoretical explanations for paranoia, with 45 passages proposing causal or metaphysical frameworks.",
+      "evidence_summary": "Evidence from 45 Exegesis passages (Lane B). Representative: \"Because they decided I was politically reliable; i.e. \"progressive,\" on their side. Hence my dire danger, as soon as Lem wrote his S-F piece in '71. i...\"; \"68 There is a striking (+ probably highly significant) paralled between my personal (sic) memories of come t down here (+ helping in the fight for fre...\"",
+      "confidence": "moderate",
+      "source_method": "heuristic",
+      "lane_a_count": 0,
+      "lane_b_count": 45,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 19514,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": "DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AND_OTHER_C",
+          "doc_title": "Second Variety and Other Classic Stories",
+          "passage_text": "being fought by ever more cunning and sophisticated robot weapons; \"Impostor\", in \nwhich a man is accused of being an alien spy and finds his whole identity called into \nquestion; and \"Prominent Author\", in which a fracture in space/time enables an ordinary \nfuture commuter to achieve unexpected literary fame.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "allegory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19581,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "The providentia vis-a-vis the Xerox Missive a law of physics having to do with feedback within a unified field: what a fascinating theory. I think my paranoia is abating -- my \"occlusion-plasmate\" equation.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19533,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Or (two) Are speech centers in the brain stimulated (which is to say, are they transmitting verbal and graphic material, or does it all arise within the brain due to the radiation pressure? The answer to this is important. From the presence of die messages I would assume information transmitted, but on the other hand, it may disinhibit neural circuits in the brain, causing them to fire for the first and only time.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19553,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "In \"Tears\" the Acts material presents a sequence by which \"secret under ground Xtian apostolic church\" can absolutely be inferred to come next outside the text \"Tears\" on the basis of the integers of the sequence included in the text by using a topological analog conversion! i.e. Taverner belongs to no organization, group, movement, religion, party; he is an isolated individual (this is stipulated in the text). There is no hint of a conspiracy.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19582,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "e. out of the 85 people 2 of \"the right people\" whom I've now notified; but notified of what? Could the whole Tagore ecosphere revelation - like the dream in \"Tears\" - be cypher for revolution? Christ but what are the real the master revolutionary. was hizely thinking, \"If this were a I goals? conspiracy I'd have sent one of the 85 letters to Robert Anton Wilson\" - + then I suddenly realized with a terrible shock that I did.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19554,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "This is a supernatural self, nicht ich He put the Acts material in \"Tears\" - why? message to trigger himself into being in 2-74? I was taken over not just in 2-3-74 but in There were 2 me's, as Hal guessed. One of 171 them supernatural + part of a conspiracy, making use of me.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19534,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Did I enncounter another universe or extended and nominally unseen levels of our own? I can’t say? Did it break through to me, or me to it? I can't say. What I do know is who was present: the cosmic Christ/St. Sophia/the logos, weaver of the universe. -6- The Playboy articles on the Hughes-CIA connection with Nixon agree with the RS piece that Nixon was thrown to the wolves to save the cover of the deeper conspiracy; it does not mention the Mafia except in passing, but if both the Playboy...",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "comparison",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19555,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Somehow connected with the Xerox missive. It didn't call him forth; the Golden Fish in 2-74 did. But he met the Xerox missive; he knew what it was. wer ist er? I had to be in fullerton - he was last in Canada, not Santa venetian what happened in Canada? The dream of return to Santa ventia \"a lot later\" - + the missing week. Did he take over for a week in Canada + fly back to the U.S.? someone perturbed (space + time] reality. back to '71 + early '72.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19556,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "They have a vast info-generating + processing technology here on this planet! Valis is a construct + not the Logos - that's nonsense, to think it's the Logos. Inadvertently I blew the whistle on them; I guess they're benign, but one thing they are for sure is - secret. Hence \"Valis\" wasn't supposed to be. I let the cat out of the bag. Now it's making sense. Much of what's in \"Valis\" is true - it's not superstitio-occult nonsense! (As I say supra, p 10 passim).",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19557,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "what I am saying is that the grid has a rathematical precision re Taverner (+ re the society repicted; there is an enemy internal revolutionary rovement) in terms of prediction. It says, \"Taver ver is the head of a secret illegal invisible evolutionary anti-state underground.\" Thus Felix's alice suspicions are totally correct, his worst aranoid suspicions - if you use the grid re prisoner, the innocent (sic!) Taverner the \"grid inverts taverner to guilty of treason + conspiracy of 453 This is...",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19558,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "So the method is not ingenious. But the real question remains: Who is sending, and to whom, and what are they saying? I can revert to theological explanations and say that God or the Logos is talking... whom to, then? To itself/himself? Hardly. Even if theological explanations are resorted to, some kind of group as receivers is implied. What I did briefly in 2-3-74 they must do all the time. All my paranoia is back regarding ultra sophisticated historical agencies.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19532,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_014",
+          "doc_title": "Dorothy",
+          "passage_text": "When the novel comes cut you can read about it in detail. For exactly one year this entity communicated with me, although the theolepsy was only s few days in duration; still, during those days, I possessed its wisdom and some of its power, and saw the universe quite differently, and my own purpose and reason for being here; in fact, for having been born.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19535,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "68 There is a striking (+ probably highly significant) paralled between my personal (sic) memories of come t down here (+ helping in the fight for freedom) t God's coming down here + leading the fight (+ successfully) for freedom: micro + macro, perhaps spark to source + if I can drop the Hegelian pantheism in favor I transsubstantiated intervention (inc. kimicry) I dent have to get paranoid about the marxists.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19583,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "Pain + hope are the two mutually exclusive primary realities that unify + become the ultimate, new synthesis for our age; we must feel both to experience this new synthesis that is serving, simplicity + sharing; pain without hope is miserable, but hope without pain is empty + futile. Hope. That is the key for me in all this, in terms of my oscillation between doubt, faith, conviction, credulity, paranoia, fear, suspicion.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19559,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "conspiratorial group anc no conspiratorial group) A Felix) ove conspiratorial group tears o Felix) no conspiratorial group came interal groun e Felix or: s) t tconspiratorial group) i elin e So the grid converts the key sequence of the text into its opposite. It does not just add material; it converts material ostensibly There. Felix's suspicions of Taverner are correct. \"Tears\" narrates the This is quite another book.",
+          "matched_terms": [
+            "Paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19527,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "\" This aptly describes my 3 74 experience. As does a chrismatic visitation by the Holy Spirit. As does the ICC description of Christ Consciousness or Christ Force or the Logos. I am led back to monotheism. What happened to me was described (and available) in psalm 116, before Christ. This is not necessarily bad, not at all; mainly, what I finally must realize, with no possibility of error, considering that I followed up every possibility, even paranoid ones and occult ones and ESP ones, (e.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "self_report",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19560,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "\"Valis\" - what a scoop! The novelist + reporter in me got the upper hand over the conspirator! We have been invaded + I wrote about it. I may have depicted it with favor, but depict it I did, for better or worse. Oh well; Thomas + his cohorts need not worry; no one will believe \"Valis\"; I wrote it up in such a way as to discredit it. Mental illness + all. Maybe. Maybe not. But something did go wrong due to the pentathol, etc.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "self_report",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19561,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It does not just add material; it converts material ostensibly There. Felix's suspicions of Taverner are correct. \"Tears\" narrates the This is quite another book. story of an innocent isolate man pursued + arrested + framed + tried by Paranoid + cynical authorities. but with the grid he is guilty; ergo he is not innocent, he is not framed; the authorities are not paranoid; they are only doing their job.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19562,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It is a reality regulator; it is \"justice\" operating in human history. This is Hegelian. It only operates in human history + yet it is the Tao, so, then, what is it? It is not found in nature but in history, this {is a} 12-21-80 very important insight. 3-74 was a massive enantiodromia for which it was responsible. Its purpose: it was put here to regulate hence guide + control human history. (This view is halfway between theology + conspiracy.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "definition",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19536,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "This explains my \"10 theories\" on the Nov 19 break in! Page 4 Page 4 In reading the screenplay of \"North by Northwest\" I all at once realize that 3-74 resolved (annihilated) my paranoia in an extraordinary & amazing way.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "ev_id": "SEV_PSYCHOLOGY_paranoia_002",
+      "claim_text": "PKD provides first-person accounts of experiencing or encountering paranoia across 11 passages.",
+      "evidence_summary": "Evidence from 11 Exegesis passages (Lane B). Representative: \"\" This aptly describes my 3 74 experience. As does a chrismatic visitation by the Holy Spirit. As does the ICC description of Christ Consciousness or ...\"; \"\"Valis\" - what a scoop! The novelist + reporter in me got the upper hand over the conspirator! We have been invaded + I wrote about it. I may have dep...\"",
+      "confidence": "moderate",
+      "source_method": "heuristic",
+      "lane_a_count": 0,
+      "lane_b_count": 11,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 19514,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": "DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AND_OTHER_C",
+          "doc_title": "Second Variety and Other Classic Stories",
+          "passage_text": "being fought by ever more cunning and sophisticated robot weapons; \"Impostor\", in \nwhich a man is accused of being an alien spy and finds his whole identity called into \nquestion; and \"Prominent Author\", in which a fracture in space/time enables an ordinary \nfuture commuter to achieve unexpected literary fame.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "allegory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19581,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "The providentia vis-a-vis the Xerox Missive a law of physics having to do with feedback within a unified field: what a fascinating theory. I think my paranoia is abating -- my \"occlusion-plasmate\" equation.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19533,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Or (two) Are speech centers in the brain stimulated (which is to say, are they transmitting verbal and graphic material, or does it all arise within the brain due to the radiation pressure? The answer to this is important. From the presence of die messages I would assume information transmitted, but on the other hand, it may disinhibit neural circuits in the brain, causing them to fire for the first and only time.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19553,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "In \"Tears\" the Acts material presents a sequence by which \"secret under ground Xtian apostolic church\" can absolutely be inferred to come next outside the text \"Tears\" on the basis of the integers of the sequence included in the text by using a topological analog conversion! i.e. Taverner belongs to no organization, group, movement, religion, party; he is an isolated individual (this is stipulated in the text). There is no hint of a conspiracy.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19582,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "e. out of the 85 people 2 of \"the right people\" whom I've now notified; but notified of what? Could the whole Tagore ecosphere revelation - like the dream in \"Tears\" - be cypher for revolution? Christ but what are the real the master revolutionary. was hizely thinking, \"If this were a I goals? conspiracy I'd have sent one of the 85 letters to Robert Anton Wilson\" - + then I suddenly realized with a terrible shock that I did.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19554,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "This is a supernatural self, nicht ich He put the Acts material in \"Tears\" - why? message to trigger himself into being in 2-74? I was taken over not just in 2-3-74 but in There were 2 me's, as Hal guessed. One of 171 them supernatural + part of a conspiracy, making use of me.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19534,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Did I enncounter another universe or extended and nominally unseen levels of our own? I can’t say? Did it break through to me, or me to it? I can't say. What I do know is who was present: the cosmic Christ/St. Sophia/the logos, weaver of the universe. -6- The Playboy articles on the Hughes-CIA connection with Nixon agree with the RS piece that Nixon was thrown to the wolves to save the cover of the deeper conspiracy; it does not mention the Mafia except in passing, but if both the Playboy...",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "comparison",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19555,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Somehow connected with the Xerox missive. It didn't call him forth; the Golden Fish in 2-74 did. But he met the Xerox missive; he knew what it was. wer ist er? I had to be in fullerton - he was last in Canada, not Santa venetian what happened in Canada? The dream of return to Santa ventia \"a lot later\" - + the missing week. Did he take over for a week in Canada + fly back to the U.S.? someone perturbed (space + time] reality. back to '71 + early '72.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19556,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "They have a vast info-generating + processing technology here on this planet! Valis is a construct + not the Logos - that's nonsense, to think it's the Logos. Inadvertently I blew the whistle on them; I guess they're benign, but one thing they are for sure is - secret. Hence \"Valis\" wasn't supposed to be. I let the cat out of the bag. Now it's making sense. Much of what's in \"Valis\" is true - it's not superstitio-occult nonsense! (As I say supra, p 10 passim).",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19557,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "what I am saying is that the grid has a rathematical precision re Taverner (+ re the society repicted; there is an enemy internal revolutionary rovement) in terms of prediction. It says, \"Taver ver is the head of a secret illegal invisible evolutionary anti-state underground.\" Thus Felix's alice suspicions are totally correct, his worst aranoid suspicions - if you use the grid re prisoner, the innocent (sic!) Taverner the \"grid inverts taverner to guilty of treason + conspiracy of 453 This is...",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19558,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "So the method is not ingenious. But the real question remains: Who is sending, and to whom, and what are they saying? I can revert to theological explanations and say that God or the Logos is talking... whom to, then? To itself/himself? Hardly. Even if theological explanations are resorted to, some kind of group as receivers is implied. What I did briefly in 2-3-74 they must do all the time. All my paranoia is back regarding ultra sophisticated historical agencies.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19532,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_014",
+          "doc_title": "Dorothy",
+          "passage_text": "When the novel comes cut you can read about it in detail. For exactly one year this entity communicated with me, although the theolepsy was only s few days in duration; still, during those days, I possessed its wisdom and some of its power, and saw the universe quite differently, and my own purpose and reason for being here; in fact, for having been born.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19535,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "68 There is a striking (+ probably highly significant) paralled between my personal (sic) memories of come t down here (+ helping in the fight for freedom) t God's coming down here + leading the fight (+ successfully) for freedom: micro + macro, perhaps spark to source + if I can drop the Hegelian pantheism in favor I transsubstantiated intervention (inc. kimicry) I dent have to get paranoid about the marxists.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19583,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "Pain + hope are the two mutually exclusive primary realities that unify + become the ultimate, new synthesis for our age; we must feel both to experience this new synthesis that is serving, simplicity + sharing; pain without hope is miserable, but hope without pain is empty + futile. Hope. That is the key for me in all this, in terms of my oscillation between doubt, faith, conviction, credulity, paranoia, fear, suspicion.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19559,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "conspiratorial group anc no conspiratorial group) A Felix) ove conspiratorial group tears o Felix) no conspiratorial group came interal groun e Felix or: s) t tconspiratorial group) i elin e So the grid converts the key sequence of the text into its opposite. It does not just add material; it converts material ostensibly There. Felix's suspicions of Taverner are correct. \"Tears\" narrates the This is quite another book.",
+          "matched_terms": [
+            "Paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19527,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "\" This aptly describes my 3 74 experience. As does a chrismatic visitation by the Holy Spirit. As does the ICC description of Christ Consciousness or Christ Force or the Logos. I am led back to monotheism. What happened to me was described (and available) in psalm 116, before Christ. This is not necessarily bad, not at all; mainly, what I finally must realize, with no possibility of error, considering that I followed up every possibility, even paranoid ones and occult ones and ESP ones, (e.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "self_report",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19560,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "\"Valis\" - what a scoop! The novelist + reporter in me got the upper hand over the conspirator! We have been invaded + I wrote about it. I may have depicted it with favor, but depict it I did, for better or worse. Oh well; Thomas + his cohorts need not worry; no one will believe \"Valis\"; I wrote it up in such a way as to discredit it. Mental illness + all. Maybe. Maybe not. But something did go wrong due to the pentathol, etc.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "self_report",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19561,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It does not just add material; it converts material ostensibly There. Felix's suspicions of Taverner are correct. \"Tears\" narrates the This is quite another book. story of an innocent isolate man pursued + arrested + framed + tried by Paranoid + cynical authorities. but with the grid he is guilty; ergo he is not innocent, he is not framed; the authorities are not paranoid; they are only doing their job.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19562,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It is a reality regulator; it is \"justice\" operating in human history. This is Hegelian. It only operates in human history + yet it is the Tao, so, then, what is it? It is not found in nature but in history, this {is a} 12-21-80 very important insight. 3-74 was a massive enantiodromia for which it was responsible. Its purpose: it was put here to regulate hence guide + control human history. (This view is halfway between theology + conspiracy.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "definition",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19536,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "This explains my \"10 theories\" on the Nov 19 break in! Page 4 Page 4 In reading the screenplay of \"North by Northwest\" I all at once realize that 3-74 resolved (annihilated) my paranoia in an extraordinary & amazing way.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "ev_id": "SEV_PSYCHOLOGY_paranoia_003",
+      "claim_text": "Scholars and critics analyze PKD's treatment of paranoia across 11 passages.",
+      "evidence_summary": "Evidence from 11 scholarly passages (Lane C). Representative: \"his novels that appeared in the early sixties were ordinary, to put it kindly. As I found out much later, Phil Dick was writing very fast in order to ...\"",
+      "confidence": "moderate",
+      "source_method": "heuristic",
+      "lane_a_count": 0,
+      "lane_b_count": 0,
+      "lane_c_count": 11,
+      "passages": [
+        {
+          "passage_id": 19514,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": "DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AND_OTHER_C",
+          "doc_title": "Second Variety and Other Classic Stories",
+          "passage_text": "being fought by ever more cunning and sophisticated robot weapons; \"Impostor\", in \nwhich a man is accused of being an alien spy and finds his whole identity called into \nquestion; and \"Prominent Author\", in which a fracture in space/time enables an ordinary \nfuture commuter to achieve unexpected literary fame.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "allegory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19581,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "The providentia vis-a-vis the Xerox Missive a law of physics having to do with feedback within a unified field: what a fascinating theory. I think my paranoia is abating -- my \"occlusion-plasmate\" equation.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19533,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Or (two) Are speech centers in the brain stimulated (which is to say, are they transmitting verbal and graphic material, or does it all arise within the brain due to the radiation pressure? The answer to this is important. From the presence of die messages I would assume information transmitted, but on the other hand, it may disinhibit neural circuits in the brain, causing them to fire for the first and only time.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19553,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "In \"Tears\" the Acts material presents a sequence by which \"secret under ground Xtian apostolic church\" can absolutely be inferred to come next outside the text \"Tears\" on the basis of the integers of the sequence included in the text by using a topological analog conversion! i.e. Taverner belongs to no organization, group, movement, religion, party; he is an isolated individual (this is stipulated in the text). There is no hint of a conspiracy.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19582,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "e. out of the 85 people 2 of \"the right people\" whom I've now notified; but notified of what? Could the whole Tagore ecosphere revelation - like the dream in \"Tears\" - be cypher for revolution? Christ but what are the real the master revolutionary. was hizely thinking, \"If this were a I goals? conspiracy I'd have sent one of the 85 letters to Robert Anton Wilson\" - + then I suddenly realized with a terrible shock that I did.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19554,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "This is a supernatural self, nicht ich He put the Acts material in \"Tears\" - why? message to trigger himself into being in 2-74? I was taken over not just in 2-3-74 but in There were 2 me's, as Hal guessed. One of 171 them supernatural + part of a conspiracy, making use of me.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19534,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Did I enncounter another universe or extended and nominally unseen levels of our own? I can’t say? Did it break through to me, or me to it? I can't say. What I do know is who was present: the cosmic Christ/St. Sophia/the logos, weaver of the universe. -6- The Playboy articles on the Hughes-CIA connection with Nixon agree with the RS piece that Nixon was thrown to the wolves to save the cover of the deeper conspiracy; it does not mention the Mafia except in passing, but if both the Playboy...",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "comparison",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19555,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Somehow connected with the Xerox missive. It didn't call him forth; the Golden Fish in 2-74 did. But he met the Xerox missive; he knew what it was. wer ist er? I had to be in fullerton - he was last in Canada, not Santa venetian what happened in Canada? The dream of return to Santa ventia \"a lot later\" - + the missing week. Did he take over for a week in Canada + fly back to the U.S.? someone perturbed (space + time] reality. back to '71 + early '72.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19556,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "They have a vast info-generating + processing technology here on this planet! Valis is a construct + not the Logos - that's nonsense, to think it's the Logos. Inadvertently I blew the whistle on them; I guess they're benign, but one thing they are for sure is - secret. Hence \"Valis\" wasn't supposed to be. I let the cat out of the bag. Now it's making sense. Much of what's in \"Valis\" is true - it's not superstitio-occult nonsense! (As I say supra, p 10 passim).",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19557,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "what I am saying is that the grid has a rathematical precision re Taverner (+ re the society repicted; there is an enemy internal revolutionary rovement) in terms of prediction. It says, \"Taver ver is the head of a secret illegal invisible evolutionary anti-state underground.\" Thus Felix's alice suspicions are totally correct, his worst aranoid suspicions - if you use the grid re prisoner, the innocent (sic!) Taverner the \"grid inverts taverner to guilty of treason + conspiracy of 453 This is...",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19558,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "So the method is not ingenious. But the real question remains: Who is sending, and to whom, and what are they saying? I can revert to theological explanations and say that God or the Logos is talking... whom to, then? To itself/himself? Hardly. Even if theological explanations are resorted to, some kind of group as receivers is implied. What I did briefly in 2-3-74 they must do all the time. All my paranoia is back regarding ultra sophisticated historical agencies.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19532,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_014",
+          "doc_title": "Dorothy",
+          "passage_text": "When the novel comes cut you can read about it in detail. For exactly one year this entity communicated with me, although the theolepsy was only s few days in duration; still, during those days, I possessed its wisdom and some of its power, and saw the universe quite differently, and my own purpose and reason for being here; in fact, for having been born.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19535,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "68 There is a striking (+ probably highly significant) paralled between my personal (sic) memories of come t down here (+ helping in the fight for freedom) t God's coming down here + leading the fight (+ successfully) for freedom: micro + macro, perhaps spark to source + if I can drop the Hegelian pantheism in favor I transsubstantiated intervention (inc. kimicry) I dent have to get paranoid about the marxists.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19583,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "Pain + hope are the two mutually exclusive primary realities that unify + become the ultimate, new synthesis for our age; we must feel both to experience this new synthesis that is serving, simplicity + sharing; pain without hope is miserable, but hope without pain is empty + futile. Hope. That is the key for me in all this, in terms of my oscillation between doubt, faith, conviction, credulity, paranoia, fear, suspicion.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19559,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "conspiratorial group anc no conspiratorial group) A Felix) ove conspiratorial group tears o Felix) no conspiratorial group came interal groun e Felix or: s) t tconspiratorial group) i elin e So the grid converts the key sequence of the text into its opposite. It does not just add material; it converts material ostensibly There. Felix's suspicions of Taverner are correct. \"Tears\" narrates the This is quite another book.",
+          "matched_terms": [
+            "Paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19527,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "\" This aptly describes my 3 74 experience. As does a chrismatic visitation by the Holy Spirit. As does the ICC description of Christ Consciousness or Christ Force or the Logos. I am led back to monotheism. What happened to me was described (and available) in psalm 116, before Christ. This is not necessarily bad, not at all; mainly, what I finally must realize, with no possibility of error, considering that I followed up every possibility, even paranoid ones and occult ones and ESP ones, (e.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "self_report",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19560,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "\"Valis\" - what a scoop! The novelist + reporter in me got the upper hand over the conspirator! We have been invaded + I wrote about it. I may have depicted it with favor, but depict it I did, for better or worse. Oh well; Thomas + his cohorts need not worry; no one will believe \"Valis\"; I wrote it up in such a way as to discredit it. Mental illness + all. Maybe. Maybe not. But something did go wrong due to the pentathol, etc.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "self_report",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19561,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It does not just add material; it converts material ostensibly There. Felix's suspicions of Taverner are correct. \"Tears\" narrates the This is quite another book. story of an innocent isolate man pursued + arrested + framed + tried by Paranoid + cynical authorities. but with the grid he is guilty; ergo he is not innocent, he is not framed; the authorities are not paranoid; they are only doing their job.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19562,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It is a reality regulator; it is \"justice\" operating in human history. This is Hegelian. It only operates in human history + yet it is the Tao, so, then, what is it? It is not found in nature but in history, this {is a} 12-21-80 very important insight. 3-74 was a massive enantiodromia for which it was responsible. Its purpose: it was put here to regulate hence guide + control human history. (This view is halfway between theology + conspiracy.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "definition",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19536,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "This explains my \"10 theories\" on the Nov 19 break in! Page 4 Page 4 In reading the screenplay of \"North by Northwest\" I all at once realize that 3-74 resolved (annihilated) my paranoia in an extraordinary & amazing way.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "ev_id": "SEV_PSYCHOLOGY_paranoia_004",
+      "claim_text": "The concept of paranoia is defined or characterized across 5 passages.",
+      "evidence_summary": "Evidence from 5 Exegesis passages (Lane B). Representative: \"I lay there comparing Valis with ABBA. + realized, \"Valis is logically what you'd expect in a superior life form, + it can seem to be God - up until -...\"",
+      "confidence": "moderate",
+      "source_method": "heuristic",
+      "lane_a_count": 0,
+      "lane_b_count": 5,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 19514,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": "DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AND_OTHER_C",
+          "doc_title": "Second Variety and Other Classic Stories",
+          "passage_text": "being fought by ever more cunning and sophisticated robot weapons; \"Impostor\", in \nwhich a man is accused of being an alien spy and finds his whole identity called into \nquestion; and \"Prominent Author\", in which a fracture in space/time enables an ordinary \nfuture commuter to achieve unexpected literary fame.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "allegory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19581,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "The providentia vis-a-vis the Xerox Missive a law of physics having to do with feedback within a unified field: what a fascinating theory. I think my paranoia is abating -- my \"occlusion-plasmate\" equation.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19533,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Or (two) Are speech centers in the brain stimulated (which is to say, are they transmitting verbal and graphic material, or does it all arise within the brain due to the radiation pressure? The answer to this is important. From the presence of die messages I would assume information transmitted, but on the other hand, it may disinhibit neural circuits in the brain, causing them to fire for the first and only time.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19553,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "In \"Tears\" the Acts material presents a sequence by which \"secret under ground Xtian apostolic church\" can absolutely be inferred to come next outside the text \"Tears\" on the basis of the integers of the sequence included in the text by using a topological analog conversion! i.e. Taverner belongs to no organization, group, movement, religion, party; he is an isolated individual (this is stipulated in the text). There is no hint of a conspiracy.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19582,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "e. out of the 85 people 2 of \"the right people\" whom I've now notified; but notified of what? Could the whole Tagore ecosphere revelation - like the dream in \"Tears\" - be cypher for revolution? Christ but what are the real the master revolutionary. was hizely thinking, \"If this were a I goals? conspiracy I'd have sent one of the 85 letters to Robert Anton Wilson\" - + then I suddenly realized with a terrible shock that I did.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19554,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "This is a supernatural self, nicht ich He put the Acts material in \"Tears\" - why? message to trigger himself into being in 2-74? I was taken over not just in 2-3-74 but in There were 2 me's, as Hal guessed. One of 171 them supernatural + part of a conspiracy, making use of me.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19534,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Did I enncounter another universe or extended and nominally unseen levels of our own? I can’t say? Did it break through to me, or me to it? I can't say. What I do know is who was present: the cosmic Christ/St. Sophia/the logos, weaver of the universe. -6- The Playboy articles on the Hughes-CIA connection with Nixon agree with the RS piece that Nixon was thrown to the wolves to save the cover of the deeper conspiracy; it does not mention the Mafia except in passing, but if both the Playboy...",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "comparison",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19555,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Somehow connected with the Xerox missive. It didn't call him forth; the Golden Fish in 2-74 did. But he met the Xerox missive; he knew what it was. wer ist er? I had to be in fullerton - he was last in Canada, not Santa venetian what happened in Canada? The dream of return to Santa ventia \"a lot later\" - + the missing week. Did he take over for a week in Canada + fly back to the U.S.? someone perturbed (space + time] reality. back to '71 + early '72.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19556,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "They have a vast info-generating + processing technology here on this planet! Valis is a construct + not the Logos - that's nonsense, to think it's the Logos. Inadvertently I blew the whistle on them; I guess they're benign, but one thing they are for sure is - secret. Hence \"Valis\" wasn't supposed to be. I let the cat out of the bag. Now it's making sense. Much of what's in \"Valis\" is true - it's not superstitio-occult nonsense! (As I say supra, p 10 passim).",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19557,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "what I am saying is that the grid has a rathematical precision re Taverner (+ re the society repicted; there is an enemy internal revolutionary rovement) in terms of prediction. It says, \"Taver ver is the head of a secret illegal invisible evolutionary anti-state underground.\" Thus Felix's alice suspicions are totally correct, his worst aranoid suspicions - if you use the grid re prisoner, the innocent (sic!) Taverner the \"grid inverts taverner to guilty of treason + conspiracy of 453 This is...",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19558,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "So the method is not ingenious. But the real question remains: Who is sending, and to whom, and what are they saying? I can revert to theological explanations and say that God or the Logos is talking... whom to, then? To itself/himself? Hardly. Even if theological explanations are resorted to, some kind of group as receivers is implied. What I did briefly in 2-3-74 they must do all the time. All my paranoia is back regarding ultra sophisticated historical agencies.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19532,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_014",
+          "doc_title": "Dorothy",
+          "passage_text": "When the novel comes cut you can read about it in detail. For exactly one year this entity communicated with me, although the theolepsy was only s few days in duration; still, during those days, I possessed its wisdom and some of its power, and saw the universe quite differently, and my own purpose and reason for being here; in fact, for having been born.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19535,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "68 There is a striking (+ probably highly significant) paralled between my personal (sic) memories of come t down here (+ helping in the fight for freedom) t God's coming down here + leading the fight (+ successfully) for freedom: micro + macro, perhaps spark to source + if I can drop the Hegelian pantheism in favor I transsubstantiated intervention (inc. kimicry) I dent have to get paranoid about the marxists.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19583,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "Pain + hope are the two mutually exclusive primary realities that unify + become the ultimate, new synthesis for our age; we must feel both to experience this new synthesis that is serving, simplicity + sharing; pain without hope is miserable, but hope without pain is empty + futile. Hope. That is the key for me in all this, in terms of my oscillation between doubt, faith, conviction, credulity, paranoia, fear, suspicion.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19559,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "conspiratorial group anc no conspiratorial group) A Felix) ove conspiratorial group tears o Felix) no conspiratorial group came interal groun e Felix or: s) t tconspiratorial group) i elin e So the grid converts the key sequence of the text into its opposite. It does not just add material; it converts material ostensibly There. Felix's suspicions of Taverner are correct. \"Tears\" narrates the This is quite another book.",
+          "matched_terms": [
+            "Paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19527,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "\" This aptly describes my 3 74 experience. As does a chrismatic visitation by the Holy Spirit. As does the ICC description of Christ Consciousness or Christ Force or the Logos. I am led back to monotheism. What happened to me was described (and available) in psalm 116, before Christ. This is not necessarily bad, not at all; mainly, what I finally must realize, with no possibility of error, considering that I followed up every possibility, even paranoid ones and occult ones and ESP ones, (e.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "self_report",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19560,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "\"Valis\" - what a scoop! The novelist + reporter in me got the upper hand over the conspirator! We have been invaded + I wrote about it. I may have depicted it with favor, but depict it I did, for better or worse. Oh well; Thomas + his cohorts need not worry; no one will believe \"Valis\"; I wrote it up in such a way as to discredit it. Mental illness + all. Maybe. Maybe not. But something did go wrong due to the pentathol, etc.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "self_report",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19561,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It does not just add material; it converts material ostensibly There. Felix's suspicions of Taverner are correct. \"Tears\" narrates the This is quite another book. story of an innocent isolate man pursued + arrested + framed + tried by Paranoid + cynical authorities. but with the grid he is guilty; ergo he is not innocent, he is not framed; the authorities are not paranoid; they are only doing their job.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19562,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It is a reality regulator; it is \"justice\" operating in human history. This is Hegelian. It only operates in human history + yet it is the Tao, so, then, what is it? It is not found in nature but in history, this {is a} 12-21-80 very important insight. 3-74 was a massive enantiodromia for which it was responsible. Its purpose: it was put here to regulate hence guide + control human history. (This view is halfway between theology + conspiracy.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "definition",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19536,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "This explains my \"10 theories\" on the Nov 19 break in! Page 4 Page 4 In reading the screenplay of \"North by Northwest\" I all at once realize that 3-74 resolved (annihilated) my paranoia in an extraordinary & amazing way.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "ev_id": "SEV_PSYCHOLOGY_paranoia_005",
+      "claim_text": "PKD or scholars compare paranoia with other concepts across 4 passages.",
+      "evidence_summary": "Evidence from 2 Exegesis passages (Lane B), 2 scholarly passages (Lane C). Representative: \"2-3-74 is politically revolutionary; it had to do finally with overthrowing Nixon, which is to say the United States Government. But 11-17-80 is what ...\"; \"timeline below for fun. The timing sort of works for the break-in being Leary related. But the  Horowitz friendship did not appear to remain close in ...\"",
+      "confidence": "weak",
+      "source_method": "heuristic",
+      "lane_a_count": 0,
+      "lane_b_count": 2,
+      "lane_c_count": 2,
+      "passages": [
+        {
+          "passage_id": 19514,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": "DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AND_OTHER_C",
+          "doc_title": "Second Variety and Other Classic Stories",
+          "passage_text": "being fought by ever more cunning and sophisticated robot weapons; \"Impostor\", in \nwhich a man is accused of being an alien spy and finds his whole identity called into \nquestion; and \"Prominent Author\", in which a fracture in space/time enables an ordinary \nfuture commuter to achieve unexpected literary fame.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "allegory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19581,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "The providentia vis-a-vis the Xerox Missive a law of physics having to do with feedback within a unified field: what a fascinating theory. I think my paranoia is abating -- my \"occlusion-plasmate\" equation.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19533,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Or (two) Are speech centers in the brain stimulated (which is to say, are they transmitting verbal and graphic material, or does it all arise within the brain due to the radiation pressure? The answer to this is important. From the presence of die messages I would assume information transmitted, but on the other hand, it may disinhibit neural circuits in the brain, causing them to fire for the first and only time.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19553,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "In \"Tears\" the Acts material presents a sequence by which \"secret under ground Xtian apostolic church\" can absolutely be inferred to come next outside the text \"Tears\" on the basis of the integers of the sequence included in the text by using a topological analog conversion! i.e. Taverner belongs to no organization, group, movement, religion, party; he is an isolated individual (this is stipulated in the text). There is no hint of a conspiracy.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19582,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "e. out of the 85 people 2 of \"the right people\" whom I've now notified; but notified of what? Could the whole Tagore ecosphere revelation - like the dream in \"Tears\" - be cypher for revolution? Christ but what are the real the master revolutionary. was hizely thinking, \"If this were a I goals? conspiracy I'd have sent one of the 85 letters to Robert Anton Wilson\" - + then I suddenly realized with a terrible shock that I did.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19554,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "This is a supernatural self, nicht ich He put the Acts material in \"Tears\" - why? message to trigger himself into being in 2-74? I was taken over not just in 2-3-74 but in There were 2 me's, as Hal guessed. One of 171 them supernatural + part of a conspiracy, making use of me.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19534,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Did I enncounter another universe or extended and nominally unseen levels of our own? I can’t say? Did it break through to me, or me to it? I can't say. What I do know is who was present: the cosmic Christ/St. Sophia/the logos, weaver of the universe. -6- The Playboy articles on the Hughes-CIA connection with Nixon agree with the RS piece that Nixon was thrown to the wolves to save the cover of the deeper conspiracy; it does not mention the Mafia except in passing, but if both the Playboy...",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "comparison",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19555,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Somehow connected with the Xerox missive. It didn't call him forth; the Golden Fish in 2-74 did. But he met the Xerox missive; he knew what it was. wer ist er? I had to be in fullerton - he was last in Canada, not Santa venetian what happened in Canada? The dream of return to Santa ventia \"a lot later\" - + the missing week. Did he take over for a week in Canada + fly back to the U.S.? someone perturbed (space + time] reality. back to '71 + early '72.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19556,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "They have a vast info-generating + processing technology here on this planet! Valis is a construct + not the Logos - that's nonsense, to think it's the Logos. Inadvertently I blew the whistle on them; I guess they're benign, but one thing they are for sure is - secret. Hence \"Valis\" wasn't supposed to be. I let the cat out of the bag. Now it's making sense. Much of what's in \"Valis\" is true - it's not superstitio-occult nonsense! (As I say supra, p 10 passim).",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19557,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "what I am saying is that the grid has a rathematical precision re Taverner (+ re the society repicted; there is an enemy internal revolutionary rovement) in terms of prediction. It says, \"Taver ver is the head of a secret illegal invisible evolutionary anti-state underground.\" Thus Felix's alice suspicions are totally correct, his worst aranoid suspicions - if you use the grid re prisoner, the innocent (sic!) Taverner the \"grid inverts taverner to guilty of treason + conspiracy of 453 This is...",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19558,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "So the method is not ingenious. But the real question remains: Who is sending, and to whom, and what are they saying? I can revert to theological explanations and say that God or the Logos is talking... whom to, then? To itself/himself? Hardly. Even if theological explanations are resorted to, some kind of group as receivers is implied. What I did briefly in 2-3-74 they must do all the time. All my paranoia is back regarding ultra sophisticated historical agencies.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19532,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_014",
+          "doc_title": "Dorothy",
+          "passage_text": "When the novel comes cut you can read about it in detail. For exactly one year this entity communicated with me, although the theolepsy was only s few days in duration; still, during those days, I possessed its wisdom and some of its power, and saw the universe quite differently, and my own purpose and reason for being here; in fact, for having been born.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19535,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "68 There is a striking (+ probably highly significant) paralled between my personal (sic) memories of come t down here (+ helping in the fight for freedom) t God's coming down here + leading the fight (+ successfully) for freedom: micro + macro, perhaps spark to source + if I can drop the Hegelian pantheism in favor I transsubstantiated intervention (inc. kimicry) I dent have to get paranoid about the marxists.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19583,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "Pain + hope are the two mutually exclusive primary realities that unify + become the ultimate, new synthesis for our age; we must feel both to experience this new synthesis that is serving, simplicity + sharing; pain without hope is miserable, but hope without pain is empty + futile. Hope. That is the key for me in all this, in terms of my oscillation between doubt, faith, conviction, credulity, paranoia, fear, suspicion.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19559,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "conspiratorial group anc no conspiratorial group) A Felix) ove conspiratorial group tears o Felix) no conspiratorial group came interal groun e Felix or: s) t tconspiratorial group) i elin e So the grid converts the key sequence of the text into its opposite. It does not just add material; it converts material ostensibly There. Felix's suspicions of Taverner are correct. \"Tears\" narrates the This is quite another book.",
+          "matched_terms": [
+            "Paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19527,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "\" This aptly describes my 3 74 experience. As does a chrismatic visitation by the Holy Spirit. As does the ICC description of Christ Consciousness or Christ Force or the Logos. I am led back to monotheism. What happened to me was described (and available) in psalm 116, before Christ. This is not necessarily bad, not at all; mainly, what I finally must realize, with no possibility of error, considering that I followed up every possibility, even paranoid ones and occult ones and ESP ones, (e.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "self_report",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19560,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "\"Valis\" - what a scoop! The novelist + reporter in me got the upper hand over the conspirator! We have been invaded + I wrote about it. I may have depicted it with favor, but depict it I did, for better or worse. Oh well; Thomas + his cohorts need not worry; no one will believe \"Valis\"; I wrote it up in such a way as to discredit it. Mental illness + all. Maybe. Maybe not. But something did go wrong due to the pentathol, etc.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "self_report",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19561,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It does not just add material; it converts material ostensibly There. Felix's suspicions of Taverner are correct. \"Tears\" narrates the This is quite another book. story of an innocent isolate man pursued + arrested + framed + tried by Paranoid + cynical authorities. but with the grid he is guilty; ergo he is not innocent, he is not framed; the authorities are not paranoid; they are only doing their job.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19562,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It is a reality regulator; it is \"justice\" operating in human history. This is Hegelian. It only operates in human history + yet it is the Tao, so, then, what is it? It is not found in nature but in history, this {is a} 12-21-80 very important insight. 3-74 was a massive enantiodromia for which it was responsible. Its purpose: it was put here to regulate hence guide + control human history. (This view is halfway between theology + conspiracy.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "definition",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19536,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "This explains my \"10 theories\" on the Nov 19 break in! Page 4 Page 4 In reading the screenplay of \"North by Northwest\" I all at once realize that 3-74 resolved (annihilated) my paranoia in an extraordinary & amazing way.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "ev_id": "SEV_PSYCHOLOGY_paranoia_006",
+      "claim_text": "Paranoia functions allegorically in PKD's fiction across 2 passages.",
+      "evidence_summary": "Evidence from 1 fiction passage (Lane A), 1 Exegesis passage (Lane B). Representative: \"+ for me 2-3-74 confirms that this infor‐ mation is literally correct: \"Secret Xtian revolu‐ tionary church\" is not cypher or metaphor. The informatio...\"",
+      "confidence": "weak",
+      "source_method": "heuristic",
+      "lane_a_count": 1,
+      "lane_b_count": 1,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 19514,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": "DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AND_OTHER_C",
+          "doc_title": "Second Variety and Other Classic Stories",
+          "passage_text": "being fought by ever more cunning and sophisticated robot weapons; \"Impostor\", in \nwhich a man is accused of being an alien spy and finds his whole identity called into \nquestion; and \"Prominent Author\", in which a fracture in space/time enables an ordinary \nfuture commuter to achieve unexpected literary fame.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "allegory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19581,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "The providentia vis-a-vis the Xerox Missive a law of physics having to do with feedback within a unified field: what a fascinating theory. I think my paranoia is abating -- my \"occlusion-plasmate\" equation.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19533,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Or (two) Are speech centers in the brain stimulated (which is to say, are they transmitting verbal and graphic material, or does it all arise within the brain due to the radiation pressure? The answer to this is important. From the presence of die messages I would assume information transmitted, but on the other hand, it may disinhibit neural circuits in the brain, causing them to fire for the first and only time.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19553,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "In \"Tears\" the Acts material presents a sequence by which \"secret under ground Xtian apostolic church\" can absolutely be inferred to come next outside the text \"Tears\" on the basis of the integers of the sequence included in the text by using a topological analog conversion! i.e. Taverner belongs to no organization, group, movement, religion, party; he is an isolated individual (this is stipulated in the text). There is no hint of a conspiracy.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19582,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "e. out of the 85 people 2 of \"the right people\" whom I've now notified; but notified of what? Could the whole Tagore ecosphere revelation - like the dream in \"Tears\" - be cypher for revolution? Christ but what are the real the master revolutionary. was hizely thinking, \"If this were a I goals? conspiracy I'd have sent one of the 85 letters to Robert Anton Wilson\" - + then I suddenly realized with a terrible shock that I did.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19554,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "This is a supernatural self, nicht ich He put the Acts material in \"Tears\" - why? message to trigger himself into being in 2-74? I was taken over not just in 2-3-74 but in There were 2 me's, as Hal guessed. One of 171 them supernatural + part of a conspiracy, making use of me.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19534,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "Did I enncounter another universe or extended and nominally unseen levels of our own? I can’t say? Did it break through to me, or me to it? I can't say. What I do know is who was present: the cosmic Christ/St. Sophia/the logos, weaver of the universe. -6- The Playboy articles on the Hughes-CIA connection with Nixon agree with the RS piece that Nixon was thrown to the wolves to save the cover of the deeper conspiracy; it does not mention the Mafia except in passing, but if both the Playboy...",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "comparison",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19555,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Somehow connected with the Xerox missive. It didn't call him forth; the Golden Fish in 2-74 did. But he met the Xerox missive; he knew what it was. wer ist er? I had to be in fullerton - he was last in Canada, not Santa venetian what happened in Canada? The dream of return to Santa ventia \"a lot later\" - + the missing week. Did he take over for a week in Canada + fly back to the U.S.? someone perturbed (space + time] reality. back to '71 + early '72.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19556,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "They have a vast info-generating + processing technology here on this planet! Valis is a construct + not the Logos - that's nonsense, to think it's the Logos. Inadvertently I blew the whistle on them; I guess they're benign, but one thing they are for sure is - secret. Hence \"Valis\" wasn't supposed to be. I let the cat out of the bag. Now it's making sense. Much of what's in \"Valis\" is true - it's not superstitio-occult nonsense! (As I say supra, p 10 passim).",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19557,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "what I am saying is that the grid has a rathematical precision re Taverner (+ re the society repicted; there is an enemy internal revolutionary rovement) in terms of prediction. It says, \"Taver ver is the head of a secret illegal invisible evolutionary anti-state underground.\" Thus Felix's alice suspicions are totally correct, his worst aranoid suspicions - if you use the grid re prisoner, the innocent (sic!) Taverner the \"grid inverts taverner to guilty of treason + conspiracy of 453 This is...",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19558,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "So the method is not ingenious. But the real question remains: Who is sending, and to whom, and what are they saying? I can revert to theological explanations and say that God or the Logos is talking... whom to, then? To itself/himself? Hardly. Even if theological explanations are resorted to, some kind of group as receivers is implied. What I did briefly in 2-3-74 they must do all the time. All my paranoia is back regarding ultra sophisticated historical agencies.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "self_report",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19532,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_014",
+          "doc_title": "Dorothy",
+          "passage_text": "When the novel comes cut you can read about it in detail. For exactly one year this entity communicated with me, although the theolepsy was only s few days in duration; still, during those days, I possessed its wisdom and some of its power, and saw the universe quite differently, and my own purpose and reason for being here; in fact, for having been born.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19535,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "68 There is a striking (+ probably highly significant) paralled between my personal (sic) memories of come t down here (+ helping in the fight for freedom) t God's coming down here + leading the fight (+ successfully) for freedom: micro + macro, perhaps spark to source + if I can drop the Hegelian pantheism in favor I transsubstantiated intervention (inc. kimicry) I dent have to get paranoid about the marxists.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19583,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "Pain + hope are the two mutually exclusive primary realities that unify + become the ultimate, new synthesis for our age; we must feel both to experience this new synthesis that is serving, simplicity + sharing; pain without hope is miserable, but hope without pain is empty + futile. Hope. That is the key for me in all this, in terms of my oscillation between doubt, faith, conviction, credulity, paranoia, fear, suspicion.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19559,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "conspiratorial group anc no conspiratorial group) A Felix) ove conspiratorial group tears o Felix) no conspiratorial group came interal groun e Felix or: s) t tconspiratorial group) i elin e So the grid converts the key sequence of the text into its opposite. It does not just add material; it converts material ostensibly There. Felix's suspicions of Taverner are correct. \"Tears\" narrates the This is quite another book.",
+          "matched_terms": [
+            "Paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19527,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "\" This aptly describes my 3 74 experience. As does a chrismatic visitation by the Holy Spirit. As does the ICC description of Christ Consciousness or Christ Force or the Logos. I am led back to monotheism. What happened to me was described (and available) in psalm 116, before Christ. This is not necessarily bad, not at all; mainly, what I finally must realize, with no possibility of error, considering that I followed up every possibility, even paranoid ones and occult ones and ESP ones, (e.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "self_report",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19560,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "\"Valis\" - what a scoop! The novelist + reporter in me got the upper hand over the conspirator! We have been invaded + I wrote about it. I may have depicted it with favor, but depict it I did, for better or worse. Oh well; Thomas + his cohorts need not worry; no one will believe \"Valis\"; I wrote it up in such a way as to discredit it. Mental illness + all. Maybe. Maybe not. But something did go wrong due to the pentathol, etc.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "self_report",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19561,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It does not just add material; it converts material ostensibly There. Felix's suspicions of Taverner are correct. \"Tears\" narrates the This is quite another book. story of an innocent isolate man pursued + arrested + framed + tried by Paranoid + cynical authorities. but with the grid he is guilty; ergo he is not innocent, he is not framed; the authorities are not paranoid; they are only doing their job.",
+          "matched_terms": [
+            "paranoid"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        },
+        {
+          "passage_id": 19562,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "It is a reality regulator; it is \"justice\" operating in human history. This is Hegelian. It only operates in human history + yet it is the Tao, so, then, what is it? It is not found in nature but in history, this {is a} 12-21-80 very important insight. 3-74 was a massive enantiodromia for which it was responsible. Its purpose: it was put here to regulate hence guide + control human history. (This view is halfway between theology + conspiracy.",
+          "matched_terms": [
+            "conspiracy"
+          ],
+          "claim_type": "definition",
+          "confidence": "medium"
+        },
+        {
+          "passage_id": 19536,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "This explains my \"10 theories\" on the Nov 19 break in! Page 4 Page 4 In reading the screenplay of \"North by Northwest\" I all at once realize that 3-74 resolved (annihilated) my paranoia in an extraordinary & amazing way.",
+          "matched_terms": [
+            "paranoia"
+          ],
+          "claim_type": "causal_theory",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "contradiction_id": 16,
+      "summary": "Chronological tension between early and late positions",
+      "explanation": "Passage 19532 (Lane B) and passage 19513 (Lane C) exhibit this tension.",
+      "contradiction_type": "chronological",
+      "passage_a": {
+        "passage_id": 19532,
+        "lane": "B",
+        "doc_title": "Dorothy",
+        "passage_text": "When the novel comes cut you can read about it in detail. For exactly one year this entity communicated with me, although the theolepsy was only s few days in duration; still, during those days, I possessed its wisdom and some of its power, and saw the universe quite differently, and my own purpose and reason for being here; in fact, for having been born.",
+        "source_mode": "exegesis"
+      },
+      "passage_b": {
+        "passage_id": 19513,
+        "lane": "C",
+        "doc_title": "The Holy Family from Outer Space: Reconsidering Philip K. Dick's The Divine Invasion",
+        "passage_text": "assessment of Philip Kindred Dick’s oeuvre:\nAlthough Dick wrote a number of novels within [. . .] Realist conventions, he perceived \nhimself as a genre writer [. . .] To lift two or three Dick novels into the ‘literate’ New \nWave or into a separate tradition of SF-as-critical-theory is to canonize by isolating \nthose works from the confusing and confused avalanche of SF he produced in the \n1960s.",
+        "source_mode": "criticism"
+      }
+    },
+    {
+      "contradiction_id": 17,
+      "summary": "Chronological tension between early and late positions",
+      "explanation": "Passage 19556 (Lane B) and passage 19513 (Lane C) exhibit this tension.",
+      "contradiction_type": "chronological",
+      "passage_a": {
+        "passage_id": 19556,
+        "lane": "B",
+        "doc_title": "Letter",
+        "passage_text": "They have a vast info-generating + processing technology here on this planet! Valis is a construct + not the Logos - that's nonsense, to think it's the Logos. Inadvertently I blew the whistle on them; I guess they're benign, but one thing they are for sure is - secret. Hence \"Valis\" wasn't supposed to be. I let the cat out of the bag. Now it's making sense. Much of what's in \"Valis\" is true - it's not superstitio-occult nonsense! (As I say supra, p 10 passim).",
+        "source_mode": "exegesis"
+      },
+      "passage_b": {
+        "passage_id": 19513,
+        "lane": "C",
+        "doc_title": "The Holy Family from Outer Space: Reconsidering Philip K. Dick's The Divine Invasion",
+        "passage_text": "assessment of Philip Kindred Dick’s oeuvre:\nAlthough Dick wrote a number of novels within [. . .] Realist conventions, he perceived \nhimself as a genre writer [. . .] To lift two or three Dick novels into the ‘literate’ New \nWave or into a separate tradition of SF-as-critical-theory is to canonize by isolating \nthose works from the confusing and confused avalanche of SF he produced in the \n1960s.",
+        "source_mode": "criticism"
+      }
+    },
+    {
+      "contradiction_id": 18,
+      "summary": "Chronological tension between early and late positions",
+      "explanation": "Passage 19560 (Lane B) and passage 19513 (Lane C) exhibit this tension.",
+      "contradiction_type": "chronological",
+      "passage_a": {
+        "passage_id": 19560,
+        "lane": "B",
+        "doc_title": "Letter",
+        "passage_text": "\"Valis\" - what a scoop! The novelist + reporter in me got the upper hand over the conspirator! We have been invaded + I wrote about it. I may have depicted it with favor, but depict it I did, for better or worse. Oh well; Thomas + his cohorts need not worry; no one will believe \"Valis\"; I wrote it up in such a way as to discredit it. Mental illness + all. Maybe. Maybe not. But something did go wrong due to the pentathol, etc.",
+        "source_mode": "exegesis"
+      },
+      "passage_b": {
+        "passage_id": 19513,
+        "lane": "C",
+        "doc_title": "The Holy Family from Outer Space: Reconsidering Philip K. Dick's The Divine Invasion",
+        "passage_text": "assessment of Philip Kindred Dick’s oeuvre:\nAlthough Dick wrote a number of novels within [. . .] Realist conventions, he perceived \nhimself as a genre writer [. . .] To lift two or three Dick novels into the ‘literate’ New \nWave or into a separate tradition of SF-as-critical-theory is to canonize by isolating \nthose works from the confusing and confused avalanche of SF he produced in the \n1960s.",
+        "source_mode": "criticism"
+      }
+    },
+    {
+      "contradiction_id": 19,
+      "summary": "Chronological tension between early and late positions",
+      "explanation": "Passage 19570 (Lane B) and passage 19513 (Lane C) exhibit this tension.",
+      "contradiction_type": "chronological",
+      "passage_a": {
+        "passage_id": 19570,
+        "lane": "B",
+        "doc_title": "Letter",
+        "passage_text": "I lay there comparing Valis with ABBA. + realized, \"Valis is logically what you'd expect in a superior life form, + it can seem to be God - up until -+only until- you do experience God, + then you can see the difference; viz: \"if (i.e. since) ABBA is God, then what is Valis?\" Valis is here, arranges physical information, rides + cooks our media, is camouflaged, has invaded our world.¹ I saw Valis because Thomas came to the surface in me - due to the pentathol, primarily.",
+        "source_mode": "exegesis"
+      },
+      "passage_b": {
+        "passage_id": 19513,
+        "lane": "C",
+        "doc_title": "The Holy Family from Outer Space: Reconsidering Philip K. Dick's The Divine Invasion",
+        "passage_text": "assessment of Philip Kindred Dick’s oeuvre:\nAlthough Dick wrote a number of novels within [. . .] Realist conventions, he perceived \nhimself as a genre writer [. . .] To lift two or three Dick novels into the ‘literate’ New \nWave or into a separate tradition of SF-as-critical-theory is to canonize by isolating \nthose works from the confusing and confused avalanche of SF he produced in the \n1960s.",
+        "source_mode": "criticism"
+      }
+    },
+    {
+      "contradiction_id": 20,
+      "summary": "Chronological tension between early and late positions",
+      "explanation": "Passage 19573 (Lane B) and passage 19513 (Lane C) exhibit this tension.",
+      "contradiction_type": "chronological",
+      "passage_a": {
+        "passage_id": 19573,
+        "lane": "B",
+        "doc_title": "Letter",
+        "passage_text": "Then it needs our communications media for it to function. This isn't the will of God! This is all going on as what I call Valis' information metabolism. We're back to an information life form. It comes into existence only in the interface (arrangement of physical objects) that it controls. Controls. Does it control the world, then? If the grid/lens exists for the primary purpose of decyphering Valis' information then what we have is a titanic conspiracy involving human societies + human...",
+        "source_mode": "exegesis"
+      },
+      "passage_b": {
+        "passage_id": 19513,
+        "lane": "C",
+        "doc_title": "The Holy Family from Outer Space: Reconsidering Philip K. Dick's The Divine Invasion",
+        "passage_text": "assessment of Philip Kindred Dick’s oeuvre:\nAlthough Dick wrote a number of novels within [. . .] Realist conventions, he perceived \nhimself as a genre writer [. . .] To lift two or three Dick novels into the ‘literate’ New \nWave or into a separate tradition of SF-as-critical-theory is to canonize by isolating \nthose works from the confusing and confused avalanche of SF he produced in the \n1960s.",
+        "source_mode": "criticism"
+      }
+    }
+  ],
+  "chronology": [
+    {
+      "year": "1975",
+      "date": "1975-02-27",
+      "doc_title": "Claudia",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_010",
+      "doc_slug": "section-010"
+    },
+    {
+      "year": "1975",
+      "date": "1975-11-05",
+      "doc_title": "Letter",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_013",
+      "doc_slug": "section-013"
+    },
+    {
+      "year": "1976",
+      "date": "1976-09-12",
+      "doc_title": "Dorothy",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_014",
+      "doc_slug": "section-014"
+    },
+    {
+      "year": "1976",
+      "date": "1976-09-15",
+      "doc_title": "Dorothy",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_015",
+      "doc_slug": "section-015"
+    },
+    {
+      "year": "1978",
+      "date": "1978-10-10",
+      "doc_title": "Letter",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_016",
+      "doc_slug": "section-016"
+    },
+    {
+      "year": "1981",
+      "date": "1981-04-16",
+      "doc_title": "Pat",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_017",
+      "doc_slug": "section-017"
+    },
+    {
+      "year": "1984",
+      "date": "1984",
+      "doc_title": "Towards a Theory of Paranoia: The Science Fiction of Philip K. Dick",
+      "event_type": "scholarship",
+      "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1984_MAR_VOL_11_",
+      "doc_slug": "science-fiction-studies-1984-mar-vol-11-iss-1-towards-a-theory-of-paranoia-the-s"
+    },
+    {
+      "year": "1991",
+      "date": "1991",
+      "doc_title": "Second Variety and Other Classic Stories",
+      "event_type": "archive_pdf",
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AND_OTHER_C",
+      "doc_slug": "philip-k-dick-second-variety-and-other-classic-stories"
+    },
+    {
+      "year": "1991",
+      "date": "1991",
+      "doc_title": "Dick, Deception, and Dissociation: A Comment on 'The Two Faces of Philip K. Dick'",
+      "event_type": "scholarship",
+      "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1991_JUL_VOL_18_",
+      "doc_slug": "science-fiction-studies-1991-jul-vol-18-iss-2-dick-deception-and-dissociation-a-"
+    },
+    {
+      "year": "1991",
+      "date": "1991",
+      "doc_title": "The Two Faces of Philip K. Dick",
+      "event_type": "scholarship",
+      "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1991_MAR_VOL_18_",
+      "doc_slug": "science-fiction-studies-1991-mar-vol-18-iss-1-the-two-faces-of-philip-k-dick-les"
+    },
+    {
+      "year": "1996",
+      "date": "1996",
+      "doc_title": "Review: Search for Philip K. Dick, 1928-1982 by Anne Dick",
+      "event_type": "scholarship",
+      "doc_id": "DOC_ARCH_UTOPIAN_STUDIES_VOL_7_ISS_2_SEARCH_FOR_P",
+      "doc_slug": "utopian-studies-vol-7-iss-2-search-for-philip-k-dick-1928-1982-a-memoir-and-biog"
+    },
+    {
+      "year": "2001",
+      "date": "2001",
+      "doc_title": "Scratch Pad 44: The Philip K. Dick Special",
+      "event_type": "archive_pdf",
+      "doc_id": "DOC_ARCH_SCRAT044",
+      "doc_slug": "scrat044"
+    },
+    {
+      "year": "2011",
+      "date": "2011",
+      "doc_title": "The Holy Family from Outer Space: Reconsidering Philip K. Dick's The Divine Invasion",
+      "event_type": "scholarship",
+      "doc_id": "DOC_ARCH_EXTRAPOLATION_2011_JAN_VOL_52_ISS_2_THE_",
+      "doc_slug": "extrapolation-2011-jan-vol-52-iss-2-the-holy-family-from-outer-space-reconsideri"
+    },
+    {
+      "year": "2024",
+      "date": "2024",
+      "doc_title": "The Break-In: The Timothy Leary Connection",
+      "event_type": "archive_pdf",
+      "doc_id": "DOC_ARCH_THE_BREAK_IN_COPY",
+      "doc_slug": "the-break-in-copy"
+    }
+  ],
+  "related_documents": [
+    {
+      "doc_id": "DOC_EXEG_SECTION_016",
+      "title": "Letter",
+      "doc_type": "exegesis_section",
+      "relevance": "primary",
+      "passage_count": 28,
+      "slug": "section-016"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_015",
+      "title": "Dorothy",
+      "doc_type": "exegesis_section",
+      "relevance": "primary",
+      "passage_count": 20,
+      "slug": "section-015"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_017",
+      "title": "Pat",
+      "doc_type": "exegesis_section",
+      "relevance": "primary",
+      "passage_count": 10,
+      "slug": "section-017"
+    },
+    {
+      "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1984_MAR_VOL_11_",
+      "title": "Towards a Theory of Paranoia: The Science Fiction of Philip K. Dick",
+      "doc_type": "scholarship",
+      "relevance": "substantial",
+      "passage_count": 5,
+      "slug": "science-fiction-studies-1984-mar-vol-11-iss-1-towards-a-theory-of-paranoia-the-s"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_013",
+      "title": "Letter",
+      "doc_type": "exegesis_section",
+      "relevance": "substantial",
+      "passage_count": 3,
+      "slug": "section-013"
+    },
+    {
+      "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1991_MAR_VOL_18_",
+      "title": "The Two Faces of Philip K. Dick",
+      "doc_type": "scholarship",
+      "relevance": "mentions",
+      "passage_count": 2,
+      "slug": "science-fiction-studies-1991-mar-vol-18-iss-1-the-two-faces-of-philip-k-dick-les"
+    },
+    {
+      "doc_id": "DOC_ARCH_THE_BREAK_IN_COPY",
+      "title": "The Break-In: The Timothy Leary Connection",
+      "doc_type": "archive_pdf",
+      "relevance": "mentions",
+      "passage_count": 2,
+      "slug": "the-break-in-copy"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_010",
+      "title": "Claudia",
+      "doc_type": "exegesis_section",
+      "relevance": "mentions",
+      "passage_count": 2,
+      "slug": "section-010"
+    },
+    {
+      "doc_id": "DOC_ARCH_EXTRAPOLATION_2011_JAN_VOL_52_ISS_2_THE_",
+      "title": "The Holy Family from Outer Space: Reconsidering Philip K. Dick's The Divine Invasion",
+      "doc_type": "scholarship",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "extrapolation-2011-jan-vol-52-iss-2-the-holy-family-from-outer-space-reconsideri"
+    },
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AND_OTHER_C",
+      "title": "Second Variety and Other Classic Stories",
+      "doc_type": "archive_pdf",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "philip-k-dick-second-variety-and-other-classic-stories"
+    },
+    {
+      "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1991_JUL_VOL_18_",
+      "title": "Dick, Deception, and Dissociation: A Comment on 'The Two Faces of Philip K. Dick'",
+      "doc_type": "scholarship",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "science-fiction-studies-1991-jul-vol-18-iss-2-dick-deception-and-dissociation-a-"
+    },
+    {
+      "doc_id": "DOC_ARCH_SCRAT044",
+      "title": "Scratch Pad 44: The Philip K. Dick Special",
+      "doc_type": "archive_pdf",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "scrat044"
+    },
+    {
+      "doc_id": "DOC_ARCH_UTOPIAN_STUDIES_VOL_7_ISS_2_SEARCH_FOR_P",
+      "title": "Review: Search for Philip K. Dick, 1928-1982 by Anne Dick",
+      "doc_type": "scholarship",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "utopian-studies-vol-7-iss-2-search-for-philip-k-dick-1928-1982-a-memoir-and-biog"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_014",
+      "title": "Dorothy",
+      "doc_type": "exegesis_section",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "section-014"
+    }
+  ],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": []
+}

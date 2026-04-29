@@ -867,8 +867,34 @@ def run(db: sqlite3.Connection, project_dir: Path):
     export_search_index(db, data_dir)
     export_analytics(db, data_dir)
     export_graph(db, data_dir)
+    export_studies(db, data_dir)
+    export_scenes_json(db, data_dir)
 
     print("  Export complete")
+
+
+def export_studies(db: sqlite3.Connection, data_dir: Path):
+    """Export study JSON bundles (delegates to studies/export_studies.py)."""
+    print("  Exporting studies...")
+    try:
+        from studies.export_studies import run as export_studies_run
+        export_studies_run(db)
+    except ImportError as e:
+        print(f"    SKIP: studies export not available ({e})")
+    except Exception as e:
+        print(f"    ERROR: studies export failed ({e})")
+
+
+def export_scenes_json(db: sqlite3.Connection, data_dir: Path):
+    """Export scene JSON bundles (delegates to studies/export_scenes.py)."""
+    print("  Exporting scenes...")
+    try:
+        from studies.export_scenes import run as export_scenes_run
+        export_scenes_run(db)
+    except ImportError as e:
+        print(f"    SKIP: scenes export not available ({e})")
+    except Exception as e:
+        print(f"    ERROR: scenes export failed ({e})")
 
 
 if __name__ == '__main__':

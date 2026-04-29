@@ -1,0 +1,311 @@
+{
+  "study_id": "ai",
+  "study_label": "AI Topics",
+  "study_description": "Representations of artificial intelligence, androids, simulation, and machine consciousness across Philip K. Dick's fiction, Exegesis, and critical scholarship.",
+  "topics": [
+    {
+      "topic_id": "TOPIC_AI_simulation",
+      "canonical_name": "Simulation",
+      "slug": "simulation",
+      "status": "drafted",
+      "priority": 10,
+      "card_description": "Simulation as PKD's master theme: the possibility that experienced reality is constructed, projected, or counterfeit.",
+      "passage_count": 316,
+      "evidence_count": 6,
+      "contradiction_count": 5,
+      "first_appearance": null,
+      "lane_distribution": {
+        "B": 313,
+        "C": 3
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_androids",
+      "canonical_name": "Androids",
+      "slug": "androids",
+      "status": "drafted",
+      "priority": 10,
+      "card_description": "The android as PKD's central figure for examining empathy, authenticity, and the boundary between human and non-human.",
+      "passage_count": 158,
+      "evidence_count": 6,
+      "contradiction_count": 10,
+      "first_appearance": null,
+      "lane_distribution": {
+        "A": 5,
+        "B": 114,
+        "C": 39
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_cybernetics",
+      "canonical_name": "Cybernetics",
+      "slug": "cybernetics",
+      "status": "drafted",
+      "priority": 10,
+      "card_description": "Cybernetics in PKD's work refers to the science of feedback systems, self-regulating mechanisms, and information loops — concepts he absorbed from Norbert Wiener and applied to his theories of reality",
+      "passage_count": 78,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "B": 75,
+        "C": 3
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_machine_intelligence",
+      "canonical_name": "Machine Intelligence",
+      "slug": "machine-intelligence",
+      "status": "drafted",
+      "priority": 10,
+      "card_description": "Machine intelligence in PKD's work encompasses the possibility of genuinely thinking machines — artificial minds that may equal, exceed, or simulate human consciousness, raising questions about what c",
+      "passage_count": 7,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "B": 7
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_implanted_memory",
+      "canonical_name": "Implanted Memory",
+      "slug": "implanted-memory",
+      "status": "drafted",
+      "priority": 10,
+      "card_description": "Implanted memory in PKD's work refers to artificially inserted recollections that create false personal histories, serving as both a narrative device and a philosophical inquiry into the relationship ",
+      "passage_count": 1,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "B": 1
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_ai",
+      "canonical_name": "AI",
+      "slug": "ai",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "Artificial intelligence in PKD's work is the umbrella concept encompassing all forms of created or simulated minds — from military robots and governing computers to nearly-human androids and cosmic in",
+      "passage_count": 717,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "B": 712,
+        "C": 5
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_programming",
+      "canonical_name": "Programming",
+      "slug": "programming",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "Programming in PKD's work refers to the conditioning, scripting, or predetermined control of behavior — whether through technological implants, social conditioning, drug manipulation, or cosmic determ",
+      "passage_count": 546,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "A": 1,
+        "B": 541,
+        "C": 4
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_surveillance",
+      "canonical_name": "Surveillance",
+      "slug": "surveillance",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "Surveillance in PKD's work encompasses the apparatus of observation, monitoring, and data collection by state or corporate powers — a pervasive condition that erodes privacy, autonomy, and trust in th",
+      "passage_count": 85,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "A": 5,
+        "B": 79,
+        "C": 1
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_false_reality",
+      "canonical_name": "False Reality",
+      "slug": "false-reality",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "False reality in PKD's work denotes any experienced world that is revealed to be counterfeit, constructed, or layered over a truer reality beneath — encompassing drug-induced hallucinations, political",
+      "passage_count": 68,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "B": 65,
+        "C": 3
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_robots",
+      "canonical_name": "Robots",
+      "slug": "robots",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "Robots in PKD's work are mechanically constructed artificial beings — distinct from the biologically engineered androids — that serve as weapons, laborers, or autonomous agents, often evolving beyond ",
+      "passage_count": 44,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "A": 2,
+        "B": 37,
+        "C": 5
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_reality_testing",
+      "canonical_name": "Reality Testing",
+      "slug": "reality-testing",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "Reality testing in PKD's work refers to the methods, criteria, and instruments characters use to distinguish genuine from counterfeit reality — a practical epistemological problem that pervades both h",
+      "passage_count": 42,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "B": 37,
+        "C": 5
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_automation",
+      "canonical_name": "Automation",
+      "slug": "automation",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "Automation in PKD's work refers to the displacement of human agency by self-operating technological systems — factories, weapons, governments, and domestic appliances that function without human overs",
+      "passage_count": 32,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "A": 1,
+        "B": 25,
+        "C": 6
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_control_systems",
+      "canonical_name": "Control Systems",
+      "slug": "control-systems",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "Control systems in PKD's work denote any mechanism — technological, political, theological, or cosmic — that governs, constrains, or determines human behavior and experience, from Palmer Eldritch's re",
+      "passage_count": 8,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "B": 7,
+        "C": 1
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_fabricated_identity",
+      "canonical_name": "Fabricated Identity",
+      "slug": "fabricated-identity",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "Fabricated identity in PKD's work refers to the condition of possessing a constructed or counterfeit selfhood — characters who are not who they believe themselves to be, whether through technological ",
+      "passage_count": 3,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "B": 3
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_bureaucratic_control",
+      "canonical_name": "Bureaucratic Control",
+      "slug": "bureaucratic-control",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "Bureaucratic control in PKD's work refers to the impersonal, procedural, and often absurd systems of institutional power that regulate and constrain individual life — governmental, corporate, and cosm",
+      "passage_count": 2,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "C": 2
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_posthuman_cognition",
+      "canonical_name": "Posthuman Cognition",
+      "slug": "posthuman-cognition",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "Posthuman cognition in PKD's work refers to forms of intelligence that transcend ordinary human consciousness — whether through technological augmentation, evolutionary mutation, divine intervention, ",
+      "passage_count": 2,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "B": 2
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_simulation_of_mind",
+      "canonical_name": "Simulation of Mind",
+      "slug": "simulation-of-mind",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "Simulation of mind in PKD's work addresses the question of whether mental states can be authentically reproduced or merely imitated — the gap between a mind that genuinely thinks and feels and one tha",
+      "passage_count": 2,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "B": 2
+      },
+      "related_topics": []
+    },
+    {
+      "topic_id": "TOPIC_AI_artificial_persons",
+      "canonical_name": "Artificial Persons",
+      "slug": "artificial-persons",
+      "status": "drafted",
+      "priority": 5,
+      "card_description": "Artificial persons in PKD's work are non-biologically-originated beings who nonetheless possess or simulate the qualities of personhood — consciousness, autonomy, affect, moral agency — raising the qu",
+      "passage_count": 1,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": null,
+      "lane_distribution": {
+        "C": 1
+      },
+      "related_topics": []
+    }
+  ]
+}

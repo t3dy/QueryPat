@@ -15,6 +15,11 @@ import Names from './pages/Names'
 import NameDetail from './pages/NameDetail'
 import Bookmarks from './pages/Bookmarks'
 import TagResults from './pages/TagResults'
+import StudiesIndex from './pages/StudiesIndex'
+import StudyIndex from './pages/StudyIndex'
+import TopicDetail from './pages/TopicDetail'
+import ScenesIndex from './pages/ScenesIndex'
+import SceneDetail from './pages/SceneDetail'
 import './App.css'
 
 function App() {
@@ -37,6 +42,11 @@ function App() {
           <Route path="names/:slug" element={<NameDetail />} />
           <Route path="analytics" element={<Analytics />} />
           <Route path="bookmarks" element={<Bookmarks />} />
+          <Route path="studies" element={<StudiesIndex />} />
+          <Route path="studies/:studyId" element={<StudyIndex />} />
+          <Route path="studies/:studyId/:slug" element={<TopicDetail />} />
+          <Route path="studies/ai/scenes" element={<ScenesIndex />} />
+          <Route path="studies/ai/scenes/:sceneId" element={<SceneDetail />} />
           <Route path="tag/:tagname" element={<TagResults />} />
         </Route>
       </Routes>

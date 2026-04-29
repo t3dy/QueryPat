@@ -1,0 +1,121 @@
+{
+  "topic_id": "TOPIC_AI_fabricated_identity",
+  "study_id": "ai",
+  "canonical_name": "Fabricated Identity",
+  "slug": "fabricated-identity",
+  "status": "drafted",
+  "definition": "Fabricated identity in PKD's work refers to the condition of possessing a constructed or counterfeit selfhood — characters who are not who they believe themselves to be, whether through technological manipulation, institutional deception, or ontological error.",
+  "pkd_relevance": "The fabricated self is one of PKD's signature obsessions. His fiction is populated by characters who discover their identities are manufactured: androids who think they are human, agents whose cover stories have overwritten their real selves, ordinary people living inside engineered realities. This theme connects to PKD's deepest philosophical question: what, if anything, constitutes an authentic person?",
+  "in_the_fiction": "Dick depicts fabricated identity across his career. In 'Imposter' (1953), Spence Olham cannot prove he is not an alien bomb disguised as himself. In Do Androids Dream of Electric Sheep? (1968), Rachael's entire identity is a corporate fabrication. A Scanner Darkly (1977) presents Bob Arctor's identity as literally splitting under his scramble suit. In Flow My Tears, the Policeman Said (1974), Jason Taverner's celebrity identity is erased overnight.",
+  "in_the_exegesis": "Dick writes about his own identity as potentially fabricated — the 'Thomas' personality that emerged during 2-3-74 raised the question of which Philip Dick was real. He theorizes that the Black Iron Prison fabricates consensus identities to keep humanity docile, and that genuine selfhood can only be recovered through anamnesis.",
+  "intellectual_background": "PKD's fabricated identity theme draws on existentialist philosophy (Heidegger's 'das Man,' Sartre's bad faith), Gnostic mythology (the sleeping divine spark trapped in a false body), and mid-century sociological critiques of conformity (Riesman's 'other-directed' personality).",
+  "scholarly_debate": "Freedman reads fabricated identity as PKD's response to Cold War ideology and the organization man. Palmer connects it to postmodern theories of performative identity. Umland argues that PKD's androids represent the ultimate fabricated identity, testing whether personhood requires biological origins.",
+  "chronology_summary": "Fabricated identity appears in PKD's earliest published stories and never leaves his repertoire. The theme deepens after 2-3-74, when PKD's fictional concerns became autobiographical questions about his own identity.",
+  "contradictions_summary": "PKD simultaneously suggests that fabricated identities are a prison to be escaped and that all identity may be fabricated, leaving no stable ground for the 'authentic self' his characters seek.",
+  "related_thinkers": [],
+  "editorial_notes": "This topic overlaps with Implanted Memory (mechanism), Identity Diffusion (psychological experience), and the Double/Doppelganger (structural pattern). Researchers should specify which dimension they are investigating.",
+  "open_questions": [
+    "Does PKD's fiction offer any positive model of identity construction, or is all fabricated identity presented as pathological?",
+    "How does the fabricated identity theme in the fiction relate to PKD's use of pseudonyms and his ambivalent relationship with his own public persona?",
+    "What distinguishes PKD's treatment of fabricated identity from the broader postmodern dissolution of the subject?"
+  ],
+  "passage_count": 3,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": null,
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "evidence_packets": [
+    {
+      "ev_id": "SEV_RAW_TOPIC_AI_fabricated_identity",
+      "claim_text": null,
+      "evidence_summary": null,
+      "confidence": null,
+      "source_method": "deterministic",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 19893,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "+ that which that points to, we cannot precisely trace the connectives - but that is not needed; the vast hidden \"inner reality\" of meaning strikes clear + lucid: it is alive. There is no difference between the meaning + the \"Acts\" material showing up in \"Tears\" + [..] computer was given instructions to randomly printout on the problem, \"what is love?\" + printed out unmistakeable sections - + characters - of the Bible, esp. \"Acts.\" They gave me fake identity + fake memories even I didn't know wh",
+          "matched_terms": [
+            "fake identity"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19894,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "We have been made to forget; the Golden Fish reminded me - did not just enhance but restored my memory. + just how long-term was it really? Two thousand years? Or - I think we have an irreal \"spinning\" time involved here, a duplicity. Rome CAD 70 is directly accessible to the senses upon restoration of true memory. The entire power (presence) of world over us is broken by Christ via the Holy Spirit + Holy Wisdom. We suddenly see things as they are. It is a correct aspect vs a false one. My false",
+          "matched_terms": [
+            "false identity"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19895,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "e. in which the axis won WWII!) folder 21 - 026 + fake fakes bring up my double flip flop 2-slit logic. Is a fake fake more fake than just a fake, or null-fake? (Here probability theory enters - logic, not perception.) 1) Fake world. 2) Fake perceptions (occluded percept system) 3) Fake volition (i.e. fake freedom + choice) 4) Fake memories + hence fake identity.",
+          "matched_terms": [
+            "fake identity"
+          ],
+          "claim_type": null,
+          "confidence": null
+        }
+      ]
+    }
+  ],
+  "contradictions": [],
+  "chronology": [
+    {
+      "year": "1976",
+      "date": "1976-09-15",
+      "doc_title": "Dorothy",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_015",
+      "doc_slug": "section-015"
+    },
+    {
+      "year": "1978",
+      "date": "1978-10-10",
+      "doc_title": "Letter",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_016",
+      "doc_slug": "section-016"
+    }
+  ],
+  "related_documents": [
+    {
+      "doc_id": "DOC_EXEG_SECTION_015",
+      "title": "Dorothy",
+      "doc_type": "exegesis_section",
+      "relevance": "mentions",
+      "passage_count": 2,
+      "slug": "section-015"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_016",
+      "title": "Letter",
+      "doc_type": "exegesis_section",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "section-016"
+    }
+  ],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": []
+}

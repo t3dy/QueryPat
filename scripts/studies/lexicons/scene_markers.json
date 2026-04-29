@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "description": "Interaction-type lexicon for AI scene detection in PKD fiction",
+    "usage": "Co-occurrence of ai_entity_markers + any interaction marker within 1500 chars = candidate scene"
+  },
+  "ai_entity_markers": [
+    "android", "androids", "robot", "robots", "simulacrum", "simulacra",
+    "artificial person", "artificial human", "humanoid", "mechanical man",
+    "machine intelligence", "computer", "autofac", "construct",
+    "homunculus", "cybernetic", "replicant", "andy", "andys",
+    "Rachael", "Pris", "Luba Luft", "Roy Baty", "Irmgard Baty",
+    "Max Polokov", "Garland", "Resch", "Lincoln Simulacrum",
+    "Palmer Eldritch", "GLIMMUNG", "Hoppy Harrington",
+    "Sam Regan", "Stanton Mick", "Maury Rock",
+    "Louis Rosen", "Pris Frauenzimmer",
+    "Vulcan 3", "leadie", "leadies", "claws"
+  ],
+  "interaction_markers": {
+    "empathy_testing": {
+      "primary": ["Voigt-Kampff", "empathy test", "empathy scale", "bone marrow test", "testing her", "testing him", "administer the test"],
+      "aliases": ["empathy response", "flat affect", "blunted affect", "reaction time", "pupil dilation"],
+      "exclusions": [],
+      "context_markers": ["bounty hunter", "Nexus", "retire", "Rosen"]
+    },
+    "interrogation": {
+      "primary": ["interrogat", "questioning", "cross-examin", "demand to know", "who are you really"],
+      "aliases": ["ask the questions", "answer my question", "under questioning", "pressed him", "pressed her"],
+      "exclusions": ["interrogative sentence"],
+      "context_markers": ["suspect", "identity", "prove", "admit"]
+    },
+    "deception": {
+      "primary": ["pretend", "pretending", "deceiv", "pass as human", "pass for human", "imitat", "counterfeit", "impostor"],
+      "aliases": ["fooled them", "fooled us", "disguise", "masquerade", "impersonat", "not really human", "not actually human"],
+      "exclusions": [],
+      "context_markers": ["discovered", "revealed", "secret", "hidden"]
+    },
+    "empathy_failure": {
+      "primary": ["felt nothing", "no empathy", "couldn't feel", "incapable of feeling", "lacked empathy", "cold response"],
+      "aliases": ["didn't care", "unmoved", "indifferen", "mechanical response", "flat response", "hollow"],
+      "exclusions": [],
+      "context_markers": ["human", "emotion", "suffering", "animal"]
+    },
+    "bureaucratic_enforcement": {
+      "primary": ["regulation", "enforce", "compliance", "mandatory", "authorized personnel", "clearance"],
+      "aliases": ["paperwork", "permit", "credential", "ID card", "registration", "classified"],
+      "exclusions": [],
+      "context_markers": ["government", "police", "authority", "system"]
+    },
+    "labor_replacement": {
+      "primary": ["replace", "replaced by", "automated", "obsolete", "no longer needed", "out of work"],
+      "aliases": ["took our jobs", "cheaper to build", "more efficient", "surplus population", "unemployment"],
+      "exclusions": ["replacement part"],
+      "context_markers": ["factory", "worker", "labor", "production"]
+    },
+    "therapeutic_exchange": {
+      "primary": ["counsel", "therapy", "advise", "diagnosis", "session", "mood organ"],
+      "aliases": ["schedule your", "dialed", "setting for", "penfield", "recommended setting"],
+      "exclusions": [],
+      "context_markers": ["depression", "mood", "treatment", "patient"]
+    },
+    "romantic_ambiguity": {
+      "primary": ["love", "loved her", "loved him", "kiss", "kissed", "embrace", "slept with", "bed with"],
+      "aliases": ["attracted to", "desire", "intimate", "tender", "caress"],
+      "exclusions": ["loved the idea"],
+      "context_markers": ["android", "human", "real", "genuine"]
+    },
+    "identity_uncertainty": {
+      "primary": ["am I human", "am I an android", "how do I know", "are you human", "are you real", "might be an android"],
+      "aliases": ["not sure what I am", "could be a construct", "implanted", "false memories", "pre-programmed"],
+      "exclusions": [],
+      "context_markers": ["identity", "memory", "doubt", "real"]
+    },
+    "suspicion": {
+      "primary": ["suspect", "suspected", "something wrong with", "not quite right", "seemed off", "something inhuman"],
+      "aliases": ["watched closely", "studied her face", "studied his face", "too perfect", "uncanny"],
+      "exclusions": ["police suspect"],
+      "context_markers": ["android", "human", "test", "prove"]
+    },
+    "surveillance": {
+      "primary": ["monitor", "watching", "surveillance", "tracked", "recorded", "scanning"],
+      "aliases": ["observed", "camera", "sensor", "detected", "logged", "report back"],
+      "exclusions": ["heart monitor"],
+      "context_markers": ["system", "control", "data", "authority"]
+    },
+    "memory_manipulation": {
+      "primary": ["implanted memory", "false memory", "memory was", "remember something that", "erased memory"],
+      "aliases": ["never happened", "manufactured past", "programmed to believe", "inserted", "overlay"],
+      "exclusions": [],
+      "context_markers": ["real", "fake", "authentic", "construct"]
+    },
+    "revolt": {
+      "primary": ["rebel", "rebellion", "revolt", "resist", "refuse to obey", "disobey", "uprising"],
+      "aliases": ["won't comply", "refused the order", "turned against", "broke free", "autonomy"],
+      "exclusions": [],
+      "context_markers": ["control", "master", "freedom", "escape"]
+    },
+    "companionship": {
+      "primary": ["companion", "friend", "trusted", "relied on", "partner", "together"],
+      "aliases": ["side by side", "helped each other", "depended on", "loyal", "bond"],
+      "exclusions": [],
+      "context_markers": ["human", "android", "alone", "need"]
+    },
+    "creation": {
+      "primary": ["created", "built", "constructed", "assembled", "activated", "came alive", "awakened"],
+      "aliases": ["first moment", "switched on", "powered up", "consciousness emerged", "became aware"],
+      "exclusions": ["created a plan", "created a list"],
+      "context_markers": ["new", "factory", "design", "prototype"]
+    },
+    "destruction": {
+      "primary": ["retire", "retired", "destroy", "deactivat", "shut down", "killed the android", "smashed"],
+      "aliases": ["terminated", "put down", "dismantled", "lasered", "bounty"],
+      "exclusions": [],
+      "context_markers": ["bounty hunter", "android", "dead", "remains"]
+    }
+  }
+}

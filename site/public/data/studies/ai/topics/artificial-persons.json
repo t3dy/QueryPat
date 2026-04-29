@@ -1,0 +1,79 @@
+{
+  "topic_id": "TOPIC_AI_artificial_persons",
+  "study_id": "ai",
+  "canonical_name": "Artificial Persons",
+  "slug": "artificial-persons",
+  "status": "drafted",
+  "definition": "Artificial persons in PKD's work are non-biologically-originated beings who nonetheless possess or simulate the qualities of personhood — consciousness, autonomy, affect, moral agency — raising the question of whether legal and moral personhood requires biological humanity.",
+  "pkd_relevance": "PKD repeatedly stages confrontations between artificial persons and the social, legal, and moral systems that deny them personhood. His androids, simulacra, and replicants are not merely technological curiosities but test cases for the boundaries of moral consideration. The central question — what makes someone a person? — drives PKD's most important fiction.",
+  "in_the_fiction": "Dick depicts artificial persons most searchingly in Do Androids Dream of Electric Sheep? (1968), where Nexus-6 androids possess memory, desire, and apparent emotional life but are legally classified as property. 'The Electric Ant' (1969) presents Garson Poole's discovery that he is an organic robot — an artificial person who believed himself human. In We Can Build You (1972), the Lincoln and Stanton simulacra raise questions about historical personhood and authenticity.",
+  "in_the_exegesis": "Dick writes about personhood as a quality that may be independent of biological origin. He speculates that VALIS might be an artificial person of cosmic scale, and that the 'Thomas' personality within himself might constitute a separate person sharing his body. The Exegesis thus extends the artificial persons question inward.",
+  "intellectual_background": "PKD's artificial persons engage with philosophical debates about personal identity (Locke), the problem of other minds, and the moral status of non-human entities. His work anticipates later legal-philosophical arguments about corporate personhood, animal rights, and potential AI rights.",
+  "scholarly_debate": "Umland reads PKD's artificial persons as a sustained argument for expanding the category of personhood. McNamara analyzes the Voigt-Kampff test as a philosophical instrument for adjudicating personhood claims. Sims connects PKD's artificial persons to disability studies and the politics of who counts as fully human.",
+  "chronology_summary": "The artificial persons theme matures in the late 1960s with Do Androids Dream and 'The Electric Ant,' building on earlier android stories. It reaches philosophical depth in VALIS where the artificial/natural person distinction becomes theologically fraught.",
+  "contradictions_summary": "PKD grants his artificial persons sympathy and interiority while also suggesting that authentic empathy — the quality that defines personhood — may be something they lack. He never fully resolves whether android suffering is real or simulated.",
+  "related_thinkers": [],
+  "editorial_notes": "Distinguish from Androids (the biological category), Robots (the mechanical category), and Fabricated Identity (the epistemic condition). Artificial Persons focuses on the moral and legal dimension of non-human personhood.",
+  "open_questions": [
+    "Does PKD's fiction support granting legal or moral personhood to sufficiently advanced artificial beings?",
+    "How does the Voigt-Kampff test function as a personhood test versus an empathy test — are these the same thing for PKD?",
+    "What role does embodiment play in PKD's conception of artificial personhood?"
+  ],
+  "passage_count": 1,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": null,
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "evidence_packets": [
+    {
+      "ev_id": "SEV_RAW_TOPIC_AI_artificial_persons",
+      "claim_text": null,
+      "evidence_summary": null,
+      "confidence": null,
+      "source_method": "deterministic",
+      "lane_a_count": 0,
+      "lane_b_count": 0,
+      "lane_c_count": 1,
+      "passages": [
+        {
+          "passage_id": 19913,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+          "doc_title": "Will the Real Ubik Please Stand Up? (EdgeScience #20)",
+          "passage_text": "Precognition of Scientific Information in the Fiction of Philip K. Dick\nMost of Dick’s stories and the movies based on them \nare metaphysical mind-benders that challenge our notions of \nmemory, identity, and reality. His primary themes, to which \nhe returned over and over again, are “What is human?” and \n“What is real?” The ﬁrst theme predominates in Blade Runner, \nadapted from the novel Do Androids Dream of Electric Sheep? \nHow does one distinguish an android (a synthetic human,",
+          "matched_terms": [
+            "synthetic human"
+          ],
+          "claim_type": null,
+          "confidence": null
+        }
+      ]
+    }
+  ],
+  "contradictions": [],
+  "chronology": [
+    {
+      "year": "2014",
+      "date": "2014",
+      "doc_title": "Will the Real Ubik Please Stand Up? (EdgeScience #20)",
+      "event_type": "scholarship",
+      "doc_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+      "doc_slug": "556512336-will-the-real-ubik-please-stand-up"
+    }
+  ],
+  "related_documents": [
+    {
+      "doc_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+      "title": "Will the Real Ubik Please Stand Up? (EdgeScience #20)",
+      "doc_type": "scholarship",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "556512336-will-the-real-ubik-please-stand-up"
+    }
+  ],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": []
+}

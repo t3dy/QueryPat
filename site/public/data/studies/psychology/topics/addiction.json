@@ -1,0 +1,385 @@
+{
+  "topic_id": "TOPIC_PSY_addiction",
+  "study_id": "psychology",
+  "canonical_name": "Addiction",
+  "slug": "addiction",
+  "status": "drafted",
+  "definition": "Addiction in PKD's work encompasses both the pharmacological dependence depicted in his fiction and the broader theme of compulsive attachment to substances, experiences, or realities that simultaneously sustain and destroy the user.",
+  "pkd_relevance": "Addiction is one of PKD's most autobiographically grounded themes, drawn from his own amphetamine use and the drug culture of 1960s-70s California. But PKD elevates addiction beyond the personal: in his hands, it becomes a model for humanity's relationship to false reality itself. The inhabitants of PKD's fictional worlds are addicted to their own perceptions, unable to relinquish comforting illusions even when shown the truth.",
+  "in_the_fiction": "Dick depicts addiction most devastatingly in A Scanner Darkly (1977), dedicated to friends lost to drug use, where Substance D destroys Bob Arctor's cognitive integrity. The Three Stigmata of Palmer Eldritch (1965) presents two competing addictive substances — Can-D (escapist) and Chew-Z (transformative/trapped) — as competing models of reality. Now Wait for Last Year (1966) features a drug that causes temporal displacement and irreversible dependence.",
+  "in_the_exegesis": "Dick writes about addiction only occasionally in the Exegesis, but the concept haunts his analysis of the BIP. He frames false reality as addictive — humans are habituated to the dokos and resist awakening. The metaphor of addiction structures his understanding of why liberation is so difficult even when truth is available.",
+  "intellectual_background": "PKD's addiction writing draws on direct personal experience, the countercultural drug discourse of the 1960s-70s, and De Quincey's literary tradition of drug memoir. His unique contribution is the theological dimension: addiction as a model of the human condition under the BIP, not merely a social or medical problem.",
+  "scholarly_debate": "Sutin and Rickman document PKD's personal substance use history as biographical context. Palmer reads the addiction theme as PKD's most socially realist material — a departure from his metaphysical concerns. Davis argues that addiction in PKD is always already metaphysical: Substance D is a figure for any system that replaces authentic experience with simulacra.",
+  "chronology_summary": "Addiction themes appear from the mid-1960s onward, intensifying through the 'speed years' and reaching their definitive expression in A Scanner Darkly (1977). The theme becomes more metaphorical in the Exegesis.",
+  "contradictions_summary": "PKD depicts drugs as both tools of enslavement (Substance D) and potential vehicles of liberation (the temporally displacing drug in Now Wait for Last Year). He simultaneously condemns drug culture and mourns its casualties from the inside.",
+  "related_thinkers": [],
+  "editorial_notes": "Handle with care: present PKD's depictions and self-reports without moralizing or clinicalizing. Cross-reference with Amphetamine Use (the specific substance) and False Reality (addiction as epistemic metaphor). A Scanner Darkly's dedication to lost friends provides essential context.",
+  "open_questions": [
+    "How does the addiction theme in PKD's fiction relate to his Gnostic theology of entrapment in false reality?",
+    "Is A Scanner Darkly best read as realist drug fiction or as metaphysical allegory — and does PKD intend the distinction to collapse?",
+    "How does PKD's treatment of addiction compare with other major drug-literature authors (Burroughs, De Quincey, Thompson)?"
+  ],
+  "passage_count": 19,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": null,
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "evidence_packets": [
+    {
+      "ev_id": "SEV_RAW_TOPIC_PSY_addiction",
+      "claim_text": null,
+      "evidence_summary": null,
+      "confidence": null,
+      "source_method": "deterministic",
+      "lane_a_count": 1,
+      "lane_b_count": 17,
+      "lane_c_count": 1,
+      "passages": [
+        {
+          "passage_id": 19746,
+          "lane": "A",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_DICK_PHILIP_KINDRED_THE_SIMULACRA_LIBGEN",
+          "doc_title": "The Simulacra",
+          "passage_text": "the living system pulsed. I could take you along, Flieger decided. The F-a2 was portable and he\npreferred its curve to later, more sophisticated equipment. Flieger lit a delicado, walked to the window of\nhis office to switch the blind to receive; warm\n  \n Mexican sunlight burst in and he blinked. The F-a2 went into a state of extreme activity, then, utilizing the\nsunlight and the water, its metabolic processes stimulated. From habit Flieger watched it at work, but his",
+          "matched_terms": [
+            "habit"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19760,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "there is, indeed, much meret in Ursula's perception of me as \"mad\" (which is to say, I think, intoxicated/Dionysian: addicted to quite abruptly excess + the dream).",
+          "matched_terms": [
+            "addicted"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19761,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "There seems to be a mind + we are in it - But even now after 7 years of mulling it over I am as baffled as ever. Hence the utility folder 90 - 131 G-76 of this perception is (at least at this time) dubious. Out of this experience with the inscrutible + inexplicable I formulate at last the notion that the compulsion exerted on us to see the representation as (1) absolutely real + (2) totally comprehensible is a gift, an essential gift.",
+          "matched_terms": [
+            "compulsion"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19757,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "(1) It can't because if it did it would be irrational. Well, we're in an irrational sustain temporary override. + medical help's on the way. Post 3-74 [since I unconsciously know I'm self-programming my future reality] I'm beginning to program (create) it along hedonistic (pleasure-driven + oriented) lines. Everything I know is a triumph over amnesia. All my Gnosis (books + exegesis] derive from memory. There is no amnesia-compulsion - it's not a plot, or a virus, etc.",
+          "matched_terms": [
+            "compulsion"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19762,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "g. Taoism and Pauline Christian mysticism, is really at the forefront of Western thought.\" If I abandon it, out of the force of habit of trying models and then abandoning them in a search for something better, I may find that I have turned my back on the first real solution, the first to actually work, in all these many years.",
+          "matched_terms": [
+            "habit"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19749,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "]. When I wrote that, I had not yet reached the extraordinary realization that my set ground discrimination was an unscrambling of the mixture of hyperuniverse I & II projections. As soon as those diploid projections are unscrambled, the activity of Valis/Zebra is no longer concealed, axiomatically. Conversely, its acitivity is totally concealed in the mixture of (as is normal) projections of I & II are not unscrambled as Set / Ground. Now to the mimicry habit of Zebra.",
+          "matched_terms": [
+            "habit"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19750,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "(Cf te rock-throwing of mercer in \"Do androids...\"). Be neath appearance lies the is. We have been deceived by lin s time + the corrolate of forgetting. (+ to remember n This sense is to restore to being in the now.) Pinky was Christ. The Aristotelian distinction between accidents of essence is valid, but perhaps more far reaching than realized. \"Latent form t I is structure master of obvious form: t the nature of things is in the habit of concealing itself t So we turn to \"Tears\" to see what th",
+          "matched_terms": [
+            "habit"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19751,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "The odds are greated that I'd see it - but if only a one-shit intervention, how come I happered to be alive at this unique moment Arguments against (immanent) pantheism (2): 1) Material revealed to me in 3-74 + the dream put into tears portray a breacking-into, an interruption of historical processes 2) Pantheism would either mean God is capable of evil, or is not usually in the habit of abolishing it, or, evil is an illusion 3) in a non-revealed palpable fashion, known evil historic events appe",
+          "matched_terms": [
+            "habit"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19748,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_013",
+          "doc_title": "Letter",
+          "passage_text": "\" I think the subliminal material was, \"Con¬ tact the party,\" to see what I did given that material. My right hemisphere was told, \"Contact the party\"; my left, nothing, no in¬ structions. THEREBY I COULD NOT SIMULATE, FEIGN OR FAKE, COMPARED TO LIMINAL OR LEFT HEMISPHERE INFO OR INSTRUCTIONS. They got —would be sure of getting— a real or Rohrshack response. Bypassing conscious intentions to fake it. I would feel a compulsion to contact by whatever means I had at my disposal -- i.",
+          "matched_terms": [
+            "compulsion"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19752,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "But it is still the world, the yin world, Form II, + hence, in the final analysis, an appressive delusion - pain inflicting but nonetheless a forgery. In no way am I saying the pain it can afflict is not a true affliction (as the \"E of Ph\" points out, the Hindu demonstration that suffering is \"an illusion\" has no significance as an argument, since we labor under the absolute compulsion to believe in + experience that suffering).",
+          "matched_terms": [
+            "compulsion"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19753,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "We must start with what we know. We know that evil + suffering are real, to a lesser extent we can argue that some kind of God exists - but we cannot assign all 3 total aspects to him. (the E. of Ph article correctly dismisses all arguments about man's fall, free will, evil as lesser good, etc. the argument that suffering is only illusory it correctly dismisses as not even being a real argument, inasmuch as only the problem is redefined (i.e. if evil is an illusion we are under compulsion to suf",
+          "matched_terms": [
+            "compulsion"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19754,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "slavery - \"By the Government,\" as has been repeatedly said about the book. 5 \"they\" produce the drug + then punish by enslavement who take the drug. First, there is enslavement to the those itself. This is followed by a trade off into what is pa drug pably worse - but legal - enslavement - of an history i all t familiar sort: the whole ancient world was based on The drug is a new means to an old end. Drug addiction it.",
+          "matched_terms": [
+            "addiction"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19763,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "D. World, that is, analogous. Viz: left hemisphere right hemis‐ phere:: bilateral parity: left hemisphere - in which case we are in the third age anticipated by Joaching del Fiore three, not two, vast historical epocks (of human evolution) are indicated, + Joachior was the first to see this; he equated the three ages with the three persons of the trinity: Father (psyche A: the Law : pote: nothing new; pure reflex habit).",
+          "matched_terms": [
+            "habit"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19758,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Further, the Kingdom is already here just as Christ (Valis) is here, but the I not unaided eye can discern none of this even the Empire + its enemies, the secret Xtians 80 It all boils down to what Heraclitus said, latent form is the master of obvious form\" + \"reality is in the habit of con‐ itself.",
+          "matched_terms": [
+            "habit"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19755,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "This disclosed world is nothing less than the topic of the good news: that Christ died + Rose, + is to return (but hasn't yet) --------------------------------------->as the St Sophia Prophet said This \"70AD Rome\" is exactly where scripture cuts off - sacred time ends + secular time begins. This, too, is the \"fix\" of acts that somehow (sic) showed up in \"Tears\" ie you st stop projecting what you're accustomed to, + expect (through habit) to be there, + account (or [?",
+          "matched_terms": [
+            "habit"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19759,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "” In a startling response to the crisis, the true God mimics the universe, the very region he has invaded: he takes on the likeness of sticks and trees and cans in gutters—he presumes to be trash discarded, debris no longer noticed. Lurking, the true God literally ambushes reality and is as well. God, in very truth, attacks and injures us, in his role as antidote. As Fat can testify to, it is a scary experience to encounter this. Thence we say, the true God is in the habit of concealing himself.",
+          "matched_terms": [
+            "habit"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19756,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "\" I did not win; Christ won me for his own, so vis-a-vis me alone the Maze as always won, + I did not realize this, naturally, until it was too late to retreat back out intact. Omnial via ad mitis. folder 22 - 031 31. In a sense my 4 1/2 years of exegesis can be regarded as a further successful stategem by the Maze, in opposition to the Gnosis crossbonded onto me in (3-74) which at that time gave me life - I gave up that life via my compulsion to relentlessly exegete.",
+          "matched_terms": [
+            "compulsion"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19764,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "there is, indeed, much meret in Ursula's perception of me as \"mad\" (which is to say, I think, intoxicated/Dionysian: addicted to quite abruptly excess + the dream).",
+          "matched_terms": [
+            "addicted"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19747,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_UPON_THE_DULL_EARTH",
+          "doc_title": "Upon the Dull Earth (Vocabulary Quiz / Study Guide)",
+          "passage_text": "Scorched \na) Burned or dried by heat \nb) Shiny and sparkling \nc) Trembling with fear \nd) Feeling indifferent \n \nSlag \na) Waste material left after metal is smelted \nb) A shimmering light \nc) A protective covering \nd) A graceful movement \n \n \n \n \n \n \n\nThey had come. He could feel them. They had shut off their power and flame. Cold, indifferent statues, \nrising among the trees, dwarfing the cedars -- remote from him and his world, attracted by curiosity and \nmild habit.",
+          "matched_terms": [
+            "habit"
+          ],
+          "claim_type": null,
+          "confidence": null
+        }
+      ]
+    }
+  ],
+  "contradictions": [],
+  "chronology": [
+    {
+      "year": "1964",
+      "date": "1964",
+      "doc_title": "The Simulacra",
+      "event_type": "novel",
+      "doc_id": "DOC_ARCH_DICK_PHILIP_KINDRED_THE_SIMULACRA_LIBGEN",
+      "doc_slug": "dick-philip-kindred-the-simulacra-libgen-li"
+    },
+    {
+      "year": "1975",
+      "date": "1975-11-05",
+      "doc_title": "Letter",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_013",
+      "doc_slug": "section-013"
+    },
+    {
+      "year": "1976",
+      "date": "1976-09-15",
+      "doc_title": "Dorothy",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_015",
+      "doc_slug": "section-015"
+    },
+    {
+      "year": "1978",
+      "date": "1978-10-10",
+      "doc_title": "Letter",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_016",
+      "doc_slug": "section-016"
+    },
+    {
+      "year": "1981",
+      "date": "1981-04-16",
+      "doc_title": "Pat",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_017",
+      "doc_slug": "section-017"
+    }
+  ],
+  "related_documents": [
+    {
+      "doc_id": "DOC_EXEG_SECTION_015",
+      "title": "Dorothy",
+      "doc_type": "exegesis_section",
+      "relevance": "substantial",
+      "passage_count": 8,
+      "slug": "section-015"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_017",
+      "title": "Pat",
+      "doc_type": "exegesis_section",
+      "relevance": "substantial",
+      "passage_count": 5,
+      "slug": "section-017"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_016",
+      "title": "Letter",
+      "doc_type": "exegesis_section",
+      "relevance": "substantial",
+      "passage_count": 3,
+      "slug": "section-016"
+    },
+    {
+      "doc_id": "DOC_ARCH_DICK_PHILIP_KINDRED_THE_SIMULACRA_LIBGEN",
+      "title": "The Simulacra",
+      "doc_type": "novel",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "dick-philip-kindred-the-simulacra-libgen-li"
+    },
+    {
+      "doc_id": "DOC_ARCH_UPON_THE_DULL_EARTH",
+      "title": "Upon the Dull Earth (Vocabulary Quiz / Study Guide)",
+      "doc_type": "other",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "upon-the-dull-earth"
+    },
+    {
+      "doc_id": "DOC_EXEG_SECTION_013",
+      "title": "Letter",
+      "doc_type": "exegesis_section",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "section-013"
+    }
+  ],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": []
+}

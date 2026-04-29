@@ -1,0 +1,100 @@
+{
+  "topic_id": "TOPIC_AI_bureaucratic_control",
+  "study_id": "ai",
+  "canonical_name": "Bureaucratic Control",
+  "slug": "bureaucratic-control",
+  "status": "drafted",
+  "definition": "Bureaucratic control in PKD's work refers to the impersonal, procedural, and often absurd systems of institutional power that regulate and constrain individual life — governmental, corporate, and cosmic bureaucracies that function as inhuman machines regardless of the humans operating them.",
+  "pkd_relevance": "PKD's fiction is populated by bureaucracies that have become autonomous systems of control, indifferent to the individuals they ostensibly serve. His bureaucrats are often sympathetic figures trapped within machines they cannot alter, while the systems themselves display a Kafkaesque logic that is simultaneously comic and terrifying. This theme connects PKD's political concerns to his broader metaphysical questions about agency and determinism.",
+  "in_the_fiction": "Dick depicts bureaucratic control across his career. Flow My Tears, the Policeman Said (1974) presents a police state whose power operates through identity documentation and checkpoints. A Maze of Death (1970) features a theological bureaucracy that administers reality itself. 'Faith of Our Fathers' (1967) reveals the Party Leader as a mask for something inhuman. In Galactic Pot-Healer (1969), the protagonist's life is defined by meaningless bureaucratic work.",
+  "in_the_exegesis": "Dick writes about the Black Iron Prison as the ultimate bureaucracy — a system that maintains itself through procedural reality-management without any single controlling agent. He frames the Roman Empire as an eternal bureaucratic structure that has never truly ended, merely changing its institutional forms while preserving its control functions.",
+  "intellectual_background": "PKD's bureaucratic control draws on Kafka (The Trial, The Castle), Weber's theory of bureaucratic rationalization, Arendt's 'banality of evil,' and the Gnostic concept of the Archons as cosmic administrators. His personal experiences with government agencies and publishing-industry bureaucracies also inform the theme.",
+  "scholarly_debate": "Jameson reads PKD's bureaucracies as allegories of late-capitalist administration. Freedman emphasizes the Kafkaesque dimension — bureaucracy as a structure of absurdity rather than mere oppression. Davis connects PKD's bureaucratic control to his Gnostic theology, where the Archons are cosmic bureaucrats.",
+  "chronology_summary": "Bureaucratic control appears throughout PKD's career, from early stories about government agencies to the mature political novels of the 1970s and the Exegesis's BIP as bureaucratic cosmos.",
+  "contradictions_summary": "PKD depicts bureaucracies as both mindlessly mechanical and as masks for something actively malevolent. He oscillates between a Weberian view (bureaucracy as impersonal rationalization) and a Gnostic view (bureaucracy as intentional cosmic evil).",
+  "related_thinkers": [],
+  "editorial_notes": "Cross-reference with Control Systems (the broader concept) and Surveillance (the monitoring function). Bureaucratic Control focuses specifically on institutional and procedural mechanisms of power.",
+  "open_questions": [
+    "Is PKD's bureaucratic control ultimately a political or a theological concept?",
+    "How does PKD's treatment of bureaucracy compare with Kafka's — is it derivative, complementary, or distinctive?",
+    "Does PKD's fiction offer any model of institutional organization that is not bureaucratically oppressive?"
+  ],
+  "passage_count": 2,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": null,
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "evidence_packets": [
+    {
+      "ev_id": "SEV_RAW_TOPIC_AI_bureaucratic_control",
+      "claim_text": null,
+      "evidence_summary": null,
+      "confidence": null,
+      "source_method": "deterministic",
+      "lane_a_count": 0,
+      "lane_b_count": 0,
+      "lane_c_count": 2,
+      "passages": [
+        {
+          "passage_id": 19915,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_SPACE_OPERA_AESTHETICS_OF_PERSONHOOD_MAM",
+          "doc_title": "Space Opera: The Aesthetics of Personhood in the Works and Worlds of Philip K. Dick",
+          "passage_text": "Timothy Morris for swooping in at \nthe last moment like a superhero, Dr. Neill Matheson for his kind encouragement, and especially \nDr. Timothy Richardson for his patience and insight, as well as for guiding me toward and \nthrough the wild world of rhetoric. \nThanks are due to Dr. Kathryn Warren for being such a keen and supportive academic advisor \nand to Yael Sasley for being ever ready to help this hapless scholar navigate the electronic \nbureaucracy.",
+          "matched_terms": [
+            "bureaucracy"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19914,
+          "lane": "C",
+          "source_mode": null,
+          "doc_id": "DOC_ARCH_PKD_ADDRESS_AUDIT_AND_RESEARCH",
+          "doc_title": "The Psychogeography of Philip K. Dick: A Comprehensive Audit of Residential, Professional, and Spiritual Landmarks",
+          "passage_text": "Philip attended John Eaton Elementary School from 1936 to 1938.10 \nThe Macomb Street residence is notable for its appearance in Dick’s later reflections; he \nrecalled a \"sunlit summer day\" in Washington where the \"ultrafantastic\" began to bleed into his \ndaily reality, a precursor to the porous boundaries of his fiction.13 During this time, Dorothy \nwrote pamphlets for the Federal Children’s Bureau, an environment that likely influenced Philip’s \n\nearly respect for the written word and the burea",
+          "matched_terms": [
+            "bureaucratic"
+          ],
+          "claim_type": null,
+          "confidence": null
+        }
+      ]
+    }
+  ],
+  "contradictions": [],
+  "chronology": [
+    {
+      "year": "2020",
+      "date": "2020",
+      "doc_title": "Space Opera: The Aesthetics of Personhood in the Works and Worlds of Philip K. Dick",
+      "event_type": "scholarship",
+      "doc_id": "DOC_ARCH_SPACE_OPERA_AESTHETICS_OF_PERSONHOOD_MAM",
+      "doc_slug": "space-opera-aesthetics-of-personhood-mamola"
+    }
+  ],
+  "related_documents": [
+    {
+      "doc_id": "DOC_ARCH_PKD_ADDRESS_AUDIT_AND_RESEARCH",
+      "title": "The Psychogeography of Philip K. Dick: A Comprehensive Audit of Residential, Professional, and Spiritual Landmarks",
+      "doc_type": "scholarship",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "pkd-address-audit-and-research"
+    },
+    {
+      "doc_id": "DOC_ARCH_SPACE_OPERA_AESTHETICS_OF_PERSONHOOD_MAM",
+      "title": "Space Opera: The Aesthetics of Personhood in the Works and Worlds of Philip K. Dick",
+      "doc_type": "scholarship",
+      "relevance": "mentions",
+      "passage_count": 1,
+      "slug": "space-opera-aesthetics-of-personhood-mamola"
+    }
+  ],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": []
+}

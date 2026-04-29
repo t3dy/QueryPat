@@ -243,6 +243,35 @@ def run_stage_4(db: sqlite3.Connection, source: Path):
     print(f"  Applied {applied} editorial overrides")
 
 
+def run_stage_5(db: sqlite3.Connection, source: Path):
+    """Stage 5: Research studies (AI & Psychology topics)."""
+    print("\n" + "=" * 60)
+    print("STAGE 5: RESEARCH STUDIES")
+    print("=" * 60)
+
+    from studies.ontology import run as seed_ontology
+    seed_ontology(db)
+
+    from studies.scan_corpus import run as scan_corpus
+    scan_corpus(db, source)
+
+    from studies.link_studies import run as link_studies
+    link_studies(db)
+
+    from studies.export_studies import run as export_studies
+    export_studies(db)
+
+    # Scene sub-pipeline (deterministic steps only)
+    from studies.seed_interaction_types import run as seed_types
+    seed_types(db)
+
+    from studies.scan_scenes import run as scan_scenes
+    scan_scenes(db)
+
+    from studies.export_scenes import run as export_scenes
+    export_scenes(db)
+
+
 def run_audit(db: sqlite3.Connection):
     """Run validation audit."""
     print("\n" + "=" * 60)
@@ -337,6 +366,10 @@ def main():
                         help='Drop and recreate database')
     parser.add_argument('--discover', action='store_true',
                         help='Run Stage 2b corpus discovery after linking')
+    parser.add_argument('--studies', action='store_true',
+                        help='Run Stage 5 study pipeline (deterministic)')
+    parser.add_argument('--studies-only', action='store_true',
+                        help='Run only Stage 5 study pipeline + export')
 
     args = parser.parse_args()
 
@@ -357,6 +390,16 @@ def main():
         db = sqlite3.connect(str(args.db))
         run_export(db)
         db.close()
+        return
+
+    if args.studies_only:
+        db = sqlite3.connect(str(args.db))
+        db.execute("PRAGMA foreign_keys = ON")
+        run_stage_5(db, args.source)
+        run_export(db)
+        db.close()
+        elapsed = time.time() - start
+        print(f"\nDone (studies only) in {elapsed:.1f}s")
         return
 
     db = init_db(args.db, fresh=args.fresh)
@@ -385,6 +428,10 @@ def main():
         run_stage_3(db, args.source)
 
     run_stage_4(db, args.source)
+
+    if args.studies:
+        run_stage_5(db, args.source)
+
     run_audit(db)
     run_export(db)
 

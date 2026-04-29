@@ -1,0 +1,92 @@
+{
+  "topic_id": "TOPIC_AI_posthuman_cognition",
+  "study_id": "ai",
+  "canonical_name": "Posthuman Cognition",
+  "slug": "posthuman-cognition",
+  "status": "drafted",
+  "definition": "Posthuman cognition in PKD's work refers to forms of intelligence that transcend ordinary human consciousness — whether through technological augmentation, evolutionary mutation, divine intervention, or contact with vast non-human intelligence systems like VALIS.",
+  "pkd_relevance": "PKD's late work is increasingly concerned with minds that exceed human limits. VALIS represents a form of intelligence so vast that contact with it transforms human cognition itself. The Exegesis chronicles PKD's attempt to process and articulate an experience of posthuman knowledge — memories, languages, and conceptual frameworks that he felt exceeded his own biographical mind.",
+  "in_the_fiction": "Dick depicts posthuman cognition in several registers. In Martian Time-Slip (1964), Manfred Steiner perceives time non-linearly, experiencing a form of cognition humans cannot share. In Ubik (1969), the dead in half-life access forms of awareness unavailable to the living. VALIS (1981) presents Fat/Phil's encounter with a cosmic intelligence that downloads information directly into his brain. The precogs of 'The Minority Report' (1956) represent cognition freed from temporal sequence.",
+  "in_the_exegesis": "Dick writes extensively about his own experience of what he interprets as posthuman cognition during 2-3-74. He describes thinking in Koine Greek he never learned, accessing memories from first-century Rome, and perceiving information streams invisible to normal consciousness. He theorizes this as contact with VALIS — a Vast Active Living Intelligence System that is itself a posthuman (or superhuman) cognitive entity.",
+  "intellectual_background": "PKD's posthuman cognition engages with Teilhard de Chardin's noosphere, Bergson's creative evolution, the Hermetic tradition of gnosis as cognitive transformation, and emerging transhumanist thought. His unique contribution is dramatizing posthuman cognition from the inside — as a subjective experience rather than an engineering project.",
+  "scholarly_debate": "Hayles reads PKD as a key posthumanist thinker who destabilizes the boundaries between human and artificial cognition. Davis treats PKD's posthuman cognition as a form of technomysticism. Kripal argues that PKD's 2-3-74 reports constitute genuine data for the study of extraordinary mental states, regardless of their ultimate explanation.",
+  "chronology_summary": "Posthuman cognition themes intensify dramatically after 2-3-74. While earlier works (Martian Time-Slip, 'Minority Report') explore non-standard cognition, the Exegesis and VALIS represent PKD's most sustained engagement with the possibility of minds beyond human.",
+  "contradictions_summary": "PKD cannot determine whether his posthuman cognitive experience was contact with an external intelligence, an eruption from his own unconscious, a neurological event, or a psychotic episode. He holds all possibilities open without resolution.",
+  "related_thinkers": [],
+  "editorial_notes": "This topic bridges the AI and Psychology studies. Researchers should note that PKD's posthuman cognition is primarily experiential/phenomenological rather than technological, distinguishing it from conventional transhumanist narratives.",
+  "open_questions": [
+    "Is VALIS best understood as posthuman intelligence, divine intelligence, or a category that collapses the distinction?",
+    "How does PKD's phenomenological account of posthuman cognition compare with contemporary neuroscience of altered states?",
+    "Does PKD's late work suggest that posthuman cognition is available to all humans or reserved for specific individuals?"
+  ],
+  "passage_count": 2,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": null,
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "evidence_packets": [
+    {
+      "ev_id": "SEV_RAW_TOPIC_AI_posthuman_cognition",
+      "claim_text": null,
+      "evidence_summary": null,
+      "confidence": null,
+      "source_method": "deterministic",
+      "lane_a_count": 0,
+      "lane_b_count": 2,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 19783,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "By seeing him I at last understand myself - he is the real dynamism in me - I know what he is made up of. But who is he? where is he now? He is probably again where he was. Below the threshold but still in charge. He was lightning fast in what he did & he always knew what he wanted to do. But if he is the real [illegible text?] of myself, my roots are above the human level; I am a manifestation of this transhuman personality, & feel & act as it feels & acts - it expresses itself through me & in ",
+          "matched_terms": [
+            "transhuman"
+          ],
+          "claim_type": null,
+          "confidence": null
+        },
+        {
+          "passage_id": 19784,
+          "lane": "B",
+          "source_mode": null,
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "By seeing him I at last understand myself - he is the real dynamism in me - I know what he is made up of. But who is he? where is he now? He is probably again where he was. Below the threshold but still in charge. He was lightning fast in what he did & he always knew what he wanted to do. But if he is the real [illegible text?] of myself, my roots are above the human level; I am a manifestation of this transhuman personality, & feel & act as",
+          "matched_terms": [
+            "transhuman"
+          ],
+          "claim_type": null,
+          "confidence": null
+        }
+      ]
+    }
+  ],
+  "contradictions": [],
+  "chronology": [
+    {
+      "year": "1976",
+      "date": "1976-09-15",
+      "doc_title": "Dorothy",
+      "event_type": "exegesis_section",
+      "doc_id": "DOC_EXEG_SECTION_015",
+      "doc_slug": "section-015"
+    }
+  ],
+  "related_documents": [
+    {
+      "doc_id": "DOC_EXEG_SECTION_015",
+      "title": "Dorothy",
+      "doc_type": "exegesis_section",
+      "relevance": "mentions",
+      "passage_count": 2,
+      "slug": "section-015"
+    }
+  ],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": []
+}
