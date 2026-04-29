@@ -1,0 +1,51 @@
+{
+  "doc_id": "DOC_ARCH_MUSIC_IN_PKD_SPREADSHEET",
+  "title": "Music in PKD Novels and Stories + Exegesis + Selected Letters (Research Spreadsheet)",
+  "slug": "music-in-pkd-spreadsheet",
+  "author": "Unattributed (research compilation)",
+  "doc_type": "reference",
+  "category": "research_data",
+  "date_display": "Unknown",
+  "date_start": null,
+  "is_pkd_authored": false,
+  "card_summary": "A research spreadsheet cataloguing every reference to music — composers, performers, songs, operas, albums, instruments, genres, music publications, radio stations, and music-world figures — across PKD's novels, short stories, the Exegesis, and the Selected Letters. 2,076 rows across 25 columns including book, chapter, page, type of music, lyrics where quoted, and contextual notes.",
+  "page_count": 0,
+  "ingest_level": "full",
+  "extraction_status": "complete",
+  "evidentiary_lane": "C",
+  "source_reliability": "research_compilation",
+  "page_summary": "An unattributed research spreadsheet (Excel format, 2,076 rows × 25 columns) that catalogues every music reference across PKD's complete fiction (novels and stories), the Exegesis, and the Selected Letters. The columns capture: book / story title, chapter, section, page, parallel locations across editions, composer, performer (artist), group, type of group, song title, type of music, album, label, work name (canonical opera/symphony title), opera character (where applicable), conductor, lyrics, genre, format and medium ('heard from'), radio station / show, music publications referenced, other music-world people mentioned, instruments and audio hardware, and contextual notes.\n\nResearch use: the spreadsheet operationalizes a question that has been treated only piecemeal in the secondary literature — what does PKD listen to, what does he have his characters listen to, and what does the music do in the fiction? The compilation runs from 'A World of Talent' (with its 'music machine creating vague patterns of sound') through Do Androids Dream's Mozart-and-Lehmann library, the Beatles 'Strawberry Fields Forever' that PKD reports as the trigger for the Pink Beam (in the September 1974 Le Guin letter), the Linda Ronstadt scene in A Scanner Darkly, the constant Wagner and opera references across the corpus, and the Sonic Youth–era reception that Erik Davis documents in his 1989 SPIN piece.\n\nContributions to PKD studies: (1) the most comprehensive single index of music in PKD's writing, capable of answering questions previously answerable only by recall (which novels have opera in them, what does PKD know about Mozart, when do specific songs appear); (2) systematic distinction between actual references (bold formatting) and inferential context (plain formatting), letting the data be used as evidence; (3) coverage of the whole corpus rather than a privileged subset, useful for thematic and motif tracking; (4) raw material for future scholarship on PKD and music — a topic that remains underdeveloped academically despite the density of references.\n\nPosition in the literature: Erik Davis's January 1989 SPIN article on Sonic Youth and PKD ('When Dick wrote in Valis that the symbols of the divine show up at the trash stratum...') is the canonical short essay on PKD and rock music; this spreadsheet is the underlying primary-data resource any sustained academic study would need to start from. Format-wise, this is a research database rather than an article or monograph, and is treated by QueryPat as a reference compilation.",
+  "people_mentioned": [
+    "Wolfgang Amadeus Mozart",
+    "Lotte Lehmann",
+    "Lisa Della Casa",
+    "Elisabeth Schwarzkopf",
+    "The Beatles",
+    "Linda Ronstadt",
+    "Sonic Youth",
+    "Erik Davis"
+  ],
+  "works_discussed": [
+    "Do Androids Dream of Electric Sheep?",
+    "A Scanner Darkly",
+    "Martian Time-Slip",
+    "Ubik",
+    "VALIS",
+    "The Exegesis of Philip K. Dick"
+  ],
+  "linked_terms": [
+    "music",
+    "opera",
+    "Wagner",
+    "Mozart",
+    "Strawberry Fields Forever",
+    "Linda Ronstadt"
+  ],
+  "assets": [
+    {
+      "path": "PKD stuff to add/MUSIC in PKD (1).xlsx",
+      "type": "xlsx",
+      "size_mb": 0.27
+    }
+  ]
+}

@@ -2,8 +2,10 @@
 
 A unified scholarly browser for Philip K. Dick's *Exegesis*, integrating text analysis, a term dictionary, a PDF archive catalog, biographical event tracking, and entity-linked navigation into a single static site.
 
-**Live site (v2.0):** [t3dy.github.io/QueryPat](https://t3dy.github.io/QueryPat/)
+**Live site:** [t3dy.github.io/QueryPat](https://t3dy.github.io/QueryPat/) (current — v3 in progress)
 **Previous version (v1.0):** [t3dy.github.io/QueryPat/v1](https://t3dy.github.io/QueryPat/v1/)
+
+For methodology: [QueryPatOverview.md](QueryPatOverview.md). For the editorial frame: [PKDontology.md](PKDontology.md). For the current writing roadmap: [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md).
 
 ---
 
@@ -15,8 +17,8 @@ A unified scholarly browser for Philip K. Dick's *Exegesis*, integrating text an
 | Dictionary Terms | 310 published (302 accepted) | Theological concepts, philosophical figures, PKD's bespoke vocabulary — with evidence linking and cross-references |
 | Biography Events | 646 (448 with location) | Events extracted from autobiographical passages, classified by type and reliability |
 | Named Entities | 448 | Characters, places, deities, historical persons from PKD's works and the Exegesis |
-| Archive Documents | 228 (246 lane-tagged) | Biographies, interviews, scholarship, novels, letters, newspapers, fan publications |
-| Scholars | 105 | PKD scholars across 5 tiers, with interpretive stances and key works |
+| Archive Documents | 237 (246 lane-tagged) | Biographies, interviews, scholarship, novels, letters, newspapers, fan publications |
+| Scholars | 119 (37 with rich profiles) | PKD scholars across 5 tiers, with interpretive stances, key arguments, scholarly lineage, and disputes |
 
 ---
 
@@ -68,6 +70,46 @@ Twenty improvement plans executed against the database and viewer:
 - Timeline bio events show location
 - Analytics page adds Evidentiary Lanes distribution chart and Data Quality dashboard
 - Biography events searchable by location
+
+### v2.1 — PKD Fiction Characters
+
+191 PKD fiction characters added with etymology, wordplay, and cross-links to novels of appearance. The Names page distinguishes real-world referents (Plato, Mani, Eckhart) from fictional characters (Manfred Steiner, Joe Chip, Glen Runciter).
+
+### v3 — Editorial Frame, Templates, and Scholarly Density (in progress)
+
+Where v2 was about populating tables and cross-links, v3 is about **writing quality, scholarly density, and the templates that enforce both**. Governed by the editorial frame in [PKDontology.md](PKDontology.md) and the roadmap in [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md).
+
+**Data ontology and methodology documents:**
+- [PKDontology.md](PKDontology.md) — the editorial spine. Ten core entity domains (biography, works, visions, people, places, themes, vocabulary, influences, adaptations, documents), the four standing researcher questions, the evidentiary lanes (A: Fiction, B: Exegesis, C: Scholarship, D: Synthesis, E: Primary), the contradiction registry of nine known dispute zones, and the fact-vs-interpretation editorial line.
+- [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md) — the writing roadmap that succeeds [IMPROVEMENT_PLAN.md](IMPROVEMENT_PLAN.md). Ten phases, scholar profile expansion targets, document summary triage, coverage gaps for visions / themes / adaptations.
+- [QueryPatOverview.md](QueryPatOverview.md) — end-to-end methodology: provenance, data model, build pipeline, editorial system, JSON export contract, static-site architecture, and the AI-vs-human curation boundary.
+
+**Style-guide templates** in [scripts/overrides/templates/](scripts/overrides/templates/):
+- Document summary templates by category — scholarship, biography, interview, primary (PKD's own), fan publications, newspaper, finding aid
+- Scholar profile template — required structure for `interpretive_stance`, `relevance`, `key_arguments`, `scholarly_lineage`, `disputes`, `quotable_lines`
+- Dictionary entry template — six required sections (etymology, PKD's usage, key passages, related terms, scholarly engagements, editorial caution)
+- Biography event template — declarative voice rules, controlled-vocabulary categories, reliability tiers, contradiction-surfacing requirements
+
+**Scholar profile expansion** — 119 scholars total (up from 105), 37 with rich profiles per the [scholar template](scripts/overrides/templates/template_scholar.md):
+- Tier-1 biographers fully expanded: Sutin, Anne R. Dick, Arnold, Peake, Tessa B. Dick, Rickman, **Pamela Jackson** (promoted Tier 3 → Tier 1 after recovering her 1999 UC Berkeley dissertation)
+- Tier-2 academic monograph authors: Kim Stanley Robinson, Peter Fitting, Umberto Rossi, Christopher Palmer, Carl Freedman, Andrew M. Butler, James Burton, Stanislaw Lem, Fredric Jameson, Darko Suvin, Istvan Csicsery-Ronay Jr., Jeffrey Kripal, Gabriel McKee, Lorenzo DiTommaso, Patricia S. Warrick, Samuel J. Umland, Alexander Dunst, **Erik Davis** (promoted with TechGnosis + High Weirdness + Exegesis annotation work), Angus Taylor (with full *Umbrella of Light* 1975 chapbook treatment)
+- New scholars added from web research and corpus integration: Lejla Kucukalic, Eric Carl Link, Jason P. Vest, Hazel Pierce, Douglas A. Mackey, David Gill, Roger Luckhurst, Simon Critchley, N. Katherine Hayles, Scott Bukatman, J. K. Thomas, Ken Simpson, Perry Kinman, Michael M. Levy
+- New `Scholars.tsx` UI fields rendered: **Key Arguments**, **Scholarly Lineage**, **Disputes**, **Quotable Lines**
+
+**Document summaries** — Tier-1 biography rewrites with full six-section page summaries per the [scholarship template](scripts/overrides/templates/template_doc_scholarship.md):
+- Sutin's *Divine Invasions* (1989), Anne R. Dick's *The Search for PKD* (1995/2010), Arnold's *Divine Madness* (2016), Peake's *A Life of PKD* (2013), Robinson's *The Novels of PKD* (1984)
+- Each rewrite populates `people_mentioned`, `works_discussed`, and `linked_terms` cross-links per [PKDontology §6](PKDontology.md)
+
+**New archive documents** integrated from supplementary materials (228 → 237):
+- Pamela Jackson 1999 UC Berkeley dissertation *The World Philip K. Dick Made* (UMI #9931275)
+- Erik Davis ASE conference talk *The Hymn of Philip K. Dick* (Hymn of the Pearl + salvator salvandus reading)
+- David Gill 2006 MA thesis on PKD's paranoia
+- J. K. Thomas, *Coin-Operated Doors and God: A Gnostic Reading of Philip K. Dick* (2014, ed. Levy)
+- Ken Simpson, *The Aesthetics of Garbage in Martian Time-Slip* (Canadian Review of American Studies 44.2, 2014)
+- Angus Taylor, *Philip K. Dick and the Umbrella of Light* (T-K Graphics, 1975) — one of the very earliest book-length PKD essays
+- Music in PKD research spreadsheet (2,076-row catalog of music references across novels, stories, Exegesis, letters)
+- Erik Davis SPIN 1989 / Sonic Youth quotation excerpts (Thurston Moore on PKD's influence on *Sister*)
+- Rouzleweave #2 (May 2002, Perry Kinman, fan publication digitized by Frank Hollander 2017)
 
 ---
 
@@ -338,11 +380,15 @@ QueryPat/
 
 | File | Purpose |
 |------|---------|
+| [QueryPatOverview.md](QueryPatOverview.md) | End-to-end methodology — provenance, data model, build pipeline, editorial system, JSON contract, site architecture, AI-vs-human curation boundary |
+| [PKDontology.md](PKDontology.md) | Editorial spine — ten core entity domains, the four standing researcher questions, evidentiary lanes (A–E), contradiction registry, fact-vs-interpretation rules |
+| [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md) | Current writing roadmap — scholar profile expansion, document summary triage, coverage gaps for visions/themes/adaptations |
+| [scripts/overrides/templates/](scripts/overrides/templates/) | Style-guide templates — one per content type (scholarship, biography, interview, primary, fan, scholar, dictionary, biography event) |
 | `AIPSY_BLUEPRINT.md` | Implementation blueprint for AI & Psychology topic studies |
 | `v1x.md` | Detailed changelog for the v1.x knowledge browser features |
 | `toolcalls.md` | How Claude Code orchestrates tool calls during development |
 | `AUDIT_REPORT.md` | Comprehensive data quality audit across all entity types |
-| `IMPROVEMENT_PLAN.md` | Prioritized content improvement roadmap (5 channels) |
+| `IMPROVEMENT_PLAN.md` | v2.0 prioritized content improvement roadmap (5 channels, executed) |
 | `DESIGN_STUDY.md` | UI/UX design study for future features (graph view, linked panes, etc.) |
 
 ---
