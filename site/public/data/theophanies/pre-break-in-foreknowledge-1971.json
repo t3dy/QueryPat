@@ -1,0 +1,90 @@
+{
+  "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
+  "name": "Pre-Break-In Foreknowledge (November 1971)",
+  "slug": "pre-break-in-foreknowledge-1971",
+  "date_start": "1971-11",
+  "date_end": "1971-11",
+  "date_display": "November 1971 (days before the break-in)",
+  "date_confidence": "month",
+  "date_basis": "PKD's letters of late November 1971; FBI letters",
+  "experience_type": "vision",
+  "sensory_modality": "cognitive",
+  "duration": "days",
+  "summary": "In the days before his Santa Venetia house was broken into, PKD reports a series of premonitions and intrusive thoughts that he later interpreted as foreknowledge of the event.",
+  "description": "On November 17, 1971, PKD's house in Santa Venetia, California was broken into; the file cabinets were blown open with explosives and (reportedly) cash and manuscripts were taken. In the days before, PKD reports premonitions — a sense that something was about to happen, intrusive thoughts about being watched. The break-in itself is firmly attested. The premonitions are Lane B (his own self-report, often years later). Subsequent attribution of the break-in oscillates: at various times PKD blamed the FBI, the KGB, the Black Panthers, drug dealers, his own staging, and a Vancouver-based trafficking ring.",
+  "pkd_interpretations": [
+    {
+      "date": "1971-12",
+      "source": "letters to friends after the break-in",
+      "hypothesis_label": "drug_dealers",
+      "interpretation": "I had recently kicked out a group of street dealers from the house; they came back to retaliate.",
+      "lane": "E"
+    },
+    {
+      "date": "1972-06",
+      "source": "letter from Vancouver",
+      "hypothesis_label": "fbi",
+      "interpretation": "It was the FBI looking for evidence of subversive activity (I was friends with the Black Panthers).",
+      "lane": "E"
+    },
+    {
+      "date": "1973-08",
+      "source": "letter to William Sullivan FBI 1972 carbon",
+      "hypothesis_label": "soviet_satellite",
+      "interpretation": "Soviet science-fiction critics including Stanislaw Lem are running an operation; Lem may not exist as an individual but is a committee front. The break-in was part of this.",
+      "lane": "E"
+    },
+    {
+      "date": "1976-04",
+      "source": "Exegesis",
+      "hypothesis_label": "self_staged",
+      "interpretation": "I now believe I broke in myself in a fugue state, possibly to harvest the insurance.",
+      "lane": "B"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "lawrence-sutin",
+      "interpretation": "Sutin records the multiple competing accounts without adjudicating, treating the break-in itself as fact and the attribution chain as mystery.",
+      "source_doc_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_",
+      "lane": "D"
+    },
+    {
+      "scholar_slug": "kyle-arnold",
+      "interpretation": "Arnold reads the chain of attribution shifts as a clinical pattern — paranoid ideation accreting around a real event.",
+      "source_doc_id": "DOC_ARCH_ARNOLD_KYLE_DICK_PHILIP_K_THE_DIVINE_MAD",
+      "lane": "C"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "letter",
+      "letter_id": null,
+      "excerpt": "PKD's correspondence in November-December 1971"
+    },
+    {
+      "type": "letter",
+      "letter_id": "LET_1975_FBI_SULLIVAN",
+      "excerpt": "January 1975 letter to William A. Sullivan, FBI: discusses the Lem hypothesis."
+    }
+  ],
+  "primary_quote": null,
+  "related_theophany_ids": [
+    "THEO_1972_03_VANCOUVER_DESPAIR"
+  ],
+  "related_works": [
+    "A Scanner Darkly"
+  ],
+  "related_dictionary_terms": [],
+  "related_names": [
+    "william-sullivan",
+    "stanislaw-lem"
+  ],
+  "related_segments": [],
+  "contested_status": "disputed",
+  "contradiction_zone": "yes — registered in PKDontology contradiction registry as 'November 1971 break-in'",
+  "pkd_doubt_evidence": "PKD himself revises his attribution at least four times; in 1976 he allows that he may have staged it.",
+  "importance": "major",
+  "sequence_in_complex": null,
+  "parent_theophany_id": null
+}

@@ -2,6 +2,11 @@ import { HashRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Dashboard from './pages/Dashboard'
 import Timeline from './pages/Timeline'
+import Exegesis from './pages/Exegesis'
+import Essays from './pages/Essays'
+import EssayDetail from './pages/EssayDetail'
+import Theophanies from './pages/Theophanies'
+import TheophanyDetail from './pages/TheophanyDetail'
 import SegmentDetail from './pages/SegmentDetail'
 import Dictionary from './pages/Dictionary'
 import TermDetail from './pages/TermDetail'
@@ -30,6 +35,11 @@ function App() {
           <Route index element={<Dashboard />} />
           <Route path="timeline" element={<Timeline />} />
           <Route path="timeline/:year" element={<Timeline />} />
+          <Route path="exegesis" element={<Exegesis />} />
+          <Route path="essays" element={<Essays />} />
+          <Route path="essays/:slug" element={<EssayDetail />} />
+          <Route path="theophanies" element={<Theophanies />} />
+          <Route path="theophanies/:slug" element={<TheophanyDetail />} />
           <Route path="segments/:id" element={<SegmentDetail />} />
           <Route path="dictionary" element={<Dictionary />} />
           <Route path="dictionary/:slug" element={<TermDetail />} />

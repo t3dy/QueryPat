@@ -1,0 +1,92 @@
+{
+  "theophany_id": "THEO_1976_ABULAFIA_POSSESSION",
+  "name": "Possession by Abraham Abulafia",
+  "slug": "abulafia-possession-1976",
+  "date_start": "1976",
+  "date_end": "1976",
+  "date_display": "1976 (reported in interviews 1981-82)",
+  "date_confidence": "year",
+  "date_basis": "Rickman interview; Exegesis",
+  "experience_type": "possession",
+  "sensory_modality": "cognitive",
+  "duration": "hours",
+  "summary": "PKD reports an episode in 1976 in which he believes he was possessed by Abraham Abulafia (c.1240-1291), the medieval Spanish-Jewish kabbalist, and produced text in a form Abulafia would have recognized as letter-permutation meditation.",
+  "description": "Building on the gematria vision (1975), PKD reports in 1976 a more sustained episode of what he interpreted as possession by Abraham Abulafia, the thirteenth-century Spanish-Jewish kabbalist who invented (or developed) the technique of *tseruf* — letter permutation as meditation. PKD claims to have produced Hebrew-letter text during this period, and to have written passages of the Exegesis that he recognized only later as Abulafian in form. He had no prior formal study of Hebrew or kabbalah. He recounts the episode to Greg Rickman in 1981/82 interviews and references it in late Exegesis segments.",
+  "pkd_interpretations": [
+    {
+      "date": "1976",
+      "source": "experience itself",
+      "hypothesis_label": "valis_information_satellite",
+      "interpretation": "VALIS provided me access to the kabbalistic mode of cognition.",
+      "lane": "B"
+    },
+    {
+      "date": "1980",
+      "source": "Exegesis",
+      "hypothesis_label": "abulafia_possession",
+      "interpretation": "I was occupied by Abulafia himself; he wrote through me.",
+      "lane": "B"
+    },
+    {
+      "date": "1981",
+      "source": "Rickman interview",
+      "hypothesis_label": "literary",
+      "interpretation": "Or it was a literary device I retroactively imposed; I cannot say.",
+      "lane": "E"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "jeffrey-kripal",
+      "interpretation": "Kripal frames the Abulafia claim within the mystical-possession literature; takes the report seriously as data without endorsing it ontologically.",
+      "source_doc_id": null,
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "kyle-arnold",
+      "interpretation": "Arnold reads the Abulafia-possession claim as confabulation under the influence of his ongoing reading on kabbalah.",
+      "source_doc_id": "DOC_ARCH_ARNOLD_KYLE_DICK_PHILIP_K_THE_DIVINE_MAD",
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "erik-davis",
+      "interpretation": "Davis points out that PKD's introduction to Jewish mysticism likely came through Robert Anton Wilson and Israel Regardie in the early 1970s.",
+      "source_doc_id": null,
+      "lane": "C"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "interview",
+      "excerpt": "Rickman interviews 1981/82."
+    },
+    {
+      "type": "exegesis",
+      "excerpt": "Late Exegesis segments invoke Abulafia and tseruf."
+    }
+  ],
+  "primary_quote": "I was, briefly, possessed by Abraham Abulafia.",
+  "related_theophany_ids": [
+    "THEO_1975_NUMERIC_LETTER_GEMATRIA"
+  ],
+  "related_works": [
+    "The Divine Invasion",
+    "VALIS"
+  ],
+  "related_dictionary_terms": [
+    "abulafia",
+    "tseruf",
+    "gematria",
+    "sefer-yetzirah"
+  ],
+  "related_names": [
+    "abraham-abulafia"
+  ],
+  "related_segments": [],
+  "contested_status": "disputed",
+  "contradiction_zone": "yes — prior-knowledge claim",
+  "pkd_doubt_evidence": "PKD himself in 1981 hedges — 'or it was a literary device.'",
+  "importance": "canonical",
+  "sequence_in_complex": null,
+  "parent_theophany_id": null
+}

@@ -1,0 +1,72 @@
+{
+  "theophany_id": "THEO_1972_03_VANCOUVER_DESPAIR",
+  "name": "Vancouver Despair / Suicide Attempt Context",
+  "slug": "vancouver-despair-1972",
+  "date_start": "1972-02",
+  "date_end": "1972-03",
+  "date_display": "February-March 1972",
+  "date_confidence": "month",
+  "date_basis": "Sutin biography; Anne Dick memoir; X-Kalay records",
+  "experience_type": "other",
+  "sensory_modality": "cognitive",
+  "duration": "days",
+  "summary": "Following the Vancouver SF convention guest-of-honor speech and a suicide attempt, PKD entered the X-Kalay drug rehabilitation program; the period is associated with what he later called a 'spiritual crisis' but no specific theophany is canonically attached.",
+  "description": "After his February 1972 guest-of-honor speech at the Vancouver SFCon (the 'Android and the Human' speech) and a documented suicide attempt, PKD entered the X-Kalay drug rehabilitation program in Vancouver. He stayed briefly. The period is associated with what he subsequently called a 'spiritual crisis' but no single theophany is canonically attached. Some Exegesis segments retrospectively read the Vancouver despair as the precondition for the 2-3-74 events two years later.",
+  "pkd_interpretations": [
+    {
+      "date": "1972-04",
+      "source": "letters from Vancouver",
+      "hypothesis_label": "psychotic_break",
+      "interpretation": "I had a breakdown; X-Kalay is helping.",
+      "lane": "E"
+    },
+    {
+      "date": "1976-04",
+      "source": "Exegesis",
+      "hypothesis_label": "spiritual_precondition",
+      "interpretation": "The Vancouver despair was the necessary precondition for the 2-3-74 opening; without the bottom there would have been no transformation.",
+      "lane": "B"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "lawrence-sutin",
+      "interpretation": "Sutin treats Vancouver as a documented mental-health crisis with a specifiable date and place.",
+      "source_doc_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_",
+      "lane": "D"
+    },
+    {
+      "scholar_slug": "kyle-arnold",
+      "interpretation": "Arnold places Vancouver in his clinical chronology as a major depressive episode.",
+      "source_doc_id": "DOC_ARCH_ARNOLD_KYLE_DICK_PHILIP_K_THE_DIVINE_MAD",
+      "lane": "C"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "speech",
+      "excerpt": "*The Android and the Human* (Vancouver, 1972)."
+    },
+    {
+      "type": "letter",
+      "excerpt": "PKD's letters from Vancouver."
+    }
+  ],
+  "primary_quote": null,
+  "related_theophany_ids": [
+    "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
+    "THEO_1974_02_FISH_SIGN"
+  ],
+  "related_works": [
+    "A Scanner Darkly"
+  ],
+  "related_dictionary_terms": [],
+  "related_names": [],
+  "related_segments": [],
+  "contested_status": "best_attested",
+  "contradiction_zone": "yes — Vancouver is on the registered dispute zones (timeline of suicide attempt, X-Kalay duration)",
+  "pkd_doubt_evidence": null,
+  "importance": "major",
+  "sequence_in_complex": null,
+  "parent_theophany_id": null
+}

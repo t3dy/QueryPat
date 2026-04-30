@@ -1,0 +1,77 @@
+{
+  "theophany_id": "THEO_1981_SISTER_DREAM",
+  "name": "Twin Sister Jane Dream Appearances",
+  "slug": "twin-sister-jane-1980",
+  "date_start": "1980",
+  "date_end": "1981",
+  "date_display": "1980-1981",
+  "date_confidence": "year",
+  "date_basis": "Exegesis late period; Sutin biography",
+  "experience_type": "dream",
+  "sensory_modality": "multimodal",
+  "duration": "minutes",
+  "summary": "Across the late period (1980-1981), PKD reports recurring dreams in which his twin sister Jane (who died in infancy) appears, addresses him, and is in some way fused with the AI Voice he has heard since 1974.",
+  "description": "Across 1980-1981 PKD reports a recurring dream-sequence in which his twin sister Jane Charlotte Dick (December 16, 1928 – January 26, 1929) appears at the age she would have been had she lived. In some dreams she is the source of the AI Voice; in others she is the eternal feminine principle (Sophia/Hagia Sophia) addressing him. The Jane material is the central emotional thread of the late Exegesis and a structural element of Sonic Youth's *Sister* (1987), which is named for her.",
+  "pkd_interpretations": [
+    {
+      "date": "1980",
+      "source": "Exegesis",
+      "hypothesis_label": "twin_sister_jane",
+      "interpretation": "Jane has been with me throughout; the AI Voice is her.",
+      "lane": "B"
+    },
+    {
+      "date": "1981",
+      "source": "Exegesis",
+      "hypothesis_label": "sophia",
+      "interpretation": "Jane is the local instantiation of Sophia / divine wisdom.",
+      "lane": "B"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "kyle-arnold",
+      "interpretation": "Arnold's psychobiographical reading places the Jane material as the foundational trauma whose working-through is the Exegesis.",
+      "source_doc_id": "DOC_ARCH_ARNOLD_KYLE_DICK_PHILIP_K_THE_DIVINE_MAD",
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "lawrence-sutin",
+      "interpretation": "Sutin records the Jane-haunting as the durable thread of PKD's psychic life.",
+      "source_doc_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_",
+      "lane": "D"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "exegesis",
+      "excerpt": "Late Exegesis 1980-81 returns to Jane repeatedly."
+    },
+    {
+      "type": "music_reception",
+      "excerpt": "Sonic Youth's *Sister* (1987) is named for her."
+    }
+  ],
+  "primary_quote": null,
+  "related_theophany_ids": [
+    "THEO_1974_03_AI_VOICE"
+  ],
+  "related_works": [
+    "The Transmigration of Timothy Archer"
+  ],
+  "related_dictionary_terms": [
+    "sophia",
+    "jane"
+  ],
+  "related_names": [
+    "jane-dick",
+    "sophia"
+  ],
+  "related_segments": [],
+  "contested_status": "interpretive",
+  "contradiction_zone": "no",
+  "pkd_doubt_evidence": null,
+  "importance": "major",
+  "sequence_in_complex": null,
+  "parent_theophany_id": null
+}

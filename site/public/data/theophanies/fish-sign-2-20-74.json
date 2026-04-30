@@ -1,0 +1,111 @@
+{
+  "theophany_id": "THEO_1974_02_FISH_SIGN",
+  "name": "The Fish-Sign Encounter (February 20, 1974)",
+  "slug": "fish-sign-2-20-74",
+  "date_start": "1974-02-20",
+  "date_end": "1974-02-20",
+  "date_display": "February 20, 1974",
+  "date_confidence": "exact",
+  "date_basis": "Exegesis dating; PKD's later letters",
+  "experience_type": "anamnesis",
+  "sensory_modality": "visual",
+  "duration": "instant",
+  "summary": "A pharmacy delivery girl wearing a Christian fish-symbol necklace catches sunlight; PKD reports a sudden recognition that he is a first-century Christian named Thomas and that the world around him is fake.",
+  "description": "On February 20, 1974, PKD had had impacted wisdom teeth removed and was on sodium pentothal recovery. A young woman from the pharmacy delivered a pain medication. She wore a small gold necklace with the early-Christian *ichthys* (fish) symbol. The sun caught the necklace and reflected light into PKD's eyes. He reports an instantaneous *anamnesis* — a remembering — that he is in fact a first-century Roman Christian named Thomas, that the apostolic age is the real time, and that the surrounding 1974 California is a stage-managed simulation. This event is the canonical entry-point of what PKD subsequently called 2-3-74.",
+  "pkd_interpretations": [
+    {
+      "date": "1974-03",
+      "source": "letters and Exegesis composition begins",
+      "hypothesis_label": "christian_revelation",
+      "interpretation": "I have been addressed by Christ; the apostolic age has overlaid the present, revealing it as fallen.",
+      "lane": "B"
+    },
+    {
+      "date": "1975-06",
+      "source": "Exegesis",
+      "hypothesis_label": "phylogenic_anamnesis",
+      "interpretation": "What I experienced was phylogenic anamnesis — racial-memory recall — possibly via a drug-mediated mechanism, of a previous incarnation.",
+      "lane": "B"
+    },
+    {
+      "date": "1977-12",
+      "source": "Exegesis + Metz speech",
+      "hypothesis_label": "valis_information_satellite",
+      "interpretation": "The fish sign was the trigger for an information transfer from VALIS, a non-human intelligence in geosynchronous orbit.",
+      "lane": "B"
+    },
+    {
+      "date": "1981-06",
+      "source": "VALIS (novel)",
+      "hypothesis_label": "literary",
+      "interpretation": "Horselover Fat experiences this; the novel records the event without resolving its ontology.",
+      "lane": "A"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "pamela-jackson",
+      "interpretation": "Jackson's 1999 dissertation reads the fish-sign moment as the foundational hermeneutic puzzle PKD spent the rest of his life trying to solve.",
+      "source_doc_id": null,
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "erik-davis",
+      "interpretation": "Davis reads it as exemplary California-visionary anamnesis in the lineage of Esalen and the human-potential movement, with a specifically gnostic-hermeticist content.",
+      "source_doc_id": null,
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "kyle-arnold",
+      "interpretation": "Arnold's psychiatric reading: post-anesthetic confusion plus possible TLE mediating an episode of derealization.",
+      "source_doc_id": "DOC_ARCH_ARNOLD_KYLE_DICK_PHILIP_K_THE_DIVINE_MAD",
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "gabriel-mckee",
+      "interpretation": "McKee's *Pink Beams of Light* (2004) treats this as the canonical PKD theophany — analogous to Augustine's tolle lege moment.",
+      "source_doc_id": null,
+      "lane": "C"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "exegesis_segment",
+      "seg_id": null,
+      "excerpt": "Multiple Exegesis segments 1974-1981 return to the fish sign."
+    },
+    {
+      "type": "novel",
+      "doc_id": null,
+      "excerpt": "*VALIS* (1981) chapter 2 narrates a version."
+    }
+  ],
+  "primary_quote": "It appeared — in vivid fire, with shining colors and balanced patterns — and released me from every thrall, inner and outer.",
+  "related_theophany_ids": [
+    "THEO_1974_02_PINK_BEAM",
+    "THEO_1974_03_CHRISTOPHER_BIRTH",
+    "THEO_1974_03_KOINE_GREEK"
+  ],
+  "related_works": [
+    "VALIS",
+    "Radio Free Albemuth",
+    "The Divine Invasion"
+  ],
+  "related_dictionary_terms": [
+    "valis",
+    "thomas",
+    "ichthys",
+    "christ"
+  ],
+  "related_names": [
+    "thomas",
+    "christ"
+  ],
+  "related_segments": [],
+  "contested_status": "disputed",
+  "contradiction_zone": "yes — the 2-3-74 events are the central dispute zone in PKD studies",
+  "pkd_doubt_evidence": "PKD repeatedly considers and dismisses drug-induced and TLE explanations across the Exegesis.",
+  "importance": "canonical",
+  "sequence_in_complex": 1,
+  "parent_theophany_id": "THEO_1974_2_3_74_CLUSTER"
+}

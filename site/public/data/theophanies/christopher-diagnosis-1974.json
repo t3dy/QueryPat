@@ -1,0 +1,82 @@
+{
+  "theophany_id": "THEO_1974_03_CHRISTOPHER_BIRTH",
+  "name": "The Christopher Diagnosis Vision (March 1974)",
+  "slug": "christopher-diagnosis-1974",
+  "date_start": "1974-03",
+  "date_end": "1974-03",
+  "date_display": "March 1974",
+  "date_confidence": "month",
+  "date_basis": "Exegesis; Tessa Dick's testimony; medical record subsequent",
+  "experience_type": "gnosis",
+  "sensory_modality": "cognitive",
+  "duration": "instant",
+  "summary": "PKD reports being told (by the AI Voice / pink beam transmission) that his infant son Christopher has an inguinal hernia; subsequent medical examination confirms the diagnosis. The episode is one of the few theophanies with external corroboration.",
+  "description": "In March 1974, during the period of pink-beam transmissions, PKD reports being told that his infant son Christopher (born July 1973) has an undiagnosed medical condition — variously narrated as an inguinal hernia, a hydrocele, or a strangulated organ — that requires surgery. Tessa Dick's memoir *The Owl in Daylight* (2009) confirms that Christopher was taken to the doctor on PKD's insistence and that a hernia was found. This is one of the very few PKD theophanies with external Lane-D corroboration; even skeptical biographers (Sutin, Arnold) record the medical confirmation as fact.",
+  "pkd_interpretations": [
+    {
+      "date": "1974-03",
+      "source": "Exegesis 1974",
+      "hypothesis_label": "valis_information_satellite",
+      "interpretation": "The transmitter knew about Christopher's condition before any human did; this is the strongest external evidence that the transmission is real.",
+      "lane": "B"
+    },
+    {
+      "date": "1976-04",
+      "source": "Exegesis",
+      "hypothesis_label": "subliminal_observation",
+      "interpretation": "Possibly Tessa or I had subconsciously observed the hernia symptoms and the 'transmission' is the unconscious surfacing as conscious gnosis.",
+      "lane": "B"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "lawrence-sutin",
+      "interpretation": "Sutin records the Christopher diagnosis as the strongest evidential anchor for the 2-3-74 cluster.",
+      "source_doc_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_",
+      "lane": "D"
+    },
+    {
+      "scholar_slug": "tessa-b-dick",
+      "interpretation": "Tessa attests to the medical diagnosis and to PKD's insistence on the urgency before the doctor confirmed it.",
+      "source_doc_id": null,
+      "lane": "E"
+    },
+    {
+      "scholar_slug": "kyle-arnold",
+      "interpretation": "Arnold acknowledges the diagnosis but suggests the 'foreknowledge' is reconstructed retrospectively from ordinary parental observation.",
+      "source_doc_id": "DOC_ARCH_ARNOLD_KYLE_DICK_PHILIP_K_THE_DIVINE_MAD",
+      "lane": "C"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "memoir",
+      "doc_id": null,
+      "excerpt": "Tessa Dick's memoir confirms the medical diagnosis."
+    },
+    {
+      "type": "exegesis",
+      "excerpt": "Multiple Exegesis segments return to Christopher as evidence."
+    }
+  ],
+  "primary_quote": null,
+  "related_theophany_ids": [
+    "THEO_1974_02_FISH_SIGN",
+    "THEO_1974_02_PINK_BEAM"
+  ],
+  "related_works": [
+    "VALIS"
+  ],
+  "related_dictionary_terms": [],
+  "related_names": [
+    "christopher-dick",
+    "tessa-dick"
+  ],
+  "related_segments": [],
+  "contested_status": "best_attested",
+  "contradiction_zone": "no — the medical fact is settled; only the foreknowledge interpretation is contested",
+  "pkd_doubt_evidence": "PKD himself entertains the subliminal-observation reading.",
+  "importance": "canonical",
+  "sequence_in_complex": 3,
+  "parent_theophany_id": "THEO_1974_2_3_74_CLUSTER"
+}

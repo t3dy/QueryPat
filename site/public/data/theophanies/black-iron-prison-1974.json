@@ -1,0 +1,97 @@
+{
+  "theophany_id": "THEO_1974_BLACK_IRON_PRISON",
+  "name": "The Black Iron Prison Vision",
+  "slug": "black-iron-prison-1974",
+  "date_start": "1974",
+  "date_end": "1981",
+  "date_display": "1974 onwards (recurring)",
+  "date_confidence": "year",
+  "date_basis": "Exegesis",
+  "experience_type": "vision",
+  "sensory_modality": "visual",
+  "duration": "continuous_for_period",
+  "summary": "PKD reports a recurring vision in which 1974 California is overlaid by 70 AD Rome — a vast iron prison housing the early Christians under imperial persecution. The vision continued at intervals through 1981.",
+  "description": "Beginning in 1974 and recurring throughout the Exegesis years, PKD reports a vision in which late-twentieth-century California is overlaid by first-century Rome — specifically Rome around 70 AD, after the destruction of the Temple, when the early Christians were a persecuted minority under the empire. He calls this the Black Iron Prison. The Nixon administration is read as the empire; the FBI as the Roman secret police; PKD himself as the apostle Thomas in hiding. The vision provides the central frame for *VALIS*, *The Divine Invasion*, and *Radio Free Albemuth*.",
+  "pkd_interpretations": [
+    {
+      "date": "1974-08",
+      "source": "Exegesis",
+      "hypothesis_label": "time_dysphasia",
+      "interpretation": "Time is dysphasic — the apparent linear flow is illusion; we are simultaneously in 70 AD and 1974.",
+      "lane": "B"
+    },
+    {
+      "date": "1976-04",
+      "source": "Exegesis",
+      "hypothesis_label": "gnostic_demiurge",
+      "interpretation": "The Black Iron Prison is the gnostic counterfeit world produced by the demiurge to imprison souls.",
+      "lane": "B"
+    },
+    {
+      "date": "1980-08",
+      "source": "Exegesis + VALIS draft",
+      "hypothesis_label": "literary_consolidation",
+      "interpretation": "The Black Iron Prison is the structural metaphor underlying all my fiction since *Time Out of Joint* (1959).",
+      "lane": "B"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "gabriel-mckee",
+      "interpretation": "McKee identifies the Black Iron Prison as the gnostic-Christian core of PKD's late theology.",
+      "source_doc_id": null,
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "erik-davis",
+      "interpretation": "Davis frames the BIP as PKD's distinctive contribution to American gnostic-conspiracy thought.",
+      "source_doc_id": null,
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "fredric-jameson",
+      "interpretation": "Jameson reads the BIP/Empire-overlay as PKD's allegorical mode for late capitalism.",
+      "source_doc_id": "DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT",
+      "lane": "C"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "exegesis",
+      "excerpt": "Hundreds of segments invoke the Black Iron Prison."
+    },
+    {
+      "type": "novel",
+      "doc_id": null,
+      "excerpt": "*VALIS* (1981) is structured around the BIP/Empire overlay."
+    }
+  ],
+  "primary_quote": "The Empire never ended.",
+  "related_theophany_ids": [
+    "THEO_1974_02_FISH_SIGN",
+    "THEO_1974_03_KOINE_GREEK"
+  ],
+  "related_works": [
+    "VALIS",
+    "The Divine Invasion",
+    "Radio Free Albemuth"
+  ],
+  "related_dictionary_terms": [
+    "black-iron-prison",
+    "empire",
+    "rome",
+    "valis"
+  ],
+  "related_names": [
+    "nero",
+    "thomas",
+    "antichrist"
+  ],
+  "related_segments": [],
+  "contested_status": "interpretive",
+  "contradiction_zone": "no — universally treated as PKD's central metaphor",
+  "pkd_doubt_evidence": null,
+  "importance": "canonical",
+  "sequence_in_complex": 6,
+  "parent_theophany_id": "THEO_1974_2_3_74_CLUSTER"
+}

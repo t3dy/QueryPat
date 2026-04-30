@@ -1,0 +1,100 @@
+{
+  "theophany_id": "THEO_1974_02_PINK_BEAM",
+  "name": "The Pink Beam Transmission",
+  "slug": "pink-beam-1974",
+  "date_start": "1974-02-20",
+  "date_end": "1974-03-20",
+  "date_display": "February-March 1974",
+  "date_confidence": "month",
+  "date_basis": "Exegesis dating",
+  "experience_type": "vision",
+  "sensory_modality": "multimodal",
+  "duration": "continuous_for_period",
+  "summary": "PKD reports that following the fish-sign encounter, a pink-colored beam of light addressed him for several weeks, transmitting information he later transcribed as 'music-color-math triune' annotation.",
+  "description": "Beginning around February 20, 1974 and continuing for weeks, PKD reports that a beam of pink-colored light projected information into him. The transmissions were not auditory in the ordinary sense — they registered as triune information legible simultaneously as music, color, and mathematics. PKD compared the form to medieval illuminated manuscripts. He reports learning (1) that his infant son Christopher had a previously undiagnosed inguinal hernia (subsequently medically confirmed — see THEO_1977_PROOF_OF_DAUGHTER_GLAUCOMA companion record), (2) that the world is in 70 AD Rome under the overlay of late-twentieth-century California, (3) that Latin and Koine Greek are accessible to him in a way that he cannot otherwise read.",
+  "pkd_interpretations": [
+    {
+      "date": "1974-03",
+      "source": "letters to Tessa, Anne",
+      "hypothesis_label": "valis_information_satellite",
+      "interpretation": "There is a 'they' transmitting to me, possibly a non-human intelligence in orbit.",
+      "lane": "B"
+    },
+    {
+      "date": "1974-05",
+      "source": "letter to William Sullivan FBI",
+      "hypothesis_label": "soviet_satellite",
+      "interpretation": "The transmissions originate from a Soviet satellite operated by Lem-as-front; the experience is psychological warfare directed at me as a SF author.",
+      "lane": "E"
+    },
+    {
+      "date": "1977-12",
+      "source": "Metz speech",
+      "hypothesis_label": "phil_from_future",
+      "interpretation": "The transmitter may be Phil Dick himself from a future timeline addressing his past self.",
+      "lane": "E"
+    },
+    {
+      "date": "1981",
+      "source": "VALIS",
+      "hypothesis_label": "valis_information_satellite",
+      "interpretation": "Horselover Fat's pink beam in *VALIS* names this as a Vast Active Living Intelligence System.",
+      "lane": "A"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "kyle-arnold",
+      "interpretation": "Arnold reads the pink beam as a TLE photopsia compounded by sleep deprivation and orthomolecular vitamin overload.",
+      "source_doc_id": "DOC_ARCH_ARNOLD_KYLE_DICK_PHILIP_K_THE_DIVINE_MAD",
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "erik-davis",
+      "interpretation": "Davis frames the pink-beam transmissions within a comparative-religious frame including Aquarius-age California visionaries (McKenna, RAW, Wilson).",
+      "source_doc_id": null,
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "jeffrey-kripal",
+      "interpretation": "Kripal places the experience in a religious-studies frame as exemplary American visionary religiosity (cf. Mutants and Mystics).",
+      "source_doc_id": null,
+      "lane": "C"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "exegesis",
+      "excerpt": "Pink beam descriptions across hundreds of segments."
+    },
+    {
+      "type": "fiction",
+      "excerpt": "*VALIS* chapter 2-3 narrates the experience."
+    }
+  ],
+  "primary_quote": "The color, musical score, math triune info: like an illuminated manuscript from the Medieval period.",
+  "related_theophany_ids": [
+    "THEO_1974_02_FISH_SIGN",
+    "THEO_1974_03_AI_VOICE",
+    "THEO_1974_03_CHRISTOPHER_BIRTH"
+  ],
+  "related_works": [
+    "VALIS",
+    "Radio Free Albemuth"
+  ],
+  "related_dictionary_terms": [
+    "valis",
+    "plasmate",
+    "logos"
+  ],
+  "related_names": [
+    "valis"
+  ],
+  "related_segments": [],
+  "contested_status": "disputed",
+  "contradiction_zone": "yes — 2-3-74",
+  "pkd_doubt_evidence": "The Exegesis is partly a sustained record of his doubt about this very transmission.",
+  "importance": "canonical",
+  "sequence_in_complex": 2,
+  "parent_theophany_id": "THEO_1974_2_3_74_CLUSTER"
+}

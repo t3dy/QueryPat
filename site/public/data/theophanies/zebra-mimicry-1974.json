@@ -1,0 +1,86 @@
+{
+  "theophany_id": "THEO_1974_SUMMER_ZEBRA",
+  "name": "Zebra Reveals Itself (Mimicry Hypothesis)",
+  "slug": "zebra-mimicry-1974",
+  "date_start": "1974-07",
+  "date_end": "1974-08",
+  "date_display": "summer 1974",
+  "date_confidence": "month",
+  "date_basis": "Exegesis",
+  "experience_type": "gnosis",
+  "sensory_modality": "cognitive",
+  "duration": "continuous_for_period",
+  "summary": "PKD reports concluding in summer 1974 that the intelligence transmitting to him is a vast organism that camouflages itself by mimicking inanimate matter — he names it Zebra (after the African animal that hides in plain sight). All of nature, on this hypothesis, is alive and addressing him.",
+  "description": "In summer 1974, PKD reports a sustained period of insight in which he concludes that the divine intelligence is not in heaven or in space but in the matter around him, mimicking inanimate objects — trash cans, rocks, vegetation. The intelligence camouflages itself as the way a zebra camouflages itself among savannah grasses. He gives it the name Zebra. The hypothesis stays with him through 1981 and is the central theological move of the late Exegesis: divinity is not transcendent; it is here, hiding by mimicry. The hypothesis is sourced to Bergson, Whitehead, and (after 1976) the Nag Hammadi gnostic texts.",
+  "pkd_interpretations": [
+    {
+      "date": "1974-07",
+      "source": "Exegesis",
+      "hypothesis_label": "zebra_mimicry",
+      "interpretation": "VALIS is Zebra: a biological entity mimicking inanimate matter. The world is alive but in disguise.",
+      "lane": "B"
+    },
+    {
+      "date": "1977-12",
+      "source": "Metz speech",
+      "hypothesis_label": "valis_information_satellite",
+      "interpretation": "Or perhaps Zebra is itself a manifestation of the orbital satellite VALIS.",
+      "lane": "E"
+    },
+    {
+      "date": "1981-06",
+      "source": "VALIS",
+      "hypothesis_label": "literary_consolidation",
+      "interpretation": "Zebra is the central image in the novel.",
+      "lane": "A"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "gabriel-mckee",
+      "interpretation": "McKee places Zebra within Whiteheadian process theology — God as continuously becoming through matter.",
+      "source_doc_id": null,
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "erik-davis",
+      "interpretation": "Davis frames Zebra as the most original PKD theological innovation.",
+      "source_doc_id": null,
+      "lane": "C"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "exegesis",
+      "excerpt": "Hundreds of segments develop the Zebra hypothesis."
+    },
+    {
+      "type": "novel",
+      "excerpt": "*VALIS* (1981) names Zebra as VALIS's modus operandi."
+    }
+  ],
+  "primary_quote": "Zebra. Camouflaged nature God. Life form. VALIS.",
+  "related_theophany_ids": [
+    "THEO_1974_02_PINK_BEAM",
+    "THEO_1974_BLACK_IRON_PRISON"
+  ],
+  "related_works": [
+    "VALIS"
+  ],
+  "related_dictionary_terms": [
+    "zebra",
+    "valis",
+    "plasmate",
+    "logos"
+  ],
+  "related_names": [
+    "valis"
+  ],
+  "related_segments": [],
+  "contested_status": "interpretive",
+  "contradiction_zone": "no",
+  "pkd_doubt_evidence": null,
+  "importance": "canonical",
+  "sequence_in_complex": 7,
+  "parent_theophany_id": "THEO_1974_2_3_74_CLUSTER"
+}

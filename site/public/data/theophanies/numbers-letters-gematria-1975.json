@@ -1,0 +1,94 @@
+{
+  "theophany_id": "THEO_1975_NUMERIC_LETTER_GEMATRIA",
+  "name": "Numbers/Letters Transformation (Gematria Vision)",
+  "slug": "numbers-letters-gematria-1975",
+  "date_start": "1975",
+  "date_end": "1975",
+  "date_display": "1975 (reported in 1981 Rickman interview)",
+  "date_confidence": "year",
+  "date_basis": "Rickman interview, 1981/82 — reported retrospectively by PKD",
+  "experience_type": "vision",
+  "sensory_modality": "visual",
+  "duration": "minutes",
+  "summary": "PKD reports a vision in which numbers and Hebrew letters transformed into each other in front of him. He says he had no prior knowledge of kabbalistic gematria but later learned the practice and recognized his vision as having anticipated it.",
+  "description": "PKD reports to Greg Rickman in late-life interviews (collected in *Philip K. Dick: In His Own Words* and *Philip K. Dick: The Last Testament*) that during 1975 he experienced a vision in which numbers and Hebrew letters transformed into each other, occupying the same visual field, exchanging identities. He says he had no knowledge at the time of kabbalistic gematria — the medieval Jewish mystical practice in which Hebrew letters double as numbers and meaning is found in their numerical equivalences. He says he subsequently encountered the writings of Abraham Abulafia and the Sefer Yetzirah and recognized that his vision had anticipated their content. This is one of the strongest examples in the Exegesis era of PKD asserting prior-knowledge-without-source — a kind of cognitive theophany he repeatedly returns to.",
+  "pkd_interpretations": [
+    {
+      "date": "1975",
+      "source": "experience itself",
+      "hypothesis_label": "valis_information_satellite",
+      "interpretation": "Information transmitted to me by VALIS in a form I did not at the time recognize as kabbalistic.",
+      "lane": "B"
+    },
+    {
+      "date": "1980",
+      "source": "Exegesis after reading on gematria",
+      "hypothesis_label": "kabbalistic_gematria",
+      "interpretation": "The vision was kabbalistic gematria — Hebrew letters as numbers, numbers as letters; this is the exact mechanism of late-medieval Jewish mysticism, which I learned about only after the vision.",
+      "lane": "B"
+    },
+    {
+      "date": "1981",
+      "source": "Rickman interview",
+      "hypothesis_label": "abulafia_possession",
+      "interpretation": "I now believe I was, briefly, possessed by Abraham Abulafia (1240-c.1291), the medieval Spanish kabbalist who pioneered letter-permutation meditation.",
+      "lane": "E"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "jeffrey-kripal",
+      "interpretation": "Kripal places the gematria vision within his comparative-mystics frame as exemplary anomalous-cognition involving prior-knowledge claims.",
+      "source_doc_id": null,
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "erik-davis",
+      "interpretation": "Davis treats the gematria episode as one of the strongest examples of PKD's claim to have received content he did not have access to by ordinary means.",
+      "source_doc_id": null,
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "kyle-arnold",
+      "interpretation": "Arnold suggests memory contamination — PKD likely encountered gematria references earlier (in Robert Anton Wilson, in Eliade, in Jung) and forgot.",
+      "source_doc_id": "DOC_ARCH_ARNOLD_KYLE_DICK_PHILIP_K_THE_DIVINE_MAD",
+      "lane": "C"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "interview",
+      "doc_id": null,
+      "excerpt": "Rickman interview transcripts; subsequent *In His Own Words* publication."
+    },
+    {
+      "type": "exegesis",
+      "excerpt": "Multiple segments mid-to-late Exegesis develop the gematria framework."
+    }
+  ],
+  "primary_quote": "Numbers and letters were transforming themselves into each other; I knew nothing of gematria at the time.",
+  "related_theophany_ids": [
+    "THEO_1974_03_KOINE_GREEK",
+    "THEO_1976_ABULAFIA_POSSESSION"
+  ],
+  "related_works": [
+    "VALIS",
+    "The Divine Invasion"
+  ],
+  "related_dictionary_terms": [
+    "gematria",
+    "abulafia",
+    "sefer-yetzirah"
+  ],
+  "related_names": [
+    "abulafia",
+    "abraham-abulafia"
+  ],
+  "related_segments": [],
+  "contested_status": "disputed",
+  "contradiction_zone": "yes — prior-knowledge claim is the central evidential dispute in PKD studies",
+  "pkd_doubt_evidence": "Some Exegesis segments allow that he may have read about gematria earlier and forgotten.",
+  "importance": "canonical",
+  "sequence_in_complex": null,
+  "parent_theophany_id": null
+}

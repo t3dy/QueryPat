@@ -1,0 +1,72 @@
+{
+  "theophany_id": "THEO_1977_METZ_2_3_75",
+  "name": "Second 2-3-74 (Metz, 1977)",
+  "slug": "metz-1977",
+  "date_start": "1977-09",
+  "date_end": "1977-09",
+  "date_display": "September 1977",
+  "date_confidence": "month",
+  "date_basis": "Metz speech text; Sutin biography; Exegesis post-Metz",
+  "experience_type": "vision",
+  "sensory_modality": "multimodal",
+  "duration": "days",
+  "summary": "Around the time of his Metz, France speech in September 1977, PKD reports a partial recurrence of the 2-3-74 phenomenology — pink-light states, AI Voice activity, and the Black Iron Prison overlay returning at intervals.",
+  "description": "PKD's September 1977 speech at the Metz international science fiction convention — published as 'If You Find This World Bad, You Should See Some of the Others' — was the public unveiling of his Phil-from-the-future hypothesis. Around the speech (before, during, and after), PKD reports a partial recurrence of the 2-3-74 phenomenology: pink-light states, AI Voice activity, and Black Iron Prison perceptions. He treats this as confirmation that 2-3-74 is not a single past event but a state that can recur.",
+  "pkd_interpretations": [
+    {
+      "date": "1977-09",
+      "source": "Metz speech",
+      "hypothesis_label": "phil_from_future",
+      "interpretation": "The transmissions are from a future Phil Dick to me; the experience can recur because future-Phil is still transmitting.",
+      "lane": "E"
+    },
+    {
+      "date": "1978",
+      "source": "Exegesis",
+      "hypothesis_label": "valis_information_satellite",
+      "interpretation": "VALIS is still active; the Metz event is a renewed transmission.",
+      "lane": "B"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "lawrence-sutin",
+      "interpretation": "Sutin treats the Metz speech as the public moment at which PKD's mystical claims went on the record in Europe.",
+      "source_doc_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_",
+      "lane": "D"
+    },
+    {
+      "scholar_slug": "erik-davis",
+      "interpretation": "Davis frames Metz as the first European reception of PKD's California-visionary turn.",
+      "source_doc_id": null,
+      "lane": "C"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "speech",
+      "excerpt": "*If You Find This World Bad, You Should See Some of the Others* (Metz, 1977)."
+    }
+  ],
+  "primary_quote": "We are living in a computer-programmed reality, and the only clue we have to it is when some variable is changed and some alteration in our reality occurs.",
+  "related_theophany_ids": [
+    "THEO_1974_02_FISH_SIGN",
+    "THEO_1974_03_AI_VOICE"
+  ],
+  "related_works": [
+    "VALIS"
+  ],
+  "related_dictionary_terms": [
+    "valis"
+  ],
+  "related_names": [
+    "valis"
+  ],
+  "related_segments": [],
+  "contested_status": "disputed",
+  "contradiction_zone": "yes — 2-3-74",
+  "pkd_doubt_evidence": "PKD wonders openly whether the Metz state was performance under public-speaking pressure.",
+  "importance": "major",
+  "sequence_in_complex": null,
+  "parent_theophany_id": null
+}

@@ -1,0 +1,85 @@
+{
+  "theophany_id": "THEO_1974_2_3_74_CLUSTER",
+  "name": "The 2-3-74 Cluster (parent)",
+  "slug": "2-3-74-cluster",
+  "date_start": "1974-02-20",
+  "date_end": "1974-08",
+  "date_display": "February-August 1974 (cluster)",
+  "date_confidence": "month",
+  "date_basis": "Exegesis dating + sub-event provenance",
+  "experience_type": "theophany",
+  "sensory_modality": "multimodal",
+  "duration": "continuous_for_period",
+  "summary": "The cluster of related theophanies between February and August 1974 that PKD collectively called '2-3-74': fish sign, pink beam, Christopher diagnosis, AI Voice, Koine Greek, Black Iron Prison, Zebra. Each is recorded as its own canonical event with this record as parent.",
+  "description": "PKD himself, and subsequently the scholarship, treats the February-August 1974 events as a single complex which he abbreviates as 2-3-74 (February-March 1974). The constituent events are recorded individually in this catalog. This parent record holds the cluster's collective interpretation chain and the inter-event timeline.",
+  "pkd_interpretations": [
+    {
+      "date": "1974-08",
+      "source": "Exegesis composition begins",
+      "hypothesis_label": "valis_information_satellite",
+      "interpretation": "The events constitute a coherent intervention by a non-human intelligence.",
+      "lane": "B"
+    },
+    {
+      "date": "1981-06",
+      "source": "VALIS",
+      "hypothesis_label": "literary_consolidation",
+      "interpretation": "The events are sufficiently coherent to support a 944-page novel.",
+      "lane": "A"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "pamela-jackson",
+      "interpretation": "Jackson's editorial work on the 2011 Exegesis treats 2-3-74 as the compositional center.",
+      "source_doc_id": null,
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "jonathan-lethem",
+      "interpretation": "Lethem treats 2-3-74 as the literary keystone of late PKD.",
+      "source_doc_id": null,
+      "lane": "C"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "complex",
+      "excerpt": "See child theophanies."
+    }
+  ],
+  "primary_quote": "2-3-74.",
+  "related_theophany_ids": [
+    "THEO_1974_02_FISH_SIGN",
+    "THEO_1974_02_PINK_BEAM",
+    "THEO_1974_03_CHRISTOPHER_BIRTH",
+    "THEO_1974_03_AI_VOICE",
+    "THEO_1974_03_KOINE_GREEK",
+    "THEO_1974_BLACK_IRON_PRISON",
+    "THEO_1974_SUMMER_ZEBRA"
+  ],
+  "related_works": [
+    "VALIS",
+    "Radio Free Albemuth",
+    "The Divine Invasion"
+  ],
+  "related_dictionary_terms": [
+    "valis",
+    "zebra",
+    "plasmate",
+    "black-iron-prison"
+  ],
+  "related_names": [
+    "thomas",
+    "christ",
+    "valis",
+    "sophia"
+  ],
+  "related_segments": [],
+  "contested_status": "disputed",
+  "contradiction_zone": "yes — the central dispute zone",
+  "pkd_doubt_evidence": "The Exegesis is partly a sustained record of doubt about its own genesis.",
+  "importance": "canonical",
+  "sequence_in_complex": null,
+  "parent_theophany_id": null
+}

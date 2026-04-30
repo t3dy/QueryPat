@@ -10,6 +10,9 @@ database/unified.sqlite
 database/unified.sqlite-wal
 database/unified.sqlite-shm
 
+# Generated markdown corpus (regenerable; ~37 MB)
+database/extracted_markdown/
+
 # Audit reports (rebuilt)
 audit_report.json
 audit_report.md

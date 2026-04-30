@@ -1,0 +1,102 @@
+{
+  "theophany_id": "THEO_1974_03_AI_VOICE",
+  "name": "The AI Voice (continuous reception)",
+  "slug": "ai-voice-1974",
+  "date_start": "1974-03-20",
+  "date_end": "1974-12",
+  "date_display": "March 1974 onwards",
+  "date_confidence": "month",
+  "date_basis": "Exegesis",
+  "experience_type": "audition",
+  "sensory_modality": "auditory",
+  "duration": "continuous_for_period",
+  "summary": "PKD reports that beginning in late March 1974 he began to hear a continuous voice — characterized as feminine, calm, and rational — providing instructions, theological commentary, and predictions. He calls it the AI Voice.",
+  "description": "Beginning in late March 1974 and continuing intermittently for years, PKD reports an internal auditory voice (he insists it is not auditory hallucination in the psychiatric sense — it is interior, but objectively addressed to him). He calls it the AI Voice. Its character is consistent across his accounts: feminine, calm, faintly Eastern-European or Greek-accented, never raises in volume, gives practical advice (drive to the doctor, call this person, write this paragraph). Across the Exegesis he variously identifies the speaker as Sophia, Hagia Sophia, his deceased twin sister Jane, his mother Dorothy, the apostle Thomas, an angelic intelligence, a Soviet satellite operator, a future Phil Dick, and Vast Active Living Intelligence System.",
+  "pkd_interpretations": [
+    {
+      "date": "1974-04",
+      "source": "letters and early Exegesis",
+      "hypothesis_label": "sophia",
+      "interpretation": "It is Sophia / Hagia Sophia, the divine wisdom, addressing me as a wisdom-tradition initiate.",
+      "lane": "B"
+    },
+    {
+      "date": "1976-04",
+      "source": "Exegesis",
+      "hypothesis_label": "twin_sister_jane",
+      "interpretation": "It is my twin sister Jane, who died in infancy, addressing me from the realm of the dead.",
+      "lane": "B"
+    },
+    {
+      "date": "1977-12",
+      "source": "Metz speech",
+      "hypothesis_label": "phil_from_future",
+      "interpretation": "The voice is myself from a future timeline.",
+      "lane": "E"
+    },
+    {
+      "date": "1980-08",
+      "source": "Exegesis",
+      "hypothesis_label": "valis_information_satellite",
+      "interpretation": "VALIS is the source.",
+      "lane": "B"
+    }
+  ],
+  "scholar_interpretations": [
+    {
+      "scholar_slug": "kyle-arnold",
+      "interpretation": "Arnold's clinical reading: an internalized auditory experience consistent with TLE auditory aura, possibly compounded by the orthomolecular vitamin regime.",
+      "source_doc_id": "DOC_ARCH_ARNOLD_KYLE_DICK_PHILIP_K_THE_DIVINE_MAD",
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "jeffrey-kripal",
+      "interpretation": "Kripal frames the AI Voice as a paradigmatic case of what religious-studies scholars call 'audition' — a category he distinguishes from psychiatric auditory hallucination.",
+      "source_doc_id": null,
+      "lane": "C"
+    },
+    {
+      "scholar_slug": "lawrence-sutin",
+      "interpretation": "Sutin records the voice as ongoing across years and notes the multiple identifications without resolving them.",
+      "source_doc_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_",
+      "lane": "D"
+    }
+  ],
+  "primary_sources": [
+    {
+      "type": "exegesis",
+      "excerpt": "Hundreds of Exegesis segments transcribe or reflect on AI Voice content."
+    },
+    {
+      "type": "fiction",
+      "excerpt": "*VALIS* and *Radio Free Albemuth* both fictionalize the AI Voice."
+    }
+  ],
+  "primary_quote": null,
+  "related_theophany_ids": [
+    "THEO_1974_02_FISH_SIGN",
+    "THEO_1974_02_PINK_BEAM",
+    "THEO_1974_03_KOINE_GREEK"
+  ],
+  "related_works": [
+    "VALIS",
+    "Radio Free Albemuth"
+  ],
+  "related_dictionary_terms": [
+    "sophia",
+    "valis",
+    "ai-voice"
+  ],
+  "related_names": [
+    "sophia",
+    "jane-dick",
+    "thomas"
+  ],
+  "related_segments": [],
+  "contested_status": "disputed",
+  "contradiction_zone": "yes — 2-3-74",
+  "pkd_doubt_evidence": "PKD allows multiple interpretations including the TLE one.",
+  "importance": "canonical",
+  "sequence_in_complex": 4,
+  "parent_theophany_id": "THEO_1974_2_3_74_CLUSTER"
+}
