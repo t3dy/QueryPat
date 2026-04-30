@@ -1,12 +1,72 @@
 [
   {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1964_three_stigmata",
+    "summary": "Writes The Three Stigmata of Palmer Eldritch during a prolific period",
+    "date_start": "1964",
+    "date_end": "1964",
+    "date_display": "1964",
+    "date_confidence": "year",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Oakland, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "The Three Stigmata of Palmer Eldritch",
+      "Doubleday"
+    ]
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 2,
     "summary": "A profound LSD trip in 1964 (\"about 350 mices\"), where he \"hit the Dies Irae.\"",
     "date_start": "1964",
-    "date_end": null,
-    "event_type": "substance_use",
-    "source_name": null,
+    "date_end": "1964",
+    "date_display": "1964",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "substance_use",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "Oakland, California",
+    "importance": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1964_amphetamine",
+    "summary": "Increasing amphetamine use during an extremely prolific writing period",
+    "date_start": "1964-1965",
+    "date_end": "1964-1965",
+    "date_display": "1964-1965",
+    "date_confidence": "range",
+    "event_type": "drug_use",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Oakland, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Nancy Hackett"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1964_mysticism",
+    "summary": "Develops interest in mysticism and comparative religion across traditions",
+    "date_start": "1964-1966",
+    "date_end": "1964-1966",
+    "date_display": "1964-1966",
+    "date_confidence": "range",
+    "event_type": "philosophical_influence",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Oakland, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Meister Eckhart",
+      "Jakob Boehme"
+    ]
   }
 ]

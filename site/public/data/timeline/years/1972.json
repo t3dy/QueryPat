@@ -1,42 +1,146 @@
 [
   {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1972_vancouver",
+    "summary": "Moves to Vancouver during a period of deep personal crisis",
+    "date_start": "1972",
+    "date_end": "1972",
+    "date_display": "1972",
+    "date_confidence": "year",
+    "event_type": "residence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Vancouver, British Columbia",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Michael Walsh",
+      "University of British Columbia"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1972_suicide_attempt",
+    "summary": "Attempts suicide while living in Vancouver and is hospitalized afterward",
+    "date_start": "1972",
+    "date_end": "1972",
+    "date_display": "1972",
+    "date_confidence": "year",
+    "event_type": "health",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Vancouver, British Columbia",
+    "importance": "5",
+    "notes": null,
+    "entities": [
+      "X-Kalay Foundation"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1972_return_us",
+    "summary": "Returns to the United States from Canada and settles in Orange County",
+    "date_start": "1972",
+    "date_end": "1972",
+    "date_display": "1972",
+    "date_confidence": "year",
+    "event_type": "residence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Willis McNelly"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1972_meets_tessa",
+    "summary": "Meets Tessa Busby in Fullerton, California after returning from Vancouver",
+    "date_start": "1972",
+    "date_end": "1972",
+    "date_display": "1972",
+    "date_confidence": "year",
+    "event_type": "friendship",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Tessa Dick"
+    ]
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 11,
     "summary": "Loss of his library (including *The Red Feather*) in Canada in 1972.",
     "date_start": "1972",
-    "date_end": null,
-    "event_type": "travel",
-    "source_name": null,
+    "date_end": "1972",
+    "date_display": "1972",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "travel",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "Vancouver, Canada",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 18,
     "summary": "Illness in 1972-73 (pneumonia).",
     "date_start": "1972",
-    "date_end": null,
-    "event_type": "health",
-    "source_name": null,
+    "date_end": "1972",
+    "date_display": "1972",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "health",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "Vancouver, Canada",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 208,
     "summary": "Canada 1972: Dream of Kathy taking off her mask (\"Now it can be explained\").",
     "date_start": "1972",
-    "date_end": null,
-    "event_type": "vision",
-    "source_name": null,
+    "date_end": "1972",
+    "date_display": "1972",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "vision",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "Vancouver, Canada",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 283,
     "summary": "Vancouver speech (1972) as a precursor to the \"masks off\" battle.",
     "date_start": "1972",
-    "date_end": null,
-    "event_type": "travel",
-    "source_name": null,
+    "date_end": "1972",
+    "date_display": "1972",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "travel",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "Vancouver, Canada",
+    "importance": null
+  },
+  {
+    "_type": "theophany",
+    "theophany_id": "THEO_1972_03_VANCOUVER_DESPAIR",
+    "name": "Vancouver Despair / Suicide Attempt Context",
+    "slug": "vancouver-despair-1972",
+    "summary": "Following the Vancouver SF convention guest-of-honor speech and a suicide attempt, PKD entered the X-Kalay drug rehabilitation program; the period is associated with what he later called a 'spiritual crisis' but no specific theophany is canonically attached.",
+    "date_start": "1972-02",
+    "date_end": "1972-03",
+    "date_display": "February-March 1972",
+    "date_confidence": "month",
+    "experience_type": "other",
+    "importance": "major",
+    "contested_status": "best_attested",
+    "parent_theophany_id": null
   }
 ]

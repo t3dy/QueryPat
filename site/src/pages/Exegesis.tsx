@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useData } from '../hooks/useData'
+import ExploreFooter from '../components/ExploreFooter'
 
 interface TimelineIndex {
   year: string
@@ -125,6 +126,26 @@ export default function Exegesis() {
           </ul>
         </div>
       </div>
+
+      <ExploreFooter groups={[
+        { section: 'Visionary experiences', items: [
+          { label: 'The 2-3-74 cluster', to: '/theophanies/2-3-74-cluster' },
+          { label: 'The Fish Sign (Feb 20, 1974)', to: '/theophanies/fish-sign-2-20-74' },
+          { label: 'The Pink Beam', to: '/theophanies/pink-beam-1974' },
+          { label: 'The AI Voice', to: '/theophanies/ai-voice-1974' },
+        ], totalCount: 15, seeAllTo: '/theophanies' },
+        { section: 'Companion reading', items: [
+          { label: 'Drugs in PKD essay', to: '/essays/drugs-in-pkd' },
+          { label: 'Music in PKD essay', to: '/essays/music-in-pkd' },
+          { label: 'Pamela Jackson, Erik Davis, Lethem', to: '/scholars' },
+        ]},
+        { section: 'Browse', items: [
+          { label: 'Timeline 1974', to: '/timeline/1974' },
+          { label: 'Timeline 1975', to: '/timeline/1975' },
+          { label: 'Timeline 1976', to: '/timeline/1976' },
+          { label: 'Timeline 1981', to: '/timeline/1981' },
+        ]},
+      ]} />
 
       <div className="detail-section" style={{marginTop:'1rem'}}>
         <h2>Key scholars on the <em>Exegesis</em></h2>

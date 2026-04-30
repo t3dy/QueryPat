@@ -1,0 +1,75 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1955_solar_lottery",
+    "summary": "Publishes debut novel Solar Lottery through Ace Books as paperback original",
+    "date_start": "1955",
+    "date_end": "1955",
+    "date_display": "1955",
+    "date_confidence": "year",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Solar Lottery",
+      "Ace Books"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1955_divorce_kleo",
+    "summary": "Divorces Kleo Apostolides after five years of marriage in Berkeley",
+    "date_start": "1955",
+    "date_end": "1955",
+    "date_display": "1955",
+    "date_confidence": "year",
+    "event_type": "divorce",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Kleo Apostolides"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1955_wagner_music",
+    "summary": "Immerses in classical music listening and Wagnerian opera appreciation",
+    "date_start": "1955-1957",
+    "date_end": "1955-1957",
+    "date_display": "1955-1957",
+    "date_confidence": "range",
+    "event_type": "reading",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Richard Wagner"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1955_classical_music",
+    "summary": "Sustained immersion in classical music and Wagnerian opera during Berkeley years",
+    "date_start": "1955-1957",
+    "date_end": "1955-1957",
+    "date_display": "1955-1957",
+    "date_confidence": "range",
+    "event_type": "reading",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Richard Wagner"
+    ]
+  }
+]

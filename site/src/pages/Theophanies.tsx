@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useData } from '../hooks/useData'
+import ExploreFooter from '../components/ExploreFooter'
 
 interface TheophanyMeta {
   theophany_id: string
@@ -111,7 +112,24 @@ export default function Theophanies() {
         </div>
       </div>
 
-      <div style={{display:'grid', gridTemplateColumns:'1fr', gap:'1.25rem'}}>
+      <ExploreFooter groups={[
+        { section: 'The Exegesis', items: [
+          { label: 'Browse the Exegesis landing', to: '/exegesis' },
+          { label: 'Timeline 1974 (the year of 2-3-74)', to: '/timeline/1974' },
+          { label: 'Timeline 1975', to: '/timeline/1975' },
+        ]},
+        { section: 'Biography & sources', items: [
+          { label: 'Biography events', to: '/biography' },
+          { label: 'Scholars on PKD', to: '/scholars' },
+          { label: 'Archive (228 documents)', to: '/archive' },
+        ]},
+        { section: 'Companion essays', items: [
+          { label: 'Drugs in Philip K. Dick', to: '/essays/drugs-in-pkd' },
+          { label: 'Music in Philip K. Dick', to: '/essays/music-in-pkd' },
+        ]},
+      ]} />
+
+      <div style={{display:'grid', gridTemplateColumns:'1fr', gap:'1.25rem', marginTop:'1.5rem'}}>
         {filtered.map(t => (
           <Link
             key={t.theophany_id}

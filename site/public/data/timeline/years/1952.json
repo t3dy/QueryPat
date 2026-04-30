@@ -1,0 +1,56 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1952_ace_novels",
+    "summary": "Writes early science-fiction novels intended for publication by Ace Books",
+    "date_start": "1952",
+    "date_end": "1952",
+    "date_display": "1952",
+    "date_confidence": "year",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Ace Books"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1952_whitehead_reading",
+    "summary": "Reads Alfred North Whitehead and process philosophy for the first time",
+    "date_start": "1952",
+    "date_end": "1952",
+    "date_display": "1952",
+    "date_confidence": "year",
+    "event_type": "philosophical_influence",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Alfred North Whitehead"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1952_wollheim_friendship",
+    "summary": "Develops friendship with science-fiction editor Don Wollheim at Ace Books",
+    "date_start": "1952-1954",
+    "date_end": "1952-1954",
+    "date_display": "1952-1954",
+    "date_confidence": "range",
+    "event_type": "professional_network",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Don Wollheim"
+    ]
+  }
+]

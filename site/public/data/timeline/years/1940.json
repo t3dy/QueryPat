@@ -1,0 +1,38 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1940_sf_discovery",
+    "summary": "Discovers science-fiction magazines including Stirring Science Stories at age eleven",
+    "date_start": "1940",
+    "date_end": "1940",
+    "date_display": "1940",
+    "date_confidence": "year",
+    "event_type": "reading",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Don Wollheim"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1940_baum_reading",
+    "summary": "Reads L. Frank Baum and early fantasy literature during childhood",
+    "date_start": "1940-1941",
+    "date_end": "1940-1941",
+    "date_display": "1940-1941",
+    "date_confidence": "range",
+    "event_type": "reading",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "L. Frank Baum"
+    ]
+  }
+]

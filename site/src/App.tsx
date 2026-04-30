@@ -7,6 +7,7 @@ import Essays from './pages/Essays'
 import EssayDetail from './pages/EssayDetail'
 import Theophanies from './pages/Theophanies'
 import TheophanyDetail from './pages/TheophanyDetail'
+import Browse from './pages/Browse'
 import SegmentDetail from './pages/SegmentDetail'
 import Dictionary from './pages/Dictionary'
 import TermDetail from './pages/TermDetail'
@@ -40,6 +41,7 @@ function App() {
           <Route path="essays/:slug" element={<EssayDetail />} />
           <Route path="theophanies" element={<Theophanies />} />
           <Route path="theophanies/:slug" element={<TheophanyDetail />} />
+          <Route path="browse" element={<Browse />} />
           <Route path="segments/:id" element={<SegmentDetail />} />
           <Route path="dictionary" element={<Dictionary />} />
           <Route path="dictionary/:slug" element={<TermDetail />} />

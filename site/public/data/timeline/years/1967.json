@@ -1,32 +1,80 @@
 [
   {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1967_paranoia_drugs",
+    "summary": "Experiences increasing paranoia alongside continued amphetamine drug use",
+    "date_start": "1967",
+    "date_end": "1967",
+    "date_display": "1967",
+    "date_confidence": "year",
+    "event_type": "drug_use",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Nancy Hackett"
+    ]
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 128,
     "summary": "1967: Hearing \"I am the breath of my Creator\" in Latin under LSD.",
     "date_start": "1967",
-    "date_end": null,
-    "event_type": "substance_use",
-    "source_name": null,
+    "date_end": "1967",
+    "date_display": "1967",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "substance_use",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 155,
     "summary": "1967: Vision of \"Ma'at/Dharma\" as the world-supporting principle.",
     "date_start": "1967",
-    "date_end": null,
-    "event_type": "vision",
-    "source_name": null,
+    "date_end": "1967",
+    "date_display": "1967",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "vision",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 178,
     "summary": "1967: Vision of the \"World-Building\" spirit.",
     "date_start": "1967",
-    "date_end": null,
-    "event_type": "vision",
-    "source_name": null,
+    "date_end": "1967",
+    "date_display": "1967",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "vision",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1967_counterculture_social",
+    "summary": "Participates in Berkeley and Marin counterculture social circles during late sixties",
+    "date_start": "1967-1969",
+    "date_end": "1967-1969",
+    "date_display": "1967-1969",
+    "date_confidence": "range",
+    "event_type": "friendship",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Bay Area, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Ray Nelson"
+    ]
   }
 ]

@@ -1,0 +1,39 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1944_berkeley_high",
+    "summary": "Enrolls at Berkeley High School and participates in creative writing activities",
+    "date_start": "1944",
+    "date_end": "1944",
+    "date_display": "1944",
+    "date_confidence": "year",
+    "event_type": "education",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Berkeley High School"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1944_philosophy_reading",
+    "summary": "Reads philosophy and psychology independently as a high school teenager",
+    "date_start": "1944-1945",
+    "date_end": "1944-1945",
+    "date_display": "1944-1945",
+    "date_confidence": "range",
+    "event_type": "reading",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Plato",
+      "Immanuel Kant"
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1941_early_writing",
+    "summary": "Begins writing early short stories as a teenager in Berkeley",
+    "date_start": "1941-1942",
+    "date_end": "1941-1942",
+    "date_display": "1941-1942",
+    "date_confidence": "range",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Berkeley Daily Gazette"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1941_pulp_reading",
+    "summary": "Reads pulp science fiction by van Vogt, Heinlein, and Sturgeon",
+    "date_start": "1941-1943",
+    "date_end": "1941-1943",
+    "date_display": "1941-1943",
+    "date_confidence": "range",
+    "event_type": "reading",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "A. E. van Vogt",
+      "Robert A. Heinlein",
+      "Theodore Sturgeon"
+    ]
+  }
+]

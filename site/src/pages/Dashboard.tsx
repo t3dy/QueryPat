@@ -13,7 +13,7 @@ interface Analytics {
     names: number
   }
   top_terms: { name: string; count: number; category: string }[]
-  segments_per_year: { year: string; count: number; bio_events?: number; has_content?: boolean }[]
+  segments_per_year: { year: string; count: number; bio_events?: number; theophanies?: number; has_content?: boolean }[]
 }
 
 interface BiographyIndex {
@@ -159,8 +159,8 @@ export default function Dashboard() {
         <div className="detail-section">
           <h2>Browse by year</h2>
           <p style={{color:'var(--text-muted)', fontSize:'0.85rem', margin:'0.25rem 0 0.75rem'}}>
-            Philip K. Dick (1928&ndash;1982). Many years are unpopulated &mdash; publications and additional biography
-            events are queued to fill them in.
+            Philip K. Dick (1928&ndash;1982). Click any year to see biography events,
+            <span style={{color:'#9B6B9B'}}> theophanies</span>, and <em>Exegesis</em> writings for that year.
           </p>
           {(() => {
             const decades = new Map<string, typeof data.segments_per_year>()
@@ -174,7 +174,7 @@ export default function Dashboard() {
                 <div style={{fontWeight:600, fontSize:'0.85rem', color:'var(--text-muted)', marginBottom:'0.25rem'}}>{dec}</div>
                 <div style={{display:'flex', flexWrap:'wrap', gap:'0.25rem'}}>
                   {years.map(y => {
-                    const total = y.count + (y.bio_events || 0)
+                    const total = y.count + (y.bio_events || 0) + (y.theophanies || 0)
                     const hasContent = y.has_content || total > 0
                     return (
                       <Link
@@ -186,12 +186,13 @@ export default function Dashboard() {
                           fontSize:'0.8rem',
                           borderRadius:'4px',
                           textDecoration:'none',
-                          background: y.count > 100 ? 'var(--accent)' : y.count > 0 ? 'var(--accent-muted, rgba(var(--accent-rgb, 100,100,200), 0.2))' : hasContent ? 'var(--bg-elevated, #f0f0f0)' : 'transparent',
+                          background: y.count > 100 ? 'var(--accent)' : y.count > 0 ? 'rgba(192,154,77,0.25)' : (y.theophanies || 0) > 0 ? 'rgba(155,107,155,0.2)' : hasContent ? 'rgba(192,154,77,0.08)' : 'transparent',
                           color: y.count > 100 ? '#fff' : hasContent ? 'var(--text)' : 'var(--text-muted)',
-                          opacity: hasContent ? 1 : 0.4,
+                          opacity: hasContent ? 1 : 0.35,
                           cursor: hasContent ? 'pointer' : 'default',
+                          border: hasContent ? '1px solid rgba(192,154,77,0.25)' : '1px solid transparent',
                         }}
-                        title={`${y.year}: ${y.count} Exegesis entries${y.bio_events ? `, ${y.bio_events} biography events` : ''}`}
+                        title={`${y.year}: ${y.count} segments, ${y.bio_events || 0} biography events, ${y.theophanies || 0} theophanies`}
                       >
                         {y.year.slice(2)}
                       </Link>

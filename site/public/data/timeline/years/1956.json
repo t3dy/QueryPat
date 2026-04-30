@@ -1,0 +1,56 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1956_marriage_anne",
+    "summary": "Marries Anne Williams Rubinstein in his third marriage in the Bay Area",
+    "date_start": "1956",
+    "date_end": "1956",
+    "date_display": "1956",
+    "date_confidence": "year",
+    "event_type": "marriage",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Anne Williams Rubinstein"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1956_point_reyes",
+    "summary": "Moves to Point Reyes Station area with Anne in rural Marin County",
+    "date_start": "1956",
+    "date_end": "1956",
+    "date_display": "1956",
+    "date_confidence": "year",
+    "event_type": "residence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Point Reyes Station, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Anne Williams Rubinstein"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1956_jung_early",
+    "summary": "Reads Carl Jung's psychological works for the first time in depth",
+    "date_start": "1956-1958",
+    "date_end": "1956-1958",
+    "date_display": "1956-1958",
+    "date_confidence": "range",
+    "event_type": "philosophical_influence",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Point Reyes Station, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Carl Jung"
+    ]
+  }
+]

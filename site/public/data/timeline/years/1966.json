@@ -1,0 +1,75 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1966_hackett_remarriage",
+    "summary": "Briefly remarries Nancy Hackett before a second and final separation",
+    "date_start": "1966",
+    "date_end": "1966",
+    "date_display": "1966",
+    "date_confidence": "year",
+    "event_type": "marriage",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Nancy Hackett"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1966_san_rafael",
+    "summary": "Moves to the San Rafael area in Marin County north of San Francisco",
+    "date_start": "1966",
+    "date_end": "1966",
+    "date_display": "1966",
+    "date_confidence": "year",
+    "event_type": "residence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Nancy Hackett"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1966_sf_writers",
+    "summary": "Develops friendships with Bay Area SF writers including K. W. Jeter",
+    "date_start": "1966",
+    "date_end": "1966",
+    "date_display": "1966",
+    "date_confidence": "year",
+    "event_type": "friendship",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Bay Area, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "K. W. Jeter"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1966_metaphysics",
+    "summary": "Expands reading in philosophy of time, metaphysics, and ontology",
+    "date_start": "1966-1967",
+    "date_end": "1966-1967",
+    "date_display": "1966-1967",
+    "date_confidence": "range",
+    "event_type": "philosophical_influence",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Henri Bergson",
+      "Martin Heidegger"
+    ]
+  }
+]

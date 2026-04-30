@@ -1,0 +1,76 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1950_divorce_marlin",
+    "summary": "Divorces Jeanette Marlin after a brief and troubled first marriage",
+    "date_start": "1950",
+    "date_end": "1950",
+    "date_display": "1950",
+    "date_confidence": "year",
+    "event_type": "divorce",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Jeanette Marlin"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1950_marriage_kleo",
+    "summary": "Marries Kleo Apostolides in his second marriage in Berkeley",
+    "date_start": "1950",
+    "date_end": "1950",
+    "date_display": "1950",
+    "date_confidence": "year",
+    "event_type": "marriage",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Kleo Apostolides"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1950_kant_reading",
+    "summary": "Reads Kant and Schopenhauer intensively during early writing career",
+    "date_start": "1950-1952",
+    "date_end": "1950-1952",
+    "date_display": "1950-1952",
+    "date_confidence": "range",
+    "event_type": "philosophical_influence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Immanuel Kant",
+      "Arthur Schopenhauer"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1950_sf_correspondence",
+    "summary": "Corresponds with other science-fiction writers through pulp magazine networks",
+    "date_start": "1950-1953",
+    "date_end": "1950-1953",
+    "date_display": "1950-1953",
+    "date_confidence": "range",
+    "event_type": "correspondence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Anthony Boucher",
+      "Fantasy and Science Fiction"
+    ]
+  }
+]

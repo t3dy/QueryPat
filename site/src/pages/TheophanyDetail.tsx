@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import { useData } from '../hooks/useData'
+import ExploreFooter from '../components/ExploreFooter'
 
 interface PkdInterpretation {
   date: string
@@ -270,6 +271,26 @@ export default function TheophanyDetail() {
           )}
         </div>
       </div>
+
+      <ExploreFooter groups={[
+        { section: 'Theophanies', items: [
+          { label: 'All visionary experiences', to: '/theophanies' },
+          ...(data.related_theophany_ids?.slice(0, 3).map(id => {
+            const slug = id.toLowerCase().replace(/^theo_/, '').replace(/_/g, '-')
+            return { label: id.replace(/^THEO_/, '').replace(/_/g, ' ').toLowerCase(), to: `/theophanies/${slug}` }
+          }) || []),
+        ]},
+        { section: 'Where it surfaces', items: [
+          ...(data.related_works || []).slice(0, 3).map(w => ({ label: w, to: '/archive' })),
+          ...(data.related_dictionary_terms || []).slice(0, 3).map(t => ({ label: t, to: `/dictionary/${t}` })),
+        ]},
+        { section: 'Contextual reading', items: [
+          { label: 'The Exegesis landing', to: '/exegesis' },
+          { label: 'Drugs in PKD essay', to: '/essays/drugs-in-pkd' },
+          { label: 'Scholars on PKD', to: '/scholars' },
+          { label: `Timeline ${(data.date_start || '').slice(0, 4) || '1974'}`, to: `/timeline/${(data.date_start || '1974').slice(0, 4)}` },
+        ]},
+      ]} />
 
       <div style={{marginTop:'2rem', paddingTop:'1rem', borderTop:'1px solid var(--border, rgba(0,0,0,0.1))'}}>
         <Link to="/theophanies">&larr; All theophanies</Link>

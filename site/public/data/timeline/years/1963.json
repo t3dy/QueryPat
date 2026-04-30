@@ -1,0 +1,110 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1963_hugo_award",
+    "summary": "Wins the Hugo Award for Best Novel for The Man in the High Castle",
+    "date_start": "1963",
+    "date_end": "1963",
+    "date_display": "1963",
+    "date_confidence": "year",
+    "event_type": "award",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Washington, D.C.",
+    "importance": "5",
+    "notes": null,
+    "entities": [
+      "Hugo Award",
+      "The Man in the High Castle"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1963_divorce_anne",
+    "summary": "Divorces Anne Williams Rubinstein after seven years of marriage",
+    "date_start": "1963",
+    "date_end": "1963",
+    "date_display": "1963",
+    "date_confidence": "year",
+    "event_type": "divorce",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Point Reyes Station, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Anne Williams Rubinstein"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1963_marriage_hackett",
+    "summary": "Marries Nancy Hackett in his fourth marriage in the Bay Area",
+    "date_start": "1963",
+    "date_end": "1963",
+    "date_display": "1963",
+    "date_confidence": "year",
+    "event_type": "marriage",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Oakland, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Nancy Hackett"
+    ]
+  },
+  {
+    "_type": "theophany",
+    "theophany_id": "THEO_1963_PALMER_ELDRITCH_FACE",
+    "name": "The Sky-Face Vision (Palmer Eldritch face in the sky)",
+    "slug": "sky-face-vision-1963",
+    "summary": "Driving in Marin County, PKD reports seeing a vast metal-and-jeweled face in the sky which he later called the face of Palmer Eldritch — sinister, mechanical, divine.",
+    "date_start": "1963",
+    "date_end": "1963",
+    "date_display": "early 1963",
+    "date_confidence": "year",
+    "experience_type": "vision",
+    "importance": "canonical",
+    "contested_status": "disputed",
+    "parent_theophany_id": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1963_patristic",
+    "summary": "Reads early Christian theology and patristic sources including Augustine",
+    "date_start": "1963-1964",
+    "date_end": "1963-1964",
+    "date_display": "1963-1964",
+    "date_confidence": "range",
+    "event_type": "reading",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Oakland, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Augustine",
+      "Origen"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1963_counterculture",
+    "summary": "Engages with Bay Area counterculture intellectual scene in the mid-nineteen-sixties",
+    "date_start": "1963-1965",
+    "date_end": "1963-1965",
+    "date_display": "1963-1965",
+    "date_confidence": "range",
+    "event_type": "friendship",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Bay Area, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Ray Nelson",
+      "Jack Spicer"
+    ]
+  }
+]

@@ -7,6 +7,7 @@ export default function Layout() {
       <nav className="app-nav">
         <span className="nav-brand">PKD Portal</span>
         <NavLink to="/" end>Dashboard</NavLink>
+        <NavLink to="/browse">Browse</NavLink>
         <NavLink to="/biography">Biography</NavLink>
         <NavLink to="/timeline">Timeline</NavLink>
         <NavLink to="/exegesis">Exegesis</NavLink>

@@ -1,0 +1,38 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1929_incubator",
+    "summary": "Placed in premature infant incubator after near-fatal malnutrition",
+    "date_start": "1929-01",
+    "date_end": "1929-01",
+    "date_display": "1929-01",
+    "date_confidence": "month",
+    "event_type": "health",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Chicago, Illinois",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Julian Hess"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1929_jane_death",
+    "summary": "Twin sister Jane Dick dies during infancy from malnutrition at six weeks old",
+    "date_start": "1929-01",
+    "date_end": "1929-01",
+    "date_display": "1929-01",
+    "date_confidence": "month",
+    "event_type": "family",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Chicago, Illinois",
+    "importance": "5",
+    "notes": null,
+    "entities": [
+      "Jane Dick"
+    ]
+  }
+]

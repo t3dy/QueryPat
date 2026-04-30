@@ -1,12 +1,35 @@
 [
   {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1962_high_castle",
+    "summary": "Publishes The Man in the High Castle through Putnam as hardcover edition",
+    "date_start": "1962",
+    "date_end": "1962",
+    "date_display": "1962",
+    "date_confidence": "year",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Point Reyes Station, California",
+    "importance": "5",
+    "notes": null,
+    "entities": [
+      "The Man in the High Castle",
+      "Putnam"
+    ]
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 50,
     "summary": "1962: Witnessed a \"band of darkness\" crossing the sky with daughter Laura.",
     "date_start": "1962",
-    "date_end": null,
-    "event_type": "relationship",
-    "source_name": null,
+    "date_end": "1962",
+    "date_display": "1962",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "relationship",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "Point Reyes Station, California",
+    "importance": null
   }
 ]

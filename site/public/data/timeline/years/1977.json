@@ -1,0 +1,69 @@
+[
+  {
+    "_type": "theophany",
+    "theophany_id": "THEO_1974_BLACK_IRON_PRISON",
+    "name": "The Black Iron Prison Vision",
+    "slug": "black-iron-prison-1974",
+    "summary": "PKD reports a recurring vision in which 1974 California is overlaid by 70 AD Rome — a vast iron prison housing the early Christians under imperial persecution. The vision continued at intervals through 1981.",
+    "date_start": "1974",
+    "date_end": "1981",
+    "date_display": "1974 onwards (recurring)",
+    "date_confidence": "year",
+    "experience_type": "vision",
+    "importance": "canonical",
+    "contested_status": "interpretive",
+    "parent_theophany_id": "THEO_1974_2_3_74_CLUSTER"
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1977_scanner_darkly",
+    "summary": "Publishes A Scanner Darkly drawing on his drug culture experiences",
+    "date_start": "1977",
+    "date_end": "1977",
+    "date_display": "1977",
+    "date_confidence": "year",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "A Scanner Darkly",
+      "Doubleday"
+    ]
+  },
+  {
+    "_type": "theophany",
+    "theophany_id": "THEO_1977_METZ_2_3_75",
+    "name": "Second 2-3-74 (Metz, 1977)",
+    "slug": "metz-1977",
+    "summary": "Around the time of his Metz, France speech in September 1977, PKD reports a partial recurrence of the 2-3-74 phenomenology — pink-light states, AI Voice activity, and the Black Iron Prison overlay returning at intervals.",
+    "date_start": "1977-09",
+    "date_end": "1977-09",
+    "date_display": "September 1977",
+    "date_confidence": "month",
+    "experience_type": "vision",
+    "importance": "major",
+    "contested_status": "disputed",
+    "parent_theophany_id": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1977_valis_theology",
+    "summary": "Develops VALIS theology as systematic framework in the Exegesis notebooks",
+    "date_start": "1977-1979",
+    "date_end": "1977-1979",
+    "date_display": "1977-1979",
+    "date_confidence": "range",
+    "event_type": "religious_thought",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "VALIS"
+    ]
+  }
+]

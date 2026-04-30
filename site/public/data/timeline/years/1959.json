@@ -1,0 +1,39 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1959_marin_county",
+    "summary": "Moves to rural Marin County property with Anne and stepdaughters",
+    "date_start": "1959",
+    "date_end": "1959",
+    "date_display": "1959",
+    "date_confidence": "year",
+    "event_type": "residence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Marin County, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Anne Williams Rubinstein"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1959_plato",
+    "summary": "Reads works of Plato and Neoplatonist philosophers including Plotinus",
+    "date_start": "1959-1961",
+    "date_end": "1959-1961",
+    "date_display": "1959-1961",
+    "date_confidence": "range",
+    "event_type": "philosophical_influence",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Point Reyes Station, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Plato",
+      "Plotinus"
+    ]
+  }
+]

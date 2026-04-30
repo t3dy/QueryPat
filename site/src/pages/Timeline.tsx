@@ -7,6 +7,8 @@ interface TimelineIndex {
   year: string
   count: number
   bio_events?: number
+  theophanies?: number
+  total?: number
 }
 
 interface Segment {
@@ -33,10 +35,30 @@ interface BioEvent {
   _type: 'biography_event'
 }
 
-type TimelineEntry = Segment | BioEvent
+interface TheophanyEntry {
+  theophany_id: string
+  name: string
+  slug: string
+  summary: string
+  date_start: string
+  date_end: string
+  date_display: string
+  date_confidence: string
+  experience_type: string
+  importance: string
+  contested_status: string
+  parent_theophany_id: string | null
+  _type: 'theophany'
+}
+
+type TimelineEntry = Segment | BioEvent | TheophanyEntry
 
 function isBioEvent(entry: TimelineEntry): entry is BioEvent {
   return '_type' in entry && (entry as BioEvent)._type === 'biography_event'
+}
+
+function isTheophany(entry: TimelineEntry): entry is TheophanyEntry {
+  return '_type' in entry && (entry as TheophanyEntry)._type === 'theophany'
 }
 
 export default function Timeline() {
@@ -58,6 +80,11 @@ export default function Timeline() {
           (entry.event_type || '').toLowerCase().includes(q) ||
           (entry.location || '').toLowerCase().includes(q)
       }
+      if (isTheophany(entry)) {
+        return (entry.summary || '').toLowerCase().includes(q) ||
+          (entry.name || '').toLowerCase().includes(q) ||
+          (entry.experience_type || '').toLowerCase().includes(q)
+      }
       const s = entry as Segment
       return (s.concise_summary || '').toLowerCase().includes(q) ||
         (s.title || '').toLowerCase().includes(q) ||
@@ -69,8 +96,8 @@ export default function Timeline() {
   return (
     <>
       <div className="page-header">
-        <h1>Exegesis Timeline</h1>
-        <p>Browse Philip K. Dick's <em>Exegesis</em> writings in chronological order</p>
+        <h1>Timeline</h1>
+        <p>Philip K. Dick's life (1928&ndash;1982) &mdash; biography events, <em>Exegesis</em> writings, and visionary experiences arrayed by year</p>
       </div>
 
       <div className="sidebar-layout">
@@ -106,6 +133,21 @@ export default function Timeline() {
                 {filtered.length} entr{filtered.length !== 1 ? 'ies' : 'y'} in {selectedYear}
               </p>
               {filtered.map((entry, i) => {
+                if (isTheophany(entry)) {
+                  return (
+                    <div key={`theo-${entry.theophany_id}-${i}`} className="card" style={{marginBottom:'0.75rem', borderLeft:'3px solid #9B6B9B', background:'rgba(155, 107, 155, 0.05)'}}>
+                      <div className="card-meta">
+                        <span>{entry.date_display}</span>
+                        <span className="badge badge-category" style={{background:'#9B6B9B', color:'#fff'}}>theophany &middot; {entry.experience_type}</span>
+                        {entry.importance === 'canonical' && <span style={{fontSize:'0.7rem', padding:'0.1rem 0.35rem', background:'var(--accent)', color:'#fff', borderRadius:'3px'}}>canonical</span>}
+                      </div>
+                      <h3 style={{margin:'0.5rem 0 0.25rem'}}>
+                        <Link to={`/theophanies/${entry.slug}`}>{entry.name}</Link>
+                      </h3>
+                      <p style={{marginTop:'0.25rem'}}>{entry.summary}</p>
+                    </div>
+                  )
+                }
                 if (isBioEvent(entry)) {
                   return (
                     <div key={`bio-${entry.bio_id || i}`} className="card" style={{marginBottom:'0.75rem', borderLeft:'3px solid var(--accent)'}}>

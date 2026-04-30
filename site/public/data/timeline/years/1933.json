@@ -1,0 +1,39 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1933_parent_divorce",
+    "summary": "Divorce of parents Dorothy and Edgar Dick finalized in Washington",
+    "date_start": "1933",
+    "date_end": "1933",
+    "date_display": "1933",
+    "date_confidence": "year",
+    "event_type": "family",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Washington, D.C.",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Dorothy Dick",
+      "Edgar Dick"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1933_move_dc",
+    "summary": "Moves with mother Dorothy to Washington, D.C. during early childhood",
+    "date_start": "1933-1934",
+    "date_end": "1933-1934",
+    "date_display": "1933-1934",
+    "date_confidence": "range",
+    "event_type": "residence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Washington, D.C.",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Dorothy Dick"
+    ]
+  }
+]

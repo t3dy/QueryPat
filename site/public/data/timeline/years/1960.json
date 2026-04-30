@@ -1,0 +1,40 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1960_daughter_laura",
+    "summary": "Daughter Laura Archer Dick born to Philip and Anne in Marin County",
+    "date_start": "1960",
+    "date_end": "1960",
+    "date_display": "1960",
+    "date_confidence": "year",
+    "event_type": "family",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Marin County, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Laura Archer Dick",
+      "Anne Williams Rubinstein"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1960_taoism",
+    "summary": "Reads Taoist texts including the Tao Te Ching and Chuang Tzu",
+    "date_start": "1960-1962",
+    "date_end": "1960-1962",
+    "date_display": "1960-1962",
+    "date_confidence": "range",
+    "event_type": "reading",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Point Reyes Station, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Tao Te Ching",
+      "Chuang Tzu"
+    ]
+  }
+]

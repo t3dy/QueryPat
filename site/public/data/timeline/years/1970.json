@@ -1,52 +1,127 @@
 [
   {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1970_separation_hackett",
+    "summary": "Separates from Nancy Hackett after escalating marital problems in San Rafael",
+    "date_start": "1970",
+    "date_end": "1970",
+    "date_display": "1970",
+    "date_confidence": "year",
+    "event_type": "divorce",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Nancy Hackett"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1970_early_christianity",
+    "summary": "Begins intense study of early Christianity and its origins in antiquity",
+    "date_start": "1970",
+    "date_end": "1970",
+    "date_display": "1970",
+    "date_confidence": "year",
+    "event_type": "reading",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Acts of the Apostles",
+      "Early Church Fathers"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1970_separation_nancy",
+    "summary": "Separates from Nancy Hackett amid escalating marital conflict in San Rafael",
+    "date_start": "1970",
+    "date_end": "1970",
+    "date_display": "1970",
+    "date_confidence": "year",
+    "event_type": "divorce",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Nancy Hackett"
+    ]
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 168,
     "summary": "1970: Dream of the \"Wise Old King\" on horseback (The Judge).",
     "date_start": "1970",
-    "date_end": null,
-    "event_type": "vision",
-    "source_name": null,
+    "date_end": "1970",
+    "date_display": "1970",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "vision",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 207,
     "summary": "1970-1974: The \"Long Dark Night\" characterized by intense fear and separation from God.",
     "date_start": "1970",
-    "date_end": null,
-    "event_type": "divorce",
-    "source_name": null,
+    "date_end": "1970",
+    "date_display": "1970",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "divorce",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 222,
     "summary": "1970's: Childhood memory of playing inside wooden cartons as a metaphor for the Kingdom's safety.",
     "date_start": "1970",
-    "date_end": null,
-    "event_type": "relationship",
-    "source_name": null,
+    "date_end": "1970",
+    "date_display": "1970",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "relationship",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 230,
     "summary": "1970: Mental collapse triggered by Nancy leaving/McCartney record.",
     "date_start": "1970",
-    "date_end": null,
-    "event_type": "relationship",
-    "source_name": null,
+    "date_end": "1970",
+    "date_display": "1970",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "relationship",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 515,
     "summary": "Seeing his own 1970 novel chapter occur in 1978 (All-night gas station).",
     "date_start": "1970",
-    "date_end": null,
-    "event_type": "publication",
-    "source_name": null,
+    "date_end": "1970",
+    "date_display": "1970",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "publication",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
   }
 ]

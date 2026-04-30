@@ -1,0 +1,71 @@
+[
+  {
+    "_type": "theophany",
+    "theophany_id": "THEO_1974_BLACK_IRON_PRISON",
+    "name": "The Black Iron Prison Vision",
+    "slug": "black-iron-prison-1974",
+    "summary": "PKD reports a recurring vision in which 1974 California is overlaid by 70 AD Rome — a vast iron prison housing the early Christians under imperial persecution. The vision continued at intervals through 1981.",
+    "date_start": "1974",
+    "date_end": "1981",
+    "date_display": "1974 onwards (recurring)",
+    "date_confidence": "year",
+    "experience_type": "vision",
+    "importance": "canonical",
+    "contested_status": "interpretive",
+    "parent_theophany_id": "THEO_1974_2_3_74_CLUSTER"
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1979_orange_county",
+    "summary": "Moves to a new apartment in Orange County during his later writing period",
+    "date_start": "1979",
+    "date_end": "1979",
+    "date_display": "1979",
+    "date_confidence": "year",
+    "event_type": "residence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Santa Ana, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Tessa Dick"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1979_lectures",
+    "summary": "Delivers public lectures discussing mystical experiences and theological ideas",
+    "date_start": "1979",
+    "date_end": "1979",
+    "date_display": "1979",
+    "date_confidence": "year",
+    "event_type": "lecture",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Metz Science Fiction Convention"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1979_fan_correspondence",
+    "summary": "Maintains extensive correspondence with fans about metaphysics and religion",
+    "date_start": "1979-1981",
+    "date_end": "1979-1981",
+    "date_display": "1979-1981",
+    "date_confidence": "range",
+    "event_type": "correspondence",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Paul Williams"
+    ]
+  }
+]

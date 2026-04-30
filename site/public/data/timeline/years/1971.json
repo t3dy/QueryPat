@@ -1,42 +1,148 @@
 [
   {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1971_burglary",
+    "summary": "Home in San Rafael burglarized under mysterious and never-resolved circumstances",
+    "date_start": "1971",
+    "date_end": "1971",
+    "date_display": "1971",
+    "date_confidence": "year",
+    "event_type": "crime",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "FBI",
+      "San Rafael Police Department"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1971_hospitalization",
+    "summary": "Hospitalized for psychiatric evaluation related to paranoia and depression",
+    "date_start": "1971",
+    "date_end": "1971",
+    "date_display": "1971",
+    "date_confidence": "year",
+    "event_type": "health",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Marin General Hospital"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1971_surveillance_paranoia",
+    "summary": "Develops paranoid theories about government surveillance of his household",
+    "date_start": "1971",
+    "date_end": "1971",
+    "date_display": "1971",
+    "date_confidence": "year",
+    "event_type": "health",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "FBI",
+      "CIA"
+    ]
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 107,
     "summary": "1971: 8-hour waking dream of \"Mexico\" (Fullerton/Future).",
     "date_start": "1971",
-    "date_end": null,
-    "event_type": "vision",
-    "source_name": null,
+    "date_end": "1971",
+    "date_display": "1971",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "vision",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 285,
     "summary": "1971: The break-in at his Santa Venetia home (implied by \"broken into\").",
     "date_start": "1971",
-    "date_end": null,
-    "event_type": "legal",
-    "source_name": null,
+    "date_end": "1971",
+    "date_display": "1971",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "legal",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 290,
     "summary": "1971-1974 (The \"Thralldom\" and threat of 15 years in prison).",
     "date_start": "1971",
-    "date_end": null,
-    "event_type": "relationship",
-    "source_name": null,
+    "date_end": "1971",
+    "date_display": "1971",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "relationship",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 311,
     "summary": "The \"Masks Off\" dream in Vancouver (1971).",
     "date_start": "1971",
-    "date_end": null,
-    "event_type": "vision",
-    "source_name": null,
+    "date_end": "1971",
+    "date_display": "1971",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "vision",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
+  },
+  {
+    "_type": "theophany",
+    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
+    "name": "Pre-Break-In Foreknowledge (November 1971)",
+    "slug": "pre-break-in-foreknowledge-1971",
+    "summary": "In the days before his Santa Venetia house was broken into, PKD reports a series of premonitions and intrusive thoughts that he later interpreted as foreknowledge of the event.",
+    "date_start": "1971-11",
+    "date_end": "1971-11",
+    "date_display": "November 1971 (days before the break-in)",
+    "date_confidence": "month",
+    "experience_type": "vision",
+    "importance": "major",
+    "contested_status": "disputed",
+    "parent_theophany_id": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1971_gnostic_reading",
+    "summary": "Reads Gnostic texts and Nag Hammadi library materials in translation",
+    "date_start": "1971-1972",
+    "date_end": "1971-1972",
+    "date_display": "1971-1972",
+    "date_confidence": "range",
+    "event_type": "reading",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Gnosticism",
+      "Nag Hammadi library"
+    ]
   }
 ]

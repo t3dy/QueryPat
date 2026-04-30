@@ -1,0 +1,38 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1946_platonism",
+    "summary": "Gains first exposure to Platonism and classical Greek philosophy",
+    "date_start": "1946",
+    "date_end": "1946",
+    "date_display": "1946",
+    "date_confidence": "year",
+    "event_type": "philosophical_influence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Plato"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1946_ucb_lectures",
+    "summary": "Attends lectures at UC Berkeley informally after leaving enrollment",
+    "date_start": "1946-1947",
+    "date_end": "1946-1947",
+    "date_display": "1946-1947",
+    "date_confidence": "range",
+    "event_type": "education",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "UC Berkeley"
+    ]
+  }
+]

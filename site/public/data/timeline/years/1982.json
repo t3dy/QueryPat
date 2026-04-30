@@ -1,0 +1,38 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1982_stroke",
+    "summary": "Suffers a major stroke at home leading to hospitalization in Santa Ana",
+    "date_start": "1982-02",
+    "date_end": "1982-02",
+    "date_display": "1982-02",
+    "date_confidence": "month",
+    "event_type": "health",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Santa Ana, California",
+    "importance": "5",
+    "notes": null,
+    "entities": [
+      "St. Joseph Hospital"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1982_death",
+    "summary": "Philip K. Dick dies at age fifty-three following a series of strokes",
+    "date_start": "1982-03-02",
+    "date_end": "1982-03-02",
+    "date_display": "1982-03-02",
+    "date_confidence": "day",
+    "event_type": "death",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Santa Ana, California",
+    "importance": "5",
+    "notes": null,
+    "entities": [
+      "St. Joseph Hospital"
+    ]
+  }
+]

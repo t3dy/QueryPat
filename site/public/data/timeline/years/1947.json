@@ -1,0 +1,57 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1947_ucb",
+    "summary": "Enrolls briefly at the University of California Berkeley before dropping out",
+    "date_start": "1947",
+    "date_end": "1947",
+    "date_display": "1947",
+    "date_confidence": "year",
+    "event_type": "education",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": "Leaves without completing degree",
+    "entities": [
+      "UC Berkeley"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1947_radio_shop",
+    "summary": "Begins working at University Radio Shop record store in Berkeley",
+    "date_start": "1947",
+    "date_end": "1947",
+    "date_display": "1947",
+    "date_confidence": "year",
+    "event_type": "employment",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "University Radio Shop"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1947_music_reading",
+    "summary": "Undertakes deep reading in classical music theory and opera history",
+    "date_start": "1947-1948",
+    "date_end": "1947-1948",
+    "date_display": "1947-1948",
+    "date_confidence": "range",
+    "event_type": "reading",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Ludwig van Beethoven",
+      "Richard Wagner"
+    ]
+  }
+]

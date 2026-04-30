@@ -1,22 +1,67 @@
 [
   {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1969_ubik",
+    "summary": "Publishes the novel Ubik exploring themes of entropy and false realities",
+    "date_start": "1969",
+    "date_end": "1969",
+    "date_display": "1969",
+    "date_confidence": "year",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Ubik",
+      "Doubleday"
+    ]
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 412,
     "summary": "Refusing to pay war taxes (1969) as the \"first balking.\"",
     "date_start": "1969",
-    "date_end": null,
-    "event_type": "legal",
-    "source_name": null,
+    "date_end": "1969",
+    "date_display": "1969",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "legal",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
   },
   {
+    "_type": "biography_event",
     "bio_id": 415,
     "summary": "The 1969 refusal of the war as the \"initial choice.\"",
     "date_start": "1969",
-    "date_end": null,
-    "event_type": "other",
-    "source_name": null,
+    "date_end": "1969",
+    "date_display": "1969",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "other",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1969_powers_theology",
+    "summary": "Discusses theology and mysticism with Tim Powers and other young writers",
+    "date_start": "1969-1971",
+    "date_end": "1969-1971",
+    "date_display": "1969-1971",
+    "date_confidence": "range",
+    "event_type": "friendship",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Bay Area, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Tim Powers"
+    ]
   }
 ]

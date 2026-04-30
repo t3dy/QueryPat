@@ -1,12 +1,71 @@
 [
   {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1958_mainstream_novels",
+    "summary": "Writes several mainstream realist novels that remain unpublished during his lifetime",
+    "date_start": "1958",
+    "date_end": "1958",
+    "date_display": "1958",
+    "date_confidence": "year",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Point Reyes Station, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Confessions of a Crap Artist",
+      "The Man Whose Teeth Were All Exactly Alike"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1958_breakdown",
+    "summary": "Experiences nervous breakdown and psychological crisis in Point Reyes Station",
+    "date_start": "1958",
+    "date_end": "1958",
+    "date_display": "1958",
+    "date_confidence": "year",
+    "event_type": "health",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Point Reyes Station, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Anne Williams Rubinstein"
+    ]
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 202,
     "summary": "1958/59: Conversations with \"Connie Wheeler\" about teleportation and SEBs.",
     "date_start": "1958",
-    "date_end": null,
-    "event_type": "other",
-    "source_name": null,
+    "date_end": "1958",
+    "date_display": "1958",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "other",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "Berkeley, California",
+    "importance": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1958_gnosticism",
+    "summary": "Develops growing interest in Gnostic religious thought and ancient heresies",
+    "date_start": "1958-1960",
+    "date_end": "1958-1960",
+    "date_display": "1958-1960",
+    "date_confidence": "range",
+    "event_type": "philosophical_influence",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Point Reyes Station, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Gnosticism"
+    ]
   }
 ]

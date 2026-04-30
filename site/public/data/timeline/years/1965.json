@@ -1,0 +1,56 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1965_divorce_hackett",
+    "summary": "Divorces Nancy Hackett after a short and difficult fourth marriage",
+    "date_start": "1965",
+    "date_end": "1965",
+    "date_display": "1965",
+    "date_confidence": "year",
+    "event_type": "divorce",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Oakland, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Nancy Hackett"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1965_teilhard",
+    "summary": "Reads works of Teilhard de Chardin on evolution and theology",
+    "date_start": "1965",
+    "date_end": "1965",
+    "date_display": "1965",
+    "date_confidence": "year",
+    "event_type": "philosophical_influence",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Oakland, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Teilhard de Chardin"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1965_tillich",
+    "summary": "Reads existential theology of Paul Tillich and systematic theology texts",
+    "date_start": "1965-1966",
+    "date_end": "1965-1966",
+    "date_display": "1965-1966",
+    "date_confidence": "range",
+    "event_type": "philosophical_influence",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Oakland, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Paul Tillich"
+    ]
+  }
+]

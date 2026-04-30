@@ -1,12 +1,53 @@
 [
   {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1968_androids",
+    "summary": "Publishes Do Androids Dream of Electric Sheep through Doubleday",
+    "date_start": "1968",
+    "date_end": "1968",
+    "date_display": "1968",
+    "date_confidence": "year",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "5",
+    "notes": null,
+    "entities": [
+      "Do Androids Dream of Electric Sheep?",
+      "Doubleday"
+    ]
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 109,
     "summary": "Hearing \"And she shall see the sea\" (c. 1968/9).",
     "date_start": "1968",
-    "date_end": null,
-    "event_type": "other",
-    "source_name": null,
+    "date_end": "1968",
+    "date_display": "1968",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "other",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1968_eastern_religion",
+    "summary": "Reads Eastern religious texts including the Bhagavad Gita and Buddhist writings",
+    "date_start": "1968-1970",
+    "date_end": "1968-1970",
+    "date_display": "1968-1970",
+    "date_confidence": "range",
+    "event_type": "reading",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Bhagavad Gita"
+    ]
   }
 ]

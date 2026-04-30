@@ -1,0 +1,76 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1954_ace_acceptance",
+    "summary": "First novel accepted for publication by Ace Books as paperback original",
+    "date_start": "1954",
+    "date_end": "1954",
+    "date_display": "1954",
+    "date_confidence": "year",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Ace Books"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1954_french_realism",
+    "summary": "Reads Stendhal, Flaubert, and Maupassant intensively as literary models",
+    "date_start": "1954-1956",
+    "date_end": "1954-1956",
+    "date_display": "1954-1956",
+    "date_confidence": "range",
+    "event_type": "reading",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Stendhal",
+      "Gustave Flaubert",
+      "Guy de Maupassant"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1954_mainstream_attempts",
+    "summary": "Attempts to break into mainstream literary fiction market with realist novels",
+    "date_start": "1954-1957",
+    "date_end": "1954-1957",
+    "date_display": "1954-1957",
+    "date_confidence": "range",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Scott Meredith Literary Agency"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1954_mainstream_fiction",
+    "summary": "Writes several mainstream realist novels that publishers consistently reject",
+    "date_start": "1954-1957",
+    "date_end": "1954-1957",
+    "date_display": "1954-1957",
+    "date_confidence": "range",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Confessions of a Crap Artist"
+    ]
+  }
+]

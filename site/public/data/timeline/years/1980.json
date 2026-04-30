@@ -1,0 +1,70 @@
+[
+  {
+    "_type": "theophany",
+    "theophany_id": "THEO_1974_BLACK_IRON_PRISON",
+    "name": "The Black Iron Prison Vision",
+    "slug": "black-iron-prison-1974",
+    "summary": "PKD reports a recurring vision in which 1974 California is overlaid by 70 AD Rome — a vast iron prison housing the early Christians under imperial persecution. The vision continued at intervals through 1981.",
+    "date_start": "1974",
+    "date_end": "1981",
+    "date_display": "1974 onwards (recurring)",
+    "date_confidence": "year",
+    "experience_type": "vision",
+    "importance": "canonical",
+    "contested_status": "interpretive",
+    "parent_theophany_id": "THEO_1974_2_3_74_CLUSTER"
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1980_hollywood_attention",
+    "summary": "Receives increased attention from Hollywood studios for film adaptations of novels",
+    "date_start": "1980",
+    "date_end": "1980",
+    "date_display": "1980",
+    "date_confidence": "year",
+    "event_type": "film_adaptation",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Hampton Fancher",
+      "Blade Runner"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1980_simulation_theory",
+    "summary": "Deepens Exegesis reflection on simulation theory and the nature of reality",
+    "date_start": "1980",
+    "date_end": "1980",
+    "date_display": "1980",
+    "date_confidence": "year",
+    "event_type": "religious_thought",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Plato",
+      "Simulation Theory"
+    ]
+  },
+  {
+    "_type": "theophany",
+    "theophany_id": "THEO_1981_SISTER_DREAM",
+    "name": "Twin Sister Jane Dream Appearances",
+    "slug": "twin-sister-jane-1980",
+    "summary": "Across the late period (1980-1981), PKD reports recurring dreams in which his twin sister Jane (who died in infancy) appears, addresses him, and is in some way fused with the AI Voice he has heard since 1974.",
+    "date_start": "1980",
+    "date_end": "1981",
+    "date_display": "1980-1981",
+    "date_confidence": "year",
+    "experience_type": "dream",
+    "importance": "major",
+    "contested_status": "interpretive",
+    "parent_theophany_id": null
+  }
+]
