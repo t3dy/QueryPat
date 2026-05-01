@@ -9,14 +9,17 @@ interface Bookmark {
 }
 
 const TYPE_LABELS: Record<string, string> = {
+  theophany: 'Theophanies',
+  essay: 'Essays',
   term: 'Dictionary Terms',
+  scholar: 'Scholars',
   segment: 'Exegesis Summaries',
   name: 'Names',
   archive: 'Archive Documents',
   biography: 'Biography Events',
 }
 
-const TYPE_ORDER = ['term', 'segment', 'name', 'archive', 'biography']
+const TYPE_ORDER = ['theophany', 'essay', 'term', 'scholar', 'segment', 'name', 'archive', 'biography']
 
 function getLink(b: Bookmark): string {
   switch (b.entityType) {
@@ -25,6 +28,9 @@ function getLink(b: Bookmark): string {
     case 'name': return `/names/${b.entityId}`
     case 'archive': return `/archive/${b.entityId}`
     case 'biography': return `/biography`
+    case 'theophany': return `/theophanies/${b.entityId}`
+    case 'essay': return `/essays/${b.entityId}`
+    case 'scholar': return `/scholars#${b.entityId}`
     default: return '/'
   }
 }

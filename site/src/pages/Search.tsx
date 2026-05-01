@@ -5,7 +5,7 @@ import Fuse from 'fuse.js'
 import { formatSegmentTitle } from '../utils/formatTitle'
 
 interface SearchEntry {
-  type: 'segment' | 'term' | 'archive' | 'name' | 'biography'
+  type: 'segment' | 'term' | 'archive' | 'name' | 'biography' | 'theophany' | 'essay' | 'scholar'
   id: string
   slug: string
   title: string
@@ -21,10 +21,16 @@ const TYPE_LABELS: Record<string, string> = {
   archive: 'Archive Document',
   name: 'Name',
   biography: 'Biography Event',
+  theophany: 'Theophany',
+  essay: 'Essay',
+  scholar: 'Scholar',
 }
 
 const GROUP_ORDER: { type: string; label: string }[] = [
+  { type: 'theophany', label: 'Theophanies' },
+  { type: 'essay', label: 'Essays' },
   { type: 'term', label: 'Dictionary' },
+  { type: 'scholar', label: 'Scholars' },
   { type: 'biography', label: 'Biography' },
   { type: 'segment', label: 'Exegesis Summaries' },
   { type: 'name', label: 'Names' },
@@ -38,6 +44,9 @@ function getLink(entry: SearchEntry): string {
     case 'archive': return `/archive/${entry.slug}`
     case 'name': return `/names/${entry.slug}`
     case 'biography': return `/biography`
+    case 'theophany': return `/theophanies/${entry.slug}`
+    case 'essay': return `/essays/${entry.slug}`
+    case 'scholar': return `/scholars#${entry.id}`
     default: return '/'
   }
 }

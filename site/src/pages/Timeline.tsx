@@ -32,6 +32,8 @@ interface BioEvent {
   source_name: string
   date_confidence: string | null
   location: string | null
+  theophany_id?: string | null
+  theophany_slug?: string | null
   _type: 'biography_event'
 }
 
@@ -149,12 +151,25 @@ export default function Timeline() {
                   )
                 }
                 if (isBioEvent(entry)) {
+                  const theoSlug = entry.theophany_slug || (entry.theophany_id
+                    ? entry.theophany_id.replace(/^THEO_/, '').toLowerCase().replace(/_/g, '-')
+                    : null)
                   return (
                     <div key={`bio-${entry.bio_id || i}`} className="card" style={{marginBottom:'0.75rem', borderLeft:'3px solid var(--accent)'}}>
                       <div className="card-meta">
                         <span>{entry.date_start}</span>
                         <span className="badge badge-category">{entry.event_type || 'biography'}</span>
                         {entry.source_name && <span style={{opacity:0.6}}>{entry.source_name}</span>}
+                        {entry.theophany_id && theoSlug && (
+                          <Link to={`/theophanies/${theoSlug}`} style={{
+                            background:'#9B6B9B', color:'#fff',
+                            padding:'0.1rem 0.4rem', fontSize:'0.7rem',
+                            borderRadius:'3px', textDecoration:'none',
+                            textTransform:'uppercase', letterSpacing:'0.03em',
+                          }}>
+                            ← vision
+                          </Link>
+                        )}
                       </div>
                       <p style={{marginTop:'0.5rem'}}>{entry.summary}</p>
                       {entry.location && (

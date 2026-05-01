@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import { useData } from '../hooks/useData'
 import ExploreFooter from '../components/ExploreFooter'
+import BookmarkButton from '../components/BookmarkButton'
 
 interface PkdInterpretation {
   date: string
@@ -121,7 +122,10 @@ export default function TheophanyDetail() {
   return (
     <article>
       <div className="hero-header" style={{paddingBottom:'1rem'}}>
-        <h1>{data.name}</h1>
+        <div style={{display:'flex', alignItems:'flex-start', justifyContent:'space-between', gap:'1rem'}}>
+          <h1 style={{margin:0}}>{data.name}</h1>
+          <BookmarkButton entityType="theophany" entityId={data.slug} title={data.name} />
+        </div>
         <p className="hero-subtitle" style={{margin:'0.5rem 0 0'}}>
           {data.summary}
         </p>

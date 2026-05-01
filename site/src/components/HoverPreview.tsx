@@ -34,16 +34,44 @@ function parseRoute(to: string): { dataPath: string; type: string } | null {
   const s = to.match(/^\/segments\/(.+)$/)
   if (s) return { dataPath: `segments/${s[1]}.json`, type: 'Exegesis Summary' }
 
+  const t = to.match(/^\/theophanies\/(.+)$/)
+  if (t) return { dataPath: `theophanies/${t[1]}.json`, type: 'Theophany' }
+
+  // Essays — the body lives in markdown not JSON, but the index has metadata
+  const e = to.match(/^\/essays\/(.+)$/)
+  if (e) return { dataPath: 'essays/index.json', type: 'Essay' }
+
   return null
 }
 
-function extractPreview(data: Record<string, unknown>, type: string): PreviewData {
-  const title = (data.canonical_name || data.canonical_form || data.title || '') as string
+function extractPreview(data: Record<string, unknown>, type: string, to?: string): PreviewData {
+  // Essays: data is essays/index.json — find the entry matching the slug from `to`
+  if (type === 'Essay' && to) {
+    const slug = to.replace(/^\/essays\//, '')
+    const list = (data as { essays?: Array<{ slug: string; title: string; subtitle: string }> }).essays || []
+    const match = list.find(e => e.slug === slug)
+    if (match) {
+      let desc = match.subtitle || ''
+      if (desc.length > 180) desc = desc.slice(0, 180) + '...'
+      return { title: match.title, type, description: desc }
+    }
+  }
+
+  // Theophanies: data has `name` and `summary`
+  if (type === 'Theophany') {
+    const title = (data.name || data.title || '') as string
+    let desc = (data.summary || data.description || '') as string
+    if (desc.length > 180) desc = desc.slice(0, 180) + '...'
+    return { title, type, description: desc }
+  }
+
+  const title = (data.canonical_name || data.canonical_form || data.title || data.name || '') as string
   let description = ''
   if (data.card_description) description = data.card_description as string
   else if (data.definition) description = data.definition as string
   else if (data.concise_summary) description = data.concise_summary as string
   else if (data.card_summary) description = data.card_summary as string
+  else if (data.summary) description = data.summary as string
 
   if (description.length > 180) description = description.slice(0, 180) + '...'
 
@@ -78,7 +106,7 @@ export default function HoverPreview({ to, children, className, style, title: ti
         .then(r => { if (r.ok) return r.json(); return null })
         .then(data => {
           if (!data) { previewCache.set(to, null); return }
-          const p = extractPreview(data, route.type)
+          const p = extractPreview(data, route.type, to)
           previewCache.set(to, p)
           setPreview(p)
         })

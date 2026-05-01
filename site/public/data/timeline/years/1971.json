@@ -16,7 +16,9 @@
     "entities": [
       "FBI",
       "San Rafael Police Department"
-    ]
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
   },
   {
     "_type": "biography_event",
@@ -34,7 +36,9 @@
     "notes": null,
     "entities": [
       "Marin General Hospital"
-    ]
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
   },
   {
     "_type": "biography_event",
@@ -53,7 +57,9 @@
     "entities": [
       "FBI",
       "CIA"
-    ]
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
   },
   {
     "_type": "biography_event",
@@ -67,7 +73,9 @@
     "source_name": "auto-extracted",
     "source_type": "exegesis",
     "location": "San Rafael, California",
-    "importance": null
+    "importance": null,
+    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
+    "theophany_slug": "pre-break-in-foreknowledge-1971"
   },
   {
     "_type": "biography_event",
@@ -81,7 +89,9 @@
     "source_name": "auto-extracted",
     "source_type": "exegesis",
     "location": "San Rafael, California",
-    "importance": null
+    "importance": null,
+    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
+    "theophany_slug": "pre-break-in-foreknowledge-1971"
   },
   {
     "_type": "biography_event",
@@ -95,7 +105,9 @@
     "source_name": "auto-extracted",
     "source_type": "exegesis",
     "location": "San Rafael, California",
-    "importance": null
+    "importance": null,
+    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
+    "theophany_slug": "pre-break-in-foreknowledge-1971"
   },
   {
     "_type": "biography_event",
@@ -109,7 +121,9 @@
     "source_name": "auto-extracted",
     "source_type": "exegesis",
     "location": "San Rafael, California",
-    "importance": null
+    "importance": null,
+    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
+    "theophany_slug": "pre-break-in-foreknowledge-1971"
   },
   {
     "_type": "theophany",
@@ -143,6 +157,8 @@
     "entities": [
       "Gnosticism",
       "Nag Hammadi library"
-    ]
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
   }
 ]

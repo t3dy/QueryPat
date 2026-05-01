@@ -110,6 +110,8 @@ def normalize_curated_event(ev: dict) -> dict:
         "importance": str(ev.get("importance", "")) if ev.get("importance") is not None else None,
         "notes": ev.get("notes") or None,
         "entities": ev.get("entities") or [],
+        "theophany_id": ev.get("theophany_id") or None,
+        "theophany_slug": ev.get("theophany_slug") or None,
     }
 
 
@@ -128,6 +130,8 @@ def normalize_event(ev: dict) -> dict:
         "source_type": ev.get("source_type") or "extracted",
         "location": ev.get("location") or None,
         "importance": ev.get("importance"),
+        "theophany_id": ev.get("theophany_id") or None,
+        "theophany_slug": ev.get("theophany_slug") or None,
     }
 
 

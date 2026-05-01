@@ -169,13 +169,25 @@ export default function Dashboard() {
               if (!decades.has(dec)) decades.set(dec, [])
               decades.get(dec)!.push(y)
             }
+            // Compute max activity across all years for continuous color scaling
+            const maxTotal = Math.max(1, ...data.segments_per_year.map(
+              y => y.count + (y.bio_events || 0) + (y.theophanies || 0) * 5
+            ))
+
             return Array.from(decades.entries()).map(([dec, years]) => (
               <div key={dec} style={{marginBottom:'0.75rem'}}>
                 <div style={{fontWeight:600, fontSize:'0.85rem', color:'var(--text-muted)', marginBottom:'0.25rem'}}>{dec}</div>
                 <div style={{display:'flex', flexWrap:'wrap', gap:'0.25rem'}}>
                   {years.map(y => {
+                    // Weight theophanies 5x in the heat scale (they're rarer/more salient)
+                    const heat = y.count + (y.bio_events || 0) + (y.theophanies || 0) * 5
                     const total = y.count + (y.bio_events || 0) + (y.theophanies || 0)
                     const hasContent = y.has_content || total > 0
+                    // Continuous opacity scale: 0.10 (min content) -> 1.0 (max activity)
+                    const intensity = hasContent ? Math.min(1, 0.15 + 0.85 * (heat / maxTotal)) : 0
+                    // Hue: gold for segment-heavy, purple-tinted for theophany-only
+                    const isTheophanyOnly = (y.theophanies || 0) > 0 && y.count === 0
+                    const baseRgb = isTheophanyOnly ? '155, 107, 155' : '192, 154, 77'
                     return (
                       <Link
                         key={y.year}
@@ -186,11 +198,15 @@ export default function Dashboard() {
                           fontSize:'0.8rem',
                           borderRadius:'4px',
                           textDecoration:'none',
-                          background: y.count > 100 ? 'var(--accent)' : y.count > 0 ? 'rgba(192,154,77,0.25)' : (y.theophanies || 0) > 0 ? 'rgba(155,107,155,0.2)' : hasContent ? 'rgba(192,154,77,0.08)' : 'transparent',
+                          background: hasContent
+                            ? (y.count > 100
+                              ? 'var(--accent)'
+                              : `rgba(${baseRgb}, ${intensity * 0.4})`)
+                            : 'transparent',
                           color: y.count > 100 ? '#fff' : hasContent ? 'var(--text)' : 'var(--text-muted)',
-                          opacity: hasContent ? 1 : 0.35,
+                          opacity: hasContent ? 1 : 0.32,
                           cursor: hasContent ? 'pointer' : 'default',
-                          border: hasContent ? '1px solid rgba(192,154,77,0.25)' : '1px solid transparent',
+                          border: hasContent ? `1px solid rgba(${baseRgb}, ${0.2 + intensity * 0.3})` : '1px solid transparent',
                         }}
                         title={`${y.year}: ${y.count} segments, ${y.bio_events || 0} biography events, ${y.theophanies || 0} theophanies`}
                       >

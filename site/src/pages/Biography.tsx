@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useData } from '../hooks/useData'
 
-/* ─── Curated schema (119 style-audited events) ─── */
+/* ─── Curated schema (style-audited events) ─── */
 interface CuratedBioEvent {
   id: string
   date: string
@@ -14,6 +14,8 @@ interface CuratedBioEvent {
   source: string
   importance: number
   notes: string
+  theophany_id?: string | null
+  theophany_slug?: string | null
 }
 
 /* ─── Dictionary index entry ─── */
@@ -350,6 +352,21 @@ function CuratedEventCard({ event, dictLookup, onCategoryClick, onSearchEntity }
         <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem', margin: '0.25rem 0' }}>
           {event.location}
         </p>
+      )}
+
+      {event.theophany_id && (
+        <Link
+          to={`/theophanies/${event.theophany_slug || event.theophany_id.replace(/^THEO_/, '').toLowerCase().replace(/_/g, '-')}`}
+          style={{
+            display: 'inline-block', marginTop: '0.4rem',
+            background: '#9B6B9B', color: '#fff',
+            padding: '0.15rem 0.5rem', fontSize: '0.7rem',
+            borderRadius: '3px', textDecoration: 'none',
+            textTransform: 'uppercase', letterSpacing: '0.05em',
+          }}
+        >
+          → linked theophany
+        </Link>
       )}
 
       {/* Tags row: category + entities */}

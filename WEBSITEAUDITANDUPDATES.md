@@ -157,53 +157,42 @@ The underlying [PKDontology.md](PKDontology.md) discipline did not loosen during
 
 ## 5. What's outstanding (queued)
 
-These are real and known. Listed in roughly priority order.
+**Status legend:** ✅ closed in v5.2 (commit `c4a9d24`); ✅✅ closed in v5.3 (current commit); ⏳ still open.
 
-### 5.1 The 8 still-greyed-out years
+### 5.1 ✅ The 8 still-greyed-out years
 
-1930, 1932, 1935, 1936, 1939, 1943, 1949 (and partial 1942) are still `has_content=false`. These are gaps in the curated biography:
+Closed in v5.2. `scripts/biography/add_gap_events.py` adds 9 curated events spanning 1930, 1932, 1935, 1936, 1939, 1942, 1943, 1949 — drawn from Sutin's *Divine Invasions*, Anne R. Dick's *The Search*, and PKD's own 1942 letters from Cal Prep at Ojai. **Result: 55/55 years now have content.**
 
-- **The fix** is to write 1-2 curated biography events for each gap year drawing on the Sutin / Anne Dick chronologies. PKD's residences (Berkeley, Washington DC briefly), school events, family changes, and reading life are all attestable for these years.
-- **Estimated effort:** half a session of curated bio writing.
+### 5.2 ✅ Anchor links to /scholars#slug
 
-### 5.2 Anchor links to /scholars#slug are still dead
+Closed in v5.2. `Scholars.tsx` now adds `id={`scholar-${scholar_id}`}` to each card and runs a `useEffect` on mount reading `window.location.hash`, calling `setExpandedId` for the match, and `scrollIntoView` smoothly. The hash parser tolerates lookups by `scholar_id` (canonical) or by name-derived slug. Verified in preview: `/scholars#pamela-jackson` opens her card.
 
-[WRITIGNAUDIT.md §B1](WRITIGNAUDIT.md) flagged this earlier. The Scholars page does not render `id={scholar_id}` on its scholar cards, so any link to `/scholars#pamela-jackson` lands on the index but doesn't scroll to or expand the matching profile. Workaround currently: the Theophany detail's ExploreFooter and the Theophany scholar interpretation list both link to `/scholars` plain (no anchor), which is honest but not quite the experience we want.
+### 5.3 ✅ Per-theophany Exegesis-segment evidence
 
-- **The fix** in `Scholars.tsx`: add `id={s.scholar_id}` to the card root, plus a `useEffect` that reads the URL hash on mount, calls `setExpandedId` for the matching scholar, and `scrollIntoView` on the element.
-- **Estimated effort:** 30 minutes plus a verify pass.
+Closed in v5.2. `scripts/theophanies/link_segments.py` scores each segment against theophany vocabulary (related dict terms + related names + per-theophany keyword boosts). **Result: 234 evidence rows across 12 of 15 theophanies; up to 25 segments per theophany.** TheophanyDetail's "Where it surfaces in the *Exegesis*" section renders the matched segments as clickable links to `/segments/{seg_id}`.
 
-### 5.3 Per-theophany Exegesis-segment evidence is empty
+### 5.4 ✅✅ BacklinksPanel + connections graph
 
-Each of the 15 seeded theophanies has `related_segments: []` because no automated linking has run yet. The seeds should be linked to the actual Exegesis segments where PKD writes about them. Sample:
-- THEO_1974_02_FISH_SIGN should link to every segment with `theological_motifs` containing "fish" or "ichthys" or "Tagore" or "Thomas".
-- THEO_1974_BLACK_IRON_PRISON should link to every segment containing "Black Iron Prison" or "Empire" or "Rome" in any of the parsed fields.
+Closed in v5.3. `scripts/theophanies/extend_connections.py` writes 9 new edge keys to `connections.json`:
+- `theophany_to_segments` (12 theophanies)
+- `theophany_to_terms` (12)
+- `theophany_to_names` (14)
+- `theophany_to_works` (15)
+- `theophany_to_bio` (9 theophanies, 58 bio events)
+- `segment_to_theophanies` (100 segments fan in)
+- `term_to_theophanies` (20 terms)
+- `name_to_theophanies` (14 names)
+- `bio_to_theophany` (58 bio events)
 
-- **The fix** is a `scripts/theophanies/link_segments.py` that scans `segments.theological_motifs`, `segments.recurring_concepts`, `segments.people_entities` against each theophany's vocabulary and inserts `theophany_evidence` rows.
-- **Estimated effort:** 1 hour of scripting + spot-check.
+**Result: 347 new edges in the cross-entity graph.** Detail pages that consume `connections.json` (BacklinksPanel callers in TermDetail, SegmentDetail, NameDetail) can read these for "What links here" rendering. Pages don't yet wire the theophany backlink groups — that's a small follow-up.
 
-### 5.4 BacklinksPanel doesn't yet know about theophanies
+### 5.5 ✅✅ Search index extended
 
-The "What links here" panel uses the existing `connections.json` cross-entity graph, which was built before theophanies existed. So a Dictionary entry like *Valis* doesn't surface in BacklinksPanel that 7 theophanies invoke it.
+Closed in v5.3. `scripts/export/extend_search_index.py` appends 136 new records to `search_index.json` (15 theophanies + 2 essays + 119 scholars). **Total: 1,473 search records (was 1,337).** `Search.tsx` adds the new types to its routing, group ordering, and labels. Verified: `?q=zebra` returns the Zebra Mimicry theophany; `?q=drugs` returns the Drugs in PKD essay.
 
-- **The fix:** extend `scripts/export_json.py` (or write a `scripts/theophanies/extend_connections.py`) to add theophany ↔ dictionary, theophany ↔ name, theophany ↔ work edges to `connections.json`.
-- **Estimated effort:** 1-2 hours.
+### 5.6 ✅✅ Theophany linking on biography events
 
-### 5.5 Search index doesn't include theophany names or essay titles
-
-`search_index.json` was last regenerated before v5. Searching for "Abulafia" or "Pink Beam" or "Drugs in PKD" returns nothing.
-
-- **The fix:** rerun `scripts/build_all.py --export-only` (this also fixes the 228 vs 237 archive count drift flagged in WRITIGNAUDIT §F1).
-- **Estimated effort:** minutes, but needs a clean schema check first.
-
-### 5.6 No Theophany filter on Biography page
-
-Biography events that ref a theophany via `theophany_id` should show a "vision" badge that links to the theophany detail. Today they don't, because:
-1. No biography events currently have `theophany_id` populated (the column exists, no data).
-2. The Biography UI doesn't query for it.
-
-- **The fix:** (a) populate `biography_events.theophany_id` for any existing event whose summary intersects with a theophany's vocabulary; (b) update Biography.tsx to render a clickable vision-badge.
-- **Estimated effort:** 2 hours.
+Closed in v5.3. `scripts/theophanies/link_bio_events.py` matches each of the 646 biography events against theophany date-ranges + keyword vocabulary; **58 events are linked**. The `biography_events.theophany_id` column is populated and `theophany_slug` denormalized for fast frontend rendering. Both the Timeline year cards and the Biography page now display a purple "→ linked theophany" badge that routes to the canonical theophany slug. Verified: 1974 timeline shows 33 vision-badges spanning Christopher's diagnosis, the Black Iron Prison, the Pink Beam, the AI Voice.
 
 ### 5.7 Theme filter on Biography page
 
@@ -224,7 +213,7 @@ The 180+ archive documents now have rich markdown in `document_texts.markdown_co
 Some years light up purple (theophany only), some gold (segments), some dark gold (heavy Exegesis), but pre-1971 years with only bio events are a uniform pale gold regardless of how many bio events. A reader scanning for activity-density doesn't see variation in the early years. Could be improved by scaling the background opacity by `total` count.
 
 - **The fix:** the Dashboard year-grid coloring logic should use a continuous scale rather than a boolean.
-- **Estimated effort:** 20 minutes.
+- **Status:** ✅✅ closed in v5.3. The Dashboard year-grid now computes `heat = segments + bio_events + theophanies × 5` and scales the background opacity from 0.15 to 1.0 across the maximum activity year. Years with only theophanies use a purple base hue; years with segments use the gold base. Activity density is now visible at a glance.
 
 ### 5.10 Browse hub randomization is shallow
 
@@ -233,19 +222,13 @@ The Random sections re-roll on a button click, but they don't bias toward less-e
 - **The fix:** weight the random pull *inversely* by a "view count" tracked in localStorage, so reshuffling pulls toward less-visited corners of the corpus.
 - **Estimated effort:** 1-2 hours; nice-to-have.
 
-### 5.11 No way to mark a theophany as bookmarked
+### 5.11 ✅✅ Bookmark support extended
 
-The existing `useBookmarks` hook supports terms, segments, archive docs, names, and scholars but not theophanies (the entity type didn't exist when the hook was written).
+Closed in v5.3. `Bookmarks.tsx` now displays four additional types (theophany, essay, scholar, plus the legacy types). `TheophanyDetail.tsx` includes a `<BookmarkButton entityType="theophany" entityId={data.slug} title={data.name} />` in the hero header. Routing in the bookmarks page handles each type's URL pattern (theophany → `/theophanies/:slug`, essay → `/essays/:slug`, scholar → `/scholars#:id`).
 
-- **The fix:** extend the bookmarks taxonomy in `useBookmarks.ts` and add a `<BookmarkButton entityType="theophany" entityId={...} />` to TheophanyDetail.
-- **Estimated effort:** 30 minutes.
+### 5.12 ✅✅ Hover previews extended
 
-### 5.12 Hover previews don't yet know about theophanies or essays
-
-`HoverPreview.tsx` looks up the entity-type prefix (`/segments/`, `/archive/`, etc.) and fetches the matching JSON for a tooltip preview. It doesn't yet handle `/theophanies/:slug` or `/essays/:slug`.
-
-- **The fix:** add the two prefixes to the lookup table in `HoverPreview.tsx`.
-- **Estimated effort:** 30 minutes.
+Closed in v5.3. `HoverPreview.tsx`'s `parseRoute` now recognizes `/theophanies/:slug` and `/essays/:slug`. Theophany previews fetch the per-theophany JSON and display `name + summary`. Essay previews fetch `essays/index.json` and look up the entry by slug to render `title + subtitle`.
 
 ---
 
