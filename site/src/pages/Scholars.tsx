@@ -1,4 +1,5 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import { useData } from '../hooks/useData'
 
 interface ScholarPDF {
@@ -54,9 +55,33 @@ const TIER_COLORS: Record<number, string> = {
 
 export default function Scholars() {
   const { data: scholars, loading } = useData<Scholar[]>('scholars.json')
+  const location = useLocation()
   const [search, setSearch] = useState('')
   const [activeTier, setActiveTier] = useState<number | null>(null)
   const [expandedId, setExpandedId] = useState<string | null>(null)
+
+  // Read URL hash on mount or when scholars load: open + scroll to the matching scholar.
+  useEffect(() => {
+    if (!scholars) return
+    // HashRouter encodes routes as #/foo, so a target inside the route is in location.hash after a second '#'.
+    // Simpler: use window.location.hash directly and parse out anything after the second '#'.
+    const raw = window.location.hash || ''
+    const parts = raw.split('#').filter(Boolean)  // ['/scholars', 'pamela-jackson'] or ['/scholars']
+    const targetSlug = parts.length >= 2 ? parts[parts.length - 1] : null
+    if (!targetSlug) return
+    const target = scholars.find(s =>
+      s.scholar_id === targetSlug ||
+      s.scholar_id === targetSlug.toLowerCase() ||
+      s.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') === targetSlug.toLowerCase()
+    )
+    if (!target) return
+    setExpandedId(target.scholar_id)
+    // Scroll after the next paint
+    requestAnimationFrame(() => {
+      const el = document.getElementById(`scholar-${target.scholar_id}`)
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    })
+  }, [scholars, location.hash])
 
   const tierCounts = useMemo(() => {
     if (!scholars) return {} as Record<number, number>
@@ -149,6 +174,7 @@ export default function Scholars() {
               return (
                 <div
                   key={s.scholar_id}
+                  id={`scholar-${s.scholar_id}`}
                   className="card"
                   style={{ cursor: 'pointer', borderLeft: `3px solid ${TIER_COLORS[s.tier]}` }}
                   onClick={() => setExpandedId(isExpanded ? null : s.scholar_id)}

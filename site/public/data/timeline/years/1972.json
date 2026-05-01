@@ -1,39 +1,20 @@
 [
   {
     "_type": "biography_event",
-    "bio_id": "pkd_bio_1972_vancouver",
-    "summary": "Moves to Vancouver during a period of deep personal crisis",
+    "bio_id": "pkd_bio_1972_meets_tessa",
+    "summary": "Meets Tessa Busby in Fullerton, California after returning from Vancouver",
     "date_start": "1972",
     "date_end": "1972",
     "date_display": "1972",
     "date_confidence": "year",
-    "event_type": "residence",
+    "event_type": "friendship",
     "source_name": "Sutin",
     "source_type": "curated",
-    "location": "Vancouver, British Columbia",
-    "importance": "4",
+    "location": "Fullerton, California",
+    "importance": "3",
     "notes": null,
     "entities": [
-      "Michael Walsh",
-      "University of British Columbia"
-    ]
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1972_suicide_attempt",
-    "summary": "Attempts suicide while living in Vancouver and is hospitalized afterward",
-    "date_start": "1972",
-    "date_end": "1972",
-    "date_display": "1972",
-    "date_confidence": "year",
-    "event_type": "health",
-    "source_name": "Sutin",
-    "source_type": "curated",
-    "location": "Vancouver, British Columbia",
-    "importance": "5",
-    "notes": null,
-    "entities": [
-      "X-Kalay Foundation"
+      "Tessa Dick"
     ]
   },
   {
@@ -56,20 +37,39 @@
   },
   {
     "_type": "biography_event",
-    "bio_id": "pkd_bio_1972_meets_tessa",
-    "summary": "Meets Tessa Busby in Fullerton, California after returning from Vancouver",
+    "bio_id": "pkd_bio_1972_suicide_attempt",
+    "summary": "Attempts suicide while living in Vancouver and is hospitalized afterward",
     "date_start": "1972",
     "date_end": "1972",
     "date_display": "1972",
     "date_confidence": "year",
-    "event_type": "friendship",
+    "event_type": "health",
     "source_name": "Sutin",
     "source_type": "curated",
-    "location": "Fullerton, California",
-    "importance": "3",
+    "location": "Vancouver, British Columbia",
+    "importance": "5",
     "notes": null,
     "entities": [
-      "Tessa Dick"
+      "X-Kalay Foundation"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1972_vancouver",
+    "summary": "Moves to Vancouver during a period of deep personal crisis",
+    "date_start": "1972",
+    "date_end": "1972",
+    "date_display": "1972",
+    "date_confidence": "year",
+    "event_type": "residence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Vancouver, British Columbia",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Michael Walsh",
+      "University of British Columbia"
     ]
   },
   {

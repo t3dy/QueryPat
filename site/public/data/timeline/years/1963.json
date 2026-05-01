@@ -1,6 +1,24 @@
 [
   {
     "_type": "biography_event",
+    "bio_id": "pkd_bio_1963_divorce_anne",
+    "summary": "Divorces Anne Williams Rubinstein after seven years of marriage",
+    "date_start": "1963",
+    "date_end": "1963",
+    "date_display": "1963",
+    "date_confidence": "year",
+    "event_type": "divorce",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Point Reyes Station, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Anne Williams Rubinstein"
+    ]
+  },
+  {
+    "_type": "biography_event",
     "bio_id": "pkd_bio_1963_hugo_award",
     "summary": "Wins the Hugo Award for Best Novel for The Man in the High Castle",
     "date_start": "1963",
@@ -16,24 +34,6 @@
     "entities": [
       "Hugo Award",
       "The Man in the High Castle"
-    ]
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1963_divorce_anne",
-    "summary": "Divorces Anne Williams Rubinstein after seven years of marriage",
-    "date_start": "1963",
-    "date_end": "1963",
-    "date_display": "1963",
-    "date_confidence": "year",
-    "event_type": "divorce",
-    "source_name": "Sutin",
-    "source_type": "curated",
-    "location": "Point Reyes Station, California",
-    "importance": "3",
-    "notes": null,
-    "entities": [
-      "Anne Williams Rubinstein"
     ]
   },
   {

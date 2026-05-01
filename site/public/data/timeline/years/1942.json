@@ -1,0 +1,38 @@
+[
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1942_ojai",
+    "summary": "Dorothy enrolls Phil at California Preparatory School in Ojai for the autumn term; Phil writes a series of letters to his mother documenting homesickness, the school's mandatory work program, and the early formation of his classical music tastes (Mozart, Brahms, Beethoven, Tchaikovsky).",
+    "date_start": "1942-09",
+    "date_end": "1942-09",
+    "date_display": "1942-09",
+    "date_confidence": "month",
+    "event_type": "education",
+    "source_name": "PKD letters to Dorothy K. Dick, Sept-Nov 1942 (Selected Letters Vol. 1)",
+    "source_type": "curated",
+    "location": "Ojai, California",
+    "importance": "3",
+    "notes": "The Ojai letters are among the earliest substantial PKD prose extant; they document his teenage classical-music obsession including the wishlist of records (Jupiter Symphony, Brahms 1st, Beethoven Emperor) that anchors the music-in-PKD essay.",
+    "entities": [
+      "Dorothy Dick"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1942_return",
+    "summary": "After two months at Cal Prep, Dorothy negotiates Phil's return to Berkeley due to his repeated requests; he resumes Berkeley schooling for the remainder of the academic year.",
+    "date_start": "1942-11",
+    "date_end": "1942-11",
+    "date_display": "1942-11",
+    "date_confidence": "month",
+    "event_type": "education",
+    "source_name": "PKD letters to Dorothy K. Dick, Nov 1942",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "2",
+    "notes": null,
+    "entities": [
+      "Dorothy Dick"
+    ]
+  }
+]

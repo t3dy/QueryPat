@@ -1,24 +1,6 @@
 [
   {
     "_type": "biography_event",
-    "bio_id": "pkd_bio_1948_marriage_marlin",
-    "summary": "Marries Jeanette Marlin in his first brief marriage at age nineteen",
-    "date_start": "1948",
-    "date_end": "1948",
-    "date_display": "1948",
-    "date_confidence": "year",
-    "event_type": "marriage",
-    "source_name": "Sutin",
-    "source_type": "curated",
-    "location": "Berkeley, California",
-    "importance": "4",
-    "notes": null,
-    "entities": [
-      "Jeanette Marlin"
-    ]
-  },
-  {
-    "_type": "biography_event",
     "bio_id": "pkd_bio_1948_existentialism",
     "summary": "Begins reading existentialist philosophy including Heidegger and Sartre",
     "date_start": "1948",
@@ -34,6 +16,24 @@
     "entities": [
       "Martin Heidegger",
       "Jean-Paul Sartre"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1948_marriage_marlin",
+    "summary": "Marries Jeanette Marlin in his first brief marriage at age nineteen",
+    "date_start": "1948",
+    "date_end": "1948",
+    "date_display": "1948",
+    "date_confidence": "year",
+    "event_type": "marriage",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Berkeley, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "Jeanette Marlin"
     ]
   },
   {

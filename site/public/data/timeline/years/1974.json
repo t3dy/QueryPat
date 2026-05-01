@@ -692,24 +692,6 @@
   },
   {
     "_type": "biography_event",
-    "bio_id": "pkd_bio_1974_02_visions_rome",
-    "summary": "Reports telepathic messages and visions of ancient Rome over several weeks",
-    "date_start": "1974-02-03",
-    "date_end": "1974-02-03",
-    "date_display": "1974-02-03",
-    "date_confidence": "range",
-    "event_type": "visionary_experience",
-    "source_name": "Arnold",
-    "source_type": "curated",
-    "location": "Fullerton, California",
-    "importance": "5",
-    "notes": null,
-    "entities": [
-      "Zebra"
-    ]
-  },
-  {
-    "_type": "biography_event",
     "bio_id": "pkd_bio_1974_02_03_pink_light",
     "summary": "Reports first pink light visionary experience during dental recovery at home",
     "date_start": "1974-02-03",
@@ -722,6 +704,24 @@
     "location": "Fullerton, California",
     "importance": "5",
     "notes": "Defining 2-3-74 event. Multiple old entries consolidated.",
+    "entities": [
+      "Zebra"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1974_02_visions_rome",
+    "summary": "Reports telepathic messages and visions of ancient Rome over several weeks",
+    "date_start": "1974-02-03",
+    "date_end": "1974-02-03",
+    "date_display": "1974-02-03",
+    "date_confidence": "range",
+    "event_type": "visionary_experience",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "5",
+    "notes": null,
     "entities": [
       "Zebra"
     ]

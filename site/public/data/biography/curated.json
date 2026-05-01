@@ -44,6 +44,21 @@
     "notes": ""
   },
   {
+    "id": "pkd_bio_1930_dc",
+    "date": "1930",
+    "date_precision": "year",
+    "event": "The Dicks live in the Washington, DC area; Edgar Dick continues working as a federal investigator while Dorothy struggles with depression following Jane's death.",
+    "category": "residence",
+    "entities": [
+      "Dorothy Dick",
+      "Edgar Dick"
+    ],
+    "location": "Washington, DC area",
+    "source": "Sutin",
+    "importance": 2,
+    "notes": "Bridge years between Jane's death (Jan 1929) and the parents' separation."
+  },
+  {
     "id": "pkd_bio_1931_parent_separation",
     "date": "1931",
     "date_precision": "year",
@@ -56,6 +71,21 @@
     "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 4,
+    "notes": ""
+  },
+  {
+    "id": "pkd_bio_1932_reno",
+    "date": "1932",
+    "date_precision": "year",
+    "event": "The Dick family moves briefly to Reno, Nevada during a period of marital strain; the household continues to deteriorate through Dorothy's chronic illness and Edgar's irregular employment.",
+    "category": "residence",
+    "entities": [
+      "Dorothy Dick",
+      "Edgar Dick"
+    ],
+    "location": "Reno, Nevada",
+    "source": "Sutin",
+    "importance": 2,
     "notes": ""
   },
   {
@@ -102,6 +132,36 @@
     "notes": ""
   },
   {
+    "id": "pkd_bio_1935_separation",
+    "date": "1935",
+    "date_precision": "year",
+    "event": "Dorothy and Edgar separate (the formal divorce follows in 1936); Dorothy takes Phil to Berkeley, California, where she settles into the federal civil service work that will support them through Phil's childhood.",
+    "category": "family",
+    "entities": [
+      "Dorothy Dick",
+      "Edgar Dick"
+    ],
+    "location": "Berkeley, California",
+    "source": "Sutin",
+    "importance": 4,
+    "notes": "The Dorothy/Edgar split is one of the foundational facts of PKD's biography; he sees his father infrequently after this."
+  },
+  {
+    "id": "pkd_bio_1936_divorce",
+    "date": "1936",
+    "date_precision": "year",
+    "event": "Dorothy's divorce from Edgar is finalized; Phil enrolls at Hillside School in Berkeley, beginning the elementary education that runs through 1939.",
+    "category": "education",
+    "entities": [
+      "Dorothy Dick",
+      "Edgar Dick"
+    ],
+    "location": "Berkeley, California",
+    "source": "Sutin",
+    "importance": 3,
+    "notes": ""
+  },
+  {
     "id": "pkd_bio_1937_move_berkeley",
     "date": "1937",
     "date_precision": "year",
@@ -128,6 +188,20 @@
     "source": "Sutin",
     "importance": 3,
     "notes": ""
+  },
+  {
+    "id": "pkd_bio_1939_health",
+    "date": "1939",
+    "date_precision": "year",
+    "event": "Phil's chronic childhood asthma and tachycardia begin to manifest seriously; Dorothy works for the Department of Forestry and the household subsists on her federal salary.",
+    "category": "health",
+    "entities": [
+      "Dorothy Dick"
+    ],
+    "location": "Berkeley, California",
+    "source": "Sutin",
+    "importance": 3,
+    "notes": "PKD's lifelong tachycardia — variously interpreted by him as cardiac, anxiety-driven, and supernatural — dates from this period."
   },
   {
     "id": "pkd_bio_1940_sf_discovery",
@@ -186,6 +260,46 @@
     "source": "Sutin",
     "importance": 3,
     "notes": ""
+  },
+  {
+    "id": "pkd_bio_1942_ojai",
+    "date": "1942-09",
+    "date_precision": "month",
+    "event": "Dorothy enrolls Phil at California Preparatory School in Ojai for the autumn term; Phil writes a series of letters to his mother documenting homesickness, the school's mandatory work program, and the early formation of his classical music tastes (Mozart, Brahms, Beethoven, Tchaikovsky).",
+    "category": "education",
+    "entities": [
+      "Dorothy Dick"
+    ],
+    "location": "Ojai, California",
+    "source": "PKD letters to Dorothy K. Dick, Sept-Nov 1942 (Selected Letters Vol. 1)",
+    "importance": 3,
+    "notes": "The Ojai letters are among the earliest substantial PKD prose extant; they document his teenage classical-music obsession including the wishlist of records (Jupiter Symphony, Brahms 1st, Beethoven Emperor) that anchors the music-in-PKD essay."
+  },
+  {
+    "id": "pkd_bio_1942_return",
+    "date": "1942-11",
+    "date_precision": "month",
+    "event": "After two months at Cal Prep, Dorothy negotiates Phil's return to Berkeley due to his repeated requests; he resumes Berkeley schooling for the remainder of the academic year.",
+    "category": "education",
+    "entities": [
+      "Dorothy Dick"
+    ],
+    "location": "Berkeley, California",
+    "source": "PKD letters to Dorothy K. Dick, Nov 1942",
+    "importance": 2,
+    "notes": ""
+  },
+  {
+    "id": "pkd_bio_1943_reading",
+    "date": "1943",
+    "date_precision": "year",
+    "event": "Phil deepens his reading at Berkeley public schools, encountering early-childhood favorites that will recur in the Exegesis: A.A. Milne, Wind in the Willows, Pinocchio, and (by year-end) the first science-fiction pulps that he subsequently identifies as the formative encounter with the genre.",
+    "category": "reading",
+    "entities": [],
+    "location": "Berkeley, California",
+    "source": "Sutin",
+    "importance": 3,
+    "notes": "PKD locates his first SF pulp encounter (Stirring Science Stories, sometimes Astounding) in this period; the dating is approximate and varies across his retellings."
   },
   {
     "id": "pkd_bio_1944_berkeley_high",
@@ -259,20 +373,6 @@
     "notes": ""
   },
   {
-    "id": "pkd_bio_1947_ucb",
-    "date": "1947",
-    "date_precision": "year",
-    "event": "Enrolls briefly at the University of California Berkeley before dropping out",
-    "category": "education",
-    "entities": [
-      "UC Berkeley"
-    ],
-    "location": "Berkeley, California",
-    "source": "Sutin",
-    "importance": 3,
-    "notes": "Leaves without completing degree"
-  },
-  {
     "id": "pkd_bio_1947_radio_shop",
     "date": "1947",
     "date_precision": "year",
@@ -287,6 +387,20 @@
     "notes": ""
   },
   {
+    "id": "pkd_bio_1947_ucb",
+    "date": "1947",
+    "date_precision": "year",
+    "event": "Enrolls briefly at the University of California Berkeley before dropping out",
+    "category": "education",
+    "entities": [
+      "UC Berkeley"
+    ],
+    "location": "Berkeley, California",
+    "source": "Sutin",
+    "importance": 3,
+    "notes": "Leaves without completing degree"
+  },
+  {
     "id": "pkd_bio_1947_music_reading",
     "date": "1947-1948",
     "date_precision": "range",
@@ -299,20 +413,6 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
-  },
-  {
-    "id": "pkd_bio_1948_marriage_marlin",
-    "date": "1948",
-    "date_precision": "year",
-    "event": "Marries Jeanette Marlin in his first brief marriage at age nineteen",
-    "category": "marriage",
-    "entities": [
-      "Jeanette Marlin"
-    ],
-    "location": "Berkeley, California",
-    "source": "Sutin",
-    "importance": 4,
     "notes": ""
   },
   {
@@ -331,6 +431,20 @@
     "notes": ""
   },
   {
+    "id": "pkd_bio_1948_marriage_marlin",
+    "date": "1948",
+    "date_precision": "year",
+    "event": "Marries Jeanette Marlin in his first brief marriage at age nineteen",
+    "category": "marriage",
+    "entities": [
+      "Jeanette Marlin"
+    ],
+    "location": "Berkeley, California",
+    "source": "Sutin",
+    "importance": 4,
+    "notes": ""
+  },
+  {
     "id": "pkd_bio_1948_freud_reading",
     "date": "1948-1950",
     "date_precision": "range",
@@ -343,6 +457,18 @@
     "source": "Arnold",
     "importance": 3,
     "notes": ""
+  },
+  {
+    "id": "pkd_bio_1949_university_music",
+    "date": "1949",
+    "date_precision": "year",
+    "event": "Phil works steadily at University Music on Telegraph Avenue in Berkeley, advising customers on classical recordings and absorbing the catalog knowledge that he will draw on throughout the fiction; he attends UC Berkeley briefly without completing a term.",
+    "category": "employment",
+    "entities": [],
+    "location": "Berkeley, California",
+    "source": "Sutin; Anne R. Dick (The Search, on the record-store milieu)",
+    "importance": 4,
+    "notes": "The University Music period (1948–1951) shapes the Mary and the Giant / In Milton Lumky Territory record-store milieu and PKD's classical-music vocabulary."
   },
   {
     "id": "pkd_bio_1950_divorce_marlin",
@@ -547,6 +673,20 @@
     "notes": ""
   },
   {
+    "id": "pkd_bio_1955_divorce_kleo",
+    "date": "1955",
+    "date_precision": "year",
+    "event": "Divorces Kleo Apostolides after five years of marriage in Berkeley",
+    "category": "divorce",
+    "entities": [
+      "Kleo Apostolides"
+    ],
+    "location": "Berkeley, California",
+    "source": "Sutin",
+    "importance": 3,
+    "notes": ""
+  },
+  {
     "id": "pkd_bio_1955_solar_lottery",
     "date": "1955",
     "date_precision": "year",
@@ -562,24 +702,10 @@
     "notes": ""
   },
   {
-    "id": "pkd_bio_1955_divorce_kleo",
-    "date": "1955",
-    "date_precision": "year",
-    "event": "Divorces Kleo Apostolides after five years of marriage in Berkeley",
-    "category": "divorce",
-    "entities": [
-      "Kleo Apostolides"
-    ],
-    "location": "Berkeley, California",
-    "source": "Sutin",
-    "importance": 3,
-    "notes": ""
-  },
-  {
-    "id": "pkd_bio_1955_wagner_music",
+    "id": "pkd_bio_1955_classical_music",
     "date": "1955-1957",
     "date_precision": "range",
-    "event": "Immerses in classical music listening and Wagnerian opera appreciation",
+    "event": "Sustained immersion in classical music and Wagnerian opera during Berkeley years",
     "category": "reading",
     "entities": [
       "Richard Wagner"
@@ -590,10 +716,10 @@
     "notes": ""
   },
   {
-    "id": "pkd_bio_1955_classical_music",
+    "id": "pkd_bio_1955_wagner_music",
     "date": "1955-1957",
     "date_precision": "range",
-    "event": "Sustained immersion in classical music and Wagnerian opera during Berkeley years",
+    "event": "Immerses in classical music listening and Wagnerian opera appreciation",
     "category": "reading",
     "entities": [
       "Richard Wagner"
@@ -660,6 +786,20 @@
     "notes": ""
   },
   {
+    "id": "pkd_bio_1958_breakdown",
+    "date": "1958",
+    "date_precision": "year",
+    "event": "Experiences nervous breakdown and psychological crisis in Point Reyes Station",
+    "category": "health",
+    "entities": [
+      "Anne Williams Rubinstein"
+    ],
+    "location": "Point Reyes Station, California",
+    "source": "Sutin",
+    "importance": 4,
+    "notes": ""
+  },
+  {
     "id": "pkd_bio_1958_mainstream_novels",
     "date": "1958",
     "date_precision": "year",
@@ -672,20 +812,6 @@
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
-  },
-  {
-    "id": "pkd_bio_1958_breakdown",
-    "date": "1958",
-    "date_precision": "year",
-    "event": "Experiences nervous breakdown and psychological crisis in Point Reyes Station",
-    "category": "health",
-    "entities": [
-      "Anne Williams Rubinstein"
-    ],
-    "location": "Point Reyes Station, California",
-    "source": "Sutin",
-    "importance": 4,
     "notes": ""
   },
   {
@@ -791,6 +917,20 @@
     "notes": ""
   },
   {
+    "id": "pkd_bio_1963_divorce_anne",
+    "date": "1963",
+    "date_precision": "year",
+    "event": "Divorces Anne Williams Rubinstein after seven years of marriage",
+    "category": "divorce",
+    "entities": [
+      "Anne Williams Rubinstein"
+    ],
+    "location": "Point Reyes Station, California",
+    "source": "Sutin",
+    "importance": 3,
+    "notes": ""
+  },
+  {
     "id": "pkd_bio_1963_hugo_award",
     "date": "1963",
     "date_precision": "year",
@@ -803,20 +943,6 @@
     "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 5,
-    "notes": ""
-  },
-  {
-    "id": "pkd_bio_1963_divorce_anne",
-    "date": "1963",
-    "date_precision": "year",
-    "event": "Divorces Anne Williams Rubinstein after seven years of marriage",
-    "category": "divorce",
-    "entities": [
-      "Anne Williams Rubinstein"
-    ],
-    "location": "Point Reyes Station, California",
-    "source": "Sutin",
-    "importance": 3,
     "notes": ""
   },
   {
@@ -992,20 +1118,6 @@
     "notes": ""
   },
   {
-    "id": "pkd_bio_1966_jung_reading",
-    "date": "c. 1966",
-    "date_precision": "approximate",
-    "event": "Sustained reading of Carl Jung's analytical psychology and archetypes theory",
-    "category": "philosophical_influence",
-    "entities": [
-      "Carl Jung"
-    ],
-    "location": "San Rafael, California",
-    "source": "Arnold",
-    "importance": 3,
-    "notes": ""
-  },
-  {
     "id": "pkd_bio_1966_metaphysics",
     "date": "1966-1967",
     "date_precision": "range",
@@ -1107,20 +1219,6 @@
     "notes": ""
   },
   {
-    "id": "pkd_bio_1970_separation_hackett",
-    "date": "1970",
-    "date_precision": "year",
-    "event": "Separates from Nancy Hackett after escalating marital problems in San Rafael",
-    "category": "divorce",
-    "entities": [
-      "Nancy Hackett"
-    ],
-    "location": "San Rafael, California",
-    "source": "Sutin",
-    "importance": 3,
-    "notes": ""
-  },
-  {
     "id": "pkd_bio_1970_early_christianity",
     "date": "1970",
     "date_precision": "year",
@@ -1132,6 +1230,20 @@
     ],
     "location": "San Rafael, California",
     "source": "Arnold",
+    "importance": 3,
+    "notes": ""
+  },
+  {
+    "id": "pkd_bio_1970_separation_hackett",
+    "date": "1970",
+    "date_precision": "year",
+    "event": "Separates from Nancy Hackett after escalating marital problems in San Rafael",
+    "category": "divorce",
+    "entities": [
+      "Nancy Hackett"
+    ],
+    "location": "San Rafael, California",
+    "source": "Sutin",
     "importance": 3,
     "notes": ""
   },
@@ -1209,32 +1321,17 @@
     "notes": ""
   },
   {
-    "id": "pkd_bio_1972_vancouver",
+    "id": "pkd_bio_1972_meets_tessa",
     "date": "1972",
     "date_precision": "year",
-    "event": "Moves to Vancouver during a period of deep personal crisis",
-    "category": "residence",
+    "event": "Meets Tessa Busby in Fullerton, California after returning from Vancouver",
+    "category": "friendship",
     "entities": [
-      "Michael Walsh",
-      "University of British Columbia"
+      "Tessa Dick"
     ],
-    "location": "Vancouver, British Columbia",
+    "location": "Fullerton, California",
     "source": "Sutin",
-    "importance": 4,
-    "notes": ""
-  },
-  {
-    "id": "pkd_bio_1972_suicide_attempt",
-    "date": "1972",
-    "date_precision": "year",
-    "event": "Attempts suicide while living in Vancouver and is hospitalized afterward",
-    "category": "health",
-    "entities": [
-      "X-Kalay Foundation"
-    ],
-    "location": "Vancouver, British Columbia",
-    "source": "Sutin",
-    "importance": 5,
+    "importance": 3,
     "notes": ""
   },
   {
@@ -1252,29 +1349,30 @@
     "notes": ""
   },
   {
-    "id": "pkd_bio_1972_meets_tessa",
+    "id": "pkd_bio_1972_suicide_attempt",
     "date": "1972",
     "date_precision": "year",
-    "event": "Meets Tessa Busby in Fullerton, California after returning from Vancouver",
-    "category": "friendship",
+    "event": "Attempts suicide while living in Vancouver and is hospitalized afterward",
+    "category": "health",
     "entities": [
-      "Tessa Dick"
+      "X-Kalay Foundation"
     ],
-    "location": "Fullerton, California",
+    "location": "Vancouver, British Columbia",
     "source": "Sutin",
-    "importance": 3,
+    "importance": 5,
     "notes": ""
   },
   {
-    "id": "pkd_bio_1973_marriage_tessa",
-    "date": "1973",
+    "id": "pkd_bio_1972_vancouver",
+    "date": "1972",
     "date_precision": "year",
-    "event": "Marries Tessa Busby in his fifth and final marriage in Fullerton",
-    "category": "marriage",
+    "event": "Moves to Vancouver during a period of deep personal crisis",
+    "category": "residence",
     "entities": [
-      "Tessa Dick"
+      "Michael Walsh",
+      "University of British Columbia"
     ],
-    "location": "Fullerton, California",
+    "location": "Vancouver, British Columbia",
     "source": "Sutin",
     "importance": 4,
     "notes": ""
@@ -1287,6 +1385,20 @@
     "category": "family",
     "entities": [
       "Christopher Dick",
+      "Tessa Dick"
+    ],
+    "location": "Fullerton, California",
+    "source": "Sutin",
+    "importance": 4,
+    "notes": ""
+  },
+  {
+    "id": "pkd_bio_1973_marriage_tessa",
+    "date": "1973",
+    "date_precision": "year",
+    "event": "Marries Tessa Busby in his fifth and final marriage in Fullerton",
+    "category": "marriage",
+    "entities": [
       "Tessa Dick"
     ],
     "location": "Fullerton, California",
@@ -1321,6 +1433,62 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 5,
+    "notes": ""
+  },
+  {
+    "id": "pkd_bio_1974_02_03_pink_light",
+    "date": "1974-02-03",
+    "date_precision": "day",
+    "event": "Reports first pink light visionary experience during dental recovery at home",
+    "category": "visionary_experience",
+    "entities": [
+      "Zebra"
+    ],
+    "location": "Fullerton, California",
+    "source": "Arnold",
+    "importance": 5,
+    "notes": "Defining 2-3-74 event. Multiple old entries consolidated."
+  },
+  {
+    "id": "pkd_bio_1974_02_visions_rome",
+    "date": "1974-02-03",
+    "date_precision": "range",
+    "event": "Reports telepathic messages and visions of ancient Rome over several weeks",
+    "category": "visionary_experience",
+    "entities": [
+      "Zebra"
+    ],
+    "location": "Fullerton, California",
+    "source": "Arnold",
+    "importance": 5,
+    "notes": ""
+  },
+  {
+    "id": "pkd_bio_1974_03_son_diagnosis",
+    "date": "1974-03",
+    "date_precision": "month",
+    "event": "Reports vision that reveals undiagnosed inguinal hernia in infant son Christopher",
+    "category": "visionary_experience",
+    "entities": [
+      "Christopher Dick"
+    ],
+    "location": "Fullerton, California",
+    "source": "Arnold",
+    "importance": 4,
+    "notes": ""
+  },
+  {
+    "id": "pkd_bio_1974_03_zebra",
+    "date": "1974-03",
+    "date_precision": "month",
+    "event": "Develops concept of Zebra as cosmic intelligence behind his visions",
+    "category": "religious_thought",
+    "entities": [
+      "Zebra"
+    ],
+    "location": "Fullerton, California",
+    "source": "Arnold",
+    "importance": 4,
     "notes": ""
   },
   {
@@ -1380,62 +1548,6 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 5,
-    "notes": ""
-  },
-  {
-    "id": "pkd_bio_1974_02_visions_rome",
-    "date": "1974-02-03",
-    "date_precision": "range",
-    "event": "Reports telepathic messages and visions of ancient Rome over several weeks",
-    "category": "visionary_experience",
-    "entities": [
-      "Zebra"
-    ],
-    "location": "Fullerton, California",
-    "source": "Arnold",
-    "importance": 5,
-    "notes": ""
-  },
-  {
-    "id": "pkd_bio_1974_02_03_pink_light",
-    "date": "1974-02-03",
-    "date_precision": "day",
-    "event": "Reports first pink light visionary experience during dental recovery at home",
-    "category": "visionary_experience",
-    "entities": [
-      "Zebra"
-    ],
-    "location": "Fullerton, California",
-    "source": "Arnold",
-    "importance": 5,
-    "notes": "Defining 2-3-74 event. Multiple old entries consolidated."
-  },
-  {
-    "id": "pkd_bio_1974_03_son_diagnosis",
-    "date": "1974-03",
-    "date_precision": "month",
-    "event": "Reports vision that reveals undiagnosed inguinal hernia in infant son Christopher",
-    "category": "visionary_experience",
-    "entities": [
-      "Christopher Dick"
-    ],
-    "location": "Fullerton, California",
-    "source": "Arnold",
-    "importance": 4,
-    "notes": ""
-  },
-  {
-    "id": "pkd_bio_1974_03_zebra",
-    "date": "1974-03",
-    "date_precision": "month",
-    "event": "Develops concept of Zebra as cosmic intelligence behind his visions",
-    "category": "religious_thought",
-    "entities": [
-      "Zebra"
-    ],
-    "location": "Fullerton, California",
-    "source": "Arnold",
-    "importance": 4,
     "notes": ""
   },
   {
@@ -1570,20 +1682,6 @@
     "notes": ""
   },
   {
-    "id": "pkd_bio_1979_orange_county",
-    "date": "1979",
-    "date_precision": "year",
-    "event": "Moves to a new apartment in Orange County during his later writing period",
-    "category": "residence",
-    "entities": [
-      "Tessa Dick"
-    ],
-    "location": "Santa Ana, California",
-    "source": "Sutin",
-    "importance": 3,
-    "notes": ""
-  },
-  {
     "id": "pkd_bio_1979_lectures",
     "date": "1979",
     "date_precision": "year",
@@ -1593,6 +1691,20 @@
       "Metz Science Fiction Convention"
     ],
     "location": "Fullerton, California",
+    "source": "Sutin",
+    "importance": 3,
+    "notes": ""
+  },
+  {
+    "id": "pkd_bio_1979_orange_county",
+    "date": "1979",
+    "date_precision": "year",
+    "event": "Moves to a new apartment in Orange County during his later writing period",
+    "category": "residence",
+    "entities": [
+      "Tessa Dick"
+    ],
+    "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 3,
     "notes": ""
@@ -1712,6 +1824,20 @@
     "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 5,
+    "notes": ""
+  },
+  {
+    "id": "pkd_bio_1966_jung_reading",
+    "date": "c. 1966",
+    "date_precision": "approximate",
+    "event": "Sustained reading of Carl Jung's analytical psychology and archetypes theory",
+    "category": "philosophical_influence",
+    "entities": [
+      "Carl Jung"
+    ],
+    "location": "San Rafael, California",
+    "source": "Arnold",
+    "importance": 3,
     "notes": ""
   }
 ]

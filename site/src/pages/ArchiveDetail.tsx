@@ -27,6 +27,10 @@ interface ArchiveData {
   works_discussed: string[]
   linked_terms: string[]
   assets: { path: string; type: string; size_mb: number }[]
+  markdown_excerpt?: string
+  markdown_method?: string
+  markdown_char_count_total?: number
+  markdown_excerpt_truncated?: boolean
 }
 
 export default function ArchiveDetail() {
@@ -77,6 +81,22 @@ export default function ArchiveDetail() {
           <h2>Summary</h2>
           <p>{doc.card_summary}</p>
         </div>
+      )}
+
+      {doc.markdown_excerpt && (
+        <details className="detail-section" style={{borderLeft:'3px solid var(--accent)', paddingLeft:'1rem'}}>
+          <summary style={{cursor:'pointer', listStyle:'revert'}}>
+            <strong>Document text excerpt</strong>
+            <span style={{color:'var(--text-muted)', fontSize:'0.85rem', marginLeft:'0.5rem'}}>
+              {doc.markdown_excerpt_truncated ? `first ~${(doc.markdown_excerpt.length / 1000).toFixed(1)}k` : 'full text'}
+              {doc.markdown_char_count_total ? ` of ${doc.markdown_char_count_total.toLocaleString()} chars` : ''}
+              {doc.markdown_method ? ` · ${doc.markdown_method}` : ''}
+            </span>
+          </summary>
+          <div style={{marginTop:'1rem', maxHeight:'70vh', overflowY:'auto', padding:'0.5rem 0'}}>
+            <ReactMarkdown>{doc.markdown_excerpt}</ReactMarkdown>
+          </div>
+        </details>
       )}
 
       {doc.people_mentioned && doc.people_mentioned.length > 0 && (

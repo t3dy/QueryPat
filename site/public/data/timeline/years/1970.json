@@ -1,24 +1,6 @@
 [
   {
     "_type": "biography_event",
-    "bio_id": "pkd_bio_1970_separation_hackett",
-    "summary": "Separates from Nancy Hackett after escalating marital problems in San Rafael",
-    "date_start": "1970",
-    "date_end": "1970",
-    "date_display": "1970",
-    "date_confidence": "year",
-    "event_type": "divorce",
-    "source_name": "Sutin",
-    "source_type": "curated",
-    "location": "San Rafael, California",
-    "importance": "3",
-    "notes": null,
-    "entities": [
-      "Nancy Hackett"
-    ]
-  },
-  {
-    "_type": "biography_event",
     "bio_id": "pkd_bio_1970_early_christianity",
     "summary": "Begins intense study of early Christianity and its origins in antiquity",
     "date_start": "1970",
@@ -34,6 +16,24 @@
     "entities": [
       "Acts of the Apostles",
       "Early Church Fathers"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1970_separation_hackett",
+    "summary": "Separates from Nancy Hackett after escalating marital problems in San Rafael",
+    "date_start": "1970",
+    "date_end": "1970",
+    "date_display": "1970",
+    "date_confidence": "year",
+    "event_type": "divorce",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Nancy Hackett"
     ]
   },
   {

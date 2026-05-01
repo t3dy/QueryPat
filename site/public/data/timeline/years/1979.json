@@ -16,24 +16,6 @@
   },
   {
     "_type": "biography_event",
-    "bio_id": "pkd_bio_1979_orange_county",
-    "summary": "Moves to a new apartment in Orange County during his later writing period",
-    "date_start": "1979",
-    "date_end": "1979",
-    "date_display": "1979",
-    "date_confidence": "year",
-    "event_type": "residence",
-    "source_name": "Sutin",
-    "source_type": "curated",
-    "location": "Santa Ana, California",
-    "importance": "3",
-    "notes": null,
-    "entities": [
-      "Tessa Dick"
-    ]
-  },
-  {
-    "_type": "biography_event",
     "bio_id": "pkd_bio_1979_lectures",
     "summary": "Delivers public lectures discussing mystical experiences and theological ideas",
     "date_start": "1979",
@@ -48,6 +30,24 @@
     "notes": null,
     "entities": [
       "Metz Science Fiction Convention"
+    ]
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1979_orange_county",
+    "summary": "Moves to a new apartment in Orange County during his later writing period",
+    "date_start": "1979",
+    "date_end": "1979",
+    "date_display": "1979",
+    "date_confidence": "year",
+    "event_type": "residence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Santa Ana, California",
+    "importance": "3",
+    "notes": null,
+    "entities": [
+      "Tessa Dick"
     ]
   },
   {

@@ -272,6 +272,24 @@ export default function TheophanyDetail() {
         </div>
       </div>
 
+      {data.related_segments && data.related_segments.length > 0 && (
+        <div className="detail-section">
+          <h2>Where it surfaces in the <em>Exegesis</em></h2>
+          <p style={{fontSize:'0.85rem', color:'var(--text-muted)'}}>
+            {data.related_segments.length} segment{data.related_segments.length === 1 ? '' : 's'} from the
+            parsed Exegesis match this theophany's vocabulary. Auto-linked by content scoring;
+            spot-check before citation.
+          </p>
+          <ul style={{paddingLeft:'1.25rem', columnCount:2, columnGap:'1.5rem'}}>
+            {data.related_segments.slice(0, 25).map(seg_id => (
+              <li key={seg_id} style={{fontSize:'0.85rem'}}>
+                <Link to={`/segments/${seg_id}`}>{seg_id.replace(/^SEG_EXEG_/, '')}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <ExploreFooter groups={[
         { section: 'Theophanies', items: [
           { label: 'All visionary experiences', to: '/theophanies' },
