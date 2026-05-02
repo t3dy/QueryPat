@@ -97,10 +97,53 @@ def dedupe(candidates: list[dict]) -> list[dict]:
 
 
 def reliability_for(c: dict) -> str:
+    """Map our (fact|self_report) to schema's allowed reliability values."""
     lane = c.get("interpretation_lane")
     if lane == "self_report":
-        return "self-report"
-    return "high"
+        return "unverified"
+    return "confirmed"
+
+
+# Map our richer event_type vocabulary to the schema's allowed CHECK list.
+EVENT_TYPE_MAP = {
+    "meeting": "correspondence",
+    "writing": "publication",
+    "reading": "other",
+    "listening": "other",
+    "creative": "publication",
+    "drug_use": "substance_use",
+    "speech": "publication",
+    "reception": "publication",
+}
+
+
+DATE_CONF_MAP = {
+    "month": "approximate",
+    "year": "approximate",
+    "day": "exact",
+    "exact": "exact",
+    "approximate": "approximate",
+    "circa": "circa",
+    "inferred": "inferred",
+    "unknown": "unknown",
+}
+
+
+def map_date_conf(dc: str | None) -> str:
+    if not dc:
+        return "unknown"
+    return DATE_CONF_MAP.get(dc, "approximate")
+
+
+def map_event_type(et: str | None) -> str:
+    if not et:
+        return "other"
+    return EVENT_TYPE_MAP.get(et, et if et in {
+        "birth", "death", "marriage", "divorce", "residence",
+        "employment", "publication", "vision", "health",
+        "relationship", "legal", "financial", "travel",
+        "substance_use", "correspondence", "other",
+    } else "other")
 
 
 def make_bio_id(c: dict, n: int) -> str:
@@ -114,35 +157,63 @@ def insert_biography_event(con: sqlite3.Connection, c: dict, bio_id: str) -> Non
     themes = c.get("themes_json") or "[]"
     corroborating = json.dumps(c.get("corroborating_letter_ids") or [])
 
+    # First check if we already inserted this letter event (idempotent dedup)
+    existing = con.execute(
+        "SELECT bio_id FROM biography_events WHERE source_letter_id = ? AND summary = ?",
+        (c.get("letter_id"), c.get("summary")),
+    ).fetchone()
+    if existing:
+        # Update in place
+        con.execute(
+            """UPDATE biography_events SET
+                date_start=?, date_end=?, date_display=?, date_confidence=?,
+                event_type=?, location=?, source_type=?, source_name=?,
+                reliability=?, corroborating_letters=?, evidence_quote=?,
+                interpretation_lane=?, themes=?, notable_correspondence=?
+               WHERE bio_id=?""",
+            (
+                c.get("date_start"), c.get("date_start"),
+                c.get("date_start"), map_date_conf(c.get("date_confidence")),
+                map_event_type(c.get("event_type")), c.get("location"),
+                "letter",
+                f"Selected Letters ({c.get('volume_doc_id', '')})",
+                reliability_for(c),
+                corroborating,
+                c.get("evidence_quote"),
+                c.get("interpretation_lane"),
+                themes,
+                c.get("notable_correspondence"),
+                existing[0],
+            ),
+        )
+        return
+    # Else: fresh insert (let SQLite auto-assign integer bio_id)
     con.execute(
-        """INSERT OR REPLACE INTO biography_events
-        (bio_id, summary, date_start, date_end, date_display, date_confidence,
+        """INSERT INTO biography_events
+        (summary, date_start, date_end, date_display, date_confidence,
          event_type, location, source_type, source_name,
-         reliability, evidentiary_lane, importance,
+         reliability,
          source_letter_id, corroborating_letters, evidence_quote,
-         interpretation_lane, themes, notable_correspondence, created_at, updated_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+         interpretation_lane, themes, notable_correspondence, created_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         (
-            bio_id,
             c.get("summary"),
             c.get("date_start"),
             c.get("date_start"),
             c.get("date_start"),
-            c.get("date_confidence"),
-            c.get("event_type"),
+            map_date_conf(c.get("date_confidence")),
+            map_event_type(c.get("event_type")),
             c.get("location"),
             "letter",
-            f"Selected Letters ({c.get('volume_doc_id', '')})",
+            f"Selected Letters ({c.get('volume_doc_id', '')})"[:80],
             reliability_for(c),
-            "E",
-            c.get("importance") or "medium",
             c.get("letter_id"),
             corroborating,
             c.get("evidence_quote"),
             c.get("interpretation_lane"),
             themes,
             c.get("notable_correspondence"),
-            now, now,
+            now,
         ),
     )
 
