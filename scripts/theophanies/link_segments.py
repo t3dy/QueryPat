@@ -85,7 +85,10 @@ THEOPHANY_KEYWORDS: dict[str, list[str]] = {
     ],
     "THEO_1974_2_3_74_CLUSTER": [
         "2-3-74", "2/3/74", "2.3.74", "feb-mar 74", "february-march 1974",
-        "the experience", "the visions",
+        "march 1974", "march of 1974", "march, 1974", "march of'74",
+        "the experience", "the visions", "the savior", "religious experience",
+        "encounter with the savior", "3-74", "3/74", "tachyon",
+        "great mechanic", "theological experiences",
     ],
 }
 

@@ -50,7 +50,7 @@ def link_bio_events(db_path: Path) -> dict:
     TID_TO_SLUG = {t["theophany_id"]: t["slug"] for t in theos}
 
     cur = con.execute(
-        """SELECT bio_id, summary, date_start, event_type FROM biography_events"""
+        """SELECT bio_id, summary, date_start, event_type, source_type FROM biography_events"""
     )
     bios = [dict(zip([d[0] for d in cur.description], r)) for r in cur.fetchall()]
     print(f"[load] {len(bios)} bio events; {len(theos)} theophanies")
@@ -63,12 +63,17 @@ def link_bio_events(db_path: Path) -> dict:
         if not body:
             continue
 
+        # Letter events frequently describe past visions; skip the date-overlap
+        # filter for them and rely entirely on keyword scoring.
+        is_letter = bio.get("source_type") == "letter"
+
         best_match = None
         best_score = 0
         for t in theos:
-            # Date filter
-            if not date_within(date, t.get("date_start") or "", t.get("date_end") or ""):
-                continue
+            # Date filter (skipped for letter-source events)
+            if not is_letter:
+                if not date_within(date, t.get("date_start") or "", t.get("date_end") or ""):
+                    continue
             # Vocabulary match
             keywords = THEOPHANY_KEYWORDS.get(t["theophany_id"], [])
             if not keywords:
