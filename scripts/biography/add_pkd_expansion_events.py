@@ -21,6 +21,42 @@ CURATED_PATH = Path("site/public/data/biography/curated.json")
 
 EVENTS = [
     {
+        "id": "pkd_bio_1962_band_darkness",
+        "date": "1962",
+        "date_precision": "year",
+        "event": "Sees a band of darkness crossing the sky with Laura and later reads it as a sign of Christ's death, the withdrawal of light, and the possibility of a mirrored light at night.",
+        "category": "mystical_experience",
+        "entities": ["Laura"],
+        "location": "Point Reyes Station, California",
+        "source": "Exegesis",
+        "importance": 4,
+        "notes": "This is the sky-vision that later gets folded into his Sun of Righteousness / third-eye thinking."
+    },
+    {
+        "id": "pkd_bio_1967_voice_creator",
+        "date": "1967",
+        "date_precision": "year",
+        "event": "Under LSD, hears the Latin phrase 'I am the breath of my Creator,' later treating it as an early auditory revelation about the Light Body.",
+        "category": "hearing_voices_experience",
+        "entities": ["LSD"],
+        "location": "San Rafael, California",
+        "source": "Exegesis",
+        "importance": 4,
+        "notes": "The event is worth tracking as a heard-voice episode rather than a generic drug-use note."
+    },
+    {
+        "id": "pkd_bio_1962_palmer_eldritch_sun",
+        "date": "1962",
+        "date_precision": "year",
+        "event": "Sees Palmer Eldritch in the sun during the years of the Terrible Separation and later calls it a true vision of God, not just a fictional echo of The Three Stigmata of Palmer Eldritch.",
+        "category": "religious_experience",
+        "entities": ["Palmer Eldritch", "The Three Stigmata of Palmer Eldritch"],
+        "location": "California",
+        "source": "Exegesis",
+        "importance": 5,
+        "notes": "Dick explicitly links the episode to the 'Other Sun' and says it was one of the first moments when he could 'see God at all.'"
+    },
+    {
         "id": "pkd_bio_1968_zelazny_deus_irae",
         "date": "1968-05-21",
         "date_precision": "day",
@@ -55,6 +91,30 @@ EVENTS = [
         "source": "Arnold, The Divine Madness of Philip K. Dick",
         "importance": 4,
         "notes": "Arnold frames X-Kalay as central to the post-Vancouver drug and recovery period."
+    },
+    {
+        "id": "pkd_bio_1975_blissful_linking_it_all_up",
+        "date": "1975-06-02",
+        "date_precision": "day",
+        "event": "Has a blissful ASC experience of 'linking it all up' and treats the moment as an integrated mystical insight.",
+        "category": "mystical_experience",
+        "entities": ["Exegesis"],
+        "location": "Fullerton, California",
+        "source": "Exegesis, June 2, 1975",
+        "importance": 4,
+        "notes": "A compact mystical event that broadens the post-2-3-74 interior experience lane beyond the fish-sign and AI-voice episodes."
+    },
+    {
+        "id": "pkd_bio_1975_sophia_born_again",
+        "date": "1975-09-17",
+        "date_precision": "day",
+        "event": "Hears the voice say 'Saint Sophia will be born again. She was not acceptable before,' turning the 1974 intervention into an explicitly religious promise.",
+        "category": "religious_experience",
+        "entities": ["Saint Sophia"],
+        "location": "Fullerton, California",
+        "source": "Exegesis, September 17, 1975",
+        "importance": 5,
+        "notes": "This is one of the clearest Sophia formulations in the Exegesis and helps distinguish religious experience from broader mystical speculation."
     },
     {
         "id": "pkd_bio_1975_brunner_cia_breakin",
@@ -153,6 +213,18 @@ EVENTS = [
         "notes": "Letter id: LET_1976-05-25_MIKE_BAILEY_0255."
     },
     {
+        "id": "pkd_bio_1976_ho_on_voice",
+        "date": "1976-09-15",
+        "date_precision": "day",
+        "event": "He hears the voice of 'Him who calls himself Ho On,' another unmistakable voice episode in the Exegesis notebooks.",
+        "category": "hearing_voices_experience",
+        "entities": ["Ho On"],
+        "location": "Fullerton, California",
+        "source": "Exegesis, September 15, 1976",
+        "importance": 4,
+        "notes": "A distinct heard-voice episode that helps separate voice material from the broader Sophia and gnostic cosmology."
+    },
+    {
         "id": "pkd_bio_1977_jaynes_letter",
         "date": "1977-03-16",
         "date_precision": "day",
@@ -169,12 +241,12 @@ EVENTS = [
         "date": "1977-03-17",
         "date_precision": "day",
         "event": "Explains Jaynes's bicameral-mind theory to Mark Hurst and folds it into his developing VALIS/Zebra model of divine command voices.",
-        "category": "gnostic_experience",
+        "category": "hearing_voices_experience",
         "entities": ["Julian Jaynes", "Mark Hurst", "VALIS", "Zebra"],
         "location": "Santa Ana, California",
         "source": "Selected Letters 1977-1979, letter to Mark Hurst, March 17, 1977",
         "importance": 4,
-        "notes": "Letter id: LET_UNDATED_MARK_HURST_0023."
+        "notes": "Letter id: LET_UNDATED_MARK_HURST_0023. The divine-command-voice framing makes this more precise as hearing-voices material than as a generic gnostic thought piece."
     },
     {
         "id": "pkd_bio_1977_jaynes_bennett",
@@ -237,6 +309,30 @@ EVENTS = [
         "notes": "Letter id: LET_1981-07-16_RUSSELL_GALEN_0105."
     },
     {
+        "id": "pkd_bio_1980_simulation_theory",
+        "date": "1980",
+        "date_precision": "year",
+        "event": "Deepens Exegesis reflection on simulation theory, the prison-like structure of reality, and the coaxial world behind appearances.",
+        "category": "gnostic_experience",
+        "entities": ["Plato", "Simulation Theory"],
+        "location": "Fullerton, California",
+        "source": "Arnold",
+        "importance": 3,
+        "notes": "Recast from generic vision to gnostic experience because the event is about hidden structure, imprisonment, and epistemic breakthrough."
+    },
+    {
+        "id": "pkd_bio_1981_visions_novels",
+        "date": "1981",
+        "date_precision": "year",
+        "event": "Incorporates religious visions into late novels including The Divine Invasion",
+        "category": "religious_experience",
+        "entities": ["The Divine Invasion", "VALIS"],
+        "location": "Fullerton, California",
+        "source": "Arnold",
+        "importance": 3,
+        "notes": "Recast from generic vision to religious experience because the event explicitly centers religious visions and theological fiction."
+    },
+    {
         "id": "pkd_bio_1974_fish_sign_arnold",
         "date": "1974-02",
         "date_precision": "month",
@@ -253,12 +349,12 @@ EVENTS = [
         "date": "1974-03",
         "date_precision": "month",
         "event": "Arnold summarizes Dick's reports of red-and-gold plasmatic energy that seemed alive, holy, wise, and both inside and outside him during the 2-3-74 aftermath.",
-        "category": "visionary_experience",
+        "category": "mystical_experience",
         "entities": ["Kyle Arnold", "2-3-74", "Zebra"],
         "location": "Fullerton, California",
         "source": "Arnold, The Divine Madness of Philip K. Dick",
         "importance": 5,
-        "notes": "Useful for the biography's religious-experience lane and for cross-linking to theophanies."
+        "notes": "The numinous, inward-and-outward quality makes this a better fit for mystical experience than a generic vision label."
     },
     {
         "id": "pkd_bio_1974_ai_voice_sophia_arnold",

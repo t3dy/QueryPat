@@ -1,506 +1,301 @@
 [
   {
-    "_type": "theophany",
-    "theophany_id": "THEO_1974_BLACK_IRON_PRISON",
-    "name": "The Black Iron Prison Vision",
-    "slug": "black-iron-prison-1974",
-    "summary": "PKD reports a recurring vision in which 1974 California is overlaid by 70 AD Rome — a vast iron prison housing the early Christians under imperial persecution. The vision continued at intervals through 1981.",
-    "date_start": "1974",
-    "date_end": "1981",
-    "date_display": "1974 onwards (recurring)",
-    "date_confidence": "year",
-    "experience_type": "vision",
-    "importance": "canonical",
-    "contested_status": "interpretive",
-    "parent_theophany_id": "THEO_1974_2_3_74_CLUSTER"
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1975_separation_tessa",
-    "summary": "Separates from Tessa Dick after two years of marriage in Fullerton",
+    "_type": "publication",
+    "work_id": "WORK_confessions-of-a-crap-artist",
+    "canonical_title": "Confessions of a Crap Artist",
+    "slug": "confessions-of-a-crap-artist",
+    "work_type": "novel",
+    "category": "novels",
     "date_start": "1975",
-    "date_end": "1975",
     "date_display": "1975",
-    "date_confidence": "year",
-    "event_type": "divorce",
-    "source_name": "Sutin",
-    "source_type": "curated",
-    "location": "Fullerton, California",
-    "importance": "3",
-    "notes": null,
-    "entities": [
-      "Tessa Dick"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
+    "summary": "Canonical record for Confessions of a Crap Artist, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "Confessions of a Crap Artist is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is Confessions of a Crap Artist (1975).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 0
   },
   {
-    "_type": "biography_event",
     "bio_id": 68,
     "summary": "Passover 1975: Sensing the \"Young Spring King\" assumed kingship.",
     "date_start": "1975",
-    "date_end": "1975",
-    "date_display": "1975",
-    "date_confidence": "approximate",
+    "date_end": null,
     "event_type": "other",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
   },
   {
-    "_type": "theophany",
-    "theophany_id": "THEO_1975_NUMERIC_LETTER_GEMATRIA",
-    "name": "Numbers/Letters Transformation (Gematria Vision)",
-    "slug": "numbers-letters-gematria-1975",
-    "summary": "PKD reports a vision in which numbers and Hebrew letters transformed into each other in front of him. He says he had no prior knowledge of kabbalistic gematria but later learned the practice and recognized his vision as having anticipated it.",
-    "date_start": "1975",
-    "date_end": "1975",
-    "date_display": "1975 (reported in 1981 Rickman interview)",
-    "date_confidence": "year",
-    "experience_type": "vision",
-    "importance": "canonical",
-    "contested_status": "disputed",
-    "parent_theophany_id": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1975_brunner_cia_breakin",
-    "summary": "Writes John Brunner about a London Times clipping on CIA break-ins and says it matches the method of the unresolved November 1971 San Rafael break-in.",
-    "date_start": "1975-01-14",
-    "date_end": "1975-01-14",
-    "date_display": "1975-01-14",
-    "date_confidence": "day",
-    "event_type": "correspondence",
-    "source_name": "Selected Letters 1975-1976, letter to John Brunner, January 14, 1975",
-    "source_type": "curated",
-    "location": "Fullerton, California",
-    "importance": "4",
-    "notes": "Letter id: LET_1975-01-14_JOHN_BRUNNER_0011; important SF-author correspondence plus break-in evidence.",
-    "entities": [
-      "John Brunner",
-      "William Colby"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 648,
-    "summary": "PKD declines John Brunner's invitation to a UK trip due to recurring respiratory flu (which became pneumonia in 1972/73).",
-    "date_start": "1975-01-14",
-    "date_end": "1975-01-14",
-    "date_display": "1975-01-14",
-    "date_confidence": "exact",
-    "event_type": "correspondence",
-    "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
     "bio_id": 649,
     "summary": "Brunner sends PKD a London Times clipping about William Colby investigating CIA break-ins of left-wing/anti-war activists 1970-72; PKD says it matches the M.O. of his own November 1971 break-in.",
     "date_start": "1975-01-14",
     "date_end": "1975-01-14",
-    "date_display": "1975-01-14",
-    "date_confidence": "exact",
     "event_type": "correspondence",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
-    "theophany_slug": "pre-break-in-foreknowledge-1971"
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
-    "bio_id": 650,
-    "summary": "PKD praises Claudia Bush's PhD-thesis introduction on his work, especially her interpretation of Stanislaw Lem's article on UBIK.",
+    "bio_id": 648,
+    "summary": "PKD declines John Brunner's invitation to a UK trip due to recurring respiratory flu (which became pneumonia in 1972/73).",
+    "date_start": "1975-01-14",
+    "date_end": "1975-01-14",
+    "event_type": "correspondence",
+    "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "_type": "publication",
+    "work_id": "WORK_claudia-bush-letters",
+    "canonical_title": "Claudia Bush Letters",
+    "slug": "claudia-bush-letters",
+    "work_type": "letter",
+    "category": "letters",
     "date_start": "1975-01-15",
-    "date_end": "1975-01-15",
-    "date_display": "1975-01-15",
-    "date_confidence": "exact",
-    "event_type": "correspondence",
-    "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
-    "theophany_slug": "pre-break-in-foreknowledge-1971"
+    "date_display": "1975-1979",
+    "summary": "Canonical record for Claudia Bush Letters, PKD's letter. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "Claudia Bush Letters is the canonical works-table record for PKD's letter corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is Claudia Bush Letters (1975-1979).\n\nThe source record itself summarizes the work as follows: The Claudia Bush letters form one of the richest interpretive correspondences in the Selected Letters. Bush wrote seriously about Dick's work, and Dick used the exchange to test explanations of Ubik, Flow My Tears, The Man in the High Castle, The Lathe of Heaven, Zebra, the right hemisphere, the 1971 break-in, and his post-2-3-74 religious model. The corpus is valuable because it shows Dick writing to a knowledgeable reader who was neither merely a fan nor merely an editor: he is often reflective, argumentative, speculative, and autobiographical in the same letter.\n\nCurrent segmentation finds 27 Claudia Bush/Bush Krenz letters from January 1975 through March 1979. This document should be treated as a corpus wrapper; individual high-value letters can still receive their own document records when they become focal evidence.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 0
   },
   {
-    "_type": "biography_event",
     "bio_id": 651,
     "summary": "PKD discusses the CIA break-in conspiracy theory with Bush, citing Brunner's London Times clipping; describes break-in M.O. as identical to his own November 1971 incident.",
     "date_start": "1975-01-15",
     "date_end": "1975-01-15",
-    "date_display": "1975-01-15",
-    "date_confidence": "exact",
     "event_type": "correspondence",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
-    "theophany_slug": "pre-break-in-foreknowledge-1971"
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
+    "bio_id": 650,
+    "summary": "PKD praises Claudia Bush's PhD-thesis introduction on his work, especially her interpretation of Stanislaw Lem's article on UBIK.",
+    "date_start": "1975-01-15",
+    "date_end": "1975-01-15",
+    "event_type": "correspondence",
+    "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
     "bio_id": 652,
     "summary": "Tessa buys a horse; the family car needs $300 of repairs the next day.",
     "date_start": "1975-01-15",
     "date_end": "1975-01-15",
-    "date_display": "1975-01-15",
-    "date_confidence": "exact",
     "event_type": "financial",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 653,
-    "summary": "PKD writes to FBI agent William A. Sullivan about Stanislaw Lem and Marxist scholarly interest in UBIK; suggests Lem may be acting in bad faith over a proposed Polish trip; this is the canonical 'FBI letter' on the Lem-as-front conspiracy theory.",
-    "date_start": "1975-01-26",
-    "date_end": "1975-01-26",
-    "date_display": "1975-01-26",
     "date_confidence": "exact",
-    "event_type": "correspondence",
-    "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
-    "theophany_slug": "pre-break-in-foreknowledge-1971"
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 654,
     "summary": "PKD speculates that Marxist scholars are interested in UBIK because the novel may accidentally encode a fundamental scientific principle they recognized.",
     "date_start": "1975-01-26",
     "date_end": "1975-01-26",
-    "date_display": "1975-01-26",
-    "date_confidence": "exact",
     "event_type": "correspondence",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 655,
-    "summary": "PKD sends Paul Williams chapter one of CONFESSIONS OF A CRAP ARTIST for inclusion in a forthcoming printing.",
-    "date_start": "1975-01-27",
-    "date_end": "1975-01-27",
-    "date_display": "1975-01-27",
     "date_confidence": "exact",
-    "event_type": "publication",
-    "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
+    "bio_id": 653,
+    "summary": "PKD writes to FBI agent William A. Sullivan about Stanislaw Lem and Marxist scholarly interest in UBIK; suggests Lem may be acting in bad faith over a proposed Polish trip; this is the canonical 'FBI letter' on the Lem-as-front conspiracy theory.",
+    "date_start": "1975-01-26",
+    "date_end": "1975-01-26",
+    "event_type": "correspondence",
+    "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
     "bio_id": 656,
     "summary": "PKD develops a tachyon-and-time-field theory for the 2-3-74 visions, drawing on a Soviet astrophysicist's claim that time is a field propagating at infinite velocity.",
     "date_start": "1975-01-27",
     "date_end": "1975-01-27",
-    "date_display": "1975-01-27",
-    "date_confidence": "exact",
     "event_type": "publication",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": "THEO_1974_2_3_74_CLUSTER",
-    "theophany_slug": "2-3-74-cluster"
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 657,
     "summary": "PKD encloses a theological reflection on Christ's leaving and the Holy Spirit, arguing the avatar/enlightenment experience became universally available after Christ — and connecting this to his own 2-3-74 experience.",
     "date_start": "1975-01-27",
     "date_end": "1975-01-27",
-    "date_display": "1975-01-27",
-    "date_confidence": "exact",
     "event_type": "publication",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": "THEO_1974_2_3_74_CLUSTER",
-    "theophany_slug": "2-3-74-cluster"
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
+    "bio_id": 655,
+    "summary": "PKD sends Paul Williams chapter one of CONFESSIONS OF A CRAP ARTIST for inclusion in a forthcoming printing.",
+    "date_start": "1975-01-27",
+    "date_end": "1975-01-27",
+    "event_type": "publication",
+    "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
     "bio_id": 64,
     "summary": "\"Santa Sophia\" dream (February 1975).",
     "date_start": "1975-02",
-    "date_end": "1975-02",
-    "date_display": "February 1975",
-    "date_confidence": "approximate",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
-    "bio_id": 73,
-    "summary": "February 1975: Vision of the \"Levant\" (Post office as temple, palm trees).",
-    "date_start": "1975-02",
-    "date_end": "1975-02",
-    "date_display": "February 1975",
-    "date_confidence": "approximate",
-    "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 75,
-    "summary": "February 1975: Hearing the words \"Santa Sophia is going to be reborn.\"",
-    "date_start": "1975-02",
-    "date_end": "1975-02",
-    "date_display": "February 1975",
-    "date_confidence": "approximate",
-    "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 127,
-    "summary": "February 1975: Realizing that \"Santa Sophia\" (Wisdom) will return to govern the world.",
-    "date_start": "1975-02",
-    "date_end": "1975-02",
-    "date_display": "February 1975",
-    "date_confidence": "approximate",
-    "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
     "bio_id": 133,
     "summary": "Dream of \"Saint Sophia\" being reborn (February 1975).",
     "date_start": "1975-02",
-    "date_end": "1975-02",
-    "date_display": "February 1975",
-    "date_confidence": "approximate",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
+    "bio_id": 75,
+    "summary": "February 1975: Hearing the words \"Santa Sophia is going to be reborn.\"",
+    "date_start": "1975-02",
+    "date_end": null,
+    "event_type": "vision",
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 127,
+    "summary": "February 1975: Realizing that \"Santa Sophia\" (Wisdom) will return to govern the world.",
+    "date_start": "1975-02",
+    "date_end": null,
+    "event_type": "vision",
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
+  },
+  {
     "bio_id": 163,
     "summary": "February 1975: Vision of \"St. Sophia\" among the palm trees (New Springtime).",
     "date_start": "1975-02",
-    "date_end": "1975-02",
-    "date_display": "February 1975",
-    "date_confidence": "approximate",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
+    "bio_id": 73,
+    "summary": "February 1975: Vision of the \"Levant\" (Post office as temple, palm trees).",
+    "date_start": "1975-02",
+    "date_end": null,
+    "event_type": "vision",
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
+  },
+  {
     "bio_id": 658,
     "summary": "PKD instructs his attorney to waive custody of his daughter Isa Hackett in favor of Ann (his ex-wife Nancy's sister), who has been raising her since 1971.",
     "date_start": "1975-02-20",
     "date_end": "1975-02-20",
-    "date_display": "1975-02-20",
-    "date_confidence": "exact",
     "event_type": "legal",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
-    "theophany_slug": "pre-break-in-foreknowledge-1971"
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 659,
     "summary": "PKD is diagnosed with malignant hypertension; previous medications failed and he is now on experimental treatment, with the Britannica describing only 11 US patients responding favorably to such drugs since 1973.",
     "date_start": "1975-02-20",
     "date_end": "1975-02-20",
-    "date_display": "1975-02-20",
-    "date_confidence": "exact",
     "event_type": "health",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 5,
-    "summary": "A phone call to Laura that connected him to his ex-wife Anne, who accused him of the \"sin of pride\" (hubris) for trying to figure out God.",
-    "date_start": "1975-02-27",
-    "date_end": "1975-02-27",
-    "date_display": "February 27, 1975",
     "date_confidence": "exact",
-    "event_type": "marriage",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
-    "bio_id": 6,
-    "summary": "Feeling lonely and explicitly missing his dead father, then realizing Erasmus has replaced his father as a guide.",
-    "date_start": "1975-02-27",
-    "date_end": "1975-02-27",
-    "date_display": "February 27, 1975",
-    "date_confidence": "exact",
-    "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 7,
-    "summary": "Corresponding with Mr. Wiggins during the Nixon impeachment.",
-    "date_start": "1975-02-27",
-    "date_end": "1975-02-27",
-    "date_display": "February 27, 1975",
-    "date_confidence": "exact",
-    "event_type": "correspondence",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
     "bio_id": 8,
     "summary": "A childhood memory of traveling through the Alameda Tube and seeing a Del Monte billboard for canned fish (\"Tunny\"), which he associates with the Christian fish sign and the Savior.",
     "date_start": "1975-02-27",
-    "date_end": "1975-02-27",
-    "date_display": "February 27, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "travel",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 9,
-    "summary": "Realization that he has become the \"wise old king\" for his son Christopher.",
-    "date_start": "1975-02-27",
-    "date_end": "1975-02-27",
-    "date_display": "February 27, 1975",
+    "source_name": null,
     "date_confidence": "exact",
-    "event_type": "relationship",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
+    "bio_id": 5,
+    "summary": "A phone call to Laura that connected him to his ex-wife Anne, who accused him of the \"sin of pride\" (hubris) for trying to figure out God.",
+    "date_start": "1975-02-27",
+    "date_end": null,
+    "event_type": "marriage",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
     "bio_id": 10,
     "summary": "Childhood memory of the Oakland Estuary / Alameda Tube.",
     "date_start": "1975-02-27",
-    "date_end": "1975-02-27",
-    "date_display": "February 27, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "residence",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 12,
-    "summary": "Vision of \"fairy sparks\" when aware of Erasmus.",
-    "date_start": "1975-02-27",
-    "date_end": "1975-02-27",
-    "date_display": "February 27, 1975",
+    "source_name": null,
     "date_confidence": "exact",
-    "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
+    "bio_id": 7,
+    "summary": "Corresponding with Mr. Wiggins during the Nixon impeachment.",
+    "date_start": "1975-02-27",
+    "date_end": null,
+    "event_type": "correspondence",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
     "bio_id": 13,
     "summary": "Experience of the \"roll-back\" of accretions (accretions = snow).",
     "date_start": "1975-02-27",
-    "date_end": "1975-02-27",
-    "date_display": "February 27, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 6,
+    "summary": "Feeling lonely and explicitly missing his dead father, then realizing Erasmus has replaced his father as a guide.",
+    "date_start": "1975-02-27",
+    "date_end": null,
+    "event_type": "vision",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 9,
+    "summary": "Realization that he has become the \"wise old king\" for his son Christopher.",
+    "date_start": "1975-02-27",
+    "date_end": null,
+    "event_type": "relationship",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 12,
+    "summary": "Vision of \"fairy sparks\" when aware of Erasmus.",
+    "date_start": "1975-02-27",
+    "date_end": null,
+    "event_type": "vision",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
     "seg_id": "SEG_EXEG_1975-02-27_Claudia_01",
@@ -536,6 +331,7 @@
       "He states the 1964 acid trip was just a \"head trip,\" whereas the 1974 vision was identical but \"authentic\" because it was existentially validated by the death of Pinky the cat.",
       "He feels guilty for killing the rat in the 50s but claims it was a necessary existential lesson on the moral necessity of death given by God."
     ],
+    "reading_excerpt": "This 'decay' is the same direction the Holy Spirit (or whatever you wish to deem it) was moving.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -575,6 +371,7 @@
       "The author recognizes he is filled with flawless the Holy Spirit/completed entelechy, but admits he is still \"wicked and think[s] wicked thoughts\" (lusting after Victoria Principal).",
       "He claims 1974 was the completion of his entelechy (which usually implies time ending/perfection naturally), but immediately corrects himself to say it was an \"intrusion into time\" (God's grace saving him *despite* being imperfect/incomplete)."
     ],
+    "reading_excerpt": "I saw that day that sometimes they should die; that it was of a moral necessity that I literally kill that rat.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -610,6 +407,7 @@
       "The sadness of having to \"become\" the parent/king rather than being the child.",
       "Magic is \"exciting, but not good\" because it makes one different/alienated."
     ],
+    "reading_excerpt": "The Bible is a book of the future... the ground is old; set is new.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -637,6 +435,7 @@
     "tensions": [
       "None."
     ],
+    "reading_excerpt": "Zagreus was not dead but asleep, under the snow: spring March-June.",
     "word_count": 202,
     "has_raw_text": true
   },
@@ -668,6 +467,7 @@
     "tensions": [
       "The world appears unchanged (\"angle of error is slight\"), yet has been \"decisively\" transformed at its core."
     ],
+    "reading_excerpt": "Truth and justice lie at the heart, and work out judiciously, where needed; they now... prevail.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -699,6 +499,7 @@
     "tensions": [
       "The experience is \"personal/subjective\" (idios kosmos) yet Dick suspects the \"koinos kosmos\" has also changed."
     ],
+    "reading_excerpt": "I am less in doubt that this was the Parousia... than I am in doubt... as to whether it was solely in my own world.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -727,6 +528,7 @@
     "tensions": [
       "The universe appears \"short, fat, mean, dull, and dry\" until a single piece transforms it into something \"thrilling, warm, and green.\""
     ],
+    "reading_excerpt": "That which we call 'illusion' or 'not real' is simply that which is still incomplete.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -759,6 +561,7 @@
       "The \"Creator\" is a juggernaut; only \"Christ\" provides help.",
       "The radio programs \"vile\" commands while the mirror universe is \"intelligent and kind.\""
     ],
+    "reading_excerpt": "We seek another God, that of the defeated and powerless.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -793,6 +596,7 @@
       "Rome is \"totally hostile\" to the Greek religion/vibe of the new life.",
       "Palmer Eldritch was \"God grown terrible\" to a blind sight."
     ],
+    "reading_excerpt": "No sense can be made out of my seeing Fullerton turn into Rome until... what I had turned into [is taken into account].",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -826,6 +630,7 @@
     "tensions": [
       "Whether the information was \"engrammed\" (anamnesis) or \"implanted\" with the seed remains a key tension."
     ],
+    "reading_excerpt": "I guess I saw the 'Other Sun,' which shone at nighttime... a fire-like light, much like chromatic fire.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -861,6 +666,7 @@
     "tensions": [
       "Whether the seed was \"already there\" (Neoplatonic) or \"implanted\" (Gnostic) remains the central philosophical conflict."
     ],
+    "reading_excerpt": "Mortality and being in thrall to time are identical.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -898,6 +704,7 @@
       "Struggle to reconcile the \"erotic\" and \"biological\" language with traditional \"unholy\" perceptions.",
       "Uncertainty whether the \"other entity\" in him was the Father, the Son, or the Holy Spirit (concludes it's likely the HS/Elijah)."
     ],
+    "reading_excerpt": "The outcome of possession by the deity is Logos relatedness.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -934,6 +741,7 @@
       "Ursula accuses him of losing \"Taoistic balance\" by moving toward Christianity.",
       "Struggles with the \"ordinariness\" of his current life despite the \"miracle.\""
     ],
+    "reading_excerpt": "What happened to me in 3 74 was the Second Advent, one of them, anyhow.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -970,6 +778,7 @@
       "The \"Fatherly\" pursue of justice in 1974 was \"ferocious\" and \"defensive,\" while 1975 is \"pleasurable\" and \"reproductive.\"",
       "Conflict between the \"Unbounded\" as source of law vs. its periodic intrusion into the kosmos."
     ],
+    "reading_excerpt": "I was an entry point or nexus... after a 2000 year breach.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1005,6 +814,7 @@
       "The \"Father\" (1974) is grim and pursue justice, while the \"Son\" (1975) is permissive and dancing.",
       "Struggles with whether Santa Sophia is Christ or specifically the \"Wisdom of God\" (decides the latter is more accurate)."
     ],
+    "reading_excerpt": "The 1974 combat came before the 1975 mating... the worthy survive and reproduce.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1041,6 +851,7 @@
       "The \"Greek\" regulated universe (*Ananke*) vs. the \"Hebrew\" tribal deity (*JHWH*).",
       "The transition from seeing God as \"terrible\" (Palmer Eldritch) to \"benign\" (Ubik)."
     ],
+    "reading_excerpt": "We are within a Grain Brain, made up of countless cells as are our own.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1077,6 +888,7 @@
       "Whether time is real (oscillation) or an illusion (static completion).",
       "The \"Occidental\" (West) vs. \"Oriental\" (East) religious split (chooses a synthesis)."
     ],
+    "reading_excerpt": "God can simulate the inanimate... you call it the Miracle of Transubstantiation.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1111,6 +923,7 @@
       "Struggle with the \"solipsism\" of being the only one to notice the Parousia.",
       "Conflict between the \"fierce judge\" (Elijah/Christ) and the \"Helper/Comforter.\""
     ],
+    "reading_excerpt": "I did see it... the world as 'this is my body and this is my blood. I am here.'",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1146,6 +959,7 @@
       "Conflict between the \"stern/wise\" Father (1974) and the \"slender/dancing\" Son (1975).",
       "The \"Secret Kingdom\" being \"here and not here\" simultaneously."
     ],
+    "reading_excerpt": "We are waiting for something which does not exist in time... it can be both here and not here simultaneously.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1180,6 +994,7 @@
       "Conflict between the \"Social Action\" (Pulling down Nixon) and the \"Private Rescue\" (Saving Phil).",
       "The \"Either A or Not-A\" dichotomy transcended in \"Both\" (Dionysos as entity and idea)."
     ],
+    "reading_excerpt": "Imperial Rome is back -- back here, back in the USSR.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1216,6 +1031,7 @@
       "Whether the \"Daimon\" is an external entity or the \"Collective Unconscious.\"",
       "Conflict between the \"Weak Mortal\" (Phil) and the \"Powerful Will\" (Daimon)."
     ],
+    "reading_excerpt": "We are merely like [builders]... on-the-right-path... proof we're not merely copied.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1250,6 +1066,7 @@
       "Conflict between the \"Helper\" role of the Spirit and the \"Fierce Judge\" (Christus Judicator).",
       "Struggle with why \"nobody noticed but me\" regarding the Parousia."
     ],
+    "reading_excerpt": "I have been within the game, taking the game... as reality. possession... equals rising up out of the game.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1285,6 +1102,7 @@
       "The mystery of \"Why Greek?\" (Concludes it's the matrix language for the highest culture).",
       "Conflict between the \"Weak mortal man\" and the \"Immortal tutelary god.\""
     ],
+    "reading_excerpt": "Eros, the god of love, emerged to create the Earth. Before, all was silent... This is Christ under a new name.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1320,6 +1138,7 @@
       "Struggle between \"Megalomania\" (He is a Slan) and \"Humility\" (God rescued a loser).",
       "Conflict between the \"Social Combat\" against Nixon and the \"Private Matter\" of personal survival."
     ],
+    "reading_excerpt": "I will never be able to view myself as I did before: the weak, puny mortal... a tututary god lies within.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1354,6 +1173,7 @@
       "The mystery of \"Why Attic Greek?\" persists despite the evolutionary explanation.",
       "Conflict between the \"Adventitious Entity\" (Holy Spirit) and the \"Internal Evolution\" model."
     ],
+    "reading_excerpt": "I am, ahem, like a Van Vogt character after all; like a Slan.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1388,6 +1208,7 @@
       "The \"Greek\" religion (Christianity) vs. the \"Hebrew\" spirit (Elijah).",
       "The \"Private Rescue\" of a servant vs. the \"Social Evolution\" of a species."
     ],
+    "reading_excerpt": "God is right here... he is immanent not transcendent... 'break the stick... and there I am.'",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1422,6 +1243,7 @@
       "The \"Angry\" God of the Old Testament (Elijah) vs. the \"Loving\" God of the New.",
       "The \"Dry Period\" denial (He believes the Spirit never left, just men fall away)."
     ],
+    "reading_excerpt": "I can now declare on my own testimony... the reality and nature of God.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1458,6 +1280,7 @@
       "Conflict between the \"Occult/Spiritualist\" explanation (Ghost of Pike) and the \"Theological\" one (Holy Spirit).",
       "The \"Success\" of Rome (Worldly) vs. the \"Victory\" of the Soul."
     ],
+    "reading_excerpt": "The Holy Spirit... will cause you to have remembrance of me.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1494,6 +1317,7 @@
       "The \"Dry Period\" of the Church vs. the \"Secret Kingdom\" always present.",
       "Conflict between the \"ETI Individual\" (Angel) and the \"Light Body Aggregate.\""
     ],
+    "reading_excerpt": "God is right here... he is immanent not transcendent... 'break the stick... and there I am.'",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1528,6 +1352,7 @@
       "Conflict between the \"Platonistic\" (Greek/Inner) and \"Christian\" (Holy Spirit/External) models.",
       "\"Why me?\" - Concludes it was a historical necessity for a \"new type\" to emerge."
     ],
+    "reading_excerpt": "Attic Greek is a social deposit... it is a mystery.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1563,6 +1388,7 @@
       "The \"Kathy\" type as potentially sociopathic during the transition phase.",
       "Conflict between the \"Social Action\" (Pulling down Nixon) and the \"Private Mystery\" of the brain."
     ],
+    "reading_excerpt": "Why eventually will laws be necessary at all? I foresee a godly anarchy.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1597,6 +1423,7 @@
       "Whether the ritual was part of a \"known\" service (like the Eucharist) or a completely \"new/secret\" one.",
       "Conflict between his \"Small life\" and the \"Infinite Ma'at.\""
     ],
+    "reading_excerpt": "Truth (ma'at) is an eternally present, world-supporting principle.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1630,6 +1457,7 @@
       "The disparity between the \"Word\" (Banana) and the \"Reality\" (Thing).",
       "Conflict between the \"Scientific-Magic\" (Labeling/Security) and the \"Mensacing Unknown.\""
     ],
+    "reading_excerpt": "We have been seeing the universe backward all our lives.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1665,6 +1493,7 @@
       "The \"Angry\" Judge (Dies Irae) vs. the \"Loving\" Surrogate (Agape).",
       "Struggle with why \"nobody noticed\" the King's arrival."
     ],
+    "reading_excerpt": "God is waiting for the two varieties to fully distinguish themselves.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1699,6 +1528,7 @@
       "Whether it was a \"Time Dysfunction\" or a \"Depth Penetration.\"",
       "Conflict between the \"Secular Defeat\" of Nixon and the \"Metaphysical Persistence\" of the Empire."
     ],
+    "reading_excerpt": "Rome never really did fall. To think it fell is an error.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1734,6 +1564,7 @@
       "The \"Damned World\" (Ice) vs. the \"Infused World\" (Organic Body).",
       "Conflict between \"Personal Immortality\" and \"Union with the All.\""
     ],
+    "reading_excerpt": "Christ did not come here to suffer... He probably altered the ontology of the world.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1769,6 +1600,7 @@
       "The \"Fierce/Angry\" God of plagues vs. the \"Loving\" Sacrifice.",
       "Conflict between \"Nature\" (Good) and \"Society/State\" (Evil/Bastion)."
     ],
+    "reading_excerpt": "God... enters society, from this world of nature... and breaks it down.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1803,6 +1635,7 @@
       "Confused about whether he is an \"Israelite\" or a \"Christian\" in this context (concludes both are bridged).",
       "The \"Angry\" Judge (Yahweh) vs. the \"Suffering\" son."
     ],
+    "reading_excerpt": "God was afflicting the establishment here and finally pulling it down.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1838,6 +1671,7 @@
       "The \"Success\" of the past work vs. the \"Crumbling Postlude\" of the present.",
       "Conflict between his \"Left/Marxist\" following and his \"Right/Christian\" soul."
     ],
+    "reading_excerpt": "I, unknown even to myself, carrying the gospel to them in a form acceptable.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1875,6 +1709,7 @@
       "The \"Humorous/Zeal\" personality of Luke vs. the \"Ferocious\" dedication to truth.",
       "Conflict between \"SF\" (Non-terrestrial) and \"Theological\" (Spirit) explanations."
     ],
+    "reading_excerpt": "A highly charged reality... the Bible is not a book but alive.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1909,6 +1744,7 @@
       "The \"Legitimate Creator\" vs. the \"False Magician.\"",
       "Whether 3-74 was a \"Healing\" or an \"Invasion.\""
     ],
+    "reading_excerpt": "We are not in the hologram; we ourselves are hologramatic.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1943,6 +1779,7 @@
       "\"Man gives birth to God\" vs. \"God creates Man.\"",
       "\"Christ as Sacrifice\" vs. \"Christ as Model/Guide.\""
     ],
+    "reading_excerpt": "First comes man; then comes God... He travels back through time to create.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -1978,6 +1815,7 @@
       "Whether the \"Divine Birth\" is a \"becoming\" or a \"return.\"",
       "\"The Angry God\" vs. \"The Suffering Servant.\""
     ],
+    "reading_excerpt": "The state crushes life... the state always goes on formula.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2012,6 +1850,7 @@
       "\"Harsh Combat\" vs. \"Gracious Love.\"",
       "\"Subjective Individual Event\" vs. \"Objective General Parousia.\""
     ],
+    "reading_excerpt": "God is at work in the world but below the surface.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2045,6 +1884,7 @@
       "\"Subjective/Individual\" vs. \"Objective/General.\"",
       "\"Flying to Heaven\" (Easy way) vs. \"Climbing\" (Hard work)."
     ],
+    "reading_excerpt": "The universe will regain its 'shape' after any deformity sets in.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2078,6 +1918,7 @@
       "\"Exalted IQ\" vs. \"Crabby/Domineering personality.\"",
       "\"Subjective Transformation\" vs. \"Objective Kingdom.\""
     ],
+    "reading_excerpt": "He who was alive died, and someone else lives now in me.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2114,6 +1955,7 @@
       "\"Individual Schizophrenic breakdown\" vs. \"Racial Integration.\"",
       "\"Spontaneous\" vs. \"Guided\" healing."
     ],
+    "reading_excerpt": "I was on this journey from mid-1970 up until 3-74, when I returned... integrated and whole.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2147,6 +1989,7 @@
       "\"Spirit departed for 1,500 years\" vs. \"Man went blind but Spirit stayed.\" (Dick leans toward blindness).",
       "\"Teacher of Righteousness\" (Past) vs. \"Latter Rain Teacher\" (Present)."
     ],
+    "reading_excerpt": "I could trace the activity of the Logos... among the debris of the gutter.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2182,6 +2025,7 @@
       "\"God's Grace\" vs. \"Astrological Determinism.\"",
       "\"Aggressive Army\" vs. \"Unarmed moral scouts.\""
     ],
+    "reading_excerpt": "Sarapis could save his servant... from the sphere of determinism.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2217,6 +2061,7 @@
       "\"Wisdom vs. Power/Love.\"",
       "\"Submission (Protestant) vs. Unity (Mystic).\""
     ],
+    "reading_excerpt": "A feminine universe which holds us in her arms -- Saint Sophia.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2251,6 +2096,7 @@
       "\"Anticipating the Parousia\" vs. \"It has already come.\"",
       "\"Jewish Earthly Kingdom\" vs. \"Neoplatonic Spiritual Kingdom.\""
     ],
+    "reading_excerpt": "Pinky, as an avatar of Christ, evidently took the blow; i.e. died for me.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2285,6 +2131,7 @@
       "\"Mutually Hallucinated World\" vs. \"Objective Minkowski Manifold.\"",
       "\"Landing in Time\" vs. \"Constant Relationship outside Time.\""
     ],
+    "reading_excerpt": "The missing part has never been alive; it lies ahead.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2319,6 +2166,7 @@
       "\"Wish-fulfillment (Revenge for Vietnam)\" vs. \"Aura of Truth.\"",
       "\"Course-Line adjustments\" vs. \"Total Overthrow.\""
     ],
+    "reading_excerpt": "First there is a defeat; then a triumphing over it.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2352,6 +2200,7 @@
       "\"Forward Progress (Entropic)\" vs. \"Backward Regression (Form-completing).\"",
       "\"Invisible God\" vs. \"Visible Regularity.\""
     ],
+    "reading_excerpt": "Linear time... sui generis obscures the presence of God.",
     "word_count": 1254,
     "has_raw_text": true
   },
@@ -2383,6 +2232,7 @@
       "Tony loved the universe but was terrified of it.",
       "Pinky the cat was a predator who \"wouldn't eat meat\" after a spiritual change."
     ],
+    "reading_excerpt": "Tony loved the universe and the universe frightened him.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2413,56 +2263,39 @@
       "Dick's belief that death was coming for him, while it was actually coming for the cat.",
       "Linguistic tension: definition of \"stupebit\" in Latin vs. standard English."
     ],
+    "reading_excerpt": "The one power of linear time is: it is accumulative; It scoops up the successive rings of experience.",
     "word_count": 803,
     "has_raw_text": true
   },
   {
-    "_type": "biography_event",
-    "bio_id": 31,
-    "summary": "Realization of the \"Whale's Mouth\" sign as a geometric representation of intersecting times.",
-    "date_start": "1975-02-29",
-    "date_end": "1975-02-29",
-    "date_display": "February 29, 1975",
-    "date_confidence": "exact",
-    "event_type": "other",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 32,
-    "summary": "Dreams of explicit alchemical symbols (homonculus, flasks, retorts).",
-    "date_start": "1975-02-29",
-    "date_end": "1975-02-29",
-    "date_display": "February 29, 1975",
-    "date_confidence": "exact",
-    "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
     "bio_id": 34,
     "summary": "Dream of the \"Portuguese States of America\" (alternative history/alchemical symbol).",
     "date_start": "1975-02-29",
-    "date_end": "1975-02-29",
-    "date_display": "February 29, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 32,
+    "summary": "Dreams of explicit alchemical symbols (homonculus, flasks, retorts).",
+    "date_start": "1975-02-29",
+    "date_end": null,
+    "event_type": "vision",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 31,
+    "summary": "Realization of the \"Whale's Mouth\" sign as a geometric representation of intersecting times.",
+    "date_start": "1975-02-29",
+    "date_end": null,
+    "event_type": "other",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
     "seg_id": "SEG_EXEG_U_Henry_01",
@@ -2497,6 +2330,7 @@
       "Uncertainty about whether Dionysos is pretending to be Erasmus or vice versa (\"layers below layers\").",
       "Conflict between the \"City of Iron\" and the \"Age of Gold.\""
     ],
+    "reading_excerpt": "Jesus is Orpheus, and Christianity is the next mirthful dodge which the Loving Dodger has worked on us.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -2527,88 +2361,59 @@
     "tensions": [
       "Whether the transformation was spontaneous (internal) or caused by a \"Redeemer\" (external)."
     ],
+    "reading_excerpt": "That something equal to turning lead to gold can happen in the person, in his mind -- this is certainly extraordinary.",
     "word_count": 616,
     "has_raw_text": true
   },
   {
-    "_type": "biography_event",
     "bio_id": 60,
     "summary": "March 1975: Sensing the \"start-up\" of the mating cycle again.",
     "date_start": "1975-03",
-    "date_end": "1975-03",
-    "date_display": "March 1975",
-    "date_confidence": "approximate",
+    "date_end": null,
     "event_type": "other",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 277,
     "summary": "March 1975: The \"herald angel\" announcement of divine birth.",
     "date_start": "1975-03",
-    "date_end": "1975-03",
-    "date_display": "March 1975",
-    "date_confidence": "approximate",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 14,
     "summary": "Living in Fullerton, CA (\"north of Disneyland\").",
     "date_start": "1975-03-02",
-    "date_end": "1975-03-02",
-    "date_display": "March 2, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "residence",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 15,
     "summary": "Son Christopher is 1.5 years old.",
     "date_start": "1975-03-02",
-    "date_end": "1975-03-02",
-    "date_display": "March 2, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "relationship",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 16,
     "summary": "Written while under work pressure (started at 7:30 AM).",
     "date_start": "1975-03-02",
-    "date_end": "1975-03-02",
-    "date_display": "March 2, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "employment",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
     "seg_id": "SEG_EXEG_1975-03-02_Phyllis_01",
@@ -2636,40 +2441,29 @@
     "tensions": [
       "Contrast between the \"pressure\" to keep up and the religious assurance of being \"scooped up\" if one falls."
     ],
+    "reading_excerpt": "I have developed strongly religious convictions that Our Good Friend is watching to reach out and scoop us up, when we fall behind.",
     "word_count": 401,
     "has_raw_text": true
   },
   {
-    "_type": "biography_event",
-    "bio_id": 28,
-    "summary": "Experimented with vitamin-based \"orthomolecular\" formulas and meditation ten months ago.",
-    "date_start": "1975-03-04",
-    "date_end": "1975-03-04",
-    "date_display": "March 4, 1975",
-    "date_confidence": "exact",
-    "event_type": "substance_use",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
     "bio_id": 29,
     "summary": "Experience of \"flooding of renewed life\" and godlike wisdom.",
     "date_start": "1975-03-04",
-    "date_end": "1975-03-04",
-    "date_display": "March 4, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 28,
+    "summary": "Experimented with vitamin-based \"orthomolecular\" formulas and meditation ten months ago.",
+    "date_start": "1975-03-04",
+    "date_end": null,
+    "event_type": "substance_use",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
     "seg_id": "SEG_EXEG_1975-03-04_SECTION_006_01",
@@ -2703,88 +2497,59 @@
       "Nicholas Brady has \" worldly values\" while the Essene has \"holy values\" and \"utter antagonism\" to the physical world.",
       "Jesus is both \"mild\" and \"utterly powerful\" (Zagreus-Zeus)."
     ],
+    "reading_excerpt": "What has become of me, since experimenting with bringing on my right hemisphere?",
     "word_count": 1072,
     "has_raw_text": true
   },
   {
-    "_type": "biography_event",
-    "bio_id": 26,
-    "summary": "Recent contact with Robert Ornstein's circle.",
-    "date_start": "1975-03-05",
-    "date_end": "1975-03-05",
-    "date_display": "March 5, 1975",
-    "date_confidence": "exact",
-    "event_type": "correspondence",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
     "bio_id": 27,
     "summary": "Dreaming the words \"CANTATA 4\" and subsequently researching the text.",
     "date_start": "1975-03-05",
-    "date_end": "1975-03-05",
-    "date_display": "March 5, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 660,
-    "summary": "PKD writes to Ursula Le Guin thanking her for praise of Mr. Tagomi (Man in the High Castle) in her London speech.",
-    "date_start": "1975-03-05",
-    "date_end": "1975-03-05",
-    "date_display": "1975-03-05",
+    "source_name": null,
     "date_confidence": "exact",
-    "event_type": "correspondence",
-    "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
-    "bio_id": 661,
-    "summary": "PKD proposes to Le Guin that they share a common underlying visionary source — that 'we are twin outcomes of a single underlying experience' — citing Ian Watson's SFS article comparing her LATHE OF HEAVEN to his work.",
-    "date_start": "1975-03-05",
-    "date_end": "1975-03-05",
-    "date_display": "1975-03-05",
-    "date_confidence": "exact",
-    "event_type": "correspondence",
-    "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
     "bio_id": 662,
     "summary": "PKD develops the 'we do not dream; we are dreamed' hypothesis — that a non-human artificer constructs reality including 'false work' amid the permanent — drawing on Charles Tart and Robert Ornstein's research on consciousness.",
     "date_start": "1975-03-05",
     "date_end": "1975-03-05",
-    "date_display": "1975-03-05",
-    "date_confidence": "exact",
     "event_type": "publication",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 661,
+    "summary": "PKD proposes to Le Guin that they share a common underlying visionary source — that 'we are twin outcomes of a single underlying experience' — citing Ian Watson's SFS article comparing her LATHE OF HEAVEN to his work.",
+    "date_start": "1975-03-05",
+    "date_end": "1975-03-05",
+    "event_type": "correspondence",
+    "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 660,
+    "summary": "PKD writes to Ursula Le Guin thanking her for praise of Mr. Tagomi (Man in the High Castle) in her London speech.",
+    "date_start": "1975-03-05",
+    "date_end": "1975-03-05",
+    "event_type": "correspondence",
+    "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 26,
+    "summary": "Recent contact with Robert Ornstein's circle.",
+    "date_start": "1975-03-05",
+    "date_end": null,
+    "event_type": "correspondence",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
     "seg_id": "SEG_EXEG_1975-03-05_Ursula_01",
@@ -2816,6 +2581,7 @@
     "tensions": [
       "The \"Dreamer\" is described as both building \"false work\" (enchantment) and performing acts of \"God's Grace\" through roll-back."
     ],
+    "reading_excerpt": "The time period... from the Second Century B.C. to date is Winter.",
     "word_count": 1991,
     "has_raw_text": true
   },
@@ -2844,291 +2610,119 @@
     "tensions": [
       "None (Summary matches the prior half)."
     ],
+    "reading_excerpt": "From this is can be seen what Paul meant by such terms as 'You are the first fruits of the harvest.' We read this and assume mere poetry. That is was literally meant -- did that occur to us?",
     "word_count": 191,
     "has_raw_text": true
   },
   {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1975_scanner_award_research",
-    "summary": "Tells Lurton Blassingame that A Scanner Darkly is based on three years of research and predicts it will win major awards.",
-    "date_start": "1975-04-05",
-    "date_end": "1975-04-05",
-    "date_display": "1975-04-05",
-    "date_confidence": "day",
-    "event_type": "publication",
-    "source_name": "Selected Letters 1975-1976, letter to Lurton Blassingame, April 5, 1975",
-    "source_type": "curated",
-    "location": "Fullerton, California",
-    "importance": "3",
-    "notes": "Letter id: LET_1975-04-05_LURTON_BLASSINGAME_0087.",
-    "entities": [
-      "A Scanner Darkly",
-      "Lurton Blassingame"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1975_le_guin_letter",
-    "summary": "Writes Ursula K. Le Guin about The Lathe of Heaven, his absent London speech, and the relationship between her dream-universe fiction and his own false-reality experiences.",
-    "date_start": "1975-04-17",
-    "date_end": "1975-04-17",
-    "date_display": "1975-04-17",
-    "date_confidence": "day",
-    "event_type": "correspondence",
-    "source_name": "Selected Letters 1975-1976, letter to Ursula Le Guin, April 17, 1975",
-    "source_type": "curated",
-    "location": "Fullerton, California",
-    "importance": "4",
-    "notes": "Letter id: LET_1975-04-17_URSULA_LE_GUIN_0097.",
-    "entities": [
-      "Ursula K. Le Guin",
-      "The Lathe of Heaven"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
     "bio_id": 205,
     "summary": "May 1975: Dream of a man giving him a bowl of cereal (Savior/Healer).",
     "date_start": "1975-05",
-    "date_end": "1975-05",
-    "date_display": "May 1975",
-    "date_confidence": "approximate",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 215,
     "summary": "June 2, 1975: Blissful ASC experience of \"linking it all up.\"",
     "date_start": "1975-06-02",
-    "date_end": "1975-06-02",
-    "date_display": "June 2, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 255,
     "summary": "June 2, 1975: Realizing the \"Tally\" of his life is in.",
     "date_start": "1975-06-02",
-    "date_end": "1975-06-02",
-    "date_display": "June 2, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "other",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1975_deus_irae_ms_complete",
-    "summary": "Reports to Nancy and Isa Hackett that Roger Zelazny has finally mailed his completed Deus Irae material, making a full rough draft available.",
-    "date_start": "1975-07-02",
-    "date_end": "1975-07-02",
-    "date_display": "1975-07-02",
-    "date_confidence": "day",
-    "event_type": "publication",
-    "source_name": "Selected Letters 1975-1976, letter to Nancy and Isa Hackett, July 2, 1975",
-    "source_type": "curated",
-    "location": "Fullerton, California",
-    "importance": "3",
-    "notes": "Letter id: LET_1975-07-02_NANCY_ISA_HACKETT_0107.",
-    "entities": [
-      "Roger Zelazny",
-      "Nancy Hackett",
-      "Isa Hackett",
-      "Deus Irae"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1975_christian_research_to_scare_dead",
-    "summary": "Writes that he has spent sixteen months and more than a thousand dollars researching Christianity for the planned novel To Scare the Dead.",
-    "date_start": "1975-07-10",
-    "date_end": "1975-07-10",
-    "date_display": "1975-07-10",
-    "date_confidence": "day",
-    "event_type": "religious_thought",
-    "source_name": "Selected Letters 1975-1976, letter to Goran Bengtson, July 10, 1975",
-    "source_type": "curated",
-    "location": "Fullerton, California",
-    "importance": "4",
-    "notes": "Letter id: LET_1975-07-10_GORAN_BENGTSON_0114; a key bridge from 2-3-74 into VALIS-related writing.",
-    "entities": [
-      "To Scare the Dead"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1975_heinlein_tax_loan",
-    "summary": "Tells Lawrence Ashmead that he borrowed $1,700 from Robert A. Heinlein to pay income taxes and wants to repay him from the Scanner advance.",
-    "date_start": "1975-08-18",
-    "date_end": "1975-08-18",
-    "date_display": "1975-08-18",
-    "date_confidence": "day",
-    "event_type": "financial",
-    "source_name": "Selected Letters 1975-1976, letter to Lawrence Ashmead, August 18, 1975",
-    "source_type": "curated",
-    "location": "Fullerton, California",
-    "importance": "3",
-    "notes": "Letter id: LET_1975-08-18_LAWRENCE_ASHMEAD_0135.",
-    "entities": [
-      "Robert A. Heinlein",
-      "Lawrence Ashmead",
-      "A Scanner Darkly"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 275,
-    "summary": "Financial confusion with SMLA regarding UBIK movie options and loans.",
-    "date_start": "1975-09-15",
-    "date_end": "1975-09-15",
-    "date_display": "September 15, 1975",
+    "source_name": null,
     "date_confidence": "exact",
-    "event_type": "publication",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
-    "bio_id": 278,
-    "summary": "Realizing the significance of the girl with the gold fish necklace as \"disinhibiting.\"",
-    "date_start": "1975-09-15",
-    "date_end": "1975-09-15",
-    "date_display": "September 15, 1975",
-    "date_confidence": "exact",
-    "event_type": "other",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 279,
-    "summary": "Feeling the removal of \"blinders\" to see the \"koinos kosmos.\"",
-    "date_start": "1975-09-15",
-    "date_end": "1975-09-15",
-    "date_display": "September 15, 1975",
-    "date_confidence": "exact",
-    "event_type": "other",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 281,
-    "summary": "Experiences of \"bi-lateral hemispheric parity\" (or lack thereof).",
-    "date_start": "1975-09-15",
-    "date_end": "1975-09-15",
-    "date_display": "September 15, 1975",
-    "date_confidence": "exact",
-    "event_type": "other",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
     "bio_id": 282,
     "summary": "3/74: Seeing the universe \"inside out.\"",
     "date_start": "1975-09-15",
-    "date_end": "1975-09-15",
-    "date_display": "September 15, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
-    "bio_id": 286,
-    "summary": "The girl with the gold fish necklace (Primary anamnesis trigger).",
+    "bio_id": 281,
+    "summary": "Experiences of \"bi-lateral hemispheric parity\" (or lack thereof).",
     "date_start": "1975-09-15",
-    "date_end": "1975-09-15",
-    "date_display": "September 15, 1975",
+    "date_end": null,
+    "event_type": "other",
+    "source_name": null,
     "date_confidence": "exact",
-    "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
-    "bio_id": 287,
-    "summary": "The \"Cabrillo\" dream (Phone company, Plane ticket, Monopoly money).",
+    "bio_id": 279,
+    "summary": "Feeling the removal of \"blinders\" to see the \"koinos kosmos.\"",
     "date_start": "1975-09-15",
-    "date_end": "1975-09-15",
-    "date_display": "September 15, 1975",
+    "date_end": null,
+    "event_type": "other",
+    "source_name": null,
     "date_confidence": "exact",
-    "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
+    "bio_id": 275,
+    "summary": "Financial confusion with SMLA regarding UBIK movie options and loans.",
+    "date_start": "1975-09-15",
+    "date_end": null,
+    "event_type": "publication",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 278,
+    "summary": "Realizing the significance of the girl with the gold fish necklace as \"disinhibiting.\"",
+    "date_start": "1975-09-15",
+    "date_end": null,
+    "event_type": "other",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
     "bio_id": 288,
     "summary": "Receiving the Xerox letter.",
     "date_start": "1975-09-15",
-    "date_end": "1975-09-15",
-    "date_display": "September 15, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "correspondence",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 287,
+    "summary": "The \"Cabrillo\" dream (Phone company, Plane ticket, Monopoly money).",
+    "date_start": "1975-09-15",
+    "date_end": null,
+    "event_type": "vision",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
+  },
+  {
+    "bio_id": 286,
+    "summary": "The girl with the gold fish necklace (Primary anamnesis trigger).",
+    "date_start": "1975-09-15",
+    "date_end": null,
+    "event_type": "vision",
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
     "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_01",
@@ -3158,6 +2752,7 @@
     "tensions": [
       "\"Where\" vs. \"When\": Dick realizes the Kingdom is a temporal destination, not a spatial one."
     ],
+    "reading_excerpt": "He ran out of time the way a driver driving too fast runs out of road.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -3192,6 +2787,7 @@
       "\"Exoteric (Die) vs. Esoteric (Live).\"",
       "\"Personal Immortality vs. Collective Glory in Christ's Body.\""
     ],
+    "reading_excerpt": "Whatever purpose was worked remains invisible to us... He probably altered the ontology of the world.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -3226,6 +2822,7 @@
       "\"Idios Kosmos (Private World) vs. Koinos Kosmos (Shared World).\"",
       "\"Linear Entropy vs. Reverse Construction.\""
     ],
+    "reading_excerpt": "Rome One and Rome Two superimposed... the Christians unseating the Prince of This World.",
     "word_count": 2000,
     "has_raw_text": true
   },
@@ -3261,56 +2858,39 @@
       "\"Fear of the Police vs. Deputization by the Spirit.\"",
       "\"Blood Guilt (Schuld) vs. Stout Shield.\""
     ],
+    "reading_excerpt": "The Xerox letter was a [?], a lie, not what it seemed.",
     "word_count": 910,
     "has_raw_text": true
   },
   {
-    "_type": "biography_event",
     "bio_id": 271,
     "summary": "Dreams of conspirators being \"seen\" by the Spirit.",
     "date_start": "1975-09-17",
-    "date_end": "1975-09-17",
-    "date_display": "September 17, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "other",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 272,
     "summary": "Hearing the voice: \"Saint Sophia will be born again. She was not acceptable before.\"",
     "date_start": "1975-09-17",
-    "date_end": "1975-09-17",
-    "date_display": "September 17, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 274,
     "summary": "Realizing the significance of the \"Wisdom of Solomon\" for the 3-74 event.",
     "date_start": "1975-09-17",
-    "date_end": "1975-09-17",
-    "date_display": "September 17, 1975",
-    "date_confidence": "exact",
+    "date_end": null,
     "event_type": "vision",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
     "seg_id": "SEG_EXEG_1975-09-17_Doris_01",
@@ -3342,6 +2922,7 @@
       "\"Feminine Sophia vs. Masculine Christ.\"",
       "\"Outer stability (accidents) vs. Inner change (ontology).\""
     ],
+    "reading_excerpt": "Saint Sophia will be born again. She was not acceptable before.",
     "word_count": 1635,
     "has_raw_text": true
   },
@@ -3358,8 +2939,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_02",
@@ -3374,8 +2956,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_03",
@@ -3390,8 +2973,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_04",
@@ -3406,8 +2990,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_05",
@@ -3422,8 +3007,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_06",
@@ -3438,8 +3024,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_07",
@@ -3454,8 +3041,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_08",
@@ -3470,8 +3058,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_09",
@@ -3486,8 +3075,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_10",
@@ -3502,8 +3092,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_11",
@@ -3518,8 +3109,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_12",
@@ -3534,8 +3126,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_13",
@@ -3550,8 +3143,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_14",
@@ -3566,8 +3160,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_15",
@@ -3582,8 +3177,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_16",
@@ -3598,8 +3194,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_17",
@@ -3614,8 +3211,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_18",
@@ -3630,8 +3228,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_19",
@@ -3646,8 +3245,9 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 2000,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
     "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_20",
@@ -3662,60 +3262,28 @@
     "recurring_concepts": null,
     "people_entities": null,
     "tensions": null,
+    "reading_excerpt": null,
     "word_count": 1368,
-    "has_raw_text": false
+    "has_raw_text": true
   },
   {
-    "_type": "biography_event",
     "bio_id": 663,
     "summary": "PKD acknowledges to a fan-correspondent that FLOW MY TEARS was begun in 1970 and rewritten across eleven versions through late 1972, accounting for textual contradictions; praises the Doubleday copyeditors.",
     "date_start": "1975-11-13",
     "date_end": "1975-11-13",
-    "date_display": "1975-11-13",
-    "date_confidence": "exact",
     "event_type": "correspondence",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 664,
     "summary": "PKD reveals that the character Kathy in FLOW MY TEARS was based on a single real woman he loved, who became psychotic and was repeatedly hospitalized.",
     "date_start": "1975-11-13",
     "date_end": "1975-11-13",
-    "date_display": "1975-11-13",
-    "date_confidence": "exact",
     "event_type": "correspondence",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
-    "source_type": "letter",
-    "location": "Fullerton, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1975_correspondence_scholars",
-    "summary": "Corresponds with scholars and writers about theology, philosophy, and mysticism",
-    "date_start": "1975-1978",
-    "date_end": "1975-1978",
-    "date_display": "1975-1978",
-    "date_confidence": "range",
-    "event_type": "correspondence",
-    "source_name": "Arnold",
-    "source_type": "curated",
-    "location": "Fullerton, California",
-    "importance": "3",
-    "notes": null,
-    "entities": [
-      "Patricia Warrick",
-      "Stanislaw Lem"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
+    "date_confidence": "exact",
+    "_type": "biography_event"
   }
 ]

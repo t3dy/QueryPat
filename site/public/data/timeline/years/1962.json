@@ -1,39 +1,26 @@
 [
   {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1962_high_castle",
-    "summary": "Publishes The Man in the High Castle through Putnam as hardcover edition",
+    "_type": "publication",
+    "work_id": "WORK_the-man-in-the-high-castle",
+    "canonical_title": "The Man in the High Castle",
+    "slug": "the-man-in-the-high-castle",
+    "work_type": "novel",
+    "category": "novels",
     "date_start": "1962",
-    "date_end": "1962",
     "date_display": "1962",
-    "date_confidence": "year",
-    "event_type": "publication",
-    "source_name": "Sutin",
-    "source_type": "curated",
-    "location": "Point Reyes Station, California",
-    "importance": "5",
-    "notes": null,
-    "entities": [
-      "The Man in the High Castle",
-      "Putnam"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
+    "summary": "Canonical record for The Man in the High Castle, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "The Man in the High Castle is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is The Man in the High Castle (1962).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 0
   },
   {
-    "_type": "biography_event",
     "bio_id": 50,
     "summary": "1962: Witnessed a \"band of darkness\" crossing the sky with daughter Laura.",
     "date_start": "1962",
-    "date_end": "1962",
-    "date_display": "1962",
-    "date_confidence": "approximate",
+    "date_end": null,
     "event_type": "relationship",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "Point Reyes Station, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "source_name": null,
+    "date_confidence": "approximate",
+    "_type": "biography_event"
   }
 ]

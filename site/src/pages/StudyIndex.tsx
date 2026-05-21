@@ -21,7 +21,13 @@ interface StudyData {
   study_id: string
   study_label: string
   study_description: string
+  featured_sections?: FeaturedSection[]
   topics: TopicSummary[]
+}
+
+interface FeaturedSection {
+  title: string
+  body: string[]
 }
 
 function LaneBar({ dist }: { dist: { A: number; B: number; C: number } }) {
@@ -79,6 +85,21 @@ export default function StudyIndex() {
           </Link>
         )}
       </div>
+
+      {study.featured_sections && study.featured_sections.length > 0 && (
+        <div className="detail-section">
+          {study.featured_sections.map(section => (
+            <div key={section.title} style={{ marginBottom: '1.5rem' }}>
+              <h2>{section.title}</h2>
+              {section.body.map((paragraph, index) => (
+                <p key={index} style={{ fontSize: '0.95rem', lineHeight: 1.7 }}>
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+          ))}
+        </div>
+      )}
 
       <input
         className="search-input"
