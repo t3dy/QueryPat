@@ -82,6 +82,27 @@
   },
   {
     "_type": "biography_event",
+    "bio_id": "pkd_bio_1972_vancouver_x_kalay_arnold",
+    "summary": "After the Vancouver convention and a suicidal crisis, Dick enters the X-Kalay residential addiction-treatment community.",
+    "date_start": "1972",
+    "date_end": "1972",
+    "date_display": "1972",
+    "date_confidence": "year",
+    "event_type": "health",
+    "source_name": "Arnold, The Divine Madness of Philip K. Dick",
+    "source_type": "curated",
+    "location": "Vancouver, British Columbia",
+    "importance": "4",
+    "notes": "Arnold frames X-Kalay as central to the post-Vancouver drug and recovery period.",
+    "entities": [
+      "X-Kalay",
+      "Kyle Arnold"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 11,
     "summary": "Loss of his library (including *The Red Feather*) in Canada in 1972.",
     "date_start": "1972",
@@ -141,8 +162,29 @@
     "source_type": "exegesis",
     "location": "Vancouver, Canada",
     "importance": null,
-    "theophany_id": "THEO_1972_03_VANCOUVER_DESPAIR",
-    "theophany_slug": "vancouver-despair-1972"
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1972_ubc_lecture",
+    "summary": "Delivers his first major public lecture at the University of British Columbia's Faculty Club in Vancouver, launching the public lecture circuit that later leads to more university appearances.",
+    "date_start": "1972-02",
+    "date_end": "1972-02",
+    "date_display": "1972-02",
+    "date_confidence": "month",
+    "event_type": "lecture",
+    "source_name": "PKD public appearances audit",
+    "source_type": "curated",
+    "location": "University of British Columbia, Vancouver, British Columbia",
+    "importance": "5",
+    "notes": null,
+    "entities": [
+      "University of British Columbia",
+      "Susan Wood"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
   },
   {
     "_type": "theophany",

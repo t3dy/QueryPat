@@ -60,5 +60,26 @@
     ],
     "theophany_id": null,
     "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1973_csuf_talk",
+    "summary": "Records a talk at California State University, Fullerton with Willis E. McNelly, part of the university archive relationship that grows into the manuscript collection at CSUF.",
+    "date_start": "1973-07",
+    "date_end": "1973-07",
+    "date_display": "1973-07",
+    "date_confidence": "month",
+    "event_type": "lecture",
+    "source_name": "PKD public appearances audit",
+    "source_type": "curated",
+    "location": "California State University, Fullerton, Fullerton, California",
+    "importance": "4",
+    "notes": null,
+    "entities": [
+      "California State University, Fullerton",
+      "Willis E. McNelly"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
   }
 ]
