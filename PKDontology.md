@@ -177,6 +177,20 @@ Already implemented in the schema; here is the editorial reason:
 
 **Editorial rule:** A claim's lane must be visible in the entry. A biography event sourced only to the Exegesis (lane B) is a self-report, not a confirmed event. A claim attested by lanes D + E + C is settled.
 
+### 3.1 Reading and retrieval discipline
+
+The ontology is also a retrieval map. When building summaries or indexes, keep the searchable facets aligned with the research questions:
+
+- who
+- what
+- when
+- where
+- why
+- lane
+- contradiction status
+
+If a document can be searched by person, work, place, university, theme, or institution, its summary and metadata should preserve those terms. This is especially important for interviews, biographies, archive documents, and university/conference material.
+
 ---
 
 ## 4. Source Reliability and Contradiction Policy

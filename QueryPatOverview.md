@@ -239,11 +239,40 @@ Per-entity JSON (rather than monolithic) keeps individual page loads cheap and l
 
 ---
 
-## 7. The static site
+## 7. Reading and search discipline
+
+Search is a retrieval tool, not just a string matcher. The corpus should be organized so a researcher can search by:
+
+- evidentiary lane
+- document type
+- person
+- work
+- place
+- university or institutional site
+- theme or dictionary term
+- contradiction zone
+
+The structure of summaries should support that retrieval. Good summaries preserve the search keys a future reader will need: who, what, when, where, why, lane, and contradiction status.
+
+Recommended reading order for any document:
+1. title, author, date, lane
+2. card summary
+3. page summary
+4. linked people, works, places, and terms
+5. contradiction notes
+6. full text or excerpts
+
+This matters because a long document can still be low-signal, and a short summary can still be the best entry point to the evidence.
+
+For interviews and biographies, university appearances, lecture venues, archives, and conference sites should be surfaced as map and timeline candidates whenever they are locatable. For people records, distinguish direct acquaintance from character inspiration, Exegesis importance, or later scholarly mention. For archive documents, keep PKD self-report, biography, scholarship, and fiction visually distinct.
+
+---
+
+## 8. The static site
 
 `site/` is a React 19 + TypeScript + Vite application. It deploys to GitHub Pages via GitHub Actions on push to `main`.
 
-### 7.1 Architecture decisions
+### 8.1 Architecture decisions
 
 - **HashRouter, not BrowserRouter.** GitHub Pages does not support server-side routing rewrites; HashRouter sidesteps this without infrastructure cost.
 - **No global state library.** Bookmarks use `localStorage` with a listener pattern; everything else is local component state or URL-derived. The schema decision (per-route JSON bundles) makes this tractable.
@@ -252,7 +281,7 @@ Per-entity JSON (rather than monolithic) keeps individual page loads cheap and l
 - **CSS custom properties for theming.** Parchment / scholarly palette; no CSS-in-JS framework.
 - **No new dependencies for v1.x knowledge-browser features.** Each cross-navigation feature stayed under 3 KB gzipped.
 
-### 7.2 Pages (12, in `site/src/pages/`)
+### 8.2 Pages (12, in `site/src/pages/`)
 
 | Page | What it is |
 |------|------------|
