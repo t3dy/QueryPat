@@ -1,0 +1,97 @@
+{
+  "work_id": "WORK_the-valis-trilogy",
+  "canonical_title": "The VALIS Trilogy",
+  "slug": "the-valis-trilogy",
+  "author": "Philip K. Dick",
+  "work_type": "novel",
+  "category": "novels",
+  "mention_count": 2,
+  "source_doc_count": 2,
+  "source_doc_types": {
+    "archive_pdf": 2
+  },
+  "first_mention_date": "1978",
+  "last_mention_date": "1978",
+  "card_summary": "PKD-on-PKD catalog for The VALIS Trilogy: 2 detected title mentions across 2 PKD-authored writings. The references cluster in primary text (2), and the detail page shows each source document with its surrounding context.",
+  "page_summary": "This section gathers PKD's own mentions of The VALIS Trilogy across PKD-authored primary writings in the archive. The catalog records 2 detected title mentions in 2 PKD-authored documents. \n\nThe represented source types here include primary text (2). The heaviest source documents are Cosmogony and Cosmology (1), PKD Exegesis: August 1978, Folder 18, Pages 6-10 (1). \n\nNearby language repeatedly turns on essential, theological, framework, and provides. \n\nThe mention list is organized by source document so readers can move directly from each remark to the underlying text.",
+  "top_sources": [
+    {
+      "doc_id": "DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+      "doc_slug": "cosmogony-and-cosmology",
+      "doc_title": "Cosmogony and Cosmology",
+      "doc_type": "archive_pdf",
+      "date_display": "1978",
+      "mention_count": 1
+    },
+    {
+      "doc_id": "DOC_ARCH_PKD_EXEGESIS_AUG_1978_FOLDER_18_PG_6_10",
+      "doc_slug": "pkd-exegesis-aug-1978-folder-18-pg-6-10",
+      "doc_title": "PKD Exegesis: August 1978, Folder 18, Pages 6-10",
+      "doc_type": "archive_pdf",
+      "date_display": "1978",
+      "mention_count": 1
+    }
+  ],
+  "mentions": [
+    {
+      "mention_id": "PKDPKD_the-valis-trilogy_cosmogony-and-cosmology_1",
+      "work_id": "WORK_the-valis-trilogy",
+      "doc_id": "DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+      "doc_slug": "cosmogony-and-cosmology",
+      "doc_title": "Cosmogony and Cosmology",
+      "doc_type": "archive_pdf",
+      "date_display": "1978",
+      "match_text": "valis trilogy",
+      "context_snippet": "it provides essential context for understanding the theological framework underlying his valis trilogy cosmogony and cosmology 1978 by philip k dick as to our reality being a projected framewo",
+      "mention_order": 1
+    },
+    {
+      "mention_id": "PKDPKD_the-valis-trilogy_pkd-exegesis-aug-1978-folder-18-pg-6-10_2",
+      "work_id": "WORK_the-valis-trilogy",
+      "doc_id": "DOC_ARCH_PKD_EXEGESIS_AUG_1978_FOLDER_18_PG_6_10",
+      "doc_slug": "pkd-exegesis-aug-1978-folder-18-pg-6-10",
+      "doc_title": "PKD Exegesis: August 1978, Folder 18, Pages 6-10",
+      "doc_type": "archive_pdf",
+      "date_display": "1978",
+      "match_text": "valis trilogy",
+      "context_snippet": "g as dick was developing the theological and cosmological framework that would inform his valis trilogy these primary source documents are essential for scholars seeking to trace the developmen",
+      "mention_order": 2
+    }
+  ],
+  "source_documents": [
+    {
+      "doc_id": "DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+      "doc_slug": "cosmogony-and-cosmology",
+      "doc_title": "Cosmogony and Cosmology",
+      "doc_type": "archive_pdf",
+      "date_display": "1978",
+      "mention_count": 1,
+      "excerpts": [
+        {
+          "match_text": "valis trilogy",
+          "context_snippet": "it provides essential context for understanding the theological framework underlying his valis trilogy cosmogony and cosmology 1978 by philip k dick as to our reality being a projected framewo",
+          "mention_order": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC_ARCH_PKD_EXEGESIS_AUG_1978_FOLDER_18_PG_6_10",
+      "doc_slug": "pkd-exegesis-aug-1978-folder-18-pg-6-10",
+      "doc_title": "PKD Exegesis: August 1978, Folder 18, Pages 6-10",
+      "doc_type": "archive_pdf",
+      "date_display": "1978",
+      "mention_count": 1,
+      "excerpts": [
+        {
+          "match_text": "valis trilogy",
+          "context_snippet": "g as dick was developing the theological and cosmological framework that would inform his valis trilogy these primary source documents are essential for scholars seeking to trace the developmen",
+          "mention_order": 2
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "The VALIS Trilogy",
+    "VALIS Trilogy"
+  ]
+}

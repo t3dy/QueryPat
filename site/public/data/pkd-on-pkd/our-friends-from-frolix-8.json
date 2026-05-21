@@ -1,0 +1,97 @@
+{
+  "work_id": "WORK_our-friends-from-frolix-8",
+  "canonical_title": "Our Friends from Frolix 8",
+  "slug": "our-friends-from-frolix-8",
+  "author": "Philip K. Dick",
+  "work_type": "novel",
+  "category": "novels",
+  "mention_count": 2,
+  "source_doc_count": 2,
+  "source_doc_types": {
+    "letter": 1,
+    "archive_pdf": 1
+  },
+  "first_mention_date": "1993",
+  "last_mention_date": "Unknown",
+  "card_summary": "PKD-on-PKD catalog for Our Friends from Frolix 8: 2 detected title mentions across 2 PKD-authored writings. The references cluster in letters (1), primary text (1), and the detail page shows each source document with its surrounding context.",
+  "page_summary": "This section gathers PKD's own mentions of Our Friends from Frolix 8 across PKD-authored primary writings in the archive. The catalog records 2 detected title mentions in 2 PKD-authored documents. \n\nThe represented source types here include letters (1), primary text (1). The heaviest source documents are The Selected Letters of Philip K. Dick: 1972-1973 (1), Selected Stories of Philip K. Dick (1). \n\nNearby language repeatedly turns on 1969, maze, death, and 1970. \n\nThe mention list is organized by source document so readers can move directly from each remark to the underlying text.",
+  "top_sources": [
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "mention_count": 1
+    },
+    {
+      "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
+      "doc_slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
+      "doc_title": "Selected Stories of Philip K. Dick",
+      "doc_type": "archive_pdf",
+      "date_display": "Unknown",
+      "mention_count": 1
+    }
+  ],
+  "mentions": [
+    {
+      "mention_id": "PKDPKD_our-friends-from-frolix-8_philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books_1",
+      "work_id": "WORK_our-friends-from-frolix-8",
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "match_text": "our friends from frolix 8",
+      "context_snippet": "1968 galactic pot healer 1969 ubik 1969 the preserving machine 1969 a maze of death 1970 our friends from frolix 8 1970 we can build you 1972 the book of philip k dick 1973 flow my tears the policeman sai",
+      "mention_order": 1
+    },
+    {
+      "mention_id": "PKDPKD_our-friends-from-frolix-8_oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick_2",
+      "work_id": "WORK_our-friends-from-frolix-8",
+      "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
+      "doc_slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
+      "doc_title": "Selected Stories of Philip K. Dick",
+      "doc_type": "archive_pdf",
+      "date_display": "Unknown",
+      "match_text": "our friends from frolix 8",
+      "context_snippet": "he high castle the man who japed martian time slip a maze of death now wait for last year our friends from frolix 8 the penultimate truth radio free albemuth a scanner darkly simulacra solar lottery the th",
+      "mention_order": 2
+    }
+  ],
+  "source_documents": [
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "mention_count": 1,
+      "excerpts": [
+        {
+          "match_text": "our friends from frolix 8",
+          "context_snippet": "1968 galactic pot healer 1969 ubik 1969 the preserving machine 1969 a maze of death 1970 our friends from frolix 8 1970 we can build you 1972 the book of philip k dick 1973 flow my tears the policeman sai",
+          "mention_order": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
+      "doc_slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
+      "doc_title": "Selected Stories of Philip K. Dick",
+      "doc_type": "archive_pdf",
+      "date_display": "Unknown",
+      "mention_count": 1,
+      "excerpts": [
+        {
+          "match_text": "our friends from frolix 8",
+          "context_snippet": "he high castle the man who japed martian time slip a maze of death now wait for last year our friends from frolix 8 the penultimate truth radio free albemuth a scanner darkly simulacra solar lottery the th",
+          "mention_order": 2
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "Our Friends from Frolix 8"
+  ]
+}

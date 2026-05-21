@@ -1,0 +1,61 @@
+{
+  "work_id": "WORK_mary-and-the-giant",
+  "canonical_title": "Mary and the Giant",
+  "slug": "mary-and-the-giant",
+  "author": "Philip K. Dick",
+  "work_type": "novel",
+  "category": "novels",
+  "mention_count": 1,
+  "source_doc_count": 1,
+  "source_doc_types": {
+    "letter": 1
+  },
+  "first_mention_date": "1993",
+  "last_mention_date": "1993",
+  "card_summary": "PKD-on-PKD catalog for Mary and the Giant: 1 detected title mentions across 1 PKD-authored writings. The references cluster in letters (1), and the detail page shows each source document with its surrounding context.",
+  "page_summary": "This section gathers PKD's own mentions of Mary and the Giant across PKD-authored primary writings in the archive. The catalog records 1 detected title mentions in 1 PKD-authored documents. \n\nThe represented source types here include letters (1). The heaviest source documents are The Selected Letters of Philip K. Dick: 1972-1973 (1). \n\nNearby language repeatedly turns on 1988, 1987, albemuth, and 1985. \n\nThe mention list is organized by source document so readers can move directly from each remark to the underlying text.",
+  "top_sources": [
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "mention_count": 1
+    }
+  ],
+  "mentions": [
+    {
+      "mention_id": "PKDPKD_mary-and-the-giant_philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books_1",
+      "work_id": "WORK_mary-and-the-giant",
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "match_text": "mary and the giant",
+      "context_snippet": "e albemuth 1985 humpty dumpty in oakland 1986 the collected stories of philip k dick 1987 mary and the giant 1987 the broken bubble 1988 nick and the glimmung 1988 the dark haired girl 1988 n k o to",
+      "mention_order": 1
+    }
+  ],
+  "source_documents": [
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "mention_count": 1,
+      "excerpts": [
+        {
+          "match_text": "mary and the giant",
+          "context_snippet": "e albemuth 1985 humpty dumpty in oakland 1986 the collected stories of philip k dick 1987 mary and the giant 1987 the broken bubble 1988 nick and the glimmung 1988 the dark haired girl 1988 n k o to",
+          "mention_order": 1
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "Mary and the Giant"
+  ]
+}

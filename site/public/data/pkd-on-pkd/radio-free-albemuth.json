@@ -1,0 +1,114 @@
+{
+  "work_id": "WORK_radio-free-albemuth",
+  "canonical_title": "Radio Free Albemuth",
+  "slug": "radio-free-albemuth",
+  "author": "Philip K. Dick",
+  "work_type": "novel",
+  "category": "novels",
+  "mention_count": 3,
+  "source_doc_count": 2,
+  "source_doc_types": {
+    "letter": 1,
+    "archive_pdf": 2
+  },
+  "first_mention_date": "1993",
+  "last_mention_date": "Unknown",
+  "card_summary": "PKD-on-PKD catalog for Radio Free Albemuth: 3 detected title mentions across 2 PKD-authored writings. The references cluster in primary text (2), letters (1), and the detail page shows each source document with its surrounding context.",
+  "page_summary": "This section gathers PKD's own mentions of Radio Free Albemuth across PKD-authored primary writings in the archive. The catalog records 3 detected title mentions in 2 PKD-authored documents. \n\nThe represented source types here include primary text (2), letters (1). The heaviest source documents are Selected Stories of Philip K. Dick (2), The Selected Letters of Philip K. Dick: 1972-1973 (1). \n\nNearby language repeatedly turns on 1985, stigmata, palmer, and eldritch. \n\nThe mention list is organized by source document so readers can move directly from each remark to the underlying text.",
+  "top_sources": [
+    {
+      "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
+      "doc_slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
+      "doc_title": "Selected Stories of Philip K. Dick",
+      "doc_type": "archive_pdf",
+      "date_display": "Unknown",
+      "mention_count": 2
+    },
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "mention_count": 1
+    }
+  ],
+  "mentions": [
+    {
+      "mention_id": "PKDPKD_radio-free-albemuth_philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books_1",
+      "work_id": "WORK_radio-free-albemuth",
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "match_text": "radio free albemuth",
+      "context_snippet": "the screenplay 1985 i hope i shall arrive soon 1985 puttering about in a small land 1985 radio free albemuth 1985 humpty dumpty in oakland 1986 the collected stories of philip k dick 1987 mary and t",
+      "mention_order": 1
+    },
+    {
+      "mention_id": "PKDPKD_radio-free-albemuth_oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick_2",
+      "work_id": "WORK_radio-free-albemuth",
+      "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
+      "doc_slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
+      "doc_title": "Selected Stories of Philip K. Dick",
+      "doc_type": "archive_pdf",
+      "date_display": "Unknown",
+      "match_text": "radio free albemuth",
+      "context_snippet": "stigmata of palmer eldritch and deus irae co written with roger zelazny the inclusion of radio free albemuth and the transmigration of timothy archer dates this collection to after 1982 dick was one",
+      "mention_order": 2
+    },
+    {
+      "mention_id": "PKDPKD_radio-free-albemuth_oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick_3",
+      "work_id": "WORK_radio-free-albemuth",
+      "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
+      "doc_slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
+      "doc_title": "Selected Stories of Philip K. Dick",
+      "doc_type": "archive_pdf",
+      "date_display": "Unknown",
+      "match_text": "radio free albemuth",
+      "context_snippet": "ip a maze of death now wait for last year our friends from frolix 8 the penultimate truth radio free albemuth a scanner darkly simulacra solar lottery the three stigmata of palmer eldritch time out o",
+      "mention_order": 3
+    }
+  ],
+  "source_documents": [
+    {
+      "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
+      "doc_slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
+      "doc_title": "Selected Stories of Philip K. Dick",
+      "doc_type": "archive_pdf",
+      "date_display": "Unknown",
+      "mention_count": 2,
+      "excerpts": [
+        {
+          "match_text": "radio free albemuth",
+          "context_snippet": "stigmata of palmer eldritch and deus irae co written with roger zelazny the inclusion of radio free albemuth and the transmigration of timothy archer dates this collection to after 1982 dick was one",
+          "mention_order": 2
+        },
+        {
+          "match_text": "radio free albemuth",
+          "context_snippet": "ip a maze of death now wait for last year our friends from frolix 8 the penultimate truth radio free albemuth a scanner darkly simulacra solar lottery the three stigmata of palmer eldritch time out o",
+          "mention_order": 3
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "mention_count": 1,
+      "excerpts": [
+        {
+          "match_text": "radio free albemuth",
+          "context_snippet": "the screenplay 1985 i hope i shall arrive soon 1985 puttering about in a small land 1985 radio free albemuth 1985 humpty dumpty in oakland 1986 the collected stories of philip k dick 1987 mary and t",
+          "mention_order": 1
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "Radio Free Albemuth"
+  ]
+}

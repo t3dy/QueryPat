@@ -1,0 +1,132 @@
+{
+  "work_id": "WORK_confessions-of-a-crap-artist",
+  "canonical_title": "Confessions of a Crap Artist",
+  "slug": "confessions-of-a-crap-artist",
+  "author": "Philip K. Dick",
+  "work_type": "novel",
+  "category": "novels",
+  "mention_count": 3,
+  "source_doc_count": 3,
+  "source_doc_types": {
+    "letter": 2,
+    "archive_pdf": 1
+  },
+  "first_mention_date": "1975-1979",
+  "last_mention_date": "Unknown",
+  "card_summary": "PKD-on-PKD catalog for Confessions of a Crap Artist: 3 detected title mentions across 3 PKD-authored writings. The references cluster in letters (2), primary text (1), and the detail page shows each source document with its surrounding context.",
+  "page_summary": "This section gathers PKD's own mentions of Confessions of a Crap Artist across PKD-authored primary writings in the archive. The catalog records 3 detected title mentions in 3 PKD-authored documents. \n\nThe represented source types here include letters (2), primary text (1). The heaviest source documents are Claudia Bush Letters (1), The Selected Letters of Philip K. Dick: 1972-1973 (1), Selected Stories of Philip K. Dick (1). \n\nNearby language repeatedly turns on philip, when, close, and deus. \n\nThe mention list is organized by source document so readers can move directly from each remark to the underlying text.",
+  "top_sources": [
+    {
+      "doc_id": "DOC_ARCH_CLAUDIA_BUSH_LETTERS_CORPUS",
+      "doc_slug": "claudia-bush-letters",
+      "doc_title": "Claudia Bush Letters",
+      "doc_type": "letter",
+      "date_display": "1975-1979",
+      "mention_count": 1
+    },
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "mention_count": 1
+    },
+    {
+      "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
+      "doc_slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
+      "doc_title": "Selected Stories of Philip K. Dick",
+      "doc_type": "archive_pdf",
+      "date_display": "Unknown",
+      "mention_count": 1
+    }
+  ],
+  "mentions": [
+    {
+      "mention_id": "PKDPKD_confessions-of-a-crap-artist_claudia-bush-letters_1",
+      "work_id": "WORK_confessions-of-a-crap-artist",
+      "doc_id": "DOC_ARCH_CLAUDIA_BUSH_LETTERS_CORPUS",
+      "doc_slug": "claudia-bush-letters",
+      "doc_title": "Claudia Bush Letters",
+      "doc_type": "letter",
+      "date_display": "1975-1979",
+      "match_text": "confessions of a crap artist",
+      "context_snippet": "e we americans heller has it saul bellow has it you do too claudia when you read my novel confessions of a crap artist you ll see that i came close to having it close enough to know it when someone else has i",
+      "mention_order": 1
+    },
+    {
+      "mention_id": "PKDPKD_confessions-of-a-crap-artist_philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books_2",
+      "work_id": "WORK_confessions-of-a-crap-artist",
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "match_text": "confessions of a crap artist",
+      "context_snippet": "e can build you 1972 the book of philip k dick 1973 flow my tears the policeman said 1974 confessions of a crap artist 1975 deus irae with roger zelazny 1976 the best of philip k dick 1977 a scanner darkly 19",
+      "mention_order": 2
+    },
+    {
+      "mention_id": "PKDPKD_confessions-of-a-crap-artist_oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick_3",
+      "work_id": "WORK_confessions-of-a-crap-artist",
+      "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
+      "doc_slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
+      "doc_title": "Selected Stories of Philip K. Dick",
+      "doc_type": "archive_pdf",
+      "date_display": "Unknown",
+      "match_text": "confessions of a crap artist",
+      "context_snippet": "d selection of his finest shorter works novels by philip k dick clans of the alphane moon confessions of a crap artist the cosmic puppets counter clock world the crack in space deus irae with roger zelazny th",
+      "mention_order": 3
+    }
+  ],
+  "source_documents": [
+    {
+      "doc_id": "DOC_ARCH_CLAUDIA_BUSH_LETTERS_CORPUS",
+      "doc_slug": "claudia-bush-letters",
+      "doc_title": "Claudia Bush Letters",
+      "doc_type": "letter",
+      "date_display": "1975-1979",
+      "mention_count": 1,
+      "excerpts": [
+        {
+          "match_text": "confessions of a crap artist",
+          "context_snippet": "e we americans heller has it saul bellow has it you do too claudia when you read my novel confessions of a crap artist you ll see that i came close to having it close enough to know it when someone else has i",
+          "mention_order": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "mention_count": 1,
+      "excerpts": [
+        {
+          "match_text": "confessions of a crap artist",
+          "context_snippet": "e can build you 1972 the book of philip k dick 1973 flow my tears the policeman said 1974 confessions of a crap artist 1975 deus irae with roger zelazny 1976 the best of philip k dick 1977 a scanner darkly 19",
+          "mention_order": 2
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
+      "doc_slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
+      "doc_title": "Selected Stories of Philip K. Dick",
+      "doc_type": "archive_pdf",
+      "date_display": "Unknown",
+      "mention_count": 1,
+      "excerpts": [
+        {
+          "match_text": "confessions of a crap artist",
+          "context_snippet": "d selection of his finest shorter works novels by philip k dick clans of the alphane moon confessions of a crap artist the cosmic puppets counter clock world the crack in space deus irae with roger zelazny th",
+          "mention_order": 3
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    "Confessions of a Crap Artist"
+  ]
+}
