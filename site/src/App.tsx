@@ -16,6 +16,15 @@ import ArchiveDetail from './pages/ArchiveDetail'
 import Search from './pages/Search'
 import Analytics from './pages/Analytics'
 import Biography from './pages/Biography'
+import PKDMap from './pages/PKDMap'
+import People from './pages/People'
+import PeopleDetail from './pages/PeopleDetail'
+import Works from './pages/Works'
+import WorkDetail from './pages/WorkDetail'
+import Themes from './pages/Themes'
+import ThemeDetail from './pages/ThemeDetail'
+import PKDOnPKD from './pages/PKDOnPKD'
+import PKDOnPKDDetail from './pages/PKDOnPKDDetail'
 import Scholars from './pages/Scholars'
 import Names from './pages/Names'
 import NameDetail from './pages/NameDetail'
@@ -47,8 +56,17 @@ function App() {
           <Route path="dictionary/:slug" element={<TermDetail />} />
           <Route path="archive" element={<Archive />} />
           <Route path="archive/:slug" element={<ArchiveDetail />} />
+          <Route path="map" element={<PKDMap />} />
           <Route path="search" element={<Search />} />
           <Route path="biography" element={<Biography />} />
+          <Route path="people" element={<People />} />
+          <Route path="people/:slug" element={<PeopleDetail />} />
+          <Route path="works" element={<Works />} />
+          <Route path="works/:slug" element={<WorkDetail />} />
+          <Route path="themes" element={<Themes />} />
+          <Route path="themes/:slug" element={<ThemeDetail />} />
+          <Route path="pkd-on-pkd" element={<PKDOnPKD />} />
+          <Route path="pkd-on-pkd/:slug" element={<PKDOnPKDDetail />} />
           <Route path="scholars" element={<Scholars />} />
           <Route path="names" element={<Names />} />
           <Route path="names/:slug" element={<NameDetail />} />

@@ -39,6 +39,24 @@ def export_timeline(db: sqlite3.Connection, data_dir: Path):
     years_dir = timeline_dir / 'years'
     ensure_dir(years_dir)
 
+    def _entry_sort_key(entry):
+        if isinstance(entry, dict):
+            date_start = entry.get('date_start') or ''
+            if entry.get('_type') == 'publication':
+                rank = 0
+                label = entry.get('canonical_title') or entry.get('slug') or ''
+            elif entry.get('_type') == 'biography_event':
+                rank = 1
+                label = entry.get('summary') or entry.get('bio_id') or ''
+            elif entry.get('_type') == 'theophany':
+                rank = 2
+                label = entry.get('name') or entry.get('theophany_id') or ''
+            else:
+                rank = 3
+                label = entry.get('title') or entry.get('seg_id') or ''
+            return (date_start, rank, label)
+        return ('', 9, '')
+
     # Get all segments with dates, grouped by year
     rows = db.execute("""
         SELECT seg_id, doc_id, slug, title,
@@ -67,6 +85,37 @@ def export_timeline(db: sqlite3.Connection, data_dir: Path):
         year = row[4][:4] if row[4] else 'unknown'
         years[year].append(seg)
 
+    # Load canonical works with publication years
+    work_rows = db.execute("""
+        SELECT work_id, canonical_title, slug, work_type, category,
+               date_start, date_display, card_summary, page_summary,
+               source_count, page_count
+        FROM works
+        WHERE date_start IS NOT NULL
+          AND length(date_start) >= 4
+          AND substr(date_start, 1, 4) BETWEEN '1928' AND '1982'
+        ORDER BY date_start, canonical_title
+    """).fetchall()
+    pub_years = defaultdict(list)
+    for wr in work_rows:
+        yr = wr[5][:4] if wr[5] else None
+        if not yr:
+            continue
+        pub_years[yr].append({
+            '_type': 'publication',
+            'work_id': wr[0],
+            'canonical_title': wr[1],
+            'slug': wr[2],
+            'work_type': wr[3],
+            'category': wr[4],
+            'date_start': wr[5],
+            'date_display': wr[6],
+            'summary': wr[7] or wr[8] or '',
+            'page_summary': wr[8] or wr[7] or '',
+            'source_count': wr[9],
+            'page_count': wr[10],
+        })
+
     # Load biography events per year
     bio_rows = db.execute("""
         SELECT bio_id, summary, date_start, date_end,
@@ -87,25 +136,38 @@ def export_timeline(db: sqlite3.Connection, data_dir: Path):
                 '_type': 'biography_event',
             })
 
-    # Merge all years (segments + biography events)
-    all_year_keys = sorted(set(years.keys()) | set(bio_years.keys()))
+    # Merge all years (segments + publications + biography events)
+    all_year_keys = sorted(set(years.keys()) | set(pub_years.keys()) | set(bio_years.keys()))
 
     # Write index with both counts
     index = []
     for y in all_year_keys:
         seg_count = len(years.get(y, []))
+        pub_count = len(pub_years.get(y, []))
         bio_count = len(bio_years.get(y, []))
-        index.append({'year': y, 'count': seg_count, 'bio_events': bio_count})
+        total = seg_count + pub_count + bio_count
+        index.append({
+            'year': y,
+            'count': seg_count,
+            'publications': pub_count,
+            'bio_events': bio_count,
+            'total': total,
+        })
     _write_json(timeline_dir / 'index.json', index)
 
-    # Write per-year files (segments + biography events combined)
+    # Write per-year files (segments + publications + biography events combined)
     for y in all_year_keys:
         year_data = years.get(y, [])
+        if pub_years.get(y):
+            year_data = year_data + pub_years[y]
         if bio_years.get(y):
             year_data = year_data + bio_years[y]
+        year_data.sort(key=_entry_sort_key)
         _write_json(years_dir / f'{y}.json', year_data)
 
-    print(f"    {len(rows)} segments + {len(bio_rows)} bio events across {len(all_year_keys)} years")
+    print(
+        f"    {len(rows)} segments + {len(work_rows)} publications + {len(bio_rows)} bio events across {len(all_year_keys)} years"
+    )
 
 
 def export_dictionary(db: sqlite3.Connection, data_dir: Path):
@@ -116,10 +178,23 @@ def export_dictionary(db: sqlite3.Connection, data_dir: Path):
     ensure_dir(terms_dir)
 
     # Index: accepted + provisional terms (summary fields)
-    rows = db.execute("""
-        SELECT term_id, canonical_name, slug, status, review_state,
-               primary_category, mention_count, card_description,
-               first_appearance, peak_usage_start
+    # noise_score and a quick claim-coverage flag let the site grade entries
+    # without re-fetching their detail JSON.
+    has_noise = 'noise_score' in [
+        c[1] for c in db.execute("PRAGMA table_info(terms)").fetchall()
+    ]
+    has_def_cids = 'definition_claim_ids' in [
+        c[1] for c in db.execute("PRAGMA table_info(terms)").fetchall()
+    ]
+    cols_select = ("term_id, canonical_name, slug, status, review_state, "
+                   "primary_category, mention_count, card_description, "
+                   "first_appearance, peak_usage_start")
+    if has_noise:
+        cols_select += ", noise_score"
+    if has_def_cids:
+        cols_select += (", definition_claim_ids, interpretive_note_claim_ids")
+    rows = db.execute(f"""
+        SELECT {cols_select}
         FROM terms
         WHERE status IN ('accepted', 'provisional')
         ORDER BY mention_count DESC
@@ -127,13 +202,25 @@ def export_dictionary(db: sqlite3.Connection, data_dir: Path):
 
     index = []
     for row in rows:
-        index.append({
+        entry = {
             'term_id': row[0], 'canonical_name': row[1], 'slug': row[2],
             'status': row[3], 'review_state': row[4],
             'primary_category': row[5], 'mention_count': row[6],
             'card_description': (row[7] or '')[:300],  # truncate for index
             'first_appearance': row[8], 'peak_usage_start': row[9],
-        })
+        }
+        idx = 10
+        if has_noise:
+            entry['noise_score'] = row[idx]
+            idx += 1
+        if has_def_cids:
+            def_cids = _parse_json(row[idx]); idx += 1
+            int_cids = _parse_json(row[idx]); idx += 1
+            entry['claim_backed'] = bool(
+                (def_cids and len(def_cids) > 0)
+                or (int_cids and len(int_cids) > 0)
+            )
+        index.append(entry)
     _write_json(dict_dir / 'index.json', index)
 
     # Per-term detail files
@@ -151,6 +238,55 @@ def export_dictionary(db: sqlite3.Connection, data_dir: Path):
         # Parse JSON fields
         for field in ['thematic_categories', 'see_also']:
             term_data[field] = _parse_json(term_data.get(field))
+
+        # Parse new prose-provenance arrays (added by claim_ir migration).
+        prose_fields = ['definition', 'interpretive_note',
+                        'visionary_significance', 'scholarly_caution',
+                        'card_description', 'full_description']
+        all_cited_ids: set[str] = set()
+        for pf in prose_fields:
+            cid_col = f'{pf}_claim_ids'
+            if cid_col in term_data:
+                arr = _parse_json(term_data.get(cid_col))
+                term_data[cid_col] = arr or []
+                if arr:
+                    all_cited_ids.update(arr)
+
+        # Embed cited-claim metadata so the site can render citation popovers
+        # without a separate fetch. Keys are claim_ids; values are minimal
+        # display-shape records.
+        cited_claims = {}
+        if all_cited_ids:
+            placeholders = ",".join("?" * len(all_cited_ids))
+            for r in db.execute(
+                f"""SELECT c.claim_id, c.claim_text, c.claim_type, c.lane,
+                           c.polarity, c.speaker, c.confidence,
+                           c.source_type, c.source_id,
+                           c.char_start, c.char_end, c.doc_id,
+                           d.title AS doc_title, d.slug AS doc_slug,
+                           COALESCE(d.date_display, d.date_start) AS date
+                    FROM claims c JOIN documents d ON c.doc_id = d.doc_id
+                    WHERE c.claim_id IN ({placeholders})""",
+                tuple(all_cited_ids),
+            ):
+                cited_claims[r[0]] = {
+                    'claim_id':   r[0],
+                    'claim_text': r[1],
+                    'claim_type': r[2],
+                    'lane':       r[3],
+                    'polarity':   r[4],
+                    'speaker':    r[5],
+                    'confidence': r[6],
+                    'source_type': r[7],
+                    'source_id':   r[8],
+                    'char_start':  r[9],
+                    'char_end':    r[10],
+                    'doc_id':      r[11],
+                    'doc_title':   r[12],
+                    'doc_slug':    r[13],
+                    'date':        r[14],
+                }
+        term_data['cited_claims'] = cited_claims
 
         # Aliases
         aliases = db.execute("""
@@ -501,16 +637,28 @@ def export_analytics(db: sqlite3.Connection, data_dir: Path):
     bio_by_year = {r[0]: r[1] for r in bio_rows}
 
     # Build full year range (1928-1982 = PKD's lifetime)
+    pub_rows = db.execute("""
+        SELECT SUBSTR(date_start, 1, 4) AS year, COUNT(*) AS cnt
+        FROM works
+        WHERE date_start IS NOT NULL
+          AND length(date_start) >= 4
+          AND substr(date_start, 1, 4) BETWEEN '1928' AND '1982'
+        GROUP BY year ORDER BY year
+    """).fetchall()
+    pub_by_year = {r[0]: r[1] for r in pub_rows}
+
     all_years = []
     for y in range(1928, 1983):
         yr = str(y)
         segs = seg_by_year.get(yr, 0)
         bios = bio_by_year.get(yr, 0)
+        pubs = pub_by_year.get(yr, 0)
         all_years.append({
             'year': yr,
             'count': segs,
             'bio_events': bios,
-            'has_content': segs > 0 or bios > 0,
+            'publications': pubs,
+            'has_content': segs > 0 or bios > 0 or pubs > 0,
         })
     analytics['segments_per_year'] = all_years
 
@@ -867,6 +1015,7 @@ def run(db: sqlite3.Connection, project_dir: Path):
     export_search_index(db, data_dir)
     export_analytics(db, data_dir)
     export_graph(db, data_dir)
+    export_pkd_on_pkd(db, data_dir)
     export_studies(db, data_dir)
     export_scenes_json(db, data_dir)
 
@@ -895,6 +1044,18 @@ def export_scenes_json(db: sqlite3.Connection, data_dir: Path):
         print(f"    SKIP: scenes export not available ({e})")
     except Exception as e:
         print(f"    ERROR: scenes export failed ({e})")
+
+
+def export_pkd_on_pkd(db: sqlite3.Connection, data_dir: Path):
+    """Export the PKD on PKD novel-mention catalog."""
+    print("  Exporting PKD on PKD...")
+    try:
+        from build_pkd_on_pkd import run as build_pkd_on_pkd
+        build_pkd_on_pkd(db, seed_db=True)
+    except ImportError as e:
+        print(f"    SKIP: PKD on PKD export not available ({e})")
+    except Exception as e:
+        print(f"    ERROR: PKD on PKD export failed ({e})")
 
 
 if __name__ == '__main__':

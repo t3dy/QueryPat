@@ -387,6 +387,59 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
         'related_topics': related_topics,
     }
 
+    # Prose-provenance overlay (claim-backed dossier sections).
+    # Pulls <field>_claim_ids / <field>_legacy / <field>_generator and
+    # embeds a cited_claims map keyed by claim_id, exactly like terms do.
+    PROSE_FIELDS = [
+        'definition', 'pkd_relevance', 'in_the_fiction', 'in_the_exegesis',
+        'intellectual_background', 'scholarly_debate', 'chronology_summary',
+        'contradictions_summary', 'editorial_notes',
+    ]
+    cols = [c[1] for c in db.execute("PRAGMA table_info(study_topics)").fetchall()]
+    if any(f"{f}_claim_ids" in cols for f in PROSE_FIELDS):
+        all_cited: set = set()
+        for f in PROSE_FIELDS:
+            cid_col = f"{f}_claim_ids"
+            leg_col = f"{f}_legacy"
+            gen_col = f"{f}_generator"
+            if cid_col in cols:
+                row = db.execute(
+                    f"SELECT {cid_col}, {leg_col}, {gen_col} FROM study_topics "
+                    f"WHERE topic_id = ?", (topic_id,),
+                ).fetchone()
+                ids = safe_json(row[0]) if row[0] else []
+                detail[cid_col] = ids or []
+                if row[1]:
+                    detail[leg_col] = row[1]
+                if row[2]:
+                    detail[gen_col] = row[2]
+                if ids:
+                    all_cited.update(ids)
+        cited_claims = {}
+        if all_cited:
+            placeholders = ",".join("?" * len(all_cited))
+            for r in db.execute(
+                f"""SELECT c.claim_id, c.claim_text, c.claim_type, c.lane,
+                           c.polarity, c.speaker, c.confidence,
+                           c.source_type, c.source_id,
+                           c.char_start, c.char_end, c.doc_id,
+                           d.title AS doc_title, d.slug AS doc_slug,
+                           COALESCE(d.date_display, d.date_start) AS date
+                    FROM claims c JOIN documents d ON c.doc_id = d.doc_id
+                    WHERE c.claim_id IN ({placeholders})""",
+                tuple(all_cited),
+            ):
+                cited_claims[r[0]] = {
+                    'claim_id': r[0], 'claim_text': r[1],
+                    'claim_type': r[2], 'lane': r[3], 'polarity': r[4],
+                    'speaker': r[5], 'confidence': r[6],
+                    'source_type': r[7], 'source_id': r[8],
+                    'char_start': r[9], 'char_end': r[10],
+                    'doc_id': r[11], 'doc_title': r[12],
+                    'doc_slug': r[13], 'date': r[14],
+                }
+        detail['cited_claims'] = cited_claims
+
     topics_dir = out_dir / study_id / 'topics'
     topics_dir.mkdir(parents=True, exist_ok=True)
 

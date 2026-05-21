@@ -19,6 +19,7 @@ export default function Dictionary() {
   const { data: terms, loading } = useData<TermSummary[]>('dictionary/index.json')
   const [search, setSearch] = useState('')
   const [category, setCategory] = useState<string>('all')
+  const [sortBy, setSortBy] = useState<string>('mentions')
 
   const categories = useMemo(() => {
     if (!terms) return []
@@ -40,8 +41,13 @@ export default function Dictionary() {
         (t.primary_category || '').toLowerCase().includes(q)
       )
     }
-    return result
-  }, [terms, search, category])
+    return [...result].sort((a, b) => {
+      if (sortBy === 'name') return a.canonical_name.localeCompare(b.canonical_name)
+      if (sortBy === 'first') return (a.first_appearance || '9999').localeCompare(b.first_appearance || '9999')
+      if (sortBy === 'review') return (a.review_state || '').localeCompare(b.review_state || '') || a.canonical_name.localeCompare(b.canonical_name)
+      return (b.mention_count || 0) - (a.mention_count || 0) || a.canonical_name.localeCompare(b.canonical_name)
+    })
+  }, [terms, search, category, sortBy])
 
   if (loading) return <div className="loading">Loading...</div>
 
@@ -76,13 +82,21 @@ export default function Dictionary() {
         </div>
 
         <div>
-          <input
-            className="search-input"
-            type="text"
-            placeholder="Search terms..."
-            value={search}
-            onChange={e => setSearch(e.target.value)}
-          />
+          <div className="toolbar-row">
+            <input
+              className="search-input"
+              type="text"
+              placeholder="Search terms..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+            />
+            <select className="filter-select" value={sortBy} onChange={e => setSortBy(e.target.value)} aria-label="Sort dictionary">
+              <option value="mentions">Most Mentions</option>
+              <option value="name">Name</option>
+              <option value="first">First Appearance</option>
+              <option value="review">Review State</option>
+            </select>
+          </div>
 
           <div className="card-grid">
             {filtered.map(term => (

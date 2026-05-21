@@ -1,6 +1,26 @@
 [
   {
     "_type": "biography_event",
+    "bio_id": "pkd_bio_1971_arnold_amphetamine_paranoia",
+    "summary": "During the period of strongest paranoia around the San Rafael break-in, Arnold treats amphetamine use rather than LSD as the more plausible drug context for Dick's paranoid episodes.",
+    "date_start": "1971",
+    "date_end": "1971",
+    "date_display": "1971",
+    "date_confidence": "year",
+    "event_type": "drug_use",
+    "source_name": "Arnold, The Divine Madness of Philip K. Dick",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "4",
+    "notes": "Arnold emphasizes long-term speed use and cautions against over-attributing Dick's paranoia to LSD.",
+    "entities": [
+      "Kyle Arnold"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
     "bio_id": "pkd_bio_1971_burglary",
     "summary": "Home in San Rafael burglarized under mysterious and never-resolved circumstances",
     "date_start": "1971",
@@ -74,8 +94,8 @@
     "source_type": "exegesis",
     "location": "San Rafael, California",
     "importance": null,
-    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
-    "theophany_slug": "pre-break-in-foreknowledge-1971"
+    "theophany_id": null,
+    "theophany_slug": null
   },
   {
     "_type": "biography_event",
@@ -90,8 +110,8 @@
     "source_type": "exegesis",
     "location": "San Rafael, California",
     "importance": null,
-    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
-    "theophany_slug": "pre-break-in-foreknowledge-1971"
+    "theophany_id": null,
+    "theophany_slug": null
   },
   {
     "_type": "biography_event",
@@ -106,8 +126,8 @@
     "source_type": "exegesis",
     "location": "San Rafael, California",
     "importance": null,
-    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
-    "theophany_slug": "pre-break-in-foreknowledge-1971"
+    "theophany_id": null,
+    "theophany_slug": null
   },
   {
     "_type": "biography_event",
@@ -122,8 +142,8 @@
     "source_type": "exegesis",
     "location": "San Rafael, California",
     "importance": null,
-    "theophany_id": "THEO_1971_11_BREAK_IN_FOREKNOWLEDGE",
-    "theophany_slug": "pre-break-in-foreknowledge-1971"
+    "theophany_id": null,
+    "theophany_slug": null
   },
   {
     "_type": "theophany",

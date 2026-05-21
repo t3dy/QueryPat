@@ -8,6 +8,7 @@ interface TimelineIndex {
   count: number
   bio_events?: number
   theophanies?: number
+  publications?: number
   total?: number
 }
 
@@ -53,7 +54,22 @@ interface TheophanyEntry {
   _type: 'theophany'
 }
 
-type TimelineEntry = Segment | BioEvent | TheophanyEntry
+interface PublicationEntry {
+  _type: 'publication'
+  work_id: string
+  canonical_title: string
+  slug: string
+  work_type: string
+  category: string | null
+  date_start: string
+  date_display: string
+  summary: string
+  page_summary: string
+  source_count: number
+  page_count: number | null
+}
+
+type TimelineEntry = Segment | BioEvent | TheophanyEntry | PublicationEntry
 
 function isBioEvent(entry: TimelineEntry): entry is BioEvent {
   return '_type' in entry && (entry as BioEvent)._type === 'biography_event'
@@ -61,6 +77,10 @@ function isBioEvent(entry: TimelineEntry): entry is BioEvent {
 
 function isTheophany(entry: TimelineEntry): entry is TheophanyEntry {
   return '_type' in entry && (entry as TheophanyEntry)._type === 'theophany'
+}
+
+function isPublication(entry: TimelineEntry): entry is PublicationEntry {
+  return '_type' in entry && (entry as PublicationEntry)._type === 'publication'
 }
 
 export default function Timeline() {
@@ -87,6 +107,12 @@ export default function Timeline() {
           (entry.name || '').toLowerCase().includes(q) ||
           (entry.experience_type || '').toLowerCase().includes(q)
       }
+      if (isPublication(entry)) {
+        return (entry.canonical_title || '').toLowerCase().includes(q) ||
+          (entry.summary || '').toLowerCase().includes(q) ||
+          (entry.work_type || '').toLowerCase().includes(q) ||
+          (entry.category || '').toLowerCase().includes(q)
+      }
       const s = entry as Segment
       return (s.concise_summary || '').toLowerCase().includes(q) ||
         (s.title || '').toLowerCase().includes(q) ||
@@ -99,7 +125,7 @@ export default function Timeline() {
     <>
       <div className="page-header">
         <h1>Timeline</h1>
-        <p>Philip K. Dick's life (1928&ndash;1982) &mdash; biography events, <em>Exegesis</em> writings, and visionary experiences arrayed by year</p>
+        <p>Philip K. Dick's life (1928&ndash;1982) &mdash; biography events, publication records, <em>Exegesis</em> writings, and visionary experiences arrayed by year</p>
       </div>
 
       <div className="sidebar-layout">
@@ -110,7 +136,7 @@ export default function Timeline() {
               <li key={y.year}>
                 <NavLink to={`/timeline/${y.year}`}>
                   {y.year} <span style={{opacity:0.5}}>
-                    ({y.count || 0}{y.bio_events ? `+${y.bio_events}` : ''})
+                    ({y.total ?? ((y.count || 0) + (y.bio_events || 0) + (y.publications || 0) + (y.theophanies || 0))})
                   </span>
                 </NavLink>
               </li>
@@ -122,7 +148,7 @@ export default function Timeline() {
           <input
             className="search-input"
             type="text"
-            placeholder="Filter segments..."
+            placeholder="Filter entries..."
             value={search}
             onChange={e => setSearch(e.target.value)}
           />
@@ -147,6 +173,25 @@ export default function Timeline() {
                         <Link to={`/theophanies/${entry.slug}`}>{entry.name}</Link>
                       </h3>
                       <p style={{marginTop:'0.25rem'}}>{entry.summary}</p>
+                    </div>
+                  )
+                }
+                if (isPublication(entry)) {
+                  const kind = (entry.work_type || entry.category || 'publication').replace(/_/g, ' ')
+                  return (
+                    <div key={`pub-${entry.work_id}-${i}`} className="card" style={{marginBottom:'0.75rem', borderLeft:'3px solid #a85e20', background:'rgba(168, 94, 32, 0.05)'}}>
+                      <div className="card-meta">
+                        <span>{entry.date_display}</span>
+                        <span className="badge badge-category" style={{background:'#a85e20', color:'#fff'}}>publication &middot; {kind}</span>
+                        {entry.source_count > 1 && (
+                          <span style={{opacity:0.6}}>{entry.source_count} manifestations</span>
+                        )}
+                        {entry.page_count ? <span style={{opacity:0.6}}>{entry.page_count.toLocaleString()} pages</span> : null}
+                      </div>
+                      <h3 style={{margin:'0.5rem 0 0.25rem'}}>
+                        <Link to={`/works/${entry.slug}`}>{entry.canonical_title}</Link>
+                      </h3>
+                      <p style={{marginTop:'0.25rem'}}>{entry.summary || entry.page_summary}</p>
                     </div>
                   )
                 }

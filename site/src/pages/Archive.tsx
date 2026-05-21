@@ -33,6 +33,8 @@ export default function Archive() {
   const { data: entries, loading } = useData<ArchiveEntry[]>('archive/index.json')
   const [search, setSearch] = useState('')
   const [category, setCategory] = useState<string>('all')
+  const [lane, setLane] = useState<string>('all')
+  const [sortBy, setSortBy] = useState<string>('date')
 
   const categories = useMemo(() => {
     if (!entries) return []
@@ -40,11 +42,20 @@ export default function Archive() {
     return ['all', ...Array.from(cats).sort()]
   }, [entries])
 
+  const lanes = useMemo(() => {
+    if (!entries) return []
+    const laneSet = new Set(entries.map(e => e.evidentiary_lane).filter(Boolean) as string[])
+    return ['all', ...Array.from(laneSet).sort()]
+  }, [entries])
+
   const filtered = useMemo(() => {
     if (!entries) return []
     let result = entries
     if (category !== 'all') {
       result = result.filter(e => e.category === category)
+    }
+    if (lane !== 'all') {
+      result = result.filter(e => e.evidentiary_lane === lane)
     }
     if (search) {
       const q = search.toLowerCase()
@@ -54,8 +65,17 @@ export default function Archive() {
         (e.card_summary || '').toLowerCase().includes(q)
       )
     }
-    return result
-  }, [entries, search, category])
+    return [...result].sort((a, b) => {
+      if (sortBy === 'title') return (a.title || '').localeCompare(b.title || '')
+      if (sortBy === 'pages') return (b.page_count || 0) - (a.page_count || 0)
+      if (sortBy === 'relationships') {
+        const ar = (a.people_mentioned?.length || 0) + (a.works_discussed?.length || 0) + (a.linked_terms?.length || 0)
+        const br = (b.people_mentioned?.length || 0) + (b.works_discussed?.length || 0) + (b.linked_terms?.length || 0)
+        return br - ar || (a.title || '').localeCompare(b.title || '')
+      }
+      return (b.date_start || '').localeCompare(a.date_start || '') || (a.title || '').localeCompare(b.title || '')
+    })
+  }, [entries, search, category, lane, sortBy])
 
   if (loading) return <div className="loading">Loading...</div>
 
@@ -87,16 +107,44 @@ export default function Archive() {
               </li>
             ))}
           </ul>
+
+          <h3 style={{ marginTop: '1.5rem' }}>Evidence Lane</h3>
+          <ul>
+            {lanes.map(l => (
+              <li key={l}>
+                <a
+                  href="#"
+                  className={lane === l ? 'active' : ''}
+                  onClick={e => { e.preventDefault(); setLane(l) }}
+                >
+                  {l === 'all' ? 'All Lanes' : LANE_LABELS[l] || l}
+                  {l !== 'all' && (
+                    <span style={{opacity:0.5, marginLeft:'0.25rem'}}>
+                      ({entries?.filter(e => e.evidentiary_lane === l).length})
+                    </span>
+                  )}
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
 
         <div>
-          <input
-            className="search-input"
-            type="text"
-            placeholder="Search archive..."
-            value={search}
-            onChange={e => setSearch(e.target.value)}
-          />
+          <div className="toolbar-row">
+            <input
+              className="search-input"
+              type="text"
+              placeholder="Search archive..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+            />
+            <select className="filter-select" value={sortBy} onChange={e => setSortBy(e.target.value)} aria-label="Sort archive">
+              <option value="date">Newest First</option>
+              <option value="title">Title</option>
+              <option value="pages">Page Count</option>
+              <option value="relationships">Most Linked</option>
+            </select>
+          </div>
 
           <div className="card-grid">
             {filtered.map(entry => (

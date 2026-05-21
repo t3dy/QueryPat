@@ -43,8 +43,9 @@ MONTHS = {
 #   [TO ANDRZEJ KURZ, MARIA KANIOWA, _Editors, Wydawnictwo Literackie, Poland]_
 # The "TO" word may be followed by a comma+editorial-context blob.
 LETTER_HEADER_RE = re.compile(
-    r"\[\s*TO\s+(?P<recipient>[^\]\n]{2,200}?)\s*\]_?",
-    re.IGNORECASE,
+    r"(?:\[\s*TO\s+(?P<recipient>[^\]\n]{2,200}?)\s*\]_?"
+    r"|^\s*#{1,4}\s*I?TO\s+(?P<recipient_ocr>[A-Z][A-Z0-9 .,&'\-]{2,200}?)[j\]]?\s*$)",
+    re.IGNORECASE | re.MULTILINE,
 )
 
 # OCR-tolerant month tokens. The published volumes have many character-corruption
@@ -226,7 +227,7 @@ def segment_volume(volume_doc_id: str, md: str) -> list[Letter]:
         date_start, date_end, date_display, date_conf = parse_date_text(head_window)
 
         # Recipient: prefer the [TO X] header (clean), fall back to the salutation.
-        recipient_raw = h.group("recipient").strip()
+        recipient_raw = (h.group("recipient") or h.group("recipient_ocr") or "").strip()
         # Strip trailing "_]" italic markup and editorial parentheticals like
         # "ANDRZEJ KURZ, MARIA KANIOWA, _Editors, Wydawnictwo Literackie, Poland_"
         # — keep up to the first comma followed by an italicized blob.
@@ -359,6 +360,7 @@ def run(db_path: Path, volume_filter: str | None) -> dict:
             summary[vol] = {"status": "no_markdown", "letters": 0}
             continue
         letters = segment_volume(vol, md)
+        con.execute("DELETE FROM letters WHERE volume_doc_id = ?", (vol,))
         for L in letters:
             upsert_letter(con, L)
         con.commit()

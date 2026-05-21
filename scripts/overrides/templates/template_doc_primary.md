@@ -31,6 +31,8 @@ Lane: **A** (Fiction) for novels and stories; **E** (Primary) for letters, essay
 
 ### For essays, speeches, letters, the Exegesis (Lane E)
 
+If the document comments on one of PKD's novels, add an explicit cross-link to that novel's PKD on PKD entry.
+
 **Required sections:**
 
 1. **Bibliographic identity** — what the document is, when written, to whom (for letters), in what venue (for speeches).

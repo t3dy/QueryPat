@@ -819,7 +819,7 @@
     "date": "1958-1960",
     "date_precision": "range",
     "event": "Develops growing interest in Gnostic religious thought and ancient heresies",
-    "category": "philosophical_influence",
+    "category": "gnostic_experience",
     "entities": [
       "Gnosticism"
     ],
@@ -1023,7 +1023,7 @@
     "date": "1964-1966",
     "date_precision": "range",
     "event": "Develops interest in mysticism and comparative religion across traditions",
-    "category": "philosophical_influence",
+    "category": "mystical_experience",
     "entities": [
       "Meister Eckhart",
       "Jakob Boehme"
@@ -1180,7 +1180,7 @@
     "date": "1968",
     "date_precision": "inferred",
     "event": "PKD drafts the Maze/Tench theology notes that develop the colony plot, Delmak setting, divine plurality, the Manufacturer, decay, and the form-destroying principle later associated with A Maze of Death.",
-    "category": "religious_thought",
+    "category": "gnostic_experience",
     "entities": [
       "A Maze of Death",
       "The Maze of Death Theology",
@@ -1255,7 +1255,7 @@
     "date": "1969-1971",
     "date_precision": "range",
     "event": "Discusses theology and mysticism with Tim Powers and other young writers",
-    "category": "friendship",
+    "category": "mystical_experience",
     "entities": [
       "Tim Powers"
     ],
@@ -1370,7 +1370,7 @@
     "date": "1971-1972",
     "date_precision": "range",
     "event": "Reads Gnostic texts and Nag Hammadi library materials in translation",
-    "category": "reading",
+    "category": "gnostic_experience",
     "entities": [
       "Gnosticism",
       "Nag Hammadi library"
@@ -1437,11 +1437,11 @@
     "importance": 4,
     "notes": ""
   },
-    {
-      "id": "pkd_bio_1972_vancouver_x_kalay_arnold",
-      "date": "1972",
-      "date_precision": "year",
-      "event": "After the Vancouver convention and a suicidal crisis, Dick enters the X-Kalay residential addiction-treatment community.",
+  {
+    "id": "pkd_bio_1972_vancouver_x_kalay_arnold",
+    "date": "1972",
+    "date_precision": "year",
+    "event": "After the Vancouver convention and a suicidal crisis, Dick enters the X-Kalay residential addiction-treatment community.",
     "category": "health",
     "entities": [
       "X-Kalay",
@@ -1449,29 +1449,29 @@
     ],
     "location": "Vancouver, British Columbia",
     "source": "Arnold, The Divine Madness of Philip K. Dick",
-      "importance": 4,
-      "notes": "Arnold frames X-Kalay as central to the post-Vancouver drug and recovery period."
-    },
-    {
-      "id": "pkd_bio_1972_ubc_lecture",
-      "date": "1972-02",
-      "date_precision": "month",
-      "event": "Delivers his first major public lecture at the University of British Columbia's Faculty Club in Vancouver, launching the public lecture circuit that later leads to more university appearances.",
-      "category": "lecture",
-      "entities": [
-        "University of British Columbia",
-        "Susan Wood"
-      ],
-      "location": "University of British Columbia, Vancouver, British Columbia",
-      "source": "PKD public appearances audit",
-      "importance": 5,
-      "notes": ""
-    },
-    {
-      "id": "pkd_bio_1973_christopher_birth",
-      "date": "1973",
-      "date_precision": "year",
-      "event": "Son Christopher Dick born to Philip and Tessa in Fullerton",
+    "importance": 4,
+    "notes": "Arnold frames X-Kalay as central to the post-Vancouver drug and recovery period."
+  },
+  {
+    "id": "pkd_bio_1972_ubc_lecture",
+    "date": "1972-02",
+    "date_precision": "month",
+    "event": "Delivers his first major public lecture at the University of British Columbia's Faculty Club in Vancouver, launching the public lecture circuit that later leads to more university appearances.",
+    "category": "lecture",
+    "entities": [
+      "University of British Columbia",
+      "Susan Wood"
+    ],
+    "location": "University of British Columbia, Vancouver, British Columbia",
+    "source": "PKD public appearances audit",
+    "importance": 5,
+    "notes": ""
+  },
+  {
+    "id": "pkd_bio_1973_christopher_birth",
+    "date": "1973",
+    "date_precision": "year",
+    "event": "Son Christopher Dick born to Philip and Tessa in Fullerton",
     "category": "family",
     "entities": [
       "Christopher Dick",
@@ -1493,29 +1493,14 @@
     ],
     "location": "Fullerton, California",
     "source": "Sutin",
-      "importance": 4,
-      "notes": ""
-    },
-    {
-      "id": "pkd_bio_1973_csuf_talk",
-      "date": "1973-07",
-      "date_precision": "month",
-      "event": "Records a talk at California State University, Fullerton with Willis E. McNelly, part of the university archive relationship that grows into the manuscript collection at CSUF.",
-      "category": "lecture",
-      "entities": [
-        "California State University, Fullerton",
-        "Willis E. McNelly"
-      ],
-      "location": "California State University, Fullerton, Fullerton, California",
-      "source": "PKD public appearances audit",
-      "importance": 4,
-      "notes": ""
-    },
-    {
-      "id": "pkd_bio_1973_messianism",
-      "date": "1973",
-      "date_precision": "year",
-      "event": "Develops fascination with messianic and prophetic religious traditions in reading",
+    "importance": 4,
+    "notes": ""
+  },
+  {
+    "id": "pkd_bio_1973_messianism",
+    "date": "1973",
+    "date_precision": "year",
+    "event": "Develops fascination with messianic and prophetic religious traditions in reading",
     "category": "religious_experience",
     "entities": [
       "Elijah",
@@ -1527,11 +1512,26 @@
     "notes": ""
   },
   {
+    "id": "pkd_bio_1973_csuf_talk",
+    "date": "1973-07",
+    "date_precision": "month",
+    "event": "Records a talk at California State University, Fullerton with Willis E. McNelly, part of the university archive relationship that grows into the manuscript collection at CSUF.",
+    "category": "lecture",
+    "entities": [
+      "California State University, Fullerton",
+      "Willis E. McNelly"
+    ],
+    "location": "California State University, Fullerton, Fullerton, California",
+    "source": "PKD public appearances audit",
+    "importance": 4,
+    "notes": ""
+  },
+  {
     "id": "pkd_bio_1974_exegesis_begin",
     "date": "1974",
     "date_precision": "year",
     "event": "Begins writing the Exegesis notebooks as ongoing theological journal",
-    "category": "religious_thought",
+    "category": "gnostic_experience",
     "entities": [
       "Exegesis"
     ],
@@ -1545,7 +1545,7 @@
     "date": "1974-02",
     "date_precision": "month",
     "event": "Arnold reconstructs the doorstep pharmacy delivery in which a dark-haired woman wearing a gold fish pendant triggered the fish-sign anamnesis at the start of 2-3-74.",
-    "category": "visionary_experience",
+    "category": "paranormal_experience",
     "entities": [
       "Kyle Arnold",
       "Tessa Dick",
@@ -1562,7 +1562,7 @@
     "date": "1974-02-03",
     "date_precision": "day",
     "event": "Reports first pink light visionary experience during dental recovery at home",
-    "category": "visionary_experience",
+    "category": "paranormal_experience",
     "entities": [
       "Zebra"
     ],
@@ -1576,7 +1576,7 @@
     "date": "1974-02-03",
     "date_precision": "range",
     "event": "Reports telepathic messages and visions of ancient Rome over several weeks",
-    "category": "visionary_experience",
+    "category": "paranormal_experience",
     "entities": [
       "Zebra"
     ],
@@ -1604,7 +1604,7 @@
     "date": "1974-03",
     "date_precision": "month",
     "event": "Develops concept of Zebra as cosmic intelligence behind his visions",
-    "category": "religious_thought",
+    "category": "gnostic_experience",
     "entities": [
       "Zebra"
     ],
@@ -1634,7 +1634,7 @@
     "date": "1974-1975",
     "date_precision": "year",
     "event": "Arnold tracks the return of Dick's female AI voice in semi-conscious states, later interpreted by Dick as a divine feminine guide associated with Sophia.",
-    "category": "religious_experience",
+    "category": "hearing_voices_experience",
     "entities": [
       "Kyle Arnold",
       "AI Voice",
@@ -1650,7 +1650,7 @@
     "date": "1974-1975",
     "date_precision": "range",
     "event": "Interprets recurring dreams as encoded theological messages from a higher source",
-    "category": "visionary_experience",
+    "category": "mystical_experience",
     "entities": [
       "Zebra",
       "Thomas"
@@ -1665,7 +1665,7 @@
     "date": "1974-1976",
     "date_precision": "range",
     "event": "Begins systematic philosophical speculation on the nature of time and reality",
-    "category": "religious_thought",
+    "category": "gnostic_experience",
     "entities": [
       "Plato",
       "Parmenides"
@@ -1680,7 +1680,7 @@
     "date": "1974-1977",
     "date_precision": "range",
     "event": "Develops Black Iron Prison theory and hidden Roman Empire concept in Exegesis",
-    "category": "religious_thought",
+    "category": "gnostic_experience",
     "entities": [
       "Gnosticism",
       "Black Iron Prison"
@@ -1723,7 +1723,7 @@
     "date": "1975-01-14",
     "date_precision": "day",
     "event": "Writes John Brunner about a London Times clipping on CIA break-ins and says it matches the method of the unresolved November 1971 San Rafael break-in.",
-    "category": "correspondence",
+    "category": "hearing_voices_experience",
     "entities": [
       "John Brunner",
       "William Colby"
@@ -1753,7 +1753,7 @@
     "date": "1975-04-17",
     "date_precision": "day",
     "event": "Writes Ursula K. Le Guin about The Lathe of Heaven, his absent London speech, and the relationship between her dream-universe fiction and his own false-reality experiences.",
-    "category": "correspondence",
+    "category": "hearing_voices_experience",
     "entities": [
       "Ursula K. Le Guin",
       "The Lathe of Heaven"
@@ -1785,7 +1785,7 @@
     "date": "1975-07-10",
     "date_precision": "day",
     "event": "Writes that he has spent sixteen months and more than a thousand dollars researching Christianity for the planned novel To Scare the Dead.",
-    "category": "religious_thought",
+    "category": "hearing_voices_experience",
     "entities": [
       "To Scare the Dead"
     ],
@@ -1874,7 +1874,7 @@
     "date": "1976-1978",
     "date_precision": "range",
     "event": "Develops theory of living information and cosmic mind in the Exegesis notebooks",
-    "category": "religious_thought",
+    "category": "gnostic_experience",
     "entities": [
       "Logos",
       "Living Information"
@@ -1949,7 +1949,7 @@
     "id": "pkd_bio_1977_jaynes_letter",
     "date": "1977-03-16",
     "date_precision": "day",
-    "event": "Writes Julian Jaynes after reading The Origin of Consciousness in the Breakdown of the Bicameral Mind, praising the theory and comparing Jaynes's divine-voice model to his own March 1974 right-hemisphere/Zagreus experience.",
+    "event": "Writes Julian Jaynes after reading The Origin of Consciousness in the Breakdown of the Bicameral Mind, connecting Jaynes's bicameral theory to VALIS, Zebra, and his own right-hemisphere experience.",
     "category": "correspondence",
     "entities": [
       "Julian Jaynes",
@@ -1960,14 +1960,14 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1977-1979, letter to Julian Jaynes, March 16, 1977",
     "importance": 5,
-    "notes": "Short quotations to foreground in display: \"raving about it\" and \"Zagreus awaken in my right hemisphere.\" Letter id: LET_1977-03-16_JULIAN_JAYNES_0021."
+    "notes": "Letter id: LET_1977-03-16_JULIAN_JAYNES_0021. This letter required an OCR-header segmentation fix."
   },
   {
     "id": "pkd_bio_1977_jaynes_hurst",
     "date": "1977-03-17",
     "date_precision": "day",
     "event": "Explains Jaynes's bicameral-mind theory to Mark Hurst and folds it into his developing VALIS/Zebra model of divine command voices.",
-    "category": "religious_thought",
+    "category": "gnostic_experience",
     "entities": [
       "Julian Jaynes",
       "Mark Hurst",
@@ -1984,7 +1984,7 @@
     "date": "1977-03-30",
     "date_precision": "day",
     "event": "Tells Carl Bennett that Jaynes's book provides scientific support for aspects of his Zebra speculation and right-hemisphere theory.",
-    "category": "religious_thought",
+    "category": "hearing_voices_experience",
     "entities": [
       "Julian Jaynes",
       "Carl Bennett",
@@ -2015,8 +2015,8 @@
     "id": "pkd_bio_1977_star_wars_warren",
     "date": "1977-10-02",
     "date_precision": "day",
-    "event": "Writes Eugene Warren that Star Wars has religious importance because it makes Christian mystery available through popular science-fiction imagery, comparing Obi-Wan's voice to the voice he heard when VALIS took him over in March 1974.",
-    "category": "religious_thought",
+    "event": "Writes Eugene Warren that Star Wars makes Christian mystery real to mass audiences, comparing Obi-Wan's voice to the voice he heard when VALIS took him over in March 1974.",
+    "category": "hearing_voices_experience",
     "entities": [
       "Eugene Warren",
       "Star Wars",
@@ -2027,7 +2027,7 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1977-1979, letter to Eugene Warren, October 2, 1977",
     "importance": 5,
-    "notes": "Short quotations to foreground in display: \"mystery of our religion\" and \"Word and Hand of God.\" Letter id: LET_1977-10-02_EUGENE_WARREN_0043."
+    "notes": "Letter id: LET_1977-10-02_EUGENE_WARREN_0036."
   },
   {
     "id": "pkd_bio_1977_metz_star_wars_claudia",
@@ -2094,7 +2094,7 @@
     "date": "1978-1980",
     "date_precision": "range",
     "event": "Reads scholarly works on mysticism, religious psychology, and altered states",
-    "category": "reading",
+    "category": "mystical_experience",
     "entities": [
       "William James",
       "Rudolf Otto"
@@ -2109,7 +2109,7 @@
     "date": "1979",
     "date_precision": "year",
     "event": "Delivers public lectures discussing mystical experiences and theological ideas",
-    "category": "lecture",
+    "category": "mystical_experience",
     "entities": [
       "Metz Science Fiction Convention"
     ],
@@ -2166,7 +2166,7 @@
     "date": "1980",
     "date_precision": "year",
     "event": "Deepens Exegesis reflection on simulation theory and the nature of reality",
-    "category": "religious_thought",
+    "category": "visionary_experience",
     "entities": [
       "Plato",
       "Simulation Theory"
@@ -2211,7 +2211,7 @@
     "date": "1981",
     "date_precision": "year",
     "event": "Incorporates religious visions into late novels including The Divine Invasion",
-    "category": "religious_thought",
+    "category": "visionary_experience",
     "entities": [
       "The Divine Invasion",
       "VALIS"

@@ -18,10 +18,15 @@ Every template encodes a required structure, a target length, a tone rule, and a
 | [template_scholar.md](template_scholar.md) | Scholar profile entries in scholars.json |
 | [template_dictionary.md](template_dictionary.md) | Dictionary term entries |
 | [template_biography_event.md](template_biography_event.md) | Biography event entries in curated.json |
+| [template_people_pkd_knew.md](template_people_pkd_knew.md) | People associated with PKD: family, editors, friends, correspondents, SF peers, fan-scholars, and witnesses |
+| [template_pkd_on_pkd.md](template_pkd_on_pkd.md) | PKD's own mentions of his novels in letters, interviews, the Exegesis, and other primary writings |
+| [template_works.md](template_works.md) | Canonical PKD works records and works-table entries |
 
 ## Cross-cutting rules
 
 These apply to every entry:
+
+0. **Short card plus full page.** Every content entity needs a compact list/tab card and a full detail-page contract. Cards orient; pages explain.
 
 1. **State the lane.** Per ontology §3, every claim is sourced to a lane (A: Fiction, B: Exegesis, C: Scholarship, D: Synthesis, E: Primary).
 2. **Attribute interpretations.** Per ontology §5, no claim that PKD "really" meant X — always whose reading.
@@ -30,3 +35,15 @@ These apply to every entry:
 5. **Distinguish fact from self-report.** Lane B is autobiography by an unreliable narrator.
 6. **No filler.** Don't pad with publisher boilerplate, page-count rehearsal, or "this important work."
 7. **Verbs not adjectives.** *argues, introduces, contests, surveys, anthologizes, documents* — not *important, fascinating, seminal, essential*.
+
+## Writing standard for all new sections
+
+New sections must read like high-quality academic encyclopedia entries:
+- lead with the entity and its significance in plain declarative prose
+- synthesize all relevant source material, not just the most visible record
+- name specific works, people, dates, and document types instead of generalizing
+- separate source-derived fact, inference, and editorial judgment
+- prefer compact paragraphs with concrete evidence over loose interpretive language
+- keep the tone restrained, descriptive, and citation-friendly
+
+If a new section can be read without learning anything new about the sources, the writing is too thin.

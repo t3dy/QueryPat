@@ -59,6 +59,7 @@ export default function Scholars() {
   const [search, setSearch] = useState('')
   const [activeTier, setActiveTier] = useState<number | null>(null)
   const [expandedId, setExpandedId] = useState<string | null>(null)
+  const [sortBy, setSortBy] = useState<string>('tier')
 
   // Read URL hash on mount or when scholars load: open + scroll to the matching scholar.
   useEffect(() => {
@@ -108,8 +109,13 @@ export default function Scholars() {
         (s.affiliation || '').toLowerCase().includes(q)
       )
     }
-    return result
-  }, [scholars, search, activeTier])
+    return [...result].sort((a, b) => {
+      if (sortBy === 'name') return a.name.localeCompare(b.name)
+      if (sortBy === 'pdfs') return (b.pdf_count || 0) - (a.pdf_count || 0) || a.name.localeCompare(b.name)
+      if (sortBy === 'works') return (b.key_works?.length || 0) - (a.key_works?.length || 0) || a.name.localeCompare(b.name)
+      return (a.tier || 99) - (b.tier || 99) || a.name.localeCompare(b.name)
+    })
+  }, [scholars, search, activeTier, sortBy])
 
   if (loading) return <div className="loading">Loading...</div>
 
@@ -154,13 +160,21 @@ export default function Scholars() {
         </div>
 
         <div>
-          <input
-            className="search-input"
-            type="text"
-            placeholder="Search scholars..."
-            value={search}
-            onChange={e => setSearch(e.target.value)}
-          />
+          <div className="toolbar-row">
+            <input
+              className="search-input"
+              type="text"
+              placeholder="Search scholars..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+            />
+            <select className="filter-select" value={sortBy} onChange={e => setSortBy(e.target.value)} aria-label="Sort scholars">
+              <option value="tier">Tier</option>
+              <option value="name">Name</option>
+              <option value="pdfs">Archive PDFs</option>
+              <option value="works">Key Works</option>
+            </select>
+          </div>
 
           {filtered.length === 0 && (
             <p style={{ textAlign: 'center', color: 'var(--text-muted)', padding: '3rem' }}>

@@ -79,6 +79,96 @@ CREATE INDEX idx_documents_slug ON documents(slug);
 CREATE INDEX idx_documents_category ON documents(category);
 
 -- ============================================================
+-- CANONICAL WORKS
+-- ============================================================
+
+CREATE TABLE works (
+    work_id              TEXT PRIMARY KEY,           -- WORK_*
+    canonical_title      TEXT NOT NULL,
+    slug                TEXT NOT NULL UNIQUE,
+    author              TEXT,
+    work_type           TEXT NOT NULL,
+    category            TEXT,
+
+    date_start          TEXT,
+    date_end            TEXT,
+    date_display        TEXT,
+
+    card_summary        TEXT,
+    page_summary        TEXT,
+    source_count        INTEGER DEFAULT 0,
+    page_count          INTEGER,
+
+    provenance          TEXT,
+    notes               TEXT,
+    created_at          TEXT DEFAULT (datetime('now')),
+    updated_at          TEXT DEFAULT (datetime('now'))
+);
+
+CREATE INDEX idx_works_slug ON works(slug);
+CREATE INDEX idx_works_type ON works(work_type);
+CREATE INDEX idx_works_category ON works(category);
+CREATE INDEX idx_works_date ON works(date_start);
+
+CREATE TABLE work_documents (
+    work_id             TEXT NOT NULL,
+    doc_id              TEXT NOT NULL,
+    role                TEXT DEFAULT 'primary',
+    PRIMARY KEY (work_id, doc_id),
+    FOREIGN KEY (work_id) REFERENCES works(work_id),
+    FOREIGN KEY (doc_id) REFERENCES documents(doc_id)
+);
+
+-- ============================================================
+-- PKD ON PKD
+-- ============================================================
+
+CREATE TABLE pkd_on_pkd_works (
+    work_id             TEXT PRIMARY KEY,
+    canonical_title     TEXT NOT NULL,
+    slug                TEXT NOT NULL UNIQUE,
+    author              TEXT,
+    work_type           TEXT,
+    category            TEXT,
+    mention_count       INTEGER DEFAULT 0,
+    source_doc_count    INTEGER DEFAULT 0,
+    source_doc_types    TEXT,
+    first_mention_date  TEXT,
+    last_mention_date   TEXT,
+    card_summary        TEXT,
+    page_summary        TEXT,
+    provenance          TEXT,
+    notes               TEXT,
+    created_at          TEXT DEFAULT (datetime('now')),
+    updated_at          TEXT DEFAULT (datetime('now')),
+
+    FOREIGN KEY (work_id) REFERENCES works(work_id)
+);
+
+CREATE INDEX idx_pkd_on_pkd_slug ON pkd_on_pkd_works(slug);
+CREATE INDEX idx_pkd_on_pkd_mentions ON pkd_on_pkd_works(mention_count DESC);
+
+CREATE TABLE pkd_on_pkd_mentions (
+    mention_id          TEXT PRIMARY KEY,
+    work_id             TEXT NOT NULL,
+    doc_id              TEXT NOT NULL,
+    doc_slug            TEXT,
+    doc_title           TEXT NOT NULL,
+    doc_type            TEXT,
+    date_display        TEXT,
+    match_text          TEXT,
+    context_snippet     TEXT,
+    mention_order       INTEGER,
+    created_at          TEXT DEFAULT (datetime('now')),
+
+    FOREIGN KEY (work_id) REFERENCES pkd_on_pkd_works(work_id),
+    FOREIGN KEY (doc_id) REFERENCES documents(doc_id)
+);
+
+CREATE INDEX idx_pkd_on_pkd_mentions_work ON pkd_on_pkd_mentions(work_id);
+CREATE INDEX idx_pkd_on_pkd_mentions_doc ON pkd_on_pkd_mentions(doc_id);
+
+-- ============================================================
 
 CREATE TABLE segments (
     seg_id              TEXT PRIMARY KEY,           -- SEG_EXEG_* or SEG_ARCH_*

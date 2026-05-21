@@ -1,74 +1,36 @@
 [
   {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1942_ojai",
-    "summary": "Dorothy enrolls Phil at California Preparatory School in Ojai for the autumn term; Phil writes a series of letters to his mother documenting homesickness, the school's mandatory work program, and the early formation of his classical music tastes (Mozart, Brahms, Beethoven, Tchaikovsky).",
-    "date_start": "1942-09",
-    "date_end": "1942-09",
-    "date_display": "1942-09",
-    "date_confidence": "month",
-    "event_type": "education",
-    "source_name": "PKD letters to Dorothy K. Dick, Sept-Nov 1942 (Selected Letters Vol. 1)",
-    "source_type": "curated",
-    "location": "Ojai, California",
-    "importance": "3",
-    "notes": "The Ojai letters are among the earliest substantial PKD prose extant; they document his teenage classical-music obsession including the wishlist of records (Jupiter Symphony, Brahms 1st, Beethoven Emperor) that anchors the music-in-PKD essay.",
-    "entities": [
-      "Dorothy Dick"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
+    "_type": "publication",
+    "work_id": "WORK_the-jungle-people",
+    "canonical_title": "The Jungle People",
+    "slug": "the-jungle-people",
+    "work_type": "short_stories",
+    "category": "short_stories",
+    "date_start": "1942",
+    "date_display": "1942",
+    "summary": "Canonical record for The Jungle People, PKD's short-story collection. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "The Jungle People is the canonical works-table record for PKD's short-story collection corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is The Jungle People (Berkeley Daily Gazette, February 17, 1942) (1942).\n\nThe source record itself summarizes the work as follows: A 2-page scanned PDF of 'The Jungle People,' an early piece by Philip K. Dick published in the Berkeley Daily Gazette on February 17, 1942. No OCR text layer is present. Dick would have been approximately thirteen years old at the time of publication, making this among his earliest known published writings.\n\nThe Berkeley Daily Gazette was Dick's local newspaper during his childhood and adolescence in Berkeley, California. Publication at age thirteen demonstrates Dick's precocious literary ambition and the early development of his distinctive imaginative vision. The title 'The Jungle People' suggests an adventure or exotic fiction theme typical of juvenile writing. This document is of considerable biographical interest as evidence of Dick's earliest creative development and his initial entry into the world of published writing.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 2
   },
   {
-    "_type": "biography_event",
     "bio_id": 665,
     "summary": "PKD (age 13) writes home from California Preparatory School in Ojai, defending his decision to stay despite homesickness and refusing his mother's offers to bring him home.",
     "date_start": "1942-10-22",
     "date_end": "1942-10-22",
-    "date_display": "1942-10-22",
-    "date_confidence": "exact",
     "event_type": "correspondence",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU)",
-    "source_type": "letter",
-    "location": "Ojai, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
+    "date_confidence": "exact",
+    "_type": "biography_event"
   },
   {
-    "_type": "biography_event",
     "bio_id": 666,
     "summary": "PKD's English-theme essay on a cat is read aloud to the class by Mr. Barnes after the first paragraph compels it — an early recognition of his prose.",
     "date_start": "1942-10-22",
     "date_end": "1942-10-22",
-    "date_display": "1942-10-22",
-    "date_confidence": "exact",
     "event_type": "publication",
     "source_name": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU)",
-    "source_type": "letter",
-    "location": "Ojai, California",
-    "importance": null,
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1942_return",
-    "summary": "After two months at Cal Prep, Dorothy negotiates Phil's return to Berkeley due to his repeated requests; he resumes Berkeley schooling for the remainder of the academic year.",
-    "date_start": "1942-11",
-    "date_end": "1942-11",
-    "date_display": "1942-11",
-    "date_confidence": "month",
-    "event_type": "education",
-    "source_name": "PKD letters to Dorothy K. Dick, Nov 1942",
-    "source_type": "curated",
-    "location": "Berkeley, California",
-    "importance": "2",
-    "notes": null,
-    "entities": [
-      "Dorothy Dick"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
+    "date_confidence": "exact",
+    "_type": "biography_event"
   }
 ]

@@ -1,33 +1,33 @@
 {
-  "total": 646,
+  "total": 687,
   "by_type": [
     {
       "type": "vision",
-      "count": 305
+      "count": 306
     },
     {
       "type": "other",
-      "count": 184
+      "count": 188
     },
     {
       "type": "correspondence",
-      "count": 33
-    },
-    {
-      "type": "relationship",
-      "count": 27
+      "count": 45
     },
     {
       "type": "publication",
-      "count": 25
+      "count": 37
+    },
+    {
+      "type": "relationship",
+      "count": 31
     },
     {
       "type": "legal",
-      "count": 19
+      "count": 20
     },
     {
       "type": "health",
-      "count": 13
+      "count": 17
     },
     {
       "type": "death",
@@ -43,7 +43,7 @@
     },
     {
       "type": "travel",
-      "count": 5
+      "count": 6
     },
     {
       "type": "employment",
@@ -51,7 +51,7 @@
     },
     {
       "type": "financial",
-      "count": 3
+      "count": 5
     },
     {
       "type": "divorce",
@@ -63,6 +63,7 @@
     }
   ],
   "reliability_counts": {
-    "unverified": 646
+    "confirmed": 28,
+    "unverified": 659
   }
 }

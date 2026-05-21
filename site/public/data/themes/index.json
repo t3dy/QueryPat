@@ -1,0 +1,1685 @@
+{
+  "theme_count": 14,
+  "fiction_work_count": 46,
+  "themes": [
+    {
+      "theme_id": "THEME_androids",
+      "slug": "androids",
+      "label": "Androids",
+      "description": "Synthetic or programmed human figures, including androids, replicants, and the human-machine boundary.",
+      "work_count": 2,
+      "works": [
+        {
+          "work_id": "WORK_solar-lottery",
+          "canonical_title": "Solar Lottery",
+          "slug": "solar-lottery",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_do-androids-dream-of-electric-sheep",
+          "canonical_title": "Do Androids Dream of Electric Sheep?",
+          "slug": "do-androids-dream-of-electric-sheep",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2007",
+          "date_start": "2007"
+        }
+      ],
+      "essay_path": "themes/essays/androids.md"
+    },
+    {
+      "theme_id": "THEME_robots",
+      "slug": "robots",
+      "label": "Robots",
+      "description": "Robots, automation, machine labor, and the fear that technology can replace human agency.",
+      "work_count": 6,
+      "works": [
+        {
+          "work_id": "WORK_the-simulacra",
+          "canonical_title": "The Simulacra",
+          "slug": "the-simulacra",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_the-crack-in-space",
+          "canonical_title": "The Crack in Space",
+          "slug": "the-crack-in-space",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1966",
+          "date_start": "1966"
+        },
+        {
+          "work_id": "WORK_the-zap-gun",
+          "canonical_title": "The Zap Gun",
+          "slug": "the-zap-gun",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_the-preserving-machine-and-other-stories",
+          "canonical_title": "The Preserving Machine and Other Stories",
+          "slug": "the-preserving-machine-and-other-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1969",
+          "date_start": "1969"
+        },
+        {
+          "work_id": "WORK_the-book-of-philip-k-dick",
+          "canonical_title": "The Book of Philip K. Dick",
+          "slug": "the-book-of-philip-k-dick",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1973",
+          "date_start": "1973"
+        },
+        {
+          "work_id": "WORK_second-variety-and-other-classic-stories",
+          "canonical_title": "Second Variety and Other Classic Stories",
+          "slug": "second-variety-and-other-classic-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1991",
+          "date_start": "1991"
+        }
+      ],
+      "essay_path": "themes/essays/robots.md"
+    },
+    {
+      "theme_id": "THEME_drugs",
+      "slug": "drugs",
+      "label": "Drugs",
+      "description": "Amphetamines, narcotics, intoxication, addiction, rehab, and chemically altered consciousness.",
+      "work_count": 3,
+      "works": [
+        {
+          "work_id": "WORK_now-wait-for-last-year",
+          "canonical_title": "Now Wait for Last Year",
+          "slug": "now-wait-for-last-year",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1966",
+          "date_start": "1966"
+        },
+        {
+          "work_id": "WORK_voices-from-the-street",
+          "canonical_title": "Voices from the Street",
+          "slug": "voices-from-the-street",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2007",
+          "date_start": "2007"
+        },
+        {
+          "work_id": "WORK_five-great-novels",
+          "canonical_title": "Five Great Novels",
+          "slug": "five-great-novels",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "Unknown",
+          "date_start": null
+        }
+      ],
+      "essay_path": "themes/essays/drugs.md"
+    },
+    {
+      "theme_id": "THEME_authentic_human",
+      "slug": "authentic-human",
+      "label": "Authentic Human",
+      "description": "Human authenticity, empathy, caritas, and the resistance to programmed or mechanical existence.",
+      "work_count": 14,
+      "works": [
+        {
+          "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
+          "canonical_title": "The Short Happy Life of the Brown Oxford and Other Classic Stories",
+          "slug": "the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "circa 1952–1955",
+          "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_clans-of-the-alphane-moon",
+          "canonical_title": "Clans of the Alphane Moon",
+          "slug": "clans-of-the-alphane-moon",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_the-zap-gun",
+          "canonical_title": "The Zap Gun",
+          "slug": "the-zap-gun",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_the-preserving-machine-and-other-stories",
+          "canonical_title": "The Preserving Machine and Other Stories",
+          "slug": "the-preserving-machine-and-other-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1969",
+          "date_start": "1969"
+        },
+        {
+          "work_id": "WORK_our-friends-from-frolix-8",
+          "canonical_title": "Our Friends from Frolix 8",
+          "slug": "our-friends-from-frolix-8",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1970",
+          "date_start": "1970"
+        },
+        {
+          "work_id": "WORK_the-book-of-philip-k-dick",
+          "canonical_title": "The Book of Philip K. Dick",
+          "slug": "the-book-of-philip-k-dick",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1973",
+          "date_start": "1973"
+        },
+        {
+          "work_id": "WORK_confessions-of-a-crap-artist",
+          "canonical_title": "Confessions of a Crap Artist",
+          "slug": "confessions-of-a-crap-artist",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1975",
+          "date_start": "1975"
+        },
+        {
+          "work_id": "WORK_mary-and-the-giant",
+          "canonical_title": "Mary and the Giant",
+          "slug": "mary-and-the-giant",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1987",
+          "date_start": "1987"
+        },
+        {
+          "work_id": "WORK_the-collected-stories-of-philip-k-dick-volumes-1-5",
+          "canonical_title": "The Collected Stories of Philip K. Dick, Volumes 1-5",
+          "slug": "the-collected-stories-of-philip-k-dick-volumes-1-5",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1987",
+          "date_start": "1987"
+        },
+        {
+          "work_id": "WORK_nick-and-the-glimmung",
+          "canonical_title": "Nick and the Glimmung",
+          "slug": "nick-and-the-glimmung",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1988",
+          "date_start": "1988"
+        },
+        {
+          "work_id": "WORK_the-philip-k-dick-reader",
+          "canonical_title": "The Philip K. Dick Reader",
+          "slug": "the-philip-k-dick-reader",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1997",
+          "date_start": "1997"
+        },
+        {
+          "work_id": "WORK_do-androids-dream-of-electric-sheep",
+          "canonical_title": "Do Androids Dream of Electric Sheep?",
+          "slug": "do-androids-dream-of-electric-sheep",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2007",
+          "date_start": "2007"
+        },
+        {
+          "work_id": "WORK_electric-dreams",
+          "canonical_title": "Electric Dreams",
+          "slug": "electric-dreams",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "Unknown",
+          "date_start": null
+        },
+        {
+          "work_id": "WORK_selected-stories-of-philip-k-dick",
+          "canonical_title": "Selected Stories of Philip K. Dick",
+          "slug": "selected-stories-of-philip-k-dick",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "Unknown",
+          "date_start": null
+        }
+      ],
+      "essay_path": "themes/essays/authentic-human.md"
+    },
+    {
+      "theme_id": "THEME_betrayal",
+      "slug": "betrayal",
+      "label": "Betrayal",
+      "description": "Deception, imposture, treachery, and the collapse of trust between people or institutions.",
+      "work_count": 26,
+      "works": [
+        {
+          "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
+          "canonical_title": "The Short Happy Life of the Brown Oxford and Other Classic Stories",
+          "slug": "the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "circa 1952–1955",
+          "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_the-minority-report-and-other-classic-stories",
+          "canonical_title": "The Minority Report and Other Classic Stories",
+          "slug": "the-minority-report-and-other-classic-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "circa 1954–1964",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_solar-lottery",
+          "canonical_title": "Solar Lottery",
+          "slug": "solar-lottery",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_the-man-who-japed",
+          "canonical_title": "The Man Who Japed",
+          "slug": "the-man-who-japed",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1956",
+          "date_start": "1956"
+        },
+        {
+          "work_id": "WORK_time-out-of-joint",
+          "canonical_title": "Time Out of Joint",
+          "slug": "time-out-of-joint",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1959",
+          "date_start": "1959"
+        },
+        {
+          "work_id": "WORK_the-man-in-the-high-castle",
+          "canonical_title": "The Man in the High Castle",
+          "slug": "the-man-in-the-high-castle",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1962",
+          "date_start": "1962"
+        },
+        {
+          "work_id": "WORK_the-game-players-of-titan",
+          "canonical_title": "The Game-Players of Titan",
+          "slug": "the-game-players-of-titan",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1963",
+          "date_start": "1963"
+        },
+        {
+          "work_id": "WORK_the-penultimate-truth",
+          "canonical_title": "The Penultimate Truth",
+          "slug": "the-penultimate-truth",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_the-simulacra",
+          "canonical_title": "The Simulacra",
+          "slug": "the-simulacra",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_dr-bloodmoney-or-how-we-got-along-after-the-bomb",
+          "canonical_title": "Dr. Bloodmoney, or How We Got Along After the Bomb",
+          "slug": "dr-bloodmoney-or-how-we-got-along-after-the-bomb",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1965",
+          "date_start": "1965"
+        },
+        {
+          "work_id": "WORK_now-wait-for-last-year",
+          "canonical_title": "Now Wait for Last Year",
+          "slug": "now-wait-for-last-year",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1966",
+          "date_start": "1966"
+        },
+        {
+          "work_id": "WORK_the-ganymede-takeover",
+          "canonical_title": "The Ganymede Takeover",
+          "slug": "the-ganymede-takeover",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_a-maze-of-death",
+          "canonical_title": "A Maze of Death",
+          "slug": "a-maze-of-death",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1970",
+          "date_start": "1970"
+        },
+        {
+          "work_id": "WORK_our-friends-from-frolix-8",
+          "canonical_title": "Our Friends from Frolix 8",
+          "slug": "our-friends-from-frolix-8",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1970",
+          "date_start": "1970"
+        },
+        {
+          "work_id": "WORK_confessions-of-a-crap-artist",
+          "canonical_title": "Confessions of a Crap Artist",
+          "slug": "confessions-of-a-crap-artist",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1975",
+          "date_start": "1975"
+        },
+        {
+          "work_id": "WORK_the-unteleported-man",
+          "canonical_title": "The Unteleported Man",
+          "slug": "the-unteleported-man",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1983",
+          "date_start": "1983"
+        },
+        {
+          "work_id": "WORK_lies-inc",
+          "canonical_title": "Lies, Inc.",
+          "slug": "lies-inc",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1984",
+          "date_start": "1984"
+        },
+        {
+          "work_id": "WORK_mary-and-the-giant",
+          "canonical_title": "Mary and the Giant",
+          "slug": "mary-and-the-giant",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1987",
+          "date_start": "1987"
+        },
+        {
+          "work_id": "WORK_the-collected-stories-of-philip-k-dick-volumes-1-5",
+          "canonical_title": "The Collected Stories of Philip K. Dick, Volumes 1-5",
+          "slug": "the-collected-stories-of-philip-k-dick-volumes-1-5",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1987",
+          "date_start": "1987"
+        },
+        {
+          "work_id": "WORK_second-variety-and-other-classic-stories",
+          "canonical_title": "Second Variety and Other Classic Stories",
+          "slug": "second-variety-and-other-classic-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1991",
+          "date_start": "1991"
+        },
+        {
+          "work_id": "WORK_gather-yourselves-together",
+          "canonical_title": "Gather Yourselves Together",
+          "slug": "gather-yourselves-together",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1994",
+          "date_start": "1994"
+        },
+        {
+          "work_id": "WORK_the-philip-k-dick-reader",
+          "canonical_title": "The Philip K. Dick Reader",
+          "slug": "the-philip-k-dick-reader",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1997",
+          "date_start": "1997"
+        },
+        {
+          "work_id": "WORK_voices-from-the-street",
+          "canonical_title": "Voices from the Street",
+          "slug": "voices-from-the-street",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2007",
+          "date_start": "2007"
+        },
+        {
+          "work_id": "WORK_five-novels-of-the-1960s-and-70s",
+          "canonical_title": "Five Novels of the 1960s and 70s",
+          "slug": "five-novels-of-the-1960s-and-70s",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2008",
+          "date_start": "2008"
+        },
+        {
+          "work_id": "WORK_electric-dreams",
+          "canonical_title": "Electric Dreams",
+          "slug": "electric-dreams",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "Unknown",
+          "date_start": null
+        },
+        {
+          "work_id": "WORK_selected-stories-of-philip-k-dick",
+          "canonical_title": "Selected Stories of Philip K. Dick",
+          "slug": "selected-stories-of-philip-k-dick",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "Unknown",
+          "date_start": null
+        }
+      ],
+      "essay_path": "themes/essays/betrayal.md"
+    },
+    {
+      "theme_id": "THEME_reality_breakdown",
+      "slug": "reality-breakdown",
+      "label": "Reality Breakdown",
+      "description": "Unstable reality, temporal slippage, projected worlds, and the breakdown of ordinary perception.",
+      "work_count": 32,
+      "works": [
+        {
+          "work_id": "WORK_the-magician-s-box",
+          "canonical_title": "The Magician's Box",
+          "slug": "the-magician-s-box",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1944",
+          "date_start": "1944"
+        },
+        {
+          "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
+          "canonical_title": "The Short Happy Life of the Brown Oxford and Other Classic Stories",
+          "slug": "the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "circa 1952–1955",
+          "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_the-minority-report-and-other-classic-stories",
+          "canonical_title": "The Minority Report and Other Classic Stories",
+          "slug": "the-minority-report-and-other-classic-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "circa 1954–1964",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_eye-in-the-sky",
+          "canonical_title": "Eye in the Sky",
+          "slug": "eye-in-the-sky",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1957",
+          "date_start": "1957"
+        },
+        {
+          "work_id": "WORK_the-cosmic-puppets",
+          "canonical_title": "The Cosmic Puppets",
+          "slug": "the-cosmic-puppets",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1957",
+          "date_start": "1957"
+        },
+        {
+          "work_id": "WORK_time-out-of-joint",
+          "canonical_title": "Time Out of Joint",
+          "slug": "time-out-of-joint",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1959",
+          "date_start": "1959"
+        },
+        {
+          "work_id": "WORK_the-man-in-the-high-castle",
+          "canonical_title": "The Man in the High Castle",
+          "slug": "the-man-in-the-high-castle",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1962",
+          "date_start": "1962"
+        },
+        {
+          "work_id": "WORK_the-penultimate-truth",
+          "canonical_title": "The Penultimate Truth",
+          "slug": "the-penultimate-truth",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_dr-bloodmoney-or-how-we-got-along-after-the-bomb",
+          "canonical_title": "Dr. Bloodmoney, or How We Got Along After the Bomb",
+          "slug": "dr-bloodmoney-or-how-we-got-along-after-the-bomb",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1965",
+          "date_start": "1965"
+        },
+        {
+          "work_id": "WORK_now-wait-for-last-year",
+          "canonical_title": "Now Wait for Last Year",
+          "slug": "now-wait-for-last-year",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1966",
+          "date_start": "1966"
+        },
+        {
+          "work_id": "WORK_the-crack-in-space",
+          "canonical_title": "The Crack in Space",
+          "slug": "the-crack-in-space",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1966",
+          "date_start": "1966"
+        },
+        {
+          "work_id": "WORK_counter-clock-world",
+          "canonical_title": "Counter-Clock World",
+          "slug": "counter-clock-world",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_the-preserving-machine-and-other-stories",
+          "canonical_title": "The Preserving Machine and Other Stories",
+          "slug": "the-preserving-machine-and-other-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1969",
+          "date_start": "1969"
+        },
+        {
+          "work_id": "WORK_ubik",
+          "canonical_title": "Ubik",
+          "slug": "ubik",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1969",
+          "date_start": "1969"
+        },
+        {
+          "work_id": "WORK_a-maze-of-death",
+          "canonical_title": "A Maze of Death",
+          "slug": "a-maze-of-death",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1970",
+          "date_start": "1970"
+        },
+        {
+          "work_id": "WORK_our-friends-from-frolix-8",
+          "canonical_title": "Our Friends from Frolix 8",
+          "slug": "our-friends-from-frolix-8",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1970",
+          "date_start": "1970"
+        },
+        {
+          "work_id": "WORK_the-book-of-philip-k-dick",
+          "canonical_title": "The Book of Philip K. Dick",
+          "slug": "the-book-of-philip-k-dick",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1973",
+          "date_start": "1973"
+        },
+        {
+          "work_id": "WORK_deus-irae",
+          "canonical_title": "Deus Irae",
+          "slug": "deus-irae",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1976",
+          "date_start": "1976"
+        },
+        {
+          "work_id": "WORK_the-unteleported-man",
+          "canonical_title": "The Unteleported Man",
+          "slug": "the-unteleported-man",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1983",
+          "date_start": "1983"
+        },
+        {
+          "work_id": "WORK_lies-inc",
+          "canonical_title": "Lies, Inc.",
+          "slug": "lies-inc",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1984",
+          "date_start": "1984"
+        },
+        {
+          "work_id": "WORK_radio-free-albemuth",
+          "canonical_title": "Radio Free Albemuth",
+          "slug": "radio-free-albemuth",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1985",
+          "date_start": "1985"
+        },
+        {
+          "work_id": "WORK_the-collected-stories-of-philip-k-dick-volumes-1-5",
+          "canonical_title": "The Collected Stories of Philip K. Dick, Volumes 1-5",
+          "slug": "the-collected-stories-of-philip-k-dick-volumes-1-5",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1987",
+          "date_start": "1987"
+        },
+        {
+          "work_id": "WORK_second-variety-and-other-classic-stories",
+          "canonical_title": "Second Variety and Other Classic Stories",
+          "slug": "second-variety-and-other-classic-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1991",
+          "date_start": "1991"
+        },
+        {
+          "work_id": "WORK_gather-yourselves-together",
+          "canonical_title": "Gather Yourselves Together",
+          "slug": "gather-yourselves-together",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1994",
+          "date_start": "1994"
+        },
+        {
+          "work_id": "WORK_the-philip-k-dick-reader",
+          "canonical_title": "The Philip K. Dick Reader",
+          "slug": "the-philip-k-dick-reader",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1997",
+          "date_start": "1997"
+        },
+        {
+          "work_id": "WORK_do-androids-dream-of-electric-sheep",
+          "canonical_title": "Do Androids Dream of Electric Sheep?",
+          "slug": "do-androids-dream-of-electric-sheep",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2007",
+          "date_start": "2007"
+        },
+        {
+          "work_id": "WORK_voices-from-the-street",
+          "canonical_title": "Voices from the Street",
+          "slug": "voices-from-the-street",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2007",
+          "date_start": "2007"
+        },
+        {
+          "work_id": "WORK_five-novels-of-the-1960s-and-70s",
+          "canonical_title": "Five Novels of the 1960s and 70s",
+          "slug": "five-novels-of-the-1960s-and-70s",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2008",
+          "date_start": "2008"
+        },
+        {
+          "work_id": "WORK_the-valis-trilogy",
+          "canonical_title": "The VALIS Trilogy",
+          "slug": "the-valis-trilogy",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1981–1982 (Mariner Books edition 2011)",
+          "date_start": "2011"
+        },
+        {
+          "work_id": "WORK_electric-dreams",
+          "canonical_title": "Electric Dreams",
+          "slug": "electric-dreams",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "Unknown",
+          "date_start": null
+        },
+        {
+          "work_id": "WORK_five-great-novels",
+          "canonical_title": "Five Great Novels",
+          "slug": "five-great-novels",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "Unknown",
+          "date_start": null
+        },
+        {
+          "work_id": "WORK_selected-stories-of-philip-k-dick",
+          "canonical_title": "Selected Stories of Philip K. Dick",
+          "slug": "selected-stories-of-philip-k-dick",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "Unknown",
+          "date_start": null
+        }
+      ],
+      "essay_path": "themes/essays/reality-breakdown.md"
+    },
+    {
+      "theme_id": "THEME_delusions",
+      "slug": "delusions",
+      "label": "Delusions",
+      "description": "Paranoia, psychosis, hallucination, schizophrenia, and other forms of unstable perception.",
+      "work_count": 6,
+      "works": [
+        {
+          "work_id": "WORK_eye-in-the-sky",
+          "canonical_title": "Eye in the Sky",
+          "slug": "eye-in-the-sky",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1957",
+          "date_start": "1957"
+        },
+        {
+          "work_id": "WORK_clans-of-the-alphane-moon",
+          "canonical_title": "Clans of the Alphane Moon",
+          "slug": "clans-of-the-alphane-moon",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_a-maze-of-death",
+          "canonical_title": "A Maze of Death",
+          "slug": "a-maze-of-death",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1970",
+          "date_start": "1970"
+        },
+        {
+          "work_id": "WORK_deus-irae",
+          "canonical_title": "Deus Irae",
+          "slug": "deus-irae",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1976",
+          "date_start": "1976"
+        },
+        {
+          "work_id": "WORK_radio-free-albemuth",
+          "canonical_title": "Radio Free Albemuth",
+          "slug": "radio-free-albemuth",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1985",
+          "date_start": "1985"
+        },
+        {
+          "work_id": "WORK_five-great-novels",
+          "canonical_title": "Five Great Novels",
+          "slug": "five-great-novels",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "Unknown",
+          "date_start": null
+        }
+      ],
+      "essay_path": "themes/essays/delusions.md"
+    },
+    {
+      "theme_id": "THEME_illusionary_realities",
+      "slug": "illusionary-realities",
+      "label": "Illusionary Realities",
+      "description": "Simulations, false worlds, mimicry, illusions, and counterfeit reality-systems.",
+      "work_count": 26,
+      "works": [
+        {
+          "work_id": "WORK_the-jungle-people",
+          "canonical_title": "The Jungle People",
+          "slug": "the-jungle-people",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1942",
+          "date_start": "1942"
+        },
+        {
+          "work_id": "WORK_the-magician-s-box",
+          "canonical_title": "The Magician's Box",
+          "slug": "the-magician-s-box",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1944",
+          "date_start": "1944"
+        },
+        {
+          "work_id": "WORK_the-visitation",
+          "canonical_title": "The Visitation",
+          "slug": "the-visitation",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1944",
+          "date_start": "1944"
+        },
+        {
+          "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
+          "canonical_title": "The Short Happy Life of the Brown Oxford and Other Classic Stories",
+          "slug": "the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "circa 1952–1955",
+          "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_eye-in-the-sky",
+          "canonical_title": "Eye in the Sky",
+          "slug": "eye-in-the-sky",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1957",
+          "date_start": "1957"
+        },
+        {
+          "work_id": "WORK_the-cosmic-puppets",
+          "canonical_title": "The Cosmic Puppets",
+          "slug": "the-cosmic-puppets",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1957",
+          "date_start": "1957"
+        },
+        {
+          "work_id": "WORK_time-out-of-joint",
+          "canonical_title": "Time Out of Joint",
+          "slug": "time-out-of-joint",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1959",
+          "date_start": "1959"
+        },
+        {
+          "work_id": "WORK_the-man-in-the-high-castle",
+          "canonical_title": "The Man in the High Castle",
+          "slug": "the-man-in-the-high-castle",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1962",
+          "date_start": "1962"
+        },
+        {
+          "work_id": "WORK_the-game-players-of-titan",
+          "canonical_title": "The Game-Players of Titan",
+          "slug": "the-game-players-of-titan",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1963",
+          "date_start": "1963"
+        },
+        {
+          "work_id": "WORK_the-penultimate-truth",
+          "canonical_title": "The Penultimate Truth",
+          "slug": "the-penultimate-truth",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_the-simulacra",
+          "canonical_title": "The Simulacra",
+          "slug": "the-simulacra",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_counter-clock-world",
+          "canonical_title": "Counter-Clock World",
+          "slug": "counter-clock-world",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_the-ganymede-takeover",
+          "canonical_title": "The Ganymede Takeover",
+          "slug": "the-ganymede-takeover",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_the-zap-gun",
+          "canonical_title": "The Zap Gun",
+          "slug": "the-zap-gun",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_the-preserving-machine-and-other-stories",
+          "canonical_title": "The Preserving Machine and Other Stories",
+          "slug": "the-preserving-machine-and-other-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1969",
+          "date_start": "1969"
+        },
+        {
+          "work_id": "WORK_ubik",
+          "canonical_title": "Ubik",
+          "slug": "ubik",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1969",
+          "date_start": "1969"
+        },
+        {
+          "work_id": "WORK_the-unteleported-man",
+          "canonical_title": "The Unteleported Man",
+          "slug": "the-unteleported-man",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1983",
+          "date_start": "1983"
+        },
+        {
+          "work_id": "WORK_lies-inc",
+          "canonical_title": "Lies, Inc.",
+          "slug": "lies-inc",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1984",
+          "date_start": "1984"
+        },
+        {
+          "work_id": "WORK_the-collected-stories-of-philip-k-dick-volumes-1-5",
+          "canonical_title": "The Collected Stories of Philip K. Dick, Volumes 1-5",
+          "slug": "the-collected-stories-of-philip-k-dick-volumes-1-5",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1987",
+          "date_start": "1987"
+        },
+        {
+          "work_id": "WORK_nick-and-the-glimmung",
+          "canonical_title": "Nick and the Glimmung",
+          "slug": "nick-and-the-glimmung",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1988",
+          "date_start": "1988"
+        },
+        {
+          "work_id": "WORK_the-philip-k-dick-reader",
+          "canonical_title": "The Philip K. Dick Reader",
+          "slug": "the-philip-k-dick-reader",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1997",
+          "date_start": "1997"
+        },
+        {
+          "work_id": "WORK_do-androids-dream-of-electric-sheep",
+          "canonical_title": "Do Androids Dream of Electric Sheep?",
+          "slug": "do-androids-dream-of-electric-sheep",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2007",
+          "date_start": "2007"
+        },
+        {
+          "work_id": "WORK_the-second-philip-k-dick-megapack",
+          "canonical_title": "The Second Philip K. Dick MEGAPACK",
+          "slug": "the-second-philip-k-dick-megapack",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "2015",
+          "date_start": "2015"
+        },
+        {
+          "work_id": "WORK_electric-dreams",
+          "canonical_title": "Electric Dreams",
+          "slug": "electric-dreams",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "Unknown",
+          "date_start": null
+        },
+        {
+          "work_id": "WORK_selected-stories-of-philip-k-dick",
+          "canonical_title": "Selected Stories of Philip K. Dick",
+          "slug": "selected-stories-of-philip-k-dick",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "Unknown",
+          "date_start": null
+        },
+        {
+          "work_id": "WORK_the-little-movement",
+          "canonical_title": "The Little Movement",
+          "slug": "the-little-movement",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "Unknown",
+          "date_start": null
+        }
+      ],
+      "essay_path": "themes/essays/illusionary-realities.md"
+    },
+    {
+      "theme_id": "THEME_memory_identity",
+      "slug": "memory-identity",
+      "label": "Memory & Identity",
+      "description": "Amnesia, implanted or false memory, identity instability, and the porous self.",
+      "work_count": 4,
+      "works": [
+        {
+          "work_id": "WORK_clans-of-the-alphane-moon",
+          "canonical_title": "Clans of the Alphane Moon",
+          "slug": "clans-of-the-alphane-moon",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_confessions-of-a-crap-artist",
+          "canonical_title": "Confessions of a Crap Artist",
+          "slug": "confessions-of-a-crap-artist",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1975",
+          "date_start": "1975"
+        },
+        {
+          "work_id": "WORK_mary-and-the-giant",
+          "canonical_title": "Mary and the Giant",
+          "slug": "mary-and-the-giant",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1987",
+          "date_start": "1987"
+        },
+        {
+          "work_id": "WORK_five-great-novels",
+          "canonical_title": "Five Great Novels",
+          "slug": "five-great-novels",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "Unknown",
+          "date_start": null
+        }
+      ],
+      "essay_path": "themes/essays/memory-identity.md"
+    },
+    {
+      "theme_id": "THEME_time",
+      "slug": "time",
+      "label": "Time",
+      "description": "Temporal distortion, regression, precognition, time slips, and altered historical sequence.",
+      "work_count": 10,
+      "works": [
+        {
+          "work_id": "WORK_the-jungle-people",
+          "canonical_title": "The Jungle People",
+          "slug": "the-jungle-people",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1942",
+          "date_start": "1942"
+        },
+        {
+          "work_id": "WORK_the-magician-s-box",
+          "canonical_title": "The Magician's Box",
+          "slug": "the-magician-s-box",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1944",
+          "date_start": "1944"
+        },
+        {
+          "work_id": "WORK_the-visitation",
+          "canonical_title": "The Visitation",
+          "slug": "the-visitation",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1944",
+          "date_start": "1944"
+        },
+        {
+          "work_id": "WORK_the-minority-report-and-other-classic-stories",
+          "canonical_title": "The Minority Report and Other Classic Stories",
+          "slug": "the-minority-report-and-other-classic-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "circa 1954–1964",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_time-out-of-joint",
+          "canonical_title": "Time Out of Joint",
+          "slug": "time-out-of-joint",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1959",
+          "date_start": "1959"
+        },
+        {
+          "work_id": "WORK_dr-bloodmoney-or-how-we-got-along-after-the-bomb",
+          "canonical_title": "Dr. Bloodmoney, or How We Got Along After the Bomb",
+          "slug": "dr-bloodmoney-or-how-we-got-along-after-the-bomb",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1965",
+          "date_start": "1965"
+        },
+        {
+          "work_id": "WORK_now-wait-for-last-year",
+          "canonical_title": "Now Wait for Last Year",
+          "slug": "now-wait-for-last-year",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1966",
+          "date_start": "1966"
+        },
+        {
+          "work_id": "WORK_counter-clock-world",
+          "canonical_title": "Counter-Clock World",
+          "slug": "counter-clock-world",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_ubik",
+          "canonical_title": "Ubik",
+          "slug": "ubik",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1969",
+          "date_start": "1969"
+        },
+        {
+          "work_id": "WORK_five-novels-of-the-1960s-and-70s",
+          "canonical_title": "Five Novels of the 1960s and 70s",
+          "slug": "five-novels-of-the-1960s-and-70s",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2008",
+          "date_start": "2008"
+        }
+      ],
+      "essay_path": "themes/essays/time.md"
+    },
+    {
+      "theme_id": "THEME_empire_control",
+      "slug": "empire-control",
+      "label": "Empire & Control",
+      "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
+      "work_count": 21,
+      "works": [
+        {
+          "work_id": "WORK_the-minority-report-and-other-classic-stories",
+          "canonical_title": "The Minority Report and Other Classic Stories",
+          "slug": "the-minority-report-and-other-classic-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "circa 1954–1964",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_solar-lottery",
+          "canonical_title": "Solar Lottery",
+          "slug": "solar-lottery",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_the-man-who-japed",
+          "canonical_title": "The Man Who Japed",
+          "slug": "the-man-who-japed",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1956",
+          "date_start": "1956"
+        },
+        {
+          "work_id": "WORK_the-man-in-the-high-castle",
+          "canonical_title": "The Man in the High Castle",
+          "slug": "the-man-in-the-high-castle",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1962",
+          "date_start": "1962"
+        },
+        {
+          "work_id": "WORK_the-game-players-of-titan",
+          "canonical_title": "The Game-Players of Titan",
+          "slug": "the-game-players-of-titan",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1963",
+          "date_start": "1963"
+        },
+        {
+          "work_id": "WORK_the-penultimate-truth",
+          "canonical_title": "The Penultimate Truth",
+          "slug": "the-penultimate-truth",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_the-simulacra",
+          "canonical_title": "The Simulacra",
+          "slug": "the-simulacra",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_dr-bloodmoney-or-how-we-got-along-after-the-bomb",
+          "canonical_title": "Dr. Bloodmoney, or How We Got Along After the Bomb",
+          "slug": "dr-bloodmoney-or-how-we-got-along-after-the-bomb",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1965",
+          "date_start": "1965"
+        },
+        {
+          "work_id": "WORK_the-crack-in-space",
+          "canonical_title": "The Crack in Space",
+          "slug": "the-crack-in-space",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1966",
+          "date_start": "1966"
+        },
+        {
+          "work_id": "WORK_counter-clock-world",
+          "canonical_title": "Counter-Clock World",
+          "slug": "counter-clock-world",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_the-ganymede-takeover",
+          "canonical_title": "The Ganymede Takeover",
+          "slug": "the-ganymede-takeover",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_the-zap-gun",
+          "canonical_title": "The Zap Gun",
+          "slug": "the-zap-gun",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_our-friends-from-frolix-8",
+          "canonical_title": "Our Friends from Frolix 8",
+          "slug": "our-friends-from-frolix-8",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1970",
+          "date_start": "1970"
+        },
+        {
+          "work_id": "WORK_deus-irae",
+          "canonical_title": "Deus Irae",
+          "slug": "deus-irae",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1976",
+          "date_start": "1976"
+        },
+        {
+          "work_id": "WORK_the-unteleported-man",
+          "canonical_title": "The Unteleported Man",
+          "slug": "the-unteleported-man",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1983",
+          "date_start": "1983"
+        },
+        {
+          "work_id": "WORK_lies-inc",
+          "canonical_title": "Lies, Inc.",
+          "slug": "lies-inc",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1984",
+          "date_start": "1984"
+        },
+        {
+          "work_id": "WORK_radio-free-albemuth",
+          "canonical_title": "Radio Free Albemuth",
+          "slug": "radio-free-albemuth",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1985",
+          "date_start": "1985"
+        },
+        {
+          "work_id": "WORK_second-variety-and-other-classic-stories",
+          "canonical_title": "Second Variety and Other Classic Stories",
+          "slug": "second-variety-and-other-classic-stories",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1991",
+          "date_start": "1991"
+        },
+        {
+          "work_id": "WORK_gather-yourselves-together",
+          "canonical_title": "Gather Yourselves Together",
+          "slug": "gather-yourselves-together",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1994",
+          "date_start": "1994"
+        },
+        {
+          "work_id": "WORK_five-novels-of-the-1960s-and-70s",
+          "canonical_title": "Five Novels of the 1960s and 70s",
+          "slug": "five-novels-of-the-1960s-and-70s",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2008",
+          "date_start": "2008"
+        },
+        {
+          "work_id": "WORK_five-great-novels",
+          "canonical_title": "Five Great Novels",
+          "slug": "five-great-novels",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "Unknown",
+          "date_start": null
+        }
+      ],
+      "essay_path": "themes/essays/empire-control.md"
+    },
+    {
+      "theme_id": "THEME_religion_gnosis",
+      "slug": "religion-gnosis",
+      "label": "Religion & Gnosis",
+      "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
+      "work_count": 8,
+      "works": [
+        {
+          "work_id": "WORK_the-visitation",
+          "canonical_title": "The Visitation",
+          "slug": "the-visitation",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1944",
+          "date_start": "1944"
+        },
+        {
+          "work_id": "WORK_the-cosmic-puppets",
+          "canonical_title": "The Cosmic Puppets",
+          "slug": "the-cosmic-puppets",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1957",
+          "date_start": "1957"
+        },
+        {
+          "work_id": "WORK_a-maze-of-death",
+          "canonical_title": "A Maze of Death",
+          "slug": "a-maze-of-death",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1970",
+          "date_start": "1970"
+        },
+        {
+          "work_id": "WORK_deus-irae",
+          "canonical_title": "Deus Irae",
+          "slug": "deus-irae",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1976",
+          "date_start": "1976"
+        },
+        {
+          "work_id": "WORK_radio-free-albemuth",
+          "canonical_title": "Radio Free Albemuth",
+          "slug": "radio-free-albemuth",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1985",
+          "date_start": "1985"
+        },
+        {
+          "work_id": "WORK_nick-and-the-glimmung",
+          "canonical_title": "Nick and the Glimmung",
+          "slug": "nick-and-the-glimmung",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1988",
+          "date_start": "1988"
+        },
+        {
+          "work_id": "WORK_five-novels-of-the-1960s-and-70s",
+          "canonical_title": "Five Novels of the 1960s and 70s",
+          "slug": "five-novels-of-the-1960s-and-70s",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2008",
+          "date_start": "2008"
+        },
+        {
+          "work_id": "WORK_the-valis-trilogy",
+          "canonical_title": "The VALIS Trilogy",
+          "slug": "the-valis-trilogy",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1981–1982 (Mariner Books edition 2011)",
+          "date_start": "2011"
+        }
+      ],
+      "essay_path": "themes/essays/religion-gnosis.md"
+    },
+    {
+      "theme_id": "THEME_alien_contact",
+      "slug": "alien-contact",
+      "label": "Alien Contact",
+      "description": "Aliens, extraterrestrial intelligence, off-world contact, and nonhuman ecologies.",
+      "work_count": 5,
+      "works": [
+        {
+          "work_id": "WORK_the-game-players-of-titan",
+          "canonical_title": "The Game-Players of Titan",
+          "slug": "the-game-players-of-titan",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1963",
+          "date_start": "1963"
+        },
+        {
+          "work_id": "WORK_the-crack-in-space",
+          "canonical_title": "The Crack in Space",
+          "slug": "the-crack-in-space",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1966",
+          "date_start": "1966"
+        },
+        {
+          "work_id": "WORK_the-ganymede-takeover",
+          "canonical_title": "The Ganymede Takeover",
+          "slug": "the-ganymede-takeover",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_ubik",
+          "canonical_title": "Ubik",
+          "slug": "ubik",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1969",
+          "date_start": "1969"
+        },
+        {
+          "work_id": "WORK_nick-and-the-glimmung",
+          "canonical_title": "Nick and the Glimmung",
+          "slug": "nick-and-the-glimmung",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1988",
+          "date_start": "1988"
+        }
+      ],
+      "essay_path": "themes/essays/alien-contact.md"
+    },
+    {
+      "theme_id": "THEME_suburbia_domesticity",
+      "slug": "suburbia-domesticity",
+      "label": "Suburbia & Domesticity",
+      "description": "Family life, marriage, houses, domestic tension, and the suburban everyday.",
+      "work_count": 8,
+      "works": [
+        {
+          "work_id": "WORK_the-man-who-japed",
+          "canonical_title": "The Man Who Japed",
+          "slug": "the-man-who-japed",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1956",
+          "date_start": "1956"
+        },
+        {
+          "work_id": "WORK_eye-in-the-sky",
+          "canonical_title": "Eye in the Sky",
+          "slug": "eye-in-the-sky",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1957",
+          "date_start": "1957"
+        },
+        {
+          "work_id": "WORK_clans-of-the-alphane-moon",
+          "canonical_title": "Clans of the Alphane Moon",
+          "slug": "clans-of-the-alphane-moon",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_the-book-of-philip-k-dick",
+          "canonical_title": "The Book of Philip K. Dick",
+          "slug": "the-book-of-philip-k-dick",
+          "category": "short_stories",
+          "work_type": "short_stories",
+          "date_display": "1973",
+          "date_start": "1973"
+        },
+        {
+          "work_id": "WORK_confessions-of-a-crap-artist",
+          "canonical_title": "Confessions of a Crap Artist",
+          "slug": "confessions-of-a-crap-artist",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1975",
+          "date_start": "1975"
+        },
+        {
+          "work_id": "WORK_mary-and-the-giant",
+          "canonical_title": "Mary and the Giant",
+          "slug": "mary-and-the-giant",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1987",
+          "date_start": "1987"
+        },
+        {
+          "work_id": "WORK_gather-yourselves-together",
+          "canonical_title": "Gather Yourselves Together",
+          "slug": "gather-yourselves-together",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "1994",
+          "date_start": "1994"
+        },
+        {
+          "work_id": "WORK_voices-from-the-street",
+          "canonical_title": "Voices from the Street",
+          "slug": "voices-from-the-street",
+          "category": "novels",
+          "work_type": "novel",
+          "date_display": "2007",
+          "date_start": "2007"
+        }
+      ],
+      "essay_path": "themes/essays/suburbia-domesticity.md"
+    }
+  ]
+}

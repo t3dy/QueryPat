@@ -16,6 +16,49 @@
   },
   {
     "_type": "biography_event",
+    "bio_id": "pkd_bio_1977_joan_simpson_nursing",
+    "summary": "During severe late-1970s depressive episodes, friends enlist Joan Simpson to help care for Dick, whose apartment is cluttered with papers, snuff cans, and medication bottles.",
+    "date_start": "1977",
+    "date_end": "1977",
+    "date_display": "1977",
+    "date_confidence": "year",
+    "event_type": "relationship",
+    "source_name": "Arnold, The Divine Madness of Philip K. Dick",
+    "source_type": "curated",
+    "location": "Santa Ana, California",
+    "importance": "3",
+    "notes": "Adds one of the requested women/relationships not yet represented in curated biography.",
+    "entities": [
+      "Joan Simpson",
+      "Kyle Arnold"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1977_public_2_3_74_france_arnold",
+    "summary": "At the 1977 Metz science-fiction convention in France, Dick publicly discloses 2-3-74 and describes it as a breakthrough to the real world behind appearances.",
+    "date_start": "1977",
+    "date_end": "1977",
+    "date_display": "1977",
+    "date_confidence": "year",
+    "event_type": "lecture",
+    "source_name": "Arnold, The Divine Madness of Philip K. Dick",
+    "source_type": "curated",
+    "location": "Metz, France",
+    "importance": "5",
+    "notes": "Arnold notes that some friends feared the appearance signaled a downward spiral.",
+    "entities": [
+      "Kyle Arnold",
+      "Metz",
+      "2-3-74"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
     "bio_id": "pkd_bio_1977_scanner_darkly",
     "summary": "Publishes A Scanner Darkly drawing on his drug culture experiences",
     "date_start": "1977",
@@ -36,6 +79,96 @@
     "theophany_slug": null
   },
   {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1977_jaynes_letter",
+    "summary": "Writes Julian Jaynes after reading The Origin of Consciousness in the Breakdown of the Bicameral Mind, praising the theory and comparing Jaynes's divine-voice model to his own March 1974 right-hemisphere/Zagreus experience.",
+    "date_start": "1977-03-16",
+    "date_end": "1977-03-16",
+    "date_display": "1977-03-16",
+    "date_confidence": "day",
+    "event_type": "correspondence",
+    "source_name": "Selected Letters 1977-1979, letter to Julian Jaynes, March 16, 1977",
+    "source_type": "curated",
+    "location": "Santa Ana, California",
+    "importance": "5",
+    "notes": "Short quotations to foreground in display: \"raving about it\" and \"Zagreus awaken in my right hemisphere.\" Letter id: LET_1977-03-16_JULIAN_JAYNES_0021.",
+    "entities": [
+      "Julian Jaynes",
+      "The Origin of Consciousness in the Breakdown of the Bicameral Mind",
+      "VALIS",
+      "Zebra"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1977_jaynes_hurst",
+    "summary": "Explains Jaynes's bicameral-mind theory to Mark Hurst and folds it into his developing VALIS/Zebra model of divine command voices.",
+    "date_start": "1977-03-17",
+    "date_end": "1977-03-17",
+    "date_display": "1977-03-17",
+    "date_confidence": "day",
+    "event_type": "religious_thought",
+    "source_name": "Selected Letters 1977-1979, letter to Mark Hurst, March 17, 1977",
+    "source_type": "curated",
+    "location": "Santa Ana, California",
+    "importance": "4",
+    "notes": "Letter id: LET_UNDATED_MARK_HURST_0023.",
+    "entities": [
+      "Julian Jaynes",
+      "Mark Hurst",
+      "VALIS",
+      "Zebra"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1977_jaynes_bennett",
+    "summary": "Tells Carl Bennett that Jaynes's book provides scientific support for aspects of his Zebra speculation and right-hemisphere theory.",
+    "date_start": "1977-03-30",
+    "date_end": "1977-03-30",
+    "date_display": "1977-03-30",
+    "date_confidence": "day",
+    "event_type": "religious_thought",
+    "source_name": "Selected Letters 1977-1979, letter to Carl Bennett, March 30, 1977",
+    "source_type": "curated",
+    "location": "Santa Ana, California",
+    "importance": "4",
+    "notes": "Letter id: LET_UNDATED_CARL_BENNET_1_0025.",
+    "entities": [
+      "Julian Jaynes",
+      "Carl Bennett",
+      "Zebra"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1977_sarill_reencounter_maze",
+    "summary": "After several years without contact, PKD encounters William Sarill again and discusses how their theologies have changed since the Maze of Death period.",
+    "date_start": "1977-07-27",
+    "date_end": "1977-07-27",
+    "date_display": "1977-07-27",
+    "date_confidence": "inferred",
+    "event_type": "correspondence",
+    "source_name": "Selected Letters 1977-1979, letter to Eugene Warren, July 28, 1977",
+    "source_type": "curated",
+    "location": "Santa Ana, California",
+    "importance": "4",
+    "notes": "PKD writes that the encounter occurred the night before Warren's article arrived; he links Sarill to the theology in Maze and then describes his 1974 Trinitarian conversion.",
+    "entities": [
+      "William Sarill",
+      "Eugene Warren",
+      "A Maze of Death"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
     "_type": "theophany",
     "theophany_id": "THEO_1977_METZ_2_3_75",
     "name": "Second 2-3-74 (Metz, 1977)",
@@ -49,6 +182,52 @@
     "importance": "major",
     "contested_status": "disputed",
     "parent_theophany_id": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1977_star_wars_warren",
+    "summary": "Writes Eugene Warren that Star Wars has religious importance because it makes Christian mystery available through popular science-fiction imagery, comparing Obi-Wan's voice to the voice he heard when VALIS took him over in March 1974.",
+    "date_start": "1977-10-02",
+    "date_end": "1977-10-02",
+    "date_display": "1977-10-02",
+    "date_confidence": "day",
+    "event_type": "religious_thought",
+    "source_name": "Selected Letters 1977-1979, letter to Eugene Warren, October 2, 1977",
+    "source_type": "curated",
+    "location": "Santa Ana, California",
+    "importance": "5",
+    "notes": "Short quotations to foreground in display: \"mystery of our religion\" and \"Word and Hand of God.\" Letter id: LET_1977-10-02_EUGENE_WARREN_0043.",
+    "entities": [
+      "Eugene Warren",
+      "Star Wars",
+      "George Lucas",
+      "VALIS",
+      "Jesus Christ"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1977_metz_star_wars_claudia",
+    "summary": "After returning from the Metz convention, writes Claudia Bush about the reception of his theology-heavy speech, a French romantic fixation, and seeing Star Wars.",
+    "date_start": "1977-10-03",
+    "date_end": "1977-10-03",
+    "date_display": "1977-10-03",
+    "date_confidence": "day",
+    "event_type": "travel",
+    "source_name": "Selected Letters 1977-1979, letter to Claudia Bush, October 3, 1977",
+    "source_type": "curated",
+    "location": "Santa Ana, California",
+    "importance": "4",
+    "notes": "Letter id: LET_1977-10-03_CLAUDIA_BUSH_0038.",
+    "entities": [
+      "Claudia Bush",
+      "Metz",
+      "Star Wars"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
   },
   {
     "_type": "biography_event",

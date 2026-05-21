@@ -13,11 +13,15 @@ interface Analytics {
     names: number
   }
   top_terms: { name: string; count: number; category: string }[]
-  segments_per_year: { year: string; count: number; bio_events?: number; theophanies?: number; has_content?: boolean }[]
+  segments_per_year: { year: string; count: number; bio_events?: number; publications?: number; theophanies?: number; has_content?: boolean }[]
 }
 
 interface BiographyIndex {
   total: number
+}
+
+interface WorkIndex {
+  work_id?: string
 }
 
 interface Scholar {
@@ -27,12 +31,14 @@ interface Scholar {
 export default function Dashboard() {
   const { data, loading } = useData<Analytics>('analytics.json')
   const { data: bio } = useData<BiographyIndex>('biography/index.json')
+  const { data: works } = useData<WorkIndex[]>('works/index.json')
   const { data: scholars } = useData<Scholar[]>('scholars.json')
 
   if (loading || !data) return <div className="loading">Loading...</div>
 
   const t = data.totals
   const bioCount = bio?.total ?? 646
+  const workCount = works?.length ?? 0
   const scholarCount = scholars?.length ?? 119
 
   return (
@@ -40,22 +46,21 @@ export default function Dashboard() {
       <div className="hero-header">
         <h1>Philip K. Dick Knowledge Portal</h1>
         <p className="hero-subtitle">
-          A scholarly portal on Philip K. Dick (1928&ndash;1982): his fiction, his life, the
-          {' '}<em>Exegesis</em>, and the scholarship around him.
+          A scholarly portal on Philip K. Dick (1928&ndash;1982): his fiction, his life, his
+          {' '}<em>Exegesis</em>, and the scholarship and reception around his work.
         </p>
       </div>
 
       <div className="detail-section">
         <p>
-          Philip K. Dick was an American science fiction novelist whose work moved from pulp magazines in the 1950s
-          to the Library of America in the 21st century. Across forty-four novels and over a hundred short stories
-          he wrote about counterfeit realities, drugs and altered states, theology, paranoia, and the unreliability of
-          self. From February 1974 until his death in March 1982 he kept a private theological journal &mdash; the
-          {' '}<em>Exegesis</em> &mdash; running to roughly 8,000 manuscript pages.
+          Philip K. Dick was an American novelist and short-story writer whose work moved from pulp magazines in the
+          1950s to the Library of America in the 21st century. Across novels, stories, letters, interviews, and the
+          private theological journal he kept from 1974 until his death in 1982, he repeatedly returned to counterfeit
+          realities, altered states, theology, paranoia, and the instability of self.
         </p>
         <p>
           This portal integrates biography, fiction, the <em>Exegesis</em>, letters and interviews, scholarly monographs
-          and articles, and fan publications into one site. Every claim is sourced to an
+          and articles, fan publications, and adapted or reissued works into one site. Every claim is sourced to an
           {' '}<Link to="/archive">evidentiary lane</Link>; interpretations are attributed to whoever holds them; and
           contradictions across sources are surfaced rather than silently adjudicated. Start anywhere &mdash; the entries
           cross-link to each other.
@@ -74,6 +79,10 @@ export default function Dashboard() {
         <Link to="/archive" className="stat-card" style={{textDecoration:'none'}}>
           <div className="stat-value">{t.archive_docs.toLocaleString()}</div>
           <div className="stat-label">Archive documents</div>
+        </Link>
+        <Link to="/works" className="stat-card" style={{textDecoration:'none'}}>
+          <div className="stat-value">{workCount.toLocaleString()}</div>
+          <div className="stat-label">Canonical works</div>
         </Link>
         <Link to="/names" className="stat-card" style={{textDecoration:'none'}}>
           <div className="stat-value">{(t.names ?? 592).toLocaleString()}</div>
@@ -97,8 +106,12 @@ export default function Dashboard() {
             and reliability tier, drawn from the major biographies and primary sources.
           </li>
           <li>
-            <strong><Link to="/timeline">Timeline</Link></strong> &mdash; chronological viewer for <em>Exegesis</em> segments
-            and biography events together.
+            <strong><Link to="/map">Map</Link></strong> &mdash; a California-first geography view of PKD residences, work sites,
+            and fiction-linked places, with an expansion catalog for the rest of the chronology.
+          </li>
+          <li>
+            <strong><Link to="/timeline">Timeline</Link></strong> &mdash; chronological viewer for publication records,
+            <em>Exegesis</em> segments, biography events, and visionary experiences together.
           </li>
           <li>
             <strong><Link to="/exegesis">The <em>Exegesis</em></Link></strong> &mdash; PKD's theological journal (1974&ndash;1982)
@@ -112,6 +125,10 @@ export default function Dashboard() {
           <li>
             <strong><Link to="/archive">Archive</Link></strong> &mdash; 228+ documents tagged by evidentiary lane:
             biographies, scholarship, interviews, letters, fan publications, newspapers, finding aids.
+          </li>
+          <li>
+            <strong><Link to="/works">Works</Link></strong> &mdash; canonical bibliography records for PKD's novels,
+            stories, letters, and related manifestations, with links into the archive holdings.
           </li>
           <li>
             <strong><Link to="/dictionary">Dictionary</Link></strong> &mdash; 310 terms covering theology, philosophy,
@@ -159,7 +176,7 @@ export default function Dashboard() {
         <div className="detail-section">
           <h2>Browse by year</h2>
           <p style={{color:'var(--text-muted)', fontSize:'0.85rem', margin:'0.25rem 0 0.75rem'}}>
-            Philip K. Dick (1928&ndash;1982). Click any year to see biography events,
+            Philip K. Dick (1928&ndash;1982). Click any year to see publication records, biography events,
             <span style={{color:'#9B6B9B'}}> theophanies</span>, and <em>Exegesis</em> writings for that year.
           </p>
           {(() => {
@@ -171,7 +188,7 @@ export default function Dashboard() {
             }
             // Compute max activity across all years for continuous color scaling
             const maxTotal = Math.max(1, ...data.segments_per_year.map(
-              y => y.count + (y.bio_events || 0) + (y.theophanies || 0) * 5
+              y => y.count + (y.bio_events || 0) + (y.publications || 0) + (y.theophanies || 0) * 5
             ))
 
             return Array.from(decades.entries()).map(([dec, years]) => (
@@ -180,8 +197,8 @@ export default function Dashboard() {
                 <div style={{display:'flex', flexWrap:'wrap', gap:'0.25rem'}}>
                   {years.map(y => {
                     // Weight theophanies 5x in the heat scale (they're rarer/more salient)
-                    const heat = y.count + (y.bio_events || 0) + (y.theophanies || 0) * 5
-                    const total = y.count + (y.bio_events || 0) + (y.theophanies || 0)
+                    const heat = y.count + (y.bio_events || 0) + (y.publications || 0) + (y.theophanies || 0) * 5
+                    const total = y.count + (y.bio_events || 0) + (y.publications || 0) + (y.theophanies || 0)
                     const hasContent = y.has_content || total > 0
                     // Continuous opacity scale: 0.10 (min content) -> 1.0 (max activity)
                     const intensity = hasContent ? Math.min(1, 0.15 + 0.85 * (heat / maxTotal)) : 0
@@ -208,7 +225,7 @@ export default function Dashboard() {
                           cursor: hasContent ? 'pointer' : 'default',
                           border: hasContent ? `1px solid rgba(${baseRgb}, ${0.2 + intensity * 0.3})` : '1px solid transparent',
                         }}
-                        title={`${y.year}: ${y.count} segments, ${y.bio_events || 0} biography events, ${y.theophanies || 0} theophanies`}
+                        title={`${y.year}: ${y.count} segments, ${y.publications || 0} publications, ${y.bio_events || 0} biography events, ${y.theophanies || 0} theophanies`}
                       >
                         {y.year.slice(2)}
                       </Link>

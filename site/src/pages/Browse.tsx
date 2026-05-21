@@ -11,7 +11,7 @@ interface Analytics {
     names: number
   }
   top_terms: { name: string; count: number }[]
-  segments_per_year: { year: string; count: number; bio_events?: number; theophanies?: number; has_content?: boolean }[]
+  segments_per_year: { year: string; count: number; bio_events?: number; publications?: number; theophanies?: number; has_content?: boolean }[]
 }
 
 interface TheophanyMeta {
@@ -85,7 +85,7 @@ export default function Browse() {
   const randScholar = pickRandom(scholars || [], 4)
   const randTerm = pickRandom(dictList as DictTerm[], 8)
 
-  type YearEntry = { year: string; count: number; bio_events?: number; theophanies?: number; has_content?: boolean }
+  type YearEntry = { year: string; count: number; bio_events?: number; publications?: number; theophanies?: number; has_content?: boolean }
   const yearsByDecade = (analytics?.segments_per_year || []).reduce((acc, y) => {
     const dec = y.year.slice(0, 3) + '0s'
     if (!acc[dec]) acc[dec] = []
@@ -119,14 +119,14 @@ export default function Browse() {
       <div className="detail-section">
         <h2>By year</h2>
         <p style={{color:'var(--text-muted)', fontSize:'0.85rem', margin:'0.25rem 0 0.75rem'}}>
-          Years with biography events, theophanies, or <em>Exegesis</em> writings light up.
+          Years with publication records, biography events, theophanies, or <em>Exegesis</em> writings light up.
         </p>
         {Object.entries(yearsByDecade).map(([dec, years]) => (
           <div key={dec} style={{marginBottom:'0.75rem'}}>
             <div style={{fontWeight:600, fontSize:'0.85rem', color:'var(--text-muted)', marginBottom:'0.25rem'}}>{dec}</div>
             <div style={{display:'flex', flexWrap:'wrap', gap:'0.25rem'}}>
               {years.map(y => {
-                const total = (y.count || 0) + (y.bio_events || 0) + (y.theophanies || 0)
+                const total = (y.count || 0) + (y.bio_events || 0) + (y.publications || 0) + (y.theophanies || 0)
                 const hasContent = y.has_content || total > 0
                 return (
                   <Link
@@ -135,13 +135,13 @@ export default function Browse() {
                     style={{
                       display:'inline-block', padding:'0.25rem 0.5rem',
                       fontSize:'0.8rem', borderRadius:'4px', textDecoration:'none',
-                      background: y.count > 100 ? 'var(--accent)' : y.count > 0 ? 'rgba(192,154,77,0.2)' : hasContent ? 'rgba(192,154,77,0.08)' : 'transparent',
+                      background: y.count > 100 ? 'var(--accent)' : (y.count > 0 || (y.publications || 0) > 0) ? 'rgba(192,154,77,0.2)' : hasContent ? 'rgba(192,154,77,0.08)' : 'transparent',
                       color: y.count > 100 ? '#fff' : hasContent ? 'var(--text)' : 'var(--text-muted)',
                       opacity: hasContent ? 1 : 0.35,
                       cursor: hasContent ? 'pointer' : 'default',
                       border: hasContent ? '1px solid rgba(192,154,77,0.3)' : '1px solid transparent',
                     }}
-                    title={`${y.year}: ${y.count || 0} segments, ${y.bio_events || 0} bio events, ${y.theophanies || 0} theophanies`}
+                    title={`${y.year}: ${y.count || 0} segments, ${y.publications || 0} publications, ${y.bio_events || 0} bio events, ${y.theophanies || 0} theophanies`}
                   >
                     {y.year.slice(2)}
                   </Link>

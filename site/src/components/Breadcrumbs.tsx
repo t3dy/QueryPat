@@ -5,6 +5,7 @@ const SECTION_LABELS: Record<string, string> = {
   timeline: 'Timeline',
   dictionary: 'Dictionary',
   archive: 'Archive',
+  map: 'Map',
   segments: 'Exegesis',
   search: 'Search',
   biography: 'Biography',

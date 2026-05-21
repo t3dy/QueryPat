@@ -40,6 +40,7 @@ export default function Names() {
   const [search, setSearch] = useState('')
   const [entityType, setEntityType] = useState<string>('all')
   const [sourceFilter, setSourceFilter] = useState<string>('all')
+  const [sortBy, setSortBy] = useState<string>('mentions')
 
   const types = useMemo(() => {
     if (!names) return []
@@ -71,8 +72,13 @@ export default function Names() {
         (n.first_work || '').toLowerCase().includes(q)
       )
     }
-    return result
-  }, [names, search, entityType, sourceFilter])
+    return [...result].sort((a, b) => {
+      if (sortBy === 'name') return a.canonical_form.localeCompare(b.canonical_form)
+      if (sortBy === 'type') return (a.entity_type || '').localeCompare(b.entity_type || '') || a.canonical_form.localeCompare(b.canonical_form)
+      if (sortBy === 'review') return (a.review_state || '').localeCompare(b.review_state || '') || a.canonical_form.localeCompare(b.canonical_form)
+      return (b.mention_count || 0) - (a.mention_count || 0) || a.canonical_form.localeCompare(b.canonical_form)
+    })
+  }, [names, search, entityType, sourceFilter, sortBy])
 
   if (loading) return <div className="loading">Loading...</div>
 
@@ -127,13 +133,21 @@ export default function Names() {
         </div>
 
         <div>
-          <input
-            className="search-input"
-            type="text"
-            placeholder="Search names..."
-            value={search}
-            onChange={e => setSearch(e.target.value)}
-          />
+          <div className="toolbar-row">
+            <input
+              className="search-input"
+              type="text"
+              placeholder="Search names..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+            />
+            <select className="filter-select" value={sortBy} onChange={e => setSortBy(e.target.value)} aria-label="Sort names">
+              <option value="mentions">Most Mentions</option>
+              <option value="name">Name</option>
+              <option value="type">Entity Type</option>
+              <option value="review">Review State</option>
+            </select>
+          </div>
 
           <div className="card-grid">
             {filtered.map(name => (

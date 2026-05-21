@@ -72,6 +72,31 @@ Letters are dense in dateable, locatable, attributable events. A first pass runs
 
 These produce candidate `biography_events` rows with `reliability='high'`, `source_type='letter'`, `evidentiary_lane='E'`, `date_basis='letter_postmark'`. Each candidate has a `letter_id` foreign key.
 
+### Stage 2A — Targeted source-search audit (deterministic)
+
+Before hand extraction or LLM extraction, run:
+
+```
+python scripts/biography/search_bio_sources.py --out BIO_SOURCE_SEARCH_REPORT.md --json-out scripts/biography/bio_source_hits.json
+```
+
+This searches the segmented Selected Letters plus major biography sources
+(*The Divine Madness of Philip K. Dick*, *Divine Invasions*, *The Search for
+Philip K. Dick*, and *In Pursuit of VALIS*) for named priority terms:
+
+- **requested gaps:** Julian Jaynes, Star Wars, George Lucas
+- **SF correspondents:** Le Guin, Zelazny, Heinlein, Ellison, Brunner, Aldiss, Disch, Sturgeon, Asimov, Leiber
+- **religion/visionary:** 2-3-74, pink light/beam, fish sign, Zebra, VALIS, AI voice, Sophia, Holy Spirit, anamnesis, Black Iron Prison, Bishop Pike
+- **drugs/health:** amphetamines, speed, LSD, sodium pentothal, X-Kalay, Synanon, overdose, suicide, psychiatrist, hospital
+- **relationships/places/work:** Nancy, Tessa, Anne, Kleo, Joan Simpson, Linda Levy, Doris Sauter, University Radio, Art Music, Berkeley High, Ojai, Point Reyes, Vancouver, Fullerton, Santa Ana
+- **works periods:** major novels and key uncompleted/late projects such as *To Scare the Dead* and *The Owl in Daylight*
+
+The report is the extraction queue: every high-value hit should become either a
+curated biography event, a letter candidate event, or an explicit "skip" note.
+This catches OCR/segmentation problems too; the Julian Jaynes letter was found
+because its header was OCR'd as `## ITO JULIAN JAYNESj`, and the segmenter now
+tolerates that header form.
+
 ### Stage 3 — LLM-targeted reading (the part the deterministic pass can't do)
 
 The deterministic pass catches dateable factual mentions but misses interpretive, narrative, and reflective passages where PKD describes events without naming them with stock vocabulary. For these, a targeted LLM prompt runs over each letter body.

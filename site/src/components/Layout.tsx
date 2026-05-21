@@ -5,10 +5,15 @@ export default function Layout() {
   return (
     <div className="app-layout">
       <nav className="app-nav">
-        <span className="nav-brand">PKD Portal</span>
+        <span className="nav-brand">PKD Knowledge Portal</span>
         <NavLink to="/" end>Dashboard</NavLink>
         <NavLink to="/browse">Browse</NavLink>
         <NavLink to="/biography">Biography</NavLink>
+        <NavLink to="/map">Map</NavLink>
+        <NavLink to="/people">People</NavLink>
+        <NavLink to="/works">Works</NavLink>
+        <NavLink to="/themes">Themes</NavLink>
+        <NavLink to="/pkd-on-pkd">PKD on PKD</NavLink>
         <NavLink to="/timeline">Timeline</NavLink>
         <NavLink to="/exegesis">Exegesis</NavLink>
         <NavLink to="/theophanies">Theophanies</NavLink>

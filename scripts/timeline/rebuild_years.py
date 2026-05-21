@@ -2,6 +2,7 @@
 
 Merges three sources into per-year files:
   1. Exegesis segments (from existing year files / segments table)
+  2. Canonical works publications (from works table)
   2. Biography events (curated.json + events.json)
   3. Theophanies (from theophanies table)
 
@@ -58,6 +59,22 @@ def load_theophanies(con: sqlite3.Connection) -> list[dict]:
                   date_confidence, summary, importance, contested_status,
                   experience_type, parent_theophany_id
            FROM theophanies"""
+    )
+    rows = cur.fetchall()
+    cols = [d[0] for d in cur.description]
+    return [dict(zip(cols, r)) for r in rows]
+
+
+def load_publications(con: sqlite3.Connection) -> list[dict]:
+    cur = con.execute(
+        """SELECT work_id, canonical_title, slug, work_type, category,
+                  date_start, date_display, card_summary, page_summary,
+                  source_count, page_count
+           FROM works
+           WHERE date_start IS NOT NULL
+             AND length(date_start) >= 4
+             AND substr(date_start, 1, 4) BETWEEN '1928' AND '1982'
+           ORDER BY date_start, canonical_title"""
     )
     rows = cur.fetchall()
     cols = [d[0] for d in cur.description]
@@ -154,6 +171,24 @@ def normalize_theophany(t: dict) -> dict:
     }
 
 
+def normalize_publication(p: dict) -> dict:
+    """Convert works-table rows into year-file publication entries."""
+    return {
+        "_type": "publication",
+        "work_id": p["work_id"],
+        "canonical_title": p["canonical_title"],
+        "slug": p["slug"],
+        "work_type": p.get("work_type") or "publication",
+        "category": p.get("category") or "",
+        "date_start": p.get("date_start") or "",
+        "date_display": p.get("date_display") or p.get("date_start") or "",
+        "summary": p.get("card_summary") or p.get("page_summary") or "",
+        "page_summary": p.get("page_summary") or p.get("card_summary") or "",
+        "source_count": p.get("source_count"),
+        "page_count": p.get("page_count"),
+    }
+
+
 def expand_theophany_to_years(t: dict) -> list[str]:
     """Return list of YYYY strings the theophany covers (date_start..date_end)."""
     y_start = parse_year(t.get("date_start"))
@@ -171,9 +206,13 @@ def run(db_path: Path, data_dir: Path) -> dict:
 
     curated = load_curated(data_dir / "biography" / "curated.json")
     events = load_events(data_dir / "biography" / "events.json")
+    publications = load_publications(con)
     theophanies = load_theophanies(con)
 
-    print(f"[load] {len(curated)} curated bio events, {len(events)} extracted bio events, {len(theophanies)} theophanies")
+    print(
+        f"[load] {len(curated)} curated bio events, {len(events)} extracted bio events, "
+        f"{len(publications)} publications, {len(theophanies)} theophanies"
+    )
 
     # Group everything by year
     by_year: dict[str, list[dict]] = defaultdict(list)
@@ -190,6 +229,12 @@ def run(db_path: Path, data_dir: Path) -> dict:
         if y:
             by_year[y].append(normalize_event(ev))
 
+    # Canonical works/publications
+    for p in publications:
+        y = parse_year(p.get("date_start"))
+        if y:
+            by_year[y].append(normalize_publication(p))
+
     # Theophanies
     for t in theophanies:
         for y in expand_theophany_to_years(t):
@@ -205,7 +250,12 @@ def run(db_path: Path, data_dir: Path) -> dict:
 
     # Sort within each year by date_start, then by type
     for y in by_year:
-        by_year[y].sort(key=lambda e: (e.get("date_start") or "", e.get("_type", "segment") or ""))
+        type_order = {
+            "publication": 0,
+            "biography_event": 1,
+            "theophany": 2,
+        }
+        by_year[y].sort(key=lambda e: (e.get("date_start") or "", type_order.get(e.get("_type", "segment"), 9), e.get("canonical_title") or e.get("summary") or e.get("title") or ""))
 
     # Write per-year files
     years_dir = data_dir / "timeline" / "years"
@@ -221,11 +271,13 @@ def run(db_path: Path, data_dir: Path) -> dict:
     for y in sorted(by_year.keys()):
         entries = by_year[y]
         n_seg = sum(1 for e in entries if "_type" not in e)  # segments don't have _type
+        n_pub = sum(1 for e in entries if e.get("_type") == "publication")
         n_bio = sum(1 for e in entries if e.get("_type") == "biography_event")
         n_theo = sum(1 for e in entries if e.get("_type") == "theophany")
         index_entries.append({
             "year": y,
             "count": n_seg,
+            "publications": n_pub,
             "bio_events": n_bio,
             "theophanies": n_theo,
             "total": len(entries),
@@ -251,6 +303,7 @@ def run(db_path: Path, data_dir: Path) -> dict:
                     "year": y,
                     "count": ie["count"],
                     "bio_events": ie["bio_events"],
+                    "publications": ie["publications"],
                     "theophanies": ie["theophanies"],
                     "has_content": ie["total"] > 0,
                 })
@@ -259,6 +312,7 @@ def run(db_path: Path, data_dir: Path) -> dict:
                     "year": y,
                     "count": 0,
                     "bio_events": 0,
+                    "publications": 0,
                     "theophanies": 0,
                     "has_content": False,
                 })

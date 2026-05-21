@@ -22,6 +22,49 @@
   },
   {
     "_type": "biography_event",
+    "bio_id": "pkd_bio_1968_maze_theology_notes",
+    "summary": "PKD drafts the Maze/Tench theology notes that develop the colony plot, Delmak setting, divine plurality, the Manufacturer, decay, and the form-destroying principle later associated with A Maze of Death.",
+    "date_start": "1968",
+    "date_end": "1968",
+    "date_display": "1968",
+    "date_confidence": "inferred",
+    "event_type": "religious_thought",
+    "source_name": "The Maze of Death Theology (Maze notes PDF)",
+    "source_type": "curated",
+    "location": "California",
+    "importance": "5",
+    "notes": "Entered as an early Exegesis-adjacent primary document. The Sarill/multiple-universes/Wheeler lead remains a source-confirmation task.",
+    "entities": [
+      "A Maze of Death",
+      "The Maze of Death Theology",
+      "William Sarill"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1968_sarill_houseguest_maze",
+    "summary": "William Sarill first meets PKD and later spends more than a month as his houseguest during the period associated with the theology behind A Maze of Death.",
+    "date_start": "1968",
+    "date_end": "1968",
+    "date_display": "1968",
+    "date_confidence": "year",
+    "event_type": "friendship",
+    "source_name": "William Sarill, Will the Real Ubik Please Stand Up?; A Maze of Death foreword",
+    "source_type": "curated",
+    "location": "California",
+    "importance": "4",
+    "notes": "Sarill confirms the 1968 meeting and extended houseguest period; PKD's Maze foreword credits Sarill as co-developer of the abstract religious system behind the novel.",
+    "entities": [
+      "William Sarill",
+      "A Maze of Death"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 109,
     "summary": "Hearing \"And she shall see the sea\" (c. 1968/9).",
     "date_start": "1968",
@@ -33,6 +76,27 @@
     "source_type": "exegesis",
     "location": "San Rafael, California",
     "importance": null,
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1968_zelazny_deus_irae",
+    "summary": "Writes that he and Roger Zelazny are planning to collaborate on Deus Irae from a 1964 outline Dick had been unable to complete alone.",
+    "date_start": "1968-05-21",
+    "date_end": "1968-05-21",
+    "date_display": "1968-05-21",
+    "date_confidence": "day",
+    "event_type": "professional_network",
+    "source_name": "Selected Letters Vol. 1, letter to Andy, May 21, 1968",
+    "source_type": "curated",
+    "location": "Bay Area, California",
+    "importance": "3",
+    "notes": "Letter id: LET_1968-05-21_ANDY_0140.",
+    "entities": [
+      "Roger Zelazny",
+      "Deus Irae"
+    ],
     "theophany_id": null,
     "theophany_slug": null
   },

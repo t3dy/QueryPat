@@ -67,6 +67,27 @@
   },
   {
     "_type": "biography_event",
+    "bio_id": "pkd_bio_1975_brunner_cia_breakin",
+    "summary": "Writes John Brunner about a London Times clipping on CIA break-ins and says it matches the method of the unresolved November 1971 San Rafael break-in.",
+    "date_start": "1975-01-14",
+    "date_end": "1975-01-14",
+    "date_display": "1975-01-14",
+    "date_confidence": "day",
+    "event_type": "correspondence",
+    "source_name": "Selected Letters 1975-1976, letter to John Brunner, January 14, 1975",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "4",
+    "notes": "Letter id: LET_1975-01-14_JOHN_BRUNNER_0011; important SF-author correspondence plus break-in evidence.",
+    "entities": [
+      "John Brunner",
+      "William Colby"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 648,
     "summary": "PKD declines John Brunner's invitation to a UK trip due to recurring respiratory flu (which became pneumonia in 1972/73).",
     "date_start": "1975-01-14",
@@ -398,8 +419,8 @@
     "source_type": "exegesis",
     "location": "Fullerton, California",
     "importance": null,
-    "theophany_id": "THEO_1974_BLACK_IRON_PRISON",
-    "theophany_slug": "black-iron-prison-1974"
+    "theophany_id": null,
+    "theophany_slug": null
   },
   {
     "_type": "biography_event",
@@ -2828,6 +2849,48 @@
   },
   {
     "_type": "biography_event",
+    "bio_id": "pkd_bio_1975_scanner_award_research",
+    "summary": "Tells Lurton Blassingame that A Scanner Darkly is based on three years of research and predicts it will win major awards.",
+    "date_start": "1975-04-05",
+    "date_end": "1975-04-05",
+    "date_display": "1975-04-05",
+    "date_confidence": "day",
+    "event_type": "publication",
+    "source_name": "Selected Letters 1975-1976, letter to Lurton Blassingame, April 5, 1975",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "3",
+    "notes": "Letter id: LET_1975-04-05_LURTON_BLASSINGAME_0087.",
+    "entities": [
+      "A Scanner Darkly",
+      "Lurton Blassingame"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1975_le_guin_letter",
+    "summary": "Writes Ursula K. Le Guin about The Lathe of Heaven, his absent London speech, and the relationship between her dream-universe fiction and his own false-reality experiences.",
+    "date_start": "1975-04-17",
+    "date_end": "1975-04-17",
+    "date_display": "1975-04-17",
+    "date_confidence": "day",
+    "event_type": "correspondence",
+    "source_name": "Selected Letters 1975-1976, letter to Ursula Le Guin, April 17, 1975",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "4",
+    "notes": "Letter id: LET_1975-04-17_URSULA_LE_GUIN_0097.",
+    "entities": [
+      "Ursula K. Le Guin",
+      "The Lathe of Heaven"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
     "bio_id": 205,
     "summary": "May 1975: Dream of a man giving him a bowl of cereal (Savior/Healer).",
     "date_start": "1975-05",
@@ -2871,6 +2934,71 @@
     "source_type": "exegesis",
     "location": "Fullerton, California",
     "importance": null,
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1975_deus_irae_ms_complete",
+    "summary": "Reports to Nancy and Isa Hackett that Roger Zelazny has finally mailed his completed Deus Irae material, making a full rough draft available.",
+    "date_start": "1975-07-02",
+    "date_end": "1975-07-02",
+    "date_display": "1975-07-02",
+    "date_confidence": "day",
+    "event_type": "publication",
+    "source_name": "Selected Letters 1975-1976, letter to Nancy and Isa Hackett, July 2, 1975",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "3",
+    "notes": "Letter id: LET_1975-07-02_NANCY_ISA_HACKETT_0107.",
+    "entities": [
+      "Roger Zelazny",
+      "Nancy Hackett",
+      "Isa Hackett",
+      "Deus Irae"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1975_christian_research_to_scare_dead",
+    "summary": "Writes that he has spent sixteen months and more than a thousand dollars researching Christianity for the planned novel To Scare the Dead.",
+    "date_start": "1975-07-10",
+    "date_end": "1975-07-10",
+    "date_display": "1975-07-10",
+    "date_confidence": "day",
+    "event_type": "religious_thought",
+    "source_name": "Selected Letters 1975-1976, letter to Goran Bengtson, July 10, 1975",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "4",
+    "notes": "Letter id: LET_1975-07-10_GORAN_BENGTSON_0114; a key bridge from 2-3-74 into VALIS-related writing.",
+    "entities": [
+      "To Scare the Dead"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1975_heinlein_tax_loan",
+    "summary": "Tells Lawrence Ashmead that he borrowed $1,700 from Robert A. Heinlein to pay income taxes and wants to repay him from the Scanner advance.",
+    "date_start": "1975-08-18",
+    "date_end": "1975-08-18",
+    "date_display": "1975-08-18",
+    "date_confidence": "day",
+    "event_type": "financial",
+    "source_name": "Selected Letters 1975-1976, letter to Lawrence Ashmead, August 18, 1975",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "3",
+    "notes": "Letter id: LET_1975-08-18_LAWRENCE_ASHMEAD_0135.",
+    "entities": [
+      "Robert A. Heinlein",
+      "Lawrence Ashmead",
+      "A Scanner Darkly"
+    ],
     "theophany_id": null,
     "theophany_slug": null
   },
