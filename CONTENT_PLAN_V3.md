@@ -340,3 +340,89 @@ Fix:
 ### 10.5 Order of operations
 
 The IA work should land before further v3 prose expansion, because the rebrand changes the editorial frame slightly: scholar profiles and document summaries that lean on "Exegesis Knowledge Portal" framing will need light revision to match the broader "PKD Knowledge Portal" framing. Status: most current v3 prose already speaks in PKD-broad terms (the editorial templates were written that way), but the dashboard and home-page copy will need careful pass-through after the redesign.
+
+### 10.6 Geography, universities, and institutional sites
+
+The new PKD map should stay a live editorial target, not a one-off page.
+
+Expand it by:
+- keeping California-first coverage for the initial map surface
+- color-coding biography, fiction, event, and institutional-site markers
+- adding universities, archives, special collections, conferences, lectures, and festival sites as first-class places
+- keeping hover summaries short but explicit about why each location matters
+- treating university appearances mentioned in interviews as biography events when they can be dated or located
+- retaining non-California places when they matter for biography, burial, publication history, or scholarship
+
+The catalog below the map should remain broad enough to answer whether expansion beyond California is worth it.
+
+### 10.7 People and character inspiration
+
+The people index should continue to expand beyond straightforward acquaintance.
+
+Priority additions include:
+- people important in the Exegesis or unpublished writings
+- major correspondents and interlocutors
+- people who inspired or were transmuted into characters
+- university and conference figures where they matter to the record
+
+Names that should receive substantive entries rather than thin mentions include Claudia Bush, K.W. Jeter, Tim Powers, Bishop Pike, and Alan Watts.
+
+---
+
+## 11. Card/detail contract and relational browsing
+
+Every content entry now has two public forms:
+
+1. **Short card** - appears in tabs, index pages, filtered lists, timeline strips, and related-entry panels. The card must identify the entity, state its type, summarize why it matters, expose dates/categories/lanes, and link to the full page.
+2. **Full page** - explains the evidence, contribution, relationships, contradictions, and research use. A full page should answer why the item belongs in the portal and what other entries it connects to.
+
+This applies to dictionary terms, biography events, scholars and fan-scholars, archive documents, PKD-authored works, letters, stories, novels, interviews, fan publications, scholarship, names, theophanies, studies, scenes, and People PKD Knew.
+
+### 11.1 Required browsing metadata
+
+Each entity should expose enough structured metadata for sorting and relational browsing: stable id and slug, title/name, type/category, dates, evidentiary lane where applicable, source reliability, review state, short card summary, full page summary, linked people, works, documents, terms, events, places, themes, relationship categories, coverage counts, and contradiction notes.
+
+### 11.2 Python-first maintenance
+
+Use Python scripts before asking an LLM to inspect the corpus manually:
+
+- `scripts/audit_card_contracts.py` reports missing card/detail metadata across public exports.
+- `scripts/extract_people_pkd_knew.py` builds the first People PKD Knew export from biography events, archive document relations, scholar profiles, and names.
+- Future scripts should generate stubs, inventories, and coverage reports before prose-writing sessions begin.
+
+The desired workflow is: script inventory -> script stubs -> targeted human/LLM prose -> script audit -> frontend display.
+
+---
+
+## 12. People PKD Knew
+
+Add a first-class People PKD Knew section covering editors, spouses and girlfriends, friends, fellow SF authors, correspondents, co-workers, bosses, publishers, agents, doctors, family members, fans, scholars who personally interacted with him, people central to the Exegesis or unpublished writings, and anyone whose testimony appears in biographies, letters, interviews, fan publications, scholarship, or character-inspiration trails.
+
+Each person needs a short card, a full page summary, relationship categories for filtering, years of association where known, linked biography events, letters, archive documents, scholar/fan-scholar profiles, name entries, attributed opinions about PKD, PKD's sourced opinions about them, and reliability/contradiction notes. The record should distinguish direct acquaintance from Exegesis importance or character inspiration.
+
+Initial implementation may be machine-drafted from existing relational metadata. Publication-ready entries require a human pass that separates direct acquaintance from later scholarly or fan-community mention.
+
+---
+
+## 13. PKD on PKD
+
+Add a first-class PKD on PKD section that catalogs PKD's own mentions of his novels across letters, interviews, the Exegesis, essays, speeches, and other primary writings.
+
+Each novel needs a short card, a full detail page, mention counts, source-document breakdowns, and grouped excerpt displays that let readers jump from a novel to the exact source passages where PKD talks about it.
+
+Build this with Python first: scan the extracted text and summaries from PKD-authored documents, record each detected title mention, seed the database tables, and export the public JSON bundles from the same script so the UI stays in sync.
+
+---
+
+## 14. Writing standard for new sections
+
+Every new section in the portal should be written as a dense, academic encyclopedia entry:
+
+1. Lead with the entity's identity and why it matters.
+2. Synthesize all relevant source material, not just the most obvious document.
+3. Name specific works, people, dates, and document types.
+4. Distinguish source fact, inference, and editorial judgment.
+5. Keep the tone restrained, declarative, and citation-friendly.
+6. Prefer compact paragraphs with concrete evidence over loose interpretive prose.
+
+This standard applies especially to People PKD Knew, PKD on PKD, canonical works records, biographies, scholarship entries, and any future first-class relational browsing section.

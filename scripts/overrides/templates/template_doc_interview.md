@@ -23,6 +23,8 @@ Lane: **E** (Primary).
 5. **Reliability flag** — PKD revised his self-presentation across interviews. If this interview's account of an event contradicts other interviews or biographies, surface the contradiction.
 6. **Cross-references** — linked terms, named people, works discussed, biography events corroborated or contradicted.
 
+If the interview mentions a university, lecture venue, conference, archive, or other locatable institutional site, surface it for the biography timeline and the map catalog as well as the interview summary.
+
 ## Required JSON fields
 - `evidentiary_lane` — `E`
 - `source_reliability` — `primary_self_report`

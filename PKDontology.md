@@ -79,6 +79,8 @@ birth, family, education, marriage, divorce, child, residence, employment, drug 
 - **Historical/philosophical figures PKD invoked** — Plato, Plotinus, Mani, Bruno, Eckhart, Böhme, Pascal, Kant, Heidegger, Jung
 - **Theological/mythic figures** — Christ, Sophia, the Demiurge, Yaldabaoth, Hermes Trismegistus, Elijah, Thomas, Asklepios, Dionysus
 - **Fictional characters in PKD's works** — already 191 catalogued; capture etymology, allusion domain, novels of appearance, thematic role
+- **Exegesis / interview / unpublished-writing figures** — people who become important in PKD's self-theorizing, later correspondence, or unpublished materials even when the relationship is not simply "friend" or "editor" (e.g. Claudia Bush, K.W. Jeter, Tim Powers, Bishop Pike, Alan Watts)
+- **Character inspirations and source figures** — real people whose traits, stories, or public roles are transmuted into fictional characters or composite figures (e.g. Bishop Pike and Alan Watts in *The Transmigration of Timothy Archer*)
 
 **Facts to capture (generally):**
 - Canonical name + aliases / spellings
@@ -91,10 +93,15 @@ birth, family, education, marriage, divorce, child, residence, employment, drug 
 **Test:** A geographic location with biographical or fictional significance.
 
 **Facts to capture:**
-- Coordinates / address where defensible
+- Coordinates / address where defensible, or a clear statement that the location is approximate
 - Period(s) of PKD's connection
-- What happened there (linked to Biography)
-- Fictional analogues (Berkeley → many novels' urban backdrops; Marin County → *A Scanner Darkly*'s San Diego; Point Reyes → *Confessions of a Crap Artist*)
+- What happened there (linked to Biography, publications, interviews, conferences, archives, or university appearances)
+- Category labels for map use: biography, novel setting, short story setting, event, institutional site, archive / special collection
+- Fictional analogues and transpositions (Berkeley → many novels' urban backdrops; Marin County → *A Scanner Darkly*'s San Diego; Point Reyes → *Confessions of a Crap Artist*)
+- Institutional anchors worth tracking explicitly (universities, archives, special collections, conferences, lectures, and related PKD events)
+- Route or travel traces when they are relevant to biography
+
+**Editorial rule:** the map should stay California-first when the evidence is mostly Californian, but the catalog should retain non-California places that are load-bearing for PKD biography, publication history, burial, lecture history, or scholarship.
 
 ### 2.6 Themes
 **Test:** A recurring conceptual concern across multiple works.

@@ -1,6 +1,6 @@
 # QueryPat — Methodology Overview
 
-How the database is built, how the website surfaces it, and what governs the editorial decisions inside both. Companion to [PKDontology.md](PKDontology.md) (the editorial frame), [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md) (the writing roadmap), [HANDOVER.md](HANDOVER.md) (current state and queued work), and [README.md](README.md) (project surface).
+How the database is built, how the website surfaces it, and what governs the editorial decisions inside both. Companion to [PKDontology.md](PKDontology.md) (the editorial frame), [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md) (the writing roadmap), [SITE_DIRECTIONS.md](SITE_DIRECTIONS.md) (the live site-direction addendum), [HANDOVER.md](HANDOVER.md) (current state and queued work), and [README.md](README.md) (project surface).
 
 This document is for someone who needs to understand how QueryPat works end-to-end — the data model, the pipeline, the editorial system, and the rendering layer — without reading the code.
 

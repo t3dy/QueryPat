@@ -9,7 +9,7 @@ The *Exegesis* is one major source within this larger frame — alongside biogra
 **Live site:** [t3dy.github.io/QueryPat](https://t3dy.github.io/QueryPat/) (currently shipping v3 + v4 — see [HANDOVER.md](HANDOVER.md) for what's next)
 **Previous version (v1.0):** [t3dy.github.io/QueryPat/v1](https://t3dy.github.io/QueryPat/v1/)
 
-For methodology: [QueryPatOverview.md](QueryPatOverview.md). For the editorial frame: [PKDontology.md](PKDontology.md). For the current writing roadmap: [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md). For session continuity: [HANDOVER.md](HANDOVER.md).
+For methodology: [QueryPatOverview.md](QueryPatOverview.md). For the editorial frame: [PKDontology.md](PKDontology.md). For the current writing roadmap: [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md). For the live site directions that govern the map, timeline, people index, and institutional geography: [SITE_DIRECTIONS.md](SITE_DIRECTIONS.md). For session continuity: [HANDOVER.md](HANDOVER.md).
 
 ---
 

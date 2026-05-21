@@ -22,6 +22,8 @@ Lane: **D** (Synthesis) for biographies; **E** (Primary) for first-person memoir
 5. **Contradictions with other biographies** — explicit. Where does this account disagree with Sutin, Anne Dick, Rickman, Arnold, Peake, Tessa Dick? Per ontology §4, name the disputed events.
 6. **Reception** — how scholars and fans have used it; known errors corrected in later editions; reviews.
 
+If the biography discusses universities, lecture sites, conferences, residences, archives, or other exact or approximate locations, make those places visible in the biography timeline and the map catalog.
+
 ## Required JSON fields
 - All scholarship fields, plus:
 - `evidentiary_lane` — `D` for biographies, `E` for primary-witness memoirs
