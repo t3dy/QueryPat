@@ -25,6 +25,8 @@ import Themes from './pages/Themes'
 import ThemeDetail from './pages/ThemeDetail'
 import PKDOnPKD from './pages/PKDOnPKD'
 import PKDOnPKDDetail from './pages/PKDOnPKDDetail'
+import Paranormal from './pages/Paranormal'
+import ParanormalDetail from './pages/ParanormalDetail'
 import Scholars from './pages/Scholars'
 import Names from './pages/Names'
 import NameDetail from './pages/NameDetail'
@@ -67,6 +69,8 @@ function App() {
           <Route path="themes/:slug" element={<ThemeDetail />} />
           <Route path="pkd-on-pkd" element={<PKDOnPKD />} />
           <Route path="pkd-on-pkd/:slug" element={<PKDOnPKDDetail />} />
+          <Route path="paranormal" element={<Paranormal />} />
+          <Route path="paranormal/:slug" element={<ParanormalDetail />} />
           <Route path="scholars" element={<Scholars />} />
           <Route path="names" element={<Names />} />
           <Route path="names/:slug" element={<NameDetail />} />

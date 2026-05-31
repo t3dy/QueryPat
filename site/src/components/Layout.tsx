@@ -17,6 +17,7 @@ export default function Layout() {
         <NavLink to="/timeline">Timeline</NavLink>
         <NavLink to="/exegesis">Exegesis</NavLink>
         <NavLink to="/theophanies">Theophanies</NavLink>
+        <NavLink to="/paranormal">Paranormal</NavLink>
         <NavLink to="/archive">Archive</NavLink>
         <NavLink to="/dictionary">Dictionary</NavLink>
         <NavLink to="/names">Names</NavLink>
