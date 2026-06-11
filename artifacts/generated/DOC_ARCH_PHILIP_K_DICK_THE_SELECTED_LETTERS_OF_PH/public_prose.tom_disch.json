@@ -1,0 +1,39 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_TOM_DISCH",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {
+    "agent_role": "writing_agent",
+    "name": "Claude (Haiku 4.5) writing person entry",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "public_prose.person.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_TOM_DISCH",
+    "ART_VALIDATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_TOM_DISCH",
+    "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE"
+  ],
+  "generated_from_artifacts": [
+    {
+      "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_TOM_DISCH",
+      "artifact_type": "raw_extraction"
+    }
+  ],
+  "title": "Tom Disch",
+  "dek_or_short_description": "Science fiction writer and literary correspondent. PKD described his letters as among the finest he received. Active correspondence 1972–1973 and beyond.",
+  "body_markdown": "Tom Disch was a science fiction writer whose literary correspondence with Philip K. Dick reveals something about Dick's values as a craftsman and thinker. In the *Selected Letters*, Dick praised Disch's epistolary gifts extravagantly: \"Only Tom Disch writes better letters and he'll probably stop pretty soon.\" He called Disch's letters \"the sweetest, nicest letters\" he received.\n\nThis was not mere politeness. Dick was a voracious reader of his correspondents' work and a harsh judge. That he ranked Disch's letters at the top of his correspondence — the same correspondence that included exchanges with Ursula K. Le Guin, Roger Zelazny, and other major SF writers — testifies to Disch's intellectual depth and warmth.\n\nThe letters reveal Dick's desire to deepen the friendship; he wanted to visit Disch in Minnesota, to meet in person. Whether he succeeded is unclear from the available letters, but what emerges is a picture of two serious writers taking each other's work and minds seriously, sharing the concerns of the SF community while also engaging the larger questions of meaning, authenticity, and truth that animated Dick's fiction.\n\nDisch's presence in the letters is important for another reason: it shows Dick capable of genuine intellectual friendship, of admiration given freely, of a writer who could recognize and honor excellence in another's voice. In the midst of paranoia and turmoil, Dick remained attuned to the subtleties of language and thought.",
+  "summary": "Tom Disch (1972–1973+), science fiction writer and literary friend. PKD ranked his letters among the finest he received. Corresponded about writing, philosophy, and literary craft.",
+  "tags": ["tom_disch", "pkd_friend", "science_fiction", "literary_correspondence", "biography"],
+  "citations_or_source_links": [
+    {
+      "label": "The Selected Letters of Philip K. Dick (1972–1973 entries)",
+      "uri": null,
+      "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH"
+    }
+  ],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Extracted from letters; Dick's praise of Disch's correspondence grounded in actual quotes. Shows Dick's capacity for intellectual friendship and aesthetic judgment. Ready for publication."
+}

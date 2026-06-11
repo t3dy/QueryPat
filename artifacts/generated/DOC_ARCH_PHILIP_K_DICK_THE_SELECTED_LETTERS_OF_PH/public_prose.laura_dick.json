@@ -1,0 +1,39 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_LAURA_DICK",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {
+    "agent_role": "writing_agent",
+    "name": "Claude (Haiku 4.5) writing person entry",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "public_prose.person.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_LAURA",
+    "ART_VALIDATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_LAURA",
+    "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE"
+  ],
+  "generated_from_artifacts": [
+    {
+      "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH_PEOPLE_LAURA",
+      "artifact_type": "raw_extraction"
+    }
+  ],
+  "title": "Laura Dick",
+  "dek_or_short_description": "PKD's first child (born 1960) from his second marriage to Anne Dick. Direct correspondence shows paternal affection despite distance and circumstances.",
+  "body_markdown": "Laura Dick was Philip K. Dick's first child, born in 1960 from his second marriage to Anne Dick. By the time of the *Selected Letters* (1972–1973), that marriage was long over (divorced in 1964), and Laura was living with her mother. Yet PKD maintained direct correspondence with his daughter, writing to her with evident paternal affection.\n\nThe letters reveal a father trying to remain present in his daughter's life despite the distance and chaos of his own circumstances. While the content of these letters is limited in the published volume, their frequency speaks to PKD's commitment: he wrote to Laura on numerous occasions throughout 1972–1973 — December, June, July, August, and September — suggesting regular attempts to stay connected.\n\nLaura represents something important in Dick's biography: the collateral damage of his marriages and his obsessions, but also his capacity to love and maintain bonds with his children even when the marriages that created those bonds had failed. The existence of these letters, and the care they seem to reflect, complicate any simple narrative of Dick as a man consumed entirely by paranoia and metaphysics. He was also a father trying to do right by his children.",
+  "summary": "Laura Dick (born 1960), PKD's first daughter from his marriage to Anne Dick. Corresponded regularly with PKD despite the divorce. Letters show paternal affection and commitment.",
+  "tags": ["laura_dick", "pkd_daughter", "pkd_family", "biography"],
+  "citations_or_source_links": [
+    {
+      "label": "The Selected Letters of Philip K. Dick (1972–1973 entries)",
+      "uri": null,
+      "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH"
+    }
+  ],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Extracted from letters; Laura's presence and correspondence grounded in the letter table of contents. Shows PKD's paternal commitment despite failed marriage. Ready for publication."
+}

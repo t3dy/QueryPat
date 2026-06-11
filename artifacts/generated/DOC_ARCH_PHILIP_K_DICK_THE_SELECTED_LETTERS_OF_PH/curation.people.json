@@ -1,0 +1,54 @@
+{
+  "artifact_id": "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE",
+  "artifact_type": "curation",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {
+    "agent_role": "curation_agent",
+    "name": "Claude (Haiku 4.5) curation pass on letter people",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "curation.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_NANCY",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_TESSA",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_LAURA",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_SCOTT_MEREDITH",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_TOM_DISCH",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_JAMIS",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_KATHY",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_SHERRY",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_PAUL",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_BRUCE",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_URSULA",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_ROGER",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_STANISLAW",
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_NORMAN"
+  ],
+  "relevance_score": 0.88,
+  "relevance_status": "publish",
+  "content_class": "primary_source_discussion",
+  "audience_fit": "intelligent_non_specialist",
+  "scholarly_value": "high",
+  "reasons_for_inclusion": [
+    "These five represent PKD's closest relationships: wives, children, and literary intimates.",
+    "The letters provide primary-source evidence of PKD's personal life, parenting, romantic relationships, and creative partnerships.",
+    "Essential for understanding PKD as a person, not just as a writer.",
+    "Scott Meredith's role was central to PKD's entire career; Tom Disch's correspondence shows PKD's literary values."
+  ],
+  "reasons_for_exclusion": [],
+  "recommended_tags": [
+    "nancy_hackett",
+    "tessa_busby",
+    "laura_dick",
+    "scott_meredith",
+    "tom_disch",
+    "pkd_biography",
+    "pkd_relationships",
+    "pkd_family",
+    "pkd_literary_friendships"
+  ],
+  "editorial_angle": "Present each person as a lens into PKD's life and work. Nancy and Tessa show PKD as husband and father; Laura shows him as a distant but affectionate father. Scott Meredith was PKD's career manager; Tom Disch was his literary conscience. These entries humanize PKD.",
+  "curator_notes": "Phase 1 complete: 15 people extracted, validated, and written as prose entries. Top tier: publish all 15. These populate core of names table. Next: remaining 13 people from letter list, then Phases 2 & 3 (biography events, geography)."
+}

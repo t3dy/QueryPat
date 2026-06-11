@@ -1,0 +1,21 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_EDGAR",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Edgar Dick: PKD's brother. Family correspondence about personal and family matters.",
+  "extracted_entities": {"people": ["Edgar Dick", "Gertrude Dick"], "works": [], "places": [], "institutions": [], "traditions": []},
+  "key_terms": ["brother", "family", "correspondence", "personal"],
+  "explicit_topics": ["Edgar Dick as PKD's brother", "Family correspondence", "PKD's relationship with his brother", "Family news and updates"],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {"claim": "Edgar Dick was PKD's brother", "evidence_location": {"locator_type": "section", "section_id": "edgar_brother"}},
+    {"claim": "PKD corresponded with Edgar about family matters", "evidence_location": {"locator_type": "section", "section_id": "edgar_correspondence"}}
+  ],
+  "important_passages": [],
+  "uncertainties": ["Edgar's career and personal life not documented", "Nature of their relationship beyond formal family ties unclear", "Frequency of contact after 1973 unknown"]
+}

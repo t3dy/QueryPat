@@ -1,0 +1,38 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_ROGER",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Roger Zelazny: Science fiction writer and collaborator on 'Deus Irae' (1976).",
+  "extracted_entities": {
+    "people": ["Roger Zelazny"],
+    "works": ["Deus Irae"],
+    "places": [],
+    "institutions": [],
+    "traditions": ["science fiction literature"]
+  },
+  "key_terms": ["fellow writer", "collaborator", "Deus Irae", "SF community"],
+  "explicit_topics": [
+    "Roger Zelazny as fellow science fiction writer",
+    "Collaboration on the novel Deus Irae (1976)",
+    "Professional correspondence about literary work",
+    "Occasional correspondence in 1972-1973"
+  ],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {
+      "claim": "PKD and Roger Zelazny collaborated on Deus Irae (published 1976)",
+      "evidence_location": {"locator_type": "section", "section_id": "zelazny_deus_irae"}
+    },
+    {
+      "claim": "Correspondence occurred in November 1972 and April 1973",
+      "evidence_location": {"locator_type": "section", "section_id": "zelazny_dates"}
+    }
+  ],
+  "important_passages": [],
+  "uncertainties": ["Details of their collaboration not documented in letters", "Personal relationship beyond professional collaboration unclear"]
+}

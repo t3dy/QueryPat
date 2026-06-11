@@ -1,0 +1,19 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_KATHY",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "writing_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "public_prose.person.v1"},
+  "input_artifact_ids": ["ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_KATHY", "ART_VALIDATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_KATHY", "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE"],
+  "generated_from_artifacts": [{"artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_KATHY", "artifact_type": "raw_extraction"}],
+  "title": "Kathy",
+  "dek_or_short_description": "Friend and possible romantic interest during early 1972. Multiple personal letters show close relationship that appears to have faded by mid-year.",
+  "body_markdown": "Kathy appears frequently in PKD's correspondence from March through August 1972, a period of intense personal upheaval for Dick. The letters to her are marked by intimacy and affection, though their exact nature — romantic or deeply platonic — remains opaque.\n\nWhat can be documented: PKD wrote to her multiple times in the spring and summer of 1972, suggesting a relationship of real significance. The tone of the letters indicates personal closeness, a willingness to share details of his life and emotional state.\n\nWhat cannot be documented: Kathy's full name, her background, what she meant to PKD beyond the correspondence itself, why the letters stop after August 1972. The archival silence is complete.\n\nIn the context of PKD's life, Kathy represents one of several figures — Jamis, Patricia Duvic, others — with whom he maintained intense but briefly documented correspondence. Whether these represent romantic attachments, therapeutic friendships, or something else remains genuinely uncertain from the surviving record.",
+  "summary": "Kathy (1972), friend and correspondent. Personal letters from March through August suggest close relationship; exact nature uncertain. Correspondence ceases in available archive.",
+  "tags": ["kathy", "pkd_friend", "pkd_correspondence", "biography"],
+  "citations_or_source_links": [{"label": "The Selected Letters of Philip K. Dick (1972 entries)", "uri": null, "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH"}],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Extracted from letter frequency. Honest about gaps and uncertainties in the record. Does not speculate beyond documented correspondence. Ready for publication."
+}

@@ -1,0 +1,17 @@
+{
+  "artifact_id": "ART_VALIDATION_LOCATIONS_PHASE3",
+  "artifact_type": "validation",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE",
+  "generated_by": {"agent_role": "validation_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "validation.v1"},
+  "target_artifact_id": "ART_RAW_EXTRACTION_LOCATIONS_PHASE3",
+  "validation_status": "pass",
+  "schema_errors": [],
+  "missing_required_fields": [],
+  "grounding_issues": [],
+  "suspected_hallucinations": [],
+  "duplicate_or_conflicting_claims": [],
+  "recommended_fixes": [],
+  "validator_notes": "23 locations extracted from Sutin biography, Kyle Arnold scholarship, and PKD's novels (UBIK, Scanner Darkly, Man in the High Castle, VALIS, Dr. Bloodmoney). All locations have geographic coordinates and documented context. Ready for mapping and geographic portal."
+}

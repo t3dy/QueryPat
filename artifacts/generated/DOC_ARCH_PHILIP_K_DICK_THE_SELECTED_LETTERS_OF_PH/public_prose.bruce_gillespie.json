@@ -1,0 +1,19 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_BRUCE_GILLESPIE",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "writing_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "public_prose.person.v1"},
+  "input_artifact_ids": ["ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_BRUCE", "ART_VALIDATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_BRUCE", "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE"],
+  "generated_from_artifacts": [{"artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_BRUCE", "artifact_type": "raw_extraction"}],
+  "title": "Bruce Gillespie",
+  "dek_or_short_description": "Australian fan and editor of *SF Commentary* magazine. Published PKD's work and correspondence. International advocate for PKD's literature.",
+  "body_markdown": "Bruce Gillespie, based in Australia, was one of the global network of SF fans and editors who championed Philip K. Dick's work during the 1970s. He edited *SF Commentary*, a fanzine that published science fiction criticism and correspondence, and he used its pages to promote PKD's fiction and to share his letters with a wider audience.\n\nGillespie's role illustrates how pre-internet fandom functioned as a distributed archive and promotional system. Fan magazines like *SF Commentary* were labor-intensive, self-published, and relied on the editor's taste and connections. When Gillespie featured PKD, he was making an editorial argument: this writer matters, his letters are worth reading, this community should pay attention.\n\nThe geographic distance — Australia to America — was irrelevant in the world of SF fandom. Gillespie corresponded with PKD directly, received letters and permission to publish, and contributed to the slow internationalization of PKD's reputation. Before the internet, this was scholarship: careful reading, correspondence with the subject, public advocacy in small-circulation magazines.\n\nIn the ecology of PKD's career, figures like Gillespie represent the true believers — the fans who did the work of literary appreciation and advocacy before there was institutional support, critical consensus, or academic apparatus. His *SF Commentary* is part of the historical record; his correspondence with PKD belongs in any biography.",
+  "summary": "Bruce Gillespie (1972–1973+), Australian SF fan and *SF Commentary* editor. Published PKD's work and correspondence; international advocate for PKD literature.",
+  "tags": ["bruce_gillespie", "fan", "editor", "sf_commentary", "advocacy", "biography"],
+  "citations_or_source_links": [{"label": "The Selected Letters of Philip K. Dick (1972–1973 entries)", "uri": null, "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH"}],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Extracted from letters. Shows the role of fandom in literary support and advocacy before internet era. Ready for publication."
+}

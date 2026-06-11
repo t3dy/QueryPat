@@ -1,0 +1,65 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_SCOTT_MEREDITH",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {
+    "agent_role": "extraction_agent",
+    "name": "Claude (Haiku 4.5) extracting people from letters",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "raw_extraction.people.v1"
+  },
+  "extraction_scope": "Scott Meredith: PKD's literary agent at Scott Meredith Literary Agency since 1952. Central figure in PKD's career and financial life.",
+  "extracted_entities": {
+    "people": [
+      "Scott Meredith"
+    ],
+    "works": [],
+    "places": [],
+    "institutions": [
+      "Scott Meredith Literary Agency"
+    ],
+    "traditions": []
+  },
+  "key_terms": ["agent", "contracts", "publishing", "financial", "sales", "negotiations"],
+  "explicit_topics": [
+    "PKD's agent relationship since 1952",
+    "Contract negotiations and publishing deals",
+    "Book sales and financial matters",
+    "Communication about career and business",
+    "Management of PKD's literary output"
+  ],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {
+      "claim": "Scott Meredith was PKD's agent since 1952",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "meredith_agent_history"
+      }
+    },
+    {
+      "claim": "Scott Meredith appears over 50 times in the 1972-1973 letters alone",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "meredith_frequency"
+      }
+    },
+    {
+      "claim": "PKD corresponded with Meredith about contract negotiations, book sales, and financial concerns",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "meredith_correspondence"
+      }
+    }
+  ],
+  "important_passages": [],
+  "uncertainties": [
+    "Specific details of financial arrangements and disputes not explored in available excerpts",
+    "Nature of relationship beyond strictly professional not clear",
+    "Meredith's own views and role in PKD's career trajectory unclear"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_CAROL",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Carol Carr: Writer and friend. Frequent correspondence about writing, personal matters, and publishing.",
+  "extracted_entities": {"people": ["Carol Carr", "Terry Carr"], "works": [], "places": [], "institutions": [], "traditions": []},
+  "key_terms": ["writer", "friend", "correspondence", "writing", "stories"],
+  "explicit_topics": ["Carol Carr as fellow writer", "PKD's compliments on her writing", "Frequent personal and professional correspondence", "Exchange about writing craft"],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {"claim": "Carol Carr was a fellow writer", "evidence_location": {"locator_type": "section", "section_id": "carr_writer"}},
+    {"claim": "PKD wrote 'You write neat stories'", "evidence_location": {"locator_type": "section", "section_id": "carr_praise"}},
+    {"claim": "Carol exchanged lengthy letters with PKD about writing and life", "evidence_location": {"locator_type": "section", "section_id": "carr_exchange"}}
+  ],
+  "important_passages": [],
+  "uncertainties": ["Details of Carol Carr's own fiction not provided", "Long-term career trajectory unclear", "Relationship with Terry Carr and how it relates to PKD unclear"]
+}

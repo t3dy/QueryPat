@@ -1,0 +1,21 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_PATRICIA",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Patricia Duvic: Close friend. Frequent correspondence about personal matters and life experiences.",
+  "extracted_entities": {"people": ["Patrice Duvic"], "works": [], "places": [], "institutions": [], "traditions": []},
+  "key_terms": ["friend", "correspondence", "personal", "intimate", "close"],
+  "explicit_topics": ["Patricia Duvic as close friend", "Frequent personal correspondence", "PKD discusses life experiences with her", "Intimate friendship during 1972-1973"],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {"claim": "Patricia Duvic was a close friend during 1972-1973", "evidence_location": {"locator_type": "section", "section_id": "duvic_friendship"}},
+    {"claim": "PKD maintained frequent personal correspondence with her", "evidence_location": {"locator_type": "section", "section_id": "duvic_frequency"}}
+  ],
+  "important_passages": [],
+  "uncertainties": ["Full name spelling varies (Patrice/Patricia)", "Exact nature of relationship unclear", "Later relationship trajectory unknown"]
+}

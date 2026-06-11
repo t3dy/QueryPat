@@ -1,0 +1,19 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_JAMIS",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "writing_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "public_prose.person.v1"},
+  "input_artifact_ids": ["ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_JAMIS", "ART_VALIDATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_JAMIS", "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE"],
+  "generated_from_artifacts": [{"artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_JAMIS", "artifact_type": "raw_extraction"}],
+  "title": "Jamis",
+  "dek_or_short_description": "Close friend and correspondent during 1972–1973. Lived in Canada. PKD expressed deep affection and considered relocating to be near him.",
+  "body_markdown": "Jamis was one of the most emotionally significant figures in PKD's correspondence during 1972–1973, yet remains one of the most enigmatic. The *Selected Letters* preserves only his name (redacted in some versions), no biographical details, and no indication of what brought them together or what eventually divided them.\n\nWhat emerges from PKD's letters to Jamis is a picture of profound emotional dependence. PKD wrote that Jamis was \"very precious to me, as always,\" the language of someone expressing both affection and anxiety about loss. More tellingly, PKD discussed moving to Canada to be near him — a serious consideration that reveals the depth of need in the relationship.\n\nThe absence of further details is frustrating but telling. PKD's most intimate friendships often left the smallest documentary traces; the letters he sent to Jamis presumably stayed with Jamis, and what survives in the *Selected Letters* is only what PKD's estate preserved from its own archives.\n\nJamis represents something difficult to categorize in PKD's biography: a relationship intense enough to motivate relocation, expressed in language hovering between romantic and deeply platonic, yet opaque to later scholarship. The uncertainty is honest; to speculate would be to invent.",
+  "summary": "Jamis (1972–1973+), close friend and correspondent. PKD expressed deep affection and considered moving to Canada to be near him. Relationship remains enigmatic in surviving correspondence.",
+  "tags": ["jamis", "pkd_friend", "pkd_correspondence", "biography"],
+  "citations_or_source_links": [{"label": "The Selected Letters of Philip K. Dick (1972–1973 entries)", "uri": null, "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH"}],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Extracted from letters; respects the opacity of the surviving record. Does not speculate beyond what the letters document. Ready for publication."
+}

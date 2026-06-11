@@ -1,0 +1,21 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_RAY",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Ray Faraday Nelson: Science fiction writer and collaborator on 'The Ganymede Takeover' (1967).",
+  "extracted_entities": {"people": ["Ray Faraday Nelson"], "works": ["The Ganymede Takeover"], "places": [], "institutions": [], "traditions": ["science fiction literature"]},
+  "key_terms": ["writer", "collaborator", "ganymede takeover", "sf community"],
+  "explicit_topics": ["Ray Faraday Nelson as SF writer", "Collaboration on The Ganymede Takeover (1967)", "Professional correspondence in SF community"],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {"claim": "Ray Faraday Nelson was a fellow SF writer", "evidence_location": {"locator_type": "section", "section_id": "nelson_writer"}},
+    {"claim": "PKD and Nelson collaborated on The Ganymede Takeover (1967)", "evidence_location": {"locator_type": "section", "section_id": "nelson_ganymede"}}
+  ],
+  "important_passages": [],
+  "uncertainties": ["Details of their collaboration not documented", "Relationship beyond collaborative work unclear", "Later contact after 1972 unknown"]
+}

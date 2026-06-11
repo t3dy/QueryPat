@@ -1,0 +1,80 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_LOCATIONS_PHASE3",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5) + Agent research", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.locations.v1"},
+  "extraction_scope": "23 key geographic locations from PKD's life, novels, and short stories. Includes biographical residences, novel settings, and places mentioned in works.",
+  "extracted_entities": {
+    "people": ["Philip K. Dick", "Edgar Dick", "Kleo Dick", "Nancy Hackett"],
+    "works": ["UBIK", "A Scanner Darkly", "The Man in the High Castle", "VALIS", "Dr. Bloodmoney"],
+    "places": ["Chicago", "Berkeley", "San Francisco", "Orange County", "Point Reyes", "Marin County", "Green River"],
+    "institutions": ["University of California"],
+    "traditions": []
+  },
+  "key_terms": ["biography", "residence", "novel setting", "geographic coordinates", "literary location"],
+  "explicit_topics": [
+    "PKD's birthplace (Chicago, 1928)",
+    "Formative residence (Berkeley, 1931+)",
+    "Literary locations from novels (UBIK, Scanner Darkly, Man in the High Castle, VALIS)",
+    "Biographical events tied to places (Point Reyes idyll, Orange County crisis, etc.)",
+    "California residency throughout life",
+    "Cross-country and international references"
+  ],
+  "substances_or_materials": [],
+  "images_symbols_motifs": ["San Andreas Fault", "Bay Area water as symbol"],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {
+      "claim": "PKD was born in Chicago on December 16, 1928 at 7812 Emerald Avenue",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_chicago_birth"}
+    },
+    {
+      "claim": "PKD's family moved to San Francisco Bay Area in late 1929, beginning lifelong California residence",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_bay_area_move"}
+    },
+    {
+      "claim": "Berkeley was PKD's formative residence from 1931 through adolescence and early adulthood",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_berkeley_settlement"}
+    },
+    {
+      "claim": "PKD and wife Kleo moved to Point Reyes Station in September 1958 for idyllic retreat and creative work",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_point_reyes"}
+    },
+    {
+      "claim": "Orange County became site of PKD's recovery from drug culture (1972-1974) and later psychiatric crisis (1976)",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_orange_county_crisis"}
+    },
+    {
+      "claim": "UBIK novel set in 1992 with primary locations in New York City and Green River, Utah",
+      "evidence_location": {"locator_type": "section", "section_id": "ubik_novel_setting"}
+    },
+    {
+      "claim": "A Scanner Darkly set in Orange County, California 1994 with multiple Anaheim, Long Beach, Santa Ana locations",
+      "evidence_location": {"locator_type": "section", "section_id": "scanner_darkly_setting"}
+    },
+    {
+      "claim": "The Man in the High Castle set in alternate-history post-WWII America with San Francisco and western zones under Japanese control",
+      "evidence_location": {"locator_type": "section", "section_id": "high_castle_setting"}
+    }
+  ],
+  "important_passages": [
+    {
+      "excerpt": "PKD was born December 16, 1928 at 7812 Emerald Avenue in Chicago",
+      "why_important": "Establishes birthplace and date; twin sister Jane died here on January 26, 1929, shaping PKD's entire life",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_chicago"}
+    },
+    {
+      "excerpt": "Point Reyes Station: house on corner of Mariana and Lorraine with caboose in backyard used as writing studio",
+      "why_important": "Idyllic creative space representing PKD's aspirations for stable, productive life",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_point_reyes_detail"}
+    }
+  ],
+  "uncertainties": [
+    "Exact addresses for some Berkeley residences incomplete",
+    "Specific dates of some moves approximate rather than exact",
+    "Novel settings may contain fictional elements beyond geographic setting",
+    "Some locations mentioned only tangentially in sources"
+  ]
+}

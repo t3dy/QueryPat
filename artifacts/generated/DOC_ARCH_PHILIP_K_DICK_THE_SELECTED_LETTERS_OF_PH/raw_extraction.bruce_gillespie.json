@@ -1,0 +1,42 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_BRUCE",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Bruce Gillespie: Australian fan and SF Commentary editor. Published PKD's work and correspondence in his magazine.",
+  "extracted_entities": {
+    "people": ["Bruce Gillespie"],
+    "works": [],
+    "places": ["Australia"],
+    "institutions": ["SF Commentary"],
+    "traditions": ["science fiction fandom"]
+  },
+  "key_terms": ["fan", "editor", "SF Commentary", "publisher", "correspondence"],
+  "explicit_topics": [
+    "Bruce Gillespie as editor of SF Commentary magazine",
+    "Publication of PKD's work and correspondence in SF Commentary",
+    "Regular fan correspondence with PKD",
+    "Australian connection to international PKD fandom"
+  ],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {
+      "claim": "Bruce Gillespie edited SF Commentary magazine",
+      "evidence_location": {"locator_type": "section", "section_id": "gillespie_commentary"}
+    },
+    {
+      "claim": "Gillespie published PKD's work and correspondence in his magazine",
+      "evidence_location": {"locator_type": "section", "section_id": "gillespie_publishing"}
+    },
+    {
+      "claim": "Frequent fan correspondence between Gillespie and PKD in 1972-1973",
+      "evidence_location": {"locator_type": "section", "section_id": "gillespie_frequency"}
+    }
+  ],
+  "important_passages": [],
+  "uncertainties": ["Details of SF Commentary publication strategy not documented", "Long-term relationship beyond 1972-1973 unclear"]
+}

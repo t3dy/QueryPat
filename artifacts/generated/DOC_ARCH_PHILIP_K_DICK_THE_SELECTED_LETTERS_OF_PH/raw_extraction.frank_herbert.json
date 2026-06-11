@@ -1,0 +1,21 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_FRANK",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Frank Herbert: Major science fiction writer. Occasional correspondence with PKD about SF matters.",
+  "extracted_entities": {"people": ["Frank Herbert"], "works": [], "places": [], "institutions": [], "traditions": ["science fiction literature"]},
+  "key_terms": ["writer", "sf", "correspondence", "colleague"],
+  "explicit_topics": ["Frank Herbert as major SF writer", "Occasional professional correspondence", "Part of SF writer community in 1970s"],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {"claim": "Frank Herbert was a fellow major SF writer", "evidence_location": {"locator_type": "section", "section_id": "herbert_writer"}},
+    {"claim": "PKD corresponded with Herbert in November 1973", "evidence_location": {"locator_type": "section", "section_id": "herbert_date"}}
+  ],
+  "important_passages": [],
+  "uncertainties": ["Content of correspondence not documented", "Nature of their professional relationship unclear", "Frequency of contact unknown"]
+}

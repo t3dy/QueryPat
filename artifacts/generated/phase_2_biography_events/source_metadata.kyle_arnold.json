@@ -1,0 +1,22 @@
+{
+  "artifact_id": "ART_SOURCE_METADATA_KYLE_ARNOLD_DIVINE_MADNESS",
+  "artifact_type": "source_metadata",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_OCEANOFPDF_COM_THE_DIVINE_MADNESS_OF_PHI",
+  "generated_by": {"agent_role": "ingestion_script", "name": "scripts/ingest/ingest_archive.py + Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "source_metadata.v1"},
+  "source_type": "book",
+  "source_title": "The Divine Madness of Philip K. Dick: A Psychiatric and Philosophical Perspective",
+  "authors_or_creators": ["Kyle Arnold"],
+  "publication_date": "2016",
+  "source_uri": null,
+  "local_path": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_DIVINE_MADNESS_OF_PHI.md",
+  "ingestion_date": "2025-01-01",
+  "language": "en",
+  "rights_status": "in_copyright",
+  "access_notes": "Scholarly analysis of 2-3-74 experiences and PKD's psychiatric/theological frameworks. Proposes clinical interpretations alongside PKD's own accounts.",
+  "raw_text_available": true,
+  "transcript_available": false,
+  "evidentiary_lane": "C",
+  "notes": "Lane C scholarship: Kyle Arnold's clinical analysis of the 2-3-74 experiences, examining diagnostic possibilities (bipolar, TLE, etc.) while respecting PKD's own interpretation. Essential for grounding visionary experiences in biographical/medical context."
+}

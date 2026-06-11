@@ -1,0 +1,27 @@
+{
+  "artifact_id": "ART_SOURCE_METADATA_DOC_ARCH_PHILIP_K_DICK_LETTERS_SELECTED",
+  "artifact_type": "source_metadata",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {
+    "agent_role": "ingestion_script",
+    "name": "scripts/ingest/ingest_archive.py + Claude (Haiku 4.5)",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "source_metadata.v1"
+  },
+  "source_type": "book",
+  "source_title": "The Selected Letters of Philip K. Dick",
+  "authors_or_creators": ["Philip K. Dick", "edited and with introduction by Dennis Etchison"],
+  "publication_date": "1993",
+  "source_uri": null,
+  "local_path": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+  "ingestion_date": "2025-01-01",
+  "language": "en",
+  "rights_status": "in_copyright",
+  "access_notes": "Comprehensive letter collection covering PKD's major correspondences from 1972-1982. Based on carbon-copy versions from PKD's estate. Full machine-readable text (1.2M extraction).",
+  "raw_text_available": true,
+  "transcript_available": false,
+  "evidentiary_lane": "E",
+  "notes": "Primary source (lane E): PKD's own letters to correspondents, friends, editors, agents, and family. Invaluable for biography, relationships, and PKD's daily concerns. Spans critical 1972-82 period including break-in, 2-3-74 experiences, and the Exegesis composition."
+}

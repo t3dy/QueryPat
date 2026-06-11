@@ -1,0 +1,57 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_LAURA",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {
+    "agent_role": "extraction_agent",
+    "name": "Claude (Haiku 4.5) extracting people from letters",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "raw_extraction.people.v1"
+  },
+  "extraction_scope": "Laura Dick: PKD's first child from his second marriage to Anne Dick. Born 1960.",
+  "extracted_entities": {
+    "people": [
+      "Laura Dick",
+      "Anne Dick"
+    ],
+    "works": [],
+    "places": [],
+    "institutions": [],
+    "traditions": []
+  },
+  "key_terms": ["daughter", "family", "parental affection", "correspondence"],
+  "explicit_topics": [
+    "Laura's birth in 1960",
+    "PKD's relationship with Laura as a daughter",
+    "Paternal concerns and affection",
+    "Correspondence with Laura directly",
+    "Family matters and updates"
+  ],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {
+      "claim": "Laura was born in 1960",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "laura_birth"
+      }
+    },
+    {
+      "claim": "PKD wrote letters directly to Laura",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "laura_correspondence"
+      }
+    }
+  ],
+  "important_passages": [],
+  "uncertainties": [
+    "Laura's current life and career not detailed in available letters",
+    "Details of PKD's relationship with her mother Anne after divorce unclear",
+    "Later life correspondence beyond 1972-1973 period not in available sample"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_TOM_DISCH",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {
+    "agent_role": "extraction_agent",
+    "name": "Claude (Haiku 4.5) extracting people from letters",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "raw_extraction.people.v1"
+  },
+  "extraction_scope": "Tom Disch: Fellow science fiction writer. Intimate literary correspondence with PKD about writing, philosophy, and personal matters.",
+  "extracted_entities": {
+    "people": [
+      "Tom Disch"
+    ],
+    "works": [
+      "letters by Tom Disch"
+    ],
+    "places": ["Minnesota"],
+    "institutions": [],
+    "traditions": ["science fiction literature"]
+  },
+  "key_terms": ["letters", "writing", "literary friendship", "SF community", "sweetest letters"],
+  "explicit_topics": [
+    "Tom Disch's letters to PKD",
+    "PKD's admiration for Disch's writing and correspondence",
+    "Literary exchange about writing craft",
+    "PKD's desire to visit Disch in Minnesota",
+    "Friendship in the science fiction community"
+  ],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {
+      "claim": "Only Tom Disch writes better letters and he'll probably stop pretty soon",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "disch_praise"
+      }
+    },
+    {
+      "claim": "PKD described Disch's letters as 'the sweetest, nicest letters'",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "disch_letters"
+      }
+    },
+    {
+      "claim": "PKD wanted to meet Disch in Minnesota",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "disch_minnesota"
+      }
+    }
+  ],
+  "important_passages": [
+    {
+      "excerpt": "Only Tom Disch writes better letters",
+      "why_important": "Shows PKD's deep appreciation for Disch's epistolary art and their intellectual intimacy",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "disch_epistolary"
+      }
+    }
+  ],
+  "uncertainties": [
+    "Whether PKD and Disch ever met in person unclear from available letters",
+    "Full content and themes of their correspondence not detailed",
+    "Long-term trajectory of their friendship beyond 1972-1973 not fully documented"
+  ]
+}

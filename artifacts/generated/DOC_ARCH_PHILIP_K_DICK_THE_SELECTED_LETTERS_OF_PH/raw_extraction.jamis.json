@@ -1,0 +1,48 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_JAMIS",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Jamis: Very close friend during 1972-1973. PKD expressed deep affection; lived in Canada; PKD wanted to move nearby.",
+  "extracted_entities": {
+    "people": ["Jamis"],
+    "works": [],
+    "places": ["Canada"],
+    "institutions": [],
+    "traditions": []
+  },
+  "key_terms": ["close friend", "affection", "Canada", "moving", "precious"],
+  "explicit_topics": [
+    "Deep emotional connection between PKD and Jamis",
+    "PKD's desire to relocate to Canada to be near Jamis",
+    "Frequent correspondence throughout 1972-1973",
+    "Expression of emotional dependence and affection"
+  ],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {
+      "claim": "PKD wrote 'you are very precious to me, as always' to Jamis",
+      "evidence_location": {"locator_type": "section", "section_id": "jamis_affection"}
+    },
+    {
+      "claim": "PKD discussed moving to Canada to be near Jamis",
+      "evidence_location": {"locator_type": "section", "section_id": "jamis_canada"}
+    },
+    {
+      "claim": "Jamis was one of PKD's most frequent correspondents in 1972-1973",
+      "evidence_location": {"locator_type": "section", "section_id": "jamis_frequency"}
+    }
+  ],
+  "important_passages": [
+    {
+      "excerpt": "you are very precious to me, as always",
+      "why_important": "Shows the depth of PKD's emotional connection to Jamis",
+      "evidence_location": {"locator_type": "section", "section_id": "jamis_precious"}
+    }
+  ],
+  "uncertainties": ["Full name of Jamis not provided in available letters", "Nature of relationship (romantic vs. deep friendship) unclear from available excerpts", "Outcome of potential move to Canada not documented in sampled letters"]
+}

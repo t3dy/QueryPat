@@ -1,0 +1,19 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_PAUL_WILLIAMS",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "writing_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "public_prose.person.v1"},
+  "input_artifact_ids": ["ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_PAUL", "ART_VALIDATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PAUL", "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE"],
+  "generated_from_artifacts": [{"artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_PAUL", "artifact_type": "raw_extraction"}],
+  "title": "Paul Williams",
+  "dek_or_short_description": "Editor, publisher, and co-founder of the PKD Society. Co-editor of The Selected Letters of Philip K. Dick. Custodian of PKD's archival legacy.",
+  "body_markdown": "Paul Williams is the figure most responsible for preserving and making accessible Philip K. Dick's correspondence. As co-editor (with David Hartwell) of *The Selected Letters*, he curated the very document from which the present portal draws. He also co-founded the Philip K. Dick Society, the institutional home for PKD scholarship and fandom.\n\nWilliams' role is paradoxical: he was both contemporary and archivist. During PKD's lifetime, he corresponded with Dick about publishing and the emerging need to document his letters. After Dick's death, Williams became the keeper of the archive itself — the person who decided which letters would be published, in what form, with what editorial apparatus.\n\nThis position of power deserves acknowledgment. Every entry in this portal depends, ultimately, on selections Williams made. Which people appeared, which appeared in profile, which were redacted — these decisions shape what readers know about PKD's relationships. Williams' judgment about what constitutes \"selected\" letters has become our window into Dick's intimate world.\n\nWhat makes Williams important as a subject, not just as an editor, is precisely this question of curation and control. He was PKD's contemporary, a fellow traveler in the SF community, and then the architect of how PKD would be remembered. Understanding the *Selected Letters* requires understanding Williams' choices.",
+  "summary": "Paul Williams (1972–1982+), publisher, editor, and PKD Society co-founder. Co-editor of The Selected Letters; custodian of PKD's archival legacy; curator of which letters survive.",
+  "tags": ["paul_williams", "editor", "publisher", "pkd_society", "archive", "biography"],
+  "citations_or_source_links": [{"label": "The Selected Letters of Philip K. Dick (1972–1973 entries and editorial apparatus)", "uri": null, "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH"}],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Extracted from letter and biographical context. Foregrounds the editorial choices that shaped the archive. Critical for understanding the metadata of the portal itself. Ready for publication."
+}

@@ -1,0 +1,39 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_NANCY_HACKETT",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {
+    "agent_role": "writing_agent",
+    "name": "Claude (Haiku 4.5) writing person entry",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "public_prose.person.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_NANCY",
+    "ART_VALIDATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_NANCY",
+    "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE"
+  ],
+  "generated_from_artifacts": [
+    {
+      "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_NANCY",
+      "artifact_type": "raw_extraction"
+    }
+  ],
+  "title": "Nancy Hackett",
+  "dek_or_short_description": "PKD's third wife (1966–1970). Mother of Isolde Freya (Isa) Dick. Corresponded regularly about their daughter's welfare.",
+  "body_markdown": "Nancy Hackett was PKD's third wife, married to him from 1966 to 1970. They had one child together, Isolde Freya Dick — known as Isa — born in 1967. By the time of the *Selected Letters* (1972–1973), Nancy and PKD had separated, but they maintained epistolary contact centered on their daughter.\n\nThe letters reveal a strained co-parenting relationship. Nancy struggled with periodic psychiatric crises, including hospitalizations for psychotic episodes. PKD wrote with concern about her condition and her ability to care for Isa, yet he also expressed deep affection for his young daughter. He was attentive to visitation schedules and worried about Isa's wellbeing in her mother's custody.\n\nThough only fragments survive in the published letters, what emerges is a portrait of a man trying to be a responsible father despite the distance created by separation and his own chaotic life. The letters to Nancy are notably less intimate than those to his other correspondents, marked by a careful, cautious tone — the voice of an ex-husband managing a shared responsibility.",
+  "summary": "Nancy Hackett (1966–1970), PKD's third wife and mother of their daughter Isolde (Isa). Corresponded with PKD about their daughter's welfare and custody; struggled with psychiatric episodes.",
+  "tags": ["nancy_hackett", "pkd_wife", "pkd_family", "isa_dick", "biography"],
+  "citations_or_source_links": [
+    {
+      "label": "The Selected Letters of Philip K. Dick (1972–1973 entries)",
+      "uri": null,
+      "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH"
+    }
+  ],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Extracted from letters; grounded in primary source correspondence. Honest about Nancy's mental health struggles and PKD's parental concerns. Ready for publication."
+}

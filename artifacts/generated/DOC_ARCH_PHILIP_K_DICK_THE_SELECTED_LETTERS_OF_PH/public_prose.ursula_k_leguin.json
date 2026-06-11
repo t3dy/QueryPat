@@ -1,0 +1,19 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_URSULA_K_LEGUIN",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "writing_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "public_prose.person.v1"},
+  "input_artifact_ids": ["ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_URSULA", "ART_VALIDATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_URSULA", "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE"],
+  "generated_from_artifacts": [{"artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_URSULA", "artifact_type": "raw_extraction"}],
+  "title": "Ursula K. Le Guin",
+  "dek_or_short_description": "Major science fiction writer and intellectual peer. Limited but significant correspondence with PKD on literary and philosophical matters.",
+  "body_markdown": "Ursula K. Le Guin occupied a unique position in the SF community of the 1970s: a writer of equal stature to PKD, with comparable literary ambition and intellectual depth. The correspondence between them, though limited in the surviving record, captures two major voices in SF taking each other seriously as writers and thinkers.\n\nLe Guin was among the few writers with whom PKD could engage as a peer — not as a dominant authority figure (like Stanislaw Lem) or as a young admirer (like Bruce Gillespie), but as fellow architects of imaginative worlds grounded in serious philosophical inquiry. Both were building SF not as pulp entertainment but as literature capable of engaging the deepest questions: the nature of reality, the possibility of authentic existence, the texture of consciousness.\n\nWhile their correspondence was occasional rather than frequent, its rarity makes it more significant. PKD reserved sustained letter-writing for those relationships that met specific emotional or intellectual needs. That Le Guin appears in his correspondence at all suggests that he valued contact with this particular intelligence.\n\nThe legacy of their exchange is mostly intellectual and literary rather than personal. But for understanding PKD's place in the SF community — his peers, his rivals, those he considered his equals — Le Guin's presence in his correspondence is crucial. She represents the serious literary SF community to which PKD aspired to belong.",
+  "summary": "Ursula K. Le Guin (1972–1973+), major SF writer and intellectual peer. Limited but significant correspondence about literature and philosophy.",
+  "tags": ["ursula_k_leguin", "fellow_writer", "sf_literature", "intellectual_peers", "biography"],
+  "citations_or_source_links": [{"label": "The Selected Letters of Philip K. Dick (March 14, February 23, 1972–1973)", "uri": null, "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH"}],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Extracted from letter entries. Shows PKD's peer relationships within SF community. Ready for publication."
+}

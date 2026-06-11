@@ -1,0 +1,22 @@
+{
+  "artifact_id": "ART_SOURCE_METADATA_SUTIN_DIVINE_INVASIONS",
+  "artifact_type": "source_metadata",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE",
+  "generated_by": {"agent_role": "ingestion_script", "name": "scripts/ingest/ingest_archive.py + Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "source_metadata.v1"},
+  "source_type": "book",
+  "source_title": "Divine Invasions: A Life of Philip K. Dick",
+  "authors_or_creators": ["Lawrence Sutin"],
+  "publication_date": "1989",
+  "source_uri": null,
+  "local_path": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE.md",
+  "ingestion_date": "2025-01-01",
+  "language": "en",
+  "rights_status": "in_copyright",
+  "access_notes": "Comprehensive authorized biography with interviews, letters, and archival research. Covers entire life from childhood through death in 1982.",
+  "raw_text_available": true,
+  "transcript_available": false,
+  "evidentiary_lane": "D",
+  "notes": "Lane D biography/scholarship: Sutin's authorized biography based on extensive interviews and archival work. Authoritative timeline of PKD's life, relationships, and works. Essential for extracting grounded biographical events with dates and context."
+}

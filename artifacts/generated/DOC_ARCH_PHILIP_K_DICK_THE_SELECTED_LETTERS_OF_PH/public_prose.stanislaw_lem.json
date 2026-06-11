@@ -1,0 +1,19 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_STANISLAW_LEM",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "writing_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "public_prose.person.v1"},
+  "input_artifact_ids": ["ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_STANISLAW", "ART_VALIDATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_STANISLAW", "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE"],
+  "generated_from_artifacts": [{"artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH_PEOPLE_STANISLAW", "artifact_type": "raw_extraction"}],
+  "title": "Stanislaw Lem",
+  "dek_or_short_description": "Polish science fiction writer and scholar. Published a 19-page scholarly article analyzing PKD's work in *SF Commentary*. International intellectual correspondent.",
+  "body_markdown": "Stanislaw Lem was one of the few SF writers whose opinion PKD actively sought and deeply valued. The Polish writer — a genuine intellectual heavyweight in SF — had published a 19-page analytical article on PKD's fiction in *SF Commentary*, a piece that PKD regarded as authoritative and sincere.\n\nLem's attention mattered because it represented validation from outside the American SF community. Here was a major international writer, working in a different tradition, taking PKD seriously as a philosophical novelist, not a genre entertainer. The length and depth of Lem's essay — 19 pages is substantial scholarship — demonstrated the kind of critical respect that PKD craved.\n\nTheir correspondence was occasional but cordial, conducted across linguistic and geographic distance. It represents a rare moment of international intellectual exchange in SF, when writers could correspond directly without the mediation of publishers or agencies, and when major thinkers in one literary tradition could engage peers in another.\n\nLem's essay was part of the infrastructure of PKD's growing reputation among serious readers. As the 1970s progressed, PKD's work would be recognized as serious literature, worthy of scholarly attention — a shift that figures like Lem's helped accelerate. The correspondence between them is evidence of that emerging consensus.",
+  "summary": "Stanislaw Lem (1972–1973+), Polish SF writer and scholar. Published 19-page analysis of PKD's work; international intellectual correspondent and validator.",
+  "tags": ["stanislaw_lem", "scholar", "sf_criticism", "international", "biography"],
+  "citations_or_source_links": [{"label": "The Selected Letters of Philip K. Dick (March 30, September 4, 1972–1973)", "uri": null, "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH"}],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Extracted from letters and international SF history. Shows PKD's engagement with scholars and intellectual validation across borders. Ready for publication."
+}

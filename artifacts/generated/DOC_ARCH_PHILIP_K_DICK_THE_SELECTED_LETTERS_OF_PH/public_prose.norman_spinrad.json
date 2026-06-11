@@ -1,0 +1,19 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_NORMAN_SPINRAD",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "writing_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "public_prose.person.v1"},
+  "input_artifact_ids": ["ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_NORMAN", "ART_VALIDATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_NORMAN", "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE"],
+  "generated_from_artifacts": [{"artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_NORMAN", "artifact_type": "raw_extraction"}],
+  "title": "Norman Spinrad",
+  "dek_or_short_description": "Science fiction writer. Occasional correspondence with PKD during 1972–1973 about SF and literary matters.",
+  "body_markdown": "Norman Spinrad was a science fiction writer working in the same genre and era as Philip K. Dick, though with a different sensibility. Where PKD was metaphysical and ontological, Spinrad was political and sociological; where PKD was paranoid about reality itself, Spinrad was concerned with power and the machinery of political control.\n\nTheir correspondence was occasional, limited to a few letters in early 1973. What little survives in the *Selected Letters* suggests a professional courtesy between two SF writers who respected each other's work without being intimate collaborators or close friends. This is typical of the SF community: figures of comparable stature maintain cordial professional relationships without necessarily becoming confidants.\n\nSpinrad's presence in PKD's correspondence is valuable not for what it reveals about a deep relationship, but for what it shows about the ecosystem PKD inhabited. The SF community of the 1970s was a distributed network of writers, editors, and fans, all connected by correspondence and magazine publication. PKD maintained scattered contact with many figures in this network, exchanging letters about writing, publishing, and the state of the field.\n\nIn the full portrait of PKD's life, Spinrad represents the professional SF community — not intimate friendship, but the larger conversation among serious writers about what science fiction could be and do.",
+  "summary": "Norman Spinrad (1972–1973), SF writer and professional colleague. Occasional correspondence about SF and literary matters.",
+  "tags": ["norman_spinrad", "fellow_writer", "sf_community", "biography"],
+  "citations_or_source_links": [{"label": "The Selected Letters of Philip K. Dick (February 18, March 5, 1973)", "uri": null, "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH"}],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Extracted from letters. Shows PKD's broader professional network within SF community. Ready for publication."
+}

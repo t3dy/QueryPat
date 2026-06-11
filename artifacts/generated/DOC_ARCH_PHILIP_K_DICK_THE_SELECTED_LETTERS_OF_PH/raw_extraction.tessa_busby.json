@@ -1,0 +1,65 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_TESSA",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {
+    "agent_role": "extraction_agent",
+    "name": "Claude (Haiku 4.5) extracting people from letters",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "raw_extraction.people.v1"
+  },
+  "extraction_scope": "Tessa Busby (Leslie): PKD's fourth wife, met July 1972, married 1973. Mother of Christopher Kenneth Dick.",
+  "extracted_entities": {
+    "people": [
+      "Tessa Busby",
+      "Christopher Kenneth Dick"
+    ],
+    "works": [],
+    "places": ["Fullerton"],
+    "institutions": [],
+    "traditions": []
+  },
+  "key_terms": ["marriage", "Fullerton", "son", "relationship"],
+  "explicit_topics": [
+    "Meeting Tessa in July 1972",
+    "Marriage in 1973",
+    "Birth of Christopher Kenneth Dick in 1973",
+    "Living arrangements with Tessa",
+    "Relationship dynamics",
+    "Separation in 1976"
+  ],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {
+      "claim": "Met Tessa in July 1972 in Fullerton",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "tessa_1972_meeting"
+      }
+    },
+    {
+      "claim": "Married Tessa in 1973",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "tessa_1973_marriage"
+      }
+    },
+    {
+      "claim": "Christopher Kenneth Dick born 1973",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "christopher_1973_birth"
+      }
+    }
+  ],
+  "important_passages": [],
+  "uncertainties": [
+    "Exact date of marriage not provided in letter table of contents",
+    "Reasons for separation in 1976 not detailed in available excerpts",
+    "Tessa's full biographical details limited in available letters"
+  ]
+}

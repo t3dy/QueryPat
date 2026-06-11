@@ -1,0 +1,81 @@
+{
+  "artifact_id": "ART_INTERPRETIVE_VISIONARY_EXPERIENCES",
+  "artifact_type": "interpretive",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE",
+  "generated_by": {"agent_role": "interpretation_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "interpretive.v1"},
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_BIOGRAPHY_EVENTS_PHASE2",
+    "ART_SOURCE_METADATA_KYLE_ARNOLD_DIVINE_MADNESS",
+    "ART_SOURCE_METADATA_SUTIN_DIVINE_INVASIONS"
+  ],
+  "interpretive_questions": [
+    "What was the 2-3-74 event: revelation, psychiatric episode, or some synthesis of both?",
+    "How do clinical diagnoses and spiritual interpretation relate to each other?",
+    "Why did the visionary experiences fade after July 1974?",
+    "What role did amphetamine use play in the experiences?",
+    "How should the portal represent contested interpretations of PKD's inner life?"
+  ],
+  "interpretive_claims": [
+    {
+      "claim": "The 2-3-74 experiences form a coherent narrative from PKD's own perspective: a mystical awakening triggered by external sign, elaborated through visionary moments, and leading to decades-long theological elaboration in the Exegesis.",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "PKD's own account as documented in letters and Sutin",
+      "evidence_links": [
+        {"artifact_id": "ART_RAW_EXTRACTION_BIOGRAPHY_EVENTS_PHASE2", "evidence_location": {"locator_type": "section", "section_id": "sutin_fish_sign_event"}, "note": "Consistent narrative thread across Sutin and selected letters"}
+      ]
+    },
+    {
+      "claim": "Kyle Arnold's clinical frame (bipolar mania, paranoid features, amphetamine context) explains the phenomenology and intensity without requiring acceptance of the metaphysical claims.",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "Kyle Arnold's psychiatric analysis",
+      "evidence_links": [
+        {"artifact_id": "ART_SOURCE_METADATA_KYLE_ARNOLD_DIVINE_MADNESS", "evidence_location": {"locator_type": "section", "section_id": "arnold_framework"}, "note": "Arnold systematically addresses diagnostic categories"}
+      ]
+    },
+    {
+      "claim": "Both frames can coexist: the experiences were neurologically real (traceable to neural events) AND interpreted through spiritual framework; neither interpretation invalidates the other's observations.",
+      "confidence": "medium",
+      "speculative": true,
+      "attributed_to": "synthesis of Arnold and Sutin",
+      "evidence_links": [
+        {"artifact_id": "ART_RAW_EXTRACTION_BIOGRAPHY_EVENTS_PHASE2", "evidence_location": {"locator_type": "section", "section_id": "arnold_paradox_improvement"}, "note": "PKD's improved functioning during 'symptoms' suggests reductive diagnosis misses something"}
+      ]
+    },
+    {
+      "claim": "The fade of visionary experiences in August 1974 (following Christopher's hernia diagnosis) suggests the experiences were organized around PKD's deep paternal/protective concerns, not random neural noise.",
+      "confidence": "medium",
+      "speculative": true,
+      "attributed_to": "biographical pattern analysis",
+      "evidence_links": [
+        {"artifact_id": "ART_RAW_EXTRACTION_BIOGRAPHY_EVENTS_PHASE2", "evidence_location": {"locator_type": "section", "section_id": "sutin_fade_august"}, "note": "Timing correlation between resolution of hernia crisis and experience fade"}
+      ]
+    },
+    {
+      "claim": "The Exegesis (8,000+ pages over 8 years) represents PKD's attempt to systematize and secure meaning from experiences he could not definitively categorize, driven by both spiritual conviction and diagnostic uncertainty.",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "documentary evidence and Sutin analysis",
+      "evidence_links": [
+        {"artifact_id": "ART_SOURCE_METADATA_SUTIN_DIVINE_INVASIONS", "evidence_location": {"locator_type": "section", "section_id": "sutin_exegesis_obsession"}, "note": "Sutin documents the decade-long obsession and its intensity"}
+      ]
+    }
+  ],
+  "alternative_readings": [
+    "Theological: the 2-3-74 experiences were genuine mystical phenomena; clinical diagnoses are attempts to naturalize the transcendent.",
+    "Skeptical: PKD's amphetamine-induced paranoia created a coherent false narrative he elaborated throughout life; the Exegesis is rationalization of pathology.",
+    "Phenomenological: the experiences were neither 'merely' neural nor 'purely' spiritual, but irreducible human phenomena that resist categorical reduction.",
+    "Biographical: the experiences are best understood not through diagnosis or theology, but through PKD's deep anxieties (paternity, authenticity, mortality) that shaped their form and meaning."
+  ],
+  "historiographical_relevance": "Load-bearing for understanding PKD as a person, not just a writer. The 2-3-74 experiences and Exegesis dominate the final 8 years of his life and inform major works (VALIS, Ubik reading). The contested interpretation (spiritual vs. clinical) is a contradiction zone that the portal must honor rather than resolve.",
+  "limitations": [
+    "Anne Dick's perspective on 1974 only partially preserved in letters; her full account not accessible.",
+    "PKD's own diagnostic uncertainty preserved but unresolved: he never settled on a consistent interpretation.",
+    "Clinical diagnoses (Arnold) are retrospective and based on PKD's self-reports, not direct observation.",
+    "No neuroscientific data available on the experiences themselves; all interpretation based on behavioral/textual evidence."
+  ],
+  "interpretation_notes": "The portal should present both clinical and spiritual frames as honest intellectual positions, each grounded in evidence. The contradiction is real and constitutive of PKD's life. A responsible entry will not resolve it but will show why both interpretations are defensible and what they illuminate."
+}

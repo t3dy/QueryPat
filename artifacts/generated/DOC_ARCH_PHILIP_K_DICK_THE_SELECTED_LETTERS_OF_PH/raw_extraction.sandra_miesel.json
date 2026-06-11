@@ -1,0 +1,21 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_SANDRA",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Sandra Miesel: Early PKD fan and scholar. Frequent correspondence about PKD's work and literary analysis.",
+  "extracted_entities": {"people": ["Sandra Miesel"], "works": [], "places": [], "institutions": [], "traditions": []},
+  "key_terms": ["fan", "scholar", "correspondence", "analysis", "work"],
+  "explicit_topics": ["Sandra Miesel as early PKD scholar and fan", "Frequent correspondence about PKD's fiction", "Literary analysis and critical engagement", "Professional scholarly relationship"],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {"claim": "Sandra Miesel was an early PKD fan and scholar", "evidence_location": {"locator_type": "section", "section_id": "miesel_fan"}},
+    {"claim": "She corresponded frequently with PKD about his work", "evidence_location": {"locator_type": "section", "section_id": "miesel_correspondence"}}
+  ],
+  "important_passages": [],
+  "uncertainties": ["Details of her scholarly work on PKD not documented", "Full extent of her influence on PKD scholarship unclear", "Later career trajectory unknown"]
+}

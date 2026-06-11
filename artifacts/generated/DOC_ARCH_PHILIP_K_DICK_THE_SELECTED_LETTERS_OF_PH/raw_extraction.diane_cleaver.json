@@ -1,0 +1,21 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_DIANE",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Diane Cleaver: Friend and possibly editor. Frequent correspondence about personal and professional matters.",
+  "extracted_entities": {"people": ["Diane Cleaver"], "works": [], "places": [], "institutions": [], "traditions": []},
+  "key_terms": ["friend", "editor", "correspondence", "personal", "professional"],
+  "explicit_topics": ["Diane Cleaver's role as friend and editor", "Frequent personal correspondence", "Professional publishing/editing relationship", "Regular contact throughout 1972-1973"],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {"claim": "Diane Cleaver corresponded frequently with PKD", "evidence_location": {"locator_type": "section", "section_id": "cleaver_frequency"}},
+    {"claim": "She had a professional editing or publishing role", "evidence_location": {"locator_type": "section", "section_id": "cleaver_editor"}}
+  ],
+  "important_passages": [],
+  "uncertainties": ["Exact editorial role unclear", "Full details of their relationship not documented", "Career trajectory after 1973 unknown"]
+}

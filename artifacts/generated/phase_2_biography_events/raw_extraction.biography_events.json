@@ -1,0 +1,92 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_BIOGRAPHY_EVENTS_PHASE2",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5) + Agent research", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.biography_events.v1"},
+  "extraction_scope": "16 key biography events from PKD's life, 1964–1978, with emphasis on 2-3-74 visionary cluster and religious/visionary experiences grounded in both Kyle Arnold clinical analysis and Sutin biographical research.",
+  "extracted_entities": {
+    "people": ["Philip K. Dick", "Anne Dick", "Isa Hackett", "Christopher Kenneth Dick", "Nancy Hackett", "Tessa Busby", "Gail"],
+    "works": ["The Exegesis", "VALIS"],
+    "places": ["Orange County", "Fullerton", "California"],
+    "institutions": [],
+    "traditions": ["Christianity", "Gnosticism", "mysticism"]
+  },
+  "key_terms": ["2-3-74", "visionary experiences", "religious experience", "amphetamine", "paranoia", "anamnesis", "VALIS", "Exegesis", "clinical diagnosis", "theological interpretation"],
+  "explicit_topics": [
+    "February-March 1974 visionary cluster (2-3-74)",
+    "Pre-2-3-74 paranoia and amphetamine use context",
+    "Dark-haired delivery girl and fish sign as initiating event",
+    "Roman Empire visions and historical interpolation",
+    "Religious action taken (son's baptism ritual)",
+    "Peak integrative moment (Restorer vision)",
+    "Sustained visionary period March-July 1974",
+    "Clinical vs. spiritual interpretations of experiences",
+    "Exegesis composition as theological elaboration",
+    "Post-1974 decline of active visions"
+  ],
+  "substances_or_materials": ["amphetamine", "methamphetamine", "prescription drugs"],
+  "images_symbols_motifs": ["fish sign (vesica piscis)", "dark-haired girl", "Roman Empire", "golden rectangle", "VALIS"],
+  "rituals_practices_procedures": ["baptism ritual for son", "paranoid investigation", "Exegesis writing/composition"],
+  "claims_made_by_source": [
+    {
+      "claim": "On February 20, 1974, a delivery girl with dark hair wearing a fish sign (vesica piscis) necklace triggered PKD's visionary sequence",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_fish_sign_event"}
+    },
+    {
+      "claim": "March 1974 visions included interpolation of ancient Roman Empire into contemporary reality",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_rome_visions"}
+    },
+    {
+      "claim": "PKD took ritual action (baptism of son) in response to visionary guidance",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_baptism_ritual"}
+    },
+    {
+      "claim": "Peak integrative moment: vision of being 'Restorer of What Was Lost' on March 16, 1974",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_restorer_vision"}
+    },
+    {
+      "claim": "Kyle Arnold proposes bipolar mania with paranoid features as clinical frame for 2-3-74",
+      "evidence_location": {"locator_type": "section", "section_id": "arnold_bipolar_diagnosis"}
+    },
+    {
+      "claim": "PKD's functioning actually improved during peak visionary period (March-July 1974) despite symptom intensity",
+      "evidence_location": {"locator_type": "section", "section_id": "arnold_paradox_improvement"}
+    },
+    {
+      "claim": "Visionary experiences faded significantly after August 1974, following son Christopher's hernia diagnosis and treatment",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_fade_august"}
+    },
+    {
+      "claim": "PKD's pre-2-3-74 amphetamine use created chronic paranoia baseline that contextualized the visionary experiences",
+      "evidence_location": {"locator_type": "section", "section_id": "arnold_amphetamine_context"}
+    },
+    {
+      "claim": "1971 house burglary during amphetamine paranoia represented precedent for interpreted reality distortion",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_1971_burglary"}
+    },
+    {
+      "claim": "February 1976 suicide attempt (triple method: overdose, wrist cutting, carbon monoxide) marked nadir following lost years of Exegesis obsession",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_suicide_attempt"}}
+  ],
+  "important_passages": [
+    {
+      "excerpt": "a dark-haired girl in the street outside carrying a large fish sign that seemed to glow",
+      "why_important": "The documented trigger event for the 2-3-74 visionary sequence; initiating moment of mystical awakening",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_fish_sign_passage"}
+    },
+    {
+      "excerpt": "I was the Restorer of What Was Lost",
+      "why_important": "Peak integrative moment expressing the theological core: the purpose and meaning of the visionary experiences",
+      "evidence_location": {"locator_type": "section", "section_id": "sutin_restorer_passage"}
+    }
+  ],
+  "uncertainties": [
+    "Whether delivery girl was actually wearing fish sign or PKD projected it onto neutral stimulus",
+    "Exact diagnostic category (bipolar vs. TLE vs. other) remains unresolved between Arnold and PKD's interpretation",
+    "Whether visionary experiences genuinely faded or PKD ceased reporting them due to changed circumstances",
+    "Long-term effects of chronic amphetamine use on PKD's neural physiology not fully documented",
+    "Anne Dick's perspective on 1974 events and their aftermath only partially preserved in letters"
+  ]
+}

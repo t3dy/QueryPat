@@ -1,0 +1,38 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_URSULA",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Ursula K. Le Guin: Major science fiction writer. Intellectual correspondence with PKD about literary and philosophical matters.",
+  "extracted_entities": {
+    "people": ["Ursula K. Le Guin"],
+    "works": [],
+    "places": [],
+    "institutions": [],
+    "traditions": ["science fiction literature"]
+  },
+  "key_terms": ["fellow writer", "SF writer", "intellectual correspondence", "philosophical"],
+  "explicit_topics": [
+    "Literary correspondence between PKD and Le Guin",
+    "Intellectual exchange about writing and science fiction",
+    "Both major figures in SF community",
+    "Occasional but significant correspondence"
+  ],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {
+      "claim": "PKD corresponded with Ursula K. Le Guin about literary and philosophical matters",
+      "evidence_location": {"locator_type": "section", "section_id": "leguin_correspondence"}
+    },
+    {
+      "claim": "Correspondence occurred in March and February 1972-1973",
+      "evidence_location": {"locator_type": "section", "section_id": "leguin_dates"}
+    }
+  ],
+  "important_passages": [],
+  "uncertainties": ["Content of their exchanges not detailed in available excerpts", "Long-term relationship trajectory unclear"]
+}

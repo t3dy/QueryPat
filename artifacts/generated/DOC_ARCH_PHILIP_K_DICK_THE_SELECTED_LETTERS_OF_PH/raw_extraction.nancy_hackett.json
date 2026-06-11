@@ -1,0 +1,75 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_NANCY",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {
+    "agent_role": "extraction_agent",
+    "name": "Claude (Haiku 4.5) extracting people from letters",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "raw_extraction.people.v1"
+  },
+  "extraction_scope": "Nancy Hackett: PKD's third wife and mother of his second child Isolde (Isa) Freya Dick",
+  "extracted_entities": {
+    "people": [
+      "Nancy Hackett",
+      "Isolde Freya Dick (Isa)"
+    ],
+    "works": [],
+    "places": ["California"],
+    "institutions": [],
+    "traditions": []
+  },
+  "key_terms": ["custody", "visitation", "psychotic episode", "hospital", "parenting", "marriage"],
+  "explicit_topics": [
+    "Nancy's marriage to PKD (1966)",
+    "birth of Isa (1967)",
+    "separation/divorce (1970)",
+    "Nancy's mental health crises",
+    "PKD's paternal responsibilities and concerns",
+    "visitation and custody arrangements",
+    "PKD's affection for his daughter"
+  ],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {
+      "claim": "Nancy had just come out of the hospital, recovering from one of her periodic psychotic episodes",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "1972-1973_letters"
+      }
+    },
+    {
+      "claim": "Isa was born in 1967",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "nancy_isa_correspondence"
+      }
+    },
+    {
+      "claim": "PKD was deeply concerned about Isa's welfare and custodial arrangements",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "custody_letters"
+      }
+    }
+  ],
+  "important_passages": [
+    {
+      "excerpt": "Nancy had just come out of the hospital, recovering from one of her periodic psychotic episodes",
+      "why_important": "Shows Nancy's mental health struggles and PKD's awareness of her condition while co-parenting",
+      "evidence_location": {
+        "locator_type": "section",
+        "section_id": "nancy_health_letters"
+      }
+    }
+  ],
+  "uncertainties": [
+    "Exact dates of marriage and divorce not explicitly stated in letter dates sampled",
+    "Full details of Nancy's psychiatric condition not explored in available letter excerpts",
+    "Current status of relationship post-1973 unclear from available sample"
+  ]
+}

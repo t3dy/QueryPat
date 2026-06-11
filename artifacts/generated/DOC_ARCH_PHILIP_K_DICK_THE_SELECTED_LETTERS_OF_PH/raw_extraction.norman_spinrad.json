@@ -1,0 +1,37 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_NORMAN",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Norman Spinrad: Science fiction writer. Occasional correspondence with PKD about SF and literary matters.",
+  "extracted_entities": {
+    "people": ["Norman Spinrad"],
+    "works": [],
+    "places": [],
+    "institutions": [],
+    "traditions": ["science fiction literature"]
+  },
+  "key_terms": ["fellow writer", "SF writer", "correspondence"],
+  "explicit_topics": [
+    "Norman Spinrad as fellow science fiction writer",
+    "Occasional correspondence in 1972-1973",
+    "Professional exchange about SF and writing"
+  ],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {
+      "claim": "PKD corresponded with Norman Spinrad about SF and literary matters",
+      "evidence_location": {"locator_type": "section", "section_id": "spinrad_correspondence"}
+    },
+    {
+      "claim": "Correspondence occurred in February and March 1973",
+      "evidence_location": {"locator_type": "section", "section_id": "spinrad_dates"}
+    }
+  ],
+  "important_passages": [],
+  "uncertainties": ["Content of correspondence not detailed", "Nature of their professional relationship unclear"]
+}

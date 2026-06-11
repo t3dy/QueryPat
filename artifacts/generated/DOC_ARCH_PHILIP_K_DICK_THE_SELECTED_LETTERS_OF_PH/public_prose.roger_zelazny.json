@@ -1,0 +1,19 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_ROGER_ZELAZNY",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "writing_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "public_prose.person.v1"},
+  "input_artifact_ids": ["ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_ROGER", "ART_VALIDATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_ROGER", "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE"],
+  "generated_from_artifacts": [{"artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_ROGER", "artifact_type": "raw_extraction"}],
+  "title": "Roger Zelazny",
+  "dek_or_short_description": "Science fiction writer and collaborator. Co-authored *Deus Irae* (1976) with PKD. Professional correspondence during 1972–1973.",
+  "body_markdown": "Roger Zelazny was one of the major SF writers of the 1970s, known for his lyrical prose and imaginative intensity. His correspondence with PKD documents a professional collaboration that would eventually yield *Deus Irae*, a novel born from their exchange about metaphysics, theology, and the nature of apocalypse.\n\n*Deus Irae* — its title Latin for \"God's Wrath\" — was published in 1976 but was in development during the period of these letters. The novel dealt with religious experience and the possibility of salvation in a post-apocalyptic world, themes that aligned with PKD's theological obsessions after 2-3-74. Zelazny brought his own spiritual concerns and his mastery of narrative structure; PKD brought his metaphysical intensity and his conviction that high stakes were at stake.\n\nWhat the letters suggest is a respectful professional relationship. Zelazny and PKD had compatible ambitions — both wanted SF to matter philosophically, not just as entertainment — and compatible temperaments. Their correspondence about *Deus Irae* would have been substantive, centered on plot, character, theology, and meaning.\n\nThe collaboration itself is an artifact of a particular moment in SF history, when major writers could undertake joint projects and when co-authorship was a path to deeper work, not a compromise. The novel that emerged was strange and ambitious, unclassifiable — neither wholly Zelazny nor wholly PKD, but a genuine synthesis.",
+  "summary": "Roger Zelazny (1972–1973+), SF writer and collaborator on *Deus Irae* (1976). Professional correspondence about metaphysics, theology, apocalypse.",
+  "tags": ["roger_zelazny", "fellow_writer", "deus_irae", "collaboration", "biography"],
+  "citations_or_source_links": [{"label": "The Selected Letters of Philip K. Dick (November 3, December 1, April 11, 1972–1973)", "uri": null, "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH"}],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Extracted from letters and publication history. Shows collaborative literary work during 1970s SF. Ready for publication."
+}

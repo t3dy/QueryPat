@@ -1,0 +1,39 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_SCOTT_MEREDITH",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {
+    "agent_role": "writing_agent",
+    "name": "Claude (Haiku 4.5) writing person entry",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "public_prose.person.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_SCOTT_MEREDITH",
+    "ART_VALIDATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_SCOTT_MEREDITH",
+    "ART_CURATION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE"
+  ],
+  "generated_from_artifacts": [
+    {
+      "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_SCOTT_MEREDITH",
+      "artifact_type": "raw_extraction"
+    }
+  ],
+  "title": "Scott Meredith",
+  "dek_or_short_description": "PKD's literary agent (1952–1982). Head of Scott Meredith Literary Agency. Managed all of PKD's publishing contracts, career negotiations, and financial arrangements.",
+  "body_markdown": "Scott Meredith was Philip K. Dick's literary agent from 1952 until Dick's death in 1982 — a relationship spanning thirty years. As head of Scott Meredith Literary Agency, he was responsible for placing Dick's fiction with publishers, negotiating contracts, managing subsidiary rights, and handling the complicated financial arrangements that sustained Dick's prolific output.\n\nIn the *Selected Letters*, Meredith appears over fifty times in the 1972–1973 period alone, making him the most frequently addressed correspondent. PKD's letters to Meredith are notably more businesslike than those to his literary friends, focused on contract status, book sales figures, payment schedules, and the perpetual question of how much his fiction would earn.\n\nMeredith's role was crucial to Dick's survival as a writer. While Dick was celebrated in science fiction circles, he was rarely rich, and Meredith's job was to squeeze every dollar from publishers, to place reprints, to negotiate paperback rights, and to keep the money flowing. The letters reveal a man anxious about income, dependent on Meredith's ability to sell his work and manage the business side of his career — the practical underpinning without which Dick's metaphysical obsessions would have been unsustainable.\n\nTheir relationship was professional but enduring. Despite the endless contract disputes and financial worries, there is no evidence of animosity in the letters — only the pragmatic collaboration of a writer who needed his agent as much as his agent needed writers to represent.",
+  "summary": "Scott Meredith (1952–1982), PKD's literary agent and career manager. Head of Scott Meredith Literary Agency. Central to PKD's entire publishing career; appeared in over 50 letters in 1972–1973 alone.",
+  "tags": ["scott_meredith", "pkd_agent", "pkd_career", "publishing", "biography"],
+  "citations_or_source_links": [
+    {
+      "label": "The Selected Letters of Philip K. Dick (1972–1973 entries)",
+      "uri": null,
+      "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH"
+    }
+  ],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Extracted from letters; relationship and role grounded in correspondence frequency and content. Shows the professional-but-essential nature of the agent-writer relationship. Ready for publication."
+}

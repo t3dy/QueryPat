@@ -1,0 +1,22 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_PHILIP_K_DICK_LETTERS_PEOPLE_DENNIS",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+  "generated_by": {"agent_role": "extraction_agent", "name": "Claude (Haiku 4.5)", "model": "claude-haiku-4-5-20251001", "prompt_version": "raw_extraction.people.v1"},
+  "extraction_scope": "Dennis Etchison: Science fiction writer and editor. Wrote introduction to Selected Letters. Personal friendship.",
+  "extracted_entities": {"people": ["Dennis Etchison"], "works": [], "places": [], "institutions": [], "traditions": ["science fiction literature"]},
+  "key_terms": ["writer", "editor", "friend", "correspondence", "introduction"],
+  "explicit_topics": ["Dennis Etchison as SF writer and editor", "PKD's invitation for him to visit", "Later role writing introduction to Selected Letters", "Personal friendship in SF community"],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [
+    {"claim": "Dennis Etchison was a fellow SF writer", "evidence_location": {"locator_type": "section", "section_id": "etchison_writer"}},
+    {"claim": "PKD invited him to visit", "evidence_location": {"locator_type": "section", "section_id": "etchison_visit"}},
+    {"claim": "Etchison later wrote introduction to Selected Letters", "evidence_location": {"locator_type": "section", "section_id": "etchison_intro"}}
+  ],
+  "important_passages": [],
+  "uncertainties": ["Details of whether visit occurred unknown", "Later editorial role at time of letters unknown", "Extent of friendship unclear"]
+}
