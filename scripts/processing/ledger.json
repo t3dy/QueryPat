@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "description": "Declared read-ledger for the QueryPat metadata pipeline. Records which full-text sources have been swept and which passes are done/partial/blocked, so a future session never re-reads a source already cooked into the system files. Fine-grained per-unit status (e.g. which Exegesis segments are summarized, which works carry locations) is DERIVED live by scripts/processing/coverage.py from the data the site serves; this file holds the coarse 'has the source text been read' facts that cannot be derived from the output.",
+  "updated": "2026-06-12",
+  "pass_status_values": ["done", "partial", "pending", "blocked", "n/a"],
+  "source_text_availability": {
+    "exegesis": {
+      "available": true,
+      "where": "exegesis_ordered.txt (9 MB, in repo) and raw_text in site/public/data/segments/*.json (882 of 1107 segments retain raw_text)",
+      "note": "224 segments lack raw_text in the export; their text can be recovered from exegesis_ordered.txt by date/position or by re-exporting from the SQLite DB."
+    },
+    "novels_and_stories": {
+      "available": false,
+      "where": "database/extracted_markdown/ (gitignored, ~37 MB) regenerated from 'PKD stuff to add/' source PDFs (external, gitignored). Neither is present in a fresh clone.",
+      "note": "Work-LEVEL locations and themes are groundable from documented settings/scholarship. CHAPTER-LEVEL summaries are BLOCKED here: they require the full texts and cannot be produced without fabrication."
+    },
+    "letters": {
+      "available": "partial",
+      "where": "Selected Letters volumes are external archive PDFs (gitignored). Hand-extracted letter events exist in scripts/letters/handextracted_batch1.json and batch2.json.",
+      "note": "Letter LOCATIONS/summaries at scale need the volumes. The hand-extracted batches and any letter text quoted inside the Exegesis (e.g. the Gene Savoy letter in SECTION_013) are usable now."
+    },
+    "biography": {
+      "available": true,
+      "where": "site/public/data/biography/{events,curated}.json are already structured event records.",
+      "note": "Locations are a per-event string field; 489/687 events and 162/162 curated events already carry one."
+    }
+  },
+  "units": {
+    "EXEG_SECTION_013": {
+      "type": "exegesis_section",
+      "title": "1975-11-05 SECTION_016/013 cluster (Gene Savoy letter; St. Sophia / Holy Wisdom)",
+      "source_text_available": true,
+      "passes": {
+        "summary": "partial",
+        "themes_figures": "partial"
+      },
+      "note": "Positions 1-6 summarized and theme/figure-tagged on 2026-06-12 (exemplar batch establishing the schema). Positions 7..N pending; run coverage.py --remaining exegesis for the live list.",
+      "updated": "2026-06-12"
+    }
+  }
+}
