@@ -8,13 +8,13 @@
   "mention_count": 39,
   "source_doc_count": 7,
   "source_doc_types": {
-    "letter": 24,
+    "letter": 21,
     "archive_pdf": 15
   },
   "first_mention_date": "1975-1979",
   "last_mention_date": "Unknown",
-  "card_summary": "PKD-on-PKD catalog for The Man in the High Castle: 39 detected title mentions across 7 PKD-authored writings. The references cluster in letters (24), primary text (15), and the detail page shows each source document with its surrounding context.",
-  "page_summary": "This section gathers PKD's own mentions of The Man in the High Castle across PKD-authored primary writings in the archive. The catalog records 39 detected title mentions in 7 PKD-authored documents. \n\nThe represented source types here include letters (24), primary text (15). The heaviest source documents are Claudia Bush Letters (15), The Selected Letters of Philip K. Dick: 1972-1973 (6), Selected Stories of Philip K. Dick (6). \n\nNearby language repeatedly turns on time, tears, 1960, and 1964. \n\nThe mention list is organized by source document so readers can move directly from each remark to the underlying text.",
+  "card_summary": "PKD-on-PKD catalog for The Man in the High Castle: 39 detected title mentions across 7 PKD-authored writings. The references cluster in letters (21), primary text (15), and the detail page shows each source document with its surrounding context.",
+  "page_summary": "This section gathers PKD's own mentions of The Man in the High Castle across PKD-authored primary writings in the archive. The catalog records 39 detected title mentions in 7 PKD-authored documents. \n\nThe represented source types here include letters (21), primary text (15). The heaviest source documents are Claudia Bush Letters (15), Selected Stories of Philip K. Dick (6), The Selected Letters of Philip K. Dick: 1972-1973 (3). \n\nNearby language repeatedly turns on tears, award, flow, and time. \n\nThe mention list is organized by source document so readers can move directly from each remark to the underlying text.",
   "top_sources": [
     {
       "doc_id": "DOC_ARCH_CLAUDIA_BUSH_LETTERS_CORPUS",
@@ -25,20 +25,20 @@
       "mention_count": 15
     },
     {
-      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
-      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
-      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
-      "doc_type": "letter",
-      "date_display": "1993",
-      "mention_count": 6
-    },
-    {
       "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
       "doc_slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
       "doc_title": "Selected Stories of Philip K. Dick",
       "doc_type": "archive_pdf",
       "date_display": "Unknown",
       "mention_count": 6
+    },
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "mention_count": 3
     },
     {
       "doc_id": "DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF",
@@ -259,18 +259,6 @@
       "mention_order": 16
     },
     {
-      "mention_id": "PKDPKD_the-man-in-the-high-castle_philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books_17",
-      "work_id": "WORK_the-man-in-the-high-castle",
-      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
-      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
-      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
-      "doc_type": "letter",
-      "date_display": "1993",
-      "match_text": "the man in the high castle",
-      "context_snippet": "s 1957 the variable man 1957 time out of joint 1959 dr futurity 1960 vulcan s hammer 1960 the man in the high castle 1962 the game players of titan 1963 the penultimate truth 1964 martian time slip 1964 the",
-      "mention_order": 17
-    },
-    {
       "mention_id": "PKDPKD_the-man-in-the-high-castle_philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books_18",
       "work_id": "WORK_the-man-in-the-high-castle",
       "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
@@ -283,18 +271,6 @@
       "mention_order": 18
     },
     {
-      "mention_id": "PKDPKD_the-man-in-the-high-castle_philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books_19",
-      "work_id": "WORK_the-man-in-the-high-castle",
-      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
-      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
-      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
-      "doc_type": "letter",
-      "date_display": "1993",
-      "match_text": "man in the high castle",
-      "context_snippet": "57 the variable man 1957 time out of joint 1959 dr futurity 1960 vulcan s hammer 1960 the man in the high castle 1962 the game players of titan 1963 the penultimate truth 1964 martian time slip 1964 the",
-      "mention_order": 19
-    },
-    {
       "mention_id": "PKDPKD_the-man-in-the-high-castle_philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books_20",
       "work_id": "WORK_the-man-in-the-high-castle",
       "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
@@ -305,18 +281,6 @@
       "match_text": "high castle",
       "context_snippet": "able man 1957 time out of joint 1959 dr futurity 1960 vulcan s hammer 1960 the man in the high castle 1962 the game players of titan 1963 the penultimate truth 1964 martian time slip 1964 the",
       "mention_order": 20
-    },
-    {
-      "mention_id": "PKDPKD_the-man-in-the-high-castle_philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books_21",
-      "work_id": "WORK_the-man-in-the-high-castle",
-      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
-      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
-      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
-      "doc_type": "letter",
-      "date_display": "1993",
-      "match_text": "high castle",
-      "context_snippet": "able man 1957 time out of joint 1959 dr futurity 1960 vulcan s hammer 1960 the man in the high castle 1962 the game players of titan 1963 the penultimate truth 1964 martian time slip 1964 the",
-      "mention_order": 21
     },
     {
       "mention_id": "PKDPKD_the-man-in-the-high-castle_oceanofpdf-com-the-shifting-realities-of-pk-dick-philip-k-dick_22",
@@ -562,31 +526,6 @@
       ]
     },
     {
-      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
-      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
-      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
-      "doc_type": "letter",
-      "date_display": "1993",
-      "mention_count": 6,
-      "excerpts": [
-        {
-          "match_text": "the man in the high castle",
-          "context_snippet": "s 1957 the variable man 1957 time out of joint 1959 dr futurity 1960 vulcan s hammer 1960 the man in the high castle 1962 the game players of titan 1963 the penultimate truth 1964 martian time slip 1964 the",
-          "mention_order": 16
-        },
-        {
-          "match_text": "the man in the high castle",
-          "context_snippet": "s 1957 the variable man 1957 time out of joint 1959 dr futurity 1960 vulcan s hammer 1960 the man in the high castle 1962 the game players of titan 1963 the penultimate truth 1964 martian time slip 1964 the",
-          "mention_order": 17
-        },
-        {
-          "match_text": "man in the high castle",
-          "context_snippet": "57 the variable man 1957 time out of joint 1959 dr futurity 1960 vulcan s hammer 1960 the man in the high castle 1962 the game players of titan 1963 the penultimate truth 1964 martian time slip 1964 the",
-          "mention_order": 18
-        }
-      ]
-    },
-    {
       "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
       "doc_slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
       "doc_title": "Selected Stories of Philip K. Dick",
@@ -608,6 +547,31 @@
           "match_text": "man in the high castle",
           "context_snippet": "the bibliography lists all major novels including do androids dream of electric sheep the man in the high castle a scanner darkly ubik valis flow my tears the policeman said the three stigmata of palmer",
           "mention_order": 36
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
+      "doc_slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "doc_title": "The Selected Letters of Philip K. Dick: 1972-1973",
+      "doc_type": "letter",
+      "date_display": "1993",
+      "mention_count": 3,
+      "excerpts": [
+        {
+          "match_text": "the man in the high castle",
+          "context_snippet": "s 1957 the variable man 1957 time out of joint 1959 dr futurity 1960 vulcan s hammer 1960 the man in the high castle 1962 the game players of titan 1963 the penultimate truth 1964 martian time slip 1964 the",
+          "mention_order": 16
+        },
+        {
+          "match_text": "man in the high castle",
+          "context_snippet": "57 the variable man 1957 time out of joint 1959 dr futurity 1960 vulcan s hammer 1960 the man in the high castle 1962 the game players of titan 1963 the penultimate truth 1964 martian time slip 1964 the",
+          "mention_order": 18
+        },
+        {
+          "match_text": "high castle",
+          "context_snippet": "able man 1957 time out of joint 1959 dr futurity 1960 vulcan s hammer 1960 the man in the high castle 1962 the game players of titan 1963 the penultimate truth 1964 martian time slip 1964 the",
+          "mention_order": 20
         }
       ]
     },
@@ -715,6 +679,7 @@
   "aliases": [
     "The Man in the High Castle",
     "Man in the High Castle",
-    "High Castle"
+    "High Castle",
+    "MITHC"
   ]
 }

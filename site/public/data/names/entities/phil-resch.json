@@ -13,7 +13,7 @@
   "wordplay_note": "A bounty hunter who may himself be an android",
   "symbolic_note": null,
   "card_description": "Phil Resch (meaning \"Resch = German for quick/brisk\") is a character in Philip K. Dick's *Do Androids Dream of Electric Sheep?*. Ruthless bounty hunter who enjoys killing androids and disturbs Deckard with his coldness. Name note: A bounty hunter who may himself be an android. If a human can lack empathy more than an android the categories collapse. First appears in *Do Androids Dream of Electric Sheep?*.",
-  "full_description": null,
+  "full_description": "Phil Resch (meaning \"Resch = German for quick/brisk\") is a character in Philip K. Dick's *Do Androids Dream of Electric Sheep?*. Ruthless bounty hunter who enjoys killing androids and disturbs Deckard with his coldness. Name note: A bounty hunter who may himself be an android. If a human can lack empathy more than an android the categories collapse. First appears in *Do Androids Dream of Electric Sheep?*.",
   "mention_count": 0,
   "first_work": "Do Androids Dream of Electric Sheep?",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Phil Resch",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Phil Resch",
+      "slug": "phil-resch",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Phil Resch",
     "domain": "literary",

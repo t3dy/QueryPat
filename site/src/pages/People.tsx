@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useData } from '../hooks/useData'
+import { BIOGRAPHY_CATEGORY_NAMES } from '../data/biographyTaxonomy'
 
 interface EvidenceCounts {
   archive_documents?: number
@@ -66,6 +67,7 @@ interface PersonRecord {
 type QualityMode = 'high' | 'all'
 
 const CATEGORY_LABELS: Record<string, string> = {
+  ...BIOGRAPHY_CATEGORY_NAMES,
   archive_documents: 'Archive documents',
   author: 'Author',
   biography_events: 'Biography events',
@@ -83,14 +85,6 @@ const CATEGORY_LABELS: Record<string, string> = {
   spouse_or_partner: 'Spouse or partner',
   workplace: 'Workplace',
   reading: 'Reading',
-  religious_thought: 'Religious thought',
-  philosophical_influence: 'Philosophical influence',
-  religious_experience: 'Religious experience',
-  visionary_experience: 'Visionary experience',
-  paranormal_experience: 'Paranormal experience',
-  mystical_experience: 'Mystical experience',
-  gnostic_experience: 'Gnostic experience',
-  hearing_voices_experience: 'Hearing voices experience',
   substance_use: 'Substance use',
   drug_use: 'Substance use',
   education: 'Education',

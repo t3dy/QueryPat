@@ -13,7 +13,7 @@
   "wordplay_note": "A good woman in a ruined world",
   "symbolic_note": null,
   "card_description": "Bonny Keller (meaning \"Bonny = beautiful/good\") is a character in Philip K. Dick's *Dr. Bloodmoney*. Survivor whose child Edie may have been fathered by the bomb-maker Bruno Bluthgeld. Name note: A good woman in a ruined world. Beauty and fertility persisting amid nuclear devastation. First appears in *Dr. Bloodmoney*.",
-  "full_description": null,
+  "full_description": "Bonny Keller (meaning \"Bonny = beautiful/good\") is a character in Philip K. Dick's *Dr. Bloodmoney*. Survivor whose child Edie may have been fathered by the bomb-maker Bruno Bluthgeld. Name note: A good woman in a ruined world. Beauty and fertility persisting amid nuclear devastation. First appears in *Dr. Bloodmoney*.",
   "mention_count": 0,
   "first_work": "Dr. Bloodmoney",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Bonny Keller",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Bonny Keller",
+      "slug": "bonny-keller",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Bonny Keller",
     "domain": "literary",

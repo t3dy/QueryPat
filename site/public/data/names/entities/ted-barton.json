@@ -13,7 +13,7 @@
   "wordplay_note": "A man of the harvest returning to a corrupted garden",
   "symbolic_note": null,
   "card_description": "Ted Barton (meaning \"Barton = barley settlement\") is a character in Philip K. Dick's *The Cosmic Puppets*. Man who returns to his hometown to find it completely changed by warring cosmic forces. Name note: A man of the harvest returning to a corrupted garden. The hometown transformed — Zoroastrian good and evil remaking small-town America. First appears in *The Cosmic Puppets*.",
-  "full_description": null,
+  "full_description": "Ted Barton (meaning \"Barton = barley settlement\") is a character in Philip K. Dick's *The Cosmic Puppets*. Man who returns to his hometown to find it completely changed by warring cosmic forces. Name note: A man of the harvest returning to a corrupted garden. The hometown transformed — Zoroastrian good and evil remaking small-town America. First appears in *The Cosmic Puppets*.",
   "mention_count": 0,
   "first_work": "The Cosmic Puppets",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Ted Barton",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Ted Barton",
+      "slug": "ted-barton",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Ted Barton",
     "domain": "literary",

@@ -1,5 +1,33 @@
 [
   {
+    "_type": "publication",
+    "work_id": "WORK_the-magician-s-box",
+    "canonical_title": "The Magician's Box",
+    "slug": "the-magician-s-box",
+    "work_type": "short_stories",
+    "category": "short_stories",
+    "date_start": "1944",
+    "date_display": "1944",
+    "summary": "Canonical record for The Magician's Box, PKD's short-story collection. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "The Magician's Box is the canonical works-table record for PKD's short-story collection corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is The Magician's Box (Berkeley Daily Gazette, February 7, 1944) (1944).\n\nThe source record itself summarizes the work as follows: A single-page scanned PDF of 'The Magician's Box,' an early piece by Philip K. Dick published in the Berkeley Daily Gazette on February 7, 1944. No OCR text layer is present. Dick would have been approximately fifteen years old at the time of publication.\n\nLike 'The Jungle People' (1942) and 'The Visitation' (1944), this is one of Dick's juvenile publications in the Berkeley Daily Gazette, documenting the formative years of his literary development. The title 'The Magician's Box' suggests themes of illusion, hidden realities, and transformation that would later become central preoccupations of his adult fiction. These juvenile publications are among the rarest and most sought-after items in Dick bibliography.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 1
+  },
+  {
+    "_type": "publication",
+    "work_id": "WORK_the-visitation",
+    "canonical_title": "The Visitation",
+    "slug": "the-visitation",
+    "work_type": "short_stories",
+    "category": "short_stories",
+    "date_start": "1944",
+    "date_display": "1944",
+    "summary": "Canonical record for The Visitation, PKD's short-story collection. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "The Visitation is the canonical works-table record for PKD's short-story collection corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is The Visitation (Berkeley Daily Gazette, August 14, 1944) (1944).\n\nThe source record itself summarizes the work as follows: A single-page scanned PDF of 'The Visitation,' an early piece by Philip K. Dick published in the Berkeley Daily Gazette on August 14, 1944. No OCR text layer is present. Dick would have been approximately fifteen to sixteen years old at the time of publication.\n\nThis is the third known juvenile publication by Dick in the Berkeley Daily Gazette, following 'The Jungle People' (1942) and 'The Magician's Box' (February 1944). The title 'The Visitation' suggests themes of encounter with the unknown or supernatural that would become central to Dick's mature work, particularly his explorations of divine intervention and mystical experience. Together with his other juvenile publications, this piece documents the early development of one of the most important science fiction writers of the twentieth century.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 1
+  },
+  {
     "_type": "biography_event",
     "bio_id": "pkd_bio_1944_berkeley_high",
     "summary": "Enrolls at Berkeley High School and participates in creative writing activities",
@@ -12,7 +40,7 @@
     "source_type": "curated",
     "location": "Berkeley, California",
     "importance": "3",
-    "notes": null,
+    "notes": "Generated curation note: a year education entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Berkeley High School"
     ],
@@ -32,7 +60,7 @@
     "source_type": "curated",
     "location": "Berkeley, California",
     "importance": "2",
-    "notes": null,
+    "notes": "Generated curation note: a range reading entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Plato",
       "Immanuel Kant"

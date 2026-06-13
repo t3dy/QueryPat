@@ -13,7 +13,7 @@
   "wordplay_note": "Appointed to clear the dark moor — a pilgrim in a death-maze",
   "symbolic_note": null,
   "card_description": "Seth Morley (meaning \"Seth = appointed; Morley = moor-clearing\") is a character in Philip K. Dick's *A Maze of Death*. Colonist on Delmak-O who searches for the Intercessor while reality disintegrates. Name note: Appointed to clear the dark moor — a pilgrim in a death-maze. Religious longing in a designed environment that may be a group hallucination. First appears in *A Maze of Death*.",
-  "full_description": null,
+  "full_description": "Seth Morley (meaning \"Seth = appointed; Morley = moor-clearing\") is a character in Philip K. Dick's *A Maze of Death*. Colonist on Delmak-O who searches for the Intercessor while reality disintegrates. Name note: Appointed to clear the dark moor — a pilgrim in a death-maze. Religious longing in a designed environment that may be a group hallucination. First appears in *A Maze of Death*.",
   "mention_count": 0,
   "first_work": "A Maze of Death",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Seth Morley",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Seth Morley",
+      "slug": "seth-morley",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Seth Morley",
     "domain": "literary",

@@ -13,7 +13,7 @@
   "wordplay_note": "Fat's ex-wife",
   "symbolic_note": null,
   "card_description": "Beth is a character in Philip K. Dick's *VALIS*. Horselover Fat's former wife who left him. Name note: Fat's ex-wife. The domestic wreckage of visionary obsession. First appears in *VALIS*.",
-  "full_description": null,
+  "full_description": "Beth is a character in Philip K. Dick's *VALIS*. Horselover Fat's former wife who left him. Name note: Fat's ex-wife. The domestic wreckage of visionary obsession. First appears in *VALIS*.",
   "mention_count": 0,
   "first_work": "VALIS",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Beth",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Beth",
+      "slug": "beth",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Beth",
     "domain": "literary",

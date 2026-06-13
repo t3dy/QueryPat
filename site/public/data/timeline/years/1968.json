@@ -1,5 +1,57 @@
 [
   {
+    "_type": "publication",
+    "work_id": "WORK_the-maze-of-death-theology",
+    "canonical_title": "The Maze of Death Theology",
+    "slug": "the-maze-of-death-theology",
+    "work_type": "primary",
+    "category": "primary",
+    "date_start": "1968",
+    "date_display": "circa 1968",
+    "summary": "Canonical record for The Maze of Death Theology, PKD's primary text. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "The Maze of Death Theology is the canonical works-table record for PKD's primary text corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is The Maze of Death Theology (circa 1968).\n\nThe source record itself summarizes the work as follows: This unpublished primary-source document is titled \"Notes on the Tench Novel\" in the PDF itself, but is entered here under the project title The Maze of Death Theology because it is the theological/conceptual notes packet behind A Maze of Death. The document is a 16-page set of draft notes, likely from the 1968 composition period, in which PKD works from a colony-survival premise toward the metaphysical architecture of the novel.\n\nThe opening pages imagine an Earth colony on a distant planet undergoing social, economic, psychological, and entropic breakdown. PKD lists character types, possible names, occupations, breakdown modes, and plot alternatives: rotating authority, ruined instructions, isolation from Earth, possible monitoring devices, and the suspicion that the colonists may be experimental subjects. The early title-world is \"Tench\" and then Delmar/Delmak; the later novel's movement from mission plot to metaphysical uncertainty is already visible.\n\nThe central theological material appears as the notes turn from plot mechanics toward ontology. PKD imagines a world where each person's worldview shapes perceived reality, yet the gods remain the only communicable constant across subjective worlds. The notes propose gods no longer on Earth, a compact between Earth and the gods, a \"Walker-on-earth,\" a \"Manufacturer,\" a decay or form-destroying power, and a theological account in which evil is treated as unreality, decay, or form-loss. This makes the document an important pre-1974 witness to PKD's religious imagination before the Exegesis proper.\n\nResearch significance: The document belongs with A Maze of Death, the William Sarill theology connection named in the novel's foreword, and the later Exegesis concern with entropy, form, orthogonal realities, living information, divine plurality, and the problem of evil. It should be treated as an early Exegesis-adjacent primary document, not merely a discarded plot outline.\n\nSarill context: PKD later wrote that A Maze of Death stemmed from an attempt by William Sarill and himself to develop an abstract logical system of religious thought based on the arbitrary postulate that God exists. Sarill later remembered first meeting PKD in 1968 and spending over a month as his houseguest, but he did not recall the same kind of religious or visionary discussion; project notes should preserve that tension rather than harmonize it. The user's current research note adds that Sarill remembered bringing Dick an article by a physicist on multiple universes, possibly connected to Wheeler/Everett-style many-worlds discussions; this remains a lead needing source confirmation.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 16
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": 109,
+    "summary": "Hearing \"And she shall see the sea\" (c. 1968/9).",
+    "date_start": "1968",
+    "date_end": "1968",
+    "date_display": "1968",
+    "date_confidence": "approximate",
+    "event_type": "other",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "San Rafael, California",
+    "importance": null,
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1968_maze_theology_notes",
+    "summary": "PKD drafts the Maze/Tench theology notes that develop the colony plot, Delmak setting, divine plurality, the Manufacturer, decay, and the form-destroying principle later associated with A Maze of Death.",
+    "date_start": "1968",
+    "date_end": "1968",
+    "date_display": "1968",
+    "date_confidence": "inferred",
+    "event_type": "gnostic_experience",
+    "source_name": "The Maze of Death Theology (Maze notes PDF)",
+    "source_type": "curated",
+    "location": "California",
+    "importance": "5",
+    "notes": "Entered as an early Exegesis-adjacent primary document. The Sarill/multiple-universes/Wheeler lead remains a source-confirmation task.",
+    "entities": [
+      "A Maze of Death",
+      "The Maze of Death Theology",
+      "William Sarill"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
     "_type": "biography_event",
     "bio_id": "pkd_bio_1968_androids",
     "summary": "Publishes Do Androids Dream of Electric Sheep through Doubleday",
@@ -12,32 +64,10 @@
     "source_type": "curated",
     "location": "San Rafael, California",
     "importance": "5",
-    "notes": null,
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Do Androids Dream of Electric Sheep?",
       "Doubleday"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1968_maze_theology_notes",
-    "summary": "PKD drafts the Maze/Tench theology notes that develop the colony plot, Delmak setting, divine plurality, the Manufacturer, decay, and the form-destroying principle later associated with A Maze of Death.",
-    "date_start": "1968",
-    "date_end": "1968",
-    "date_display": "1968",
-    "date_confidence": "inferred",
-    "event_type": "religious_thought",
-    "source_name": "The Maze of Death Theology (Maze notes PDF)",
-    "source_type": "curated",
-    "location": "California",
-    "importance": "5",
-    "notes": "Entered as an early Exegesis-adjacent primary document. The Sarill/multiple-universes/Wheeler lead remains a source-confirmation task.",
-    "entities": [
-      "A Maze of Death",
-      "The Maze of Death Theology",
-      "William Sarill"
     ],
     "theophany_id": null,
     "theophany_slug": null
@@ -60,22 +90,6 @@
       "William Sarill",
       "A Maze of Death"
     ],
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": 109,
-    "summary": "Hearing \"And she shall see the sea\" (c. 1968/9).",
-    "date_start": "1968",
-    "date_end": "1968",
-    "date_display": "1968",
-    "date_confidence": "approximate",
-    "event_type": "other",
-    "source_name": "auto-extracted",
-    "source_type": "exegesis",
-    "location": "San Rafael, California",
-    "importance": null,
     "theophany_id": null,
     "theophany_slug": null
   },
@@ -113,7 +127,7 @@
     "source_type": "curated",
     "location": "San Rafael, California",
     "importance": "3",
-    "notes": null,
+    "notes": "Generated curation note: a range reading entry retained from Arnold. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Bhagavad Gita"
     ],

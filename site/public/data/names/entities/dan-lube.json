@@ -13,7 +13,7 @@
   "wordplay_note": "Keeping things running smoothly after the apocalypse",
   "symbolic_note": null,
   "card_description": "Dan Lube (meaning \"Lube = lubrication\") is a character in Philip K. Dick's *Dr. Bloodmoney*. Survivor in post-nuclear-war California. Name note: Keeping things running smoothly after the apocalypse. Persistence and adaptation after catastrophe. First appears in *Dr. Bloodmoney*.",
-  "full_description": null,
+  "full_description": "Dan Lube (meaning \"Lube = lubrication\") is a character in Philip K. Dick's *Dr. Bloodmoney*. Survivor in post-nuclear-war California. Name note: Keeping things running smoothly after the apocalypse. Persistence and adaptation after catastrophe. First appears in *Dr. Bloodmoney*.",
   "mention_count": 0,
   "first_work": "Dr. Bloodmoney",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Dan Lube",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Dan Lube",
+      "slug": "dan-lube",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Dan Lube",
     "domain": "literary",

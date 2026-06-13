@@ -10,15 +10,11 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 ### Now Wait for Last Year
 
-The novel entangles war, drugs, and temporal instability, using a future-present conflict to make chronology itself feel weaponized. In a novel like [Now Wait for Last Year](/works/now-wait-for-last-year), that premise becomes a thematic pressure point rather than a background idea. Chemical distortion works as both subject matter and narrative method, blurring perception and destabilizing the scene. The result is a plot that keeps turning the same question over from different angles, so the theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Now Wait for Last Year is the canonical works record for PKD's novel. In a novel like [Now Wait for Last Year](/works/now-wait-for-last-year), that premise becomes a thematic pressure point instead of background decoration. Chemical distortion works as both subject matter and narrative method, blurring perception and destabilizing the scene. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Voices from the Street
 
-The novel treats domestic life and ambition as unstable coordinates, with urban tension and psychic pressure breaking up the social surface. In a novel like [Voices from the Street](/works/voices-from-the-street), that premise becomes a thematic pressure point rather than a background idea. Chemical distortion works as both subject matter and narrative method, blurring perception and destabilizing the scene. The result is a plot that keeps turning the same question over from different angles, so the theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
-
-### Five Great Novels
-
-Five Great Novels is a collected omnibus edition of major Philip K. In a novel like [Five Great Novels](/works/five-great-novels), that premise becomes a thematic pressure point rather than a background idea. Chemical distortion works as both subject matter and narrative method, blurring perception and destabilizing the scene. The result is a plot that keeps turning the same question over from different angles, so the theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Voices from the Street is the canonical works record for PKD's novel. In a novel like [Voices from the Street](/works/voices-from-the-street), that premise becomes a thematic pressure point instead of background decoration. Chemical distortion works as both subject matter and narrative method, blurring perception and destabilizing the scene. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 

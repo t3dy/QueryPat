@@ -1,5 +1,19 @@
 [
   {
+    "_type": "publication",
+    "work_id": "WORK_philip-k-dick-on-blade-runner",
+    "canonical_title": "Philip K. Dick on Blade Runner",
+    "slug": "philip-k-dick-on-blade-runner",
+    "work_type": "newspaper",
+    "category": "newspaper",
+    "date_start": "1982",
+    "date_display": "1982",
+    "summary": "Canonical record for Philip K. Dick on Blade Runner, PKD's newspaper. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "Philip K. Dick on Blade Runner is the canonical works-table record for PKD's newspaper corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is Philip K. Dick on Blade Runner (Starlog Magazine) (1982).\n\nThe source record itself summarizes the work as follows: This Starlog magazine feature presents an exclusive interview with Philip K. Dick about the making of Blade Runner, the film adaptation of his novel Do Androids Dream of Electric Sheep?. The article, written by James Van Hise, captures Dick speaking with characteristic candor about the tortuous development of the screenplay.\n\nDick recounts the false starts, dead ends, and multiple rewrites that marked the Blade Runner screenplay's development, speaking with what the article describes as unflinching honesty. He describes his shock upon reading the original screenplay, comparing the experience to having died and been condemned to eternal torture. The article captures the uneasy alliance between Dick's literary vision and the Hollywood production machine.\n\nThe feature also references other Dick adaptations in development at the time: his 1966 short story \"We Can Remember It for You Wholesale\" was being produced at Walt Disney Studios from a Dan O'Bannon screenplay under the title Total Recall, and his 1953 story \"Second Variety\" had been adapted by O'Bannon for Virginia Palance and Capital Pictures. This interview is one of the last major interviews Dick gave before his death in March 1982, just months before Blade Runner's theatrical release, and is a key primary document for understanding Dick's relationship with Hollywood.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 5
+  },
+  {
     "_type": "biography_event",
     "bio_id": "pkd_bio_1982_stroke",
     "summary": "Suffers a major stroke at home leading to hospitalization in Santa Ana",
@@ -12,7 +26,7 @@
     "source_type": "curated",
     "location": "Santa Ana, California",
     "importance": "5",
-    "notes": null,
+    "notes": "Generated curation note: a month health entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "St. Joseph Hospital"
     ],
@@ -32,7 +46,7 @@
     "source_type": "curated",
     "location": "Santa Ana, California",
     "importance": "5",
-    "notes": null,
+    "notes": "Generated curation note: a day death entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "St. Joseph Hospital"
     ],

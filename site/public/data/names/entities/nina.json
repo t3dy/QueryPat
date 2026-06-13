@@ -13,7 +13,7 @@
   "wordplay_note": "Simple name suggesting simplicity",
   "symbolic_note": null,
   "card_description": "Nina is a character in Philip K. Dick's *The World Jones Made*. Floyd Jones's lover. Name note: Simple name suggesting simplicity. The woman caught in the precognitive's orbit. First appears in *The World Jones Made*.",
-  "full_description": null,
+  "full_description": "Nina is a character in Philip K. Dick's *The World Jones Made*. Floyd Jones's lover. Name note: Simple name suggesting simplicity. The woman caught in the precognitive's orbit. First appears in *The World Jones Made*.",
   "mention_count": 0,
   "first_work": "The World Jones Made",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Nina",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Nina",
+      "slug": "nina",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Nina",
     "domain": "literary",

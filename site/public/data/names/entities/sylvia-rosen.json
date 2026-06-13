@@ -13,7 +13,7 @@
   "wordplay_note": "A name suggesting forest and nature",
   "symbolic_note": null,
   "card_description": "Sylvia (Rosen) is a character in Philip K. Dick's *Do Androids Dream of Electric Sheep?*. Minor character — part of the Rosen Association. Name note: A name suggesting forest and nature. The corporate family behind android manufacture. First appears in *Do Androids Dream of Electric Sheep?*.",
-  "full_description": null,
+  "full_description": "Sylvia (Rosen) is a character in Philip K. Dick's *Do Androids Dream of Electric Sheep?*. Minor character — part of the Rosen Association. Name note: A name suggesting forest and nature. The corporate family behind android manufacture. First appears in *Do Androids Dream of Electric Sheep?*.",
   "mention_count": 0,
   "first_work": "Do Androids Dream of Electric Sheep?",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Sylvia (Rosen)",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Sylvia (Rosen)",
+      "slug": "sylvia-rosen",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Sylvia (Rosen)",
     "domain": "literary",

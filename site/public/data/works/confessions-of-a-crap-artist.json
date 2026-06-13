@@ -7,8 +7,8 @@
   "category": "novels",
   "date_display": "1975",
   "date_start": "1975",
-  "card_summary": "Canonical record for Confessions of a Crap Artist, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
-  "page_summary": "Confessions of a Crap Artist is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is Confessions of a Crap Artist (1975).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+  "card_summary": "Canonical record for Confessions of a Crap Artist, PKD's novel, preserving a single archive manifestation.",
+  "page_summary": "Confessions of a Crap Artist is the canonical works record for PKD's novel. It preserves a single archive manifestation and gives the work a stable bibliographic home. The preserved item here is Confessions of a Crap Artist (1975).\n\nResearchers can use this entry to trace publication context, later commentary, and relationships to other works.",
   "page_count": 0,
   "source_count": 1,
   "related_docs": [
@@ -25,6 +25,48 @@
     "slug": "dick-philip-k-confessions-of-a-crap-artist-1975-ace-books-libgen-li",
     "title": "Confessions of a Crap Artist"
   },
+  "biography_events": [
+    {
+      "bio_id": 655,
+      "date": "1975-01-27",
+      "category": "publication",
+      "event": "PKD sends Paul Williams chapter one of CONFESSIONS OF A CRAP ARTIST for inclusion in a forthcoming printing.",
+      "source": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
+      "source_type": "letter"
+    },
+    {
+      "bio_id": 701,
+      "date": "1981",
+      "category": "correspondence",
+      "event": "In 1981, PKD wrote 33 letters to Russell Galen, turning the correspondence into a sustained discussion of the science-fiction community, religion and theology, and publishing and career pressures.",
+      "source": "Selected Letters correspondence trend",
+      "source_type": "letter"
+    },
+    {
+      "bio_id": 14,
+      "date": "March 2, 1975",
+      "category": "residence",
+      "event": "Living in Fullerton, CA (\"north of Disneyland\").",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    },
+    {
+      "bio_id": 15,
+      "date": "March 2, 1975",
+      "category": "relationship",
+      "event": "Son Christopher is 1.5 years old.",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    },
+    {
+      "bio_id": 16,
+      "date": "March 2, 1975",
+      "category": "employment",
+      "event": "Written while under work pressure (started at 7:30 AM).",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    }
+  ],
   "themes": [
     "betrayal",
     "suburbia-domesticity",

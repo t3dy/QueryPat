@@ -13,7 +13,7 @@
   "wordplay_note": "A name suggesting divine order in a disordered world",
   "symbolic_note": null,
   "card_description": "Mary Anne Dominic (meaning \"Dominic = of the Lord\") is a character in Philip K. Dick's *Flow My Tears the Policeman Said*. Ceramics student and lover of Taverner who tries to help him. Name note: A name suggesting divine order in a disordered world. Her ordinary decency contrasts with the regime's institutional cruelty. First appears in *Flow My Tears the Policeman Said*.",
-  "full_description": null,
+  "full_description": "Mary Anne Dominic (meaning \"Dominic = of the Lord\") is a character in Philip K. Dick's *Flow My Tears the Policeman Said*. Ceramics student and lover of Taverner who tries to help him. Name note: A name suggesting divine order in a disordered world. Her ordinary decency contrasts with the regime's institutional cruelty. First appears in *Flow My Tears the Policeman Said*.",
   "mention_count": 0,
   "first_work": "Flow My Tears the Policeman Said",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Mary Anne Dominic",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Mary Anne Dominic",
+      "slug": "mary-anne-dominic",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Mary Anne Dominic",
     "domain": "literary",

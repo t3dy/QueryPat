@@ -13,7 +13,7 @@
   "wordplay_note": "A limbless man who hops — literal and darkly comic",
   "symbolic_note": null,
   "card_description": "Hoppy Harrington (meaning \"Hoppy = hopping (he has no limbs and moves by hopping)\") is a character in Philip K. Dick's *Dr. Bloodmoney*. Phocomelus (born without limbs) who develops telekinetic powers after nuclear war. Name note: A limbless man who hops — literal and darkly comic. Disability transformed into superhuman power — the outcast as secret tyrant. First appears in *Dr. Bloodmoney*.",
-  "full_description": null,
+  "full_description": "Hoppy Harrington (meaning \"Hoppy = hopping (he has no limbs and moves by hopping)\") is a character in Philip K. Dick's *Dr. Bloodmoney*. Phocomelus (born without limbs) who develops telekinetic powers after nuclear war. Name note: A limbless man who hops — literal and darkly comic. Disability transformed into superhuman power — the outcast as secret tyrant. First appears in *Dr. Bloodmoney*.",
   "mention_count": 0,
   "first_work": "Dr. Bloodmoney",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Hoppy Harrington",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Hoppy Harrington",
+      "slug": "hoppy-harrington",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Hoppy Harrington",
     "domain": "literary",

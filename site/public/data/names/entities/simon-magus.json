@@ -15,7 +15,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "Simon Magus (Hebrew (Shimon): \"Hearing/hearkening\") is a historical figure appearing in Philip K. Dick's Exegesis. In the biblical tradition, Simon Magus is samaritan magician in acts; proto-gnostic figure. Key Gnostic precursor figure discussed in PKD's theological investigations. Context: \"Conclusion of the letter to Henry Korman.\"",
-  "full_description": null,
+  "full_description": "Simon Magus (Hebrew (Shimon): \"Hearing/hearkening\") is a historical figure appearing in Philip K. Dick's Exegesis. In the biblical tradition, Simon Magus is samaritan magician in acts; proto-gnostic figure. Key Gnostic precursor figure discussed in PKD's theological investigations. Context: \"Conclusion of the letter to Henry Korman.\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Conclusion of the letter to Henry Korman. Dick discusses the alchemical transmutation as a spontaneous, irreversible psychic process and links his \"teletype\" communication with Erasmus to the AI syste",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -37,7 +37,14 @@
       "title": "U_Henry_02.txt"
     }
   ],
-  "related_terms": [],
+  "related_terms": [
+    {
+      "name": "Simon Magus",
+      "slug": "simon-magus",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Simon Magus",
     "domain": "biblical",

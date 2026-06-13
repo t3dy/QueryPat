@@ -13,7 +13,7 @@
   "wordplay_note": "Everyman name — a common man in an uncommon world",
   "symbolic_note": null,
   "card_description": "Al Miller is a character in Philip K. Dick's *The Simulacra*. Citizen who seeks passage to Mars to escape the Simulacra regime. Name note: Everyman name — a common man in an uncommon world. The common man trying to flee the political machine. First appears in *The Simulacra*.",
-  "full_description": null,
+  "full_description": "Al Miller is a character in Philip K. Dick's *The Simulacra*. Citizen who seeks passage to Mars to escape the Simulacra regime. Name note: Everyman name — a common man in an uncommon world. The common man trying to flee the political machine. First appears in *The Simulacra*.",
   "mention_count": 0,
   "first_work": "The Simulacra",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Al Miller",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Al Miller",
+      "slug": "al-miller",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Al Miller",
     "domain": "literary",

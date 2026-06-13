@@ -13,7 +13,7 @@
   "wordplay_note": "A vigorous man whose vigor fails him",
   "symbolic_note": null,
   "card_description": "Jim Fergesson (meaning \"Fergesson = son of Fergus (man of vigor)\") is a character in Philip K. Dick's *In Milton Lumky Territory*. Small-town businessman whose marriage and enterprise slowly collapse. Name note: A vigorous man whose vigor fails him. The small businessman — PKD's recurring tragic hero of American commerce. First appears in *In Milton Lumky Territory*.",
-  "full_description": null,
+  "full_description": "Jim Fergesson (meaning \"Fergesson = son of Fergus (man of vigor)\") is a character in Philip K. Dick's *In Milton Lumky Territory*. Small-town businessman whose marriage and enterprise slowly collapse. Name note: A vigorous man whose vigor fails him. The small businessman — PKD's recurring tragic hero of American commerce. First appears in *In Milton Lumky Territory*.",
   "mention_count": 0,
   "first_work": "In Milton Lumky Territory",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Jim Fergesson",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Jim Fergesson",
+      "slug": "jim-fergesson",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Jim Fergesson",
     "domain": "literary",

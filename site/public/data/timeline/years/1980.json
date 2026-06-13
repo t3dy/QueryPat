@@ -16,6 +16,43 @@
   },
   {
     "_type": "biography_event",
+    "bio_id": "pkd_bio_1980_simulation_theory",
+    "summary": "Deepens Exegesis reflection on simulation theory, the prison-like structure of reality, and the coaxial world behind appearances.",
+    "date_start": "1980",
+    "date_end": "1980",
+    "date_display": "1980",
+    "date_confidence": "year",
+    "event_type": "gnostic_experience",
+    "source_name": "Arnold",
+    "source_type": "curated",
+    "location": "Fullerton, California",
+    "importance": "3",
+    "notes": "Recast from generic vision to gnostic experience because the event is about hidden structure, imprisonment, and epistemic breakthrough.",
+    "entities": [
+      "Plato",
+      "Simulation Theory"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": 744,
+    "summary": "In 1980, PKD wrote 3 letters to Russell Galen, turning the correspondence into a sustained discussion of the science-fiction community, money and royalty problems, and religion and theology.",
+    "date_start": "1980",
+    "date_end": "1980",
+    "date_display": "1980",
+    "date_confidence": "approximate",
+    "event_type": "correspondence",
+    "source_name": "Selected Letters correspondence trend",
+    "source_type": "letter",
+    "location": null,
+    "importance": null,
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
     "bio_id": "pkd_bio_1980_hollywood_attention",
     "summary": "Receives increased attention from Hollywood studios for film adaptations of novels",
     "date_start": "1980",
@@ -27,31 +64,10 @@
     "source_type": "curated",
     "location": "Fullerton, California",
     "importance": "3",
-    "notes": null,
+    "notes": "Generated curation note: a year film adaptation entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Hampton Fancher",
       "Blade Runner"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1980_simulation_theory",
-    "summary": "Deepens Exegesis reflection on simulation theory and the nature of reality",
-    "date_start": "1980",
-    "date_end": "1980",
-    "date_display": "1980",
-    "date_confidence": "year",
-    "event_type": "religious_thought",
-    "source_name": "Arnold",
-    "source_type": "curated",
-    "location": "Fullerton, California",
-    "importance": "3",
-    "notes": null,
-    "entities": [
-      "Plato",
-      "Simulation Theory"
     ],
     "theophany_id": null,
     "theophany_slug": null

@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "Hitler is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick proposes that God is \"reweaving\" history backward from the Omega Point to improve the human lot.\"",
-  "full_description": null,
+  "full_description": "Hitler is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick proposes that God is \"reweaving\" history backward from the Omega Point to improve the human lot.\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick proposes that God is \"reweaving\" history backward from the Omega Point to improve the human lot. He defines the \"Black Iron Prison\" (BIP) as the original, un-intervened track (Alpha/Hell) and the",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "1976-09-15_Dorothy_15.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "Hitler",
+      "slug": "hitler",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

@@ -1,5 +1,33 @@
 [
   {
+    "_type": "publication",
+    "work_id": "WORK_the-preserving-machine-and-other-stories",
+    "canonical_title": "The Preserving Machine and Other Stories",
+    "slug": "the-preserving-machine-and-other-stories",
+    "work_type": "short_stories",
+    "category": "short_stories",
+    "date_start": "1969",
+    "date_display": "1969",
+    "summary": "Canonical record for The Preserving Machine and Other Stories, PKD's short-story collection. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "The Preserving Machine and Other Stories is the canonical works-table record for PKD's short-story collection corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is The Preserving Machine and Other Stories (1969).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 0
+  },
+  {
+    "_type": "publication",
+    "work_id": "WORK_ubik",
+    "canonical_title": "Ubik",
+    "slug": "ubik",
+    "work_type": "novel",
+    "category": "novels",
+    "date_start": "1969",
+    "date_display": "1969",
+    "summary": "Canonical record for Ubik, PKD's novel. This entry consolidates 2 linked archive manifestations and summarizes the best surviving record for editorial and research use.",
+    "page_summary": "Ubik is the canonical works-table record for PKD's novel corpus item. The entry consolidates 2 linked archive manifestations and keeps them under one bibliographic heading so readers can follow edition history, duplication, adaptation, or later republication as a single work record. \n\nThe linked documents span 2 novel. The most visible archive manifestations include Ubik (1969), Ubik (1969). \n\nThe richest source summary notes: This is an e-text (version 1.1) of Philip K. Dick's novel Ubik, one of the most celebrated works in the science fiction canon. The novel opens on the night of June 5, 1992, when the top telepath in the Sol System disappears from the offices of Runciter Associates in New York City, triggering a crisis for Glen Runciter's organization of \"inertials\" who counteract the powers of telepaths and precogs.\n\nEach chapter is prefaced by an advertising slogan for the mysterious product \"Ubik,\" the nature of which shifts throughout the novel from a mundane consumer product to something of cosmic significance. The opening chapter introduces the central corporate espionage conflict between Runciter Associates and the Hollis organization, establishing a near-future world where psychic abilities are commercialized and corporate entities employ telepaths and their countermeasures as competitive weapons.\n\nUbik is widely regarded as one of Dick's finest achievements, exploring themes of entropy, the degradation of reality, half-life states of consciousness, and the nature of time itself. The novel's exploration of a world that progressively regresses to earlier historical periods while its characters struggle to determine what is real has made it a touchstone for discussions of simulation, virtual reality, and the constructed nature of experience. It was included in Time magazine's list of the 100 greatest English-language novels published since 1923.\n\nResearchers use this entry to move between the canonical work, the archive documents that preserve it, and any later commentary or editorial framing attached to those manifestations.",
+    "source_count": 2,
+    "page_count": 212
+  },
+  {
     "_type": "biography_event",
     "bio_id": "pkd_bio_1969_ubik",
     "summary": "Publishes the novel Ubik exploring themes of entropy and false realities",
@@ -12,7 +40,7 @@
     "source_type": "curated",
     "location": "San Rafael, California",
     "importance": "4",
-    "notes": null,
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Ubik",
       "Doubleday"
@@ -60,12 +88,12 @@
     "date_end": "1969-1971",
     "date_display": "1969-1971",
     "date_confidence": "range",
-    "event_type": "friendship",
+    "event_type": "mystical_experience",
     "source_name": "Sutin",
     "source_type": "curated",
     "location": "Bay Area, California",
     "importance": "2",
-    "notes": null,
+    "notes": "Generated curation note: a range mystical experience entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Tim Powers"
     ],

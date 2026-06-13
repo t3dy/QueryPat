@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "The Human Embryo is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick posits that humans are currently in a \"half-alive\" or \"half-born\" state, trapped in a \"prison\" of the material artifact.\"",
-  "full_description": null,
+  "full_description": "The Human Embryo is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick posits that humans are currently in a \"half-alive\" or \"half-born\" state, trapped in a \"prison\" of the material artifact.\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick posits that humans are currently in a \"half-alive\" or \"half-born\" state, trapped in a \"prison\" of the material artifact. The process of salvation is a literal metamorphosis into a higher state of",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "1976-09-15_Dorothy_109.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "The Human Embryo",
+      "slug": "the-human-embryo",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

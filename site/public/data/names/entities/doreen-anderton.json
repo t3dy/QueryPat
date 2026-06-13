@@ -13,7 +13,7 @@
   "wordplay_note": "Arnie Kott's mistress who becomes involved with Jack Bohlen",
   "symbolic_note": null,
   "card_description": "Doreen Anderton is a character in Philip K. Dick's *Martian Time-Slip*. Woman caught between the corrupt boss and the decent repairman. Name note: Arnie Kott's mistress who becomes involved with Jack Bohlen. The woman as contested territory between male power structures. First appears in *Martian Time-Slip*.",
-  "full_description": null,
+  "full_description": "Doreen Anderton is a character in Philip K. Dick's *Martian Time-Slip*. Woman caught between the corrupt boss and the decent repairman. Name note: Arnie Kott's mistress who becomes involved with Jack Bohlen. The woman as contested territory between male power structures. First appears in *Martian Time-Slip*.",
   "mention_count": 0,
   "first_work": "Martian Time-Slip",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Doreen Anderton",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Doreen Anderton",
+      "slug": "doreen-anderton",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Doreen Anderton",
     "domain": "literary",

@@ -7,8 +7,8 @@
   "category": "novels",
   "date_display": "1957",
   "date_start": "1957",
-  "card_summary": "Canonical record for Eye in the Sky, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
-  "page_summary": "Eye in the Sky is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is Eye in the Sky (1957).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+  "card_summary": "Canonical record for Eye in the Sky, PKD's novel, preserving a single archive manifestation.",
+  "page_summary": "Eye in the Sky is the canonical works record for PKD's novel. It preserves a single archive manifestation and gives the work a stable bibliographic home. The preserved item here is Eye in the Sky (1957).\n\nResearchers can use this entry to trace publication context, later commentary, and relationships to other works.",
   "page_count": 0,
   "source_count": 1,
   "related_docs": [
@@ -25,6 +25,24 @@
     "slug": "eye-in-the-sky-philip-k-dick-houghton-mifflin-harcourt-114629893-libgen-li",
     "title": "Eye in the Sky"
   },
+  "biography_events": [
+    {
+      "bio_id": "pkd_bio_1957_eye_in_the_sky",
+      "date": "1957",
+      "category": "publication",
+      "event": "Publishes Eye in the Sky, one of the early SF novels he later grouped among his strongest pre-1962 books; the novel's sky imagery anticipates his later third-eye and sun-of-righteousness language.",
+      "source": "Sutin; Selected Letters",
+      "source_type": "curated"
+    },
+    {
+      "bio_id": 743,
+      "date": "1979",
+      "category": "correspondence",
+      "event": "In 1979, PKD wrote 4 letters to Sherie Rush, turning the correspondence into a sustained discussion of the science-fiction community and religion and theology.",
+      "source": "Selected Letters correspondence trend",
+      "source_type": "letter"
+    }
+  ],
   "themes": [
     "reality-breakdown",
     "illusionary-realities",

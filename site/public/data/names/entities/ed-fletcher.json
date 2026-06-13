@@ -13,7 +13,7 @@
   "wordplay_note": "A maker of arrows who is himself redirected by cosmic forces",
   "symbolic_note": null,
   "card_description": "Ed Fletcher (meaning \"Fletcher = arrow-maker\") is a character in Philip K. Dick's *Adjustment Team*. Insurance salesman who accidentally sees the Adjustment Team restructuring reality. Name note: A maker of arrows who is himself redirected by cosmic forces. The ordinary man who glimpses the machinery behind consensus reality. First appears in *Adjustment Team*.",
-  "full_description": null,
+  "full_description": "Ed Fletcher (meaning \"Fletcher = arrow-maker\") is a character in Philip K. Dick's *Adjustment Team*. Insurance salesman who accidentally sees the Adjustment Team restructuring reality. Name note: A maker of arrows who is himself redirected by cosmic forces. The ordinary man who glimpses the machinery behind consensus reality. First appears in *Adjustment Team*.",
   "mention_count": 0,
   "first_work": "Adjustment Team",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Ed Fletcher",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Ed Fletcher",
+      "slug": "ed-fletcher",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Ed Fletcher",
     "domain": "literary",

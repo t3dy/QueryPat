@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "John Allegro is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick refines his view of theolepsy as an \"Internal Theophany\" where the immanent God in the \"Atman\" is proved identical to the Brahman without.\"",
-  "full_description": null,
+  "full_description": "John Allegro is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick refines his view of theolepsy as an \"Internal Theophany\" where the immanent God in the \"Atman\" is proved identical to the Brahman without.\"\n\nThe entry currently has 2 indexed mentions, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick refines his view of theolepsy as an \"Internal Theophany\" where the immanent God in the \"Atman\" is proved identical to the Brahman without. He defines the Kingdom of God as our ancestral \"Garden\"  Dick interprets the Eucharist as an authentic transportation to an \"orthogonal universe\" where Christ still lives. He links his experience to the \"Feast of Agape\" and the legalistic/Roman suppression",
   "mention_count": 2,
   "first_work": null,
   "work_list": null,
@@ -44,5 +44,12 @@
       "title": "1976-09-15_Dorothy_05.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "John Allegro",
+      "slug": "john-allegro",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

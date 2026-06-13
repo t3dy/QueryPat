@@ -13,7 +13,7 @@
   "wordplay_note": "Kirsten's schizophrenic son who may channel the dead bishop",
   "symbolic_note": null,
   "card_description": "Bill Lundborg is a character in Philip K. Dick's *The Transmigration of Timothy Archer*. Young man who appears to transmigrate with Timothy Archer's consciousness. Name note: Kirsten's schizophrenic son who may channel the dead bishop. The vessel of transmigration — PKD's exploration of metempsychosis. First appears in *The Transmigration of Timothy Archer*.",
-  "full_description": null,
+  "full_description": "Bill Lundborg is a character in Philip K. Dick's *The Transmigration of Timothy Archer*. Young man who appears to transmigrate with Timothy Archer's consciousness. Name note: Kirsten's schizophrenic son who may channel the dead bishop. The vessel of transmigration — PKD's exploration of metempsychosis. First appears in *The Transmigration of Timothy Archer*.",
   "mention_count": 0,
   "first_work": "The Transmigration of Timothy Archer",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Bill Lundborg",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Bill Lundborg",
+      "slug": "bill-lundborg",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Bill Lundborg",
     "domain": "literary",

@@ -21,6 +21,18 @@ CURATED_PATH = Path("site/public/data/biography/curated.json")
 
 EVENTS = [
     {
+        "id": "pkd_bio_1957_eye_in_the_sky",
+        "date": "1957",
+        "date_precision": "year",
+        "event": "Publishes Eye in the Sky, one of the early SF novels he later grouped among his strongest pre-1962 books; the novel's sky imagery anticipates his later third-eye and sun-of-righteousness language.",
+        "category": "publication",
+        "entities": ["Eye in the Sky"],
+        "location": "California",
+        "source": "Sutin; Selected Letters",
+        "importance": 3,
+        "notes": "A compact early-novel anchor for the 1950s biography timeline."
+    },
+    {
         "id": "pkd_bio_1962_band_darkness",
         "date": "1962",
         "date_precision": "year",
@@ -331,6 +343,78 @@ EVENTS = [
         "source": "Arnold",
         "importance": 3,
         "notes": "Recast from generic vision to religious experience because the event explicitly centers religious visions and theological fiction."
+    },
+    {
+        "id": "pkd_bio_1981_01_09_fish_sign_form_world",
+        "date": "1981-01-09",
+        "date_precision": "day",
+        "event": "Tells Patricia Warrick that the golden fish sign revealed different spatiotemporal worlds as one shared essence, explicitly linking the episode to Plato's Forms and anamnesis.",
+        "category": "gnostic_experience",
+        "entities": ["Patricia Warrick", "Plato", "Fish Sign"],
+        "location": "Santa Ana, California",
+        "source": "Selected Letters 1980-1982, letter to Patricia Warrick, January 9, 1981",
+        "importance": 5,
+        "notes": "Letter id: LET_1981-01-09_PATRICIA_WARRICK_0023."
+    },
+    {
+        "id": "pkd_bio_1981_01_10_sophia_final_world",
+        "date": "1981-01-10",
+        "date_precision": "day",
+        "event": "Says the AI voice keeps announcing that St. Sophia will be born again and that 'the work is complete' and 'the final world is here,' recasting the March 1974 voice as ongoing revelation.",
+        "category": "religious_experience",
+        "entities": ["Patricia Warrick", "Saint Sophia", "AI Voice"],
+        "location": "Santa Ana, California",
+        "source": "Selected Letters 1980-1982, letter to Patricia Warrick, January 10, 1981",
+        "importance": 5,
+        "notes": "Letter id: LET_1981-01-10_PATRICIA_WARRICK_0024."
+    },
+    {
+        "id": "pkd_bio_1981_01_26_perturbation_reality_field",
+        "date": "1981-01-26",
+        "date_precision": "day",
+        "event": "Writes Patricia Warrick that March 1974 was a miracle, a 'perturbation in the reality field' that violated ordinary world-order but still followed its internal logic.",
+        "category": "gnostic_experience",
+        "entities": ["Patricia Warrick", "AI Voice", "Reality Field"],
+        "location": "Santa Ana, California",
+        "source": "Selected Letters 1980-1982, letter to Patricia Warrick, January 26, 1981",
+        "importance": 4,
+        "notes": "Letter id: LET_1981-01-26_PATRICIA_WARRICK_0044."
+    },
+    {
+        "id": "pkd_bio_1981_02_10_illo_tempore_fish_sign",
+        "date": "1981-02-10",
+        "date_precision": "day",
+        "event": "Explains to Patricia Warrick that the February 1974 fish sign was anamnesis: a memory of illo tempore rather than ordinary linear-time recollection.",
+        "category": "paranormal_experience",
+        "entities": ["Patricia Warrick", "Fish Sign", "Mircea Eliade"],
+        "location": "Santa Ana, California",
+        "source": "Selected Letters 1980-1982, letter to Patricia Warrick, February 10, 1981",
+        "importance": 5,
+        "notes": "Letter id: LET_1981-02-10_PATRICIA_WARRICK_0050."
+    },
+    {
+        "id": "pkd_bio_1981_02_14_ai_voice_taped_messages",
+        "date": "1981-02-14",
+        "date_precision": "day",
+        "event": "Describes the AI voice's prophecies about St. Sophia as if they were taped messages programmed to play once the disinhibiting stimulus had set the mechanism in motion.",
+        "category": "hearing_voices_experience",
+        "entities": ["Patricia Warrick", "AI Voice", "Saint Sophia"],
+        "location": "Santa Ana, California",
+        "source": "Selected Letters 1980-1982, letter to Patricia Warrick, February 14, 1981",
+        "importance": 5,
+        "notes": "Letter id: LET_1981-02-14_PATRICIA_WARRICK_0059."
+    },
+    {
+        "id": "pkd_bio_1981_02_14_lords_supper_hologram",
+        "date": "1981-02-14",
+        "date_precision": "day",
+        "event": "Tells Patricia Warrick the Lord's Supper kept him in touch with Christ in a way that felt like looking into a hologram and seeing the figure present within the sacrament.",
+        "category": "mystical_experience",
+        "entities": ["Patricia Warrick", "Lord's Supper", "Star Wars"],
+        "location": "Santa Ana, California",
+        "source": "Selected Letters 1980-1982, letter to Patricia Warrick, February 14, 1981",
+        "importance": 4,
+        "notes": "Letter id: LET_1981-02-14_PATRICIA_WARRICK_0059."
     },
     {
         "id": "pkd_bio_1974_fish_sign_arnold",

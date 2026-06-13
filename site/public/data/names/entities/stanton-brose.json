@@ -13,7 +13,7 @@
   "wordplay_note": "He feeds the masses thin broth — lies instead of substance",
   "symbolic_note": null,
   "card_description": "Stanton Brose (meaning \"Brose = broth/pottage\") is a character in Philip K. Dick's *The Penultimate Truth*. Grotesque and ancient leader of the Yance-men who maintain the war hoax. Name note: He feeds the masses thin broth — lies instead of substance. Power sustained through manufactured crisis — the eternal war president. First appears in *The Penultimate Truth*.",
-  "full_description": null,
+  "full_description": "Stanton Brose (meaning \"Brose = broth/pottage\") is a character in Philip K. Dick's *The Penultimate Truth*. Grotesque and ancient leader of the Yance-men who maintain the war hoax. Name note: He feeds the masses thin broth — lies instead of substance. Power sustained through manufactured crisis — the eternal war president. First appears in *The Penultimate Truth*.",
   "mention_count": 0,
   "first_work": "The Penultimate Truth",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Stanton Brose",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Stanton Brose",
+      "slug": "stanton-brose",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Stanton Brose",
     "domain": "literary",

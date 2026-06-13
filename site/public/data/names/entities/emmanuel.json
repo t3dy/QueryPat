@@ -13,7 +13,7 @@
   "wordplay_note": "The literal meaning is the literal plot — God incarnate as a child",
   "symbolic_note": null,
   "card_description": "Emmanuel (meaning \"Emmanuel = God is with us (Hebrew)\") is a character in Philip K. Dick's *The Divine Invasion*. Child who is the incarnation of Yah (God) smuggled to Earth past the demonic Belial. Name note: The literal meaning is the literal plot — God incarnate as a child. God returning to a world ruled by the demiurge — PKD's gnostic narrative made literal. First appears in *The Divine Invasion*.",
-  "full_description": null,
+  "full_description": "Emmanuel (meaning \"Emmanuel = God is with us (Hebrew)\") is a character in Philip K. Dick's *The Divine Invasion*. Child who is the incarnation of Yah (God) smuggled to Earth past the demonic Belial. Name note: The literal meaning is the literal plot — God incarnate as a child. God returning to a world ruled by the demiurge — PKD's gnostic narrative made literal. First appears in *The Divine Invasion*.",
   "mention_count": 0,
   "first_work": "The Divine Invasion",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Emmanuel",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Emmanuel",
+      "slug": "emmanuel",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Emmanuel",
     "domain": "literary",

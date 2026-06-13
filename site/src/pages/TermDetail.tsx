@@ -116,6 +116,7 @@ export default function TermDetail() {
     ...(term.primary_category ? [{ label: term.primary_category, to: `/tag/${encodeURIComponent(term.primary_category.toLowerCase())}` }] : []),
     ...(term.thematic_categories || []).map(c => ({ label: c, to: `/tag/${encodeURIComponent(c.toLowerCase())}` })),
   ]
+  const linkedSegments = term.linked_segments.filter(s => Boolean(s.seg_id))
 
   const exploreGroups = [
     {
@@ -131,18 +132,18 @@ export default function TermDetail() {
     },
     {
       section: 'In the Exegesis',
-      items: term.linked_segments.slice(0, 3).map(s => ({
+      items: linkedSegments.slice(0, 3).map(s => ({
         label: formatSegmentTitle(s.title, s.seg_id),
         to: `/segments/${s.seg_id}`,
       })),
-      totalCount: term.linked_segments.length,
+      totalCount: linkedSegments.length,
     },
   ]
 
   const backlinkGroups = [
     {
       type: 'Exegesis Summaries',
-      items: term.linked_segments.map(s => ({
+      items: linkedSegments.map(s => ({
         label: formatSegmentTitle(s.title, s.seg_id),
         to: `/segments/${s.seg_id}`,
         date: s.date_display,
@@ -234,10 +235,10 @@ export default function TermDetail() {
         </div>
       )}
 
-      {term.linked_segments.length > 0 && (
+      {linkedSegments.length > 0 && (
         <div className="detail-section">
-          <h2>Exegesis Summary Segments ({term.linked_segments.length})</h2>
-          {term.linked_segments.map((seg, i) => (
+          <h2>Exegesis Summary Segments ({linkedSegments.length})</h2>
+          {linkedSegments.map((seg, i) => (
             <div key={i} className={`confidence-${seg.confidence}`} style={{ marginBottom: '0.75rem' }}>
               <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'baseline', flexWrap: 'wrap' }}>
                 <HoverPreview to={`/segments/${seg.seg_id}`} style={{ fontWeight: 600 }}>

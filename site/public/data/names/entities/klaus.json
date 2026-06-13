@@ -13,7 +13,7 @@
   "wordplay_note": "One of the soldiers who may or may not be human",
   "symbolic_note": null,
   "card_description": "Klaus is a character in Philip K. Dick's *Second Variety*. Soldier whose humanity is uncertain among autonomous killing machines. Name note: One of the soldiers who may or may not be human. The impossibility of distinguishing human from machine in a war zone. First appears in *Second Variety*.",
-  "full_description": null,
+  "full_description": "Klaus is a character in Philip K. Dick's *Second Variety*. Soldier whose humanity is uncertain among autonomous killing machines. Name note: One of the soldiers who may or may not be human. The impossibility of distinguishing human from machine in a war zone. First appears in *Second Variety*.",
   "mention_count": 0,
   "first_work": "Second Variety",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Klaus",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Klaus",
+      "slug": "klaus",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Klaus",
     "domain": "literary",

@@ -13,7 +13,7 @@
   "wordplay_note": "A quail — timid and hunted, yet secretly extraordinary",
   "symbolic_note": null,
   "card_description": "Quail (Douglas) (meaning \"Quail = small timid bird\") is a character in Philip K. Dick's *We Can Remember It for You Wholesale*. Clerk who discovers his implanted memories of a Mars mission are real. Name note: A quail — timid and hunted, yet secretly extraordinary. False memory and true identity — the small man who is secretly the most important person alive. First appears in *We Can Remember It for You Wholesale*.",
-  "full_description": null,
+  "full_description": "Quail (Douglas) (meaning \"Quail = small timid bird\") is a character in Philip K. Dick's *We Can Remember It for You Wholesale*. Clerk who discovers his implanted memories of a Mars mission are real. Name note: A quail — timid and hunted, yet secretly extraordinary. False memory and true identity — the small man who is secretly the most important person alive. First appears in *We Can Remember It for You Wholesale*.",
   "mention_count": 0,
   "first_work": "We Can Remember It for You Wholesale",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Quail (Douglas)",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Quail (Douglas)",
+      "slug": "quail-douglas",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Quail (Douglas)",
     "domain": "literary",

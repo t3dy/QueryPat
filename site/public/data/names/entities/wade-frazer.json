@@ -13,7 +13,7 @@
   "wordplay_note": "A sweet name for a bitter character",
   "symbolic_note": null,
   "card_description": "Wade Frazer (meaning \"Frazer = strawberry / curly-haired\") is a character in Philip K. Dick's *A Maze of Death*. Colonist who descends into paranoia and violence. Name note: A sweet name for a bitter character. Paranoia as rational response to an irrational environment. First appears in *A Maze of Death*.",
-  "full_description": null,
+  "full_description": "Wade Frazer (meaning \"Frazer = strawberry / curly-haired\") is a character in Philip K. Dick's *A Maze of Death*. Colonist who descends into paranoia and violence. Name note: A sweet name for a bitter character. Paranoia as rational response to an irrational environment. First appears in *A Maze of Death*.",
   "mention_count": 0,
   "first_work": "A Maze of Death",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Wade Frazer",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Wade Frazer",
+      "slug": "wade-frazer",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Wade Frazer",
     "domain": "literary",

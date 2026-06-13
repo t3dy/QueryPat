@@ -1,5 +1,33 @@
 [
   {
+    "_type": "publication",
+    "work_id": "WORK_now-wait-for-last-year",
+    "canonical_title": "Now Wait for Last Year",
+    "slug": "now-wait-for-last-year",
+    "work_type": "novel",
+    "category": "novels",
+    "date_start": "1966",
+    "date_display": "1966",
+    "summary": "Canonical record for Now Wait for Last Year, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "Now Wait for Last Year is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is Now Wait for Last Year (1966).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 131
+  },
+  {
+    "_type": "publication",
+    "work_id": "WORK_the-crack-in-space",
+    "canonical_title": "The Crack in Space",
+    "slug": "the-crack-in-space",
+    "work_type": "novel",
+    "category": "novels",
+    "date_start": "1966",
+    "date_display": "1966",
+    "summary": "Canonical record for The Crack in Space, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "The Crack in Space is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is The Crack in Space (Knopf Doubleday Edition) (1966).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 0
+  },
+  {
     "_type": "biography_event",
     "bio_id": "pkd_bio_1966_hackett_remarriage",
     "summary": "Briefly remarries Nancy Hackett before a second and final separation",
@@ -12,27 +40,7 @@
     "source_type": "curated",
     "location": "San Rafael, California",
     "importance": "3",
-    "notes": null,
-    "entities": [
-      "Nancy Hackett"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1966_san_rafael",
-    "summary": "Moves to the San Rafael area in Marin County north of San Francisco",
-    "date_start": "1966",
-    "date_end": "1966",
-    "date_display": "1966",
-    "date_confidence": "year",
-    "event_type": "residence",
-    "source_name": "Sutin",
-    "source_type": "curated",
-    "location": "San Rafael, California",
-    "importance": "3",
-    "notes": null,
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Nancy Hackett"
     ],
@@ -52,9 +60,29 @@
     "source_type": "curated",
     "location": "Bay Area, California",
     "importance": "2",
-    "notes": null,
+    "notes": "Generated curation note: a year friendship entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "K. W. Jeter"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1966_san_rafael",
+    "summary": "Moves to the San Rafael area in Marin County north of San Francisco",
+    "date_start": "1966",
+    "date_end": "1966",
+    "date_display": "1966",
+    "date_confidence": "year",
+    "event_type": "residence",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "San Rafael, California",
+    "importance": "3",
+    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "entities": [
+      "Nancy Hackett"
     ],
     "theophany_id": null,
     "theophany_slug": null
@@ -72,7 +100,7 @@
     "source_type": "curated",
     "location": "San Rafael, California",
     "importance": "3",
-    "notes": null,
+    "notes": "Generated curation note: a range philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Henri Bergson",
       "Martin Heidegger"

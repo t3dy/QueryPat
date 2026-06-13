@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "Tesla is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick explores the \"Absolute\" through the lens of process philosophers like Bohme and Driesch, viewing history as a dialectic where God \"makes himself.\"",
-  "full_description": null,
+  "full_description": "Tesla is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick explores the \"Absolute\" through the lens of process philosophers like Bohme and Driesch, viewing history as a dialectic where God \"makes himself.\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick explores the \"Absolute\" through the lens of process philosophers like Bohme and Driesch, viewing history as a dialectic where God \"makes himself.\" He describes a cosmic board game where a wise, b",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "1976-09-15_Dorothy_122.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "Tesla",
+      "slug": "tesla",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

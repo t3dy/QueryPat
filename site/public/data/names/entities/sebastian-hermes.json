@@ -13,7 +13,7 @@
   "wordplay_note": "The venerable divine messenger",
   "symbolic_note": null,
   "card_description": "Sebastian Hermes (meaning \"Sebastian = venerable; Hermes = messenger god\") is a character in Philip K. Dick's *Counter-Clock World*. Librarian in a world where time runs backward and the dead return to life. Name note: The venerable divine messenger. Custodian of knowledge in a world where the dead are being un-buried. First appears in *Counter-Clock World*.",
-  "full_description": null,
+  "full_description": "Sebastian Hermes (meaning \"Sebastian = venerable; Hermes = messenger god\") is a character in Philip K. Dick's *Counter-Clock World*. Librarian in a world where time runs backward and the dead return to life. Name note: The venerable divine messenger. Custodian of knowledge in a world where the dead are being un-buried. First appears in *Counter-Clock World*.",
   "mention_count": 0,
   "first_work": "Counter-Clock World",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Sebastian Hermes",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Sebastian Hermes",
+      "slug": "sebastian-hermes",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Sebastian Hermes",
     "domain": "literary",

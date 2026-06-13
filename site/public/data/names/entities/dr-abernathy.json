@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "Dr. Abernathy is a fictional character referenced in Philip K. Dick's Exegesis. Context: \"Dick concludes his letter by describing the \"two worlds\" hidden beneath the veil (*Dokos*): the Iron Empire and the Palm Tree Garden.\"",
-  "full_description": null,
+  "full_description": "Dr. Abernathy is a fictional character referenced in Philip K. Dick's Exegesis. Context: \"Dick concludes his letter by describing the \"two worlds\" hidden beneath the veil (*Dokos*): the Iron Empire and the Palm Tree Garden.\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick concludes his letter by describing the \"two worlds\" hidden beneath the veil (*Dokos*): the Iron Empire and the Palm Tree Garden. He introduces the \"Cosmic Game\" between the Wise Mind and the Dark",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "1976-09-12_Dorothy_02.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "Dr. Abernathy",
+      "slug": "dr-abernathy",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

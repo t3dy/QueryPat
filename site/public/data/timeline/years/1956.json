@@ -1,5 +1,19 @@
 [
   {
+    "_type": "publication",
+    "work_id": "WORK_the-man-who-japed",
+    "canonical_title": "The Man Who Japed",
+    "slug": "the-man-who-japed",
+    "work_type": "novel",
+    "category": "novels",
+    "date_start": "1956",
+    "date_display": "1956",
+    "summary": "Canonical record for The Man Who Japed, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "The Man Who Japed is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is The Man Who Japed (Ace Double D-193) (1956).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 0
+  },
+  {
     "_type": "biography_event",
     "bio_id": "pkd_bio_1956_marriage_anne",
     "summary": "Marries Anne Williams Rubinstein in his third marriage in the Bay Area",
@@ -12,7 +26,7 @@
     "source_type": "curated",
     "location": "Berkeley, California",
     "importance": "4",
-    "notes": null,
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Anne Williams Rubinstein"
     ],
@@ -32,7 +46,7 @@
     "source_type": "curated",
     "location": "Point Reyes Station, California",
     "importance": "3",
-    "notes": null,
+    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Anne Williams Rubinstein"
     ],
@@ -52,7 +66,7 @@
     "source_type": "curated",
     "location": "Point Reyes Station, California",
     "importance": "3",
-    "notes": null,
+    "notes": "Generated curation note: a range philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Carl Jung"
     ],

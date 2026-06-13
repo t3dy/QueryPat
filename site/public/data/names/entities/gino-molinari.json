@@ -13,7 +13,7 @@
   "wordplay_note": "The grinder — he grinds himself down to serve humanity",
   "symbolic_note": null,
   "card_description": "Gino Molinari (meaning \"Molinari = miller (Italian)\") is a character in Philip K. Dick's *Now Wait for Last Year*. Secretary General of Earth (The Mole) who sacrifices his health for political strategy. Name note: The grinder — he grinds himself down to serve humanity. The self-sacrificing leader who uses his own suffering as a political tool. First appears in *Now Wait for Last Year*.",
-  "full_description": null,
+  "full_description": "Gino Molinari (meaning \"Molinari = miller (Italian)\") is a character in Philip K. Dick's *Now Wait for Last Year*. Secretary General of Earth (The Mole) who sacrifices his health for political strategy. Name note: The grinder — he grinds himself down to serve humanity. The self-sacrificing leader who uses his own suffering as a political tool. First appears in *Now Wait for Last Year*.",
   "mention_count": 0,
   "first_work": "Now Wait for Last Year",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Gino Molinari",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Gino Molinari",
+      "slug": "gino-molinari",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Gino Molinari",
     "domain": "literary",

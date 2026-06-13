@@ -13,7 +13,7 @@
   "wordplay_note": "Iron free-mountain — a strongman posing as liberator",
   "symbolic_note": null,
   "card_description": "Ferris F. Fremont (meaning \"Ferris = iron; Fremont = free mountain\") is a character in Philip K. Dick's *Radio Free Albemuth*. President of the United States who is secretly an agent of a foreign Communist conspiracy. Name note: Iron free-mountain — a strongman posing as liberator. Nixon as cosmic antagonist — the political tyrant serving the Black Iron Prison. First appears in *Radio Free Albemuth*.",
-  "full_description": null,
+  "full_description": "Ferris F. Fremont (meaning \"Ferris = iron; Fremont = free mountain\") is a character in Philip K. Dick's *Radio Free Albemuth*. President of the United States who is secretly an agent of a foreign Communist conspiracy. Name note: Iron free-mountain — a strongman posing as liberator. Nixon as cosmic antagonist — the political tyrant serving the Black Iron Prison. First appears in *Radio Free Albemuth*.",
   "mention_count": 0,
   "first_work": "Radio Free Albemuth",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Ferris F. Fremont",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Ferris F. Fremont",
+      "slug": "ferris-f-fremont",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Ferris F. Fremont",
     "domain": "literary",

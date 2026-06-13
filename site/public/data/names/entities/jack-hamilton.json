@@ -13,7 +13,7 @@
   "wordplay_note": "A high vantage point — he sees through each subjective universe",
   "symbolic_note": null,
   "card_description": "Jack Hamilton (meaning \"Hamilton = beautiful mountain\") is a character in Philip K. Dick's *Eye in the Sky*. Electronics worker who falls into a particle accelerator and enters multiple subjective realities. Name note: A high vantage point — he sees through each subjective universe. The observer passing through solipsistic worlds — each person's inner reality made external. First appears in *Eye in the Sky*.",
-  "full_description": null,
+  "full_description": "Jack Hamilton (meaning \"Hamilton = beautiful mountain\") is a character in Philip K. Dick's *Eye in the Sky*. Electronics worker who falls into a particle accelerator and enters multiple subjective realities. Name note: A high vantage point — he sees through each subjective universe. The observer passing through solipsistic worlds — each person's inner reality made external. First appears in *Eye in the Sky*.",
   "mention_count": 0,
   "first_work": "Eye in the Sky",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Jack Hamilton",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Jack Hamilton",
+      "slug": "jack-hamilton",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Jack Hamilton",
     "domain": "literary",

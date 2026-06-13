@@ -13,7 +13,7 @@
   "wordplay_note": "A guru who walks barefoot through affluent Berkeley",
   "symbolic_note": null,
   "card_description": "Edgar Barefoot (meaning \"Barefoot = unshod / humble / countercultural\") is a character in Philip K. Dick's *The Transmigration of Timothy Archer*. Charismatic spiritual teacher and radio personality modeled on Alan Watts. Name note: A guru who walks barefoot through affluent Berkeley. The commodification of Eastern spirituality in 1960s-70s California. First appears in *The Transmigration of Timothy Archer*.",
-  "full_description": null,
+  "full_description": "Edgar Barefoot (meaning \"Barefoot = unshod / humble / countercultural\") is a character in Philip K. Dick's *The Transmigration of Timothy Archer*. Charismatic spiritual teacher and radio personality modeled on Alan Watts. Name note: A guru who walks barefoot through affluent Berkeley. The commodification of Eastern spirituality in 1960s-70s California. First appears in *The Transmigration of Timothy Archer*.",
   "mention_count": 0,
   "first_work": "The Transmigration of Timothy Archer",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Edgar Barefoot",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Edgar Barefoot",
+      "slug": "edgar-barefoot",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Edgar Barefoot",
     "domain": "literary",

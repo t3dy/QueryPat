@@ -13,7 +13,7 @@
   "wordplay_note": "The victorious saint — a leader underground",
   "symbolic_note": null,
   "card_description": "Nicholas St. James (meaning \"St. James = apostle; Nicholas = victory\") is a character in Philip K. Dick's *The Penultimate Truth*. President of the Tom Mix ant tank underground community. Name note: The victorious saint — a leader underground. The honest leader of the deceived — governing in good faith within a lie. First appears in *The Penultimate Truth*.",
-  "full_description": null,
+  "full_description": "Nicholas St. James (meaning \"St. James = apostle; Nicholas = victory\") is a character in Philip K. Dick's *The Penultimate Truth*. President of the Tom Mix ant tank underground community. Name note: The victorious saint — a leader underground. The honest leader of the deceived — governing in good faith within a lie. First appears in *The Penultimate Truth*.",
   "mention_count": 0,
   "first_work": "The Penultimate Truth",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Nicholas St. James",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Nicholas St. James",
+      "slug": "nicholas-st-james",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Nicholas St. James",
     "domain": "literary",

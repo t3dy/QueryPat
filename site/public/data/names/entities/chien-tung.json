@@ -13,7 +13,7 @@
   "wordplay_note": "The faithful dog who bites his master's hand",
   "symbolic_note": null,
   "card_description": "Chien (Tung) (meaning \"Chien = dog (Chinese)\") is a character in Philip K. Dick's *Faith of Our Fathers*. Party functionary in Hanoi who accidentally sees through the regime's hallucinogenic control. Name note: The faithful dog who bites his master's hand. The loyal subject who glimpses the cosmic horror behind ideology. First appears in *Faith of Our Fathers*.",
-  "full_description": null,
+  "full_description": "Chien (Tung) (meaning \"Chien = dog (Chinese)\") is a character in Philip K. Dick's *Faith of Our Fathers*. Party functionary in Hanoi who accidentally sees through the regime's hallucinogenic control. Name note: The faithful dog who bites his master's hand. The loyal subject who glimpses the cosmic horror behind ideology. First appears in *Faith of Our Fathers*.",
   "mention_count": 0,
   "first_work": "Faith of Our Fathers",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Chien (Tung)",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Chien (Tung)",
+      "slug": "chien-tung",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Chien (Tung)",
     "domain": "literary",

@@ -13,7 +13,7 @@
   "wordplay_note": "One of the three friends investigating VALIS",
   "symbolic_note": null,
   "card_description": "Kevin is a character in Philip K. Dick's *VALIS*. Phil and Fat's friend who represents a cynical Catholic perspective. Name note: One of the three friends investigating VALIS. Catholic cynicism as one lens on the divine. First appears in *VALIS*.",
-  "full_description": null,
+  "full_description": "Kevin is a character in Philip K. Dick's *VALIS*. Phil and Fat's friend who represents a cynical Catholic perspective. Name note: One of the three friends investigating VALIS. Catholic cynicism as one lens on the divine. First appears in *VALIS*.",
   "mention_count": 0,
   "first_work": "VALIS",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Kevin",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Kevin",
+      "slug": "kevin",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Kevin",
     "domain": "literary",

@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "Mission is a fictional character referenced in Philip K. Dick's Exegesis. Context: \"Dick identifies his 1974 experience as a \"Discernment of the Present\" rather than an \"Anamnesis of the Past,\" concluding that Imperial Rome *exists now* in a metaphysical form.\"",
-  "full_description": null,
+  "full_description": "Mission is a fictional character referenced in Philip K. Dick's Exegesis. Context: \"Dick identifies his 1974 experience as a \"Discernment of the Present\" rather than an \"Anamnesis of the Past,\" concluding that Imperial Rome *exists now* in a metaphysical form.\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick identifies his 1974 experience as a \"Discernment of the Present\" rather than an \"Anamnesis of the Past,\" concluding that Imperial Rome *exists now* in a metaphysical form. He proposes that 1,500",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "U_Claudia_31.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "Mission",
+      "slug": "mission",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

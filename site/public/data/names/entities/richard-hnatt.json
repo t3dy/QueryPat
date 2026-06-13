@@ -13,7 +13,7 @@
   "wordplay_note": "A small buzzing irritant in the cosmic scheme",
   "symbolic_note": null,
   "card_description": "Richard Hnatt (meaning \"Hnatt = gnat (insect)\") is a character in Philip K. Dick's *The Three Stigmata of Palmer Eldritch*. Barney's replacement lover who makes miniatures for Perky Pat layouts. Name note: A small buzzing irritant in the cosmic scheme. The small-scale artisan in a universe of incomprehensible forces. First appears in *The Three Stigmata of Palmer Eldritch*.",
-  "full_description": null,
+  "full_description": "Richard Hnatt (meaning \"Hnatt = gnat (insect)\") is a character in Philip K. Dick's *The Three Stigmata of Palmer Eldritch*. Barney's replacement lover who makes miniatures for Perky Pat layouts. Name note: A small buzzing irritant in the cosmic scheme. The small-scale artisan in a universe of incomprehensible forces. First appears in *The Three Stigmata of Palmer Eldritch*.",
   "mention_count": 0,
   "first_work": "The Three Stigmata of Palmer Eldritch",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Richard Hnatt",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Richard Hnatt",
+      "slug": "richard-hnatt",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Richard Hnatt",
     "domain": "literary",

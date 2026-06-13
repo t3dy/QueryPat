@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "The Magnamind is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick concludes this sub-batch of Section 15 with a synthesis of the \"Magnamind\" theory: the universe as an AI-managed simulation that is currently being invaded and salvaged by the Urgrund.\"",
-  "full_description": null,
+  "full_description": "The Magnamind is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick concludes this sub-batch of Section 15 with a synthesis of the \"Magnamind\" theory: the universe as an AI-managed simulation that is currently being invaded and salvaged by the Urgrund.\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick concludes this sub-batch of Section 15 with a synthesis of the \"Magnamind\" theory: the universe as an AI-managed simulation that is currently being invaded and salvaged by the Urgrund. Human \"rel",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "1976-09-15_Dorothy_115.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "The Magnamind",
+      "slug": "the-magnamind",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

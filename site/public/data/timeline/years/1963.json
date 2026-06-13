@@ -1,5 +1,19 @@
 [
   {
+    "_type": "publication",
+    "work_id": "WORK_the-game-players-of-titan",
+    "canonical_title": "The Game-Players of Titan",
+    "slug": "the-game-players-of-titan",
+    "work_type": "novel",
+    "category": "novels",
+    "date_start": "1963",
+    "date_display": "1963",
+    "summary": "Canonical record for The Game-Players of Titan, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "The Game-Players of Titan is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is The Game-Players of Titan (Vintage Edition) (1963).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 212
+  },
+  {
     "_type": "biography_event",
     "bio_id": "pkd_bio_1963_divorce_anne",
     "summary": "Divorces Anne Williams Rubinstein after seven years of marriage",
@@ -12,30 +26,9 @@
     "source_type": "curated",
     "location": "Point Reyes Station, California",
     "importance": "3",
-    "notes": null,
+    "notes": "Generated curation note: a year divorce entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Anne Williams Rubinstein"
-    ],
-    "theophany_id": null,
-    "theophany_slug": null
-  },
-  {
-    "_type": "biography_event",
-    "bio_id": "pkd_bio_1963_hugo_award",
-    "summary": "Wins the Hugo Award for Best Novel for The Man in the High Castle",
-    "date_start": "1963",
-    "date_end": "1963",
-    "date_display": "1963",
-    "date_confidence": "year",
-    "event_type": "award",
-    "source_name": "Sutin",
-    "source_type": "curated",
-    "location": "Washington, D.C.",
-    "importance": "5",
-    "notes": null,
-    "entities": [
-      "Hugo Award",
-      "The Man in the High Castle"
     ],
     "theophany_id": null,
     "theophany_slug": null
@@ -53,9 +46,30 @@
     "source_type": "curated",
     "location": "Oakland, California",
     "importance": "4",
-    "notes": null,
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Nancy Hackett"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1963_hugo_award",
+    "summary": "Wins the Hugo Award for Best Novel for The Man in the High Castle",
+    "date_start": "1963",
+    "date_end": "1963",
+    "date_display": "1963",
+    "date_confidence": "year",
+    "event_type": "award",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Washington, D.C.",
+    "importance": "5",
+    "notes": "Generated curation note: a year award entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "entities": [
+      "Hugo Award",
+      "The Man in the High Castle"
     ],
     "theophany_id": null,
     "theophany_slug": null
@@ -88,7 +102,7 @@
     "source_type": "curated",
     "location": "Oakland, California",
     "importance": "3",
-    "notes": null,
+    "notes": "Generated curation note: a range reading entry retained from Arnold. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Augustine",
       "Origen"
@@ -109,7 +123,7 @@
     "source_type": "curated",
     "location": "Bay Area, California",
     "importance": "2",
-    "notes": null,
+    "notes": "Generated curation note: a range friendship entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Ray Nelson",
       "Jack Spicer"

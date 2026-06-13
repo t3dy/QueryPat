@@ -13,7 +13,7 @@
   "wordplay_note": "Stripped to the bone — his cover identity is skeletal",
   "symbolic_note": null,
   "card_description": "Baynes (Mr.) (meaning \"Baynes = bones / the essential\") is a character in Philip K. Dick's *The Man in the High Castle*. Cover identity of Wegener as a Swedish businessman in San Francisco. Name note: Stripped to the bone — his cover identity is skeletal. Identity as disguise — every character performs a false self. First appears in *The Man in the High Castle*.",
-  "full_description": null,
+  "full_description": "Baynes (Mr.) (meaning \"Baynes = bones / the essential\") is a character in Philip K. Dick's *The Man in the High Castle*. Cover identity of Wegener as a Swedish businessman in San Francisco. Name note: Stripped to the bone — his cover identity is skeletal. Identity as disguise — every character performs a false self. First appears in *The Man in the High Castle*.",
   "mention_count": 0,
   "first_work": "The Man in the High Castle",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Baynes (Mr.)",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Baynes (Mr.)",
+      "slug": "baynes-mr",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Baynes (Mr.)",
     "domain": "literary",

@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "Charles Wiggens is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick writes to Dorothy summarizing his 3-74 experience (the \"conversion year\").\"",
-  "full_description": null,
+  "full_description": "Charles Wiggens is a historical figure referenced in Philip K. Dick's Exegesis. Appears in 2 Exegesis passages. Context: \"Dick writes to Dorothy summarizing his 3-74 experience (the \"conversion year\").\"\n\nThe entry currently has 2 indexed mentions, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick writes to Dorothy summarizing his 3-74 experience (the \"conversion year\"). He introduces the term \"VALIS\" (Vast Active Living Intelligence System), details his role in toppling Nixon through lett Dick synthesizes investigative journalism (*Playboy*, *Rolling Stone*) to conclude that Nixon was a mere \"puppet\" of a larger technocratic/financial conglomerate. He argues that only a divine force (t",
   "mention_count": 2,
   "first_work": null,
   "work_list": null,
@@ -44,5 +44,12 @@
       "title": "1976-09-15_Dorothy_06.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "Charles Wiggens",
+      "slug": "charles-wiggens",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

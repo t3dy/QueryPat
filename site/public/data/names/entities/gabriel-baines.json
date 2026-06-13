@@ -13,7 +13,7 @@
   "wordplay_note": "The strong-boned angel of the paranoid clan",
   "symbolic_note": null,
   "card_description": "Gabriel Baines (meaning \"Gabriel = God is my strength; Baines = bones\") is a character in Philip K. Dick's *Clans of the Alphane Moon*. Paranoid leader of the Pare clan on Alphane Moon. Name note: The strong-boned angel of the paranoid clan. Mental illness as social organization — each diagnosis becomes a tribe. First appears in *Clans of the Alphane Moon*.",
-  "full_description": null,
+  "full_description": "Gabriel Baines (meaning \"Gabriel = God is my strength; Baines = bones\") is a character in Philip K. Dick's *Clans of the Alphane Moon*. Paranoid leader of the Pare clan on Alphane Moon. Name note: The strong-boned angel of the paranoid clan. Mental illness as social organization — each diagnosis becomes a tribe. First appears in *Clans of the Alphane Moon*.",
   "mention_count": 0,
   "first_work": "Clans of the Alphane Moon",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Gabriel Baines",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Gabriel Baines",
+      "slug": "gabriel-baines",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Gabriel Baines",
     "domain": "literary",

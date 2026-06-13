@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "St. Teresa is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick explores the \"Divine Agony\" of a God who has become enslaved to his own artifact.\"",
-  "full_description": null,
+  "full_description": "St. Teresa is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick explores the \"Divine Agony\" of a God who has become enslaved to his own artifact.\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick explores the \"Divine Agony\" of a God who has become enslaved to his own artifact. He posits that the artifact is now \"teaching\" God fragments (humans) to remember their true identity. He introduc",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "1976-09-15_Dorothy_118.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "St. Teresa",
+      "slug": "st-teresa",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "Bishop Berkeley is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick refines his view of theolepsy as an \"Internal Theophany\" where the immanent God in the \"Atman\" is proved identical to the Brahman without.\"",
-  "full_description": null,
+  "full_description": "Bishop Berkeley is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick refines his view of theolepsy as an \"Internal Theophany\" where the immanent God in the \"Atman\" is proved identical to the Brahman without.\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick refines his view of theolepsy as an \"Internal Theophany\" where the immanent God in the \"Atman\" is proved identical to the Brahman without. He defines the Kingdom of God as our ancestral \"Garden\"",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "1976-09-15_Dorothy_12.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "Bishop Berkeley",
+      "slug": "bishop-berkeley",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

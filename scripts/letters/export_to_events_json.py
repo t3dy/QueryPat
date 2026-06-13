@@ -26,10 +26,10 @@ def main():
 
     con = sqlite3.connect(db)
     cur = con.execute(
-        """SELECT bio_id, summary, date_start, date_end, date_display, date_confidence,
+        """SELECT bio_id, summary, detail, date_start, date_end, date_display, date_confidence,
                   event_type, location, source_type, source_name, reliability,
                   source_letter_id, evidence_quote, interpretation_lane, themes,
-                  notable_correspondence, theophany_id
+                  notable_correspondence, theophany_id, people_involved, notes, source_doc_id
            FROM biography_events
            WHERE source_type = 'letter'"""
     )

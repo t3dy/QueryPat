@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "Thomas Mann is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick explores the \"Lived Myth\" (Joseph Campbell) and \"Ma'at\" (Right Order) as keys to his 1974 experience.\"",
-  "full_description": null,
+  "full_description": "Thomas Mann is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick explores the \"Lived Myth\" (Joseph Campbell) and \"Ma'at\" (Right Order) as keys to his 1974 experience.\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick explores the \"Lived Myth\" (Joseph Campbell) and \"Ma'at\" (Right Order) as keys to his 1974 experience. He identifies the \"Xerox Letter\" as a ritual repudiation of materialism and a transformation",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "U_Claudia_28.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "Thomas Mann",
+      "slug": "thomas-mann",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

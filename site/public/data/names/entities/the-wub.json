@@ -13,7 +13,7 @@
   "wordplay_note": "A soft sound from a soft creature with a hard-to-kill soul",
   "symbolic_note": null,
   "card_description": "The Wub (meaning \"Wub = onomatopoeia for a gentle sound\") is a character in Philip K. Dick's *Beyond Lies the Wub*. Gentle Martian pig-like creature with vast intelligence and a love of conversation. Name note: A soft sound from a soft creature with a hard-to-kill soul. The meek inheriting by surviving through the aggressor's body. First appears in *Beyond Lies the Wub*.",
-  "full_description": null,
+  "full_description": "The Wub (meaning \"Wub = onomatopoeia for a gentle sound\") is a character in Philip K. Dick's *Beyond Lies the Wub*. Gentle Martian pig-like creature with vast intelligence and a love of conversation. Name note: A soft sound from a soft creature with a hard-to-kill soul. The meek inheriting by surviving through the aggressor's body. First appears in *Beyond Lies the Wub*.",
   "mention_count": 0,
   "first_work": "Beyond Lies the Wub",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "The Wub",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "The Wub",
+      "slug": "the-wub",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "The Wub",
     "domain": "literary",

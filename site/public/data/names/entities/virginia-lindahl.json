@@ -13,7 +13,7 @@
   "wordplay_note": "Roger's wife who has an affair",
   "symbolic_note": null,
   "card_description": "Virginia Lindahl is a character in Philip K. Dick's *Puttering About in a Small Land*. Roger's wife whose dissatisfaction drives the novel. Name note: Roger's wife who has an affair. Suburban discontent — the realistic precursor to PKD's cosmic alienation. First appears in *Puttering About in a Small Land*.",
-  "full_description": null,
+  "full_description": "Virginia Lindahl is a character in Philip K. Dick's *Puttering About in a Small Land*. Roger's wife whose dissatisfaction drives the novel. Name note: Roger's wife who has an affair. Suburban discontent — the realistic precursor to PKD's cosmic alienation. First appears in *Puttering About in a Small Land*.",
   "mention_count": 0,
   "first_work": "Puttering About in a Small Land",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Virginia Lindahl",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Virginia Lindahl",
+      "slug": "virginia-lindahl",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Virginia Lindahl",
     "domain": "literary",

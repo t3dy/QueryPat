@@ -7,8 +7,8 @@
   "category": "novels",
   "date_display": "2007",
   "date_start": "2007",
-  "card_summary": "Canonical record for Do Androids Dream of Electric Sheep?, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
-  "page_summary": "Do Androids Dream of Electric Sheep? is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is Do Androids Dream of Electric Sheep? (Oxford Bookworms Adaptation) (2007).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+  "card_summary": "Canonical record for Do Androids Dream of Electric Sheep?, PKD's novel. This single archive manifestation runs 183 pages.",
+  "page_summary": "Do Androids Dream of Electric Sheep? is the canonical works record for PKD's novel. It preserves a single archive manifestation and gives the work a stable bibliographic home. The preserved item here is Do Androids Dream of Electric Sheep? (Oxford Bookworms Adaptation) (2007). The archive copy runs 183 pages.\n\nResearchers can use this entry to trace publication context, later commentary, and relationships to other works.",
   "page_count": 183,
   "source_count": 1,
   "related_docs": [
@@ -25,6 +25,72 @@
     "slug": "oxford-bookworms-library-stage-5-oxford-bookworms-library-stage-5-do-androids-dr",
     "title": "Do Androids Dream of Electric Sheep? (Oxford Bookworms Adaptation)"
   },
+  "biography_events": [
+    {
+      "bio_id": "pkd_bio_1968_androids",
+      "date": "1968",
+      "category": "publication",
+      "event": "Publishes Do Androids Dream of Electric Sheep through Doubleday",
+      "source": "Sutin",
+      "source_type": "curated"
+    },
+    {
+      "bio_id": 311,
+      "date": "1971",
+      "category": "vision",
+      "event": "The \"Masks Off\" dream in Vancouver (1971).",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    },
+    {
+      "bio_id": 310,
+      "date": "1974",
+      "category": "other",
+      "event": "Seeing Rome around him in 1974 (transparencies).",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    },
+    {
+      "bio_id": 192,
+      "date": "Unknown",
+      "category": "vision",
+      "event": "3-74: Experiencing \"Agape\" as a direct, wordless hug with a stranger (The black man in *Tears*).",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    },
+    {
+      "bio_id": 193,
+      "date": "Unknown",
+      "category": "vision",
+      "event": "Hearing the \"Voice\" confirm that his work is \"Done/Successful.\"",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    },
+    {
+      "bio_id": 191,
+      "date": "Unknown",
+      "category": "other",
+      "event": "Realization that \"Luke\" was his visitor (Greek/Literate/Physician).",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    },
+    {
+      "bio_id": 194,
+      "date": "Unknown",
+      "category": "other",
+      "event": "Recognition that \"Marxists\" in the West/East can't register his theology but are still changed by it.",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    },
+    {
+      "bio_id": 195,
+      "date": "Unknown",
+      "category": "vision",
+      "event": "Vision of the \"Man with the Greaves\" holding the book.",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    }
+  ],
   "themes": [
     "androids",
     "authentic-human",

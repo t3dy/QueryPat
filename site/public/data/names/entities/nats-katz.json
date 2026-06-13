@@ -13,7 +13,7 @@
   "wordplay_note": "A cat among the game-players — predatory and sly",
   "symbolic_note": null,
   "card_description": "Nats Katz (meaning \"Katz = cat (German)\") is a character in Philip K. Dick's *The Game-Players of Titan*. Vugs (Titanian aliens) using the Bindmen game to colonize Earth. Name note: A cat among the game-players — predatory and sly. The alien infiltrator disguised as a player. First appears in *The Game-Players of Titan*.",
-  "full_description": null,
+  "full_description": "Nats Katz (meaning \"Katz = cat (German)\") is a character in Philip K. Dick's *The Game-Players of Titan*. Vugs (Titanian aliens) using the Bindmen game to colonize Earth. Name note: A cat among the game-players — predatory and sly. The alien infiltrator disguised as a player. First appears in *The Game-Players of Titan*.",
   "mention_count": 0,
   "first_work": "The Game-Players of Titan",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Nats Katz",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Nats Katz",
+      "slug": "nats-katz",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Nats Katz",
     "domain": "literary",

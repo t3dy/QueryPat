@@ -13,7 +13,7 @@
   "wordplay_note": "The distant one — mysterious and ancient",
   "symbolic_note": null,
   "card_description": "David Lantano (meaning \"Lantano = distant (Italian)\") is a character in Philip K. Dick's *The Penultimate Truth*. Mysterious figure who may be immortal and works to end the deception. Name note: The distant one — mysterious and ancient. The immortal witness — someone old enough to remember the truth. First appears in *The Penultimate Truth*.",
-  "full_description": null,
+  "full_description": "David Lantano (meaning \"Lantano = distant (Italian)\") is a character in Philip K. Dick's *The Penultimate Truth*. Mysterious figure who may be immortal and works to end the deception. Name note: The distant one — mysterious and ancient. The immortal witness — someone old enough to remember the truth. First appears in *The Penultimate Truth*.",
   "mention_count": 0,
   "first_work": "The Penultimate Truth",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "David Lantano",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "David Lantano",
+      "slug": "david-lantano",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "David Lantano",
     "domain": "literary",

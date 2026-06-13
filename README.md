@@ -390,6 +390,9 @@ QueryPat/
 |------|---------|
 | [QueryPatOverview.md](QueryPatOverview.md) | End-to-end methodology — provenance, data model, build pipeline, editorial system, JSON contract, site architecture, AI-vs-human curation boundary |
 | [PKDontology.md](PKDontology.md) | Editorial spine — ten core entity domains, the four standing researcher questions, evidentiary lanes (A–E), contradiction registry, fact-vs-interpretation rules |
+| [Documentation/ARTIFACT_PIPELINE.md](Documentation/ARTIFACT_PIPELINE.md) | Staged artifact pipeline — typed/versioned/provenanced artifacts (extraction → validation → tagging → interpretation → curation → prose), schemas in [artifacts/](artifacts/), validator, and the artifact contract |
+| [Documentation/AGENT_ARTIFACT_RULES.md](Documentation/AGENT_ARTIFACT_RULES.md) | Which artifact types each agent role may produce/consume, and the rule that agents must not jump from source to public prose |
+| [Documentation/CURATION_CRITERIA.md](Documentation/CURATION_CRITERIA.md) | How curation separates serious esoteric-studies scholarship from pop-occult / spam, plus the news-aggregator link-card spec |
 | [CONTENT_PLAN_V3.md](CONTENT_PLAN_V3.md) | Current writing roadmap — scholar profile expansion, document summary triage, coverage gaps for visions/themes/adaptations |
 | [scripts/overrides/templates/](scripts/overrides/templates/) | Style-guide templates — one per content type (scholarship, biography, interview, primary, fan, scholar, dictionary, biography event) |
 | `AIPSY_BLUEPRINT.md` | Implementation blueprint for AI & Psychology topic studies |

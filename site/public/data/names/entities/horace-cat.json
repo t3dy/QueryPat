@@ -13,7 +13,7 @@
   "wordplay_note": "A dignified name for a cat",
   "symbolic_note": null,
   "card_description": "Horace (cat) is a character in Philip K. Dick's *Nick and the Glimmung*. Peter's cat who plays a crucial role in the confrontation with Glimmung. Name note: A dignified name for a cat. The wise animal — PKD loved cats and gave them narrative importance. First appears in *Nick and the Glimmung*. Context: \"Dick explores the relationship between man and the sentient \"Mind\" of the universe (Zebra/Hagia Sophia).\"",
-  "full_description": null,
+  "full_description": "Horace (cat) is a character in Philip K. Dick's *Nick and the Glimmung*. Peter's cat who plays a crucial role in the confrontation with Glimmung. Name note: A dignified name for a cat. The wise animal — PKD loved cats and gave them narrative importance. First appears in *Nick and the Glimmung*. Context: \"Dick explores the relationship between man and the sentient \"Mind\" of the universe (Zebra/Hagia Sophia).\"\n\nRepresentative segment contexts: Dick explores the relationship between man and the sentient \"Mind\" of the universe (Zebra/Hagia Sophia). He posits that we are moving from being unconscious \"servants\" of the teacher-deity (Zebra) to",
   "mention_count": 0,
   "first_work": "Nick and the Glimmung",
   "work_list": [
@@ -37,7 +37,14 @@
       "title": "1976-09-15_Dorothy_133.txt"
     }
   ],
-  "related_terms": [],
+  "related_terms": [
+    {
+      "name": "Horace (cat)",
+      "slug": "horace-cat",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Horace (cat)",
     "domain": "literary",

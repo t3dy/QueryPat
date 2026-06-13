@@ -13,7 +13,7 @@
   "wordplay_note": "Philip K. Dick as a character — the skeptical rational half",
   "symbolic_note": null,
   "card_description": "Phil (meaning \"Phil = horse-lover (Greek philos + hippos)\") is a character in Philip K. Dick's *VALIS*. Author and narrator who is the skeptical counterpart to Horselover Fat. Name note: Philip K. Dick as a character — the skeptical rational half. The author watching himself go mad — or become enlightened. First appears in *VALIS*.",
-  "full_description": null,
+  "full_description": "Phil (meaning \"Phil = horse-lover (Greek philos + hippos)\") is a character in Philip K. Dick's *VALIS*. Author and narrator who is the skeptical counterpart to Horselover Fat. Name note: Philip K. Dick as a character — the skeptical rational half. The author watching himself go mad — or become enlightened. First appears in *VALIS*.",
   "mention_count": 0,
   "first_work": "VALIS",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Phil",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Phil",
+      "slug": "phil",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Phil",
     "domain": "literary",

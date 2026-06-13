@@ -13,7 +13,7 @@
   "wordplay_note": "Pottery forger who helps Taverner obtain false identity papers",
   "symbolic_note": null,
   "card_description": "Kathy Nelson is a character in Philip K. Dick's *Flow My Tears the Policeman Said*. Potter and document forger who becomes Taverner's ally in his erased existence. Name note: Pottery forger who helps Taverner obtain false identity papers. The artisan as counterfeiter — authenticity and forgery as parallel acts of creation. First appears in *Flow My Tears the Policeman Said*.",
-  "full_description": null,
+  "full_description": "Kathy Nelson is a character in Philip K. Dick's *Flow My Tears the Policeman Said*. Potter and document forger who becomes Taverner's ally in his erased existence. Name note: Pottery forger who helps Taverner obtain false identity papers. The artisan as counterfeiter — authenticity and forgery as parallel acts of creation. First appears in *Flow My Tears the Policeman Said*.",
   "mention_count": 0,
   "first_work": "Flow My Tears the Policeman Said",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Kathy Nelson",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Kathy Nelson",
+      "slug": "kathy-nelson",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Kathy Nelson",
     "domain": "literary",

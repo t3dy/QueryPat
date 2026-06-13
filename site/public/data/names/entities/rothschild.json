@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "Rothschild is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick analyzes the \"Cabrillo\" dream to conclude that the Xerox letter was a \"fake\" entrapment attempt (possibly by \"The Man\" or \"Reds\").\"",
-  "full_description": null,
+  "full_description": "Rothschild is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick analyzes the \"Cabrillo\" dream to conclude that the Xerox letter was a \"fake\" entrapment attempt (possibly by \"The Man\" or \"Reds\").\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick analyzes the \"Cabrillo\" dream to conclude that the Xerox letter was a \"fake\" entrapment attempt (possibly by \"The Man\" or \"Reds\"). He interprets complex symbolic puns—Cabrillo, Brillo, Monopoly m",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "1975-09-15_SECTION_012_04.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "Rothschild",
+      "slug": "rothschild",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

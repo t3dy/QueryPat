@@ -13,7 +13,7 @@
   "wordplay_note": "Stratton = stratified, layered identity",
   "symbolic_note": null,
   "card_description": "Pris Stratton (meaning \"Pris = prismatic / prissy\") is a character in Philip K. Dick's *Do Androids Dream of Electric Sheep?*. Basic pleasure-model android who hides with Isidore. Name note: Stratton = stratified, layered identity. Her friendship with Isidore tests whether empathy can cross the human-android divide. First appears in *Do Androids Dream of Electric Sheep?*.",
-  "full_description": null,
+  "full_description": "Pris Stratton (meaning \"Pris = prismatic / prissy\") is a character in Philip K. Dick's *Do Androids Dream of Electric Sheep?*. Basic pleasure-model android who hides with Isidore. Name note: Stratton = stratified, layered identity. Her friendship with Isidore tests whether empathy can cross the human-android divide. First appears in *Do Androids Dream of Electric Sheep?*.",
   "mention_count": 0,
   "first_work": "Do Androids Dream of Electric Sheep?",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Pris Stratton",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Pris Stratton",
+      "slug": "pris-stratton",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Pris Stratton",
     "domain": "literary",

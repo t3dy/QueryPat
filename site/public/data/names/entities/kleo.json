@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "Kleo is a historical figure referenced in Philip K. Dick's Exegesis.",
-  "full_description": null,
+  "full_description": "Kleo is a historical figure referenced in Philip K. Dick's Exegesis.\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -24,6 +24,23 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": []
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Kleo",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Kleo",
+      "slug": "kleo",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

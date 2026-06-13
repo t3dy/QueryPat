@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "Nixon Gang is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick integrates his ETI theory, suggesting that humans are \"escaped prisoners\" from another star system (Albemuth) who are hiding on Earth behind a \"veil\" (Maya).\"",
-  "full_description": null,
+  "full_description": "Nixon Gang is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick integrates his ETI theory, suggesting that humans are \"escaped prisoners\" from another star system (Albemuth) who are hiding on Earth behind a \"veil\" (Maya).\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick integrates his ETI theory, suggesting that humans are \"escaped prisoners\" from another star system (Albemuth) who are hiding on Earth behind a \"veil\" (Maya). He posits that the Nixon gang and oth",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "1976-09-15_Dorothy_23.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "Nixon Gang",
+      "slug": "nixon-gang",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

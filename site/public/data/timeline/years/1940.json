@@ -12,10 +12,26 @@
     "source_type": "curated",
     "location": "Berkeley, California",
     "importance": "4",
-    "notes": null,
+    "notes": "Generated curation note: a year reading entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Don Wollheim"
     ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": 712,
+    "summary": "In 1940, PKD wrote 3 letters to Dorothy K. Dick, turning the correspondence into a running personal and professional journal.",
+    "date_start": "1940",
+    "date_end": "1940",
+    "date_display": "1940",
+    "date_confidence": "approximate",
+    "event_type": "correspondence",
+    "source_name": "Selected Letters correspondence trend",
+    "source_type": "letter",
+    "location": null,
+    "importance": null,
     "theophany_id": null,
     "theophany_slug": null
   },
@@ -32,7 +48,7 @@
     "source_type": "curated",
     "location": "Berkeley, California",
     "importance": "2",
-    "notes": null,
+    "notes": "Generated curation note: a range reading entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "L. Frank Baum"
     ],

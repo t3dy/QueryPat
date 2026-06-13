@@ -13,7 +13,7 @@
   "wordplay_note": "A poet's name for a woman-shaped weapon",
   "symbolic_note": null,
   "card_description": "Tasso (meaning \"Tasso = badger / Torquato Tasso (poet)\") is a character in Philip K. Dick's *Second Variety*. Woman who turns out to be a Third Variety robot — the most advanced human simulacrum. Name note: A poet's name for a woman-shaped weapon. The android lover — trust destroyed by perfect imitation. First appears in *Second Variety*.",
-  "full_description": null,
+  "full_description": "Tasso (meaning \"Tasso = badger / Torquato Tasso (poet)\") is a character in Philip K. Dick's *Second Variety*. Woman who turns out to be a Third Variety robot — the most advanced human simulacrum. Name note: A poet's name for a woman-shaped weapon. The android lover — trust destroyed by perfect imitation. First appears in *Second Variety*.",
   "mention_count": 0,
   "first_work": "Second Variety",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Tasso",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Tasso",
+      "slug": "tasso",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Tasso",
     "domain": "literary",

@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "Jimmy Carter is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick synthesizes investigative journalism (*Playboy*, *Rolling Stone*) to conclude that Nixon was a mere \"puppet\" of a larger technocratic/financial conglomerate.\"",
-  "full_description": null,
+  "full_description": "Jimmy Carter is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick synthesizes investigative journalism (*Playboy*, *Rolling Stone*) to conclude that Nixon was a mere \"puppet\" of a larger technocratic/financial conglomerate.\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick synthesizes investigative journalism (*Playboy*, *Rolling Stone*) to conclude that Nixon was a mere \"puppet\" of a larger technocratic/financial conglomerate. He argues that only a divine force (t",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "1976-09-15_Dorothy_06.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "Jimmy Carter",
+      "slug": "jimmy-carter",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useData } from '../hooks/useData'
+import { BIOGRAPHY_CATEGORY_COLORS, BIOGRAPHY_CATEGORY_NAMES } from '../data/biographyTaxonomy'
 
 /* ─── Curated schema (style-audited events) ─── */
 interface CuratedBioEvent {
@@ -25,70 +26,6 @@ interface DictEntry {
 }
 
 /* ─── Constants for curated tab ─── */
-const CATEGORY_NAMES: Record<string, string> = {
-  birth: 'Birth',
-  death: 'Death',
-  education: 'Education',
-  reading: 'Reading',
-  philosophical_influence: 'Philosophical Influence',
-  religious_experience: 'Religious Experience',
-  visionary_experience: 'Visionary Experience',
-  paranormal_experience: 'Paranormal Experience',
-  mystical_experience: 'Mystical Experience',
-  gnostic_experience: 'Gnostic Experience',
-  hearing_voices_experience: 'Hearing Voices Experience',
-  religious_thought: 'Religious Thought',
-  publication: 'Publication',
-  award: 'Award',
-  marriage: 'Marriage',
-  divorce: 'Divorce',
-  family: 'Family',
-  friendship: 'Friendship',
-  professional_network: 'Professional Network',
-  financial: 'Financial',
-  health: 'Health',
-  drug_use: 'Drug Use',
-  residence: 'Residence',
-  travel: 'Travel',
-  lecture: 'Lecture',
-  correspondence: 'Correspondence',
-  employment: 'Employment',
-  film_adaptation: 'Film Adaptation',
-  crime: 'Crime',
-}
-
-const CATEGORY_COLORS: Record<string, string> = {
-  birth: '#C09A4D',
-  death: '#8B6B6B',
-  education: '#6B8E6B',
-  reading: '#6B8E6B',
-  philosophical_influence: '#6B8E6B',
-  religious_experience: '#9B6B9B',
-  visionary_experience: '#9B6B9B',
-  paranormal_experience: '#6B8B9B',
-  mystical_experience: '#7B6B9B',
-  gnostic_experience: '#6B7B9B',
-  hearing_voices_experience: '#B06B9B',
-  religious_thought: '#9B6B9B',
-  publication: '#8B7355',
-  award: '#C09A4D',
-  marriage: '#A18B6B',
-  divorce: '#A18B6B',
-  family: '#A18B6B',
-  friendship: '#7B8FA1',
-  professional_network: '#7B8FA1',
-  financial: '#9B8B8B',
-  health: '#8B6B6B',
-  drug_use: '#8B6B6B',
-  residence: '#9B8B8B',
-  travel: '#9B8B8B',
-  lecture: '#7B8FA1',
-  correspondence: '#7B8FA1',
-  employment: '#9B8B8B',
-  film_adaptation: '#8B7355',
-  crime: '#8B6B6B',
-}
-
 const ERA_RANGES: [string, number, number][] = [
   ['Early Life (1928\u20131946)', 1928, 1946],
   ['Apprenticeship (1947\u20131954)', 1947, 1954],
@@ -153,11 +90,14 @@ interface LetterEvent {
   source_type: string
   source_name?: string
   source_letter_id?: string
+  detail?: string | null
   themes?: string  // JSON-encoded array
   notable_correspondence?: string | null
   theophany_id?: string | null
   theophany_slug?: string | null
   evidence_quote?: string | null
+  notes?: string | null
+  source_doc_id?: string | null
 }
 
 const THEME_LABELS: Record<string, string> = {
@@ -392,7 +332,7 @@ function CuratedTab({ initialQuery = '' }: { initialQuery?: string }) {
                 All Categories
               </a>
             </li>
-            {Object.entries(CATEGORY_NAMES).map(([key, name]) =>
+            {Object.entries(BIOGRAPHY_CATEGORY_NAMES).map(([key, name]) =>
               categoryCounts[key] ? (
                 <li key={key}>
                   <a
@@ -402,7 +342,7 @@ function CuratedTab({ initialQuery = '' }: { initialQuery?: string }) {
                   >
                     <span style={{
                       display: 'inline-block', width: 8, height: 8,
-                      borderRadius: '50%', background: CATEGORY_COLORS[key] || '#9B8B8B',
+                      borderRadius: '50%', background: BIOGRAPHY_CATEGORY_COLORS[key] || '#9B8B8B',
                       marginRight: '0.5rem', verticalAlign: 'middle',
                     }} />
                     {name}
@@ -487,6 +427,11 @@ function LetterEventCard({ event }: { event: LetterEvent }) {
       <p style={{ fontFamily: 'var(--font-body)', fontSize: '0.95rem', margin: '0.5rem 0', lineHeight: 1.6 }}>
         {event.summary}
       </p>
+      {event.detail && (
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.82rem', margin: '0.15rem 0 0.45rem', lineHeight: 1.55 }}>
+          {event.detail}
+        </p>
+      )}
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem', marginTop: '0.5rem', alignItems: 'center' }}>
         {themes.map(t => (
           <span key={t} className="badge" style={{
@@ -544,7 +489,7 @@ function CuratedEventCard({ event, dictLookup, onCategoryClick, onSearchEntity }
   onCategoryClick: (cat: string) => void
   onSearchEntity: (q: string) => void
 }) {
-  const catColor = CATEGORY_COLORS[event.category] || '#9B8B8B'
+  const catColor = BIOGRAPHY_CATEGORY_COLORS[event.category] || '#9B8B8B'
 
   return (
     <div className="card" style={{ borderLeft: `4px solid ${catColor}`, marginBottom: '0.75rem' }}>
@@ -607,7 +552,7 @@ function CuratedEventCard({ event, dictLookup, onCategoryClick, onSearchEntity }
           }}
           onClick={() => onCategoryClick(event.category)}
         >
-          {CATEGORY_NAMES[event.category] || event.category}
+          {BIOGRAPHY_CATEGORY_NAMES[event.category] || event.category}
         </span>
 
         {/* Entity tags */}

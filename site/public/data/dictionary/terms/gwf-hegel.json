@@ -43,7 +43,23 @@
   "noise_score": 0.3,
   "cited_claims": {},
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this term yet.",
+      "title": "Unlinked term evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "G.W.F. Hegel",
+      "slug": "gwf-hegel",
+      "relation": "self",
+      "confidence": 5
+    }
+  ],
   "evidence": []
 }

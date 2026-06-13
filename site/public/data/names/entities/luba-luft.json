@@ -13,7 +13,7 @@
   "wordplay_note": "Luba = love; she sings of love while made of circuits",
   "symbolic_note": null,
   "card_description": "Luba Luft (meaning \"Luft = German for air\") is a character in Philip K. Dick's *Do Androids Dream of Electric Sheep?*. Android opera singer whose artistic passion makes Deckard question retiring her. Name note: Luba = love; she sings of love while made of circuits. Art and beauty as markers of the soul — can a machine create genuine art?. First appears in *Do Androids Dream of Electric Sheep?*.",
-  "full_description": null,
+  "full_description": "Luba Luft (meaning \"Luft = German for air\") is a character in Philip K. Dick's *Do Androids Dream of Electric Sheep?*. Android opera singer whose artistic passion makes Deckard question retiring her. Name note: Luba = love; she sings of love while made of circuits. Art and beauty as markers of the soul — can a machine create genuine art?. First appears in *Do Androids Dream of Electric Sheep?*.",
   "mention_count": 0,
   "first_work": "Do Androids Dream of Electric Sheep?",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Luba Luft",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Luba Luft",
+      "slug": "luba-luft",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Luba Luft",
     "domain": "literary",

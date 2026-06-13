@@ -13,7 +13,7 @@
   "wordplay_note": "A valley man — small-scale and enclosed",
   "symbolic_note": null,
   "card_description": "Roger Lindahl (meaning \"Lindahl = linden valley\") is a character in Philip K. Dick's *Puttering About in a Small Land*. Husband in a failing 1950s marriage who runs a TV repair shop. Name note: A valley man — small-scale and enclosed. The putterer — doing small things in a small land while the marriage crumbles. First appears in *Puttering About in a Small Land*.",
-  "full_description": null,
+  "full_description": "Roger Lindahl (meaning \"Lindahl = linden valley\") is a character in Philip K. Dick's *Puttering About in a Small Land*. Husband in a failing 1950s marriage who runs a TV repair shop. Name note: A valley man — small-scale and enclosed. The putterer — doing small things in a small land while the marriage crumbles. First appears in *Puttering About in a Small Land*.",
   "mention_count": 0,
   "first_work": "Puttering About in a Small Land",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Roger Lindahl",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Roger Lindahl",
+      "slug": "roger-lindahl",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Roger Lindahl",
     "domain": "literary",

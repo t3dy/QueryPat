@@ -13,7 +13,7 @@
   "wordplay_note": "The director who serves the machine",
   "symbolic_note": null,
   "card_description": "Curt (Dr. Dodd) is a character in Philip K. Dick's *Vulcan's Hammer*. Director of Unity who serves the supercomputer Vulcan 3. Name note: The director who serves the machine. The bureaucrat as servant of artificial intelligence. First appears in *Vulcan's Hammer*.",
-  "full_description": null,
+  "full_description": "Curt (Dr. Dodd) is a character in Philip K. Dick's *Vulcan's Hammer*. Director of Unity who serves the supercomputer Vulcan 3. Name note: The director who serves the machine. The bureaucrat as servant of artificial intelligence. First appears in *Vulcan's Hammer*.",
   "mention_count": 0,
   "first_work": "Vulcan's Hammer",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Curt (Dr. Dodd)",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Curt (Dr. Dodd)",
+      "slug": "curt-dr-dodd",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Curt (Dr. Dodd)",
     "domain": "literary",

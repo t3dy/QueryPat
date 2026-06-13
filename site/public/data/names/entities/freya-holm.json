@@ -13,7 +13,7 @@
   "wordplay_note": "Love on a small island — isolated beauty",
   "symbolic_note": null,
   "card_description": "Freya Holm (meaning \"Freya = Norse goddess of love; Holm = small island\") is a character in Philip K. Dick's *Lies Inc.*. Rachmael's love interest and companion. Name note: Love on a small island — isolated beauty. Romance as motivation for truth-seeking. First appears in *Lies Inc.*.",
-  "full_description": null,
+  "full_description": "Freya Holm (meaning \"Freya = Norse goddess of love; Holm = small island\") is a character in Philip K. Dick's *Lies Inc.*. Rachmael's love interest and companion. Name note: Love on a small island — isolated beauty. Romance as motivation for truth-seeking. First appears in *Lies Inc.*.",
   "mention_count": 0,
   "first_work": "Lies Inc.",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Freya Holm",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Freya Holm",
+      "slug": "freya-holm",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Freya Holm",
     "domain": "literary",

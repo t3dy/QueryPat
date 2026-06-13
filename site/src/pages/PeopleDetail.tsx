@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import { useData } from '../hooks/useData'
 import EntityLayout from '../components/EntityLayout'
 import ExploreFooter from '../components/ExploreFooter'
+import { BIOGRAPHY_CATEGORY_NAMES } from '../data/biographyTaxonomy'
 
 interface PersonEvent {
   id: string
@@ -50,19 +51,13 @@ interface PersonRecord {
 
 function labelFor(value: string): string {
   const labels: Record<string, string> = {
+    ...BIOGRAPHY_CATEGORY_NAMES,
     character_inspiration: 'Character inspiration',
     correspondent: 'Correspondent',
     fellow_sf_author: 'Fellow SF author',
     fan_scholar: 'Fan scholar',
     named_person: 'Named person',
     mentioned_in_document: 'Mentioned in documents',
-    religious_thought: 'Religious thought',
-    religious_experience: 'Religious experience',
-    visionary_experience: 'Visionary experience',
-    paranormal_experience: 'Paranormal experience',
-    mystical_experience: 'Mystical experience',
-    gnostic_experience: 'Gnostic experience',
-    hearing_voices_experience: 'Hearing voices experience',
     spouse_or_partner: 'Spouse or partner',
   }
   return labels[value] || value.replace(/_/g, ' ')

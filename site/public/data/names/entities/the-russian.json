@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "The Russian is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick proposes a radical \"mundane\" theory: that he was \"occupied\" by a secret Christian Soviet doctor (or defected KGB operator) who used his brain to flee the \"Gulag\" (Black Iron Prison).\"",
-  "full_description": null,
+  "full_description": "The Russian is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick proposes a radical \"mundane\" theory: that he was \"occupied\" by a secret Christian Soviet doctor (or defected KGB operator) who used his brain to flee the \"Gulag\" (Black Iron Prison).\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRecorded aliases or related forms include Secret Christian.\n\nRepresentative segment contexts: Dick proposes a radical \"mundane\" theory: that he was \"occupied\" by a secret Christian Soviet doctor (or defected KGB operator) who used his brain to flee the \"Gulag\" (Black Iron Prison). He also refi",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -40,5 +40,12 @@
       "title": "1976-09-15_Dorothy_22.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "The Russian",
+      "slug": "the-russian",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

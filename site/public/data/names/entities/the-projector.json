@@ -13,7 +13,7 @@
   "wordplay_note": null,
   "symbolic_note": null,
   "card_description": "The Projector is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick reiterates the theory of the universe as a holographic projection from a \"teaching machine.\"",
-  "full_description": null,
+  "full_description": "The Projector is a historical figure referenced in Philip K. Dick's Exegesis. Context: \"Dick reiterates the theory of the universe as a holographic projection from a \"teaching machine.\"\n\nThe entry currently has 1 indexed mention, so it is useful for tracing where the name recurs across the corpus.\n\nRepresentative segment contexts: Dick reiterates the theory of the universe as a holographic projection from a \"teaching machine.\" He focuses on the limits of human perception and how anamnesis allows an individual to break through t",
   "mention_count": 1,
   "first_work": null,
   "work_list": null,
@@ -35,5 +35,12 @@
       "title": "1976-09-15_Dorothy_104.txt"
     }
   ],
-  "related_terms": []
+  "related_terms": [
+    {
+      "name": "The Projector",
+      "slug": "the-projector",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ]
 }

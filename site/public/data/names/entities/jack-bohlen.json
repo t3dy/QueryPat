@@ -13,7 +13,7 @@
   "wordplay_note": "A beam of support — the solid everyman on Mars",
   "symbolic_note": null,
   "card_description": "Jack Bohlen (meaning \"Bohlen = plank / beam; Jack = everyman\") is a character in Philip K. Dick's *Martian Time-Slip*. Repairman on Mars who becomes entangled with a schizophrenic boy's time-warping perception. Name note: A beam of support — the solid everyman on Mars. The working man trying to stay sane amid capitalist exploitation and temporal collapse. First appears in *Martian Time-Slip*.",
-  "full_description": null,
+  "full_description": "Jack Bohlen (meaning \"Bohlen = plank / beam; Jack = everyman\") is a character in Philip K. Dick's *Martian Time-Slip*. Repairman on Mars who becomes entangled with a schizophrenic boy's time-warping perception. Name note: A beam of support — the solid everyman on Mars. The working man trying to stay sane amid capitalist exploitation and temporal collapse. First appears in *Martian Time-Slip*.",
   "mention_count": 0,
   "first_work": "Martian Time-Slip",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Jack Bohlen",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Jack Bohlen",
+      "slug": "jack-bohlen",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Jack Bohlen",
     "domain": "literary",

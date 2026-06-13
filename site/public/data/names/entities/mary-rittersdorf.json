@@ -13,7 +13,7 @@
   "wordplay_note": "Chuck's wife and a psychiatric social worker",
   "symbolic_note": null,
   "card_description": "Mary Rittersdorf is a character in Philip K. Dick's *Clans of the Alphane Moon*. Psychiatric professional who wants to re-institutionalize the Alphane Moon colonists. Name note: Chuck's wife and a psychiatric social worker. Professional authority as personal cruelty — she pathologizes everything. First appears in *Clans of the Alphane Moon*.",
-  "full_description": null,
+  "full_description": "Mary Rittersdorf is a character in Philip K. Dick's *Clans of the Alphane Moon*. Psychiatric professional who wants to re-institutionalize the Alphane Moon colonists. Name note: Chuck's wife and a psychiatric social worker. Professional authority as personal cruelty — she pathologizes everything. First appears in *Clans of the Alphane Moon*.",
   "mention_count": 0,
   "first_work": "Clans of the Alphane Moon",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Mary Rittersdorf",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Mary Rittersdorf",
+      "slug": "mary-rittersdorf",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Mary Rittersdorf",
     "domain": "literary",

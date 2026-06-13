@@ -1,5 +1,19 @@
 [
   {
+    "_type": "publication",
+    "work_id": "WORK_time-out-of-joint",
+    "canonical_title": "Time Out of Joint",
+    "slug": "time-out-of-joint",
+    "work_type": "novel",
+    "category": "novels",
+    "date_start": "1959",
+    "date_display": "1959",
+    "summary": "Canonical record for Time Out of Joint, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "Time Out of Joint is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is Time Out of Joint (1959).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 155
+  },
+  {
     "_type": "biography_event",
     "bio_id": "pkd_bio_1959_marin_county",
     "summary": "Moves to rural Marin County property with Anne and stepdaughters",
@@ -12,7 +26,7 @@
     "source_type": "curated",
     "location": "Marin County, California",
     "importance": "2",
-    "notes": null,
+    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Anne Williams Rubinstein"
     ],
@@ -32,7 +46,7 @@
     "source_type": "curated",
     "location": "Point Reyes Station, California",
     "importance": "3",
-    "notes": null,
+    "notes": "Generated curation note: a range philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Plato",
       "Plotinus"

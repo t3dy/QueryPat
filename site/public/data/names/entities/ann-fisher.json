@@ -13,7 +13,7 @@
   "wordplay_note": "A fisher of truth in a moralistic dystopia",
   "symbolic_note": null,
   "card_description": "Ann Fisher (meaning \"Fisher = fisherman\") is a character in Philip K. Dick's *The Man Who Japed*. Wife of Allen Purcell in the hyper-moralistic society. Name note: A fisher of truth in a moralistic dystopia. Domestic anchor in a world of enforced virtue. First appears in *The Man Who Japed*.",
-  "full_description": null,
+  "full_description": "Ann Fisher (meaning \"Fisher = fisherman\") is a character in Philip K. Dick's *The Man Who Japed*. Wife of Allen Purcell in the hyper-moralistic society. Name note: A fisher of truth in a moralistic dystopia. Domestic anchor in a world of enforced virtue. First appears in *The Man Who Japed*.",
   "mention_count": 0,
   "first_work": "The Man Who Japed",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Ann Fisher",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Ann Fisher",
+      "slug": "ann-fisher",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Ann Fisher",
     "domain": "literary",

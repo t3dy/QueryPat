@@ -13,7 +13,7 @@
   "wordplay_note": "A brown warrior — embattled and weary",
   "symbolic_note": null,
   "card_description": "Ian Duncan (meaning \"Duncan = brown warrior\") is a character in Philip K. Dick's *The Simulacra*. Psychokinetic jug player who becomes entangled in the regime's power struggles. Name note: A brown warrior — embattled and weary. Art and telekinetic talent as political currency. First appears in *The Simulacra*.",
-  "full_description": null,
+  "full_description": "Ian Duncan (meaning \"Duncan = brown warrior\") is a character in Philip K. Dick's *The Simulacra*. Psychokinetic jug player who becomes entangled in the regime's power struggles. Name note: A brown warrior — embattled and weary. Art and telekinetic talent as political currency. First appears in *The Simulacra*.",
   "mention_count": 0,
   "first_work": "The Simulacra",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Ian Duncan",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Ian Duncan",
+      "slug": "ian-duncan",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Ian Duncan",
     "domain": "literary",

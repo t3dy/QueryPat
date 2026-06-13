@@ -13,7 +13,7 @@
   "wordplay_note": "Fanatic who seeks a tenth planet",
   "symbolic_note": null,
   "card_description": "Leon Cartwright is a character in Philip K. Dick's *Solar Lottery*. Follower of John Preston's cult seeking the mythical Domus. Name note: Fanatic who seeks a tenth planet. Faith in an undiscovered world — the religious impulse as space exploration. First appears in *Solar Lottery*.",
-  "full_description": null,
+  "full_description": "Leon Cartwright is a character in Philip K. Dick's *Solar Lottery*. Follower of John Preston's cult seeking the mythical Domus. Name note: Fanatic who seeks a tenth planet. Faith in an undiscovered world — the religious impulse as space exploration. First appears in *Solar Lottery*.",
   "mention_count": 0,
   "first_work": "Solar Lottery",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Leon Cartwright",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Leon Cartwright",
+      "slug": "leon-cartwright",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Leon Cartwright",
     "domain": "literary",

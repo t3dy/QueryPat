@@ -14,13 +14,81 @@
     "page_count": 0
   },
   {
+    "_type": "biography_event",
     "bio_id": 50,
     "summary": "1962: Witnessed a \"band of darkness\" crossing the sky with daughter Laura.",
     "date_start": "1962",
-    "date_end": null,
-    "event_type": "relationship",
-    "source_name": null,
+    "date_end": "1962",
+    "date_display": "1962",
     "date_confidence": "approximate",
-    "_type": "biography_event"
+    "event_type": "relationship",
+    "source_name": "auto-extracted",
+    "source_type": "exegesis",
+    "location": "Point Reyes Station, California",
+    "importance": null,
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1962_high_castle",
+    "summary": "Publishes The Man in the High Castle through Putnam as hardcover edition",
+    "date_start": "1962",
+    "date_end": "1962",
+    "date_display": "1962",
+    "date_confidence": "year",
+    "event_type": "publication",
+    "source_name": "Sutin",
+    "source_type": "curated",
+    "location": "Point Reyes Station, California",
+    "importance": "5",
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "entities": [
+      "The Man in the High Castle",
+      "Putnam"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1962_palmer_eldritch_sun",
+    "summary": "Sees Palmer Eldritch in the sun during the years of the Terrible Separation and later calls it a true vision of God, not just a fictional echo of The Three Stigmata of Palmer Eldritch.",
+    "date_start": "1962",
+    "date_end": "1962",
+    "date_display": "1962",
+    "date_confidence": "year",
+    "event_type": "religious_experience",
+    "source_name": "Exegesis",
+    "source_type": "curated",
+    "location": "California",
+    "importance": "5",
+    "notes": "Dick explicitly links the episode to the 'Other Sun' and says it was one of the first moments when he could 'see God at all.'",
+    "entities": [
+      "Palmer Eldritch",
+      "The Three Stigmata of Palmer Eldritch"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1962_band_darkness",
+    "summary": "Sees a band of darkness crossing the sky with Laura and later reads it as a sign of Christ's death, the withdrawal of light, and the possibility of a mirrored light at night.",
+    "date_start": "1962",
+    "date_end": "1962",
+    "date_display": "1962",
+    "date_confidence": "year",
+    "event_type": "mystical_experience",
+    "source_name": "Exegesis",
+    "source_type": "curated",
+    "location": "Point Reyes Station, California",
+    "importance": "4",
+    "notes": "This is the sky-vision that later gets folded into his Sun of Righteousness / third-eye thinking.",
+    "entities": [
+      "Laura"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
   }
 ]

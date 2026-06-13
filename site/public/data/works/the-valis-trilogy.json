@@ -7,8 +7,8 @@
   "category": "novels",
   "date_display": "1981–1982 (Mariner Books edition 2011)",
   "date_start": "2011",
-  "card_summary": "Canonical record for The VALIS Trilogy, PKD's novel. This entry consolidates 2 linked archive manifestations and summarizes the best surviving record for editorial and research use.",
-  "page_summary": "The VALIS Trilogy is the canonical works-table record for PKD's novel corpus item. The entry consolidates 2 linked archive manifestations and keeps them under one bibliographic heading so readers can follow edition history, duplication, adaptation, or later republication as a single work record. \n\nThe linked documents span 2 novel. The most visible archive manifestations include The VALIS Trilogy (1981–1982 (Mariner Books edition 2011)), The VALIS Trilogy (2011). \n\nThe richest source summary notes: The VALIS Trilogy is a First Mariner Books omnibus edition published in 2011 by Houghton Mifflin Harcourt (eISBN 978-0-547-86773-1), collecting Philip K. Dick's three final novels: VALIS (1981), The Divine Invasion (1982), and The Transmigration of Timothy Archer (1982).\n\nVALIS, originally published by Bantam, draws on Edward Hussey's The Pre-Socratics and Lao Tzu's Tao Te Ching (translated by D.C. Lau), reflecting its deep engagement with ancient philosophy. The novel is Dick's most directly autobiographical work, featuring a protagonist named Horselover Fat (a translation of Philip Dick's name into Greek and German) who experiences divine revelation and struggles to interpret mystical visions.\n\nThe Divine Invasion continues the theological exploration with a science fiction narrative about the return of God to Earth, while The Transmigration of Timothy Archer, Dick's final completed novel, takes a more realistic literary approach to questions of faith, death, and transcendence through the story of an Episcopal bishop. Together the three novels represent Dick's most sustained engagement with theology, Gnosticism, and the nature of divine reality, drawing heavily on his 1974 mystical experiences and Exegesis writings. The trilogy stands as one of the most philosophically ambitious achievements in science fiction.\n\nResearchers use this entry to move between the canonical work, the archive documents that preserve it, and any later commentary or editorial framing attached to those manifestations.",
+  "card_summary": "Canonical record for The VALIS Trilogy, PKD's novel, gathering 2 archive manifestations under one heading. The VALIS Trilogy is a First Mariner Books omnibus edition published in 2011 by Houghton Mifflin Harcourt (eISBN 978-0-547-86773-1), collecting Philip K.",
+  "page_summary": "The VALIS Trilogy is the canonical works record for PKD's novel. It gathers 2 archive manifestations under one bibliographic heading so edition history, duplication, adaptation, or later republication can be read together. The manifestations span 2 novels. Visible examples include The VALIS Trilogy (1981–1982 (Mariner Books edition 2011)), The VALIS Trilogy (2011). The longest manifestation in the set runs 543 pages.\n\nSource summary: The VALIS Trilogy is a First Mariner Books omnibus edition published in 2011 by Houghton Mifflin Harcourt (eISBN 978-0-547-86773-1), collecting Philip K.\n\nResearchers use this entry to move between the canonical work, the archive documents that preserve it, and later commentary or editorial framing.",
   "page_count": 543,
   "source_count": 2,
   "related_docs": [
@@ -32,8 +32,18 @@
     "slug": "oceanofpdf-com-the-valis-trilogy-philip-k-dick",
     "title": "The VALIS Trilogy"
   },
+  "biography_events": [
+    {
+      "bio_id": "pkd_bio_1981_divine_invasion",
+      "date": "1981",
+      "category": "publication",
+      "event": "Publishes The Divine Invasion as the second novel in the VALIS trilogy",
+      "source": "Sutin",
+      "source_type": "curated"
+    }
+  ],
   "themes": [
-    "religion-gnosis",
-    "reality-breakdown"
+    "reality-breakdown",
+    "religion-gnosis"
   ]
 }

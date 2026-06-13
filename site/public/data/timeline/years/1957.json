@@ -1,5 +1,53 @@
 [
   {
+    "_type": "publication",
+    "work_id": "WORK_eye-in-the-sky",
+    "canonical_title": "Eye in the Sky",
+    "slug": "eye-in-the-sky",
+    "work_type": "novel",
+    "category": "novels",
+    "date_start": "1957",
+    "date_display": "1957",
+    "summary": "Canonical record for Eye in the Sky, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "Eye in the Sky is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is Eye in the Sky (1957).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 0
+  },
+  {
+    "_type": "publication",
+    "work_id": "WORK_the-cosmic-puppets",
+    "canonical_title": "The Cosmic Puppets",
+    "slug": "the-cosmic-puppets",
+    "work_type": "novel",
+    "category": "novels",
+    "date_start": "1957",
+    "date_display": "1957",
+    "summary": "Canonical record for The Cosmic Puppets, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
+    "page_summary": "The Cosmic Puppets is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is The Cosmic Puppets (1957).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+    "source_count": 1,
+    "page_count": 0
+  },
+  {
+    "_type": "biography_event",
+    "bio_id": "pkd_bio_1957_eye_in_the_sky",
+    "summary": "Publishes Eye in the Sky, one of the early SF novels he later grouped among his strongest pre-1962 books; the novel's sky imagery anticipates his later third-eye and sun-of-righteousness language.",
+    "date_start": "1957",
+    "date_end": "1957",
+    "date_display": "1957",
+    "date_confidence": "year",
+    "event_type": "publication",
+    "source_name": "Sutin; Selected Letters",
+    "source_type": "curated",
+    "location": "California",
+    "importance": "3",
+    "notes": "A compact early-novel anchor for the 1950s biography timeline.",
+    "entities": [
+      "Eye in the Sky"
+    ],
+    "theophany_id": null,
+    "theophany_slug": null
+  },
+  {
     "_type": "biography_event",
     "bio_id": "pkd_bio_1957_buber",
     "summary": "Reads Martin Buber and Jewish theological writings on dialogue and faith",
@@ -12,7 +60,7 @@
     "source_type": "curated",
     "location": "Point Reyes Station, California",
     "importance": "3",
-    "notes": null,
+    "notes": "Generated curation note: a range philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification.",
     "entities": [
       "Martin Buber"
     ],

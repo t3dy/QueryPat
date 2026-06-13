@@ -13,7 +13,7 @@
   "wordplay_note": "He is literally acting — undercover as himself",
   "symbolic_note": null,
   "card_description": "Bob Arctor (meaning \"Arctor = actor; arc of descent\") is a character in Philip K. Dick's *A Scanner Darkly*. Undercover narcotics agent who becomes addicted to Substance D while surveilling himself. Name note: He is literally acting — undercover as himself. The split self — surveillance destroys the distinction between observer and observed. First appears in *A Scanner Darkly*.",
-  "full_description": null,
+  "full_description": "Bob Arctor (meaning \"Arctor = actor; arc of descent\") is a character in Philip K. Dick's *A Scanner Darkly*. Undercover narcotics agent who becomes addicted to Substance D while surveilling himself. Name note: He is literally acting — undercover as himself. The split self — surveillance destroys the distinction between observer and observed. First appears in *A Scanner Darkly*.",
   "mention_count": 0,
   "first_work": "A Scanner Darkly",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Bob Arctor",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Bob Arctor",
+      "slug": "bob-arctor",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Bob Arctor",
     "domain": "literary",

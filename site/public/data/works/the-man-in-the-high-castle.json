@@ -7,8 +7,8 @@
   "category": "novels",
   "date_display": "1962",
   "date_start": "1962",
-  "card_summary": "Canonical record for The Man in the High Castle, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
-  "page_summary": "The Man in the High Castle is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is The Man in the High Castle (1962).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+  "card_summary": "Canonical record for The Man in the High Castle, PKD's novel, preserving a single archive manifestation.",
+  "page_summary": "The Man in the High Castle is the canonical works record for PKD's novel. It preserves a single archive manifestation and gives the work a stable bibliographic home. The preserved item here is The Man in the High Castle (1962).\n\nResearchers can use this entry to trace publication context, later commentary, and relationships to other works.",
   "page_count": 0,
   "source_count": 1,
   "related_docs": [
@@ -25,6 +25,48 @@
     "slug": "dick-philip-k-the-man-in-the-high-castle-1962-2016-vintage-books-boston-mariner-",
     "title": "The Man in the High Castle"
   },
+  "biography_events": [
+    {
+      "bio_id": "pkd_bio_1961_i_ching_study",
+      "date": "1961-1963",
+      "category": "philosophical_influence",
+      "event": "Studies the I Ching divination system and uses it as compositional method",
+      "source": "Sutin",
+      "source_type": "curated"
+    },
+    {
+      "bio_id": "pkd_bio_1962_high_castle",
+      "date": "1962",
+      "category": "publication",
+      "event": "Publishes The Man in the High Castle through Putnam as hardcover edition",
+      "source": "Sutin",
+      "source_type": "curated"
+    },
+    {
+      "bio_id": "pkd_bio_1963_hugo_award",
+      "date": "1963",
+      "category": "award",
+      "event": "Wins the Hugo Award for Best Novel for The Man in the High Castle",
+      "source": "Sutin",
+      "source_type": "curated"
+    },
+    {
+      "bio_id": 660,
+      "date": "1975-03-05",
+      "category": "correspondence",
+      "event": "PKD writes to Ursula Le Guin thanking her for praise of Mr. Tagomi (Man in the High Castle) in her London speech.",
+      "source": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
+      "source_type": "letter"
+    },
+    {
+      "bio_id": 701,
+      "date": "1981",
+      "category": "correspondence",
+      "event": "In 1981, PKD wrote 33 letters to Russell Galen, turning the correspondence into a sustained discussion of the science-fiction community, religion and theology, and publishing and career pressures.",
+      "source": "Selected Letters correspondence trend",
+      "source_type": "letter"
+    }
+  ],
   "themes": [
     "illusionary-realities",
     "empire-control",

@@ -13,7 +13,7 @@
     "location": "Chicago, Illinois",
     "source": "Sutin",
     "importance": 5,
-    "notes": ""
+    "notes": "Generated curation note: a day birth entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1929_incubator",
@@ -27,7 +27,7 @@
     "location": "Chicago, Illinois",
     "source": "Arnold",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a month health entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1929_jane_death",
@@ -41,7 +41,7 @@
     "location": "Chicago, Illinois",
     "source": "Sutin",
     "importance": 5,
-    "notes": ""
+    "notes": "Generated curation note: a month family entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1930_dc",
@@ -71,7 +71,7 @@
     "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year family entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1932_reno",
@@ -86,7 +86,7 @@
     "location": "Reno, Nevada",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1933_parent_divorce",
@@ -101,7 +101,7 @@
     "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year family entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1933_move_dc",
@@ -115,7 +115,7 @@
     "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range residence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1934_elementary_school",
@@ -129,7 +129,7 @@
     "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a year education entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1935_separation",
@@ -159,7 +159,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year education entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1937_move_berkeley",
@@ -173,7 +173,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1938_anxiety_episodes",
@@ -187,7 +187,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range health entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1939_health",
@@ -215,7 +215,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year reading entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1940_baum_reading",
@@ -229,7 +229,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range reading entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1941_early_writing",
@@ -243,7 +243,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1941_pulp_reading",
@@ -259,7 +259,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range reading entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1942_ojai",
@@ -287,7 +287,7 @@
     "location": "Berkeley, California",
     "source": "PKD letters to Dorothy K. Dick, Nov 1942",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a month education entry retained from PKD letters to Dorothy K. Dick, Nov 1942. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1943_reading",
@@ -295,7 +295,9 @@
     "date_precision": "year",
     "event": "Phil deepens his reading at Berkeley public schools, encountering early-childhood favorites that will recur in the Exegesis: A.A. Milne, Wind in the Willows, Pinocchio, and (by year-end) the first science-fiction pulps that he subsequently identifies as the formative encounter with the genre.",
     "category": "reading",
-    "entities": [],
+    "entities": [
+      "Exegesis"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
@@ -313,7 +315,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year education entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1944_philosophy_reading",
@@ -328,7 +330,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range reading entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1945_sf_fan_circles",
@@ -342,7 +344,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range friendship entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1946_platonism",
@@ -356,7 +358,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year philosophical influence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1946_ucb_lectures",
@@ -370,7 +372,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range education entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1947_radio_shop",
@@ -384,7 +386,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year employment entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1947_ucb",
@@ -413,7 +415,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range reading entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1948_existentialism",
@@ -428,7 +430,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year philosophical influence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1948_marriage_marlin",
@@ -442,7 +444,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1948_freud_reading",
@@ -456,7 +458,7 @@
     "location": "Berkeley, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range reading entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1949_university_music",
@@ -464,7 +466,9 @@
     "date_precision": "year",
     "event": "Phil works steadily at University Music on Telegraph Avenue in Berkeley, advising customers on classical recordings and absorbing the catalog knowledge that he will draw on throughout the fiction; he attends UC Berkeley briefly without completing a term.",
     "category": "employment",
-    "entities": [],
+    "entities": [
+      "UC Berkeley"
+    ],
     "location": "Berkeley, California",
     "source": "Sutin; Anne R. Dick (The Search, on the record-store milieu)",
     "importance": 4,
@@ -482,7 +486,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year divorce entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1950_marriage_kleo",
@@ -496,7 +500,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1950_kant_reading",
@@ -511,7 +515,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range philosophical influence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1950_sf_correspondence",
@@ -526,7 +530,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range correspondence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1951_first_story_sales",
@@ -541,7 +545,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1951_sf_fandom",
@@ -556,7 +560,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range friendship entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1952_ace_novels",
@@ -570,7 +574,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1952_whitehead_reading",
@@ -584,7 +588,7 @@
     "location": "Berkeley, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1952_wollheim_friendship",
@@ -598,7 +602,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range professional network entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1953_heinlein_support",
@@ -626,7 +630,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1954_french_realism",
@@ -642,7 +646,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range reading entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1954_mainstream_attempts",
@@ -656,7 +660,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1954_mainstream_fiction",
@@ -670,7 +674,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1955_divorce_kleo",
@@ -684,7 +688,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year divorce entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1955_solar_lottery",
@@ -699,7 +703,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1955_classical_music",
@@ -713,7 +717,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range reading entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1955_wagner_music",
@@ -727,7 +731,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range reading entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1956_marriage_anne",
@@ -741,7 +745,7 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1956_point_reyes",
@@ -755,7 +759,7 @@
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1956_jung_early",
@@ -769,7 +773,21 @@
     "location": "Point Reyes Station, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification."
+  },
+  {
+    "id": "pkd_bio_1957_eye_in_the_sky",
+    "date": "1957",
+    "date_precision": "year",
+    "event": "Publishes Eye in the Sky, one of the early SF novels he later grouped among his strongest pre-1962 books; the novel's sky imagery anticipates his later third-eye and sun-of-righteousness language.",
+    "category": "publication",
+    "entities": [
+      "Eye in the Sky"
+    ],
+    "location": "California",
+    "source": "Sutin; Selected Letters",
+    "importance": 3,
+    "notes": "A compact early-novel anchor for the 1950s biography timeline."
   },
   {
     "id": "pkd_bio_1957_buber",
@@ -783,7 +801,7 @@
     "location": "Point Reyes Station, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1958_breakdown",
@@ -797,7 +815,7 @@
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year health entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1958_mainstream_novels",
@@ -812,7 +830,7 @@
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1958_gnosticism",
@@ -826,7 +844,7 @@
     "location": "Point Reyes Station, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1959_marin_county",
@@ -840,7 +858,7 @@
     "location": "Marin County, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1959_plato",
@@ -855,7 +873,7 @@
     "location": "Point Reyes Station, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1960_daughter_laura",
@@ -870,7 +888,7 @@
     "location": "Marin County, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year family entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1960_taoism",
@@ -885,7 +903,7 @@
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range reading entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1961_i_ching_study",
@@ -928,7 +946,7 @@
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 5,
-    "notes": ""
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1962_palmer_eldritch_sun",
@@ -957,7 +975,7 @@
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year divorce entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1963_hugo_award",
@@ -972,7 +990,7 @@
     "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 5,
-    "notes": ""
+    "notes": "Generated curation note: a year award entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1963_marriage_hackett",
@@ -986,7 +1004,7 @@
     "location": "Oakland, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1963_patristic",
@@ -1001,7 +1019,7 @@
     "location": "Oakland, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range reading entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1963_counterculture",
@@ -1016,7 +1034,7 @@
     "location": "Bay Area, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range friendship entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1964_three_stigmata",
@@ -1031,7 +1049,7 @@
     "location": "Oakland, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1964_amphetamine",
@@ -1045,7 +1063,7 @@
     "location": "Oakland, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range drug use entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1964_mysticism",
@@ -1060,7 +1078,7 @@
     "location": "Oakland, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range mystical experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1965_divorce_hackett",
@@ -1074,7 +1092,7 @@
     "location": "Oakland, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year divorce entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1965_teilhard",
@@ -1088,7 +1106,7 @@
     "location": "Oakland, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1965_tillich",
@@ -1102,7 +1120,7 @@
     "location": "Oakland, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1966_hackett_remarriage",
@@ -1116,7 +1134,7 @@
     "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1966_san_rafael",
@@ -1130,7 +1148,7 @@
     "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1966_sf_writers",
@@ -1144,7 +1162,7 @@
     "location": "Bay Area, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a year friendship entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1966_metaphysics",
@@ -1159,7 +1177,7 @@
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1967_paranoia_drugs",
@@ -1173,7 +1191,7 @@
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year drug use entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1967_voice_creator",
@@ -1201,7 +1219,7 @@
     "location": "Bay Area, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range friendship entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1968_androids",
@@ -1216,7 +1234,7 @@
     "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 5,
-    "notes": ""
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1968_maze_theology_notes",
@@ -1276,7 +1294,7 @@
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range reading entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1969_ubik",
@@ -1291,7 +1309,7 @@
     "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1969_powers_theology",
@@ -1305,7 +1323,7 @@
     "location": "Bay Area, California",
     "source": "Sutin",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range mystical experience entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1970_early_christianity",
@@ -1320,7 +1338,7 @@
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year reading entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1970_separation_hackett",
@@ -1334,7 +1352,7 @@
     "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year divorce entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1970_separation_nancy",
@@ -1348,7 +1366,7 @@
     "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year divorce entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1971_arnold_amphetamine_paranoia",
@@ -1377,7 +1395,7 @@
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year crime entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1971_hospitalization",
@@ -1391,7 +1409,7 @@
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year health entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1971_surveillance_paranoia",
@@ -1406,7 +1424,7 @@
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year health entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1971_gnostic_reading",
@@ -1421,7 +1439,7 @@
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1972_meets_tessa",
@@ -1435,7 +1453,7 @@
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year friendship entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1972_return_us",
@@ -1449,7 +1467,7 @@
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1972_suicide_attempt",
@@ -1463,7 +1481,7 @@
     "location": "Vancouver, British Columbia",
     "source": "Sutin",
     "importance": 5,
-    "notes": ""
+    "notes": "Generated curation note: a year health entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1972_vancouver",
@@ -1478,7 +1496,7 @@
     "location": "Vancouver, British Columbia",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1972_vancouver_x_kalay_arnold",
@@ -1508,7 +1526,7 @@
     "location": "University of British Columbia, Vancouver, British Columbia",
     "source": "PKD public appearances audit",
     "importance": 5,
-    "notes": ""
+    "notes": "Generated curation note: a month lecture entry retained from PKD public appearances audit. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1973_christopher_birth",
@@ -1523,7 +1541,7 @@
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year family entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1973_marriage_tessa",
@@ -1537,7 +1555,7 @@
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1973_messianism",
@@ -1552,7 +1570,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year religious experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1973_csuf_talk",
@@ -1567,7 +1585,7 @@
     "location": "California State University, Fullerton, Fullerton, California",
     "source": "PKD public appearances audit",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a month lecture entry retained from PKD public appearances audit. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1974_exegesis_begin",
@@ -1581,7 +1599,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 5,
-    "notes": ""
+    "notes": "Generated curation note: a year gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1974_fish_sign_arnold",
@@ -1626,7 +1644,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 5,
-    "notes": ""
+    "notes": "Generated curation note: a range paranormal experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1974_03_son_diagnosis",
@@ -1640,7 +1658,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a month visionary experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1974_03_zebra",
@@ -1654,7 +1672,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a month gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1974_red_gold_plasmatic_energy",
@@ -1701,7 +1719,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range mystical experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1974_philosophical_speculation",
@@ -1716,7 +1734,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1974_black_iron_prison",
@@ -1731,7 +1749,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1974_exegesis_ongoing",
@@ -1745,7 +1763,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 5,
-    "notes": ""
+    "notes": "Generated curation note: a range religious thought entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1975_separation_tessa",
@@ -1759,7 +1777,7 @@
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year divorce entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1975_brunner_cia_breakin",
@@ -1894,7 +1912,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range correspondence entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1976_valis_drafts",
@@ -1908,7 +1926,7 @@
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1976_harlan_lsd_correction",
@@ -1967,7 +1985,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1976_gnosticism_study",
@@ -1982,7 +2000,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range reading entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1977_joan_simpson_nursing",
@@ -2028,7 +2046,7 @@
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1977_jaynes_letter",
@@ -2142,7 +2160,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a range religious thought entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1978_exegesis_continued",
@@ -2156,7 +2174,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year religious thought entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1978_warrick_right_hemisphere",
@@ -2187,7 +2205,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a range mystical experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1979_lectures",
@@ -2201,7 +2219,7 @@
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year mystical experience entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1979_orange_county",
@@ -2215,7 +2233,7 @@
     "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1979_fan_correspondence",
@@ -2229,7 +2247,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 2,
-    "notes": ""
+    "notes": "Generated curation note: a range correspondence entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1980_hollywood_attention",
@@ -2244,7 +2262,7 @@
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a year film adaptation entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1980_simulation_theory",
@@ -2274,7 +2292,7 @@
     "location": "Los Angeles, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year film adaptation entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1981_divine_invasion",
@@ -2289,7 +2307,7 @@
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": ""
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1981_visions_novels",
@@ -2305,6 +2323,102 @@
     "source": "Arnold",
     "importance": 3,
     "notes": "Recast from generic vision to religious experience because the event explicitly centers religious visions and theological fiction."
+  },
+  {
+    "id": "pkd_bio_1981_01_09_fish_sign_form_world",
+    "date": "1981-01-09",
+    "date_precision": "day",
+    "event": "Tells Patricia Warrick that the golden fish sign revealed different spatiotemporal worlds as one shared essence, explicitly linking the episode to Plato's Forms and anamnesis.",
+    "category": "gnostic_experience",
+    "entities": [
+      "Patricia Warrick",
+      "Plato",
+      "Fish Sign"
+    ],
+    "location": "Santa Ana, California",
+    "source": "Selected Letters 1980-1982, letter to Patricia Warrick, January 9, 1981",
+    "importance": 5,
+    "notes": "Letter id: LET_1981-01-09_PATRICIA_WARRICK_0023."
+  },
+  {
+    "id": "pkd_bio_1981_01_10_sophia_final_world",
+    "date": "1981-01-10",
+    "date_precision": "day",
+    "event": "Says the AI voice keeps announcing that St. Sophia will be born again and that 'the work is complete' and 'the final world is here,' recasting the March 1974 voice as ongoing revelation.",
+    "category": "religious_experience",
+    "entities": [
+      "Patricia Warrick",
+      "Saint Sophia",
+      "AI Voice"
+    ],
+    "location": "Santa Ana, California",
+    "source": "Selected Letters 1980-1982, letter to Patricia Warrick, January 10, 1981",
+    "importance": 5,
+    "notes": "Letter id: LET_1981-01-10_PATRICIA_WARRICK_0024."
+  },
+  {
+    "id": "pkd_bio_1981_01_26_perturbation_reality_field",
+    "date": "1981-01-26",
+    "date_precision": "day",
+    "event": "Writes Patricia Warrick that March 1974 was a miracle, a 'perturbation in the reality field' that violated ordinary world-order but still followed its internal logic.",
+    "category": "gnostic_experience",
+    "entities": [
+      "Patricia Warrick",
+      "AI Voice",
+      "Reality Field"
+    ],
+    "location": "Santa Ana, California",
+    "source": "Selected Letters 1980-1982, letter to Patricia Warrick, January 26, 1981",
+    "importance": 4,
+    "notes": "Letter id: LET_1981-01-26_PATRICIA_WARRICK_0044."
+  },
+  {
+    "id": "pkd_bio_1981_02_10_illo_tempore_fish_sign",
+    "date": "1981-02-10",
+    "date_precision": "day",
+    "event": "Explains to Patricia Warrick that the February 1974 fish sign was anamnesis: a memory of illo tempore rather than ordinary linear-time recollection.",
+    "category": "paranormal_experience",
+    "entities": [
+      "Patricia Warrick",
+      "Fish Sign",
+      "Mircea Eliade"
+    ],
+    "location": "Santa Ana, California",
+    "source": "Selected Letters 1980-1982, letter to Patricia Warrick, February 10, 1981",
+    "importance": 5,
+    "notes": "Letter id: LET_1981-02-10_PATRICIA_WARRICK_0050."
+  },
+  {
+    "id": "pkd_bio_1981_02_14_ai_voice_taped_messages",
+    "date": "1981-02-14",
+    "date_precision": "day",
+    "event": "Describes the AI voice's prophecies about St. Sophia as if they were taped messages programmed to play once the disinhibiting stimulus had set the mechanism in motion.",
+    "category": "hearing_voices_experience",
+    "entities": [
+      "Patricia Warrick",
+      "AI Voice",
+      "Saint Sophia"
+    ],
+    "location": "Santa Ana, California",
+    "source": "Selected Letters 1980-1982, letter to Patricia Warrick, February 14, 1981",
+    "importance": 5,
+    "notes": "Letter id: LET_1981-02-14_PATRICIA_WARRICK_0059."
+  },
+  {
+    "id": "pkd_bio_1981_02_14_lords_supper_hologram",
+    "date": "1981-02-14",
+    "date_precision": "day",
+    "event": "Tells Patricia Warrick the Lord's Supper kept him in touch with Christ in a way that felt like looking into a hologram and seeing the figure present within the sacrament.",
+    "category": "mystical_experience",
+    "entities": [
+      "Patricia Warrick",
+      "Lord's Supper",
+      "Star Wars"
+    ],
+    "location": "Santa Ana, California",
+    "source": "Selected Letters 1980-1982, letter to Patricia Warrick, February 14, 1981",
+    "importance": 4,
+    "notes": "Letter id: LET_1981-02-14_PATRICIA_WARRICK_0059."
   },
   {
     "id": "pkd_bio_1981_galen_type_c_psyche",
@@ -2334,7 +2448,7 @@
     "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 5,
-    "notes": ""
+    "notes": "Generated curation note: a month health entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1982_death",
@@ -2348,7 +2462,7 @@
     "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 5,
-    "notes": ""
+    "notes": "Generated curation note: a day death entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1966_jung_reading",
@@ -2362,6 +2476,6 @@
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": ""
+    "notes": "Generated curation note: a approximate philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification."
   }
 ]

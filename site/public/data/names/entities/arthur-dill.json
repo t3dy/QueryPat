@@ -13,7 +13,7 @@
   "wordplay_note": "The protagonist who questions the machine",
   "symbolic_note": null,
   "card_description": "Arthur Dill is a character in Philip K. Dick's *Vulcan's Hammer*. Functionary who begins to question Unity's reliance on Vulcan 3. Name note: The protagonist who questions the machine. The questioner within the machine — resistance from inside. First appears in *Vulcan's Hammer*.",
-  "full_description": null,
+  "full_description": "Arthur Dill is a character in Philip K. Dick's *Vulcan's Hammer*. Functionary who begins to question Unity's reliance on Vulcan 3. Name note: The protagonist who questions the machine. The questioner within the machine — resistance from inside. First appears in *Vulcan's Hammer*.",
   "mention_count": 0,
   "first_work": "Vulcan's Hammer",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Arthur Dill",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Arthur Dill",
+      "slug": "arthur-dill",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Arthur Dill",
     "domain": "literary",

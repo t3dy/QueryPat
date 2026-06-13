@@ -7,8 +7,8 @@
   "category": "novels",
   "date_display": "1970",
   "date_start": "1970",
-  "card_summary": "Canonical record for A Maze of Death, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
-  "page_summary": "A Maze of Death is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is A Maze of Death (1970).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+  "card_summary": "Canonical record for A Maze of Death, PKD's novel. This single archive manifestation runs 104 pages.",
+  "page_summary": "A Maze of Death is the canonical works record for PKD's novel. It preserves a single archive manifestation and gives the work a stable bibliographic home. The preserved item here is A Maze of Death (1970). The archive copy runs 104 pages.\n\nResearchers can use this entry to trace publication context, later commentary, and relationships to other works.",
   "page_count": 104,
   "source_count": 1,
   "related_docs": [
@@ -25,6 +25,72 @@
     "slug": "dick-philip-kindred-a-maze-of-death-libgen-li",
     "title": "A Maze of Death"
   },
+  "biography_events": [
+    {
+      "bio_id": "pkd_bio_1968_maze_theology_notes",
+      "date": "1968",
+      "category": "gnostic_experience",
+      "event": "PKD drafts the Maze/Tench theology notes that develop the colony plot, Delmak setting, divine plurality, the Manufacturer, decay, and the form-destroying principle later associated with A Maze of Death.",
+      "source": "The Maze of Death Theology (Maze notes PDF)",
+      "source_type": "curated"
+    },
+    {
+      "bio_id": "pkd_bio_1968_sarill_houseguest_maze",
+      "date": "1968",
+      "category": "friendship",
+      "event": "William Sarill first meets PKD and later spends more than a month as his houseguest during the period associated with the theology behind A Maze of Death.",
+      "source": "William Sarill, Will the Real Ubik Please Stand Up?; A Maze of Death foreword",
+      "source_type": "curated"
+    },
+    {
+      "bio_id": "pkd_bio_1977_sarill_reencounter_maze",
+      "date": "1977-07-27",
+      "category": "correspondence",
+      "event": "After several years without contact, PKD encounters William Sarill again and discusses how their theologies have changed since the Maze of Death period.",
+      "source": "Selected Letters 1977-1979, letter to Eugene Warren, July 28, 1977",
+      "source_type": "curated"
+    },
+    {
+      "bio_id": 457,
+      "date": "September 15, 1976",
+      "category": "other",
+      "event": "Being \"awakened to memory.\"",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    },
+    {
+      "bio_id": 406,
+      "date": "September 15, 1976",
+      "category": "other",
+      "event": "Calling Ginger \"Georgie\" (memory leak from a past cycle).",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    },
+    {
+      "bio_id": 565,
+      "date": "September 15, 1976",
+      "category": "vision",
+      "event": "Re-reading his own work and finding \"impossible\" correlations with 3-74.",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    },
+    {
+      "bio_id": 454,
+      "date": "September 15, 1976",
+      "category": "relationship",
+      "event": "Realizing \"I am an illegal Christian\" (The Thomas Persona).",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    },
+    {
+      "bio_id": 430,
+      "date": "September 15, 1976",
+      "category": "legal",
+      "event": "Realizing the 1st Advent was level 1 breaking into level 2.",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    }
+  ],
   "themes": [
     "reality-breakdown",
     "religion-gnosis",

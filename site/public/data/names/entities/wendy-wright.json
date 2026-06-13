@@ -13,7 +13,7 @@
   "wordplay_note": "An inertial whose name suggests crafted perfection",
   "symbolic_note": null,
   "card_description": "Wendy Wright (meaning \"Wright = maker/craftsman\") is a character in Philip K. Dick's *Ubik*. Anti-psi whose body deteriorates and mummifies as half-life entropy accelerates. Name note: An inertial whose name suggests crafted perfection. Her physical decay embodies the novel's theme of irreversible cosmic entropy. First appears in *Ubik*.",
-  "full_description": null,
+  "full_description": "Wendy Wright (meaning \"Wright = maker/craftsman\") is a character in Philip K. Dick's *Ubik*. Anti-psi whose body deteriorates and mummifies as half-life entropy accelerates. Name note: An inertial whose name suggests crafted perfection. Her physical decay embodies the novel's theme of irreversible cosmic entropy. First appears in *Ubik*.",
   "mention_count": 0,
   "first_work": "Ubik",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Wendy Wright",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Wendy Wright",
+      "slug": "wendy-wright",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Wendy Wright",
     "domain": "literary",

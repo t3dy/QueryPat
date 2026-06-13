@@ -21,6 +21,7 @@ DATA_DIR = ROOT / "site" / "public" / "data"
 WORKS_DIR = DATA_DIR / "works"
 THEMES_DIR = DATA_DIR / "themes"
 ARCHIVE_DIR = DATA_DIR / "archive" / "docs"
+CURATED_BIO_PATH = DATA_DIR / "biography" / "curated.json"
 
 FICTION_CATEGORIES = {"novels", "short_stories"}
 
@@ -174,6 +175,77 @@ def describe_work_type(work_type: str, category: str | None) -> str:
     return work_type.replace("_", " ")
 
 
+def biography_title_aliases(title: str) -> list[str]:
+    cleaned = clean_title(title)
+    aliases = {cleaned, title}
+
+    stripped = re.sub(r"[^\w\s]", " ", cleaned)
+    stripped = re.sub(r"\s+", " ", stripped).strip()
+    if stripped:
+        aliases.add(stripped)
+
+    if cleaned.lower().startswith(("the ", "a ", "an ")):
+        aliases.add(cleaned.split(" ", 1)[1])
+        aliases.add(re.sub(r"^(the|a|an)\s+", "", stripped, flags=re.I))
+
+    manual = {
+        "Do Androids Dream of Electric Sheep?": ["Do Androids Dream of Electric Sheep", "Electric Sheep", "Androids", "Sheep"],
+        "The Man in the High Castle": ["MITHC", "High Castle"],
+        "The Three Stigmata of Palmer Eldritch": ["Palmer Eldritch"],
+        "A Scanner Darkly": ["Scanner Darkly"],
+        "The Transmigration of Timothy Archer": ["Timothy Archer"],
+        "Flow My Tears, the Policeman Said": ["Flow My Tears"],
+        "The Divine Invasion": ["Divine Invasion", "DIVINE INVASION"],
+        "Deus Irae": ["Deus Irae", "DEUS IRAE"],
+        "VALIS": ["Valis", "V.A.L.I.S."],
+        "Eye in the Sky": ["Eye in the Sky"],
+    }
+    for alias in manual.get(cleaned, []):
+        aliases.add(alias)
+
+    return sorted({a for a in aliases if a}, key=len, reverse=True)
+
+
+def match_biography_events(title: str, events: list[dict[str, Any]], limit: int = 8) -> list[dict[str, Any]]:
+    aliases = biography_title_aliases(title)
+    patterns = [re.compile(rf"(?<![a-z0-9]){re.escape(alias.lower())}(?![a-z0-9])") for alias in aliases if alias]
+    matched: list[dict[str, Any]] = []
+    seen: set[str] = set()
+
+    for ev in events:
+        text = " ".join(
+            str(part or "")
+            for part in (
+                ev.get("summary"),
+                ev.get("detail"),
+                ev.get("event"),
+                ev.get("notes"),
+            )
+        )
+        text_norm = re.sub(r"[^a-z0-9]+", " ", text.lower())
+        if not text_norm.strip():
+            continue
+        if not any(pattern.search(text_norm) for pattern in patterns):
+            continue
+        bio_id = str(ev.get("bio_id") or ev.get("id") or "")
+        if bio_id and bio_id in seen:
+            continue
+        if bio_id:
+            seen.add(bio_id)
+        matched.append(
+            {
+                "bio_id": ev.get("bio_id") or ev.get("id"),
+                "date": ev.get("date_display") or ev.get("date_start") or ev.get("date") or "Unknown",
+                "category": ev.get("event_type") or ev.get("category") or "other",
+                "event": ev.get("summary") or ev.get("event") or "",
+                "source": ev.get("source_name") or ev.get("source") or ev.get("source_type") or "",
+                "source_type": ev.get("source_type") or "",
+            }
+        )
+    matched.sort(key=lambda row: (row["date"] or "", row["event"] or ""))
+    return matched[:limit]
+
+
 def load_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -188,12 +260,160 @@ def write_text(path: Path, data: str) -> None:
     path.write_text(data, encoding="utf-8")
 
 
+def load_curated_bio_events() -> list[dict[str, Any]]:
+    if not CURATED_BIO_PATH.exists():
+        return []
+    try:
+        rows = json.loads(CURATED_BIO_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+    events: list[dict[str, Any]] = []
+    for row in rows:
+        events.append(
+            {
+                "bio_id": row.get("id"),
+                "summary": row.get("event"),
+                "detail": row.get("notes"),
+                "event_type": row.get("category"),
+                "source_name": row.get("source"),
+                "source_type": "curated",
+                "date_start": row.get("date"),
+                "date_display": row.get("date"),
+                "notes": row.get("notes"),
+            }
+        )
+    return events
+
+
 def compile_patterns(patterns: list[str]) -> list[re.Pattern[str]]:
     return [re.compile(pattern, re.IGNORECASE) for pattern in patterns]
 
 
 for theme in THEME_DEFINITIONS:
     theme["_compiled_patterns"] = compile_patterns(theme["patterns"])
+
+
+def normalize_unicode(text: str) -> str:
+    replacements = {
+        "â€“": "–",
+        "â€”": "—",
+        "â€™": "’",
+        "â€œ": "“",
+        "â€\x9d": "”",
+        "â€˜": "‘",
+    }
+    for bad, good in replacements.items():
+        text = text.replace(bad, good)
+    return text
+
+
+def normalize_fragment(text: str) -> str:
+    return normalize_spaces(normalize_unicode(text))
+
+
+def describe_doc_type(doc_type: str, count: int) -> str:
+    labels = {
+        "archive_pdf": ("archive PDF", "archive PDFs"),
+        "novel": ("novel", "novels"),
+        "primary_text": ("primary text", "primary texts"),
+        "letter": ("letter", "letters"),
+        "short_story": ("short story", "short stories"),
+        "short_stories": ("short-story collection", "short-story collections"),
+    }
+    singular, plural = labels.get(doc_type, (doc_type.replace("_", " "), f"{doc_type.replace('_', ' ')}s"))
+    return singular if count == 1 else plural
+
+
+def format_doc_mix(doc_types: dict[str, int]) -> str:
+    parts = []
+    for doc_type, count in sorted(doc_types.items()):
+        parts.append(f"{count} {describe_doc_type(doc_type, count)}")
+    return ", ".join(parts)
+
+
+def summarize_source_text(work_slug: str, source_text: str, limit: int = 260) -> str:
+    summary = first_sentence(extract_nonboilerplate(source_text), limit=limit)
+    if is_boilerplate(summary) or "full summary pending" in summary.lower():
+        summary = WORK_PLOT_NOTES.get(work_slug, "")
+    return summary.strip()
+
+
+def build_card_summary(
+    canonical_title: str,
+    work_kind: str,
+    source_count: int,
+    work_slug: str,
+    source_text: str,
+    page_count_value: int,
+) -> str:
+    summary = summarize_source_text(work_slug, source_text, limit=220)
+    if source_count > 1:
+        lead = (
+            f"Canonical record for {canonical_title}, PKD's {work_kind}, "
+            f"gathering {source_count} archive manifestations under one heading."
+        )
+    else:
+        lead = (
+            f"Canonical record for {canonical_title}, PKD's {work_kind}, "
+            f"preserving a single archive manifestation."
+        )
+        if page_count_value:
+            lead = (
+                f"Canonical record for {canonical_title}, PKD's {work_kind}. "
+                f"This single archive manifestation runs {page_count_value} page"
+                f"{'s' if page_count_value != 1 else ''}."
+            )
+    if summary:
+        lead += f" {summary}"
+    return lead
+
+
+def build_page_summary(
+    canonical_title: str,
+    work_kind: str,
+    source_count: int,
+    source_mix: str,
+    top_doc_phrase: str,
+    work_slug: str,
+    source_text: str,
+    page_count_value: int,
+) -> str:
+    intro = f"{canonical_title} is the canonical works record for PKD's {work_kind}."
+    if source_count > 1:
+        intro += (
+            f" It gathers {source_count} archive manifestations under one bibliographic heading so edition history, "
+            f"duplication, adaptation, or later republication can be read together."
+        )
+        if source_mix:
+            intro += f" The manifestations span {source_mix}."
+        if top_doc_phrase:
+            intro += f" Visible examples include {top_doc_phrase}."
+        if page_count_value:
+            intro += f" The longest manifestation in the set runs {page_count_value} pages."
+    else:
+        intro += " It preserves a single archive manifestation and gives the work a stable bibliographic home."
+        if top_doc_phrase:
+            intro += f" The preserved item here is {top_doc_phrase}."
+        if page_count_value:
+            intro += f" The archive copy runs {page_count_value} page{'s' if page_count_value != 1 else ''}."
+
+    summary = summarize_source_text(work_slug, source_text, limit=320)
+    if summary:
+        body_label = "Source summary" if source_count > 1 else "Archive summary"
+        body = f"{body_label}: {summary}"
+    else:
+        body = ""
+
+    closing = (
+        "Researchers use this entry to move between the canonical work, the archive documents that preserve it, and "
+        "later commentary or editorial framing."
+        if source_count > 1
+        else "Researchers can use this entry to trace publication context, later commentary, and relationships to other works."
+    )
+
+    if body:
+        return f"{intro}\n\n{body}\n\n{closing}"
+    return f"{intro}\n\n{closing}"
 
 
 def ensure_tables(db: sqlite3.Connection) -> None:
@@ -244,6 +464,30 @@ def build_work_rows(db: sqlite3.Connection) -> list[dict[str, Any]]:
         key = (clean_title(title).lower(), (author or "").strip().lower())
         grouped[key].append(doc)
 
+    bio_events_rows = db.execute(
+        """
+        SELECT bio_id, summary, detail, event_type, source_name, source_type,
+               date_start, date_display, notes
+        FROM biography_events
+        """
+    ).fetchall()
+    bio_events: list[dict[str, Any]] = []
+    for row in bio_events_rows:
+        bio_events.append(
+            {
+                "bio_id": row[0],
+                "summary": row[1],
+                "detail": row[2],
+                "event_type": row[3],
+                "source_name": row[4],
+                "source_type": row[5],
+                "date_start": row[6],
+                "date_display": row[7],
+                "notes": row[8],
+            }
+        )
+    bio_events.extend(load_curated_bio_events())
+
     works: list[dict[str, Any]] = []
     for (title_key, author_key), docs in grouped.items():
         related_docs = []
@@ -260,7 +504,7 @@ def build_work_rows(db: sqlite3.Connection) -> list[dict[str, Any]]:
                 "doc_id": doc_id,
                 "title": title,
                 "slug": slug,
-                "date_display": date_display,
+                "date_display": normalize_fragment(date_display or ""),
                 "doc_type": doc_type,
             })
             if card_summary:
@@ -286,9 +530,7 @@ def build_work_rows(db: sqlite3.Connection) -> list[dict[str, Any]]:
             work_type = max(categories.items(), key=lambda item: (item[1], item[0]))[0] if categories else "archive_pdf"
         work_kind = describe_work_type(work_type, max(categories.items(), key=lambda item: (item[1], item[0]))[0] if categories else category)
         work_id = f"WORK_{slugify(clean_title(title) or slug or doc_id)}"
-        source_mix = ", ".join(
-            f"{doc_types[doc_type]} {doc_type.replace('_', ' ')}" for doc_type in sorted(doc_types)
-        )
+        source_mix = format_doc_mix(doc_types)
         top_docs = sorted(
             related_docs,
             key=lambda item: (item["date_display"] or "", item["title"]),
@@ -297,45 +539,29 @@ def build_work_rows(db: sqlite3.Connection) -> list[dict[str, Any]]:
             f"{item['title']} ({item['date_display'] or 'undated'})" for item in top_docs
         )
         canonical_title = clean_title(title) or title
-        date_display_value = min(date_displays) if date_displays else date_display
+        date_display_value = normalize_fragment(min(date_displays) if date_displays else (date_display or ""))
         source_count = len(related_docs)
         page_count_value = max(page_counts) if page_counts else (page_count or 0)
-        if source_count > 1:
-            card_summary = (
-                f"Canonical record for {canonical_title}, PKD's {work_kind}. "
-                f"This entry consolidates {source_count} linked archive manifestations and summarizes the best surviving record "
-                f"for editorial and research use."
-            )
-            page_summary = (
-                f"{canonical_title} is the canonical works-table record for PKD's {work_kind} corpus item. "
-                f"The entry consolidates {source_count} linked archive manifestations and keeps them under one bibliographic heading "
-                f"so readers can follow edition history, duplication, adaptation, or later republication as a single work record. "
-            )
-            if source_mix:
-                page_summary += f"\n\nThe linked documents span {source_mix}. "
-            if top_doc_phrase:
-                page_summary += f"The most visible archive manifestations include {top_doc_phrase}. "
-            if primary_page_summary:
-                page_summary += f"\n\nThe richest source summary notes: {primary_page_summary}"
-            page_summary += (
-                "\n\nResearchers use this entry to move between the canonical work, the archive documents that preserve it, and any "
-                "later commentary or editorial framing attached to those manifestations."
-            )
-        else:
-            card_summary = (
-                f"Canonical record for {canonical_title}, PKD's {work_kind}. "
-                f"Linked to a single archive manifestation preserved in the archive."
-            )
-            page_summary = (
-                f"{canonical_title} is the canonical works-table record for PKD's {work_kind} corpus item. "
-                f"The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a "
-                f"single place to follow its bibliographic and interpretive context."
-            )
-            if top_doc_phrase:
-                page_summary += f"\n\nThe preserved archive item here is {top_doc_phrase}."
-            if primary_page_summary:
-                page_summary += f"\n\nThe source record itself summarizes the work as follows: {primary_page_summary}"
-            page_summary += "\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works."
+        biography_events = match_biography_events(canonical_title, bio_events)
+        source_text = primary_page_summary or primary_card_summary
+        card_summary = build_card_summary(
+            canonical_title,
+            work_kind,
+            source_count,
+            slug,
+            source_text,
+            page_count_value,
+        )
+        page_summary = build_page_summary(
+            canonical_title,
+            work_kind,
+            source_count,
+            source_mix,
+            top_doc_phrase,
+            slug,
+            source_text,
+            page_count_value,
+        )
         works.append({
             "work_id": work_id,
             "canonical_title": canonical_title,
@@ -351,6 +577,7 @@ def build_work_rows(db: sqlite3.Connection) -> list[dict[str, Any]]:
             "source_count": source_count,
             "related_docs": related_docs,
             "first_doc": {"doc_id": doc_id, "slug": slug, "title": title},
+            "biography_events": biography_events,
         })
     return works
 
@@ -519,7 +746,7 @@ def normalize_spaces(text: str) -> str:
 
 
 def first_sentence(text: str, limit: int = 220) -> str:
-    text = normalize_spaces((text or "").replace("Full summary pending.", "").replace("\u00e2\u20ac\u201c", " - "))
+    text = normalize_fragment((text or "").replace("Full summary pending.", ""))
     if not text:
         return ""
     match = re.search(r"(.+?[.!?])(?:\s|$)", text)
@@ -531,7 +758,7 @@ def first_sentence(text: str, limit: int = 220) -> str:
 
 
 def extract_nonboilerplate(text: str) -> str:
-    raw = normalize_spaces((text or "").replace("\u00e2\u20ac\u201c", " - "))
+    raw = normalize_fragment(text or "")
     if "The source record itself summarizes the work as follows:" in raw:
         raw = raw.split("The source record itself summarizes the work as follows:", 1)[1].strip()
     if "The richest source summary notes:" in raw:
@@ -552,9 +779,12 @@ def is_boilerplate(summary: str) -> bool:
 
 
 def theme_work_paragraph(theme_slug: str, work: dict[str, Any]) -> str:
-    summary_source = extract_nonboilerplate(work.get("page_summary") or "")
-    summary = first_sentence(summary_source) or first_sentence(work.get("card_summary") or "")
-    if is_boilerplate(summary) or "full summary pending" in summary.lower():
+    summary = summarize_source_text(
+        work["slug"],
+        work.get("page_summary") or work.get("card_summary") or "",
+        limit=240,
+    )
+    if not summary:
         summary = WORK_PLOT_NOTES.get(work["slug"], f"{work['canonical_title']} is one of the corpus items tagged for this theme.")
     device_note = THEME_DEVICE_NOTES.get(theme_slug, "Dick uses recurring motifs, character contrasts, and structural irony to develop the theme.")
     label = "novel" if work.get("category") == "novels" else "story collection"
@@ -562,9 +792,9 @@ def theme_work_paragraph(theme_slug: str, work: dict[str, Any]) -> str:
     linked_title = f"[{title}](/works/{work['slug']})"
     return (
         f"### {title}\n\n"
-        f"{summary} In a {label} like {linked_title}, that premise becomes a thematic pressure point rather than a background idea. "
+        f"{summary} In a {label} like {linked_title}, that premise becomes a thematic pressure point instead of background decoration. "
         f"{device_note} "
-        f"The result is a plot that keeps turning the same question over from different angles, so the theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside."
+        f"The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside."
     )
 
 

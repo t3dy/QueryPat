@@ -7,8 +7,8 @@
   "category": "novels",
   "date_display": "1976",
   "date_start": "1976",
-  "card_summary": "Canonical record for Deus Irae, PKD's novel. Linked to a single archive manifestation preserved in the archive.",
-  "page_summary": "Deus Irae is the canonical works-table record for PKD's novel corpus item. The record links the archive's preserved manifestation of the work to the broader corpus and gives researchers a single place to follow its bibliographic and interpretive context.\n\nThe preserved archive item here is Deus Irae (1976).\n\nThe source record itself summarizes the work as follows: Full summary pending.\n\nThe entry is most useful when tracing publication context, later commentary, or relationships to other works.",
+  "card_summary": "Canonical record for Deus Irae, PKD's novel. This single archive manifestation runs 116 pages.",
+  "page_summary": "Deus Irae is the canonical works record for PKD's novel. It preserves a single archive manifestation and gives the work a stable bibliographic home. The preserved item here is Deus Irae (1976). The archive copy runs 116 pages.\n\nResearchers can use this entry to trace publication context, later commentary, and relationships to other works.",
   "page_count": 116,
   "source_count": 1,
   "related_docs": [
@@ -25,6 +25,72 @@
     "slug": "dick-philip-kindred-zelazny-roger-deus-irae-libgen-li",
     "title": "Deus Irae"
   },
+  "biography_events": [
+    {
+      "bio_id": "pkd_bio_1968_zelazny_deus_irae",
+      "date": "1968-05-21",
+      "category": "professional_network",
+      "event": "Writes that he and Roger Zelazny are planning to collaborate on Deus Irae from a 1964 outline Dick had been unable to complete alone.",
+      "source": "Selected Letters Vol. 1, letter to Andy, May 21, 1968",
+      "source_type": "curated"
+    },
+    {
+      "bio_id": 719,
+      "date": "1970",
+      "category": "correspondence",
+      "event": "In 1970, PKD wrote 3 letters to Roger Zelazny, turning the correspondence into a sustained discussion of family and relationship strain, the science-fiction community, and religion and theology.",
+      "source": "Selected Letters correspondence trend",
+      "source_type": "letter"
+    },
+    {
+      "bio_id": 694,
+      "date": "1975",
+      "category": "correspondence",
+      "event": "In 1975, PKD wrote 13 letters to Jack Scovil, turning the correspondence into a sustained discussion of publishing and career pressures, money and royalty problems, and the science-fiction community.",
+      "source": "Selected Letters correspondence trend",
+      "source_type": "letter"
+    },
+    {
+      "bio_id": 695,
+      "date": "1975",
+      "category": "correspondence",
+      "event": "In 1975, PKD wrote 7 letters to Paul Williams, turning the correspondence into a sustained discussion of metaphysics and philosophy, visions and revelatory experience, religion and theology, the science-fiction community, publishing and career pressures, and drugs and altered states.",
+      "source": "Selected Letters correspondence trend",
+      "source_type": "letter"
+    },
+    {
+      "bio_id": "pkd_bio_1975_deus_irae_ms_complete",
+      "date": "1975-07-02",
+      "category": "publication",
+      "event": "Reports to Nancy and Isa Hackett that Roger Zelazny has finally mailed his completed Deus Irae material, making a full rough draft available.",
+      "source": "Selected Letters 1975-1976, letter to Nancy and Isa Hackett, July 2, 1975",
+      "source_type": "curated"
+    },
+    {
+      "bio_id": 737,
+      "date": "1976",
+      "category": "correspondence",
+      "event": "In 1976, PKD wrote 3 letters to Uwe Anton, turning the correspondence into a sustained discussion of the science-fiction community.",
+      "source": "Selected Letters correspondence trend",
+      "source_type": "letter"
+    },
+    {
+      "bio_id": 683,
+      "date": "1976-11",
+      "category": "financial",
+      "event": "VALIS manuscript sells to Bantam for $10,000; DEUS IRAE paperback for $11,500 (US) and $9,000 (UK); PKD owes IRS $4,050 from the resulting income.",
+      "source": "Selected Letters (DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI)",
+      "source_type": "letter"
+    },
+    {
+      "bio_id": 387,
+      "date": "September 15, 1976",
+      "category": "vision",
+      "event": "Realizing Zebra/Ubik wrote his novels.",
+      "source": "exegesis",
+      "source_type": "exegesis"
+    }
+  ],
   "themes": [
     "religion-gnosis",
     "reality-breakdown",

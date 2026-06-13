@@ -13,7 +13,7 @@
   "wordplay_note": "Son of the church thrust into a pagan future",
   "symbolic_note": null,
   "card_description": "Dr. Futurity (Jim Parsons) (meaning \"Parsons = parson's son\") is a character in Philip K. Dick's *Dr. Futurity*. Doctor transported to a future society that worships death and rejects medicine. Name note: Son of the church thrust into a pagan future. The healer as anachronism — compassion outlawed. First appears in *Dr. Futurity*.",
-  "full_description": null,
+  "full_description": "Dr. Futurity (Jim Parsons) (meaning \"Parsons = parson's son\") is a character in Philip K. Dick's *Dr. Futurity*. Doctor transported to a future society that worships death and rejects medicine. Name note: Son of the church thrust into a pagan future. The healer as anachronism — compassion outlawed. First appears in *Dr. Futurity*.",
   "mention_count": 0,
   "first_work": "Dr. Futurity",
   "work_list": [
@@ -26,8 +26,25 @@
   "updated_at": "2026-03-14 06:49:52",
   "segment_mention_count": 0,
   "aliases": [],
-  "linked_segments": [],
-  "related_terms": [],
+  "linked_segments": [
+    {
+      "seg_id": null,
+      "match_type": "unlinked",
+      "confidence": null,
+      "matched_text": "Dr. Futurity (Jim Parsons)",
+      "date_display": null,
+      "summary": "No public segment link has been promoted for this name yet.",
+      "title": "Unlinked name evidence"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Dr. Futurity (Jim Parsons)",
+      "slug": "dr-futurity-jim-parsons",
+      "relation": "same_label",
+      "confidence": 5
+    }
+  ],
   "reference": {
     "canonical_form": "Dr. Futurity (Jim Parsons)",
     "domain": "literary",
