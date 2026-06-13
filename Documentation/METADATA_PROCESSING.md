@@ -113,10 +113,15 @@ result regardless of who produced it.
 
 ---
 
-## 5. Status at last update (2026-06-12)
+## 5. Status at last update (2026-06-13)
 
-- Exegesis: 213 / 1107 summarized; 670 processable (have `raw_text`); 224 blocked on text.
-- Works: 0 / 149 carry `locations` (greenfield); 46 carry `themes`.
+- Exegesis: **564 / 1107 summarized**; 319 processable remaining; 224 blocked on text.
+  - Done: `SECTION_013` (1975-11-05), the `Dorothy` notebook (1976-09-15), and
+    `SECTION_016` (1978-10-10) positions ~1-210.
+  - Remaining processable: the `SECTION_016` tail (~131) and the entire `Pat`
+    notebook (1981-04-16, 188). Run `coverage.py --remaining exegesis` for the live list.
+  - Produced in parallel waves of 8 subagents × 10 segments, each grounded in the
+    segment's own `raw_text`; coverage.py reconciles regardless of producer.
+- Works: 0 / 149 carry `locations` (greenfield); 46 carry `themes`. Not yet started
+  (work-level locations/themes are groundable now; chapter summaries await the texts).
 - Biography: 489 / 687 events and 162 / 162 curated events carry a location.
-- Exemplar batch landed: `SECTION_013` positions 1-6 (1975-11-05, the Gene Savoy /
-  St. Sophia cluster), establishing the §3a schema.

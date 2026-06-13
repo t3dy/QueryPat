@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "description": "Declared read-ledger for the QueryPat metadata pipeline. Records which full-text sources have been swept and which passes are done/partial/blocked, so a future session never re-reads a source already cooked into the system files. Fine-grained per-unit status (e.g. which Exegesis segments are summarized, which works carry locations) is DERIVED live by scripts/processing/coverage.py from the data the site serves; this file holds the coarse 'has the source text been read' facts that cannot be derived from the output.",
-  "updated": "2026-06-12",
+  "updated": "2026-06-13",
   "pass_status_values": ["done", "partial", "pending", "blocked", "n/a"],
   "source_text_availability": {
     "exegesis": {
@@ -28,14 +28,35 @@
   "units": {
     "EXEG_SECTION_013": {
       "type": "exegesis_section",
-      "title": "1975-11-05 SECTION_016/013 cluster (Gene Savoy letter; St. Sophia / Holy Wisdom)",
+      "title": "1975-11-05 SECTION_013 (Gene Savoy letter; St. Sophia / Holy Wisdom)",
       "source_text_available": true,
-      "passes": {
-        "summary": "partial",
-        "themes_figures": "partial"
-      },
-      "note": "Positions 1-6 summarized and theme/figure-tagged on 2026-06-12 (exemplar batch establishing the schema). Positions 7..N pending; run coverage.py --remaining exegesis for the live list.",
+      "passes": { "summary": "done", "themes_figures": "done" },
+      "note": "All processable positions summarized (waves 0-1). Exemplar batch (positions 1-6) established the schema.",
       "updated": "2026-06-12"
+    },
+    "EXEG_1976-09-15_Dorothy": {
+      "type": "exegesis_section",
+      "title": "1976-09-15 'Dorothy' notebook (Form I/II cosmology, Zebra/VALIS, homoplasmate, Kabbalah)",
+      "source_text_available": true,
+      "passes": { "summary": "done", "themes_figures": "done" },
+      "note": "All processable positions summarized across waves 1-2.",
+      "updated": "2026-06-12"
+    },
+    "EXEG_1978-10-10_SECTION_016": {
+      "type": "exegesis_section",
+      "title": "1978-10-10 SECTION_016 (two-source cosmology, VALIS=Ubik, Thomas, BIP/PTG)",
+      "source_text_available": true,
+      "passes": { "summary": "partial", "themes_figures": "partial" },
+      "note": "Positions ~1-210 summarized (waves 2-4). ~131 processable positions remain (roughly 211-364, minus text-less gaps). Resume via coverage.py --remaining exegesis.",
+      "updated": "2026-06-13"
+    },
+    "EXEG_1981-04-16_Pat": {
+      "type": "exegesis_section",
+      "title": "1981-04-16 'Pat' notebook (late Exegesis)",
+      "source_text_available": true,
+      "passes": { "summary": "pending", "themes_figures": "pending" },
+      "note": "188 processable positions, not yet started. Next priority after the SECTION_016 tail.",
+      "updated": "2026-06-13"
     }
   }
 }
