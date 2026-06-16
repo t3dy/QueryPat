@@ -1,0 +1,25 @@
+{
+  "artifact_id": "ART_SCHOLAR_CITATION_ARNOLD_DIVINE_MADNESS_2374",
+  "artifact_type": "scholar_citation",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_ARNOLD_DIVINE_MADNESS",
+  "generated_by": {
+    "agent_role": "bibliography_agent",
+    "name": "scripts/ingest/ingest_archive.py (citation mode)",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "scholar_citation.v1"
+  },
+  "bibliographic_source_id": "DOC_ARCH_ARNOLD_DIVINE_MADNESS",
+  "scholar_name": "Kyle Arnold",
+  "cited_work": "The Divine Madness of Philip K. Dick (Oxford University Press, 2016)",
+  "relevant_topic": "2-3-74 / the nature of PKD's mystical experiences",
+  "citation_context": "Arnold reads the 1974 experiences against PKD's biography and psychology rather than adopting any single explanation.",
+  "claim_summary": "Arnold frames 2-3-74 as over-determined: he weighs trauma, temporal-lobe and psychological factors alongside the religious and literary readings, declining to reduce it to one cause.",
+  "exact_quote_if_allowed_and_short": null,
+  "page_or_location": "Introduction; chapters on 2-3-74",
+  "historiographical_angle": "Clinical-but-sympathetic; resists both pathologising and mystifying PKD.",
+  "related_portal_entities": ["THEO_1974_2_3_74_CLUSTER", "PERSON_PHILIP_K_DICK"],
+  "evidentiary_lane": "C",
+  "notes": "Feeds InterpretiveArtifact evidence_links as a lane-C source. No exact quote stored pending a fair-use check; claim_summary is paraphrase."
+}

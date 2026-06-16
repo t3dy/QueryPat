@@ -1,0 +1,46 @@
+{
+  "artifact_id": "ART_ONTOLOGY_TAGGING_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001",
+  "artifact_type": "ontology_tagging",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+  "generated_by": {
+    "agent_role": "ontology_agent",
+    "name": "Claude (Opus 4.8) mapping extraction onto PKDontology vocabulary",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ontology_tagging.v1"
+  },
+  "input_artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001",
+  "ontology_version": "1.0",
+  "tags": ["urgrund", "demiurge", "zebra", "gnosis", "anamnesis", "the-demiurge-and-false-world", "reality-vs-illusion", "theodicy", "2-3-74", "panentheism", "the-empire-the-black-iron-prison"],
+  "entities_linked_to_ontology_ids": [
+    { "mention": "Urgrund", "ontology_id": "TERM_URGRUND", "ontology_kind": "term", "confidence": 0.9 },
+    { "mention": "Zebra / the artifact", "ontology_id": "TERM_ZEBRA", "ontology_kind": "term", "confidence": 0.85 },
+    { "mention": "demiurge", "ontology_id": "TERM_DEMIURGE", "ontology_kind": "term", "confidence": 0.9 },
+    { "mention": "anamnesis", "ontology_id": "TERM_ANAMNESIS", "ontology_kind": "term", "confidence": 0.95 },
+    { "mention": "pleroma", "ontology_id": "TERM_PLEROMA", "ontology_kind": "term", "confidence": 0.85 },
+    { "mention": "Maya / Brahman / Atman", "ontology_id": "TERM_MAYA", "ontology_kind": "term", "confidence": 0.7 },
+    { "mention": "Jakob Böhme", "ontology_id": "PERSON_JAKOB_BOHME", "ontology_kind": "person", "confidence": 0.85 },
+    { "mention": "Giordano Bruno", "ontology_id": "PERSON_GIORDANO_BRUNO", "ontology_kind": "person", "confidence": 0.85 },
+    { "mention": "3-74 / March 1974 revelation", "ontology_id": "THEO_1974_2_3_74_CLUSTER", "ontology_kind": "theophany", "confidence": 0.85 }
+  ],
+  "traditions": ["Gnosticism", "Hermeticism", "Neoplatonism", "alchemy", "Christian mysticism", "Vedanta", "process theology"],
+  "periods": ["antiquity", "late_antiquity", "renaissance", "early_modern", "twentieth_century"],
+  "genres": ["essay", "philosophical_theology", "primary_nonfiction"],
+  "methods": ["intellectual_history", "comparative_analysis", "close_reading"],
+  "historiographical_categories": ["primary_source", "self_mythology"],
+  "esoteric_domains": ["gnosticism", "hermetism", "neoplatonism", "alchemy", "mysticism"],
+  "evidentiary_lane": "B",
+  "confidence_by_tag": [
+    { "tag": "urgrund", "confidence": 1.0 },
+    { "tag": "demiurge", "confidence": 0.95 },
+    { "tag": "theodicy", "confidence": 0.9 },
+    { "tag": "anamnesis", "confidence": 0.95 },
+    { "tag": "2-3-74", "confidence": 0.85 }
+  ],
+  "rejected_tags": [
+    { "tag": "christian-kabbalah", "reason": "The essay draws on Gnosticism, Hermetism, and Böhme but does not engage Kabbalah; tagging it would misrepresent the source's traditions." },
+    { "tag": "android-consciousness", "reason": "'Artifact' here is a cosmological demiurge, not an android; the AI-consciousness theme is not in play." }
+  ],
+  "tagging_notes": "Heavy esoteric-domain load (Gnostic demiurge, Hermetic art-of-memory via Bruno, Böhme's alchemical theosophy, Vedantic Atman/Brahman). Classified lane B with 'self_mythology' because the essay is PKD theorizing his own 3-74 experience into a system. Classification only; no prose written."
+}

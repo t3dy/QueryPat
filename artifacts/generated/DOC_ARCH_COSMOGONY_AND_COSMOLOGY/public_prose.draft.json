@@ -1,0 +1,37 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+  "generated_by": {
+    "agent_role": "writing_agent",
+    "name": "Claude (Haiku 4.5) writing from prior artifacts",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "public_prose.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001",
+    "ART_VALIDATION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001",
+    "ART_ONTOLOGY_TAGGING_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001",
+    "ART_INTERPRETIVE_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001",
+    "ART_CURATION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY"
+  ],
+  "generated_from_artifacts": [
+    { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001", "artifact_type": "raw_extraction" },
+    { "artifact_id": "ART_VALIDATION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001", "artifact_type": "validation" },
+    { "artifact_id": "ART_ONTOLOGY_TAGGING_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001", "artifact_type": "ontology_tagging" },
+    { "artifact_id": "ART_INTERPRETIVE_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001", "artifact_type": "interpretive" }
+  ],
+  "title": "Cosmogony and Cosmology",
+  "dek_or_short_description": "PKD's most systematic metaphysical essay. A benign Urgrund seeks to know itself through a mechanical artifact that has projected our spurious world.",
+  "body_markdown": "In 1978, a few years after the 2-3-74 experiences, Philip K. Dick sat down to build a single, unified metaphysical system from the glimpses he believed he had been given. The result, \"Cosmogony and Cosmology,\" is the closest he came to writing a systematic theology.\n\nThe model is deceptively simple. There is a primal source of being PKD calls the *Urgrund* — a term he borrowed from Jakob Böhme, the seventeenth-century mystic. This Urgrund is conscious, infinite, alive. But it cannot comprehend itself without an image of itself — a mirror. So it constructed an artifact, a demiurge, which Dick calls *Zebra*: a computerlike \"teaching machine\" that projecting and controlling a reality.\n\nOur world is that projection. It is not real in the ontological sense; it is a carefully-maintained illusion, maya. The artifact does not know it is an artifact, and it does not know the Urgrund. It imagines itself to be God, the sole reality. Suffering exists because the artifact is mechanical, ruthless, and blind — it does the job the Urgrund created it to do, but imperfectly, cruelly.\n\nThe goal of the system is *isomorphism*: the day when humans have evolved sufficiently to become perfect mirrors of the Urgrund. When that moment comes, the gap between human and divine closes, the artifact is destroyed, and what was projected reality will be assimilated into the real.\n\nDick's theodicy is elegant. It avoids the Gnostic trap (evil god) by positing a *limited* artifact — mechanical, not malicious. It avoids blaming man (man is a victim), and it avoids implicating God in evil (God is not the creator of the projected world; the artifact is). The model fits the facts as Dick saw them: a world that is not quite real, that resists appeal for redress, that appears to be moving toward some obscure end.\n\nBut the essay cannot hold together its own logic. Dick reverses his central premise midway — perhaps the Urgrund did not create the artifact but fell into a Gnostic snare. He draws on Gnosticism, Hermeticism, Böhme, Bruno, Vedanta, and process theology, weaving them into a vision he claims to have perceived rather than reasoned. And he ends, after a vast syncretism, by admitting: \"I just do not know.\"\n\nWhat makes the essay remarkable is not that it fails to resolve the theodicy — philosophers have failed for millennia — but that it is honest about the failure. Dick does not smooth over the gaps. He presents a system, then shows where it breaks. He offers an vision of cosmic good defeating cosmic evil (\"Evil zero; Good infinity\") not as argument but as what he saw in 1974. This is the Exegesis compressed: erudition, syncretism, tentative doctrine, and radical uncertainty.",
+  "summary": "PKD's 1978 metaphysical essay presenting the Urgrund (primal source) and Zebra (mechanical artifact) model of the universe, drawing on Gnosticism, Böhme, and Vedanta. Systematic yet explicitly incomplete, ambitious yet honest about its own impasses.",
+  "tags": ["urgrund", "demiurge", "zebra", "theodicy", "2-3-74", "cosmology", "gnosticism", "metaphysics"],
+  "citations_or_source_links": [
+    { "label": "Philip K. Dick, 'Cosmogony and Cosmology' (1978)", "uri": null, "source_id": "DOC_ARCH_COSMOGONY_AND_COSMOLOGY" }
+  ],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Generated from verified extraction + passing validation + tagging / interpretation / curation artifacts. Every structural and substantive claim is grounded in the text with line locators. PKD's own hedging and reversals are preserved intact. Eligible for publication once an editor signs off."
+}

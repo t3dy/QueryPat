@@ -1,0 +1,27 @@
+{
+  "artifact_id": "ART_SOURCE_METADATA_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+  "artifact_type": "source_metadata",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+  "generated_by": {
+    "agent_role": "ingestion_script",
+    "name": "scripts/ingest/ingest_archive.py + Claude (Opus 4.8) ingestion review",
+    "model": "claude-opus-4-8",
+    "prompt_version": "source_metadata.v1"
+  },
+  "source_type": "article",
+  "source_title": "Will the Real Ubik Please Stand Up? Precognition of Scientific Information in the Fiction of Philip K. Dick",
+  "authors_or_creators": ["William Sarill"],
+  "publication_date": "2014-12",
+  "source_uri": "https://www.scientificexploration.org/edgescience",
+  "local_path": "database/extracted_markdown/DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN.md",
+  "ingestion_date": "2025-01-01",
+  "language": "en",
+  "rights_status": "in_copyright",
+  "access_notes": "Feature article in EdgeScience #20 (Dec 2014), the quarterly of the Society for Scientific Exploration (SSE). ISSN 2330-4545. Full machine-readable text available. Note the venue: SSE studies anomalous phenomena and is parapsychology-friendly.",
+  "raw_text_available": true,
+  "transcript_available": false,
+  "evidentiary_lane": "C",
+  "notes": "Secondary scholarship engaging PKD's precognition claims. The article's acknowledgments thank PKD's ex-wives (Anne Dick, Nancy Hackett, Tessa Dick) and several Dick scholars including Gregg Rickman, Frank Hollander, and Ted Hand (line 233)."
+}

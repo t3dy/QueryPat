@@ -1,0 +1,173 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH014",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 14,
+  "chapter_title": "The Conversation and the Mystery Deepens",
+  "section_range": null,
+  "summary": "Runciter explains to Joe that they are indeed in cold-pac, that they have been interwired as a group to maintain collective consciousness, and that an external force is attacking them that is neither Pat Conley nor Ray Hollis. Runciter admits he doesn't know what is attacking them or where Ubik comes from. He reveals that Sammy Mundo is alive but in an irreversible coma, isolated from the group, and suggests that Mundo might be the attacker. Joe challenges Runciter's claims, pointing out inconsistencies and asking difficult questions. Runciter becomes defensive and emotional, admitting his uncertainty and powerlessness. The conversation establishes that even the supposedly alive Runciter doesn't fully understand their situation. The chapter questions the reliability of all information and the coherence of the reality they inhabit.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Hotel room (Des Moines / half-life simulation)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Beloved Brethren Moratorium (Zurich, referenced)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Carl Jung Hospital (Zurich, referenced)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Consultation lounge (implied)",
+        "context": null,
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Joe Chip",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Glen Runciter",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Sammy Mundo (mentioned)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Pat Conley (discussed)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Ray Hollis (discussed)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Stanton Mick (discussed)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "S. Dole Melipone (mentioned)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "G. G. Ashwood (mentioned)",
+        "role_in_chapter": null,
+        "key_actions": null
+      }
+    ],
+    "themes": [
+      "The limits of knowledge and understanding",
+      "Deception, both intentional and accidental",
+      "The burden of leadership and responsibility",
+      "The inadequacy of explanation in the face of mystery",
+      "Uncertainty and doubt in relationships"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "Providence and divine mystery",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The existence of forces beyond human comprehension",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Redemption as partial and uncertain",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Grace as coming from unknown sources",
+        "context": null,
+        "theological_frame": null
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "Epistemology and the limits of justified belief",
+        "context": null
+      },
+      {
+        "concept": "The problem of other minds intensified by ontological uncertainty",
+        "context": null
+      },
+      {
+        "concept": "Authenticity and the possibility of genuine communication",
+        "context": null
+      },
+      {
+        "concept": "The nature of testimony and reliability",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "Runciter explains the true situation in half-life",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Runciter admits he obtained Ubik from an unknown source",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe challenges Runciter's understanding and authority",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Runciter reveals Sammy Mundo is in a coma but alive",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Runciter suggests Mundo might be the attacking force",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Runciter admits his powerlessness and emotional exhaustion",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe realizes no one truly understands what is happening",
+      "significance": null,
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

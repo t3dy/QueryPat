@@ -1,0 +1,178 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH012",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 12,
+  "chapter_title": "The Oscillation of Reality",
+  "section_range": null,
+  "summary": "Joe and the group search for a missing Edie Dorn who has begun deteriorating. A police citation appears with a handwritten warning from Runciter and directions to Archer's Drugstore. Joe discovers the drugstore oscillates between being a boarded-up 1939 ruin and a modern 1992 home-art store. Inside, he encounters the building pulsing between two states of reality. The manifestation suggests that reality itself is unstable and that there are at least two competing states trying to occupy the same physical space. The chapter demonstrates that the team's perception is beginning to diverge: different people see different realities. This divergence of perception preceded Wendy Wright's death, suggesting it is a harbinger of terminal deterioration.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Des Moines streets",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Archer's Drugstore (abandoned building)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Meremont Hotel",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Magazine and tobacco shop",
+        "context": null,
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Joe Chip",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Don Denny",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Pat Conley",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Police officer (manifestation)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Store proprietor",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Tippy Jackson",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Sammy Mundo",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Francy Spanish",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Jon Ild",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Tito Apostos",
+        "role_in_chapter": null,
+        "key_actions": null
+      }
+    ],
+    "themes": [
+      "Reality as contested and plural",
+      "The breakdown of shared perception",
+      "Commercial institutions as manifestations of external forces",
+      "Convergence and divergence of consciousness",
+      "The proximity of alternate realities"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "Multiple levels of existence or parallel realms",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Divine communication through mundane institutions",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Reality as divinely sustained and contested",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Spiritual warfare expressed through physical phenomena",
+        "context": null,
+        "theological_frame": null
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "Perspectivism and the plurality of reality",
+        "context": null
+      },
+      {
+        "concept": "Quantum superposition as applied to consciousness",
+        "context": null
+      },
+      {
+        "concept": "The phenomenology of perceiving multiple realities simultaneously",
+        "context": null
+      },
+      {
+        "concept": "Ontological instability and the boundaries of being",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "A mysterious police citation appears with Runciter's handwriting",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Archer's Drugstore is found to oscillate between states",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The building pulses between 1939 ruin and 1992 modern store",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe realizes he is transitioning into the drugstore's alternate state",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The manifestation becomes impossible to perceive stably",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe loses consciousness in the oscillation",
+      "significance": null,
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

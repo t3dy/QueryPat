@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://querypat.local/artifacts/curation.schema.json",
+  "title": "CurationArtifact",
+  "description": "Stage F. Decides whether and how an item should appear in the portal or news aggregator. A publish/feature decision MUST include reasons_for_inclusion.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_id",
+    "artifact_type",
+    "schema_version",
+    "generated_at",
+    "source_id",
+    "generated_by",
+    "input_artifact_ids",
+    "relevance_status",
+    "content_class"
+  ],
+  "properties": {
+    "artifact_id": { "type": "string", "minLength": 3 },
+    "artifact_type": { "const": "curation" },
+    "schema_version": { "const": "1.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "source_id": { "type": "string", "minLength": 1 },
+    "generated_by": { "$ref": "#/$defs/generated_by" },
+
+    "input_artifact_ids": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "relevance_score": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "relevance_status": { "enum": ["reject", "archive", "review", "publish", "feature"] },
+    "content_class": {
+      "description": "Distinguishes serious scholarship from low-relevance pop/spam content for the aggregator.",
+      "enum": [
+        "serious_scholarship", "primary_source_discussion", "scholarly_reliability_review",
+        "history_of_science", "book_or_manuscript_history",
+        "pop_occult_low_relevance", "vague_spirituality", "ai_spam", "generic_lifestyle", "uncertain"
+      ]
+    },
+    "audience_fit": { "enum": ["specialist", "intelligent_non_specialist", "general", "poor_fit", "uncertain"] },
+    "scholarly_value": { "enum": ["high", "medium", "low", "none", "uncertain"] },
+    "reasons_for_inclusion": { "type": "array", "items": { "type": "string" } },
+    "reasons_for_exclusion": { "type": "array", "items": { "type": "string" } },
+    "recommended_tags": { "type": "array", "items": { "type": "string" } },
+    "editorial_angle": { "type": ["string", "null"] },
+    "curator_notes": { "type": ["string", "null"] }
+  },
+  "$defs": {
+    "generated_by": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["agent_role", "name"],
+      "properties": {
+        "agent_role": { "type": "string" },
+        "name": { "type": "string" },
+        "model": { "type": ["string", "null"] },
+        "prompt_version": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://querypat.local/artifacts/text_comparison.schema.json",
+  "title": "TextComparisonArtifact",
+  "description": "Specialized artifact H. Compares two versions of a text (e.g. an edition, a draft vs published, Agrippa 1510 vs 1533).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_id",
+    "artifact_type",
+    "schema_version",
+    "generated_at",
+    "source_id",
+    "generated_by",
+    "comparison_id",
+    "source_a_id",
+    "source_b_id",
+    "difference_type"
+  ],
+  "properties": {
+    "artifact_id": { "type": "string", "minLength": 3 },
+    "artifact_type": { "const": "text_comparison" },
+    "schema_version": { "const": "1.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "source_id": { "type": "string", "minLength": 1, "description": "Primary source_id this comparison is filed under (usually source_a_id)." },
+    "generated_by": { "$ref": "#/$defs/generated_by" },
+
+    "comparison_id": { "type": "string" },
+    "source_a_id": { "type": "string" },
+    "source_b_id": { "type": "string" },
+    "section_id": { "type": ["string", "null"] },
+    "source_a_excerpt": { "type": ["string", "null"] },
+    "source_b_excerpt": { "type": ["string", "null"] },
+    "difference_type": {
+      "enum": ["addition", "omission", "substitution", "reordering", "expansion", "compression", "terminology_shift", "doctrinal_shift", "uncertain"]
+    },
+    "difference_summary": { "type": ["string", "null"] },
+    "evidence_locations": { "type": "array", "items": { "$ref": "#/$defs/evidence_location" } },
+    "interpretive_implications": { "type": ["string", "null"] },
+    "confidence": { "enum": ["high", "medium", "low", "speculative"] },
+    "notes": { "type": ["string", "null"] }
+  },
+  "$defs": {
+    "generated_by": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["agent_role", "name"],
+      "properties": {
+        "agent_role": { "type": "string" },
+        "name": { "type": "string" },
+        "model": { "type": ["string", "null"] },
+        "prompt_version": { "type": ["string", "null"] }
+      }
+    },
+    "evidence_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["locator_type"],
+      "properties": {
+        "source_id": { "type": ["string", "null"] },
+        "locator_type": { "enum": ["page", "section", "paragraph", "line", "timestamp", "url_fragment", "excerpt", "other"] },
+        "page": { "type": ["integer", "string", "null"] },
+        "section_id": { "type": ["string", "null"] },
+        "paragraph": { "type": ["integer", "null"] },
+        "line_start": { "type": ["integer", "null"] },
+        "line_end": { "type": ["integer", "null"] },
+        "timestamp": { "type": ["string", "null"] },
+        "url_fragment": { "type": ["string", "null"] },
+        "excerpt": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

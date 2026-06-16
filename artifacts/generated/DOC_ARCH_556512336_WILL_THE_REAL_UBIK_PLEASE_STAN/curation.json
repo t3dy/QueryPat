@@ -1,0 +1,34 @@
+{
+  "artifact_id": "ART_CURATION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+  "artifact_type": "curation",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+  "generated_by": {
+    "agent_role": "curation_agent",
+    "name": "Claude (Opus 4.8) curation pass",
+    "model": "claude-opus-4-8",
+    "prompt_version": "curation.v1"
+  },
+  "input_artifact_ids": [
+    "ART_SOURCE_METADATA_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+    "ART_ONTOLOGY_TAGGING_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+    "ART_INTERPRETIVE_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001"
+  ],
+  "relevance_score": 0.72,
+  "relevance_status": "publish",
+  "content_class": "serious_scholarship",
+  "audience_fit": "intelligent_non_specialist",
+  "scholarly_value": "medium",
+  "reasons_for_inclusion": [
+    "Carefully argued and heavily referenced; built on original interviews with PKD's ex-wives and a primary-source check of Britannica editions.",
+    "Directly load-bearing for the Works entry on Ubik and for the precognition strand of PKD reception.",
+    "A useful, well-documented example of the parapsychological reading of Dick — valuable precisely as a position to represent and weigh, not endorse."
+  ],
+  "reasons_for_exclusion": [
+    "Advances an unfalsifiable precognition thesis in an advocacy venue; must be framed as a contested claim, never as settled fact."
+  ],
+  "recommended_tags": ["ubik", "precognition", "scholarly-reliability", "2-3-74", "parapsychology"],
+  "editorial_angle": "Publish (not feature) as a 'serious but contested' reception piece. Lead with the article's strongest, lane-independent move — the negative case that Dick couldn't have known of ubiquinone — then present the precognition inference as the author's own carefully hedged conclusion.",
+  "curator_notes": "This is the canonical 'distinguish serious scholarship from pop-occult/spam' case the curation criteria describe: it is unambiguously NOT spam (rigorous, sourced, candid), yet its thesis is fringe and unprovable. content_class=serious_scholarship with scholarly_value=medium and a mandatory contested-claim frame captures that nuance. Note: the article's acknowledgments thank portal-affiliated scholars including Ted Hand."
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://querypat.local/artifacts/interpretive.schema.json",
+  "title": "InterpretiveArtifact",
+  "description": "Stage E. Bounded scholarly interpretations built from prior descriptive and tagging artifacts. Every interpretive_claim MUST carry evidence_links, confidence, and limitations, or be marked speculative.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_id",
+    "artifact_type",
+    "schema_version",
+    "generated_at",
+    "source_id",
+    "generated_by",
+    "input_artifact_ids",
+    "interpretive_claims",
+    "limitations"
+  ],
+  "properties": {
+    "artifact_id": { "type": "string", "minLength": 3 },
+    "artifact_type": { "const": "interpretive" },
+    "schema_version": { "const": "1.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "source_id": { "type": "string", "minLength": 1 },
+    "generated_by": { "$ref": "#/$defs/generated_by" },
+
+    "input_artifact_ids": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "interpretive_questions": { "type": "array", "items": { "type": "string" } },
+    "interpretive_claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim", "confidence", "evidence_links", "speculative"],
+        "properties": {
+          "claim": { "type": "string" },
+          "confidence": { "enum": ["high", "medium", "low", "speculative"] },
+          "speculative": { "type": "boolean" },
+          "attributed_to": { "type": ["string", "null"], "description": "Whose reading this is (a named scholar, the portal editor, or 'synthesis')." },
+          "evidence_links": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["artifact_id"],
+              "properties": {
+                "artifact_id": { "type": "string", "description": "A prior raw_extraction / scholar_citation artifact." },
+                "evidence_location": { "$ref": "#/$defs/evidence_location" },
+                "note": { "type": ["string", "null"] }
+              }
+            }
+          }
+        }
+      }
+    },
+    "alternative_readings": { "type": "array", "items": { "type": "string" } },
+    "historiographical_relevance": { "type": ["string", "null"] },
+    "limitations": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "interpretation_notes": { "type": ["string", "null"] }
+  },
+  "$defs": {
+    "generated_by": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["agent_role", "name"],
+      "properties": {
+        "agent_role": { "type": "string" },
+        "name": { "type": "string" },
+        "model": { "type": ["string", "null"] },
+        "prompt_version": { "type": ["string", "null"] }
+      }
+    },
+    "evidence_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["locator_type"],
+      "properties": {
+        "source_id": { "type": ["string", "null"] },
+        "locator_type": { "enum": ["page", "section", "paragraph", "line", "timestamp", "url_fragment", "excerpt", "other"] },
+        "page": { "type": ["integer", "string", "null"] },
+        "section_id": { "type": ["string", "null"] },
+        "paragraph": { "type": ["integer", "null"] },
+        "line_start": { "type": ["integer", "null"] },
+        "line_end": { "type": ["integer", "null"] },
+        "timestamp": { "type": ["string", "null"] },
+        "url_fragment": { "type": ["string", "null"] },
+        "excerpt": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

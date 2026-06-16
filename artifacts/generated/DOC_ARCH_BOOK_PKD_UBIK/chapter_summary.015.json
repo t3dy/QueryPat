@@ -1,0 +1,163 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH015",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 15,
+  "chapter_title": "The Spray and the Discovery of Jory",
+  "section_range": null,
+  "summary": "Don Denny arrives at Joe's room with a doctor who finds Joe recovering well. When Denny uses the remaining Ubik spray, he is revealed to be Jory—a grotesquely malformed adolescent who has been consuming the life-force of the group members throughout their half-life. Jory explains that he has 'eaten' Wendy Wright, Don Denny, and others, and that he maintains the pseudo-world of 1939 Des Moines as a stage for his predation. He reveals that the regression was partially his doing but also partly natural decay, and that maintaining the environment exhausts him, forcing him to consume more half-lifers. Joe attacks Jory but is protected by the remaining Ubik. Joe leaves the room to explore and discovers that the world Jory has created is limited in scope—only a few blocks of Des Moines, with details degrading at the boundaries. The chapter reveals the true antagonist and nature of the threat.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Hotel room (Meremont, Des Moines)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Hotel corridor",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Hotel lobby",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Des Moines streets",
+        "context": null,
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Joe Chip",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Jory (revealed as Don Denny's form)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Dr. Taylor (constructed entity)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Hotel clerk",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Taxi driver",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Blond girl with pigtails",
+        "role_in_chapter": null,
+        "key_actions": null
+      }
+    ],
+    "themes": [
+      "The revelation of hidden malevolence",
+      "Parasitism and predation in spiritual realms",
+      "The constructed nature of reality",
+      "The limits of compassion in the face of evil",
+      "Youth and innocence corrupted into monstrosity"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "Demonic infestation and possession",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Evil as parasitic and reality-distorting",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The separation between the saved and the damned",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The nature of hell as solipsistic",
+        "context": null,
+        "theological_frame": null
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "Ontological parasitism",
+        "context": null
+      },
+      {
+        "concept": "Reality as maintained through effort and energy",
+        "context": null
+      },
+      {
+        "concept": "The horror of encountering radically alien consciousness",
+        "context": null
+      },
+      {
+        "concept": "The construction of self through predation on others",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "Don Denny disappears and Jory is revealed",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Jory explains his nature and history",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Jory admits to consuming multiple group members",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe fights Jory but is protected by Ubik",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Jory reveals the limitations of his constructed world",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe explores Des Moines and confirms it is limited in extent",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe encounters a blond girl and considers human connection",
+      "significance": null,
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

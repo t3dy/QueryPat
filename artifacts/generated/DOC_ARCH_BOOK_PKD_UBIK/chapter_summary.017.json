@@ -1,0 +1,147 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH017",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 17,
+  "chapter_title": "The Closing Vision and the Eternal Return",
+  "section_range": null,
+  "summary": "Glen Runciter waits at the moratorium to speak with Ella again. He discovers that his change-maker coins now bear Joe Chip's profile. The revelation suggests that as Ella departs the half-life world, Joe Chip is ascending in her place, his consciousness and influence permeating the system that maintains half-life. The final Ubik slogan reframes the product as a metaphysical principle—not merely a spray but a fundamental force of being that predates and transcends the universe. The novel ends with this ambiguous cosmological statement, suggesting that Ubik (or whatever principle it represents) is the ground of existence itself. The epilogue about Runciter discovering Joe's face on currency suggests the cyclical nature of the struggle and the possibility of eternal return and transformation within the half-life realm.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Beloved Brethren Moratorium (Zurich)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Office 4-B (consultation office)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "The world outside half-life (implied)",
+        "context": null,
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Glen Runciter",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Ella Runciter (consciousness in half-life)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Mortarium attendant",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Miss Beason (secretary)",
+        "role_in_chapter": null,
+        "key_actions": null
+      }
+    ],
+    "themes": [
+      "Succession and the passing of spiritual authority",
+      "The eternal nature of consciousness and struggle",
+      "The transformation of the individual into the universal",
+      "Cycles of death, rebirth, and renewal",
+      "The ultimate mystery of existence"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "Divine omnipresence and eternality",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The identification of God with the principle of being itself",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Succession of guardians and wisdom-keepers",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The mystical unity of all things",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The paradox of creation and eternal being",
+        "context": null,
+        "theological_frame": null
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "Ontology and the nature of being",
+        "context": null
+      },
+      {
+        "concept": "Metaphysics and the ground of existence",
+        "context": null
+      },
+      {
+        "concept": "The relationship between consciousness and reality",
+        "context": null
+      },
+      {
+        "concept": "Eternal return and cyclical time",
+        "context": null
+      },
+      {
+        "concept": "The ultimate nature of existence beyond temporality",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "Glen Runciter prepares to speak with Ella again",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "He receives coins with Joe Chip's face on them",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "He recognizes this as the beginning of a transformation",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The final Ubik slogan is revealed as cosmological truth",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The novel ends in ambiguity and mystery",
+      "significance": null,
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ART_CURATION_DOC_ARCH_1974_ROLLING_STONE",
+  "artifact_type": "curation",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_1974_ROLLING_STONE",
+  "generated_by": {
+    "agent_role": "curation_agent",
+    "name": "scripts/studies/promote_scenes.py (curation mode)",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "curation.v1"
+  },
+  "input_artifact_ids": [
+    "ART_SOURCE_METADATA_DOC_ARCH_1974_ROLLING_STONE",
+    "ART_ONTOLOGY_TAGGING_DOC_ARCH_1974_ROLLING_STONE_S001",
+    "ART_INTERPRETIVE_DOC_ARCH_1974_ROLLING_STONE_S001"
+  ],
+  "relevance_score": 0.55,
+  "relevance_status": "review",
+  "content_class": "primary_source_discussion",
+  "audience_fit": "intelligent_non_specialist",
+  "scholarly_value": "medium",
+  "reasons_for_inclusion": [
+    "Period mainstream-press coverage is a load-bearing reception-history artifact for PKD."
+  ],
+  "reasons_for_exclusion": [
+    "Not publishable as prose yet: no OCR text, and an unresolved 1974/1975 dating discrepancy."
+  ],
+  "recommended_tags": ["pkd-reception", "mainstream-press", "1970s"],
+  "editorial_angle": "Once OCR'd, this could anchor a short 'PKD enters the mainstream' reception note.",
+  "curator_notes": "Held at 'review' rather than 'publish' precisely because the evidence trail is incomplete. Promotion to 'publish' would require a grounded extraction and the dating fix."
+}

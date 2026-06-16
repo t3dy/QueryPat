@@ -9,6 +9,7 @@ site/dist/
 database/unified.sqlite
 database/unified.sqlite-wal
 database/unified.sqlite-shm
+database/unified.sqlite.bak*
 
 # Generated markdown corpus (regenerable; ~37 MB)
 database/extracted_markdown/

@@ -1,0 +1,25 @@
+{
+  "artifact_id": "ART_SCHOLAR_CITATION_DOC_ARCH_556512336_SARILL_UBIK_UBIQUINONE",
+  "artifact_type": "scholar_citation",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+  "generated_by": {
+    "agent_role": "bibliography_agent",
+    "name": "Claude (Opus 4.8) bibliography pass",
+    "model": "claude-opus-4-8",
+    "prompt_version": "scholar_citation.v1"
+  },
+  "bibliographic_source_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+  "scholar_name": "William Sarill",
+  "cited_work": "Will the Real Ubik Please Stand Up? (EdgeScience #20, Dec 2014)",
+  "relevant_topic": "Precognition in PKD's fiction; the Ubik / ubiquinone correspondence",
+  "citation_context": "Sarill — a physicist-turned-biochemist and a personal friend of Dick — argues that Ubik's described substance anticipates ubiquinone (CoQ10), knowledge unavailable to Dick in 1966.",
+  "claim_summary": "Sarill contends the many name-and-property correspondences between the fictional Ubik and the real ubiquinone, combined with evidence that Dick could not have known of ubiquinone, point to precognition — while explicitly conceding this is 'synchronistic evidence consistent with precognition, not proof of it.'",
+  "exact_quote_if_allowed_and_short": "Ubik provides synchronistic evidence consistent with precognition, not proof of it.",
+  "page_or_location": "EdgeScience #20 (Dec 2014), pp. 7–15; quote at p. 14 (markdown line 207)",
+  "historiographical_angle": "Parapsychological / Society-for-Scientific-Exploration framing; takes Dick's psi claims seriously while acknowledging their unfalsifiability.",
+  "related_portal_entities": ["WORK_UBIK", "TERM_VALIS", "THEO_1974_2_3_74_CLUSTER", "PERSON_WILLIAM_SARILL"],
+  "evidentiary_lane": "C",
+  "notes": "Feeds the InterpretiveArtifact for this source as a lane-C citation. Short exact quote retained (12 words) and judged within fair use; longer quotation should pass scripts/studies/review_fair_use.py before publication."
+}

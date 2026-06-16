@@ -1,0 +1,128 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH002",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 2,
+  "chapter_title": "Ella's Intrusion and the Persistence of the Dead",
+  "section_range": null,
+  "summary": "Runciter arrives at the moratorium and is connected with Ella, his half-lifer wife. During their communication, she discusses her dream of a smoky red light and her sense of merging with other beings. However, another half-lifer named Jory—a teenager who died at fifteen with stronger cerebral vitality than Ella—intrudes on the connection and begins dominating the communication line. Runciter panics as Ella's weaker signal is overwhelmed. Von Vogelsang explains the phenomenon through radio physics analogies: Jory's signal overpowers Ella's like a stronger transmitter. The chapter establishes the tragic limitation of half-life communication and foreshadows Pat's mysterious ability to alter reality.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Consultation lounge, Beloved Brethren Moratorium",
+        "context": "Where visitors interface with half-lifers via caskets containing cold-pac containers and communication equipment",
+        "significance": null
+      },
+      {
+        "name": "Swiss location (unspecified)",
+        "context": "Implied setting of the moratorium; perpetually open unlike Earth-bound moratoriums",
+        "significance": null
+      },
+      {
+        "name": "The bins",
+        "context": "Storage area within moratorium where half-lifer caskets are arranged in rows",
+        "significance": null
+      },
+      {
+        "name": "Office 2-A",
+        "context": "Private consultation room provided to Runciter for confidential discussion with Ella",
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Glen Runciter",
+        "role_in_chapter": "Visitor seeking counsel from his wife; represents the living world",
+        "key_actions": "Communicates with Ella about Melipone and organizational crisis; experiences panic when Jory intrudes"
+      },
+      {
+        "name": "Ella Runciter",
+        "role_in_chapter": "Half-lifer consulted for wisdom; fading consciousness in cold-pac",
+        "key_actions": "Describes her dreams; advises Glen to increase advertising; becomes obscured by Jory's interference"
+      },
+      {
+        "name": "Jory Miller",
+        "role_in_chapter": "Intrusive half-lifer; teenage boy who died at fifteen; possesses strong cephalic activity",
+        "key_actions": "Dominates the communication line; asks about modern world events; demonstrates hunger for living contact"
+      },
+      {
+        "name": "Herbert Schoenheit von Vogelsang",
+        "role_in_chapter": "Moratorium manager providing technical explanation and managing the crisis",
+        "key_actions": "Apologizes for the interference; explains radio physics analogy; offers isolation solution"
+      }
+    ],
+    "themes": [
+      "The corruption of intimate contact by technical interference",
+      "Inequality in afterlife: consciousness strength determines communication priority",
+      "Loneliness of the dead and their hunger for the living",
+      "Technology as both enabler and barrier to human connection",
+      "The failure of institutionalized solutions to human grief"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "Bardo (intermediate state)",
+        "context": "Ella's description of dreams involving transformation and encountering other entities; her mention of the smoky red light",
+        "theological_frame": "Tibetan Book of the Dead (Bardo Thodol); the novel explicitly references this text as a guide to half-life experiences"
+      },
+      {
+        "concept": "Consciousness transmigration",
+        "context": "Ella's sense of becoming other beings—men, women, children—at different moments; suggests reincarnation cycles",
+        "theological_frame": "Buddhist/Hindu concepts of rebirth and karmic cycling through multiple forms"
+      },
+      {
+        "concept": "Osmosis of souls",
+        "context": "Von Vogelsang's explanation of 'mutual osmosis' between adjacent half-lifers' mentalities; protophasons (life essence particles) flowing between beings",
+        "theological_frame": "Gnostic and mystical concepts of subtle essence transfer; pre-Socratic atomism repurposed"
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "Communication theory and signal strength (radio physics metaphor for consciousness)",
+        "context": null
+      },
+      {
+        "concept": "The problem of evil (why must stronger wills dominate weaker ones, even in death?)",
+        "context": null
+      },
+      {
+        "concept": "Agency and powerlessness (Ella cannot prevent her own obscuring)",
+        "context": null
+      },
+      {
+        "concept": "The authenticity question: is Jory's intrusion a violation or an expression of his own existence?",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "Jory's intrusion on Ella's communication line",
+      "significance": "Demonstrates vulnerability of half-life system; sets up pattern of loss and disruption that haunts Runciter throughout novel",
+      "relates_to_biography": null
+    },
+    {
+      "event": "Von Vogelsang's explanation of protophason osmosis",
+      "significance": "Introduces pseudoscientific framework for understanding consciousness transfer and suggests mechanisms at work in the novel's central mystery",
+      "relates_to_biography": null
+    },
+    {
+      "event": "Runciter's decision to isolate Ella in Teflon-26 chamber",
+      "significance": "Reflects impossible choices: protection through isolation reduces connection; Runciter accepts loss of contact as preferable to corruption",
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

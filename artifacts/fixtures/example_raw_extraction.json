@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_1974_ROLLING_STONE_S001",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_1974_ROLLING_STONE",
+  "section_id": "S001",
+  "generated_by": {
+    "agent_role": "extraction_agent",
+    "name": "studies/classify_passages.py (extraction mode)",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "raw_extraction.v1"
+  },
+  "extraction_scope": "Document-level catalog metadata only. The source PDF has no OCR text layer (extraction_status=failed), so no body text could be read. This artifact records only what is verifiable about the object itself, not its contents.",
+  "extracted_entities": {
+    "people": ["Philip K. Dick"],
+    "works": [],
+    "places": [],
+    "dates": ["1974"],
+    "institutions": ["Rolling Stone (magazine)"],
+    "traditions": []
+  },
+  "key_terms": [],
+  "explicit_topics": [],
+  "substances_or_materials": [],
+  "images_symbols_motifs": [],
+  "rituals_practices_procedures": [],
+  "claims_made_by_source": [],
+  "important_passages": [],
+  "uncertainties": [
+    "No OCR text layer: the article's actual contents, author byline, and any quotations are unknown from this object.",
+    "The catalog dates the item to 1974; the well-known Paul Williams Rolling Stone profile of PKD is dated November 1975. The discrepancy is unresolved and must not be smoothed over downstream.",
+    "Author recorded as 'Unknown' in the catalog."
+  ],
+  "extraction_notes": "Honest empty extraction. Per the raw-extraction rule, no topics, claims, or entities beyond the catalog record were asserted because the source text was not readable. Re-run after OCR to populate claims_made_by_source and important_passages with line/page locators."
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_id": "ART_ONTOLOGY_TAGGING_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+  "artifact_type": "ontology_tagging",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+  "generated_by": {
+    "agent_role": "ontology_agent",
+    "name": "Claude (Opus 4.8) mapping extraction onto PKDontology vocabulary",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ontology_tagging.v1"
+  },
+  "input_artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+  "ontology_version": "1.0",
+  "tags": ["precognition", "ubik", "ubiquinone", "synchronicity", "retrocausality", "2-3-74", "parapsychology", "pkd-reception", "scholarly-reliability"],
+  "entities_linked_to_ontology_ids": [
+    { "mention": "Ubik", "ontology_id": "WORK_UBIK", "ontology_kind": "work", "confidence": 0.95 },
+    { "mention": "Flow My Tears, the Policeman Said", "ontology_id": "WORK_FLOW_MY_TEARS", "ontology_kind": "work", "confidence": 0.9 },
+    { "mention": "VALIS (Vast Active Living Intelligence System)", "ontology_id": "TERM_VALIS", "ontology_kind": "term", "confidence": 0.9 },
+    { "mention": "anamnesis / golden fish (Feb 1974)", "ontology_id": "THEO_1974_2_3_74_CLUSTER", "ontology_kind": "theophany", "confidence": 0.85 },
+    { "mention": "Bishop James Pike", "ontology_id": "PERSON_JAMES_PIKE", "ontology_kind": "person", "confidence": 0.85 },
+    { "mention": "William Sarill", "ontology_id": "PERSON_WILLIAM_SARILL", "ontology_kind": "person", "confidence": 0.9 },
+    { "mention": "synchronicity (Jung / Pauli)", "ontology_id": "TERM_SYNCHRONICITY", "ontology_kind": "term", "confidence": 0.75 }
+  ],
+  "traditions": ["parapsychology", "Jungian synchronicity", "Theosophy", "history of science"],
+  "periods": ["twentieth_century", "contemporary"],
+  "genres": ["scholarly_article", "magazine_feature"],
+  "methods": ["reception_history", "biographical_reconstruction", "source_criticism", "comparative_analysis"],
+  "historiographical_categories": ["contested_claim", "revisionist_reading", "scholarly_consensus", "methodological_note"],
+  "esoteric_domains": ["history_of_science", "theosophy", "mysticism", "primary_source_discussion"],
+  "evidentiary_lane": "C",
+  "confidence_by_tag": [
+    { "tag": "precognition", "confidence": 1.0 },
+    { "tag": "ubiquinone", "confidence": 1.0 },
+    { "tag": "scholarly-reliability", "confidence": 0.8 },
+    { "tag": "parapsychology", "confidence": 0.9 }
+  ],
+  "rejected_tags": [
+    { "tag": "biochemistry-of-aging", "reason": "Extensive ubiquinone biochemistry is marshalled as evidence but is not itself the article's subject; tagging it as a biochem source would misfile a PKD-reception piece." }
+  ],
+  "tagging_notes": "Classified as lane-C scholarship with a 'contested_claim' / 'revisionist_reading' character. The parapsychology and Theosophy (Occult Chemistry) tags flag the methodological frame so downstream curation can weight it honestly. No prose written."
+}

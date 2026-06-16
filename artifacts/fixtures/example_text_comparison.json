@@ -1,0 +1,28 @@
+{
+  "artifact_id": "ART_TEXT_COMPARISON_RFA_VS_VALIS_S012",
+  "artifact_type": "text_comparison",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "WORK_RADIO_FREE_ALBEMUTH",
+  "generated_by": {
+    "agent_role": "comparison_agent",
+    "name": "scripts/studies (comparison mode)",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "text_comparison.v1"
+  },
+  "comparison_id": "CMP_RFA_VALIS_NARRATOR_SPLIT",
+  "source_a_id": "WORK_RADIO_FREE_ALBEMUTH",
+  "source_b_id": "WORK_VALIS",
+  "section_id": "narrator-frame",
+  "source_a_excerpt": "In Radio Free Albemuth the visionary experiences are assigned to the single character Nicholas Brady, with 'Philip K. Dick' present as a separate, sceptical first-person narrator.",
+  "source_b_excerpt": "In VALIS the same material is split: the narrator 'Phil' and the visionary 'Horselover Fat' are two facets of one person, a doubling the text foregrounds explicitly.",
+  "difference_type": "doctrinal_shift",
+  "difference_summary": "The earlier, abandoned version (Radio Free Albemuth) externalises the visionary onto a separate friend; the rewrite (VALIS) internalises and splits the author-figure into narrator and madman, turning a plot device into the book's central epistemological move.",
+  "evidence_locations": [
+    { "source_id": "WORK_RADIO_FREE_ALBEMUTH", "locator_type": "section", "section_id": "ch1-narrator-intro" },
+    { "source_id": "WORK_VALIS", "locator_type": "section", "section_id": "ch1-fat-introduced" }
+  ],
+  "interpretive_implications": "The split-narrator device in VALIS is widely read as Dick dramatising his own uncertainty about 2-3-74; comparing it against the RFA frame shows that uncertainty being built into form rather than asserted.",
+  "confidence": "medium",
+  "notes": "Excerpts here are paraphrase placeholders; a production artifact would quote short, fair-use spans with page locators. RFA is the posthumously published earlier treatment of the material reworked into VALIS."
+}

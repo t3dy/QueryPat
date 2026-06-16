@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://querypat.local/artifacts/chapter_summary.schema.json",
+  "title": "ChapterSummaryArtifact",
+  "description": "Systematic reading note for a chapter/section of a novel, story, or work. Captures plot points, themes, locations, people, theological/philosophical concepts to prevent re-reading.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_id",
+    "artifact_type",
+    "schema_version",
+    "generated_at",
+    "source_id",
+    "generated_by",
+    "work_id",
+    "chapter_number",
+    "chapter_title",
+    "summary",
+    "extracted_entities"
+  ],
+  "properties": {
+    "artifact_id": { "type": "string", "minLength": 3 },
+    "artifact_type": { "const": "chapter_summary" },
+    "schema_version": { "const": "1.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "source_id": { "type": "string", "minLength": 1, "description": "Work ID, e.g., WORK_ubik" },
+    "generated_by": { "$ref": "#/$defs/generated_by" },
+    "work_id": { "type": "string", "description": "Canonical work identifier" },
+    "chapter_number": { "type": ["integer", "string"] },
+    "chapter_title": { "type": "string" },
+    "section_range": { "type": ["string", "null"], "description": "e.g. 'pages 12-25' or 'section 3'" },
+    "summary": {
+      "type": "string",
+      "description": "Paragraph-length summary of chapter content, key events, dialogue, decisions"
+    },
+    "extracted_entities": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "locations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": { "type": "string" },
+              "context": { "type": ["string", "null"], "description": "How it's referenced in text" },
+              "significance": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "characters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": { "type": "string" },
+              "role_in_chapter": { "type": ["string", "null"] },
+              "key_actions": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "themes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Thematic elements: reality, identity, consciousness, power, etc."
+        },
+        "theological_concepts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "concept": { "type": "string" },
+              "context": { "type": ["string", "null"] },
+              "theological_frame": { "type": ["string", "null"], "description": "gnostic, christian, mystical, etc." }
+            }
+          }
+        },
+        "philosophical_concepts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "concept": { "type": "string" },
+              "context": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    },
+    "key_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "event": { "type": "string" },
+          "significance": { "type": ["string", "null"] },
+          "relates_to_biography": { "type": ["string", "null"], "description": "If this echoes PKD's life, note it" }
+        }
+      }
+    },
+    "connections_to_other_works": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "work_id": { "type": "string" },
+          "connection_type": { "type": "string", "enum": ["thematic", "character_parallel", "plot_echo", "theological"] },
+          "note": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "narrative_voice_observations": { "type": ["string", "null"] },
+    "symbolic_elements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "symbol": { "type": "string" },
+          "interpretation": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "questions_raised": { "type": "array", "items": { "type": "string" } },
+    "reading_notes": { "type": ["string", "null"], "description": "Any additional observations from reading" }
+  },
+  "$defs": {
+    "generated_by": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["agent_role", "name"],
+      "properties": {
+        "agent_role": { "type": "string" },
+        "name": { "type": "string" },
+        "model": { "type": ["string", "null"] },
+        "prompt_version": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

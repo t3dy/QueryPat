@@ -1,0 +1,168 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH006",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 6,
+  "chapter_title": "The Bomb and the Evacuation",
+  "section_range": null,
+  "summary": "The team arrives at Stanton Mick's subsurface facility on Luna to neutralize PSI activity. However, Mick reveals himself as a humanoid bomb and explodes, killing Runciter. The survivors barely escape with Runciter in cold-pac, retreating to their ship. During the chaotic evacuation, Joe realizes Pat Conley's extraordinary ability to alter the past was not used to save Runciter, though she claims it's too late. The chapter establishes the core mystery: whether they're genuinely dead or under attack by an external force.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Luna (subsurface installation)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Swiss moratorium",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Earth (return destination)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "New York (home base of Runciter Associates)",
+        "context": null,
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Glen Runciter",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Joe Chip",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Pat Conley",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Zoe Wirt",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Stanton Mick",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Wendy Wright",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Don Denny",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Al Hammond",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Various inertials",
+        "role_in_chapter": null,
+        "key_actions": null
+      }
+    ],
+    "themes": [
+      "Sudden catastrophe and loss",
+      "The cost of leadership (Runciter's sacrifice)",
+      "Corporate warfare and assassination",
+      "Pat's dangerous and mysterious talent",
+      "Survival versus closure"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "Death and the moment of passing",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The soul's journey after bodily death",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Divine judgment and cosmic fate",
+        "context": null,
+        "theological_frame": null
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "Free will versus determinism (Pat's ability to alter the past)",
+        "context": null
+      },
+      {
+        "concept": "The nature of personal identity (preservation in cold-pac)",
+        "context": null
+      },
+      {
+        "concept": "Time, causality, and retroactive change",
+        "context": null
+      },
+      {
+        "concept": "Moral responsibility in the face of power",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "Stanton Mick's humanoid bomb is activated",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Glen Runciter is mortally wounded",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The team escapes to their ship",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Runciter is placed in cold-pac",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Pat claims her talent cannot help at this point",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The survivors debate whether to pursue Hollis or return to Earth",
+      "significance": null,
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

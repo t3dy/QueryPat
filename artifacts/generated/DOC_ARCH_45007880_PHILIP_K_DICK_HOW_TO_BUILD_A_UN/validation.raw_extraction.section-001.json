@@ -1,0 +1,26 @@
+{
+  "artifact_id": "ART_VALIDATION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001",
+  "artifact_type": "validation",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN",
+  "generated_by": {
+    "agent_role": "validation_agent",
+    "name": "Claude (Opus 4.8) cross-checking extraction against source lines",
+    "model": "claude-opus-4-8",
+    "prompt_version": "validation.v1"
+  },
+  "target_artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001",
+  "target_artifact_type": "raw_extraction",
+  "validation_status": "pass",
+  "schema_errors": [],
+  "missing_required_fields": [],
+  "grounding_issues": [],
+  "suspected_hallucinations": [],
+  "duplicate_or_conflicting_claims": [],
+  "recommended_fixes": [
+    "Optional: when promoting this to a Works/Dictionary entry, reconcile the essay's stated 1978 date against its anthology publication history (e.g. 'The Shifting Realities of Philip K. Dick', 1995).",
+    "Optional: link the anamnesis passage to the existing THEO_1974 theophany records."
+  ],
+  "validator_notes": "Every extracted claim and passage was checked against the cited line(s) in the source markdown and verified verbatim or as faithful paraphrase. Quotations (reality definition, Ubik/Logos, anamnesis) are exact. PKD's hedging on the time theory and the unnamed-Nixon reticence are correctly preserved as uncertainties rather than asserted as fact. Status 'pass': downstream interpretive and prose stages may proceed."
+}

@@ -1,0 +1,193 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH011",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 11,
+  "chapter_title": "The Moratorium and the Mystery",
+  "section_range": null,
+  "summary": "Joe arrives in Des Moines and joins the surviving inertials at the Simple Shepherd Mortuary where Runciter's corpse lies in state—itself dehydrated and ancient-looking. The mortician, Mr. Bliss, drives Joe through 1939 Des Moines, and Joe experiences the era's racism and isolationism with revulsion. Joe learns that Edie Dorn has gone missing and is presumed dead from the same deterioration that killed Wendy and Al. The group realizes that separation hastens death. Runciter's body in the casket is found to be completely desiccated, having undergone the same decay as the other victims. Joe and the others understand they must stay together and reach Des Moines to reunite. The chapter explores how profoundly alienated they are from the past's moral and intellectual framework.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Des Moines airfield",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Simple Shepherd Mortuary",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Des Moines streets and downtown",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Meremont Hotel",
+        "context": null,
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Joe Chip",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Mr. Bliss (mortician driver)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Don Denny",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Pat Conley",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Tito Apostos",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Sammy Mundo",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Tippy Jackson",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Francy Spanish",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Fred Zafsky",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Jon Ild",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Edie Dorn (mentioned/deceased)",
+        "role_in_chapter": null,
+        "key_actions": null
+      }
+    ],
+    "themes": [
+      "The alienation of future consciousness in the past",
+      "Moral progress and historical consciousness",
+      "The loss of companions and isolation",
+      "The quest for understanding in a hostile environment",
+      "Time as a moral as well as physical force"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "Purgatory and atonement",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The communion of souls across time",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Moral judgment and the nature of civilization",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The soul's experience of historical time",
+        "context": null,
+        "theological_frame": null
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "Historicism and the problem of anachronism",
+        "context": null
+      },
+      {
+        "concept": "Consciousness as temporally bound",
+        "context": null
+      },
+      {
+        "concept": "The incommensurability of moral frameworks across time",
+        "context": null
+      },
+      {
+        "concept": "The persistence of identity despite temporal displacement",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "Joe arrives at Des Moines by biplane",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe joins the surviving inertials",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Runciter's corpse is discovered to be completely desiccated",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Mr. Bliss drives Joe through 1939 Des Moines",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe experiences the era's racism and isolationism",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The group realizes Edie Dorn has died",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The mortician indicates no more than a few remain alive",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "All vehicles are old, from the 1930s",
+      "significance": null,
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

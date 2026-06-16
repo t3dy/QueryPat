@@ -1,0 +1,81 @@
+{
+  "artifact_id": "ART_INTERPRETIVE_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001",
+  "artifact_type": "interpretive",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN",
+  "generated_by": {
+    "agent_role": "interpretation_agent",
+    "name": "Claude (Opus 4.8) interpreting from extraction + tagging",
+    "model": "claude-opus-4-8",
+    "prompt_version": "interpretive.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001",
+    "ART_ONTOLOGY_TAGGING_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001"
+  ],
+  "interpretive_questions": [
+    "What role does this essay play in the PKD corpus?",
+    "How does it position the 2-3-74 experiences?",
+    "What is the relationship between its two stated questions?"
+  ],
+  "interpretive_claims": [
+    {
+      "claim": "This essay is PKD's most accessible public synthesis of the two questions that drive his fiction — 'What is reality?' and 'What is the authentic human?' — and explicitly unites them: fake realities produce fake humans, and fake humans manufacture fake realities.",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "synthesis",
+      "evidence_links": [
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001", "evidence_location": { "locator_type": "line", "line_start": 71, "line_end": 71 }, "note": "'Fake realities will create fake humans... My two topics are really one topic.'" },
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001", "evidence_location": { "locator_type": "line", "line_start": 317, "line_end": 319 }, "note": "PKD restates the two questions and answers the second via the 'authentic human'." }
+      ]
+    },
+    {
+      "claim": "The essay presents PKD's 2-3-74 mystical material as a literary-theological puzzle rather than a fixed doctrine: he advances the 'time is not real / A.D. 50 underlies 1978' hypothesis while explicitly disowning certainty about it.",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "synthesis",
+      "evidence_links": [
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001", "evidence_location": { "locator_type": "line", "line_start": 155, "line_end": 155 }, "note": "'The answer I have come up with may not be correct, but it is the only answer I have.'" }
+      ]
+    },
+    {
+      "claim": "Whether PKD's reported anamnesis was a genuine revelation, a temporal-lobe / psychiatric event, or a retrospective literary frame cannot be settled from this source; it is lane-B self-report and sits inside the 2-3-74 contradiction zone.",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "editor",
+      "evidence_links": [
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001", "evidence_location": { "locator_type": "line", "line_start": 179, "line_end": 199 }, "note": "The golden-fish anamnesis account, narrated in the first person." }
+      ]
+    },
+    {
+      "claim": "The unnamed 'most powerful man... judged and condemned' between February and August 1974 is Richard Nixon; PKD all but signs it with the Yorba Linda fortune-cookie anecdote and the 'all the President's men' phrase, while performing reticence.",
+      "confidence": "medium",
+      "speculative": false,
+      "attributed_to": "synthesis",
+      "evidence_links": [
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001", "evidence_location": { "locator_type": "line", "line_start": 251, "line_end": 253 }, "note": "Yorba Linda (Nixon's hometown), Watergate timeline, 'all the President's men'." }
+      ]
+    },
+    {
+      "claim": "PKD's gloss of Ubik as the Logos retrofits a theological reading onto a 1969 novel, and may say more about his post-1974 preoccupations than about the book's original design.",
+      "confidence": "speculative",
+      "speculative": true,
+      "attributed_to": "synthesis",
+      "evidence_links": [
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001", "evidence_location": { "locator_type": "line", "line_start": 293, "line_end": 297 }, "note": "PKD reads the Ubik passage as 'the word, which is to say, the Logos.'" }
+      ]
+    }
+  ],
+  "alternative_readings": [
+    "Clinical: the anamnesis and the Acts coincidences are read by some scholars (e.g. Arnold) through trauma, grief, and temporal-lobe phenomena.",
+    "Literary: the whole essay is a performed speech, and its 'precognition' anecdotes may be shaped for rhetorical effect as much as for accuracy."
+  ],
+  "historiographical_relevance": "Anchors the Visions/Mystical-Events domain (PKDontology §2.3) and the Dictionary terms anamnesis, Logos, and Ubik. A primary, first-person statement that scholars repeatedly cite when reconstructing 2-3-74.",
+  "limitations": [
+    "Lane-B self-report: settles what PKD said and theorized, not whether any of it occurred as described.",
+    "PKD's own theory of 2-3-74 shifted continually across the Exegesis; this essay is one snapshot (1978).",
+    "The Nixon identification and the Ubik-as-Logos gloss are readings, not the source's explicit statements."
+  ],
+  "interpretation_notes": "Four claims carry evidence links and are evidence-grounded; the fifth (Ubik retrofit) is explicitly marked speculative per the interpretive contract. No claim is presented as settling the veridicality of 2-3-74."
+}

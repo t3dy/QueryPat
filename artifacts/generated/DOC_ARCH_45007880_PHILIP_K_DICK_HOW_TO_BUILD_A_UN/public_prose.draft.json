@@ -1,0 +1,37 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN",
+  "generated_by": {
+    "agent_role": "writing_agent",
+    "name": "Claude (Opus 4.8) writing from prior artifacts",
+    "model": "claude-opus-4-8",
+    "prompt_version": "public_prose.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001",
+    "ART_VALIDATION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001",
+    "ART_ONTOLOGY_TAGGING_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001",
+    "ART_INTERPRETIVE_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001",
+    "ART_CURATION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN"
+  ],
+  "generated_from_artifacts": [
+    { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001", "artifact_type": "raw_extraction" },
+    { "artifact_id": "ART_VALIDATION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001", "artifact_type": "validation" },
+    { "artifact_id": "ART_ONTOLOGY_TAGGING_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001", "artifact_type": "ontology_tagging" },
+    { "artifact_id": "ART_INTERPRETIVE_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001", "artifact_type": "interpretive" }
+  ],
+  "title": "How to Build a Universe That Doesn't Fall Apart Two Days Later",
+  "dek_or_short_description": "Philip K. Dick's 1978 speech — the clearest statement of the two questions behind his fiction, and a first-person account of the 1974 experiences he spent the rest of his life trying to explain.",
+  "body_markdown": "Late in his life, asked to address a roomful of people who took science fiction seriously, Philip K. Dick opened by bringing \"official greetings from Disneyland\" and describing an interview he had once given there for French television — whirling in a giant teacup, discussing the rise of fascism, while children in Mickey Mouse hats climbed on him. It is a characteristic move. The joke about a manufactured place full of mechanical birds is also, quietly, the essay's subject.\n\nDick says plainly what his books are about. \"The two basic topics which fascinate me are 'What is reality?' and 'What constitutes the authentic human being?'\" His most quoted sentence is here, the answer he gave a Canadian student in 1972 when she wanted a definition in one line: *\"Reality is that which, when you stop believing in it, doesn't go away.\"* From there he turns to what worries him — that we now live among \"spurious realities\" manufactured by media, governments, and corporations and delivered straight into our heads. His two questions, he argues, are really one: fake realities produce fake humans, and fake humans manufacture fake realities to sell to each other.\n\nThe essay's strange heart is autobiographical. Dick recounts how his 1970 novel *Flow My Tears, the Policeman Said* turned out, without his knowledge, to retell incidents and even names from the Book of Acts — a character named Felix who is \"the final authority,\" a Jason who shelters a fugitive, a climactic meeting with a black stranger on the road that mirrors the apostle Philip's. He describes meeting a real \"Kathy\" who matched his fictional one, and, a week after the novel's February 1974 release, being shown a delivery woman's golden fish necklace and experiencing what he calls *anamnesis* — \"loss of forgetfulness\" — in which he briefly remembered being a secret Christian under Rome, awaiting Christ's return. Out of this he builds a hypothesis: that time is not real, and that the world of the Bible, around A.D. 50, lies concealed beneath 1978.\n\nIt matters how Dick holds this idea. He does not assert it; he offers it. \"The answer I have come up with may not be correct,\" he says, \"but it is the only answer I have.\" The essay is one snapshot of a theory he revised continually across the thousands of pages of his *Exegesis*, and it belongs to a set of 1974 experiences — the \"2-3-74\" events — that scholars have read in sharply different ways: as genuine revelation, as a temporal-lobe or psychiatric episode, as grief and stress, or as a literary frame Dick built after the fact. This portal records those experiences as he reported them; it does not adjudicate which reading is true.\n\nTwo smaller threads reward attention. Dick rereads the climactic invocation in his novel *Ubik* — \"I am the word and my name is never spoken\" — as the Logos of the Gospel of John, a theological gloss that may say as much about his post-1974 mind as about the 1969 book. And he hints, without naming him, that the \"most powerful man in the world\" judged and condemned between February and August 1974 is Richard Nixon: he tells of receiving, in a restaurant in Nixon's hometown of Yorba Linda, a fortune cookie reading \"DEEDS DONE IN SECRET HAVE A WAY OF BECOMING FOUND OUT.\"\n\nThe essay ends not in metaphysics but in ethics. Dick's authentic human is unspectacular: someone \"who instinctively knows what he should not do, and... will balk at doing it\" — who says no to the tyrant and quietly takes the consequences. He finds that capacity most intact in children, who he thinks can detect a lie faster than any adult. \"When I want to know what is true,\" he writes, \"I ask my children.\" It is the most hopeful page he wrote about the fakery he spent the rest of the speech describing.",
+  "summary": "PKD's 1978 speech states his two lifelong questions — what is real, and what is an authentic human — and recounts the 1974 anamnesis and the Book-of-Acts coincidences from which he derived his hypothesis that time is unreal. Presented as his self-report, with the 2-3-74 readings left open.",
+  "tags": ["reality-vs-illusion", "the-authentic-human", "2-3-74", "anamnesis", "logos", "ubik", "precognition", "gnosis"],
+  "citations_or_source_links": [
+    { "label": "Philip K. Dick, 'How to Build a Universe That Doesn't Fall Apart Two Days Later' (1978)", "uri": "http://deoxy.org/pkd_how2build.htm", "source_id": "DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN" }
+  ],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Generated from the verified extraction + a passing validation, plus tagging, interpretation, and curation artifacts. Every factual sentence traces to an extracted passage with a line locator. PKD's self-reported experiences are kept distinct from his interpretations, and the 2-3-74 contradiction zone is surfaced (not resolved). Quotations are exact. Eligible for 'published' once a human editor signs off."
+}

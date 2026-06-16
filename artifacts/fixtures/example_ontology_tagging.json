@@ -1,0 +1,45 @@
+{
+  "artifact_id": "ART_ONTOLOGY_TAGGING_DOC_ARCH_1974_ROLLING_STONE_S001",
+  "artifact_type": "ontology_tagging",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_1974_ROLLING_STONE",
+  "generated_by": {
+    "agent_role": "ontology_agent",
+    "name": "scripts/link/triage_terms.py (ontology mode)",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "ontology_tagging.v1"
+  },
+  "input_artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_1974_ROLLING_STONE_S001",
+  "ontology_version": "1.0",
+  "tags": ["pkd-reception", "mainstream-press", "1970s"],
+  "entities_linked_to_ontology_ids": [
+    {
+      "mention": "Philip K. Dick",
+      "ontology_id": "PERSON_PHILIP_K_DICK",
+      "ontology_kind": "person",
+      "confidence": 1.0
+    },
+    {
+      "mention": "2-3-74",
+      "ontology_id": "THEO_1974_2_3_74_CLUSTER",
+      "ontology_kind": "theophany",
+      "confidence": 0.4
+    }
+  ],
+  "traditions": [],
+  "periods": ["twentieth_century", "contemporary"],
+  "genres": ["magazine_feature", "journalism"],
+  "methods": ["reception_history"],
+  "historiographical_categories": ["primary_source", "popular_reception"],
+  "esoteric_domains": ["historiography"],
+  "evidentiary_lane": "E",
+  "confidence_by_tag": [
+    { "tag": "pkd-reception", "confidence": 0.6 },
+    { "tag": "mainstream-press", "confidence": 0.9 }
+  ],
+  "rejected_tags": [
+    { "tag": "2-3-74", "reason": "The mystical-experience link is only a catalog inference; the source text is unread, so a content tag to 2-3-74 is not warranted at confidence > 0.4." }
+  ],
+  "tagging_notes": "Classification only. Tags reflect the object (a 1970s mainstream-press item about PKD), not asserted contents. No prose written."
+}

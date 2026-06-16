@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://querypat.local/artifacts/raw_extraction.schema.json",
+  "title": "RawExtractionArtifact",
+  "description": "Stage B. Captures what is explicitly present in the source or section, before interpretation. MUST NOT make high-level historiographical claims unless the source explicitly makes them.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_id",
+    "artifact_type",
+    "schema_version",
+    "generated_at",
+    "source_id",
+    "generated_by",
+    "extraction_scope"
+  ],
+  "properties": {
+    "artifact_id": { "type": "string", "minLength": 3 },
+    "artifact_type": { "const": "raw_extraction" },
+    "schema_version": { "const": "1.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "source_id": { "type": "string", "minLength": 1 },
+    "section_id": { "type": ["string", "null"] },
+    "generated_by": { "$ref": "#/$defs/generated_by" },
+
+    "extraction_scope": {
+      "type": "string",
+      "description": "What part of the source was read (e.g. 'full document', 'pages 3-5', 'episode description + first 10 min of transcript')."
+    },
+    "extracted_entities": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "people": { "type": "array", "items": { "type": "string" } },
+        "works": { "type": "array", "items": { "type": "string" } },
+        "places": { "type": "array", "items": { "type": "string" } },
+        "dates": { "type": "array", "items": { "type": "string" } },
+        "institutions": { "type": "array", "items": { "type": "string" } },
+        "traditions": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "key_terms": { "type": "array", "items": { "type": "string" } },
+    "explicit_topics": { "type": "array", "items": { "type": "string" } },
+    "substances_or_materials": { "type": "array", "items": { "type": "string" } },
+    "images_symbols_motifs": { "type": "array", "items": { "type": "string" } },
+    "rituals_practices_procedures": { "type": "array", "items": { "type": "string" } },
+    "claims_made_by_source": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim", "evidence_location"],
+        "properties": {
+          "claim": { "type": "string" },
+          "evidence_location": { "$ref": "#/$defs/evidence_location" }
+        }
+      }
+    },
+    "important_passages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["excerpt", "evidence_location"],
+        "properties": {
+          "excerpt": { "type": "string" },
+          "why_important": { "type": ["string", "null"] },
+          "evidence_location": { "$ref": "#/$defs/evidence_location" }
+        }
+      }
+    },
+    "uncertainties": { "type": "array", "items": { "type": "string" } },
+    "extraction_notes": { "type": ["string", "null"] }
+  },
+  "$defs": {
+    "generated_by": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["agent_role", "name"],
+      "properties": {
+        "agent_role": { "type": "string" },
+        "name": { "type": "string" },
+        "model": { "type": ["string", "null"] },
+        "prompt_version": { "type": ["string", "null"] }
+      }
+    },
+    "evidence_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["locator_type"],
+      "properties": {
+        "source_id": { "type": ["string", "null"] },
+        "locator_type": { "enum": ["page", "section", "paragraph", "line", "timestamp", "url_fragment", "excerpt", "other"] },
+        "page": { "type": ["integer", "string", "null"] },
+        "section_id": { "type": ["string", "null"] },
+        "paragraph": { "type": ["integer", "null"] },
+        "line_start": { "type": ["integer", "null"] },
+        "line_end": { "type": ["integer", "null"] },
+        "timestamp": { "type": ["string", "null"] },
+        "url_fragment": { "type": ["string", "null"] },
+        "excerpt": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

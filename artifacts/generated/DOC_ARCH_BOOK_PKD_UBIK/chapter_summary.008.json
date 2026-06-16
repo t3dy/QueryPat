@@ -1,0 +1,158 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH008",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 8,
+  "chapter_title": "The Deterioration Begins",
+  "section_range": null,
+  "summary": "Joe wakes in his Zurich hotel room to find Runciter's voice on his phone, seemingly in broadcast rather than interactive form. He attempts to use the phone but cannot reach the moratorium or order room service. A homeopape machine provides news of Runciter's death and funeral in Des Moines. The Ubik commercial appears on television with Runciter himself explaining that they're in half-life, that decay is natural, and that Ubik can help. Joe struggles to reconcile the scientific explanation with his surreal experience. He later encounters graffiti in a men's room stating 'I AM ALIVE. YOU'RE ALL DEAD.', written in Runciter's handwriting.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Zurich hotel",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Beloved Brethren Moratorium",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Des Moines, Iowa",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Simple Shepherd Mortuary",
+        "context": null,
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Joe Chip",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Glen Runciter (voice/video)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Al Hammond",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Don Denny",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Edie Dorn",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Herbert von Vogelsang",
+        "role_in_chapter": null,
+        "key_actions": null
+      }
+    ],
+    "themes": [
+      "Communication across the veil between life and death",
+      "The unreliability of technology as a means of contact",
+      "Commercialism invading even death and the afterlife",
+      "The revelation of uncomfortable truths",
+      "Philosophical confusion about one's ontological status"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "The persistence of consciousness after death",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Half-life as a liminal spiritual state",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Divine or cosmic messaging through mundane media",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The soul's journey between worlds",
+        "context": null,
+        "theological_frame": null
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "Epistemology: how we know what's real",
+        "context": null
+      },
+      {
+        "concept": "The problem of other minds and confirmation of death",
+        "context": null
+      },
+      {
+        "concept": "Communication and the breakdown of shared understanding",
+        "context": null
+      },
+      {
+        "concept": "The nature of identity when the body is frozen and the mind is 'elsewhere'",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "Runciter's voice is heard on Joe's hotel phone",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe discovers a two-year-old phone book in the ship",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The Ubik commercial appears on television with Runciter",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "News broadcasts confirm Runciter's death and funeral",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Graffiti in the men's room reveals Runciter's presence",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe realizes Al Hammond is also deteriorating",
+      "significance": null,
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

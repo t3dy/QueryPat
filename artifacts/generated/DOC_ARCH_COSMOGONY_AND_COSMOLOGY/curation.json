@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ART_CURATION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+  "artifact_type": "curation",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+  "generated_by": {
+    "agent_role": "curation_agent",
+    "name": "Claude (Haiku 4.5) curation pass",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "curation.v1"
+  },
+  "input_artifact_ids": [
+    "ART_SOURCE_METADATA_DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+    "ART_ONTOLOGY_TAGGING_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001",
+    "ART_INTERPRETIVE_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001"
+  ],
+  "relevance_score": 0.95,
+  "relevance_status": "feature",
+  "content_class": "primary_source_discussion",
+  "audience_fit": "intelligent_non_specialist",
+  "scholarly_value": "high",
+  "reasons_for_inclusion": [
+    "PKD's most systematic metaphysical statement, the fullest working-out of the 2-3-74 model.",
+    "Essential primary text for understanding the Urgrund, demiurge, Zebra, anamnesis, and the theophany cluster.",
+    "Demonstrates both the depth of PKD's philosophical engagement and the limits of his own reasoning."
+  ],
+  "reasons_for_exclusion": [],
+  "recommended_tags": ["urgrund", "demiurge", "zebra", "anamnesis", "theodicy", "2-3-74", "gnosticism", "panentheism"],
+  "editorial_angle": "Present as the portal's authoritative statement of PKD's own cosmological model. Highlight the essay's syncretic erudition and its honest impasses. Link closely to 'How to Build a Universe' (same year, overlapping material) and to the Exegesis entries.",
+  "curator_notes": "Featured: this is load-bearing for three of the four standing research questions. The essay's systematic ambition and explicit uncertainty make it ideal for a knowledge portal. Frame the reversals and admissions of ignorance as intellectual honesty, not failure."
+}

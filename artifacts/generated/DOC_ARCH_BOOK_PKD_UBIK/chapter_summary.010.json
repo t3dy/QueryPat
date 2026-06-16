@@ -1,0 +1,163 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH010",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 10,
+  "chapter_title": "The Ubik Commercial and the Revelation of Reality",
+  "section_range": null,
+  "summary": "Joe's apartment has regressed to 1939-era fixtures: wood stove, Victrola, pre-World War II furniture. A television broadcast shows Runciter's funeral in Des Moines, but then the TV switches on by itself and plays a Ubik commercial featuring Runciter, who explains that the decay is normal to half-life and that Ubik can reverse it. Joe receives a free sample by mail—but it's a jar of liver and kidney balm from 1908, not a spray can. Joe drives a 1939 LaSalle to an airfield, charters a Curtiss-Wright biplane, and trades the mysterious elixir bottle (which contains gold flakes) for passage to Des Moines. The chapter establishes that Joe is physically regressing through time, and that the world he inhabits is actively devolving.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "New York (Joe's conapt)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "New York airfield",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Des Moines airport",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Simple Shepherd Mortuary (Des Moines)",
+        "context": null,
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Joe Chip",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Sandy Jespersen (aviator)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Glen Runciter (voice/image)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Field officials",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Airport attendants",
+        "role_in_chapter": null,
+        "key_actions": null
+      }
+    ],
+    "themes": [
+      "The regression of technology and civilization",
+      "The loss of modern comfort and capability",
+      "Physical and metaphysical transformation",
+      "Time as a tangible force rather than an abstraction",
+      "The persistence of commercial logic even in death"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "Purgatory as a state of temporal regression",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The soul's journey through historical time",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Divine punishment expressed through material devolution",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Salvation as the recovery of modernity and comfort",
+        "context": null,
+        "theological_frame": null
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "The nature of time and historical consciousness",
+        "context": null
+      },
+      {
+        "concept": "Technology as an expression of human consciousness",
+        "context": null
+      },
+      {
+        "concept": "The relationship between past and present forms of being",
+        "context": null
+      },
+      {
+        "concept": "Ontological status and temporal location",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "Joe's apartment regresses to 1939",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "A newspaper dated September 12, 1939 is discovered",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "A Ubik commercial appears on television",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe receives Ubik Liver and Kidney Balm in the mail",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The balm regresses to a nineteenth-century elixir",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe drives a 1939 LaSalle",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe charters a biplane to Des Moines",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The bottle contains gold flakes valued by the aviator",
+      "significance": null,
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

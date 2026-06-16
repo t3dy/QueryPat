@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ART_CURATION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN",
+  "artifact_type": "curation",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN",
+  "generated_by": {
+    "agent_role": "curation_agent",
+    "name": "Claude (Opus 4.8) curation pass",
+    "model": "claude-opus-4-8",
+    "prompt_version": "curation.v1"
+  },
+  "input_artifact_ids": [
+    "ART_SOURCE_METADATA_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN",
+    "ART_ONTOLOGY_TAGGING_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001",
+    "ART_INTERPRETIVE_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001"
+  ],
+  "relevance_score": 0.98,
+  "relevance_status": "feature",
+  "content_class": "primary_source_discussion",
+  "audience_fit": "intelligent_non_specialist",
+  "scholarly_value": "high",
+  "reasons_for_inclusion": [
+    "Canonical PKD primary text and his single most accessible statement of his two governing questions.",
+    "First-person source for the dictionary terms anamnesis and Logos and for the 2-3-74 cluster.",
+    "Full machine-readable text with verified line locators, so downstream prose is fully grounded."
+  ],
+  "reasons_for_exclusion": [],
+  "recommended_tags": ["reality-vs-illusion", "the-authentic-human", "2-3-74", "logos", "gnosis", "precognition"],
+  "editorial_angle": "Use as the entry point to PKD's metaphysics for non-specialists, and as the primary anchor for the anamnesis and Ubik dictionary entries. Surface the 2-3-74 contradiction note rather than endorsing PKD's time theory.",
+  "curator_notes": "Featured because it is load-bearing for three of the four standing research questions (what he meant, the textual evidence, and — via the Acts coincidences — what he did). Audience fit is broad; the prose should keep PKD's self-report and the editorial caution clearly separated."
+}

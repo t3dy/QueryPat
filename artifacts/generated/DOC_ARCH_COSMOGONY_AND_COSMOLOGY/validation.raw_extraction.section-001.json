@@ -1,0 +1,28 @@
+{
+  "artifact_id": "ART_VALIDATION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001",
+  "artifact_type": "validation",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+  "generated_by": {
+    "agent_role": "validation_agent",
+    "name": "Claude (Opus 4.8) cross-checking extraction against source lines",
+    "model": "claude-opus-4-8",
+    "prompt_version": "validation.v1"
+  },
+  "target_artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001",
+  "target_artifact_type": "raw_extraction",
+  "validation_status": "pass",
+  "schema_errors": [],
+  "missing_required_fields": [],
+  "grounding_issues": [],
+  "suspected_hallucinations": [],
+  "duplicate_or_conflicting_claims": [
+    "The extraction correctly preserves, rather than resolves, PKD's own self-contradiction: that the Urgrund created the artifact (line 13) vs. that it may instead have fallen into a snare it did not create (line 453)."
+  ],
+  "recommended_fixes": [
+    "Link the anamnesis and golden-fish material to the shared passages in 'How to Build a Universe' (DOC_ARCH_45007880) and to THEO_1974.",
+    "Consider a TextComparisonArtifact contrasting this essay's systematic model with the looser treatment in 'How to Build a Universe' (both 1978)."
+  ],
+  "validator_notes": "Quotations verified verbatim against cited lines ('Behind the human mind lies God...' at 233-237; 'God who is estranged from God' at 239; 'Evil zero; Good infinity' at 473; 'acosmic panentheist' at 333). Attributions (Böhme/Urgrund 1616, Bruno 1548-1600, Driesch 1867-1941) match the text. PKD's heavy hedging is faithfully captured as uncertainties. Status 'pass'."
+}

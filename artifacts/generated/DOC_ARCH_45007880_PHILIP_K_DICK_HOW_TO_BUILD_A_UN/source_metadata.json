@@ -1,0 +1,27 @@
+{
+  "artifact_id": "ART_SOURCE_METADATA_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN",
+  "artifact_type": "source_metadata",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN",
+  "generated_by": {
+    "agent_role": "ingestion_script",
+    "name": "scripts/ingest/ingest_archive.py + Claude (Opus 4.8) ingestion review",
+    "model": "claude-opus-4-8",
+    "prompt_version": "source_metadata.v1"
+  },
+  "source_type": "article",
+  "source_title": "How to Build a Universe That Doesn't Fall Apart Two Days Later",
+  "authors_or_creators": ["Philip K. Dick"],
+  "publication_date": "1978",
+  "source_uri": "http://deoxy.org/pkd_how2build.htm",
+  "local_path": "database/extracted_markdown/DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN.md",
+  "ingestion_date": "2025-01-01",
+  "language": "en",
+  "rights_status": "in_copyright",
+  "access_notes": "Essay/speech written 1978; widely anthologised (notably in the 1995 collection 'The Shifting Realities of Philip K. Dick'). Source object here is a 16-page transcription with full machine-readable text (extraction_status=complete).",
+  "raw_text_available": true,
+  "transcript_available": true,
+  "evidentiary_lane": "B",
+  "notes": "PKD-authored non-fiction (lane B: PKD theorizing about himself and the world). The stated date 1978 is the composition/delivery date; downstream prose should not present it as a first-publication date without checking the anthology history."
+}

@@ -1,0 +1,38 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+  "generated_by": {
+    "agent_role": "writing_agent",
+    "name": "Claude (Opus 4.8) writing from prior artifacts",
+    "model": "claude-opus-4-8",
+    "prompt_version": "public_prose.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+    "ART_VALIDATION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+    "ART_ONTOLOGY_TAGGING_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+    "ART_SCHOLAR_CITATION_DOC_ARCH_556512336_SARILL_UBIK_UBIQUINONE",
+    "ART_INTERPRETIVE_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+    "ART_CURATION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN"
+  ],
+  "generated_from_artifacts": [
+    { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001", "artifact_type": "raw_extraction" },
+    { "artifact_id": "ART_VALIDATION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001", "artifact_type": "validation" },
+    { "artifact_id": "ART_SCHOLAR_CITATION_DOC_ARCH_556512336_SARILL_UBIK_UBIQUINONE", "artifact_type": "scholar_citation" },
+    { "artifact_id": "ART_INTERPRETIVE_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001", "artifact_type": "interpretive" }
+  ],
+  "title": "Will the Real Ubik Please Stand Up? — Sarill on Dick and precognition",
+  "dek_or_short_description": "A physicist-biochemist who knew Philip K. Dick argues that the substance at the heart of Ubik anticipates a real molecule discovered only decades later — and is careful to call it evidence, not proof.",
+  "body_markdown": "In Philip K. Dick's 1969 novel *Ubik*, reality decays — food spoils, coins go out of date, a taxi devolves into a Model-A Ford — and a single mysterious product can hold the rot at bay. The novel's name comes from the Latin *ubique*, \"everywhere.\" In a 2014 article for *EdgeScience*, the magazine of the Society for Scientific Exploration, William Sarill points out something uncomfortable: there is a real substance called ubiquinone — better known today as the supplement CoQ10 — whose name has the same root and whose documented effects on aging, fatigue, wound healing, and heart function line up, point by point, with what Ubik does in the book. The catch is that almost all of that science was published twenty to forty years after Dick wrote the novel in 1966.\n\nSarill is not a casual observer. Trained in physics and later a working biochemist, he was a personal friend of Dick's, spent over a month as his houseguest, and is thanked in the acknowledgments of Dick's novel *A Maze of Death*. The most solid part of his article is also its most modest: a careful argument that Dick had no way to know about ubiquinone. Sarill interviewed three of Dick's ex-wives and a former girlfriend, none of whom recalled any interest in or contact with biochemistry; he checked the encyclopedia Dick owned and found that the 1966 *Britannica* contains no mention of ubiquinone while the 1967 edition does; and he traced the only popular reference of the era to a single, buried 1960 line in *Scientific American*. Whatever one concludes about the rest, this negative case stands on its own.\n\nWhat Sarill builds on top of it is bolder. Set alongside Dick's other reported premonitions — the much-discussed episode where characters in *Flow My Tears, the Policeman Said* matched real people he met afterward, a trance diagnosis of his infant son's hernia later confirmed by his wife Tessa, a 1975 vision of a body lying in the position his own would be found in seven years later — the Ubik correspondences lead Sarill toward precognition. To his credit, he does not overplay it. He frames the pattern through Jung and Pauli's idea of synchronicity, notes that such a thing \"could never prove its existence, only infer it,\" and states plainly that *Ubik* offers \"synchronistic evidence consistent with precognition, not proof of it.\" He even lays out the competing reading, the one Dick himself gave in the *Exegesis*: that Ubik is simply a figure for divine, all-pervading life — \"the Atman, the Breath of God\" — in which case any resemblance to a real molecule is incidental.\n\nThe honest assessment is that the article's strength and its weakness are the same feature. Its method is rigorous — original interviews, archival checks, a real grasp of the biochemistry — but it is aimed at a conclusion that, by the author's own admission, cannot be tested. Whether the Ubik/ubiquinone parallels are meaningful or merely a vivid novel read backward depends entirely on what you already believe about psychic foreknowledge. This portal files the piece as serious but contested: worth reading and representing accurately, valuable as a well-documented example of the parapsychological strand in Dick studies, and not to be cited as though precognition were established. Sarill, along the way, also adds a specific clinical proposal about the 1974 experiences — bipolar disorder compounded by a sedative rebound, against the older guesses of schizophrenia or temporal-lobe epilepsy — one more entry in a debate the record keeps open rather than closes.",
+  "summary": "Sarill argues that Ubik's reality-restoring substance precognitively matches ubiquinone (CoQ10), evidence for which postdates the 1966 novel. His negative case (Dick couldn't have known) is strong; the precognition conclusion is, by his own statement, inferential and unfalsifiable. Filed as serious but contested scholarship.",
+  "tags": ["ubik", "precognition", "ubiquinone", "synchronicity", "2-3-74", "scholarly-reliability", "parapsychology"],
+  "citations_or_source_links": [
+    { "label": "William Sarill, 'Will the Real Ubik Please Stand Up?', EdgeScience #20 (Dec 2014)", "uri": "https://www.scientificexploration.org/edgescience", "source_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN" }
+  ],
+  "editorial_status": "reviewed",
+  "prototype_mode": false,
+  "revision_notes": "Generated from a verified extraction + passing validation, a scholar_citation, and tagging/interpretation/curation artifacts. Neither debunks nor endorses: credits the article's real strengths and candor while keeping the unfalsifiability problem and the advocacy venue visible. Quotations exact and short (fair use). Distinguishes Sarill's evidence from his inference throughout."
+}

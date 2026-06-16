@@ -1,0 +1,57 @@
+{
+  "artifact_id": "ART_INTERPRETIVE_DOC_ARCH_1974_ROLLING_STONE_S001",
+  "artifact_type": "interpretive",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_1974_ROLLING_STONE",
+  "generated_by": {
+    "agent_role": "interpretation_agent",
+    "name": "scripts/studies/draft_dossiers.py (interpretation mode)",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "interpretive.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_1974_ROLLING_STONE_S001",
+    "ART_ONTOLOGY_TAGGING_DOC_ARCH_1974_ROLLING_STONE_S001"
+  ],
+  "interpretive_questions": [
+    "What does a mid-1970s Rolling Stone feature indicate about PKD's cultural reception?"
+  ],
+  "interpretive_claims": [
+    {
+      "claim": "A Rolling Stone feature on PKD in this period would mark early mainstream-press recognition beyond the SF community.",
+      "confidence": "speculative",
+      "speculative": true,
+      "attributed_to": "synthesis",
+      "evidence_links": [
+        {
+          "artifact_id": "ART_ONTOLOGY_TAGGING_DOC_ARCH_1974_ROLLING_STONE_S001",
+          "evidence_location": { "locator_type": "other", "excerpt": "tags: pkd-reception, mainstream-press, 1970s" },
+          "note": "Inference rests only on the object's classification, not on its (unread) contents."
+        }
+      ]
+    },
+    {
+      "claim": "The exact significance cannot be assessed until the article text is OCR'd; the 1974/1975 dating discrepancy must be resolved first.",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "editor",
+      "evidence_links": [
+        {
+          "artifact_id": "ART_VALIDATION_DOC_ARCH_1974_ROLLING_STONE_S001",
+          "evidence_location": { "locator_type": "other", "excerpt": "grounding_issues: no OCR text layer" },
+          "note": "Grounded in the validation artifact's recorded grounding issue."
+        }
+      ]
+    }
+  ],
+  "alternative_readings": [
+    "If the item is in fact the November 1975 Paul Williams profile mis-dated to 1974, its significance is well documented elsewhere and this record should be merged."
+  ],
+  "historiographical_relevance": "Bears on the reception-history strand (§2.9 of PKDontology.md): when and how PKD crossed into mainstream cultural recognition.",
+  "limitations": [
+    "No body text was available; both claims are bounded by that fact.",
+    "The speculative claim must never be promoted to a settled statement in public prose."
+  ],
+  "interpretation_notes": "Demonstrates the rule that an interpretive claim must either carry evidence_links or be explicitly marked speculative. Here one claim is speculative, the other is evidence-grounded and high-confidence."
+}

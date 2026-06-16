@@ -1,0 +1,27 @@
+{
+  "artifact_id": "ART_SOURCE_METADATA_DOC_ARCH_1974_ROLLING_STONE",
+  "artifact_type": "source_metadata",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_1974_ROLLING_STONE",
+  "generated_by": {
+    "agent_role": "ingestion_script",
+    "name": "scripts/ingest/ingest_archive.py",
+    "model": null,
+    "prompt_version": null
+  },
+  "source_type": "pdf",
+  "source_title": "Rolling Stone (1974) - Philip K. Dick Feature",
+  "authors_or_creators": ["Unknown"],
+  "publication_date": "1974",
+  "source_uri": null,
+  "local_path": "PaulPKDarchive/PKDpdf/1974_Rolling_Stone.pdf",
+  "ingestion_date": "2025-01-01",
+  "language": "en",
+  "rights_status": "in_copyright",
+  "access_notes": "Scanned magazine feature, 11 pages. No OCR text layer present (extraction_status=failed in the catalog).",
+  "raw_text_available": false,
+  "transcript_available": false,
+  "evidentiary_lane": "E",
+  "notes": "Period press coverage of PKD. Filed as primary_other (lane E). A real OCR pass is a prerequisite to any text-grounded downstream artifact."
+}

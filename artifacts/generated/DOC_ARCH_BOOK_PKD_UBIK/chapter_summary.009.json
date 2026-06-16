@@ -1,0 +1,178 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH009",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 9,
+  "chapter_title": "The Marketplace and the Evidence",
+  "section_range": null,
+  "summary": "Joe and Al travel to Baltimore to test their Runciter money at a random supermarket. They discover that Runciter currency is accepted but that all products—cigarettes, food, tape recorders—have mysteriously aged decades beyond their purchase dates. A carton of cigarettes contains a note from Runciter telling them not to give up. They return to New York where they find the elevator has regressed to an old iron cage, and Al begins to show signs of the same deterioration that killed Wendy. Graffiti in the men's room reveals the truth: they are dead and in half-life. Al separates from the group and appears to be dying.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Baltimore (Lucky People Supermarket)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "New York (Runciter Associates office)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "New York airfield",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Des Moines (mentioned)",
+        "context": null,
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Joe Chip",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Al Hammond",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Various shop attendants and customers",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Don Denny",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Pat Conley",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Tippy Jackson",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Edie Dorn",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Jon Ild",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Sammy Mundo",
+        "role_in_chapter": null,
+        "key_actions": null
+      }
+    ],
+    "themes": [
+      "The falsity of contemporary civilization",
+      "Money and value in a corrupted world",
+      "Temporal inversion and regression",
+      "Group cohesion and the dangers of separation",
+      "The manifestation of external forces in consumer goods"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "Cosmic entropy and the heat death of the universe",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Divine judgment expressed through material decay",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The soul's recognition of its true state",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Salvation through collective understanding",
+        "context": null,
+        "theological_frame": null
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "The nature of time and temporal flow",
+        "context": null
+      },
+      {
+        "concept": "Currency and the abstraction of value",
+        "context": null
+      },
+      {
+        "concept": "Regression as a metaphor for consciousness degradation",
+        "context": null
+      },
+      {
+        "concept": "The instability of collective reality when isolated from external validation",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "Runciter money is discovered on coins and bills",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "A cryptic note from Runciter is found in a cigarette carton",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "A tape recorder is found to be forty years old despite being new",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The elevator in the office building reverts to an iron cage",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Al Hammond begins to show terminal deterioration",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Graffiti confirms they are in half-life",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "The group realizes they must stay together to survive",
+      "significance": null,
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

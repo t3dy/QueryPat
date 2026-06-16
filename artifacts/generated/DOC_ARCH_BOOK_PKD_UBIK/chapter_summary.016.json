@@ -1,0 +1,178 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH016",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 16,
+  "chapter_title": "The Descent and the Encounter with Ella",
+  "section_range": null,
+  "summary": "Joe explores the limitations of Jory's constructed world and realizes that it extends only a few blocks. He encounters a blond girl who reveals herself to be Ella Runciter, Glen's wife, who is in half-life but able to operate autonomously against Jory. Ella explains that she is deteriorating and will soon be reborn, and that she has been helping Joe because she wants him to become Glen's advisor in half-life after her departure. She gives Joe a certificate guaranteeing him a lifetime supply of Ubik. Ella and Joe go to a drugstore, but Jory has regressed the Ubik there into a nineteenth-century liver balm. Joe, with great effort, attempts to consciously evolve the balm back to a spray can, and a factory representative appears with the needed Ubik. The chapter establishes that there are forces within half-life working to counteract Jory, and that human will and consciousness can actually reshape the pseudo-world.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Des Moines streets",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Taxi (moving through city)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Drugstore",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Hotel (brief mention)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Street benches",
+        "context": null,
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Joe Chip",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Ella Runciter (revealed)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Jory (pharmacist form)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Taxi driver",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Factory representative (young woman)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Blond girl (Ella)",
+        "role_in_chapter": null,
+        "key_actions": null
+      }
+    ],
+    "themes": [
+      "Redemption through sacrifice and preparation",
+      "The power of will and consciousness over material reality",
+      "Love and loyalty transcending death",
+      "The renewal of hope and purpose",
+      "Responsibility passed to the next generation"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "Angels and guides in the afterlife",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The soul's preparation for rebirth",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Divine grace manifested through human agency",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The communion of souls across the boundary of life and death",
+        "context": null,
+        "theological_frame": null
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "Idealism: the power of consciousness to shape reality",
+        "context": null
+      },
+      {
+        "concept": "Teleology and purpose in the afterlife",
+        "context": null
+      },
+      {
+        "concept": "The relationship between will, effort, and manifestation",
+        "context": null
+      },
+      {
+        "concept": "Reciprocal obligation and mutual aid",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "Joe meets Ella Runciter in the form of a blond girl",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Ella reveals her role as a counterforce to Jory",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Ella gives Joe a lifetime supply certificate for Ubik",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "They visit Archer's Drugstore together",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Jory regresses the Ubik to an archaic balm",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe consciously attempts to evolve the balm",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "A factory representative appears with new Ubik",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Ella departs, heading toward rebirth",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe receives instructions about his future role",
+      "significance": null,
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "vocabulary_version": "1.0",
+  "description": "Controlled vocabularies that OntologyTaggingArtifact and CurationArtifact draw on. This file is documentation + a machine-readable allowlist; the tagging schema only hard-enforces `esoteric_domains`. Other facets are validated softly (warnings) so the vocabulary can grow without breaking the build.",
+  "evidentiary_lanes": {
+    "A": "Fiction (PKD novels, stories)",
+    "B": "Exegesis (PKD self-theorizing)",
+    "C": "Scholarship (academic + serious criticism)",
+    "D": "Synthesis (biographies, encyclopedias)",
+    "E": "Primary (letters, interviews, contracts, manuscripts, period press)"
+  },
+  "esoteric_domains": [
+    "western_esotericism", "renaissance_magic", "alchemy", "hermetism", "neoplatonism",
+    "christian_kabbalah", "jewish_kabbalah", "grimoires", "ritual_magic", "astrology",
+    "witchcraft_studies", "gnosticism", "theosophy", "rosicrucianism", "freemasonry",
+    "divination", "mysticism", "history_of_science", "manuscript_studies", "book_history",
+    "iconography", "historiography", "methodology", "primary_source_discussion", "other"
+  ],
+  "methods": [
+    "close_reading", "philology", "source_criticism", "manuscript_collation",
+    "intellectual_history", "reception_history", "prosopography", "iconographic_analysis",
+    "comparative_analysis", "biographical_reconstruction", "clinical_reading", "literary_analysis"
+  ],
+  "historiographical_categories": [
+    "primary_source", "scholarly_consensus", "contested_claim", "revisionist_reading",
+    "popular_reception", "self_mythology", "legend_or_apocrypha", "methodological_note"
+  ],
+  "periods": [
+    "antiquity", "late_antiquity", "medieval", "renaissance", "early_modern",
+    "enlightenment", "nineteenth_century", "twentieth_century", "contemporary"
+  ],
+  "content_classes": {
+    "serious_scholarship": "Peer-reviewed or rigorously argued historical/scholarly work.",
+    "primary_source_discussion": "Direct engagement with primary sources or manuscripts.",
+    "scholarly_reliability_review": "Assessment of how reliable a source or claim is.",
+    "history_of_science": "History-of-science framing of esoteric / scientific material.",
+    "book_or_manuscript_history": "Book history, editions, bibliography, manuscript studies.",
+    "pop_occult_low_relevance": "Pop-occult / lifestyle content with low scholarly value.",
+    "vague_spirituality": "Generic spirituality, no historical grounding.",
+    "ai_spam": "Low-effort AI-generated filler.",
+    "generic_lifestyle": "Lifestyle / wellness content unrelated to scholarship.",
+    "uncertain": "Not yet classifiable."
+  }
+}

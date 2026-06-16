@@ -1,0 +1,158 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH013",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 13,
+  "chapter_title": "The Ascent and the Encounter with Jory",
+  "section_range": null,
+  "summary": "Joe begins to deteriorate rapidly while ascending the stairs to his hotel room at the Meremont Hotel. His body weakens, his heart labors, and his clothes deteriorate into tatters. Pat Conley follows him, tormenting him with information about the nature of his condition and her knowledge of his attraction to Wendy Wright. Joe struggles up the stairs in an agonizing effort, finally reaching his room. As he enters, Glen Runciter appears and sprays him with a can of Ubik, saving his life. Runciter explains that they are in cold-pac at the Beloved Brethren Moratorium in Zurich, that they have been there for a week, and that the deterioration is due to both normal half-life decay and an external attack. Joe realizes that Runciter has been trying to reach them from the outside world. The chapter reaches an emotional climax as Joe is literally saved from death by Ubik.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Meremont Hotel lobby and second floor",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Beloved Brethren Moratorium (Zurich) - implied",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Des Moines (location of hotel)",
+        "context": null,
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Joe Chip",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Pat Conley",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Don Denny",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Glen Runciter",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Dr. Taylor (moratorium doctor)",
+        "role_in_chapter": null,
+        "key_actions": null
+      }
+    ],
+    "themes": [
+      "The approach of death and final persistence",
+      "Physical degradation as spiritual trial",
+      "The ambiguity of salvation and rescue",
+      "Malevolence and sadism in the face of weakness",
+      "The redemptive power of external intervention"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "Death as a trial that reveals character",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Salvation through grace rather than earned merit",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The existence of both demonic and divine forces in the afterlife",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Resurrection and restoration through mysterious means",
+        "context": null,
+        "theological_frame": null
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "The phenomenology of dying",
+        "context": null
+      },
+      {
+        "concept": "The nature of identity at the moment of dissolution",
+        "context": null
+      },
+      {
+        "concept": "Free will and choice in the face of deterministic degradation",
+        "context": null
+      },
+      {
+        "concept": "The problem of theodicy—why suffering is permitted",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "Joe begins to deteriorate as he tries to leave the hotel lobby",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Pat Conley torments Joe during his ascent",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe reveals his love for Wendy Wright",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe struggles up the stairs in mortal agony",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Runciter appears in Joe's hotel room",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Ubik is sprayed on Joe, halting his deterioration",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Runciter explains their true situation in cold-pac",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe realizes they have been in half-life for one week",
+      "significance": null,
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

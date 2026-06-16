@@ -1,0 +1,71 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN",
+  "section_id": "S001",
+  "generated_by": {
+    "agent_role": "extraction_agent",
+    "name": "Claude (Opus 4.8) reading the full extracted markdown",
+    "model": "claude-opus-4-8",
+    "prompt_version": "raw_extraction.v1"
+  },
+  "extraction_scope": "Full essay text, 344-line extracted markdown (database/extracted_markdown/DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN.md). Line numbers below refer to that file.",
+  "extracted_entities": {
+    "people": [
+      "Philip K. Dick", "Norman Spinrad", "Elizabeth Antebi", "Father Rasch (PKD's Episcopal priest)",
+      "Christopher Dick (PKD's son, age 4)", "Jimmy Carter", "Richard Nixon (unnamed, implied)",
+      "Saint Paul", "the Apostle Philip", "Procurator Felix", "Procurator Festus",
+      "Parmenides", "Heraclitus", "Zeno", "David Hume", "Xenophanes of Colophon", "Anaxagoras",
+      "Spinoza", "Plato", "Aristotle", "Edward Hussey", "W. S. Gilbert", "Kathy (acquaintance)", "Jack"
+    ],
+    "works": [
+      "Flow My Tears, the Policeman Said (PKD, 1974)", "Ubik (PKD)", "Nineteen Eighty-Four (Orwell)",
+      "Close Encounters of the Third Kind", "Plato's Timaeus", "The Pre-Socratics (Edward Hussey)",
+      "Snakes of Hawaii", "The Unreal God and the Aspects of His Nonexistent Universe (Gnostic codex)",
+      "Book of Acts", "Book of Daniel (7:9)", "Revelation (1:13, 1:17)", "Gospel of John (opening)"
+    ],
+    "places": [
+      "Disneyland", "Santa Ana, California", "Yorba Linda, California", "Judaea / the Roman Empire",
+      "Syria", "Canada", "Hawaii", "University of Oxford"
+    ],
+    "dates": ["1978", "1951", "1972", "1970", "Christmas 1970", "February 1974", "February–August 1974"],
+    "institutions": ["Paris TV", "Doubleday", "The White House", "U.S. Supreme Court", "the Episcopal Church"],
+    "traditions": ["Gnosticism", "pre-Socratic philosophy", "Christianity", "Hinduism (maya)", "the Logos doctrine", "Neoplatonism"]
+  },
+  "key_terms": ["anamnesis", "Logos", "Ubik", "Lincoln Simulacrum", "pseudo-realities", "fake fakes", "the authentic human", "the Ape of God", "the Empire / Rome"],
+  "explicit_topics": [
+    "What is reality?", "What constitutes the authentic human being?",
+    "Spurious realities manufactured by media, governments, and corporations",
+    "Fakes and 'fake fakes'", "Time as not-real; a permanent biblical landscape underlying the world",
+    "Precognition / fiction that turns out true", "Pre-Socratic theology and the Logos",
+    "Ubik as the Logos", "Watergate as the judgment of 'the most powerful man'"
+  ],
+  "substances_or_materials": ["sodium pentothal (during PKD's wisdom-tooth extraction, Feb 1974)"],
+  "images_symbols_motifs": ["the golden fish (early-Christian ichthys sign)", "Disneyland's mechanical birds", "the Lincoln Simulacrum", "the all-night gas station", "the white-haired king/judge"],
+  "rituals_practices_procedures": ["cryptic Christian sign-exchange (PKD's anamnesis vision)"],
+  "claims_made_by_source": [
+    { "claim": "\"Reality is that which, when you stop believing in it, doesn't go away.\" (PKD's 1972 one-sentence definition).", "evidence_location": { "locator_type": "line", "line_start": 41, "line_end": 41 } },
+    { "claim": "Spurious realities are manufactured by the media, governments, corporations, and political/religious groups, and delivered into people's heads by electronic hardware.", "evidence_location": { "locator_type": "line", "line_start": 51, "line_end": 51 } },
+    { "claim": "PKD says he likes to build universes that fall apart, and confesses 'a secret love of chaos'; the old must perish so the authentic human can live.", "evidence_location": { "locator_type": "line", "line_start": 53, "line_end": 53 } },
+    { "claim": "In writing Flow My Tears (1970), PKD unknowingly retold incidents and names from the Book of Acts (Felix, Jason, the apostle Philip meeting a black stranger on the road).", "evidence_location": { "locator_type": "line", "line_start": 115, "line_end": 133 } },
+    { "claim": "PKD reports precognition: after finishing the novel he met a real nineteen-year-old Kathy with a boyfriend Jack who was secretly tied to a police inspector, matching his fictional character.", "evidence_location": { "locator_type": "line", "line_start": 109, "line_end": 111 } },
+    { "claim": "A week after Flow My Tears was released (Feb 1974), the golden-fish sign worn by a delivery woman triggered anamnesis: PKD remembered being a secret Christian under Rome awaiting Christ's return.", "evidence_location": { "locator_type": "line", "line_start": 179, "line_end": 199 } },
+    { "claim": "PKD's theory: 'time is not real,' and a permanent landscape — the world of the Bible, circa A.D. 50, the period of Acts — underlies the visible world of change.", "evidence_location": { "locator_type": "line", "line_start": 155, "line_end": 177 } },
+    { "claim": "Ubik (in the novel of that name) is the Logos: 'I am the word and my name is never spoken... I am Ubik but that is not my name.'", "evidence_location": { "locator_type": "line", "line_start": 293, "line_end": 297 } },
+    { "claim": "The authentic human is one who instinctively knows what he should not do and refuses — saying 'no' to the tyrant and calmly taking the consequences.", "evidence_location": { "locator_type": "line", "line_start": 319, "line_end": 319 } }
+  ],
+  "important_passages": [
+    { "excerpt": "Reality is that which, when you stop believing in it, doesn't go away.", "why_important": "PKD's most-quoted definition of reality.", "evidence_location": { "locator_type": "line", "line_start": 41, "line_end": 41 } },
+    { "excerpt": "I am Ubik. Before the universe was I am. I made the suns. I made the worlds... I am the word and my name is never spoken, the name which no one knows.", "why_important": "PKD explicitly glosses Ubik as the Logos; load-bearing for the Ubik dictionary/work entry.", "evidence_location": { "locator_type": "line", "line_start": 295, "line_end": 295 } },
+    { "excerpt": "I suddenly experienced what I later learned is called anamnesis — a Greek word meaning, literally, 'loss of forgetfulness.'", "why_important": "First-person account anchoring the dictionary term 'anamnesis' and the 2-3-74 cluster.", "evidence_location": { "locator_type": "line", "line_start": 185, "line_end": 185 } },
+    { "excerpt": "The authentic human being is one of us who instinctively knows what he should not do, and... will balk at doing it.", "why_important": "PKD's positive ethic; the essay's answer to its second question.", "evidence_location": { "locator_type": "line", "line_start": 319, "line_end": 319 } }
+  ],
+  "uncertainties": [
+    "PKD explicitly frames the time-is-unreal / A.D. 50 theory as provisional: 'The answer I have come up with may not be correct, but it is the only answer I have' (line 155).",
+    "The 'most powerful man... judged and condemned' between Feb and Aug 1974 is never named; PKD says he would 'prefer not to say,' though the Yorba Linda / 'all the President's men' cues point unmistakably to Nixon (lines 251–253).",
+    "This is lane-B self-report: it records what PKD said he experienced and theorized, not corroborated events."
+  ],
+  "extraction_notes": "Description only. PKD's reported experiences (the Kathy coincidence, the anamnesis vision) are separated from his interpretations (time is unreal; the Bible underlies the world). No judgement is made here about whether the experiences were veridical — that is deferred to the interpretive stage and governed by the 2-3-74 contradiction zone in PKDontology.md."
+}

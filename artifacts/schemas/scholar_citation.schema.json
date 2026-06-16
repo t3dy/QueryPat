@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://querypat.local/artifacts/scholar_citation.schema.json",
+  "title": "ScholarCitationArtifact",
+  "description": "Specialized artifact I. Captures what a scholar says about a text, passage, concept, or historiographical issue. Feeds InterpretiveArtifact evidence_links (lane C).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_id",
+    "artifact_type",
+    "schema_version",
+    "generated_at",
+    "source_id",
+    "generated_by",
+    "bibliographic_source_id",
+    "scholar_name",
+    "claim_summary"
+  ],
+  "properties": {
+    "artifact_id": { "type": "string", "minLength": 3 },
+    "artifact_type": { "const": "scholar_citation" },
+    "schema_version": { "const": "1.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "source_id": { "type": "string", "minLength": 1 },
+    "generated_by": { "$ref": "#/$defs/generated_by" },
+
+    "bibliographic_source_id": { "type": "string" },
+    "scholar_name": { "type": "string" },
+    "cited_work": { "type": ["string", "null"] },
+    "relevant_topic": { "type": ["string", "null"] },
+    "citation_context": { "type": ["string", "null"] },
+    "claim_summary": { "type": "string", "minLength": 1 },
+    "exact_quote_if_allowed_and_short": { "type": ["string", "null"], "maxLength": 400 },
+    "page_or_location": { "type": ["string", "null"] },
+    "historiographical_angle": { "type": ["string", "null"] },
+    "related_portal_entities": { "type": "array", "items": { "type": "string" } },
+    "evidentiary_lane": { "type": ["string", "null"], "description": "Usually C (scholarship)." },
+    "notes": { "type": ["string", "null"] }
+  },
+  "$defs": {
+    "generated_by": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["agent_role", "name"],
+      "properties": {
+        "agent_role": { "type": "string" },
+        "name": { "type": "string" },
+        "model": { "type": ["string", "null"] },
+        "prompt_version": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

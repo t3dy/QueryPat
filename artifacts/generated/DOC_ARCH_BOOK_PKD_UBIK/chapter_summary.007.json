@@ -1,0 +1,168 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH007",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 7,
+  "chapter_title": "The Return to Zurich",
+  "section_range": null,
+  "summary": "The team flies back to Earth and takes Runciter to the Beloved Brethren Moratorium in Zurich, Switzerland. Joe encounters strange anomalies: his phone book is two years outdated, coins become obsolete, cream spoils, and his cigarette crumbles. While waiting for Runciter to be revived in half-life, Joe realizes the moratorium cannot establish contact with Runciter's consciousness. He travels to a hotel in Zurich and discovers that a woman—implied to be Wendy Wright—has deteriorated into a mummified corpse in the closet. The chapter shifts the mystery from external sabotage to internal deterioration.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Zurich spaceport",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Beloved Brethren Moratorium (Zurich)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Switzerland",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "Hotel (Zurich)",
+        "context": null,
+        "significance": null
+      },
+      {
+        "name": "New York",
+        "context": null,
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Joe Chip",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Al Hammond",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Herbert Schoenheit von Vogelsang (moratorium owner)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Wendy Wright (corpse)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Ella Runciter (mentioned)",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Tippy Jackson",
+        "role_in_chapter": null,
+        "key_actions": null
+      },
+      {
+        "name": "Edie Dorn",
+        "role_in_chapter": null,
+        "key_actions": null
+      }
+    ],
+    "themes": [
+      "Entropy and decay",
+      "The failure of technology and institutions",
+      "Isolation and alienation",
+      "The inadequacy of human relationships",
+      "Reality itself becoming unstable"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "The nature of half-life and the afterlife",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "The boundaries between life and death",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Spiritual preservation versus physical decay",
+        "context": null,
+        "theological_frame": null
+      },
+      {
+        "concept": "Divine will manifested through deterioration",
+        "context": null,
+        "theological_frame": null
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "The phenomenology of loss and grief",
+        "context": null
+      },
+      {
+        "concept": "Material reality becoming insubstantial",
+        "context": null
+      },
+      {
+        "concept": "The problem of other minds (uncertainty about Runciter's state)",
+        "context": null
+      },
+      {
+        "concept": "Personal identity in a deteriorating world",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "Runciter is transferred to the Beloved Brethren Moratorium",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe discovers anomalies in contemporary technology",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Herbert von Vogelsang fails to revive Runciter into half-life",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe's phone receives mysterious transmissions",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Wendy Wright's dehydrated corpse is discovered",
+      "significance": null,
+      "relates_to_biography": null
+    },
+    {
+      "event": "Joe theorizes about the cause of decay",
+      "significance": null,
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

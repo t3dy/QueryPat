@@ -1,0 +1,67 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+  "section_id": "S001",
+  "generated_by": {
+    "agent_role": "extraction_agent",
+    "name": "Claude (Opus 4.8) reading the full extracted markdown",
+    "model": "claude-opus-4-8",
+    "prompt_version": "raw_extraction.v1"
+  },
+  "extraction_scope": "Full article text, 313-line extracted markdown (database/extracted_markdown/DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN.md). Line numbers below refer to that file.",
+  "extracted_entities": {
+    "people": [
+      "William Sarill (author)", "Philip K. Dick", "Tessa Dick (5th wife)", "Anne R. Dick (3rd wife)",
+      "Nancy Hackett (4th wife)", "Gregory Benford", "Bishop James Pike", "Bruno Bettelheim",
+      "R.A. Morton", "Lev Grossman", "Carl Jung", "Wolfgang Pauli", "Dean Radin", "Anthony Peake",
+      "Annie Besant", "Charles Leadbeater", "Robert Crumb", "Oren L. Bigman (MD)", "Ted Hand", "Gregg Rickman"
+    ],
+    "works": [
+      "Ubik (1969, written 1966)", "Flow My Tears, the Policeman Said", "Do Androids Dream of Electric Sheep?",
+      "We Can Remember It for You Wholesale", "The Man in the High Castle", "Counter-Clock World",
+      "Martian Time-Slip", "The Transmigration of Timothy Archer", "VALIS", "Radio Free Albemuth",
+      "The Exegesis of Philip K. Dick", "Occult Chemistry (Besant & Leadbeater, 1909)",
+      "A Life of Philip K. Dick (Anthony Peake)", "Entangled Minds (Dean Radin)"
+    ],
+    "places": ["UC Berkeley", "San Rafael, California", "Metz, France", "University of Liverpool"],
+    "dates": ["1957", "1966", "1969", "1970", "1974", "1977 (Metz speech)", "1983 (CoQ10 to market)", "2014"],
+    "institutions": ["Society for Scientific Exploration", "EdgeScience magazine", "Encyclopedia Britannica", "Life Extension Foundation", "Library of America"],
+    "traditions": ["parapsychology", "Jungian synchronicity", "Theosophy (via Occult Chemistry)"]
+  },
+  "key_terms": ["ubiquinone / CoQ10", "Ubik", "ubique", "precognition", "synchronicity", "retrocausality", "presentiment", "transliminality", "anamnesis", "pink beam", "VALIS", "channeling", "remote viewing"],
+  "explicit_topics": [
+    "Whether Ubik's described substance precognitively anticipates ubiquinone (CoQ10)",
+    "Whether PKD could have known of ubiquinone before writing Ubik (argued: no)",
+    "PKD's documented precognitive episodes (Flow My Tears Kathy/Jack; son's hernia; his own death-position vision)",
+    "The 2-3-74 events and competing diagnoses (schizophrenia, TLE, bipolar)",
+    "Coincidence vs psi; synchronicity and retrocausality as frames",
+    "Intuition / 'channeling' as a possible mode of scientific discovery"
+  ],
+  "substances_or_materials": ["ubiquinone / coenzyme Q10 / ubiquinol", "sodium pentothal", "patent medicines (Warner's Safe Cure)"],
+  "images_symbols_motifs": ["the golden fish (ichthys)", "the pink beam / phosphene", "Ubik aerosol cans / 'reality support'"],
+  "rituals_practices_procedures": ["a 1966 séance attended by PKD and Nancy Hackett (medium linked to Bishop Pike's deceased son)"],
+  "claims_made_by_source": [
+    { "claim": "Ubik's described substance closely matches ubiquinone (CoQ10) in name (from Latin 'ubique') and in effects — anti-aging, anti-fatigue, wound healing, relief of heart-failure symptoms — properties documented in studies published 20–40 years after Ubik was written in 1966.", "evidence_location": { "locator_type": "line", "line_start": 131, "line_end": 153 } },
+    { "claim": "Ubiquinone was named in 1957 by R.A. Morton (University of Liverpool) and was unknown to the general public until CoQ10 reached the US market in 1983.", "evidence_location": { "locator_type": "line", "line_start": 141, "line_end": 195 } },
+    { "claim": "PKD almost certainly could not have known about ubiquinone: interviews with three ex-wives and a girlfriend found no biochemistry knowledge or contacts; the 1966 Britannica he owned does not mention it (the 1967 edition does, post-dating Ubik); only one obscure 1960 Scientific American citation existed.", "evidence_location": { "locator_type": "line", "line_start": 157, "line_end": 173 } },
+    { "claim": "Sarill was a personal friend and houseguest of PKD, is acknowledged in A Maze of Death, and as a physics grad student discussed Ubik's pseudo-scientific rationale with Dick, who never indicated it was based on real science.", "evidence_location": { "locator_type": "line", "line_start": 185, "line_end": 191 } },
+    { "claim": "Other reported PKD precognitions: the Flow My Tears Kathy/Jack/police-inspector match (1970–72); a trance diagnosis of his son's incarcerated hernia (confirmed by Tessa); and a Feb 25 1975 hypnagogic vision of a body in the exact position his own was found in seven years later.", "evidence_location": { "locator_type": "line", "line_start": 113, "line_end": 125 } },
+    { "claim": "The 2-3-74 onset: a delivery woman's golden-fish necklace triggered a pink-beam phosphene and anamnesis; PKD then felt taken over by an entity he called VALIS (Vast Active Living Intelligence System), with a feminine 'A.I.' voice seeming to come from a satellite.", "evidence_location": { "locator_type": "line", "line_start": 109, "line_end": 109 } },
+    { "claim": "Sarill proposes bipolar disorder (plus a sodium-pentothal rebound) as a likelier frame than the schizophrenia (Kinney) or temporal-lobe-epilepsy (Pickover) explanations.", "evidence_location": { "locator_type": "line", "line_start": 105, "line_end": 105 } },
+    { "claim": "Sarill concedes the precognition reading is not proof: Ubik 'provides synchronistic evidence consistent with precognition, not proof of it,' and a coincidence reading (Ubik as a divine/ubiquitous principle, as PKD himself glossed it in the Exegesis) remains available.", "evidence_location": { "locator_type": "line", "line_start": 197, "line_end": 207 } }
+  ],
+  "important_passages": [
+    { "excerpt": "Did Philip K. Dick become an unwitting channel for scientific information?", "why_important": "States the article's governing question.", "evidence_location": { "locator_type": "line", "line_start": 77, "line_end": 77 } },
+    { "excerpt": "one can only say that Ubik provides synchronistic evidence consistent with precognition, not proof of it.", "why_important": "The author's own epistemic limit — load-bearing for fair characterisation.", "evidence_location": { "locator_type": "line", "line_start": 207, "line_end": 207 } },
+    { "excerpt": "Ubik ... 'an omnipresent energy field which would be the ancient notion of God as Immanent Mind infusing the universe ... or, in Hindu terms, the Atman, the Breath of God.' (quoting the Exegesis)", "why_important": "PKD's own metaphysical gloss, the alternative to the precognition reading.", "evidence_location": { "locator_type": "line", "line_start": 197, "line_end": 197 } }
+  ],
+  "uncertainties": [
+    "The central claim (precognition) is, by the author's own statement, inferential rather than proven (line 207).",
+    "Much supporting evidence rests on PKD's self-reports and family testimony; Anne Dick is quoted that his 'weirdest tales' often proved true while mundane accounts were sometimes fabricated (line 217).",
+    "Published in EdgeScience (Society for Scientific Exploration), a venue dedicated to anomalous phenomena — relevant context for weighting the framing."
+  ],
+  "extraction_notes": "Description of what the article argues and the evidence it marshals. Sarill's negative case (that PKD could not have known of ubiquinone) is recorded separately from his positive inference (precognition), and his own hedge is preserved. No judgement on the truth of precognition is made at this stage."
+}

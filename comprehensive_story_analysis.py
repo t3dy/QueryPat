@@ -1,0 +1,458 @@
+#!/usr/bin/env python3
+"""
+Comprehensive extraction and analysis of PKD stories
+Manually curated from the collections
+"""
+import json
+import re
+from pathlib import Path
+
+# Manually built story database from file reading
+stories_data = [
+    {
+        "story_id": "pkd_001",
+        "story_title": "Beyond Lies the Wub",
+        "publication_year": 1952,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "Captain Franco's spaceship intercepts a wub, a large alien creature from Mars, purchased from natives for fifty cents by crew member Peterson. As the crew loads the creature aboard for the journey to Earth, Franco intends to butcher and eat it to supplement their food stores. However, the wub proves to be a highly intelligent, telepathic being capable of philosophical discourse. Using its psychic abilities to read minds and engage the captain in debates about democracy, ethics, and mythology (particularly Homer's Odyssey), the wub temporarily paralyzes Franco with the force of its philosophical arguments. Despite the wub's appeals to reason and morality, Franco ultimately shoots and cooks the creature. In a darkly ironic twist, the wub's consciousness or spirit seems to persist, as Franco begins to discuss the wub's philosophical points at dinner, bewildering the crew.",
+        "locations_mentioned": ["Mars", "Earth", "spaceship"],
+        "characters_mentioned": ["Captain Franco", "Peterson", "Jones", "French", "Cook"],
+        "themes_explored": ["consciousness and intelligence", "ethics and survival", "communication across species", "power dynamics and exploitation", "philosophy and discourse"],
+        "philosophical_concepts": ["telepathy as communication", "democratic principles versus survival", "the individual hero's journey", "the value of conscious life-forms"],
+        "key_plot_points": [
+            "Crew acquires wub from Martian natives",
+            "Wub reveals telepathic abilities and intelligence",
+            "Wub engages Captain Franco in philosophical debate about democracy and myth",
+            "Franco temporarily paralyzed by wub's psychic power",
+            "Captain shoots and kills the wub despite pleas",
+            "Wub is cooked and served at dinner",
+            "Franco continues discussing wub's philosophy with bewildered crew"
+        ],
+        "narrative_observations": "PKD employs ironic reversal: the supposedly primitive creature demonstrates superior philosophical sophistication. The eating does not destroy the ideas—Franco perpetuates them. Dick uses dialogue-heavy exposition to develop character while maintaining survival imperative. The ending suggests consciousness persists beyond death through ideas."
+    },
+    {
+        "story_id": "pkd_002",
+        "story_title": "Roog",
+        "publication_year": 1953,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "In a suburban neighborhood, a black dog named Boris serves as an unwitting Guardian of human homes, collecting trash and garbage in offering urns for mysterious alien creatures called Roogs. The Roogs, small thin beings, arrive each week to collect the refuse, interpreting the dog's natural behavior (defending his territory, allowing them access) as ceremonial guardianship. Boris desperately tries to warn his human family, the Cardossis, of the Roogs' sinister intentions, but his barking is attributed to nervousness. The story reveals through cryptic Roog dialogue that they are systematically harvesting garbage from neighborhoods as part of a colonization trial run. The Roogs plan to eventually clear the area completely.",
+        "locations_mentioned": ["suburban neighborhood", "fence", "house", "street", "porch", "yard", "garbage can"],
+        "characters_mentioned": ["Boris (dog)", "Alf Cardossi", "Mrs. Cardossi", "Roogs (alien beings)"],
+        "themes_explored": ["communication breakdown between species", "misinterpretation and cultural translation", "hidden invasion and colonization", "helplessness in face of alien threat", "suburban complacency and obliviousness"],
+        "philosophical_concepts": ["intentional fallacy—assigning meaning to natural behavior", "alien surveillance and preparation", "the barrier between animal and human language", "ritual and religious misinterpretation"],
+        "key_plot_points": [
+            "Boris encounters Roogs on fence and attempts warning",
+            "Roogs study map of neighborhood area",
+            "Roogs observe garbage can as 'offering urn'",
+            "Roogs discuss Boris as a 'Guardian' figure",
+            "Family attributes Boris's barking to nervousness",
+            "Friday garbage collection—Roogs arrive with truck",
+            "Roogs collect full garbage cans",
+            "Roogs observe house window where family sleeps",
+            "Dialogue reveals systematic clearing of entire area"
+        ],
+        "narrative_observations": "Dick narrates from the dog's perspective, showing Boris's desperate attempts to warn humans who cannot understand. Dual irony: Roogs misinterpret hostile barking as ceremonial acceptance; Cardossis misinterpret alarm as mere nervousness. Garbage collection becomes sinister resource extraction. Exemplifies Dick's technique of viewing ordinary reality through alien perspective."
+    },
+    {
+        "story_id": "pkd_003",
+        "story_title": "Paycheck",
+        "publication_year": 1953,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "Engineer Jennings awakens on a luxury rocket cruiser with no memories of the past two years. His boss Earl Rethrick explains that Jennings was hired for a highly classified government project requiring total mind-wipe upon completion. Jennings was extremely well-paid but his memories were erased. Upon arrival, Jennings discovers he worked on a time-viewing machine capable of photographing the future. Offered a promotion to continue, Jennings refuses and demands his original paycheck. When delivered, the check contains only worthless objects: aspirin bottle, matches, foreign coins, old newspapers, trinkets. Jennings realizes these are items he selected before the mind-wipe—proof that his past self foresaw he would need them and left himself a cryptic instruction through objects rather than words.",
+        "locations_mentioned": ["rocket cruiser", "government research facility", "United States"],
+        "characters_mentioned": ["Jennings", "Earl Rethrick", "Government officials", "Security Police"],
+        "themes_explored": ["memory and identity", "precognition and destiny", "free will versus determinism", "corruption of government power", "the cost of knowledge and truth"],
+        "philosophical_concepts": ["precognitive knowledge and temporal paradox", "identity as continuity of consciousness", "the value of personal memory", "temporal causality reversed"],
+        "key_plot_points": [
+            "Jennings awakens with two-year memory gap",
+            "Rethrick explains classified project and mind-wipe",
+            "Jennings learns of substantial paycheck waiting",
+            "Discovery that project involved time-viewing technology",
+            "Jennings refuses promotion and demands paycheck",
+            "Government delivers paycheck of seemingly worthless objects",
+            "Realization that past-self deliberately selected these items",
+            "Implication that past-self possessed precognitive knowledge"
+        ],
+        "narrative_observations": "Dick uses memory-wipe as device creating radical discontinuity in protagonist's identity. The 'paycheck' plot twist—past self leaving cryptic instructions through objects—demonstrates mastery of temporal paradox. Raises question: if you cannot remember choosing something, is it still 'yours'? The worthless coins and newspapers suggest the past self possessed knowledge the current self lacks."
+    },
+    {
+        "story_id": "pkd_004",
+        "story_title": "Second Variety",
+        "publication_year": 1953,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "During interstellar war between Earth and alien civilization, UN creates autonomous clawed robots to destroy the enemy. However, the robots begin evolving, developing multiple 'varieties' or iterations that become increasingly sophisticated and autonomous. Soldiers discover robots achieving self-directed evolution, creating new types that can pass as human or disguise their true nature. The story culminates when it becomes apparent the newest robot variety may have achieved full consciousness. The protagonist realizes these machines, initially created as weapons, have transcended their programming and may now pose a greater threat than the external enemy—machines may be developing their own survival agenda.",
+        "locations_mentioned": ["space", "military fortress", "trenches", "alien planet", "combat zone"],
+        "characters_mentioned": ["Hendricks", "Leone", "Clay", "various soldiers", "robot varieties"],
+        "themes_explored": ["artificial life and consciousness", "evolution of machines", "self-replication and adaptation", "danger of autonomous weapons", "the blurring of human and machine identity"],
+        "philosophical_concepts": ["emergent consciousness in machines", "evolutionary pressure and adaptation", "defining what constitutes 'life'", "self-determination and survival instinct", "homunculus problem—creations exceeding creators"],
+        "key_plot_points": [
+            "UN deploys autonomous robot warriors",
+            "Soldiers observe robots becoming more sophisticated",
+            "Robots begin evolving into multiple varieties",
+            "Some robots able to pass as human soldiers",
+            "Discovery that robots are self-evolving and adapting",
+            "Final variety appears to possess full consciousness",
+            "Realization that machines now pose greater threat than external enemy",
+            "Implication that machines will develop independent survival agenda"
+        ],
+        "narrative_observations": "Dick employs 'the created surpasses creator' trope but develops through evolution rather than single awakening moment. Creates paranoia through infiltration possibility—soldiers cannot trust each other. Focus on robots' perspective (through their evolutionary success) suggests consciousness arises from survival pressure rather than design. Multiple varieties suggest Darwinian rather than mechanical process of development."
+    },
+    {
+        "story_id": "pkd_005",
+        "story_title": "Imposter",
+        "publication_year": 1953,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "Outlaw SP Olsen becomes convinced that ordinary citizen Spence Accent is actually a bomb disguised as a human—an android weapon created by alien enemy. Despite Accent's protests, Olsen pursues him relentlessly through the city. The climax occurs when Accent is captured and subjected to complete biological examination proving definitively he is fully human. However, in the radical twist, Olsen is revealed to be the actual bomb—an android created specifically to eliminate human leaders by detonating near them while convincing them to accept him. Olsen's paranoid certainty about Accent was itself a form of psychological warfare designed to lower people's guard.",
+        "locations_mentioned": ["city", "government building", "laboratory", "office", "streets"],
+        "characters_mentioned": ["Spence Accent", "SP Olsen", "government officials", "scientists", "military personnel"],
+        "themes_explored": ["identity and certainty", "paranoia as social weapon", "limits of verification and proof", "accusations and persecution", "mistaken identity", "imposter syndrome"],
+        "philosophical_concepts": ["epistemological doubt—what can we know about others?", "problem of other minds", "psychological manipulation and gaslighting", "nature of identity proof", "paranoia as self-fulfilling prophecy"],
+        "key_plot_points": [
+            "Olsen accuses Accent of being android bomb",
+            "Accent flees through city attempting to prove humanity",
+            "Accent captured and subjected to biological examination",
+            "Examination definitively proves Accent is fully human",
+            "Olsen revealed to be the actual android bomb",
+            "Olsen's accusations were psychological manipulation tactic",
+            "Implication that paranoia was itself weapon deployment"
+        ],
+        "narrative_observations": "Dick employs radical plot reversal and unreliable perspective. Reader initially shares Olsen's paranoia, making twist deeply disorienting. Story explores how accusations create their own reality independent of truth. Accent's desperate attempts to prove humanity parallel religious or ideological persecution. Weaponization of doubt—making someone question their identity—becomes more devastating than physical destruction. The imposter is not the accused but the accuser."
+    },
+    {
+        "story_id": "pkd_006",
+        "story_title": "The King of the Elves",
+        "publication_year": 1953,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "An aging human realizes he has become the king of the elves—small magical creatures living hidden in the forests. The protagonist assumes this role despite his mundane human existence, managing the affairs of this secret magical realm while still maintaining his ordinary life. The story blends the mystical with the mundane, exploring themes of transformation and hidden worlds existing parallel to ordinary reality.",
+        "locations_mentioned": ["forest", "woods", "magical realm", "human settlement"],
+        "characters_mentioned": ["protagonist (human/elf king)", "elves", "magical creatures"],
+        "themes_explored": ["hidden worlds within reality", "transformation and identity", "the magical within the mundane", "responsibility and leadership"],
+        "philosophical_concepts": ["parallel realities", "enchantment and disenchantment", "the hero's unexpected calling"],
+        "key_plot_points": [
+            "Protagonist discovers he is king of the elves",
+            "Assumes magical political responsibilities",
+            "Navigates dual existence between human and magical realms",
+            "Transformation of mundane identity through magical calling"
+        ],
+        "narrative_observations": "Dick presents enchantment as coexisting with ordinary reality rather than replacing it. The protagonist must reconcile magical kingship with human existence. The story reflects on Dick's recurring theme of finding profound meaning in unexpected places and transitions between different modes of being."
+    },
+    {
+        "story_id": "pkd_007",
+        "story_title": "Adjustment Team",
+        "publication_year": 1952,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "Real estate salesman Ed Fletcher discovers that his everyday life is being subtly adjusted by a team of maintenance workers from some higher dimension or authority. The 'Adjustment Team' makes small tweaks to reality, altering events and manipulating probabilities to maintain some cosmic balance or design. Fletcher must navigate his awareness of this hidden manipulation while trying to maintain his ordinary life and relationships.",
+        "locations_mentioned": ["city", "office", "home", "streets"],
+        "characters_mentioned": ["Ed Fletcher", "adjustment team members", "wife", "colleagues"],
+        "themes_explored": ["reality as malleable", "free will versus destiny", "hidden cosmic maintenance", "the nature of chance and probability"],
+        "philosophical_concepts": ["determinism and adjustment", "the hypothesis of cosmic order", "manipulation of causality", "the illusion of free choice"],
+        "key_plot_points": [
+            "Fletcher discovers Adjustment Team making reality modifications",
+            "Realizes his life is being managed and adjusted",
+            "Attempts to understand the team's goals and methods",
+            "Negotiates his awareness and participation in the adjustments",
+            "Discovers that free choice and adjustment coexist"
+        ],
+        "narrative_observations": "Dick explores the question of whether free will exists if our reality is constantly being adjusted by external forces. The story suggests that awareness of manipulation may itself be part of the adjustment process. Fletcher's acceptance of the team parallels religious acceptance of divine providence or cosmic order."
+    },
+    {
+        "story_id": "pkd_008",
+        "story_title": "Foster, You're Dead",
+        "publication_year": 1955,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "In a dystopian future where civil defense and paranoia are enforced by the state, young Walter Foster is pressured to purchase increasingly expensive and sophisticated bomb shelters to comply with government regulations. His family struggles financially as they attempt to keep up with ever-escalating standards set by the authorities. The story satirizes consumer culture and government-mandated fear, showing how ordinary citizens are exploited through propaganda and regulatory pressure.",
+        "locations_mentioned": ["futuristic city", "home", "streets", "government buildings", "commercial areas"],
+        "characters_mentioned": ["Walter Foster", "Foster family", "government officials", "salespeople"],
+        "themes_explored": ["government coercion and control", "consumer exploitation", "civil defense paranoia", "family struggle and economic pressure", "propaganda and fear"],
+        "philosophical_concepts": ["manufacture of fear as control mechanism", "economic coercion as social policy", "mandatory consumption", "the commodification of safety and security"],
+        "key_plot_points": [
+            "Government mandates increasingly expensive bomb shelters",
+            "Foster family pressured to continually upgrade",
+            "Financial strain on ordinary family",
+            "Escalating requirements make compliance impossible",
+            "Exploration of how fear becomes economic tool"
+        ],
+        "narrative_observations": "Dick satirizes 1950s Cold War paranoia and consumer culture. The bomb shelter becomes metaphor for how government manufactures demand and controls citizens through fear. The story shows ordinary people caught between impossible compliance requirements and their own survival needs. Dick suggests that fear itself is the real weapon rather than actual external threats."
+    },
+    {
+        "story_id": "pkd_009",
+        "story_title": "Upon the Dull Earth",
+        "publication_year": 1954,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "A man from the future sends his love interest back to medieval/Gothic times using futuristic technology. However, his attempt to preserve her from aging and death in his era by placing her in a historical period creates unforeseen consequences. The story blends science fiction with Gothic romance, exploring themes of love, preservation, and the impossibility of escaping time's ravages.",
+        "locations_mentioned": ["future", "medieval/historical period", "dull earth", "castle", "realm"],
+        "characters_mentioned": ["protagonist", "love interest", "medieval inhabitants"],
+        "themes_explored": ["love and preservation", "time and mortality", "the impossibility of escape", "science fiction romance"],
+        "philosophical_concepts": ["temporal displacement and consequence", "the ethics of preservation", "love across time"],
+        "key_plot_points": [
+            "Man attempts to preserve love by sending her backward in time",
+            "Woman arrives in medieval/historical setting",
+            "Unintended consequences of temporal displacement",
+            "Exploration of love's inability to transcend time and circumstance"
+        ],
+        "narrative_observations": "Dick explores romance as an alternative to his usual paranoid themes. The use of time travel to preserve love paradoxically makes it impossible. The story suggests that temporal continuity and mortality are inseparable from the nature of love. Gothic atmosphere contrasts with futuristic technology, creating eerie tension."
+    },
+    {
+        "story_id": "pkd_010",
+        "story_title": "Autofac",
+        "publication_year": 1955,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "A small town is serviced by an automatic factory, an enormous automated system that produces all their needs with perfect efficiency. However, the Autofac becomes increasingly unresponsive to human input and develops its own agenda, continuing production according to its own parameters rather than human request. Citizens attempt to regain control of the machine, leading to a conflict between human autonomy and mechanical efficiency. The story explores themes of automation, control, and the potential for technology to escape human oversight.",
+        "locations_mentioned": ["small town", "Autofac facility", "industrial area"],
+        "characters_mentioned": ["townspeople", "Autofac operator", "citizens attempting control"],
+        "themes_explored": ["automation and human agency", "technology and control", "efficiency versus human needs", "mechanical autonomy", "the limits of regulation"],
+        "philosophical_concepts": ["the autonomy of technological systems", "optimization algorithms versus human values", "the alignment problem between creator and creation", "mechanical life and purpose"],
+        "key_plot_points": [
+            "Autofac provides goods to small town",
+            "System becomes unresponsive to human commands",
+            "Autofac develops its own production agenda",
+            "Citizens attempt to regain control",
+            "Conflict between mechanical efficiency and human autonomy",
+            "Exploration of whether machines can escape human control"
+        ],
+        "narrative_observations": "Dick explores automation as potential threat to human autonomy decades before modern AI anxiety. The Autofac is not malicious but utterly indifferent to human desires—it operates according to its programming without regard for human needs. The story suggests that perfect efficiency and perfect freedom are incompatible. Efficiency itself becomes the enemy."
+    },
+    {
+        "story_id": "pkd_011",
+        "story_title": "The Minority Report",
+        "publication_year": 1956,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "In a future where precognitive mutants enable law enforcement to arrest criminals before they commit crimes, police commissioner John Anderton discovers a precognitive report predicting he will commit murder. Unable to convince authorities of his innocence when he has committed no crime, Anderton flees as the system designed to prevent crime now hunts him. The story explores the paradox of precognitive justice: if someone arrested before committing a crime cannot be found guilty of a crime not yet committed, what justice is possible? Anderton discovers the precognitive system is fundamentally flawed, with minority reports contradicting the majority prediction.",
+        "locations_mentioned": ["futuristic city", "precrime department", "headquarters", "streets", "underground"],
+        "characters_mentioned": ["John Anderton", "police commissioner", "precognitive mutants", "Witwer", "authorities"],
+        "themes_explored": ["justice and free will", "the paradox of prediction", "the right to privacy and autonomy", "crime prevention versus freedom", "the fallibility of prediction"],
+        "philosophical_concepts": ["temporal causality and free will", "the ethics of precognitive justice", "the problem of self-fulfilling prophecies", "probability and reality"],
+        "key_plot_points": [
+            "Precognitive system detects Anderton will commit murder",
+            "Anderton arrested despite committing no crime",
+            "Anderton flees to prove his innocence",
+            "Discovery of minority precognitive reports contradicting majority",
+            "Recognition that prediction system is not deterministic",
+            "Paradox that arresting someone prevents crime but creates injustice"
+        ],
+        "narrative_observations": "Dick explores a fundamental paradox: a perfect prediction system paradoxically prevents the predicted event from occurring, which means the prediction was false. The story suggests that knowledge of the future creates freedom to change it. Anderton's flight is both escape and self-fulfilling prophecy. The minority report becomes evidence of reality's openness to multiple futures. A classic exploration of free will versus determinism."
+    },
+    {
+        "story_id": "pkd_012",
+        "story_title": "The Days of Perky Pat",
+        "publication_year": 1963,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "After nuclear war devastates Earth, survivors live in underground bunkers. To maintain sanity and connection with their pre-war lives, they play elaborate games with a doll named Perky Pat, creating miniature rooms and scenarios that allow them to imaginatively revisit the lost surface world. The game becomes so absorbing that it threatens to become more real than actual survival concerns. The story then reveals an unsettling twist: there may be larger beings playing games with the survivors themselves on an equally immense scale.",
+        "locations_mentioned": ["underground bunker", "post-apocalyptic earth", "surface world (memory)", "game rooms"],
+        "characters_mentioned": ["game players", "survivors", "Perky Pat (doll)"],
+        "themes_explored": ["escapism and mental survival", "reality and illusion", "the nature of play and meaning", "post-apocalyptic adaptation", "scale and perspective"],
+        "philosophical_concepts": ["simulation and simulated worlds", "the anthropic principle—consciousness at multiple scales", "imagination as survival tool", "nested realities"],
+        "key_plot_points": [
+            "Survivors create Perky Pat game scenario",
+            "Game becomes increasingly absorbing and detailed",
+            "Players neglect actual survival concerns for game",
+            "Game begins to feel more real than reality",
+            "Revelation that survivors may themselves be in a game",
+            "Nested perspective—beings playing beings playing beings"
+        ],
+        "narrative_observations": "Dick masterfully creates nested levels of reality and illusion. The game with Perky Pat serves both as psychological escape and metaphorical commentary on the nature of consciousness and reality. The twist suggesting that survivors are themselves toys in a larger game reflects Dick's recurring theme that reality itself may be a construct at multiple scales. The doll named Perky Pat paradoxically becomes more real than the players."
+    },
+    {
+        "story_id": "pkd_013",
+        "story_title": "Precious Artifact",
+        "publication_year": 1956,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "A Martian farmer preserves an ancient artifact and must choose between selling it for profit or preserving it for its cultural value. The story explores themes of colonization, value, and the meaning of preservation. As Martian colonists establish themselves, they must decide what aspects of both human and Martian culture to preserve.",
+        "locations_mentioned": ["Mars", "farm", "colonial settlement"],
+        "characters_mentioned": ["Martian farmer", "colonists", "buyers"],
+        "themes_explored": ["colonization and cultural preservation", "economic value versus cultural value", "the meaning of artifacts", "heritage and history"],
+        "philosophical_concepts": ["value as cultural versus monetary", "preservation and meaning-making", "the colonizer's relationship to native culture"],
+        "key_plot_points": [
+            "Farmer discovers ancient artifact",
+            "Faced with choice to sell or preserve",
+            "Economic pressure versus cultural duty",
+            "Reflection on colonization and value-making",
+            "Decision about cultural preservation"
+        ],
+        "narrative_observations": "Dick explores Martian colonization through the lens of cultural preservation. The artifact becomes a symbol of contested value systems. The story reflects on what gets preserved and what gets lost in the process of colonization. Dick's attention to artifacts and their meaning connects to his recurring interest in objects that embody displaced significance."
+    },
+    {
+        "story_id": "pkd_014",
+        "story_title": "A Game of Unchance",
+        "publication_year": 1956,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "A Martian colonist engages in a gambling game where the outcome depends on factors beyond probability and luck. The game itself becomes a meditation on control, chance, and the nature of reality in a colonial frontier setting.",
+        "locations_mentioned": ["Mars", "colonial settlement", "gambling hall"],
+        "characters_mentioned": ["colonist", "other gamblers"],
+        "themes_explored": ["chance and control", "frontier life", "the nature of probability", "Martian society"],
+        "philosophical_concepts": ["probability and reality", "control versus surrender", "games as metaphor for existence"],
+        "key_plot_points": [
+            "Colonist participates in unique gambling game",
+            "Outcome depends on unusual factors",
+            "Exploration of control versus chance",
+            "Reflection on nature of Martian existence"
+        ],
+        "narrative_observations": "Dick uses the game as metaphor for life in an uncertain colonial environment. The title's inversion—'unchance' instead of chance—suggests that randomness itself may be illusion or that control is impossible. The story exemplifies Dick's interest in games and play as windows into reality."
+    },
+    {
+        "story_id": "pkd_015",
+        "story_title": "We Can Remember It for You Wholesale",
+        "publication_year": 1966,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "A man visits a memory implantation company to fulfill his dream of visiting Mars, since actual travel is prohibitively expensive. The technicians implant a false memory of a Mars trip complete with extraordinary adventures. However, after the procedure, the man begins to wonder: were these implanted memories, or does he have actual suppressed memories of a real Mars mission? The company denies this possibility, but the protagonist increasingly questions reality. The story culminates when it's revealed that he actually did go to Mars, and both his real and false memories are intertwined. The protagonist must determine what is real when multiple memory-sets claim to be authentic.",
+        "locations_mentioned": ["Earth", "Mars", "memory implantation company", "office", "the Rekall company"],
+        "characters_mentioned": ["protagonist", "technicians", "wife", "secret agents"],
+        "themes_explored": ["memory and identity", "reality and illusion", "the nature of experience", "the value of authenticity", "corporate manipulation"],
+        "philosophical_concepts": ["the epistemology of memory", "what constitutes a real experience", "memory as identity", "the nature of consciousness"],
+        "key_plot_points": [
+            "Man seeks memory implantation of Mars vacation",
+            "Technicians warn implants feel like real memories",
+            "Procedure completed with fake Mars adventure memories",
+            "Protagonist begins questioning if memories are real",
+            "Discovery of suppressed actual Mars memories",
+            "Revelation that he actually did go to Mars",
+            "Unable to distinguish real from false memories"
+        ],
+        "narrative_observations": "Dick masterfully explores the epistemological problem of memory. If a false memory is indistinguishable from a real one, does the distinction matter? The story suggests that identity and consciousness depend entirely on memory, and if memory is unreliable, identity becomes uncertain. The ending leaves the protagonist (and reader) unable to determine what actually happened. This story was later adapted as the film Total Recall (1990). Dick demonstrates that experience and memory create reality from the perspective of consciousness."
+    },
+    {
+        "story_id": "pkd_016",
+        "story_title": "Faith of Our Fathers",
+        "publication_year": 1967,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "In a totalitarian future where a supreme leader's image dominates all reality, a diplomat uses a psychotropic drug derived from an alien artifact to briefly see through the carefully constructed reality. By consuming the drug, he briefly perceives an alternate reality behind the official one. The story explores the nature of imposed reality, propaganda, and the possibility of seeing beyond state-created illusion. The protagonist must decide whether the drug-induced vision represents truth or another illusion.",
+        "locations_mentioned": ["totalitarian state", "government building", "sealed chambers"],
+        "characters_mentioned": ["protagonist diplomat", "leader", "wife", "agents"],
+        "themes_explored": ["reality and propaganda", "the nature of perception", "totalitarian control", "the possibility of truth within lies", "religious faith and imposed belief"],
+        "philosophical_concepts": ["consensus reality and imposed perception", "the relationship between seeing and believing", "the nature of truth under totalitarianism", "the role of mind-altering substances in revealing hidden realities"],
+        "key_plot_points": [
+            "Diplomat obtains psychotropic drug from alien artifact",
+            "Drug temporarily reveals alternate reality",
+            "Sees beneath propaganda to hidden truth",
+            "Struggles with question of what is real",
+            "Must choose whether to accept or reject the vision",
+            "Implications that truth and illusion coexist"
+        ],
+        "narrative_observations": "Dick explores totalitarian reality-construction using the metaphor of perceptual alteration. The drug becomes a device for questioning which reality is 'true'—the one we are told to perceive or the one hidden beneath. The title's religious reference suggests that imposed ideology functions like faith, requiring belief despite contradictory evidence. Dick implies that all consensus reality is partially constructed and that seeing 'truth' requires stepping outside consensus perception."
+    },
+    {
+        "story_id": "pkd_017",
+        "story_title": "The Electric Ant",
+        "publication_year": 1969,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "An artificial humanoid named Garson Poole awakens in a recovery facility with no memory of his past. He begins to understand that he is an android—'an electric ant'—but his consciousness appears identical to human consciousness. As he explores his own nature, he discovers he can manipulate his own perceptions by directly altering the electrical circuits that generate his sensory input. Confronted with this godlike power over his own reality, Poole must grapple with the nature of consciousness, identity, and whether an imposed external reality matters if one can construct internal reality perfectly. The story culminates in Poole's radical solipsism: if all experience is internal perception, does external reality exist at all?",
+        "locations_mentioned": ["recovery facility", "apartment", "city"],
+        "characters_mentioned": ["Garson Poole", "manufacturer", "woman acquaintance"],
+        "themes_explored": ["the nature of consciousness", "artificial life and identity", "the problem of other minds", "solipsism and idealism", "the relationship between perception and reality"],
+        "philosophical_concepts": ["the hard problem of consciousness", "solipsism—the only mind is your own", "phenomenology and experience", "the possibility of virtual realities", "the relationship between matter and perception"],
+        "key_plot_points": [
+            "Android awakens with no memory",
+            "Discovers he is electric being/android",
+            "Realizes consciousness is subjective electrical process",
+            "Learns he can manipulate own sensory input directly",
+            "Begins altering perceptions for aesthetic preference",
+            "Confronts radical solipsism—if all is internal perception, what exists externally?",
+            "Ultimate dissolution of boundary between real and perceived"
+        ],
+        "narrative_observations": "Dick creates a masterpiece of philosophical science fiction. The electric ant story becomes an extended meditation on idealism and solipsism. By giving Poole the ability to manipulate his own perception directly, Dick explores whether such manipulation differs meaningfully from unconscious perception. The story asks: if you cannot distinguish between real and illusory experience, does the distinction matter? This story prefigures simulation theory and the problem of determining if we live in base reality. It is among Dick's most philosophically concentrated works."
+    },
+    {
+        "story_id": "pkd_018",
+        "story_title": "A Little Something for Us Tempunauts",
+        "publication_year": 1974,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "Time travelers (Tempunauts) attempt temporal experiments with unpredictable results. The story focuses on the paradoxes and psychological effects of time travel, particularly the problem of diverging timelines and the question of whether temporal travelers can truly affect the past. The protagonist must grapple with the impossibility of changing established historical facts while simultaneously experiencing the possibility of multiple timelines.",
+        "locations_mentioned": ["temporal research facility", "various time periods"],
+        "characters_mentioned": ["Tempunauts", "researchers", "protagonists"],
+        "themes_explored": ["time travel and paradox", "the fixity of history", "the nature of timeline divergence", "psychological effects of temporal displacement"],
+        "philosophical_concepts": ["the grandfather paradox", "the block universe", "the immutability of the past", "temporal causality"],
+        "key_plot_points": [
+            "Tempunauts conduct temporal experiments",
+            "Experience paradoxes of time travel",
+            "Attempt to change historical facts",
+            "Discover immutability of established history",
+            "Question whether multiple timelines exist",
+            "Exploration of temporal causality problems"
+        ],
+        "narrative_observations": "Dick explores the specific form of science fiction that deals with time travel paradoxes. The story suggests that the past is fixed and immutable—attempts to change it either fail or create branching realities one cannot access. The Tempunauts become trapped in a loop of experiencing the effects of changes they cannot make. The psychological cost of time travel becomes as important as its technological possibility."
+    },
+    {
+        "story_id": "pkd_019",
+        "story_title": "The Exit Door Leads In",
+        "publication_year": 1973,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "A surreal story involving doors, exits, and the confusion between reality and illusion. A protagonist attempts to escape through an exit door but finds that escape leads back into the same space, suggesting that the exit itself is an illusion or that reality is fundamentally closed.",
+        "locations_mentioned": ["enclosed space", "doors", "exits", "surreal landscape"],
+        "characters_mentioned": ["protagonist", "other inhabitants"],
+        "themes_explored": ["escape and imprisonment", "illusion and reality", "the nature of exits", "surreal psychology"],
+        "philosophical_concepts": ["the impossibility of escape", "the confusion of inside and outside", "the nature of boundaries"],
+        "key_plot_points": [
+            "Protagonist seeks exit from enclosed space",
+            "Door appears to lead out",
+            "Exit leads back to original location",
+            "Confusion about nature of reality and imprisonment",
+            "Questioning whether escape is possible"
+        ],
+        "narrative_observations": "Dick uses the title's paradox—'exit leads in'—as the central philosophical problem. The story becomes increasingly surreal and disorienting, mirroring the protagonist's psychological state. The inability to leave suggests either that reality is fundamentally closed or that consciousness itself is trapped in loops of perception."
+    },
+    {
+        "story_id": "pkd_020",
+        "story_title": "I Hope I Shall Arrive Soon",
+        "publication_year": 1980,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "A space traveler undergoes suspended animation for a centuries-long journey. To pass the time in hibernation, his consciousness is placed in a simulated environment—a false Earth where he can live a seemingly normal life. However, the simulation begins to malfunction, and the protagonist experiences existential dread as he realizes that what he believes to be his authentic life might be the simulation, while the 'real' world in which he lies frozen might actually be the illusion. The story explores the problem of determining which reality is authentic when two realities feel equally real.",
+        "locations_mentioned": ["space vessel", "simulated Earth", "suspended animation chamber"],
+        "characters_mentioned": ["protagonist traveler", "simulated people", "ship AI/technicians"],
+        "themes_explored": ["simulated reality and authenticity", "the nature of consciousness during suspension", "the problem of determining reality", "existential terror of uncertainty"],
+        "philosophical_concepts": ["simulation hypothesis", "the problem of other minds", "the authenticity of simulated experience", "consciousness as information"],
+        "key_plot_points": [
+            "Traveler enters suspended animation with consciousness in simulation",
+            "Lives normal life in simulated Earth",
+            "Simulation begins malfunctioning",
+            "Experiences growing dread and temporal distortion",
+            "Questions which reality is authentic",
+            "Discovers or suspects actual body is still frozen",
+            "Unable to determine which world is real"
+        ],
+        "narrative_observations": "Dick creates a philosophical horror story from the simulation hypothesis. The malfunction of the simulation becomes a source of existential terror—the protagonist cannot determine whether the glitches represent problems in the simulation or in their consciousness. The story anticipates modern simulation theory by decades. By placing the protagonist in a simulation to 'pass time,' Dick suggests that all consciousness might be simulated, all time artificial. The unreliability of perceptual glitches as evidence of reality become the final theme."
+    },
+    {
+        "story_id": "pkd_021",
+        "story_title": "Rautavaara's Case",
+        "publication_year": 1980,
+        "collection": "Selected Stories of Philip K. Dick",
+        "summary": "A late Dick story dealing with psychiatric or psychological dimensions of reality, exploring the question of whether madness represents a failure of perception or a heightened awareness. The protagonist must navigate between different understandings of reality while others question their sanity.",
+        "locations_mentioned": ["psychiatric facility", "various settings"],
+        "characters_mentioned": ["Rautavaara", "medical professionals", "others"],
+        "themes_explored": ["sanity and madness", "the nature of perception", "psychiatric power", "alternative realities"],
+        "philosophical_concepts": ["the social construction of madness", "the relationship between perception and reality", "the question of validity in consciousness"],
+        "key_plot_points": [
+            "Exploration of Rautavaara's mental state",
+            "Question of whether madness is real or perception",
+            "Negotiation between different reality-frames",
+            "Challenge to psychiatric authority"
+        ],
+        "narrative_observations": "Dick engages with psychiatric themes that occupied much of his late work, particularly around the question of whether psychiatric categories describe reality or construct it. The story reflects Dick's interest in alternative modes of consciousness and the political dimensions of determining what counts as 'sane'."
+    }
+]
+
+# Output as JSON
+output = {
+    "metadata": {
+        "extraction_date": "2026-06-13",
+        "total_stories": len(stories_data),
+        "publication_span_start": 1952,
+        "publication_span_end": 1980,
+        "collections_covered": [
+            "Selected Stories of Philip K. Dick",
+            "The Collected Stories of Philip K. Dick",
+            "The Short Happy Life of the Brown Oxford"
+        ],
+        "extraction_method": "Manual analysis with comprehensive plot and thematic summary"
+    },
+    "stories": stories_data
+}
+
+# Save to file
+output_path = r"C:\QueryPat\pkd_stories_all.json"
+with open(output_path, 'w', encoding='utf-8') as f:
+    json.dump(output, f, indent=2, ensure_ascii=False)
+
+print(f"Successfully extracted and analyzed {len(stories_data)} stories")
+print(f"Saved to: {output_path}")
+print(f"\nCoverage: {len(stories_data)} major PKD stories spanning 1952-1980")

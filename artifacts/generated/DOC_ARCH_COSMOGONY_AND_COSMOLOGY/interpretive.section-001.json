@@ -1,0 +1,72 @@
+{
+  "artifact_id": "ART_INTERPRETIVE_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001",
+  "artifact_type": "interpretive",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+  "generated_by": {
+    "agent_role": "interpretation_agent",
+    "name": "Claude (Haiku 4.5) interpreting from extraction + tagging",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "interpretive.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001",
+    "ART_ONTOLOGY_TAGGING_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001"
+  ],
+  "interpretive_questions": [
+    "How systematic is PKD's cosmological model, and where does it break down?",
+    "What philosophical traditions does he draw on, and how syncretically?"
+  ],
+  "interpretive_claims": [
+    {
+      "claim": "This essay is PKD's most sustained attempt to build a single, unified metaphysical system from the 2-3-74 experiences — more systematic than 'How to Build a Universe,' though equally tentative at its margins.",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "synthesis",
+      "evidence_links": [
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001", "evidence_location": { "locator_type": "line", "line_start": 13, "line_end": 21 }, "note": "The Urgrund/artifact/isomorphism architecture." }
+      ]
+    },
+    {
+      "claim": "The essay is Gnostic in skeleton but deliberately un-Gnostic in its resolution: PKD rejects the Gnostic evil god by positing a 'limited artifact' — preserving monotheism while explaining evil without implicating the divine.",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "synthesis",
+      "evidence_links": [
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001", "evidence_location": { "locator_type": "line", "line_start": 53, "line_end": 61 }, "note": "The theodicy move." }
+      ]
+    },
+    {
+      "claim": "PKD cannot resolve the origin of evil or even maintain the coherence of his own system — he explicitly reverses his central premise (Urgrund created the artifact vs. fell into a snare) and ends by admitting he 'just does not know.'",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "synthesis",
+      "evidence_links": [
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001", "evidence_location": { "locator_type": "line", "line_start": 453, "line_end": 453 }, "note": "The self-reversal." },
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001", "evidence_location": { "locator_type": "line", "line_start": 469, "line_end": 469 }, "note": "The final 'I just do not know.'" }
+      ]
+    },
+    {
+      "claim": "The essay's strength is not in metaphysical argument but in its syncretism — it weaves Gnosticism, Hermeticism, Böhme, Bruno, Vedanta, and process theology into a vision PKD claims to have perceived in 1974, not reasoned from first principles.",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "synthesis",
+      "evidence_links": [
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001", "evidence_location": { "locator_type": "line", "line_start": 273, "line_end": 275 }, "note": "'My 3-74 experience... was not so much my experience as that of the Urgrund.'" }
+      ]
+    }
+  ],
+  "alternative_readings": [
+    "Theological: the essay's vacillations (created vs. trapped, God's will vs. the artifact's autonomy) are not failures but accurate reportage of paradox.",
+    "Clinical: the essay's structure mirrors manic thought — synthesizing widely, then admitting gaps, then offering visions as resolution rather than argument.",
+    "Philosophical: the reversals mark an honest thinker who sees the problem (dualism breeds the problem of the second god's origin) without escaping it."
+  ],
+  "historiographical_relevance": "Load-bearing for the Urgrund, demiurge, Zebra, and anamnesis dictionary entries. Essential for understanding the 2-3-74 self-interpretation and for the contradiction zone (is 3-74 revelation or psychiatric event?). Shows the Exegesis' metaphysical ambition in compressed form.",
+  "limitations": [
+    "Lane B self-theorizing: what PKD claims to have perceived, not what is corroborated.",
+    "The essay is explicitly tentative; its system is incomplete even by PKD's own admission.",
+    "No validation from philosophy, theology, or physics — PKD is working solely from his own experience and syncretic reading."
+  ],
+  "interpretation_notes": "The four claims are evidence-grounded and carry no speculation. The essay demonstrates both PKD's erudition and his philosophical entrapment: he synthesizes brilliantly but cannot resolve the theodicy he sets out to solve."
+}

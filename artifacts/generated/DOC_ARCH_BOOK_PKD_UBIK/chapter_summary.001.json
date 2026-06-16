@@ -1,0 +1,143 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_BOOK_PKD_UBIK_CH001",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T06:44:45Z",
+  "source_id": "DOC_ARCH_BOOK_PKD_UBIK",
+  "work_id": "WORK_ubik",
+  "chapter_number": 1,
+  "chapter_title": "The Disappearance of Melipone",
+  "section_range": null,
+  "summary": "At 3:30 AM on June 5, 1992, the top telepath in the Sol System, S. Dole Melipone, vanishes from the offices of Runciter Associates in New York. The disappearance triggers urgent calls as the Runciter organization realizes it has lost too many PSIs (psychic operatives) in recent months. Glen Runciter learns of the crisis and decides to consult his half-lifer wife, Ella, at the Beloved Brethren Moratorium in Switzerland. Meanwhile, moratorium owner Herbert Schoenheit von Vogelsang oversees the facility where half-lifers are kept in cold-pac suspension, allowing their loved ones brief consultations. Runciter arrives and prepares to speak with Ella about the organization's crisis, establishing the moral and technological framework of the novel's world.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Runciter Associates offices",
+        "context": "New York City headquarters where Melipone disappears; nerve center of the anti-PSI operation",
+        "significance": null
+      },
+      {
+        "name": "Bonds of Erotic Polymorphic Experience Motel",
+        "context": "Subsurface structure in Utah where Melipone was tracked; where field readings of 68.2 blr units were registered",
+        "significance": null
+      },
+      {
+        "name": "Green River, Utah",
+        "context": "Location where inertial Miss Dorn tracked Melipone before losing him",
+        "significance": null
+      },
+      {
+        "name": "Topeka, Kansas",
+        "context": "Where telepath G. G. Ashwood went to scout new possibilities after testing at the motel",
+        "significance": null
+      },
+      {
+        "name": "Beloved Brethren Moratorium",
+        "context": "Swiss facility where half-lifers are preserved in cold-pac; where Ella Runciter is kept",
+        "significance": null
+      }
+    ],
+    "characters": [
+      {
+        "name": "Glen Runciter",
+        "role_in_chapter": "Owner/operator of Runciter Associates; protagonist; aging businessman with artificial organs",
+        "key_actions": "Takes call about Melipone's disappearance; decides to consult with Ella at the moratorium; exhibits emotional detachment even when alarmed"
+      },
+      {
+        "name": "S. Dole Melipone",
+        "role_in_chapter": "Top telepath who vanishes; generates 68.2 blr units of telepathic aura",
+        "key_actions": "Disappears without trace; can change physiognomic template frequently"
+      },
+      {
+        "name": "Joe Chip",
+        "role_in_chapter": "Skilled tester for Runciter Associates",
+        "key_actions": "Measures the PSI field at the motel and detects Melipone's presence"
+      },
+      {
+        "name": "Edie Dorn",
+        "role_in_chapter": "Inertial (anti-PSI operative) assigned to track Melipone",
+        "key_actions": "Follows Melipone to Green River, Utah and later to the motel but loses him"
+      },
+      {
+        "name": "G. G. Ashwood",
+        "role_in_chapter": "Telepath and scout for Runciter Associates; enthusiastic, manic energy",
+        "key_actions": "Reads Melipone at the motel and detects scramble pattern; scouts new talents"
+      },
+      {
+        "name": "Ella Runciter",
+        "role_in_chapter": "Glen's half-lifer wife; 20 years old at death; consulted for organizational advice",
+        "key_actions": "Awaits consultation at moratorium; Runciter seeks her counsel on crisis management"
+      },
+      {
+        "name": "Herbert Schoenheit von Vogelsang",
+        "role_in_chapter": "Owner/operator of the Beloved Brethren Moratorium",
+        "key_actions": "Manages daily moratorium operations; takes charge of Ella's case; tends to half-lifers with professional detachment"
+      }
+    ],
+    "themes": [
+      "Corporate espionage and industrial competition",
+      "The nature of PSI abilities and their monopolization",
+      "Privacy rights and surveillance",
+      "Institutional management of the dead/half-alive",
+      "Ambiguity and paranoia in business operations"
+    ],
+    "theological_concepts": [
+      {
+        "concept": "Half-life/resurrection",
+        "context": "The existence of half-lifers in cold-pac suspension; temporary reanimation for communication",
+        "theological_frame": "Christian resurrection mythology repurposed through technology; echoes of Tibetan Buddhist concepts of bardo (death state)"
+      },
+      {
+        "concept": "Afterlife consultation",
+        "context": "Half-lifers as intermediaries between living and dead worlds; treated as living information sources",
+        "theological_frame": "Shamanic tradition of consulting the dead; spiritualist séance practices"
+      }
+    ],
+    "philosophical_concepts": [
+      {
+        "concept": "Identity and memory persistence (Melipone's multiple physiognomic templates)",
+        "context": null
+      },
+      {
+        "concept": "The commodification of consciousness and ability",
+        "context": null
+      },
+      {
+        "concept": "Power structures and organizational hierarchies",
+        "context": null
+      },
+      {
+        "concept": "Knowledge asymmetry and information control",
+        "context": null
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "event": "S. Dole Melipone's disappearance",
+      "significance": "Triggers the entire novel's action; represents a pattern of missing PSIs that will drive the plot",
+      "relates_to_biography": null
+    },
+    {
+      "event": "Detection of Melipone at the motel via field readings",
+      "significance": "Confirms his whereabouts but also demonstrates the technical sophistication of PSI detection",
+      "relates_to_biography": null
+    },
+    {
+      "event": "Runciter's decision to consult Ella",
+      "significance": "Establishes that half-lifers are valued as advisors despite their limited knowledge; foreshadows Ella's importance to the narrative",
+      "relates_to_biography": null
+    }
+  ],
+  "connections_to_other_works": [],
+  "narrative_voice_observations": null,
+  "symbolic_elements": [],
+  "questions_raised": [],
+  "reading_notes": null,
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "create_chapter_summary_artifacts.py",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ubik_chapter_analysis.v1"
+  }
+}

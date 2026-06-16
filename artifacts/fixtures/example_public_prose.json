@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ART_PUBLIC_PROSE_DOC_ARCH_1974_ROLLING_STONE",
+  "artifact_type": "public_prose",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_1974_ROLLING_STONE",
+  "generated_by": {
+    "agent_role": "writing_agent",
+    "name": "scripts/overrides (editorial) + reviewer",
+    "model": "claude-opus-4-8",
+    "prompt_version": "public_prose.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_1974_ROLLING_STONE_S001",
+    "ART_VALIDATION_DOC_ARCH_1974_ROLLING_STONE_S001",
+    "ART_ONTOLOGY_TAGGING_DOC_ARCH_1974_ROLLING_STONE_S001",
+    "ART_INTERPRETIVE_DOC_ARCH_1974_ROLLING_STONE_S001",
+    "ART_CURATION_DOC_ARCH_1974_ROLLING_STONE"
+  ],
+  "generated_from_artifacts": [
+    { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_1974_ROLLING_STONE_S001", "artifact_type": "raw_extraction" },
+    { "artifact_id": "ART_VALIDATION_DOC_ARCH_1974_ROLLING_STONE_S001", "artifact_type": "validation" },
+    { "artifact_id": "ART_INTERPRETIVE_DOC_ARCH_1974_ROLLING_STONE_S001", "artifact_type": "interpretive" }
+  ],
+  "title": "Rolling Stone profiles Philip K. Dick (1974?)",
+  "dek_or_short_description": "A scanned mid-1970s Rolling Stone feature on Dick — catalogued, but not yet readable.",
+  "body_markdown": "This archive holds an eleven-page *Rolling Stone* feature on Philip K. Dick, catalogued under the year 1974. It is, on the catalog's own terms, a significant object: mainstream-press attention to Dick at a moment when his readership was still largely inside the science-fiction world.\n\nTwo cautions travel with it. First, the scan carries no machine-readable text, so nothing can yet be said about what the article actually argues — only that it exists. Second, the recorded date sits oddly next to the best-known *Rolling Stone* piece on Dick, Paul Williams's profile, which is dated November 1975. Until the page images are read and the date is reconciled, this record is a pointer, not a source.",
+  "summary": "Catalogued but un-OCR'd Rolling Stone feature on PKD; flagged for a dating discrepancy and held pending a grounded reading.",
+  "tags": ["pkd-reception", "mainstream-press", "1970s"],
+  "citations_or_source_links": [
+    { "label": "Archive record: 1974 Rolling Stone feature", "uri": null, "source_id": "DOC_ARCH_1974_ROLLING_STONE" }
+  ],
+  "editorial_status": "draft",
+  "prototype_mode": false,
+  "revision_notes": "DRAFT only. Cannot advance to 'reviewed' until a grounded raw_extraction (post-OCR) and a non-warn validation exist for this source, and the 1974/1975 date is resolved. The prose is deliberately explicit about uncertainty and asserts nothing about the article's contents."
+}

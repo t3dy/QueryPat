@@ -1,0 +1,30 @@
+{
+  "artifact_id": "ART_VALIDATION_DOC_ARCH_1974_ROLLING_STONE_S001",
+  "artifact_type": "validation",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_1974_ROLLING_STONE",
+  "generated_by": {
+    "agent_role": "validation_agent",
+    "name": "artifacts/validate_artifacts.py + reviewer",
+    "model": null,
+    "prompt_version": null
+  },
+  "target_artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_1974_ROLLING_STONE_S001",
+  "target_artifact_type": "raw_extraction",
+  "validation_status": "warn",
+  "schema_errors": [],
+  "missing_required_fields": [],
+  "grounding_issues": [
+    "Extraction is empty of body content because the source has no OCR text layer. This is a correct, honest state, but it means no downstream claim may cite this source's text until OCR is run."
+  ],
+  "suspected_hallucinations": [],
+  "duplicate_or_conflicting_claims": [
+    "Date conflict flagged in the extraction (catalog 1974 vs known 1975 Paul Williams profile) is preserved, not resolved."
+  ],
+  "recommended_fixes": [
+    "Run OCR on PaulPKDarchive/PKDpdf/1974_Rolling_Stone.pdf and re-extract with page/line locators.",
+    "Resolve or explicitly register the 1974/1975 dating discrepancy in the contradiction registry."
+  ],
+  "validator_notes": "Status is 'warn', not 'fail': the artifact is schema-valid and honest. But because grounding is absent, no public_prose for this source may be marked reviewed or published until a grounded extraction exists."
+}

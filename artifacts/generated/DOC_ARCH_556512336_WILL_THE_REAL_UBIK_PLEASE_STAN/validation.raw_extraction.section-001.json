@@ -1,0 +1,27 @@
+{
+  "artifact_id": "ART_VALIDATION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+  "artifact_type": "validation",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+  "generated_by": {
+    "agent_role": "validation_agent",
+    "name": "Claude (Opus 4.8) cross-checking extraction against source lines",
+    "model": "claude-opus-4-8",
+    "prompt_version": "validation.v1"
+  },
+  "target_artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+  "target_artifact_type": "raw_extraction",
+  "validation_status": "pass",
+  "schema_errors": [],
+  "missing_required_fields": [],
+  "grounding_issues": [],
+  "suspected_hallucinations": [],
+  "duplicate_or_conflicting_claims": [
+    "The extraction correctly records, rather than resolves, the internal tension: Sarill argues for precognition yet concedes it is 'not proof' (line 207). Both poles are preserved."
+  ],
+  "recommended_fixes": [
+    "When this feeds an interpretive artifact, ensure the venue (Society for Scientific Exploration) and the author's own hedge are carried through so the precognition thesis is not overstated."
+  ],
+  "validator_notes": "Quotations verified verbatim against the cited lines (the 'synchronistic evidence... not proof' line and the Exegesis 'Atman, the Breath of God' gloss are exact). The dating chain (named 1957; Ubik written 1966; 1967 Britannica vs 1966; CoQ10 to market 1983) checks out against lines 141/169/195. Status 'pass'."
+}

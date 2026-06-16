@@ -1,0 +1,45 @@
+{
+  "artifact_id": "ART_ONTOLOGY_TAGGING_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001",
+  "artifact_type": "ontology_tagging",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN",
+  "generated_by": {
+    "agent_role": "ontology_agent",
+    "name": "Claude (Opus 4.8) mapping extraction onto PKDontology vocabulary",
+    "model": "claude-opus-4-8",
+    "prompt_version": "ontology_tagging.v1"
+  },
+  "input_artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN_S001",
+  "ontology_version": "1.0",
+  "tags": ["reality-vs-illusion", "simulacra", "the-authentic-human", "pseudo-realities", "media-control", "precognition", "gnosis", "logos", "2-3-74", "pre-socratics"],
+  "entities_linked_to_ontology_ids": [
+    { "mention": "anamnesis", "ontology_id": "TERM_ANAMNESIS", "ontology_kind": "term", "confidence": 0.95 },
+    { "mention": "Ubik", "ontology_id": "WORK_UBIK", "ontology_kind": "work", "confidence": 0.95 },
+    { "mention": "Ubik / 'I am the word'", "ontology_id": "TERM_LOGOS", "ontology_kind": "term", "confidence": 0.85 },
+    { "mention": "Flow My Tears, the Policeman Said", "ontology_id": "WORK_FLOW_MY_TEARS", "ontology_kind": "work", "confidence": 0.95 },
+    { "mention": "the golden fish / anamnesis vision (Feb 1974)", "ontology_id": "THEO_1974_2_3_74_CLUSTER", "ontology_kind": "theophany", "confidence": 0.8 },
+    { "mention": "Lincoln Simulacrum", "ontology_id": "TERM_SIMULACRUM", "ontology_kind": "term", "confidence": 0.7 },
+    { "mention": "the black prison-like contours of hateful Rome", "ontology_id": "TERM_BLACK_IRON_PRISON", "ontology_kind": "term", "confidence": 0.55 },
+    { "mention": "Philip K. Dick", "ontology_id": "PERSON_PHILIP_K_DICK", "ontology_kind": "person", "confidence": 1.0 }
+  ],
+  "traditions": ["Gnosticism", "Neoplatonism", "pre-Socratic philosophy", "Christianity", "Logos doctrine"],
+  "periods": ["antiquity", "twentieth_century", "contemporary"],
+  "genres": ["essay", "speech", "primary_nonfiction"],
+  "methods": ["close_reading", "intellectual_history"],
+  "historiographical_categories": ["primary_source", "self_mythology"],
+  "esoteric_domains": ["gnosticism", "neoplatonism", "mysticism", "hermetism"],
+  "evidentiary_lane": "B",
+  "confidence_by_tag": [
+    { "tag": "reality-vs-illusion", "confidence": 1.0 },
+    { "tag": "the-authentic-human", "confidence": 1.0 },
+    { "tag": "logos", "confidence": 0.9 },
+    { "tag": "2-3-74", "confidence": 0.8 },
+    { "tag": "precognition", "confidence": 0.85 }
+  ],
+  "rejected_tags": [
+    { "tag": "android-consciousness", "reason": "The Garson Poole punched-tape android is mentioned only as an illustrative anecdote (line 39); the essay is not about android consciousness as such." },
+    { "tag": "black-iron-prison", "reason": "The phrase 'black prison-like contours of hateful Rome' (line 187) gestures at the motif but PKD does not name the Black Iron Prison here; linked only at confidence 0.55." }
+  ],
+  "tagging_notes": "Classification only; no prose written. 'self_mythology' is applied because the essay is PKD narrating and theorizing his own 2-3-74 experiences (lane B), which the contradiction registry flags as a never-resolve-silently zone."
+}

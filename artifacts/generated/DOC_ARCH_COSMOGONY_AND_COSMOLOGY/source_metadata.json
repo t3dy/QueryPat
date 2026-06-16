@@ -1,0 +1,27 @@
+{
+  "artifact_id": "ART_SOURCE_METADATA_DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+  "artifact_type": "source_metadata",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+  "generated_by": {
+    "agent_role": "ingestion_script",
+    "name": "scripts/ingest/ingest_archive.py + Claude (Opus 4.8) ingestion review",
+    "model": "claude-opus-4-8",
+    "prompt_version": "source_metadata.v1"
+  },
+  "source_type": "article",
+  "source_title": "Cosmogony and Cosmology",
+  "authors_or_creators": ["Philip K. Dick"],
+  "publication_date": "1978",
+  "source_uri": null,
+  "local_path": "database/extracted_markdown/DOC_ARCH_COSMOGONY_AND_COSMOLOGY.md",
+  "ingestion_date": "2025-01-01",
+  "language": "en",
+  "rights_status": "in_copyright",
+  "access_notes": "A 1978 essay in which PKD lays out a systematic cosmological model derived from his 2-3-74/3-74 experiences and the Exegesis. Full machine-readable text (474-line extraction). Posthumously collected (e.g. in 'The Shifting Realities of Philip K. Dick', 1995).",
+  "raw_text_available": true,
+  "transcript_available": false,
+  "evidentiary_lane": "B",
+  "notes": "PKD-authored metaphysical essay (lane B). The most systematic single statement of his 'two-source' cosmology; closely related to the Exegesis and to the essay 'How to Build a Universe' (same year). Shares the anamnesis / golden-fish material."
+}

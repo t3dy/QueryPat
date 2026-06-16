@@ -1,0 +1,72 @@
+{
+  "artifact_id": "ART_INTERPRETIVE_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+  "artifact_type": "interpretive",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
+  "generated_by": {
+    "agent_role": "interpretation_agent",
+    "name": "Claude (Opus 4.8) interpreting from extraction + tagging + citation",
+    "model": "claude-opus-4-8",
+    "prompt_version": "interpretive.v1"
+  },
+  "input_artifact_ids": [
+    "ART_RAW_EXTRACTION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+    "ART_ONTOLOGY_TAGGING_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001",
+    "ART_SCHOLAR_CITATION_DOC_ARCH_556512336_SARILL_UBIK_UBIQUINONE"
+  ],
+  "interpretive_questions": [
+    "How strong is Sarill's case, and where does its strength actually lie?",
+    "How should the portal represent a rigorous-but-parapsychological argument?"
+  ],
+  "interpretive_claims": [
+    {
+      "claim": "The article's most defensible contribution is its negative case — the documented argument that Dick had no plausible route to knowledge of ubiquinone in 1966 (ex-wife interviews; the 1966-vs-1967 Britannica check; the lone obscure 1960 citation). This stands independently of whether one accepts precognition.",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "synthesis",
+      "evidence_links": [
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001", "evidence_location": { "locator_type": "line", "line_start": 157, "line_end": 173 }, "note": "The 'Could PKD Have Known?' section." }
+      ]
+    },
+    {
+      "claim": "The precognition conclusion is inferential by the author's own admission; the article is scrupulous in offering a rival reading (Ubik as the divine/ubiquitous principle PKD himself described in the Exegesis) and in framing the evidence as synchronistic rather than probative.",
+      "confidence": "high",
+      "speculative": false,
+      "attributed_to": "synthesis",
+      "evidence_links": [
+        { "artifact_id": "ART_SCHOLAR_CITATION_DOC_ARCH_556512336_SARILL_UBIK_UBIQUINONE", "note": "Sarill: 'synchronistic evidence consistent with precognition, not proof of it.'" },
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001", "evidence_location": { "locator_type": "line", "line_start": 197, "line_end": 207 }, "note": "The coincidence / divine-principle alternative." }
+      ]
+    },
+    {
+      "claim": "On the 2-3-74 diagnosis, the article adds a specific revisionist proposal (bipolar disorder plus a sodium-pentothal rebound) against the older schizophrenia and temporal-lobe-epilepsy readings — a contribution to the contradiction zone, not a resolution of it.",
+      "confidence": "medium",
+      "speculative": false,
+      "attributed_to": "William Sarill (citing Oren Bigman, MD)",
+      "evidence_links": [
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001", "evidence_location": { "locator_type": "line", "line_start": 105, "line_end": 105 }, "note": "Competing diagnoses discussion." }
+      ]
+    },
+    {
+      "claim": "The deepest weakness is unfalsifiability: whether the Ubik/ubiquinone correspondences count as evidence of psi depends entirely on prior acceptance of synchronicity and retrocausality, which the article concedes cannot be proven.",
+      "confidence": "speculative",
+      "speculative": true,
+      "attributed_to": "editor",
+      "evidence_links": [
+        { "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN_S001", "evidence_location": { "locator_type": "line", "line_start": 205, "line_end": 207 }, "note": "Synchronicity 'could never prove its existence, only infer it.'" }
+      ]
+    }
+  ],
+  "alternative_readings": [
+    "Skeptical: the correspondences are post-hoc pattern-matching over a vivid, polysemous novel; many of the cited 'matches' (kidney/liver balm, reproductive complaints) are loose.",
+    "Literary-theological: Ubik's powers follow from its design as a divine ubiquity (qi/prana/pneuma/Atman), making any biochemical parallel incidental — the reading PKD himself gave."
+  ],
+  "historiographical_relevance": "A test case for the portal's 'scholarly reliability' axis: rigorous method and primary-source interviews deployed in service of a parapsychological thesis published in an advocacy venue. Bears on the Works entry for Ubik and the 2-3-74 contradiction registry.",
+  "limitations": [
+    "Lane C, but heavily dependent on PKD's self-reports and family testimony (themselves of mixed reliability per Anne Dick).",
+    "Published by the Society for Scientific Exploration, whose mission is to advocate for anomalies; framing should be weighted accordingly.",
+    "The central thesis is, by the author's statement, not provable."
+  ],
+  "interpretation_notes": "Three evidence-grounded claims plus one explicitly speculative claim. The artifact deliberately credits the article's genuine strengths (the negative case, its candor) while keeping the unfalsifiability problem visible — neither debunking nor endorsing."
+}

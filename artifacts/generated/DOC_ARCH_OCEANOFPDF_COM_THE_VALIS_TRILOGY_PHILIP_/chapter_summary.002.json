@@ -1,0 +1,93 @@
+{
+  "artifact_id": "ART_CHAPTER_SUMMARY_DOC_ARCH_OCEANOFPDF_COM_THE_VALIS_TRILOGY_PHILIP__CH002",
+  "artifact_type": "chapter_summary",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-13T05:23:59Z",
+  "source_id": "DOC_ARCH_OCEANOFPDF_COM_THE_VALIS_TRILOGY_PHILIP_",
+  "work_id": "WORK_valis",
+  "chapter_number": 2,
+  "chapter_title": "Stephanie and the Clay Pot",
+  "summary": "After Gloria's suicide, Fat survived through two unexpected saviors: an eighteen-year-old dope dealer named Stephanie and God. The narrator emphasizes that Stephanie helped him more effectively than God initially did. Stephanie sold hash and grass but never uppers or psychedelics, maintaining her own moral code as a dealer. To maintain their relationship, Fat had to purchase from her despite not being interested in the drugs themselves. Fat eventually fled to Canada with a small clay pot that Stephanie had thrown on her kickwheel as an eighteenth birthday gift, believing it contained God dormant within it. Upon his return from Canada, Fat claimed to have encountered God through a beam of pink light that temporarily blinded him and gave him information about his son's undiagnosed medical condition.",
+  "extracted_entities": {
+    "locations": [
+      {
+        "name": "Canada"
+      },
+      {
+        "name": "Vancouver"
+      },
+      {
+        "name": "Marin County"
+      },
+      {
+        "name": "Berkeley"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Horselover Fat"
+      },
+      {
+        "name": "Stephanie"
+      },
+      {
+        "name": "Gloria Knudson"
+      },
+      {
+        "name": "Christopher (Fat's son)"
+      },
+      {
+        "name": "Beth (Fat's wife)"
+      },
+      {
+        "name": "Kevin"
+      },
+      {
+        "name": "David"
+      },
+      {
+        "name": "Sherri"
+      },
+      {
+        "name": "Sammy Davis Jr."
+      }
+    ],
+    "themes": [
+      "divine intervention and salvation",
+      "unlikely helpers",
+      "the nature of God's communication",
+      "love expressed through material objects",
+      "mental illness and mystical experience",
+      "the reliability of religious encounter"
+    ],
+    "theological_concepts": [
+      "theophany (encounter with God)",
+      "divine healing",
+      "the Logos (living information)",
+      "revelation through mystical experience",
+      "the nature of true God versus false perception"
+    ],
+    "philosophical_concepts": [
+      "the deus absconditus (hidden God)",
+      "appearance versus reality",
+      "suffering as path to enlightenment",
+      "the reliability of perception",
+      "skepticism about mental states"
+    ]
+  },
+  "key_events": [
+    "Gloria Knudson's suicide and its aftermath on Fat",
+    "Fat's increased drug use and friendship with Stephanie",
+    "Stephanie's gift of the clay pot on her eighteenth birthday",
+    "Fat's flight to Canada",
+    "Fat's encounter with God via a beam of pink light",
+    "Fat's discovery of his son Christopher's undiagnosed hernia",
+    "Fat's beginning to keep a journal (exegesis) of his experiences"
+  ],
+  "narrative_voice_observations": "The narrator maintains ironic distance from Fat's experiences, questioning whether God actually healed him or made him sicker. Dick employs comparison between Gloria's malignant psychological death and Stephanie's life-saving intervention, suggesting that small acts of love matter more than grand cosmic experiences. The narrative voice shifts between Fat's perspective and the narrator's skepticism, particularly regarding the reliability of Fat's mystical experiences and their interpretation.",
+  "generated_by": {
+    "agent_role": "reading_notes_agent",
+    "name": "valis_converter.py",
+    "model": "claude-opus-4-8"
+  }
+}

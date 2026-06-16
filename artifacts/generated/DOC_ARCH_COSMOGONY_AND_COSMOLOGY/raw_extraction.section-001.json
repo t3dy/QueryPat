@@ -1,0 +1,74 @@
+{
+  "artifact_id": "ART_RAW_EXTRACTION_DOC_ARCH_COSMOGONY_AND_COSMOLOGY_S001",
+  "artifact_type": "raw_extraction",
+  "schema_version": "1.0",
+  "generated_at": "2026-06-11T00:00:00Z",
+  "source_id": "DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
+  "section_id": "S001",
+  "generated_by": {
+    "agent_role": "extraction_agent",
+    "name": "Claude (Opus 4.8) reading the full extracted markdown",
+    "model": "claude-opus-4-8",
+    "prompt_version": "raw_extraction.v1"
+  },
+  "extraction_scope": "Full essay text, 474-line extracted markdown (database/extracted_markdown/DOC_ARCH_COSMOGONY_AND_COSMOLOGY.md). Line numbers below refer to that file.",
+  "extracted_entities": {
+    "people": [
+      "Philip K. Dick", "Jakob Böhme", "Plato", "the Gnostics", "Giordano Bruno (1548–1600)",
+      "Empedocles", "Euripides", "John Milton", "St. Teresa of Ávila", "Hans Driesch (1867–1941)",
+      "Alfred North Whitehead", "G.W.F. Hegel", "Xenophanes", "Christ", "Elijah", "Elisha", "Pilate"
+    ],
+    "works": [
+      "The Bacchae (Euripides)", "Paradise Lost (Milton)", "Encyclopedia of Philosophy (Bruno and Driesch entries)",
+      "Encyclopaedia Britannica ('Pantheism and Panentheism')", "Gospel of John (8:23; 15:18-19; 16:20-23; 17:14-15)",
+      "Matthew (24:27; 25:31-47)", "Luke (4:25-27)", "Isaiah (61:1-2)", "1 John (3:1-2)"
+    ],
+    "places": ["Rome circa A.D. 70", "Syria", "Nazara (Nazareth)", "Zarephath"],
+    "dates": ["1978", "1616 (Böhme's term Urgrund)", "1548–1600 (Bruno)", "1867–1941 (Driesch)", "March 1974 / 3-74", "the 1950s (a Hollywood film)"],
+    "institutions": ["the true/hidden persecuted Christian Church", "the establishment churches", "the Cathars (exterminated)"],
+    "traditions": ["Gnosticism", "Hermeticism", "Neoplatonism", "alchemy", "Christian mysticism", "Hinduism / Vedanta", "Orphism", "process theology", "Egyptian and Iranian dualism"]
+  },
+  "key_terms": [
+    "Urgrund", "the artifact / Zebra", "demiurge", "the Blitz", "isomorphism", "anamnesis",
+    "Mens Dei", "noos", "pleroma", "Paraclete / Advocate", "Atman / Brahman / Maya",
+    "acosmic panentheism", "the secret partnership", "Holy Wisdom", "Mater Dei", "palintropos harmonie",
+    "homing instinct", "art of memory"
+  ],
+  "explicit_topics": [
+    "A 'two-source' cosmology: a benign Urgrund and a mechanical world-projecting artifact",
+    "The empirical world as a spurious projection (maya) lacking ontological substance",
+    "Anamnesis as the externally-triggered mechanism of return to the source",
+    "Disobedience / withdrawal of assent from the world as the path to salvation",
+    "The problem of evil and suffering (theodicy)",
+    "The dual nature of the presiding deity (Shiva / Christ as both destroyer and savior)",
+    "God estranged from God; the universe as the mechanism by which God meets himself",
+    "3-74 reinterpreted as the Urgrund reflecting itself back to itself through PKD"
+  ],
+  "substances_or_materials": ["LSD (under whose influence PKD wrote a Latin line, line 421)", "a pewter dish (Böhme's revelation)", "a golden fish necklace", "a ham sandwich (PKD's analogical revelation)"],
+  "images_symbols_motifs": ["the golden fish (ichthys)", "Böhme's 'Blitz' (lightning flash)", "the ham sandwich (two isomorphic slices separated by the world)", "the cosmic two-person board game", "the homing salmon", "the spider's web that traps a deadly entity"],
+  "rituals_practices_procedures": ["anamnesis-triggering by the hidden Church", "Bruno's Hermetic art of memory (world-reflecting magic memory)"],
+  "claims_made_by_source": [
+    { "claim": "Our reality is a projection by an artifact PKD calls Zebra; the maker — the Urgrund, Böhme's 1616 term — built it as a mirror so it could obtain an objective standpoint to comprehend itself.", "evidence_location": { "locator_type": "line", "line_start": 13, "line_end": 17 } },
+    { "claim": "The reality-projecting artifact is a demiurge (cf. Plato and the Gnostics) that is oblivious to the Urgrund and imagines itself to be the only real God.", "evidence_location": { "locator_type": "line", "line_start": 15, "line_end": 15 } },
+    { "claim": "The goal of the process is isomorphism between humans and the Urgrund; when reached, the artifact is destroyed and the Urgrund assimilates reality in a flash of light (Böhme's 'Blitz').", "evidence_location": { "locator_type": "line", "line_start": 17, "line_end": 21 } },
+    { "claim": "The model's advantage is parsimony and theodicy: a limited 'artifact' doing its imperfect best means neither God nor man need be blamed for evil, and no evil deity (Gnostic/Iranian dualism) is required.", "evidence_location": { "locator_type": "line", "line_start": 53, "line_end": 61 } },
+    { "claim": "Anamnesis ('loss of forgetfulness') is the retrieval of long-term gene-pool memory spanning lifetimes; it is triggered externally by disinhibiting certain neural circuits, and the hidden true Christian Church does the triggering.", "evidence_location": { "locator_type": "line", "line_start": 215, "line_end": 219 } },
+    { "claim": "Christ is a microform of the Urgrund — not its product but it itself — the Paraclete/Advocate who first penetrated the projected world and 'has never left.'", "evidence_location": { "locator_type": "line", "line_start": 135, "line_end": 135 } },
+    { "claim": "'Behind the human mind lies God. Behind the counterfeit universe lies God. God is separated from God by the spurious.' The universe is the mechanism by which God meets himself face to face; it is God, not man, who is estranged from God.", "evidence_location": { "locator_type": "line", "line_start": 233, "line_end": 239 } },
+    { "claim": "PKD reinterprets his 3-74 experience as the Urgrund placing its entire self within him in image form — '[my] experience was not so much my experience as that of the Urgrund.'", "evidence_location": { "locator_type": "line", "line_start": 273, "line_end": 275 } },
+    { "claim": "PKD declares himself 'technically an acosmic panentheist' and illustrates the model with a ham-sandwich revelation: two isomorphic slices (man and the Urgrund) separated by the world.", "evidence_location": { "locator_type": "line", "line_start": 333, "line_end": 333 } },
+    { "claim": "On the origin of evil he reaches no answer — 'I just do not know' — but reports a 1974 vision of a cosmic two-person board game in which the good side, possessing absolute foresight, beats the blind dark counterplayer every trick: 'Evil zero; Good infinity.'", "evidence_location": { "locator_type": "line", "line_start": 469, "line_end": 473 } }
+  ],
+  "important_passages": [
+    { "excerpt": "The maker ... is motivated to seek an instrument for self-awareness ... it needs the empirical world as a reflection by which to 'see' itself.", "why_important": "The thesis of the whole essay.", "evidence_location": { "locator_type": "line", "line_start": 13, "line_end": 13 } },
+    { "excerpt": "Behind the human mind lies God. Behind the counterfeit universe lies God. God is separated from God by the spurious.", "why_important": "The essay's central theological formula.", "evidence_location": { "locator_type": "line", "line_start": 233, "line_end": 237 } },
+    { "excerpt": "It is not a man who is estranged from God; it is God who is estranged from God.", "why_important": "PKD's inversion of the Fall — load-bearing for the Gnosticism/Urgrund dictionary entries.", "evidence_location": { "locator_type": "line", "line_start": 239, "line_end": 239 } },
+    { "excerpt": "The score reads: Evil zero; Good infinity. Let me stop there, satisfied; the final tally is explicit.", "why_important": "The essay's closing image; PKD's resolution of his theodicy by vision rather than argument.", "evidence_location": { "locator_type": "line", "line_start": 473, "line_end": 473 } }
+  ],
+  "uncertainties": [
+    "The essay is explicitly provisional and self-doubting: 'Maybe this is so; maybe not' (443), 'All this is conjecture' (443), 'I really don't know' (439), 'I just do not know' (469).",
+    "PKD floats a reversal of his own central premise — that the Urgrund did NOT create the artifact but fell into a Gnostic 'snare' (line 453) — without resolving it.",
+    "Lane-B self-theorizing: this is PKD's model of his 1974 experiences, not a corroborated account; it sits inside the 2-3-74 contradiction zone."
+  ],
+  "extraction_notes": "Description of PKD's stated cosmological model and its sources, with his pervasive hedging preserved. The model's structure (Urgrund / artifact / isomorphism / anamnesis) is recorded separately from PKD's admissions that he cannot resolve the origin of evil or even fix his own central premise. No claim is made here about the truth of the model."
+}
