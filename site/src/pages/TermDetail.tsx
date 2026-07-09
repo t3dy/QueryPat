@@ -206,19 +206,21 @@ export default function TermDetail() {
         </div>
       )}
 
-      {term.full_description && (
+      {(term.full_description || term.definition) && (
         <div className="detail-section">
-          <h2>Description</h2>
+          <h2>{term.full_description ? 'Description' : 'Definition'}</h2>
           <ReactMarkdown>{
-            term.full_description.split(/\*\*From the Exegesis:\*\*/)[0].trim()
+            (term.full_description
+              ? term.full_description.split(/\*\*From the Exegesis:\*\*/)[0]
+              : term.definition).trim()
           }</ReactMarkdown>
         </div>
       )}
 
-      {term.definition && !term.full_description && (
+      {term.interpretive_note && (
         <div className="detail-section">
-          <h2>Definition</h2>
-          <p>{term.definition}</p>
+          <h2>Interpretation</h2>
+          <ReactMarkdown>{term.interpretive_note.trim()}</ReactMarkdown>
         </div>
       )}
 
