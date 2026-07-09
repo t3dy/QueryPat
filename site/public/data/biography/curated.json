@@ -1721,9 +1721,9 @@
   },
   {
     "id": "pkd_bio_1971_burglary",
-    "date": "1971",
-    "date_precision": "year",
-    "event": "Home in San Rafael burglarized under mysterious and never-resolved circumstances",
+    "date": "1971-11-17",
+    "date_precision": "day",
+    "event": "PKD's San Rafael house is broken into and his files blown open — the never-resolved event he theorized about for years.",
     "category": "crime",
     "entities": [
       "FBI",
@@ -1732,13 +1732,61 @@
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a year crime entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "On the standing contradiction registry. The break-in is corroborated as an event; its agent and exact mechanics are not.",
+    "narrative": "On 17 November 1971, PKD returned to his San Rafael house to find it burglarized: the window blown in, his locked file cabinet forced open (some accounts say blown apart with explosives), and papers and stereo equipment taken. No one was ever charged. The break-in became the defining unsolved event of his life — a real intrusion he spent years trying to explain, and a rehearsal for the epistemology of 2-3-74: how do you know what happened when every account, including your own, is unreliable?\n\nPKD's theories multiplied over time. At various points he blamed the FBI, the CIA, the KGB, the right-wing Minutemen, the Black Panthers, religious fanatics, local drug dealers, jealous rivals, and — at his most candid — himself, in a blackout or as a cry for help. Both his own accounts and the scholarship treat the case as genuinely open; it is one of the portal's standing contradiction zones.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 7",
+        "supports": "dates and describes the Nov 1971 break-in and its unresolved status"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "weighs the possibility that PKD staged or imagined part of it within a clinical frame"
+      },
+      {
+        "author": "PKD",
+        "work": "Selected Letters / Exegesis",
+        "lane": "E",
+        "supports": "PKD's own shifting attributions of responsibility across letters and notebooks"
+      }
+    ],
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "dispute": {
+      "summary": "Who broke in, and whether it happened as PKD described, has never been resolved; PKD himself named many culprits.",
+      "positions": [
+        {
+          "who": "PKD (various letters)",
+          "claim": "an external agency (variously FBI/CIA/KGB/Minutemen/dealers) targeted him"
+        },
+        {
+          "who": "PKD (at his most candid)",
+          "claim": "he may have done it himself, in a blackout or as a cry for help"
+        },
+        {
+          "who": "Clinical frame (Arnold)",
+          "claim": "the event is entangled with amphetamine-era paranoia; parts may be misremembered or self-inflicted"
+        }
+      ]
+    },
+    "links": {
+      "exegesis_work": "/exegesis/works/flow-my-tears-the-policeman-said"
+    },
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1971_hospitalization",
     "date": "1971",
     "date_precision": "year",
-    "event": "Hospitalized for psychiatric evaluation related to paranoia and depression",
+    "event": "PKD cycles through hospitalizations and psychiatric contact as amphetamine use, paranoia, and a collapsing household converge.",
     "category": "health",
     "entities": [
       "Marin General Hospital"
@@ -1746,7 +1794,29 @@
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a year health entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "Dates within 1971 are approximate; the clinical-vs-circumstantial weighting is contested.",
+    "narrative": "By 1971 PKD's San Rafael house had become a chaotic way-station for street people and drug users, his marriage to Nancy had ended (she left with their daughter Isa in 1970), and heavy amphetamine use had fed a deepening paranoia. Across this period he had repeated medical and psychiatric contact — including hospitalization — as depression, physical collapse, and the fear of surveillance closed in. It was the year of the break-in and the immediate prelude to Vancouver.\n\nScholarship divides on how to weight the causes. Sutin narrates a life coming apart under drugs and circumstance; Arnold, a clinician, reads a genuine psychiatric crisis with a multi-causal etiology rather than a simple drug story. The portal keeps both frames rather than resolving them.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 7",
+        "supports": "the 1970-71 disintegration: Nancy's departure, the household, the drug use"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "the clinical, multi-causal reading of the 1971 crisis"
+      }
+    ],
+    "lanes": [
+      "C",
+      "D"
+    ],
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1971_surveillance_paranoia",
@@ -2029,9 +2099,9 @@
   },
   {
     "id": "pkd_bio_1972_vancouver_suicide_attempt",
-    "date": "1972-03-01",
+    "date": "1972-03",
     "date_precision": "month",
-    "event": "Attempted suicide in Vancouver after Jamis announced she was leaving",
+    "event": "In Vancouver, PKD attempts suicide and enters the X-Kalay drug-rehabilitation community — the low point that pivoted him to Orange County.",
     "category": "health",
     "entities": [
       "Jamis"
@@ -2039,7 +2109,51 @@
     "location": "Vancouver, British Columbia",
     "source": "letters",
     "importance": 4,
-    "notes": "Letter to Zelazny (Dec 1, 1972): 'One day we were on CKLG FM live for almost two hours; the next day I heard her mention to some other people that she was leaving Vancouver in a month. The next day I heard her mention... The next day I tried to do myself in.'"
+    "notes": "The sequence is well attested; the pharmacological specifics are on the standing registry.",
+    "narrative": "PKD had flown to Vancouver in February 1972 as guest of honor at a science-fiction convention, where he delivered the address \"The Android and the Human,\" and then decided to stay in Canada. The plan collapsed. In March, isolated and despairing after a relationship ended, he attempted suicide and afterward checked himself into X-Kalay, a Synanon-style heroin-rehabilitation community — an odd placement for a man whose problem was amphetamines and depression rather than heroin.\n\nThe Vancouver months were the hinge of his life: from X-Kalay he flew in April to Fullerton, in Orange County, where he would meet Tessa Busby, resume writing after a long hiatus, and undergo 2-3-74 two years later. The specific drugs and method of the attempt are described incompatibly by different participants, so the portal records the sequence and leaves the pharmacological detail open.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 7",
+        "supports": "the Vancouver convention, the suicide attempt, X-Kalay, and the move to Fullerton"
+      },
+      {
+        "author": "In Pursuit of VALIS (ed. Sutin)",
+        "work": "chronology",
+        "lane": "C",
+        "supports": "dates: Feb 1972 Vancouver; March suicide attempt / X-Kalay; April Fullerton"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "reads the episode within the depression/amphetamine-withdrawal frame"
+      }
+    ],
+    "lanes": [
+      "C",
+      "D"
+    ],
+    "dispute": {
+      "summary": "The drugs involved and the method of the attempt are reported incompatibly across sources.",
+      "positions": [
+        {
+          "who": "Various participant accounts",
+          "claim": "differ on the substances and the exact means of the attempt"
+        },
+        {
+          "who": "Portal synthesis",
+          "claim": "records the attested sequence (attempt → X-Kalay → Fullerton) and leaves the contested detail open"
+        }
+      ]
+    },
+    "links": {
+      "exegesis_work": "/exegesis/works/a-scanner-darkly"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1972_vancouver_xkalay_work",
