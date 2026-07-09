@@ -2055,8 +2055,8 @@
   },
   {
     "id": "pkd_bio_1973_christopher_birth",
-    "date": "1973",
-    "date_precision": "year",
+    "date": "1973-07-25",
+    "date_precision": "day",
     "event": "Son Christopher Dick born to Philip and Tessa in Fullerton",
     "category": "family",
     "entities": [
@@ -2064,21 +2064,21 @@
       "Tessa Dick"
     ],
     "location": "Fullerton, California",
-    "source": "Sutin",
+    "source": "Sutin; Selected Letters",
     "importance": 4,
     "notes": "Generated curation note: a year family entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
     "id": "pkd_bio_1973_marriage_tessa",
-    "date": "1973",
-    "date_precision": "year",
+    "date": "1973-04-19",
+    "date_precision": "day",
     "event": "Marries Tessa Busby in his fifth and final marriage in Fullerton",
     "category": "marriage",
     "entities": [
       "Tessa Dick"
     ],
     "location": "Fullerton, California",
-    "source": "Sutin",
+    "source": "Sutin; Selected Letters",
     "importance": 4,
     "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
@@ -2138,20 +2138,6 @@
     "notes": "Letter to Diane Cleaver (April 9, 1973): 'Scott had just now let me know you'd okayed FLOW MY TEARS. I'm very glad.'"
   },
   {
-    "id": "pkd_bio_1973_marriage_tessa",
-    "date": "1973-04-19",
-    "date_precision": "day",
-    "event": "Married Tessa Busby",
-    "category": "family",
-    "entities": [
-      "Tessa Busby"
-    ],
-    "location": "California",
-    "source": "letters",
-    "importance": 4,
-    "notes": "Letter to Sherry Gottlieb (April 19, 1973): 'On Tuesday we received Locus and saw that we are supposed to get married this week. So we did.' Marriage date confirmed as April 19, 1973."
-  },
-  {
     "id": "pkd_bio_1973_scanner_darkly_sale",
     "date": "1973-06-01",
     "date_precision": "month",
@@ -2189,21 +2175,6 @@
     "source": "PKD public appearances audit",
     "importance": 4,
     "notes": "Generated curation note: a month lecture entry retained from PKD public appearances audit. Use the source field and linked entities for deeper verification."
-  },
-  {
-    "id": "pkd_bio_1973_christopher_birth",
-    "date": "1973-07-25",
-    "date_precision": "day",
-    "event": "Birth of son Christopher to Philip K. Dick and wife Tessa",
-    "category": "birth",
-    "entities": [
-      "Christopher Dick",
-      "Tessa Busby Dick"
-    ],
-    "location": "Fullerton, California",
-    "source": "letters",
-    "importance": 4,
-    "notes": "Multiple letters (1973) confirm July 25, 1973 as birth date. Letter Oct 16, 1973 to Broxons states 'born July 25th'. Letter to Bob Sept 10, 1973 mentions 'a month-old baby boy named Christopher'. Described in multiple letters as frowning/serious baby."
   },
   {
     "id": "pkd_bio_1973_vehicle_purchase",
