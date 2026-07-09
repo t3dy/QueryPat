@@ -644,6 +644,9 @@ function CuratedEventCard({ event, dictLookup, onCategoryClick, onSearchEntity }
           {event.links.exegesis_work && (
             <Link to={event.links.exegesis_work}>In the Exegesis →</Link>
           )}
+          {event.links.theophany && (
+            <Link to={event.links.theophany} style={{ color: '#9B6B9B' }}>Vision →</Link>
+          )}
           {(event.links.works || []).map(w => (
             <Link key={w} to={w}>{w.split('/').pop()?.replace(/-/g, ' ')}</Link>
           ))}

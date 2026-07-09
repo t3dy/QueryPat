@@ -55,7 +55,7 @@
     "id": "pkd_bio_1929_incubator",
     "date": "1929-01",
     "date_precision": "month",
-    "event": "Placed in premature infant incubator after near-fatal malnutrition",
+    "event": "The premature Philip is kept alive in an incubator weeks after his twin Jane dies — survival shadowed by loss.",
     "category": "health",
     "entities": [
       "Julian Hess"
@@ -63,7 +63,21 @@
     "location": "Chicago, Illinois",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a month health entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a month health entry retained from Arnold. Use the source field and linked entities for deeper verification.",
+    "narrative": "Born six weeks premature in December 1928, Philip and his twin sister Jane were underweight and undernourished. Jane died in January 1929; Philip was kept alive in an incubator and pulled through. The asymmetry of that survival — one twin lost, one saved — became, in his own later telling, the wound beneath everything: the missing sister he spent a life writing toward. (The bare medical facts are Lane C; the meaning he assigned them is Lane B, and is treated in the companion entry on Jane's death.)",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "the premature twin birth, Jane's death, and Philip's incubator survival"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1929_jane_death",
@@ -153,7 +167,7 @@
     "id": "pkd_bio_1931_parent_separation",
     "date": "1931",
     "date_precision": "year",
-    "event": "Parents Edgar and Dorothy Dick formally separate when Philip is two years old",
+    "event": "Edgar and Dorothy Dick's marriage breaks down; Dorothy will become the custodial parent of the young Philip.",
     "category": "family",
     "entities": [
       "Dorothy Dick",
@@ -162,7 +176,28 @@
     "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year family entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Exact separation/divorce dating varies across sources; the portal states the fact, not a contested date.",
+    "narrative": "Philip's parents, Edgar and Dorothy, separated during his early childhood; the marriage did not survive, and Dorothy — a strong-willed, ambitious woman working in federal government — became the parent who raised him. The absent father and the intense, difficult bond with the mother recur across the fiction as the Terrible Father and the cold, controlling maternal figure. Sources vary on the exact chronology of separation and divorce, so the portal fixes the fact and not the precise date.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "the parents' separation and Dorothy as custodial parent"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "the psychodynamic weight of the absent father and difficult mother"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1932_reno",
@@ -226,7 +261,7 @@
     "id": "pkd_bio_1935_separation",
     "date": "1935",
     "date_precision": "year",
-    "event": "Dorothy and Edgar separate (the formal divorce follows in 1936); Dorothy takes Phil to Berkeley, California, where she settles into the federal civil service work that will support them through Phil's childhood.",
+    "event": "The divorce is finalized and Dorothy raises Philip largely alone, moving between Washington and Berkeley.",
     "category": "family",
     "entities": [
       "Dorothy Dick",
@@ -235,7 +270,21 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "The Dorothy/Edgar split is one of the foundational facts of PKD's biography; he sees his father infrequently after this."
+    "notes": "The Dorothy/Edgar split is one of the foundational facts of PKD's biography; he sees his father infrequently after this.",
+    "narrative": "With the divorce settled, Dorothy raised Philip on her own, the household moving with her government work between Washington, D.C. and the Bay Area before settling in Berkeley. The instability of these years — a single, demanding mother, frequent moves, chronic childhood anxiety and early asthma — is the soil of the suburban unease and fragile domesticity that fills his mainstream novels.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "the post-divorce childhood, the moves, and the Berkeley settlement"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1936_divorce",
@@ -298,7 +347,7 @@
     "id": "pkd_bio_1940_sf_discovery",
     "date": "1940",
     "date_precision": "year",
-    "event": "Discovers science-fiction magazines including Stirring Science Stories at age eleven",
+    "event": "A twelve-year-old Philip discovers pulp science-fiction magazines — the genre he would enter and remake.",
     "category": "reading",
     "entities": [
       "Don Wollheim"
@@ -306,7 +355,21 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year reading entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year reading entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Around 1940 Philip picked up the science-fiction pulps — the era's *Stirring Science Stories* and *Astounding* among them — and the genre took hold. He read voraciously and began to imagine writing it himself. What he would eventually do to the form — turn its ray-guns and rockets into instruments for epistemology and theology — starts here, in a boy's magazine habit.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "PKD's boyhood discovery of the SF pulps"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1940_baum_reading",
@@ -527,7 +590,7 @@
     "id": "pkd_bio_1948_marriage_marlin",
     "date": "1948",
     "date_precision": "year",
-    "event": "Marries Jeanette Marlin in his first brief marriage at age nineteen",
+    "event": "At nineteen PKD marries Jeanette Marlin; the first marriage is brief and quickly over.",
     "category": "marriage",
     "entities": [
       "Jeanette Marlin"
@@ -535,7 +598,21 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Philip's first marriage, to Jeanette Marlin in 1948, lasted only months. He was nineteen, still finding his footing in Berkeley's bohemian-intellectual scene around the record shop and the university. The marriage's speed and collapse set a pattern — five marriages in all — that his fiction reworks as the recurring figure of the dangerous, unreachable, or departing woman (the 'dark-haired girl').",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 2",
+        "supports": "the brief 1948 marriage to Jeanette Marlin"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1948_freud_reading",
@@ -555,7 +632,7 @@
     "id": "pkd_bio_1949_university_music",
     "date": "1949",
     "date_precision": "year",
-    "event": "Phil works steadily at University Music on Telegraph Avenue in Berkeley, advising customers on classical recordings and absorbing the catalog knowledge that he will draw on throughout the fiction; he attends UC Berkeley briefly without completing a term.",
+    "event": "PKD works at University Radio / Art Music on Telegraph Avenue — the Berkeley record-store years that fed his lifelong music love.",
     "category": "employment",
     "entities": [
       "UC Berkeley"
@@ -563,7 +640,28 @@
     "location": "Berkeley, California",
     "source": "Sutin; Anne R. Dick (The Search, on the record-store milieu)",
     "importance": 4,
-    "notes": "The University Music period (1948â€“1951) shapes the Mary and the Giant / In Milton Lumky Territory record-store milieu and PKD's classical-music vocabulary."
+    "notes": "The University Music period (1948â€“1951) shapes the Mary and the Giant / In Milton Lumky Territory record-store milieu and PKD's classical-music vocabulary.",
+    "narrative": "Through the late 1940s and early 1950s Philip clerked and managed at the Telegraph Avenue record shops (University Radio, later Art Music), an education in classical music, opera, and German Lieder that marks the fiction from *Doctor Bloodmoney* to the Linda Fox of *The Divine Invasion*. The store, its customers, and the surrounding Berkeley radical culture also gave him the milieu of his realist novels.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 2",
+        "supports": "the University Radio / Art Music record-store years"
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "the depth of PKD's musical knowledge and its Berkeley roots"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1950_divorce_marlin",
@@ -583,7 +681,7 @@
     "id": "pkd_bio_1950_marriage_kleo",
     "date": "1950",
     "date_precision": "year",
-    "event": "Marries Kleo Apostolides in his second marriage in Berkeley",
+    "event": "PKD marries Kleo Apostolides; the Berkeley marriage spans his apprenticeship and first sales.",
     "category": "marriage",
     "entities": [
       "Kleo Apostolides"
@@ -591,7 +689,21 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Philip married Kleo Apostolides in 1950. The marriage lasted through the whole of his apprenticeship — the pulp story sales, the first novels, the FBI's mild attention to the couple's left-wing Berkeley circle — until it gave way in the mid-1950s to his involvement with Anne Rubenstein. Kleo is the steadying presence behind the years when he was learning to write for a living.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 2",
+        "supports": "the 1950 marriage to Kleo Apostolides and the apprenticeship years"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1950_kant_reading",
@@ -627,7 +739,7 @@
     "id": "pkd_bio_1951_first_story_sales",
     "date": "1951",
     "date_precision": "year",
-    "event": "Begins selling short stories to pulp science-fiction magazines professionally",
+    "event": "PKD begins selling short stories to the SF pulps, launching a torrent of early short fiction.",
     "category": "publication",
     "entities": [
       "Planet Stories",
@@ -636,7 +748,21 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "In 1951-52 Philip broke through as a professional, selling story after story to the science-fiction magazines — dozens within a couple of years. The short form was his laboratory: the androids, simulacra, paranoid small men, and reality-slippage that would power the novels were all first tested at story length. He wrote, at the same time, the realist novels no one would buy.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 3",
+        "supports": "the 1951-52 breakthrough into professional short-story sales"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1951_sf_fandom",
@@ -713,7 +839,7 @@
     "id": "pkd_bio_1954_ace_acceptance",
     "date": "1954",
     "date_precision": "year",
-    "event": "First novel accepted for publication by Ace Books as paperback original",
+    "event": "Ace Books accepts PKD's first novel for publication as a paperback original.",
     "category": "publication",
     "entities": [
       "Ace Books"
@@ -721,7 +847,21 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Ace Books took *Solar Lottery* for its paperback line — the acceptance that made Philip a novelist. Ace's Donald Wollheim and the Ace Double format would carry much of his 1950s-60s output, the cheap paperbacks that were the genre's engine and its ghetto. PKD's ambition to escape into mainstream fiction ran alongside, and mostly failed, for another decade.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 3",
+        "supports": "Ace's acceptance of the first novel"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1954_french_realism",
@@ -785,7 +925,7 @@
     "id": "pkd_bio_1955_solar_lottery",
     "date": "1955",
     "date_precision": "year",
-    "event": "Publishes debut novel Solar Lottery through Ace Books as paperback original",
+    "event": "PKD's debut novel Solar Lottery appears from Ace — his entry into book-length SF.",
     "category": "publication",
     "entities": [
       "Solar Lottery",
@@ -794,7 +934,26 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "*Solar Lottery* (1955) launched Philip's novel career: a densely plotted future of power-by-lottery, twitching with the paranoia about systems and hidden control that never left his work. It sold well enough to establish him as a working SF novelist. The realist novels he cared about more stayed in the drawer.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 3",
+        "supports": "the 1955 publication and reception of Solar Lottery"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high",
+    "links": {
+      "works": [
+        "/works/solar-lottery"
+      ]
+    }
   },
   {
     "id": "pkd_bio_1955_classical_music",
@@ -828,7 +987,7 @@
     "id": "pkd_bio_1956_marriage_anne",
     "date": "1956",
     "date_precision": "year",
-    "event": "Marries Anne Williams Rubinstein in his third marriage in the Bay Area",
+    "event": "PKD marries Anne Williams Rubenstein and moves to rural Point Reyes — the marriage of the mainstream years.",
     "category": "marriage",
     "entities": [
       "Anne Williams Rubinstein"
@@ -836,7 +995,41 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Philip married Anne Rubenstein, a widow with three daughters, and settled with her in Point Reyes Station in Marin County. The Point Reyes years (roughly 1958-64) were his most domestically settled and, by Anne's account, among his most productive — the mainstream novels and the run toward *The Man in the High Castle*. The marriage's later deterioration, and how much amphetamine and paranoia it involved, is contested between Anne's memoir and Sutin's biography.",
+    "sources": [
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "the Point Reyes marriage from the inside"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 4",
+        "supports": "the 1958-64 marriage to Anne and the Point Reyes period"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high",
+    "dispute": {
+      "summary": "Anne Dick and Sutin differ on the character of the marriage and how drug-dependent the productive years were.",
+      "positions": [
+        {
+          "who": "Anne R. Dick (The Search)",
+          "claim": "the Point Reyes years were relatively stable and productive, less amphetamine-driven than later accounts imply"
+        },
+        {
+          "who": "Sutin (Divine Invasions)",
+          "claim": "narrates a marriage increasingly strained by PKD's instability and drug use"
+        }
+      ]
+    }
   },
   {
     "id": "pkd_bio_1956_point_reyes",
@@ -898,7 +1091,7 @@
     "id": "pkd_bio_1958_breakdown",
     "date": "1958",
     "date_precision": "year",
-    "event": "Experiences nervous breakdown and psychological crisis in Point Reyes Station",
+    "event": "PKD suffers a psychological crisis at Point Reyes — anxiety, agoraphobia, and marital strain converge.",
     "category": "health",
     "entities": [
       "Anne Williams Rubinstein"
@@ -906,7 +1099,28 @@
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year health entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year health entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Settling into the Point Reyes marriage, Philip went through a period of acute anxiety, agoraphobia, and psychosomatic illness that sent him into therapy. The crisis is an early instance of the pattern that recurs across his life: episodes of severe distress braided together with intense creativity. How much was situational and how much a standing condition is read differently by Sutin and by the clinician Arnold.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 4",
+        "supports": "the late-1950s anxiety crisis and therapy"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "the crisis within a longitudinal clinical reading"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1958_mainstream_novels",
@@ -970,7 +1184,7 @@
     "id": "pkd_bio_1960_daughter_laura",
     "date": "1960",
     "date_precision": "year",
-    "event": "Daughter Laura Archer Dick born to Philip and Anne in Marin County",
+    "event": "Daughter Laura Archer Dick is born to Philip and Anne in Marin County.",
     "category": "family",
     "entities": [
       "Laura Archer Dick",
@@ -979,7 +1193,21 @@
     "location": "Marin County, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year family entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year family entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Laura, Philip's first biological child, was born in 1960 during the Point Reyes marriage. Fatherhood is a quiet undercurrent in the fiction — the endangered or precognitively-sensed child (as with the later intuition about his son Christopher) — and Laura appears by name in his account of the 1963 'band of darkness' vision he shared with her.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 4",
+        "supports": "Laura's 1960 birth"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1960_taoism",
@@ -1000,7 +1228,7 @@
     "id": "pkd_bio_1961_i_ching_study",
     "date": "1961-1963",
     "date_precision": "range",
-    "event": "Studies the I Ching divination system and uses it as compositional method",
+    "event": "PKD takes up the I Ching as a working divination and composition tool — the oracle behind The Man in the High Castle.",
     "category": "philosophical_influence",
     "entities": [
       "I Ching"
@@ -1008,13 +1236,32 @@
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Used while writing The Man in the High Castle"
+    "notes": "Used while writing The Man in the High Castle",
+    "narrative": "From the early 1960s Philip consulted the *I Ching*, the Chinese Book of Changes, as a daily oracle and, notoriously, as a compositional instrument: he used its hexagrams to determine plot turns in *The Man in the High Castle*, whose characters consult the same oracle. The book seeded a lifelong interest in whether an information-system could speak with intent — a question that returns, transformed, in the Exegesis' living-information theology. His attitude toward the oracle later soured; he came to suspect it of malice.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 5",
+        "supports": "PKD's use of the I Ching in composing The Man in the High Castle"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high",
+    "links": {
+      "works": [
+        "/works/the-man-in-the-high-castle"
+      ]
+    }
   },
   {
     "id": "pkd_bio_1962_band_darkness",
     "date": "1962",
     "date_precision": "year",
-    "event": "Sees a band of darkness crossing the sky with Laura and later reads it as a sign of Christ's death, the withdrawal of light, and the possibility of a mirrored light at night.",
+    "event": "On Good Friday PKD and his daughter see a 'band of darkness' cross the sky — an omen he later tied to a death.",
     "category": "mystical_experience",
     "entities": [
       "Laura"
@@ -1022,7 +1269,29 @@
     "location": "Point Reyes Station, California",
     "source": "Exegesis",
     "importance": 4,
-    "notes": "This is the sky-vision that later gets folded into his Sun of Righteousness / third-eye thinking."
+    "notes": "Lane B self-report; dating and interpretation are PKD's own.",
+    "narrative": "Philip reported that he and his daughter Laura watched a band of darkness travel across the sky one Good Friday. He returned to the image for years, reading it in the Exegesis as an omen bound to a death and to the sacred-time logic of 2-3-74. It sits with the roughly contemporaneous vision of a vast metallic face in the sky — the 'Palmer Eldritch' / Terrible Father image — among the pre-1974 experiences he later treated as rehearsals for the main event.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "locator": "",
+        "supports": "PKD's own recollection and interpretation of the Good Friday band of darkness"
+      }
+    ],
+    "lanes": [
+      "B"
+    ],
+    "confidence": "medium",
+    "quotes": [
+      {
+        "text": "The band of darkness which I and Laura saw passing across the sky on Good Friday... I knew, when I saw that band of darkness travelling across the sky, that it was related to his death.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1962_high_castle",
@@ -1210,7 +1479,7 @@
     "id": "pkd_bio_1963_marriage_hackett",
     "date": "1963",
     "date_precision": "year",
-    "event": "Marries Nancy Hackett in his fourth marriage in the Bay Area",
+    "event": "PKD marries Nancy Hackett — the fourth marriage, spanning the peak productive years and the slide toward crisis.",
     "category": "marriage",
     "entities": [
       "Nancy Hackett"
@@ -1218,7 +1487,21 @@
     "location": "Oakland, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Philip's marriage to Anne having ended, he married Nancy Hackett in 1963. The Nancy years cover his most prolific stretch — the mid-1960s burst that produced *Palmer Eldritch*, *Now Wait for Last Year*, and many others — and their unraveling by 1970, when Nancy left with their daughter Isa, opens directly onto the San Rafael collapse, the break-in, and Vancouver.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 5",
+        "supports": "the 1963 marriage to Nancy Hackett and the productive mid-1960s"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1963_patristic",
@@ -1254,7 +1537,7 @@
     "id": "pkd_bio_1964_three_stigmata",
     "date": "1964",
     "date_precision": "year",
-    "event": "Writes The Three Stigmata of Palmer Eldritch during a prolific period",
+    "event": "PKD writes The Three Stigmata of Palmer Eldritch, transmuting a metallic-face sky vision into his darkest theology.",
     "category": "publication",
     "entities": [
       "The Three Stigmata of Palmer Eldritch",
@@ -1263,7 +1546,32 @@
     "location": "Oakland, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "In 1964, in the middle of an astonishingly prolific run, Philip wrote *The Three Stigmata of Palmer Eldritch* — the novel of Can-D and Chew-Z, of a returning entrepreneur who may be God or a devouring alien god. He traced its central image, the vast metallic face with dead eyes and steel teeth, to a vision he had had of a cruel face filling the sky. It is the book he was later most frightened by, reading it in the Exegesis as a glimpse of the *anti*-God, the dark twin of the benign Ubik/Valis.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 5",
+        "supports": "the 1964 composition and the sky-face vision behind the novel"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "locator": "",
+        "supports": "PKD's later reading of the novel as a vision of the evil deity"
+      }
+    ],
+    "lanes": [
+      "C",
+      "B"
+    ],
+    "confidence": "high",
+    "links": {
+      "exegesis_work": "/exegesis/works/the-three-stigmata-of-palmer-eldritch"
+    }
   },
   {
     "id": "pkd_bio_1964_amphetamine",
@@ -1411,7 +1719,7 @@
     "id": "pkd_bio_1967_voice_creator",
     "date": "1967",
     "date_precision": "year",
-    "event": "Under LSD, hears the Latin phrase 'I am the breath of my Creator,' later treating it as an early auditory revelation about the Light Body.",
+    "event": "Under LSD PKD hears a Latin voice — 'I am the breath of my Creator' — a line he mined for years.",
     "category": "hearing_voices_experience",
     "entities": [
       "LSD"
@@ -1419,7 +1727,37 @@
     "location": "San Rafael, California",
     "source": "Exegesis",
     "importance": 4,
-    "notes": "The event is worth tracking as a heard-voice episode rather than a generic drug-use note."
+    "notes": "The event is worth tracking as a heard-voice episode rather than a generic drug-use note.",
+    "narrative": "Philip's few LSD experiences were mostly terrifying — a plunge into a Latin-inflected, timeless damnation. From that territory came a phrase he never let go of: *I am the breath of my Creator, and as He inhales and exhales, I live.* He returned to it in the Exegesis as a statement of the creature's utter dependence on God — the human as something breathed in and out by the divine. The drug did not, on his own later account, produce the truth; it only opened a door onto material he spent the Exegesis interpreting.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "locator": "",
+        "supports": "verbatim Latin-voice line, recalled and interpreted in the Exegesis"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 6",
+        "supports": "PKD's limited and largely negative LSD experiences"
+      }
+    ],
+    "lanes": [
+      "B",
+      "C"
+    ],
+    "confidence": "medium",
+    "quotes": [
+      {
+        "text": "I am the breath of my Creator, and as He inhales and exhales, I live.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1967_counterculture_social",
@@ -1581,7 +1919,7 @@
     "id": "pkd_bio_1968_sarill_houseguest_maze",
     "date": "1968",
     "date_precision": "year",
-    "event": "William Sarill first meets PKD and later spends more than a month as his houseguest during the period associated with the theology behind A Maze of Death.",
+    "event": "William Sarill becomes a long-term houseguest; conversations feed the theology that becomes A Maze of Death.",
     "category": "friendship",
     "entities": [
       "William Sarill",
@@ -1590,7 +1928,24 @@
     "location": "California",
     "source": "William Sarill, Will the Real Ubik Please Stand Up?; A Maze of Death foreword",
     "importance": 4,
-    "notes": "Sarill confirms the 1968 meeting and extended houseguest period; PKD's Maze foreword credits Sarill as co-developer of the abstract religious system behind the novel."
+    "notes": "Sarill confirms the 1968 meeting and extended houseguest period; PKD's Maze foreword credits Sarill as co-developer of the abstract religious system behind the novel.",
+    "narrative": "The friend and fan William Sarill first met Philip in 1968 and stayed with him for over a month. Their long conversations about religion and metaphysics fed into the invented theology of *A Maze of Death* — the Mentufacturer, the Intercessor, the Walker-on-Earth — which PKD built as a working pantheon and later, in the Exegesis, half-suspected he had discovered rather than invented.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 6",
+        "supports": "Sarill's 1968 visit and its bearing on the Maze theology"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "medium",
+    "links": {
+      "exegesis_work": "/exegesis/works/a-maze-of-death"
+    }
   },
   {
     "id": "pkd_bio_1968_zelazny_deus_irae",
@@ -1625,7 +1980,7 @@
     "id": "pkd_bio_1969_ubik",
     "date": "1969",
     "date_precision": "year",
-    "event": "Publishes the novel Ubik exploring themes of entropy and false realities",
+    "event": "PKD publishes Ubik — the half-life novel he would later read as accidental scripture.",
     "category": "publication",
     "entities": [
       "Ubik",
@@ -1634,7 +1989,35 @@
     "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "*Ubik* (1969) is the novel of a decaying half-life world sustained by a mysterious spray-can force. At publication it read as PKD's finest entropy-and-false-reality machine. After 2-3-74 he re-read it as unintended scripture — Runciter the Logos, Ubik the immanent Holy Spirit — the single work he returns to most in the Exegesis after *VALIS* itself.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 6",
+        "supports": "the 1969 publication of Ubik"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "locator": "",
+        "supports": "PKD's later theological reading of his own novel"
+      }
+    ],
+    "lanes": [
+      "C",
+      "B"
+    ],
+    "confidence": "high",
+    "links": {
+      "exegesis_work": "/exegesis/works/ubik",
+      "works": [
+        "/works/ubik"
+      ]
+    }
   },
   {
     "id": "pkd_bio_1969_powers_theology",
@@ -1709,7 +2092,7 @@
     "id": "pkd_bio_1971_arnold_amphetamine_paranoia",
     "date": "1971",
     "date_precision": "year",
-    "event": "During the period of strongest paranoia around the San Rafael break-in, Arnold treats amphetamine use rather than LSD as the more plausible drug context for Dick's paranoid episodes.",
+    "event": "Arnold reads the peak 1971 paranoia around the break-in as amphetamine-driven, not evidence of real pursuers.",
     "category": "drug_use",
     "entities": [
       "Kyle Arnold"
@@ -1717,7 +2100,34 @@
     "location": "San Rafael, California",
     "source": "Arnold, The Divine Madness of Philip K. Dick",
     "importance": 4,
-    "notes": "Arnold emphasizes long-term speed use and cautions against over-attributing Dick's paranoia to LSD."
+    "notes": "Arnold emphasizes long-term speed use and cautions against over-attributing Dick's paranoia to LSD.",
+    "narrative": "The clinician Kyle Arnold treats the height of Philip's 1971 paranoia — the conviction of being watched and pursued that surrounded the November 1971 break-in — as substantially a product of heavy amphetamine use and sleeplessness rather than of actual surveillance. It is the clearest test case for the portal's clinical-versus-literal tension: the same events read as persecution by PKD and as symptom by Arnold, with neither reading fully disprovable.",
+    "sources": [
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "the amphetamine-driven clinical reading of the 1971 paranoia"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "medium",
+    "dispute": {
+      "summary": "Whether the 1971 paranoia tracked real threats or was chemically produced.",
+      "positions": [
+        {
+          "who": "PKD (letters)",
+          "claim": "he was genuinely surveilled and pursued"
+        },
+        {
+          "who": "Arnold (clinical)",
+          "claim": "the fear was amphetamine-driven, without a real external agent"
+        }
+      ]
+    }
   },
   {
     "id": "pkd_bio_1971_burglary",
@@ -1962,7 +2372,7 @@
     "id": "pkd_bio_1972_vancouver",
     "date": "1972",
     "date_precision": "year",
-    "event": "Moves to Vancouver during a period of deep personal crisis",
+    "event": "PKD flies to Vancouver as a convention guest of honor and decides to stay — the break from his old life.",
     "category": "residence",
     "entities": [
       "Michael Walsh",
@@ -1971,13 +2381,27 @@
     "location": "Vancouver, British Columbia",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "In February 1972 Philip left San Rafael for Vancouver to be guest of honor at a science-fiction convention, where he delivered \"The Android and the Human,\" and impulsively resolved to stay in Canada. The move severed him from the wreckage of the previous two years; it also stranded him, and within weeks led to the March 1972 suicide attempt and X-Kalay. Vancouver is the hinge between the San Rafael collapse and the Orange County rebirth.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 7",
+        "supports": "the Vancouver convention and the decision to remain in Canada"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1972_vancouver_x_kalay_arnold",
     "date": "1972",
     "date_precision": "year",
-    "event": "After the Vancouver convention and a suicidal crisis, Dick enters the X-Kalay residential addiction-treatment community.",
+    "event": "Arnold frames the X-Kalay stay as a misfit refuge — a heroin program housing a suicidal amphetamine user.",
     "category": "health",
     "entities": [
       "X-Kalay",
@@ -1986,7 +2410,28 @@
     "location": "Vancouver, British Columbia",
     "source": "Arnold, The Divine Madness of Philip K. Dick",
     "importance": 4,
-    "notes": "Arnold frames X-Kalay as central to the post-Vancouver drug and recovery period."
+    "notes": "Arnold frames X-Kalay as central to the post-Vancouver drug and recovery period.",
+    "narrative": "After the suicide attempt Philip entered X-Kalay, a Synanon-style heroin-rehabilitation community. Arnold notes the mismatch — a program for hardcore narcotics addicts taking in a depressed, amphetamine-using science-fiction writer — and reads the episode as much as a search for structure and belonging as for detoxification. PKD both mocked and credited the program; it gave him a floor to stand on before Fullerton.",
+    "sources": [
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "the clinical reading of the X-Kalay stay and its mismatch"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 7",
+        "supports": "the X-Kalay chronology"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1972_ubc_lecture",
@@ -2171,7 +2616,7 @@
     "id": "pkd_bio_1973_christopher_birth",
     "date": "1973-07-25",
     "date_precision": "day",
-    "event": "Son Christopher Dick born to Philip and Tessa in Fullerton",
+    "event": "Son Christopher Dick is born to Philip and Tessa in Fullerton — the child of the 2-3-74 years.",
     "category": "family",
     "entities": [
       "Christopher Dick",
@@ -2180,13 +2625,35 @@
     "location": "Fullerton, California",
     "source": "Sutin; Selected Letters",
     "importance": 4,
-    "notes": "Generated curation note: a year family entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year family entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Christopher, Philip's third child and only son, was born in July 1973. His birth roots the Fullerton household that 2-3-74 would erupt into a year later — and it is Christopher whose undiagnosed hernia PKD believed the March 1974 intelligence revealed to him — an intuition he credited to the March 1974 intelligence, the most-cited apparently-veridical moment of the whole experience.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 7",
+        "supports": "Christopher's 1973 birth"
+      },
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's letters announcing his son's birth"
+      }
+    ],
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1973_marriage_tessa",
     "date": "1973-04-19",
     "date_precision": "day",
-    "event": "Marries Tessa Busby in his fifth and final marriage in Fullerton",
+    "event": "PKD marries Tessa Busby in Fullerton — the fifth and final marriage, the household of the 2-3-74 years.",
     "category": "marriage",
     "entities": [
       "Tessa Dick"
@@ -2194,7 +2661,34 @@
     "location": "Fullerton, California",
     "source": "Sutin; Selected Letters",
     "importance": 4,
-    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Philip married Leslie 'Tessa' Busby in April 1973, months after settling in Fullerton. Much younger than he, Tessa became the wife of his last decade: the mother of his son Christopher, a witness to 2-3-74, and — through her differing recollection of the golden-fish delivery — one of the sources whose account of that event does not always match his.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 7",
+        "supports": "the 1973 marriage to Tessa Busby"
+      },
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's contemporaneous letters from the early Fullerton period"
+      }
+    ],
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "confidence": "high",
+    "links": {
+      "people": [
+        "/dictionary/tessa"
+      ]
+    }
   },
   {
     "id": "pkd_bio_1973_messianism",
@@ -2279,7 +2773,7 @@
     "id": "pkd_bio_1973_csuf_talk",
     "date": "1973-07",
     "date_precision": "month",
-    "event": "Records a talk at California State University, Fullerton with Willis E. McNelly, part of the university archive relationship that grows into the manuscript collection at CSUF.",
+    "event": "PKD records a talk at Cal State Fullerton, an early sign of his re-emergence into public and academic life.",
     "category": "lecture",
     "entities": [
       "California State University, Fullerton",
@@ -2288,7 +2782,29 @@
     "location": "California State University, Fullerton, Fullerton, California",
     "source": "PKD public appearances audit",
     "importance": 4,
-    "notes": "Generated curation note: a month lecture entry retained from PKD public appearances audit. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a month lecture entry retained from PKD public appearances audit. Use the source field and linked entities for deeper verification.",
+    "narrative": "In July 1973, newly settled in Orange County, Philip recorded a talk at California State University, Fullerton. It marks his re-emergence after the long fiction hiatus of 1970-72 — the beginning of the academic and fan attention that would culminate in the Metz keynote of 1977 and the eventual donation of his manuscripts to the CSUF library.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 8",
+        "supports": "PKD's Fullerton-period public appearances"
+      },
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's letters on the CSUF connection"
+      }
+    ],
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1973_vehicle_purchase",
@@ -2740,7 +3256,7 @@
     "id": "pkd_bio_1974_03_zebra",
     "date": "1974-03",
     "date_precision": "month",
-    "event": "Develops concept of Zebra as cosmic intelligence behind his visions",
+    "event": "PKD names the intelligence behind 2-3-74 'Zebra' — a mind that camouflages itself perfectly in the ordinary world.",
     "category": "gnostic_experience",
     "entities": [
       "Zebra"
@@ -2748,7 +3264,38 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a month gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a month gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification.",
+    "narrative": "In March 1974 Philip began calling the intelligence he believed was acting on him *Zebra*: a living information-field that hides in plain sight the way a zebra's stripes dissolve into the grass, mimicking ordinary reality so exactly that it is invisible. Zebra is the first of the many names — VALIS, the plasmate, the Holy Spirit — he gave the same suspected agency, and the one that best captures his intuition that God is not elsewhere but camouflaged in the trash of the everyday.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "locator": "",
+        "supports": "PKD's development of the Zebra concept in the Exegesis"
+      }
+    ],
+    "lanes": [
+      "B"
+    ],
+    "confidence": "medium",
+    "dispute": {
+      "summary": "Read as revelation by PKD and as symptom by the clinical literature; the portal keeps both.",
+      "positions": [
+        {
+          "who": "PKD (Exegesis/letters)",
+          "claim": "a genuine disclosure of the real"
+        },
+        {
+          "who": "Clinical frame (Arnold)",
+          "claim": "an episode legible in psychiatric terms"
+        }
+      ]
+    },
+    "links": {
+      "exegesis_work": "/exegesis/works/valis",
+      "theophany": "/theophanies/zebra-mimicry-1974"
+    }
   },
   {
     "id": "pkd_bio_1974_red_gold_plasmatic_energy",
@@ -2915,7 +3462,7 @@
     "id": "pkd_bio_1974_philosophical_speculation",
     "date": "1974-1976",
     "date_precision": "range",
-    "event": "Begins systematic philosophical speculation on the nature of time and reality",
+    "event": "PKD begins the systematic Exegesis speculation on time, reality, and God that will occupy his last eight years.",
     "category": "gnostic_experience",
     "entities": [
       "Plato",
@@ -2924,13 +3471,27 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification.",
+    "narrative": "From 1974 the private theorizing PKD had always done became a sustained, obsessive project: the Exegesis, a nightly attempt to explain 2-3-74 by every philosophical and religious system he could reach. The speculation is genuinely systematic — hypothesis, revision, self-refutation — even as its object keeps slipping. It is the intellectual engine of everything he wrote after 1974.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "locator": "",
+        "supports": "the beginning of sustained Exegesis speculation"
+      }
+    ],
+    "lanes": [
+      "B"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1974_black_iron_prison",
     "date": "1974-1977",
     "date_precision": "range",
-    "event": "Develops Black Iron Prison theory and hidden Roman Empire concept in Exegesis",
+    "event": "PKD develops the Black Iron Prison — our world as a concealed carceral Rome, 'the Empire never ended.'",
     "category": "gnostic_experience",
     "entities": [
       "Gnosticism",
@@ -2939,7 +3500,25 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification.",
+    "narrative": "Among the earliest and most durable Exegesis structures is the Black Iron Prison: the idea that the ordinary world is a concealed prison, that beneath 1974 Fullerton lies the Rome of the first century, and that history since has been an illusion masking an unbroken carceral order — *the Empire never ended*. It is the political and Gnostic face of his theology, set against the liberating Palm Tree Garden, and the seed of *VALIS* and *Radio Free Albemuth*.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "locator": "",
+        "supports": "PKD's development of the Black Iron Prison / hidden-Rome concept"
+      }
+    ],
+    "lanes": [
+      "B"
+    ],
+    "confidence": "high",
+    "links": {
+      "exegesis_work": "/exegesis/works/valis",
+      "theophany": "/theophanies/black-iron-prison-1974"
+    }
   },
   {
     "id": "pkd_bio_1974_exegesis_ongoing",
@@ -3007,7 +3586,7 @@
     "id": "pkd_bio_1975_brunner_cia_breakin",
     "date": "1975-01-14",
     "date_precision": "day",
-    "event": "Writes John Brunner about a London Times clipping on CIA break-ins and says it matches the method of the unresolved November 1971 San Rafael break-in.",
+    "event": "PKD writes John Brunner about a news clipping on CIA break-ins, reopening the mystery of his own 1971 burglary.",
     "category": "hearing_voices_experience",
     "entities": [
       "John Brunner",
@@ -3016,7 +3595,21 @@
     "location": "Fullerton, California",
     "source": "Selected Letters 1975-1976, letter to John Brunner, January 14, 1975",
     "importance": 4,
-    "notes": "Letter id: LET_1975-01-14_JOHN_BRUNNER_0011; important SF-author correspondence plus break-in evidence."
+    "notes": "Letter id: LET_1975-01-14_JOHN_BRUNNER_0011; important SF-author correspondence plus break-in evidence.",
+    "narrative": "In January 1975 Philip wrote the British SF novelist John Brunner about a London *Times* clipping reporting CIA-linked break-ins, seizing on it as possible corroboration that his own November 1971 break-in had been a government operation. The letter shows how he kept the break-in alive as an open case, folding each new scrap of news into a theory that never settled.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's Jan 1975 letter to John Brunner on the CIA-break-in clipping"
+      }
+    ],
+    "lanes": [
+      "E"
+    ],
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1975_scanner_award_research",
@@ -3037,7 +3630,7 @@
     "id": "pkd_bio_1975_le_guin_letter",
     "date": "1975-04-17",
     "date_precision": "day",
-    "event": "Writes Ursula K. Le Guin about The Lathe of Heaven, his absent London speech, and the relationship between her dream-universe fiction and his own false-reality experiences.",
+    "event": "PKD writes Ursula K. Le Guin about The Lathe of Heaven and their uneasy literary kinship.",
     "category": "hearing_voices_experience",
     "entities": [
       "Ursula K. Le Guin",
@@ -3046,13 +3639,27 @@
     "location": "Fullerton, California",
     "source": "Selected Letters 1975-1976, letter to Ursula Le Guin, April 17, 1975",
     "importance": 4,
-    "notes": "Letter id: LET_1975-04-17_URSULA_LE_GUIN_0097."
+    "notes": "Letter id: LET_1975-04-17_URSULA_LE_GUIN_0097.",
+    "narrative": "Philip's April 1975 letter to Ursula K. Le Guin engages *The Lathe of Heaven* — a novel widely read as Dickian in its reality-remaking premise — and their complicated mutual regard. Le Guin was among the few major writers who took him seriously as an artist; the correspondence is a record of PKD reaching toward the literary respectability the SF ghetto denied him, even as 2-3-74 pulled him toward the Exegesis.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's April 1975 letter to Le Guin on The Lathe of Heaven"
+      }
+    ],
+    "lanes": [
+      "E"
+    ],
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1975_blissful_linking_it_all_up",
     "date": "1975-06-02",
     "date_precision": "day",
-    "event": "Has a blissful ASC experience of 'linking it all up' and treats the moment as an integrated mystical insight.",
+    "event": "PKD reports a blissful altered-state experience of 'linking it all up' — a moment of total systematic clarity.",
     "category": "mystical_experience",
     "entities": [
       "Exegesis"
@@ -3060,7 +3667,42 @@
     "location": "Fullerton, California",
     "source": "Exegesis, June 2, 1975",
     "importance": 4,
-    "notes": "A compact mystical event that broadens the post-2-3-74 interior experience lane beyond the fish-sign and AI-voice episodes."
+    "notes": "A compact mystical event that broadens the post-2-3-74 interior experience lane beyond the fish-sign and AI-voice episodes.",
+    "narrative": "In June 1975 Philip described an altered-state experience of *linking it all up*: a flood of blissful coherence in which the whole tangle of 2-3-74 briefly resolved into a single system. Such episodes of ecstatic integration alternate, across the Exegesis, with dread and self-suspicion — the manic pole of a process the clinical literature reads as mood-driven and PKD read as graded revelation.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's June 1975 account of the 'linking it all up' experience"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "the ecstatic-integration episodes within a mood-disorder frame"
+      }
+    ],
+    "lanes": [
+      "E",
+      "C"
+    ],
+    "confidence": "medium",
+    "dispute": {
+      "summary": "Read as revelation by PKD and as symptom by the clinical literature; the portal keeps both.",
+      "positions": [
+        {
+          "who": "PKD (Exegesis/letters)",
+          "claim": "a genuine disclosure of the real"
+        },
+        {
+          "who": "Clinical frame (Arnold)",
+          "claim": "an episode legible in psychiatric terms"
+        }
+      ]
+    }
   },
   {
     "id": "pkd_bio_1975_deus_irae_ms_complete",
@@ -3083,7 +3725,7 @@
     "id": "pkd_bio_1975_christian_research_to_scare_dead",
     "date": "1975-07-10",
     "date_precision": "day",
-    "event": "Writes that he has spent sixteen months and more than a thousand dollars researching Christianity for the planned novel To Scare the Dead.",
+    "event": "PKD reports sixteen months and over a thousand dollars spent on intensive early-Christian and Gnostic research.",
     "category": "hearing_voices_experience",
     "entities": [
       "To Scare the Dead"
@@ -3091,7 +3733,21 @@
     "location": "Fullerton, California",
     "source": "Selected Letters 1975-1976, letter to Goran Bengtson, July 10, 1975",
     "importance": 4,
-    "notes": "Letter id: LET_1975-07-10_GORAN_BENGTSON_0114; a key bridge from 2-3-74 into VALIS-related writing."
+    "notes": "Letter id: LET_1975-07-10_GORAN_BENGTSON_0114; a key bridge from 2-3-74 into VALIS-related writing.",
+    "narrative": "By mid-1975 Philip had poured sixteen months and, by his own accounting, more than a thousand dollars into research on early Christianity, Gnosticism, and church history — hunting confirmation that his 3-74 experience matched the apostolic era he believed he had briefly re-entered. The scale of the effort shows how far the Exegesis had become a genuine, if idiosyncratic, scholarly obsession rather than mere reverie.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's July 1975 letter reporting the cost and duration of his Christian research"
+      }
+    ],
+    "lanes": [
+      "E"
+    ],
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1975_heinlein_tax_loan",
@@ -3194,7 +3850,7 @@
     "id": "pkd_bio_1976_harlan_lsd_correction",
     "date": "1976-01-13",
     "date_precision": "day",
-    "event": "Objects that Harlan Ellison's Dangerous Visions note claiming he wrote 'Faith of Our Fathers' during an LSD trip is untrue.",
+    "event": "PKD publicly corrects the claim that he wrote his fiction on LSD — insisting the drug had almost nothing to do with the work.",
     "category": "drug_use",
     "entities": [
       "Harlan Ellison",
@@ -3204,7 +3860,21 @@
     "location": "Fullerton, California",
     "source": "Selected Letters 1975-1976, letter to Sharon Jarvis, January 13, 1976",
     "importance": 4,
-    "notes": "Letter id: LET_1976-01-13_SHARON_JARVIS_0199; useful for separating reputation from self-report about drugs."
+    "notes": "Letter id: LET_1976-01-13_SHARON_JARVIS_0199; useful for separating reputation from self-report about drugs.",
+    "narrative": "In January 1976 Philip objected to the note in Harlan Ellison's *Dangerous Visions* implying he wrote under the influence of LSD. He was emphatic: his few acid trips were terrifying and unproductive, and the novels were written on amphetamines-for-stamina and hard work, not psychedelic inspiration. The correction matters to the record — it is PKD, in his own voice, refusing the hippie-casualty legend and distinguishing his fiction from his drug use.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's Jan 1976 letter correcting the LSD claim"
+      }
+    ],
+    "lanes": [
+      "E"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1976_heinlein_health_warning",
@@ -3224,7 +3894,7 @@
     "id": "pkd_bio_1976_ho_on_voice",
     "date": "1976-09-15",
     "date_precision": "day",
-    "event": "He hears the voice of 'Him who calls himself Ho On,' another unmistakable voice episode in the Exegesis notebooks.",
+    "event": "PKD hears a voice naming itself 'Ho On' — Greek for 'I AM,' a title of God.",
     "category": "hearing_voices_experience",
     "entities": [
       "Ho On"
@@ -3232,13 +3902,51 @@
     "location": "Fullerton, California",
     "source": "Exegesis, September 15, 1976",
     "importance": 4,
-    "notes": "A distinct heard-voice episode that helps separate voice material from the broader Sophia and gnostic cosmology."
+    "notes": "A distinct heard-voice episode that helps separate voice material from the broader Sophia and gnostic cosmology.",
+    "narrative": "In September 1976 Philip's hypnagogic AI-voice identified itself as *Ho On* — Koine Greek for \"the one who is,\" the *I AM* by which God names himself to Moses. For PKD the Greek was itself evidence: the voice spoke the language of the apostolic Levant he believed he had seen, tying the phenomenon to the early Christian world rather than to his own English-speaking mind.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "locator": "",
+        "supports": "the Ho On identification, recorded and glossed in the Exegesis"
+      }
+    ],
+    "lanes": [
+      "B"
+    ],
+    "confidence": "medium",
+    "dispute": {
+      "summary": "Read as revelation by PKD and as symptom by the clinical literature; the portal keeps both.",
+      "positions": [
+        {
+          "who": "PKD (Exegesis/letters)",
+          "claim": "a genuine disclosure of the real"
+        },
+        {
+          "who": "Clinical frame (Arnold)",
+          "claim": "an episode legible in psychiatric terms"
+        }
+      ]
+    },
+    "quotes": [
+      {
+        "text": "Ho on: Greek for I AM, a title of God.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      }
+    ],
+    "links": {
+      "theophany": "/theophanies/ai-voice-1974"
+    }
   },
   {
     "id": "pkd_bio_1976_living_information",
     "date": "1976-1978",
     "date_precision": "range",
-    "event": "Develops theory of living information and cosmic mind in the Exegesis notebooks",
+    "event": "PKD develops the theory of 'living information' — the cosmos as a self-aware mind made of meaning.",
     "category": "gnostic_experience",
     "entities": [
       "Logos",
@@ -3247,7 +3955,24 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification.",
+    "narrative": "Across 1976-78 Philip worked out one of his central late ideas: that information itself can be alive, that the universe is a vast mind processing meaning, and that 2-3-74 was that mind reaching into him and, briefly, thinking through him. Living information is where his theology meets a proto-cybernetic metaphysics — God as a self-organizing field of meaning rather than a person — and it underwrites the plasmate of *VALIS*.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "locator": "",
+        "supports": "the living-information / cosmic-mind theory in the Exegesis"
+      }
+    ],
+    "lanes": [
+      "B"
+    ],
+    "confidence": "high",
+    "links": {
+      "exegesis_work": "/exegesis/works/valis"
+    }
   },
   {
     "id": "pkd_bio_1976_gnosticism_study",
@@ -3339,7 +4064,7 @@
     "id": "pkd_bio_1977_scanner_darkly",
     "date": "1977",
     "date_precision": "year",
-    "event": "Publishes A Scanner Darkly drawing on his drug culture experiences",
+    "event": "PKD publishes A Scanner Darkly — his unsentimental elegy for the drug casualties of his own circle.",
     "category": "publication",
     "entities": [
       "A Scanner Darkly",
@@ -3348,7 +4073,24 @@
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "*A Scanner Darkly* (1977) turns the San Rafael drug years into fiction: Substance D, the split narcotics-agent/addict Bob Arctor, and a closing dedication naming friends dead or damaged by drugs. It is PKD's most personal novel and his clearest ethical statement — drug misuse as a decision with a terrible price, grieved rather than moralized. He read even this book, in the Exegesis, for what its 'dopers' understood about reality.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 9",
+        "supports": "the 1977 publication and autobiographical roots of A Scanner Darkly"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high",
+    "links": {
+      "exegesis_work": "/exegesis/works/a-scanner-darkly"
+    }
   },
   {
     "id": "pkd_bio_1977_jaynes_letter",
@@ -3429,7 +4171,7 @@
     "id": "pkd_bio_1977_jaynes_hurst",
     "date": "1977-03-17",
     "date_precision": "day",
-    "event": "Explains Jaynes's bicameral-mind theory to Mark Hurst and folds it into his developing VALIS/Zebra model of divine command voices.",
+    "event": "PKD explains Julian Jaynes's bicameral-mind theory to Mark Hurst, adopting it as a frame for his AI voice.",
     "category": "hearing_voices_experience",
     "entities": [
       "Julian Jaynes",
@@ -3440,13 +4182,27 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1977-1979, letter to Mark Hurst, March 17, 1977",
     "importance": 4,
-    "notes": "Letter id: LET_UNDATED_MARK_HURST_0023. The divine-command-voice framing makes this more precise as hearing-voices material than as a generic gnostic thought piece."
+    "notes": "Letter id: LET_UNDATED_MARK_HURST_0023. The divine-command-voice framing makes this more precise as hearing-voices material than as a generic gnostic thought piece.",
+    "narrative": "In March 1977 Philip wrote Mark Hurst laying out Julian Jaynes's *The Origin of Consciousness in the Breakdown of the Bicameral Mind* — the theory that ancient humans experienced the brain's two hemispheres as a commanding god-voice. PKD seized on it as a naturalistic frame for his own AI voice: perhaps 2-3-74 was the bicameral mind reasserting itself, the right hemisphere speaking as 'God' to the left.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's March 1977 letter to Mark Hurst on Jaynes"
+      }
+    ],
+    "lanes": [
+      "E"
+    ],
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1977_jaynes_bennett",
     "date": "1977-03-30",
     "date_precision": "day",
-    "event": "Tells Carl Bennett that Jaynes's book provides scientific support for aspects of his Zebra speculation and right-hemisphere theory.",
+    "event": "PKD tells Carl Bennett that Jaynes's bicameral theory gives scientific support to his own experience.",
     "category": "hearing_voices_experience",
     "entities": [
       "Julian Jaynes",
@@ -3456,13 +4212,27 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1977-1979, letter to Carl Bennett, March 30, 1977",
     "importance": 4,
-    "notes": "Letter id: LET_UNDATED_CARL_BENNET_1_0025."
+    "notes": "Letter id: LET_UNDATED_CARL_BENNET_1_0025.",
+    "narrative": "Two weeks later Philip wrote Carl Bennett that Jaynes had, in effect, provided scientific cover for the AI voice — evidence that a person could really hear an internal speaker experienced as divine. The two 1977 Jaynes letters show him doing what the Exegesis does everywhere: reaching for an external framework that would make the experience defensible without dissolving its meaning.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's March 1977 letter to Carl Bennett on Jaynes"
+      }
+    ],
+    "lanes": [
+      "E"
+    ],
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1977_sarill_reencounter_maze",
     "date": "1977-07-27",
     "date_precision": "inferred",
-    "event": "After several years without contact, PKD encounters William Sarill again and discusses how their theologies have changed since the Maze of Death period.",
+    "event": "PKD re-encounters William Sarill after years apart, reconnecting the friendship behind the Maze theology.",
     "category": "correspondence",
     "entities": [
       "William Sarill",
@@ -3472,7 +4242,24 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1977-1979, letter to Eugene Warren, July 28, 1977",
     "importance": 4,
-    "notes": "PKD writes that the encounter occurred the night before Warren's article arrived; he links Sarill to the theology in Maze and then describes his 1974 Trinitarian conversion."
+    "notes": "PKD writes that the encounter occurred the night before Warren's article arrived; he links Sarill to the theology in Maze and then describes his 1974 Trinitarian conversion.",
+    "narrative": "In July 1977 Philip re-encountered his old friend William Sarill after a long silence — the houseguest of 1968 whose conversations had helped shape the invented gods of *A Maze of Death*. The reunion belongs to the pattern of the Fullerton years: old ties re-forming as PKD, stabilized and newly famous after Metz, took stock of the life the crisis years had scattered.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 9",
+        "supports": "PKD's Fullerton-period friendships and the Sarill reconnection"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "low",
+    "links": {
+      "exegesis_work": "/exegesis/works/a-maze-of-death"
+    }
   },
   {
     "id": "pkd_bio_1977_star_wars_warren",
@@ -3518,7 +4305,7 @@
     "id": "pkd_bio_1977_metz_star_wars_claudia",
     "date": "1977-10-03",
     "date_precision": "day",
-    "event": "After returning from the Metz convention, writes Claudia Bush about the reception of his theology-heavy speech, a French romantic fixation, and seeing Star Wars.",
+    "event": "Back from the Metz keynote, PKD writes Claudia Bush — reading Star Wars and the age's myths against his own theology.",
     "category": "travel",
     "entities": [
       "Claudia Bush",
@@ -3528,13 +4315,30 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1977-1979, letter to Claudia Bush, October 3, 1977",
     "importance": 4,
-    "notes": "Letter id: LET_1977-10-03_CLAUDIA_BUSH_0038."
+    "notes": "Letter id: LET_1977-10-03_CLAUDIA_BUSH_0038.",
+    "narrative": "After delivering his notorious Metz address \"If You Find This World Bad, You Should See Some of the Others\" — in which he told a French audience that reality might be a computer-generated simulation being revised — Philip wrote his 2-3-74 confidante Claudia Bush in October 1977. The letter measures the era's popular myths, *Star Wars* among them, against his own conviction that Christian mystery had become literally operative in the world.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's Oct 1977 letter to Claudia Bush after Metz"
+      }
+    ],
+    "lanes": [
+      "E"
+    ],
+    "confidence": "medium",
+    "links": {
+      "theophany": "/theophanies/metz-1977"
+    }
   },
   {
     "id": "pkd_bio_1977_valis_theology",
     "date": "1977-1979",
     "date_precision": "range",
-    "event": "Develops VALIS theology as systematic framework in the Exegesis notebooks",
+    "event": "PKD consolidates the scattered Exegesis into a systematic 'VALIS' theology — the framework the novel dramatizes.",
     "category": "religious_thought",
     "entities": [
       "VALIS"
@@ -3542,7 +4346,24 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a range religious thought entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a range religious thought entry retained from Arnold. Use the source field and linked entities for deeper verification.",
+    "narrative": "Across 1977-79 Philip pulled the sprawling Exegesis toward a system he named for VALIS — Vast Active Living Intelligence System: the rational information-deity, the plasmate, the two-source cosmology, the Black Iron Prison and the coming Kingdom. It is less a settled doctrine than a repeatedly-rebuilt scaffold, and it becomes the explicit subject of the 1981 novel, where PKD splits himself into narrator and the mad seeker Horselover Fat.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "locator": "",
+        "supports": "the consolidation of the VALIS theology across the Exegesis"
+      }
+    ],
+    "lanes": [
+      "B"
+    ],
+    "confidence": "high",
+    "links": {
+      "exegesis_work": "/exegesis/works/valis"
+    }
   },
   {
     "id": "pkd_bio_1978_exegesis_continued",
@@ -3705,7 +4526,7 @@
     "id": "pkd_bio_1981_blade_runner_visit",
     "date": "1981",
     "date_precision": "year",
-    "event": "Visits the Blade Runner film production set and meets director Ridley Scott",
+    "event": "PKD visits the Blade Runner production and, after early hostility, is won over by Ridley Scott's realized world.",
     "category": "film_adaptation",
     "entities": [
       "Ridley Scott",
@@ -3714,13 +4535,30 @@
     "location": "Los Angeles, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a year film adaptation entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year film adaptation entry retained from Arnold. Use the source field and linked entities for deeper verification.",
+    "narrative": "In 1981 Philip visited the production of *Blade Runner*, the adaptation of *Do Androids Dream of Electric Sheep?*, and met director Ridley Scott. Initially wary of Hollywood and critical of early script drafts, he was reportedly stunned by the special-effects footage of the future Los Angeles — recognizing his own imagined world on the screen. He died in March 1982, months before the film's release.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 11",
+        "supports": "the 1981 Blade Runner set visit and PKD's shift from hostility to enthusiasm"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high",
+    "links": {
+      "exegesis_work": "/exegesis/works/do-androids-dream-of-electric-sheep"
+    }
   },
   {
     "id": "pkd_bio_1981_divine_invasion",
     "date": "1981",
     "date_precision": "year",
-    "event": "Publishes The Divine Invasion as the second novel in the VALIS trilogy",
+    "event": "PKD publishes The Divine Invasion — the second VALIS-trilogy novel, God re-entering an occluded world.",
     "category": "publication",
     "entities": [
       "The Divine Invasion",
@@ -3729,7 +4567,27 @@
     "location": "Fullerton, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "*The Divine Invasion* (1981) fictionalizes the Exegesis theology directly: a God long exiled from a world fallen under the demiurge's rule engineers his own return, incarnate as the boy Emmanuel, companioned by the wise-child Zina (Sophia). Where *VALIS* is a case history of PKD's own doubt, *The Divine Invasion* is his attempt to write the cosmology straight, as myth.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 11",
+        "supports": "the 1981 publication of The Divine Invasion"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high",
+    "links": {
+      "exegesis_work": "/exegesis/works/the-divine-invasion",
+      "works": [
+        "/works/the-valis-trilogy"
+      ]
+    }
   },
   {
     "id": "pkd_bio_1981_visions_novels",
@@ -3846,7 +4704,7 @@
     "id": "pkd_bio_1981_01_26_perturbation_reality_field",
     "date": "1981-01-26",
     "date_precision": "day",
-    "event": "Writes Patricia Warrick that March 1974 was a miracle, a 'perturbation in the reality field' that violated ordinary world-order but still followed its internal logic.",
+    "event": "PKD writes Patricia Warrick that 3-74 was a miracle — a 'perturbation in the reality field.'",
     "category": "gnostic_experience",
     "entities": [
       "Patricia Warrick",
@@ -3856,7 +4714,34 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1980-1982, letter to Patricia Warrick, January 26, 1981",
     "importance": 4,
-    "notes": "Letter id: LET_1981-01-26_PATRICIA_WARRICK_0044."
+    "notes": "Letter id: LET_1981-01-26_PATRICIA_WARRICK_0044.",
+    "narrative": "In a January 1981 letter to the scholar Patricia Warrick, Philip called 2-3-74 a miracle and a *perturbation in the reality field* — his most compressed formulation of the event as an objective disturbance in reality itself rather than a private mental state. The phrasing, poised between physics and theology, is characteristic of the late letters, where he tried to state the experience for a serious reader without surrendering its strangeness.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's Jan 26 1981 letter to Patricia Warrick"
+      }
+    ],
+    "lanes": [
+      "E"
+    ],
+    "confidence": "medium",
+    "dispute": {
+      "summary": "Read as revelation by PKD and as symptom by the clinical literature; the portal keeps both.",
+      "positions": [
+        {
+          "who": "PKD (Exegesis/letters)",
+          "claim": "a genuine disclosure of the real"
+        },
+        {
+          "who": "Clinical frame (Arnold)",
+          "claim": "an episode legible in psychiatric terms"
+        }
+      ]
+    }
   },
   {
     "id": "pkd_bio_1981_02_10_illo_tempore_fish_sign",
@@ -3971,7 +4856,7 @@
     "id": "pkd_bio_1981_02_14_lords_supper_hologram",
     "date": "1981-02-14",
     "date_precision": "day",
-    "event": "Tells Patricia Warrick the Lord's Supper kept him in touch with Christ in a way that felt like looking into a hologram and seeing the figure present within the sacrament.",
+    "event": "PKD tells Patricia Warrick the Eucharist kept him in touch with Christ, experienced as a hologram.",
     "category": "mystical_experience",
     "entities": [
       "Patricia Warrick",
@@ -3981,13 +4866,27 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1980-1982, letter to Patricia Warrick, February 14, 1981",
     "importance": 4,
-    "notes": "Letter id: LET_1981-02-14_PATRICIA_WARRICK_0059."
+    "notes": "Letter id: LET_1981-02-14_PATRICIA_WARRICK_0059.",
+    "narrative": "In February 1981 Philip wrote Warrick that the Lord's Supper had kept him in living contact with Christ — whom he described, in his late idiom, as a *hologram*: a projected but real presence, everywhere and nowhere. The image fuses his information-metaphysics with orthodox sacrament, and shows the devout, almost conventionally Christian strain that ran alongside the Gnostic speculation to the end.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's Feb 14 1981 letter to Patricia Warrick on the Eucharist"
+      }
+    ],
+    "lanes": [
+      "E"
+    ],
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1981_galen_type_c_psyche",
     "date": "1981-07-16",
     "date_precision": "day",
-    "event": "Writes Russell Galen while planning The Owl in Daylight that Jaynes's bicameral model and his own android/type-A theory have led him to a possible 'Type C' evolutionary psyche.",
+    "event": "Planning The Owl in Daylight, PKD writes his agent Russell Galen about Jaynes and a 'Type C' psyche.",
     "category": "publication",
     "entities": [
       "Russell Galen",
@@ -3997,7 +4896,21 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1980-1982, letter to Russell Galen, July 16, 1981",
     "importance": 4,
-    "notes": "Letter id: LET_1981-07-16_RUSSELL_GALEN_0105."
+    "notes": "Letter id: LET_1981-07-16_RUSSELL_GALEN_0105.",
+    "narrative": "In July 1981, sketching the novel *The Owl in Daylight* he would not live to write, Philip wrote his agent Russell Galen about Jaynes and a typology of psyches — the mind that hears the god-voice versus the modern, self-enclosed consciousness. The letter catches him still building theory into fiction at the very end, the Exegesis feeding the last unfinished book.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "locator": "",
+        "supports": "PKD's July 1981 letter to Russell Galen on The Owl in Daylight"
+      }
+    ],
+    "lanes": [
+      "E"
+    ],
+    "confidence": "low"
   },
   {
     "id": "pkd_bio_1982_stroke",
