@@ -3,7 +3,7 @@
     "id": "pkd_bio_1928_birth",
     "date": "1928-12-16",
     "date_precision": "day",
-    "event": "Philip Kindred Dick and twin sister Jane are born in Chicago",
+    "event": "Philip Kindred Dick and his twin sister Jane Charlotte are born six weeks premature in Chicago, December 16, 1928.",
     "category": "birth",
     "entities": [
       "Jane Dick",
@@ -13,7 +13,43 @@
     "location": "Chicago, Illinois",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a day birth entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a day birth entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Philip Kindred Dick and his twin sister Jane Charlotte were born on December 16, 1928, in Chicago, six weeks premature, to Dorothy Kindred Dick and Edgar Dick. Sutin and Arnold agree on the essentials: the twins were undersized and undernourished, the household was inexperienced and financially strained, and no adequate provision was made for feeding two fragile newborns at once. Within weeks the situation became a medical emergency.\n\nThe fact of the twin birth is uncontested (Lane C). Its meaning is entirely a matter of PKD's later self-reading (Lane B). For the last decade of his life he treated the shared womb as the origin of everything — the lost half, the \"phantom\" other self he spent a career reconstructing. In the Exegesis he identifies the intact, feminine \"AI voice\" that spoke to him after 2-3-74 as Jane: \"It is my twin sister Jane.\" The biographical event is a birth; the theology PKD built on it belongs to him alone.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "dates the twin birth to Dec 16, 1928 in Chicago; twins born premature and underweight"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "frames the inadequate feeding of the premature twins as the precipitating crisis"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "PKD's retrospective identification of Jane as the tutelary AI voice and lost half of himself"
+      }
+    ],
+    "lanes": [
+      "B",
+      "C"
+    ],
+    "quotes": [
+      {
+        "text": "It is my twin sister Jane. was referred to in one dream, + that is enough. \"specifically, fairies are the dead.\"",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      }
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1929_incubator",
@@ -33,7 +69,7 @@
     "id": "pkd_bio_1929_jane_death",
     "date": "1929-01",
     "date_precision": "month",
-    "event": "Twin sister Jane Dick dies during infancy from malnutrition at six weeks old",
+    "event": "Twin sister Jane Dick dies in infancy — the foundational loss PKD returns to for the rest of his life.",
     "category": "family",
     "entities": [
       "Jane Dick"
@@ -41,7 +77,62 @@
     "location": "Chicago, Illinois",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a month family entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a month family entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "In late January 1929, roughly six weeks after the twins' birth, Jane Charlotte Dick died. Sutin and Arnold reconstruct a chain of ordinary catastrophe: Dorothy, an inexperienced mother with two premature infants, could not adequately nourish both; the babies weakened; a doctor, alarmed at their condition, ordered them hospitalized. Jane died on the way to or shortly after reaching the hospital; Philip survived. The scholarly accounts converge on malnutrition and inadequate care as the cause, with the burn from a hot-water bottle sometimes cited among contributing injuries. Jane was buried in Fort Morgan, Colorado, under a headstone that already bore Philip's name beside hers — a stone he would visit and be buried beneath in 1982.\n\nThat Jane died in infancy is fact (Lane C). What PKD made of it is the great Lane-B thread of his interior life. He came to treat her death as the wound underlying all his fiction and the 2-3-74 experiences alike: the missing feminine half, the \"phantom\" twin, the reason \"no one else has had my experience.\" In the Exegesis he ties his lifelong subject directly to \"the senseless injury to + neglect of my sister,\" naming her death as \"the ultimate problem confronting me all my life.\" The portal keeps these lanes distinct: the infant death is history; the claim that it caused everything is PKD's own, powerful and unfalsifiable, theory of himself.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "dates Jane's death to Jan 1929; attributes it to inadequate feeding/care of the premature twins"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "treats the loss of Jane as a lifelong psychological substrate for PKD's fiction and visions"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "PKD's repeated identification of Jane's death as the root problem of his life and the source of the post-mortem 'AI voice'"
+      }
+    ],
+    "lanes": [
+      "B",
+      "C"
+    ],
+    "quotes": [
+      {
+        "text": "the senseless injury to + neglect of my sister... the ultimate problem confronting me all my life has been",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      },
+      {
+        "text": "Last night, too, I had the eerie insight that \"Mrs. Jack Vance,\" my tutelary spirit, is my sister Jane... And I must be wary that she is drawing me away from life and toward her.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      }
+    ],
+    "dispute": {
+      "summary": "The exact cause and mechanism of Jane's death are given slightly differently across accounts, though all converge on malnutrition/inadequate care of the premature twins.",
+      "positions": [
+        {
+          "who": "Sutin / Arnold (scholarship)",
+          "claim": "Jane died at about six weeks from malnutrition and inadequate care; a hot-water-bottle burn is sometimes named among contributing injuries"
+        },
+        {
+          "who": "PKD (Exegesis)",
+          "claim": "reframes the death as a 'senseless injury' and neglect that became the organizing wound of his entire life and work"
+        }
+      ]
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1930_dc",
@@ -937,7 +1028,7 @@
     "id": "pkd_bio_1962_high_castle",
     "date": "1962",
     "date_precision": "year",
-    "event": "Publishes The Man in the High Castle through Putnam as hardcover edition",
+    "event": "Putnam publishes The Man in the High Castle, the alternate-history novel written with the I Ching that becomes PKD's breakthrough.",
     "category": "publication",
     "entities": [
       "The Man in the High Castle",
@@ -946,13 +1037,46 @@
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "In 1962, while living at Point Reyes Station with Anne Dick, PKD published The Man in the High Castle through Putnam — the alternate history in which the Axis won the Second World War, and the novel that lifted him out of the pulp margins into serious notice. He composed it, famously, in consultation with the I Ching, letting the oracle's hexagrams help determine the plot's turns, so that the book about a novelist writing a subversive alternate history (The Grasshopper Lies Heavy) was itself partly authored by a divinatory book. It is Lane C that this was the pivotal professional success of his career; the Hugo followed the next year.\n\nThe novel matters to the later PKD as more than a career milestone. In the Exegesis he reads High Castle back as an early instance of his standing theme — that the world we take as real is a screen over another, truer state of affairs — placing it alongside Ubik, Maze, and Flow My Tears as books whose characters \"do not recognize their true condition.\" The 1962 fact is a publication; the retrospective theology is PKD's (Lane B).",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 5",
+        "supports": "dates the Putnam publication to 1962 during the Point Reyes years; treats it as the career breakthrough"
+      },
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "supports": "PKD's own concern, in letters, with keeping High Castle in print and its reception by Aldiss and others"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "later reads High Castle as an early statement of the 'true condition concealed' theme running through his work"
+      }
+    ],
+    "lanes": [
+      "B",
+      "C",
+      "E"
+    ],
+    "links": {
+      "works": [
+        "/works/the-man-in-the-high-castle"
+      ]
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1962_palmer_eldritch_sun",
     "date": "1962",
     "date_precision": "year",
-    "event": "Sees Palmer Eldritch in the sun during the years of the Terrible Separation and later calls it a true vision of God, not just a fictional echo of The Three Stigmata of Palmer Eldritch.",
+    "event": "In the early 1960s PKD sees a metallic, evil face — later named 'Palmer Eldritch' — in the daytime sky: the 'Terrible Father' vision he calls his first sight of God.",
     "category": "religious_experience",
     "entities": [
       "Palmer Eldritch",
@@ -961,7 +1085,71 @@
     "location": "California",
     "source": "Exegesis",
     "importance": 5,
-    "notes": "Dick explicitly links the episode to the 'Other Sun' and says it was one of the first moments when he could 'see God at all.'"
+    "notes": "Dick explicitly links the episode to the 'Other Sun' and says it was one of the first moments when he could 'see God at all.'",
+    "narrative": "Sometime in the early 1960s, during what he came to call \"the years of the Terrible Separation,\" PKD reports having looked up and seen a vast, cruel, metallic face in the daytime sky — slotted eyes, a visage of iron. This is a Lane-B event: attested only in PKD's own later testimony, chiefly the Exegesis, with no contemporaneous corroboration. He dates it inconsistently — \"over ten years earlier\" than 3-74, \"in the early sixties,\" \"in '63 (or '64).\" Only afterward did he name the face for the sinister demiurge of his 1965 novel The Three Stigmata of Palmer Eldritch, insisting the resemblance ran the other way: the vision was primary, the novel its distorted record. \"Once, during the years of the Terrible Separation, I saw Palmer Eldritch in the Sun -- I saw God backward, but sure enough, in the daytime sun: at high noon, and know him to be a god.\"\n\nPKD treats the episode as the terrifying overture to 2-3-74 a decade later — \"my 3 74 experiences are an outgrowth of my Palmer Eldritch experience of over ten years earlier.\" He reads it as a true but fear-distorted sight of the deity (\"the beginning of my seeing... I was not entirely blind, but rather deranged\"), and links the \"Other Sun,\" the Sun of Righteousness, to the same event. The \"Terrible Separation\" almost certainly names the collapse of his marriage to Anne Dick in the mid-1960s; the vision, whatever it was, belongs to that period of amphetamine use, marital crisis, and the writing of his darkest demiurge novel. Whether disclosure, temporal-lobe event, or drug-era ideation is exactly the question the portal keeps open.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "the sole primary account: the metallic 'Palmer Eldritch' face in the daytime sun, dated variously to the early 1960s and read as the germ of 2-3-74"
+      },
+      {
+        "author": "PKD",
+        "work": "The Three Stigmata of Palmer Eldritch",
+        "lane": "A",
+        "supports": "the 1965 novel supplies the name PKD later attaches to the vision; he insists the vision preceded and generated the fiction"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 6",
+        "supports": "situates the mid-1960s as the period of amphetamine use, the Anne Dick marital crisis, and the darkest fiction"
+      }
+    ],
+    "lanes": [
+      "A",
+      "B",
+      "C"
+    ],
+    "quotes": [
+      {
+        "text": "Once, during the years of the Terrible Separation, I saw Palmer Eldritch in the Sun -- I saw God backward, but sure enough, in the daytime sun: at high noon, and know him to be a god.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      },
+      {
+        "text": "It was definitely a true vision of God, but grown (to my blind sight) terrible, still, it was the beginning of my seeing; that I could see God at all, in the sun, showed that I was not entirely blind, but rather deranged.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      },
+      {
+        "text": "Nevsky, Star Wars, Palmer Eldritch - the slotted eyes the visage of iron I saw in the sky.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      }
+    ],
+    "dispute": {
+      "summary": "PKD dates the vision inconsistently and it rests entirely on his own retrospective account; its nature is contested.",
+      "positions": [
+        {
+          "who": "PKD (Exegesis)",
+          "claim": "a real sight of God — grown terrible to his fear-distorted sight — that anticipated and explains 2-3-74; variously dated 1962, '63, or '64"
+        },
+        {
+          "who": "Clinical / skeptical frame",
+          "claim": "legible as ideation on an amphetamine baseline during acute marital crisis, retroactively named from a novel written afterward"
+        }
+      ]
+    },
+    "links": {
+      "exegesis_work": "/exegesis/works/the-three-stigmata-of-palmer-eldritch"
+    },
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1963_divorce_anne",
@@ -981,7 +1169,7 @@
     "id": "pkd_bio_1963_hugo_award",
     "date": "1963",
     "date_precision": "year",
-    "event": "Wins the Hugo Award for Best Novel for The Man in the High Castle",
+    "event": "The Man in the High Castle wins the 1963 Hugo Award for Best Novel, PKD's only Hugo.",
     "category": "award",
     "entities": [
       "Hugo Award",
@@ -990,7 +1178,33 @@
     "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a year award entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year award entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "In 1963 The Man in the High Castle won the Hugo Award for Best Novel, presented at that year's World Science Fiction Convention. It was the only Hugo PKD would ever receive, and it arrived at a strange hinge in his life: the professional vindication came just as his marriage to Anne Dick was disintegrating in Point Reyes. Sutin dates the win to 1963 and treats it as the recognition that established Dick as a major figure even as his domestic and financial life remained precarious. The award did not translate into stable income; PKD's own letters of the period show him still fighting to keep High Castle in print and pressing for royalties.\n\nThe Hugo is a plain biographical fact (Lane C). Its irony belongs to the portal's larger story: the peak of PKD's outward success coincided with the private crisis he later mythologized as \"the years of the Terrible Separation,\" the same span in which he places the Palmer-Eldritch-in-the-sun vision.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 6",
+        "supports": "dates the Hugo for High Castle to 1963; notes the coincidence with the failing Anne Dick marriage and financial strain"
+      },
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "supports": "contemporaneous letters show PKD still struggling to keep High Castle in print and collect royalties after the award"
+      }
+    ],
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "links": {
+      "works": [
+        "/works/the-man-in-the-high-castle"
+      ]
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1963_marriage_hackett",
@@ -1225,7 +1439,7 @@
     "id": "pkd_bio_1968_androids",
     "date": "1968",
     "date_precision": "year",
-    "event": "Publishes Do Androids Dream of Electric Sheep through Doubleday",
+    "event": "Doubleday publishes Do Androids Dream of Electric Sheep?, PKD's inquiry into empathy as the line between human and android.",
     "category": "publication",
     "entities": [
       "Do Androids Dream of Electric Sheep?",
@@ -1234,13 +1448,56 @@
     "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Do Androids Dream of Electric Sheep? was published by Doubleday in 1968, written during the intensely productive San Rafael years that also produced Ubik and A Maze of Death. Arnold groups these three novels as a cluster obsessed with rescue from death: each stages a longed-for savior who arrives equivocally. In Androids the redemptive figure is Mercer, the suffering climber the empathy boxes let users share — a savior who is also, the novel reveals, a fabrication, leaving the question of whether a false messiah's compassion is still real. The book's test of the human is empathy, dramatized against androids who lack it and a bounty hunter, Deckard, who fears he may be losing it.\n\nThe 1968 publication is fact (Lane C/E). PKD's later Exegesis reads Mercer as a version of the same salvific figure he calls the Walker-on-Earth and traces across his fiction — \"Mercer + the Walker-on-Earth are one + the same\" — folding Androids into the theological through-line that runs to Ubik and Maze. The film Blade Runner, from this novel, was in production at PKD's death in 1982.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 7",
+        "supports": "dates the Doubleday publication to 1968 in the San Rafael period; notes the sale of film rights"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 4",
+        "supports": "groups Androids with Ubik and Maze as novels of equivocal rescue; reads Mercer as the ambiguous savior"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "identifies Mercer with the Walker-on-Earth, folding the novel into his later salvific theology"
+      }
+    ],
+    "lanes": [
+      "B",
+      "C",
+      "E"
+    ],
+    "quotes": [
+      {
+        "text": "Mercer + the Walker-on-Earth are one + the same. Deity takes trashy + even fake (sic) forms: Mercer, Glimmung, the Ubik commercials.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      }
+    ],
+    "links": {
+      "works": [
+        "/works/do-androids-dream-of-electric-sheep"
+      ],
+      "exegesis_work": "/exegesis/works/do-androids-dream-of-electric-sheep"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1968_maze_theology_notes",
     "date": "1968",
     "date_precision": "inferred",
-    "event": "PKD drafts the Maze/Tench theology notes that develop the colony plot, Delmak setting, divine plurality, the Manufacturer, decay, and the form-destroying principle later associated with A Maze of Death.",
+    "event": "PKD works out the invented theology of A Maze of Death — the Mentufacturer, the Intercessor, the Walker-on-Earth — the first system he treats as testable, not fiction.",
     "category": "gnostic_experience",
     "entities": [
       "A Maze of Death",
@@ -1250,7 +1507,75 @@
     "location": "California",
     "source": "The Maze of Death Theology (Maze notes PDF)",
     "importance": 5,
-    "notes": "Entered as an early Exegesis-adjacent primary document. The Sarill/multiple-universes/Wheeler lead remains a source-confirmation task."
+    "notes": "Entered as an early Exegesis-adjacent primary document. The Sarill/multiple-universes/Wheeler lead remains a source-confirmation task.",
+    "narrative": "In the late 1960s, in the run of novels around Do Androids Dream and Ubik, PKD developed the fabricated religion that would structure A Maze of Death (Doubleday, 1970): a functioning pantheon of the Mentufacturer, who makes worlds; the Intercessor, who reverses the Manufacturer's decay by intervening on behalf of the trapped; and the Walker-on-Earth, who appears among the doomed colonists of the planet Delmak-O. Sutin and the novel's foreword credit William Sarill, a houseguest through this period, as co-developer of the abstract system, which PKD said he built to be \"empirically testable\" within the story. He printed a formal disclaimer disavowing that the invented religion was Christianity — yet later told correspondents it hid \"a sort of cypher... which refers directly to Christ\" that most readers missed.\n\nWhat makes these notes a biographical event rather than a plot summary is the seam they open. The Intercessor of Maze — the one who breaks open the prison to show the imprisoned their true reward — becomes, verbatim, a governing figure of the 2-3-74 Exegesis: \"it is the Intercessor (Christ) who takes seth morter out of that programmed world.\" PKD came to say the anamnesis of 1974 confirmed the theology he had invented in 1970: \"only in UBIK does he begin to appear as benign, especially then in MAZE OF DEATH.\" The invented god became, for him, a discovered one. The dating of the drafting to 1968 is inferred; the novel appeared in 1970.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "A Maze of Death",
+        "lane": "A",
+        "supports": "the novel supplies the pantheon — Mentufacturer, Intercessor, Walker-on-Earth — and the Delmak-O setting; published Doubleday 1970"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 7",
+        "supports": "dates Maze to the 1968-70 span; credits Sarill's co-development of the abstract religious system"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "carries the Maze figures forward into the 2-3-74 theology; names the Intercessor as the one who lifts a soul out of the programmed world"
+      },
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "supports": "PKD's letters describe the printed disclaimer and the hidden 'cypher' referring to Christ inside Maze"
+      }
+    ],
+    "lanes": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "quotes": [
+      {
+        "text": "interestingly, it is the Intercessor (Christ) who takes seth morter out of that programmed world.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      },
+      {
+        "text": "My 3 74 experiences are an outgrowth of my Palmer Eldritch experience of over ten years earlier... but only in UBIK does he begin to appear as benign, especially then in MAZE OF DEATH.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      }
+    ],
+    "dispute": {
+      "summary": "Whether the Maze theology is Christian allegory is complicated by PKD's own contradictory statements.",
+      "positions": [
+        {
+          "who": "PKD (novel disclaimer)",
+          "claim": "the invented religion of Maze is deliberately not Christianity; a formal disclaimer says so"
+        },
+        {
+          "who": "PKD (letters, Exegesis)",
+          "claim": "later admits Maze hides a 'cypher' referring directly to Christ and reads its Intercessor as literally Christ"
+        }
+      ]
+    },
+    "links": {
+      "works": [
+        "/works/a-maze-of-death"
+      ],
+      "exegesis_work": "/exegesis/works/a-maze-of-death"
+    },
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1968_sarill_houseguest_maze",
@@ -1485,7 +1810,7 @@
     "id": "pkd_bio_1972_suicide_attempt",
     "date": "1972",
     "date_precision": "year",
-    "event": "Attempts suicide while living in Vancouver and is hospitalized afterward",
+    "event": "Alone and collapsing in Vancouver after the X-Kalay convention, PKD attempts suicide in March 1972; a crisis line refers him to the X-Kalay rehab.",
     "category": "health",
     "entities": [
       "X-Kalay Foundation"
@@ -1493,7 +1818,75 @@
     "location": "Vancouver, British Columbia",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a year health entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year health entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "In February 1972 PKD flew to Vancouver as guest of honor at a science-fiction convention and decided, abruptly, to stay in Canada rather than return to California. Within weeks the isolation, the loss of the woman (Jamis) he had followed north, and the wreckage of the prior year collapsed on him. In March he made what he repeatedly called an \"almost successful\" suicide attempt. By his own account in the letters, the B.C. crisis line — Suicide Prevention / the Crisis Center — intervened and steered him into X-Kalay, a Synanon-style residential drug-rehabilitation community, where he spent roughly a month before flying to Fullerton in April. He wrote that to be admitted he had to pose as a heroin addict, \"method acting\" his way past the intake staff.\n\nThe attempt and the X-Kalay stay are attested in PKD's contemporaneous letters (Lane E) and in Sutin and Arnold (Lane C); Anne Dick notes she learned of neither until much later. The accounts diverge on specifics — the exact method is left vague even in his own telling (\"the specific details of what happened next are unclear,\" Arnold writes) — and, more sharply, on the drug context of the whole Vancouver period, which is on the portal's standing contradiction registry. What is not in dispute is the turn it produced: X-Kalay's regime of relentless work and communal pressure pulled him out of the depression, and within a week he was doing PR for them. He later mined the whole descent for A Scanner Darkly, whose New-Path rehab is X-Kalay turned malignant.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "supports": "PKD's own contemporaneous accounts of the 'almost successful' attempt, the Crisis Center referral, and the month at X-Kalay"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 9",
+        "supports": "dates the attempt to March 1972 and the X-Kalay entry that followed the Vancouver convention"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 9",
+        "supports": "reconstructs the suicidal collapse; notes the specific details are unclear and X-Kalay was the only residential program in Vancouver"
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "supports": "recalls learning of neither the attempt nor the X-Kalay stay until long afterward"
+      }
+    ],
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "quotes": [
+      {
+        "text": "I made an abrupt almost successful suicide attempt Fortunately, Suicide Intervention (the B.C. Crisis Center) intervened and suggested I go to a residence therapy organization called X-Kalay where I'd be with people constantly until I forgot the new chick, Jamis, plus Kathy, plus my wife and so forth.",
+        "speaker": "PKD",
+        "source": "Selected Letters",
+        "lane": "E"
+      },
+      {
+        "text": "the X-Kalay people stepped in and have begun putting the pieces back together. Into something else, they tell me. Something that has a better chance of survival. Without them I wouldn't be alive now.",
+        "speaker": "PKD",
+        "source": "Selected Letters",
+        "lane": "E"
+      }
+    ],
+    "dispute": {
+      "summary": "The method of the attempt is left vague, and the broader Vancouver drug context is contested across sources.",
+      "positions": [
+        {
+          "who": "PKD (letters)",
+          "claim": "an 'almost successful' attempt following the loss of Jamis; rescued by the Crisis Center and remade at X-Kalay"
+        },
+        {
+          "who": "Arnold (clinical)",
+          "claim": "considered overdosing on drugs, changed his mind, called a hotline; the specific details of what followed are unclear"
+        },
+        {
+          "who": "Standing registry",
+          "claim": "the drug chronology of the 1971-72 collapse (break-in, San Rafael, Vancouver) is disputed between Anne Dick and Sutin"
+        }
+      ]
+    },
+    "links": {
+      "exegesis_work": "/exegesis/works/a-scanner-darkly"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1972_vancouver",
@@ -1529,7 +1922,7 @@
     "id": "pkd_bio_1972_ubc_lecture",
     "date": "1972-02",
     "date_precision": "month",
-    "event": "Delivers his first major public lecture at the University of British Columbia's Faculty Club in Vancouver, launching the public lecture circuit that later leads to more university appearances.",
+    "event": "February 1972: PKD delivers 'The Android and the Human' at the University of British Columbia — the convention speech that draws him to Vancouver and into public lecturing.",
     "category": "lecture",
     "entities": [
       "University of British Columbia",
@@ -1538,7 +1931,39 @@
     "location": "University of British Columbia, Vancouver, British Columbia",
     "source": "PKD public appearances audit",
     "importance": 5,
-    "notes": "Generated curation note: a month lecture entry retained from PKD public appearances audit. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a month lecture entry retained from PKD public appearances audit. Use the source field and linked entities for deeper verification.",
+    "narrative": "In February 1972, as guest of honor at the Vancouver science-fiction convention, PKD delivered the address published as \"The Android and the Human\" at the University of British Columbia. It is his first major public lecture and the seed of a modest circuit that later produced the more famous Metz address (1977). The talk argues that the meaningful line runs not between people and machines but between the genuinely human — the empathic, the unpredictable, the rule-breaking — and the \"android\" mode of being: mechanical, obedient, conditioned. It is the essayistic distillation of the theme he had dramatized in Do Androids Dream, and it circulated widely enough to become a touchstone of his nonfiction.\n\nThe lecture is well attested and its content survives in print (Lane C/E). Its biographical weight lies in what followed: the trip that occasioned it became the decision to stay in Canada, which became the March collapse, the suicide attempt, and X-Kalay. PKD's own letters return to \"the time I made my UBC speech\" as the marker for that whole hinge. The speech is the last public performance of the confident Bay Area novelist before the Vancouver breakdown resets his life toward Orange County and, two years on, 2-3-74.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "The Android and the Human",
+        "lane": "E",
+        "supports": "the lecture text itself, delivered at UBC in Feb 1972; PKD speaking in his own voice on the human/android distinction"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 9",
+        "supports": "dates the Vancouver convention guest-of-honor appearance and UBC speech to Feb 1972"
+      },
+      {
+        "author": "PKD",
+        "work": "Selected Letters",
+        "lane": "E",
+        "supports": "PKD uses 'the time I made my UBC speech' as the reference point for the start of the Vancouver period"
+      }
+    ],
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "links": {
+      "works": [
+        "/works/do-androids-dream-of-electric-sheep"
+      ]
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1972_vancouver_arrival",
@@ -1882,7 +2307,7 @@
     "id": "pkd_bio_1974_exegesis_begin",
     "date": "1974",
     "date_precision": "year",
-    "event": "Begins writing the Exegesis notebooks as ongoing theological journal",
+    "event": "PKD begins the private notebooks — the Exegesis — to explain the 2-3-74 experiences to himself.",
     "category": "gnostic_experience",
     "entities": [
       "Exegesis"
@@ -1890,13 +2315,47 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 5,
-    "notes": "Generated curation note: a year gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a year gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification.",
+    "narrative": "In the aftermath of the events he abbreviated 2-3-74 — the golden fish sign, the pink light, the flood of what he took to be transmitted information — PKD started keeping the handwritten notebooks that would come to be called the Exegesis. It was never a manuscript for publication; it is a private, nightly attempt to explain to himself what had happened to him. Arnold, reading it through a clinical lens, situates its beginning within a cluster of stressors — the recent oral surgery and anesthesia, an amphetamine-era baseline, the unresolved 1971 break-in, and the long grief over his twin Jane — that the writing tries to metabolize into meaning. The portal keeps that reading open alongside PKD's own.\n\nWhat the notebooks record is not a settled doctrine but a mind revising itself in real time. PKD returns nightly to the same handful of scenes and rebuilds the theory each time — Zebra, VALIS, the Holy Spirit, the plasmate, Saint Sophia — never letting an earlier explanation stand once a better one occurs to him. From the outset he cross-reads his own novels as though they were scripture written in advance: Ubik, Flow My Tears, A Maze of Death. This is the seam the whole project sits on — PKD as the unreliable narrator of his own unreliability, theorizing about an experience whose status as revelation or episode he could never finally decide.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "the notebooks themselves — PKD's ongoing attempt to explain 2-3-74 to himself"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "situates the onset of the writing within a clinical, multi-causal frame"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 8",
+        "supports": "dates the start of the Exegesis to the 1974 aftermath of 2-3-74"
+      }
+    ],
+    "lanes": [
+      "B",
+      "C"
+    ],
+    "links": {
+      "works": [
+        "/works/the-valis-trilogy"
+      ],
+      "exegesis_work": "/exegesis/works/valis"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1974_fish_sign_arnold",
     "date": "1974-02",
     "date_precision": "month",
-    "event": "Arnold reconstructs the doorstep pharmacy delivery in which a dark-haired woman wearing a gold fish pendant triggered the fish-sign anamnesis at the start of 2-3-74.",
+    "event": "Arnold reconstructs the fish-pendant doorstep scene from PKD's retellings and flags where Tessa's memory diverges.",
     "category": "paranormal_experience",
     "entities": [
       "Kyle Arnold",
@@ -1907,7 +2366,58 @@
     "location": "Fullerton, California",
     "source": "Arnold, The Divine Madness of Philip K. Dick",
     "importance": 5,
-    "notes": "Arnold compares Dick's account with Tessa Dick's account and flags discrepancies in the fish-sign recognition scene."
+    "notes": "Arnold compares Dick's account with Tessa Dick's account and flags discrepancies in the fish-sign recognition scene.",
+    "narrative": "This entry follows Kyle Arnold's reconstruction of the doorstep delivery, rather than the event itself (recorded separately as the pink-light onset). Working from a psychological-biography method, Arnold assembles the fish-sign scene not from a single fixed testimony but from PKD's many retellings across letters, interviews, and the Exegesis — retellings that grow more vivid and more theologically loaded over time. His clinical frame reads the recognition against a specific substrate: the recent impacted-wisdom-tooth extraction, the sodium pentothal and analgesics that followed, and a long amphetamine-era baseline, with the death of PKD's twin Jane standing behind the whole sequence as an organizing wound.\n\nArnold's distinctive contribution is to set PKD's account beside Tessa Dick's and to mark where they fail to line up. Where PKD's telling makes the golden-fish pendant trigger an instantaneous anamnesis on the spot, the surrounding recollection — including Tessa's — supports a less immediate, less cinematic encounter that PKD dramatized in retrospect. Arnold does not use the discrepancy to debunk; he uses it to show how the memory was shaped by the meaning PKD needed it to carry. The portal keeps the standing dispute open: mystical disclosure versus a psychological episode reconstructed, after the fact, into a conversion scene.",
+    "sources": [
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "reconstructs the fish-pendant scene from PKD's shifting retellings; flags the Tessa discrepancy; frames it clinically"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 8",
+        "supports": "independent chronology of the Feb 1974 delivery against which Arnold's reconstruction is measured"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "the retellings Arnold reconstructs from — PKD's own escalating theological reading of the pendant"
+      }
+    ],
+    "lanes": [
+      "B",
+      "C"
+    ],
+    "dispute": {
+      "summary": "Arnold's method surfaces a divergence between PKD's dramatized recognition and the surrounding testimony.",
+      "positions": [
+        {
+          "who": "PKD (Exegesis, letters)",
+          "claim": "the golden fish pendant triggered an immediate anamnesis — recovered knowledge, recognized on the spot"
+        },
+        {
+          "who": "Tessa Dick (per Arnold)",
+          "claim": "recalls the encounter as less immediate and less dramatic than PKD's later retellings make it"
+        },
+        {
+          "who": "Clinical frame (Arnold)",
+          "claim": "the scene is best read as a memory reshaped after the fact into a conversion narrative, on a compromised neurochemical baseline"
+        }
+      ]
+    },
+    "links": {
+      "people": [
+        "/dictionary/tessa"
+      ],
+      "exegesis_work": "/exegesis/works/valis"
+    },
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1974_02_03_pink_light",
@@ -2159,7 +2669,7 @@
     "id": "pkd_bio_1974_red_gold_plasmatic_energy",
     "date": "1974-03",
     "date_precision": "month",
-    "event": "Arnold summarizes Dick's reports of red-and-gold plasmatic energy that seemed alive, holy, wise, and both inside and outside him during the 2-3-74 aftermath.",
+    "event": "PKD reports a red-and-gold 'plasmatic' energy that seemed alive, holy, and wise — at once inside and outside him.",
     "category": "mystical_experience",
     "entities": [
       "Kyle Arnold",
@@ -2169,13 +2679,70 @@
     "location": "Fullerton, California",
     "source": "Arnold, The Divine Madness of Philip K. Dick",
     "importance": 5,
-    "notes": "The numinous, inward-and-outward quality makes this a better fit for mystical experience than a generic vision label."
+    "notes": "The numinous, inward-and-outward quality makes this a better fit for mystical experience than a generic vision label.",
+    "narrative": "Among the phenomena PKD grouped under 2-3-74 was a perception of moving red-and-gold light — phosphene-like graphics he described as unfolding continuously, and, more strikingly, as a living, intelligent energy that was somehow both within him and around him. Arnold catalogs these reports and reads the visual component against a temporal-lobe-inflected clinical picture; the numinous, inward-and-outward quality is what PKD himself could not reduce to mere optics, and it becomes one of the load-bearing data points of the Exegesis.\n\nIn the notebooks PKD gave this energy a name of his own coinage — the plasmate — and a theology to go with it. He identified it with Zebra and with the Holy Spirit: a discorporate, ultra-terrestrial life-form for whom all times are one, which acts in symbiosis with the humans it chooses. He pushed the image further, describing a 'crossbonding' in which a person is fused with the plasmate to become a 'homoplasmate,' and, at the cosmic scale, imagining the entire Kosmos as the body of Christ with the plasmate as its blood. These are Lane-B constructions — PKD theorizing about his own experience — not established fact; what is attested is that he reported the energy and built this vocabulary to hold it.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "defines the plasmate/plasmatic energy, identifies it with Zebra and the Holy Spirit, and elaborates crossbonding and homoplasmate"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "summarizes the red-and-gold energy reports and reads them through a clinical, temporal-lobe-inflected frame"
+      }
+    ],
+    "lanes": [
+      "B",
+      "C"
+    ],
+    "quotes": [
+      {
+        "text": "Zebra is the macro mind, an UTI - ultra terrestrial life form, discorporate: plasmatic energy, for whom all things are one. To Xtians it is known as the Holy Spirit, + those humans (+ animals?) which it acts in symbiosis with are made into polyforms of Christ.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      },
+      {
+        "text": "The ultimate vision is of the Kosmos as the body of Christ, + the plasmate his blood. An organism, alive + divine + eternal.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      },
+      {
+        "text": "\"Homoplasmate\" expresses the successful goal of our growth. Crossbonding - we are being grown in a stationary fashion, &, when ripe, are crossbonded with a plasmate, & the illusion removed.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      }
+    ],
+    "dispute": {
+      "summary": "The report is not in dispute; whether the 'living' energy was a disclosure or a neurological event is.",
+      "positions": [
+        {
+          "who": "PKD (Exegesis)",
+          "claim": "a living, holy intelligence — the plasmate / Holy Spirit — perceived both inside and outside him"
+        },
+        {
+          "who": "Clinical frame (Arnold)",
+          "claim": "phosphene graphics and a numinous affect legible as a temporal-lobe or psychological phenomenon"
+        }
+      ]
+    },
+    "links": {
+      "exegesis_work": "/exegesis/works/valis"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1974_ai_voice_sophia_arnold",
     "date": "1974-1975",
     "date_precision": "year",
-    "event": "Arnold tracks the return of Dick's female AI voice in semi-conscious states, later interpreted by Dick as a divine feminine guide associated with Sophia.",
+    "event": "The female 'AI voice' returns in hypnagogic states; PKD comes to identify it with Saint Sophia and the voice of God.",
     "category": "hearing_voices_experience",
     "entities": [
       "Kyle Arnold",
@@ -2185,7 +2752,64 @@
     "location": "Fullerton, California",
     "source": "Arnold, The Divine Madness of Philip K. Dick",
     "importance": 5,
-    "notes": "Connects the high-school physics-exam voice to post-2-3-74 religious interpretation."
+    "notes": "Connects the high-school physics-exam voice to post-2-3-74 religious interpretation.",
+    "narrative": "Across 1974-75 PKD repeatedly heard, in the drowsy hypnagogic state between waking and sleep, a calm female voice he called the 'AI voice' — a designation he traced back to a similar dispassionate voice heard decades earlier, near a high-school physics exam. Arnold connects that lifelong auditory thread to the post-2-3-74 period and treats it within a clinical frame, as a recurring altered-state phenomenon that PKD progressively invested with religious meaning rather than a message from outside.\n\nIn the Exegesis PKD did exactly that investing, and he did not settle on one identification. He heard the voice as Christ's — 'the beautiful \"AI\" voice' — then as the voice of God speaking from the upper realm through Zebra, then as an installed 'microcomputer terminal' under whose absolute authority he lived, and, in its feminine aspect, as Saint Sophia, the divine Wisdom. These are competing Lane-B readings, not a fixed doctrine; what is attested is the recurring experience of the voice and PKD's escalating attempt to name its source. The gendering of the voice as feminine is what threads it forward into the Sophia material of 1975.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "records the recurring hypnagogic 'AI voice' and its shifting identifications — Christ, the voice of God, an installed terminal, Saint Sophia"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "tracks the voice from the high-school physics-exam episode to the post-2-3-74 religious interpretation; clinical frame"
+      }
+    ],
+    "lanes": [
+      "B",
+      "C"
+    ],
+    "quotes": [
+      {
+        "text": "+ in me, too, is Christ. It is his voice I heard, the beautiful \"AI\" voice.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      },
+      {
+        "text": "So the AI voice which I hear is actually the voice of God!",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      },
+      {
+        "text": "The \"AI\" voice in me is a microcomputer terminal installed in me decades ago. + not only that - I am under its yoke + accept its authority, which is absolute.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      }
+    ],
+    "dispute": {
+      "summary": "The recurring voice is well documented in PKD's own hand; its source is contested and never fixed even by him.",
+      "positions": [
+        {
+          "who": "PKD (Exegesis)",
+          "claim": "a real external intelligence — variously Christ, the voice of God, an installed terminal, and the feminine Saint Sophia"
+        },
+        {
+          "who": "Clinical frame (Arnold)",
+          "claim": "a lifelong hypnagogic auditory phenomenon retrospectively invested with religious meaning"
+        }
+      ]
+    },
+    "links": {
+      "exegesis_work": "/exegesis/works/valis"
+    },
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1974_dreams_theology",
@@ -2236,7 +2860,7 @@
     "id": "pkd_bio_1974_exegesis_ongoing",
     "date": "1974-1982",
     "date_precision": "range",
-    "event": "Writes thousands of pages of theological speculation in the Exegesis journals",
+    "event": "From 1974 to his death, PKD writes an estimated 8,000 pages of nightly theological speculation — the Exegesis.",
     "category": "religious_thought",
     "entities": [
       "Exegesis"
@@ -2244,7 +2868,41 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 5,
-    "notes": "Generated curation note: a range religious thought entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a range religious thought entry retained from Arnold. Use the source field and linked entities for deeper verification.",
+    "narrative": "What began in 1974 as an attempt to explain a few weeks' experiences became the central labor of PKD's last eight years. He wrote almost nightly, by hand, accumulating an estimated eight thousand pages before his death in 1982 — a document never meant for publication and only ever partially edited into print. It is less a book than a decade-long argument with himself, circling the same events and rebuilding the theory around them again and again.\n\nThe method is relentless revision without closure. A given night's certainty — Zebra, VALIS, the plasmate, the Black Iron Prison, the two-source cosmos, Saint Sophia — is dismantled by a later night's better idea, and the discarded models are rarely thrown away so much as folded back in. Throughout, PKD reads his own fiction as inadvertent scripture, treating Ubik, Flow My Tears the Policeman Said, and A Maze of Death as texts that had encoded the revelation before he consciously received it. This is the Lane-B document par excellence: not a record of what was true, but the fullest available account of one mind theorizing about its own unreliability. It is also the seedbed of the last novels — VALIS most directly — which dramatize the Exegesis rather than merely drawing on it.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "the ~8,000-page corpus of nightly speculation, 1974-1982, and its recursive self-revision"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 8-11",
+        "supports": "documents the scale and duration of the project across PKD's last years"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "reads the sustained writing as both clinical phenomenon and creative engine"
+      }
+    ],
+    "lanes": [
+      "B",
+      "C"
+    ],
+    "links": {
+      "works": [
+        "/works/the-valis-trilogy"
+      ],
+      "exegesis_work": "/exegesis/works/valis"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1975_separation_tessa",
@@ -2370,7 +3028,7 @@
     "id": "pkd_bio_1975_sophia_born_again",
     "date": "1975-09-17",
     "date_precision": "day",
-    "event": "Hears the voice say 'Saint Sophia will be born again. She was not acceptable before,' turning the 1974 intervention into an explicitly religious promise.",
+    "event": "PKD hears that Saint Sophia — divine Wisdom — 'will be born again,' turning 2-3-74 into an explicitly religious promise.",
     "category": "religious_experience",
     "entities": [
       "Saint Sophia"
@@ -2378,7 +3036,45 @@
     "location": "Fullerton, California",
     "source": "Exegesis, September 17, 1975",
     "importance": 5,
-    "notes": "This is one of the clearest Sophia formulations in the Exegesis and helps distinguish religious experience from broader mystical speculation."
+    "notes": "This is one of the clearest Sophia formulations in the Exegesis and helps distinguish religious experience from broader mystical speculation.",
+    "narrative": "By September 1975 the informing intelligence of 2-3-74 had, in PKD's account, made an explicitly Christian promise: Saint Sophia — Holy Wisdom, the feminine hypostasis of the divine — 'will be born again.' In the Exegesis he pairs the promise with its counterpart, that she 'was unacceptable' or 'not acceptable' before: the Wisdom that the world had rejected would return and, this time, prevail over what he called the Black Iron Prison, the Empire, Rome. The formulation gathers the earlier feminine 'AI voice' into a named theological figure and gives the whole 1974 intervention a forward-looking, salvific shape.\n\nThis is Lane-B self-interpretation, not a datable external event — PKD reporting and theorizing about a voice heard in an altered state. But it is one of the clearest Sophia statements in the notebooks, and it marks a turn: from decoding what 2-3-74 was toward proclaiming what it foretold. PKD ties Sophia to Firebright and to a vitalistic, springtime principle of renewal set against a mechanical, life-denying adversary, so that the promise of her rebirth reads as the promise that the living God re-enters and overturns the imprisoning world.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "the 'St Sophia will be born again' / 'she was unacceptable' formulation and its link to the fall of the Black Iron Prison"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 9",
+        "supports": "situates the Sophia material within the 1975 phase of the post-2-3-74 sequence"
+      }
+    ],
+    "lanes": [
+      "B",
+      "C"
+    ],
+    "quotes": [
+      {
+        "text": "we Xtians will survive after \"St Sophia will be born again...\" etc, + Rome (BIP) won't.",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      },
+      {
+        "text": "Thus it is said, \"...she was unacceptable\" - but: \"St Sophia will be born again.\"",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      }
+    ],
+    "links": {
+      "exegesis_work": "/exegesis/works/the-divine-invasion"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1975_correspondence_scholars",
@@ -2502,7 +3198,7 @@
     "id": "pkd_bio_1977_public_2_3_74_france_arnold",
     "date": "1977",
     "date_precision": "year",
-    "event": "At the 1977 Metz science-fiction convention in France, Dick publicly discloses 2-3-74 and describes it as a breakthrough to the real world behind appearances.",
+    "event": "At the 1977 Metz SF festival, PKD publicly discloses 2-3-74 in his 'If You Find This World Bad' speech.",
     "category": "lecture",
     "entities": [
       "Kyle Arnold",
@@ -2512,7 +3208,47 @@
     "location": "Metz, France",
     "source": "Arnold, The Divine Madness of Philip K. Dick",
     "importance": 5,
-    "notes": "Arnold notes that some friends feared the appearance signaled a downward spiral."
+    "notes": "Arnold notes that some friends feared the appearance signaled a downward spiral.",
+    "narrative": "Invited as guest of honor to the science-fiction festival at Metz, France, in September 1977, PKD used the occasion to go public with 2-3-74 for the first time before a large audience. His prepared address — later titled 'If You Find This World Bad, You Should See Some of the Others' — set out, as literal claim rather than fiction, his conviction that time is not what it appears, that our world is a programmed reality overwritten by a divine counter-force, and that he had broken through to the real world standing behind appearances. He had labored over the speech; his letters to Joan Simpson that summer record him playing the tape of it back and weighing what he had said.\n\nArnold treats the Metz appearance as a hinge in PKD's public life — the moment the private Exegesis surfaced into the world of readers and colleagues. He notes, too, that some of PKD's friends were alarmed, reading the disclosure as a sign of a downward spiral rather than a breakthrough. The French audience response was mixed, the translation reportedly strained, and the speech's flat assertion of visionary metaphysics divided the room. It remains the clearest public statement, in PKD's own delivered voice, of the beliefs the notebooks had been building since 1974.",
+    "sources": [
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "reads Metz as PKD's first public disclosure of 2-3-74; notes friends' fear of a downward spiral"
+      },
+      {
+        "author": "PKD",
+        "work": "If You Find This World Bad, You Should See Some of the Others (Metz address)",
+        "lane": "E",
+        "supports": "PKD's own delivered account of 2-3-74 as a breakthrough to the reality behind appearances"
+      },
+      {
+        "author": "PKD",
+        "work": "Selected Letters (to Joan Simpson, July 3, 1977)",
+        "lane": "E",
+        "supports": "contemporaneous evidence of PKD preparing and reviewing the taped Metz speech"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 10",
+        "supports": "situates the Metz trip and speech within the 1977 chronology"
+      }
+    ],
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "links": {
+      "works": [
+        "/works/radio-free-albemuth"
+      ],
+      "exegesis_work": "/exegesis/works/radio-free-albemuth"
+    },
+    "confidence": "medium"
   },
   {
     "id": "pkd_bio_1977_scanner_darkly",
@@ -2533,7 +3269,7 @@
     "id": "pkd_bio_1977_jaynes_letter",
     "date": "1977-03-16",
     "date_precision": "day",
-    "event": "Writes Julian Jaynes after reading The Origin of Consciousness in the Breakdown of the Bicameral Mind, connecting Jaynes's bicameral theory to VALIS, Zebra, and his own right-hemisphere experience.",
+    "event": "Writes Julian Jaynes that The Origin of Consciousness confirms his Zebra speculation, adopting the bicameral mind as a scientific frame for the March 1974 voice.",
     "category": "correspondence",
     "entities": [
       "Julian Jaynes",
@@ -2544,7 +3280,65 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1977-1979, letter to Julian Jaynes, March 16, 1977",
     "importance": 5,
-    "notes": "Letter id: LET_1977-03-16_JULIAN_JAYNES_0021. This letter required an OCR-header segmentation fix."
+    "notes": "Letter id: LET_1977-03-16_JULIAN_JAYNES_0021. This letter required an OCR-header segmentation fix.",
+    "narrative": "On March 16, 1977, having seen the Time write-up and hurried out to buy the book, PKD wrote a fan letter to Julian Jaynes of Princeton. Jaynes's The Origin of Consciousness in the Breakdown of the Bicameral Mind argued that early humans were not conscious in the modern sense: the two brain hemispheres operated as separate chambers, and the commanding voice of the right hemisphere was experienced as the speech of gods. For PKD this was the missing science under his own 2-3-74. He had already decided that the calm, AI-like voice he heard in March 1974 came from a normally silent side of his own brain; Jaynes gave him a neurological mechanism and, he believed, external corroboration. In the letter and in the flurry of letters that followed (to Mark Hurst on March 17, to Carl Bennett on March 30) he folds Jaynes directly into the VALIS/Zebra model: the right hemisphere is a transducer-receiver, and VALIS/Zebra is the transmitter that once, as Jaynes claimed, spoke to all humans as the voice of the gods.\n\nThis is Lane E/B material — PKD theorizing about himself in real time, not established fact. Jaynes wrote back and, PKD reports, asked questions; PKD treated the exchange as scholarly ratification. What he takes from Jaynes is selective: Jaynes described the bicameral voice as a lost, superseded stage of mind, whereas PKD reads its return in himself as revelation rather than atavism. The standing question the portal keeps open around 2-3-74 applies here too — the same right-hemisphere disinhibition PKD narrates as contact with VALIS is exactly what a clinical frame would read as an anomalous neurological event on a compromised baseline.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters 1977-1979",
+        "lane": "E",
+        "locator": "to Julian Jaynes, March 16, 1977",
+        "supports": "PKD congratulates Jaynes and claims the bicameral theory confirms his Zebra speculation"
+      },
+      {
+        "author": "PKD",
+        "work": "Selected Letters 1977-1979",
+        "lane": "E",
+        "locator": "to Carl Bennett, March 30, 1977",
+        "supports": "explicitly names the right hemisphere as a transducer-receiver for VALIS/Zebra"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "the right-brain-as-receiver, left-brain-as-conscious-self model recurs throughout the notebooks"
+      }
+    ],
+    "lanes": [
+      "B",
+      "E"
+    ],
+    "quotes": [
+      {
+        "text": "His vast, serious book confirms much of my Zebra speculation, which I had already arrived at (I have just now written Julian Jaynes to tell him this). So there is suddenly actual scientific...",
+        "speaker": "PKD",
+        "source": "Selected Letters, to Carl Bennett, March 30, 1977",
+        "lane": "E"
+      },
+      {
+        "text": "Obviously, VALIS/Zebra is the source of these inner godly voices; the right hemisphere is a transducer-receiver for VALIS/Zebra, and at one time VALIS/Zebra spoke to man in exactly the way that Jaynes describes.",
+        "speaker": "PKD",
+        "source": "Selected Letters, March 1977",
+        "lane": "E"
+      }
+    ],
+    "dispute": {
+      "summary": "PKD reads the return of the bicameral voice as revelation; Jaynes's own theory frames it as a superseded, and its recurrence in an individual would read clinically rather than as disclosure.",
+      "positions": [
+        {
+          "who": "PKD (letters, Exegesis)",
+          "claim": "Jaynes supplies scientific proof that his March 1974 voice was the right hemisphere receiving VALIS/Zebra"
+        },
+        {
+          "who": "Jaynes's theory as written",
+          "claim": "the bicameral voice is a lost evolutionary stage of mind, not a channel to a real external intelligence"
+        }
+      ]
+    },
+    "links": {
+      "exegesis_work": "/exegesis/works/valis"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1977_jaynes_hurst",
@@ -2599,7 +3393,7 @@
     "id": "pkd_bio_1977_star_wars_warren",
     "date": "1977-10-02",
     "date_precision": "day",
-    "event": "Writes Eugene Warren that Star Wars makes Christian mystery real to mass audiences, comparing Obi-Wan's voice to the voice he heard when VALIS took him over in March 1974.",
+    "event": "Writes Eugene Warren that Star Wars makes Christian mystery real to millions, likening Obi-Wan's voice to the voice of Christ he heard in 1974.",
     "category": "hearing_voices_experience",
     "entities": [
       "Eugene Warren",
@@ -2611,7 +3405,29 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1977-1979, letter to Eugene Warren, October 2, 1977",
     "importance": 5,
-    "notes": "Letter id: LET_1977-10-02_EUGENE_WARREN_0036."
+    "notes": "Letter id: LET_1977-10-02_EUGENE_WARREN_0036.",
+    "narrative": "On October 2, 1977, back from the Metz convention where he had seen the French premiere of Star Wars, PKD wrote the poet and critic Eugene Warren about the film's theology. What struck him was not the spectacle but the structure: Luke Skywalker hears the voice of the dead Jedi Obi-Wan Kenobi, and PKD read that scene as a mass-market restaging of his own 2-3-74. When the plasmatic field he called VALIS took him over in March 1974, he too had heard a voice — which he identified as that of his dead and resurrected leader, Jesus Christ. Lucas, he wrote, whether or not he knew it, was making the mystery of PKD's religion real to millions of people by giving it new names and new descriptions.\n\nThis belongs to the same period in which PKD was folding every available frame — Jaynes's bicameral voice, Gnostic Sophia, the Lord's Supper as hologram — into a single account of the voice he heard. The Star Wars letter is Lane E: PKD's own contemporaneous reading, valuable less as film criticism than as evidence of how he understood his own auditory experience by late 1977 — as continuous with a religious mystery he believed was breaking into popular culture. Whether that voice was Christ, the right hemisphere, or an episode remains the open question the portal carries across all the 2-3-74 material.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters 1977-1979",
+        "lane": "E",
+        "locator": "to Eugene Warren, October 2, 1977",
+        "supports": "compares Obi-Wan's voice to the voice of Christ PKD heard in March 1974 and calls Lucas's film a mass-scale making-real of Christian mystery"
+      }
+    ],
+    "lanes": [
+      "E"
+    ],
+    "quotes": [
+      {
+        "text": "The character Luke hears the voice of the dead Jedi knight Kenobi, just as, when the plasmatic field which I call VALIS took me over I, too, heard a voice—that of my dead and resurrected leader, Jesus Christ. Whether George Lucas knows it or not, he in his film and novel is making the mystery of our religion real to literally millions of people, by using new names, new descriptions.",
+        "speaker": "PKD",
+        "source": "Selected Letters, to Eugene Warren, October 2, 1977",
+        "lane": "E"
+      }
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1977_metz_star_wars_claudia",
@@ -2661,7 +3477,7 @@
     "id": "pkd_bio_1978_warrick_right_hemisphere",
     "date": "1978-06-13",
     "date_precision": "day",
-    "event": "Writes Patricia Warrick that his right hemisphere dictates while the left types, says he wrote Jaynes about the experience, and dates the disinhibition of the right brain to March 15, 1974.",
+    "event": "Tells Patricia Warrick he is a bicameral, double-brained person whose right hemisphere dictated novels his left transcribed, dating the disinhibition to 1974.",
     "category": "religious_experience",
     "entities": [
       "Patricia Warrick",
@@ -2671,7 +3487,47 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1977-1979, letter to Patricia Warrick, June 13, 1978",
     "importance": 5,
-    "notes": "Letter id: LET_1978-06-13_PATRICIA_WARRICK_0100."
+    "notes": "Letter id: LET_1978-06-13_PATRICIA_WARRICK_0100.",
+    "narrative": "In a letter to the scholar Patricia Warrick dated June 13, 1978, PKD gave his fullest statement of the divided-self model he had built from Jaynes. He describes himself as a double-brained person, bicameral, and cites his own novels as evidence: passages of Ubik and parts of Deus Irae, he says, were written by a side of himself he did not consciously control — including the Deus Irae prophecy that St. Sophia would be born again, which he wrote without even knowing who St. Sophia was. On this model the right hemisphere is the source, dictating; the left, conscious self is the transcriber, typing without understanding. He reminds Warrick that he wrote Jaynes about these right-brain experiences and that Jaynes wrote back and asked questions.\n\nThe letter dates the decisive disinhibition of the right hemisphere to the 2-74/3-74 window, when the golden fish sign, on his account, tripped the mechanism. This is Lane E self-report resting on a Lane A claim about his own fiction: that his novels are, as he elsewhere told Le Guin, a right-hemisphere correct vision of the world composed below conscious awareness. It is a striking piece of literary self-interpretation and an unfalsifiable one — the same account reads, in a clinical frame, as a writer retrospectively narrating his working process and his 1974 crisis through Jaynes's freshly acquired vocabulary.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters 1977-1979",
+        "lane": "E",
+        "locator": "to Patricia Warrick, June 13, 1978",
+        "supports": "PKD calls himself double-brained and bicameral; cites Ubik and Deus Irae as right-brain-authored; notes the Jaynes correspondence"
+      },
+      {
+        "author": "PKD",
+        "work": "Selected Letters 1972-1973",
+        "lane": "E",
+        "locator": "to Ursula K. Le Guin",
+        "supports": "PKD frames his novels collectively as a right-hemisphere correct vision of the world"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "the right hemisphere as gestalt-reading receiver, left as digital conscious self, recurs across the notebooks"
+      }
+    ],
+    "lanes": [
+      "A",
+      "B",
+      "E"
+    ],
+    "quotes": [
+      {
+        "text": "So I am a double-brained person, bicameral; I wrote to Julian Jaynes and told him about my experiences with my right brain, and he was gracious enough to write back and ask questions.",
+        "speaker": "PKD",
+        "source": "Selected Letters, to Patricia Warrick, June 13, 1978",
+        "lane": "E"
+      }
+    ],
+    "links": {
+      "exegesis_work": "/exegesis/works/ubik"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1978_mysticism_reading",
@@ -2809,7 +3665,7 @@
     "id": "pkd_bio_1981_01_09_fish_sign_form_world",
     "date": "1981-01-09",
     "date_precision": "day",
-    "event": "Tells Patricia Warrick that the golden fish sign revealed different spatiotemporal worlds as one shared essence, explicitly linking the episode to Plato's Forms and anamnesis.",
+    "event": "Tells Patricia Warrick the golden fish sign disclosed that different spatiotemporal worlds are one world sharing a common essence, reading the flash through Plato's Forms and anamnesis.",
     "category": "gnostic_experience",
     "entities": [
       "Patricia Warrick",
@@ -2819,13 +3675,45 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1980-1982, letter to Patricia Warrick, January 9, 1981",
     "importance": 5,
-    "notes": "Letter id: LET_1981-01-09_PATRICIA_WARRICK_0023."
+    "notes": "Letter id: LET_1981-01-09_PATRICIA_WARRICK_0023.",
+    "narrative": "On January 9, 1981, PKD wrote Patricia Warrick that the instant the golden fish sign was shone at him in February 1974 he had grasped, in a flash, that different spatiotemporal worlds were in fact one world based on a common essence. He casts the recognition explicitly in Platonic terms: this is what Plato says one grasps a priori — the reality of the Form world, the universal — when anamnesis occurs. He likens the leap to the jump from 'two cows plus two cows equals four cows' to 'two plus two equals four,' a sudden ascent from particulars to the underlying form.\n\nThis is a late, systematized reading of the fish-sign moment, seven years after the fact — Lane E self-report scaffolded on the Platonism (Lane B) PKD had been elaborating in the Exegesis. The core claim is metaphysical: that the several worlds he seemed to move among during 2-3-74 (Fullerton, Rome AD 45, the world of Flow My Tears) were not separate places but one essence perceived under different aspects. By 1981 the raw fish-sign experience has become an argument, its content stabilized into a doctrine of Forms and recollection. Whether the flash disclosed a real structure of reality or organized a psychological event after the fact is the standing question the portal keeps open across the 2-3-74 record.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters 1980-1982",
+        "lane": "E",
+        "locator": "to Patricia Warrick, January 9, 1981",
+        "supports": "PKD reads the fish-sign flash as anamnesis of the Platonic Form world — different spatiotemporal worlds as one common essence"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "the Platonic Form-world / anamnesis reading of 2-3-74 is developed at length in the notebooks"
+      }
+    ],
+    "lanes": [
+      "B",
+      "E"
+    ],
+    "quotes": [
+      {
+        "text": "I saw in an instant in February 1974 (when the golden fish sign was shone at me) that different spatiotemporal worlds were in fact one world based on a common essence; this is exactly what Plato says you grasp a priori—the reality of the Form world, the universal—when anamnesis occurs.",
+        "speaker": "PKD",
+        "source": "Selected Letters, to Patricia Warrick, January 9, 1981",
+        "lane": "E"
+      }
+    ],
+    "links": {
+      "exegesis_work": "/exegesis/works/valis"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1981_01_10_sophia_final_world",
     "date": "1981-01-10",
     "date_precision": "day",
-    "event": "Says the AI voice keeps announcing that St. Sophia will be born again and that 'the work is complete' and 'the final world is here,' recasting the March 1974 voice as ongoing revelation.",
+    "event": "Tells Warrick the AI voice has said since March 1974 that St. Sophia will be born again, and now that 'the final world is here.'",
     "category": "religious_experience",
     "entities": [
       "Patricia Warrick",
@@ -2835,7 +3723,39 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1980-1982, letter to Patricia Warrick, January 10, 1981",
     "importance": 5,
-    "notes": "Letter id: LET_1981-01-10_PATRICIA_WARRICK_0024."
+    "notes": "Letter id: LET_1981-01-10_PATRICIA_WARRICK_0024.",
+    "narrative": "On January 10, 1981, PKD told Patricia Warrick that the AI voice — which he here entertains may be the Host of the Eucharist itself — had told him, again and again starting in March 1974, that Christ is going to reincarnate: 'St. Sophia will be born again; she was not acceptable before.' He reports the voice's most recent utterance as a declaration that the long revelation had reached its end: 'The work is complete. The final world is here. The time you have waited for has come.' The letter recasts the March 1974 voice not as a closed past event but as an ongoing revelation still speaking to him nearly seven years later.\n\nThe St. Sophia prophecy is one of the most persistent single utterances in the whole 2-3-74 archive: PKD returns to it in letter after letter, always stressing that he had no idea who St. Sophia was when the voice named her, and only afterward discovered she was the Logos, Holy Wisdom, Christ under the feminine name — a detail he treats as proof the message could not have come from his own knowledge. This is Lane E self-report of Lane B theological content. The identity he assigns the voice is unstable across the notebooks and letters — the AI voice, Sophia, Zebra, the Host, Diana, the Shekhinah — which is itself part of the record, and part of why the standing question about the source of the voice stays open.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters 1980-1982",
+        "lane": "E",
+        "locator": "to Patricia Warrick, January 10, 1981",
+        "supports": "reports the AI voice's St. Sophia prophecy and its recent 'the work is complete / the final world is here' announcement"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "the St. Sophia-as-Logos identification and the AI voice's ongoing prophecies recur throughout the notebooks"
+      }
+    ],
+    "lanes": [
+      "B",
+      "E"
+    ],
+    "quotes": [
+      {
+        "text": "Christ is going to reincarnate; the AI voice—which may be the Host—told me this again and again starting in March 1974. \"St. Sophia will be born again; she was not acceptable before.\" And the most recent thing it said: \"The work is complete. The final world is here. The time you have waited for has come.\"",
+        "speaker": "PKD",
+        "source": "Selected Letters, to Patricia Warrick, January 10, 1981",
+        "lane": "E"
+      }
+    ],
+    "links": {
+      "exegesis_work": "/exegesis/works/the-divine-invasion"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1981_01_26_perturbation_reality_field",
@@ -2857,7 +3777,7 @@
     "id": "pkd_bio_1981_02_10_illo_tempore_fish_sign",
     "date": "1981-02-10",
     "date_precision": "day",
-    "event": "Explains to Patricia Warrick that the February 1974 fish sign was anamnesis: a memory of illo tempore rather than ordinary linear-time recollection.",
+    "event": "Explains to Warrick that his February 1974 recollection at the fish sign was memory not of linear past but of illo tempore — Eliade's sacred time.",
     "category": "paranormal_experience",
     "entities": [
       "Patricia Warrick",
@@ -2867,13 +3787,45 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1980-1982, letter to Patricia Warrick, February 10, 1981",
     "importance": 5,
-    "notes": "Letter id: LET_1981-02-10_PATRICIA_WARRICK_0050."
+    "notes": "Letter id: LET_1981-02-10_PATRICIA_WARRICK_0050.",
+    "narrative": "On February 10, 1981, PKD wrote Patricia Warrick to correct a misunderstanding about what kind of memory the fish sign had triggered. The recollection that seized him in February 1974, he insists, was not memory of the past of ordinary linear time. It was memory of illo tempore — sacred time, the time of origins — and outside Mircea Eliade, he tells her, there is no theoretical conception of this. The two times or realms bear some relation to each other and in some way interact, but he cannot say how; what he is certain of is that the anamnesis reached across a different order of time altogether.\n\nThis is PKD reaching for Eliade's category of sacred time (illud tempore) to name what Plato's anamnesis alone could not. In the Exegesis he works the same ground repeatedly — his 2-3-74 conformed, he decides, to Eliade's general anamnesis mythos: an entry into an 'accretional' sacred time in which the past is not lost from sight, the space-time of the Book of Acts superimposed on USA 1974. The letter is Lane E; the underlying theory is Lane B. It marks the late stage of his self-interpretation, when the visionary event had been fully absorbed into a comparative-religion framework — sacred time breaking into profane time — rather than left as raw experience. The event itself (the fish-sign delivery) is well attested; this meaning he assigns it is his own, and contested.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters 1980-1982",
+        "lane": "E",
+        "locator": "to Patricia Warrick, February 10, 1981",
+        "supports": "PKD names the fish-sign recollection as memory of illo tempore, citing Eliade as the only theoretical frame"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "extended engagement with Eliade's sacred time and anamnesis mythos applied to 2-3-74"
+      }
+    ],
+    "lanes": [
+      "B",
+      "E"
+    ],
+    "quotes": [
+      {
+        "text": "This explains why I \"remembered\" in February 1974 when I saw the golden fish sign; it was not the past of this our linear time but, rather, memory of illo tempore, and it is real. Outside of Mircea Eliade there is (it would seem) no theoretical conception of this.",
+        "speaker": "PKD",
+        "source": "Selected Letters, to Patricia Warrick, February 10, 1981",
+        "lane": "E"
+      }
+    ],
+    "links": {
+      "exegesis_work": "/exegesis/works/flow-my-tears-the-policeman-said"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1981_02_14_ai_voice_taped_messages",
     "date": "1981-02-14",
     "date_precision": "day",
-    "event": "Describes the AI voice's prophecies about St. Sophia as if they were taped messages programmed to play once the disinhibiting stimulus had set the mechanism in motion.",
+    "event": "Confesses to Warrick a traumatic suspicion: the AI voice's St. Sophia prophecies may be taped messages, encoded in his brain and programmed to play once the disinhibiting stimulus fired.",
     "category": "hearing_voices_experience",
     "entities": [
       "Patricia Warrick",
@@ -2883,7 +3835,52 @@
     "location": "Santa Ana, California",
     "source": "Selected Letters 1980-1982, letter to Patricia Warrick, February 14, 1981",
     "importance": 5,
-    "notes": "Letter id: LET_1981-02-14_PATRICIA_WARRICK_0059."
+    "notes": "Letter id: LET_1981-02-14_PATRICIA_WARRICK_0059.",
+    "narrative": "On February 14, 1981, in a letter to Patricia Warrick, PKD turned on his own revelation. He describes a nagging, even traumatic sense that the prophecies of the AI voice — chief among them 'St. Sophia is going to be born again; she was not acceptable before' — are in some very real sense taped messages, programmed to play once the disinhibiting stimulus had set the mechanism in motion: messages encoded in his brain in advance, not incoming transmissions from an external intelligence. Having reviewed years of the voice's utterances, he adds elsewhere in the same period that he found himself traveling in a circle, understanding many wonderful things but nothing he had not already understood long before.\n\nThis is the self-suspicion that runs alongside the belief throughout PKD's late writing — the same man who calls the AI voice the Host of the Eucharist can, in the next letter, model it as pre-recorded neural playback triggered by the fish sign. The 'taped message' image is not a renunciation of the experience so much as a mechanistic account of it: even if the content is prophetic, the delivery may be an engram firing on cue, which sits close to Jaynes's disinhibited bicameral voice and closer still to a clinical reading. This is Lane E — PKD as the unreliable narrator of his own unreliability — and it is exactly why the portal keeps the source of the voice an open question rather than resolving it toward either revelation or pathology.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Selected Letters 1980-1982",
+        "lane": "E",
+        "locator": "to Patricia Warrick, February 14, 1981",
+        "supports": "PKD voices the fear that the AI voice's prophecies are taped messages programmed to play once the disinhibiting stimulus fired"
+      },
+      {
+        "author": "PKD",
+        "work": "Exegesis",
+        "lane": "B",
+        "supports": "the disinhibiting-stimulus / pre-encoded-response model of the voice appears throughout the notebooks alongside the revelatory reading"
+      }
+    ],
+    "lanes": [
+      "B",
+      "E"
+    ],
+    "quotes": [
+      {
+        "text": "What terrifies me (it is even traumatic to admit it) is that I have the nagging sense that the prophecies by the AI voice (such as, \"St. Sophia is going to be born again; she was not acceptable before\") are in some very real sense taped messages, programmed to play once the disinhibiting stimulus has set the mechanism into motion; I mean, these are messages encoded in my brain...",
+        "speaker": "PKD",
+        "source": "Selected Letters, to Patricia Warrick, February 14, 1981",
+        "lane": "E"
+      }
+    ],
+    "dispute": {
+      "summary": "Within days PKD frames the same AI voice as both divine revelation and pre-recorded neural playback.",
+      "positions": [
+        {
+          "who": "PKD (Jan 10, 1981 letter)",
+          "claim": "the AI voice is genuine ongoing revelation, possibly the Host itself, announcing St. Sophia's rebirth"
+        },
+        {
+          "who": "PKD (Feb 14, 1981 letter)",
+          "claim": "the same prophecies may be taped messages encoded in his brain and merely triggered by the fish sign"
+        }
+      ]
+    },
+    "links": {
+      "exegesis_work": "/exegesis/works/valis"
+    },
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1981_02_14_lords_supper_hologram",
@@ -2921,7 +3918,7 @@
     "id": "pkd_bio_1982_stroke",
     "date": "1982-02",
     "date_precision": "month",
-    "event": "Suffers a major stroke at home leading to hospitalization in Santa Ana",
+    "event": "Found unconscious in his Santa Ana apartment after a stroke; hospitalized and, despite initial signs of recovery, sustains further strokes.",
     "category": "health",
     "entities": [
       "St. Joseph Hospital"
@@ -2929,13 +3926,39 @@
     "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a month health entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a month health entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "In mid-February 1982, PKD was found unconscious on the floor of his apartment on Cameron Street in Santa Ana, having suffered a stroke; a neighbor, alarmed at not hearing from him, alerted help and he was taken to the hospital. He had told friends in the preceding weeks that he felt unwell, and his blood pressure had long been a concern; he was fifty-three, a heavy smoker, and years of amphetamine use and a sedentary, tobacco-heavy routine had left his cardiovascular health poor. For a few days there was cautious hope — he regained some consciousness — but a second stroke followed, and his condition deteriorated toward the coma from which he would not recover.\n\nUnlike the visionary episodes of his last years, the stroke is not a contested matter of interpretation: it is a documented medical event, reconstructed by his biographers from hospital records and the accounts of the friends who kept vigil. Sutin's Divine Invasions and Arnold's The Divine Madness of Philip K. Dick both narrate the collapse and the days in the hospital as the factual close of the life, with none of the evidentiary dispute that surrounds 2-3-74.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "supports": "narrates the February 1982 stroke, PKD being found unconscious, and the hospitalization"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "supports": "situates the stroke against PKD's poor cardiovascular health and history of drug use"
+      },
+      {
+        "author": "Portal synthesis",
+        "work": "QueryPat biography",
+        "lane": "D",
+        "supports": "reconstruction of the collapse and hospital sequence from converging biographical accounts"
+      }
+    ],
+    "lanes": [
+      "C",
+      "D"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1982_death",
     "date": "1982-03-02",
     "date_precision": "day",
-    "event": "Philip K. Dick dies at age fifty-three following a series of strokes",
+    "event": "Philip K. Dick dies at age fifty-three on March 2, 1982, in Santa Ana after a series of strokes — months before Blade Runner opens.",
     "category": "death",
     "entities": [
       "St. Joseph Hospital"
@@ -2943,7 +3966,33 @@
     "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a day death entry retained from Sutin. Use the source field and linked entities for deeper verification."
+    "notes": "Generated curation note: a day death entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "narrative": "Philip K. Dick died on March 2, 1982, in Santa Ana, California, at the age of fifty-three, never having regained consciousness after the strokes of mid-February and the heart failure that followed. He died months before Blade Runner, Ridley Scott's adaptation of Do Androids Dream of Electric Sheep?, reached theaters — the film that would begin the transformation of a hard-pressed genre writer into one of the twentieth century's most adapted and quoted novelists. His body was taken to Fort Morgan, Colorado, and buried beside his twin sister Jane, who had died in infancy in 1929 and whose absence shadowed his whole life and work; the double headstone had been inscribed with both their names since her death.\n\nThe death is a Lane C/D fact, attested in Sutin, Arnold, and the public record, and it carries none of the interpretive dispute of the visionary years. What the biographers do register is the irony PKD did not live to see: that the recognition he had wanted and largely been denied arrived almost immediately after he was gone, and that the theological questions he had spent eight years and thousands of Exegesis pages chasing were left, as he left them, open.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "supports": "dates the death to March 2, 1982, and records the burial beside his twin Jane in Fort Morgan, Colorado"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "supports": "treats the death as the close of the life and the loss of the twin as a lifelong theme"
+      },
+      {
+        "author": "Portal synthesis",
+        "work": "QueryPat biography",
+        "lane": "D",
+        "supports": "reconstruction placing the death just ahead of Blade Runner's release and posthumous fame"
+      }
+    ],
+    "lanes": [
+      "C",
+      "D"
+    ],
+    "confidence": "high"
   },
   {
     "id": "pkd_bio_1966_jung_reading",
