@@ -61,6 +61,13 @@ export default function Exegesis() {
           Lane B evidence (PKD's self-report &mdash; one of five lanes used across the {' '}
           <Link to="/archive">archive</Link>): they show what he theorized about himself, not necessarily what was true.
         </p>
+        <p>
+          One of the most striking things the notebook does is read PKD's <em>own fiction</em> back as scripture.
+          {' '}<Link to="/exegesis/works"><strong>Works in the Exegesis</strong></Link> collects every passage where he
+          interprets one of his novels or stories &mdash; <em>Ubik</em> as the Holy Spirit hidden in a spray can,
+          {' '}<em>VALIS</em> as the theory the Exegesis is still trying to prove &mdash; with the theological use he makes
+          of each.
+        </p>
       </div>
 
       <div className="stats-grid">

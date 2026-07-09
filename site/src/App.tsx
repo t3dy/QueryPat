@@ -3,6 +3,8 @@ import Layout from './components/Layout'
 import Dashboard from './pages/Dashboard'
 import Timeline from './pages/Timeline'
 import Exegesis from './pages/Exegesis'
+import ExegesisWorks from './pages/ExegesisWorks'
+import ExegesisWorkDetail from './pages/ExegesisWorkDetail'
 import Essays from './pages/Essays'
 import EssayDetail from './pages/EssayDetail'
 import Theophanies from './pages/Theophanies'
@@ -46,6 +48,8 @@ function App() {
           <Route path="timeline" element={<Timeline />} />
           <Route path="timeline/:year" element={<Timeline />} />
           <Route path="exegesis" element={<Exegesis />} />
+          <Route path="exegesis/works" element={<ExegesisWorks />} />
+          <Route path="exegesis/works/:slug" element={<ExegesisWorkDetail />} />
           <Route path="essays" element={<Essays />} />
           <Route path="essays/:slug" element={<EssayDetail />} />
           <Route path="theophanies" element={<Theophanies />} />

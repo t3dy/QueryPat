@@ -4,6 +4,29 @@ import { useData } from '../hooks/useData'
 import { BIOGRAPHY_CATEGORY_COLORS, BIOGRAPHY_CATEGORY_NAMES } from '../data/biographyTaxonomy'
 
 /* ─── Curated schema (style-audited events) ─── */
+interface BioSource {
+  author: string
+  work: string
+  lane: string
+  locator?: string
+  supports?: string
+}
+interface BioDispute {
+  summary: string
+  positions: { who: string; claim: string }[]
+}
+interface BioQuote {
+  text: string
+  speaker?: string
+  source?: string
+  lane?: string
+}
+interface BioLinks {
+  people?: string[]
+  works?: string[]
+  exegesis_work?: string
+  theophany?: string
+}
 interface CuratedBioEvent {
   id: string
   date: string
@@ -17,6 +40,21 @@ interface CuratedBioEvent {
   notes: string
   theophany_id?: string | null
   theophany_slug?: string | null
+  // ── enriched-entry fields (all optional; see Documentation/BIOGRAPHY_AND_EXEGESIS_WORKS_METHOD.md §A.2) ──
+  narrative?: string
+  sources?: BioSource[]
+  lanes?: string[]
+  dispute?: BioDispute
+  quotes?: BioQuote[]
+  links?: BioLinks
+  confidence?: string
+}
+
+const LANE_COLORS: Record<string, string> = {
+  A: '#6B8FA1', B: '#9B6B9B', C: '#C09A4D', D: '#7B9B6B', E: '#A16B6B',
+}
+const LANE_NAMES: Record<string, string> = {
+  A: 'Fiction', B: 'Exegesis', C: 'Scholarship', D: 'Synthesis', E: 'Letters/interviews',
 }
 
 /* ─── Dictionary index entry ─── */
@@ -510,17 +548,109 @@ function CuratedEventCard({ event, dictLookup, onCategoryClick, onSearchEntity }
         </div>
         <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)', whiteSpace: 'nowrap' }}>
           {event.source}
+          {event.confidence && (
+            <span style={{ marginLeft: '0.5rem', fontSize: '0.68rem', fontStyle: 'italic' }}>
+              ({event.confidence} confidence)
+            </span>
+          )}
         </span>
       </div>
 
-      <p style={{ fontFamily: 'var(--font-body)', fontSize: '0.95rem', margin: '0.5rem 0', lineHeight: 1.6 }}>
+      <p style={{
+        fontFamily: 'var(--font-body)',
+        fontSize: event.narrative ? '1rem' : '0.95rem',
+        fontWeight: event.narrative ? 600 : 400,
+        margin: '0.5rem 0', lineHeight: 1.55,
+      }}>
         {event.event}
       </p>
+
+      {/* Enriched: synthesized narrative prose */}
+      {event.narrative && event.narrative.split('\n\n').map((para, i) => (
+        <p key={i} style={{ fontFamily: 'var(--font-body)', fontSize: '0.92rem', margin: '0.5rem 0', lineHeight: 1.65, color: 'var(--text-secondary)' }}>
+          {para}
+        </p>
+      ))}
+
+      {/* Enriched: verbatim quotes (Exegesis / Letters) */}
+      {(event.quotes || []).map((q, i) => (
+        <blockquote key={i} style={{
+          borderLeft: `2px solid ${LANE_COLORS[q.lane || ''] || 'var(--border-light)'}`,
+          padding: '0.1rem 0.8rem', margin: '0.5rem 0', fontStyle: 'italic',
+          fontSize: '0.88rem', color: 'var(--text-secondary)', lineHeight: 1.6,
+        }}>
+          "{q.text}"
+          {(q.speaker || q.source) && (
+            <footer style={{ fontStyle: 'normal', fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.2rem' }}>
+              — {q.speaker}{q.speaker && q.source ? ', ' : ''}{q.source}
+              {q.lane && <span style={{ marginLeft: '0.4rem' }}>[Lane {q.lane}]</span>}
+            </footer>
+          )}
+        </blockquote>
+      ))}
+
+      {/* Enriched: dispute / contradiction-surfacing */}
+      {event.dispute && (
+        <div style={{
+          border: '1px solid #C09A4D66', background: '#C09A4D14',
+          borderRadius: '4px', padding: '0.6rem 0.8rem', margin: '0.6rem 0',
+        }}>
+          <div style={{ fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--accent)', fontWeight: 600, marginBottom: '0.3rem' }}>
+            ⚖ Accounts differ
+          </div>
+          <p style={{ fontSize: '0.85rem', margin: '0 0 0.4rem', color: 'var(--text-secondary)', lineHeight: 1.55 }}>
+            {event.dispute.summary}
+          </p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem' }}>
+            {event.dispute.positions.map((p, i) => (
+              <li key={i} style={{ fontSize: '0.83rem', color: 'var(--text-secondary)', lineHeight: 1.5, marginBottom: '0.2rem' }}>
+                <strong>{p.who}:</strong> {p.claim}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* Enriched: source list with lane badges */}
+      {event.sources && event.sources.length > 0 && (
+        <div style={{ margin: '0.5rem 0 0.25rem' }}>
+          {event.sources.map((s, i) => (
+            <div key={i} style={{ display: 'flex', alignItems: 'baseline', gap: '0.4rem', fontSize: '0.78rem', color: 'var(--text-muted)', marginBottom: '0.15rem' }}>
+              <span title={LANE_NAMES[s.lane] || s.lane} style={{
+                flexShrink: 0, fontFamily: 'var(--font-mono)', fontSize: '0.65rem', fontWeight: 700,
+                color: '#fff', background: LANE_COLORS[s.lane] || '#888',
+                borderRadius: '3px', padding: '0.05rem 0.3rem',
+              }}>
+                {s.lane}
+              </span>
+              <span>
+                <strong style={{ color: 'var(--text-secondary)' }}>{s.author}</strong>, <em>{s.work}</em>
+                {s.locator ? ` (${s.locator})` : ''}{s.supports ? ` — ${s.supports}` : ''}
+              </span>
+            </div>
+          ))}
+        </div>
+      )}
 
       {event.location && (
         <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem', margin: '0.25rem 0' }}>
           {event.location}
         </p>
+      )}
+
+      {/* Enriched: cross-links */}
+      {event.links && (
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.6rem', margin: '0.4rem 0', fontSize: '0.78rem' }}>
+          {event.links.exegesis_work && (
+            <Link to={event.links.exegesis_work}>In the Exegesis →</Link>
+          )}
+          {(event.links.works || []).map(w => (
+            <Link key={w} to={w}>{w.split('/').pop()?.replace(/-/g, ' ')}</Link>
+          ))}
+          {(event.links.people || []).map(p => (
+            <Link key={p} to={p}>{p.split('/').pop()?.replace(/-/g, ' ')}</Link>
+          ))}
+        </div>
       )}
 
       {event.theophany_id && (
