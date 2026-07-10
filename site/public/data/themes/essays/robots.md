@@ -118,7 +118,7 @@ Second Variety and Other Classic Stories is the canonical works record for PKD's
 
 ### Autofac
 
-Autofac is a canonical short work by PKD exploring the automation of production. In a story like [Autofac](/works/autofac), an automatic factory serves a community with perfect efficiency, but the humans discover they have lost all capacity to live without it. The machinery has become invisible precisely because it works so well. The horror is not the machine's rebellion or malevolence, but human dependence and the impossibility of returning to authentic agency once the machine has replaced human labor and decision-making.
+Autofac is a canonical short work by PKD exploring the automation of production. In a story like Autofac, an automatic factory serves a community with perfect efficiency, but the humans discover they have lost all capacity to live without it. The machinery has become invisible precisely because it works so well. The horror is not the machine's rebellion or malevolence, but human dependence and the impossibility of returning to authentic agency once the machine has replaced human labor and decision-making.
 
 ### The Book of Philip K. Dick
 

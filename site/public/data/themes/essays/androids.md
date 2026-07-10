@@ -84,10 +84,10 @@ In the end, Dick's androids are not threats to humanity. They are humanity's mir
 
 ## Cross-references
 
-**Dictionary Terms:** [VALIS](/dictionary/valis) · [Empathy](/dictionary/empathy) · [Authentic Human](/dictionary/authentic-human) · [Homophily](/dictionary/homophily) · [Caritas](/dictionary/caritas) · [Plasmate](/dictionary/plasmate)
+**Dictionary Terms:** [VALIS](/dictionary/valis) · [Empathy](/studies/psychology/empathy) · [Authentic Human](/themes/authentic-human) · Homophily · Caritas · [Plasmate](/dictionary/plasmate)
 
 **Scholars:** Lawrence Sutin · Kyle Arnold · Jeffrey Kripal
 
-**Major Works:** [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep) · [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon) · [Now Wait for Last Year](/works/now-wait-for-last-year) · [Solar Lottery](/works/solar-lottery) · [The Cosmic Puppets](/works/the-cosmic-puppets) · [Second Variety](/works/second-variety) · [The Electric Ant](/works/the-electric-ant) · [VALIS](/works/valis) · [Divine Invasion](/works/divine-invasion)
+**Major Works:** [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep) · [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon) · [Now Wait for Last Year](/works/now-wait-for-last-year) · [Solar Lottery](/works/solar-lottery) · [The Cosmic Puppets](/works/the-cosmic-puppets) · Second Variety · The Electric Ant · [VALIS](/works/the-valis-trilogy) · Divine Invasion
 
 **Related Exegesis Segments:** Authenticity and Divine Recognition · The Black Iron Prison and the Plasmate · Christ as Cosmic Android · Empathy as Theological Knowledge

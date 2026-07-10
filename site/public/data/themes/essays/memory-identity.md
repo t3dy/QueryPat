@@ -32,7 +32,7 @@ The novel does not resolve this. The characters do not recover stable identities
 
 ### A Scanner Darkly (1977)
 
-[A Scanner Darkly](/works/a-scanner-darkly) stages identity dissolution through the scramble suit: a technology that obscures the wearer's identity by constantly shifting their visual appearance. Officer Fred, in the scramble suit, becomes literally unrecognizable even to himself. He cannot see his own face. He is unknown to himself.
+A Scanner Darkly stages identity dissolution through the scramble suit: a technology that obscures the wearer's identity by constantly shifting their visual appearance. Officer Fred, in the scramble suit, becomes literally unrecognizable even to himself. He cannot see his own face. He is unknown to himself.
 
 The plot gradually reveals that Fred is Bob Arctor. Bob, a drug user and informant, and Fred, a narcotics officer, are the same person. The revelation is not the point; the process of that revelation is. The novel stages the protagonist's slow realization that he is two people, that the identity he has maintained in one role (Fred) is being revealed as false because he was actually, all along, someone else (Bob). Neither identity is true. Both are functions of a system that has divided him.
 
@@ -44,7 +44,7 @@ The ending strips away any consolation: the protagonist is left in a state of pe
 
 ### Flow My Tears, the Policeman Said (1974)
 
-[Flow My Tears, the Policeman Said](/works/flow-my-tears-the-policeman-said) stages identity dissolution through erasure. Jason Taverner, a famous pop entertainer, wakes to find that no one recognizes him. His fame, which constituted a significant portion of his identity, has been erased. But more disturbing: public records show he never existed. No birth certificate, no history, no proof that he was ever born.
+Flow My Tears, the Policeman Said stages identity dissolution through erasure. Jason Taverner, a famous pop entertainer, wakes to find that no one recognizes him. His fame, which constituted a significant portion of his identity, has been erased. But more disturbing: public records show he never existed. No birth certificate, no history, no proof that he was ever born.
 
 The drug KR-3 is blamed (or responsible), but the real mechanism is systemic. A police state, armed with sufficient database power, can simply erase someone from the records. Identity, it turns out, is not something internal. It is an entry in a system. Once the entry is deleted, the person ceases to exist in any practical sense. Taverner is not dead, but he is nobody. He has no legal standing. He cannot work, cannot claim citizenship, cannot be recognized by anyone who knew him before.
 
@@ -136,8 +136,8 @@ The tragic insight that animates PKD's best work on memory and identity is this:
 
 - **Dictionary:** [identity](/dictionary), [memory](/dictionary), [false memory](/dictionary), [self](/dictionary), [consciousness](/dictionary), [Ubik](/dictionary/ubik)
 - **Scholars:** [Fredric Jameson](/scholars), [Umberto Rossi](/scholars), [Christopher Palmer](/scholars), [Kim Stanley Robinson](/scholars), [Anthony Peake](/scholars)
-- **Works:** [Ubik](/works/ubik), [A Scanner Darkly](/works/a-scanner-darkly), [Flow My Tears, the Policeman Said](/works/flow-my-tears-the-policeman-said), [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep)
+- **Works:** [Ubik](/works/ubik), A Scanner Darkly, Flow My Tears, the Policeman Said, [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep)
 - **Exegesis:** Passages on memory and identity, the reliability of consciousness, the 2-3-74 event and its implications for selfhood, implantation and invasion of the self
-- **Companion essays:** [Reality Breakdown](/essays/reality-breakdown), [Time](/essays/time)
+- **Companion essays:** [Reality Breakdown](/themes/reality-breakdown), [Time](/themes/time)
 
 *Lane sourcing: this essay draws on Lane A (fiction) for the novel readings, Lane B (Exegesis) for PKD's own reflections on memory and identity, and Lane C (scholarship) for the theoretical framework. The Exegesis passage is quoted in Lane B notation.*

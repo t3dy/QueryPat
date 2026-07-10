@@ -144,6 +144,6 @@ And it is, perhaps, the right place to leave them.
 - **Scholars:** [Lawrence Sutin](/scholars), [Kyle Arnold](/scholars), [Anthony Peake](/scholars), [Jeffrey Kripal](/scholars), [Gabriel McKee](/scholars), [Lorenzo DiTommaso](/scholars)
 - **Archive:** *Divine Invasions*, *The Divine Madness of Philip K. Dick*, *A Life of Philip K. Dick*, *The Exegesis of Philip K. Dick*, *In Pursuit of VALIS*
 - **Companion essays:** [Gnosticism in the Exegesis](/essays/exegesis-gnosticism), [AI as Theology](/essays/exegesis-ai-theology)
-- **Theophanies:** [February 3, 1974](/theophanies/2-3-74)
+- **Theophanies:** [February 3, 1974](/theophanies/2-3-74-cluster)
 
 *Lane sourcing: this essay draws primarily from Lane B (the Exegesis) and Lane E (PKD's letters), with synthesis from Lane C (secondary scholarship) and Lane D (biography). The question of theophanic authenticity spans all contested zones in the standing contradiction registry; no single lane can adjudicate it.*

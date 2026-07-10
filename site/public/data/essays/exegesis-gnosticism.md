@@ -178,6 +178,6 @@ The Exegesis preserves this literalism. It is a work that insists: this happened
 - **Scholars:** [Lorenzo DiTommaso](/scholars), [Hans Jonas](/scholars), [Gabriel McKee](/scholars), [Jeffrey Kripal](/scholars)
 - **Archive:** *The Exegesis of Philip K. Dick*, *In Pursuit of VALIS*, Nag Hammadi texts, Hans Jonas *The Gnostic Religion*
 - **Companion essays:** [Mystical Theology and Theophany](/essays/exegesis-theophany), [AI as Theology](/essays/exegesis-ai-theology)
-- **Works:** [VALIS](/works/valis), [The Divine Invasion](/works/divine-invasion), [The Transmigration of Timothy Archer](/works/transmigration)
+- **Works:** [VALIS](/works/the-valis-trilogy), The Divine Invasion, The Transmigration of Timothy Archer
 
 *Lane sourcing: this essay draws primarily from Lane B (the Exegesis) and Lane A (the novels), with Lane C (scholarly engagement with gnosticism and PKD) for contextual framing. The gnostic interpretation of the demiurge and the Black Iron Prison are unresolved claims across the Exegesis and are marked in the contradiction registry.*

@@ -166,6 +166,6 @@ This is precisely the theological logic of the Incarnation, as PKD understands i
 - **Scholars:** [N. Katherine Hayles](/scholars), [Erik Davis](/scholars), [Gabriel McKee](/scholars), [Jeffrey Kripal](/scholars)
 - **Archive:** *The Exegesis of Philip K. Dick*, *In Pursuit of VALIS*, *The Three Stigmata of Palmer Eldritch*, *Ubik*, *VALIS*, *The Transmigration of Timothy Archer*
 - **Companion essays:** [Mystical Theology and Theophany](/essays/exegesis-theophany), [Gnosticism in the Exegesis](/essays/exegesis-gnosticism)
-- **Works:** [Ubik](/works/ubik), [The Three Stigmata of Palmer Eldritch](/works/stigmata), [VALIS](/works/valis), [The Transmigration of Timothy Archer](/works/transmigration)
+- **Works:** [Ubik](/works/ubik), The Three Stigmata of Palmer Eldritch, [VALIS](/works/the-valis-trilogy), The Transmigration of Timothy Archer
 
 *Lane sourcing: this essay draws primarily from Lane B (the late Exegesis) and Lane A (the novels, especially Ubik, VALIS, and Transmigration), with Lane C (contemporary scholarship on AI and theology). The question of whether PKD's AI theology is speculative metaphor or cosmological claim is preserved unresolved, as it stands in the Exegesis itself.*

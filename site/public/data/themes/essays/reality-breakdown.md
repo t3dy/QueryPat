@@ -112,6 +112,6 @@ The novels do not offer transcendence or escape. They offer only the knowledge t
 - **Scholars:** [Umberto Rossi](/scholars), [Christopher Palmer](/scholars), [Carl Freedman](/scholars), [Jeffrey Kripal](/scholars), [James Burton](/scholars)
 - **Works:** [Eye in the Sky](/works/eye-in-the-sky), [Time Out of Joint](/works/time-out-of-joint), [Ubik](/works/ubik), [The Cosmic Puppets](/works/the-cosmic-puppets), [VALIS](/works/the-valis-trilogy), [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep)
 - **Exegesis:** Passages on multiple realities, the Gnostic Demiurge, the Black Iron Prison, the structure of consciousness, and the ontological status of the 2-3-74 event
-- **Companion essays:** [Memory & Identity](/essays/memory-identity), [Time](/essays/time)
+- **Companion essays:** [Memory & Identity](/themes/memory-identity), [Time](/themes/time)
 
 *Lane sourcing: this essay draws primarily on Lane A (fiction) and Lane C (scholarship). The opening framing and theoretical engagement are Lane C. The Exegesis material is Lane B. The readings of individual novels are Lane A with Lane D (biographical context) for the Exegesis reference in the Ubik section.*

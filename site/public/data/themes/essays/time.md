@@ -140,6 +140,6 @@ The deepest insight is this: that time and freedom are entangled. If time is wha
 - **Scholars:** [Kim Stanley Robinson](/scholars), [James Burton](/scholars), [Jeffrey Kripal](/scholars), [Christopher Palmer](/scholars)
 - **Works:** [Time Out of Joint](/works/time-out-of-joint), [Now Wait for Last Year](/works/now-wait-for-last-year), [Counter-Clock World](/works/counter-clock-world), [Dr. Bloodmoney, or How We Got Along After the Bomb](/works/dr-bloodmoney-or-how-we-got-along-after-the-bomb), [The Minority Report](/works/the-minority-report-and-other-classic-stories)
 - **Exegesis:** Passages on precognition, freedom vs. determinism, divine omniscience and human choice, the 2-3-74 event as a temporal experience, Bergson on duration, the flow of consciousness
-- **Companion essays:** [Reality Breakdown](/essays/reality-breakdown), [Memory & Identity](/essays/memory-identity)
+- **Companion essays:** [Reality Breakdown](/themes/reality-breakdown), [Memory & Identity](/themes/memory-identity)
 
 *Lane sourcing: this essay draws on Lane A (fiction) for the novel readings, Lane C (scholarship) for the philosophical framework, and Lane B (Exegesis) for PKD's own reflections on time and freedom. The theological dimension combines Lane B (Exegesis reflections on divine knowledge) with Lane C (scholarly engagement with theological tradition).*
