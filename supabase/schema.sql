@@ -90,6 +90,12 @@ begin
     new.resolved_at     := old.resolved_at;
     new.resolution_note := old.resolution_note;
     new.author_id       := old.author_id;
+    if old.status <> 'open' then
+      new.body           := old.body;
+      new.proposed_value := old.proposed_value;
+      new.source_url     := old.source_url;
+      new.quote          := old.quote;
+    end if;
   elsif new.status is distinct from old.status then
     new.resolved_by := auth.uid();
     new.resolved_at := case when new.status = 'open' then null else now() end;
@@ -131,15 +137,30 @@ drop policy if exists votes_read   on public.contribution_votes;
 drop policy if exists votes_insert on public.contribution_votes;
 drop policy if exists votes_delete on public.contribution_votes;
 create policy votes_read   on public.contribution_votes for select using (true);
-create policy votes_insert on public.contribution_votes for insert with check (voter_id = auth.uid());
+create policy votes_insert on public.contribution_votes for insert
+  with check (
+    voter_id = auth.uid()
+    and not exists (
+      select 1 from public.contributions c
+      where c.id = contribution_id and c.author_id = auth.uid()
+    )
+  );
 create policy votes_delete on public.contribution_votes for delete using (voter_id = auth.uid());
 
 -- -- Leaderboard ----------------------------------------------
--- Score weights accepted work most heavily, then open suggestions,
--- then plain comments; upvotes from other readers add a small bonus.
+-- Scoring, in words: accepted work counts five times; an open suggestion
+-- counts three (two for being a suggestion, one for existing); an open comment
+-- or reply counts one; declined and duplicate work counts nothing, so there is
+-- no reward for volume alone. Upvotes from *other* readers add one each.
 drop view if exists public.leaderboard;
 create view public.leaderboard
 with (security_invoker = on) as
+with counted as (
+  select
+    c.*,
+    (c.status not in ('rejected', 'duplicate')) as counts_for_score
+  from public.contributions c
+)
 select
   p.id                                                 as user_id,
   p.username,
@@ -153,14 +174,17 @@ select
   count(c.id) filter (where c.kind = 'suggested_edit') as suggested_edits,
   count(c.id) filter (where c.kind = 'suggested_tag')  as tags,
   count(c.id) filter (where c.kind = 'source')         as sources,
+  count(c.id) filter (where c.parent_id is not null)   as replies,
+  count(distinct c.target_path)                        as pages,
   coalesce(sum(v.votes), 0)                            as upvotes,
   (count(c.id) filter (where c.status = 'accepted') * 5)
-    + (count(c.id) filter (where c.status = 'open' and c.kind <> 'comment') * 2)
-    + count(c.id)
+    + (count(c.id) filter (where c.counts_for_score and c.kind <> 'comment') * 2)
+    + count(c.id) filter (where c.counts_for_score)
     + coalesce(sum(v.votes), 0)                        as score,
+  min(c.created_at)                                    as first_contribution_at,
   max(c.created_at)                                    as last_contribution_at
 from public.profiles p
-left join public.contributions c on c.author_id = p.id
+left join counted c on c.author_id = p.id
 left join lateral (
   select count(*)::int as votes
   from public.contribution_votes cv

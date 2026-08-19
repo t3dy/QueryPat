@@ -22,8 +22,21 @@ export function pathLabel(path: string): string {
     .join(' › ')
 }
 
+/** "1 source" / "2 sources" — plural only when it should be. */
+export function plural(n: number, one: string, many = one + 's'): string {
+  return `${n} ${n === 1 ? one : many}`
+}
+
 /** Trim a pasted selection down to something storable. */
 export function normalizeQuote(text: string, max = 1200): string {
   const clean = text.replace(/\s+/g, ' ').trim()
   return clean.length > max ? clean.slice(0, max - 1) + '…' : clean
+}
+
+/**
+ * A shareable link to one contribution: the page it belongs to, plus a ?c=
+ * marker the comments drawer picks up and scrolls to.
+ */
+export function permalink(targetPath: string, id: number): string {
+  return `${window.location.origin}${import.meta.env.BASE_URL}#${targetPath}?c=${id}`
 }

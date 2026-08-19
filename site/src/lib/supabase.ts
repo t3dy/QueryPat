@@ -82,8 +82,11 @@ export interface LeaderboardRow {
   suggested_edits: number
   tags: number
   sources: number
+  replies: number
+  pages: number
   upvotes: number
   score: number
+  first_contribution_at: string | null
   last_contribution_at: string | null
 }
 
@@ -123,6 +126,31 @@ export async function fetchProfile(userId: string): Promise<Profile | null> {
   return (data as Profile) ?? null
 }
 
+export async function fetchProfileByUsername(username: string): Promise<Profile | null> {
+  const { data } = await db().from('profiles').select('*').eq('username', username).maybeSingle()
+  return (data as Profile) ?? null
+}
+
+export async function fetchLeaderboardRow(username: string): Promise<LeaderboardRow | null> {
+  const { data } = await db().from('leaderboard').select('*').eq('username', username).maybeSingle()
+  return (data as LeaderboardRow) ?? null
+}
+
+/**
+ * One contributor's leaderboard row and their position on it, so the account
+ * and profile pages show exactly the numbers the leaderboard ranks by.
+ * `rank` is null for anyone outside the top hundred.
+ */
+export async function fetchStanding(
+  username: string,
+): Promise<{ row: LeaderboardRow; rank: number | null } | null> {
+  const ranked = (await fetchLeaderboard()).filter(r => r.total > 0)
+  const i = ranked.findIndex(r => r.username === username)
+  if (i >= 0) return { row: ranked[i], rank: i + 1 }
+  const row = await fetchLeaderboardRow(username)
+  return row ? { row, rank: null } : null
+}
+
 export async function fetchThread(targetPath: string): Promise<Contribution[]> {
   const { data, error } = await db()
     .from('contributions')
@@ -133,7 +161,8 @@ export async function fetchThread(targetPath: string): Promise<Contribution[]> {
   return (data ?? []) as Contribution[]
 }
 
-export async function fetchMine(userId: string): Promise<Contribution[]> {
+/** Everything one person has written, newest first. */
+export async function fetchByAuthor(userId: string): Promise<Contribution[]> {
   const { data, error } = await db()
     .from('contributions')
     .select(SELECT_WITH_AUTHOR)
@@ -143,13 +172,18 @@ export async function fetchMine(userId: string): Promise<Contribution[]> {
   return (data ?? []) as Contribution[]
 }
 
-export async function fetchRecent(limit = 60, status?: ContributionStatus): Promise<Contribution[]> {
+export async function fetchRecent(
+  limit = 60,
+  status?: ContributionStatus,
+  kind?: ContributionKind,
+): Promise<Contribution[]> {
   let q = db()
     .from('contributions')
     .select(SELECT_WITH_AUTHOR)
     .order('created_at', { ascending: false })
     .limit(limit)
   if (status) q = q.eq('status', status)
+  if (kind) q = q.eq('kind', kind)
   const { data, error } = await q
   if (error) throw error
   return (data ?? []) as Contribution[]

@@ -38,8 +38,10 @@ import TopicDetail from './pages/TopicDetail'
 import ScenesIndex from './pages/ScenesIndex'
 import SceneDetail from './pages/SceneDetail'
 import Account from './pages/Account'
+import Community from './pages/Community'
 import Leaderboard from './pages/Leaderboard'
 import Moderate from './pages/Moderate'
+import Profile from './pages/Profile'
 import AuthProvider from './community/AuthProvider'
 import './App.css'
 
@@ -88,6 +90,8 @@ function App() {
           <Route path="studies/ai/scenes/:sceneId" element={<SceneDetail />} />
           <Route path="tag/:tagname" element={<TagResults />} />
           <Route path="account" element={<Account />} />
+          <Route path="community" element={<Community />} />
+          <Route path="u/:username" element={<Profile />} />
           <Route path="leaderboard" element={<Leaderboard />} />
           <Route path="moderate" element={<Moderate />} />
         </Route>

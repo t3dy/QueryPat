@@ -1,8 +1,13 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../community/auth-context'
 import ContributionCard from '../community/ContributionCard'
-import { KIND_LABEL, STATUS_LABEL, fetchMine, type Contribution, type ContributionStatus } from '../lib/supabase'
+import ContributorStats from '../community/ContributorStats'
+import { useVotes } from '../community/useVotes'
+import {
+  KIND_LABEL, STATUS_LABEL, fetchByAuthor, fetchStanding,
+  type Contribution, type ContributionStatus, type LeaderboardRow,
+} from '../lib/supabase'
 
 export default function Account() {
   const { enabled, loading, user, profile, signInWithEmail, signInWithOAuth, signOut, saveProfile } = useAuth()
@@ -20,7 +25,9 @@ export default function Account() {
   }
   if (loading) return <p className="cm-muted">Loading…</p>
   if (!user) return <SignIn onEmail={signInWithEmail} onOAuth={signInWithOAuth} />
-  if (!profile) return <ClaimUsername onSave={saveProfile} email={user.email ?? ''} />
+  if (!profile) {
+    return <ClaimUsername onSave={saveProfile} email={user.email ?? ''} onSignOut={signOut} />
+  }
   return <Dashboard onSignOut={signOut} onSave={saveProfile} />
 }
 
@@ -45,17 +52,31 @@ function SignIn({
     finally { setBusy(false) }
   }
 
+  async function oauth(p: 'github' | 'google') {
+    setError(null)
+    try { await onOAuth(p) }
+    catch (err) { setError(err instanceof Error ? err.message : `${p} sign-in is not enabled.`) }
+  }
+
   return (
     <>
       <div className="page-header">
         <h1>Sign in</h1>
-        <p>Contributors can leave comments, corrections, suggested edits, metadata, and sources on any page.</p>
+        <p>
+          Contributors can leave comments, corrections, suggested edits, metadata, and sources on
+          any page. See what others have been working on in{' '}
+          <Link to="/community">Community activity</Link>.
+        </p>
       </div>
 
       {sent ? (
         <div className="card cm-narrow">
           <h3>Check your inbox</h3>
           <p>We sent a sign-in link to <strong>{email}</strong>. Open it in this browser to finish signing in.</p>
+          <p className="cm-hint" style={{ marginTop: '0.6rem' }}>
+            Nothing after a minute or two? Check spam, then{' '}
+            <button className="cm-link-btn" onClick={() => setSent(false)}>try another address</button>.
+          </p>
         </div>
       ) : (
         <form className="card cm-narrow cm-form" onSubmit={submit}>
@@ -76,8 +97,8 @@ function SignIn({
           <div className="cm-oauth">
             <span className="cm-hint">Or use an existing account:</span>
             <div className="cm-form-actions">
-              <button type="button" className="cm-btn" onClick={() => onOAuth('github')}>GitHub</button>
-              <button type="button" className="cm-btn" onClick={() => onOAuth('google')}>Google</button>
+              <button type="button" className="cm-btn" onClick={() => void oauth('github')}>GitHub</button>
+              <button type="button" className="cm-btn" onClick={() => void oauth('google')}>Google</button>
             </div>
             <span className="cm-hint">
               These only work if the provider has been enabled in the project’s Supabase settings.
@@ -92,10 +113,11 @@ function SignIn({
 // ── Signed in, no profile yet ───────────────────────────────────
 
 function ClaimUsername({
-  onSave, email,
+  onSave, email, onSignOut,
 }: {
   onSave: (p: { username: string; display_name?: string | null }) => Promise<void>
   email: string
+  onSignOut: () => Promise<void>
 }) {
   const [username, setUsername] = useState('')
   const [displayName, setDisplayName] = useState('')
@@ -115,7 +137,10 @@ function ClaimUsername({
     <>
       <div className="page-header">
         <h1>Choose a username</h1>
-        <p>Signed in as {email}. Your username is how your contributions are credited.</p>
+        <p>
+          Signed in as {email}. Your username is how your contributions are credited, and it becomes
+          your public profile at <code>/u/your-name</code>.
+        </p>
       </div>
       <form className="card cm-narrow cm-form" onSubmit={submit}>
         <label className="cm-field">
@@ -125,17 +150,22 @@ function ClaimUsername({
             onChange={e => setUsername(e.target.value.toLowerCase().replace(/[^a-z0-9_]/g, ''))}
             placeholder="horselover_fat"
           />
-          <span className="cm-hint">3–24 characters: lowercase letters, numbers, underscores.</span>
+          <span className="cm-hint">
+            3–24 characters: lowercase letters, numbers, underscores.
+            {username && !valid && ' — not valid yet'}
+          </span>
         </label>
         <label className="cm-field">
           <span className="cm-label">Display name (optional)</span>
           <input value={displayName} onChange={e => setDisplayName(e.target.value)} maxLength={60} />
+          <span className="cm-hint">Shown instead of your username, if you set one.</span>
         </label>
         {error && <p className="cm-error">{error}</p>}
         <div className="cm-form-actions">
           <button className="cm-btn cm-btn-primary" disabled={busy || !valid}>
             {busy ? 'Saving…' : 'Claim username'}
           </button>
+          <button type="button" className="cm-btn" onClick={() => void onSignOut()}>Sign out</button>
         </div>
       </form>
     </>
@@ -154,65 +184,83 @@ function Dashboard({
 }) {
   const { profile, isModerator } = useAuth()
   const [items, setItems] = useState<Contribution[]>([])
+  const [standing, setStanding] = useState<{ row: LeaderboardRow; rank: number | null } | null>(null)
   const [loading, setLoading] = useState(true)
   const [filter, setFilter] = useState<ContributionStatus | 'all'>('all')
   const [editing, setEditing] = useState(false)
   const [displayName, setDisplayName] = useState(profile?.display_name ?? '')
   const [bio, setBio] = useState(profile?.bio ?? '')
+  const [saveError, setSaveError] = useState<string | null>(null)
+  const { counts, mine, handlerFor } = useVotes(items)
 
   useEffect(() => {
     if (!profile) return
-    fetchMine(profile.id).then(setItems).catch(() => setItems([])).finally(() => setLoading(false))
+    let live = true
+    void (async () => {
+      try {
+        const [c, s] = await Promise.all([fetchByAuthor(profile.id), fetchStanding(profile.username)])
+        if (!live) return
+        setItems(c)
+        setStanding(s)
+      } catch {
+        if (live) setItems([])
+      } finally {
+        if (live) setLoading(false)
+      }
+    })()
+    return () => { live = false }
   }, [profile])
 
-  const stats = useMemo(() => {
-    const byKind = new Map<string, number>()
-    let accepted = 0, edits = 0
-    for (const c of items) {
-      byKind.set(c.kind, (byKind.get(c.kind) ?? 0) + 1)
-      if (c.status === 'accepted') accepted++
-      if (c.kind !== 'comment') edits++
-    }
-    return { total: items.length, accepted, edits, byKind }
-  }, [items])
-
   const shown = filter === 'all' ? items : items.filter(c => c.status === filter)
+  const countFor = (f: ContributionStatus | 'all') =>
+    f === 'all' ? items.length : items.filter(c => c.status === f).length
+
+  async function submitProfile(e: React.FormEvent) {
+    e.preventDefault()
+    setSaveError(null)
+    try {
+      await onSave({ display_name: displayName.trim() || null, bio: bio.trim() || null })
+      setEditing(false)
+    } catch (err) {
+      setSaveError(err instanceof Error ? err.message : 'Could not save.')
+    }
+  }
 
   return (
     <>
       <div className="page-header">
         <h1>{profile?.display_name || profile?.username}</h1>
         <p>
-          @{profile?.username}
-          {profile?.role !== 'member' && <span className="badge badge-accepted" style={{ marginLeft: '0.5rem' }}>{profile?.role}</span>}
+          <Link to={`/u/${profile?.username}`}>@{profile?.username}</Link>
+          {profile?.role !== 'member' && (
+            <span className="badge badge-accepted" style={{ marginLeft: '0.5rem' }}>{profile?.role}</span>
+          )}
         </p>
         {profile?.bio && !editing && <p style={{ marginTop: '0.4rem' }}>{profile.bio}</p>}
       </div>
 
-      <div className="stats-grid">
-        <div className="stat-card"><div className="stat-value">{stats.total}</div><div className="stat-label">Contributions</div></div>
-        <div className="stat-card"><div className="stat-value">{stats.edits}</div><div className="stat-label">Edits &amp; sources</div></div>
-        <div className="stat-card"><div className="stat-value">{stats.accepted}</div><div className="stat-label">Accepted</div></div>
-        {[...stats.byKind].map(([kind, n]) => (
-          <div className="stat-card" key={kind}>
-            <div className="stat-value">{n}</div>
-            <div className="stat-label">{KIND_LABEL[kind as keyof typeof KIND_LABEL]}</div>
-          </div>
-        ))}
-      </div>
+      {loading && <p className="cm-muted">Loading…</p>}
+
+      {standing && <ContributorStats row={standing.row} rank={standing.rank} />}
+      {!loading && !standing && (
+        <p className="cm-muted">
+          Nothing yet. Open any page, hit <em>Discuss this page</em>, or highlight a passage to
+          anchor a correction to it — everything you file shows up here and on the leaderboard.
+        </p>
+      )}
 
       <div className="cm-form-actions" style={{ margin: '1rem 0' }}>
-        <button className="cm-btn" onClick={() => setEditing(v => !v)}>{editing ? 'Cancel' : 'Edit profile'}</button>
+        <button className="cm-btn" onClick={() => setEditing(v => !v)}>
+          {editing ? 'Cancel' : 'Edit profile'}
+        </button>
+        <Link className="cm-btn" to="/community">Community activity</Link>
         <Link className="cm-btn" to="/leaderboard">Leaderboard</Link>
         {isModerator && <Link className="cm-btn" to="/moderate">Moderation queue</Link>}
         <button className="cm-btn" onClick={() => void onSignOut()}>Sign out</button>
       </div>
 
       {editing && (
-        <form
-          className="card cm-narrow cm-form"
-          onSubmit={async e => { e.preventDefault(); await onSave({ display_name: displayName.trim() || null, bio: bio.trim() || null }); setEditing(false) }}
-        >
+        <form className="card cm-narrow cm-form" onSubmit={submitProfile}>
           <label className="cm-field">
             <span className="cm-label">Display name</span>
             <input value={displayName} onChange={e => setDisplayName(e.target.value)} maxLength={60} />
@@ -220,7 +268,9 @@ function Dashboard({
           <label className="cm-field">
             <span className="cm-label">Bio</span>
             <textarea value={bio} onChange={e => setBio(e.target.value)} maxLength={400} rows={3} />
+            <span className="cm-hint">{bio.length}/400 — shown on your public profile.</span>
           </label>
+          {saveError && <p className="cm-error">{saveError}</p>}
           <div className="cm-form-actions"><button className="cm-btn cm-btn-primary">Save</button></div>
         </form>
       )}
@@ -233,28 +283,46 @@ function Dashboard({
             className={`cm-btn cm-btn-sm ${filter === f ? 'cm-btn-primary' : ''}`}
             onClick={() => setFilter(f)}
           >
-            {f === 'all' ? 'All' : STATUS_LABEL[f]}
+            {f === 'all' ? 'All' : STATUS_LABEL[f]} ({countFor(f)})
           </button>
         ))}
       </div>
 
-      {loading && <p className="cm-muted">Loading…</p>}
       {!loading && shown.length === 0 && (
         <p className="cm-muted">
-          Nothing here yet. Open any page and use <em>Discuss this page</em>, or highlight a passage to
-          anchor a correction to it.
+          {items.length === 0
+            ? 'Nothing here yet.'
+            : `No ${STATUS_LABEL[filter as ContributionStatus].toLowerCase()} contributions.`}
         </p>
       )}
+
       <div className="cm-list">
         {shown.map(c => (
           <ContributionCard
             key={c.id}
             contribution={c}
             showTarget
-            onChange={next => setItems(prev => next ? prev.map(x => x.id === c.id ? next : x) : prev.filter(x => x.id !== c.id))}
+            linkToThread
+            voteCount={counts.get(c.id) ?? 0}
+            voted={mine.has(c.id)}
+            onToggleVote={handlerFor(c)}
+            onChange={next => setItems(prev => next
+              ? prev.map(x => (x.id === c.id ? next : x))
+              : prev.filter(x => x.id !== c.id))}
           />
         ))}
       </div>
+
+      {items.length > 0 && (
+        <p className="cm-muted" style={{ marginTop: '1rem' }}>
+          Types filed: {Object.entries(
+            items.reduce<Record<string, number>>((acc, c) => {
+              acc[c.kind] = (acc[c.kind] ?? 0) + 1
+              return acc
+            }, {}),
+          ).map(([k, n]) => `${KIND_LABEL[k as keyof typeof KIND_LABEL]} ${n}`).join(' · ')}
+        </p>
+      )}
     </>
   )
 }

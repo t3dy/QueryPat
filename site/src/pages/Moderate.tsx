@@ -2,6 +2,8 @@ import { useCallback, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../community/auth-context'
 import ContributionCard from '../community/ContributionCard'
+import { useVotes } from '../community/useVotes'
+import { plural } from '../community/util'
 import { KIND_LABEL, STATUS_LABEL, fetchRecent, type Contribution, type ContributionStatus } from '../lib/supabase'
 
 const FILTERS: (ContributionStatus | 'all')[] = ['open', 'accepted', 'rejected', 'duplicate', 'all']
@@ -12,6 +14,7 @@ export default function Moderate() {
   const [loading, setLoading] = useState(true)
   const [filter, setFilter] = useState<ContributionStatus | 'all'>('open')
   const [kind, setKind] = useState<string>('all')
+  const { counts, mine, handlerFor } = useVotes(items)
 
   const load = useCallback(async () => {
     setLoading(true)
@@ -45,7 +48,11 @@ export default function Moderate() {
     <>
       <div className="page-header">
         <h1>Moderation queue</h1>
-        <p>Accept, decline, or mark duplicates. Accepted work is what the leaderboard weights most.</p>
+        <p>
+          Accept, decline, or mark duplicates. Accepted work counts five times on the leaderboard;
+          declined and duplicate work counts nothing, so ruling on things is what keeps the
+          standings meaningful. An editor's note is shown to the contributor.
+        </p>
       </div>
 
       <div className="cm-filters">
@@ -66,7 +73,14 @@ export default function Moderate() {
       </div>
 
       {loading && <p className="cm-muted">Loading…</p>}
-      {!loading && shown.length === 0 && <p className="cm-muted">Nothing in this view.</p>}
+      {!loading && shown.length === 0 && (
+        <p className="cm-muted">
+          {filter === 'open' ? 'Nothing waiting for review — the queue is clear.' : 'Nothing in this view.'}
+        </p>
+      )}
+      {!loading && shown.length > 0 && (
+        <p className="cm-muted">{plural(shown.length, 'contribution')} shown</p>
+      )}
 
       <div className="cm-list">
         {shown.map(c => (
@@ -74,6 +88,10 @@ export default function Moderate() {
             key={c.id}
             contribution={c}
             showTarget
+            linkToThread
+            voteCount={counts.get(c.id) ?? 0}
+            voted={mine.has(c.id)}
+            onToggleVote={handlerFor(c)}
             onChange={next => setItems(prev => next ? prev.map(x => x.id === c.id ? next : x) : prev.filter(x => x.id !== c.id))}
           />
         ))}

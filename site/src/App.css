@@ -1732,3 +1732,76 @@ a:hover { color: var(--accent-light); text-decoration: underline; }
   .cm-fab-open { display: none; }
   .cm-panel { width: 100vw; }
 }
+
+/* ── Community: feed, profiles, permalinks, thread filters ── */
+
+.cm-author { color: var(--text-primary); }
+a.cm-author:hover { color: var(--accent-light); }
+
+/* A contribution arrived at through a shared ?c= link. */
+.cm-highlighted {
+  border-color: var(--accent-light);
+  box-shadow: 0 0 0 2px var(--accent-bg);
+  animation: cm-flash 1.6s ease-out 1;
+}
+@keyframes cm-flash {
+  0%   { background: var(--accent-bg); }
+  100% { background: var(--bg-card); }
+}
+
+.cm-muted-inline { font-size: 0.78rem; color: var(--text-muted); }
+
+/* Thread filter chips inside the drawer */
+.cm-panel-filters {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.5rem 1.1rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-card);
+}
+.cm-chip {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+.cm-chip:hover { border-color: var(--accent-light); }
+.cm-chip-on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.cm-sort { margin-left: auto; white-space: nowrap; }
+
+/* Unresolved suggestions turn the page counter warm. */
+.cm-fab-count-open { background: var(--badge-provisional); }
+
+/* Feed explainer card */
+.cm-explainer { margin-bottom: 1.25rem; }
+.cm-explainer h3 { font-family: var(--font-heading); color: var(--accent); margin-bottom: 0.4rem; }
+.cm-explainer p { font-size: 0.9rem; margin-bottom: 0.5rem; }
+.cm-explainer p:last-child { margin-bottom: 0; }
+
+/* Kind breakdown under the stat tiles */
+.cm-breakdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin: 0.6rem 0 0.25rem;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+/* "You're #4 of 20" banner on the leaderboard */
+.cm-standing {
+  background: var(--accent-bg);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.85rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+.cm-table tbody tr.cm-row-me { background: var(--accent-bg); }
+.cm-table tbody tr.cm-row-me:hover { background: var(--accent-bg); }

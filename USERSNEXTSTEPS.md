@@ -21,6 +21,8 @@ dormant unless the two environment variables below are present at build time.
 | Comment form with the type dropdown | `site/src/community/ContributionForm.tsx` |
 | A single contribution (votes, edit, moderate) | `site/src/community/ContributionCard.tsx` |
 | My-account dashboard | `site/src/pages/Account.tsx` → `/#/account` |
+| Site-wide activity feed | `site/src/pages/Community.tsx` → `/#/community` |
+| Public contributor profiles | `site/src/pages/Profile.tsx` → `/#/u/username` |
 | Leaderboard | `site/src/pages/Leaderboard.tsx` → `/#/leaderboard` |
 | Moderation queue | `site/src/pages/Moderate.tsx` → `/#/moderate` |
 | Vercel build + routing config | [`vercel.json`](vercel.json) |
@@ -39,6 +41,21 @@ contribution and shown as a quote, so you always know exactly which sentence
 someone meant. This works on every page — cards, essays, dictionary entries,
 Exegesis segments — for free.
 
+**Getting around.** Threads support replies and "helpful" upvotes, and can be
+filtered inside the drawer (all / suggestions / comments / unresolved). Every
+contribution has a **Copy link** button producing a permalink like
+`…/#/dictionary/valis?c=42`; opening one lands on the page with the drawer open
+and that note highlighted. Author names lead to public profiles, profiles and the
+leaderboard cross-link, and `/#/community` is the site-wide feed of everything
+recent, filterable by type and status.
+
+**How scoring works.** The leaderboard ranks by a score built from: accepted work
+×5, a live suggestion ×3, a comment or reply ×1, plus one per upvote received.
+Declined and duplicate work counts nothing, so volume alone earns nothing — and
+you cannot upvote yourself, which the database enforces, not just the browser.
+The numbers on someone's account dashboard and public profile come from the same
+view the leaderboard ranks by, so they can never disagree.
+
 ---
 
 ## Step 1 — Create the Supabase project
@@ -53,8 +70,10 @@ Exegesis segments — for free.
 1. In the Supabase dashboard, open **SQL Editor** → **New query**.
 2. Open `supabase/schema.sql` from this repo, copy the whole file, paste it in,
    and click **Run**.
-3. You should see "Success. No rows returned." The file is safe to re-run later
-   if you ever want to change something.
+3. You should see "Success. No rows returned." The file is safe to re-run later —
+   it drops and recreates the policies, triggers, and leaderboard view without
+   touching anyone's contributions, so re-running is how you pick up any future
+   change to the rules or the scoring.
 
 This creates three tables (`profiles`, `contributions`, `contribution_votes`),
 a `leaderboard` view, and the Row Level Security policies that decide who can do
@@ -177,7 +196,8 @@ files a correction, that's a Supabase Database Webhook plus a small function —
 say the word and it's maybe thirty lines.
 
 **Spam.** Nothing can be posted without a verified email address, which stops the
-casual stuff. If it ever becomes a problem, the next step is Supabase's built-in
+casual stuff, and declined work scores nothing, so there is no leaderboard payoff
+in noise. If it ever becomes a problem, the next step is Supabase's built-in
 CAPTCHA on sign-up (Authentication → Settings → Enable CAPTCHA protection) —
 a dashboard toggle plus one key, no code change.
 

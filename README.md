@@ -235,8 +235,10 @@ Readers can annotate the archive: every page carries a *Discuss this page*
 drawer, and highlighting any passage offers to anchor a note to that exact
 sentence. Each contribution is typed — comment, correction, suggested edit,
 suggested tag/metadata, or relevant source — and moderators accept or decline
-them from a queue. Contributors get a dashboard of their own work at
-`/#/account` and a ranking at `/#/leaderboard`.
+them from a queue. Contributors get a dashboard of their own work at `/#/account`,
+a public profile at `/#/u/username`, a site-wide activity feed at `/#/community`,
+and a ranking at `/#/leaderboard`. Every contribution has a permalink that opens
+its page with the thread scrolled to it.
 
 - **Supabase** — Postgres, passwordless email auth, Row Level Security
 - **Feature-flagged** — dormant unless the two Supabase build variables are set,
@@ -390,7 +392,8 @@ QueryPat/
       components/             # EntityLayout, Breadcrumbs, BookmarkButton, ExploreFooter,
                               # BacklinksPanel, HoverPreview, Layout
       hooks/                  # useData, useBookmarks
-      community/              # Auth provider, comments dock, contribution form/card
+      community/              # Auth provider, comments dock, contribution form/card,
+                              # contributor stats, vote hook
       lib/                    # Supabase client, types, and queries
       utils/                  # formatTitle
     public/data/              # Exported JSON bundles (~15 MB)

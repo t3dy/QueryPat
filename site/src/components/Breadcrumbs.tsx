@@ -17,6 +17,8 @@ const SECTION_LABELS: Record<string, string> = {
   account: 'My Account',
   leaderboard: 'Leaderboard',
   moderate: 'Moderation',
+  community: 'Community',
+  u: 'Contributors',
 }
 
 export default function Breadcrumbs() {

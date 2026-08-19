@@ -8,6 +8,7 @@ function AccountNav() {
   if (!enabled) return null
   return (
     <div className="nav-right">
+      <NavLink to="/community">Community</NavLink>
       <NavLink to="/leaderboard">Leaderboard</NavLink>
       {isModerator && <NavLink to="/moderate">Moderate</NavLink>}
       <NavLink to="/account" className="nav-account">
