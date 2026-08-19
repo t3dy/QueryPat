@@ -229,6 +229,21 @@ site/public/data/
   search_index.json, analytics.json, graph.json, connections.json
 ```
 
+### Community Layer (optional)
+
+Readers can annotate the archive: every page carries a *Discuss this page*
+drawer, and highlighting any passage offers to anchor a note to that exact
+sentence. Each contribution is typed — comment, correction, suggested edit,
+suggested tag/metadata, or relevant source — and moderators accept or decline
+them from a queue. Contributors get a dashboard of their own work at
+`/#/account` and a ranking at `/#/leaderboard`.
+
+- **Supabase** — Postgres, passwordless email auth, Row Level Security
+- **Feature-flagged** — dormant unless the two Supabase build variables are set,
+  so the GitHub Pages copy stays read-only
+- Schema and policies: [supabase/schema.sql](supabase/schema.sql)
+- Setup instructions: [USERSNEXTSTEPS.md](USERSNEXTSTEPS.md)
+
 ### Static Site
 
 - **React 19 + TypeScript + Vite** — fast builds, type safety
@@ -339,7 +354,12 @@ cd site
 npm run build
 ```
 
-Output goes to `site/dist/`, deployed to GitHub Pages via GitHub Actions.
+Output goes to `site/dist/`, deployed to GitHub Pages via GitHub Actions, and to
+Vercel via [vercel.json](vercel.json). The Vite base path switches automatically
+(`/` on Vercel, `/QueryPat/` on Pages).
+
+To run the community features locally, copy `site/.env.example` as instructed in
+[USERSNEXTSTEPS.md](USERSNEXTSTEPS.md) and fill in your Supabase keys.
 
 ---
 
@@ -370,10 +390,16 @@ QueryPat/
       components/             # EntityLayout, Breadcrumbs, BookmarkButton, ExploreFooter,
                               # BacklinksPanel, HoverPreview, Layout
       hooks/                  # useData, useBookmarks
+      community/              # Auth provider, comments dock, contribution form/card
+      lib/                    # Supabase client, types, and queries
       utils/                  # formatTitle
     public/data/              # Exported JSON bundles (~15 MB)
     public/v1/                # Frozen v1.0 site snapshot
     vite.config.ts
+  supabase/
+    schema.sql                # Community tables, RLS policies, leaderboard view
+  vercel.json                  # Vercel build + SPA routing config
+  USERSNEXTSTEPS.md            # Supabase and Vercel setup walkthrough
   AIPSY_BLUEPRINT.md           # AI & Psychology study implementation blueprint
   v1x.md                      # v1.x changelog (8 features)
   toolcalls.md                 # How tool orchestration works under the hood

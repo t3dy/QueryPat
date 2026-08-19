@@ -1,5 +1,21 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import Breadcrumbs from './Breadcrumbs'
+import CommentsDock from '../community/CommentsDock'
+import { useAuth } from '../community/auth-context'
+
+function AccountNav() {
+  const { enabled, user, profile, isModerator } = useAuth()
+  if (!enabled) return null
+  return (
+    <div className="nav-right">
+      <NavLink to="/leaderboard">Leaderboard</NavLink>
+      {isModerator && <NavLink to="/moderate">Moderate</NavLink>}
+      <NavLink to="/account" className="nav-account">
+        {user ? (profile?.username ? `@${profile.username}` : 'Finish setup') : 'Sign in'}
+      </NavLink>
+    </div>
+  )
+}
 
 export default function Layout() {
   return (
@@ -25,11 +41,13 @@ export default function Layout() {
         <NavLink to="/studies">Studies</NavLink>
         <NavLink to="/search">Search</NavLink>
         <NavLink to="/bookmarks">Bookmarks</NavLink>
+        <AccountNav />
       </nav>
       <main className="app-main">
         <Breadcrumbs />
         <Outlet />
       </main>
+      <CommentsDock />
     </div>
   )
 }

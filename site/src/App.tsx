@@ -37,11 +37,16 @@ import StudyIndex from './pages/StudyIndex'
 import TopicDetail from './pages/TopicDetail'
 import ScenesIndex from './pages/ScenesIndex'
 import SceneDetail from './pages/SceneDetail'
+import Account from './pages/Account'
+import Leaderboard from './pages/Leaderboard'
+import Moderate from './pages/Moderate'
+import AuthProvider from './community/AuthProvider'
 import './App.css'
 
 function App() {
   return (
     <HashRouter>
+      <AuthProvider>
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Dashboard />} />
@@ -82,8 +87,12 @@ function App() {
           <Route path="studies/ai/scenes" element={<ScenesIndex />} />
           <Route path="studies/ai/scenes/:sceneId" element={<SceneDetail />} />
           <Route path="tag/:tagname" element={<TagResults />} />
+          <Route path="account" element={<Account />} />
+          <Route path="leaderboard" element={<Leaderboard />} />
+          <Route path="moderate" element={<Moderate />} />
         </Route>
       </Routes>
+      </AuthProvider>
     </HashRouter>
   )
 }

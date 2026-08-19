@@ -31,7 +31,14 @@ desktop.ini
 __pycache__/
 *.pyc
 *.pyo
+
+# Local environment (Supabase keys)
 .env
+.env.local
+.env.*.local
+site/.env
+site/.env.local
+site/.env.*.local
 
 # Claude internal
 .claude/

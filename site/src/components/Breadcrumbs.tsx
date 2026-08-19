@@ -14,6 +14,9 @@ const SECTION_LABELS: Record<string, string> = {
   analytics: 'Analytics',
   tag: 'Tag',
   bookmarks: 'Bookmarks',
+  account: 'My Account',
+  leaderboard: 'Leaderboard',
+  moderate: 'Moderation',
 }
 
 export default function Breadcrumbs() {
