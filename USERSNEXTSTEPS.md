@@ -58,11 +58,16 @@ contributor fills in a display name, bio, affiliation, and website, then picks:
   sections (Biography, the Exegesis, Works, Themes, Dictionary, Theophanies,
   Essays, Studies, Archive, People, Names, Scholarship, PKD on PKD, Timeline, Map)
 - **Favourite themes** — checkboxes built from `themes/index.json`
-- **Favourite works** — a dropdown of all 73 catalogued works, grouped into
-  novels, short stories, letters, primary sources, interviews
-- **Research interests** — a dropdown grouped into study areas, essay subjects,
-  themes, and the sixty most-cited concepts in the Exegesis dictionary, plus a
-  free-text box for anything the archive doesn't cover yet
+- **Favourite works** — type-ahead over all 73 catalogued works; matches show
+  their category (novel, letter, primary source) as you type
+- **Research interests** — type-ahead over study areas, essay subjects, themes,
+  and the sixty most-cited concepts in the Exegesis dictionary; anything the
+  archive doesn't cover yet can be typed and kept as free text
+
+The five sections are collapsible, each showing a count of what's been picked so
+far, with *About you* open to begin with. A save bar appears at the foot of the
+window once there are unsaved changes and the real buttons have scrolled out of
+reach, and leaving the page mid-edit prompts before discarding.
 
 Every option comes from the same JSON the site renders from, so the choices are
 always the archive's real contents — nothing to keep in sync by hand. Saved

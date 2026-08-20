@@ -1810,21 +1810,46 @@ a.cm-author:hover { color: var(--accent-light); }
 
 .cm-profile-editor { max-width: 46rem; }
 
-.cm-fieldset {
+/* Collapsible sections, each showing how much you have filled in */
+.cm-section {
   border: 1px solid var(--border-light);
   border-radius: var(--radius-sm);
-  padding: 0.85rem 1rem 1rem;
+  overflow: hidden;
+}
+.cm-section + .cm-section { margin-top: -0.1rem; }
+.cm-section-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.85rem;
+  border: none;
+  background: var(--bg-secondary);
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  color: var(--accent);
+  text-align: left;
+  cursor: pointer;
+}
+.cm-section-head:hover { background: var(--accent-bg); }
+.cm-section-caret { font-size: 0.75rem; color: var(--text-muted); }
+.cm-section-title { flex: 1; }
+.cm-section-count {
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  border-radius: 999px;
+  padding: 0.05rem 0.45rem;
+}
+.cm-section-open .cm-section-head { border-bottom: 1px solid var(--border-light); }
+.cm-section-body {
+  padding: 0.8rem 0.85rem 0.95rem;
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
 }
-.cm-fieldset legend {
-  font-family: var(--font-heading);
-  font-size: 0.95rem;
-  color: var(--accent);
-  padding: 0 0.4rem;
-}
-.cm-fieldset > .cm-hint { margin-top: -0.25rem; }
+.cm-section-body > .cm-hint { margin-top: -0.15rem; }
 
 /* Checkbox grid — for the short, browsable option sets */
 .cm-checkgrid {
@@ -1843,25 +1868,76 @@ a.cm-author:hover { color: var(--accent-light); }
 .cm-check input { accent-color: var(--accent); width: auto; margin: 0; }
 .cm-check:hover span { color: var(--accent); }
 
-/* Dropdown + free text, adding into a chip list */
-.cm-picker-row {
-  display: flex;
-  gap: 0.4rem;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.cm-picker-row select { flex: 1 1 14rem; min-width: 0; }
-.cm-picker-row input { flex: 1 1 11rem; min-width: 0; }
-.cm-picker-row select,
-.cm-picker-row input {
+/* Type-ahead search feeding a chip list */
+.cm-typeahead { position: relative; }
+.cm-typeahead input {
+  width: 100%;
   font-family: var(--font-body);
-  font-size: 0.86rem;
-  padding: 0.4rem 0.55rem;
+  font-size: 0.88rem;
+  padding: 0.45rem 0.6rem;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   background: var(--bg-card);
   color: var(--text-primary);
 }
+.cm-typeahead input:focus {
+  outline: none;
+  border-color: var(--accent-light);
+  box-shadow: 0 0 0 2px var(--accent-bg);
+}
+.cm-typeahead-list {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 2px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0.2rem;
+  list-style: none;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  max-height: 16rem;
+  overflow-y: auto;
+}
+.cm-typeahead-list li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.86rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+.cm-typeahead-list li.cm-ta-active { background: var(--accent-bg); color: var(--accent); }
+.cm-ta-group {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.cm-ta-custom { font-style: italic; color: var(--accent); }
+
+/* Save bar, shown once the real buttons scroll out of reach */
+.cm-savebar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 150;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.6rem 1rem;
+  background: var(--bg-nav);
+  color: var(--text-nav);
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.2);
+  font-size: 0.86rem;
+}
+body.cm-has-savebar .cm-fab { bottom: 4.5rem; }
 
 .cm-chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
 .cm-chip-tag {
