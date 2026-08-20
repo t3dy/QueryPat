@@ -14,7 +14,7 @@ export interface AuthState {
   signInWithEmail: (email: string) => Promise<void>
   signInWithOAuth: (provider: 'github' | 'google') => Promise<void>
   signOut: () => Promise<void>
-  saveProfile: (patch: Partial<Pick<Profile, 'username' | 'display_name' | 'bio'>>) => Promise<void>
+  saveProfile: (patch: Partial<Omit<Profile, 'id' | 'role' | 'created_at'>>) => Promise<void>
   refreshProfile: () => Promise<void>
 }
 

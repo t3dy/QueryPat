@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import { useAuth } from '../community/auth-context'
 import ContributionCard from '../community/ContributionCard'
 import ContributorStats from '../community/ContributorStats'
+import ProfileDetails from '../community/ProfileDetails'
 import { useVotes } from '../community/useVotes'
 import { timeAgo } from '../community/util'
 import {
@@ -87,6 +88,8 @@ export default function Profile() {
           </p>
         )}
       </div>
+
+      <ProfileDetails profile={profile} />
 
       {standing
         ? <ContributorStats row={standing.row} rank={standing.rank} />

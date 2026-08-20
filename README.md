@@ -238,7 +238,9 @@ suggested tag/metadata, or relevant source — and moderators accept or decline
 them from a queue. Contributors get a dashboard of their own work at `/#/account`,
 a public profile at `/#/u/username`, a site-wide activity feed at `/#/community`,
 and a ranking at `/#/leaderboard`. Every contribution has a permalink that opens
-its page with the thread scrolled to it.
+its page with the thread scrolled to it. Profiles carry research interests,
+favourite works and themes, and the archive sections someone works on — all
+chosen from the site's own data, so saved picks render as links into those pages.
 
 - **Supabase** — Postgres, passwordless email auth, Row Level Security
 - **Feature-flagged** — dormant unless the two Supabase build variables are set,

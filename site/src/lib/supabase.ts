@@ -45,6 +45,16 @@ export interface Profile {
   username: string
   display_name: string | null
   bio: string | null
+  affiliation: string | null
+  website: string | null
+  /** Sections of the archive this person works on (see AREAS in useSiteVocab). */
+  areas: string[]
+  /** Work slugs, resolvable against works/index.json. */
+  favorite_works: string[]
+  /** Theme slugs, resolvable against themes/index.json. */
+  favorite_themes: string[]
+  /** Free text, usually chosen from the site's own subject vocabulary. */
+  research_interests: string[]
   role: 'member' | 'moderator' | 'admin'
   created_at: string
 }

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import { useAuth } from '../community/auth-context'
 import ContributionCard from '../community/ContributionCard'
 import ContributorStats from '../community/ContributorStats'
+import ProfileDetails from '../community/ProfileDetails'
+import ProfileEditor, { type ProfilePatch } from '../community/ProfileEditor'
 import { useVotes } from '../community/useVotes'
 import {
   KIND_LABEL, STATUS_LABEL, fetchByAuthor, fetchStanding,
@@ -180,7 +182,7 @@ function Dashboard({
   onSignOut, onSave,
 }: {
   onSignOut: () => Promise<void>
-  onSave: (p: { display_name?: string | null; bio?: string | null }) => Promise<void>
+  onSave: (p: ProfilePatch) => Promise<void>
 }) {
   const { profile, isModerator } = useAuth()
   const [items, setItems] = useState<Contribution[]>([])
@@ -188,9 +190,6 @@ function Dashboard({
   const [loading, setLoading] = useState(true)
   const [filter, setFilter] = useState<ContributionStatus | 'all'>('all')
   const [editing, setEditing] = useState(false)
-  const [displayName, setDisplayName] = useState(profile?.display_name ?? '')
-  const [bio, setBio] = useState(profile?.bio ?? '')
-  const [saveError, setSaveError] = useState<string | null>(null)
   const { counts, mine, handlerFor } = useVotes(items)
 
   useEffect(() => {
@@ -215,17 +214,6 @@ function Dashboard({
   const countFor = (f: ContributionStatus | 'all') =>
     f === 'all' ? items.length : items.filter(c => c.status === f).length
 
-  async function submitProfile(e: React.FormEvent) {
-    e.preventDefault()
-    setSaveError(null)
-    try {
-      await onSave({ display_name: displayName.trim() || null, bio: bio.trim() || null })
-      setEditing(false)
-    } catch (err) {
-      setSaveError(err instanceof Error ? err.message : 'Could not save.')
-    }
-  }
-
   return (
     <>
       <div className="page-header">
@@ -239,6 +227,8 @@ function Dashboard({
         {profile?.bio && !editing && <p style={{ marginTop: '0.4rem' }}>{profile.bio}</p>}
       </div>
 
+      {!editing && profile && <ProfileDetails profile={profile} />}
+
       {loading && <p className="cm-muted">Loading…</p>}
 
       {standing && <ContributorStats row={standing.row} rank={standing.rank} />}
@@ -246,6 +236,14 @@ function Dashboard({
         <p className="cm-muted">
           Nothing yet. Open any page, hit <em>Discuss this page</em>, or highlight a passage to
           anchor a correction to it — everything you file shows up here and on the leaderboard.
+        </p>
+      )}
+
+      {!editing && profile && !profile.areas?.length && !profile.research_interests?.length && (
+        <p className="cm-nudge">
+          Your profile is bare. Tell people what you work on — the archive sections you know, your
+          research interests, favourite works and themes — and it all becomes links on your public
+          page at <Link to={`/u/${profile.username}`}>/u/{profile.username}</Link>.
         </p>
       )}
 
@@ -259,20 +257,12 @@ function Dashboard({
         <button className="cm-btn" onClick={() => void onSignOut()}>Sign out</button>
       </div>
 
-      {editing && (
-        <form className="card cm-narrow cm-form" onSubmit={submitProfile}>
-          <label className="cm-field">
-            <span className="cm-label">Display name</span>
-            <input value={displayName} onChange={e => setDisplayName(e.target.value)} maxLength={60} />
-          </label>
-          <label className="cm-field">
-            <span className="cm-label">Bio</span>
-            <textarea value={bio} onChange={e => setBio(e.target.value)} maxLength={400} rows={3} />
-            <span className="cm-hint">{bio.length}/400 — shown on your public profile.</span>
-          </label>
-          {saveError && <p className="cm-error">{saveError}</p>}
-          <div className="cm-form-actions"><button className="cm-btn cm-btn-primary">Save</button></div>
-        </form>
+      {editing && profile && (
+        <ProfileEditor
+          profile={profile}
+          onSave={async patch => { await onSave(patch); setEditing(false) }}
+          onCancel={() => setEditing(false)}
+        />
       )}
 
       <h2 className="cm-section-title">My contributions</h2>

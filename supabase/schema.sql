@@ -26,6 +26,28 @@ create table if not exists public.profiles (
   created_at   timestamptz not null default now()
 );
 
+-- Richer profile fields. Kept in an alter block rather than the create above
+-- so that re-running this file on an existing project adds them in place.
+-- The array columns hold slugs from the site's own data (works, themes) or
+-- free text (research interests), capped so nobody can paste an essay in.
+alter table public.profiles
+  add column if not exists affiliation        text,
+  add column if not exists website            text,
+  add column if not exists areas              text[] not null default '{}',
+  add column if not exists favorite_works     text[] not null default '{}',
+  add column if not exists favorite_themes    text[] not null default '{}',
+  add column if not exists research_interests text[] not null default '{}';
+
+do $$ begin
+  alter table public.profiles
+    add constraint profiles_affiliation_len check (char_length(affiliation) <= 120),
+    add constraint profiles_website_len     check (char_length(website) <= 200),
+    add constraint profiles_areas_len       check (coalesce(array_length(areas, 1), 0) <= 30),
+    add constraint profiles_works_len        check (coalesce(array_length(favorite_works, 1), 0) <= 40),
+    add constraint profiles_themes_len       check (coalesce(array_length(favorite_themes, 1), 0) <= 40),
+    add constraint profiles_interests_len    check (coalesce(array_length(research_interests, 1), 0) <= 40);
+exception when duplicate_object then null; end $$;
+
 -- -- Contributions (comments / corrections / suggestions) -----
 create table if not exists public.contributions (
   id             bigint generated always as identity primary key,

@@ -1805,3 +1805,113 @@ a.cm-author:hover { color: var(--accent-light); }
 }
 .cm-table tbody tr.cm-row-me { background: var(--accent-bg); }
 .cm-table tbody tr.cm-row-me:hover { background: var(--accent-bg); }
+
+/* ── Community: profile fields, pickers, self-description ── */
+
+.cm-profile-editor { max-width: 46rem; }
+
+.cm-fieldset {
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 0.85rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.cm-fieldset legend {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  color: var(--accent);
+  padding: 0 0.4rem;
+}
+.cm-fieldset > .cm-hint { margin-top: -0.25rem; }
+
+/* Checkbox grid — for the short, browsable option sets */
+.cm-checkgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13.5rem, 1fr));
+  gap: 0.25rem 0.75rem;
+}
+.cm-check {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.86rem;
+  padding: 0.15rem 0;
+  cursor: pointer;
+}
+.cm-check input { accent-color: var(--accent); width: auto; margin: 0; }
+.cm-check:hover span { color: var(--accent); }
+
+/* Dropdown + free text, adding into a chip list */
+.cm-picker-row {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cm-picker-row select { flex: 1 1 14rem; min-width: 0; }
+.cm-picker-row input { flex: 1 1 11rem; min-width: 0; }
+.cm-picker-row select,
+.cm-picker-row input {
+  font-family: var(--font-body);
+  font-size: 0.86rem;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text-primary);
+}
+
+.cm-chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.cm-chip-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+.cm-chip-tag button {
+  border: none;
+  background: none;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.cm-chip-tag button:hover { color: #a02020; }
+a.cm-chip-link { text-decoration: none; }
+a.cm-chip-link:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Read-only profile description */
+.cm-profile-details {
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+  padding: 0.85rem 0;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.cm-detail-line { font-size: 0.9rem; color: var(--text-secondary); }
+.cm-detail-row { display: flex; flex-direction: column; gap: 0.3rem; }
+
+/* One-time prompt to fill the profile in */
+.cm-nudge {
+  background: var(--bg-secondary);
+  border-left: 3px solid var(--accent-light);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.85rem;
+  margin-top: 1rem;
+  font-size: 0.88rem;
+}

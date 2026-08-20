@@ -23,6 +23,8 @@ dormant unless the two environment variables below are present at build time.
 | My-account dashboard | `site/src/pages/Account.tsx` → `/#/account` |
 | Site-wide activity feed | `site/src/pages/Community.tsx` → `/#/community` |
 | Public contributor profiles | `site/src/pages/Profile.tsx` → `/#/u/username` |
+| Profile editor (checkboxes and pickers) | `site/src/community/ProfileEditor.tsx` |
+| Picker options, read from the site's own data | `site/src/community/useSiteVocab.ts` |
 | Leaderboard | `site/src/pages/Leaderboard.tsx` → `/#/leaderboard` |
 | Moderation queue | `site/src/pages/Moderate.tsx` → `/#/moderate` |
 | Vercel build + routing config | [`vercel.json`](vercel.json) |
@@ -48,6 +50,24 @@ contribution has a **Copy link** button producing a permalink like
 and that note highlighted. Author names lead to public profiles, profiles and the
 leaderboard cross-link, and `/#/community` is the site-wide feed of everything
 recent, filterable by type and status.
+
+**Profiles describe people, not just their tallies.** Under *Edit profile* a
+contributor fills in a display name, bio, affiliation, and website, then picks:
+
+- **Parts of the archive you work on** — a checkbox grid of the site's fifteen
+  sections (Biography, the Exegesis, Works, Themes, Dictionary, Theophanies,
+  Essays, Studies, Archive, People, Names, Scholarship, PKD on PKD, Timeline, Map)
+- **Favourite themes** — checkboxes built from `themes/index.json`
+- **Favourite works** — a dropdown of all 73 catalogued works, grouped into
+  novels, short stories, letters, primary sources, interviews
+- **Research interests** — a dropdown grouped into study areas, essay subjects,
+  themes, and the sixty most-cited concepts in the Exegesis dictionary, plus a
+  free-text box for anything the archive doesn't cover yet
+
+Every option comes from the same JSON the site renders from, so the choices are
+always the archive's real contents — nothing to keep in sync by hand. Saved
+picks store slugs and render as **links into those pages**, so a profile becomes
+a set of routes into the parts of the archive that person cares about.
 
 **How scoring works.** The leaderboard ranks by a score built from: accepted work
 ×5, a live suggestion ×3, a comment or reply ×1, plus one per upvote received.
