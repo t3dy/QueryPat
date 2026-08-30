@@ -16,6 +16,10 @@ A survey crew discovers a planet whose entire surface has been reduced to fused 
 
 In a future Earth rebuilt and ruled entirely by robots after a war destroyed all human institutions and knowledge, humans occupy a strictly segregated underclass — body servants, gardeners, entertainers — barred from governance by 'Lists'... In a story collection like [James P. Crow](/works/james-p-crow), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Service Call
+
+Paint-company research director David Courtland is interrupted one evening by a nervous young repairman who has arrived to service his 'swibble' — a device Courtland has never heard of. In a story collection like [Service Call](/works/service-call), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### To Serve the Master
 
 In a bleak future where surviving humanity toils underground for rigid, bureaucratic Companies that emerged after an obscure war, low-level letter carrier Applequist discovers a damaged, still-conscious android buried in a ravine — the... In a story collection like [To Serve the Master](/works/to-serve-the-master), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

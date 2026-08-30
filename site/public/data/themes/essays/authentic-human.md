@@ -20,6 +20,10 @@ The Short Happy Life of the Brown Oxford and Other Classic Stories is the canoni
 
 Spence Olham, a senior researcher on a wartime defense project against the alien Outspacers, is arrested on his morning commute by Major Peters of the security service and his own old friend Nelson, who tell him he is not human at all: an... In a story collection like [Impostor](/works/imposter), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Piper in the Woods
+
+Psychiatrist Doctor Harris is called in to examine Corporal Westerburg, a healthy young Patrolman stationed at a remote asteroid checkpoint garrison who has calmly declared himself to be a plant and refuses to do anything but sit... In a story collection like [Piper in the Woods](/works/piper-in-the-woods), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Planet for Transients
 
 Three centuries after a war left Earth's surface radioactive, Trent — one of a dwindling colony of unmutated 'true humans' surviving underground in a Pennsylvania mine — treks north in a lead-lined suit searching for other human... In a story collection like [Planet for Transients](/works/planet-for-transients), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -71,6 +75,10 @@ Jill Herrick is married to Lester, a toxicologist who develops poisons for the m
 ### Nanny
 
 In a comfortable future household, a spherical robot Nanny raises the Fields children with total competence — waking them, walking them safely to school, disciplining them with iron patience, protecting them from bullies and drunks. In a story collection like [Nanny](/works/nanny), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### The Hood Maker
+
+In a Free Union government dependent on telepathic mutants ('teeps') born from a nuclear accident to police ideological loyalty, mysterious metal 'hoods' begin circulating that block mind-probes entirely, and anyone caught wearing one is... In a story collection like [The Hood Maker](/works/the-hood-maker), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Mold of Yancy
 

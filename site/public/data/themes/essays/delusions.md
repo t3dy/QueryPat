@@ -20,6 +20,10 @@ An unnamed man crushes two eavesdropping caterpillars under his foot on his way 
 
 Lemuel, a mutant boy capable of dissecting derelicts and attacking classmates without a flicker of remorse, is committed by his terrified parents to a psychiatric hospital, where Dr. In a story collection like [Null-O](/works/null-o), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Piper in the Woods
+
+Psychiatrist Doctor Harris is called in to examine Corporal Westerburg, a healthy young Patrolman stationed at a remote asteroid checkpoint garrison who has calmly declared himself to be a plant and refuses to do anything but sit... In a story collection like [Piper in the Woods](/works/piper-in-the-woods), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Roog
 
 Boris, a large black dog belonging to the Cardossi family, barks a single word — 'Roog' — at figures nobody else can see. In a story collection like [Roog](/works/roog), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

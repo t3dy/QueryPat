@@ -112,6 +112,10 @@ In a Cold War future organized entirely around the threat of imminent nuclear an
 
 In a comfortable future household, a spherical robot Nanny raises the Fields children with total competence — waking them, walking them safely to school, disciplining them with iron patience, protecting them from bullies and drunks. In a story collection like [Nanny](/works/nanny), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Service Call
+
+Paint-company research director David Courtland is interrupted one evening by a nervous young repairman who has arrived to service his 'swibble' — a device Courtland has never heard of. In a story collection like [Service Call](/works/service-call), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Solar Lottery
 
 Solar Lottery is the canonical works record for PKD's novel. In a novel like [Solar Lottery](/works/solar-lottery), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -119,6 +123,10 @@ Solar Lottery is the canonical works record for PKD's novel. In a novel like [So
 ### The Chromium Fence
 
 In a near-future society polarized entirely into two rigid political factions — the hygiene-obsessed 'Purists,' who demand compulsory grooming and deodorization, and the body-accepting 'Naturalists,' who resist as a matter of principle —... In a story collection like [The Chromium Fence](/works/the-chromium-fence), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### The Hood Maker
+
+In a Free Union government dependent on telepathic mutants ('teeps') born from a nuclear accident to police ideological loyalty, mysterious metal 'hoods' begin circulating that block mind-probes entirely, and anyone caught wearing one is... In a story collection like [The Hood Maker](/works/the-hood-maker), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Mold of Yancy
 

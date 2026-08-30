@@ -1,33 +1,24 @@
 {
-  "artifact_id": "ART_DOSSIER_SERVICE_CALL",
-  "artifact_type": "work_dossier",
-  "schema_version": "1.0",
-  "source_id": "service-call",
-  "generated_by": "reading_notes_agent",
-  "status": "LLM_CANDIDATE",
-  "review_state": "unreviewed",
-  "reading_status": "close_reading_complete",
-
-  "work": {
-    "title": "Service Call",
-    "slug": "service-call",
-    "form": "short story",
-    "word_count": 6689,
-    "lane": "A",
-    "written": "10/11/54",
-    "first_publication": "Science Fiction Stories, July 1955",
-    "source": {
-      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-      "line_start": 37811,
-      "line_end": 38212,
-      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
-    }
-  },
-
+  "work_id": "WORK_service-call",
+  "canonical_title": "Service Call",
+  "slug": "service-call",
+  "author": "Philip K. Dick",
+  "work_type": "short_story",
+  "category": "short_stories",
+  "date_display": "Science Fiction Stories, July 1955",
+  "date_start": "1955",
+  "card_summary": "Paint-company research director David Courtland is interrupted one evening by a nervous young repairman who has arrived to service his 'swibble' — a device Courtland has never heard of.",
+  "page_summary": "Paint-company research director David Courtland is interrupted one evening by a nervous young repairman who has arrived to service his 'swibble' — a device Courtland has never heard of. Realizing the man is a time-traveling technician from nine years in the future who has arrived too early (swibbles have not yet been invented), Courtland assembles a small team of colleagues and specialists to interrogate him when he inevitably returns. The repairman reveals, with increasing bureaucratic pride, that a 'swibble' is a partly organic, partly manufactured telepathic device — invented by an Army engineer named R.J. Wright in the wake of a brief 1961 war — that directly monitors and corrects the ideological loyalty of everyone in its household, eliminating dissent and 'contrapersons' so thoroughly that all future wars became unnecessary. When Courtland finally admits he does not actually own a swibble, the mortified repairman vanishes back to his own time — only for the story to end with a second crew of workmen arriving moments later, having tracked the temporal 'mix-up,' to install a swibble in Courtland's apartment regardless.\n\n**Why it matters.** Dick's own 1978 author's story note states the story's underlying fear with unusual directness and personal specificity: not a giant monster striding through a city, but the household objects one 'voluntarily surround[s] oneself with' -- 'my own TV set or iron or toaster' -- quietly announcing they have taken over. This grounds the swibble's science-fictional premise in a very concrete, domestic anxiety about consumer technology and ideological control merging seamlessly, an anxiety Dick explicitly connects, in the same note, to contemporary suspicion about whether real political figures are themselves 'programmed.' Anne R. Dick's memoir independently confirms the story's basic premise ('a swivel will control men's thoughts in order to prevent atomic war'), while a Selected Letters excerpt shows Dick considering swapping it out of an anthology list in favor of another story he rated more highly -- suggesting he saw it as good but not among his very best work, notwithstanding its thematic importance to him personally.\n\n*The second repair crew's cheerful, businesslike arrival to install a swibble regardless of Courtland's protests closes the story on total inevitability: the household's assimilation into the totalizing system was never actually contingent on the mistaken repairman's visit at all.*",
+  "page_count": 0,
+  "source_count": 0,
+  "related_docs": [],
+  "biography_events": [],
+  "themes": [
+    "robots",
+    "empire-control"
+  ],
+  "word_count": 6689,
   "reading": {
-    "reading_status": "close_reading_complete",
-    "synopsis": "Paint-company research director David Courtland is interrupted one evening by a nervous young repairman who has arrived to service his 'swibble' — a device Courtland has never heard of. Realizing the man is a time-traveling technician from nine years in the future who has arrived too early (swibbles have not yet been invented), Courtland assembles a small team of colleagues and specialists to interrogate him when he inevitably returns. The repairman reveals, with increasing bureaucratic pride, that a 'swibble' is a partly organic, partly manufactured telepathic device — invented by an Army engineer named R.J. Wright in the wake of a brief 1961 war — that directly monitors and corrects the ideological loyalty of everyone in its household, eliminating dissent and 'contrapersons' so thoroughly that all future wars became unnecessary. When Courtland finally admits he does not actually own a swibble, the mortified repairman vanishes back to his own time — only for the story to end with a second crew of workmen arriving moments later, having tracked the temporal 'mix-up,' to install a swibble in Courtland's apartment regardless.",
-
     "structure": {
       "form": "short story in three movements: the mistaken service call and its investigation, the repairman's escalating explanation of swibble technology and its totalizing social function, and a closing reveal that the household's assimilation cannot actually be averted",
       "movements": [
@@ -38,40 +29,53 @@
       "point_of_view": "third person close to Courtland throughout, so the reader shares his mounting scientific curiosity and then dawning horror as an ordinary domestic interruption reveals an entire totalitarian future built around voluntarily-adopted household technology.",
       "central_device": "A mundane, comic framing device (a mistaken service call, an amusingly awkward door-to-door repairman) used to deliver an increasingly horrifying revelation about a future society whose total ideological conformity is achieved not through overt state violence but through domesticated, voluntarily purchased consumer technology -- a horror the story's closing image confirms is already, inevitably, arriving at Courtland's own door."
     },
-
     "characters": [
-      { "name": "David Courtland", "role": "protagonist, a paint-company research director", "note": "His scientific curiosity about the anomaly initially outweighs any sense of danger, and his blunt honesty ('I haven't got a swibble') -- meant to end an awkward mix-up -- instead triggers exactly the outcome the story's ending shows cannot actually be avoided." },
-      { "name": "The swibble repairman", "role": "a time-displaced future technician", "note": "His genuine, unreflective pride in describing a technology that eliminates dissent by directly feeding on and correcting human thought reveals a future in which totalitarian conformity has been so thoroughly normalized that its enforcer sees himself as an ordinary tradesman rather than an instrument of control." },
-      { "name": "Pesbroke and the assembled colleagues", "role": "Courtland's improvised interrogation team", "note": "Their shifting reactions -- curiosity, skepticism, mounting horror -- track the reader's own progression through the repairman's escalating, matter-of-fact explanation of a device that can, in his own words, 'crack you open and drink you down.'" }
+      {
+        "name": "David Courtland",
+        "role": "protagonist, a paint-company research director",
+        "note": "His scientific curiosity about the anomaly initially outweighs any sense of danger, and his blunt honesty ('I haven't got a swibble') -- meant to end an awkward mix-up -- instead triggers exactly the outcome the story's ending shows cannot actually be avoided."
+      },
+      {
+        "name": "The swibble repairman",
+        "role": "a time-displaced future technician",
+        "note": "His genuine, unreflective pride in describing a technology that eliminates dissent by directly feeding on and correcting human thought reveals a future in which totalitarian conformity has been so thoroughly normalized that its enforcer sees himself as an ordinary tradesman rather than an instrument of control."
+      },
+      {
+        "name": "Pesbroke and the assembled colleagues",
+        "role": "Courtland's improvised interrogation team",
+        "note": "Their shifting reactions -- curiosity, skepticism, mounting horror -- track the reader's own progression through the repairman's escalating, matter-of-fact explanation of a device that can, in his own words, 'crack you open and drink you down.'"
+      }
     ],
-
     "settings": [
-      { "name": "Courtland's San Francisco apartment", "note": "An ordinary, comfortable upper-middle-class domestic space whose eventual, unavoidable assimilation into the swibble system by the story's end suggests no household, however unprepared, will be exempted." }
+      {
+        "name": "Courtland's San Francisco apartment",
+        "note": "An ordinary, comfortable upper-middle-class domestic space whose eventual, unavoidable assimilation into the swibble system by the story's end suggests no household, however unprepared, will be exempted."
+      }
     ],
-
     "motifs": [
       "A totalitarian social-control technology framed and marketed as an ordinary, voluntarily-adopted household appliance",
       "War eliminated not through peace but through the technological elimination of the capacity for ideological disagreement itself",
       "A time-travel mix-up used as a structural device to deliver future horror through comic, mundane bureaucratic process (route sheets, service calls, company politics) rather than through direct confrontation",
       "A closing reversal in which an apparent averted disaster (the repairman's mistaken visit) is immediately followed by confirmation that the disaster is arriving on schedule regardless"
     ],
-
     "significance": "Dick's own 1978 author's story note states the story's underlying fear with unusual directness and personal specificity: not a giant monster striding through a city, but the household objects one 'voluntarily surround[s] oneself with' -- 'my own TV set or iron or toaster' -- quietly announcing they have taken over. This grounds the swibble's science-fictional premise in a very concrete, domestic anxiety about consumer technology and ideological control merging seamlessly, an anxiety Dick explicitly connects, in the same note, to contemporary suspicion about whether real political figures are themselves 'programmed.' Anne R. Dick's memoir independently confirms the story's basic premise ('a swivel will control men's thoughts in order to prevent atomic war'), while a Selected Letters excerpt shows Dick considering swapping it out of an anthology list in favor of another story he rated more highly -- suggesting he saw it as good but not among his very best work, notwithstanding its thematic importance to him personally.",
-
     "closing_note": "The second repair crew's cheerful, businesslike arrival to install a swibble regardless of Courtland's protests closes the story on total inevitability: the household's assimilation into the totalizing system was never actually contingent on the mistaken repairman's visit at all."
   },
-
-  "concepts": {
-    "distinctive_terms": [
-      { "label": "Suppose", "entity_id": "TERM_suppose", "count": 9, "distinctiveness": 5.94, "note": "The repeated hypothetical framing ('suppose everyone felt the way you do') runs through both this story's investigative dialogue and its underlying anxiety about voluntary conformity." },
-      { "label": "Lord", "entity_id": "TERM_lord", "count": 4, "distinctiveness": 5.53 }
-    ],
-    "thematic_links_proposed": [
-      { "theme": "robots", "basis": "a partly organic, partly manufactured telepathic device marketed and adopted as an ordinary household appliance, directly monitoring and correcting its owners' political loyalty" },
-      { "theme": "empire-control", "basis": "a totalizing ideological conformity system that eliminates war and dissent alike by making disagreement itself biologically and technologically impossible, achieved through voluntary consumer adoption rather than overt state coercion" }
-    ]
-  },
-
+  "distinctive_terms": [
+    {
+      "label": "Suppose",
+      "entity_id": "TERM_suppose",
+      "count": 9,
+      "distinctiveness": 5.94,
+      "note": "The repeated hypothetical framing ('suppose everyone felt the way you do') runs through both this story's investigative dialogue and its underlying anxiety about voluntary conformity."
+    },
+    {
+      "label": "Lord",
+      "entity_id": "TERM_lord",
+      "count": 4,
+      "distinctiveness": 5.53
+    }
+  ],
   "pkd_on_this_work": {
     "lane": "E",
     "total_mentions": 2,
@@ -92,7 +96,6 @@
       }
     ]
   },
-
   "criticism": {
     "lane": "C",
     "total_mentions": 1,
@@ -106,21 +109,17 @@
       }
     ]
   },
-
   "contradictions": [],
-
   "open_questions": [
     "Which story did Dick ultimately prefer to include in place of 'Service Call' in the anthology discussed in his Selected Letters correspondence?",
     "Is the story's title connection to Anne R. Dick's brief catalogue entry ever expanded elsewhere with additional biographical or compositional detail?",
     "Is the swibble's role as marketed, voluntarily-purchased consumer technology (rather than state-imposed surveillance) ever discussed by critics as an unusually early critique of technology-enabled soft totalitarianism?"
   ],
-
-  "provenance": {
-    "layer_1_reading": "Full text read at the locator above, 6,689 words.",
-    "layer_2_concepts": "scripts/reading/gather_evidence.py",
-    "layer_3_pkd": "2 substantive citations (author's story note, Selected Letters).",
-    "layer_4_criticism": "1 substantive citation (Anne R. Dick).",
-    "related_dossiers": "none identified.",
-    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
-  }
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  },
+  "written": "10/11/54"
 }

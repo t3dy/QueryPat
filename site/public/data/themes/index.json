@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 125,
+  "fiction_work_count": 128,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -116,7 +116,7 @@
       "slug": "robots",
       "label": "Robots",
       "description": "Robots, automation, machine labor, and the fear that technology can replace human agency.",
-      "work_count": 12,
+      "work_count": 13,
       "works": [
         {
           "work_id": "WORK_the-gun",
@@ -135,6 +135,15 @@
           "work_type": "short_story",
           "date_display": "Planet Stories, May 1954",
           "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_service-call",
+          "canonical_title": "Service Call",
+          "slug": "service-call",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Science Fiction Stories, July 1955",
+          "date_start": "1955"
         },
         {
           "work_id": "WORK_to-serve-the-master",
@@ -271,7 +280,7 @@
       "slug": "authentic-human",
       "label": "Authentic Human",
       "description": "Human authenticity, empathy, caritas, and the resistance to programmed or mechanical existence.",
-      "work_count": 39,
+      "work_count": 41,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -298,6 +307,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Astounding Science Fiction, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_piper-in-the-woods",
+          "canonical_title": "Piper in the Woods",
+          "slug": "piper-in-the-woods",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Imagination, February 1953",
           "date_start": "1953"
         },
         {
@@ -415,6 +433,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Startling Stories, Spring 1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_the-hood-maker",
+          "canonical_title": "The Hood Maker",
+          "slug": "the-hood-maker",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Imagination, June 1955",
           "date_start": "1955"
         },
         {
@@ -1516,7 +1543,7 @@
       "slug": "delusions",
       "label": "Delusions",
       "description": "Paranoia, psychosis, hallucination, schizophrenia, and other forms of unstable perception.",
-      "work_count": 14,
+      "work_count": 15,
       "works": [
         {
           "work_id": "WORK_colony",
@@ -1543,6 +1570,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Fantasy Fiction, August 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_piper-in-the-woods",
+          "canonical_title": "Piper in the Woods",
+          "slug": "piper-in-the-woods",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Imagination, February 1953",
           "date_start": "1953"
         },
         {
@@ -2402,7 +2438,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 61,
+      "work_count": 63,
       "works": [
         {
           "work_id": "WORK_the-cosmic-poachers",
@@ -2639,6 +2675,15 @@
           "date_start": "1955"
         },
         {
+          "work_id": "WORK_service-call",
+          "canonical_title": "Service Call",
+          "slug": "service-call",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Science Fiction Stories, July 1955",
+          "date_start": "1955"
+        },
+        {
           "work_id": "WORK_solar-lottery",
           "canonical_title": "Solar Lottery",
           "slug": "solar-lottery",
@@ -2654,6 +2699,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "If, September 1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_the-hood-maker",
+          "canonical_title": "The Hood Maker",
+          "slug": "the-hood-maker",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Imagination, June 1955",
           "date_start": "1955"
         },
         {
