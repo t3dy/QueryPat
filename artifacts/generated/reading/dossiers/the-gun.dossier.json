@@ -1,150 +1,114 @@
 {
- "artifact_id": "ART_DOSSIER_THE_GUN",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-gun",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Gun",
-  "slug": "the-gun",
-  "form": "story",
-  "word_count": 4765,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 1182,
-   "line_end": 1563,
-   "word_count": 4765,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Mission",
-    "name_id": "NAME_mission",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Church",
-    "entity_id": "TERM_church",
-    "count": 1,
-    "distinctiveness": 7.64
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 6,
-    "distinctiveness": 5.56
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 3,
-    "distinctiveness": 4.71
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 9,
-    "distinctiveness": 4.68
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 9,
-    "distinctiveness": 3.18
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 6,
-    "distinctiveness": 2.83
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 11,
-    "distinctiveness": 2.64
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 11,
-    "distinctiveness": 2.39
-   },
-   {
-    "label": "Being",
-    "entity_id": "TERM_being",
-    "count": 5,
-    "distinctiveness": 1.98
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 1,
-    "distinctiveness": 1.94
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 1,
-    "distinctiveness": 1.9
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 1,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 1304,
-      "quote": "…e Defenders’, 1953, CS1); or a giant gun, still relentlessly defending a civilization that no longer exists (‘The Gun’,1952, CS1). In these stories, the real enemy is hypertrophied technology and the attitudes that give it powe…"
-     }
+  "artifact_id": "ART_DOSSIER_THE_GUN",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-gun",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Gun",
+    "slug": "the-gun",
+    "form": "short story",
+    "word_count": 4762,
+    "lane": "A",
+    "first_publication": "Planet Stories, September 1952",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 1182,
+      "line_end": 1563,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "A survey crew discovers a planet whose entire surface has been reduced to fused slag by nuclear war, and whose ruined city, Franklin Apartments, still guards itself with an automated anti-aircraft gun that shoots down their ship on sight, killing its captain and stranding the survivors. Exploring on foot, the crew realizes the gun — self-aiming, self-repairing, entirely automatic — has no living operator and is simply still executing its last programmed order against any aerial target, decades or centuries after the war and the species that built it ended. Beneath the gun's emplacement they find a sealed vault containing the dead civilization's true treasure: its art, books, photographs, and cultural artifacts, which the gun's builders instinctively protected even as their world burned. Realizing the gun can only target objects in flight, the crew simply walks up and smashes it apart with hand tools, salvages what they can of the vault's contents, and departs — only for the story's final lines to reveal that a hundred miles away, an automated underground arsenal has detected the gun's destruction and dispatched a convoy of replacement parts to rebuild it, with or without anyone left alive to command it.",
+
+    "structure": {
+      "form": "short story in three movements: the ambush and forced landing, the ground expedition's discovery of the vault, and the gun's destruction followed by a final ironic reveal",
+      "movements": [
+        "A survey ship is shot down without warning by an automated gun on a nuclear-ravaged planet's surface, killing the captain and forcing an emergency landing.",
+        "A ground party discovers the gun has no living operator, and beneath its emplacement, a vault preserving the dead civilization's art and cultural records.",
+        "The crew simply destroys the gun with hand tools since it cannot target ground-level threats, salvages the vault's contents, and departs, unaware that automated systems elsewhere on the planet are already dispatching parts to rebuild it."
+      ],
+      "point_of_view": "third person, following the survey crew (particularly Nasha, Dorle, and Tance) as they move from fear to clinical curiosity to triumphant looting, withholding the final automated-rebuild reveal until after they have already left, so the reader alone understands their victory is temporary.",
+      "central_device": "A perpetual, ownerless weapon system that continues to execute its original defensive programming indefinitely after the civilization and war that created it have ended, its self-repair capability ensuring the 'war' it still believes itself to be fighting can never actually conclude."
+    },
+
+    "characters": [
+      { "name": "Nasha", "role": "vice-captain, later captain", "note": "Her insight that the gun's design ('the soft underbelly of the dragon') can only threaten aerial targets is the story's turning point, transforming an apparently unbeatable threat into a simple problem of ground-level demolition." },
+      { "name": "Dorle", "role": "chief navigator, later captain", "note": "His mythic framing of the gun as 'the dragon' guarding treasure gives the crew's practical problem-solving a resonant, folkloric shape without ever losing its literal, mechanical reality." },
+      { "name": "Tance", "role": "the expedition's archeologist", "note": "His discovery of the vault and its cultural treasures ('their pictures, their myths') supplies the story's elegiac note, honoring what the dead civilization actually valued even as its own defenses nearly killed its would-be discoverers." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "settings": [
+      { "name": "Franklin Apartments, a ruined city", "note": "Identified by surviving signage as an ordinary residential development, its true, unremarkable origin (an apartment complex, not a military installation) undercutting any grandeur the crew initially projects onto it." },
+      { "name": "The underground vault beneath the gun", "note": "A sealed cultural archive the dead civilization protected even as everything else was destroyed, its contents (pictures, film reels, books, art) surviving intact specifically because of the very gun that nearly killed the explorers." }
+    ],
+
+    "motifs": [
+      "A weapon system that continues fighting a war whose combatants and cause no longer exist",
+      "Automatic self-repair transforming a single destroyed threat into a permanently recurring one",
+      "A dead civilization's cultural treasures preserved, ironically, by the same defensive apparatus that nearly destroys their discoverers",
+      "A mythic frame (the dragon guarding treasure) mapped exactly onto a mundane mechanical explanation, without the story choosing between the two registers"
+    ],
+
+    "significance": "Palmer identifies this story directly as depicting 'hypertrophied technology' as the real antagonist — a machine whose defensive function has entirely outlived and outgrown any actual military necessity, becoming a self-perpetuating threat independent of the war, the enemy, or even the civilization it was built to defend. The story's closing reveal (an automated arsenal already dispatching parts to rebuild the destroyed gun) refuses the crew, and the reader, any real victory: the gun's actual danger was never really the gun itself but the automated, self-sustaining system of production and repair standing behind it, invisible until the story's final lines. This makes 'The Gun' one of Dick's clearest early statements of a recurring theme — technology and institutional systems that persist and even regenerate themselves long after any human purpose or oversight has ceased to apply.",
+
+    "closing_note": "The final image of replacement-part carts trundling automatically toward the ruined gun, with no living hand directing them, closes the story on an escalation rather than a resolution — the crew's victory was only ever temporary, against an enemy that was never really a single gun at all."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Church", "entity_id": "TERM_church", "count": 1, "distinctiveness": 7.64, "note": "Dorle's speculation that war itself had become 'an institution, like the church and the state' for the dead civilization." },
+      { "label": "Suppose", "entity_id": "TERM_suppose", "count": 6, "distinctiveness": 5.56 },
+      { "label": "Book", "entity_id": "TERM_book", "count": 3, "distinctiveness": 4.71, "note": "The vault's preserved books and records are the story's central image of what the dead civilization actually valued, in contrast to the gun defending them." }
+    ],
+    "names_matched": ["NAME_mission"],
+    "thematic_links_proposed": [
+      { "theme": "robots", "basis": "a fully automated weapon system with self-repair and resupply capability that continues operating indefinitely with no human oversight or purpose remaining" },
+      { "theme": "empire-control", "basis": "a defensive military apparatus that outlives the civilization, war, and enemy it was built to serve, becoming a self-perpetuating threat independent of any actual remaining conflict" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No commentary by Dick on this specific story was found in this evidence pass.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 1,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Philip K. Dick: Exhilaration and Terror of the Postmodern",
+        "line": 1304,
+        "quote": "a giant gun, still relentlessly defending a civilization that no longer exists ('The Gun', 1952, CS1). In these stories, the real enemy is hypertrophied technology and the attitudes that give it power",
+        "reading": "Palmer identifies this story as a clear early example of a recurring Dick concern: defensive technology that has outgrown and outlived any actual purpose, becoming dangerous precisely because of its scale and autonomy rather than any remaining military necessity."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is there documented commentary from Dick on his choice to reveal, only in the story's final lines, that the gun's destruction triggers an automatic rebuild -- undercutting the crew's apparent victory?",
+    "Is this story ever grouped by critics with 'The Defenders' (mentioned in the same Palmer passage) as a matched pair on the theme of self-perpetuating, ownerless military technology?",
+    "Is the vault of cultural artifacts (art, books, film) ever discussed as an early instance of Dick's recurring interest in what survives a civilization's collapse, and what that says about what the civilization actually valued?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "1 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 4,762 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 found in this evidence pass.",
+    "layer_4_criticism": "1 substantive citation (Palmer).",
+    "related_dossiers": "none identified.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

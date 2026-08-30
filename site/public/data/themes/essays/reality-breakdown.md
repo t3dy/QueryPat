@@ -76,6 +76,10 @@ Time Out of Joint is the canonical works record for PKD's novel. In a novel like
 
 The Man in the High Castle is the canonical works record for PKD's novel. In a novel like [The Man in the High Castle](/works/the-man-in-the-high-castle), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Orpheus with Clay Feet
+
+Bored military-exemption consultant Jesse Slade visits a time-travel agency, Muse Enterprises, hoping to inspire a great historical figure since he lacks any creative talent of his own. In a story collection like [Orpheus with Clay Feet](/works/orpheus-with-clay-feet), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Penultimate Truth
 
 The Penultimate Truth is the canonical works record for PKD's novel. In a novel like [The Penultimate Truth](/works/the-penultimate-truth), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

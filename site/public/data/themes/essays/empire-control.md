@@ -12,6 +12,10 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 A Terran patrol ship spots an armed Adharan freighter illegally trespassing in the closed Sirius system, methodically landing on planet after planet, sending out swarms of crew to gather something unknown, then moving on. In a story collection like [The Cosmic Poachers](/works/the-cosmic-poachers), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Gun
+
+A survey crew discovers a planet whose entire surface has been reduced to fused slag by nuclear war, and whose ruined city, Franklin Apartments, still guards itself with an automated anti-aircraft gun that shoots down their ship on sight... In a story collection like [The Gun](/works/the-gun), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Skull
 
 Conger, a convicted smuggler and skilled hunter, is offered release from prison by a totalitarian Council in exchange for a mission: travel back in time to twentieth-century Colorado and kill the founder of the pacifist First Church before... In a story collection like [The Skull](/works/the-skull), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

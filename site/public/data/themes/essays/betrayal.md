@@ -88,6 +88,10 @@ The Man in the High Castle is the canonical works record for PKD's novel. In a n
 
 The Game-Players of Titan is the canonical works record for PKD's novel. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### A Game of Unchance
+
+A Martian colony settlement, wary after a prior traveling carnival cheated them, plans to use their psychokinetic boy Fred Costner covertly against a new alien carnival ship's rigged games. In a story collection like [A Game of Unchance](/works/a-game-of-unchance), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Precious Artifact
 
 After six years reconstructing Mars following Terra's defeat in the Prox-Terra war, exhausted reconstruct engineer Milt Biskle asks to go home instead of accepting his reward — priority land on the world he rebuilt. In a story collection like [Precious Artifact](/works/precious-artifact), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

@@ -170,8 +170,25 @@
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
  },
  "pkd_on_this_work": {
-  "sources": [],
-  "total_mentions": 0
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "is_author_story_note": true,
+    "quotes": [
+     {
+      "line": null,
+      "quote": "A carnival is feral; another carnival shows up and is pitted against the first one; and the antithetical interaction is preplanned in such a way that the first carnival wins. It's as if the two opposing forces that underlie all change in the universe are rigged; in favor of thanatos, the dark force, yin or strife, which is to say, the force of destruction. (1978)",
+      "written_date": "11/9/63",
+      "alt_title": null
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
  },
  "criticism": {
   "sources": [],

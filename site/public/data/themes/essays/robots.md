@@ -8,6 +8,10 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 ## Reading the works
 
+### The Gun
+
+A survey crew discovers a planet whose entire surface has been reduced to fused slag by nuclear war, and whose ruined city, Franklin Apartments, still guards itself with an automated anti-aircraft gun that shoots down their ship on sight... In a story collection like [The Gun](/works/the-gun), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### James P. Crow
 
 In a future Earth rebuilt and ruled entirely by robots after a war destroyed all human institutions and knowledge, humans occupy a strictly segregated underclass — body servants, gardeners, entertainers — barred from governance by 'Lists'... In a story collection like [James P. Crow](/works/james-p-crow), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

@@ -1,33 +1,24 @@
 {
-  "artifact_id": "ART_DOSSIER_A_GAME_OF_UNCHANCE",
-  "artifact_type": "work_dossier",
-  "schema_version": "1.0",
-  "source_id": "a-game-of-unchance",
-  "generated_by": "reading_notes_agent",
-  "status": "LLM_CANDIDATE",
-  "review_state": "unreviewed",
-  "reading_status": "close_reading_complete",
-
-  "work": {
-    "title": "A Game of Unchance",
-    "slug": "a-game-of-unchance",
-    "form": "short story",
-    "word_count": 7991,
-    "lane": "A",
-    "written": "11/9/63",
-    "first_publication": "Amazing Stories, July 1964",
-    "source": {
-      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-      "line_start": 49193,
-      "line_end": 49600,
-      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
-    }
-  },
-
+  "work_id": "WORK_a-game-of-unchance",
+  "canonical_title": "A Game of Unchance",
+  "slug": "a-game-of-unchance",
+  "author": "Philip K. Dick",
+  "work_type": "short_story",
+  "category": "short_stories",
+  "date_display": "Amazing Stories, July 1964",
+  "date_start": "1964",
+  "card_summary": "A Martian colony settlement, wary after a prior traveling carnival cheated them, plans to use their psychokinetic boy Fred Costner covertly against a new alien carnival ship's rigged games.",
+  "page_summary": "A Martian colony settlement, wary after a prior traveling carnival cheated them, plans to use their psychokinetic boy Fred Costner covertly against a new alien carnival ship's rigged games. Fred wins repeatedly at a booth that seems to protect something valuable, and the settlement's leader Hoagland Rae discovers the 'prizes' are actually dormant microrobots. Activating one accidentally nearly kills him, and the settlement is forced to call in UN authorities, who reveal the carnival deliberately let the settlement win — it was smuggling infiltration devices toward Earth, and the settlement's own greedy cleverness in trying to cheat the carnival actually delivered the weapons closer to their goal. The settlement is evacuated and gassed to destroy the escaped devices, but a second, entirely different alien carnival ship then arrives, offering a fresh temptation: this time openly advertised 'traps' designed specifically to hunt down the very microrobots infesting the settlement's land. Fred, still eager to prove himself despite having caused the previous disaster, resolves to win these too — apparently walking directly into a second rigged trap exactly like the first, the story closing on the unnerving suggestion that the entire sequence of carnivals, wins, and disasters may be a single, larger, orchestrated design.\n\n**Why it matters.** Dick's own 1978 story note gives this story explicit cosmological weight: he describes the carnival-versus-carnival structure as revealing that 'the two opposing forces that underlie all change in the universe are rigged; in favor of thanatos, the dark force, yin or strife, which is to say, the force of destruction.' Read in that light, the story's repeated pattern — cleverness mistaken for victory, a win that is actually a loss, a second temptation offered as a solution to the first — is not simply plot mechanics but a deliberate dramatization of a rigged cosmic order in which the destructive outcome is preordained regardless of the characters' choices. Fred's willingness to try again at the second carnival, despite having just witnessed the catastrophic consequences of the first, reads as either human nature's incorrigible optimism or as proof that no amount of learned caution can escape a genuinely rigged game.\n\n*The story's closing line — 'It was almost as if they worked it that way on purpose' — is stated of the settlement's second attempt but reads, given Dick's own cosmological framing, as a claim about the entire universe the story depicts, not merely this one game.*",
+  "page_count": 0,
+  "source_count": 0,
+  "related_docs": [],
+  "biography_events": [],
+  "themes": [
+    "alien-contact",
+    "betrayal"
+  ],
+  "word_count": 7991,
   "reading": {
-    "reading_status": "close_reading_complete",
-    "synopsis": "A Martian colony settlement, wary after a prior traveling carnival cheated them, plans to use their psychokinetic boy Fred Costner covertly against a new alien carnival ship's rigged games. Fred wins repeatedly at a booth that seems to protect something valuable, and the settlement's leader Hoagland Rae discovers the 'prizes' are actually dormant microrobots. Activating one accidentally nearly kills him, and the settlement is forced to call in UN authorities, who reveal the carnival deliberately let the settlement win — it was smuggling infiltration devices toward Earth, and the settlement's own greedy cleverness in trying to cheat the carnival actually delivered the weapons closer to their goal. The settlement is evacuated and gassed to destroy the escaped devices, but a second, entirely different alien carnival ship then arrives, offering a fresh temptation: this time openly advertised 'traps' designed specifically to hunt down the very microrobots infesting the settlement's land. Fred, still eager to prove himself despite having caused the previous disaster, resolves to win these too — apparently walking directly into a second rigged trap exactly like the first, the story closing on the unnerving suggestion that the entire sequence of carnivals, wins, and disasters may be a single, larger, orchestrated design.",
-
     "structure": {
       "form": "short story in three movements: the first carnival's rigged 'win' and its catastrophic consequences, the UN's intervention and evacuation, and a second carnival arriving with an ironic mirror-image temptation",
       "movements": [
@@ -38,41 +29,53 @@
       "point_of_view": "third person, moving primarily between Fred Costner and settlement leader Hoagland Rae, tracking the settlement's shift from cunning confidence to devastated realization and back to the same cunning confidence with the second carnival, without any character seeming to learn the lesson the reader can see clearly.",
       "central_device": "A rigged game whose 'win' condition is itself the trap, repeated with an ironic mirror twist (the second carnival's prizes are advertised as a solution to the first carnival's harm), so that the settlement's own greed and cleverness — not any force majeure — are what repeatedly deliver them into worse danger."
     },
-
     "characters": [
-      { "name": "Fred Costner", "role": "the psychokinetic boy", "note": "Eager to redeem himself after the first disaster, his resolve to win again at the second carnival's game, framed by the narration as his 'chance,' reads as either tragic naivety or as evidence that the entire cycle is itself externally engineered and inescapable." },
-      { "name": "Hoagland Rae", "role": "settlement council chairman", "note": "His own curiosity (opening the captured microrobot to see how it works) triggers the story's first crisis, and his subsequent humiliation before UN authority frames the settlement's entire scheme as amateur overreach against forces it cannot understand." },
-      { "name": "General Wolff", "role": "UN secret police official", "note": "His blunt assessment — 'that's what you get for pitting your wits against an adversary from another system' — states the story's thesis directly, and his casual admission that Mars itself may already be lost reframes the settlement's local crisis within a much larger, losing interstellar conflict." }
+      {
+        "name": "Fred Costner",
+        "role": "the psychokinetic boy",
+        "note": "Eager to redeem himself after the first disaster, his resolve to win again at the second carnival's game, framed by the narration as his 'chance,' reads as either tragic naivety or as evidence that the entire cycle is itself externally engineered and inescapable."
+      },
+      {
+        "name": "Hoagland Rae",
+        "role": "settlement council chairman",
+        "note": "His own curiosity (opening the captured microrobot to see how it works) triggers the story's first crisis, and his subsequent humiliation before UN authority frames the settlement's entire scheme as amateur overreach against forces it cannot understand."
+      },
+      {
+        "name": "General Wolff",
+        "role": "UN secret police official",
+        "note": "His blunt assessment — 'that's what you get for pitting your wits against an adversary from another system' — states the story's thesis directly, and his casual admission that Mars itself may already be lost reframes the settlement's local crisis within a much larger, losing interstellar conflict."
+      }
     ],
-
     "settings": [
-      { "name": "The Martian farming settlement", "note": "A marginal colonial outpost whose residents' boredom and craving for spectacle ('it had no culture, no solemnity') make them structurally vulnerable to exactly the kind of manipulation the carnivals offer." }
+      {
+        "name": "The Martian farming settlement",
+        "note": "A marginal colonial outpost whose residents' boredom and craving for spectacle ('it had no culture, no solemnity') make them structurally vulnerable to exactly the kind of manipulation the carnivals offer."
+      }
     ],
-
     "motifs": [
       "A rigged game whose apparent 'win' is the actual mechanism of the trap",
       "Human greed and cleverness repeatedly mistaken for cunning victory, when they are actually the vulnerability being exploited",
       "An ironic mirrored repetition (a second carnival offering the 'solution' to the first carnival's harm) that the characters cannot recognize as a repeat of the same pattern",
       "A colonial settlement's structural boredom and craving for spectacle as the actual entry point for a larger, unseen interstellar conflict"
     ],
-
     "significance": "Dick's own 1978 story note gives this story explicit cosmological weight: he describes the carnival-versus-carnival structure as revealing that 'the two opposing forces that underlie all change in the universe are rigged; in favor of thanatos, the dark force, yin or strife, which is to say, the force of destruction.' Read in that light, the story's repeated pattern — cleverness mistaken for victory, a win that is actually a loss, a second temptation offered as a solution to the first — is not simply plot mechanics but a deliberate dramatization of a rigged cosmic order in which the destructive outcome is preordained regardless of the characters' choices. Fred's willingness to try again at the second carnival, despite having just witnessed the catastrophic consequences of the first, reads as either human nature's incorrigible optimism or as proof that no amount of learned caution can escape a genuinely rigged game.",
-
     "closing_note": "The story's closing line — 'It was almost as if they worked it that way on purpose' — is stated of the settlement's second attempt but reads, given Dick's own cosmological framing, as a claim about the entire universe the story depicts, not merely this one game."
   },
-
-  "concepts": {
-    "distinctive_terms": [
-      { "label": "Star", "entity_id": "TERM_star", "count": 9, "distinctiveness": 13.63, "note": "Repeated references to the carnivals' origin 'from beyond the Sol System' or 'another system' frame the conflict explicitly as interstellar." },
-      { "label": "Realm", "entity_id": "TERM_realm", "count": 1, "distinctiveness": 8.23 }
-    ],
-    "names_matched": ["NAME_orpheus", "NAME_the-authorities"],
-    "thematic_links_proposed": [
-      { "theme": "alien-contact", "basis": "a rigged encounter with an interstellar carnival that exploits human greed and boredom to smuggle infiltration devices, revealed to be part of a much larger, losing conflict over Mars and eventually Earth" },
-      { "theme": "betrayal", "basis": "a 'win' that is actually the mechanism of the trap, and a second, mirror-image temptation offered as if it were a solution to the very harm the first betrayal caused" }
-    ]
-  },
-
+  "distinctive_terms": [
+    {
+      "label": "Star",
+      "entity_id": "TERM_star",
+      "count": 9,
+      "distinctiveness": 13.63,
+      "note": "Repeated references to the carnivals' origin 'from beyond the Sol System' or 'another system' frame the conflict explicitly as interstellar."
+    },
+    {
+      "label": "Realm",
+      "entity_id": "TERM_realm",
+      "count": 1,
+      "distinctiveness": 8.23
+    }
+  ],
   "pkd_on_this_work": {
     "lane": "E",
     "total_mentions": 1,
@@ -87,27 +90,22 @@
       }
     ]
   },
-
   "criticism": {
     "lane": "C",
     "total_mentions": 0,
     "evidence": []
   },
-
   "contradictions": [],
-
   "open_questions": [
     "Does the story ever reveal whether the second carnival (offering 'traps' for the microrobots) is a genuine countermeasure, a different alien faction, or another arm of the same infiltration scheme? The text leaves this ambiguous at its close.",
     "Is the story's title pun (a 'game of unchance,' i.e., a rigged rather than fair game) ever discussed by critics as a deliberate echo of or contrast with 'Shell Game' (also read in this project), which similarly turns on the unreliability of an apparently objective test?",
     "Is General Wolff's admission that the UN has 'pretty much given up hope of holding Mars' ever connected by critics to Dick's broader Cold War-era anxieties about slow, losing wars of attrition?"
   ],
-
-  "provenance": {
-    "layer_1_reading": "Full text read at the locator above, 7,991 words.",
-    "layer_2_concepts": "scripts/reading/gather_evidence.py",
-    "layer_3_pkd": "1 substantive citation, a philosophically explicit author's story note.",
-    "layer_4_criticism": "0 found in this evidence pass.",
-    "related_dossiers": "shell-game (shares the theme of an apparently objective test whose result cannot be trusted, also read).",
-    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
-  }
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  },
+  "written": "11/9/63"
 }

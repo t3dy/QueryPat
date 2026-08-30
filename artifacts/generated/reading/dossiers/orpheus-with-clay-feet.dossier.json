@@ -1,220 +1,110 @@
 {
- "artifact_id": "ART_DOSSIER_ORPHEUS_WITH_CLAY_FEET",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "orpheus-with-clay-feet",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Orpheus With Clay Feet",
-  "slug": "orpheus-with-clay-feet",
-  "form": "story",
-  "word_count": 5397,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 45515,
-   "line_end": 45858,
-   "word_count": 5397,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Adolf Hitler",
-    "name_id": "NAME_adolf-hitler",
-    "mentions": 4
-   },
-   {
-    "name": "Hitler",
-    "name_id": "NAME_hitler",
-    "mentions": 7
-   },
-   {
-    "name": "Gibbon",
-    "name_id": "NAME_gibbon",
-    "mentions": 2
-   },
-   {
-    "name": "Orpheus",
-    "name_id": "NAME_orpheus",
-    "mentions": 4
-   },
-   {
-    "name": "A.E. van Vogt",
-    "name_id": "NAME_ae-van-vogt",
-    "mentions": 2
-   },
-   {
-    "name": "Jacob",
-    "name_id": "NAME_jacob",
-    "mentions": 1
-   },
-   {
-    "name": "Van Vogt",
-    "name_id": "NAME_van-vogt",
-    "mentions": 2
-   }
+  "artifact_id": "ART_DOSSIER_ORPHEUS_WITH_CLAY_FEET",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "orpheus-with-clay-feet",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Orpheus with Clay Feet",
+    "slug": "orpheus-with-clay-feet",
+    "form": "short story",
+    "word_count": 5397,
+    "lane": "A",
+    "first_publication": "Escapade, September 1964 (as by Jack Dowland)",
+    "later_use": "Published under the in-story fictional author's own name, 'Jack Dowland' -- a rare instance of Dick using a pseudonym that is also a character within the story itself.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 45515,
+      "line_end": 45858,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Bored military-exemption consultant Jesse Slade visits a time-travel agency, Muse Enterprises, hoping to inspire a great historical figure since he lacks any creative talent of his own. After learning his first choices (inspiring Beethoven, inspiring van Vogt toward science fiction) have already been claimed by other clients, he settles on inspiring an obscure, frustrated 1956 hack writer named Jack Dowland to abandon TV westerns for science fiction, believing Dowland is destined to become the genre's greatest author. The visit goes catastrophically wrong: Slade's clumsy, jargon-laden pitch only irritates Dowland, interrupting what turns out to be an affair rather than a marriage, and driving him further from science fiction rather than toward it. Returning to his own time, Slade learns from the furious Manville that his 'inspiration' has erased Dowland's entire prophesied literary future from history — except for one minor, barely-read story Dowland did write about the whole bizarre encounter, published under the pseudonym Philip K. Dick and titled 'Orpheus with Clay Feet.' Manville, taking his method directly from that story's own ending, now reassigns Slade to travel back and 'uninspire' Adolf Hitler out of writing Mein Kampf.",
+
+    "structure": {
+      "form": "short story in four movements: the failing exemption-consultant's ennui, the Muse Enterprises pitch and rejected first choices, the disastrous visit to Dowland, and the closing causal-loop revelation",
+      "movements": [
+        "Jesse Slade, bored and unfulfilled in his job helping others avoid military service, seeks out Muse Enterprises to become a 'muse' for a great historical figure.",
+        "His preferred choices (Beethoven, van Vogt) having already been claimed by other time-traveling clients, he selects an obscure 1956 writer, Jack Dowland, whom he believes destined to become science fiction's greatest author.",
+        "Slade's visit to Dowland goes disastrously wrong, interrupting an affair and provoking only irritation and contempt for science fiction rather than inspiration.",
+        "Back in his own time, Slade learns his intervention erased Dowland's prophesied career entirely except for one obscure story about the visit itself, published under the pseudonym 'Philip K. Dick' -- and is reassigned, per that very story's own ending, to go 'uninspire' Adolf Hitler."
+      ],
+      "point_of_view": "third person close to Slade throughout, so the reader shares his escalating desperation and self-justification during the failed pitch before the story's final revelation recontextualizes the entire narrative as itself the very story Slade's failure produced.",
+      "central_device": "A time-travel causal loop in which a botched attempt to inspire a fictional great writer instead produces, as its only trace, a real published story (bearing Dick's own real pseudonym) about the botched attempt itself -- with that same story's fictional ending then dictating the protagonist's next real assignment, closing the loop entirely within its own text."
+    },
+
+    "characters": [
+      { "name": "Jesse Slade", "role": "protagonist, a frustrated exemption consultant turned would-be muse", "note": "His total lack of self-awareness about his own clumsiness and jargon ('Ahem,' 'Tsk-tsk') is played for comedy throughout, but his genuine desperation for a creative, meaningful act gives the story real emotional stakes beneath its farce." },
+      { "name": "Mr. Manville", "role": "proprietor of Muse Enterprises", "note": "His escalating fury at Slade's failure, and his willingness to take his next plan directly from the in-story fictional text Slade's failure produced, makes him the story's clearest embodiment of its self-consuming, self-referential logic." },
+      { "name": "Jack Dowland / 'Philip K. Dick'", "role": "the obscure writer Slade attempts to inspire", "note": "Prophesied by Slade's future scholarship to become science fiction's greatest author under his own name, he instead survives history only as a footnote publishing one minor story about his own strange encounter, under a pseudonym that is, within the story's fiction, entirely invented and coincidental -- yet is also, outside the story, Dick's real name." },
+      { "name": "A. E. van Vogt", "role": "mentioned, not appearing directly", "note": "Cited as an author already successfully time-inspired by a prior Muse Enterprises client toward science fiction -- a direct thematic echo of 'Waterspider' (also read in this project), which fictionalizes a real 1954 exchange between Dick and van Vogt." }
+    ],
+
+    "settings": [
+      { "name": "Muse Enterprises", "note": "A time-travel agency whose entire business model — retroactively 'inspiring' history's great creative figures — treats artistic genius as an externally implanted commodity rather than as innate talent, a premise the story's own plot directly undermines." },
+      { "name": "Purpleblossom, Nevada, 1956", "note": "A tiny, unglamorous desert town, its ordinary domestic mundanity (a vacuum cleaner, a plastic kitchen table) sharply undercutting Slade's grandiose expectations of meeting a future literary titan." }
+    ],
+
+    "motifs": [
+      "Artistic genius reimagined as an externally implanted commodity, purchasable and assignable by an agency, rather than as innate ability",
+      "A time-travel causal loop that produces, as its only surviving trace, the very story recounting its own failure",
+      "A pseudonym ('Philip K. Dick') presented within the fiction as coincidental and arbitrary, while functioning outside it as the author's actual, real name",
+      "A protagonist reassigned to 'uninspire' rather than inspire, following instructions taken directly from the fictional text his own failure generated",
+      "Real historical/genre figures (Beethoven, van Vogt, Heinlein, Asimov) treated as interchangeable commodities already claimed by other time-traveling clients"
+    ],
+
+    "significance": "This story is one of Dick's most direct pieces of authorial self-mythology, using his own real name as the in-story pseudonym of a fictional obscure writer, and closing on a loop in which the fictional Manville takes his next plan directly from the ending of the very (fictional) story the reader has just finished. Its thematic kinship with 'Waterspider' (also read in this project, and confirmed by Sutin to fictionalize a real exchange between Dick and A.E. van Vogt) is explicit and direct: both stories treat the community and mythology of science fiction writers as material for time-travel fantasy, and both use van Vogt specifically as a touchstone for 'real,' successfully-inspired genius against which the story's failed or obscure counterexample (Dowland/'Dick') is measured. Where 'Waterspider' ends on a wry, affectionate note of self-effacement (Dick's byline appearing almost by accident once the 'true' prophecy is erased), 'Orpheus with Clay Feet' is considerably darker: its self-insertion imagines the author's own body of work as a minor failure, an unwanted, barely-read byproduct of someone else's much grander, aborted destiny.",
+
+    "closing_note": "Manville's closing demand that Slade now go 'uninspire' Adolf Hitler -- an idea Manville explicitly credits to the ending of the very story the reader has just read -- closes the story with total self-consumption: its own fictional plot is presented as the source material for its own fictional sequel-in-progress."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Beethoven", "entity_id": "TERM_beethoven", "count": 5, "distinctiveness": 76.25, "note": "Slade's first, already-claimed choice of historical figure to inspire, establishing the story's premise that creative genius is a scarce commodity being actively 'used up' by time-traveling clients." },
+      { "label": "Fall", "entity_id": "TERM_fall", "count": 6, "distinctiveness": 10.09, "note": "Manville's own worked example -- inspiring Edward Gibbon's Decline and Fall of the Roman Empire via a single planted word -- models the story's entire theory of externally implanted genius." },
+      { "label": "Empire", "entity_id": "TERM_empire", "count": 2, "distinctiveness": 13.49 }
+    ],
+    "names_matched": ["NAME_orpheus", "NAME_ae-van-vogt", "NAME_van-vogt", "NAME_gibbon", "NAME_hitler", "NAME_adolf-hitler"],
+    "thematic_links_proposed": [
+      { "theme": "time", "basis": "a time-travel causal loop in which a botched attempt to inspire a great writer's future produces, as its only surviving trace, the very story recounting the failure, which then dictates the protagonist's next real assignment" },
+      { "theme": "reality-breakdown", "basis": "the story's use of Dick's own real name as a fictional pseudonym within its own plot, collapsing the boundary between the story's internal fiction and its actual, real-world authorship" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No commentary by Dick on this specific story was found in this evidence pass.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is there documented commentary from Dick on his choice to originally publish this story under his own real name presented as a fictional pseudonym within the story's own plot?",
+    "Is this story ever discussed alongside 'Waterspider' (also read in this project) as a matched pair of self-referential science-fiction-community time-travel stories, both using A.E. van Vogt as a touchstone?",
+    "Is the story's dark closing joke (uninspiring Hitler) ever read by critics as a serious meditation on historical contingency and the ethics of time travel, rather than purely as a punchline?"
   ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 5,397 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 found in this evidence pass.",
+    "layer_4_criticism": "0 found in this evidence pass.",
+    "related_dossiers": "waterspider (a closely related self-referential SF-community time-travel story, also naming A.E. van Vogt, also read).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Beethoven",
-    "entity_id": "TERM_beethoven",
-    "count": 5,
-    "distinctiveness": 76.25
-   },
-   {
-    "label": "Rome",
-    "entity_id": "TERM_rome",
-    "count": 2,
-    "distinctiveness": 26.11
-   },
-   {
-    "label": "Adam",
-    "entity_id": "TERM_adam",
-    "count": 1,
-    "distinctiveness": 18.33
-   },
-   {
-    "label": "Empire",
-    "entity_id": "TERM_empire",
-    "count": 2,
-    "distinctiveness": 13.49
-   },
-   {
-    "label": "Cosmic",
-    "entity_id": "TERM_cosmic",
-    "count": 2,
-    "distinctiveness": 10.11
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 6,
-    "distinctiveness": 10.09
-   },
-   {
-    "label": "Roman",
-    "entity_id": "TERM_roman",
-    "count": 1,
-    "distinctiveness": 7.01
-   },
-   {
-    "label": "Iron",
-    "entity_id": "TERM_iron",
-    "count": 1,
-    "distinctiveness": 5.35
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 3,
-    "distinctiveness": 4.16
-   },
-   {
-    "label": "Obviously",
-    "entity_id": "TERM_obviously",
-    "count": 3,
-    "distinctiveness": 3.86
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 2,
-    "distinctiveness": 3.43
-   },
-   {
-    "label": "Golden",
-    "entity_id": "TERM_golden",
-    "count": 1,
-    "distinctiveness": 2.88
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 14,
-    "distinctiveness": 2.69
-   },
-   {
-    "label": "Christ",
-    "entity_id": "TERM_christ",
-    "count": 1,
-    "distinctiveness": 2.36
-   },
-   {
-    "label": "Paul",
-    "entity_id": "TERM_paul",
-    "count": 1,
-    "distinctiveness": 2.33
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 4,
-    "distinctiveness": 1.84
-   },
-   {
-    "label": "Wait",
-    "entity_id": "TERM_wait",
-    "count": 3,
-    "distinctiveness": 1.76
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 2,
-    "distinctiveness": 1.61
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 5,
-    "distinctiveness": 1.56
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 5,
-    "distinctiveness": 1.51
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "0 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
 }

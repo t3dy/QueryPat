@@ -64,6 +64,10 @@ Professor Anthony Douglas, a leading nuclear physicist, is terrorized by an enor
 
 The Game-Players of Titan is the canonical works record for PKD's novel. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### A Game of Unchance
+
+A Martian colony settlement, wary after a prior traveling carnival cheated them, plans to use their psychokinetic boy Fred Costner covertly against a new alien carnival ship's rigged games. In a story collection like [A Game of Unchance](/works/a-game-of-unchance), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Crack in Space
 
 The Crack in Space is the canonical works record for PKD's novel. In a novel like [The Crack in Space](/works/the-crack-in-space), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

@@ -56,6 +56,10 @@ Time Out of Joint is the canonical works record for PKD's novel. In a novel like
 
 Survivors of a hydrogen war — 'flukers', so named because they lived by a fluke of fate — shelter in underground pits, kept alive by Martian 'careboys' who parachute supplies they no longer need. In a story collection like [The Days of Perky Pat](/works/the-days-of-perky-pat), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Orpheus with Clay Feet
+
+Bored military-exemption consultant Jesse Slade visits a time-travel agency, Muse Enterprises, hoping to inspire a great historical figure since he lacks any creative talent of his own. In a story collection like [Orpheus with Clay Feet](/works/orpheus-with-clay-feet), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Waterspider
 
 In the mid-21st century, the Emigration Bureau's interstellar colonization project keeps failing: convicts sent at near-light speed toward Proxima Centauri, reduced to an inch tall to conserve mass, can never regain their lost mass to land... In a story collection like [Waterspider](/works/waterspider), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
