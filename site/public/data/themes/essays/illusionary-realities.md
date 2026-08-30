@@ -44,6 +44,10 @@ A Clerk arrives to make sure a sleepy dog — the neighborhood's Summoner — ba
 
 Verne Haskel, exhausted and embittered after twenty resentful years at Larson's Pump and Valve Works, retreats each evening to his basement, where he has spent his entire life building an obsessively exact miniature model of his hometown... In a story collection like [Small Town](/works/small-town), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Mold of Yancy
+
+On Callisto, a team of anonymous 'yance-men' produce daily video 'gestalts' of John Edward Yancy, a folksy, avuncular composite personality — homespun wisdom, a devoted grandson, opinions on everything from primroses to just war —... In a story collection like [The Mold of Yancy](/works/the-mold-of-yancy), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Pay for the Printer
 
 After a nuclear war has reduced the world to ash and rubble, human settlements survive by trading their salvaged pre-war goods to the Biltong — alien, amoeba-like creatures drawn to Earth by the H-bomb flashes — who duplicate them. In a story collection like [Pay for the Printer](/works/pay-for-the-printer), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

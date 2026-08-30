@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 71,
+  "fiction_work_count": 73,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -208,7 +208,7 @@
       "slug": "authentic-human",
       "label": "Authentic Human",
       "description": "Human authenticity, empathy, caritas, and the resistance to programmed or mechanical existence.",
-      "work_count": 27,
+      "work_count": 29,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -256,6 +256,15 @@
           "date_start": "1953"
         },
         {
+          "work_id": "WORK_sales-pitch",
+          "canonical_title": "Sales Pitch",
+          "slug": "sales-pitch",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Future, June 1954",
+          "date_start": "1954"
+        },
+        {
           "work_id": "WORK_small-town",
           "canonical_title": "Small Town",
           "slug": "small-town",
@@ -289,6 +298,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Startling Stories, Winter 1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_the-mold-of-yancy",
+          "canonical_title": "The Mold of Yancy",
+          "slug": "the-mold-of-yancy",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, August 1955",
           "date_start": "1955"
         },
         {
@@ -1220,7 +1238,7 @@
       "slug": "illusionary-realities",
       "label": "Illusionary Realities",
       "description": "Simulations, false worlds, mimicry, illusions, and counterfeit reality-systems.",
-      "work_count": 36,
+      "work_count": 37,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -1302,6 +1320,15 @@
           "work_type": "short_story",
           "date_display": "Amazing, May 1954",
           "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_the-mold-of-yancy",
+          "canonical_title": "The Mold of Yancy",
+          "slug": "the-mold-of-yancy",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, August 1955",
+          "date_start": "1955"
         },
         {
           "work_id": "WORK_pay-for-the-printer",
@@ -1781,7 +1808,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 34,
+      "work_count": 36,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -1829,6 +1856,15 @@
           "date_start": "1954"
         },
         {
+          "work_id": "WORK_sales-pitch",
+          "canonical_title": "Sales Pitch",
+          "slug": "sales-pitch",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Future, June 1954",
+          "date_start": "1954"
+        },
+        {
           "work_id": "WORK_the-golden-man",
           "canonical_title": "The Golden Man",
           "slug": "the-golden-man",
@@ -1862,6 +1898,15 @@
           "category": "novels",
           "work_type": "novel",
           "date_display": "1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_the-mold-of-yancy",
+          "canonical_title": "The Mold of Yancy",
+          "slug": "the-mold-of-yancy",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, August 1955",
           "date_start": "1955"
         },
         {
@@ -2306,7 +2351,7 @@
       "slug": "suburbia-domesticity",
       "label": "Suburbia & Domesticity",
       "description": "Family life, marriage, houses, domestic tension, and the suburban everyday.",
-      "work_count": 19,
+      "work_count": 20,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -2343,6 +2388,15 @@
           "work_type": "short_story",
           "date_display": "Amazing, July 1953",
           "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_sales-pitch",
+          "canonical_title": "Sales Pitch",
+          "slug": "sales-pitch",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Future, June 1954",
+          "date_start": "1954"
         },
         {
           "work_id": "WORK_small-town",
