@@ -64,6 +64,10 @@ Eye in the Sky is the canonical works record for PKD's novel. In a novel like [E
 
 The Cosmic Puppets is the canonical works record for PKD's novel. In a novel like [The Cosmic Puppets](/works/the-cosmic-puppets), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Unreconstructed M
+
+In a future where a crime is solved by a forensic 'file bank' that narrows the population from billions to a handful of suspects through successive physical specifications, an autonomous watchdog robot — an 'M' (machine), built to hunt... In a story collection like [The Unreconstructed M](/works/the-unreconstructed-m), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Time Out of Joint
 
 Time Out of Joint is the canonical works record for PKD's novel. In a novel like [Time Out of Joint](/works/time-out-of-joint), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

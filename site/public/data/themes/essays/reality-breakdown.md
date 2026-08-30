@@ -16,6 +16,10 @@ The Short Happy Life of the Brown Oxford and Other Classic Stories is the canoni
 
 A survey unit has spent three weeks on Planet Blue and found no harmful life form at all — no disease, no vermin, nothing. In a story collection like [Colony](/works/colony), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Impostor
+
+Spence Olham, a senior researcher on a wartime defense project against the alien Outspacers, is arrested on his morning commute by Major Peters of the security service and his own old friend Nelson, who tell him he is not human at all: an... In a story collection like [Impostor](/works/imposter), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Roog
 
 Boris, a large black dog belonging to the Cardossi family, barks a single word — 'Roog' — at figures nobody else can see. In a story collection like [Roog](/works/roog), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

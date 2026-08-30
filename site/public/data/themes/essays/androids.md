@@ -12,6 +12,10 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 A survey unit has spent three weeks on Planet Blue and found no harmful life form at all — no disease, no vermin, nothing. In a story collection like [Colony](/works/colony), that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Impostor
+
+Spence Olham, a senior researcher on a wartime defense project against the alien Outspacers, is arrested on his morning commute by Major Peters of the security service and his own old friend Nelson, who tell him he is not human at all: an... In a story collection like [Impostor](/works/imposter), that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Defenders
 
 Eight years into a nuclear war, the entire human population of both blocs lives in sealed installations beneath the surface, manufacturing weapons that robots called leadies carry up and use. In a story collection like [The Defenders](/works/the-defenders), that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

@@ -72,6 +72,10 @@ After a nuclear war has reduced the world to ash and rubble, human settlements s
 
 The Man Who Japed is the canonical works record for PKD's novel. In a novel like [The Man Who Japed](/works/the-man-who-japed), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Unreconstructed M
+
+In a future where a crime is solved by a forensic 'file bank' that narrows the population from billions to a handful of suspects through successive physical specifications, an autonomous watchdog robot — an 'M' (machine), built to hunt... In a story collection like [The Unreconstructed M](/works/the-unreconstructed-m), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Man in the High Castle
 
 The Man in the High Castle is the canonical works record for PKD's novel. In a novel like [The Man in the High Castle](/works/the-man-in-the-high-castle), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

@@ -16,6 +16,10 @@ A ship provisioning on Mars takes aboard a wub — an enormous, placid, pig-like
 
 The Short Happy Life of the Brown Oxford and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Short Happy Life of the Brown Oxford and Other Classic Stories](/works/the-short-happy-life-of-the-brown-oxford-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Impostor
+
+Spence Olham, a senior researcher on a wartime defense project against the alien Outspacers, is arrested on his morning commute by Major Peters of the security service and his own old friend Nelson, who tell him he is not human at all: an... In a story collection like [Impostor](/works/imposter), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Roog
 
 Boris, a large black dog belonging to the Cardossi family, barks a single word — 'Roog' — at figures nobody else can see. In a story collection like [Roog](/works/roog), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

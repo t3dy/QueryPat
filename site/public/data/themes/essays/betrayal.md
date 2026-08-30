@@ -48,6 +48,10 @@ Solar Lottery is the canonical works record for PKD's novel. In a novel like [So
 
 The Man Who Japed is the canonical works record for PKD's novel. In a novel like [The Man Who Japed](/works/the-man-who-japed), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Unreconstructed M
+
+In a future where a crime is solved by a forensic 'file bank' that narrows the population from billions to a handful of suspects through successive physical specifications, an autonomous watchdog robot — an 'M' (machine), built to hunt... In a story collection like [The Unreconstructed M](/works/the-unreconstructed-m), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Time Out of Joint
 
 Time Out of Joint is the canonical works record for PKD's novel. In a novel like [Time Out of Joint](/works/time-out-of-joint), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

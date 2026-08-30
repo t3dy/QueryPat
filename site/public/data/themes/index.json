@@ -1,13 +1,13 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 79,
+  "fiction_work_count": 81,
   "themes": [
     {
       "theme_id": "THEME_androids",
       "slug": "androids",
       "label": "Androids",
       "description": "Synthetic or programmed human figures, including androids, replicants, and the human-machine boundary.",
-      "work_count": 10,
+      "work_count": 11,
       "works": [
         {
           "work_id": "WORK_colony",
@@ -16,6 +16,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Galaxy, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_imposter",
+          "canonical_title": "Impostor",
+          "slug": "imposter",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Astounding Science Fiction, June 1953",
           "date_start": "1953"
         },
         {
@@ -107,8 +116,17 @@
       "slug": "robots",
       "label": "Robots",
       "description": "Robots, automation, machine labor, and the fear that technology can replace human agency.",
-      "work_count": 6,
+      "work_count": 7,
       "works": [
+        {
+          "work_id": "WORK_the-unreconstructed-m",
+          "canonical_title": "The Unreconstructed M",
+          "slug": "the-unreconstructed-m",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Science Fiction Stories, January 1957",
+          "date_start": "1957"
+        },
         {
           "work_id": "WORK_the-simulacra",
           "canonical_title": "The Simulacra",
@@ -208,7 +226,7 @@
       "slug": "authentic-human",
       "label": "Authentic Human",
       "description": "Human authenticity, empathy, caritas, and the resistance to programmed or mechanical existence.",
-      "work_count": 33,
+      "work_count": 34,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -227,6 +245,15 @@
           "work_type": "short_stories",
           "date_display": "circa 1952–1955",
           "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_imposter",
+          "canonical_title": "Impostor",
+          "slug": "imposter",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Astounding Science Fiction, June 1953",
+          "date_start": "1953"
         },
         {
           "work_id": "WORK_roog",
@@ -515,7 +542,7 @@
       "slug": "betrayal",
       "label": "Betrayal",
       "description": "Deception, imposture, treachery, and the collapse of trust between people or institutions.",
-      "work_count": 36,
+      "work_count": 37,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -606,6 +633,15 @@
           "work_type": "novel",
           "date_display": "1956",
           "date_start": "1956"
+        },
+        {
+          "work_id": "WORK_the-unreconstructed-m",
+          "canonical_title": "The Unreconstructed M",
+          "slug": "the-unreconstructed-m",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Science Fiction Stories, January 1957",
+          "date_start": "1957"
         },
         {
           "work_id": "WORK_time-out-of-joint",
@@ -849,7 +885,7 @@
       "slug": "reality-breakdown",
       "label": "Reality Breakdown",
       "description": "Unstable reality, temporal slippage, projected worlds, and the breakdown of ordinary perception.",
-      "work_count": 41,
+      "work_count": 42,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -867,6 +903,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Galaxy, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_imposter",
+          "canonical_title": "Impostor",
+          "slug": "imposter",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Astounding Science Fiction, June 1953",
           "date_start": "1953"
         },
         {
@@ -1310,7 +1355,7 @@
       "slug": "illusionary-realities",
       "label": "Illusionary Realities",
       "description": "Simulations, false worlds, mimicry, illusions, and counterfeit reality-systems.",
-      "work_count": 38,
+      "work_count": 39,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -1436,6 +1481,15 @@
           "category": "novels",
           "work_type": "novel",
           "date_display": "1957",
+          "date_start": "1957"
+        },
+        {
+          "work_id": "WORK_the-unreconstructed-m",
+          "canonical_title": "The Unreconstructed M",
+          "slug": "the-unreconstructed-m",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Science Fiction Stories, January 1957",
           "date_start": "1957"
         },
         {
@@ -1907,7 +1961,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 41,
+      "work_count": 42,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -2052,6 +2106,15 @@
           "work_type": "novel",
           "date_display": "1956",
           "date_start": "1956"
+        },
+        {
+          "work_id": "WORK_the-unreconstructed-m",
+          "canonical_title": "The Unreconstructed M",
+          "slug": "the-unreconstructed-m",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Science Fiction Stories, January 1957",
+          "date_start": "1957"
         },
         {
           "work_id": "WORK_the-man-in-the-high-castle",

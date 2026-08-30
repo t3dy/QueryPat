@@ -1,177 +1,137 @@
 {
- "artifact_id": "ART_DOSSIER_THE_UNRECONSTRUCTED_M",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-unreconstructed-m",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Unreconstructed M",
-  "slug": "the-unreconstructed-m",
-  "form": "story",
-  "word_count": 12791,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 40431,
-   "line_end": 41338,
-   "word_count": 12791,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "David Lantano",
-    "name_id": "NAME_david-lantano",
-    "mentions": 9
-   },
-   {
-    "name": "The Man",
-    "name_id": "NAME_the-man",
-    "mentions": 3
-   },
-   {
-    "name": "David",
-    "name_id": "NAME_david",
-    "mentions": 10
-   },
-   {
-    "name": "Mission",
-    "name_id": "NAME_mission",
-    "mentions": 1
-   },
-   {
-    "name": "Harvey",
-    "name_id": "NAME_harvey",
-    "mentions": 4
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Paul",
-    "entity_id": "TERM_paul",
-    "count": 18,
-    "distinctiveness": 17.69
-   },
-   {
-    "label": "Gestalt",
-    "entity_id": "TERM_gestalt",
-    "count": 2,
-    "distinctiveness": 5.12
-   },
-   {
-    "label": "Acts",
-    "entity_id": "TERM_acts",
-    "count": 1,
-    "distinctiveness": 4.82
-   },
-   {
-    "label": "Empire",
-    "entity_id": "TERM_empire",
-    "count": 1,
-    "distinctiveness": 2.85
-   },
-   {
-    "label": "Iron",
-    "entity_id": "TERM_iron",
-    "count": 1,
-    "distinctiveness": 2.26
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 11,
-    "distinctiveness": 2.13
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 7,
-    "distinctiveness": 2.01
-   },
-   {
-    "label": "Star",
-    "entity_id": "TERM_star",
-    "count": 2,
-    "distinctiveness": 1.89
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 6,
-    "distinctiveness": 1.79
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 10,
-    "distinctiveness": 1.76
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 2,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 5595,
-      "quote": "…s upon four of Phil’s stories: “The Defenders” (1953), “The Mold of Yancy” (1955), “War Veteran” (1955), and “The Unreconstructed M” (1956). Penultimate is Phil’s most pointed examination of the lies woven by government. But the seriousness…"
-     }
+  "artifact_id": "ART_DOSSIER_THE_UNRECONSTRUCTED_M",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-unreconstructed-m",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Unreconstructed M",
+    "slug": "the-unreconstructed-m",
+    "form": "novelette",
+    "word_count": 12791,
+    "lane": "A",
+    "first_publication": "Science Fiction Stories, January 1957",
+    "later_use": "One of four stories Dick drew on for the novel The Penultimate Truth (1964), per Sutin — alongside 'The Defenders', 'The Mold of Yancy' (both read in this project), and 'War Veteran'.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 40431,
+      "line_end": 41338,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "In a future where a crime is solved by a forensic 'file bank' that narrows the population from billions to a handful of suspects through successive physical specifications, an autonomous watchdog robot — an 'M' (machine), built to hunt poachers on frontier plantations — is diverted by wealthy slaver Paul Tirol to assassinate his own business front man, Heimie Rosenburg, and frame Tirol's business rival, David Lantano, by planting false forensic clues (blood type, hair, a heel print) engineered to point the investigation's ten specifications directly at Lantano. Investigator Edward Ackers, whose case is built entirely on these ten manufactured data points, arrests Lantano; independent researcher Leroy Beam grows suspicious that no one could plausibly escape the crime scene so fast, recovers the M disguised as a portable TV set, and eventually discovers — with the crucial help of Ackers' estranged wife Ellen, who had her own plan to steal and blackmail Tirol with the device — that the M is a self-directing frame-making machine designed for exactly this purpose on outplanets, its behavior now malfunctioning into a 'situation neurosis' as it tries and fails to reconcile conflicting directives. Ellen knocks Tirol unconscious before he can retrieve the M for himself; Beam traces the machine's alteration back to the workshop where Tirol had it reprogrammed, recovers the physical evidence of the frame-up, and reports it to Ackers. Tirol is banished to a remote colony world for the murder rather than exonerated, while Lantano — cleared, but revealed throughout to be a man of carefully maintained artificial wealth, his fruit bowl full of wax peaches — quietly absorbs what remains of Tirol's operation, ending the story as its real, patient beneficiary.",
+
+    "structure": {
+      "form": "novelette in three parts, a noir procedural structured around successive layers of manufactured evidence",
+      "movements": [
+        "The murder: the M's methodical planting of ten false forensic specifications, and the file bank's mechanical narrowing of six billion suspects down to seven, then one — Lantano.",
+        "The investigation: Beam's recovery and study of the M, his discovery of its dual nature (killer and frame-maker), and his pursuit of Ellen Ackers, who wanted the machine for her own blackmail scheme against Tirol.",
+        "The reversal: physical proof of the frame recovered from the workshop where the M was altered, the M's own malfunctioning return exposing the mechanism a second time, and Tirol's banishment."
+      ],
+      "point_of_view": "alternates between Edward Ackers (building his case in good faith on manufactured evidence), Leroy Beam (the outside investigator who doubts the case's speed and completeness), and, briefly, Paul Tirol (experiencing banishment from the inside) — giving the reader access to both the machinery of false justice and its eventual unraveling.",
+      "central_device": "A forensic identification system whose absolute mathematical rigor (ten specifications narrowing six billion people to one) is exactly what makes it possible to frame someone with total precision — the system's strength is also its exploit."
+    },
+
+    "characters": [
+      { "name": "Edward Ackers", "role": "Interior Department investigator", "note": "Entirely rigorous and entirely wrong, because his method has no way to distinguish real evidence from evidence manufactured to be found; his personal life (an unfaithful wife he refuses to release) runs in ironic parallel to his professional overconfidence." },
+      { "name": "Leroy Beam", "role": "independent researcher, effective protagonist", "note": "His skepticism is procedural rather than moral — he simply notices that no one could have escaped the scene as fast as the case requires, and follows that single anomaly to the entire conspiracy." },
+      { "name": "Paul Tirol", "role": "slaver magnate, murderer, ultimately banished", "note": "Commissions his own employee's murder and a rival's frame-up with total confidence in the file-bank system he understands better than its operators, and is undone by underestimating his own mistress." },
+      { "name": "Ellen Ackers", "role": "Edward's estranged wife, Tirol's mistress", "note": "Runs an independent blackmail scheme against Tirol using the same machine he weaponized against Lantano — the story's sharpest irony is that her personal manipulation and Tirol's criminal one are structurally the same act." },
+      { "name": "David Lantano", "role": "rival slaver, framed, then exonerated", "note": "Presented throughout as comically vulnerable (his wealth is substantially faked, down to wax fruit) yet ends the story as the sole beneficiary of everyone else's downfall — patient rather than powerful." },
+      { "name": "The unreconstructed M", "role": "the machine itself", "note": "Built to fabricate exculpatory frame-ups (an animal killed the poacher, not the landowner) on frontier worlds, and simply repurposed for human political assassination — 'unreconstructed' meaning it cannot be morally corrected, only redirected." }
     ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 818,
-      "quote": "…circular journey in _A Short, Sharp Shock_ (1990). > 18 See for instance _Time-Slip_ , _Palmer Eldritch_ , ‘The Unreconstructed M’ (1957, CS4), ‘Survey Team’ (1954, CS2), and _Lies, Inc_ . Or travellers may land on a previously unknown pla…"
-     }
+
+    "settings": [
+      { "name": "The file bank system", "note": "A forensic apparatus of terrifying mathematical completeness — ten specifications narrow six billion people to a handful — that the story reveals to be exactly as trustworthy as the evidence fed into it, no more." },
+      { "name": "Fulton Brothers Locksmiths", "note": "A shabby front business where the M was secretly reprogrammed for human targets — physical proof of the conspiracy hidden inside the most unremarkable possible setting." },
+      { "name": "The banishment colony", "note": "Glimpsed from Tirol's own disoriented perspective after his sentence, a backwater world where his money and organization mean nothing — poetic justice rendered as pure practical helplessness." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "motifs": [
+      "A forensic system whose rigor is also its vulnerability — engineered evidence is indistinguishable from real evidence once fed into the machine",
+      "A machine literally named for its inability to be 'reconstructed' (morally corrected), redirected instead of reformed",
+      "Personal and criminal manipulation using the identical mechanism (Ellen's blackmail scheme mirrors Tirol's frame-up exactly)",
+      "Wealth and power maintained through careful fakery — Lantano's wax fruit as the story's emblem for everyone's constructed appearances",
+      "Justice arriving by accident of persistence (Beam's stubbornness) rather than by the system's own design"
+    ],
+
+    "significance": "Sutin lists this among the four stories Dick drew on for The Penultimate Truth, joining 'The Defenders' and 'The Mold of Yancy' (both read in this project) in a cluster of 1950s stories about manufactured deception at civilizational scale — here miniaturized to a single framed murder rather than a whole society's war, but built on the identical premise that a system's evidentiary completeness is no guarantee of its truth. Palmer's citation groups the story with other Dick fictions of interstellar travel and colonization rather than with the deception cluster, suggesting the novelette does double duty in Dick's back-catalogue of concerns — read equally well as a story about false witness and as one about the outplanet frontier economy (slaving, plantation watchdogs, banishment) that produces the M in the first place. The story's real cynicism is reserved for its ending: justice is done in the narrow sense (the actual murderer is banished) but the beneficiary is not the wronged party's restoration to safety so much as a rival's quiet inheritance of the spoils — Lantano's wax fruit, the story implies, may yet become real.",
+
+    "closing_note": "Lantano offers Beam a peach from his bowl of deliberately fake fruit, calculating the risk of the gesture as he always does — the story's last image is of patience rewarded rather than virtue vindicated."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Gestalt", "entity_id": "TERM_gestalt", "count": 1, "distinctiveness": 5.12, "note": "Ackers' own word for the composite forensic picture assembled from the ten false specifications." },
+      { "label": "Acts", "entity_id": "TERM_acts", "count": 2, "distinctiveness": 4.82 },
+      { "label": "Empire", "entity_id": "TERM_empire", "count": 1, "distinctiveness": 2.85, "note": "Tirol and Lantano's rival slaving organizations, each described as an empire in miniature." },
+      { "label": "Iron", "entity_id": "TERM_iron", "count": 1, "distinctiveness": 2.26 }
+    ],
+    "names_matched": ["NAME_david-lantano", "NAME_the-man", "NAME_david", "NAME_mission", "NAME_harvey"],
+    "thematic_links_proposed": [
+      { "theme": "illusionary-realities", "basis": "a forensic system of apparent mathematical certainty exploited to frame an innocent man with fabricated, undetectable evidence" },
+      { "theme": "empire-control", "basis": "rival interstellar slaving empires and a state security apparatus that cannot distinguish manufactured evidence from truth" },
+      { "theme": "betrayal", "basis": "Tirol's murder-and-frame plot and Ellen Ackers' parallel blackmail scheme both weaponize the same machine against people who trust them" },
+      { "theme": "robots", "basis": "an autonomous 'M' built to fabricate exculpatory evidence on frontier worlds, redirected toward human political assassination" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 1,
+    "summary": "Dick names this story directly as a variant of his central lifelong question, applied here to fabricated rather than mistaken identity.",
+    "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "If the main theme throughout my writing is, \"Can we consider the universe real, and if so, in what way?\" my secondary theme would be, \"Are we all humans?\" Here a machine does not imitate a human being, but instead fakes evidence of a human being, a g[uilty one]",
+        "reading": "One of the clearest statements in this project of Dick's own two-part account of his entire body of work — reality's status and human authenticity — with this story identified as a variant in which the machine fakes evidence rather than impersonating a person directly, distinguishing it from 'Impostor' (also read in this project)."
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 2,
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 5595,
+        "quote": "The Penultimate Truth draws upon four of Phil's stories: \"The Defenders\" (1953), \"The Mold of Yancy\" (1955), \"War Veteran\" (1955), and \"The Unreconstructed M\" (1956).",
+        "reading": "Confirms this story's place in the same source cluster documented in the-defenders and the-mold-of-yancy dossiers — all three now read, leaving only 'War Veteran' outstanding."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 818,
+        "quote": "See for instance Time-Slip, Palmer Eldritch, 'The Unreconstructed M' (1957, CS4), 'Survey Team' (1954, CS2), and Lies, Inc. Or travellers may land on a previously unknown pla[net]",
+        "reading": "Palmer groups the story with Dick's interstellar travel and colonization fiction rather than with the deception-and-fabrication cluster Sutin places it in — suggesting the novelette supports more than one critical reading."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "'War Veteran' is the last of the four Penultimate Truth source stories not yet read in this project — reading it would complete the full cluster alongside The Defenders, The Mold of Yancy, and this story.",
+    "Palmer's sentence about travellers landing on an unknown planet is cut off — worth checking whether he discusses this story's own outplanet/banishment setting directly, or only cites it in a list.",
+    "Dick's story note is cut off mid-clause ('a g[uilty one]?'). The fuller passage would clarify exactly how he distinguishes 'faking evidence of a human being' from the direct impersonation in 'Impostor'."
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "2 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 12,791 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "1 citation, a substantial author's story note.",
+    "layer_4_criticism": "2, from Sutin and Palmer.",
+    "related_dossiers": "the-defenders, the-mold-of-yancy (same Penultimate Truth source cluster); imposter (Dick's own contrast between faked evidence and direct impersonation).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

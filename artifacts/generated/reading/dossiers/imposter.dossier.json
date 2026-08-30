@@ -1,160 +1,141 @@
 {
- "artifact_id": "ART_DOSSIER_IMPOSTER",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "imposter",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Imposter",
-  "slug": "imposter",
-  "form": "story",
-  "word_count": 5307,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 23736,
-   "line_end": 24147,
-   "word_count": 5307,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Spence Olham",
-    "name_id": "NAME_spence-olham",
-    "mentions": 5
-   },
-   {
-    "name": "Mary",
-    "name_id": "NAME_mary",
-    "mentions": 9
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Wait",
-    "entity_id": "TERM_wait",
-    "count": 7,
-    "distinctiveness": 4.17
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 10,
-    "distinctiveness": 3.53
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 4,
-    "distinctiveness": 2.88
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 6,
-    "distinctiveness": 2.8
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 3,
-    "distinctiveness": 2.49
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 10,
-    "distinctiveness": 2.16
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 4,
-    "distinctiveness": 1.69
-   },
-   {
-    "label": "Earth",
-    "entity_id": "TERM_earth",
-    "count": 4,
-    "distinctiveness": 1.66
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 5,
-    "distinctiveness": 1.53
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 3,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
-    "author": "Anne R. Dick",
-    "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 3049,
-      "quote": "…novels and stories of the fifties. Among them: a killer robot with six personalities; and another robot, “The Imposter,” who is a bomb but thinks he’s human, as does the reader, until he/it explodes. In _The World Jones Made_ ,…"
-     },
-     {
-      "line": 3165,
-      "quote": "…Spielberg with Tom Cruise; _Paycheck_ , by Ang Lee with Ben Affleck. Some lesser-known films are _Screamers, Imposter, A Scanner Darkly, Next_ , and the French film _Barjo_ . Phil’s old house is still here in Point Reyes Stat…"
-     }
+  "artifact_id": "ART_DOSSIER_IMPOSTER",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "imposter",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Impostor",
+    "slug": "imposter",
+    "form": "short story",
+    "word_count": 5307,
+    "lane": "A",
+    "written": "1953",
+    "first_publication": "Astounding Science Fiction, June 1953",
+    "later_use": "Adapted as the film Impostor (2001), directed by Gary Fleder, starring Gary Sinise.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 23736,
+      "line_end": 24147,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Spence Olham, a senior researcher on a wartime defense project against the alien Outspacers, is arrested on his morning commute by Major Peters of the security service and his own old friend Nelson, who tell him he is not human at all: an Outspace humanoid robot, containing a U-Bomb triggered by a spoken phrase, sent to kill and replace the real Olham and detonate once inside the Project. Olham insists he is himself — he remembers his life, his marriage, his college years with Nelson — but has no way to prove it against artificial memories a robot would also possess. Talked toward his own destruction on the Moon, he tricks his captors into opening the airlock, seizes the ship, and flees back to Earth to find a doctor who can examine him and settle the question with an X-ray. His wife Mary's face, when she opens the door, tells him security has already reached her and that she believes the official story. Fleeing into the wilderness, Olham reasons that the real robot's crashed drop-ship — and the real, dead Olham it left behind — must be nearby, and finds the wreckage in a burned patch of woods he knows well. Vindicated, he brings Peters and the security team to the crash site, where they find a humanlike corpse and, embedded in its chest, a hidden knife identified as the Outspace weapon that killed the real Olham. In the instant of exonerating relief, Olham realizes what the discovery actually proves — that the body is the real Olham, killed with an alien blade, meaning he himself is the robot after all — and the story ends on the trigger phrase completing itself mid-sentence, with the bomb detonating.",
+
+    "structure": {
+      "form": "short story in three movements: the accusation, the escape and investigation, the vindication that is actually the trap closing",
+      "movements": [
+        "The arrest on the morning commute, and Peters' account of the robot infiltration plot.",
+        "Olham's escape from the Moon-bound execution, his failed attempt to reach his wife, and his flight into the wilderness reasoning toward the crash site.",
+        "The discovery of the wreckage and a body, its apparent vindication of Olham, and the final reversal completing the very sentence that detonates him."
+      ],
+      "point_of_view": "third person close to Olham throughout, so the reader shares his absolute subjective conviction of his own humanity right up to the moment that conviction is proven to have been the robot's own designed self-belief.",
+      "central_device": "A protagonist whose interiority — memory, love for his wife, loyalty to an old friend, reasoned deduction — is completely indistinguishable, to the reader as much as to Olham himself, from a machine built to have all of it and not know otherwise."
+    },
+
+    "characters": [
+      { "name": "Spence Olham", "role": "researcher, protagonist, and (as the ending confirms) the robot", "note": "Every human faculty the story lets him demonstrate — memory, reasoning, love, fear of death — turns out to have been exactly what a sufficiently advanced infiltration device would also possess and believe genuine." },
+      { "name": "Major Peters", "role": "security officer", "note": "Correct about everything, including the detail he does not realize he is proving when he displays the knife as evidence of the crime rather than as confirmation of Olham's true nature." },
+      { "name": "Nelson", "role": "Olham's old friend, security's second man", "note": "His horror at killing a friend of twenty years is genuine and, the ending reveals, entirely justified — he was in fact protecting humanity from exactly the threat he believed he was executing." },
+      { "name": "Mary Olham", "role": "his wife", "note": "Her stricken face at the door, which Olham reads as evidence she has been turned against him, is the story's cruelest use of dramatic irony: she was simply told the truth, and it shows." }
     ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT.md",
-    "author": "Fredric Jameson",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 4660,
-      "quote": "…eatening and all-embracing fashion than the hypothesis of the \"malignant genie\". For in crucial stories like \"Imposter\" or \"The Electric Ant\" the ques­ tions now identified as involving Artificial Intelligence seep into and infe…"
-     }
+
+    "settings": [
+      { "name": "The protec-bubble Earth", "note": "A besieged homeworld defended by a shield technology against an alien war fought entirely at a remove — the war's reality is mediated through 'news-machines' Olham himself distrusts before he becomes its casualty." },
+      { "name": "The Moon execution site", "note": "Where Olham was meant to be quietly disassembled once the security services believed the risk of detonation was minimized." },
+      { "name": "Sutton Wood, burned", "note": "The site of the real crash, which Olham remembers from childhood and reasons his way to — the story's one moment where his 'human' deductive competence and the robot's designed memory are revealed to be the same faculty." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "motifs": [
+      "A protagonist's subjective certainty of his own identity offered as no evidence at all against a sufficiently complete artificial substitute",
+      "A trigger phrase that only detonates by being spoken in full, so the story's own sentence structure becomes the mechanism of its ending",
+      "Wartime fear used to justify killing on suspicion alone, with the narration explicitly generalizing this to 'the plagues' and other historical panics",
+      "A protagonist's own reasoning and competence at solving the mystery constituting the strongest possible evidence against the conclusion he is trying to reach",
+      "Vindication and destruction arriving in the same instant, indistinguishable until the final word"
+    ],
+
+    "significance": "Dick's own framing is direct and rare in its plainness: this is, in his words, his first story asking 'Am I a human? Or am I just programmed to believe I am human?' — a question he calls, with characteristic self-deprecation, one he has 'done to death' since, but genuinely novel to the field in 1953. Jameson reads the story (alongside 'The Electric Ant', also read in this project) as anticipating questions later identified with Artificial Intelligence discourse decades before that vocabulary existed, framing them in a 'more threatening and all-embracing fashion' than the era's usual alien-menace tropes. Anne Dick's account is exact about the story's mechanics: a bomb that thinks it's human, 'as does the reader, until he/it explodes' — meaning the story's entire structural achievement is withholding the answer not just from Olham but from the reader occupying his point of view, so both learn the truth in the same instant.",
+
+    "closing_note": "The bomb detonates not on a separate trigger action but on the completion of Olham's own sentence of realization — the story's final punctuation mark is also the story's final event."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Wait", "entity_id": "TERM_wait", "count": 3, "distinctiveness": 4.17 },
+      { "label": "House", "entity_id": "TERM_house", "count": 2, "distinctiveness": 3.53 },
+      { "label": "Darkness", "entity_id": "TERM_darkness", "count": 2, "distinctiveness": 2.88 }
+    ],
+    "names_matched": ["NAME_spence-olham", "NAME_mary"],
+    "thematic_links_proposed": [
+      { "theme": "androids", "basis": "the story's entire structure withholds, from protagonist and reader alike, whether the point-of-view character is human or a machine designed to believe it is" },
+      { "theme": "authentic-human", "basis": "memory, love, reasoning and fear of death are shown to be fully replicable and subjectively indistinguishable from their genuine counterparts" },
+      { "theme": "reality-breakdown", "basis": "the protagonist's own deductive competence, presented as proof of his humanity, is revealed to be the very evidence that damns him" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 1,
+    "summary": "Dick identifies this as his first treatment of a question he calls his secondary lifelong theme.",
+    "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "Here was my first story on the topic of: Am I a human? Or am I just programmed to believe I am human? When you consider that I wrote this back in 1953, it was, if I may say so, a pretty damn good new idea in sf. Of course, by now I've done it to deat[h]",
+        "reading": "Dick's own genealogy of the story's central question, and an acknowledgment of how many times he would return to it across his career — see 'Second Variety' and 'The Electric Ant', both read in this project, for two of the returns."
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 3,
+    "evidence": [
+      {
+        "author": "Anne R. Dick",
+        "work": "Search for Philip K. Dick",
+        "line": 3049,
+        "quote": "another robot, \"The Imposter,\" who is a bomb but thinks he's human, as does the reader, until he/it explodes.",
+        "reading": "A precise account of the story's structural trick: the withholding of the answer applies equally to the reader occupying Olham's point of view, not just to Olham himself."
+      },
+      {
+        "author": "Fredric Jameson",
+        "work": "Archaeologies of the Future",
+        "line": 4660,
+        "quote": "in crucial stories like \"Imposter\" or \"The Electric Ant\" the questions now identified as involving Artificial Intelligence seep into and infe[ct]",
+        "reading": "Jameson reads this story alongside 'The Electric Ant' (also read in this project) as anticipating later AI-consciousness discourse, in a mode he finds more unsettling than the era's typical alien-menace framing."
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "Search for Philip K. Dick",
+        "line": 3165,
+        "quote": "Some lesser-known films are Screamers, Imposter, A Scanner Darkly, Next",
+        "reading": "Bibliographic confirmation of the 2001 film adaptation among a list of Dick adaptations."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Dick's story note is cut off before naming the specific later works he considers repetitions of this theme — worth identifying the full list he had in mind beyond the obvious candidates already read in this project.",
+    "Jameson's sentence about AI questions 'seeping into and infecting' something is cut off before its object — the fuller passage would clarify exactly what genre or discourse he thinks these two stories destabilize.",
+    "How closely does the 2001 film adaptation preserve the story's central structural trick (withholding the answer from the reader, not just the protagonist)? Worth a dedicated comparison if the site ever covers adaptations."
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "3 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 5,307 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "1 citation, a substantial author's story note.",
+    "layer_4_criticism": "3, across Anne R. Dick and Jameson.",
+    "related_dossiers": "second-variety, the-electric-ant (share the 'who is really human' theme Dick names as his own central preoccupation).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }
