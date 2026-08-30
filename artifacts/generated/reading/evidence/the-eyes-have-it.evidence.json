@@ -1,0 +1,152 @@
+{
+ "slug": "the-eyes-have-it",
+ "title": "The Eyes Have It",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 27654,
+  "line_end": 27729,
+  "word_count": 1082,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 3,
+    "per_million": 2772.6,
+    "background_per_million": 138.9,
+    "distinctiveness": 19.27
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 3,
+    "per_million": 2772.6,
+    "background_per_million": 448.4,
+    "distinctiveness": 6.11
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 3,
+    "per_million": 2772.6,
+    "background_per_million": 526.0,
+    "distinctiveness": 5.22
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 1,
+    "per_million": 924.2,
+    "background_per_million": 266.6,
+    "distinctiveness": 3.4
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 2,
+    "per_million": 1848.4,
+    "background_per_million": 609.8,
+    "distinctiveness": 3.01
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 1,
+    "per_million": 924.2,
+    "background_per_million": 311.5,
+    "distinctiveness": 2.92
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 1,
+    "per_million": 924.2,
+    "background_per_million": 398.4,
+    "distinctiveness": 2.29
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 1,
+    "per_million": 924.2,
+    "background_per_million": 462.7,
+    "distinctiveness": 1.98
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 2,
+    "per_million": 1848.4,
+    "background_per_million": 959.1,
+    "distinctiveness": 1.92
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 1,
+    "per_million": 924.2,
+    "background_per_million": 529.1,
+    "distinctiveness": 1.73
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 1,
+    "per_million": 924.2,
+    "background_per_million": 589.4,
+    "distinctiveness": 1.55
+   }
+  ],
+  "names": [],
+  "distinct_terms": 11,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 5658,
+      "quote": "…and the AI Voice)—not part of this irreal world: this is why it sounds so far off. \"Martians Come in Clouds\" \"The Eyes Have It\" \"Beyond the Door\" \"Withered Apples\" \"Not by Its Cover\"[95] Since the totality is a hologram, each microbit…"
+     },
+     {
+      "line": 13286,
+      "quote": "…he Exit Door Leads In,\" [>] _Eye in the Sky,_ [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>] \"The Eyes Have It,\" [>] \"Faith of Our Fathers,\" [>], [>], [>], [>], [>] _Flow My Tears, the Policeman Said,_ [>]–[>], [>]–[…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 2
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

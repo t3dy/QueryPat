@@ -20,6 +20,10 @@ An unnamed man crushes two eavesdropping caterpillars under his foot on his way 
 
 Boris, a large black dog belonging to the Cardossi family, barks a single word — 'Roog' — at figures nobody else can see. In a story collection like [Roog](/works/roog), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Eyes Have It
+
+A man idly reading a paperback novel he found on the bus becomes convinced, sentence by sentence, that he has stumbled onto proof of an alien invasion already living undetected among ordinary people. In a story collection like [The Eyes Have It](/works/the-eyes-have-it), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Shell Game
 
 An isolated colony of roughly a hundred people on the bog-covered planet Betelgeuse II has spent five years under siege by unseen 'attackers' — gas raids, sabotage, poisoned water — that no one has ever directly seen, defending itself with... In a story collection like [Shell Game](/works/shell-game), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

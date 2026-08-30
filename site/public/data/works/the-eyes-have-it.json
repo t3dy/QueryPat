@@ -1,32 +1,24 @@
 {
-  "artifact_id": "ART_DOSSIER_THE_EYES_HAVE_IT",
-  "artifact_type": "work_dossier",
-  "schema_version": "1.0",
-  "source_id": "the-eyes-have-it",
-  "generated_by": "reading_notes_agent",
-  "status": "LLM_CANDIDATE",
-  "review_state": "unreviewed",
-  "reading_status": "close_reading_complete",
-
-  "work": {
-    "title": "The Eyes Have It",
-    "slug": "the-eyes-have-it",
-    "form": "short story",
-    "word_count": 1082,
-    "lane": "A",
-    "first_publication": "Fantastic Universe, January 1953 (as by Richard Phillips)",
-    "source": {
-      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-      "line_start": 27654,
-      "line_end": 27729,
-      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
-    }
-  },
-
+  "work_id": "WORK_the-eyes-have-it",
+  "canonical_title": "The Eyes Have It",
+  "slug": "the-eyes-have-it",
+  "author": "Philip K. Dick",
+  "work_type": "short_story",
+  "category": "short_stories",
+  "date_display": "Fantastic Universe, January 1953 (as by Richard Phillips)",
+  "date_start": "1953",
+  "card_summary": "A man idly reading a paperback novel he found on the bus becomes convinced, sentence by sentence, that he has stumbled onto proof of an alien invasion already living undetected among ordinary people.",
+  "page_summary": "A man idly reading a paperback novel he found on the bus becomes convinced, sentence by sentence, that he has stumbled onto proof of an alien invasion already living undetected among ordinary people. Every stock figure of speech in the book — 'his eyes roved about the room,' 'he lost his head,' 'she gave him her hand,' 'we split up' — he takes with total literalism, building an escalating case that the characters are non-human beings capable of detaching and recombining their own body parts, dividing by fission, and living without hearts, brains, or heads. Increasingly horrified, he flees from room to room of his own house trying to escape the implications, before finally deciding he wants nothing more to do with the whole matter and would rather not know if the aliens do, in fact, invade.\n\n**Why it matters.** This is a pure comic miniature — one of the shortest pieces in the whole corpus — built entirely on a single conceit and never overstaying it. Its interest for a study of Dick's larger concerns is mostly negative: it demonstrates that even at his most trivial and joke-driven, his instinct was toward paranoid pattern-recognition run amok, a premise that elsewhere in his work (the vapor test in 'Shell Game,' the persecutory certainties throughout his novels) becomes genuinely frightening rather than funny. Here the same cognitive move — building an entire delusional cosmology from a misread first clue and never once doubting the premise — is played strictly for laughs, making the story a useful comic counterpoint to his more serious treatments of the identical mental habit.\n\n*The narrator's final resignation — he no longer wants to know anything more about the supposed invasion — undercuts his own paranoid escalation with simple weary avoidance, the story's last joke.*",
+  "page_count": 0,
+  "source_count": 0,
+  "related_docs": [],
+  "biography_events": [],
+  "themes": [
+    "alien-contact",
+    "delusions"
+  ],
+  "word_count": 1082,
   "reading": {
-    "reading_status": "close_reading_complete",
-    "synopsis": "A man idly reading a paperback novel he found on the bus becomes convinced, sentence by sentence, that he has stumbled onto proof of an alien invasion already living undetected among ordinary people. Every stock figure of speech in the book — 'his eyes roved about the room,' 'he lost his head,' 'she gave him her hand,' 'we split up' — he takes with total literalism, building an escalating case that the characters are non-human beings capable of detaching and recombining their own body parts, dividing by fission, and living without hearts, brains, or heads. Increasingly horrified, he flees from room to room of his own house trying to escape the implications, before finally deciding he wants nothing more to do with the whole matter and would rather not know if the aliens do, in fact, invade.",
-
     "structure": {
       "form": "single-scene comic monologue, essentially one escalating joke sustained for its full brief length",
       "movements": [
@@ -35,38 +27,48 @@
       "point_of_view": "first person throughout, the entire comic effect depending on the narrator's total inability to recognize ordinary idiom, so the reader is always several steps ahead of him.",
       "central_device": "Systematic literalization of English idiom and cliché — every 'lost his head,' 'gave her hand,' or 'had no guts' read as literal anatomical dismemberment — turning ordinary genre prose into apparent evidence of a body-swapping alien species."
     },
-
     "characters": [
-      { "name": "The narrator", "role": "unnamed paranoid reader", "note": "His growing terror is played entirely straight rather than as self-aware parody, which is the source of the joke — he never once considers that he might simply be misreading figurative language." }
+      {
+        "name": "The narrator",
+        "role": "unnamed paranoid reader",
+        "note": "His growing terror is played entirely straight rather than as self-aware parody, which is the source of the joke — he never once considers that he might simply be misreading figurative language."
+      }
     ],
-
     "settings": [
-      { "name": "The narrator's living-room, garage, and kitchen", "note": "His flight from the living-room to the garage to escape his family's notice, then back inside for cover, maps his rising panic onto ordinary domestic space with mock-thriller intensity." }
+      {
+        "name": "The narrator's living-room, garage, and kitchen",
+        "note": "His flight from the living-room to the garage to escape his family's notice, then back inside for cover, maps his rising panic onto ordinary domestic space with mock-thriller intensity."
+      }
     ],
-
     "motifs": [
       "Idiomatic figures of speech read with total, escalating literalism as evidence of nonhuman physiology",
       "A narrator's private paranoid theory built entirely from a wildly wrong first premise, with each subsequent 'confirmation' making the error worse rather than exposing it",
       "The comic gap between the reader's obvious correct interpretation and the narrator's insistently wrong one, sustained without a single wink to the audience"
     ],
-
     "significance": "This is a pure comic miniature — one of the shortest pieces in the whole corpus — built entirely on a single conceit and never overstaying it. Its interest for a study of Dick's larger concerns is mostly negative: it demonstrates that even at his most trivial and joke-driven, his instinct was toward paranoid pattern-recognition run amok, a premise that elsewhere in his work (the vapor test in 'Shell Game,' the persecutory certainties throughout his novels) becomes genuinely frightening rather than funny. Here the same cognitive move — building an entire delusional cosmology from a misread first clue and never once doubting the premise — is played strictly for laughs, making the story a useful comic counterpoint to his more serious treatments of the identical mental habit.",
-
     "closing_note": "The narrator's final resignation — he no longer wants to know anything more about the supposed invasion — undercuts his own paranoid escalation with simple weary avoidance, the story's last joke."
   },
-
-  "concepts": {
-    "distinctive_terms": [
-      { "label": "Obviously", "entity_id": "TERM_obviously", "count": 3, "distinctiveness": 19.27, "note": "The narrator's repeated, confident 'obviously' at each wrong turn is the story's chief comic tic — total certainty built on a total misreading." },
-      { "label": "Earth", "entity_id": "TERM_earth", "count": 3, "distinctiveness": 6.11 },
-      { "label": "Being", "entity_id": "TERM_being", "count": 3, "distinctiveness": 5.22 }
-    ],
-    "thematic_links_proposed": [
-      { "theme": "alien-contact", "basis": "a paranoid theory of an alien species already living undetected among ordinary humans, built entirely from misread evidence" },
-      { "theme": "delusions", "basis": "an escalating, internally consistent but entirely wrong interpretive system, built and reinforced by the narrator's own confirmation bias with each new 'clue'" }
-    ]
-  },
-
+  "distinctive_terms": [
+    {
+      "label": "Obviously",
+      "entity_id": "TERM_obviously",
+      "count": 3,
+      "distinctiveness": 19.27,
+      "note": "The narrator's repeated, confident 'obviously' at each wrong turn is the story's chief comic tic — total certainty built on a total misreading."
+    },
+    {
+      "label": "Earth",
+      "entity_id": "TERM_earth",
+      "count": 3,
+      "distinctiveness": 6.11
+    },
+    {
+      "label": "Being",
+      "entity_id": "TERM_being",
+      "count": 3,
+      "distinctiveness": 5.22
+    }
+  ],
   "pkd_on_this_work": {
     "lane": "B",
     "total_mentions": 1,
@@ -80,27 +82,21 @@
       }
     ]
   },
-
   "criticism": {
     "lane": "C",
     "total_mentions": 0,
     "evidence": []
   },
-
   "contradictions": [],
-
   "open_questions": [
     "What does footnote 95 attached to the five-story Exegesis list actually say? With this story's premise so closely mirroring Dick's own later reading practices (finding hidden meaning embedded in ordinary text), the footnote may be unusually revealing.",
     "This story was originally published under the pseudonym 'Richard Phillips' — is there a documented reason for the pseudonym given elsewhere in Dick's letters or Sutin's biography?",
     "Is there secondary criticism connecting this story's comic literalized-idiom premise to Dick's later, much more serious treatments of paranoid overinterpretation and pattern-finding?"
   ],
-
-  "provenance": {
-    "layer_1_reading": "Full text read at the locator above, 1,082 words.",
-    "layer_2_concepts": "scripts/reading/gather_evidence.py",
-    "layer_3_pkd": "1 substantive citation (Exegesis); 1 index/bibliography-only hit excluded.",
-    "layer_4_criticism": "0 found in this evidence pass.",
-    "related_dossiers": "beyond-the-door, of-withered-apples (named in the same Exegesis list, both read); martians-come-in-clouds, not-by-its-cover (named in the same list, read alongside this dossier).",
-    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
   }
 }

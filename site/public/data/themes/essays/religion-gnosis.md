@@ -56,6 +56,10 @@ Zen Buddhism scholar Joan Hiashi is recruited by the State Department to bring h
 
 In a Hanoi where the Party has won the global war, Tung Chien is a mid-level functionary at the Ministry of Cultural Artifacts. In a story collection like [Faith of Our Fathers](/works/faith-of-our-fathers), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Not by Its Cover
+
+Obelisk Books, a Martian-colony publisher, discovers that its deluxe hardcover editions — bound in Martian wub-fur, a hide so vital it never fully dies — have been silently rewriting the texts they cover. In a story collection like [Not by Its Cover](/works/not-by-its-cover), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### A Maze of Death
 
 A Maze of Death is the canonical works record for PKD's novel. In a novel like [A Maze of Death](/works/a-maze-of-death), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

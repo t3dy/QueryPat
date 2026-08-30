@@ -1,165 +1,120 @@
 {
- "artifact_id": "ART_DOSSIER_NOT_BY_ITS_COVER",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "not-by-its-cover",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Not By Its Cover",
-  "slug": "not-by-its-cover",
-  "form": "story",
-  "word_count": 3463,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 52673,
-   "line_end": 52856,
-   "word_count": 3463,
-   "status": "ready"
+  "artifact_id": "ART_DOSSIER_NOT_BY_ITS_COVER",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "not-by-its-cover",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Not by Its Cover",
+    "slug": "not-by-its-cover",
+    "form": "short story",
+    "word_count": 3463,
+    "lane": "A",
+    "written": "9/21/65",
+    "first_publication": "Famous Science Fiction, Winter 1968-69",
+    "later_use": "A direct sequel-of-sorts to \"Beyond Lies the Wub\" (also read in this project), reusing its title creature decades later as a still-living, still-philosophizing presence.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 52673,
+      "line_end": 52856,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Obelisk Books, a Martian-colony publisher, discovers that its deluxe hardcover editions — bound in Martian wub-fur, a hide so vital it never fully dies — have been silently rewriting the texts they cover. Every alteration, from a subtly changed quatrain in Lucretius's De Rerum Natura to entire new articles added to the Encyclopaedia Britannica, argues the same doctrine: there is no real death, only a better life beyond this one. Copy editor Jack Snead confirms the pattern is universal and always theological, and reasons that the wub isn't merely opining about immortality — it has actually achieved it, its skin still alive and aware long after the animal's death, making it a 'living confirmation of its own doctrine.' Company president Barney Masters, initially dismissive, tests the fur's protective power on a china cup, finds it genuinely indestructible, and by the story's end has had his own coffin ordered lined in wub-fur — hoping to secure, through material means, the very afterlife the wub's own hide keeps insisting is real.",
+
+    "structure": {
+      "form": "short story in three movements: the discovered textual corruption, the investigation into its source, and Masters's private conversion",
+      "movements": [
+        "A scholar's complaint reveals that Obelisk's wub-fur bound edition of Lucretius has been silently altered to preach the opposite of the original text's philosophy.",
+        "Masters and his copy editor trace the pattern to the living wub-fur itself, cataloguing its consistent theological interpolations across a dozen classic and religious texts.",
+        "Convinced despite himself, Masters privately arranges to have his own coffin lined in wub-fur, revealing that intellectual skepticism has quietly given way to a very literal hedge against death."
+      ],
+      "point_of_view": "third person close to Masters throughout, tracking his shift from irritated dismissal to genuine private belief, so the reader witnesses persuasion happening to a character who insists to the end that he isn't persuaded.",
+      "central_device": "A physically immortal creature's hide functioning as an uncontrollable editorial hand, inserting the same single theological claim into every text it touches — turning literal textual corruption into a kind of evangelism no human editor can stop or argue with."
+    },
+
+    "characters": [
+      { "name": "Barney Masters", "role": "elderly president of Obelisk Books", "note": "Explicitly denies wanting eternal life ('I have enough troubles now') even as his own actions — the coffin lining, the intact teacup, his repeated private musing — reveal a man being quietly converted against his stated will." },
+      { "name": "Jack Snead", "role": "Obelisk's copy editor", "note": "Provides the story's clearest articulation of its central argument: the wub isn't merely claiming immortality, it has demonstrably achieved it, which is different in kind from ordinary religious assertion and harder to dismiss." },
+      { "name": "Luther Saperstein", "role": "business agent for Flawless, Incorporated, the wub-fur supplier", "note": "Supplies the story's dry, deadpan exposition of the wub's biology, including its inconvenient detail (a brain a fifth the size of an opossum's) that undercuts any triumphant reading of its 'wisdom.'" },
+      { "name": "Mr. Brandice", "role": "a Latin scholar and complainant", "note": "Represents WODAFAG, a watchdog organization for textual authenticity, whose righteous insistence on accuracy inadvertently sets the whole investigation in motion." },
+      { "name": "The wub / wub-fur", "role": "the living, editorializing hide", "note": "First introduced in 'Beyond Lies the Wub' as a philosophical, telepathic Martian creature killed and eaten by a human crew; here its afterlife as an object continues to speak, unprompted, in every book it is bound into, making its earlier death and this story's title into a literal irony." }
+    ],
+
+    "settings": [
+      { "name": "Obelisk Books' Martian office", "note": "A colony-world publishing house whose 'authenticity' anxieties about texts imported from Terra are undercut by the discovery that its own local material is the actual source of corruption." },
+      { "name": "Flawless, Incorporated", "note": "The wub-fur supplier's offices, where the biology and business of a genuinely immortal creature's hide is discussed with the same dry commercial tone as any other commodity." }
+    ],
+
+    "motifs": [
+      "A physically immortal being whose survival is treated as evidence, rather than merely argument, for an afterlife doctrine",
+      "Textual corruption as a form of involuntary, uncontrollable evangelism",
+      "A skeptical protagonist's private actions contradicting his stated disbelief",
+      "A single insistent theological message ('death is not real, a better life follows') recurring across radically different texts regardless of their original content or authority",
+      "A literalized version of Pascal's wager: not a bet on an unprovable claim but a physical hedge (wub-fur coffin lining) against a claim now backed by demonstrable, if strange, evidence"
+    ],
+
+    "significance": "The story is a wry, late-career return to one of Dick's earliest published creatures, and its central question is essentially theological empiricism: what happens when a claim usually confined to faith (there is life after death) is instead backed by an observable, testable phenomenon (a hide that keeps living and keeps saying so)? Snead's insistence that the wub is 'a living confirmation of its own doctrine' rather than merely an opinionated life form gives the story real philosophical teeth beneath its comic premise, and Masters's private, unstated conversion — coffin-lining and all — dramatizes exactly the kind of quiet capitulation to hoped-for meaning found throughout Dick's later, more explicitly religious writing. Its author's story note (written 1965, annotated 1978) makes the connection to Dick's own belief explicit: he describes wanting the Bible to be true while remaining genuinely uncertain, a halfway position between doubt and faith that this story dramatizes through Masters rather than states directly.",
+
+    "closing_note": "Masters's private curiosity about what 'the version of himself' a wub-fur coffin will produce 'after several centuries' ends the story on a note of genuine, unresolved hope rather than the comic dismissal with which he greeted the same idea at the story's start."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Book", "entity_id": "TERM_book", "count": 17, "distinctiveness": 36.72, "note": "The story's central conceit turns entirely on books as the medium through which the wub's doctrine is transmitted." },
+      { "label": "Bible", "entity_id": "TERM_bible", "count": 2, "distinctiveness": 29.92, "note": "Snead's experiment binding a Bible in wub-fur, and its minimal but telling alteration, is the story's clearest test case." },
+      { "label": "Spirit", "entity_id": "TERM_spirit", "count": 1, "distinctiveness": 13.53 },
+      { "label": "Obviously", "entity_id": "TERM_obviously", "count": 3, "distinctiveness": 6.02 }
+    ],
+    "names_matched": ["NAME_the-wub", "NAME_thomas-aquinas", "NAME_luther"],
+    "thematic_links_proposed": [
+      { "theme": "religion-gnosis", "basis": "a demonstrable, physically observable case for an afterlife doctrine, dramatizing the gap between wanting a belief to be true and having actual evidence for it" },
+      { "theme": "alien-contact", "basis": "a direct continuation of an earlier story's alien creature, its philosophical voice persisting and spreading through human texts long after its own death" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 1,
+    "summary": "Dick's own author's story note directly states the story's personal stakes: a wish, not quite belief, that religious promises of survival after death might be true.",
+    "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "Here I presented what used to be a wish on my part: that the Bible was true. Obviously, I was at a sort of halfway point between doubt and faith. Years later I'm still in that position; I'd like the Bible to be true, but—well, maybe if it isn't we can make it so.",
+        "written_date": "9/21/65",
+        "reading": "Dick frames the story's central conceit — an artificial, manufactured proof of an afterlife doctrine — as directly related to his own unresolved position between doubt and faith, and even entertains the story's own logic ('maybe if it isn't we can make it so') as something more than fiction."
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is there a documented reason Dick returned to the wub specifically, over a decade after 'Beyond Lies the Wub,' rather than inventing a new immortal creature for this premise?",
+    "Snead's claim that the wub is 'a living confirmation of its own doctrine' rather than merely an opinionated organism is the story's sharpest philosophical move — is this distinction discussed anywhere else in Dick's nonfiction or the Exegesis?",
+    "Is there secondary criticism reading this story alongside Dick's other 'proof of an afterlife' narratives (Ubik, A Maze of Death) as a comic dry run for more serious later treatments of the same anxiety?"
+  ],
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 3,463 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "1 substantive citation, a full author's story note.",
+    "layer_4_criticism": "0 found in this evidence pass.",
+    "related_dossiers": "beyond-lies-the-wub (direct predecessor, already read); beyond-the-door, of-withered-apples, the-eyes-have-it, martians-come-in-clouds (named together in a separate Exegesis list, all read).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Thomas Aquinas",
-    "name_id": "NAME_thomas-aquinas",
-    "mentions": 1
-   },
-   {
-    "name": "The Wub",
-    "name_id": "NAME_the-wub",
-    "mentions": 17
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [
-   {
-    "name": "Luther",
-    "name_id": "NAME_luther",
-    "mentions": 1
-   }
-  ],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 17,
-    "distinctiveness": 36.72
-   },
-   {
-    "label": "Bible",
-    "entity_id": "TERM_bible",
-    "count": 2,
-    "distinctiveness": 29.92
-   },
-   {
-    "label": "Spirit",
-    "entity_id": "TERM_spirit",
-    "count": 1,
-    "distinctiveness": 13.53
-   },
-   {
-    "label": "James",
-    "entity_id": "TERM_james",
-    "count": 1,
-    "distinctiveness": 9.46
-   },
-   {
-    "label": "Obviously",
-    "entity_id": "TERM_obviously",
-    "count": 3,
-    "distinctiveness": 6.02
-   },
-   {
-    "label": "Thomas",
-    "entity_id": "TERM_thomas",
-    "count": 1,
-    "distinctiveness": 5.78
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 4,
-    "distinctiveness": 5.03
-   },
-   {
-    "label": "Paul",
-    "entity_id": "TERM_paul",
-    "count": 1,
-    "distinctiveness": 3.63
-   },
-   {
-    "label": "Earth",
-    "entity_id": "TERM_earth",
-    "count": 5,
-    "distinctiveness": 3.18
-   },
-   {
-    "label": "John",
-    "entity_id": "TERM_john",
-    "count": 1,
-    "distinctiveness": 2.89
-   },
-   {
-    "label": "Brain",
-    "entity_id": "TERM_brain",
-    "count": 2,
-    "distinctiveness": 2.79
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 1,
-    "distinctiveness": 2.62
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 2,
-    "distinctiveness": 2.13
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 5,
-    "distinctiveness": 1.5
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "0 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
 }

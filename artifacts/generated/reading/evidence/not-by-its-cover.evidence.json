@@ -179,8 +179,25 @@
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
  },
  "pkd_on_this_work": {
-  "sources": [],
-  "total_mentions": 0
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "is_author_story_note": true,
+    "quotes": [
+     {
+      "line": null,
+      "quote": "Here I presented what used to be a wish on my part: that the Bible was true. Obviously, I was at a sort of halfway point between doubt and faith. Years later I'm still in that position; I'd like the Bible to be true, but—well, maybe if it isn't we can make it so. But, alas, it's going to take plenty of work to do it. (1978)",
+      "written_date": "9/21/65",
+      "alt_title": null
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
  },
  "criticism": {
   "sources": [],

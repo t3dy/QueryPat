@@ -20,6 +20,10 @@ The Magician's Box is the canonical works record for PKD's short-story collectio
 
 The Visitation is the canonical works record for PKD's short-story collection. In a story collection like [The Visitation](/works/the-visitation), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Martians Come in Clouds
+
+Every few years, dry, cobweb-like Martian creatures ('buggies') drift down to Earth in clouds and are hunted and destroyed by panicked mobs the moment they are spotted. In a story collection like [Martians Come in Clouds](/works/martians-come-in-clouds), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Builder
 
 E.J. In a story collection like [The Builder](/works/the-builder), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

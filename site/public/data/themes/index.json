@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 96,
+  "fiction_work_count": 99,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -1354,7 +1354,7 @@
       "slug": "delusions",
       "label": "Delusions",
       "description": "Paranoia, psychosis, hallucination, schizophrenia, and other forms of unstable perception.",
-      "work_count": 9,
+      "work_count": 10,
       "works": [
         {
           "work_id": "WORK_colony",
@@ -1381,6 +1381,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "F&SF, February 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-eyes-have-it",
+          "canonical_title": "The Eyes Have It",
+          "slug": "the-eyes-have-it",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, January 1953 (as by Richard Phillips)",
           "date_start": "1953"
         },
         {
@@ -2583,7 +2592,7 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 21,
+      "work_count": 22,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2694,6 +2703,15 @@
           "date_start": "1967"
         },
         {
+          "work_id": "WORK_not-by-its-cover",
+          "canonical_title": "Not by Its Cover",
+          "slug": "not-by-its-cover",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Famous Science Fiction, Winter 1968-69",
+          "date_start": "1968"
+        },
+        {
           "work_id": "WORK_a-maze-of-death",
           "canonical_title": "A Maze of Death",
           "slug": "a-maze-of-death",
@@ -2782,7 +2800,7 @@
       "slug": "alien-contact",
       "label": "Alien Contact",
       "description": "Aliens, extraterrestrial intelligence, off-world contact, and nonhuman ecologies.",
-      "work_count": 9,
+      "work_count": 12,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2800,6 +2818,24 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Galaxy, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_martians-come-in-clouds",
+          "canonical_title": "Martians Come in Clouds",
+          "slug": "martians-come-in-clouds",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, September 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-eyes-have-it",
+          "canonical_title": "The Eyes Have It",
+          "slug": "the-eyes-have-it",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, January 1953 (as by Richard Phillips)",
           "date_start": "1953"
         },
         {
@@ -2857,6 +2893,15 @@
           "date_start": "1967"
         },
         {
+          "work_id": "WORK_not-by-its-cover",
+          "canonical_title": "Not by Its Cover",
+          "slug": "not-by-its-cover",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Famous Science Fiction, Winter 1968-69",
+          "date_start": "1968"
+        },
+        {
           "work_id": "WORK_nick-and-the-glimmung",
           "canonical_title": "Nick and the Glimmung",
           "slug": "nick-and-the-glimmung",
@@ -2873,7 +2918,7 @@
       "slug": "suburbia-domesticity",
       "label": "Suburbia & Domesticity",
       "description": "Family life, marriage, houses, domestic tension, and the suburban everyday.",
-      "work_count": 27,
+      "work_count": 28,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -2901,6 +2946,15 @@
           "work_type": "short_stories",
           "date_display": "1944",
           "date_start": "1944"
+        },
+        {
+          "work_id": "WORK_martians-come-in-clouds",
+          "canonical_title": "Martians Come in Clouds",
+          "slug": "martians-come-in-clouds",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, September 1953",
+          "date_start": "1953"
         },
         {
           "work_id": "WORK_the-builder",

@@ -16,6 +16,14 @@ A ship provisioning on Mars takes aboard a wub — an enormous, placid, pig-like
 
 A survey unit has spent three weeks on Planet Blue and found no harmful life form at all — no disease, no vermin, nothing. In a story collection like [Colony](/works/colony), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Martians Come in Clouds
+
+Every few years, dry, cobweb-like Martian creatures ('buggies') drift down to Earth in clouds and are hunted and destroyed by panicked mobs the moment they are spotted. In a story collection like [Martians Come in Clouds](/works/martians-come-in-clouds), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### The Eyes Have It
+
+A man idly reading a paperback novel he found on the bus becomes convinced, sentence by sentence, that he has stumbled onto proof of an alien invasion already living undetected among ordinary people. In a story collection like [The Eyes Have It](/works/the-eyes-have-it), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Tony and the Beetles
 
 Ten-year-old Tony Rossi, born on the colonized planet of the insectile, hard-shelled Pas-udeti (dismissively called 'beetles' by Terrans), has never seen Earth and has grown up playing with Pas-udeti children in the city of Karnet, working... In a story collection like [Tony and the Beetles](/works/tony-and-the-beetles), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -39,6 +47,10 @@ The Crack in Space is the canonical works record for PKD's novel. In a novel lik
 ### The Ganymede Takeover
 
 The Ganymede Takeover is the canonical works record for PKD's novel. In a novel like [The Ganymede Takeover](/works/the-ganymede-takeover), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### Not by Its Cover
+
+Obelisk Books, a Martian-colony publisher, discovers that its deluxe hardcover editions — bound in Martian wub-fur, a hide so vital it never fully dies — have been silently rewriting the texts they cover. In a story collection like [Not by Its Cover](/works/not-by-its-cover), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Nick and the Glimmung
 
