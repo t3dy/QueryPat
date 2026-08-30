@@ -94,9 +94,16 @@
   ],
   "pkd_on_this_work": {
     "lane": "E",
-    "total_mentions": 0,
-    "summary": "No statement by Dick about this specific story was found in the corpus currently indexed.",
-    "evidence": []
+    "total_mentions": 1,
+    "summary": "Dick left a story note on this piece (collected in The Collected Stories of Philip K. Dick), quoted first below; no other commentary on this specific story was found elsewhere in the indexed corpus.",
+    "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "When this story first appeared, the fans detested it. I read it over, perplexed by their hostility, and could see why: it is a superdowner story, and relentlessly so. Could I rewrite it I would have it end differently, I would have the man and the robot, i.e. the fasrad, form a partnership at the end and become friends. The logic of paranoia of this story should be deconstructed into its opposite; Y, the human-against-robot theme, should have been resolved into null-Y,…",
+        "reading": "A striking authorial reversal: Dick reports fan hostility to the story's unrelieved bleakness and says that if he could rewrite it, he would end it with the man and the fasrad forming a partnership rather than destruction — recasting the story's human-versus-machine logic into a human-and-machine-against-the-real-antagonist logic instead."
+      }
+    ]
   },
   "criticism": {
     "lane": "C",

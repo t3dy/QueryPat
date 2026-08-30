@@ -1,224 +1,230 @@
 {
- "artifact_id": "ART_DOSSIER_BEYOND_LIES_THE_WUB",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "beyond-lies-the-wub",
- "generated_by": "reading_notes_agent",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "close_reading_complete",
- "work": {
-  "title": "Beyond Lies the Wub",
-  "slug": "beyond-lies-the-wub",
-  "form": "short story",
-  "word_count": 2630,
-  "lane": "A",
-  "first_publication": "Planet Stories, July 1952 — the first Dick story to appear in print",
-  "note_on_priority": "'Roog' was sold first, in November 1951; 'Beyond Lies the Wub' was published first. Both facts circulate as 'his first story' and the distinction is worth keeping.",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 898,
-   "line_end": 1181,
-   "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
-  }
- },
- "reading": {
+  "artifact_id": "ART_DOSSIER_BEYOND_LIES_THE_WUB",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "beyond-lies-the-wub",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
   "reading_status": "close_reading_complete",
-  "synopsis": "A ship provisioning on Mars takes aboard a wub — an enormous, placid, pig-like animal bought from a native for fifty cents by the crewman Peterson. Captain Franco intends to eat it; the ship's stores have spoiled and there is nothing to feed the crew for a month. The wub then speaks. It is telepathic, has read the Captain's mind, and would prefer to discuss philosophy, ethics and myth. It argues its case in the Captain's own terms — democracy, the protection of minorities, the barbarism of eating a being one can converse with — and when Franco walks out it briefly freezes him in the doorway. Left with Peterson, the wub talks about Odysseus as a figure of individuation: separation from family and country, and the return. Franco returns with a gun and the crew behind him. The men make excuses and leave, unwilling to watch; Peterson protests that the animal has harmed no one and that it is his. Franco shoots it. The crew eat in near silence while the Captain enjoys the meal — and then, turning to Peterson, resumes the wub's lecture on Odysseus exactly where it was interrupted.",
-  "structure": {
-   "form": "continuous short story in four movements, tightening from open deck to dinner table",
-   "movements": [
-    "Loading on Mars: the Optus's silent displeasure, the bargain, and the wub's arrival on a string.",
-    "The anteroom: the wub speaks, and the crew's assumption that a native must be hidden inside it.",
-    "The Captain's office: the debate proper — telepathy, catholicity, democracy, the request to be discussed rather than eaten.",
-    "The killing and the dinner: the crew's queasy withdrawal, Franco's appetite, and the final substitution."
-   ],
-   "point_of_view": "third person, moving with the crew rather than with any one man. The reader is never inside the wub, which is what keeps its interiority a matter of testimony rather than access.",
-   "ending_device": "The last three lines transfer the wub's argument, and its cadence, into the Captain's mouth. Nothing is explained; the reader is left to decide what has happened to whom."
+  "work": {
+    "title": "Beyond Lies the Wub",
+    "slug": "beyond-lies-the-wub",
+    "form": "short story",
+    "word_count": 2630,
+    "lane": "A",
+    "first_publication": "Planet Stories, July 1952 — the first Dick story to appear in print",
+    "note_on_priority": "'Roog' was sold first, in November 1951; 'Beyond Lies the Wub' was published first. Both facts circulate as 'his first story' and the distinction is worth keeping.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 898,
+      "line_end": 1181,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
   },
-  "characters": [
-   {
-    "name": "The wub",
-    "name_id": "NAME_the-wub",
-    "role": "the alien",
-    "note": "Telepathic, vegetarian, self-described as tolerant and eclectic. Its rhetoric is entirely persuasive and entirely ineffective. It never uses its evident power to save itself, beyond a moment's paralysis."
-   },
-   {
-    "name": "Captain Franco",
-    "role": "antagonist and, at the end, host",
-    "note": "Reduces every question to provisioning. His farm-boy answer about razorback hogs is the story's refusal of squeamishness — and then he inherits the voice he silenced."
-   },
-   {
-    "name": "Peterson",
-    "role": "the wub's buyer and only defender",
-    "note": "Argues from ownership and from harmlessness, and is overruled on both. The final address is aimed at him."
-   },
-   {
-    "name": "Jones",
-    "role": "crewman",
-    "note": "Witnessed the Captain frozen in the doorway; his fear is what licenses the killing."
-   },
-   {
-    "name": "French",
-    "role": "crewman",
-    "note": "Supplies the butchering advice — aim for the brain, spare the rib cage — the story's coldest line."
-   },
-   {
-    "name": "The Optus",
-    "role": "Martian native leader",
-    "note": "Present only at the start, silently offended at the hunt being sold off. The story's other unheard party."
-   }
-  ],
-  "settings": [
-   {
-    "name": "Mars, at the gangplank",
-    "note": "A transaction between an indigenous population and a provisioning crew; the wub is bought for fifty cents."
-   },
-   {
-    "name": "The ship's anteroom and the Captain's office",
-    "note": "The debate happens in the Captain's own neat quarters, which the wub compliments — courtesy as a rhetorical move."
-   },
-   {
-    "name": "The mess table",
-    "note": "Where the argument is settled by digestion."
-   }
-  ],
-  "motifs": [
-   "Eating as the limit case of ethics: the entire dispute is whether a thing that can argue may be food",
-   "Mind-reading as intimacy the reader is never granted — we are told the wub sees Franco's images, never shown them",
-   "Myth as the wub's chosen ground, and Odysseus specifically: separation, wandering, return",
-   "The crew's departures — one by one they leave the room, and later the table, unable to watch or to eat",
-   "Tidiness and courtesy in the doomed party; appetite in the survivor"
-  ],
-  "significance": "The story's structural joke is also its metaphysics. The wub argues that the wanderer returns to land and race, and then demonstrates it by returning — in the Captain. Whether this is survival, possession, or nothing at all is unresolvable from inside the text, because the wub's interiority was never directly available to the reader in the first place. What can be said is that Dick found, in his first published story, an ending that asserts persistence of self through the destruction of the body without ever making a claim the narration has to stand behind.",
-  "closing_note": "Franco's last words resume the wub's sentence about Odysseus. The reader supplies everything else."
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Catholic",
-    "entity_id": "TERM_catholic",
-    "count": 3,
-    "distinctiveness": 83.7,
-    "note": "The wub's self-description — 'We're very catholic. Tolerant, eclectic, catholic' — in its older sense of universal. The highest distinctiveness score in the story by a wide margin, and it sits on a word with a heavy later charge in Dick."
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 2,
-    "distinctiveness": 3.52
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 4,
-    "distinctiveness": 2.47
-   },
-   {
-    "label": "Brain",
-    "entity_id": "TERM_brain",
-    "count": 2,
-    "distinctiveness": 1.83
-   }
-  ],
-  "names_matched": [
-   "NAME_the-wub"
-  ],
-  "thematic_links_proposed": [
-   {
-    "theme": "authentic-human",
-    "basis": "the criterion for a being that may not be eaten is exactly the criterion for personhood, and the crew cannot apply it"
-   },
-   {
-    "theme": "alien-contact",
-    "basis": "the whole encounter is first contact conducted as a provisioning problem; the crew's inability to eat is knowledge their reasoning could not reach"
-   },
-   {
-    "theme": "memory-identity",
-    "basis": "the ending stakes identity on continuity of voice and argument rather than of body"
-   },
-   {
-    "theme": "religion-gnosis",
-    "basis": "the wub's own vocabulary is theological — soul, parable, the Saviour — and Dick's 1981 headnote makes the reading explicit"
-   }
-  ]
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 19,
-  "summary": "Dick wrote a headnote for the story around 1980, and — more strikingly — used it in the Exegesis as the structural model for the ending of his last novel.",
-  "evidence": [
-   {
-    "source": "The Shifting Realities of Philip K. Dick — 'Headnote' for 'Beyond Lies the Wub' (1981)",
-    "line": 1033,
-    "quote": "I'm sorry if the word \"soul\" offends you, but I can think of no other term.",
-    "reading": "Dick names the story's subject as the soul, thirty years after writing it, and flags that he expects resistance to the word. The headnote is the closest thing to an authorial gloss the story has."
-   },
-   {
-    "source": "The Exegesis",
-    "line": 9802,
-    "quote": "(My model: \"Beyond Lies the Wub.\")",
-    "reading": "Written while working out the ending of The Transmigration of Timothy Archer. His first published story becomes the template for his last novel's close — one being's persistence inside another, with the question of whether it is real left standing."
-   },
-   {
-    "source": "The Exegesis",
-    "line": 9788,
-    "quote": "Tim is alive in him (as in \"Beyond Lies the Wub\")",
-    "reading": "The same move, stated as a plot mechanism. Confirms that Dick read the wub's return as genuine persistence rather than as the Captain's delusion — at least for the purpose he was putting it to."
-   }
-  ],
-  "caution": "The Exegesis passages are Dick using the story as a tool while drafting another book. They are strong evidence of how he construed the ending in 1981 and weak evidence of what he intended in 1952."
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 2,
-  "summary": "Very little sustained critical attention, which is itself a finding: the story is habitually cited as a biographical landmark rather than analysed.",
-  "evidence": [
-   {
-    "author": "Lawrence Sutin",
-    "work": "Divine Invasions",
-    "line": 1457,
-    "quote": "mention must be made of \"Beyond Lies the Wub,\" the very first to appear in print",
-    "reading": "Cited for priority of publication, in a passage taking leave of the stories to turn to the novels — the characteristic gesture."
-   },
-   {
-    "author": "Lawrence Sutin",
-    "work": "Divine Invasions",
-    "line": 5641,
-    "quote": "tales from Phil's Berkeley salad days, like \"Roog,\" \"Beyond Lies the Wub,\" \"Second Variety,\" and…",
-    "reading": "Grouped with the other early stories as period work rather than treated individually."
-   }
-  ]
- },
- "contradictions": [
-  {
-   "type": "factual",
-   "summary": "Both 'Roog' and 'Beyond Lies the Wub' are described in the sources as Dick's first story.",
-   "claim_a": {
-    "lane": "E",
-    "source": "Selected Letters, 8 Nov 1951",
-    "text": "'Roog,' as you slyly guessed, is my first acceptance"
-   },
-   "claim_b": {
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "A ship provisioning on Mars takes aboard a wub — an enormous, placid, pig-like animal bought from a native for fifty cents by the crewman Peterson. Captain Franco intends to eat it; the ship's stores have spoiled and there is nothing to feed the crew for a month. The wub then speaks. It is telepathic, has read the Captain's mind, and would prefer to discuss philosophy, ethics and myth. It argues its case in the Captain's own terms — democracy, the protection of minorities, the barbarism of eating a being one can converse with — and when Franco walks out it briefly freezes him in the doorway. Left with Peterson, the wub talks about Odysseus as a figure of individuation: separation from family and country, and the return. Franco returns with a gun and the crew behind him. The men make excuses and leave, unwilling to watch; Peterson protests that the animal has harmed no one and that it is his. Franco shoots it. The crew eat in near silence while the Captain enjoys the meal — and then, turning to Peterson, resumes the wub's lecture on Odysseus exactly where it was interrupted.",
+    "structure": {
+      "form": "continuous short story in four movements, tightening from open deck to dinner table",
+      "movements": [
+        "Loading on Mars: the Optus's silent displeasure, the bargain, and the wub's arrival on a string.",
+        "The anteroom: the wub speaks, and the crew's assumption that a native must be hidden inside it.",
+        "The Captain's office: the debate proper — telepathy, catholicity, democracy, the request to be discussed rather than eaten.",
+        "The killing and the dinner: the crew's queasy withdrawal, Franco's appetite, and the final substitution."
+      ],
+      "point_of_view": "third person, moving with the crew rather than with any one man. The reader is never inside the wub, which is what keeps its interiority a matter of testimony rather than access.",
+      "ending_device": "The last three lines transfer the wub's argument, and its cadence, into the Captain's mouth. Nothing is explained; the reader is left to decide what has happened to whom."
+    },
+    "characters": [
+      {
+        "name": "The wub",
+        "name_id": "NAME_the-wub",
+        "role": "the alien",
+        "note": "Telepathic, vegetarian, self-described as tolerant and eclectic. Its rhetoric is entirely persuasive and entirely ineffective. It never uses its evident power to save itself, beyond a moment's paralysis."
+      },
+      {
+        "name": "Captain Franco",
+        "role": "antagonist and, at the end, host",
+        "note": "Reduces every question to provisioning. His farm-boy answer about razorback hogs is the story's refusal of squeamishness — and then he inherits the voice he silenced."
+      },
+      {
+        "name": "Peterson",
+        "role": "the wub's buyer and only defender",
+        "note": "Argues from ownership and from harmlessness, and is overruled on both. The final address is aimed at him."
+      },
+      {
+        "name": "Jones",
+        "role": "crewman",
+        "note": "Witnessed the Captain frozen in the doorway; his fear is what licenses the killing."
+      },
+      {
+        "name": "French",
+        "role": "crewman",
+        "note": "Supplies the butchering advice — aim for the brain, spare the rib cage — the story's coldest line."
+      },
+      {
+        "name": "The Optus",
+        "role": "Martian native leader",
+        "note": "Present only at the start, silently offended at the hunt being sold off. The story's other unheard party."
+      }
+    ],
+    "settings": [
+      {
+        "name": "Mars, at the gangplank",
+        "note": "A transaction between an indigenous population and a provisioning crew; the wub is bought for fifty cents."
+      },
+      {
+        "name": "The ship's anteroom and the Captain's office",
+        "note": "The debate happens in the Captain's own neat quarters, which the wub compliments — courtesy as a rhetorical move."
+      },
+      {
+        "name": "The mess table",
+        "note": "Where the argument is settled by digestion."
+      }
+    ],
+    "motifs": [
+      "Eating as the limit case of ethics: the entire dispute is whether a thing that can argue may be food",
+      "Mind-reading as intimacy the reader is never granted — we are told the wub sees Franco's images, never shown them",
+      "Myth as the wub's chosen ground, and Odysseus specifically: separation, wandering, return",
+      "The crew's departures — one by one they leave the room, and later the table, unable to watch or to eat",
+      "Tidiness and courtesy in the doomed party; appetite in the survivor"
+    ],
+    "significance": "The story's structural joke is also its metaphysics. The wub argues that the wanderer returns to land and race, and then demonstrates it by returning — in the Captain. Whether this is survival, possession, or nothing at all is unresolvable from inside the text, because the wub's interiority was never directly available to the reader in the first place. What can be said is that Dick found, in his first published story, an ending that asserts persistence of self through the destruction of the body without ever making a claim the narration has to stand behind.",
+    "closing_note": "Franco's last words resume the wub's sentence about Odysseus. The reader supplies everything else."
+  },
+  "concepts": {
+    "distinctive_terms": [
+      {
+        "label": "Catholic",
+        "entity_id": "TERM_catholic",
+        "count": 3,
+        "distinctiveness": 83.7,
+        "note": "The wub's self-description — 'We're very catholic. Tolerant, eclectic, catholic' — in its older sense of universal. The highest distinctiveness score in the story by a wide margin, and it sits on a word with a heavy later charge in Dick."
+      },
+      {
+        "label": "Lord",
+        "entity_id": "TERM_lord",
+        "count": 2,
+        "distinctiveness": 3.52
+      },
+      {
+        "label": "Mind",
+        "entity_id": "TERM_mind",
+        "count": 4,
+        "distinctiveness": 2.47
+      },
+      {
+        "label": "Brain",
+        "entity_id": "TERM_brain",
+        "count": 2,
+        "distinctiveness": 1.83
+      }
+    ],
+    "names_matched": [
+      "NAME_the-wub"
+    ],
+    "thematic_links_proposed": [
+      {
+        "theme": "authentic-human",
+        "basis": "the criterion for a being that may not be eaten is exactly the criterion for personhood, and the crew cannot apply it"
+      },
+      {
+        "theme": "alien-contact",
+        "basis": "the whole encounter is first contact conducted as a provisioning problem; the crew's inability to eat is knowledge their reasoning could not reach"
+      },
+      {
+        "theme": "memory-identity",
+        "basis": "the ending stakes identity on continuity of voice and argument rather than of body"
+      },
+      {
+        "theme": "religion-gnosis",
+        "basis": "the wub's own vocabulary is theological — soul, parable, the Saviour — and Dick's 1981 headnote makes the reading explicit"
+      }
+    ]
+  },
+  "pkd_on_this_work": {
+    "lane": "E/B",
+    "total_mentions": 20,
+    "summary": "Dick wrote a headnote for the story around 1980, and — more strikingly — used it in the Exegesis as the structural model for the ending of his last novel.",
+    "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "My first published story, in the most lurid of all pulp magazines on the stands at the time, Planet Stories. As I carried four copies into the record store where I worked, a customer gazed at me and them, with dismay, and said, \"Phil, you read that kind of stuff?\" I had to admit I not only read it, I wrote it.",
+        "reading": "Dick's account of his first published sale, self-deprecating about the magazine's reputation."
+      },
+      {
+        "source": "The Shifting Realities of Philip K. Dick — 'Headnote' for 'Beyond Lies the Wub' (1981)",
+        "line": 1033,
+        "quote": "I'm sorry if the word \"soul\" offends you, but I can think of no other term.",
+        "reading": "Dick names the story's subject as the soul, thirty years after writing it, and flags that he expects resistance to the word. The headnote is the closest thing to an authorial gloss the story has."
+      },
+      {
+        "source": "The Exegesis",
+        "line": 9802,
+        "quote": "(My model: \"Beyond Lies the Wub.\")",
+        "reading": "Written while working out the ending of The Transmigration of Timothy Archer. His first published story becomes the template for his last novel's close — one being's persistence inside another, with the question of whether it is real left standing."
+      },
+      {
+        "source": "The Exegesis",
+        "line": 9788,
+        "quote": "Tim is alive in him (as in \"Beyond Lies the Wub\")",
+        "reading": "The same move, stated as a plot mechanism. Confirms that Dick read the wub's return as genuine persistence rather than as the Captain's delusion — at least for the purpose he was putting it to."
+      }
+    ],
+    "caution": "The Exegesis passages are Dick using the story as a tool while drafting another book. They are strong evidence of how he construed the ending in 1981 and weak evidence of what he intended in 1952."
+  },
+  "criticism": {
     "lane": "C",
-    "source": "Sutin, Divine Invasions",
-    "text": "'Beyond Lies the Wub,' the very first to appear in print"
-   },
-   "editorial_status": "resolvable",
-   "resolution": "Not a genuine conflict: 'Roog' was sold first, 'Beyond Lies the Wub' printed first. Both sources are precise about which claim they are making; only loose paraphrase collapses them."
+    "total_mentions": 2,
+    "summary": "Very little sustained critical attention, which is itself a finding: the story is habitually cited as a biographical landmark rather than analysed.",
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 1457,
+        "quote": "mention must be made of \"Beyond Lies the Wub,\" the very first to appear in print",
+        "reading": "Cited for priority of publication, in a passage taking leave of the stories to turn to the novels — the characteristic gesture."
+      },
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 5641,
+        "quote": "tales from Phil's Berkeley salad days, like \"Roog,\" \"Beyond Lies the Wub,\" \"Second Variety,\" and…",
+        "reading": "Grouped with the other early stories as period work rather than treated individually."
+      }
+    ]
+  },
+  "contradictions": [
+    {
+      "type": "factual",
+      "summary": "Both 'Roog' and 'Beyond Lies the Wub' are described in the sources as Dick's first story.",
+      "claim_a": {
+        "lane": "E",
+        "source": "Selected Letters, 8 Nov 1951",
+        "text": "'Roog,' as you slyly guessed, is my first acceptance"
+      },
+      "claim_b": {
+        "lane": "C",
+        "source": "Sutin, Divine Invasions",
+        "text": "'Beyond Lies the Wub,' the very first to appear in print"
+      },
+      "editorial_status": "resolvable",
+      "resolution": "Not a genuine conflict: 'Roog' was sold first, 'Beyond Lies the Wub' printed first. Both sources are precise about which claim they are making; only loose paraphrase collapses them."
+    }
+  ],
+  "open_questions": [
+    "The 1981 headnote appears in The Shifting Realities of Philip K. Dick. How much of it addresses the ending specifically, as against the story's origin? Only its opening lines were captured by the scripted gather.",
+    "Dick treats the wub's return as real when using it as a model for Timothy Archer. Does anything in the 1952 text support that over the reading in which Franco is simply a man who heard a lecture and repeated it?",
+    "The Optus is set up carefully in the first page and then dropped. Is there any evidence the story was cut, or was the frame always vestigial?"
+  ],
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 2,630 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "19 capitalised citations across the Exegesis and Dick's collected non-fiction.",
+    "layer_4_criticism": "2, both in Sutin.",
+    "prior_artifact": "artifacts/generated/PKD_STORIES/story_001.json holds an earlier, thinner summary of this story. This dossier supersedes it; the older artifact should be retired in an editorial pass rather than silently deleted.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- ],
- "open_questions": [
-  "The 1981 headnote appears in The Shifting Realities of Philip K. Dick. How much of it addresses the ending specifically, as against the story's origin? Only its opening lines were captured by the scripted gather.",
-  "Dick treats the wub's return as real when using it as a model for Timothy Archer. Does anything in the 1952 text support that over the reading in which Franco is simply a man who heard a lecture and repeated it?",
-  "The Optus is set up carefully in the first page and then dropped. Is there any evidence the story was cut, or was the frame always vestigial?"
- ],
- "provenance": {
-  "layer_1_reading": "Full text read at the locator above, 2,630 words.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "19 capitalised citations across the Exegesis and Dick's collected non-fiction.",
-  "layer_4_criticism": "2, both in Sutin.",
-  "prior_artifact": "artifacts/generated/PKD_STORIES/story_001.json holds an earlier, thinner summary of this story. This dossier supersedes it; the older artifact should be retired in an editorial pass rather than silently deleted.",
-  "not_canonical": "Candidate artifact; promotion requires an editorial pass."
- }
 }

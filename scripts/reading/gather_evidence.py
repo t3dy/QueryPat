@@ -36,6 +36,7 @@ DB_PATH = PROJECT / "database" / "unified.sqlite"
 REGISTRY = Path(__file__).resolve().parent / "work_sources.json"
 CORPUS_DIR = PROJECT / "database" / "extracted_markdown"
 OUT_DIR = PROJECT / "artifacts" / "generated" / "reading" / "evidence"
+STORY_NOTES_PATH = PROJECT / "artifacts" / "generated" / "reading" / "pkd_story_notes.json"
 
 # Keep quotation to a locator-plus-glimpse. Scholarly citation scale, not text.
 KWIC_CHARS = 220
@@ -343,6 +344,52 @@ def story_entry(manifest: dict, title_key: str) -> dict | None:
     return None
 
 
+def slugify(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
+_STORY_NOTES_CACHE: dict[str, dict] | None = None
+
+
+def load_story_notes() -> dict[str, dict]:
+    """Dick's own dated story notes, keyed by slugified title.
+
+    See extract_story_notes.py: this is the highest-value PKD-on-this-work
+    source available (first-person, story-specific), extracted once from
+    the Collected Stories appendices rather than found incidentally.
+    """
+    global _STORY_NOTES_CACHE
+    if _STORY_NOTES_CACHE is None:
+        _STORY_NOTES_CACHE = {}
+        if STORY_NOTES_PATH.exists():
+            for r in json.loads(STORY_NOTES_PATH.read_text(encoding="utf-8")):
+                if r.get("note"):
+                    _STORY_NOTES_CACHE[slugify(r["title"])] = r
+    return _STORY_NOTES_CACHE
+
+
+def author_note_source(slug: str, title: str) -> dict | None:
+    """A synthetic pkd_on_this_work source for the author's own story note, if any."""
+    notes = load_story_notes()
+    record = notes.get(slug) or notes.get(slugify(title))
+    if not record:
+        return None
+    return {
+        "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+        "author": None,
+        "lane": "E",
+        "mention_count": 1,
+        "is_author_story_note": True,
+        "quotes": [{
+            "line": None,
+            "quote": record["note"],
+            "written_date": record.get("written_date"),
+            "alt_title": record.get("alt_title"),
+        }],
+        "quotes_truncated": 0,
+    }
+
+
 # ── main ────────────────────────────────────────────────────────────────
 
 def gather(slug: str, db: sqlite3.Connection, registry: dict, vocab: dict,
@@ -368,6 +415,10 @@ def gather(slug: str, db: sqlite3.Connection, registry: dict, vocab: dict,
     else:
         pkd = find_discussion(registry["pkd_own_voice"], pattern, lane="B")
         crit = find_discussion(registry["criticism"], pattern, lane="C")
+
+    author_note = author_note_source(slug, title)
+    if author_note is not None:
+        pkd = [author_note] + pkd
 
     concepts = [
         c for c in match_concepts(text, vocab, background, background_words)

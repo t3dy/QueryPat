@@ -93,9 +93,15 @@
   ],
   "pkd_on_this_work": {
     "lane": "E",
-    "total_mentions": 5,
+    "total_mentions": 6,
     "summary": "One of the most direct self-citations in the corpus: Dick returns to this story repeatedly in the Exegesis as a template for his layered theory of reality and fakery.",
     "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "This story utilized a peculiar logic which I generally employ, which Professor Patricia Warrick pointed out to me. First you have Y . Then you do a cybernetics flipflop and you have null- Y . Okay, now you reverse it again and have null-null- Y . Okay, the question is: Does null-null Y equal Y[3] ? Or is it a deepening of null- Y ? In this story, what appears to be the case is Y but we find out the opposite is true (null- Y ). But then that turns out not to be true, so are we back to Y ?…",
+        "reading": "Dick describing the story's Y / null-Y / null-null-Y logic in his own technical terms, crediting Patricia Warrick's framework — matches this dossier's own reading of nested, nullifying layers of fakery."
+      },
       {
         "source": "The Exegesis of Philip K. Dick",
         "line": 4101,

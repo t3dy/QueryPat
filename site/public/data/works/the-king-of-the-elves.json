@@ -112,9 +112,16 @@
   ],
   "pkd_on_this_work": {
     "lane": "E",
-    "total_mentions": 0,
-    "summary": "No direct statement by Dick about this specific story was found in the corpus currently indexed.",
-    "evidence": []
+    "total_mentions": 1,
+    "summary": "Dick left a story note on this piece (collected in The Collected Stories of Philip K. Dick), quoted first below; no other commentary on this specific story was found elsewhere in the indexed corpus.",
+    "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "This story, of course, is fantasy, not sf. Originally it had a downbeat ending on it, but Horace Gold, the editor who bought it, carefully explained to me that prophecy always came true; if it didn't ipso facto it wasn't prophecy. I guess, then, there can be no such thing as a false prophet; \"false prophet\" is an oxymoron. (1978)",
+        "reading": "Confirms Sutin's account of Horace Gold's editorial intervention, in Dick's own words and with the specific reasoning Gold gave: a prophecy that fails to come true was never a real prophecy."
+      }
+    ]
   },
   "criticism": {
     "lane": "C",

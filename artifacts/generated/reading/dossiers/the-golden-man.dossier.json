@@ -7,7 +7,6 @@
   "status": "LLM_CANDIDATE",
   "review_state": "unreviewed",
   "reading_status": "close_reading_complete",
-
   "work": {
     "title": "The Golden Man",
     "slug": "the-golden-man",
@@ -23,11 +22,9 @@
       "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
     }
   },
-
   "reading": {
     "reading_status": "close_reading_complete",
     "synopsis": "In a post-war America where radiation has produced mutants — 'deeves' — the Department of Civic Anthropology hunts and euthanises them at birth; eighty-seven types have been catalogued and dealt with in sixty years. A DCA agent posing as a salesman traces the eighty-eighth to the Johnson farm outside Walnut Creek, where a family has concealed their eldest son for eighteen years. Cris Johnson is golden — skin, hair, eyes — beautiful, silent, and without language. He has never communicated with his family in eighteen years. He evades capture instantly, then gives himself up voluntarily. In the laboratory the DCA cannot kill him: he dodges lash-tube fire, then a machine firing on a deliberately randomised pattern, weaving between the beams. Brain analysis returns the answer nobody wanted. He has virtually no frontal lobe. He does not think, does not use symbols, is not a superior man but an animal with one highly developed faculty — he sees the future as others see the present, a fixed landscape of tableaux through which he moves along an inflexible path. Baines and Wisdom work out the implication: intelligence is a dead end, and they are the last of their line. Cris escapes his cell and goes not to an exit but to Anita Ferris's room. She holds a weapon on him and cannot use it, because he only came because he had already seen she would not. He hands the weapon back to her. She takes him past the guards on her own authority — and at the exit he abandons her and is gone. The closing exchange establishes the second faculty: the gold is plumage. He will be sheltered by whichever woman he meets, and he already knows he is irresistible. Wisdom hopes his characteristics are recessive. Baines says he would not bet on it.",
-
     "structure": {
       "form": "novelette in four movements",
       "movements": [
@@ -39,22 +36,52 @@
       "point_of_view": "third person, moving between the DCA men and — for one remarkable stretch — inside Cris's perception, which is rendered as a doll's house of rooms, tableaux and duplicated selves along a fixed path.",
       "notable_technique": "The opening ten minutes are pure exposition disguised as diner conversation: eight strangers swapping mutant sightings, which establishes the world's rules, its casual cruelty, and the euphemism 'euthed' before the plot begins."
     },
-
     "characters": [
-      { "name": "Cris Johnson", "role": "the golden man", "note": "Eighteen, mute, without language or tools, and not a person in any sense the story's characters can use. The narration enters his perception once and finds no reasoning in it — only a fixed landscape already seen." },
-      { "name": "Baines", "role": "DCA agent", "note": "Poses as the salesman and later as a real-estate developer. Supplies the story's argument: superior survival is not superior man, and if there were another flood only fish would survive." },
-      { "name": "Ed Wisdom", "role": "Director, DCA North American Branch", "note": "Wants the thing killed within forty-eight hours whether they understand it or not. His hope at the end that the traits are recessive is the story's last piece of self-deception." },
-      { "name": "Anita Ferris", "role": "Director of the Semantics Agency, Class A", "note": "The story's most difficult figure. She objects to the killing on aesthetic grounds, is overcome, and is then written off by Baines as the first of a procession. The narration gives her humiliation and does not examine it." },
-      { "name": "Nat Johnson", "role": "the father", "note": "Has hidden his son for eighteen years and draws on the agent when the ruse fails." },
-      { "name": "Jean and Dave Johnson", "role": "sister and brother", "note": "Jean's line that he is a god come down to earth is the phrase the DCA people keep returning to." }
+      {
+        "name": "Cris Johnson",
+        "role": "the golden man",
+        "note": "Eighteen, mute, without language or tools, and not a person in any sense the story's characters can use. The narration enters his perception once and finds no reasoning in it — only a fixed landscape already seen."
+      },
+      {
+        "name": "Baines",
+        "role": "DCA agent",
+        "note": "Poses as the salesman and later as a real-estate developer. Supplies the story's argument: superior survival is not superior man, and if there were another flood only fish would survive."
+      },
+      {
+        "name": "Ed Wisdom",
+        "role": "Director, DCA North American Branch",
+        "note": "Wants the thing killed within forty-eight hours whether they understand it or not. His hope at the end that the traits are recessive is the story's last piece of self-deception."
+      },
+      {
+        "name": "Anita Ferris",
+        "role": "Director of the Semantics Agency, Class A",
+        "note": "The story's most difficult figure. She objects to the killing on aesthetic grounds, is overcome, and is then written off by Baines as the first of a procession. The narration gives her humiliation and does not examine it."
+      },
+      {
+        "name": "Nat Johnson",
+        "role": "the father",
+        "note": "Has hidden his son for eighteen years and draws on the agent when the ruse fails."
+      },
+      {
+        "name": "Jean and Dave Johnson",
+        "role": "sister and brother",
+        "note": "Jean's line that he is a god come down to earth is the phrase the DCA people keep returning to."
+      }
     ],
-
     "settings": [
-      { "name": "A lunch counter in Walnut Creek", "note": "Where the world is established entirely through casual talk about killed children." },
-      { "name": "The Johnson farm", "note": "Eighteen years of concealment, and a family who describe their son as having no contact with them of any kind." },
-      { "name": "The DCA Building", "note": "A sealed structure with a euth stage, a randomised firing machine and a bar in the lobby." }
+      {
+        "name": "A lunch counter in Walnut Creek",
+        "note": "Where the world is established entirely through casual talk about killed children."
+      },
+      {
+        "name": "The Johnson farm",
+        "note": "Eighteen years of concealment, and a family who describe their son as having no contact with them of any kind."
+      },
+      {
+        "name": "The DCA Building",
+        "note": "A sealed structure with a euth stage, a randomised firing machine and a bar in the lobby."
+      }
     ],
-
     "motifs": [
       "Euphemism as policy: 'euthed', 'deeve', the birth inspection, the stamped wrist",
       "Gold as plumage rather than divinity — the story's final reframing of its own central image",
@@ -62,35 +89,69 @@
       "The fixed path: Cris's perception is a doll's house of rooms in which one self among many is the one he will be",
       "Intelligence as an evolutionary dead end, stated outright by the characters"
     ],
-
     "significance": "The story's design is a bait and switch about what supersession would look like. Everyone in it — including the reader — expects homo superior to be a bigger brain: telepathy, perfect symbolisation, a better human. What arrives instead has no language and no interior life, and wins because a single physical sense makes deliberation unnecessary. Baines's formulation is the point: we will know homo superior by definition, because he will be the one we cannot kill. What the story does not do is make Cris sympathetic or even present; he is a hole in the middle of his own story, which is a deliberate and effective choice.",
-
     "critical_caution": "The final movement rests on Anita being overcome and then dismissed, and the narration treats her both as a Director-Class official and as the first item in a procession. The story's own last joke is at her expense. Any use of this dossier for public writing should register that the ending's mechanism is sexual coercion presented as adaptive advantage, and that the text does not stand back from it.",
-
     "closing_note": "Wisdom hopes the traits are recessive. Baines says he is making a good guess, and it will not be them."
   },
-
   "concepts": {
     "distinctive_terms": [
-      { "label": "Golden", "entity_id": "TERM_golden", "count": 24, "distinctiveness": 30.85 },
-      { "label": "Maze", "entity_id": "TERM_maze", "count": 2, "distinctiveness": 7.09 },
-      { "label": "Fish", "entity_id": "TERM_fish", "count": 2, "distinctiveness": 4.21 },
-      { "label": "Roman", "entity_id": "TERM_roman", "count": 1, "distinctiveness": 3.41, "note": "From the description of Cris as a gilded Roman monument." }
+      {
+        "label": "Golden",
+        "entity_id": "TERM_golden",
+        "count": 24,
+        "distinctiveness": 30.85
+      },
+      {
+        "label": "Maze",
+        "entity_id": "TERM_maze",
+        "count": 2,
+        "distinctiveness": 7.09
+      },
+      {
+        "label": "Fish",
+        "entity_id": "TERM_fish",
+        "count": 2,
+        "distinctiveness": 4.21
+      },
+      {
+        "label": "Roman",
+        "entity_id": "TERM_roman",
+        "count": 1,
+        "distinctiveness": 3.41,
+        "note": "From the description of Cris as a gilded Roman monument."
+      }
     ],
     "false_positive_noted": "TERM_wisdom scores highest of all (x65.93) but matches the surname of the DCA director, not the concept. Recorded here so the concordance is not read as a thematic link.",
     "thematic_links_proposed": [
-      { "theme": "authentic-human", "basis": "the story's whole argument is about what would succeed the human, and it answers: not a better mind, no mind" },
-      { "theme": "empire-control", "basis": "a state agency with sixty years of practice at cataloguing and killing categories of children" },
-      { "theme": "time", "basis": "Cris's perception is of a fixed future landscape rather than an open one; the story works out what that does to the idea of choice" },
-      { "theme": "androids", "basis": "a being outwardly beautiful and inwardly absent, which the surrounding characters cannot decide is god, animal or thing" }
+      {
+        "theme": "authentic-human",
+        "basis": "the story's whole argument is about what would succeed the human, and it answers: not a better mind, no mind"
+      },
+      {
+        "theme": "empire-control",
+        "basis": "a state agency with sixty years of practice at cataloguing and killing categories of children"
+      },
+      {
+        "theme": "time",
+        "basis": "Cris's perception is of a fixed future landscape rather than an open one; the story works out what that does to the idea of choice"
+      },
+      {
+        "theme": "androids",
+        "basis": "a being outwardly beautiful and inwardly absent, which the surrounding characters cannot decide is god, animal or thing"
+      }
     ]
   },
-
   "pkd_on_this_work": {
     "lane": "E",
-    "total_mentions": 6,
+    "total_mentions": 7,
     "summary": "The file contains the sharpest negative judgement Dick made of any story in this corpus — and it sits alongside his having let a collection be named after it.",
     "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "In the early Fifties much American science fiction dealt with human mutants and their glorious super-powers and super-faculties by which they would presently lead mankind to a higher state of existence, a sort of Promised Land. John W. Campbell, Jr., editor of Analog, demanded that the stories he bought deal with such wonderful mutants, and he also insisted that the mutants always be shown as (1) good; and (2) firmly in charge. When I wrote The Golden Man I intended to show that (I) the…",
+        "reading": "Dick's account of writing directly against John W. Campbell's editorial demand that fictional mutants be shown as benevolent and in charge — a rare explicit statement of authorial argument with an editor's ideology."
+      },
       {
         "source": "Selected Letters",
         "line": 6334,
@@ -111,7 +172,6 @@
       }
     ]
   },
-
   "criticism": {
     "lane": "C",
     "total_mentions": 14,
@@ -147,24 +207,29 @@
       }
     ]
   },
-
   "contradictions": [
     {
       "type": "self_vs_self",
       "summary": "Dick asks an editor to drop the story because he detests it, and then permits a collection to be titled after it and writes its introduction.",
-      "claim_a": { "lane": "E", "source": "Selected Letters l.6334", "text": "maybe drop out \"The Golden Man,\" which I detest?" },
-      "claim_b": { "lane": "E", "source": "The Golden Man (1980), introduction", "text": "a long autobiographical introduction to the collection named for it" },
+      "claim_a": {
+        "lane": "E",
+        "source": "Selected Letters l.6334",
+        "text": "maybe drop out \"The Golden Man,\" which I detest?"
+      },
+      "claim_b": {
+        "lane": "E",
+        "source": "The Golden Man (1980), introduction",
+        "text": "a long autobiographical introduction to the collection named for it"
+      },
       "editorial_status": "unresolved_by_design",
       "note": "Not necessarily a change of view — a title is a publisher's decision and an introduction is paid work. But the file should not present either statement without the other."
     }
   ],
-
   "open_questions": [
     "The 1980 introduction is not in the archive as a separate text. Sutin treats it as a major late autobiographical statement, and it is the obvious place to find whether Dick's stated detestation persisted. Worth acquiring.",
     "Dick detested this story and rated 'Second Variety' among his best in the same letter. Does he anywhere give reasons for either judgement?",
     "The story's brain-analysis conceit — supersession by something with no frontal lobe — is unusual in Dick. Does it recur anywhere, or is it isolated to 1954?"
   ],
-
   "provenance": {
     "layer_1_reading": "Full text read at the locator above, 11,095 words.",
     "layer_2_concepts": "scripts/reading/gather_evidence.py",

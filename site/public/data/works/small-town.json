@@ -103,9 +103,16 @@
   ],
   "pkd_on_this_work": {
     "lane": "E",
-    "total_mentions": 0,
-    "summary": "No statement by Dick about this specific story was found in the corpus currently indexed.",
-    "evidence": []
+    "total_mentions": 1,
+    "summary": "Dick left a story note on this piece (collected in The Collected Stories of Philip K. Dick), quoted first below; no other commentary on this specific story was found elsewhere in the indexed corpus.",
+    "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "Here the frustrations of a defeated small person—small in terms of power, in particular power over others—gradually become transformed into something sinister: the force of death. In rereading this story (which is of course a fantasy, not science fiction) I am impressed by the subtle change which takes place in the protagonist from Trod-Upon to Treader. Verne Haskel initially appears as the prototype of the impotent human being, but this conceals a drive at his core self which is anything…",
+        "reading": "Dick's own account of the story's psychological arc, from 'Trod-Upon' to 'Treader' — confirming the reading that Haskel's escape is not incidental wish-fulfillment but a considered transformation."
+      }
+    ]
   },
   "criticism": {
     "lane": "C",

@@ -7,7 +7,6 @@
   "status": "LLM_CANDIDATE",
   "review_state": "unreviewed",
   "reading_status": "close_reading_complete",
-
   "work": {
     "title": "The Pre-Persons",
     "slug": "the-pre-persons",
@@ -25,11 +24,9 @@
     },
     "editorial_flag": "The most directly polemical story in this corpus and the one that generated the most hostile contemporary reception. Handle with the reception file attached; see contradictions and criticism below."
   },
-
   "reading": {
     "reading_status": "close_reading_complete",
     "synopsis": "In a near-future California, Congress has extended abortion law past birth: a child has no soul, and so no legal protection, until it can do algebra — a test the law sets at twelve. Unwanted children up to that age can be surrendered by their parents to a County Facility, collected by a white truck that plays a nursery rhyme through a loudspeaker, held thirty days for adoption, and then killed. Walter Best, who is twelve and therefore safe, hides in the brambles when the truck passes anyway; his mother explains that his fear is irrational and legally groundless, and he concludes that she is the one without a soul. The truck's driver, Ferris, picks up a boy named Tim Gantro who has no Desirability card. Tim's father Ed Gantro — a Stanford graduate in mathematics with a further degree in psychology — demands to be taken too, on the grounds that he cannot do algebra and therefore has no soul either. His argument is that the line is arbitrary and that either all of them should be killed or none. At the Facility the manager recognises the trap, discovers Gantro's qualifications, and orders him expelled before the press arrives; they arrive anyway. Ian Best, Walter's father, drives down to collect them, drunk and delighted. The story ends with the two men agreeing that they will never actually escape to Vancouver Island, and driving home in silence.",
-
     "structure": {
       "form": "novelette in five movements, alternating between the children, the truck, and the two households",
       "movements": [
@@ -42,23 +39,57 @@
       "point_of_view": "third person, moving between Walter, Ferris, Ian Best and Ed Gantro. The shifts are used to give the polemic more than one mouth.",
       "rhetorical_method": "The story argues by extension: it accepts the logic that personhood begins at a legally set threshold and pushes the threshold forward until the result is monstrous. Gantro states the argument outright in the truck — that the line was always arbitrary and that the Greeks of Plato's time would have failed the algebra test."
     },
-
     "characters": [
-      { "name": "Walter Best", "role": "twelve; legally safe and still frightened", "note": "The story's best-realised figure. His reasoning — that if he has a soul now he had one two years ago, or nobody has one — is the argument stated by a child before any adult makes it." },
-      { "name": "Ed Gantro", "role": "Tim's father; Stanford MA", "note": "Claims to have lost his soul to an embolism and to have forgotten algebra. His demand to be caged is the story's central action and its most effective device: a protest that works precisely because it cannot be refused without conceding the point." },
-      { "name": "Tim Gantro", "role": "Ed's son", "note": "Picked up for lacking a ninety-dollar Desirability card his father could not afford." },
-      { "name": "Oscar Ferris", "role": "driver of truck three", "note": "Given interior monologue, and it is coarse and incurious. He defends the work in the language of population policy and says it lets him move around and meet people." },
-      { "name": "Ian Best", "role": "Walter's father", "note": "Drunk, defeated, and the source of the story's harshest rhetoric. His long speech about 'castrating females' is the passage the reception file turns on." },
-      { "name": "Cynthia Best", "role": "Walter's mother", "note": "Wants an abortion because it is fashionable and one can discuss it with visitors. The story's least mediated caricature." },
-      { "name": "Sam B. Carpenter", "role": "manager of the County Facility", "note": "Recognises Gantro as a protester and thinks entirely in terms of headlines and appropriations." }
+      {
+        "name": "Walter Best",
+        "role": "twelve; legally safe and still frightened",
+        "note": "The story's best-realised figure. His reasoning — that if he has a soul now he had one two years ago, or nobody has one — is the argument stated by a child before any adult makes it."
+      },
+      {
+        "name": "Ed Gantro",
+        "role": "Tim's father; Stanford MA",
+        "note": "Claims to have lost his soul to an embolism and to have forgotten algebra. His demand to be caged is the story's central action and its most effective device: a protest that works precisely because it cannot be refused without conceding the point."
+      },
+      {
+        "name": "Tim Gantro",
+        "role": "Ed's son",
+        "note": "Picked up for lacking a ninety-dollar Desirability card his father could not afford."
+      },
+      {
+        "name": "Oscar Ferris",
+        "role": "driver of truck three",
+        "note": "Given interior monologue, and it is coarse and incurious. He defends the work in the language of population policy and says it lets him move around and meet people."
+      },
+      {
+        "name": "Ian Best",
+        "role": "Walter's father",
+        "note": "Drunk, defeated, and the source of the story's harshest rhetoric. His long speech about 'castrating females' is the passage the reception file turns on."
+      },
+      {
+        "name": "Cynthia Best",
+        "role": "Walter's mother",
+        "note": "Wants an abortion because it is fashionable and one can discuss it with visitors. The story's least mediated caricature."
+      },
+      {
+        "name": "Sam B. Carpenter",
+        "role": "manager of the County Facility",
+        "note": "Recognises Gantro as a protester and thinks entirely in terms of headlines and appropriations."
+      }
     ],
-
     "settings": [
-      { "name": "The California coast near Big Sur", "note": "Highway One, canyons, strays scratching about in the fields." },
-      { "name": "The abortion truck", "note": "Wire cages, a gas button for obstreperous passengers, a shotgun mounted across the cab, and a tape loop playing a nursery rhyme." },
-      { "name": "The County Facility", "note": "A green-painted building where children wait thirty days behind a fence, showing well to visitors." }
+      {
+        "name": "The California coast near Big Sur",
+        "note": "Highway One, canyons, strays scratching about in the fields."
+      },
+      {
+        "name": "The abortion truck",
+        "note": "Wire cages, a gas button for obstreperous passengers, a shotgun mounted across the cab, and a tape loop playing a nursery rhyme."
+      },
+      {
+        "name": "The County Facility",
+        "note": "A green-painted building where children wait thirty days behind a fence, showing well to visitors."
+      }
     ],
-
     "motifs": [
       "The nursery rhyme played from the truck, switched off during a collection and back on afterwards",
       "Algebra as the legal test of a soul, and Gantro's forgetting of it as his defence",
@@ -66,33 +97,71 @@
       "Vancouver Island as the escape that both men know will not happen",
       "The pound truck for dogs and cats, treated by the children as the same institution and by the adults as an obvious comparison"
     ],
-
     "significance": "As argument, the story is a reductio: it takes a threshold theory of personhood and moves the threshold until the reader's assent breaks. Its most effective stroke is procedural rather than rhetorical — Gantro cannot be released without conceding that the criterion is arbitrary, and cannot be held without the state killing an adult, so the institution simply expels him and denies everything. As fiction, its quality is uneven in a way worth recording: Walter's chapters are observed and particular, while the Best household scenes are broad caricature, and the story's anger is distributed unevenly between the policy and the women who are made to voice it.",
-
     "critical_caution": "This is a polemic on a live political question and it was received as one. The dossier records the story's argument and its reception; it does not adjudicate the underlying question. Note specifically that the story routes its anger through female characters — Cynthia's enthusiasm, the mother's coldness, Ian Best's speech about 'castrating females' — and that this is what contemporary readers objected to, Dick later regretted, and Sutin criticised. Any public writing drawn from this file needs the reception attached."
   },
-
   "concepts": {
     "distinctive_terms": [
-      { "label": "Plato", "entity_id": "TERM_plato", "count": 2, "distinctiveness": 14.06, "note": "From Gantro's argument that the Greeks of Plato's time knew only geometry and would have failed the algebra test." },
-      { "label": "Church", "entity_id": "TERM_church", "count": 4, "distinctiveness": 10.82, "note": "The Church of Watchers, which lobbied Congress and wanted the threshold set at three." },
-      { "label": "Father", "entity_id": "TERM_father", "count": 8, "distinctiveness": 6.41 },
-      { "label": "Greek", "entity_id": "TERM_greek", "count": 1, "distinctiveness": 3.14 }
+      {
+        "label": "Plato",
+        "entity_id": "TERM_plato",
+        "count": 2,
+        "distinctiveness": 14.06,
+        "note": "From Gantro's argument that the Greeks of Plato's time knew only geometry and would have failed the algebra test."
+      },
+      {
+        "label": "Church",
+        "entity_id": "TERM_church",
+        "count": 4,
+        "distinctiveness": 10.82,
+        "note": "The Church of Watchers, which lobbied Congress and wanted the threshold set at three."
+      },
+      {
+        "label": "Father",
+        "entity_id": "TERM_father",
+        "count": 8,
+        "distinctiveness": 6.41
+      },
+      {
+        "label": "Greek",
+        "entity_id": "TERM_greek",
+        "count": 1,
+        "distinctiveness": 3.14
+      }
     ],
-    "names_matched": ["NAME_thomas-aquinas"],
+    "names_matched": [
+      "NAME_thomas-aquinas"
+    ],
     "thematic_links_proposed": [
-      { "theme": "authentic-human", "basis": "the story is entirely about where the line of personhood is drawn and who gets to draw it" },
-      { "theme": "empire-control", "basis": "a state apparatus with trucks, forms, cards and euphemisms for killing children" },
-      { "theme": "suburbia-domesticity", "basis": "the horror is administered through ordinary households, school runs and dinner plans" },
-      { "theme": "betrayal", "basis": "the parents make the call; the truck only collects" }
+      {
+        "theme": "authentic-human",
+        "basis": "the story is entirely about where the line of personhood is drawn and who gets to draw it"
+      },
+      {
+        "theme": "empire-control",
+        "basis": "a state apparatus with trucks, forms, cards and euphemisms for killing children"
+      },
+      {
+        "theme": "suburbia-domesticity",
+        "basis": "the horror is administered through ordinary households, school runs and dinner plans"
+      },
+      {
+        "theme": "betrayal",
+        "basis": "the parents make the call; the truck only collects"
+      }
     ]
   },
-
   "pkd_on_this_work": {
     "lane": "E",
-    "total_mentions": 5,
+    "total_mentions": 6,
     "summary": "Dick defended the story vigorously at the time, recorded the hostility it drew, and softened his account of his own motive by 1980.",
     "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "In this I incurred the absolute hate of Joanna Russ who wrote me the nastiest letter I've ever received; at one point she said she usually offered to beat up people (she didn't use the word \"people\") who expressed opinions such as this. I admit that this story amounts to special pleading, and I am sorry to offend those who disagree with me about abortion on demand. I also got some unsigned hate mail, some of it not from individuals but from organizations promoting abortion on demand. Well, I…",
+        "reading": "Documents the story's real-world reception: hate mail, including a threatening letter from Joanna Russ, which the dossier's own critical_caution field should be read alongside."
+      },
       {
         "source": "Selected Letters — to Vonda McIntyre, 8 July 1975",
         "line": 3854,
@@ -119,7 +188,6 @@
       }
     ]
   },
-
   "criticism": {
     "lane": "C",
     "total_mentions": 9,
@@ -148,32 +216,45 @@
       }
     ]
   },
-
   "contradictions": [
     {
       "type": "self_vs_self",
       "summary": "Dick defends the story's vehemence in 1975 and disowns it in 1980.",
-      "claim_a": { "lane": "E", "source": "Letter to Vonda McIntyre, 8 July 1975", "text": "written out of a love for small & helpless…, answering a charge of viciousness" },
-      "claim_b": { "lane": "E", "source": "1980 Afterword, quoted in Sutin", "text": "it is love for the children that I feel, not anger toward those…" },
+      "claim_a": {
+        "lane": "E",
+        "source": "Letter to Vonda McIntyre, 8 July 1975",
+        "text": "written out of a love for small & helpless…, answering a charge of viciousness"
+      },
+      "claim_b": {
+        "lane": "E",
+        "source": "1980 Afterword, quoted in Sutin",
+        "text": "it is love for the children that I feel, not anger toward those…"
+      },
       "editorial_status": "unresolved_by_design",
       "note": "Sutin frames the 1980 statement as regret for the vehemence. Both are Dick's; the five-year gap and the change of audience are part of the evidence."
     },
     {
       "type": "self_vs_critic",
       "summary": "Dick says the story was written out of love; contemporary readers and later critics say its anger is directed at women.",
-      "claim_a": { "lane": "E", "source": "Dick, 1975 and 1980", "text": "love for small and helpless things; love for the children, not anger" },
-      "claim_b": { "lane": "C", "source": "Sutin; Vonda McIntyre's fanzine piece", "text": "'vicious'; the high-water mark of the problem; as if female fetuses did not exist" },
+      "claim_a": {
+        "lane": "E",
+        "source": "Dick, 1975 and 1980",
+        "text": "love for small and helpless things; love for the children, not anger"
+      },
+      "claim_b": {
+        "lane": "C",
+        "source": "Sutin; Vonda McIntyre's fanzine piece",
+        "text": "'vicious'; the high-water mark of the problem; as if female fetuses did not exist"
+      },
       "editorial_status": "unresolved_by_design",
       "note": "Kept in full. The dossier's own reading notes that the story routes its anger through its female characters, which is an observation about the text rather than an adjudication of the politics."
     }
   ],
-
   "open_questions": [
     "Vonda McIntyre's fanzine piece calling the story 'vicious' is not in the archive. It is the primary contemporary criticism and Dick answers it directly; worth locating.",
     "Dick's 1980 Afterword survives here only as a fragment quoted by Sutin. The full text would settle how far the retraction goes.",
     "Dick describes the commission as a 6,000-word story against a finished text near 10,000. Is there a shorter draft in the record?"
   ],
-
   "provenance": {
     "layer_1_reading": "Full text read at the corrected locator, 10,093 words. The pre-repair index gave 2,358.",
     "layer_2_concepts": "scripts/reading/gather_evidence.py",

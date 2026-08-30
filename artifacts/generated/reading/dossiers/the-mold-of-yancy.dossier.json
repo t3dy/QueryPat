@@ -7,7 +7,6 @@
   "status": "LLM_CANDIDATE",
   "review_state": "unreviewed",
   "reading_status": "close_reading_complete",
-
   "work": {
     "title": "The Mold of Yancy",
     "slug": "the-mold-of-yancy",
@@ -23,11 +22,9 @@
       "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
     }
   },
-
   "reading": {
     "reading_status": "close_reading_complete",
     "synopsis": "On Callisto, a team of anonymous 'yance-men' produce daily video 'gestalts' of John Edward Yancy, a folksy, avuncular composite personality — homespun wisdom, a devoted grandson, opinions on everything from primroses to just war — broadcast to the entire moon and treated by its population as the most beloved man alive. Niplan Police officer Peter Taverner infiltrates Callisto to investigate why its society has drifted toward totalitarian uniformity despite having no visible political prisons, secret police, or censorship. He finds a wide-open, ostensibly free society whose citizens genuinely agree on everything because Yancy has told them what to think about everything, on subjects large and small — with the crucial discovery that on trivial matters Yancy holds sharp, specific opinions, but on major political and philosophical questions his pronouncements cancel themselves out sentence by sentence, leaving audiences with the pleasant illusion of having received wisdom while actually absorbing nothing but permission to have no real opinion at all. Yance-man Leon Sipling, suffering a breakdown after watching his own nine-year-old son parrot Yancy's contentless answer about whether a hypothetical war would be 'just,' defects to Taverner and reveals that the syndicates running Callisto built Yancy over eleven years specifically to manufacture a docile population that would support a coming war against rival Ganymede. Sipling's remedy is not to destroy Yancy but to corrupt him from within: subtly altering the gestalt so Yancy develops genuinely difficult tastes — Kriegspiel instead of croquet, Bach's Art of the Fugue instead of folk songs, eventually Hieronymus Bosch instead of pastoral calendar art — introducing, one small deliberate contradiction at a time, the idea that people might legitimately differ, think for themselves, and hold views that take real effort to arrive at.",
-
     "structure": {
       "form": "short story in three movements: the gestalt-machine observed from inside, the infiltration and diagnosis, the sabotage",
       "movements": [
@@ -38,19 +35,38 @@
       "point_of_view": "alternates between Sipling (inside the propaganda machine) and Taverner (investigating it from outside), letting the reader see both how totalizing conformity is manufactured and how it is diagnosed by an outsider who initially cannot find any crime being committed.",
       "central_device": "Political control achieved entirely through engineered banality rather than coercion — the sabotage that finally works is not exposure or destruction but making the propaganda figure himself more intellectually demanding."
     },
-
     "characters": [
-      { "name": "Leon Sipling", "role": "yance-man, defector", "note": "An advertising writer who spent eleven years perfecting a technique for manufacturing contentless consensus, and breaks only when he hears his own son reproduce it without understanding." },
-      { "name": "Peter Taverner", "role": "Niplan Police investigator", "note": "Arrives expecting to find a conventional police state — camps, terror, censorship — and has to relearn what totalitarianism can look like when it needs none of that apparatus." },
-      { "name": "John Edward Yancy", "role": "the manufactured personality", "note": "Does not exist as a person at all — a synthesized composite whose every opinion is calibrated for maximum agreeable emptiness on any subject that matters." },
-      { "name": "Babson", "role": "office controller, Yancy project manager", "note": "Openly contemptuous of Yancy as 'a big sack of hot air' even while overseeing his production — cynicism about the product coexisting completely with commitment to selling it." }
+      {
+        "name": "Leon Sipling",
+        "role": "yance-man, defector",
+        "note": "An advertising writer who spent eleven years perfecting a technique for manufacturing contentless consensus, and breaks only when he hears his own son reproduce it without understanding."
+      },
+      {
+        "name": "Peter Taverner",
+        "role": "Niplan Police investigator",
+        "note": "Arrives expecting to find a conventional police state — camps, terror, censorship — and has to relearn what totalitarianism can look like when it needs none of that apparatus."
+      },
+      {
+        "name": "John Edward Yancy",
+        "role": "the manufactured personality",
+        "note": "Does not exist as a person at all — a synthesized composite whose every opinion is calibrated for maximum agreeable emptiness on any subject that matters."
+      },
+      {
+        "name": "Babson",
+        "role": "office controller, Yancy project manager",
+        "note": "Openly contemptuous of Yancy as 'a big sack of hot air' even while overseeing his production — cynicism about the product coexisting completely with commitment to selling it."
+      }
     ],
-
     "settings": [
-      { "name": "Callisto", "note": "A moon insisting, via Yancy, on being thought of as a planet — the story's smallest and most telling instance of manufactured consensus." },
-      { "name": "The Yancy Building", "note": "A functioning propaganda factory staffed by openly cynical writers, its billions of feet of tape covering every conceivable topic in exhaustive, self-cancelling detail." }
+      {
+        "name": "Callisto",
+        "note": "A moon insisting, via Yancy, on being thought of as a planet — the story's smallest and most telling instance of manufactured consensus."
+      },
+      {
+        "name": "The Yancy Building",
+        "note": "A functioning propaganda factory staffed by openly cynical writers, its billions of feet of tape covering every conceivable topic in exhaustive, self-cancelling detail."
+      }
     ],
-
     "motifs": [
       "A totalitarian society requiring no camps, censorship, or visible coercion because persuasion alone is sufficient",
       "Opinions that are specific and confident on trivial matters and vacuous, self-cancelling on important ones",
@@ -58,33 +74,74 @@
       "A child's education used as the clearest demonstration of the mechanism's success — reciting engineered contentlessness as if it were his own reasoning",
       "Subversion accomplished not by destroying propaganda but by making it, deliberately, harder to consume"
     ],
-
     "significance": "Dick names this story directly as the source for The Penultimate Truth, and the diagnosis at its center — a totalitarian state achieved through manufactured, self-cancelling consensus rather than terror — is one of his most fully worked-out political ideas, anticipating later analyses of media-manufactured consent by decades. The story's most interesting move is its ending: Taverner and Sipling do not expose Yancy as a fraud to the public (the story notes wearily that exposure alone accomplishes nothing, since people already know at some level that Yancy is a construction and don't care). Instead they infect the propaganda apparatus itself with genuine difficulty and disagreement, on the theory that manufactured ease of thought, not manufactured content, is the actual mechanism of control.",
-
     "closing_note": "The story ends before its sabotage can be judged a success — Yancy's future preference for Bosch over pastoral calendar art is presented as a coming event, not yet realized, leaving the outcome open."
   },
-
   "concepts": {
     "distinctive_terms": [
-      { "label": "Gestalt", "entity_id": "TERM_gestalt", "count": 8, "distinctiveness": 56.63, "note": "The story's own technical term for a produced unit of the Yancy broadcast — precise and specific to this text." },
-      { "label": "Adam", "entity_id": "TERM_adam", "count": 2, "distinctiveness": 13.16 },
-      { "label": "Garden", "entity_id": "TERM_garden", "count": 3, "distinctiveness": 8.85, "note": "Yancy's garden and primroses as the setting for the story's key illustrative sales pitch about differing tastes." },
-      { "label": "Cosmic", "entity_id": "TERM_cosmic", "count": 1, "distinctiveness": 7.26 },
-      { "label": "Prison", "entity_id": "TERM_prison", "count": 1, "distinctiveness": 4.51, "note": "Explicitly named and then shown to be unnecessary — the story's central irony." }
+      {
+        "label": "Gestalt",
+        "entity_id": "TERM_gestalt",
+        "count": 8,
+        "distinctiveness": 56.63,
+        "note": "The story's own technical term for a produced unit of the Yancy broadcast — precise and specific to this text."
+      },
+      {
+        "label": "Adam",
+        "entity_id": "TERM_adam",
+        "count": 2,
+        "distinctiveness": 13.16
+      },
+      {
+        "label": "Garden",
+        "entity_id": "TERM_garden",
+        "count": 3,
+        "distinctiveness": 8.85,
+        "note": "Yancy's garden and primroses as the setting for the story's key illustrative sales pitch about differing tastes."
+      },
+      {
+        "label": "Cosmic",
+        "entity_id": "TERM_cosmic",
+        "count": 1,
+        "distinctiveness": 7.26
+      },
+      {
+        "label": "Prison",
+        "entity_id": "TERM_prison",
+        "count": 1,
+        "distinctiveness": 4.51,
+        "note": "Explicitly named and then shown to be unnecessary — the story's central irony."
+      }
     ],
-    "names_matched": ["NAME_beethoven"],
+    "names_matched": [
+      "NAME_beethoven"
+    ],
     "thematic_links_proposed": [
-      { "theme": "empire-control", "basis": "a totalitarian society achieved entirely through manufactured consensus rather than coercion, camps, or censorship" },
-      { "theme": "illusionary-realities", "basis": "an entire population's beloved public figure is a synthesized composite with no underlying real person" },
-      { "theme": "authentic-human", "basis": "the sabotage strategy is specifically to reintroduce genuine, effortful, individual thought by making the propaganda model himself intellectually demanding" }
+      {
+        "theme": "empire-control",
+        "basis": "a totalitarian society achieved entirely through manufactured consensus rather than coercion, camps, or censorship"
+      },
+      {
+        "theme": "illusionary-realities",
+        "basis": "an entire population's beloved public figure is a synthesized composite with no underlying real person"
+      },
+      {
+        "theme": "authentic-human",
+        "basis": "the sabotage strategy is specifically to reintroduce genuine, effortful, individual thought by making the propaganda model himself intellectually demanding"
+      }
     ]
   },
-
   "pkd_on_this_work": {
     "lane": "E",
-    "total_mentions": 2,
+    "total_mentions": 3,
     "summary": "Dick directly names this story as the source for The Penultimate Truth, in his own account of the novel's origins.",
     "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "Obviously, Yancy is based on President Eisenhower. During his reign we all were worrying about the man-in-the-gray-flannel-suit problem; we feared that the entire country was turning into one person and a whole lot of clones. (Although in those days the word \"clone\" was unknown to us.) I liked this story enough to use it as the basis for my novel THE PENULTIMATE TRUTH; in particular the part where everything the government tells you is a lie. I still like that part; I mean, I still believe…",
+        "reading": "Dick confirms directly that Yancy was modeled on President Eisenhower and the 1950s anxiety about conformist, mass-produced personality — and reaffirms, as late as 1976, his belief in the story's premise that official truth is systematically false."
+      },
       {
         "source": "Selected Letters",
         "line": 5350,
@@ -99,7 +156,6 @@
       }
     ]
   },
-
   "criticism": {
     "lane": "C",
     "total_mentions": 2,
@@ -120,24 +176,29 @@
       }
     ]
   },
-
   "contradictions": [
     {
       "type": "bibliographic",
       "summary": "Dick's own letter names three source stories for The Penultimate Truth; Sutin's bibliography names four, adding 'The Unreconstructed M'.",
-      "claim_a": { "lane": "E", "source": "Selected Letters l.6066", "text": "War Veteran... The Mold of Yancy... The Defenders... for THE PENULTIMATE TRUTH" },
-      "claim_b": { "lane": "C", "source": "Sutin, Divine Invasions l.5595", "text": "draws upon four of Phil's stories: The Defenders, The Mold of Yancy, War Veteran, and The Unreconstructed M" },
+      "claim_a": {
+        "lane": "E",
+        "source": "Selected Letters l.6066",
+        "text": "War Veteran... The Mold of Yancy... The Defenders... for THE PENULTIMATE TRUTH"
+      },
+      "claim_b": {
+        "lane": "C",
+        "source": "Sutin, Divine Invasions l.5595",
+        "text": "draws upon four of Phil's stories: The Defenders, The Mold of Yancy, War Veteran, and The Unreconstructed M"
+      },
       "editorial_status": "unresolved_by_design",
       "note": "Also flagged in the-defenders dossier. Held open rather than resolved; Dick's own letter may simply have omitted a minor source, or Sutin's research may have identified a fourth influence Dick did not think to mention."
     }
   ],
-
   "open_questions": [
     "'The Unreconstructed M' and 'War Veteran' have not yet been read in this project — reading them would let this Penultimate Truth story cluster (now Defenders, Mold of Yancy, and two unread) be assessed as a complete set.",
     "Palmer is not cited in this evidence file for this story despite covering related Dick propaganda/media themes elsewhere — worth a targeted check of his index for 'Mold of Yancy' or 'Penultimate Truth' directly.",
     "The story's closing sabotage strategy is left unresolved on the page. Does The Penultimate Truth itself show whether an equivalent strategy succeeds, or does the novel take the premise in a different direction entirely?"
   ],
-
   "provenance": {
     "layer_1_reading": "Full text read at the locator above, 7,517 words.",
     "layer_2_concepts": "scripts/reading/gather_evidence.py",

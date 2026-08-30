@@ -7,7 +7,6 @@
   "status": "LLM_CANDIDATE",
   "review_state": "unreviewed",
   "reading_status": "close_reading_complete",
-
   "work": {
     "title": "The Father-thing",
     "slug": "the-father-thing",
@@ -22,11 +21,9 @@
       "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
     }
   },
-
   "reading": {
     "reading_status": "close_reading_complete",
     "synopsis": "Eight-year-old Charles Walton is sent to fetch his father for dinner and comes back unable to say which of them to fetch: there are two, and they look alike. The one that comes in to eat is the father-thing. Charles finds his real father's remains stuffed in the garage trash barrel — dry, translucent, an emptied skin, the insides eaten and the place taken. He escapes out of his bedroom window and recruits Tony Peretti, a fourteen-year-old who has beaten up every boy in the neighbourhood and who responds to the story with immediate, matter-of-fact belief. Watching through the window, they see the father-thing go slack the moment Charles's mother leaves the room — it is operated from outside. They fetch Bobby Daniels, a nine-year-old who is 'the best' at finding, and he locates the controlling organism under a stone by the garage: a foot-long jointed bug. It escapes down its tunnel. The father-thing catches Charles and drags him toward the bamboo behind the garage, where a mother-thing is maturing in its cocoon, more larvae are newly laid, and a Charles-thing is already dark and ready. The father-thing begins tearing the cocoon open so the Charles-thing can feed on the boy — and then convulses and dies. Daniels has poured the drum of kerosene down the bug's tunnel. The three boys go looking in the driveway for the matches to burn the rest.",
-
     "structure": {
       "form": "continuous short story in five scenes, moving from dinner table to the ground behind the garage",
       "movements": [
@@ -39,22 +36,52 @@
       "point_of_view": "third person, close to Charles, with two deliberate exceptions where the narration steps back to the parents' view. The story never explains the aliens beyond what three boys can work out by looking.",
       "note_on_scale": "The horror escalates by inventory rather than by event: one father, then a mother in progress, then a row of larvae, then a copy of the boy himself. Nothing has to happen for the situation to get worse."
     },
-
     "characters": [
-      { "name": "Charles Walton", "role": "protagonist, eight years old", "note": "Correctly perceives the substitution and is disbelieved and punished for saying so. His knowledge of the ground — 'nobody knew the way like he did' — is what keeps him alive." },
-      { "name": "The father-thing", "role": "the substitute", "note": "Its menace is entirely parental. It never threatens; it disciplines. 'This is for your own good. I know best, Charles.' The horror runs on the ordinary authority of a father over a boy." },
-      { "name": "June Walton", "role": "mother", "note": "Notices everything — the tension, the child's fear, that her husband is 'so strange' — and is steered away from acting on any of it. She is being farmed and does not know it." },
-      { "name": "Ted Walton", "role": "the real father", "note": "Present only as a discarded skin. The reader never meets him." },
-      { "name": "Tony Peretti", "role": "fourteen, the neighbourhood bully", "note": "The story's structural surprise: he believes Charles at once, takes charge, arms himself, and is the one who shoots the thing in the eye. Competence arrives from the least likely quarter." },
-      { "name": "Bobby Daniels", "role": "nine, 'the best at finding'", "note": "Finds the controlling bug and, unprompted, solves the problem with kerosene — a method he attributes to his family's practice against mosquitoes in Virginia. He is the one who actually wins." }
+      {
+        "name": "Charles Walton",
+        "role": "protagonist, eight years old",
+        "note": "Correctly perceives the substitution and is disbelieved and punished for saying so. His knowledge of the ground — 'nobody knew the way like he did' — is what keeps him alive."
+      },
+      {
+        "name": "The father-thing",
+        "role": "the substitute",
+        "note": "Its menace is entirely parental. It never threatens; it disciplines. 'This is for your own good. I know best, Charles.' The horror runs on the ordinary authority of a father over a boy."
+      },
+      {
+        "name": "June Walton",
+        "role": "mother",
+        "note": "Notices everything — the tension, the child's fear, that her husband is 'so strange' — and is steered away from acting on any of it. She is being farmed and does not know it."
+      },
+      {
+        "name": "Ted Walton",
+        "role": "the real father",
+        "note": "Present only as a discarded skin. The reader never meets him."
+      },
+      {
+        "name": "Tony Peretti",
+        "role": "fourteen, the neighbourhood bully",
+        "note": "The story's structural surprise: he believes Charles at once, takes charge, arms himself, and is the one who shoots the thing in the eye. Competence arrives from the least likely quarter."
+      },
+      {
+        "name": "Bobby Daniels",
+        "role": "nine, 'the best at finding'",
+        "note": "Finds the controlling bug and, unprompted, solves the problem with kerosene — a method he attributes to his family's practice against mosquitoes in Virginia. He is the one who actually wins."
+      }
     ],
-
     "settings": [
-      { "name": "The Walton house and dinner table", "note": "The alien is first detectable at a meal, in the middle of ordinary domestic complaint about work and manners." },
-      { "name": "The garage", "note": "Where the substitution happened and where the remains are hidden. The father-thing repeatedly tries to get Charles back inside it." },
-      { "name": "The bamboo and debris between garage and house", "note": "The nursery. The story's real discovery: the household has been colonised from its own neglected ground, among rotting boards and garbage." }
+      {
+        "name": "The Walton house and dinner table",
+        "note": "The alien is first detectable at a meal, in the middle of ordinary domestic complaint about work and manners."
+      },
+      {
+        "name": "The garage",
+        "note": "Where the substitution happened and where the remains are hidden. The father-thing repeatedly tries to get Charles back inside it."
+      },
+      {
+        "name": "The bamboo and debris between garage and house",
+        "note": "The nursery. The story's real discovery: the household has been colonised from its own neglected ground, among rotting boards and garbage."
+      }
     ],
-
     "motifs": [
       "The emptied skin — survival of the outside with the inside eaten out",
       "Discipline as threat: every menacing line the father-thing speaks is a thing a father might legitimately say",
@@ -62,33 +89,72 @@
       "Being controlled from outside — the body goes slack the moment no one is watching",
       "The domestic ground itself as the breeding site: the horror grows in the household's own uncleared rubbish"
     ],
-
     "significance": "The premise is the one Jack Finney would publish as The Body Snatchers the following year, and the family resemblance is noted in the scholarship. What is Dick's own is the register: the substitute is frightening not because it is inhuman but because it is exactly as authoritative as a father is entitled to be, and the boy's testimony carries no weight against it. The story's engine is a child who is right and cannot be heard — the same structure as 'Roog', with the dog replaced by a son.",
-
     "textual_note": "This story exists in at least three states. Dick sent Boucher and McComas a rewrite of eleven new pages with a new ending at their suggestion, and then, unprompted, a second alternative ending four pages shorter. Which ending stands in the published text, and what the discarded ones did, is a real editorial question this dossier cannot settle from the collected text alone."
   },
-
   "concepts": {
     "distinctive_terms": [
-      { "label": "Father", "entity_id": "TERM_father", "count": 41, "distinctiveness": 34.36 },
-      { "label": "Tears", "entity_id": "TERM_tears", "count": 3, "distinctiveness": 11.1 },
-      { "label": "Darkness", "entity_id": "TERM_darkness", "count": 4, "distinctiveness": 5.19 },
-      { "label": "House", "entity_id": "TERM_house", "count": 9, "distinctiveness": 4.66 },
-      { "label": "Garden", "entity_id": "TERM_garden", "count": 2, "distinctiveness": 3.76 }
+      {
+        "label": "Father",
+        "entity_id": "TERM_father",
+        "count": 41,
+        "distinctiveness": 34.36
+      },
+      {
+        "label": "Tears",
+        "entity_id": "TERM_tears",
+        "count": 3,
+        "distinctiveness": 11.1
+      },
+      {
+        "label": "Darkness",
+        "entity_id": "TERM_darkness",
+        "count": 4,
+        "distinctiveness": 5.19
+      },
+      {
+        "label": "House",
+        "entity_id": "TERM_house",
+        "count": 9,
+        "distinctiveness": 4.66
+      },
+      {
+        "label": "Garden",
+        "entity_id": "TERM_garden",
+        "count": 2,
+        "distinctiveness": 3.76
+      }
     ],
     "thematic_links_proposed": [
-      { "theme": "androids", "basis": "a simulacrum indistinguishable from the person it replaced, operated from outside" },
-      { "theme": "authentic-human", "basis": "the story turns on a criterion of the genuine that only a child can apply" },
-      { "theme": "suburbia-domesticity", "basis": "the colonisation is domestic, and breeds in the household's own uncleared ground" },
-      { "theme": "betrayal", "basis": "the betrayer wears the face of the person most owed trust" }
+      {
+        "theme": "androids",
+        "basis": "a simulacrum indistinguishable from the person it replaced, operated from outside"
+      },
+      {
+        "theme": "authentic-human",
+        "basis": "the story turns on a criterion of the genuine that only a child can apply"
+      },
+      {
+        "theme": "suburbia-domesticity",
+        "basis": "the colonisation is domestic, and breeds in the household's own uncleared ground"
+      },
+      {
+        "theme": "betrayal",
+        "basis": "the betrayer wears the face of the person most owed trust"
+      }
     ]
   },
-
   "pkd_on_this_work": {
     "lane": "E",
-    "total_mentions": 15,
+    "total_mentions": 16,
     "summary": "Dick gave a direct biographical origin for the story, and the letters document an unusually fussy revision history.",
     "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "I always had the impression, when I was very small, that my father was two people, one good, one bad. The good father goes away and the bad father replaces him. I guess many kids have this feeling. What if it were so? This story is another instance of a normal feeling, which is in fact incorrect, somehow becoming correct.,. with the added misery that one cannot communicate it to others. Fortunately, there are other kids to tell it to. Kids understand: they are wiser than adults—hmmm, I…",
+        "reading": "Dick tracing the story directly to a specific childhood fear about his own father, and noting that children, unlike adults, could be told about it and would understand."
+      },
       {
         "source": "Selected Letters",
         "line": 4822,
@@ -115,7 +181,6 @@
       }
     ]
   },
-
   "criticism": {
     "lane": "C",
     "total_mentions": 7,
@@ -150,24 +215,29 @@
       }
     ]
   },
-
   "contradictions": [
     {
       "type": "interpretive",
       "summary": "Two different origins are offered for the same story.",
-      "claim_a": { "lane": "E", "source": "Dick, Selected Letters l.4822", "text": "fear of his own father" },
-      "claim_b": { "lane": "C", "source": "Anne R. Dick, The Search for Philip K. Dick", "text": "Earl as a father substitute in the household" },
+      "claim_a": {
+        "lane": "E",
+        "source": "Dick, Selected Letters l.4822",
+        "text": "fear of his own father"
+      },
+      "claim_b": {
+        "lane": "C",
+        "source": "Anne R. Dick, The Search for Philip K. Dick",
+        "text": "Earl as a father substitute in the household"
+      },
       "editorial_status": "unresolved_by_design",
       "note": "Not mutually exclusive, and neither is disinterested: Dick is explaining himself to a correspondent, Anne Dick is reconstructing a marriage she was inside. Both kept."
     }
   ],
-
   "open_questions": [
     "Three endings are documented in the letters. Which is in the collected text, and are the discarded pages extant in the Boucher correspondence or the manuscript record?",
     "Anne Dick calls the story a forerunner of Invasion of the Body Snatchers. Finney's serial ran in Collier's from November 1954 and this story appeared in F&SF that December — the claim needs checking against exact dates before it is repeated.",
     "The story is unusually specific about its three boys' ages, ethnicities and competences. Is there anything in the letters about the Daniels character, who solves the problem and is the only one given a family practice and a home state?"
   ],
-
   "provenance": {
     "layer_1_reading": "Full text read at the locator above, 4,422 words.",
     "layer_2_concepts": "scripts/reading/gather_evidence.py",
