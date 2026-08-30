@@ -56,6 +56,10 @@ The Penultimate Truth is the canonical works record for PKD's novel. In a novel 
 
 Dr. In a novel like [Dr. Bloodmoney, or How We Got Along After the Bomb](/works/dr-bloodmoney-or-how-we-got-along-after-the-bomb), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Retreat Syndrome
+
+Peace officers stop John Cupertino for driving at 160 miles an hour, and find a man in quiet crisis: he insists that his surroundings are unreal, that he can pass his hand through solid objects, and that this all began with the death of... In a story collection like [Retreat Syndrome](/works/retreat-syndrome), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Now Wait for Last Year
 
 Now Wait for Last Year is the canonical works record for PKD's novel. In a novel like [Now Wait for Last Year](/works/now-wait-for-last-year), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

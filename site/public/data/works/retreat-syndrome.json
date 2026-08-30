@@ -1,33 +1,26 @@
 {
-  "artifact_id": "ART_DOSSIER_RETREAT_SYNDROME",
-  "artifact_type": "work_dossier",
-  "schema_version": "1.0",
-  "source_id": "retreat-syndrome",
-  "generated_by": "reading_notes_agent",
-  "status": "LLM_CANDIDATE",
-  "review_state": "unreviewed",
-  "reading_status": "close_reading_complete",
-
-  "work": {
-    "title": "Retreat Syndrome",
-    "slug": "retreat-syndrome",
-    "form": "short story",
-    "word_count": 8501,
-    "lane": "A",
-    "written": "1965",
-    "first_publication": "Worlds of Tomorrow, January 1965",
-    "source": {
-      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-      "line_start": 49943,
-      "line_end": 50466,
-      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
-    }
-  },
-
+  "work_id": "WORK_retreat-syndrome",
+  "canonical_title": "Retreat Syndrome",
+  "slug": "retreat-syndrome",
+  "author": "Philip K. Dick",
+  "work_type": "short_story",
+  "category": "short_stories",
+  "date_display": "Worlds of Tomorrow, January 1965",
+  "date_start": "1965",
+  "card_summary": "Peace officers stop John Cupertino for driving at 160 miles an hour, and find a man in quiet crisis: he insists that his surroundings are unreal, that he can pass his hand through solid objects, and that this all began with the death of his wife Carol — whom he remembers killing on Ganymede three years earlier.",
+  "page_summary": "Peace officers stop John Cupertino for driving at 160 miles an hour, and find a man in quiet crisis: he insists that his surroundings are unreal, that he can pass his hand through solid objects, and that this all began with the death of his wife Carol — whom he remembers killing on Ganymede three years earlier. His psychiatrist, Dr. Hagopian, reveals that Carol is alive and living in Los Angeles, and sends Cupertino to see her directly. Carol confirms she is alive, gives an account of Cupertino's actual crime — a failed attempt on her life after she threatened to expose a planned revolt against Terran rule on Ganymede — and suggests that Six-planet Educational Enterprises, his employer, implanted the false memory of having succeeded, to protect their revolutionary secret. Cupertino investigates: he requests his personnel file, has it analyzed for authenticity, and discovers small gaps in his own delusion (he cannot recall where he currently works) that seem to support the false-memory theory. Just as this explanation stabilizes, Hagopian abruptly reverses course: the truth, he now says, is that the revolt failed, Ganymede is under Terran siege, Carol is imprisoned there for betraying it, and Cupertino himself is a prisoner too, hallucinating an entire life on Terra out of guilt. Armed with this new understanding, Cupertino travels to kill Carol a second time — vividly, convincingly — only to find no trace of the murder anywhere, and Hagopian, again, waiting with yet another reframing: this was a second delusional killing, exactly as unreal as the first, and Cupertino is doomed to attempt it endlessly. The story ends with Cupertino, exhausted, setting out to try a third time, aware only that there is a flaw in his reasoning he is too tired to locate.\n\n**Why it matters.** Dick himself was unusually candid about not fully understanding this story, writing in a letter that he grasped it while writing it but no longer could later — a rare instance of an author admitting his own fiction had outrun his conscious control of it. He returned to the story repeatedly in his own accounting of his work: pairing it explicitly with A Maze of Death as the same idea reworked in different form, listing it in the same breath as 'Roog' and A Scanner Darkly as part of a single interlocking body of work whose 'total message' frightened him when he tried to add it up, and, in a moment of self-doubt, grouping it with 'Precious Artifact' and 'The Electric Ant' (both read in this project) as stories that 'tell us nothing' — immediately followed by the counter-question 'Ubik tells us nothing?' The story's own structure enacts exactly this uncertainty: it offers no account of Cupertino's situation that is allowed to stand as final, and ends mid-repetition rather than at any kind of resolution.\n\n*Cupertino senses 'a gap, a weak point' in his own logic as he sets off to try again, but is too exhausted to locate it — the story's last image is of a man continuing to act on reasoning he already suspects is broken.*",
+  "page_count": 0,
+  "source_count": 0,
+  "related_docs": [],
+  "biography_events": [],
+  "themes": [
+    "reality-breakdown",
+    "memory-identity",
+    "betrayal",
+    "empire-control"
+  ],
+  "word_count": 8501,
   "reading": {
-    "reading_status": "close_reading_complete",
-    "synopsis": "Peace officers stop John Cupertino for driving at 160 miles an hour, and find a man in quiet crisis: he insists that his surroundings are unreal, that he can pass his hand through solid objects, and that this all began with the death of his wife Carol — whom he remembers killing on Ganymede three years earlier. His psychiatrist, Dr. Hagopian, reveals that Carol is alive and living in Los Angeles, and sends Cupertino to see her directly. Carol confirms she is alive, gives an account of Cupertino's actual crime — a failed attempt on her life after she threatened to expose a planned revolt against Terran rule on Ganymede — and suggests that Six-planet Educational Enterprises, his employer, implanted the false memory of having succeeded, to protect their revolutionary secret. Cupertino investigates: he requests his personnel file, has it analyzed for authenticity, and discovers small gaps in his own delusion (he cannot recall where he currently works) that seem to support the false-memory theory. Just as this explanation stabilizes, Hagopian abruptly reverses course: the truth, he now says, is that the revolt failed, Ganymede is under Terran siege, Carol is imprisoned there for betraying it, and Cupertino himself is a prisoner too, hallucinating an entire life on Terra out of guilt. Armed with this new understanding, Cupertino travels to kill Carol a second time — vividly, convincingly — only to find no trace of the murder anywhere, and Hagopian, again, waiting with yet another reframing: this was a second delusional killing, exactly as unreal as the first, and Cupertino is doomed to attempt it endlessly. The story ends with Cupertino, exhausted, setting out to try a third time, aware only that there is a flaw in his reasoning he is too tired to locate.",
-
     "structure": {
       "form": "short story in four movements, each undoing the resolution of the one before it",
       "movements": [
@@ -39,18 +32,33 @@
       "point_of_view": "third person close to Cupertino, so each successive explanation given to him lands on the reader with the same provisional, soon-to-be-overturned authority it has for him.",
       "central_device": "A nested sequence of explanations for the same delusion, each one internally consistent and each one discarded the moment the next is offered — the story never allows any account to be the last word."
     },
-
     "characters": [
-      { "name": "John Cupertino", "role": "protagonist, self-diagnosed delusional", "note": "Applies real investigative rigor — personnel files, philological dating tests, blood fraction tests — to a problem that keeps outrunning every method he tries to use to solve it." },
-      { "name": "Dr. Hagopian", "role": "psychiatrist", "note": "Offers at least two mutually exclusive accounts of Cupertino's situation with equal, unshaken authority, and is never definitively unmasked as lying, mistaken, or telling the truth in either case." },
-      { "name": "Carol Holt Cupertino", "role": "his wife, alive or imprisoned depending on which account is believed", "note": "Gives testimony that briefly resolves the mystery and then simply reappears, untouched, after the version she supported is discarded — the story never lets her account be checked against an independent fact." }
+      {
+        "name": "John Cupertino",
+        "role": "protagonist, self-diagnosed delusional",
+        "note": "Applies real investigative rigor — personnel files, philological dating tests, blood fraction tests — to a problem that keeps outrunning every method he tries to use to solve it."
+      },
+      {
+        "name": "Dr. Hagopian",
+        "role": "psychiatrist",
+        "note": "Offers at least two mutually exclusive accounts of Cupertino's situation with equal, unshaken authority, and is never definitively unmasked as lying, mistaken, or telling the truth in either case."
+      },
+      {
+        "name": "Carol Holt Cupertino",
+        "role": "his wife, alive or imprisoned depending on which account is believed",
+        "note": "Gives testimony that briefly resolves the mystery and then simply reappears, untouched, after the version she supported is discarded — the story never lets her account be checked against an independent fact."
+      }
     ],
-
     "settings": [
-      { "name": "Terra (San Francisco Bay Area, Los Angeles)", "note": "Rendered in exhaustive, confident sensory detail — coffee, traffic, conapts — that the story later suggests may be entirely hallucinated." },
-      { "name": "Ganymede, under siege", "note": "Introduced only in Hagopian's second account: a besieged colony fighting off Terran military forces, where Cupertino may actually be a guilt-ridden prisoner rather than a free Terran citizen." }
+      {
+        "name": "Terra (San Francisco Bay Area, Los Angeles)",
+        "note": "Rendered in exhaustive, confident sensory detail — coffee, traffic, conapts — that the story later suggests may be entirely hallucinated."
+      },
+      {
+        "name": "Ganymede, under siege",
+        "note": "Introduced only in Hagopian's second account: a besieged colony fighting off Terran military forces, where Cupertino may actually be a guilt-ridden prisoner rather than a free Terran citizen."
+      }
     ],
-
     "motifs": [
       "A delusion whose explanations keep multiplying rather than resolving, each one plausible and each one temporary",
       "Small, specific gaps in an otherwise seamless false reality (not knowing where one works) as the only reliable evidence something is wrong",
@@ -58,27 +66,38 @@
       "An authority figure (Hagopian) whose explanations are indistinguishable in tone and confidence whether true or false",
       "A closing return to the same action (the drive to kill Carol) with the explicit suggestion that this is not the first repetition and will not be the last"
     ],
-
     "significance": "Dick himself was unusually candid about not fully understanding this story, writing in a letter that he grasped it while writing it but no longer could later — a rare instance of an author admitting his own fiction had outrun his conscious control of it. He returned to the story repeatedly in his own accounting of his work: pairing it explicitly with A Maze of Death as the same idea reworked in different form, listing it in the same breath as 'Roog' and A Scanner Darkly as part of a single interlocking body of work whose 'total message' frightened him when he tried to add it up, and, in a moment of self-doubt, grouping it with 'Precious Artifact' and 'The Electric Ant' (both read in this project) as stories that 'tell us nothing' — immediately followed by the counter-question 'Ubik tells us nothing?' The story's own structure enacts exactly this uncertainty: it offers no account of Cupertino's situation that is allowed to stand as final, and ends mid-repetition rather than at any kind of resolution.",
-
     "closing_note": "Cupertino senses 'a gap, a weak point' in his own logic as he sets off to try again, but is too exhausted to locate it — the story's last image is of a man continuing to act on reasoning he already suspects is broken."
   },
-
-  "concepts": {
-    "distinctive_terms": [
-      { "label": "Prison", "entity_id": "TERM_prison", "count": 3, "distinctiveness": 19.93, "note": "The story's central unresolved question: whether Cupertino's entire life on Terra is itself a delusion experienced from inside a Ganymedean prison cell." },
-      { "label": "Bible", "entity_id": "TERM_bible", "count": 1, "distinctiveness": 6.09, "note": "Hagopian's parting advice to 'look it up in the Bible' regarding vengeance — an odd, unexplained note of moral authority in an otherwise clinical exchange." },
-      { "label": "Reality", "entity_id": "TERM_reality", "count": 2, "distinctiveness": 4.33 },
-      { "label": "Star", "entity_id": "TERM_star", "count": 2, "distinctiveness": 4.27, "note": "Falling Star Associates, Carol's mysterious employer, which turns out to control Cupertino's own former employer." }
-    ],
-    "thematic_links_proposed": [
-      { "theme": "reality-breakdown", "basis": "a delusion whose explanations keep multiplying and reversing rather than settling, with no account ever confirmed as final" },
-      { "theme": "memory-identity", "basis": "a false or contested memory of killing one's own wife, revised repeatedly by external authority" },
-      { "theme": "betrayal", "basis": "a wife's political betrayal of a planetary revolt as the disputed originating event behind every subsequent account of the delusion" },
-      { "theme": "empire-control", "basis": "a colonial revolt, its suppression, and psychiatric authority used interchangeably as instruments of control over the same man" }
-    ]
-  },
-
+  "distinctive_terms": [
+    {
+      "label": "Prison",
+      "entity_id": "TERM_prison",
+      "count": 3,
+      "distinctiveness": 19.93,
+      "note": "The story's central unresolved question: whether Cupertino's entire life on Terra is itself a delusion experienced from inside a Ganymedean prison cell."
+    },
+    {
+      "label": "Bible",
+      "entity_id": "TERM_bible",
+      "count": 1,
+      "distinctiveness": 6.09,
+      "note": "Hagopian's parting advice to 'look it up in the Bible' regarding vengeance — an odd, unexplained note of moral authority in an otherwise clinical exchange."
+    },
+    {
+      "label": "Reality",
+      "entity_id": "TERM_reality",
+      "count": 2,
+      "distinctiveness": 4.33
+    },
+    {
+      "label": "Star",
+      "entity_id": "TERM_star",
+      "count": 2,
+      "distinctiveness": 4.27,
+      "note": "Falling Star Associates, Carol's mysterious employer, which turns out to control Cupertino's own former employer."
+    }
+  ],
   "pkd_on_this_work": {
     "lane": "E",
     "total_mentions": 7,
@@ -110,7 +129,6 @@
       }
     ]
   },
-
   "criticism": {
     "lane": "C",
     "total_mentions": 1,
@@ -124,30 +142,34 @@
       }
     ]
   },
-
   "contradictions": [
     {
       "type": "textual",
       "summary": "The story itself provides no account of Cupertino's situation that survives to its ending — every explanation given (false implanted memory, guilt-driven hallucination of an entire planet, a second unreal murder) is offered with full authority and then discarded.",
-      "claim_a": { "lane": "A", "source": "Dr. Hagopian, first account", "text": "the revolt succeeded; Carol is free; your memory of killing her was implanted by your employer to protect the secret" },
-      "claim_b": { "lane": "A", "source": "Dr. Hagopian, second account", "text": "the revolt failed; Carol is imprisoned on Ganymede for betraying it; you are also a prisoner there, hallucinating a Terran life out of guilt" },
+      "claim_a": {
+        "lane": "A",
+        "source": "Dr. Hagopian, first account",
+        "text": "the revolt succeeded; Carol is free; your memory of killing her was implanted by your employer to protect the secret"
+      },
+      "claim_b": {
+        "lane": "A",
+        "source": "Dr. Hagopian, second account",
+        "text": "the revolt failed; Carol is imprisoned on Ganymede for betraying it; you are also a prisoner there, hallucinating a Terran life out of guilt"
+      },
       "editorial_status": "unresolved_by_design",
       "note": "The story does not adjudicate between these accounts, and Dick's own letter (see pkd_on_this_work) suggests he did not resolve the ambiguity even for himself. Recorded as textual rather than critical or biographical, since both claims originate inside the fiction itself."
     }
   ],
-
   "open_questions": [
     "Sutin's sentence characterizing the story is cut off before its conclusion — worth reading in full to see what else he credits it with beyond the implanted-memory theme.",
     "Dick pairs this story explicitly with A Maze of Death as 'the same idea reworked.' Once Maze is dossiered, that comparison should be made directly rather than deferred.",
     "The Roog-to-Scanner Exegesis passage is one of the most significant self-assessments found in this project. Is the full passage — beyond 'I know I scared myself shitl[ess]' — available anywhere in the indexed corpus, and does Dick ever say what the 'total message' actually was?"
   ],
-
-  "provenance": {
-    "layer_1_reading": "Full text read at the locator above, 8,501 words.",
-    "layer_2_concepts": "scripts/reading/gather_evidence.py",
-    "layer_3_pkd": "7 citations, four of them substantial and self-referential.",
-    "layer_4_criticism": "1, from Sutin.",
-    "related_dossiers": "precious-artifact, the-electric-ant (grouped with this story by Dick himself in the Exegesis); a-maze-of-death (explicitly named by Dick as reworking the same idea, not yet close-read).",
-    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
-  }
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  },
+  "written": "1965"
 }

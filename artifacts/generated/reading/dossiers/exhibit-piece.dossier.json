@@ -1,191 +1,130 @@
 {
- "artifact_id": "ART_DOSSIER_EXHIBIT_PIECE",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "exhibit-piece",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Exhibit Piece",
-  "slug": "exhibit-piece",
-  "form": "story",
-  "word_count": 5095,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 31048,
-   "line_end": 31381,
-   "word_count": 5095,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Pinky",
-    "name_id": "NAME_pinky",
-    "mentions": 1
-   },
-   {
-    "name": "The Russian",
-    "name_id": "NAME_the-russian",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Adam",
-    "entity_id": "TERM_adam",
-    "count": 1,
-    "distinctiveness": 19.42
-   },
-   {
-    "label": "Christian",
-    "entity_id": "TERM_christian",
-    "count": 1,
-    "distinctiveness": 14.9
-   },
-   {
-    "label": "Realm",
-    "entity_id": "TERM_realm",
-    "count": 1,
-    "distinctiveness": 12.9
-   },
-   {
-    "label": "Scanner",
-    "entity_id": "TERM_scanner",
-    "count": 3,
-    "distinctiveness": 8.37
-   },
-   {
-    "label": "Maze",
-    "entity_id": "TERM_maze",
-    "count": 1,
-    "distinctiveness": 7.72
-   },
-   {
-    "label": "Reality",
-    "entity_id": "TERM_reality",
-    "count": 3,
-    "distinctiveness": 4.34
-   },
-   {
-    "label": "Garden",
-    "entity_id": "TERM_garden",
-    "count": 1,
-    "distinctiveness": 3.26
-   },
-   {
-    "label": "Golden",
-    "entity_id": "TERM_golden",
-    "count": 1,
-    "distinctiveness": 3.06
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 8,
-    "distinctiveness": 2.94
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 2,
-    "distinctiveness": 2.94
-   },
-   {
-    "label": "Paul",
-    "entity_id": "TERM_paul",
-    "count": 1,
-    "distinctiveness": 2.47
-   },
-   {
-    "label": "Good",
-    "entity_id": "TERM_good",
-    "count": 10,
-    "distinctiveness": 1.81
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 1,
-    "distinctiveness": 1.81
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 2,
-    "distinctiveness": 1.73
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 2,
-    "distinctiveness": 1.71
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 4,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 4,
-    "quotes": [
-     {
-      "line": 1500,
-      "quote": "…odel becomes the ‘actual’ town, which then entraps the story’s other characters (his wife and her lover). In ‘Exhibit Piece’ (1954, CS3), which is set in the future, the man responsible for curating a museum exhibit on the typical su…"
-     },
-     {
-      "line": 1510,
-      "quote": "…ten shy about: a sense that escape can be good. Let the reality principle go hang. But take ‘Small Town’ and ‘Exhibit Piece’ together as variations on an idea, and we have not a dialectic or a resolved contradiction, but an instabili…"
-     },
-     {
-      "line": 1510,
-      "quote": "…nd the wife, as well as the model-builder, are absorbed into the model-become-town at the end. At the end of ‘Exhibit Piece’ the main character’s unpleasant colleagues, from whom he has so gratifyingly escaped, manage to put a fiftie…"
-     },
-     {
-      "line": 3738,
-      "quote": "…radio in 138n6, 225n2, 227 _Dr Futurity_ time travel in 46, 81n13, 207n6 _Exegesis, The_ 215, 224, 230, 235 ‘Exhibit Piece’ **106–07** ‘Exit Door Leads In, The’ 26 ‘Expendable’ 93n14 _Eye in the Sky_ African American in 81n13, 109n1…"
-     }
+  "artifact_id": "ART_DOSSIER_EXHIBIT_PIECE",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "exhibit-piece",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Exhibit Piece",
+    "slug": "exhibit-piece",
+    "form": "short story",
+    "word_count": 5095,
+    "lane": "A",
+    "first_publication": "If, August 1954",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 31048,
+      "line_end": 31381,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "In a sterile, uniform twenty-second century, George Miller curates the Twentieth Century exhibit at the History Agency, immersing himself so completely in his research period — its clothes, slang, briefcase, pipe tobacco — that his colleague Fleming warns him he is becoming a political liability. Investigating unexplained noises inside the exhibit's replica suburban house, Miller crosses the safety barrier and finds it fully populated: a wife, Marjorie, and two sons who greet him as husband and father, mid-breakfast, on an ordinary Friday in 1950s Berkeley. He cannot tell whether he has stepped into a hallucination born of overwork, or whether the exhibit was real all along and his twenty-second-century life is the illusion. A psychiatrist, Dr. Grunberg — who may himself be only a fixture of whichever world is fake — proposes a test: return to the exact spot where Miller crossed over and check whether the other side is really there. It is: through a shimmering weak point in the air, Miller can see his own abandoned research desk and the History Agency beyond it. Rather than resolving the paradox, Miller reframes it — both worlds are equally real — and chooses to stay in the twentieth century, informing his superiors that they cannot destroy him by demolishing 'his' exhibit, since he now exists on the far side of it. The Agency's director, Carnap, begins demolition anyway, to no evident effect on Miller, who settles into his new life with a beer and the television — and picks up the very newspaper whose absence sparked the whole episode, only to find its headline announcing the imminent, total destruction of the world by cobalt bomb.",
+
+    "structure": {
+      "form": "short story in three movements: crossing over, testing which world is real, choosing to stay",
+      "movements": [
+        "Miller's over-identification with his research period, and his discovery that the exhibit's replica house is inexplicably, fully inhabited.",
+        "The consultation with Dr. Grunberg and the return to the crossing point to test whether the History Agency side still exists.",
+        "Miller's declaration that both worlds are equally real, his refusal to be reclaimed, and the ironic final newspaper headline."
+      ],
+      "point_of_view": "third person close to Miller, so his logical reframing of an apparent either/or into a both/and is presented as genuine insight rather than as a psychiatric symptom the reader is meant to see through.",
+      "central_device": "A curator who has researched a period so completely that the boundary between representing it and inhabiting it dissolves — the exhibit does not simulate the past, it becomes a second, coequal present."
+    },
+
+    "characters": [
+      { "name": "George Miller", "role": "History Agency curator", "note": "His professional obsession with authenticity is rewarded rather than punished by the plot — total immersion in his research period turns out to be the means of actually reaching it." },
+      { "name": "Fleming", "role": "colleague and antagonist", "note": "Represents the bureaucratic present Miller is trying to escape, and is the first to threaten him with the Board's disapproval before Miller vanishes into his exhibit for good." },
+      { "name": "Dr. Grunberg", "role": "psychiatrist, twentieth-century side", "note": "Proposes the empirical test that should settle which world is real, and is entirely unbothered by the possibility that he himself might be Miller's delusion." },
+      { "name": "Director Carnap", "role": "History Agency director, twenty-second-century side", "note": "Threatens Miller with euthanasia for advanced psychotics, then with demolition of the exhibit — escalating exactly the kind of coercive authority Miller is trying to leave behind." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "settings": [
+      { "name": "The History Agency, Twentieth Century level", "note": "A sterile, uniform future institution whose entire purpose is curating an idealized, nostalgic image of Miller's research period — and which turns out to be genuinely porous to it." },
+      { "name": "The replica 1950s Berkeley house", "note": "Complete down to the model airplanes and postage stamp album in the boys' room — presented first as an unnervingly perfect replica and then, without any narrative signal, as simply real." }
+    ],
+
+    "motifs": [
+      "Total immersion in a historical period as the actual mechanism of reaching it, not merely representing it",
+      "A crossing point between two worlds that remains visible and physically testable from either side",
+      "Authority (Fleming, Carnap) responding to Miller's escape with threats of euthanasia and demolition rather than curiosity",
+      "A protagonist who resolves an apparent paradox not by choosing a side but by refusing the premise that only one side can be real",
+      "A newspaper headline as the story's final, ironic reversal, closing on nuclear annihilation just as Miller settles into his chosen world"
+    ],
+
+    "significance": "Palmer pairs this story directly with 'Small Town' (also read in this project) as two variations on an idea Dick's fiction is otherwise reluctant to state outright: that escape from an unsatisfying present into an invented world can be a genuine success rather than a delusion to be diagnosed and cured. What distinguishes the two, in Palmer's reading, is less a resolved contradiction than what he calls an instability — in 'Small Town' the model literally becomes the real town and entraps everyone else in it, while here Miller's unpleasant colleagues eventually catch up with him and destroy the exhibit around him at the story's end, an outcome the story does not fully explain or resolve. The final newspaper headline is the story's sharpest joke: Miller escapes into the twentieth century specifically because he idealizes its freedom and individuality, only to find that the world he chose is itself hours from the nuclear war his own century has presumably already survived.",
+
+    "closing_note": "Miller's satisfied, contented reach for the newspaper — the very object whose absence triggered the whole crisis — is immediately punished by its headline, closing the story on the threat of the world's total destruction rather than on his hard-won contentment."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Reality", "entity_id": "TERM_reality", "count": 3, "distinctiveness": 4.34, "note": "The story's explicit subject, debated openly between Miller, Grunberg, Fleming and Carnap." },
+      { "label": "Golden", "entity_id": "TERM_golden", "count": 1, "distinctiveness": 3.06, "note": "Miller's own phrase for the twentieth century — 'the golden days... when men were free.'" }
+    ],
+    "note_on_terms": "The two highest-scoring terms, Adam and Christian, are proper-noun contamination from surrounding text (Dr. Adam Grunberg's first name; a stray reference elsewhere) rather than thematic vocabulary and are not proposed as dictionary links.",
+    "thematic_links_proposed": [
+      { "theme": "illusionary-realities", "basis": "a museum exhibit that turns out to be a fully real, coequal world rather than a simulation of one" },
+      { "theme": "authentic-human", "basis": "Miller's total immersion in an earlier, freer era is vindicated rather than diagnosed as pathology" },
+      { "theme": "empire-control", "basis": "both worlds Miller moves between threaten him with the same coercive authority — euthanasia in one, demolition in the other" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No statement by Dick about this specific story was found in the corpus currently indexed.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 4,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1500,
+        "quote": "In 'Exhibit Piece' (1954, CS3), which is set in the future, the man responsible for curating a museum exhibit on the typical su[burb...]",
+        "reading": "Palmer's framing sentence, situating the story within his discussion of Dick's fiction about model-worlds and escape."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1510,
+        "quote": "But take 'Small Town' and 'Exhibit Piece' together as variations on an idea, and we have not a dialectic or a resolved contradiction, but an instability.",
+        "reading": "The central critical claim, directly confirming the pairing this project's small-town dossier had flagged as an open question — Palmer treats the two stories as a matched pair testing the same idea about successful escape from reality."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1510,
+        "quote": "At the end of 'Exhibit Piece' the main character's unpleasant colleagues, from whom he has so gratifyingly escaped, manage to put a fiftie[s...]",
+        "reading": "Palmer's account of the story's ending, though the specific mechanism (demolition, presumably) is cut off in the capture — worth reading in full."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Palmer's account of the story's ending is cut off mid-sentence ('put a fiftie...') — the fuller passage would clarify exactly what fate he thinks Miller's colleagues succeed in inflicting, and whether Palmer reads the ending as a defeat despite the story's own triumphant tone.",
+    "The 'instability' Palmer identifies between this story and 'Small Town' deserves closer comparison now that both have been read directly: in Small Town the model becomes the real town and traps outsiders in it, while here the protagonist crosses into an already-existing second world. Are these actually the same structure, or does Palmer's pairing paper over a real difference?",
+    "No PKD commentary was found on this story specifically. Given how closely it anticipates his mature themes of coequal realities, is there a later interview or Exegesis passage that revisits it directly?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "4 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 5,095 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 citations found.",
+    "layer_4_criticism": "4, all Palmer.",
+    "related_dossiers": "small-town (Palmer's direct pairing, both close-read).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

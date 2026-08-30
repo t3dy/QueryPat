@@ -28,6 +28,10 @@ Eight years into a nuclear war, the entire human population of both blocs lives 
 
 Shadrach Jones, an old man running a nearly abandoned filling station in Derryville, Colorado, gives shelter one stormy night to a bedraggled party of Elves carrying their dying king on a platform. In a story collection like [The King of the Elves](/works/the-king-of-the-elves), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Exhibit Piece
+
+In a sterile, uniform twenty-second century, George Miller curates the Twentieth Century exhibit at the History Agency, immersing himself so completely in his research period — its clothes, slang, briefcase, pipe tobacco — that his... In a story collection like [Exhibit Piece](/works/exhibit-piece), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Sales Pitch
 
 Ed Morris commutes home from Ganymede to Earth through a solar system saturated with advertising — audio and visual ads that fire directly into commuters' brains, salesrobots that swarm pedestrians and cannot be shaken. In a story collection like [Sales Pitch](/works/sales-pitch), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

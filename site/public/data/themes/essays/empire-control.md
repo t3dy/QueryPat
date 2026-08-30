@@ -28,6 +28,10 @@ Doc Labyrinth, convinced that civilisation is going the way of Rome and that a d
 
 A Clerk arrives to make sure a sleepy dog — the neighborhood's Summoner — barks at exactly 8:15 to bring insurance salesman Ed Fletcher 'A Friend with a Car,' getting him to his office an hour early before Sector T137 is taken offline for... In a story collection like [Adjustment Team](/works/adjustment-team), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Exhibit Piece
+
+In a sterile, uniform twenty-second century, George Miller curates the Twentieth Century exhibit at the History Agency, immersing himself so completely in his research period — its clothes, slang, briefcase, pipe tobacco — that his... In a story collection like [Exhibit Piece](/works/exhibit-piece), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Sales Pitch
 
 Ed Morris commutes home from Ganymede to Earth through a solar system saturated with advertising — audio and visual ads that fire directly into commuters' brains, salesrobots that swarm pedestrians and cannot be shaken. In a story collection like [Sales Pitch](/works/sales-pitch), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -87,6 +91,10 @@ The Simulacra is the canonical works record for PKD's novel. In a novel like [Th
 ### Dr. Bloodmoney, or How We Got Along After the Bomb
 
 Dr. In a novel like [Dr. Bloodmoney, or How We Got Along After the Bomb](/works/dr-bloodmoney-or-how-we-got-along-after-the-bomb), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### Retreat Syndrome
+
+Peace officers stop John Cupertino for driving at 160 miles an hour, and find a man in quiet crisis: he insists that his surroundings are unreal, that he can pass his hand through solid objects, and that this all began with the death of... In a story collection like [Retreat Syndrome](/works/retreat-syndrome), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Crack in Space
 

@@ -40,6 +40,10 @@ Shadrach Jones, an old man running a nearly abandoned filling station in Derryvi
 
 A Clerk arrives to make sure a sleepy dog — the neighborhood's Summoner — barks at exactly 8:15 to bring insurance salesman Ed Fletcher 'A Friend with a Car,' getting him to his office an hour early before Sector T137 is taken offline for... In a story collection like [Adjustment Team](/works/adjustment-team), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Exhibit Piece
+
+In a sterile, uniform twenty-second century, George Miller curates the Twentieth Century exhibit at the History Agency, immersing himself so completely in his research period — its clothes, slang, briefcase, pipe tobacco — that his... In a story collection like [Exhibit Piece](/works/exhibit-piece), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Small Town
 
 Verne Haskel, exhausted and embittered after twenty resentful years at Larson's Pump and Valve Works, retreats each evening to his basement, where he has spent his entire life building an obsessively exact miniature model of his hometown... In a story collection like [Small Town](/works/small-town), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

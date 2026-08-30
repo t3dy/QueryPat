@@ -28,6 +28,10 @@ Survivors of a hydrogen war — 'flukers', so named because they lived by a fluk
 
 Clans of the Alphane Moon is the canonical works record for PKD's novel. In a novel like [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Retreat Syndrome
+
+Peace officers stop John Cupertino for driving at 160 miles an hour, and find a man in quiet crisis: he insists that his surroundings are unreal, that he can pass his hand through solid objects, and that this all began with the death of... In a story collection like [Retreat Syndrome](/works/retreat-syndrome), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### We Can Remember It For You Wholesale
 
 Douglas Quail, a clerk at the West Coast Emigration Bureau, wants to have gone to Mars and cannot afford to go. In a story collection like [We Can Remember It For You Wholesale](/works/we-can-remember-it-for-you-wholesale), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
