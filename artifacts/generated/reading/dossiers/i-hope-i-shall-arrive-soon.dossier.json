@@ -1,258 +1,152 @@
 {
- "artifact_id": "ART_DOSSIER_I_HOPE_I_SHALL_ARRIVE_SOON",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "i-hope-i-shall-arrive-soon",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "I Hope I Shall Arrive Soon",
-  "slug": "i-hope-i-shall-arrive-soon",
-  "form": "story",
-  "word_count": 6751,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 57495,
-   "line_end": 57972,
-   "word_count": 6751,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Saint",
-    "name_id": "NAME_saint",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Karma",
-    "entity_id": "TERM_karma",
-    "count": 1,
-    "distinctiveness": 21.03
-   },
-   {
-    "label": "Tears",
-    "entity_id": "TERM_tears",
-    "count": 2,
-    "distinctiveness": 7.27
-   },
-   {
-    "label": "Palm",
-    "entity_id": "TERM_palm",
-    "count": 1,
-    "distinctiveness": 6.62
-   },
-   {
-    "label": "Cosmic",
-    "entity_id": "TERM_cosmic",
-    "count": 1,
-    "distinctiveness": 4.04
-   },
-   {
-    "label": "Star",
-    "entity_id": "TERM_star",
-    "count": 2,
-    "distinctiveness": 3.59
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 12,
-    "distinctiveness": 3.33
-   },
-   {
-    "label": "Golden",
-    "entity_id": "TERM_golden",
-    "count": 1,
-    "distinctiveness": 2.31
-   },
-   {
-    "label": "Brain",
-    "entity_id": "TERM_brain",
-    "count": 3,
-    "distinctiveness": 2.14
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 3,
-    "distinctiveness": 1.96
-   },
-   {
-    "label": "Christ",
-    "entity_id": "TERM_christ",
-    "count": 1,
-    "distinctiveness": 1.89
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 3,
-    "distinctiveness": 1.64
-   },
-   {
-    "label": "Earth",
-    "entity_id": "TERM_earth",
-    "count": 5,
-    "distinctiveness": 1.63
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 4,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
-    "author": null,
-    "lane": "B",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 12616,
-      "quote": "…ge (adjective) or stranger (noun); both rarely used. - \" **Frozen Journey** \": Original name for the story \"I Hope I Shall Arrive Soon\" (1980). **GABA fluid** : Gamma aminobutyric acid, an endogenous inhibitory neurotransmitter in the human n…"
-     },
-     {
-      "line": 13304,
-      "quote": "…[>], [>], [>], [>], [>], [>]–[>], [>] _The Game-Players of Titan,_ [>], [>] \"The Golden Man,\" [>], [>] \"I Hope I Shall Arrive Soon.\" _See_ \"Frozen Journey\" \"Impostor,\" [>], [>], [>], [>], [>], [>], [>] _The Man in the High Castle,_ [>],…"
-     }
+  "artifact_id": "ART_DOSSIER_I_HOPE_I_SHALL_ARRIVE_SOON",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "i-hope-i-shall-arrive-soon",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "I Hope I Shall Arrive Soon",
+    "slug": "i-hope-i-shall-arrive-soon",
+    "form": "short story",
+    "word_count": 6751,
+    "lane": "A",
+    "written": "June 1980",
+    "original_title": "Frozen Journey",
+    "first_publication": "Playboy, December 1980, as 'Frozen Journey'",
+    "award": "Playboy Award for Best New Contributor of Fiction, 1980.",
+    "later_use": "Retitled and used for the 1985 posthumous collection edited by Mark Hurst and Paul Williams, which also carries 'How to Build a Universe That Doesn't Fall Apart Two Days Later' and 'Strange Memories of Death'.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 57495,
+      "line_end": 57972,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "On a ten-year interstellar crossing with sixty emigrants in cryonic suspension, one sleeper's tank malfunctions. Victor Kemmings is not fully awake but is conscious, and cannot be put under or roused; the ship, which cannot repair the fault, follows its programmed remedy for sensory deprivation and begins feeding him his own buried memories. The strategy fails in a way the ship did not anticipate. Every pleasant memory it serves decays as he inhabits it: his first wife Martine vanishes from the house, the treasured poster loses its frame and tears, the foundations rot while he stands in them. Reaching further back for something unspoilt, the ship finds the source — at four years old Kemmings lifted the cat up to a trapped bird, and has carried the guilt since, integrated with a childhood sense of being watched and judged. Every retrieval is contaminated on contact. Asked plainly what he wants, Kemmings says he wants the trip to be over, and the ship gives him that instead: an imagined arrival, played through and wiped and played again, for the remaining decade. Meanwhile the ship spends those years locating Martine, who is returning from an unsatisfactory emigration of her own, and persuades her to be at the landing. She arrives in time. But Kemmings has lived the arrival too many times to believe in it: he tells her the television has nothing inside it, that his hand will pass through the wall, that the poster is torn. She offers to come back to him. He answers that they should have framed it, and that the artist is dead.",
+
+    "structure": {
+      "form": "short story in five movements, structured as a sequence of failed remedies",
+      "movements": [
+        "The malfunction: the ship's diagnosis and its programmed strategy.",
+        "The first retrieval: the house in Wyoming, and its decay while he stands in it.",
+        "The earlier retrieval: the bee, the bird, the cat, and the presence in the sky.",
+        "The wish-fulfilment loop: an imagined arrival, wiped and rerun.",
+        "The real arrival: Martine present, and Kemmings unable to distinguish it from the loop."
+      ],
+      "point_of_view": "third person, alternating between Kemmings and the ship. The ship's interior monologue is dry, practical and increasingly desperate, and is the story's chief source of both humour and pathos.",
+      "structural_irony": "The ship's remedy for the malfunction is what destroys him, and its final act of genuine kindness — spending ten years finding Martine — arrives after he has been rendered incapable of receiving it."
+    },
+
+    "characters": [
+      { "name": "Victor Kemmings", "role": "person nine; microbiologist, two hundred and six years old", "note": "Not a passive victim: the story is careful that the fault is in him. The ship diagnoses it exactly — massive subliminal insecurities that contaminate whatever is served — and cannot treat it, because it is a ship." },
+      { "name": "The ship", "role": "narrator's counterpart", "note": "The story's most attractive character. It swears at the malfunction in its first line, describes itself as a simple mechanism not equipped for psychiatric reconstruction, and notes that running the loop will at least help preserve its own sanity. Its final effort is entirely uninstructed." },
+      { "name": "Martine Kemmings", "role": "first wife", "note": "Roused from her own suspension and persuaded to divert. She has let herself age on principle. Her closing offer to stay as long as he wants is the story's one uncomplicated act, and it lands on a man who cannot register it." },
+      { "name": "Ray Torrance", "role": "friend, in memory only", "note": "Gave the couple the signed poster as a wedding present. Kemmings' contaminated memory assigns himself the blame for Ray's death in a vehicle he was driving — an event the memory itself contradicts moments later." }
     ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
+
+    "settings": [
+      { "name": "The ship, in flight", "note": "Ten years, sixty tanks, no air and no food outside suspension. The whole story happens inside a man who cannot move." },
+      { "name": "The house in Wyoming", "note": "Nineteen years old, bad foundation on a mud sill, leaking roof — flaws he supplies himself the moment he enters the memory." },
+      { "name": "LR4-6", "note": "The colony world. Reached in imagination repeatedly and in fact once, with no perceptible difference to the man arriving." }
+    ],
+
+    "motifs": [
+      "Decay entering every retrieved scene: framed becoming unframed, sound structure becoming rot",
+      "The bee that stings the hand rescuing it, and the bird the child hands to the cat — two small cruelties, one suffered and one committed",
+      "The presence in the sky that knows what he did, arriving in a sandbox and never leaving",
+      "Proof by disassembly: taking the back off the television to show there is nothing inside",
+      "The poster as the measure of what has been lost — signed, then faded, then unframed, then torn, then sold"
+    ],
+
+    "significance": "The premise is a machine trying to be kind with the only materials available, which are the man himself. What makes the story more than a cruel joke is that the ship is right about everything and helpless anyway: it correctly identifies the flaw as psychological rather than mechanical, correctly concludes it cannot treat it, correctly reasons that only Martine could, and correctly spends a decade arranging that. The failure is not of intention or intelligence. Palmer's formulation is exact — this is movement that turns out to be stasis, a journey to a new life that delivers the traveller back into his own worst four minutes, over and over. The last exchange is the sharpest thing in it: offered the restoration the whole story has been reaching for, Kemmings answers about the poster.",
+
+    "closing_note": "Palmer notes the repetition is not entirely horrifying, since the loop might in principle be broken. The story's final lines close that possibility without announcing it."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Karma", "entity_id": "TERM_karma", "count": 2, "distinctiveness": 21.03, "note": "Kemmings' own word for the malfunction — as if bad karma had singled him out — which the story then literalises as guilt." },
+      { "label": "Tears", "entity_id": "TERM_tears", "count": 3, "distinctiveness": 7.27 },
+      { "label": "Cosmic", "entity_id": "TERM_cosmic", "count": 1, "distinctiveness": 4.04 },
+      { "label": "Brain", "entity_id": "TERM_brain", "count": 3, "distinctiveness": 2.14 }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "memory-identity", "basis": "a man supplied entirely with his own memories, which decay as he inhabits them" },
+      { "theme": "illusionary-realities", "basis": "an arrival played, wiped and replayed until the real one is indistinguishable from it" },
+      { "theme": "religion-gnosis", "basis": "the presence over the sandbox that knows what the child did, and the lifelong sense of being judged for it" },
+      { "theme": "time", "basis": "ten years passing with no subjective progression — Palmer's movement-as-stasis" }
+    ]
+  },
+
+  "pkd_on_this_work": {
     "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 31,
-      "quote": "…bots, Androids, and Mechanical Oddities (1984) In Milton Lumky Territory (1985) Ubik: The Screenplay (1985) I Hope I Shall Arrive Soon (1985) Puttering About in a Small Land (1985) Radio Free Albemuth (1985) Humpty Dumpty in Oakland (1986) Th…"
-     }
+    "total_mentions": 4,
+    "summary": "The file is bibliographical rather than interpretive: the retitling, the award, and the posthumous collection named for it.",
+    "evidence": [
+      {
+        "source": "Editorial glossary in the Exegesis apparatus",
+        "line": 12616,
+        "quote": "\"Frozen Journey\": Original name for the story \"I Hope I Shall Arrive Soon\" (1980).",
+        "reading": "Establishes the retitling. Both titles appear in the criticism and indexes, and the two are easily mistaken for separate works."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 1009,
+        "quote": "Playboy Award for Best New Contributor of Fiction for 1980 [for the story \"Frozen Journey,\" later retitled \"I Hope I Shall Arrive Soon\"]",
+        "reading": "Dick winning a 'best new contributor' award nearly thirty years into his career, from a magazine outside the genre."
+      }
     ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 1009,
-      "quote": "…_Playboy_ Award for Best New Contributor of Fiction for 1980 [for the story \"Frozen Journey,\" later retitled \"I Hope I Shall Arrive Soon\"]. This February, Bantam Books releases his new novel _Valis_ , and in April Simon & Schuster its sequel _The…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "gap_noted": "No statement by Dick about the story's meaning appears in the archive — only about its title, sale and award. Sutin reports he did not care much about the Playboy sale, which is worth reading in full at the locator."
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 11,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 844,
+        "quote": "attains classic Dickian form in the plight of the main character in \"I Hope I Shall Arrive Soon\"",
+        "reading": "Palmer treats the story as the mature statement of a pattern he traces back to the 1950s novels."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 858,
+        "quote": "instead of progression—movement to a new planet and a new life—we have regression. This is not entirely horrifying … there is the possibility that the repeti…",
+        "reading": "The central critical reading, and generous: Palmer leaves room for the loop to be broken. His index entry for the story is 'movement as stasis'."
+      },
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 4879,
+        "quote": "In June, he completed a new story, \"I Hope I Shall Arrive Soon,\" which Galen sold to Playboy. Phil didn't car…",
+        "reading": "Dates composition to June 1980 and names the agent. The sentence about Dick's indifference is cut off in the captured window and should be read at the locator."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Sutin begins a sentence about Dick's attitude to the Playboy sale that the gather truncates. Read at Sutin l.4879 — it bears on how he regarded this late story.",
+    "The 1985 collection named for this story carries 'How to Build a Universe That Doesn't Fall Apart Two Days Later' and 'Strange Memories of Death'. Both are Dick's own non-fiction and neither has a dossier here; the Universe essay in particular is among his most quoted.",
+    "Palmer discusses the story at pages 52-53 under 'movement as stasis'. Only the framing sentences were captured; the passage should be read directly."
   ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 11,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 7,
-    "quotes": [
-     {
-      "line": 4879,
-      "quote": "…that A 378 Scanner Darkly had won the Grand Prix du Festival de Metz. In June, he completed a new story, “I Hope I Shall Arrive Soon,” which Galen sold to Playboy. Phil didn’t care for the Playboy philosophy and gave his fourfigure fee to Cam…"
-     },
-     {
-      "line": 4879,
-      "quote": "…Leads In,” was featured in the fall 1979 Rolling Stone College Papers. (For discussion of these stories, see I Hope I Shall Arrive Soon in the Chronological Survey.) To his great joy, Phil was able now to reestablish close ties with Laura and…"
-     },
-     {
-      "line": 4953,
-      "quote": "…knew well the vertigo of losing one’s home, responded with an essay, “Strange Memories of Death” (included in I Hope I Shall Arrive Soon), detailing the crisis of his neighbor the “Lysol Lady”: “What bothers me is that I know the only thing separ…"
-     },
-     {
-      "line": 5453,
-      "quote": "…hine (1969), The Book of Philip K. Dick (1972), The Best of Philip K. Dick (1977), The Golden Man (1980), and I Hope I Shall Arrive Soon (1985)-because they contain the best of the stories. (Phil helped with the selection process for Best of and…"
-     },
-     {
-      "line": 5667,
-      "quote": "…Rating: 6.- 55. VALIS (w. 1978, p. 1981). See extensive discussion in Chapters 10 and 11. Rating: 10. 56. I Hope I Shall Arrive Soon (w. 1953-80, p. 1985). This posthumous collection, edited by Mark Hurst and Paul Williams, includes, most not…"
-     },
-     {
-      "line": 5667,
-      "quote": "…ity of a dying human astronaut is utilized by researchoriented Proxmen as a window into the next world), and “I Hope I Shall Arrive Soon” (first published as “Frozen Journey”-a spaceship computer tries without success to find happy life memories…"
-     },
-     {
-      "line": 6865,
-      "quote": "…493 - 265 Only thing separating him: PKD essay. “Strange Memories of Death,” in PKD story/essay collection I Hope I Shall Arrive Soon (Garden City, N.Y.: Doubleday, 1985), pp. 98-99. - 266 Proposed new novel: PKD eighty-page typed synopsis,…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 844,
-      "quote": "…Jones Made_ (1956) (ch. 15, 134–35), and attains classic Dickian form in the plight of the main character in ‘I Hope I Shall Arrive Soon’ (1985 [1980, CS5]). This character’s cryonic suspension, in which he is meant to lapse away the time of hi…"
-     },
-     {
-      "line": 858,
-      "quote": "…f progression—movement to a new planet and a new life—we have regression. This is not entirely horrifying in ‘I Hope I Shall Arrive Soon’; there is the possibility that the repetition of the past acts as a sort of therapy. (Dick’s attraction to r…"
-     },
-     {
-      "line": 3746,
-      "quote": "…, The’ 91 ‘Hanging Stranger, The’ lack of difference in **98–99** , 100n24, 106 ‘Human Is’ **87** , 101, 225 ‘I Hope I Shall Arrive Soon’ movement as stasis in **52–53** ‘The Impossible Planet’ 50n18 ‘Impostor’ 225 ‘Jon’s World’ 102 fate of child…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_FIVE_STAR_PAPERBACK_ERIK_DAVIS_TECHGNOSI.md",
-    "author": "Erik Davis",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 4033,
-      "quote": "…Daw, 1970), 101. 234. Philip K. Dick, “How to Build a Universe That Doesn’t Fall Apart Two Days Later,” in I Hope I Shall Arrive Soon, ed. Mark Hurst and Paul Williams (New York: St. Martins Press, 1985), 4. 235. Ian Watson, “The False Reali…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "4 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "11 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 6,751 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "4 capitalised citations, all bibliographical.",
+    "layer_4_criticism": "11 across Palmer, Sutin and Erik Davis.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }
