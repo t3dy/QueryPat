@@ -1,157 +1,132 @@
 {
- "artifact_id": "ART_DOSSIER_THE_HANGING_STRANGER",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-hanging-stranger",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Hanging Stranger",
-  "slug": "the-hanging-stranger",
-  "form": "story",
-  "word_count": 5176,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 27252,
-   "line_end": 27653,
-   "word_count": 5176,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "The Man",
-    "name_id": "NAME_the-man",
-    "mentions": 2
-   },
-   {
-    "name": "Humans",
-    "name_id": "NAME_humans",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Hebrew",
-    "entity_id": "TERM_hebrew",
-    "count": 2,
-    "distinctiveness": 38.23
-   },
-   {
-    "label": "Bible",
-    "entity_id": "TERM_bible",
-    "count": 2,
-    "distinctiveness": 20.02
-   },
-   {
-    "label": "Realm",
-    "entity_id": "TERM_realm",
-    "count": 1,
-    "distinctiveness": 12.7
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 8,
-    "distinctiveness": 5.91
-   },
-   {
-    "label": "Gods",
-    "entity_id": "TERM_gods",
-    "count": 1,
-    "distinctiveness": 5.42
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 2,
-    "distinctiveness": 3.57
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 8,
-    "distinctiveness": 2.51
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 4,
-    "distinctiveness": 1.92
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 4,
-    "distinctiveness": 1.74
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 2,
-    "distinctiveness": 1.68
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 3,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 1394,
-      "quote": "…y conveyed: the sixties are even more emphatically homeless than the fifties. But there[21] The setting of ‘The Hanging Stranger’ (1953, CS3) is a small town with typical buildings and stores, tired hurrying commuters. The main character,…"
-     },
-     {
-      "line": 1422,
-      "quote": "…another beast is crawling into a refuse dump to await its opportunity: the story is thus made circular, like ‘The Hanging Stranger’ (Levack 1988: 95). THE SHORT STORIES 101 driven, by the author’s desires and their own, rather than be…"
-     },
-     {
-      "line": 1494,
-      "quote": "…smopolitan’ 106 EXHILARATION AND TERROR OF THE POSTMODERN In stories such as ‘Breakfast at Twilight’ and ‘The Hanging Stranger’, what is truly chilling is not that the ordinary human person and environment can be manipulated into inhuma…"
-     }
+  "artifact_id": "ART_DOSSIER_THE_HANGING_STRANGER",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-hanging-stranger",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Hanging Stranger",
+    "slug": "the-hanging-stranger",
+    "form": "short story",
+    "word_count": 5176,
+    "lane": "A",
+    "first_publication": "Science Fiction Adventures, December 1953",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 27252,
+      "line_end": 27653,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "TV store owner Ed Loyce drives past his small town's central park one evening and sees a mutilated corpse hanging from the lamppost — and no one else reacts to it at all. His neighbors, employees, and passersby have all seen it, all afternoon, and treat it as an unremarkable civic fixture requiring no explanation. Loyce's mounting hysteria gets him picked up by men posing as police, and he escapes, discovering that the entire town's authority structure — City Hall, the police station — has been infiltrated by insectile, shapeshifting alien beings who arrived through a visible rift in the sky and have taken direct mental control of every person he encounters, disguising themselves convincingly as ordinary townspeople, coworkers, and even his own son. Loyce flees on foot through the night, kills one of two men on a bus he suspects (wrongly, he later fears) of also having escaped detection, and reaches the neighboring town of Oak Grove at dawn, where a Commissioner listens gravely, believes his account, and reveals the hanging man was deliberately placed as bait — to draw out any humans who had, by accident of circumstance (Loyce was in his basement when the town was seized), escaped the aliens' control and would give themselves away by reacting to it. The story closes with the Commissioner leading Loyce toward a door behind which a fresh gallows and rope wait in Oak Grove's own town square — the invasion already complete there too, and Loyce himself now the next stranger to be hanged as bait for the next escapee.",
+
+    "structure": {
+      "form": "short story in five movements, structured as a closed circle rather than a resolved arc",
+      "movements": [
+        "Ed Loyce discovers the hanging body and the town's uniform, uncanny indifference to it.",
+        "His arrest by disguised alien agents and his escape, followed by his discovery of the alien infiltration and its insectile, shapeshifting nature.",
+        "His flight home, the killing of his own transformed son, and his solo trek out of Pikeville.",
+        "His arrival in Oak Grove, his account believed by the Commissioner, and the explanation of the hanging man as bait.",
+        "The reveal that Oak Grove has already fallen too, closing the story on Loyce himself about to become the next hanging stranger."
+      ],
+      "point_of_view": "third person close to Loyce for nearly the entire story, until the final page's cold, procedural shift to the Commissioner's perspective and then to an entirely new, unsuspecting victim (Clarence Mason) discovering a hanging body in Oak Grove — a deliberate formal loop closing the story exactly where it began.",
+      "central_device": "A perfectly circular structure: the story's opening scene (an ordinary man noticing a hanging body everyone else ignores) recurs verbatim in a new town with a new victim in the closing paragraph, confirming that Loyce's own capture will simply restart the same sequence."
+    },
+
+    "characters": [
+      { "name": "Ed Loyce", "role": "protagonist, TV store owner", "note": "His survival instinct and reasoning are entirely correct throughout — he escapes, deduces the pattern, and reaches help — and none of it saves him, because the invasion has already outpaced wherever he could possibly run." },
+      { "name": "The Commissioner (Oak Grove)", "role": "authority figure, revealed as compromised", "note": "Listens with apparently genuine sympathy and understanding, tape-recording Loyce's entire account, before revealing with 'a strange look' that Oak Grove has fallen too — the story's coldest betrayal, delivered by the one person who seemed to believe him." },
+      { "name": "The insectile invaders", "role": "the alien threat", "note": "Never given dialogue or interiority; their nature is inferred entirely through their mimicry, their systematic top-down conquest strategy, and the bait tactic that closes the story." },
+      { "name": "Clarence Mason", "role": "unnamed until the final scene, the next victim", "note": "Introduced only in the story's last paragraph, discovering a hanging body in Oak Grove with the exact bewildered curiosity Loyce showed at the opening — the story's formal proof that the cycle continues indefinitely." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "settings": [
+      { "name": "Pikeville", "note": "An ordinary small town whose City Hall becomes, almost overnight, the landing site for an alien invasion working from the top of the social hierarchy downward." },
+      { "name": "Oak Grove", "note": "Believed by Loyce to be safe ground beyond the invasion's reach, and revealed in the story's final beat to have already fallen — the invasion's spread outpacing any possible escape route." }
+    ],
+
+    "motifs": [
+      "A visible, physical rift in the sky as the literal point of invasion, rendered without any technological explanation",
+      "Public indifference as the clearest evidence something has gone catastrophically wrong — the hanging body is real precisely because no one reacts to it",
+      "A conquest strategy that begins at the top of civic authority (police, City Hall) and radiates outward and downward through the population",
+      "A closed circular structure in which the story's ending exactly repeats its beginning with a new, unsuspecting protagonist",
+      "Biblical framing (Beelzebub as a giant fly, Hebrew resistance to idol-worship) offered by the protagonist himself as a historical precedent for the invasion, never confirmed or denied by the narrative"
+    ],
+
+    "significance": "Palmer identifies the story's circularity explicitly, noting that it 'is thus made circular' by its closing scene, and reads this device — recurring across several of Dick's 1950s stories — as figuring a world in which individual escape or resistance changes nothing at the systemic level. His broader argument situates this story alongside 'Breakfast at Twilight' as examples where what is 'truly chilling is not that the ordinary human person and environment can be manipulated into inhuman' forms, but something more specific about the mechanism of that manipulation that the captured excerpt does not fully state — worth reading in full. The story's bait mechanism is its sharpest idea: the invaders do not merely conquer passively, they actively engineer situations (the hanging corpse) designed to provoke exactly the reaction that identifies who has escaped their control, meaning resistance itself becomes the trap's confirming signal.",
+
+    "closing_note": "The story's final paragraph introduces a wholly new character, Clarence Mason, discovering a hanging shape from a telephone pole in Oak Grove with the identical uncomprehending unease Loyce felt at the story's opening — the loop closing without any acknowledgment that it has closed."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Hebrew", "entity_id": "TERM_hebrew", "count": 2, "distinctiveness": 38.23, "note": "Loyce's own historical framing: the Hebrews, per his theory, were the one people who successfully resisted and warned the world about this recurring invasion." },
+      { "label": "Bible", "entity_id": "TERM_bible", "count": 2, "distinctiveness": 20.02, "note": "Loyce's explicit source for his theory — a childhood Bible League picture of Beelzebub as a giant fly." },
+      { "label": "Realm", "entity_id": "TERM_realm", "count": 1, "distinctiveness": 12.7 },
+      { "label": "Gods", "entity_id": "TERM_gods", "count": 1, "distinctiveness": 5.42, "note": "The 'enemy gods... Moloch, Beelzebub, Moab, Baalin, Ashtaroth' Loyce cites as the Bible's record of prior invasions of this kind." }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "empire-control", "basis": "an invasion conquering a civic hierarchy from the top down through direct mental control and physical mimicry" },
+      { "theme": "religion-gnosis", "basis": "Loyce's own theory that the Bible records a repeating historical pattern of exactly this kind of invasion, with named enemy gods figured as insects" },
+      { "theme": "reality-breakdown", "basis": "public indifference to an atrocity as the story's clearest and only signal that reality has been fundamentally compromised" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No statement by Dick about this specific story was found in the corpus currently indexed.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 3,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1394,
+        "quote": "The setting of 'The Hanging Stranger' (1953, CS3) is a small town with typical buildings and stores, tired hurrying commuters. The main character,",
+        "reading": "Palmer's establishing description, situating the story within his broader account of Dick's use of ordinary, unremarkable American settings as the site of cosmic-scale threat."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1422,
+        "quote": "another beast is crawling into a refuse dump to await its opportunity: the story is thus made circular, like 'The Hanging Stranger'",
+        "reading": "Direct critical confirmation of the story's circular structure — the ending repeating the beginning with a new, interchangeable victim — cited as a recurring Dick technique found in other stories as well."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1494,
+        "quote": "In stories such as 'Breakfast at Twilight' and 'The Hanging Stranger', what is truly chilling is not that the ordinary human person and environment can be manipulated into inhuma[n forms, but...]",
+        "reading": "Palmer's central critical claim about this story's horror, cut off before its completing clause — the fuller passage would state exactly what he thinks is more chilling than the manipulation itself."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Palmer's sentence about what is 'truly chilling' is cut off before its point — the fuller passage is essential to understanding his full critical argument about this story and should be read directly.",
+    "Which other Dick story does Palmer have in mind when he says the refuse-dump ending is circular 'like The Hanging Stranger'? Identifying it would let the pairing be examined directly.",
+    "The story's Biblical framing (Beelzebub, Hebrew resistance) is offered entirely through Loyce's own amateur theorizing and never confirmed by the narrative. Is this device — a character's unverified historical theory as the story's only interpretive framework — discussed anywhere as a recurring feature of Dick's invasion stories?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "3 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 5,176 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 citations found.",
+    "layer_4_criticism": "3, all Palmer.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

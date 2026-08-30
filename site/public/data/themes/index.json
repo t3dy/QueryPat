@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 87,
+  "fiction_work_count": 89,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -903,7 +903,7 @@
       "slug": "reality-breakdown",
       "label": "Reality Breakdown",
       "description": "Unstable reality, temporal slippage, projected worlds, and the breakdown of ordinary perception.",
-      "work_count": 43,
+      "work_count": 44,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -939,6 +939,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "F&SF, February 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-hanging-stranger",
+          "canonical_title": "The Hanging Stranger",
+          "slug": "the-hanging-stranger",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Science Fiction Adventures, December 1953",
           "date_start": "1953"
         },
         {
@@ -2051,7 +2060,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 45,
+      "work_count": 47,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -2081,12 +2090,30 @@
           "date_start": "1953"
         },
         {
+          "work_id": "WORK_the-hanging-stranger",
+          "canonical_title": "The Hanging Stranger",
+          "slug": "the-hanging-stranger",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Science Fiction Adventures, December 1953",
+          "date_start": "1953"
+        },
+        {
           "work_id": "WORK_the-preserving-machine",
           "canonical_title": "The Preserving Machine",
           "slug": "the-preserving-machine",
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "The Magazine of Fantasy & Science Fiction, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_tony-and-the-beetles",
+          "canonical_title": "Tony and the Beetles",
+          "slug": "tony-and-the-beetles",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Orbit Science Fiction, March-April 1953",
           "date_start": "1953"
         },
         {
@@ -2466,7 +2493,7 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 19,
+      "work_count": 20,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2493,6 +2520,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "The Magazine of Fantasy & Science Fiction, 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-hanging-stranger",
+          "canonical_title": "The Hanging Stranger",
+          "slug": "the-hanging-stranger",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Science Fiction Adventures, December 1953",
           "date_start": "1953"
         },
         {
@@ -2647,7 +2683,7 @@
       "slug": "alien-contact",
       "label": "Alien Contact",
       "description": "Aliens, extraterrestrial intelligence, off-world contact, and nonhuman ecologies.",
-      "work_count": 7,
+      "work_count": 8,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2665,6 +2701,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Galaxy, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_tony-and-the-beetles",
+          "canonical_title": "Tony and the Beetles",
+          "slug": "tony-and-the-beetles",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Orbit Science Fiction, March-April 1953",
           "date_start": "1953"
         },
         {
