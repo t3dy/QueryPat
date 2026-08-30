@@ -36,6 +36,10 @@ Eight-year-old Charles Walton is sent to fetch his father for dinner and comes b
 
 The Minority Report and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Minority Report and Other Classic Stories](/works/the-minority-report-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Turning Wheel
+
+Centuries after an apocalyptic 'Time of Madness,' a rigid caste theocracy governs the survivors, its doctrine of reincarnation administered through a rusting, decaying 'scanner' technology that lets the faithful preview their next... In a story collection like [The Turning Wheel](/works/the-turning-wheel), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Solar Lottery
 
 Solar Lottery is the canonical works record for PKD's novel. In a novel like [Solar Lottery](/works/solar-lottery), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

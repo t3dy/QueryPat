@@ -44,6 +44,10 @@ In a post-war America where radiation has produced mutants — 'deeves' — the 
 
 The Minority Report and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Minority Report and Other Classic Stories](/works/the-minority-report-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Turning Wheel
+
+Centuries after an apocalyptic 'Time of Madness,' a rigid caste theocracy governs the survivors, its doctrine of reincarnation administered through a rusting, decaying 'scanner' technology that lets the faithful preview their next... In a story collection like [The Turning Wheel](/works/the-turning-wheel), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Autofac
 
 Five years after a global war, a planet-wide network of automated factories continues to supply human settlements with food and goods, exactly as instructed before the collapse. In a story collection like [Autofac](/works/autofac), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

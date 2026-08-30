@@ -104,6 +104,10 @@ Confessions of a Crap Artist is the canonical works record for PKD's novel. In a
 
 Bob Bibleman, a floating-home salesman in a future where robots handle all low-wage work, idly answers a fast-food robot's contest question and wins, at two-trillion-to-one odds, a full scholarship to the College — an elite, unadvertised... In a story collection like [The Exit Door Leads In](/works/the-exit-door-leads-in), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Chains of Air, Web of Aether
+
+Leo McVane lives alone in an isolated communications dome on a frozen, double-sunned world, his only real companionship the recorded voice of Linda Fox, a singer who reworks the Elizabethan lute songs of John Dowland for a scattered... In a story collection like [Chains of Air, Web of Aether](/works/chains-of-air-web-of-aether), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Mary and the Giant
 
 Mary and the Giant is the canonical works record for PKD's novel. In a novel like [Mary and the Giant](/works/mary-and-the-giant), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

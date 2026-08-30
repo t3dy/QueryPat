@@ -28,6 +28,10 @@ Doc Labyrinth, convinced that civilisation is going the way of Rome and that a d
 
 A Clerk arrives to make sure a sleepy dog — the neighborhood's Summoner — barks at exactly 8:15 to bring insurance salesman Ed Fletcher 'A Friend with a Car,' getting him to his office an hour early before Sector T137 is taken offline for... In a story collection like [Adjustment Team](/works/adjustment-team), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Turning Wheel
+
+Centuries after an apocalyptic 'Time of Madness,' a rigid caste theocracy governs the survivors, its doctrine of reincarnation administered through a rusting, decaying 'scanner' technology that lets the faithful preview their next... In a story collection like [The Turning Wheel](/works/the-turning-wheel), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Cosmic Puppets
 
 The Cosmic Puppets is the canonical works record for PKD's novel. In a novel like [The Cosmic Puppets](/works/the-cosmic-puppets), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -43,6 +47,10 @@ A Maze of Death is the canonical works record for PKD's novel. In a novel like [
 ### Deus Irae
 
 Deus Irae is the canonical works record for PKD's novel. In a novel like [Deus Irae](/works/deus-irae), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### Chains of Air, Web of Aether
+
+Leo McVane lives alone in an isolated communications dome on a frozen, double-sunned world, his only real companionship the recorded voice of Linda Fox, a singer who reworks the Elizabethan lute songs of John Dowland for a scattered... In a story collection like [Chains of Air, Web of Aether](/works/chains-of-air-web-of-aether), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### I Hope I Shall Arrive Soon
 

@@ -1,175 +1,133 @@
 {
- "artifact_id": "ART_DOSSIER_CHAINS_OF_AIR_WEB_OF_AETHER",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "chains-of-air-web-of-aether",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Chains Of Air, Web Of Aether",
-  "slug": "chains-of-air-web-of-aether",
-  "form": "story",
-  "word_count": 7705,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 56791,
-   "line_end": 57420,
-   "word_count": 7705,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Linda",
-    "name_id": "NAME_linda",
-    "mentions": 13
-   },
-   {
-    "name": "Linda Fox",
-    "name_id": "NAME_linda-fox",
-    "mentions": 11
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 18,
-    "distinctiveness": 10.17
-   },
-   {
-    "label": "Christ",
-    "entity_id": "TERM_christ",
-    "count": 6,
-    "distinctiveness": 9.91
-   },
-   {
-    "label": "Jesus",
-    "entity_id": "TERM_jesus",
-    "count": 1,
-    "distinctiveness": 7.99
-   },
-   {
-    "label": "Grace",
-    "entity_id": "TERM_grace",
-    "count": 1,
-    "distinctiveness": 7.99
-   },
-   {
-    "label": "Spirit",
-    "entity_id": "TERM_spirit",
-    "count": 1,
-    "distinctiveness": 6.08
-   },
-   {
-    "label": "Holy",
-    "entity_id": "TERM_holy",
-    "count": 1,
-    "distinctiveness": 5.55
-   },
-   {
-    "label": "Star",
-    "entity_id": "TERM_star",
-    "count": 3,
-    "distinctiveness": 4.71
-   },
-   {
-    "label": "John",
-    "entity_id": "TERM_john",
-    "count": 2,
-    "distinctiveness": 2.6
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 19,
-    "distinctiveness": 2.56
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 2,
-    "distinctiveness": 1.94
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 3,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
-    "author": null,
-    "lane": "B",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 12556,
-      "quote": "…n beings had extraordinary capabilities. \" **Chains of Air,** \" or \" **Chains ... Web** \": The short story \"Chains of Air, Web of Aether\" (1980), later revised and incorporated into _The Divine Invasion_ (1981). **Claudia** : Claudia Krenz Bush…"
-     },
-     {
-      "line": 13254,
-      "quote": "…ration of Timothy Archer_ \"Breakfast at Twilight,\" [>] BTA. See _The Transmigration of Timothy Archer_ \"Chains of Air, Web of Aether,\" [>], [>], [>] _Clans of the Alphane Moon,_ [>], [>], [>] \"The Commuter,\" [>], [>], [>] _Confessions o…"
-     },
-     {
-      "line": 13976,
-      "quote": "…S_ (1981). Later she moved next door to Dick and became the inspiration for the character in Rybus Romney in \"Chains of Air, Web of Aether\" (1979) and _The Divine Invasion_ (1981). Sauter was forced to move out when the apartment building converted…"
-     }
+  "artifact_id": "ART_DOSSIER_CHAINS_OF_AIR_WEB_OF_AETHER",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "chains-of-air-web-of-aether",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Chains of Air, Web of Aether",
+    "slug": "chains-of-air-web-of-aether",
+    "form": "short story",
+    "word_count": 7705,
+    "lane": "A",
+    "written": "1979",
+    "first_publication": "Stellar Science Fiction Stories #5, 1980",
+    "later_use": "Revised and incorporated into the novel The Divine Invasion (1981); the character Rybus Rommey became Rybys in the novel, and Leo McVane became Herb Asher.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 56791,
+      "line_end": 57420,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Leo McVane lives alone in an isolated communications dome on a frozen, double-sunned world, his only real companionship the recorded voice of Linda Fox, a singer who reworks the Elizabethan lute songs of John Dowland for a scattered, exiled human diaspora. When the food man tells him the woman in the neighboring dome, Rybus Rommey, is dying of multiple sclerosis, McVane reluctantly calls her, and is drawn — against every instinct toward isolation — into caring for her: visiting, cleaning her increasingly filthy dome, fetching medicine and food, enduring her hostility toward the Fox recordings he loves. He spends his savings consulting a distant artificial intelligence, the Plasma, for guidance on what to do, and receives back a two-word diagnosis of her as 'thanatous' — not merely dying, but death-producing — with the ethical burden of avoidance explicitly lifted from him. He continues visiting anyway. Rybus survives her chemotherapy and calls herself cured, but the McVane who receives the news finds her not restored but hollowed out: still chattering about soap operas and trivialities, unable to register what he sacrificed (his love of Fox's music, eroded and finally ruined by association with her illness and hostility) or to offer him anything resembling the reciprocal understanding he extended to her. The story ends with her alive, seemingly returned to ordinary life, and McVane quietly heating water for her coffee, having traded something he can name for something he cannot.",
+
+    "structure": {
+      "form": "short story in three movements: the isolated routine established, the caretaking undertaken against instinct, the survival that does not restore what was lost",
+      "movements": [
+        "McVane's solitary dome routine and his devotion to Linda Fox's recorded music, interrupted by news of Rybus's illness.",
+        "Escalating caretaking visits, the AI Plasma's stark 'thanatous' diagnosis, and the erosion of McVane's love of the Fox under the weight of Rybus's illness and contempt for it.",
+        "Rybus's cure, and the flat, unchanged self that survives it — leaving McVane with a bargain whose cost is clear and whose reward is not."
+      ],
+      "point_of_view": "third person close to McVane throughout, so the reader experiences Rybus's demands, her cruelty toward the Fox, and her final untransformed self entirely through the perspective of the man who sacrificed something real to save her.",
+      "central_device": "A quantifiable, computable ethical judgment (the Plasma's diagnosis, purchased with real money) set against an unquantifiable human obligation McVane fulfills anyway, at a cost the story never lets him recoup."
+    },
+
+    "characters": [
+      { "name": "Leo McVane", "role": "communications dome operator, protagonist", "note": "His devotion to art (the Fox's music) and his reluctant devotion to a dying stranger are shown as genuinely incompatible — sustaining one costs him the other, and the story does not pretend otherwise." },
+      { "name": "Rybus Rommey", "role": "dying neighbor, later cured", "note": "Neither villain nor saint: her illness makes her genuinely dependent and genuinely cruel by turns, and her survival does not resolve this into gratitude or growth — she remains exactly as self-absorbed and demanding after her cure as before it." },
+      { "name": "Linda Fox", "role": "recorded singer, McVane's private devotion", "note": "Based on Dowland's actual lute songs, remade for a diaspora scattered across colony domes — the story's clearest image of art as sustenance, ultimately shown to be finite and losable." },
+      { "name": "The Plasma", "role": "distant artificial intelligence", "note": "Delivers an absolute, purchased diagnosis — 'thanatous,' producing death, not merely dying — and explicitly relieves McVane of ethical obligation, which he disregards anyway." }
     ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 2,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
+
+    "settings": [
+      { "name": "CY30 II", "note": "A frozen, double-sunned world dotted with isolated communication domes, its inhabitants scattered by 'the power of migration, and with no end in sight' — the exile condition of Dick's late fiction rendered as literal astronomy." },
+      { "name": "Rybus's dome", "note": "Increasingly filthy and disordered as her illness progresses, its decay a physical register of her deteriorating grip on her own life and surroundings." }
+    ],
+
+    "motifs": [
+      "Recorded art (Dowland via Linda Fox) as the one reliable source of meaning in an isolated life, shown to be vulnerable to being spoiled by association",
+      "A computed, purchased ethical verdict ('thanatous... ethical factor obviated') set against an obligation the protagonist fulfills regardless",
+      "Illness rendered through exhausting, unglamorous physical detail — spoiled food, medication schedules, a filthy dome — rather than through metaphor",
+      "Survival that does not produce transformation or gratitude, only a return to the same self that was there before the crisis",
+      "A trade explicitly named by the protagonist himself: 'a human life won and a synthetic media image wrecked'"
+    ],
+
+    "significance": "Dick's own glossary entry (from the Exegesis apparatus) states plainly that this story was later revised into The Divine Invasion, with Rybus Rommey becoming Rybys and Leo McVane becoming Herb Asher — and that Rybus was modeled on a real neighbor, Sauter, who moved next door to Dick and inspired the character in both the story and the novel. This gives the story unusual biographical weight for a piece this late in Dick's career: it is not a speculative exercise but a close-to-life account of an obligation undertaken toward a dying or ill neighbor, refracted just enough to be fiction. Palmer's index entries confirm the character correspondence directly (Herb and Rybys in the novel; the same pairing, with Herb called Leo, in this story) without extensive separate discussion — suggesting the story's critical significance lies mostly in what it fed into the novel rather than in itself. The story's real achievement is refusing to sentimentalize the caretaking it depicts: McVane's sacrifice is real, and Rybus's survival does not redeem or repay it in any way the story allows itself to claim.",
+
+    "closing_note": "McVane heats water for Rybus's coffee as she rambles about a soap-opera plot, having lost his private devotion to the Fox and gained nothing from her in its place except her continued, unaltered presence."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Christ", "entity_id": "TERM_christ", "count": 2, "distinctiveness": 9.91, "note": "Appears in the Dowland/Fox lyrics quoted throughout — 'no sooner he on Christ had set his eye, but he was well' — offered as the story's closest analogue to Rybus's cure, and left uncommented." },
+      { "label": "Jesus", "entity_id": "TERM_jesus", "count": 1, "distinctiveness": 7.99 },
+      { "label": "Grace", "entity_id": "TERM_grace", "count": 1, "distinctiveness": 7.99, "note": "Also from the Dowland lyrics — 'Shall I sue? shall I seek for grace?'" },
+      { "label": "Spirit", "entity_id": "TERM_spirit", "count": 2, "distinctiveness": 6.08 },
+      { "label": "Star", "entity_id": "TERM_star", "count": 2, "distinctiveness": 4.71 }
+    ],
+    "names_matched": ["NAME_linda"],
+    "thematic_links_proposed": [
+      { "theme": "authentic-human", "basis": "an obligation to a dying stranger fulfilled against instinct and at real personal cost, with no expectation of reciprocity" },
+      { "theme": "memory-identity", "basis": "Rybus's survival does not restore or transform her identity — she returns to the same self, unaltered by the crisis" },
+      { "theme": "religion-gnosis", "basis": "the Dowland/Fox lyrics quoted throughout invoke Christian imagery of healing and grace directly against the story's own secular, computed account of Rybus's cure" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 3,
+    "summary": "Dick's own glossary entry confirms the story's direct line into The Divine Invasion and identifies its real-life inspiration.",
+    "evidence": [
+      {
+        "source": "Editorial glossary in the Exegesis apparatus",
+        "line": 13976,
+        "quote": "Later she moved next door to Dick and became the inspiration for the character in Rybus Romney in \"Chains of Air, Web of Aether\" (1979) and The Divine Invasion (1981). Sauter was forced to move out when the apartment building converted",
+        "reading": "Names the real neighbor (Sauter) who inspired both the story's Rybus Rommey and the novel's Rybys — direct biographical grounding for a story that reads, in retrospect, as close to lived experience."
+      },
+      {
+        "source": "Editorial glossary in the Exegesis apparatus",
+        "line": 12556,
+        "quote": "The short story \"Chains of Air, Web of Aether\" (1980), later revised and incorporated into The Divine Invasion (1981).",
+        "reading": "Direct confirmation of the story-to-novel relationship."
+      }
+    ]
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 3072,
-      "quote": "…conversation between Donna and Mike (ch. 14, 233–37); Herb and Rybys in _The Divine Invasion_ (1981) and in ‘Chains of Air, Web of Aether’ (1980, CS5; the Herb character is called Leo in the story); Angel Archer and almost everyone in _Timothy Arc…"
-     },
-     {
-      "line": 3732,
-      "quote": "…164–65** ‘Breakfast at Twilight’ **95–96** , 106 _Broken Bubble, The_ 68n3 noir and 70n5–7, 72 symbols in 74 ‘Chains of Air, Web of Aether’ 228n8 _Clans of the Alphane Moon_ 15, 40, 49n14, 62, 80n12, 133n1 empathy in 209–10, 213, 218, 219, 221 fant…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 2,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 3072,
+        "quote": "Herb and Rybys in The Divine Invasion (1981) and in 'Chains of Air, Web of Aether' (1980, CS5; the Herb character is called Leo in the story)",
+        "reading": "Confirms the character correspondence precisely, including the name change (Leo in the story, Herb in the novel) that this dossier's synopsis draws on."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "How closely does the story's plot track the real relationship with the neighbor Sauter that the Exegesis glossary describes? A closer biographical account (if one exists in Sutin or elsewhere) would clarify how much is invention versus direct record.",
+    "Palmer's engagement with this story is limited to confirming the character correspondence with The Divine Invasion; no sustained critical reading of the story on its own terms was found. Worth checking whether any dedicated study of Dick's very late short fiction treats it independently of the novel.",
+    "The story quotes several full stanzas of Dowland (via the fictional Linda Fox) without commenting directly on their Christian content, even as Rybus's cure runs parallel to their imagery of healing through grace. Is this juxtaposition addressed anywhere in Dick's own late correspondence about the story?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "3 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "2 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 7,705 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "3 citations, two of them substantive glossary entries confirming the novel connection and real-life inspiration.",
+    "layer_4_criticism": "2, from Palmer.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

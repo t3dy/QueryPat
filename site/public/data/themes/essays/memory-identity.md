@@ -40,6 +40,10 @@ Douglas Quail, a clerk at the West Coast Emigration Bureau, wants to have gone t
 
 Confessions of a Crap Artist is the canonical works record for PKD's novel. In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Chains of Air, Web of Aether
+
+Leo McVane lives alone in an isolated communications dome on a frozen, double-sunned world, his only real companionship the recorded voice of Linda Fox, a singer who reworks the Elizabethan lute songs of John Dowland for a scattered... In a story collection like [Chains of Air, Web of Aether](/works/chains-of-air-web-of-aether), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### I Hope I Shall Arrive Soon
 
 On a ten-year interstellar crossing with sixty emigrants in cryonic suspension, one sleeper's tank malfunctions. In a story collection like [I Hope I Shall Arrive Soon](/works/i-hope-i-shall-arrive-soon), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
