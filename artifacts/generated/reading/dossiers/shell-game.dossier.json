@@ -1,157 +1,137 @@
 {
- "artifact_id": "ART_DOSSIER_SHELL_GAME",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "shell-game",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Shell Game",
-  "slug": "shell-game",
-  "form": "story",
-  "word_count": 5143,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 31920,
-   "line_end": 32400,
-   "word_count": 5143,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "The authorities",
-    "name_id": "NAME_the-authorities",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Maze",
-    "entity_id": "TERM_maze",
-    "count": 1,
-    "distinctiveness": 7.65
-   },
-   {
-    "label": "Scanner",
-    "entity_id": "TERM_scanner",
-    "count": 2,
-    "distinctiveness": 5.53
-   },
-   {
-    "label": "Gods",
-    "entity_id": "TERM_gods",
-    "count": 1,
-    "distinctiveness": 5.46
-   },
-   {
-    "label": "Therefore",
-    "entity_id": "TERM_therefore",
-    "count": 1,
-    "distinctiveness": 4.34
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 3,
-    "distinctiveness": 2.23
-   },
-   {
-    "label": "Self",
-    "entity_id": "TERM_self",
-    "count": 1,
-    "distinctiveness": 2.05
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 4,
-    "distinctiveness": 1.75
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 2,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 1280,
-      "quote": "…” “Adjustment Team” “Psi-Man Heal My Child” “The Commuter” “A Present For Pat” “Breakfast at Twilight” “Shell Game” That is it, Jack. Stress to Ballantine that I was already working on their col­ lection, had I think even…"
-     }
+  "artifact_id": "ART_DOSSIER_SHELL_GAME",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "shell-game",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Shell Game",
+    "slug": "shell-game",
+    "form": "short story",
+    "word_count": 5143,
+    "lane": "A",
+    "written": "1953",
+    "first_publication": "Galaxy, September 1954",
+    "later_use": "Prefigures the premise of the novel Clans of the Alphane Moon (1964), per Sutin; Dick separately describes wanting to use it as a mood 'source book' for another project.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 31920,
+      "line_end": 32400,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "An isolated colony of roughly a hundred people on the bog-covered planet Betelgeuse II has spent five years under siege by unseen 'attackers' — gas raids, sabotage, poisoned water — that no one has ever directly seen, defending itself with elaborate paranoid countermeasures (individualized armor, prophylactic capsules, constant surveillance of one another). When the colony's wrecked landing ship is finally excavated from the bog, its recovered control systems and hospital tapes reveal an unwelcome truth: the ship was a fully automated vessel from Terra, carrying no crew of colonists at all, only psychiatric patients being transported to a hospital station at Fomalhaut IV, until a meteor strike crashed it here. A tape of a Terran doctor's clinical lecture on paranoid personality disorder — rigid, internally consistent, logical except for its false founding premise — plays for the assembled camp leaders, who briefly recognize themselves in it. The leaders devise what they believe is an objective, unfakeable test (two labeled vapor samples, one from an actual attack site and one control sample from clean air) to settle once and for all whether the attacks are real or the entire camp is delusional; the results split five-to-four in a way that could be read either as confirming they are all psychotic, or as revealing a small conspiracy of secret Terran agents deliberately reporting false results to trick the group into surrendering. Four of the nine leaders, accused on this basis of being the agents, are gunned down in the sealed conference chamber before they can be questioned further; only one, Tate, escapes into the bog, mortally injured and certain he will not survive, as the surviving leaders decide to repair the ship, arm it with H-bombs, and 'carry the war' to Earth itself.",
+
+    "structure": {
+      "form": "short story in three movements: paranoid siege routine, the discovery aboard the recovered ship, the failed objective test and its violent aftermath",
+      "movements": [
+        "Nightly gas-attack drills and mutual suspicion among the colony's leadership establish a community organized entirely around an unverified external threat.",
+        "The wrecked ship is raised from the bog and its automated hospital-transport tapes reveal the colonists may in fact be a shipload of psychiatric patients rather than settlers.",
+        "An attempted objective test to settle the question splits along ambiguous lines, four leaders are summarily executed as suspected infiltrators, and the survivors resolve to escalate the war rather than question its premise."
+      ],
+      "point_of_view": "third person, moving among the nine camp leaders rather than settling on one, so the reader's uncertainty about who (if anyone) is lying tracks the characters' own inability to resolve the question.",
+      "central_device": "A test explicitly designed to be objective and unfakeable that instead produces an ambiguous, evenly-split result — proving nothing, and immediately weaponized by the group's existing paranoia into a lethal accusation."
+    },
+
+    "characters": [
+      { "name": "Portbane", "role": "engineer, designs the test", "note": "His test is genuinely well-reasoned in principle — a positive/negative control comparison — and its failure is not a flaw in the logic but an inherent limitation of asking paranoid, mutually distrustful subjects to self-report." },
+      { "name": "Fisher, Tate, Lanoir", "role": "leaders accused as Terran agents", "note": "Executed by their own colleagues on evidence that, by the story's own account, could equally indicate the entire colony is delusional rather than that these four are lying — the story never adjudicates which is true." },
+      { "name": "Silberman, Horstokowski, O'Keefe, Daniels, Domgraf-Schwach", "role": "surviving leaders", "note": "Resolve the ambiguity of the test not through further evidence but through group violence, and interpret their own survival and victory as vindication rather than as what it might equally be: further proof of the paranoid hypothesis." }
     ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 1560,
-      "quote": "…n topic. I would use, for instance, material from later and better stories as a sort of source book, such as “Shell Game,” and try, if possible, to get some of the mood of SOLAR LOTTERY into it. As to Vulcan III, the whole compute…"
-     }
+
+    "settings": [
+      { "name": "Betelgeuse II", "note": "A bog-covered, fever-hot colony world whose oppressive, half-liquid landscape mirrors the epistemological murk the colonists cannot see through." },
+      { "name": "The recovered ship's control cabin", "note": "Revealed to have never had manual controls at all — fully automated, meaning the colonists could not have been its pilots or crew, only its cargo." }
     ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 2,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
+
+    "motifs": [
+      "An entire society organized for years around a threat no one has directly seen or verified",
+      "A clinical description of paranoia that fits the listeners so precisely that hearing it aloud produces momentary, unbearable self-recognition",
+      "An attempted objective, scientific test whose result is inherently ambiguous, immediately reinterpreted to fit whichever belief was already held",
+      "Execution of dissenting voices used to resolve an epistemological question violence cannot actually settle",
+      "A colony's founding myth (heroic escape from Ganymede) revealed as possibly a delusion covering the reality of institutionalization"
+    ],
+
+    "significance": "Sutin rates this 'the best of the bunch' among the stories collected for a particular volume, and identifies its direct throughline to the novel Clans of the Alphane Moon a decade later, framing both around the same 'burning issue': how do you defend against an invasion when the entire defending population may be clinically insane? His sharpest observation is structural rather than thematic: 'a group of paranoids proves that you can never disprove that everyone's out to get you; only human trust' can settle what evidence cannot. The story's genuine achievement is refusing the reader any more certainty than the characters have — the vapor test's ambiguous split is not a puzzle with a hidden correct answer, but a demonstration that some questions about persecution and reality cannot be settled empirically once the observers themselves are the instrument under test, exactly as Fisher argues before the test is run: 'no instrument can test its own accuracy.'",
+
+    "closing_note": "Tate, dying alone in the bog, hears the colony gearing up its recovered ship for an offensive against Earth — the story's last image is of an unresolved paranoid hypothesis being acted upon as settled fact, at the cost of the one man who might have had answers."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Maze", "entity_id": "TERM_maze", "count": 1, "distinctiveness": 7.65, "note": "Portbane's own description of the ship's controls — 'a maze of fused, buckled machinery' — doubling as the story's epistemological state." },
+      { "label": "Scanner", "entity_id": "TERM_scanner", "count": 1, "distinctiveness": 5.53 },
+      { "label": "Gods", "entity_id": "TERM_gods", "count": 1, "distinctiveness": 5.46, "note": "Fisher's aside comparing belief in the attackers to belief in 'gods, fairies, witches' — a myth that persists by being taught, not by being true." }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "delusions", "basis": "an entire colony's founding narrative and years-long siege may be a collective, self-reinforcing psychiatric delusion rather than external persecution" },
+      { "theme": "reality-breakdown", "basis": "an attempted objective test for truth that produces an inherently ambiguous, unresolvable result, immediately reinterpreted through pre-existing belief" },
+      { "theme": "betrayal", "basis": "four leaders executed by their own colleagues on evidence that cannot actually distinguish guilt from the very paranoia the test was meant to investigate" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 2,
+    "summary": "Dick names this story specifically as material he wanted to draw on directly for a later, better-developed project.",
+    "evidence": [
+      {
+        "source": "Selected Letters",
+        "line": 1560,
+        "quote": "I would use, for instance, material from later and better stories as a sort of source book, such as \"Shell Game,\" and try, if possible, to get some of the mood of SOLAR LOTTERY into it.",
+        "reading": "Dick explicitly proposing to mine this story's mood and material for a later work in development, connecting it to Solar Lottery — worth investigating exactly what project this letter concerns."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 1280,
+        "quote": "\"Adjustment Team\" \"Psi-Man Heal My Child\" \"The Commuter\" \"A Present For Pat\" \"Breakfast at Twilight\" \"Shell Game\"",
+        "reading": "Anthology contents list, naming this story alongside 'Breakfast at Twilight' (also read in this project) and several others."
+      }
+    ]
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 5489,
-      "quote": "…heir Best of volume (contracted for in the early seventies and published in 1977). Well, Wollheim was right. “Shell Game” (w. 1953, p. 1954) is the best of the bunch, prefiguring a burning issue in Clans of the Alphane Moon (1964)…"
-     },
-     {
-      "line": 5489,
-      "quote": "…oon (1964): How do you defend against an alien invasion when everyone on the planet is clinically insane? In “Shell Game” a group of paranoids proves that you can never disprove that everyone’s out to get you; only human trust wil…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 2,
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 5489,
+        "quote": "\"Shell Game\" (w. 1953, p. 1954) is the best of the bunch, prefiguring a burning issue in Clans of the Alphane Moon (1964): How do you defend against an alien invasion when everyone on the planet is clinically insane?",
+        "reading": "Direct confirmation that this story's central premise anticipates Clans of the Alphane Moon by a decade, and Sutin's own high rating of the story within its original collection."
+      },
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 5489,
+        "quote": "In \"Shell Game\" a group of paranoids proves that you can never disprove that everyone's out to get you; only human trust wil[l]",
+        "reading": "The single sharpest critical formulation found for this story — an epistemological reading of its central test, that persecutory belief is structurally unfalsifiable by evidence and can only be countered by trust, which the story's ending explicitly denies its characters."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "What specific later project was Dick describing when he proposed using this story as a 'source book' alongside the mood of Solar Lottery? Identifying it would clarify an otherwise cryptic development note.",
+    "Sutin's sentence about 'only human trust' is cut off before its completion — the fuller sentence would state his critical thesis in full.",
+    "A direct comparison with Clans of the Alphane Moon, once that novel is dossiered, would let Sutin's claim of prefiguration be examined against the actual text rather than taken on his authority alone."
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "2 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "2 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 5,143 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "2 citations, both substantive.",
+    "layer_4_criticism": "2, from Sutin, both highly specific.",
+    "related_dossiers": "breakfast-at-twilight (named in the same anthology-contents letter).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }
