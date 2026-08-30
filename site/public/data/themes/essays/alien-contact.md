@@ -36,6 +36,10 @@ Eric Blake returns from a Ganymede posting and gives his unenthusiastic wife Pat
 
 Jill Herrick is married to Lester, a toxicologist who develops poisons for the military and who treats warmth, metaphor, food and children as forms of imprecision. In a story collection like [Human Is](/works/human-is), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Explorers We
+
+Six astronauts crash-land back on Earth after a Mars expedition, jubilant to be home, only to find every town they pass through emptying in silent terror at the sight of them. In a story collection like [Explorers We](/works/explorers-we), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Game-Players of Titan
 
 The Game-Players of Titan is the canonical works record for PKD's novel. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

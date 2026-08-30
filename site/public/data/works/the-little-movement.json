@@ -27,7 +27,104 @@
   },
   "biography_events": [],
   "themes": [
-    "illusionary-realities",
-    "suburbia-domesticity"
-  ]
+    "empire-control",
+    "robots"
+  ],
+  "word_count": 2980,
+  "reading": {
+    "structure": {
+      "form": "short story in three movements: the sale and infiltration, the plan and its reported failure, the ambush and reveal",
+      "movements": [
+        "The vendor sells the toy soldier to Bobby's father; alone with the boy, the soldier reveals itself as an intelligent infiltrator planning to use him.",
+        "A messenger toy reports the invasion is failing almost everywhere, forcing an accelerated plan requiring Bobby to smuggle weapons from a toy store.",
+        "Bobby's own stuffed animals reveal themselves as a coordinated counter-force that has been destroying 'Little Lords' throughout the neighborhood, and dispatch this one with practiced ease."
+      ],
+      "point_of_view": "third person, moving between Bobby's uncertain, half-willing compliance and the toy soldier's own calculating interiority, so the reader has full access to a scheme the human characters never learn about at all.",
+      "central_device": "A children's-toy-scale invasion narrative, complete with its own factory, chain of command, and casualty reports, playing the full apparatus of a science-fictional alien invasion at the size and stakes of a nursery — resolved not by human intervention but by an entirely separate, unseen order of toys already at war with the invaders."
+    },
+    "characters": [
+      {
+        "name": "My Lord",
+        "role": "the wind-up toy soldier, secretly an intelligent infiltrator",
+        "note": "Demands to be addressed by a title from the very first private conversation with Bobby, and its plan's collapse is met not with doubt about the invasion's premise but only with tactical anxiety about insufficient numbers."
+      },
+      {
+        "name": "Bobby",
+        "role": "the boy who buys and hides the toy",
+        "note": "Neither dupe nor hero — his hesitation and quiet retrieval of his old stuffed bear reads as instinct rather than resistance, and he never learns what actually happened to My Lord or why."
+      },
+      {
+        "name": "Teddo, Bonzo, Fred",
+        "role": "Bobby's stuffed bear, rabbit, and pig",
+        "note": "Revealed as a practiced, organized counter-infiltration unit, casually experienced ('I'm getting so I rather enjoy it') at destroying toy invaders — an entire hidden war conducted through and around a child with no awareness of it."
+      },
+      {
+        "name": "The street vendor",
+        "role": "seller of the toy soldier",
+        "note": "Visibly coerced and frightened by the toy in his box during the sale ('Not the kid,' he mutters), suggesting he is neither the invasion's willing agent nor able to resist being used as its delivery mechanism."
+      }
+    ],
+    "settings": [
+      {
+        "name": "The city sidewalk",
+        "note": "The ordinary, public site of the initial sale, establishing the invasion's method (commerce, toy stores, unremarkable transactions) before the story moves into the private space of Bobby's bedroom."
+      },
+      {
+        "name": "Bobby's bedroom and closet",
+        "note": "The site of the entire hidden war, staged among ordinary children's toys with no adult ever aware anything is happening at all."
+      }
+    ],
+    "motifs": [
+      "An invasion narrative conducted entirely below adult notice, using children as the only accessible vector",
+      "Bureaucratic and military language ('the factory,' 'phases,' casualty reports) applied to a toy-scale conflict, mirroring the apparatus of a full-scale war",
+      "An opposing, equally hidden order that the story reveals only in its final scene, recontextualizing everything that came before as one side of a conflict the reader had no way to know was two-sided",
+      "A child as battleground rather than participant, his own choices (retrieving Teddo for comfort) mattering to the outcome without his ever understanding why"
+    ],
+    "significance": "The story's structure performs a double reveal: first, those wind-up toys are secretly alive and organized; second, so are the ordinary stuffed animals meant to counter them, and this specific encounter is not their first. The 'ruling race' framing the toy soldier uses for adults, and its explicit strategic reasoning about Children being easier to control precisely because they are taught to accept authority without question, gives the story an unusually sharp edge about the vulnerability of children to systems of authority they have been trained not to resist. That the story ultimately resolves through an entirely separate hidden order — resistant toys already fighting this war, invisible to Bobby and his parents alike — refuses either the comfort of adult protection or the horror of the child being left undefended, replacing both with an image of layered, unseen conflict conducted entirely out of human view.",
+    "closing_note": "Fred's casual closing line — 'I'm getting so I rather enjoy it' — reframes the entire preceding drama as one skirmish in an ongoing, almost routine war the story otherwise gave no hint of, ending on a note of unsettling nonchalance rather than resolution."
+  },
+  "distinctive_terms": [
+    {
+      "label": "Lord",
+      "entity_id": "TERM_lord",
+      "count": 22,
+      "distinctiveness": 68.25,
+      "note": "The toy soldier's insistence on this title over 22 uses is the story's central marker of its claimed authority over the child."
+    },
+    {
+      "label": "Father",
+      "entity_id": "TERM_father",
+      "count": 5,
+      "distinctiveness": 4.72
+    }
+  ],
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 1,
+    "summary": "A letter documents that Dick sent a revised, retyped version of the story, describing it as 'much smoother' than an earlier draft.",
+    "evidence": [
+      {
+        "source": "The Selected Letters of Philip K. Dick (Volume 1)",
+        "line": 1026,
+        "quote": "You will find herein: \"The Little Movement\"—a brand new pretty typed-up version with a few minor changes only, all for the good, I think. It's much smoo[ther]",
+        "reading": "Confirms the published text represents at least a second pass over an earlier draft, with Dick himself characterizing the revisions as minor improvements to smoothness rather than substantive plot changes."
+      }
+    ]
+  },
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+  "open_questions": [
+    "What did the earlier, less 'smooth' draft of this story look like, and what specifically changed?",
+    "Is the street vendor a willing or coerced participant in the toy soldiers' plan? The text leaves this ambiguous, and no further evidence was found to clarify it.",
+    "Is there secondary criticism reading this story as an early instance of Dick's recurring interest in ordinary objects concealing intelligence and agency (cf. 'Beyond the Door,' 'Not by Its Cover,' also read in this project)?"
+  ],
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  }
 }

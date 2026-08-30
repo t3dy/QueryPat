@@ -36,6 +36,10 @@ The Book of Philip K. In a story collection like [The Book of Philip K. Dick](/w
 
 Second Variety and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [Second Variety and Other Classic Stories](/works/second-variety-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Little Movement
+
+The Little Movement is the canonical works record for PKD's short-story collection. In a story collection like [The Little Movement](/works/the-little-movement), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ## Synthesis
 
 Across these works, robots is not a static topic but a literary machine: Dick uses it to strain plot logic, expose false surfaces, and test whether a character's inner life can survive contact with the system around them. The fiction does not simply mention the theme; it stages it as a recurring formal event.

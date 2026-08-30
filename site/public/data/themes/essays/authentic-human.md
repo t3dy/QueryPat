@@ -72,6 +72,10 @@ On Callisto, a team of anonymous 'yance-men' produce daily video 'gestalts' of J
 
 After a nuclear war has reduced the world to ash and rubble, human settlements survive by trading their salvaged pre-war goods to the Biltong — alien, amoeba-like creatures drawn to Earth by the H-bomb flashes — who duplicate them. In a story collection like [Pay for the Printer](/works/pay-for-the-printer), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Explorers We
+
+Six astronauts crash-land back on Earth after a Mars expedition, jubilant to be home, only to find every town they pass through emptying in silent terror at the sight of them. In a story collection like [Explorers We](/works/explorers-we), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Clans of the Alphane Moon
 
 Clans of the Alphane Moon is the canonical works record for PKD's novel. In a novel like [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

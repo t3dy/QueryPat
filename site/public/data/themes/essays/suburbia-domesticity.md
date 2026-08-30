@@ -116,10 +116,6 @@ The Second Philip K. In a story collection like [The Second Philip K. Dick MEGAP
 
 Five Great Novels is the canonical works record for PKD's novel. In a novel like [Five Great Novels](/works/five-great-novels), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
-### The Little Movement
-
-The Little Movement is the canonical works record for PKD's short-story collection. In a story collection like [The Little Movement](/works/the-little-movement), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
-
 ## Synthesis
 
 Across these works, suburbia & domesticity is not a static topic but a literary machine: Dick uses it to strain plot logic, expose false surfaces, and test whether a character's inner life can survive contact with the system around them. The fiction does not simply mention the theme; it stages it as a recurring formal event.

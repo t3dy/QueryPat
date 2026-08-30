@@ -16,6 +16,10 @@ The Short Happy Life of the Brown Oxford and Other Classic Stories is the canoni
 
 Conger, a convicted smuggler and skilled hunter, is offered release from prison by a totalitarian Council in exchange for a mission: travel back in time to twentieth-century Colorado and kill the founder of the pacifist First Church before... In a story collection like [The Skull](/works/the-skull), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Out in the Garden
+
+Peggy Nye spends nearly all her time in her lush garden with Sir Francis, her pet duck, to her husband Robert's mild bemusement. In a story collection like [Out in the Garden](/works/out-in-the-garden), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Cookie Lady
 
 Overweight, food-obsessed schoolboy Bubber Surle visits an elderly, isolated widow, Mrs. In a story collection like [The Cookie Lady](/works/the-cookie-lady), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

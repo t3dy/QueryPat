@@ -1,129 +1,107 @@
 {
- "artifact_id": "ART_DOSSIER_OUT_IN_THE_GARDEN",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "out-in-the-garden",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Out In The Garden",
-  "slug": "out-in-the-garden",
-  "form": "story",
-  "word_count": 3027,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 10258,
-   "line_end": 10511,
-   "word_count": 3027,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Stephen",
-    "name_id": "NAME_stephen",
-    "mentions": 31
-   },
-   {
-    "name": "The Gardener",
-    "name_id": "NAME_the-gardener",
-    "mentions": 1
-   }
+  "artifact_id": "ART_DOSSIER_OUT_IN_THE_GARDEN",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "out-in-the-garden",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Out in the Garden",
+    "slug": "out-in-the-garden",
+    "form": "short story",
+    "word_count": 3027,
+    "lane": "A",
+    "first_publication": "Fantasy Fiction, August 1953",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 10258,
+      "line_end": 10511,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Peggy Nye spends nearly all her time in her lush garden with Sir Francis, her pet duck, to her husband Robert's mild bemusement. When an old friend, Tom Lindquist, visits and idly compares the pair to Yeats's 'Leda and the Swan' — Zeus taking swan form to seduce Leda — Peggy reacts with sudden, violent anger and announces she is pregnant. Robert is overjoyed and never lets himself seriously entertain the implication. Years later, their son Stephen grows into a quiet, watchful boy who loves flowers and gardens exactly as his mother does, and who Robert (having gotten rid of Sir Francis in a fit of buried jealousy soon after the pregnancy announcement) can never quite connect with. Desperate for closeness, Robert accepts an invitation to Stephen's 'secret party,' held alone in the garden — and discovers, too late, that the party's meal is worms and spiders, exactly what Sir Francis used to eat, confirming without a single further word what Robert has spent years refusing to consciously believe.",
+
+    "structure": {
+      "form": "short story in three movements: the garden scene and its violent revelation, Robert's jealous disposal of the duck, and the delayed confirmation years later",
+      "movements": [
+        "Lindquist's literary joke about Leda and the Swan provokes Peggy's fury and doubles as the moment she announces her pregnancy.",
+        "After the birth, Robert's buried suspicion drives him to abandon Sir Francis at a farm, though Peggy accepts the loss with only quiet, temporary sadness.",
+        "Years later, Stephen's strange, solitary nature and a 'secret party' meal of worms and spiders confirm, without anyone stating it, exactly what Robert has refused to believe since the day Lindquist made his joke."
+      ],
+      "point_of_view": "third person close to Robert throughout, so the reader experiences his years of willful non-recognition from the inside, arriving at the same delayed, wordless confirmation he does.",
+      "central_device": "A classical myth (Leda and the Swan) invoked as a literary joke that the story then plays out literally and un-ironically, using the mundane, domestic register of a suburban marriage to deliver a genuinely uncanny revelation without a single overtly fantastic scene."
+    },
+
+    "characters": [
+      { "name": "Peggy Nye", "role": "Robert's wife", "note": "Her fury at Lindquist's joke is disproportionate only if the joke is merely a joke; the story never states her true relationship to Sir Francis, leaving even her own knowledge or complicity ambiguous." },
+      { "name": "Robert Nye", "role": "her husband, the story's point-of-view character", "note": "Spends years managing his own doubt through action rather than confrontation — banishing the duck, straining for connection with Stephen — rather than ever directly asking the question the story's ending finally answers for him." },
+      { "name": "Tom Lindquist", "role": "family friend", "note": "His literary reference is the story's inciting spark, made in innocent good humor, with no indication he suspects any literal truth behind it." },
+      { "name": "Sir Francis", "role": "Peggy's pet duck", "note": "Given a title ('Sir Francis') that elevates him above an ordinary pet from his first mention, and whose diet of worms and spiders becomes the story's final, unmistakable piece of evidence." },
+      { "name": "Stephen", "role": "the Nyes' son", "note": "Quiet, solitary, devoted to flowers and gardens exactly as his mother is, and ultimately shown sharing Sir Francis's diet — the story's answer to the question it never lets any character ask aloud." }
+    ],
+
+    "settings": [
+      { "name": "The Nye garden", "note": "Lush, described in loving horticultural detail from the story's opening line, and established from the start as Peggy's true domain, one Robert visibly does not belong to." }
+    ],
+
+    "motifs": [
+      "A classical myth of divine seduction (Leda and the Swan) invoked as literary allusion and then played out literally in a mundane domestic setting",
+      "A husband's suspicion managed through indirect action (disposing of the duck) rather than direct confrontation",
+      "A child's quiet strangeness read first as artistic sensitivity and only belatedly recognized as something stranger",
+      "A final, wordless piece of physical evidence (the shared diet) replacing any need for explicit revelation or confession"
+    ],
+
+    "significance": "The story's restraint is its central achievement: it never confirms Sir Francis's true nature, never lets Peggy speak to the question directly, and lets its mythic premise surface entirely through implication — Lindquist's literary joke, Robert's buried jealousy, and finally Stephen's inherited diet. Read as a domestic transposition of a classical rape/seduction myth, the story sits uneasily between comedy and horror without settling into either, its quiet suburban register (gardens, birthday presents, crayon drawings) making the implied violation at its root more unsettling rather than less. Robert's arc — from unconscious suspicion, to jealous action, to a final confirmation he can only respond to by silently leaving the table — mirrors the story's own reluctance to ever name what it is actually about.",
+
+    "closing_note": "Robert's flat, understated excuse — 'I never cared for worms and spiders' — closes the story exactly as it began, refusing to speak the revelation aloud even at the moment of its fullest confirmation."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Zeus", "entity_id": "TERM_zeus", "count": 3, "distinctiveness": 122.9, "note": "Lindquist's literary allusion names the myth directly, the story's only explicit statement of what it otherwise only implies." },
+      { "label": "Garden", "entity_id": "TERM_garden", "count": 19, "distinctiveness": 104.34 },
+      { "label": "House", "entity_id": "TERM_house", "count": 9, "distinctiveness": 5.57 }
+    ],
+    "names_matched": ["NAME_stephen"],
+    "thematic_links_proposed": [
+      { "theme": "religion-gnosis", "basis": "a classical myth of divine transformation and seduction (Leda and the Swan) played out literally within an ordinary domestic setting, its truth never confirmed but never denied" },
+      { "theme": "betrayal", "basis": "an implied violation of a marriage by a non-human presence, absorbed into the household and never directly confronted by either spouse" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No commentary by Dick on this specific story was found in this evidence pass.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is there any documented source (letters, interviews) discussing Dick's specific choice of the Leda and the Swan myth for this story?",
+    "Is Peggy's own knowledge or complicity in Sir Francis's nature ever addressed by critics, given how carefully the story avoids letting her speak to the question directly?",
+    "Is there secondary criticism connecting this story's uncanny-child ending to Dick's other treatments of children whose true nature is gradually, quietly revealed?"
   ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 3,027 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 found in this evidence pass.",
+    "layer_4_criticism": "0 found in this evidence pass.",
+    "related_dossiers": "none identified.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Zeus",
-    "entity_id": "TERM_zeus",
-    "count": 3,
-    "distinctiveness": 122.9
-   },
-   {
-    "label": "Garden",
-    "entity_id": "TERM_garden",
-    "count": 19,
-    "distinctiveness": 104.34
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 9,
-    "distinctiveness": 5.57
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 8,
-    "distinctiveness": 4.45
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 1,
-    "distinctiveness": 3.0
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 1,
-    "distinctiveness": 2.47
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 3,
-    "distinctiveness": 2.46
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 6,
-    "distinctiveness": 2.27
-   },
-   {
-    "label": "Good",
-    "entity_id": "TERM_good",
-    "count": 5,
-    "distinctiveness": 1.52
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "0 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
 }

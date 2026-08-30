@@ -160,10 +160,6 @@ Electric Dreams is the canonical works record for PKD's short-story collection. 
 
 Selected Stories of Philip K. In a story collection like [Selected Stories of Philip K. Dick](/works/selected-stories-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
-### The Little Movement
-
-The Little Movement is the canonical works record for PKD's short-story collection. In a story collection like [The Little Movement](/works/the-little-movement), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
-
 ## Synthesis
 
 Across these works, illusionary realities is not a static topic but a literary machine: Dick uses it to strain plot logic, expose false surfaces, and test whether a character's inner life can survive contact with the system around them. The fiction does not simply mention the theme; it stages it as a recurring formal event.

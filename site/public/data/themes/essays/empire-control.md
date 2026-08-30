@@ -208,6 +208,10 @@ Six years into a nuclear war that has left most of the northern hemisphere ash, 
 
 In a future City of Lightness where citizens fly on mechanical wings, Robert Benton is summoned to the Controller's office and told that an invention he has no memory of submitting has been denied: humanity, having reached the absolute... In a story collection like [Stability](/works/stability), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Little Movement
+
+The Little Movement is the canonical works record for PKD's short-story collection. In a story collection like [The Little Movement](/works/the-little-movement), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ## Synthesis
 
 Across these works, empire & control is not a static topic but a literary machine: Dick uses it to strain plot logic, expose false surfaces, and test whether a character's inner life can survive contact with the system around them. The fiction does not simply mention the theme; it stages it as a recurring formal event.
