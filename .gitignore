@@ -40,8 +40,14 @@ site/.env
 site/.env.local
 site/.env.*.local
 
-# Claude internal
-.claude/
+# Claude internal: local settings and worktrees stay out, but the layered
+# agent-context system (rules/agents/workflows/context) is part of the repo —
+# a fresh checkout must be able to operate on this project without help.
+.claude/*
+!.claude/rules/
+!.claude/agents/
+!.claude/workflows/
+!.claude/context/
 
 # PDFs and source materials (too large for git, kept locally)
 PKD LLM Chats/
