@@ -1,0 +1,110 @@
+{
+  "artifact_id": "ART_DOSSIER_THE_EARTHSHAKER_NOVEL_OUTLINE",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-earthshaker-novel-outline",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+  "critical_caution": "This is a raw, telegraphic chapter outline for an apparently unwritten or unfinished novel -- not finished prose, and not fiction that can be synthesized into a plot summary in the ordinary sense. The surviving text is fragmentary shorthand (abbreviations, crossed-out words, bracketed uncertainties) rather than connected sentences, and no external documentation of this project's date, completion status, or eventual fate was found in this evidence pass. The 'reading' fields below describe what the outline's fragments suggest about a planned narrative, not a confirmed finished work; treat every claim here as inferential.",
+
+  "work": {
+    "title": "The Earthshaker: Novel Outline",
+    "slug": "the-earthshaker-novel-outline",
+    "form": "novel outline (unwritten or unfinished)",
+    "word_count": 620,
+    "lane": "E",
+    "written": "unknown",
+    "first_publication": "unpublished (archive manuscript)",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_PKD_DOC_EARTH_EARTHSHAKER_OUTLINE.md",
+      "line_start": 1,
+      "line_end": 72,
+      "note": "Full extracted text available in the local corpus; the source document itself is only 25 chapter-note lines long. No primary text is reproduced in this dossier beyond short attributed quotations."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "A twenty-five-chapter outline, headed 'Wanderer Miracle Child Benji' and subtitled 'The Earthshaker,' sketches a mythic-religious narrative in three named stages -- '(Coming),' '(Being),' and an implied '(Resolution & descent?).' A wandering man returns to his village and encounters a miraculous child; he meets Benjie, described as 'the earth woman,' and the two households merge amid vague, unspecified 'change' moving on the road toward them. The outline's middle section follows 'the man' and an unnamed group (referred to elliptically as 'the sown,' possibly a hidden or awakening lineage tied to a grandfather figure) as they undertake a quest to find a serpent associated with the initials 'JWH,' consulting in turn Faustian legend, gnosis, the Cabala, astrology, mysticism, philosophy, and 'the Magi' before finding the serpent and a tree by chance in the woods, explicitly compared to the Norse world-tree Yggdrasil. The final chapters gesture toward a birth or transformation event, a union of 'faith and reason' between the man and the woman that remains 'not combined' and conflicted, Benjie's fear of the sown's symbolic death, and a closing image of the woman as a prostitute figure who ultimately 'escapes (as Ulysses) to go on,' with the outline ending on the fragment 'The circle comp. Will found. x?'",
+
+    "structure": {
+      "form": "a 25-chapter outline in three named movements -- '(Coming),' '(Being),' and an implied resolution/descent -- tracking a mythic quest narrative rather than a scene-by-scene plot",
+      "movements": [
+        "'(Coming)': a wanderer returns to his village and its miraculous child; he meets Benjie, the earth woman, amid a sense of impending, unspecified 'change.'",
+        "'(Being)': the man's backstory and ideals are given by flashback, and a group called 'the sown' undertakes a multi-chapter quest through world-mythological and esoteric traditions (Faust, gnosis, Cabala, astrology, mysticism, philosophy, the Magi) to find a serpent, eventually located near a Yggdrasil-like tree.",
+        "An implied resolution/descent: a message is delivered, the woman flees and hides, a fraught union of 'faith and reason' occurs between the man and woman, a symbolic death and birth are anticipated, and the woman ultimately departs as a self-directed 'Ulysses' figure rather than remaining."
+      ],
+      "point_of_view": "not determinable from the surviving outline, which is written in bare chapter-note shorthand rather than narrated prose.",
+      "central_device": "A syncretic quest structure that treats world mythology, world religion, and Western esotericism (Norse myth, Kabbalah, Faust, astrology, Homer) as interchangeable resources to be consulted in sequence toward a single unifying revelation, rather than as distinct traditions in tension with one another."
+    },
+
+    "characters": [
+      { "name": "The wanderer / the man", "role": "protagonist", "note": "Described only through his 'ideals,' a 'grandfather' connection to 'the sown,' and a chapter devoted to his early life via flashback -- the outline gives him thematic weight (faith, reason, leadership) without any concrete biographical or physical detail." },
+      { "name": "Benjie, the earth woman", "role": "female lead", "note": "Explicitly named as an elemental or symbolic 'earth woman' rather than an ordinary character; her arc runs from domestic partner to prostitute-figure to a Ulysses-like departing agent, suggesting a planned trajectory from grounded domesticity to autonomous, mythic self-determination." },
+      { "name": "The sown", "role": "a collective or lineage, possibly hidden or awakening", "note": "Never clearly defined in the surviving fragments -- possibly a secret spiritual lineage or 'seed' group tied to the grandfather figure -- and referred to with the outline's own uncertainty ('not known is grandfather to ready??')." }
+    ],
+
+    "settings": [
+      { "name": "The village and 'the road'", "note": "Rendered only in the barest outline terms, as the site of the wanderer's return and of an approaching, unspecified 'change' or 'movement,' without further physical description." },
+      { "name": "The woods, the serpent, and the tree", "note": "The outline's clearest concrete image -- a serpent and tree 'found by chance' during a walk in the woods, explicitly likened to Yggdrasil, positioning the discovery as the quest's central mythic-religious object." }
+    ],
+
+    "motifs": [
+      "A syncretic quest through multiple world-religious and esoteric traditions in sequence (Faust, gnosis, Cabala, astrology, mysticism, philosophy, the Magi) toward a single revelation",
+      "A serpent and world-tree, explicitly compared to Yggdrasil, as the quest's central sacred object",
+      "An unresolved union of 'faith and reason' framed as 'a union of opposites not combined,' left as open conflict rather than synthesis",
+      "A female figure moving from domestic partner to prostitute to autonomous, self-directed departure, framed through the classical allusion to Ulysses"
+    ],
+
+    "significance": "As a bare, unfinished outline rather than a completed work, this document's chief value is evidentiary: it shows Dick, at some undated point, sketching a mythic-religious quest narrative that deliberately blends Norse myth (Yggdrasil), Kabbalah, Faustian legend, astrology, and classical epic (Ulysses) into a single syncretic search structure -- a pattern of world-mythological synthesis strongly consistent with his post-1974 Exegesis-era thinking, though nothing in the surviving fragments allows a firm date or a connection to any specific published novel. Its telegraphic, self-questioning notation style (visible in bracketed uncertainties like 'not known is grandfather to ready??' and the outline's own closing 'x?') captures Dick's private, unfinished working process rather than any authorial statement intended for a reader, making it closer in kind to a planning document than to any other class of primary-source material in this corpus.",
+
+    "closing_note": "The outline ends on its own unresolved fragment -- 'The circle comp. Will found. x?' -- leaving unclear whether this marks an intended ending, a note to self about a still-undetermined resolution, or simply where the surviving document breaks off."
+  },
+
+  "concepts": {
+    "distinctive_terms": [],
+    "names_matched": [],
+    "concepts_note": "This document is a fragmentary, non-prose chapter outline outside the fiction corpus indexed by scripts/reading/gather_evidence.py, so no automated term-frequency/distinctiveness scoring was available. TERM_faust and TERM_gnosis were confirmed to exist in the dictionary but are not cited here as formal 'distinctive terms' given the outline's telegraphic, non-statistical nature; no NAME_* entries for Yggdrasil, Ulysses, or the JWH serpent were found in the names table.",
+    "thematic_links_proposed": [
+      { "theme": "religion-gnosis", "basis": "a syncretic quest structure explicitly invoking gnosis, Cabala, and world mythology toward a single unifying religious revelation" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 1,
+    "summary": "This entire document is Dick's own private working notes; there is no separate 'commentary on it' to distinguish from the work itself.",
+    "evidence": [
+      {
+        "source": "The Earthshaker: Novel Outline (archive manuscript)",
+        "quote": "the serpent and tree found by chance. Walk in woods. Yggdrasil.",
+        "reading": "The outline's clearest single image, and its only unambiguous connection to a specific named mythological tradition."
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is there any external documentation (letters, Exegesis references, Sutin's or other biographers' accounts) dating this outline or connecting it to a specific period of Dick's career?",
+    "Was any portion of this outline's material -- the serpent-and-tree quest, the 'faith and reason' union, the sown -- absorbed into a published novel or into the Exegesis under different names?",
+    "Does 'JWH' refer to a specific intended meaning (a transliteration of the Tetragrammaton, YHWH?) and if so, how does that reshape the outline's religious framing?"
+  ],
+
+  "provenance": {
+    "layer_1_reading": "Full outline text read at the locator above, 620 words across 25 chapter-note lines.",
+    "layer_2_concepts": "Not applicable -- outside scripts/reading/gather_evidence.py's fiction-corpus scope, and the document's telegraphic form is not amenable to term-frequency analysis.",
+    "layer_3_pkd": "The entire document is primary Dick material (lane E).",
+    "layer_4_criticism": "0 found in this evidence pass.",
+    "related_dossiers": "none identified.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
+}
