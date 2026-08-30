@@ -16,6 +16,10 @@ A ship provisioning on Mars takes aboard a wub — an enormous, placid, pig-like
 
 Doc Labyrinth, convinced that civilisation is going the way of Rome and that a dark age is coming, worries that music is the most perishable of the things that will be lost. In a story collection like [The Preserving Machine](/works/the-preserving-machine), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Adjustment Team
+
+A Clerk arrives to make sure a sleepy dog — the neighborhood's Summoner — barks at exactly 8:15 to bring insurance salesman Ed Fletcher 'A Friend with a Car,' getting him to his office an hour early before Sector T137 is taken offline for... In a story collection like [Adjustment Team](/works/adjustment-team), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Cosmic Puppets
 
 The Cosmic Puppets is the canonical works record for PKD's novel. In a novel like [The Cosmic Puppets](/works/the-cosmic-puppets), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

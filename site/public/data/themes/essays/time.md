@@ -52,6 +52,10 @@ On a ten-year interstellar crossing with sixty emigrants in cryonic suspension, 
 
 Five Novels of the 1960s and 70s is the canonical works record for PKD's novel. In a novel like [Five Novels of the 1960s and 70s](/works/five-novels-of-the-1960s-and-70s), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Stability
+
+In a future City of Lightness where citizens fly on mechanical wings, Robert Benton is summoned to the Controller's office and told that an invention he has no memory of submitting has been denied: humanity, having reached the absolute... In a story collection like [Stability](/works/stability), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ## Synthesis
 
 Across these works, time is not a static topic but a literary machine: Dick uses it to strain plot logic, expose false surfaces, and test whether a character's inner life can survive contact with the system around them. The fiction does not simply mention the theme; it stages it as a recurring formal event.

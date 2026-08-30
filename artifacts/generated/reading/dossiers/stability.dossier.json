@@ -1,157 +1,142 @@
 {
- "artifact_id": "ART_DOSSIER_STABILITY",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "stability",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Stability",
-  "slug": "stability",
-  "form": "story",
-  "word_count": 4831,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 198,
-   "line_end": 485,
-   "word_count": 4831,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Eric",
-    "name_id": "NAME_eric",
-    "mentions": 2
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Palm",
-    "entity_id": "TERM_palm",
-    "count": 2,
-    "distinctiveness": 18.51
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 2,
-    "distinctiveness": 3.76
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 7,
-    "distinctiveness": 3.25
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 8,
-    "distinctiveness": 1.72
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 1,
-    "distinctiveness": 1.55
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 1,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
-    "author": null,
-    "lane": "B",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 1339,
-      "quote": "…ll dissolve as all the accretion of at least 3,500 years will vanish, as if dreamlike. They never took place. Stability, and proper everything, will lock in at 1500 to 2500 B.C. (Is it possible that an explosion, that Cretean civ…"
-     }
+  "artifact_id": "ART_DOSSIER_STABILITY",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "stability",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+  "critical_caution": "Sutin dates this to Dick's high-school years (c. 1947) and describes it as an unpublished manuscript held in the PKD Estate Archives — Dick's earliest surviving story, written years before his first professional sale in 1952. That it appears here as a readable text is notable in itself: this dossier's evidence comes from a scan that included it among the Collected Stories, but its actual publication status is that of unearthed juvenilia, not a magazine sale like the stories around it.",
+
+  "work": {
+    "title": "Stability",
+    "slug": "stability",
+    "form": "short story",
+    "word_count": 4831,
+    "lane": "A",
+    "written": "c. 1947, while Dick was in high school",
+    "first_publication": "Unpublished in his lifetime; held in the PKD Estate Archives",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 198,
+      "line_end": 485,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "In a future City of Lightness where citizens fly on mechanical wings, Robert Benton is summoned to the Controller's office and told that an invention he has no memory of submitting has been denied: humanity, having reached the absolute limit of its ingenuity a century earlier, adopted 'Stabilization' — a rigidly enforced freeze on all further change, backed by yearly exams, forced disappearances, and a fate called 'the Cart' for those who backslide. Given the model and plans to take home, Benton switches it on and finds it is a time machine. He is flung into a barren, cyclical loop: a field of grain, a forest, a wasteland, and a warning voice telling him not to touch a small glass globe he finds there. He takes the globe anyway and returns to the present — except his return overlaps his own earlier visit to the Controller, so that from the Controller's point of view Benton arrives twice, once with no memory of the second visit yet to come. The globe, containing a shrunken, ancient evil city, has been manipulating him from the start: it engineered his entire encounter with the invention across years in order to be carried out of its glass prison. When Council members come to investigate, the Controller recognizes an old legend just as the globe compels him to smash it. Benton dives to stop him and crushes the globe himself, releasing the city as a mist of whispering, victorious voices that pour into the room and settle over him. The story ends the next morning with Benton marching in ranks to a machine he now serves without memory of having chosen to, wondering only how many weeks remain until his next rest day.",
+
+    "structure": {
+      "form": "short story in three movements: the frozen society explained, the time loop, the release and possession",
+      "movements": [
+        "The Controller's office: Stabilization explained as the answer to civilization reaching its ceiling.",
+        "The invention switched on: a time loop through a dead future, the warning voice, and the globe.",
+        "The overlapping return, the globe's true nature revealed, and its release into the world through Benton."
+      ],
+      "point_of_view": "third person close to Benton throughout, so the reader shares his gradual realization that he has been an instrument rather than an agent from the moment the story opened.",
+      "structural_device": "A closed time loop in which Benton's second visit to the Controller precedes, from the Controller's perspective, the first — the earliest example in this reading of the achronological structure Dick would use throughout his career."
+    },
+
+    "characters": [
+      { "name": "Robert Benton", "role": "citizen of the City of Lightness", "note": "Ordinary and comfort-seeking at the story's opening ('I don't want it to go to waste'), and entirely hollowed out by its end, marching to a machine 'faithfully' with no memory of ever having chosen to." },
+      { "name": "The Controller", "role": "local administrator of Stability", "note": "The one character who recognizes the ancient legend of the city trapped in glass, and is overridden by the globe's compulsion at the critical moment regardless." },
+      { "name": "The globe / the buried city", "role": "antagonist", "note": "An imprisoned civilization of 'evil' that spent years orchestrating a chain of cause and effect through an unwitting host to engineer its own release — the story's real protagonist, in the sense that it is the only entity that gets what it wants." }
     ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 6,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
+
+    "settings": [
+      { "name": "The City of Lightness", "note": "A future built on flight and rigid stasis — technologically fantastic and socially frozen at the same historical moment, a full generation before Dick would make that same combination a signature." },
+      { "name": "The barren future glimpsed through the time machine", "note": "Grain fields giving way to forest giving way to a dead, level plain — the story's vision of what lies temporally adjacent to Stabilization's frozen present." },
+      { "name": "The Control Offices", "note": "A vast card-sorting bureaucracy that keeps Stability running, explicitly compared to 'a great symphony orchestra' in which one person out of time would collapse the whole structure." }
+    ],
+
+    "motifs": [
+      "Stabilization as the deliberate arrest of civilization's forward motion, enforced by examination and disappearance",
+      "A closed causal loop: the effect (Benton's second visit) precedes its own cause from another character's point of view",
+      "A voice warning against picking something up, ignored, exactly as in the temptation stories this predates the mature use of",
+      "Possession without memory — Benton at the story's end serves a machine, 'faithfully,' having lost all trace of his own volition",
+      "Glass as containment for something ancient and hostile, later echoed across Dick's career in objects that turn out to be traps or vessels"
+    ],
+
+    "significance": "As Dick's earliest surviving story, written in high school years before any professional sale, 'Stability' is most valuable as a record of what was already there at the start: a frozen, examination-enforced society; a device that breaks linear time into a loop; and an ending in which the protagonist is hollowed out and turned into an instrument of something else's will, without any dramatic reversal restoring his agency. Those are not incidental juvenile choices — they are the exact triad Dick would spend the next three decades refining. The story's crudeness is real (the globe's plan and its execution are not made to cohere in any rigorous way), but its instincts are already unmistakably his.",
+
+    "closing_note": "The story does not end with Benton defeating anything. It ends with him marching to work the next morning, wondering about his next rest day — the same small, comfort-seeking man from the opening page, now serving a purpose he cannot remember choosing."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Palm", "entity_id": "TERM_palm", "count": 2, "distinctiveness": 18.51, "note": "The globe resting in Benton's palm — a small but marked image of the trap being held rather than the reverse." },
+      { "label": "Fall", "entity_id": "TERM_fall", "count": 3, "distinctiveness": 3.76, "note": "Both the literal fall through the time tunnel and the story's underlying fall-from-stasis anxiety." },
+      { "label": "Light", "entity_id": "TERM_light", "count": 4, "distinctiveness": 3.25, "note": "Named directly in 'the City of Lightness.'" }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "time", "basis": "the earliest instance in this corpus of a closed causal loop, where a character's later visit precedes his own earlier one from another character's perspective" },
+      { "theme": "empire-control", "basis": "Stabilization as a totalizing, examination-enforced freeze on all social and technological change" },
+      { "theme": "reality-breakdown", "basis": "the barren cyclical world glimpsed through the time machine, and the dissolution of Benton's own will and memory by the story's end" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 1,
+    "summary": "No direct commentary by Dick on this story was found; the one hit is Sutin quoting the Exegesis on an unrelated topic that happens to share the word 'Stability'.",
+    "evidence": [],
+    "gap_noted": "As unpublished juvenilia, this story would not appear in Dick's own bibliographic correspondence about sales or anthology contents, which is where most of the 'PKD on his own work' evidence in this project comes from. Any direct comment by Dick on this specific story would most likely surface only in a letter discussing his earliest writing, if one survives."
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 4,
-    "quotes": [
-     {
-      "line": 957,
-      "quote": "…suggestion, he never spoke of it, and no Phil Dick story was to appear until 1952. One unpublished SF story-“Stability”-does survive from his high school years, however. “Stability” depicts a post-twenty-fifth-century dystopia g…"
-     },
-     {
-      "line": 957,
-      "quote": "…to appear until 1952. One unpublished SF story-“Stability”-does survive from his high school years, however. “Stability” depicts a post-twenty-fifth-century dystopia governed by the stifling principle of “Stabilization,” which pe…"
-     },
-     {
-      "line": 5485,
-      "quote": "…adens the human spirit by denying all ideals that cannot be objectively proven. (There is a similar world in “Stability,” a story Phil wrote in high school. See Chapter 3.) Floyd Jones, a disgruntled carny fortune-teller (born in…"
-     },
-     {
-      "line": 5887,
-      "quote": "…le Jackie: C 5 of Martian Time-Slip (1964). ## **Chapter 3: Forward Into The “Real” World** PKD’s works: “Stability,” unpublished short story from high school days, in PKD Estate Archives. Gather Yourselves Together, unpublis…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 1516,
-      "quote": "…to the SF’s text’s inclusion of images of reading, rather than of writing. Other relevant works by Dick are ‘Stability’ (c.1947, CS1), ‘Prominent Author’ (1954, CS2), and _Radio Free Albemuth_ (1985). 108 EXHILARATION AND TERR…"
-     },
-     {
-      "line": 3770,
-      "quote": "…fferences, as _World of Chance_ ) 6n6, 36, 39n19 class in 185n12, 204n4, 209n8 journeying in 51, 114, 114n11 ‘Stability’ 107n33 ‘Survey Team’ 50n18 _Teeth_ , _see The Man Whose Teeth Were All Exactly Alike Three Stigmata of Pal…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 6,
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 957,
+        "quote": "One unpublished SF story — \"Stability\" — does survive from his high school years, however. \"Stability\" depicts a post-twenty-fifth-century dystopia governed by the stifling principle of \"Stabilization,\"",
+        "reading": "The essential biographical fact: this is Dick's earliest known story, predating his professional career by roughly five years."
+      },
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 5887,
+        "quote": "\"Stability,\" unpublished short story from high school days, in PKD Estate Archives.",
+        "reading": "Sutin's bibliographic entry confirms the archival status directly."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1516,
+        "quote": "Other relevant works by Dick are \"Stability\" (c.1947, CS1), \"Prominent Author\" (1954, CS2), and Radio Free Albemuth (1985).",
+        "reading": "Palmer dates the story to c. 1947 and groups it with two much later works on the strength of a shared concern — the surrounding argument (about images of reading and writing) should be read in full."
+      }
+    ]
+  },
+
+  "contradictions": [
+    {
+      "type": "bibliographic",
+      "summary": "The story is documented as unpublished archival juvenilia, yet a complete, readable text of it exists in the scanned Collected Stories corpus this project draws on.",
+      "claim_a": { "lane": "C", "source": "Sutin, Divine Invasions l.5887", "text": "unpublished short story from high school days, in PKD Estate Archives" },
+      "claim_b": { "lane": "A", "source": "this corpus", "text": "a complete 4,831-word text appears in the scanned Collected Stories volume used for this reading" },
+      "editorial_status": "unresolved_by_design",
+      "note": "Not necessarily a real contradiction — 'Stability' may have been included as juvenilia in a later, more complete printing of the Collected Stories than the one Sutin had in mind, or the scan may include material assembled after Sutin's 1989 biography. Worth checking the specific collection volume before treating this text as fully authoritative."
+    }
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "6 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "open_questions": [
+    "Which physical edition of the Collected Stories includes 'Stability', and does its editorial note explain how the juvenile manuscript came to be typeset alongside the professional stories?",
+    "Palmer's grouping of this story with 'Prominent Author' and Radio Free Albemuth around 'images of reading and writing' is asserted but not explained in the captured excerpt — the fuller passage would clarify what throughline he sees.",
+    "Given how precisely this story anticipates Dick's mature concerns, is there any later interview in which he was asked about his earliest writing and might have mentioned it?"
+  ],
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 4,831 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 direct citations found.",
+    "layer_4_criticism": "6 across Sutin and Palmer.",
+    "related_dossiers": "adjustment-team (closed-loop, administered-reality theme, decades later).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

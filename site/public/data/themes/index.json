@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 63,
+  "fiction_work_count": 65,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -434,7 +434,7 @@
       "slug": "betrayal",
       "label": "Betrayal",
       "description": "Deception, imposture, treachery, and the collapse of trust between people or institutions.",
-      "work_count": 28,
+      "work_count": 29,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -444,6 +444,15 @@
           "work_type": "short_stories",
           "date_display": "circa 1952–1955",
           "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_adjustment-team",
+          "canonical_title": "Adjustment Team",
+          "slug": "adjustment-team",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Orbit Science Fiction, September-October 1954",
+          "date_start": "1954"
         },
         {
           "work_id": "WORK_the-father-thing",
@@ -696,7 +705,7 @@
       "slug": "reality-breakdown",
       "label": "Reality Breakdown",
       "description": "Unstable reality, temporal slippage, projected worlds, and the breakdown of ordinary perception.",
-      "work_count": 39,
+      "work_count": 40,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -1048,6 +1057,15 @@
           "work_type": "short_stories",
           "date_display": "Unknown",
           "date_start": null
+        },
+        {
+          "work_id": "WORK_stability",
+          "canonical_title": "Stability",
+          "slug": "stability",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Unpublished in his lifetime; held in the PKD Estate Archives",
+          "date_start": ""
         }
       ],
       "essay_path": "themes/essays/reality-breakdown.md"
@@ -1130,7 +1148,7 @@
       "slug": "illusionary-realities",
       "label": "Illusionary Realities",
       "description": "Simulations, false worlds, mimicry, illusions, and counterfeit reality-systems.",
-      "work_count": 31,
+      "work_count": 32,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -1176,6 +1194,15 @@
           "work_type": "novelette",
           "date_display": "Galaxy, January 1953",
           "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_adjustment-team",
+          "canonical_title": "Adjustment Team",
+          "slug": "adjustment-team",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Orbit Science Fiction, September-October 1954",
+          "date_start": "1954"
         },
         {
           "work_id": "WORK_pay-for-the-printer",
@@ -1501,7 +1528,7 @@
       "slug": "time",
       "label": "Time",
       "description": "Temporal distortion, regression, precognition, time slips, and altered historical sequence.",
-      "work_count": 11,
+      "work_count": 12,
       "works": [
         {
           "work_id": "WORK_the-preserving-machine",
@@ -1601,6 +1628,15 @@
           "work_type": "novel",
           "date_display": "2008",
           "date_start": "2008"
+        },
+        {
+          "work_id": "WORK_stability",
+          "canonical_title": "Stability",
+          "slug": "stability",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Unpublished in his lifetime; held in the PKD Estate Archives",
+          "date_start": ""
         }
       ],
       "essay_path": "themes/essays/time.md"
@@ -1610,7 +1646,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 29,
+      "work_count": 31,
       "works": [
         {
           "work_id": "WORK_the-defenders",
@@ -1629,6 +1665,15 @@
           "work_type": "short_story",
           "date_display": "The Magazine of Fantasy & Science Fiction, June 1953",
           "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_adjustment-team",
+          "canonical_title": "Adjustment Team",
+          "slug": "adjustment-team",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Orbit Science Fiction, September-October 1954",
+          "date_start": "1954"
         },
         {
           "work_id": "WORK_the-golden-man",
@@ -1872,6 +1917,15 @@
           "work_type": "novelette",
           "date_display": "",
           "date_start": ""
+        },
+        {
+          "work_id": "WORK_stability",
+          "canonical_title": "Stability",
+          "slug": "stability",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Unpublished in his lifetime; held in the PKD Estate Archives",
+          "date_start": ""
         }
       ],
       "essay_path": "themes/essays/empire-control.md"
@@ -1881,7 +1935,7 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 11,
+      "work_count": 12,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -1900,6 +1954,15 @@
           "work_type": "short_story",
           "date_display": "The Magazine of Fantasy & Science Fiction, June 1953",
           "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_adjustment-team",
+          "canonical_title": "Adjustment Team",
+          "slug": "adjustment-team",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Orbit Science Fiction, September-October 1954",
+          "date_start": "1954"
         },
         {
           "work_id": "WORK_the-cosmic-puppets",

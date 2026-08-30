@@ -164,6 +164,10 @@ Six years into a nuclear war that has left most of the northern hemisphere ash, 
 
 Selected Stories of Philip K. In a story collection like [Selected Stories of Philip K. Dick](/works/selected-stories-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Stability
+
+In a future City of Lightness where citizens fly on mechanical wings, Robert Benton is summoned to the Controller's office and told that an invention he has no memory of submitting has been denied: humanity, having reached the absolute... In a story collection like [Stability](/works/stability), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ## Synthesis
 
 Across these works, reality breakdown is not a static topic but a literary machine: Dick uses it to strain plot logic, expose false surfaces, and test whether a character's inner life can survive contact with the system around them. The fiction does not simply mention the theme; it stages it as a recurring formal event.

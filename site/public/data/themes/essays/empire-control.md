@@ -16,6 +16,10 @@ Eight years into a nuclear war, the entire human population of both blocs lives 
 
 Doc Labyrinth, convinced that civilisation is going the way of Rome and that a dark age is coming, worries that music is the most perishable of the things that will be lost. In a story collection like [The Preserving Machine](/works/the-preserving-machine), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Adjustment Team
+
+A Clerk arrives to make sure a sleepy dog — the neighborhood's Summoner — barks at exactly 8:15 to bring insurance salesman Ed Fletcher 'A Friend with a Car,' getting him to his office an hour early before Sector T137 is taken offline for... In a story collection like [Adjustment Team](/works/adjustment-team), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Golden Man
 
 In a post-war America where radiation has produced mutants — 'deeves' — the Department of Civic Anthropology hunts and euthanises them at birth; eighty-seven types have been catalogued and dealt with in sixty years. In a story collection like [The Golden Man](/works/the-golden-man), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -123,6 +127,10 @@ Five Novels of the 1960s and 70s is the canonical works record for PKD's novel. 
 ### Second Variety
 
 Six years into a nuclear war that has left most of the northern hemisphere ash, the American government has withdrawn to a Moon base and left its troops dug into bunkers on a dead Earth. In a story collection like [Second Variety](/works/second-variety), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### Stability
+
+In a future City of Lightness where citizens fly on mechanical wings, Robert Benton is summoned to the Controller's office and told that an invention he has no memory of submitting has been denied: humanity, having reached the absolute... In a story collection like [Stability](/works/stability), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 
