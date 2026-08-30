@@ -96,6 +96,10 @@ In a near-future California, Congress has extended abortion law past birth: a ch
 
 Confessions of a Crap Artist is the canonical works record for PKD's novel. In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Exit Door Leads In
+
+Bob Bibleman, a floating-home salesman in a future where robots handle all low-wage work, idly answers a fast-food robot's contest question and wins, at two-trillion-to-one odds, a full scholarship to the College — an elite, unadvertised... In a story collection like [The Exit Door Leads In](/works/the-exit-door-leads-in), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Unteleported Man
 
 The Unteleported Man is the canonical works record for PKD's novel. In a novel like [The Unteleported Man](/works/the-unteleported-man), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

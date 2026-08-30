@@ -1,270 +1,129 @@
 {
- "artifact_id": "ART_DOSSIER_THE_EXIT_DOOR_LEADS_IN",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-exit-door-leads-in",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Exit Door Leads In",
-  "slug": "the-exit-door-leads-in",
-  "form": "story",
-  "word_count": 6713,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 56241,
-   "line_end": 56790,
-   "word_count": 6713,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Anaximander",
-    "name_id": "NAME_anaximander",
-    "mentions": 1
-   },
-   {
-    "name": "Xenophanes",
-    "name_id": "NAME_xenophanes",
-    "mentions": 1
-   },
-   {
-    "name": "Anaxagoras",
-    "name_id": "NAME_anaxagoras",
-    "mentions": 1
-   },
-   {
-    "name": "Mary",
-    "name_id": "NAME_mary",
-    "mentions": 38
-   },
-   {
-    "name": "Ikhnaton",
-    "name_id": "NAME_ikhnaton",
-    "mentions": 1
-   },
-   {
-    "name": "Sophia",
-    "name_id": "NAME_sophia",
-    "mentions": 1
-   },
-   {
-    "name": "The authorities",
-    "name_id": "NAME_the-authorities",
-    "mentions": 1
-   },
-   {
-    "name": "The Russian",
-    "name_id": "NAME_the-russian",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Empedocles",
-    "entity_id": "TERM_empedocles",
-    "count": 5,
-    "distinctiveness": 48.95
-   },
-   {
-    "label": "Diagram",
-    "entity_id": "TERM_diagram",
-    "count": 2,
-    "distinctiveness": 29.48
-   },
-   {
-    "label": "Yang",
-    "entity_id": "TERM_yang",
-    "count": 1,
-    "distinctiveness": 21.15
-   },
-   {
-    "label": "Moses",
-    "entity_id": "TERM_moses",
-    "count": 1,
-    "distinctiveness": 18.47
-   },
-   {
-    "label": "Jesus Christ",
-    "entity_id": "TERM_jesus-christ",
-    "count": 1,
-    "distinctiveness": 16.4
-   },
-   {
-    "label": "Apollo",
-    "entity_id": "TERM_apollo",
-    "count": 1,
-    "distinctiveness": 16.4
-   },
-   {
-    "label": "Heraclitus",
-    "entity_id": "TERM_heraclitus",
-    "count": 1,
-    "distinctiveness": 16.4
-   },
-   {
-    "label": "Taoist",
-    "entity_id": "TERM_taoist",
-    "count": 1,
-    "distinctiveness": 16.4
-   },
-   {
-    "label": "Prison",
-    "entity_id": "TERM_prison",
-    "count": 2,
-    "distinctiveness": 10.09
-   },
-   {
-    "label": "Greek",
-    "entity_id": "TERM_greek",
-    "count": 2,
-    "distinctiveness": 9.44
-   },
-   {
-    "label": "Jesus",
-    "entity_id": "TERM_jesus",
-    "count": 1,
-    "distinctiveness": 9.17
-   },
-   {
-    "label": "Christ",
-    "entity_id": "TERM_christ",
-    "count": 3,
-    "distinctiveness": 5.69
-   },
-   {
-    "label": "Father",
-    "entity_id": "TERM_father",
-    "count": 11,
-    "distinctiveness": 4.61
-   },
-   {
-    "label": "Girl",
-    "entity_id": "TERM_girl",
-    "count": 11,
-    "distinctiveness": 3.5
-   },
-   {
-    "label": "Fish",
-    "entity_id": "TERM_fish",
-    "count": 1,
-    "distinctiveness": 3.48
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 5,
-    "distinctiveness": 3.24
-   },
-   {
-    "label": "Wisdom",
-    "entity_id": "TERM_wisdom",
-    "count": 1,
-    "distinctiveness": 2.18
-   },
-   {
-    "label": "Being",
-    "entity_id": "TERM_being",
-    "count": 7,
-    "distinctiveness": 1.96
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 3,
-    "distinctiveness": 1.65
-   },
-   {
-    "label": "Self",
-    "entity_id": "TERM_self",
-    "count": 1,
-    "distinctiveness": 1.57
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 2,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
-    "author": null,
-    "lane": "B",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 11080,
-      "quote": "…on of/by the plasma; she represents a government regulatory agency—as Mary Lorne represents the college in \"The Exit Door Leads In.\" The government (à la Ursula) is worried about Owl's mental health: \"spiraling into himself and slowly going…"
-     },
-     {
-      "line": 13282,
-      "quote": "…[>], [>] _Enough to Scare the Dead_ (working book title), [>]–[>], [>], [>], [>], [>]–[>], [>], [>]–[>] \"The Exit Door Leads In,\" [>] _Eye in the Sky,_ [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>] \"The Eyes Have It,\" [>…"
-     }
+  "artifact_id": "ART_DOSSIER_THE_EXIT_DOOR_LEADS_IN",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-exit-door-leads-in",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Exit Door Leads In",
+    "slug": "the-exit-door-leads-in",
+    "form": "short story",
+    "word_count": 6713,
+    "lane": "A",
+    "first_publication": "Rolling Stone College Papers, Fall 1979",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 56241,
+      "line_end": 56790,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Bob Bibleman, a floating-home salesman in a future where robots handle all low-wage work, idly answers a fast-food robot's contest question and wins, at two-trillion-to-one odds, a full scholarship to the College — an elite, unadvertised, military-chartered institution that selects rather than being selected. He is conscripted rather than invited: Major Casals informs him by phone that attendance is mandatory and that he now holds military rank. At orientation he meets Mary Lorne, a sharp, self-possessed fellow student who publicly corrects Major Casals on a point of mineralogy without fear. Assigned, seemingly at random, to study pre-Socratic philosophy, Bibleman discovers on his very first day that the College's teaching terminal has an uncatalogued cross-reference error: buried under a subheading on Empedocles is the complete, top-secret schematic for the Panther Engine, a classified hydroelectric turbine design that could halve power costs for the public. He steals a printout, hides it, and agonizes for a full day over whether to publish it as an act of public good, sell it, or destroy it — settling, after a night in which he dreams of his dead father's love, on returning it out of a self-defined sense of loyalty to the College itself. He is immediately expelled. Major Casals and Mary Lorne then reveal that the entire episode was a standardized test given to every student: real learning requires the capacity to disobey illegitimate authority, which cannot be taught directly, only modeled — and Bibleman, by choosing obedience and loyalty over rebellion, has failed a test he was never told he was taking and can never be given again.",
+
+    "structure": {
+      "form": "short story in three movements: the rigged contest, the rigged classified leak, the revealed rigging",
+      "movements": [
+        "The contest, the conscription, and orientation — establishing an institution that selects, coerces, and threatens without ever explaining its real purpose.",
+        "The leaked schematic, and Bibleman's private, agonized deliberation over whether to publish, sell, or destroy classified information that could benefit the public.",
+        "The return of the schematic, the immediate expulsion, and Mary Lorne's revelation that the entire test measured the capacity to disobey — which cannot itself be commanded."
+      ],
+      "point_of_view": "third person close to Bibleman throughout, so his mistaken inference about what loyalty requires of him is the reader's mistake too, corrected only in the story's final scene.",
+      "central_device": "A test whose actual criterion is disobedience to authority, administered by an authority — a structural paradox the story states explicitly and does not attempt to resolve or soften."
+    },
+
+    "characters": [
+      { "name": "Bob Bibleman", "role": "floating-home salesman, conscripted student", "note": "A quietly ethical man whose entire moral training has been in submission to authority he does not like but accepts as legitimate — precisely the trained response the College's test is designed to detect and correct." },
+      { "name": "Mary Lorne", "role": "fellow student, later revealed as an agent of the College itself", "note": "Modeled disobedience for Bibleman from their first meeting, correcting Major Casals in public without fear, and is honest with him afterward that she could not simply tell him what the test required — only demonstrate it." },
+      { "name": "Major Casals", "role": "military instructor", "note": "Delivers real threats (military tribunal, jail) that turn out to be, at least in Bibleman's case, entirely without consequence — waived the moment loyalty rather than fear becomes the stated justification for compliance." }
     ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 2,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
+
+    "settings": [
+      { "name": "The College", "note": "An institution that recruits by force, teaches partly through calculated security leaks, and evaluates students on a criterion — disobedience — that it can never announce in advance without destroying the test." },
+      { "name": "Bibleman's cubicle terminal", "note": "Where an apparent cross-referencing accident hands a conscripted, powerless student classified information capable of benefiting the entire public — a temptation engineered rather than accidental." }
+    ],
+
+    "motifs": [
+      "A prize or reward that is actually a trap, announced by the title itself: the exit leads back in",
+      "Authority that punishes disobedience on paper while secretly requiring it to pass",
+      "A father's remembered or dreamed love standing in for the approval Bibleman ultimately seeks from the wrong source",
+      "A test that cannot be explained in advance without invalidating itself, and can never be retaken once its mechanism is known",
+      "Classified information as bait rather than genuine secret — its real function is to reveal the test-taker's character, not to be kept or released"
+    ],
+
+    "significance": "The story's title states its logic plainly: what looks like an exit — a prize, a scholarship, an escape from an unremarkable life — turns out to be a further, more sophisticated form of entrapment, and Dick returns to the phrase elsewhere as a description of narrative and interpretive structures generally, not just this story's plot. What makes the ending genuinely difficult rather than merely ironic is that Bibleman's failure is a failure of loyalty misapplied — he acts rightly by his own lights, choosing what he takes to be integrity over self-interest, and is punished for it precisely because the authority he was loyal to needed him to defy it instead. Mary Lorne's closing explanation refuses to resolve this into simple villainy: the College's goal (producing people capable of resisting illegitimate authority) is genuinely good, and its method (an authority secretly testing for disobedience to authority) is structurally self-undermining regardless of anyone's intentions.",
+
+    "closing_note": "Three nights later, back at his old fast-food robot, Bibleman is told there is no contest for him anymore — the exit door has fully closed, and the story ends with him paying for his food rather than being swept into any further test."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Prison", "entity_id": "TERM_prison", "count": 1, "distinctiveness": 10.09, "note": "The stated consequence for releasing classified information, waived the moment the story's real criterion shifts from fear to loyalty." },
+      { "label": "Greek", "entity_id": "TERM_greek", "count": 2, "distinctiveness": 9.44, "note": "The pre-Socratic curriculum that turns out to conceal the Panther Engine schematics." }
+    ],
+    "names_matched": ["NAME_mary", "NAME_sophia", "NAME_the-authorities", "NAME_the-russian"],
+    "note_on_terms": "Most of the highest-scoring terms (Empedocles, Yang, Apollo, Heraclitus, Taoist, Moses, Ikhnaton) are proper names or philosophical school-terms specific to the pre-Socratic curriculum Bibleman is assigned, not distinctive Dick vocabulary in the usual sense — flagged rather than proposed as dictionary links, since their high scores reflect subject matter rather than authorial preoccupation.",
+    "thematic_links_proposed": [
+      { "theme": "empire-control", "basis": "an institution that recruits by coercion and administers a covert loyalty test through the appearance of a security breach" },
+      { "theme": "betrayal", "basis": "Bibleman's good-faith loyalty to the College is precisely what the College needed him to betray, and precisely why he is expelled" },
+      { "theme": "authentic-human", "basis": "the story's explicit thesis that genuine moral development requires the capacity to disobey an authority, which cannot itself be commanded into existence" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 2,
+    "summary": "Dick draws a direct structural parallel between this story's Mary Lorne and a similar figure in another late work, confirming the character's institutional-authority role as a recurring device in his final period.",
+    "evidence": [
+      {
+        "source": "The Exegesis of Philip K. Dick",
+        "line": 11080,
+        "quote": "she represents a government regulatory agency—as Mary Lorne represents the college in \"The Exit Door Leads In.\"",
+        "reading": "Dick using this story's central device (a person who is secretly an institution) as a reference point for understanding a similar figure elsewhere in his late fiction — confirmation that the Mary-Lorne-as-College reveal was a considered device, not a one-off twist."
+      }
+    ]
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 4879,
-      "quote": "…tor” award. Another coup came when “Rautavaara’s Case” appeared in the October 1980 Omni. A third new story, “The Exit Door Leads In,” was featured in the fall 1979 Rolling Stone College Papers. (For discussion of these stories, see I Hope I…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 514,
-      "quote": "…reader has pieced together. ‘This was just the beginning’ runs the last sentence of the novel (ch. 17, 202): ‘The Exit Door Leads In’, to quote the title of one of Dick’s late short stories (1979, CS5). We have not a conclusion but the sign o…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 2,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 514,
+        "quote": "'This was just the beginning' runs the last sentence of the novel (ch. 17, 202): 'The Exit Door Leads In', to quote the title of one of Dick's late short stories (1979, CS5). We have not a conclusion but the sign o[f...]",
+        "reading": "Palmer uses this story's title as a ready-made phrase for describing the structural irresolution of Dick's late novels generally — a case where a short story's title becomes critical shorthand for a career-wide pattern."
+      },
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 4879,
+        "quote": "A third new story, \"The Exit Door Leads In,\" was featured in the fall 1979 Rolling Stone College Papers.",
+        "reading": "Places the story precisely: a late piece, published outside the usual genre magazines, in a special college-oriented supplement — fitting subject matter for its setting."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Palmer's sentence about 'the sign of' something is cut off before its conclusion — the fuller passage would clarify exactly what structural feature he thinks this story's title exemplifies across Dick's late novels.",
+    "Which late-period work does the Exegesis passage compare this story to (the 'she' who represents a government regulatory agency)? Identifying it would let both stories be read together as a matched pair.",
+    "The story's classified-information subplot (the Panther Engine) is never explained mechanically — it functions purely as bait. Worth checking whether Dick discusses the mechanics of the test itself anywhere, i.e. whether every student really does receive an equivalent leak."
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "2 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "2 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 6,713 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "2 citations, one substantive Exegesis cross-reference.",
+    "layer_4_criticism": "2, from Palmer and Sutin.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

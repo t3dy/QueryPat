@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 12578,
-  "line_end": 13157,
-  "word_count": 9553,
+  "line_end": 13044,
+  "word_count": 6042,
   "status": "ready"
  },
  "structure": {
@@ -18,249 +18,148 @@
   "terms": [
    {
     "entity_type": "term",
-    "entity_id": "TERM_heraclitus",
-    "label": "Heraclitus",
-    "count": 2,
-    "per_million": 209.4,
-    "background_per_million": 4.1,
-    "distinctiveness": 23.04
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_phenomenal-world",
-    "label": "Phenomenal World",
-    "count": 1,
-    "per_million": 104.7,
-    "background_per_million": 1.0,
-    "distinctiveness": 17.38
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_platonic",
-    "label": "Platonic",
-    "count": 1,
-    "per_million": 104.7,
-    "background_per_million": 1.0,
-    "distinctiveness": 17.38
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_deus",
-    "label": "Deus",
-    "count": 1,
-    "per_million": 104.7,
-    "background_per_million": 3.1,
-    "distinctiveness": 12.98
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_tony",
-    "label": "Tony",
-    "count": 12,
-    "per_million": 1256.1,
-    "background_per_million": 125.6,
-    "distinctiveness": 9.62
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_realm",
-    "label": "Realm",
-    "count": 1,
-    "per_million": 104.7,
-    "background_per_million": 10.2,
-    "distinctiveness": 6.88
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_tears",
-    "label": "Tears",
-    "count": 2,
-    "per_million": 209.4,
-    "background_per_million": 35.8,
-    "distinctiveness": 5.14
-   },
-   {
-    "entity_type": "term",
     "entity_id": "TERM_fish",
     "label": "Fish",
     "count": 2,
-    "per_million": 209.4,
+    "per_million": 331.0,
     "background_per_million": 37.8,
-    "distinctiveness": 4.89
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_march",
-    "label": "March",
-    "count": 1,
-    "per_million": 104.7,
-    "background_per_million": 22.5,
-    "distinctiveness": 3.81
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_philip",
-    "label": "Philip",
-    "count": 4,
-    "per_million": 418.7,
-    "background_per_million": 124.6,
-    "distinctiveness": 3.23
+    "distinctiveness": 7.74
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_iron",
     "label": "Iron",
     "count": 1,
-    "per_million": 104.7,
+    "per_million": 165.5,
     "background_per_million": 29.6,
-    "distinctiveness": 3.02
+    "distinctiveness": 4.78
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_cosmic",
     "label": "Cosmic",
     "count": 1,
-    "per_million": 104.7,
+    "per_million": 165.5,
     "background_per_million": 31.7,
-    "distinctiveness": 2.86
+    "distinctiveness": 4.51
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_paul",
-    "label": "Paul",
-    "count": 2,
-    "per_million": 209.4,
-    "background_per_million": 74.6,
-    "distinctiveness": 2.63
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_therefore",
-    "label": "Therefore",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
     "count": 1,
-    "per_million": 104.7,
-    "background_per_million": 39.8,
-    "distinctiveness": 2.33
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_thomas",
-    "label": "Thomas",
-    "count": 1,
-    "per_million": 104.7,
-    "background_per_million": 44.9,
-    "distinctiveness": 2.1
+    "per_million": 165.5,
+    "background_per_million": 35.8,
+    "distinctiveness": 4.06
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_lord",
     "label": "Lord",
     "count": 2,
-    "per_million": 209.4,
+    "per_million": 331.0,
     "background_per_million": 103.2,
-    "distinctiveness": 1.94
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_garden",
-    "label": "Garden",
-    "count": 1,
-    "per_million": 104.7,
-    "background_per_million": 55.2,
-    "distinctiveness": 1.74
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_golden",
-    "label": "Golden",
-    "count": 1,
-    "per_million": 104.7,
-    "background_per_million": 59.2,
-    "distinctiveness": 1.63
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_great",
-    "label": "Great",
-    "count": 9,
-    "per_million": 942.1,
-    "background_per_million": 589.4,
-    "distinctiveness": 1.59
+    "distinctiveness": 3.06
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_house",
     "label": "House",
-    "count": 8,
-    "per_million": 837.4,
+    "count": 7,
+    "per_million": 1158.6,
     "background_per_million": 529.1,
+    "distinctiveness": 2.17
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 7,
+    "per_million": 1158.6,
+    "background_per_million": 589.4,
+    "distinctiveness": 1.95
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 1,
+    "per_million": 165.5,
+    "background_per_million": 89.9,
+    "distinctiveness": 1.74
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 4,
+    "per_million": 662.0,
+    "background_per_million": 397.3,
+    "distinctiveness": 1.65
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 3,
+    "per_million": 496.5,
+    "background_per_million": 311.5,
     "distinctiveness": 1.57
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 8,
+    "per_million": 1324.1,
+    "background_per_million": 868.2,
+    "distinctiveness": 1.52
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 1,
+    "per_million": 165.5,
+    "background_per_million": 105.2,
+    "distinctiveness": 1.5
    }
   ],
   "names": [
    {
     "entity_type": "name",
-    "entity_id": "NAME_tony-boucher",
-    "label": "Tony Boucher",
-    "count": 4,
-    "per_million": 418.7,
-    "background_per_million": 7.2,
-    "distinctiveness": 34.46
-   },
-   {
-    "entity_type": "name",
-    "entity_id": "NAME_tony-the-tiger",
-    "label": "Tony the Tiger",
-    "count": 1,
-    "per_million": 104.7,
-    "background_per_million": 1.0,
-    "distinctiveness": 17.38
-   },
-   {
-    "entity_type": "name",
-    "entity_id": "NAME_thomas-mann",
-    "label": "Thomas Mann",
-    "count": 1,
-    "per_million": 104.7,
-    "background_per_million": 1.0,
-    "distinctiveness": 17.38
-   },
-   {
-    "entity_type": "name",
-    "entity_id": "NAME_paul-williams",
-    "label": "Paul Williams",
-    "count": 1,
-    "per_million": 104.7,
-    "background_per_million": 10.2,
-    "distinctiveness": 6.88
-   },
-   {
-    "entity_type": "name",
     "entity_id": "NAME_mary",
     "label": "Mary",
     "count": 17,
-    "per_million": 1779.5,
+    "per_million": 2813.6,
     "background_per_million": 276.8,
-    "distinctiveness": 6.31
-   },
-   {
-    "entity_type": "name",
-    "entity_id": "NAME_humans",
-    "label": "Humans",
-    "count": 3,
-    "per_million": 314.0,
-    "background_per_million": 112.4,
-    "distinctiveness": 2.68
+    "distinctiveness": 9.98
    }
   ],
-  "distinct_terms": 20,
-  "distinct_names": 6
+  "distinct_terms": 12,
+  "distinct_names": 1
  },
  "title_search": {
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
  },
  "pkd_on_this_work": {
   "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "is_author_story_note": true,
+    "quotes": [
+     {
+      "line": null,
+      "quote": "## **Volume Two THE COLLECTED STORIES OF PHILIP K. DICK** ## **SECOND VARIETY** ## **Introduction by Norman Spinard** ## **U/M** **UNDERWOOD/MILLER Los Angeles, California Columbia, Pennsylvania** **1987**",
+      "written_date": "8/26/52",
+      "alt_title": null
+     }
+    ],
+    "quotes_truncated": 0
+   },
    {
     "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
     "author": null,
@@ -275,7 +174,7 @@
     "quotes_truncated": 0
    }
   ],
-  "total_mentions": 1
+  "total_mentions": 2
  },
  "criticism": {
   "sources": [

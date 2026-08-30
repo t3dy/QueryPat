@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 73,
+  "fiction_work_count": 75,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -208,7 +208,7 @@
       "slug": "authentic-human",
       "label": "Authentic Human",
       "description": "Human authenticity, empathy, caritas, and the resistance to programmed or mechanical existence.",
-      "work_count": 29,
+      "work_count": 31,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -298,6 +298,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Startling Stories, Winter 1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_nanny",
+          "canonical_title": "Nanny",
+          "slug": "nanny",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Startling Stories, Spring 1955",
           "date_start": "1955"
         },
         {
@@ -400,6 +409,15 @@
           "date_start": "1975"
         },
         {
+          "work_id": "WORK_the-exit-door-leads-in",
+          "canonical_title": "The Exit Door Leads In",
+          "slug": "the-exit-door-leads-in",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Rolling Stone College Papers, Fall 1979",
+          "date_start": "1979"
+        },
+        {
           "work_id": "WORK_mary-and-the-giant",
           "canonical_title": "Mary and the Giant",
           "slug": "mary-and-the-giant",
@@ -479,7 +497,7 @@
       "slug": "betrayal",
       "label": "Betrayal",
       "description": "Deception, imposture, treachery, and the collapse of trust between people or institutions.",
-      "work_count": 33,
+      "work_count": 34,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -678,6 +696,15 @@
           "work_type": "novel",
           "date_display": "1975",
           "date_start": "1975"
+        },
+        {
+          "work_id": "WORK_the-exit-door-leads-in",
+          "canonical_title": "The Exit Door Leads In",
+          "slug": "the-exit-door-leads-in",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Rolling Stone College Papers, Fall 1979",
+          "date_start": "1979"
         },
         {
           "work_id": "WORK_the-unteleported-man",
@@ -1808,7 +1835,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 36,
+      "work_count": 38,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -1889,6 +1916,15 @@
           "category": "short_stories",
           "work_type": "novelette",
           "date_display": "Galaxy, November 1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_nanny",
+          "canonical_title": "Nanny",
+          "slug": "nanny",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Startling Stories, Spring 1955",
           "date_start": "1955"
         },
         {
@@ -2061,6 +2097,15 @@
           "work_type": "novel",
           "date_display": "1976",
           "date_start": "1976"
+        },
+        {
+          "work_id": "WORK_the-exit-door-leads-in",
+          "canonical_title": "The Exit Door Leads In",
+          "slug": "the-exit-door-leads-in",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Rolling Stone College Papers, Fall 1979",
+          "date_start": "1979"
         },
         {
           "work_id": "WORK_the-unteleported-man",
@@ -2351,7 +2396,7 @@
       "slug": "suburbia-domesticity",
       "label": "Suburbia & Domesticity",
       "description": "Family life, marriage, houses, domestic tension, and the suburban everyday.",
-      "work_count": 20,
+      "work_count": 21,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -2415,6 +2460,15 @@
           "work_type": "short_story",
           "date_display": "The Magazine of Fantasy & Science Fiction, December 1954",
           "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_nanny",
+          "canonical_title": "Nanny",
+          "slug": "nanny",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Startling Stories, Spring 1955",
+          "date_start": "1955"
         },
         {
           "work_id": "WORK_the-man-who-japed",

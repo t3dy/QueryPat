@@ -36,6 +36,10 @@ Verne Haskel, exhausted and embittered after twenty resentful years at Larson's 
 
 Eight-year-old Charles Walton is sent to fetch his father for dinner and comes back unable to say which of them to fetch: there are two, and they look alike. In a story collection like [The Father-thing](/works/the-father-thing), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Nanny
+
+In a comfortable future household, a spherical robot Nanny raises the Fields children with total competence — waking them, walking them safely to school, disciplining them with iron patience, protecting them from bullies and drunks. In a story collection like [Nanny](/works/nanny), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Man Who Japed
 
 The Man Who Japed is the canonical works record for PKD's novel. In a novel like [The Man Who Japed](/works/the-man-who-japed), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

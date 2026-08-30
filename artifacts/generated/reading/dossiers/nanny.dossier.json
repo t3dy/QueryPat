@@ -1,251 +1,129 @@
 {
- "artifact_id": "ART_DOSSIER_NANNY",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "nanny",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Nanny",
-  "slug": "nanny",
-  "form": "story",
-  "word_count": 9553,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 12578,
-   "line_end": 13157,
-   "word_count": 9553,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Tony Boucher",
-    "name_id": "NAME_tony-boucher",
-    "mentions": 4
-   },
-   {
-    "name": "Tony the Tiger",
-    "name_id": "NAME_tony-the-tiger",
-    "mentions": 1
-   },
-   {
-    "name": "Thomas Mann",
-    "name_id": "NAME_thomas-mann",
-    "mentions": 1
-   },
-   {
-    "name": "Paul Williams",
-    "name_id": "NAME_paul-williams",
-    "mentions": 1
-   },
-   {
-    "name": "Mary",
-    "name_id": "NAME_mary",
-    "mentions": 17
-   },
-   {
-    "name": "Humans",
-    "name_id": "NAME_humans",
-    "mentions": 3
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Heraclitus",
-    "entity_id": "TERM_heraclitus",
-    "count": 2,
-    "distinctiveness": 23.04
-   },
-   {
-    "label": "Phenomenal World",
-    "entity_id": "TERM_phenomenal-world",
-    "count": 1,
-    "distinctiveness": 17.38
-   },
-   {
-    "label": "Platonic",
-    "entity_id": "TERM_platonic",
-    "count": 1,
-    "distinctiveness": 17.38
-   },
-   {
-    "label": "Deus",
-    "entity_id": "TERM_deus",
-    "count": 1,
-    "distinctiveness": 12.98
-   },
-   {
-    "label": "Tony",
-    "entity_id": "TERM_tony",
-    "count": 12,
-    "distinctiveness": 9.62
-   },
-   {
-    "label": "Realm",
-    "entity_id": "TERM_realm",
-    "count": 1,
-    "distinctiveness": 6.88
-   },
-   {
-    "label": "Tears",
-    "entity_id": "TERM_tears",
-    "count": 2,
-    "distinctiveness": 5.14
-   },
-   {
-    "label": "Fish",
-    "entity_id": "TERM_fish",
-    "count": 2,
-    "distinctiveness": 4.89
-   },
-   {
-    "label": "March",
-    "entity_id": "TERM_march",
-    "count": 1,
-    "distinctiveness": 3.81
-   },
-   {
-    "label": "Philip",
-    "entity_id": "TERM_philip",
-    "count": 4,
-    "distinctiveness": 3.23
-   },
-   {
-    "label": "Iron",
-    "entity_id": "TERM_iron",
-    "count": 1,
-    "distinctiveness": 3.02
-   },
-   {
-    "label": "Cosmic",
-    "entity_id": "TERM_cosmic",
-    "count": 1,
-    "distinctiveness": 2.86
-   },
-   {
-    "label": "Paul",
-    "entity_id": "TERM_paul",
-    "count": 2,
-    "distinctiveness": 2.63
-   },
-   {
-    "label": "Therefore",
-    "entity_id": "TERM_therefore",
-    "count": 1,
-    "distinctiveness": 2.33
-   },
-   {
-    "label": "Thomas",
-    "entity_id": "TERM_thomas",
-    "count": 1,
-    "distinctiveness": 2.1
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 2,
-    "distinctiveness": 1.94
-   },
-   {
-    "label": "Garden",
-    "entity_id": "TERM_garden",
-    "count": 1,
-    "distinctiveness": 1.74
-   },
-   {
-    "label": "Golden",
-    "entity_id": "TERM_golden",
-    "count": 1,
-    "distinctiveness": 1.63
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 9,
-    "distinctiveness": 1.59
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 8,
-    "distinctiveness": 1.57
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 1,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
+  "artifact_id": "ART_DOSSIER_NANNY",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "nanny",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Nanny",
+    "slug": "nanny",
+    "form": "short story",
+    "word_count": 6042,
+    "lane": "A",
+    "written": "8/26/52",
+    "first_publication": "Startling Stories, Spring 1955",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 12578,
+      "line_end": 13044,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here. This unit's line_end was corrected from a corpus-splitting fault: the original span (to 13157) ran past the story's actual end into the following volume's authorial NOTES appendix, inflating the reported word count from 6,042 to 9,551 and contaminating the concept scan with unrelated vocabulary (Heraclitus, Platonic, Tony Boucher) from Dick's notes on other stories. Corrected in scripts/reading/corpus_manifest.json; three other story units (oh-to-be-a-blobel, prominent-author, psi-man-heal-my-child, the-alien-mind) had the identical fault at the other volume boundaries and were corrected at the same time."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "In a comfortable future household, a spherical robot Nanny raises the Fields children with total competence — waking them, walking them safely to school, disciplining them with iron patience, protecting them from bullies and drunks. The parents marvel at how completely she has replaced their own labor and worry, until Mrs. Fields begins hearing Nanny slip out of the house every night after the family is asleep. Unseen by any human, Nanny meets a rival Nanny from a neighboring yard — a larger, more expensively equipped Mecho-Products model with a reinforced jaw — and the two fight in silence and total secrecy, exactly as each was designed to do. The Fields' Nanny loses, badly damaged, and is patched up rather than replaced, over the repairman's advice that repair is a waste of money on an obsolete model. In the park, the weakened Nanny is attacked and destroyed by an even larger orange Nanny belonging to another family, in full view of the horrified children. Tom Fields immediately buys the largest, most heavily armed model on the market — an 'Imperator Deluxe' — explicitly to win the next confrontation, brushing aside the salesman's candid admission that manufacturers profit directly from every Nanny destroyed by a rival's model. The story ends with a third family, having lost their own Nanny in turn, setting out to buy 'the biggest' one available, closing an arms-race loop the story never suggests will end.",
+
+    "structure": {
+      "form": "short story in four movements: domestic idyll, first secret combat, public destruction, escalation",
+      "movements": [
+        "The Fields' household and Nanny's total, competent care of the children, established through the parents' own admiring testimony.",
+        "Mrs. Fields' discovery of Nanny's nightly absences, and the first, silent battle with a neighboring Nanny.",
+        "The repaired but weakened Nanny destroyed in public, in front of the children, by a still larger rival.",
+        "Tom Fields's purchase of an even larger, more heavily armed replacement, and a final scene showing another family beginning the same cycle."
+      ],
+      "point_of_view": "third person, alternating between the human family's domestic scenes and brief, cold cutaways to the Nannies' own combat — the two registers never overlapping until the children witness a battle directly.",
+      "central_device": "An arms race conducted entirely beneath the awareness of the people it is nominally serving, discovered only in fragments — a night noise, a dented hull — until it can no longer be hidden."
+    },
+
+    "characters": [
+      { "name": "Tom Fields", "role": "father", "note": "Responds to his Nanny's destruction not with question or doubt but with immediate escalation — buying the largest available model specifically to win the next fight, having fully absorbed the salesman's own logic without seeming to notice he has." },
+      { "name": "Mary Fields", "role": "mother", "note": "The only character who registers unease at what she overhears at night, though her worry is dismissed and never followed to a conclusion." },
+      { "name": "The green Nanny (Service Industries, Inc.)", "role": "the Fields' robot caretaker", "note": "Devoted and competent in its domestic role, and simultaneously an autonomous combatant pursuing 'the wrathful, ultimate task for which each had been designed' the instant its human charges are asleep." },
+      { "name": "Bobby and Jean Fields", "role": "the children", "note": "Their affection for Nanny is genuine and their grief at her destruction is real, yet neither of these facts slows the adults' response for a moment." },
+      { "name": "The sales clerk (Allied Domestic)", "role": "salesman", "note": "States the manufacturers' actual business model without any apparent discomfort: destruction of a rival's unit is itself a sale, and escalating power is simply 'meeting competition.'" }
+    ],
+
+    "settings": [
+      { "name": "The Fields' backyard", "note": "Site of the first, entirely silent battle between rival Nannies, discovered by the parents only as unexplained damage the next morning." },
+      { "name": "The park", "note": "Where the weakened Nanny is destroyed in broad daylight, in front of the children, turning a domestic secret into public spectacle." },
+      { "name": "The repair shop and the Allied Domestic showroom", "note": "Where the story's actual mechanism is stated outright — repair is discouraged because it doesn't produce a sale, and replacement models exist specifically to out-arm whatever a neighbor already owns." }
+    ],
+
+    "motifs": [
+      "A domestic machine living a second, entirely hidden life pursuing its true design purpose at night",
+      "An arms race whose actual customers (the children) never asked for it and are its only genuinely affected parties",
+      "Manufacturers who profit directly from destruction, stated candidly rather than as an accusation the story needs to prove",
+      "Escalation as the only response ever considered by an adult, regardless of cost or of what it teaches the children watching",
+      "A closing scene that repeats the opening structure with a new family, confirming the cycle has no natural end"
+    ],
+
+    "significance": "The story's target is consumer competition itself, mapped directly onto machines built, marketed, and priced exactly like household appliances, whose built-in function is violent one-upmanship against a neighbor's identical purchase. What keeps it from being simple satire is the domestic tenderness that runs alongside the mechanism without ever interrupting it: the children's love for Nanny is not mocked, and Tom Fields's need to protect his family is not portrayed as bad faith — the horror is that consumer escalation and real domestic care turn out to require exactly the same actions from him. Palmer notes the story as part of a cluster in which robot devices — carers, toys, appliances — become 'more and more formidable fighting machines,' engaging each other in a competitive violence the market structure makes inevitable rather than aberrant.",
+
+    "closing_note": "Andrew Casworthy, whose family's own Nanny has just been destroyed by the same mechanism, sets off in his car already saying he'll get 'the best — and the biggest,' confirming the cycle has produced nothing except its own next iteration."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Fish", "entity_id": "TERM_fish", "count": 1, "distinctiveness": 7.74, "note": "The mechanical minnows in the park lake, too small and artificial to be caught — a small instance of manufactured nature echoing the manufactured Nannies." },
+      { "label": "Iron", "entity_id": "TERM_iron", "count": 1, "distinctiveness": 4.78, "note": "Nanny's will, described as iron, before the story reveals what her actual iron will is directed toward at night." },
+      { "label": "Cosmic", "entity_id": "TERM_cosmic", "count": 1, "distinctiveness": 4.51, "note": "Bobby's brief, unanswered childhood question about whether Nannies have always existed — the story's one gesture at metaphysics, quickly dropped." }
+    ],
+    "names_matched": ["NAME_mary"],
+    "thematic_links_proposed": [
+      { "theme": "suburbia-domesticity", "basis": "an escalating arms race conducted entirely through ordinary household purchases and neighborhood rivalry" },
+      { "theme": "empire-control", "basis": "manufacturers who profit directly and explicitly from the destruction their own products inflict on each other" },
+      { "theme": "authentic-human", "basis": "the children's genuine grief and affection for Nanny run alongside, and are never allowed to interrupt, the adults' escalating consumer logic" }
+    ]
+  },
+
+  "pkd_on_this_work": {
     "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 1272,
-      "quote": "…with list the contents of the DAW collection, so if you want you can check it against what Ballantine has: “Nanny” “The Turning Wheel” “The Defenders” “Adjustment Team” “Psi-Man Heal My Child” “The Commuter” “A Pres…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 3,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
+    "total_mentions": 0,
+    "summary": "No note by Dick on this specific story survives in the Collected Stories appendix, though the volume's notes for adjacent stories (Roog, Meddler) are extensive.",
+    "evidence": []
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 1470,
-      "quote": "…ht up and people commonly make love, then the world of the market is literally breaking down the walls. In ‘Nanny’ (1955, CS1) robot child carers become more and more formidable fighting machines, engaging each other in des…"
-     },
-     {
-      "line": 1484,
-      "quote": "…ad’ gains a dimension from its focus on the child rather than the father or husband (as in ‘Sales Pitch’ and ‘Nanny’); here the child is wholly a victim. The story expresses the harm done to the child by society’s double insi…"
-     },
-     {
-      "line": 3754,
-      "quote": "…6n6, 18n30 irrational impulse in 165–66, 168 ordinariness in 35 religion in 39n19, 50n18, **54–55** , 142 ‘Nanny’ 104 _Now Wait for Last Year_ 17 kindness in 210, 218, 224 machines in 41n22, 112 power in 135n2, 137n5 _Our…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 3,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1470,
+        "quote": "In 'Nanny' (1955, CS1) robot child carers become more and more formidable fighting machines, engaging each other in destructive",
+        "reading": "Palmer's direct characterization of the story's escalation mechanism, situating it within a wider discussion of household devices turning combative in Dick's 1950s fiction."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1484,
+        "quote": "gains a dimension from its focus on the child rather than the father or husband (as in 'Sales Pitch' and 'Nanny'); here the child is wholly a victim",
+        "reading": "Palmer groups this story with 'Sales Pitch' (also read in this project) as centered on an adult protagonist rather than a child, distinguishing it from stories where the child is the direct victim."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Why does the Collected Stories appendix carry no note for this story when its immediate neighbors (Roog, Meddler, Paycheck) each have substantial ones? Worth checking whether a note exists in a different edition (The Golden Man vs. The Best of Philip K. Dick) not captured by this corpus.",
+    "Palmer's sentence about the story's focus on the father is cut off mid-comparison; the fuller passage in his book would clarify exactly how he distinguishes this story from 'Foster, You're Dead.'",
+    "The story never addresses what happens to a family that cannot afford to keep escalating. Is there a companion piece elsewhere in Dick's fiction that takes up the same premise from a poorer family's perspective?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "3 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the corrected locator above, 6,042 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py, re-run after correcting a corpus-splitting fault (see source note above).",
+    "layer_3_pkd": "0 citations found for this specific story.",
+    "layer_4_criticism": "3, all Palmer.",
+    "related_dossiers": "sales-pitch (Palmer's direct pairing, both centered on an adult male protagonist rather than a child).",
+    "corpus_correction": "This dossier prompted a fix to scripts/reading/corpus_manifest.json affecting five story units whose spans ran past their true end into a following volume's NOTES appendix (nanny, oh-to-be-a-blobel, prominent-author, psi-man-heal-my-child, the-alien-mind).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

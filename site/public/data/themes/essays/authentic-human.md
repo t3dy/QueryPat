@@ -48,6 +48,10 @@ In a post-war America where radiation has produced mutants — 'deeves' — the 
 
 Jill Herrick is married to Lester, a toxicologist who develops poisons for the military and who treats warmth, metaphor, food and children as forms of imprecision. In a story collection like [Human Is](/works/human-is), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Nanny
+
+In a comfortable future household, a spherical robot Nanny raises the Fields children with total competence — waking them, walking them safely to school, disciplining them with iron patience, protecting them from bullies and drunks. In a story collection like [Nanny](/works/nanny), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Mold of Yancy
 
 On Callisto, a team of anonymous 'yance-men' produce daily video 'gestalts' of John Edward Yancy, a folksy, avuncular composite personality — homespun wisdom, a devoted grandson, opinions on everything from primroses to just war —... In a story collection like [The Mold of Yancy](/works/the-mold-of-yancy), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -91,6 +95,10 @@ In a near-future California, Congress has extended abortion law past birth: a ch
 ### Confessions of a Crap Artist
 
 Confessions of a Crap Artist is the canonical works record for PKD's novel. In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### The Exit Door Leads In
+
+Bob Bibleman, a floating-home salesman in a future where robots handle all low-wage work, idly answers a fast-food robot's contest question and wins, at two-trillion-to-one odds, a full scholarship to the College — an elite, unadvertised... In a story collection like [The Exit Door Leads In](/works/the-exit-door-leads-in), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Mary and the Giant
 

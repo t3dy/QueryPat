@@ -44,6 +44,10 @@ The Minority Report and Other Classic Stories is the canonical works record for 
 
 Five years after a global war, a planet-wide network of automated factories continues to supply human settlements with food and goods, exactly as instructed before the collapse. In a story collection like [Autofac](/works/autofac), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Nanny
+
+In a comfortable future household, a spherical robot Nanny raises the Fields children with total competence — waking them, walking them safely to school, disciplining them with iron patience, protecting them from bullies and drunks. In a story collection like [Nanny](/works/nanny), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Solar Lottery
 
 Solar Lottery is the canonical works record for PKD's novel. In a novel like [Solar Lottery](/works/solar-lottery), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -119,6 +123,10 @@ In a near-future California, Congress has extended abortion law past birth: a ch
 ### Deus Irae
 
 Deus Irae is the canonical works record for PKD's novel. In a novel like [Deus Irae](/works/deus-irae), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### The Exit Door Leads In
+
+Bob Bibleman, a floating-home salesman in a future where robots handle all low-wage work, idly answers a fast-food robot's contest question and wins, at two-trillion-to-one odds, a full scholarship to the College — an elite, unadvertised... In a story collection like [The Exit Door Leads In](/works/the-exit-door-leads-in), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Unteleported Man
 
