@@ -32,6 +32,10 @@ Doc Labyrinth, convinced that civilisation is going the way of Rome and that a d
 
 The Minority Report and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Minority Report and Other Classic Stories](/works/the-minority-report-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Upon the Dull Earth
+
+Silvia, a young woman with an inherited gift for summoning vast, alien 'angels' by offering trays of lamb's blood in her family's garden, treats the ritual as a private thrill she has practiced since childhood — she believes herself... In a story collection like [Upon the Dull Earth](/works/upon-the-dull-earth), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Autofac
 
 Five years after a global war, a planet-wide network of automated factories continues to supply human settlements with food and goods, exactly as instructed before the collapse. In a story collection like [Autofac](/works/autofac), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

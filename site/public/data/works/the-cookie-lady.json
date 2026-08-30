@@ -1,34 +1,24 @@
 {
-  "artifact_id": "ART_DOSSIER_THE_COOKIE_LADY",
-  "artifact_type": "work_dossier",
-  "schema_version": "1.0",
-  "source_id": "the-cookie-lady",
-  "generated_by": "reading_notes_agent",
-  "status": "LLM_CANDIDATE",
-  "review_state": "unreviewed",
-  "reading_status": "close_reading_complete",
-
-  "work": {
-    "title": "The Cookie Lady",
-    "slug": "the-cookie-lady",
-    "form": "short story",
-    "word_count": 3140,
-    "lane": "A",
-    "written": "1952",
-    "first_publication": "Fantastic Universe, June 1953",
-    "later_use": "Sold for U.S. television rights to Metromedia in 1973 for $750 — Dick's first American TV sale.",
-    "source": {
-      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-      "line_start": 13280,
-      "line_end": 13495,
-      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
-    }
-  },
-
+  "work_id": "WORK_the-cookie-lady",
+  "canonical_title": "The Cookie Lady",
+  "slug": "the-cookie-lady",
+  "author": "Philip K. Dick",
+  "work_type": "short_story",
+  "category": "short_stories",
+  "date_display": "Fantastic Universe, June 1953",
+  "date_start": "1953",
+  "card_summary": "Overweight, food-obsessed schoolboy Bubber Surle visits an elderly, isolated widow, Mrs. Drew, purely for her fresh-baked cookies, tolerating her requests that he stay and read to her from his schoolbooks as the price of the treat.",
+  "page_summary": "Overweight, food-obsessed schoolboy Bubber Surle visits an elderly, isolated widow, Mrs. Drew, purely for her fresh-baked cookies, tolerating her requests that he stay and read to her from his schoolbooks as the price of the treat. Each visit follows the same pattern: as Bubber reads aloud beside her, something happens to Mrs. Drew that neither of them names or fully understands — she grows younger, her wrinkles smoothing, her body filling out with youth, drawing some vital quality directly out of the boy's proximity and voice. The transformation reverses the instant Bubber leaves, and Bubber himself walks home each time strangely exhausted, his heart laboring, though he never connects this to anything Mrs. Drew has done. When Bubber's parents forbid further visits, worried at how drained he looks afterward, he comes one last time to tell her; in her desperation at losing her only source of renewal, Mrs. Drew moves her chair beside him and touches his arm directly, drawing far more from him than before — enough that the transformation does not reverse when he leaves. Restored fully to youthful vitality for the first time, she runs a bath and delights in her new body while Bubber staggers home through a bitter wind, weaker with every step; he collapses before reaching his door, and his parents find only a bundle of dry weeds and rags blown against the porch by the storm, mistaking his remains for windblown trash.\n\n**Why it matters.** Sutin identifies this story directly as one of only two fantasy pieces Dick's editors at Rickett & Cohen (R&C) accepted for a collection, describing it precisely as 'a variation on the Hansel and Gretel theme' — a classification that clarifies the story's genre lineage exactly: an isolated house, a lured child, an adult whose hospitality conceals predation, and a fatal price paid for food freely offered. What makes Dick's version unsettling rather than merely faithful to its source is the total absence of malice or witchcraft as such — Mrs. Drew's hunger reads as pathetic and understandable loneliness escalating past a point of control, not calculated evil, and the story never romanticizes or explains the mechanism of the transfer. The final image, in which Bubber's own father fails to recognize his son's remains, closes the story on a note of horror made worse by its total silence — no one in the story ever learns what actually happened.\n\n*Ralf Surle closes the door on what is left of his son, telling his wife it was 'just the wind' — the story's last line withholding recognition from the one person who might otherwise have understood.*",
+  "page_count": 0,
+  "source_count": 0,
+  "related_docs": [],
+  "biography_events": [],
+  "themes": [
+    "betrayal",
+    "suburbia-domesticity"
+  ],
+  "word_count": 3140,
   "reading": {
-    "reading_status": "close_reading_complete",
-    "synopsis": "Overweight, food-obsessed schoolboy Bubber Surle visits an elderly, isolated widow, Mrs. Drew, purely for her fresh-baked cookies, tolerating her requests that he stay and read to her from his schoolbooks as the price of the treat. Each visit follows the same pattern: as Bubber reads aloud beside her, something happens to Mrs. Drew that neither of them names or fully understands — she grows younger, her wrinkles smoothing, her body filling out with youth, drawing some vital quality directly out of the boy's proximity and voice. The transformation reverses the instant Bubber leaves, and Bubber himself walks home each time strangely exhausted, his heart laboring, though he never connects this to anything Mrs. Drew has done. When Bubber's parents forbid further visits, worried at how drained he looks afterward, he comes one last time to tell her; in her desperation at losing her only source of renewal, Mrs. Drew moves her chair beside him and touches his arm directly, drawing far more from him than before — enough that the transformation does not reverse when he leaves. Restored fully to youthful vitality for the first time, she runs a bath and delights in her new body while Bubber staggers home through a bitter wind, weaker with every step; he collapses before reaching his door, and his parents find only a bundle of dry weeds and rags blown against the porch by the storm, mistaking his remains for windblown trash.",
-
     "structure": {
       "form": "short story in four scenes, structured as a fairy tale of predation disguised as ordinary neighborly kindness",
       "movements": [
@@ -40,18 +30,33 @@
       "point_of_view": "third person, moving between Bubber's blunt, food-driven interiority and Mrs. Drew's more complex, guilt-tinged hunger, so the reader understands the exchange as predatory well before either character does.",
       "central_device": "A vampiric transaction disguised entirely in the vocabulary of ordinary kindness — cookies, companionship, reading aloud — with neither party using or perhaps even possessing the language to name what is actually happening between them."
     },
-
     "characters": [
-      { "name": "Bubber Surle", "role": "the boy, victim", "note": "Entirely motivated by appetite throughout, never suspicious, never analytical — his own greed for cookies is what repeatedly delivers him into the situation that eventually kills him." },
-      { "name": "Mrs. Drew", "role": "the cookie lady, predator", "note": "Not portrayed as a witch or a monster by disposition — lonely, apologetic, and genuinely distressed by what she does to herself and, implicitly, to him, right up until desperation at losing him overrides her restraint entirely." },
-      { "name": "May and Ralf Surle", "role": "Bubber's parents", "note": "Notice the physical toll on their son with real concern and act on it, but too late and for the wrong specific fear — they suspect the old woman is 'strange,' not that she is killing him." }
+      {
+        "name": "Bubber Surle",
+        "role": "the boy, victim",
+        "note": "Entirely motivated by appetite throughout, never suspicious, never analytical — his own greed for cookies is what repeatedly delivers him into the situation that eventually kills him."
+      },
+      {
+        "name": "Mrs. Drew",
+        "role": "the cookie lady, predator",
+        "note": "Not portrayed as a witch or a monster by disposition — lonely, apologetic, and genuinely distressed by what she does to herself and, implicitly, to him, right up until desperation at losing him overrides her restraint entirely."
+      },
+      {
+        "name": "May and Ralf Surle",
+        "role": "Bubber's parents",
+        "note": "Notice the physical toll on their son with real concern and act on it, but too late and for the wrong specific fear — they suspect the old woman is 'strange,' not that she is killing him."
+      }
     ],
-
     "settings": [
-      { "name": "Mrs. Drew's house", "note": "Shabby, overgrown, isolated at the end of the street — the classic fairy-tale witch's cottage rendered in ordinary 1950s suburban terms." },
-      { "name": "The walk home", "note": "Where the story's horror is finally and literally externalized, as Bubber's collapsing body is carried off and reduced to something his own father cannot recognize as his son." }
+      {
+        "name": "Mrs. Drew's house",
+        "note": "Shabby, overgrown, isolated at the end of the street — the classic fairy-tale witch's cottage rendered in ordinary 1950s suburban terms."
+      },
+      {
+        "name": "The walk home",
+        "note": "Where the story's horror is finally and literally externalized, as Bubber's collapsing body is carried off and reduced to something his own father cannot recognize as his son."
+      }
     ],
-
     "motifs": [
       "Food as both the lure and the cover story for a predatory relationship neither party names",
       "Physical exhaustion in the victim mirroring, in inverse, a rejuvenation in the predator",
@@ -59,24 +64,30 @@
       "The victim's remains reduced to something unrecognizable and disposable — 'a bundle of gray, dry weeds' mistaken for windblown trash",
       "A fairy-tale structure (an isolated house, a lured child, a hidden appetite) transposed without any fantastical framing device into an ordinary American street"
     ],
-
     "significance": "Sutin identifies this story directly as one of only two fantasy pieces Dick's editors at Rickett & Cohen (R&C) accepted for a collection, describing it precisely as 'a variation on the Hansel and Gretel theme' — a classification that clarifies the story's genre lineage exactly: an isolated house, a lured child, an adult whose hospitality conceals predation, and a fatal price paid for food freely offered. What makes Dick's version unsettling rather than merely faithful to its source is the total absence of malice or witchcraft as such — Mrs. Drew's hunger reads as pathetic and understandable loneliness escalating past a point of control, not calculated evil, and the story never romanticizes or explains the mechanism of the transfer. The final image, in which Bubber's own father fails to recognize his son's remains, closes the story on a note of horror made worse by its total silence — no one in the story ever learns what actually happened.",
-
     "closing_note": "Ralf Surle closes the door on what is left of his son, telling his wife it was 'just the wind' — the story's last line withholding recognition from the one person who might otherwise have understood."
   },
-
-  "concepts": {
-    "distinctive_terms": [
-      { "label": "Book", "entity_id": "TERM_book", "count": 3, "distinctiveness": 16.67, "note": "Bubber's schoolbooks, the tribute he pays for cookies and the actual mechanism of the transfer, since it is his reading voice that draws Mrs. Drew's youth out of him." },
-      { "label": "Tears", "entity_id": "TERM_tears", "count": 1, "distinctiveness": 7.82 },
-      { "label": "Father", "entity_id": "TERM_father", "count": 2, "distinctiveness": 4.48 }
-    ],
-    "thematic_links_proposed": [
-      { "theme": "betrayal", "basis": "a relationship built entirely on the outward vocabulary of kindness and hospitality that conceals a fatal, one-sided exchange" },
-      { "theme": "suburbia-domesticity", "basis": "a fairy-tale predation transposed without fantastical framing into an ordinary American street and household" }
-    ]
-  },
-
+  "distinctive_terms": [
+    {
+      "label": "Book",
+      "entity_id": "TERM_book",
+      "count": 3,
+      "distinctiveness": 16.67,
+      "note": "Bubber's schoolbooks, the tribute he pays for cookies and the actual mechanism of the transfer, since it is his reading voice that draws Mrs. Drew's youth out of him."
+    },
+    {
+      "label": "Tears",
+      "entity_id": "TERM_tears",
+      "count": 1,
+      "distinctiveness": 7.82
+    },
+    {
+      "label": "Father",
+      "entity_id": "TERM_father",
+      "count": 2,
+      "distinctiveness": 4.48
+    }
+  ],
   "pkd_on_this_work": {
     "lane": "E",
     "total_mentions": 2,
@@ -96,7 +107,6 @@
       }
     ]
   },
-
   "criticism": {
     "lane": "C",
     "total_mentions": 2,
@@ -117,21 +127,18 @@
       }
     ]
   },
-
   "contradictions": [],
-
   "open_questions": [
     "Palmer's list groups this story with 'Tony and the Beetles', 'Jon's World', and 'A World of Talent' under an argument not fully captured here — worth reading his full passage once those stories are also close-read.",
     "What editorial collection is Sutin referring to when he says only two of Dick's fantasy stories 'made it' past the R&C standard? Identifying it would clarify the story's specific publication history.",
     "The mechanism of the vitality transfer (reading aloud, physical proximity, touch) is never explained by the text. Is there any indication elsewhere of what Dick intended Mrs. Drew actually to be — witch, vampire, or something without a name?"
   ],
-
-  "provenance": {
-    "layer_1_reading": "Full text read at the locator above, 3,140 words.",
-    "layer_2_concepts": "scripts/reading/gather_evidence.py",
-    "layer_3_pkd": "2 citations, both about the TV sale.",
-    "layer_4_criticism": "2, from Sutin and Palmer.",
-    "related_dossiers": "upon-the-dull-earth (Sutin's direct pairing as the only two fantasy pieces accepted, both close-read).",
-    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
-  }
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  },
+  "later_use": "Sold for U.S. television rights to Metromedia in 1973 for $750 — Dick's first American TV sale.",
+  "written": "1952"
 }

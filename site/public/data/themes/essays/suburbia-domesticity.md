@@ -24,6 +24,10 @@ The Visitation is the canonical works record for PKD's short-story collection. I
 
 A tired commuter named Ernest Critchet asks ticket agent Ed Jacobson for a new commute book to a town called Macon Heights. In a story collection like [The Commuter](/works/the-commuter), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Cookie Lady
+
+Overweight, food-obsessed schoolboy Bubber Surle visits an elderly, isolated widow, Mrs. In a story collection like [The Cookie Lady](/works/the-cookie-lady), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Sales Pitch
 
 Ed Morris commutes home from Ganymede to Earth through a solar system saturated with advertising — audio and visual ads that fire directly into commuters' brains, salesrobots that swarm pedestrians and cannot be shaken. In a story collection like [Sales Pitch](/works/sales-pitch), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

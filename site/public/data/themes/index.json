@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 85,
+  "fiction_work_count": 87,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -551,7 +551,7 @@
       "slug": "betrayal",
       "label": "Betrayal",
       "description": "Deception, imposture, treachery, and the collapse of trust between people or institutions.",
-      "work_count": 37,
+      "work_count": 38,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -570,6 +570,15 @@
           "work_type": "short_story",
           "date_display": "If, September 1952",
           "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_the-cookie-lady",
+          "canonical_title": "The Cookie Lady",
+          "slug": "the-cookie-lady",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, June 1953",
+          "date_start": "1953"
         },
         {
           "work_id": "WORK_the-king-of-the-elves",
@@ -894,7 +903,7 @@
       "slug": "reality-breakdown",
       "label": "Reality Breakdown",
       "description": "Unstable reality, temporal slippage, projected worlds, and the breakdown of ordinary perception.",
-      "work_count": 42,
+      "work_count": 43,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -948,6 +957,15 @@
           "category": "short_stories",
           "work_type": "short_stories",
           "date_display": "circa 1954–1964",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_upon-the-dull-earth",
+          "canonical_title": "Upon the Dull Earth",
+          "slug": "upon-the-dull-earth",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Beyond Fantasy Fiction, November 1954",
           "date_start": "1954"
         },
         {
@@ -1725,7 +1743,7 @@
       "slug": "memory-identity",
       "label": "Memory & Identity",
       "description": "Amnesia, implanted or false memory, identity instability, and the porous self.",
-      "work_count": 14,
+      "work_count": 15,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -1752,6 +1770,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Fantastic Universe, May 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_upon-the-dull-earth",
+          "canonical_title": "Upon the Dull Earth",
+          "slug": "upon-the-dull-earth",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Beyond Fantasy Fiction, November 1954",
           "date_start": "1954"
         },
         {
@@ -2439,7 +2466,7 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 18,
+      "work_count": 19,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2493,6 +2520,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "If, November 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_upon-the-dull-earth",
+          "canonical_title": "Upon the Dull Earth",
+          "slug": "upon-the-dull-earth",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Beyond Fantasy Fiction, November 1954",
           "date_start": "1954"
         },
         {
@@ -2684,7 +2720,7 @@
       "slug": "suburbia-domesticity",
       "label": "Suburbia & Domesticity",
       "description": "Family life, marriage, houses, domestic tension, and the suburban everyday.",
-      "work_count": 21,
+      "work_count": 22,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -2720,6 +2756,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Amazing, July 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-cookie-lady",
+          "canonical_title": "The Cookie Lady",
+          "slug": "the-cookie-lady",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, June 1953",
           "date_start": "1953"
         },
         {

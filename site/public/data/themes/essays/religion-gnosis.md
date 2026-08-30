@@ -32,6 +32,10 @@ A Clerk arrives to make sure a sleepy dog — the neighborhood's Summoner — ba
 
 Centuries after an apocalyptic 'Time of Madness,' a rigid caste theocracy governs the survivors, its doctrine of reincarnation administered through a rusting, decaying 'scanner' technology that lets the faithful preview their next... In a story collection like [The Turning Wheel](/works/the-turning-wheel), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Upon the Dull Earth
+
+Silvia, a young woman with an inherited gift for summoning vast, alien 'angels' by offering trays of lamb's blood in her family's garden, treats the ritual as a private thrill she has practiced since childhood — she believes herself... In a story collection like [Upon the Dull Earth](/works/upon-the-dull-earth), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Cosmic Puppets
 
 The Cosmic Puppets is the canonical works record for PKD's novel. In a novel like [The Cosmic Puppets](/works/the-cosmic-puppets), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
