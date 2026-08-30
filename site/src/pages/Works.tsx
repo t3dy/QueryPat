@@ -15,7 +15,8 @@ interface WorkEntry {
   page_count: number
   source_count: number
   themes?: string[]
-  related_docs: { doc_id: string; title: string; slug: string; date_display: string; doc_type: string }[]
+  has_reading_notes?: boolean
+  related_docs?: { doc_id: string; title: string; slug: string; date_display: string; doc_type: string }[]
   first_doc?: { doc_id: string; slug: string; title: string }
 }
 
@@ -33,11 +34,18 @@ interface ThemeIndex {
 
 const WORK_TYPE_LABELS: Record<string, string> = {
   novels: 'Novel',
+  novel: 'Novel',
   novellas: 'Novella',
+  novella: 'Novella',
+  novelette: 'Novelette',
   letters: 'Letter',
-  short_stories: 'Short story',
+  letter: 'Letter',
+  short_story: 'Short story',
+  short_stories: 'Collection',
   essays: 'Essay',
+  essay: 'Essay',
   interviews: 'Interview',
+  interview: 'Interview',
   biographies: 'Biography',
   fan_publications: 'Fan publication',
   newspaper: 'Newspaper',
@@ -51,7 +59,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   newspaper: 'Newspaper',
   novels: 'Novels',
   primary: 'Primary texts',
-  short_stories: 'Short stories',
+  short_stories: 'Short fiction',
 }
 
 export default function Works() {
@@ -62,6 +70,7 @@ export default function Works() {
   const [workType, setWorkType] = useState('all')
   const [theme, setTheme] = useState('all')
   const [sortBy, setSortBy] = useState('date')
+  const [readOnly, setReadOnly] = useState(false)
 
   const themeOptions = useMemo(() => {
     return [...(themeIndex?.themes || [])].sort((a, b) => b.work_count - a.work_count || a.label.localeCompare(b.label))
@@ -79,6 +88,7 @@ export default function Works() {
     if (category !== 'all') result = result.filter(entry => entry.category === category)
     if (workType !== 'all') result = result.filter(entry => entry.work_type === workType)
     if (theme !== 'all') result = result.filter(entry => (entry.themes || []).includes(theme))
+    if (readOnly) result = result.filter(entry => entry.has_reading_notes)
     if (search) {
       const q = search.toLowerCase()
       result = result.filter(entry =>
@@ -95,7 +105,7 @@ export default function Works() {
       if (sortBy === 'popularity') return (b.source_count || 0) - (a.source_count || 0) || a.canonical_title.localeCompare(b.canonical_title)
       return (b.date_start || '').localeCompare(a.date_start || '') || a.canonical_title.localeCompare(b.canonical_title)
     })
-  }, [works, search, category, workType, theme, sortBy, themeMap])
+  }, [works, search, category, workType, theme, sortBy, readOnly, themeMap])
 
   const categories = useMemo(() => {
     if (!works) return []
@@ -107,13 +117,18 @@ export default function Works() {
     return ['all', ...Array.from(new Set(works.map(entry => entry.work_type))).sort()]
   }, [works])
 
+  const readCount = useMemo(() => (works || []).filter(w => w.has_reading_notes).length, [works])
+
   if (loading || !themeIndex) return <div className="loading">Loading works...</div>
 
   return (
     <>
       <div className="page-header">
         <h1>PKD Works</h1>
-        <p>{filtered.length} canonical PKD works shown from the separate works table</p>
+        <p>
+          {filtered.length} of {works?.length || 0} canonical works
+          {readCount > 0 && <> · {readCount} with a close reading of the primary text</>}
+        </p>
       </div>
 
       <div className="sidebar-layout">
@@ -138,6 +153,21 @@ export default function Works() {
                 </a>
               </li>
             ))}
+          </ul>
+
+          <h3 style={{ marginTop: '1.5rem' }}>Reading</h3>
+          <ul>
+            <li>
+              <a href="#" className={!readOnly ? 'active' : ''} onClick={e => { e.preventDefault(); setReadOnly(false) }}>
+                All works
+              </a>
+            </li>
+            <li>
+              <a href="#" className={readOnly ? 'active' : ''} onClick={e => { e.preventDefault(); setReadOnly(true) }}>
+                Close reading only
+                <span style={{ float: 'right', color: 'var(--text-muted)', fontSize: '0.8rem' }}>{readCount}</span>
+              </a>
+            </li>
           </ul>
 
           <h3 style={{ marginTop: '1.5rem' }}>Theme</h3>
@@ -187,7 +217,8 @@ export default function Works() {
                   {work.page_count > 0 && <span>{work.page_count} pp</span>}
                   <span className="badge badge-category">{CATEGORY_LABELS[work.category] || work.category}</span>
                   <span>{WORK_TYPE_LABELS[work.work_type] || work.work_type}</span>
-                  <span>{work.source_count} doc{work.source_count === 1 ? '' : 's'}</span>
+                  {work.source_count > 0 && <span>{work.source_count} doc{work.source_count === 1 ? '' : 's'}</span>}
+                  {work.has_reading_notes && <span className="badge badge-category">Close reading</span>}
                 </div>
                 <p style={{ marginTop: '0.5rem' }}>{work.card_summary}</p>
                 {(work.themes || []).length > 0 && (

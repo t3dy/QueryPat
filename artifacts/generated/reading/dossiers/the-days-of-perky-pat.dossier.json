@@ -1,222 +1,152 @@
 {
- "artifact_id": "ART_DOSSIER_THE_DAYS_OF_PERKY_PAT",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-days-of-perky-pat",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Days Of Perky Pat",
-  "slug": "the-days-of-perky-pat",
-  "form": "story",
-  "word_count": 9584,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 45859,
-   "line_end": 46508,
-   "word_count": 9584,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Fate",
-    "entity_id": "TERM_fate",
-    "count": 3,
-    "distinctiveness": 12.31
-   },
-   {
-    "label": "Paul",
-    "entity_id": "TERM_paul",
-    "count": 9,
-    "distinctiveness": 11.8
-   },
-   {
-    "label": "Acts",
-    "entity_id": "TERM_acts",
-    "count": 1,
-    "distinctiveness": 6.43
-   },
-   {
-    "label": "Bill",
-    "entity_id": "TERM_bill",
-    "count": 5,
-    "distinctiveness": 3.63
-   },
-   {
-    "label": "Self",
-    "entity_id": "TERM_self",
-    "count": 3,
-    "distinctiveness": 3.3
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 7,
-    "distinctiveness": 2.69
-   },
-   {
-    "label": "Father",
-    "entity_id": "TERM_father",
-    "count": 9,
-    "distinctiveness": 2.64
-   },
-   {
-    "label": "Bureau",
-    "entity_id": "TERM_bureau",
-    "count": 1,
-    "distinctiveness": 2.38
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 5,
-    "distinctiveness": 2.27
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 2,
-    "distinctiveness": 1.93
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 16,
-    "distinctiveness": 1.73
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 14,
-    "distinctiveness": 1.67
-   },
-   {
-    "label": "Wait",
-    "entity_id": "TERM_wait",
-    "count": 5,
-    "distinctiveness": 1.65
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 8,
-    "distinctiveness": 1.56
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 2,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
+  "artifact_id": "ART_DOSSIER_THE_DAYS_OF_PERKY_PAT",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-days-of-perky-pat",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Days of Perky Pat",
+    "slug": "the-days-of-perky-pat",
+    "form": "novelette",
+    "word_count": 9584,
+    "lane": "A",
+    "first_publication": "Amazing, December 1963",
+    "later_use": "The Perky Pat layouts became central to The Three Stigmata of Palmer Eldritch (1965).",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 45859,
+      "line_end": 46508,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Survivors of a hydrogen war — 'flukers', so named because they lived by a fluke of fate — shelter in underground pits, kept alive by Martian 'careboys' who parachute supplies they no longer need. The pits are full of food. What the adults do with the surplus is build ever more elaborate miniature layouts for a doll called Perky Pat: her split-level house, her boyfriend Leonard's Jaguar, a garage-door opener, a fire alarm box, a garbage disposal fashioned from the gears of a dropped computer. They play the layouts against each other for money, and argue over whether a 1950s psychoanalyst charged ten dollars an hour or twenty. Their children, born after the war, find the whole thing incomprehensible and go up top to hunt rabbits. Word arrives that the Oakland pits play a different doll — Connie Companion — and Norm and Fran Schein wheelbarrow their layout to Berkeley for a match. Connie proves to be carved rather than poured, twenty-five rather than eighteen, employed as a psychology consultant at twenty thousand a year, and married to Paul, with whom she shares a bedroom and a double bed. Fran finds this morally intolerable; they play anyway, and win, and bring Connie home. Then Norm reveals what else they won: Connie is three months pregnant, and there is a carved embryo. The Pinole flukers pick up rocks and drive the Scheins out. They set off south for Oakland, and Norm works out on the way what the loss was — Connie had to grow, and forced her players to grow with her, while Perky Pat never did.",
+
+    "structure": {
+      "form": "novelette alternating between the adults' game and the children's life above ground",
+      "movements": [
+        "The care drop: supplies sorted for their usefulness as doll furniture rather than as food.",
+        "The two worlds: parents quarrelling over supermarket doors while the boys hunt a rabbit.",
+        "Rumour of Connie Companion, and the negotiation by radio at six dollars fifty for the use of a transmitter.",
+        "The Berkeley match: the two dolls compared, the marriage dispute, and the game.",
+        "The return: the pregnancy, the rocks, and the road south."
+      ],
+      "point_of_view": "third person, rotating among Sam Regan, the boys Timothy and Fred, and the Scheins. The children's chapters are what make the adults legible: only against Timothy's boredom does the game read as pathology rather than pastime.",
+      "central_device": "A game whose stakes are the pieces themselves. Money circulates only as a way of keeping score; what can actually be won or lost is a doll, and with it a version of the past."
+    },
+
+    "characters": [
+      { "name": "Norm Schein", "role": "the pit's most accomplished layout builder", "note": "Believes himself 'flukey' — on good terms with luck — and is right. His closing speech is the story's thesis, delivered by a man who has just been exiled for discovering it." },
+      { "name": "Fran Schein", "role": "his wife and play-partner", "note": "Her objection to Connie and Paul sharing a bed is genuine moral distress, not prudery played for laughs; the story lets it stand." },
+      { "name": "Sam Regan", "role": "neighbour", "note": "Says early that something about Connie Companion makes him uneasy, and is proved right. At the end he takes the wheelbarrow handles, loses his wife, and is the only adult who thinks the exile might be for the good." },
+      { "name": "Timothy Schein", "role": "ten years old, born after the war", "note": "Sharpens a knife he made himself and cannot see the point of the game. The last lines belong to him, running ahead toward whatever is south." },
+      { "name": "Hooker Glebe", "role": "Mayor of the Pinole pit", "note": "Charges for use of the radio, accepts a miniature fire alarm box as part payment, and picks up the first rock." },
+      { "name": "Walter R. Wynn", "role": "the Oakland player", "note": "Calm, hard-faced, and entirely straightforward. He does not conceal the pregnancy to win; he discloses it after winning is settled, because it would not have done not to say." }
+    ],
+
+    "settings": [
+      { "name": "The Pinole fluke-pit", "note": "One of the smallest public shelters in Northern California, filled to capacity with stored food nobody needs." },
+      { "name": "The upstairs", "note": "Dust, rubble, do-cats, an unfinished house whose builder never came back, and decades of unclaimed care parcels." },
+      { "name": "The Berkeley fluke-pit", "note": "Two thousand people, on the site of the University of California. Neutral ground for the match." },
+      { "name": "Perky Pat's layout", "note": "The only place in the story where the pre-war world still exists, assembled by hand at sixty pounds a set." }
+    ],
+
+    "motifs": [
+      "Care parcels valued for what they can be made into rather than what they are — a computer becomes a garbage disposal",
+      "Disputes about the vanished world conducted as rules disputes: the price of an analyst, whether supermarkets had electric doors",
+      "'Fluker' and 'careboy' as coinages the children have to have explained, and 'cung' as the word they made themselves",
+      "The doll as the only thing that can be won or lost — money is merely scoring",
+      "Stoning as the community's response to information it cannot absorb"
+    ],
+
+    "significance": "The story's subject is nostalgia as an economy. The layouts are not escapism in the loose sense; they are a rigorous, competitive reconstruction of 1950s American consumer life, and the adults' arguments are about historical accuracy. What Connie Companion introduces is not obscenity but time: she is older than Perky Pat, employed, married and pregnant, which means the Oakland players' fiction has been allowed to move forward while Pinole's has been held at eighteen for ten years. Norm's final formulation is exact — Connie had to grow, and her players grew with her. The stoning is therefore not a moral panic about sex but a refusal of the future, and the story is careful that the children, who never knew the old world, are the only ones eager to go south.",
+
+    "closing_note": "Timothy runs ahead looking at what is coming, uninterested in his father's explanation. He is the only person in the story facing the right direction."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Fate", "entity_id": "TERM_fate", "count": 4, "distinctiveness": 12.31, "note": "Load-bearing: a fluker is someone fate spared, and Norm's confidence rests on believing himself on good terms with luck." },
+      { "label": "Acts", "entity_id": "TERM_acts", "count": 3, "distinctiveness": 6.43 },
+      { "label": "Self", "entity_id": "TERM_self", "count": 2, "distinctiveness": 3.3 }
+    ],
+    "false_positive_noted": "TERM_paul scores x11.8 but matches Connie Companion's husband, not the apostle.",
+    "thematic_links_proposed": [
+      { "theme": "illusionary-realities", "basis": "an entire adult culture organised around a scale model of the world that ended" },
+      { "theme": "suburbia-domesticity", "basis": "the layouts are specifically suburban — the split-level house, the second car, the appliances — and that is what is being mourned" },
+      { "theme": "time", "basis": "the story's actual conflict is between a fiction held static and one allowed to age" },
+      { "theme": "memory-identity", "basis": "disputes over the vanished world conducted as rules disputes, with no way to settle them" }
+    ]
+  },
+
+  "pkd_on_this_work": {
     "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 3260,
-      "quote": "…. I’m enclosing Ted’s letter because of the purely business element in paragraph four: permission to print “The Days of Perky Pat” By coincidence, I just now came across the two permission forms Ted sent me originally; I don’t recall now w…"
-     }
+    "total_mentions": 2,
+    "summary": "Thin in the letters, but the archive points to a substantial unpublished statement.",
+    "evidence": [
+      {
+        "source": "Selected Letters",
+        "line": 3260,
+        "quote": "permission to print \"The Days of Perky Pat\"",
+        "reading": "Business correspondence only."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 6338,
+        "quote": "\"Autofac\" \"Beyond Lies the Wub\" \"In the Days of Perky Pat\" \"The Defenders\"",
+        "reading": "Approving anthology contents. Note Dick writes the title as 'In the Days of Perky Pat' here — a variant worth recording, since it recurs in indexes."
+      }
     ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 6338,
-      "quote": "…s in place of “Service Call”? The others on the list strike me as fine: “Autofac” “Beyond Lies the Wub” “In the Days of Perky Pat” “The Defenders” (But this could be pulled for “Second Variety,” since the theme is the same.) “The Electri…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 7,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
+    "archival_gap": "Sutin twice cites a note Dick wrote for this story for The Best of Philip K. Dick, held in the Dick Estate Archives, and states that a much shorter note was used instead. The long version is unpublished and not in this corpus. It would be the author's fullest statement on the story."
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 5,
-    "quotes": [
-     {
-      "line": 2401,
-      "quote": "…3, Phil and Anne gave their daughters Barbie and Ken dolls. That very month, Phil had published (in Amazing) “The Days of Perky Pat,” a strange, hilarious story of life on a bleak, defeated Earth whose survivors are kept alive through the re…"
-     },
-     {
-      "line": 5743,
-      "quote": "…use in the Best of Philip K. Dick story collection; a much shorter note was used instead) for the 1963 story “The Days of Perky Pat.” In Dick Estate Archives. - 15 Special event: Elizabeth M. Bryan, “The Death of a Newborn Twin: How Can Su…"
-     },
-     {
-      "line": 6267,
-      "quote": "…ial use in The Best of Philip K. Dick story collection; a much shorter note was used instead) for 1963 story “The Days of Perky Pat.” Certain chemicals: PKD essay, “Will the Atomic Bomb Ever Be Perfected, and If So, What Becomes of Robert He…"
-     },
-     {
-      "line": 6269,
-      "quote": "…drugs: Letter, PKD to Rich Brown, August 21, 1967. - 127 Gas mask memories: Unpublished PKD “Headnote” for “The Days of Perky Pat,” supra. Idios kosmoses needed to stay sane: Letter, PKD to Bruce Gillespie, June 8, 1969, published in Gille…"
-     },
-     {
-      "line": 6281,
-      "quote": "…It’s all the same: C. II of Palmer Eldritch. - 132 PKD’s father as Eldritch and Bulero: PKD “Headnote” to “The Days of Perky Pat,” supra. - 132 Chew-Z: Paul Williams, “The True Stories of Philip K. Dick,” Rolling Stone, November 6, 1975…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 818,
-      "quote": "…draws for its Martian colony sets the broken-down settlement in a wrecked, post-nuclear Oakland, California (‘The Days of Perky Pat’, 1963, CS4). STATIC AND KINETIC 51 from which he begins, as can be seen from his first novel, _Solar L…"
-     },
-     {
-      "line": 1964,
-      "quote": "…e_ : ‘Man has not eaten God; God has eaten man’ (ch. 3, 42). > 14 This part of the novel is anticipated by ‘The Days of Perky Pat’ (1963, CS4). > 15 This very interesting novel is briefly discussed in Chapter 9. (In _Galactic Pot-Healer_…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 7,
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 2401,
+        "quote": "In 1963, Phil and Anne gave their daughters Barbie and Ken dolls. That very month, Phil had published (in Amazing) \"The Days of Perky Pat,\"",
+        "reading": "The biographical origin, and a precise coincidence of dates. Sutin calls the story 'strange, hilarious', which is a fair description of its first two-thirds and not of its last page."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1964,
+        "quote": "This part of the novel is anticipated by \"The Days of Perky Pat\" (1963, CS4).",
+        "reading": "Palmer tracing the line from this story into The Three Stigmata of Palmer Eldritch, where the layouts return. The adjacent quotation he takes from that novel — 'Man has not eaten God; God has eaten man' — indicates how far the material travelled."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 818,
+        "quote": "draws for its Martian colony sets the broken-down settlement in a wrecked, post-nuclear Oakland, California",
+        "reading": "Establishes the specific geography Palmer Eldritch inherits from the story."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "The long unpublished note for The Best of Philip K. Dick is cited by Sutin as being in the Dick Estate Archives. It is the obvious missing primary source for this story.",
+    "Sutin dates the Barbie and Ken gift to the same month as publication. Is the coincidence documented anywhere more precisely, or is it Sutin's inference from the chronology?",
+    "Dick writes the title as 'In the Days of Perky Pat' in at least one letter. Worth checking whether that was ever the working title."
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "2 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "7 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 9,584 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "2 capitalised citations, both bibliographical.",
+    "layer_4_criticism": "7 across Sutin and Palmer.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

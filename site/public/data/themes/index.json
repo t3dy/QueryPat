@@ -1,14 +1,68 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 46,
+  "fiction_work_count": 63,
   "themes": [
     {
       "theme_id": "THEME_androids",
       "slug": "androids",
       "label": "Androids",
       "description": "Synthetic or programmed human figures, including androids, replicants, and the human-machine boundary.",
-      "work_count": 2,
+      "work_count": 10,
       "works": [
+        {
+          "work_id": "WORK_colony",
+          "canonical_title": "Colony",
+          "slug": "colony",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Galaxy, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-defenders",
+          "canonical_title": "The Defenders",
+          "slug": "the-defenders",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Galaxy, January 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-father-thing",
+          "canonical_title": "The Father-thing",
+          "slug": "the-father-thing",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, December 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_the-golden-man",
+          "canonical_title": "The Golden Man",
+          "slug": "the-golden-man",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "If, April 1954 (Quinn Publishing Co.) — byline details confirmed by Dick himself in a 1975 letter to his agent",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_autofac",
+          "canonical_title": "Autofac",
+          "slug": "autofac",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Galaxy, November 1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_human-is",
+          "canonical_title": "Human Is",
+          "slug": "human-is",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Startling Stories, Winter 1955",
+          "date_start": "1955"
+        },
         {
           "work_id": "WORK_solar-lottery",
           "canonical_title": "Solar Lottery",
@@ -19,6 +73,15 @@
           "date_start": "1955"
         },
         {
+          "work_id": "WORK_the-electric-ant",
+          "canonical_title": "The Electric Ant",
+          "slug": "the-electric-ant",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, October 1969",
+          "date_start": "1969"
+        },
+        {
           "work_id": "WORK_do-androids-dream-of-electric-sheep",
           "canonical_title": "Do Androids Dream of Electric Sheep?",
           "slug": "do-androids-dream-of-electric-sheep",
@@ -26,6 +89,15 @@
           "work_type": "novel",
           "date_display": "2007",
           "date_start": "2007"
+        },
+        {
+          "work_id": "WORK_second-variety",
+          "canonical_title": "Second Variety",
+          "slug": "second-variety",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "",
+          "date_start": ""
         }
       ],
       "essay_path": "themes/essays/androids.md"
@@ -99,7 +171,7 @@
       "slug": "drugs",
       "label": "Drugs",
       "description": "Amphetamines, narcotics, intoxication, addiction, rehab, and chemically altered consciousness.",
-      "work_count": 2,
+      "work_count": 3,
       "works": [
         {
           "work_id": "WORK_now-wait-for-last-year",
@@ -109,6 +181,15 @@
           "work_type": "novel",
           "date_display": "1966",
           "date_start": "1966"
+        },
+        {
+          "work_id": "WORK_faith-of-our-fathers",
+          "canonical_title": "Faith of Our Fathers",
+          "slug": "faith-of-our-fathers",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Dangerous Visions, ed. Harlan Ellison, 1967",
+          "date_start": "1967"
         },
         {
           "work_id": "WORK_voices-from-the-street",
@@ -127,8 +208,17 @@
       "slug": "authentic-human",
       "label": "Authentic Human",
       "description": "Human authenticity, empathy, caritas, and the resistance to programmed or mechanical existence.",
-      "work_count": 14,
+      "work_count": 24,
       "works": [
+        {
+          "work_id": "WORK_beyond-lies-the-wub",
+          "canonical_title": "Beyond Lies the Wub",
+          "slug": "beyond-lies-the-wub",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Planet Stories, July 1952 — the first Dick story to appear in print",
+          "date_start": "1952"
+        },
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
           "canonical_title": "The Short Happy Life of the Brown Oxford and Other Classic Stories",
@@ -137,6 +227,60 @@
           "work_type": "short_stories",
           "date_display": "circa 1952–1955",
           "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_roog",
+          "canonical_title": "Roog",
+          "slug": "roog",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "F&SF, February 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-defenders",
+          "canonical_title": "The Defenders",
+          "slug": "the-defenders",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Galaxy, January 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-father-thing",
+          "canonical_title": "The Father-thing",
+          "slug": "the-father-thing",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, December 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_the-golden-man",
+          "canonical_title": "The Golden Man",
+          "slug": "the-golden-man",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "If, April 1954 (Quinn Publishing Co.) — byline details confirmed by Dick himself in a 1975 letter to his agent",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_human-is",
+          "canonical_title": "Human Is",
+          "slug": "human-is",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Startling Stories, Winter 1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_pay-for-the-printer",
+          "canonical_title": "Pay for the Printer",
+          "slug": "pay-for-the-printer",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, October 1956",
+          "date_start": "1956"
         },
         {
           "work_id": "WORK_clans-of-the-alphane-moon",
@@ -155,6 +299,15 @@
           "work_type": "novel",
           "date_display": "1967",
           "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_the-electric-ant",
+          "canonical_title": "The Electric Ant",
+          "slug": "the-electric-ant",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, October 1969",
+          "date_start": "1969"
         },
         {
           "work_id": "WORK_the-preserving-machine-and-other-stories",
@@ -182,6 +335,15 @@
           "work_type": "short_stories",
           "date_display": "1973",
           "date_start": "1973"
+        },
+        {
+          "work_id": "WORK_the-pre-persons",
+          "canonical_title": "The Pre-Persons",
+          "slug": "the-pre-persons",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "The Magazine of Fantasy & Science Fiction, October 1974",
+          "date_start": "1974"
         },
         {
           "work_id": "WORK_confessions-of-a-crap-artist",
@@ -247,6 +409,15 @@
           "date_start": null
         },
         {
+          "work_id": "WORK_second-variety",
+          "canonical_title": "Second Variety",
+          "slug": "second-variety",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "",
+          "date_start": ""
+        },
+        {
           "work_id": "WORK_selected-stories-of-philip-k-dick",
           "canonical_title": "Selected Stories of Philip K. Dick",
           "slug": "selected-stories-of-philip-k-dick",
@@ -263,7 +434,7 @@
       "slug": "betrayal",
       "label": "Betrayal",
       "description": "Deception, imposture, treachery, and the collapse of trust between people or institutions.",
-      "work_count": 26,
+      "work_count": 28,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -273,6 +444,15 @@
           "work_type": "short_stories",
           "date_display": "circa 1952–1955",
           "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_the-father-thing",
+          "canonical_title": "The Father-thing",
+          "slug": "the-father-thing",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, December 1954",
+          "date_start": "1954"
         },
         {
           "work_id": "WORK_the-minority-report-and-other-classic-stories",
@@ -392,6 +572,15 @@
           "date_start": "1970"
         },
         {
+          "work_id": "WORK_the-pre-persons",
+          "canonical_title": "The Pre-Persons",
+          "slug": "the-pre-persons",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "The Magazine of Fantasy & Science Fiction, October 1974",
+          "date_start": "1974"
+        },
+        {
           "work_id": "WORK_confessions-of-a-crap-artist",
           "canonical_title": "Confessions of a Crap Artist",
           "slug": "confessions-of-a-crap-artist",
@@ -507,7 +696,7 @@
       "slug": "reality-breakdown",
       "label": "Reality Breakdown",
       "description": "Unstable reality, temporal slippage, projected worlds, and the breakdown of ordinary perception.",
-      "work_count": 31,
+      "work_count": 39,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -519,6 +708,33 @@
           "date_start": "1952"
         },
         {
+          "work_id": "WORK_colony",
+          "canonical_title": "Colony",
+          "slug": "colony",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Galaxy, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_roog",
+          "canonical_title": "Roog",
+          "slug": "roog",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "F&SF, February 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-preserving-machine",
+          "canonical_title": "The Preserving Machine",
+          "slug": "the-preserving-machine",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, June 1953",
+          "date_start": "1953"
+        },
+        {
           "work_id": "WORK_the-minority-report-and-other-classic-stories",
           "canonical_title": "The Minority Report and Other Classic Stories",
           "slug": "the-minority-report-and-other-classic-stories",
@@ -526,6 +742,15 @@
           "work_type": "short_stories",
           "date_display": "circa 1954–1964",
           "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_autofac",
+          "canonical_title": "Autofac",
+          "slug": "autofac",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Galaxy, November 1955",
+          "date_start": "1955"
         },
         {
           "work_id": "WORK_eye-in-the-sky",
@@ -600,6 +825,15 @@
           "date_start": "1966"
         },
         {
+          "work_id": "WORK_we-can-remember-it-for-you-wholesale",
+          "canonical_title": "We Can Remember It For You Wholesale",
+          "slug": "we-can-remember-it-for-you-wholesale",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, April 1966",
+          "date_start": "1966"
+        },
+        {
           "work_id": "WORK_counter-clock-world",
           "canonical_title": "Counter-Clock World",
           "slug": "counter-clock-world",
@@ -607,6 +841,24 @@
           "work_type": "novel",
           "date_display": "1967",
           "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_faith-of-our-fathers",
+          "canonical_title": "Faith of Our Fathers",
+          "slug": "faith-of-our-fathers",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Dangerous Visions, ed. Harlan Ellison, 1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_the-electric-ant",
+          "canonical_title": "The Electric Ant",
+          "slug": "the-electric-ant",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, October 1969",
+          "date_start": "1969"
         },
         {
           "work_id": "WORK_the-preserving-machine-and-other-stories",
@@ -780,6 +1032,15 @@
           "date_start": null
         },
         {
+          "work_id": "WORK_second-variety",
+          "canonical_title": "Second Variety",
+          "slug": "second-variety",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "",
+          "date_start": ""
+        },
+        {
           "work_id": "WORK_selected-stories-of-philip-k-dick",
           "canonical_title": "Selected Stories of Philip K. Dick",
           "slug": "selected-stories-of-philip-k-dick",
@@ -796,8 +1057,26 @@
       "slug": "delusions",
       "label": "Delusions",
       "description": "Paranoia, psychosis, hallucination, schizophrenia, and other forms of unstable perception.",
-      "work_count": 5,
+      "work_count": 7,
       "works": [
+        {
+          "work_id": "WORK_colony",
+          "canonical_title": "Colony",
+          "slug": "colony",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Galaxy, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_roog",
+          "canonical_title": "Roog",
+          "slug": "roog",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "F&SF, February 1953",
+          "date_start": "1953"
+        },
         {
           "work_id": "WORK_eye-in-the-sky",
           "canonical_title": "Eye in the Sky",
@@ -851,7 +1130,7 @@
       "slug": "illusionary-realities",
       "label": "Illusionary Realities",
       "description": "Simulations, false worlds, mimicry, illusions, and counterfeit reality-systems.",
-      "work_count": 25,
+      "work_count": 31,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -890,6 +1169,24 @@
           "date_start": "1952"
         },
         {
+          "work_id": "WORK_the-defenders",
+          "canonical_title": "The Defenders",
+          "slug": "the-defenders",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Galaxy, January 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_pay-for-the-printer",
+          "canonical_title": "Pay for the Printer",
+          "slug": "pay-for-the-printer",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, October 1956",
+          "date_start": "1956"
+        },
+        {
           "work_id": "WORK_eye-in-the-sky",
           "canonical_title": "Eye in the Sky",
           "slug": "eye-in-the-sky",
@@ -926,6 +1223,15 @@
           "date_start": "1962"
         },
         {
+          "work_id": "WORK_the-days-of-perky-pat",
+          "canonical_title": "The Days of Perky Pat",
+          "slug": "the-days-of-perky-pat",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Amazing, December 1963",
+          "date_start": "1963"
+        },
+        {
           "work_id": "WORK_the-game-players-of-titan",
           "canonical_title": "The Game-Players of Titan",
           "slug": "the-game-players-of-titan",
@@ -951,6 +1257,15 @@
           "work_type": "novel",
           "date_display": "1964",
           "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_we-can-remember-it-for-you-wholesale",
+          "canonical_title": "We Can Remember It For You Wholesale",
+          "slug": "we-can-remember-it-for-you-wholesale",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, April 1966",
+          "date_start": "1966"
         },
         {
           "work_id": "WORK_counter-clock-world",
@@ -980,6 +1295,15 @@
           "date_start": "1967"
         },
         {
+          "work_id": "WORK_the-electric-ant",
+          "canonical_title": "The Electric Ant",
+          "slug": "the-electric-ant",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, October 1969",
+          "date_start": "1969"
+        },
+        {
           "work_id": "WORK_the-preserving-machine-and-other-stories",
           "canonical_title": "The Preserving Machine and Other Stories",
           "slug": "the-preserving-machine-and-other-stories",
@@ -987,6 +1311,15 @@
           "work_type": "short_stories",
           "date_display": "1969",
           "date_start": "1969"
+        },
+        {
+          "work_id": "WORK_i-hope-i-shall-arrive-soon",
+          "canonical_title": "I Hope I Shall Arrive Soon",
+          "slug": "i-hope-i-shall-arrive-soon",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Playboy, December 1980, as 'Frozen Journey'",
+          "date_start": "1980"
         },
         {
           "work_id": "WORK_the-unteleported-man",
@@ -1086,8 +1419,35 @@
       "slug": "memory-identity",
       "label": "Memory & Identity",
       "description": "Amnesia, implanted or false memory, identity instability, and the porous self.",
-      "work_count": 3,
+      "work_count": 8,
       "works": [
+        {
+          "work_id": "WORK_beyond-lies-the-wub",
+          "canonical_title": "Beyond Lies the Wub",
+          "slug": "beyond-lies-the-wub",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Planet Stories, July 1952 — the first Dick story to appear in print",
+          "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_human-is",
+          "canonical_title": "Human Is",
+          "slug": "human-is",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Startling Stories, Winter 1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_the-days-of-perky-pat",
+          "canonical_title": "The Days of Perky Pat",
+          "slug": "the-days-of-perky-pat",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Amazing, December 1963",
+          "date_start": "1963"
+        },
         {
           "work_id": "WORK_clans-of-the-alphane-moon",
           "canonical_title": "Clans of the Alphane Moon",
@@ -1098,6 +1458,15 @@
           "date_start": "1964"
         },
         {
+          "work_id": "WORK_we-can-remember-it-for-you-wholesale",
+          "canonical_title": "We Can Remember It For You Wholesale",
+          "slug": "we-can-remember-it-for-you-wholesale",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, April 1966",
+          "date_start": "1966"
+        },
+        {
           "work_id": "WORK_confessions-of-a-crap-artist",
           "canonical_title": "Confessions of a Crap Artist",
           "slug": "confessions-of-a-crap-artist",
@@ -1105,6 +1474,15 @@
           "work_type": "novel",
           "date_display": "1975",
           "date_start": "1975"
+        },
+        {
+          "work_id": "WORK_i-hope-i-shall-arrive-soon",
+          "canonical_title": "I Hope I Shall Arrive Soon",
+          "slug": "i-hope-i-shall-arrive-soon",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Playboy, December 1980, as 'Frozen Journey'",
+          "date_start": "1980"
         },
         {
           "work_id": "WORK_mary-and-the-giant",
@@ -1123,8 +1501,26 @@
       "slug": "time",
       "label": "Time",
       "description": "Temporal distortion, regression, precognition, time slips, and altered historical sequence.",
-      "work_count": 6,
+      "work_count": 11,
       "works": [
+        {
+          "work_id": "WORK_the-preserving-machine",
+          "canonical_title": "The Preserving Machine",
+          "slug": "the-preserving-machine",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-golden-man",
+          "canonical_title": "The Golden Man",
+          "slug": "the-golden-man",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "If, April 1954 (Quinn Publishing Co.) — byline details confirmed by Dick himself in a 1975 letter to his agent",
+          "date_start": "1954"
+        },
         {
           "work_id": "WORK_the-minority-report-and-other-classic-stories",
           "canonical_title": "The Minority Report and Other Classic Stories",
@@ -1135,6 +1531,15 @@
           "date_start": "1954"
         },
         {
+          "work_id": "WORK_autofac",
+          "canonical_title": "Autofac",
+          "slug": "autofac",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Galaxy, November 1955",
+          "date_start": "1955"
+        },
+        {
           "work_id": "WORK_time-out-of-joint",
           "canonical_title": "Time Out of Joint",
           "slug": "time-out-of-joint",
@@ -1142,6 +1547,15 @@
           "work_type": "novel",
           "date_display": "1959",
           "date_start": "1959"
+        },
+        {
+          "work_id": "WORK_the-days-of-perky-pat",
+          "canonical_title": "The Days of Perky Pat",
+          "slug": "the-days-of-perky-pat",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Amazing, December 1963",
+          "date_start": "1963"
         },
         {
           "work_id": "WORK_dr-bloodmoney-or-how-we-got-along-after-the-bomb",
@@ -1171,6 +1585,15 @@
           "date_start": "1967"
         },
         {
+          "work_id": "WORK_i-hope-i-shall-arrive-soon",
+          "canonical_title": "I Hope I Shall Arrive Soon",
+          "slug": "i-hope-i-shall-arrive-soon",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Playboy, December 1980, as 'Frozen Journey'",
+          "date_start": "1980"
+        },
+        {
           "work_id": "WORK_five-novels-of-the-1960s-and-70s",
           "canonical_title": "Five Novels of the 1960s and 70s",
           "slug": "five-novels-of-the-1960s-and-70s",
@@ -1187,8 +1610,35 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 20,
+      "work_count": 29,
       "works": [
+        {
+          "work_id": "WORK_the-defenders",
+          "canonical_title": "The Defenders",
+          "slug": "the-defenders",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Galaxy, January 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-preserving-machine",
+          "canonical_title": "The Preserving Machine",
+          "slug": "the-preserving-machine",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-golden-man",
+          "canonical_title": "The Golden Man",
+          "slug": "the-golden-man",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "If, April 1954 (Quinn Publishing Co.) — byline details confirmed by Dick himself in a 1975 letter to his agent",
+          "date_start": "1954"
+        },
         {
           "work_id": "WORK_the-minority-report-and-other-classic-stories",
           "canonical_title": "The Minority Report and Other Classic Stories",
@@ -1199,6 +1649,15 @@
           "date_start": "1954"
         },
         {
+          "work_id": "WORK_autofac",
+          "canonical_title": "Autofac",
+          "slug": "autofac",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Galaxy, November 1955",
+          "date_start": "1955"
+        },
+        {
           "work_id": "WORK_solar-lottery",
           "canonical_title": "Solar Lottery",
           "slug": "solar-lottery",
@@ -1206,6 +1665,15 @@
           "work_type": "novel",
           "date_display": "1955",
           "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_pay-for-the-printer",
+          "canonical_title": "Pay for the Printer",
+          "slug": "pay-for-the-printer",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, October 1956",
+          "date_start": "1956"
         },
         {
           "work_id": "WORK_the-man-who-japed",
@@ -1271,12 +1739,30 @@
           "date_start": "1966"
         },
         {
+          "work_id": "WORK_we-can-remember-it-for-you-wholesale",
+          "canonical_title": "We Can Remember It For You Wholesale",
+          "slug": "we-can-remember-it-for-you-wholesale",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, April 1966",
+          "date_start": "1966"
+        },
+        {
           "work_id": "WORK_counter-clock-world",
           "canonical_title": "Counter-Clock World",
           "slug": "counter-clock-world",
           "category": "novels",
           "work_type": "novel",
           "date_display": "1967",
+          "date_start": "1967"
+        },
+        {
+          "work_id": "WORK_faith-of-our-fathers",
+          "canonical_title": "Faith of Our Fathers",
+          "slug": "faith-of-our-fathers",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Dangerous Visions, ed. Harlan Ellison, 1967",
           "date_start": "1967"
         },
         {
@@ -1305,6 +1791,15 @@
           "work_type": "novel",
           "date_display": "1970",
           "date_start": "1970"
+        },
+        {
+          "work_id": "WORK_the-pre-persons",
+          "canonical_title": "The Pre-Persons",
+          "slug": "the-pre-persons",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "The Magazine of Fantasy & Science Fiction, October 1974",
+          "date_start": "1974"
         },
         {
           "work_id": "WORK_deus-irae",
@@ -1368,6 +1863,15 @@
           "work_type": "novel",
           "date_display": "2008",
           "date_start": "2008"
+        },
+        {
+          "work_id": "WORK_second-variety",
+          "canonical_title": "Second Variety",
+          "slug": "second-variety",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "",
+          "date_start": ""
         }
       ],
       "essay_path": "themes/essays/empire-control.md"
@@ -1377,8 +1881,26 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 7,
+      "work_count": 11,
       "works": [
+        {
+          "work_id": "WORK_beyond-lies-the-wub",
+          "canonical_title": "Beyond Lies the Wub",
+          "slug": "beyond-lies-the-wub",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Planet Stories, July 1952 — the first Dick story to appear in print",
+          "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_the-preserving-machine",
+          "canonical_title": "The Preserving Machine",
+          "slug": "the-preserving-machine",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, June 1953",
+          "date_start": "1953"
+        },
         {
           "work_id": "WORK_the-cosmic-puppets",
           "canonical_title": "The Cosmic Puppets",
@@ -1387,6 +1909,15 @@
           "work_type": "novel",
           "date_display": "1957",
           "date_start": "1957"
+        },
+        {
+          "work_id": "WORK_faith-of-our-fathers",
+          "canonical_title": "Faith of Our Fathers",
+          "slug": "faith-of-our-fathers",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Dangerous Visions, ed. Harlan Ellison, 1967",
+          "date_start": "1967"
         },
         {
           "work_id": "WORK_a-maze-of-death",
@@ -1405,6 +1936,15 @@
           "work_type": "novel",
           "date_display": "1976",
           "date_start": "1976"
+        },
+        {
+          "work_id": "WORK_i-hope-i-shall-arrive-soon",
+          "canonical_title": "I Hope I Shall Arrive Soon",
+          "slug": "i-hope-i-shall-arrive-soon",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Playboy, December 1980, as 'Frozen Journey'",
+          "date_start": "1980"
         },
         {
           "work_id": "WORK_radio-free-albemuth",
@@ -1450,8 +1990,35 @@
       "slug": "alien-contact",
       "label": "Alien Contact",
       "description": "Aliens, extraterrestrial intelligence, off-world contact, and nonhuman ecologies.",
-      "work_count": 4,
+      "work_count": 7,
       "works": [
+        {
+          "work_id": "WORK_beyond-lies-the-wub",
+          "canonical_title": "Beyond Lies the Wub",
+          "slug": "beyond-lies-the-wub",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Planet Stories, July 1952 — the first Dick story to appear in print",
+          "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_colony",
+          "canonical_title": "Colony",
+          "slug": "colony",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Galaxy, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_human-is",
+          "canonical_title": "Human Is",
+          "slug": "human-is",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Startling Stories, Winter 1955",
+          "date_start": "1955"
+        },
         {
           "work_id": "WORK_the-game-players-of-titan",
           "canonical_title": "The Game-Players of Titan",
@@ -1496,7 +2063,7 @@
       "slug": "suburbia-domesticity",
       "label": "Suburbia & Domesticity",
       "description": "Family life, marriage, houses, domestic tension, and the suburban everyday.",
-      "work_count": 14,
+      "work_count": 17,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -1526,6 +2093,15 @@
           "date_start": "1944"
         },
         {
+          "work_id": "WORK_the-father-thing",
+          "canonical_title": "The Father-thing",
+          "slug": "the-father-thing",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, December 1954",
+          "date_start": "1954"
+        },
+        {
           "work_id": "WORK_the-man-who-japed",
           "canonical_title": "The Man Who Japed",
           "slug": "the-man-who-japed",
@@ -1544,6 +2120,15 @@
           "date_start": "1957"
         },
         {
+          "work_id": "WORK_the-days-of-perky-pat",
+          "canonical_title": "The Days of Perky Pat",
+          "slug": "the-days-of-perky-pat",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Amazing, December 1963",
+          "date_start": "1963"
+        },
+        {
           "work_id": "WORK_clans-of-the-alphane-moon",
           "canonical_title": "Clans of the Alphane Moon",
           "slug": "clans-of-the-alphane-moon",
@@ -1560,6 +2145,15 @@
           "work_type": "short_stories",
           "date_display": "1973",
           "date_start": "1973"
+        },
+        {
+          "work_id": "WORK_the-pre-persons",
+          "canonical_title": "The Pre-Persons",
+          "slug": "the-pre-persons",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "The Magazine of Fantasy & Science Fiction, October 1974",
+          "date_start": "1974"
         },
         {
           "work_id": "WORK_confessions-of-a-crap-artist",

@@ -1,163 +1,137 @@
 {
- "artifact_id": "ART_DOSSIER_PAY_FOR_THE_PRINTER",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "pay-for-the-printer",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Pay For The Printer",
-  "slug": "pay-for-the-printer",
-  "form": "story",
-  "word_count": 6364,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 33417,
-   "line_end": 33792,
-   "word_count": 6364,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "John",
-    "entity_id": "TERM_john",
-    "count": 5,
-    "distinctiveness": 7.86
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 15,
-    "distinctiveness": 5.86
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 3,
-    "distinctiveness": 4.28
-   },
-   {
-    "label": "Garden",
-    "entity_id": "TERM_garden",
-    "count": 1,
-    "distinctiveness": 2.61
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 13,
-    "distinctiveness": 2.34
-   },
-   {
-    "label": "Girl",
-    "entity_id": "TERM_girl",
-    "count": 6,
-    "distinctiveness": 2.02
-   },
-   {
-    "label": "Star",
-    "entity_id": "TERM_star",
-    "count": 1,
-    "distinctiveness": 1.9
-   },
-   {
-    "label": "Good",
-    "entity_id": "TERM_good",
-    "count": 13,
-    "distinctiveness": 1.88
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 8,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT.md",
-    "author": "Fredric Jameson",
-    "lane": "C",
-    "mention_count": 4,
-    "quotes": [
-     {
-      "line": 4352,
-      "quote": "…foot through. Hence the obsessive compensatory theme of reproduction. In one of his most alarming fables, \"Pay for the Printer\", Dick imagines a steadily deterio­ rating post-atomic universe momentarily rescued by the arrival of a curio…"
-     },
-     {
-      "line": 4664,
-      "quote": "…is technology, most of the time mechani­ cal, but occasionally throwing up stunningly organic images such as \"Pay for the Printer\", in which the alien Biltong faithfully reproduce any object set in front of them - a situation then grimly w…"
-     },
-     {
-      "line": 4666,
-      "quote": "…aver to a bath of fixing-chemicals which had the capacity to lock the amoeba into that fmal form\" (14). In \"Pay for the Printer\", to be sure, the organic reproductive or mimetic technology is a kind of alien assistance in a postwar situa…"
-     },
-     {
-      "line": 5268,
-      "quote": "…Man 349 Ubik 82, 270, 340, 345-6, 348, 368, 376 Vulcan's Hammer 359 We Can Build You 83, 1 14, 363, 375-7 \"Pay for the Printer\" 374 \"Second Variety\" 375 Dickens, Charles 34-5 DiFazio, William 150 differentiation 14-7, 20 Dilthey, Wilhel…"
-     }
+  "artifact_id": "ART_DOSSIER_PAY_FOR_THE_PRINTER",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "pay-for-the-printer",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Pay for the Printer",
+    "slug": "pay-for-the-printer",
+    "form": "short story",
+    "word_count": 6364,
+    "lane": "A",
+    "first_publication": "If, October 1956",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 33417,
+      "line_end": 33792,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "After a nuclear war has reduced the world to ash and rubble, human settlements survive by trading their salvaged pre-war goods to the Biltong — alien, amoeba-like creatures drawn to Earth by the H-bomb flashes — who duplicate them. A Biltong makes a 'print': a faithful physical copy of whatever original object is set before it, built from ash and its own bodily fluid. Allen Fergesson drives Charlotte back to her settlement carrying a box of rare originals, hoping fresh source material will revive her settlement's ailing, elderly Biltong. It doesn't: the prints it manages are 'puddinged', unformed blobs, and the buildings and goods it printed years ago are themselves decaying back into ash, exactly as happened when the Chicago settlement's Biltong died and that whole community collapsed. At the dying Biltong's park, a silent passenger named John Dawes produces a crude hand-made wooden cup and a hammered knife — objects nobody printed. He is a survivor of Chicago who has joined a group that, rather than waiting on failing aliens, has begun building things itself from nothing: crudely, slowly, starting with wood and fire. Fergesson gets Charlotte away in his car as the settlement's mob turns violent, then chooses to follow Dawes on foot toward one of these building camps. Around a campfire, Dawes lays out a Steuben crystal cup, his own wooden one, and a botched Biltong print side by side, explaining that printing is mere copying and building is the only way back to civilization — slow, humiliating, and the only path that does not end when the aliens do.",
+
+    "structure": {
+      "form": "short story in three movements: dependency demonstrated, dependency failing, an alternative revealed",
+      "movements": [
+        "The drive in: a decaying settlement observed through Fergesson's eyes, contrasted with his own thriving Pittsburgh.",
+        "The park: the dying Biltong, the crowd's hope curdling into rage, the failed attempt to revive it with fresh originals.",
+        "The road out: Dawes' cup and knife, the mob, Charlotte's escape by car, and the walk to the building camp."
+      ],
+      "point_of_view": "third person close to Fergesson, an outsider from the still-functioning Pittsburgh settlement, so both the failing settlement and the alternative Dawes represents are discovered by someone as ignorant as the reader.",
+      "central_device": "Two forms of production set side by side and physically compared — the Steuben glass, its Biltong-printed 'pudding', and Dawes' hand-made wooden cup — so the story's argument is made with objects rather than statement."
+    },
+
+    "characters": [
+      { "name": "Allen Fergesson", "role": "visitor from the Pittsburgh settlement", "note": "Believes his own settlement's health is simply good fortune and cannot yet see it as another stage of the same dependency. His question to Dawes — 'Where do you start? It's a paradox!' — is the story's real subject." },
+      { "name": "Charlotte", "role": "resident of the failing settlement", "note": "Loses her apartment, her clothes and her composure in a single scene, and is saved by being put in a car and driven away — rescued by the very system of prints and originals that is failing everyone else." },
+      { "name": "Ben Untermeyer", "role": "resident, drives the getaway", "note": "Physically the strongest character and entirely dependent; his one decisive act is fighting through a mob to save a printed Buick." },
+      { "name": "John Dawes", "role": "survivor of the Chicago settlement's collapse", "note": "Silent for most of the story, then the one person with an answer. Distinguishes sharply between print (copy) and build (make), and treats his crude wooden cup with open pride rather than embarrassment." },
+      { "name": "The Biltong", "role": "the settlement's aging alien duplicator", "note": "Alien, sympathetic, and doomed — its dying attempt to reproduce a Steuben cup collapses into a shapeless blob, and its unhatched eggs are found sucked dry by scavenging dogs." }
     ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 4,
-    "quotes": [
-     {
-      "line": 1330,
-      "quote": "…of tinkering (as in ‘The Turning Wheel’,1954, CS3), or of the value of making rather than replicating, as in ‘Pay for the Printer’ (1956, CS3). ‘Pay for the Printer’ is another story[15] treating the dependence of consumers on processes of…"
-     },
-     {
-      "line": 1330,
-      "quote": "…eel’,1954, CS3), or of the value of making rather than replicating, as in ‘Pay for the Printer’ (1956, CS3). ‘Pay for the Printer’ is another story[15] treating the dependence of consumers on processes of production of which they have lost…"
-     },
-     {
-      "line": 1512,
-      "quote": "…me traps as that of the characters. A sign of this is that it is easy to read ‘Small Town’ or, for instance, ‘Pay for the Printer’, as allegories of authorship (the author as creator of miniature worlds, or of ‘prints’).[33] The question…"
-     },
-     {
-      "line": 3758,
-      "quote": "…viours in 49n14 fathers and sons in 100n23 _Palmer Eldritch_ , _see The Three Stigmata of Palmer Eldritch_ ‘Pay for the Printer’ consuming and making in **93–94** , 107 _Penultimate Truth, The_ 18n30 manufactured events in **20–21**…"
-     }
+
+    "settings": [
+      { "name": "The failing settlement", "note": "Buildings on scaffolding, a newspaper printed as unreadable smears, a car door that no longer closes properly — decay entering every printed thing at once, tracking the Biltong's own decline." },
+      { "name": "The Pittsburgh settlement", "note": "Fergesson's home, still thriving because its Biltong is younger — the story is careful to make this luck rather than merit." },
+      { "name": "The park", "note": "Where the dying Biltong sits in public, its unhatched eggs nearby, ringed by a crowd whose hope curdles visibly into violence." },
+      { "name": "The building camp", "note": "Never shown directly, described only as thirty miles off; the story ends walking toward it rather than arriving." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "motifs": [
+      "The 'puddinged' object — anything printed by a failing Biltong loses definition and reverts toward formless ash",
+      "Prints wearing out on their own timeline, so a settlement decays even after its Biltong stops making new mistakes",
+      "Objects paired for comparison: original, print, and hand-made thing, set side by side as evidence",
+      "The crowd's patience curdling into a mob the instant it senses the last resource failing",
+      "Building explicitly opposed to printing: making from nothing versus copying from an original"
+    ],
+
+    "significance": "The story's clearest statement is Dawes': 'Printing means merely copying. The word is build.' Everything human in the post-war settlements — the cars, the whiskey, the clothing, civilization itself — depends on an alien race duplicating pre-war originals, and the story is exact about what happens as that race ages: not a clean cutoff but a slow contamination, in which even the successes of thirty years ago crumble on their own schedule. What makes it more than a survival fable is the ending's refusal of comfort: Dawes doesn't promise a fast rebuild. His wooden cup is 'closer to that Steuben glass than any print' precisely because it was made and not copied, and he is honest that a lighter like Fergesson's is generations away — 'too many steps in between.' The story ends walking, not arriving.",
+
+    "closing_note": "Dawes keeps the Steuben glass not to copy, but as a model of the goal — the story's distinction between reproduction and reconstruction stated as literally as it can be."
+  },
+
+  "concepts": {
+    "distinctive_terms": [],
+    "note": "The distinctiveness scan surfaced only common words (John, Black, Fall) at low counts — the story's vocabulary is not unusually marked against Dick's fiction as a whole, and no dictionary terms are proposed on that basis.",
+    "thematic_links_proposed": [
+      { "theme": "authentic-human", "basis": "the story's explicit opposition of building (making) to printing (copying) as the measure of a real civilization" },
+      { "theme": "empire-control", "basis": "an entire human economy dependent on an alien species it neither controls nor fully understands" },
+      { "theme": "illusionary-realities", "basis": "prints that are indistinguishable from originals until the duplicating process itself starts to fail" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No statement by Dick about this story was found in the corpus currently indexed.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 8,
+    "evidence": [
+      {
+        "author": "Fredric Jameson",
+        "work": "Archaeologies of the Future",
+        "line": 4352,
+        "quote": "In one of his most alarming fables, \"Pay for the Printer\", Dick imagines a steadily deteriorating post-atomic universe momentarily rescued by the arrival of a curious",
+        "reading": "Jameson frames the story around what he elsewhere calls Dick's 'obsessive compensatory theme of reproduction' — duplication as the response to a civilization that can no longer make anything new."
+      },
+      {
+        "author": "Fredric Jameson",
+        "work": "Archaeologies of the Future",
+        "line": 4664,
+        "quote": "occasionally throwing up stunningly organic images such as \"Pay for the Printer\", in which the alien Biltong faithfully reproduce any object set in front of them",
+        "reading": "Jameson reads the Biltong as an organic counter-example within Dick's otherwise largely mechanical reproduction technologies."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1330,
+        "quote": "or of the value of making rather than replicating, as in \"Pay for the Printer\" (1956, CS3). \"Pay for the Printer\" is another story treating the dependence of consumers on processes of production of which they have lost",
+        "reading": "Palmer's own formulation of the story's thesis — making versus replicating — matches Dawes' distinction in the text almost exactly."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1512,
+        "quote": "it is easy to read \"Small Town\" or, for instance, \"Pay for the Printer\", as allegories of authorship (the author as creator of miniature worlds, or of \"prints\")",
+        "reading": "The most interesting critical suggestion in the file, and unresolved here: an author who copies reality versus one who builds it — a self-implicating reading that the story itself does not foreclose."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Palmer's authorship-allegory reading is offered in one clause with a footnote marker ([33]) that was not captured. The surrounding note would say more about what he thinks the allegory implies for Dick's own practice.",
+    "No letters or interview statements by Dick about this story were found. Given how precisely Dawes' print/build distinction anticipates language Dick uses elsewhere about kipple and entropy, a direct statement — if one exists — would be valuable.",
+    "The story never shows the building camp. Worth checking whether any of Dick's other post-war stories (Autofac, The Defenders) describe a comparable settlement in more detail."
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "8 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 6,364 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py — no distinctive terms cleared the threshold.",
+    "layer_3_pkd": "0 citations found.",
+    "layer_4_criticism": "8 across Jameson and Palmer.",
+    "related_dossiers": "autofac (production without human agency); the-days-of-perky-pat (post-war settlement culture, salvaged originals).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

@@ -14,6 +14,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "database" / "unified.sqlite"
@@ -22,6 +23,9 @@ WORKS_DIR = DATA_DIR / "works"
 THEMES_DIR = DATA_DIR / "themes"
 ARCHIVE_DIR = DATA_DIR / "archive" / "docs"
 CURATED_BIO_PATH = DATA_DIR / "biography" / "curated.json"
+
+sys.path.insert(0, str(ROOT / "scripts" / "reading"))
+import export_story_works  # noqa: E402
 
 FICTION_CATEGORIES = {"novels", "short_stories"}
 
@@ -854,8 +858,18 @@ def seed_database(db: sqlite3.Connection, works: list[dict[str, Any]]) -> None:
     db.commit()
 
 
+# Fields the Works list page needs. The close readings are large, so the index
+# stays lean and WorkDetail loads the per-work file.
+INDEX_FIELDS = (
+    "work_id", "canonical_title", "slug", "author", "work_type", "category",
+    "date_display", "date_start", "card_summary", "page_count", "source_count",
+    "themes", "has_reading_notes",
+)
+
+
 def export_public_json(works: list[dict[str, Any]]) -> None:
-    write_json(WORKS_DIR / "index.json", works)
+    index = [{k: w.get(k) for k in INDEX_FIELDS if w.get(k) is not None} for w in works]
+    write_json(WORKS_DIR / "index.json", index)
     for work in works:
         detail = dict(work)
         write_json(WORKS_DIR / f"{work['slug']}.json", detail)
@@ -879,9 +893,13 @@ def main() -> None:
         work["themes"] = infer_themes(work)
     if args.seed_db:
         seed_database(db, works)
+    # Fold in the reading dossiers, so a rebuild from the documents table does
+    # not drop the works whose only source is a close reading of the text.
+    works = export_story_works.apply(works)
     export_public_json(works)
     db.close()
-    print(f"Exported {len(works)} canonical works")
+    read = sum(1 for w in works if w.get("has_reading_notes"))
+    print(f"Exported {len(works)} canonical works ({read} with close readings)")
 
 
 if __name__ == "__main__":
