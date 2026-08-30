@@ -1,176 +1,133 @@
 {
- "artifact_id": "ART_DOSSIER_THE_COMMUTER",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-commuter",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Commuter",
-  "slug": "the-commuter",
-  "form": "story",
-  "word_count": 4155,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 17834,
-   "line_end": 18237,
-   "word_count": 4155,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Laura",
-    "name_id": "NAME_laura",
-    "mentions": 18
-   },
-   {
-    "name": "Nixon",
-    "name_id": "NAME_nixon",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Holy",
-    "entity_id": "TERM_holy",
-    "count": 1,
-    "distinctiveness": 10.29
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 3,
-    "distinctiveness": 5.4
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 2,
-    "distinctiveness": 4.45
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 4,
-    "distinctiveness": 2.39
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 2,
-    "distinctiveness": 2.1
-   },
-   {
-    "label": "Reality",
-    "entity_id": "TERM_reality",
-    "count": 1,
-    "distinctiveness": 1.77
-   },
-   {
-    "label": "Bill",
-    "entity_id": "TERM_bill",
-    "count": 1,
-    "distinctiveness": 1.67
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 3,
-    "distinctiveness": 1.62
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 5,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
-    "author": null,
-    "lane": "B",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 999,
-      "quote": "…al or orderly way for God to handle things. (You'll find early stories of mine such as \"Adjustment Team\" and \"The Commuter\" dealing with post-screwup changes; they're always bad news to the Creator.) In connection with this thought,…"
-     },
-     {
-      "line": 1735,
-      "quote": "…n the sea of potential facts around each actualized fact—each that, so to speak, makes it). Like in my story \"The Commuter.\" Also, there is to me the real thought that adjustments (à la \"Adjustment Team\") are being made in our past,…"
-     },
-     {
-      "line": 13258,
-      "quote": "…mothy Archer_ \"Chains of Air, Web of Aether,\" [>], [>], [>] _Clans of the Alphane Moon,_ [>], [>], [>] \"The Commuter,\" [>], [>], [>] _Confessions of a Crap Artist,_ [>], [>], [>], [>]–[>] _The Cosmic Puppets,_ [>] _Count…"
-     }
+  "artifact_id": "ART_DOSSIER_THE_COMMUTER",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-commuter",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Commuter",
+    "slug": "the-commuter",
+    "form": "short story",
+    "word_count": 4155,
+    "lane": "A",
+    "first_publication": "Amazing, July 1953",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 17834,
+      "line_end": 18237,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "A tired commuter named Ernest Critchet asks ticket agent Ed Jacobson for a new commute book to a town called Macon Heights. It isn't on the chart, the map, or the state directory; when shown the evidence, Critchet vanishes mid-sentence, then reappears minutes later insisting he has lived there for six months. He vanishes a second time when confronted with the wall map. Station vice-president Bob Paine, sensing he has heard the name before, sends his girlfriend Laura to dig through old newspapers and tax records while he rides the B line to where Macon Heights should be. He finds only fields — until, on the return trip, he sees a bank of gray haze forming above the fields and a passenger step off the halted train and walk, then float, into it. The conductor insists the train has always stopped at Macon Heights. Laura's research turns up the answer: seven years earlier, a county vote on a proposed housing tract was decided against Macon Heights by a single vote. The town is now coming into existence anyway — the past reasserting a possibility that had only barely failed to happen. Paine visits the now-solid town, verifies its total physical reality down to a grape he eats from a supermarket bin, and realizes with terror that its existence is warping the city itself, changing storefronts and streets he can no longer be sure he remembers correctly. He races home to confirm his own apartment, his girlfriend, and — a beat the story never quite explains — a son he does not remember having, are all still there.",
+
+    "structure": {
+      "form": "short story in three movements: the anomaly reported, investigated, and confirmed",
+      "movements": [
+        "The ticket window: Critchet's two appearances and disappearances bracketing the discovery that Macon Heights doesn't exist.",
+        "Paine's investigation: the train ride, the vanishing passenger, Laura's archival research, and the single deciding vote seven years earlier.",
+        "Macon Heights made solid, and the spreading uncertainty about what else has quietly changed to accommodate it, ending at Paine's own apartment."
+      ],
+      "point_of_view": "third person, following Jacobson briefly before settling on Paine, whose growing dread about his own memory becomes the story's real tension once the town's reality is no longer in question.",
+      "structural_device": "A single reversed historical vote is the story's entire causal engine — reality treated as retroactively negotiable by a margin as small as one ballot."
+    },
+
+    "characters": [
+      { "name": "Bob Paine", "role": "railway vice-president, investigator", "note": "Follows the mystery with professional curiosity until it turns personal — his terror is not about Macon Heights but about whether his own remembered life is stable ground." },
+      { "name": "Ernest Critchet", "role": "the commuter", "note": "An ordinary, irritable bookkeeper whose only crime is commuting to a place reality had not yet decided to include." },
+      { "name": "Laura Nichols", "role": "Paine's girlfriend, researcher", "note": "Recovers the seven-year-old county vote from newspapers and tax records — the story's factual anchor, delivered with comic irritation about a lost half-day's pay." },
+      { "name": "Ed Jacobson", "role": "ticket seller", "note": "The first witness, reduced to nervous, superstitious dread by watching a man wink out of existence twice." }
     ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
+
+    "settings": [
+      { "name": "The train station", "note": "An ordinary commuter railway office, its charts and schedules treated as authoritative records of reality until reality itself edits them." },
+      { "name": "The B line between Jacksonville and Lewisburg", "note": "Barren fields that gradually fill with a bank of gray haze, then a whole town, over the course of about a day." },
+      { "name": "Macon Heights", "note": "A complete, sensorially real suburb — drugstore, supermarket, high schoolers, a Renoir print's worth of ordinary domestic detail — that did not exist twenty-four hours earlier." }
+    ],
+
+    "motifs": [
+      "A place erased from every record and every memory except the one person who commutes to it",
+      "Disappearance triggered by confrontation with documentary evidence — vanishing exactly when shown the map or chart that disproves you",
+      "A single close historical vote as the hinge on which an entire town's existence pivots, years later",
+      "Reality's edit spreading outward from its point of insertion, contaminating memory of unrelated storefronts and streets",
+      "The domestic ending undercut by an unexplained detail — Paine's forgotten son — that the story raises and then declines to resolve"
+    ],
+
+    "significance": "The story's mechanism — an event nearly happening, narrowly failing, and then asserting itself anyway years later — is Dick's earliest clean statement of retroactive causation as horror, and he returned to it directly and by name in the Exegesis. What makes it more than a puzzle story is the shift in whose reality is at stake: once Macon Heights is confirmed solid, the story's fear relocates entirely to Paine's own memory, which he can no longer fully trust to tell him what has and hasn't always been there. The unexplained son in the final scene reads as a small, unresolved instance of exactly the erosion Paine has just spent the whole story fearing — the story enacting its own thesis on its protagonist without comment.",
+
+    "closing_note": "Paine and Laura both explain away his disorientation as heat from the sun. The story does not correct them."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Holy", "entity_id": "TERM_holy", "count": 2, "distinctiveness": 10.29 },
+      { "label": "Book", "entity_id": "TERM_book", "count": 3, "distinctiveness": 5.4, "note": "The commute book itself as the story's central bureaucratic artifact of reality." },
+      { "label": "Lord", "entity_id": "TERM_lord", "count": 2, "distinctiveness": 4.45 },
+      { "label": "Reality", "entity_id": "TERM_reality", "count": 1, "distinctiveness": 1.77 }
+    ],
+    "names_matched": ["NAME_laura"],
+    "thematic_links_proposed": [
+      { "theme": "time", "basis": "a historical event that nearly failed to happen reasserting itself years later, retroactively" },
+      { "theme": "illusionary-realities", "basis": "a town and its surrounding reality coming into solid existence from nothing, spreading its edit outward into unrelated memories" },
+      { "theme": "memory-identity", "basis": "Paine's growing inability to trust his own memory of ordinary storefronts once he knows reality itself is being edited" },
+      { "theme": "suburbia-domesticity", "basis": "the story's proof of Macon Heights' reality is entirely domestic and consumer — a drugstore, a supermarket grape, high schoolers with malteds" }
+    ]
+  },
+
+  "pkd_on_this_work": {
     "lane": "E",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 1278,
-      "quote": "…allantine has: “Nanny” “The Turning Wheel” “The Defenders” “Adjustment Team” “Psi-Man Heal My Child” “The Commuter” “A Present For Pat” “Breakfast at Twilight” “Shell Game” That is it, Jack. Stress to Ballantine that I w…"
-     },
-     {
-      "line": 1620,
-      "quote": "…al or orderly way for God to handle things. (You’ll find early stories of mine such as “Adjustment Team” and “The Commuter” dealing with post-screwup changes; they’re always bad news to the Creator.) In connection with this thought,…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 1,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
+    "total_mentions": 5,
+    "summary": "Dick names this story directly, and pairs it explicitly with 'Adjustment Team' as an early statement of the same theological idea he developed decades later in the Exegesis.",
+    "evidence": [
+      {
+        "source": "The Exegesis of Philip K. Dick",
+        "line": 1735,
+        "quote": "in the sea of potential facts around each actualized fact — each that, so to speak, makes it. Like in my story \"The Commuter.\"",
+        "reading": "Dick using the story's premise directly as an image for a specific metaphysical claim: that unactualized possibilities remain latent around whatever did happen, and can in principle still 'make it' later."
+      },
+      {
+        "source": "The Exegesis of Philip K. Dick",
+        "line": 999,
+        "quote": "You'll find early stories of mine such as \"Adjustment Team\" and \"The Commuter\" dealing with post-screwup changes; they're always bad news to the Creator.",
+        "reading": "Groups this story with 'Adjustment Team' under one idea, confirming the two are a deliberate pair in Dick's own retrospective account of his work."
+      }
+    ]
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 1406,
-      "quote": "…ms of the fifties: there is no special place or agent of horror such as the House of Usher or Count Dracula. ‘The Commuter’ (1953, CS2) treats the main character’s discovery that a suburb, complete with its own railway station, neat…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 1,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1406,
+        "quote": "there is no special place or agent of horror such as the House of Usher or Count Dracula. \"The Commuter\" (1953, CS2) treats the main character's discovery that a suburb, complete with its own railway",
+        "reading": "Palmer's point, cut off in the capture, is that Dick's 1950s horror has no gothic apparatus — the uncanny arrives through ordinary infrastructure (a railway line, a ticket window) rather than a haunted place or monstrous agent."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Palmer's sentence about the absence of gothic apparatus is cut off mid-clause and should be read in full — it likely extends into a broader claim about Dick's 1950s suburban uncanny.",
+    "The unexplained son at the story's end is never addressed by the text itself. Worth checking whether any critic has commented specifically on this detail as an unresolved instance of the story's own premise.",
+    "Given the direct pairing with 'Adjustment Team' in the Exegesis, is there a specific essay or interview where Dick discusses the two side by side at greater length?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "5 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "1 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 4,155 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "5 citations, two of them substantive Exegesis passages naming this story directly.",
+    "layer_4_criticism": "1, from Palmer.",
+    "related_dossiers": "adjustment-team (Dick's own explicit pairing, both close-read).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

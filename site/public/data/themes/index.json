@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 65,
+  "fiction_work_count": 67,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -1075,7 +1075,7 @@
       "slug": "delusions",
       "label": "Delusions",
       "description": "Paranoia, psychosis, hallucination, schizophrenia, and other forms of unstable perception.",
-      "work_count": 7,
+      "work_count": 8,
       "works": [
         {
           "work_id": "WORK_colony",
@@ -1084,6 +1084,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Galaxy, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_expendable",
+          "canonical_title": "Expendable",
+          "slug": "expendable",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, 1953",
           "date_start": "1953"
         },
         {
@@ -1148,7 +1157,7 @@
       "slug": "illusionary-realities",
       "label": "Illusionary Realities",
       "description": "Simulations, false worlds, mimicry, illusions, and counterfeit reality-systems.",
-      "work_count": 32,
+      "work_count": 33,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -1185,6 +1194,15 @@
           "work_type": "short_stories",
           "date_display": "circa 1952–1955",
           "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_the-commuter",
+          "canonical_title": "The Commuter",
+          "slug": "the-commuter",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Amazing, July 1953",
+          "date_start": "1953"
         },
         {
           "work_id": "WORK_the-defenders",
@@ -1446,7 +1464,7 @@
       "slug": "memory-identity",
       "label": "Memory & Identity",
       "description": "Amnesia, implanted or false memory, identity instability, and the porous self.",
-      "work_count": 8,
+      "work_count": 9,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -1456,6 +1474,15 @@
           "work_type": "short_story",
           "date_display": "Planet Stories, July 1952 — the first Dick story to appear in print",
           "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_the-commuter",
+          "canonical_title": "The Commuter",
+          "slug": "the-commuter",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Amazing, July 1953",
+          "date_start": "1953"
         },
         {
           "work_id": "WORK_human-is",
@@ -1528,8 +1555,17 @@
       "slug": "time",
       "label": "Time",
       "description": "Temporal distortion, regression, precognition, time slips, and altered historical sequence.",
-      "work_count": 12,
+      "work_count": 13,
       "works": [
+        {
+          "work_id": "WORK_the-commuter",
+          "canonical_title": "The Commuter",
+          "slug": "the-commuter",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Amazing, July 1953",
+          "date_start": "1953"
+        },
         {
           "work_id": "WORK_the-preserving-machine",
           "canonical_title": "The Preserving Machine",
@@ -1646,8 +1682,17 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 31,
+      "work_count": 32,
       "works": [
+        {
+          "work_id": "WORK_expendable",
+          "canonical_title": "Expendable",
+          "slug": "expendable",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, 1953",
+          "date_start": "1953"
+        },
         {
           "work_id": "WORK_the-defenders",
           "canonical_title": "The Defenders",
@@ -1935,7 +1980,7 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 12,
+      "work_count": 13,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -1945,6 +1990,15 @@
           "work_type": "short_story",
           "date_display": "Planet Stories, July 1952 — the first Dick story to appear in print",
           "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_expendable",
+          "canonical_title": "Expendable",
+          "slug": "expendable",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Magazine of Fantasy & Science Fiction, 1953",
+          "date_start": "1953"
         },
         {
           "work_id": "WORK_the-preserving-machine",
@@ -2126,7 +2180,7 @@
       "slug": "suburbia-domesticity",
       "label": "Suburbia & Domesticity",
       "description": "Family life, marriage, houses, domestic tension, and the suburban everyday.",
-      "work_count": 17,
+      "work_count": 18,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -2154,6 +2208,15 @@
           "work_type": "short_stories",
           "date_display": "1944",
           "date_start": "1944"
+        },
+        {
+          "work_id": "WORK_the-commuter",
+          "canonical_title": "The Commuter",
+          "slug": "the-commuter",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Amazing, July 1953",
+          "date_start": "1953"
         },
         {
           "work_id": "WORK_the-father-thing",

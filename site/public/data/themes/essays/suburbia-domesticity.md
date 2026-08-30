@@ -20,6 +20,10 @@ The Magician's Box is the canonical works record for PKD's short-story collectio
 
 The Visitation is the canonical works record for PKD's short-story collection. In a story collection like [The Visitation](/works/the-visitation), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Commuter
+
+A tired commuter named Ernest Critchet asks ticket agent Ed Jacobson for a new commute book to a town called Macon Heights. In a story collection like [The Commuter](/works/the-commuter), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Father-thing
 
 Eight-year-old Charles Walton is sent to fetch his father for dinner and comes back unable to say which of them to fetch: there are two, and they look alike. In a story collection like [The Father-thing](/works/the-father-thing), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

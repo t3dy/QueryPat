@@ -8,6 +8,10 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 ## Reading the works
 
+### Expendable
+
+An unnamed man crushes two eavesdropping caterpillars under his foot on his way to the bus, cautiously avoids a spider web, and rides home uneasy about an insect world he half-perceives is aware of him. In a story collection like [Expendable](/works/expendable), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Defenders
 
 Eight years into a nuclear war, the entire human population of both blocs lives in sealed installations beneath the surface, manufacturing weapons that robots called leadies carry up and use. In a story collection like [The Defenders](/works/the-defenders), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

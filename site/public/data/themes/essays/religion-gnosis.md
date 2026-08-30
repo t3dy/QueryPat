@@ -12,6 +12,10 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 A ship provisioning on Mars takes aboard a wub — an enormous, placid, pig-like animal bought from a native for fifty cents by the crewman Peterson. In a story collection like [Beyond Lies the Wub](/works/beyond-lies-the-wub), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Expendable
+
+An unnamed man crushes two eavesdropping caterpillars under his foot on his way to the bus, cautiously avoids a spider web, and rides home uneasy about an insect world he half-perceives is aware of him. In a story collection like [Expendable](/works/expendable), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Preserving Machine
 
 Doc Labyrinth, convinced that civilisation is going the way of Rome and that a dark age is coming, worries that music is the most perishable of the things that will be lost. In a story collection like [The Preserving Machine](/works/the-preserving-machine), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
