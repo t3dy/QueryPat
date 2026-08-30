@@ -1,32 +1,24 @@
 {
-  "artifact_id": "ART_DOSSIER_BEYOND_THE_DOOR",
-  "artifact_type": "work_dossier",
-  "schema_version": "1.0",
-  "source_id": "beyond-the-door",
-  "generated_by": "reading_notes_agent",
-  "status": "LLM_CANDIDATE",
-  "review_state": "unreviewed",
-  "reading_status": "close_reading_complete",
-
-  "work": {
-    "title": "Beyond the Door",
-    "slug": "beyond-the-door",
-    "form": "short story",
-    "word_count": 2353,
-    "lane": "A",
-    "first_publication": "Fantastic Universe, January 1954",
-    "source": {
-      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-      "line_start": 13496,
-      "line_end": 13669,
-      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
-    }
-  },
-
+  "work_id": "WORK_beyond-the-door",
+  "canonical_title": "Beyond the Door",
+  "slug": "beyond-the-door",
+  "author": "Philip K. Dick",
+  "work_type": "short_story",
+  "category": "short_stories",
+  "date_display": "Fantastic Universe, January 1954",
+  "date_start": "1954",
+  "card_summary": "Larry gives his wife Doris a hand-made German cuckoo clock, immediately spoiling the gift by mentioning he got it wholesale through a friend.",
+  "page_summary": "Larry gives his wife Doris a hand-made German cuckoo clock, immediately spoiling the gift by mentioning he got it wholesale through a friend. Doris, wounded, bonds instead with the clock's cuckoo itself, talking to it, winding it devotedly, and coming to believe it loves her back — the cuckoo comes out for her every fifteen minutes rather than only on the hour, and stays silent and sullen whenever Larry is near. Doris begins an affair with Bob Chambers, showing him the clock as though introducing him to a rival suitor she needs the cuckoo's approval of; Larry catches them together and throws Doris out, keeping the clock out of pure spite ('It's mine; I bought it and paid for it'). Alone, the clock refuses to perform for Larry, staying silent through the hours he angrily demands it speak. Finally, hammer in hand, he threatens to smash it — and the cuckoo bursts out and strikes him in the eye, sending him falling to his death. Bob, at the inquest, quietly asks the doctor whether it could have been anything other than an accident, framing without quite saying it that the clock intended what it did.\n\n**Why it matters.** The story works by refusing to resolve its own central question: is the cuckoo an intelligence with loyalties, or is Doris's belief in it simply a lonely woman's projection onto the one thing in the house that seems to prefer her? Dick supports both readings with equal evidence — the cuckoo's favoritism could be explained by uneven winding and worn mechanics, exactly as Doris herself half-argues to Larry, or it could be exactly what it appears to be. The story belongs to a mode of 1950s domestic dread in which suppressed marital resentment finds an outlet through an object rather than a confrontation, and its refusal to adjudicate the clock's agency is the source of its unease: killing Larry can be read as coincidence, but the story ends on Bob's suspicion rather than on Larry's autopsy findings, leaving the more unsettling reading available without confirming it.\n\n*Bob's unfinished question to the doctor — 'I meant something else' — is the story's last word, and it deliberately withholds what that something else might be, leaving the reader to decide whether the clock acted or merely happened to be there.*",
+  "page_count": 0,
+  "source_count": 0,
+  "related_docs": [],
+  "biography_events": [],
+  "themes": [
+    "betrayal",
+    "suburbia-domesticity"
+  ],
+  "word_count": 2353,
   "reading": {
-    "reading_status": "close_reading_complete",
-    "synopsis": "Larry gives his wife Doris a hand-made German cuckoo clock, immediately spoiling the gift by mentioning he got it wholesale through a friend. Doris, wounded, bonds instead with the clock's cuckoo itself, talking to it, winding it devotedly, and coming to believe it loves her back — the cuckoo comes out for her every fifteen minutes rather than only on the hour, and stays silent and sullen whenever Larry is near. Doris begins an affair with Bob Chambers, showing him the clock as though introducing him to a rival suitor she needs the cuckoo's approval of; Larry catches them together and throws Doris out, keeping the clock out of pure spite ('It's mine; I bought it and paid for it'). Alone, the clock refuses to perform for Larry, staying silent through the hours he angrily demands it speak. Finally, hammer in hand, he threatens to smash it — and the cuckoo bursts out and strikes him in the eye, sending him falling to his death. Bob, at the inquest, quietly asks the doctor whether it could have been anything other than an accident, framing without quite saying it that the clock intended what it did.",
-
     "structure": {
       "form": "short story in four brief scenes: the ruined gift, the growing attachment, the discovery and eviction, the fatal reckoning",
       "movements": [
@@ -38,18 +30,34 @@
       "point_of_view": "third person, shifting from Doris's interiority in the middle section to Larry's in the final one, so the reader experiences the cuckoo's loyalty from both the side it protects and the side it eventually destroys.",
       "central_device": "A domestic object that behaves as though it has its own loyalties and grievances, its agency left permanently ambiguous — everything it does is exactly what a jealous, wronged intelligence would do, and also exactly what coincidence and a badly-timed spring mechanism would produce."
     },
-
     "characters": [
-      { "name": "Doris", "role": "protagonist, unhappy wife", "note": "Displaces the tenderness her marriage denies her onto the cuckoo, speaking to it as a confidant and, eventually, as a kind of rival suitor she wants Bob to win over — the story never mocks this as delusion, letting it sit as plausible, quietly desperate coping." },
-      { "name": "Larry", "role": "her husband", "note": "Introduced ruining his own gift by mentioning its discount price, and never shown displaying warmth toward Doris again; his casual cruelty ('Never satisfied. They're all that way') is punished by the story's ending, though the story stops short of stating the clock's violence as deliberate justice rather than accident." },
-      { "name": "Bob Chambers", "role": "Doris's lover", "note": "His final, half-finished question to the doctor — is it possible this was 'something else' than an accident — is the story's only explicit gesture toward reading the ending as intentional, and even he does not finish the thought aloud." },
-      { "name": "The cuckoo", "role": "the clock's automaton bird", "note": "Comes out for Doris every fifteen minutes though it is only required to on the hour, retreats and falls silent around Larry, and eventually strikes with lethal precision — behavior consistent with either genuine loyalty and vengeance or with nothing more than an old, unevenly-wound mechanism, and the story commits to neither reading." }
+      {
+        "name": "Doris",
+        "role": "protagonist, unhappy wife",
+        "note": "Displaces the tenderness her marriage denies her onto the cuckoo, speaking to it as a confidant and, eventually, as a kind of rival suitor she wants Bob to win over — the story never mocks this as delusion, letting it sit as plausible, quietly desperate coping."
+      },
+      {
+        "name": "Larry",
+        "role": "her husband",
+        "note": "Introduced ruining his own gift by mentioning its discount price, and never shown displaying warmth toward Doris again; his casual cruelty ('Never satisfied. They're all that way') is punished by the story's ending, though the story stops short of stating the clock's violence as deliberate justice rather than accident."
+      },
+      {
+        "name": "Bob Chambers",
+        "role": "Doris's lover",
+        "note": "His final, half-finished question to the doctor — is it possible this was 'something else' than an accident — is the story's only explicit gesture toward reading the ending as intentional, and even he does not finish the thought aloud."
+      },
+      {
+        "name": "The cuckoo",
+        "role": "the clock's automaton bird",
+        "note": "Comes out for Doris every fifteen minutes though it is only required to on the hour, retreats and falls silent around Larry, and eventually strikes with lethal precision — behavior consistent with either genuine loyalty and vengeance or with nothing more than an old, unevenly-wound mechanism, and the story commits to neither reading."
+      }
     ],
-
     "settings": [
-      { "name": "The Chambers' house, dining-room clock wall", "note": "The clock's fixed, mounted position turns it into a kind of household witness or judge, present for every domestic scene that follows its arrival." }
+      {
+        "name": "The Chambers' house, dining-room clock wall",
+        "note": "The clock's fixed, mounted position turns it into a kind of household witness or judge, present for every domestic scene that follows its arrival."
+      }
     ],
-
     "motifs": [
       "A gift ruined at the moment of giving by an admission of its discount price",
       "An inanimate mechanism treated, and eventually behaving, as though it possesses loyalty, jealousy, and judgment",
@@ -57,23 +65,18 @@
       "A death left permanently undecided between mechanical accident and deliberate retribution",
       "A small physical wound (Larry's nicked thumb) as the first, easily dismissed evidence of the clock's hostility, long before the story confirms or denies it"
     ],
-
     "significance": "The story works by refusing to resolve its own central question: is the cuckoo an intelligence with loyalties, or is Doris's belief in it simply a lonely woman's projection onto the one thing in the house that seems to prefer her? Dick supports both readings with equal evidence — the cuckoo's favoritism could be explained by uneven winding and worn mechanics, exactly as Doris herself half-argues to Larry, or it could be exactly what it appears to be. The story belongs to a mode of 1950s domestic dread in which suppressed marital resentment finds an outlet through an object rather than a confrontation, and its refusal to adjudicate the clock's agency is the source of its unease: killing Larry can be read as coincidence, but the story ends on Bob's suspicion rather than on Larry's autopsy findings, leaving the more unsettling reading available without confirming it.",
-
     "closing_note": "Bob's unfinished question to the doctor — 'I meant something else' — is the story's last word, and it deliberately withholds what that something else might be, leaving the reader to decide whether the clock acted or merely happened to be there."
   },
-
-  "concepts": {
-    "distinctive_terms": [
-      { "label": "Tears", "entity_id": "TERM_tears", "count": 1, "distinctiveness": 10.43, "note": "Doris's tears at receiving the clock, the story's first sign that the gift has already gone wrong." }
-    ],
-    "names_matched": ["NAME_doris"],
-    "thematic_links_proposed": [
-      { "theme": "betrayal", "basis": "a marriage undone by an affair and by a husband's casual cruelty, ultimately witnessed and possibly punished by the one object in the house that took the wife's side" },
-      { "theme": "suburbia-domesticity", "basis": "a household clock becoming the site of an entire marriage's private drama, from gift to affair to fatal confrontation" }
-    ]
-  },
-
+  "distinctive_terms": [
+    {
+      "label": "Tears",
+      "entity_id": "TERM_tears",
+      "count": 1,
+      "distinctiveness": 10.43,
+      "note": "Doris's tears at receiving the clock, the story's first sign that the gift has already gone wrong."
+    }
+  ],
   "pkd_on_this_work": {
     "lane": "B",
     "total_mentions": 1,
@@ -87,27 +90,21 @@
       }
     ]
   },
-
   "criticism": {
     "lane": "C",
     "total_mentions": 0,
     "evidence": []
   },
-
   "contradictions": [],
-
   "open_questions": [
     "What does footnote 95, attached to the five-story list in the Exegesis, actually say? It may explain concretely what Dick saw in this story as an example of 'the real breaking in from outside.'",
     "Is there secondary criticism connecting this story's ambiguous animate-object violence to Dick's later, more explicit treatments of things that turn out to be alive or aware (Ubik's regressing world, Do Androids Dream's animal fetish)?",
     "The clock is explicitly 'made in Germany' — is there any biographical or thematic reason for that specific origin, or is it simply period-accurate detail about German clockmaking?"
   ],
-
-  "provenance": {
-    "layer_1_reading": "Full text read at the locator above, 2,353 words.",
-    "layer_2_concepts": "scripts/reading/gather_evidence.py",
-    "layer_3_pkd": "1 substantive citation (Exegesis); 2 index/bibliography-only hits excluded.",
-    "layer_4_criticism": "0 found in this evidence pass.",
-    "related_dossiers": "of-withered-apples (named in the same Exegesis list); martians-come-in-clouds, the-eyes-have-it, not-by-its-cover (named in the same list, still pending).",
-    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
   }
 }

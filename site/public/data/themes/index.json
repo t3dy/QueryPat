@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 94,
+  "fiction_work_count": 96,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -560,7 +560,7 @@
       "slug": "betrayal",
       "label": "Betrayal",
       "description": "Deception, imposture, treachery, and the collapse of trust between people or institutions.",
-      "work_count": 39,
+      "work_count": 41,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -605,6 +605,24 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Orbit Science Fiction, September-October 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_beyond-the-door",
+          "canonical_title": "Beyond the Door",
+          "slug": "beyond-the-door",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, January 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_of-withered-apples",
+          "canonical_title": "Of Withered Apples",
+          "slug": "of-withered-apples",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, September–October 1954",
           "date_start": "1954"
         },
         {
@@ -2565,7 +2583,7 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 20,
+      "work_count": 21,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2619,6 +2637,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Orbit Science Fiction, September-October 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_of-withered-apples",
+          "canonical_title": "Of Withered Apples",
+          "slug": "of-withered-apples",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, September–October 1954",
           "date_start": "1954"
         },
         {
@@ -2846,7 +2873,7 @@
       "slug": "suburbia-domesticity",
       "label": "Suburbia & Domesticity",
       "description": "Family life, marriage, houses, domestic tension, and the suburban everyday.",
-      "work_count": 26,
+      "work_count": 27,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -2909,6 +2936,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Startling Stories, January 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_beyond-the-door",
+          "canonical_title": "Beyond the Door",
+          "slug": "beyond-the-door",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, January 1954",
           "date_start": "1954"
         },
         {

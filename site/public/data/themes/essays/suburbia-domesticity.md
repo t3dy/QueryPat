@@ -36,6 +36,10 @@ Overweight, food-obsessed schoolboy Bubber Surle visits an elderly, isolated wid
 
 Eric Blake returns from a Ganymede posting and gives his unenthusiastic wife Pat an unusual souvenir: a small, genuinely omnipotent, chronically foul-tempered alien deity, Tinokuknoi Arevulopapo, smuggled illegally to Earth in a box. In a story collection like [A Present for Pat](/works/a-present-for-pat), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Beyond the Door
+
+Larry gives his wife Doris a hand-made German cuckoo clock, immediately spoiling the gift by mentioning he got it wholesale through a friend. In a story collection like [Beyond the Door](/works/beyond-the-door), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Breakfast at Twilight
 
 The McLean family — Tim, Mary, and their three children — wake to an ordinary foggy morning, only for soldiers in gas masks to smash through their front door moments later. In a story collection like [Breakfast at Twilight](/works/breakfast-at-twilight), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

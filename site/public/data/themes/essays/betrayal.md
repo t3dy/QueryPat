@@ -28,6 +28,14 @@ Shadrach Jones, an old man running a nearly abandoned filling station in Derryvi
 
 A Clerk arrives to make sure a sleepy dog — the neighborhood's Summoner — barks at exactly 8:15 to bring insurance salesman Ed Fletcher 'A Friend with a Car,' getting him to his office an hour early before Sector T137 is taken offline for... In a story collection like [Adjustment Team](/works/adjustment-team), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Beyond the Door
+
+Larry gives his wife Doris a hand-made German cuckoo clock, immediately spoiling the gift by mentioning he got it wholesale through a friend. In a story collection like [Beyond the Door](/works/beyond-the-door), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### Of Withered Apples
+
+Lori, a young Boston-raised wife transplanted to rural Vermont, is summoned by a dead leaf tapping at her window, which she tucks against her skin with an almost erotic charge. In a story collection like [Of Withered Apples](/works/of-withered-apples), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Shell Game
 
 An isolated colony of roughly a hundred people on the bog-covered planet Betelgeuse II has spent five years under siege by unseen 'attackers' — gas raids, sabotage, poisoned water — that no one has ever directly seen, defending itself with... In a story collection like [Shell Game](/works/shell-game), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
