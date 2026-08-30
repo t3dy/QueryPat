@@ -1,0 +1,469 @@
+{
+ "slug": "the-game-players-of-titan",
+ "title": "The Game-Players of Titan",
+ "kind": "novel",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_DICK_PHILIP_K_THE_GAME_PLAYERS_OF_TITAN_.md",
+  "line_start": 0,
+  "line_end": null,
+  "word_count": 62041,
+  "status": "needs_structure"
+ },
+ "structure": {
+  "chapter_count": 8,
+  "chapters": [
+   {
+    "label": "10",
+    "line_start": 2228,
+    "line_end": 2773,
+    "word_count": 5089
+   },
+   {
+    "label": "11",
+    "line_start": 2774,
+    "line_end": 3105,
+    "word_count": 4445
+   },
+   {
+    "label": "12",
+    "line_start": 3106,
+    "line_end": 3269,
+    "word_count": 2403
+   },
+   {
+    "label": "13",
+    "line_start": 3270,
+    "line_end": 3513,
+    "word_count": 3681
+   },
+   {
+    "label": "14",
+    "line_start": 3514,
+    "line_end": 3775,
+    "word_count": 3172
+   },
+   {
+    "label": "15",
+    "line_start": 3776,
+    "line_end": 4237,
+    "word_count": 5798
+   },
+   {
+    "label": "16",
+    "line_start": 4238,
+    "line_end": 4589,
+    "word_count": 4265
+   },
+   {
+    "label": "17",
+    "line_start": 4590,
+    "line_end": 4948,
+    "word_count": 4042
+   }
+  ]
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_garden",
+    "label": "Garden",
+    "count": 208,
+    "per_million": 3352.6,
+    "background_per_million": 55.2,
+    "distinctiveness": 55.73
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_folder",
+    "label": "Folder",
+    "count": 8,
+    "per_million": 128.9,
+    "background_per_million": 12.3,
+    "distinctiveness": 7.47
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 63,
+    "per_million": 1015.5,
+    "background_per_million": 138.9,
+    "distinctiveness": 7.06
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jung",
+    "label": "Jung",
+    "count": 3,
+    "per_million": 48.4,
+    "background_per_million": 2.0,
+    "distinctiveness": 6.87
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 52,
+    "per_million": 838.2,
+    "background_per_million": 266.6,
+    "distinctiveness": 3.09
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 7,
+    "per_million": 112.8,
+    "background_per_million": 35.8,
+    "distinctiveness": 2.77
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_ubik",
+    "label": "Ubik",
+    "count": 1,
+    "per_million": 16.1,
+    "background_per_million": 1.0,
+    "distinctiveness": 2.68
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_valis",
+    "label": "Valis",
+    "count": 1,
+    "per_million": 16.1,
+    "background_per_million": 1.0,
+    "distinctiveness": 2.68
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_platonic",
+    "label": "Platonic",
+    "count": 1,
+    "per_million": 16.1,
+    "background_per_million": 1.0,
+    "distinctiveness": 2.68
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palmer",
+    "label": "Palmer",
+    "count": 2,
+    "per_million": 32.2,
+    "background_per_million": 7.2,
+    "distinctiveness": 2.65
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 58,
+    "per_million": 934.9,
+    "background_per_million": 397.3,
+    "distinctiveness": 2.32
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 12,
+    "per_million": 193.4,
+    "background_per_million": 89.9,
+    "distinctiveness": 2.04
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_acts",
+    "label": "Acts",
+    "count": 2,
+    "per_million": 32.2,
+    "background_per_million": 11.2,
+    "distinctiveness": 1.99
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 15,
+    "per_million": 241.8,
+    "background_per_million": 130.7,
+    "distinctiveness": 1.78
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jesus-christ",
+    "label": "Jesus Christ",
+    "count": 1,
+    "per_million": 16.1,
+    "background_per_million": 4.1,
+    "distinctiveness": 1.77
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_daniel",
+    "label": "Daniel",
+    "count": 1,
+    "per_million": 16.1,
+    "background_per_million": 4.1,
+    "distinctiveness": 1.77
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 62,
+    "per_million": 999.3,
+    "background_per_million": 609.8,
+    "distinctiveness": 1.63
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 23,
+    "per_million": 370.7,
+    "background_per_million": 224.7,
+    "distinctiveness": 1.61
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 46,
+    "per_million": 741.4,
+    "background_per_million": 462.7,
+    "distinctiveness": 1.59
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 14,
+    "per_million": 225.7,
+    "background_per_million": 138.9,
+    "distinctiveness": 1.57
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_anne",
+    "label": "Anne",
+    "count": 143,
+    "per_million": 2304.9,
+    "background_per_million": 2.0,
+    "distinctiveness": 327.27
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_pete-garden",
+    "label": "Pete Garden",
+    "count": 72,
+    "per_million": 1160.5,
+    "background_per_million": 0.0,
+    "distinctiveness": 232.1
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mary-anne-mcclain",
+    "label": "Mary Anne McClain",
+    "count": 22,
+    "per_million": 354.6,
+    "background_per_million": 0.0,
+    "distinctiveness": 70.92
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_nats-katz",
+    "label": "Nats Katz",
+    "count": 21,
+    "per_million": 338.5,
+    "background_per_million": 0.0,
+    "distinctiveness": 67.7
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mary",
+    "label": "Mary",
+    "count": 154,
+    "per_million": 2482.2,
+    "background_per_million": 276.8,
+    "distinctiveness": 8.81
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_titans",
+    "label": "Titans",
+    "count": 2,
+    "per_million": 32.2,
+    "background_per_million": 0.0,
+    "distinctiveness": 6.45
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_christopher-dick",
+    "label": "Christopher Dick",
+    "count": 1,
+    "per_million": 16.1,
+    "background_per_million": 0.0,
+    "distinctiveness": 3.22
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_claudia",
+    "label": "Claudia",
+    "count": 1,
+    "per_million": 16.1,
+    "background_per_million": 0.0,
+    "distinctiveness": 3.22
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_christopher",
+    "label": "Christopher",
+    "count": 1,
+    "per_million": 16.1,
+    "background_per_million": 0.0,
+    "distinctiveness": 3.22
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_timothy-archer",
+    "label": "Timothy Archer",
+    "count": 1,
+    "per_million": 16.1,
+    "background_per_million": 1.0,
+    "distinctiveness": 2.68
+   }
+  ],
+  "distinct_terms": 20,
+  "distinct_names": 10
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 5380,
+      "quote": "…ntal illness (which brings in hallucinations) and deliberate deception (v. _Penultimate Truth, The Simulacra, Game Players of Titan,_ etc., novels I usually overlook, and mental illness brings in _Martian Time-Slip, Dr. Blood Money, The Simu…"
+     },
+     {
+      "line": 13300,
+      "quote": "…, [>], [>]–[>], [>], [>], [>], [>], [>] _Galactic Pot-Healer,_ [>], [>], [>], [>], [>], [>]–[>], [>] _The Game-Players of Titan,_ [>], [>] \"The Golden Man,\" [>], [>] \"I Hope I Shall Arrive Soon.\" _See_ \"Frozen Journey\" \"Impostor,\"…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 15,
+      "quote": "…(1957) Time out of Joint (1959) Dr. Futurity (1960) Vulcan’s Hammer (1960) The Man in the High Castle (1962) The Game-Players of Titan (1963) The Penultimate Truth (1964) Martian Time-Slip (1964) The Simulacra (1964) Clans of the Alphane Mo…"
+     },
+     {
+      "line": 6066,
+      "quote": "…WORLD JONES MADE, THE MAN WHO JAPED, EYE IN THE SKY. THE COSMIC PUPPETS is a reprint of A GLASS OF DARKNESS. THE GAME PLAYERS OF TITAN, THE SIMULACRA, DR. BLOODMONEY were original, but I used material from the story “War Veteran” (published in…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 6120,
+      "quote": "…ou know how the French talk). Note what M. Zylberstein says in his letter about perhaps having an option on GAME PLAYERS OF TITAN. Your department. One last thing—express to M. Zylberstein my apologies for not answering sooner. Tell him…"
+     },
+     {
+      "line": 6392,
+      "quote": "…ve conflicts, is screwed up just that much more. Love, Phil Dick (Who has looked all day for a UK copy of GAME PLAYERS OF TITAN but can’t find one, but will keep on trying.) R S. I phoned the library at Cal State Fullerton, and they ar…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1792,
+      "quote": "…ed, and at last nabbed, my old tom cat, as wily and cunning as that ancient animal was. I agree with you on THE GAME-PLAYERS OF TITAN. However, _Cantata_ 140 is a cut-down version of a 60,000 novel, hence somewhat aborted. Oh well. So geht das…"
+     },
+     {
+      "line": 3088,
+      "quote": "…tions than the one Don chose to make; fundamentally, the additions follow the lines laid down in my Ace novel THE GAME-PLAYERS OF TITAN, which Don nominated for the Hugo. I wish, too, to complain of something else: Don’s tying in the purchase…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 8
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 2415,
+      "quote": "…tandards. In the twelve months that preceded Palmer Eldritch, Phil had written six SF novels: Dr. Bloodmoney, The Game-Players of Titan, The Simulacra, Now Wait for Last Year, Clans of the Alphane Moon, The Crack in Space. In the five months tha…"
+     },
+     {
+      "line": 5497,
+      "quote": "…a powerful triumvirate. Schilling and a wayward Mary Anne (last name now McClain) appear in modified form in The Game-Players of Titan (p. 1963). Mary Anne Dominic in Flow My Tears, The Policeman Said (p. 1974) has a purity of heart prefiguring…"
+     },
+     {
+      "line": 5561,
+      "quote": "…world, Dr. Bloodmoney resolutely avoids realism as to the effects of the blasts and fallout. Rating: 9. 30. The Game-Players of Titan (w. 1963, p. 1963). After aliens take over Earth, the surviving humans are governed by a cosmic version of Mo…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3188,
+      "quote": "…an’s Hammer._ New York: Ace. 1962 [1992]. _The Man in the High Castle_ . New York: Vintage. 1963 [1969]. _The Game-Players of Titan._ London: Sphere. 1964 [1970]. _The Penultimate Truth_ . Harmondsworth: Penguin. 1964 [1976]. _Martian Time-S…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3249,
+      "quote": "…s, the Policeman Said**_ 137, 144, 151 **“Foster, You’re Dead”** 258–259 _**Galactic Pot-Healer**_ 67, 142 _**Game Players of Titan, The**_ 71–72, 264 _**Ganymede Takeover**_ 93 **“Human Is”** 38, 259 _**Humpty Dumpty in Oakland**_ 59 **“Kin…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 5
+ }
+}

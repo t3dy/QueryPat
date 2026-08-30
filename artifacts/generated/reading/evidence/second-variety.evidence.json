@@ -1,0 +1,294 @@
+{
+ "slug": "second-variety",
+ "title": "Second Variety",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 13670,
+  "line_end": 15079,
+  "word_count": 15009,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_soviet",
+    "label": "Soviet",
+    "count": 15,
+    "per_million": 999.4,
+    "background_per_million": 93.0,
+    "distinctiveness": 10.2
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palm",
+    "label": "Palm",
+    "count": 1,
+    "per_million": 66.6,
+    "background_per_million": 17.4,
+    "distinctiveness": 2.98
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_maze",
+    "label": "Maze",
+    "count": 1,
+    "per_million": 66.6,
+    "background_per_million": 20.4,
+    "distinctiveness": 2.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 66.6,
+    "background_per_million": 29.6,
+    "distinctiveness": 1.92
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_tasso",
+    "label": "Tasso",
+    "count": 92,
+    "per_million": 6129.7,
+    "background_per_million": 187.9,
+    "distinctiveness": 31.77
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_klaus",
+    "label": "Klaus",
+    "count": 85,
+    "per_million": 5663.3,
+    "background_per_million": 175.7,
+    "distinctiveness": 31.34
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_major-hendricks",
+    "label": "Major Hendricks",
+    "count": 8,
+    "per_million": 533.0,
+    "background_per_million": 16.3,
+    "distinctiveness": 24.97
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-russian",
+    "label": "The Russian",
+    "count": 20,
+    "per_million": 1332.5,
+    "background_per_million": 49.0,
+    "distinctiveness": 24.66
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_david",
+    "label": "David",
+    "count": 36,
+    "per_million": 2398.6,
+    "background_per_million": 122.6,
+    "distinctiveness": 18.8
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-soviet",
+    "label": "The Soviet",
+    "count": 14,
+    "per_million": 932.8,
+    "background_per_million": 54.1,
+    "distinctiveness": 15.77
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_eric",
+    "label": "Eric",
+    "count": 8,
+    "per_million": 533.0,
+    "background_per_million": 134.8,
+    "distinctiveness": 3.81
+   }
+  ],
+  "distinct_terms": 4,
+  "distinct_names": 7
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 5,
+    "quotes": [
+     {
+      "line": 597,
+      "quote": "…-page outline and my agent hopes to sell it for a rather large sum. Meanwhile, I have a movie deal; my story “Second Variety” has been bought by a new movie company and they have signed Dan O’Bannon to write the screenplay and direct…"
+     },
+     {
+      "line": 937,
+      "quote": "…e phone repeatedly and he seems like a wonderful guy. And then there are my MOVIE DEALS, all four of them: on Second Variety, We Can Remember It For You Wholesale, Do 24 T HE S E L E C T E D L E T T E R S OF P H I L I P K. D I C…"
+     },
+     {
+      "line": 941,
+      "quote": "…forgive me). I can’t really complain of anything. The new little movie company making the film Claw based on Second Variety paid me the purchase price, $17,500, and that took care of my taxes. I probably mentioned this to you, but I…"
+     },
+     {
+      "line": 1665,
+      "quote": "…ahead and print it. In answer to your questions: Yes, I am involved in three movie projects right now. (1) “Second Variety” to be made into a movie called _Claw._ By Capi­ tol Pictures. (2) “We Can Remember It For You Wholesale” to…"
+     },
+     {
+      "line": 3051,
+      "quote": "…t adult films, now. I’ll believe this when I see it). THE MAN IN THE HIGH CASTLE is optioned but not bought; “Second Variety” has been bought by a small new independent studio called Capitol Pictures, run by Virginia Palance; she and…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 6334,
+      "quote": "…You’re Dead” for that one? Which Ballantine holds rights to anyhow? Also, Mark and I agree that my novelette “Second Variety” is one of my best. Could we include that? And maybe drop out “The Golden Man,” which I detest? “The Father-T…"
+     },
+     {
+      "line": 6340,
+      "quote": "…“Autofac” “Beyond Lies the Wub” “In the Days of Perky Pat” “The Defenders” (But this could be pulled for “Second Variety,” since the theme is the same.) “The Electric Ant.” ## “Expendable.” “Faith of Our Fathers” “Had There…"
+     },
+     {
+      "line": 6348,
+      "quote": "…here Been No Benny Cemoli...” “Impostor” (But, like “The Defenders,” this could be pulled to make room for “Second Variety.”) “Oh, To Be a Blobel.” “Roog.” “Upon the Dull Earth.” Personally, although Don Wollheim used “Breakfast…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 6578,
+      "quote": "…r_ 30, _1973_ ## Dear Scott Myer, Regarding your letter about your writing a screenplay from my novella, “Second Variety”, I must first of all thank you for considering the story valuable enough to inspire you to what, I am sure,…"
+     },
+     {
+      "line": 6586,
+      "quote": "…ow just what you can do with the screenplay—not what you would like to do but can. And how much can you pay. “Second Variety”, however, is an old, old story of mine and in my opinion little chance exists that anyone else is going to w…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 13340,
+      "quote": "…[>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>]–[>], [>], [>], [>], [>], [>], [>], [>]–[>], [>], [>] \"Second Variety,\" [>] _The Simulacra,_ [>] _Solar Lottery,_ [>], [>], [>] THITHC. See _The Man in the High Castle_ –…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1376,
+      "quote": "…see. In this anthol­ ogy that Ace is doing, the only story that has been reprinted before in this country is Second Variety, in the collection that I passed along to you. I tried to keep the material as new as I could (I agree with y…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 12
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 5,
+    "quotes": [
+     {
+      "line": 5389,
+      "quote": "…es, such as the one thrown for prospective backers of Claw (a screenplay based on the 1953 413 ## novella Second Variety). But the big event was the November invitation from the Blade Runner people to come see a reel of special…"
+     },
+     {
+      "line": 5491,
+      "quote": "…10. The Variable Man and Other Stories (w. 1952-55, p. 1957). The best story in this early Ace collection is “Second Variety” (w. 1952, p. 1953), set during a future U.S.-Soviet war (which resembles the World War I trench warfare desc…"
+     },
+     {
+      "line": 5491,
+      "quote": "…h a teddy bear, a sympathetic ally, and an attractive woman (Tasso, an early malevolent “dark-haired girl”). “Second Variety” has inspired some Hollywood feelers, and Dan O’Bannon has completed a screenplay which was to be produced by…"
+     },
+     {
+      "line": 5491,
+      "quote": "…it folded. In “Autofac” (w. 1954, p. 1955) (which uses the name Phil devised for the autonomic factories of “Second Variety”), the autofacs won’t stop producing (and consuming) all raw materials. Thomas Disch termed “Autofac” one of…"
+     },
+     {
+      "line": 5641,
+      "quote": "…he Father-thing” (see Chapter 2); tales from Phil’s Berkeley salad days, like “Roog,” “Beyond Lies the Wub,” “Second Variety,” “Colony,” and 442 “Impostor” (see Chapter 4 and A Handful of Darkness, above); and the best of all of P…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 1304,
+      "quote": "…are a few soldiers, tough but radically unsure of what is going on or whom they really ought to be fighting (‘Second Variety’,1953, CS2);[13] or robots, supposedly doing the fighting on behalf of a humanity forced underground by radio…"
+     },
+     {
+      "line": 3244,
+      "quote": "…(Title of paperback edition is _We Can Remember It for You Wholesale_ ; the story of that name is added, and ‘Second Variety’ is omitted.) 1987. _The Father-Thing._ Volume 3 of _The Collected Stories of Philip K. Dick_ . Introductio…"
+     },
+     {
+      "line": 3768,
+      "quote": "…144, 148, **177–200** , **212–14** , 216, 220 drugs in 136, 137 failure of differentiation in 226–27, 228n8 ‘Second Variety’ 91 _Shifting Realities of Philip K. Dick, The_ 215n16 ‘Short Happy Life of the Brown Oxford, The’ 73n14 _S…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT.md",
+    "author": "Fredric Jameson",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 4670,
+      "quote": "…ike the more conventional emergence of autonomous and lethal machinery in the Terminator-like land­ scape of \"Second Variety\", filmed as Screamers [Christian Dugay, 1 995]) underscores a somewhat more paradoxical association, namely t…"
+     },
+     {
+      "line": 5268,
+      "quote": "…, 345-6, 348, 368, 376 Vulcan's Hammer 359 We Can Build You 83, 1 14, 363, 375-7 \"Pay for the Printer\" 374 \"Second Variety\" 375 Dickens, Charles 34-5 DiFazio, William 150 differentiation 14-7, 20 Dilthey, Wilhelm 102-3 Disneyficatio…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 10
+ }
+}
