@@ -48,6 +48,10 @@ Fifty years after 'the Smash,' a post-apocalyptic tribe living in an underground
 
 TV store owner Ed Loyce drives past his small town's central park one evening and sees a mutilated corpse hanging from the lamppost — and no one else reacts to it at all. In a story collection like [The Hanging Stranger](/works/the-hanging-stranger), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Infinites
+
+A small prospecting crew -- Major Crispin Eller, second-in-command Harrison Blake, and lab technician Silvia Simmons -- lands on a barren but perfectly habitable asteroid that inexplicably harbors no life at all, and is struck unconscious... In a story collection like [The Infinites](/works/the-infinites), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Preserving Machine
 
 Doc Labyrinth, convinced that civilisation is going the way of Rome and that a dark age is coming, worries that music is the most perishable of the things that will be lost. In a story collection like [The Preserving Machine](/works/the-preserving-machine), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

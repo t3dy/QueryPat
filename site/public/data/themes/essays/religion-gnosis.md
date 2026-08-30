@@ -32,6 +32,10 @@ Fifty years after 'the Smash,' a post-apocalyptic tribe living in an underground
 
 TV store owner Ed Loyce drives past his small town's central park one evening and sees a mutilated corpse hanging from the lamppost — and no one else reacts to it at all. In a story collection like [The Hanging Stranger](/works/the-hanging-stranger), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Impossible Planet
+
+Irma Gordon, a deaf, three-hundred-fifty-year-old woman -- one of the oldest people alive and near the end of her sustained lifespan -- arrives at a spaceport with her robant escort and a fortune in savings, demanding passage to Earth... In a story collection like [The Impossible Planet](/works/the-impossible-planet), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Preserving Machine
 
 Doc Labyrinth, convinced that civilisation is going the way of Rome and that a dark age is coming, worries that music is the most perishable of the things that will be lost. In a story collection like [The Preserving Machine](/works/the-preserving-machine), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

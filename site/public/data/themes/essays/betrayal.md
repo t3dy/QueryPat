@@ -24,6 +24,10 @@ Peggy Nye spends nearly all her time in her lush garden with Sir Francis, her pe
 
 Overweight, food-obsessed schoolboy Bubber Surle visits an elderly, isolated widow, Mrs. In a story collection like [The Cookie Lady](/works/the-cookie-lady), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Impossible Planet
+
+Irma Gordon, a deaf, three-hundred-fifty-year-old woman -- one of the oldest people alive and near the end of her sustained lifespan -- arrives at a spaceport with her robant escort and a fortune in savings, demanding passage to Earth... In a story collection like [The Impossible Planet](/works/the-impossible-planet), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The King of the Elves
 
 Shadrach Jones, an old man running a nearly abandoned filling station in Derryville, Colorado, gives shelter one stormy night to a bedraggled party of Elves carrying their dying king on a platform. In a story collection like [The King of the Elves](/works/the-king-of-the-elves), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

@@ -1,131 +1,120 @@
 {
- "artifact_id": "ART_DOSSIER_THE_IMPOSSIBLE_PLANET",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-impossible-planet",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Impossible Planet",
-  "slug": "the-impossible-planet",
-  "form": "story",
-  "word_count": 2996,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 23402,
-   "line_end": 23735,
-   "word_count": 2996,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Earth",
-    "entity_id": "TERM_earth",
-    "count": 31,
-    "distinctiveness": 22.82
-   },
-   {
-    "label": "Scanner",
-    "entity_id": "TERM_scanner",
-    "count": 2,
-    "distinctiveness": 9.49
-   },
-   {
-    "label": "Star",
-    "entity_id": "TERM_star",
-    "count": 2,
-    "distinctiveness": 8.08
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 4,
-    "distinctiveness": 5.81
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 3,
-    "distinctiveness": 2.48
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 5,
-    "distinctiveness": 1.91
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 3,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 818,
-      "quote": "…y unknown planet, barren and dull, and discover that it is a wrecked, far-future earth ( _A Maze of Death_ , ‘The Impossible Planet’). The story on which _Palmer Eldritch_ draws for its Martian colony sets the broken-down settlement in a wre…"
-     },
-     {
-      "line": 3746,
-      "quote": "…99** , 100n24, 106 ‘Human Is’ **87** , 101, 225 ‘I Hope I Shall Arrive Soon’ movement as stasis in **52–53** ‘The Impossible Planet’ 50n18 ‘Impostor’ 225 ‘Jon’s World’ 102 fate of child in **163–64** ‘King of the Elves, The’ 93n14 ‘Last of t…"
-     }
+  "artifact_id": "ART_DOSSIER_THE_IMPOSSIBLE_PLANET",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-impossible-planet",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Impossible Planet",
+    "slug": "the-impossible-planet",
+    "form": "short story",
+    "word_count": 2992,
+    "lane": "A",
+    "first_publication": "Original Science Fiction Stories, May 1953",
+    "later_use": "Per Palmer, part of a recurring Dick pattern (also in A Maze of Death) of characters landing on an unknown planet and discovering it to be a wrecked, far-future Earth.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 23402,
+      "line_end": 23735,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Irma Gordon, a deaf, three-hundred-fifty-year-old woman -- one of the oldest people alive and near the end of her sustained lifespan -- arrives at a spaceport with her robant escort and a fortune in savings, demanding passage to Earth: humanity's legendary birthplace, long since proven by science to be a myth with no verifiable location. Captain Andrews refuses at first, but her staggering payment changes his mind, and rather than admit no such planet can be found, he and his navigator identify a random, obscure planet, Emphor III, that superficially matches the vague legendary description (third of nine planets, one moon) and fly her there, deceiving her that this ruined, toxic, war-devastated wasteland is humanity's true home. Mrs. Gordon, initially thrilled, grows increasingly distressed as the barren, poisoned landscape fails to match her grandfather's stories of a green, living Earth, and during a final visit to its dead, polluted ocean she quietly collapses and dies; her robant carries her body into the toxic water and vanishes with it, ensuring no evidence of the fraud survives. Flying home, Andrews finds a small, genuinely ancient coin near the shore, worn nearly illegible except for the words 'E PLURIBUS UNUM' -- silent, damning proof that Emphor III really was Earth all along, and that the dying woman's grandfather's stories, and her own desperate faith, had been true.",
+
+    "structure": {
+      "form": "short story in three movements: the old woman's request and the captain's fraudulent decision, the journey and staged deception, and the reveal that the deception was accidentally, tragically true",
+      "movements": [
+        "Irma Gordon, ancient and dying, offers a fortune to be taken to the mythical, scientifically-disproven planet Earth; Captain Andrews, tempted by the payment, decides to fake the destination rather than refuse her.",
+        "Andrews selects an obscure, ruined planet matching Earth's vague legendary description and presents it to Mrs. Gordon as the genuine article; she is initially thrilled, then increasingly disturbed as its devastated reality fails to match her grandfather's stories.",
+        "Mrs. Gordon dies on the shore of the planet's poisoned ocean, her robant destroying the body and any evidence of the fraud; Andrews later finds an ancient, genuine American coin on the same shore, revealing the 'fake' Earth was, in fact, the real one all along."
+      ],
+      "point_of_view": "third person close to Captain Andrews, so the reader shares his cynical, self-justifying calculation throughout the deception, making the final revelation land as a shock to the reader and Andrews simultaneously, rather than as dramatic irony held back from either.",
+      "central_device": "A deliberate, cynical fraud that turns out, by pure accident, to have accidentally told the literal truth -- the 'fake' Earth the crew invents to satisfy a dying woman's wish is revealed, after her death, to have actually been humanity's real, forgotten homeworld, making the entire deception retroactively unnecessary and turning the crew's casual scientific certainty ('no such place ever existed') into the story's central irony."
+    },
+
+    "characters": [
+      { "name": "Captain Andrews", "role": "protagonist, a mercenary ship's captain", "note": "His decision to defraud a dying old woman for profit is presented without any redemptive arc or comeuppance in the conventional sense -- he gets away with it financially and personally, and the story's irony belongs entirely to the reader rather than to any moral reckoning visited on him." },
+      { "name": "Irma Vincent Gordon", "role": "an ancient, dying passenger", "note": "Her single-minded, lifelong desire to see the legendary homeworld before her sustained lifespan ends, inherited from her grandfather's stories, drives the entire plot, and her death -- from grief and physical collapse rather than any external violence -- occurs at the exact moment she can no longer sustain her faith that the planet before her is genuinely Earth." },
+      { "name": "Norton", "role": "Andrews's ship's officer", "note": "The story's moral conscience, his growing horror at the fraud and his final resignation from Andrews's crew register the ethical cost of the deception that Andrews himself never seems to feel." },
+      { "name": "The robant", "role": "Mrs. Gordon's robot servant and caretaker", "note": "Its final act -- carrying her body into the toxic water and disappearing, destroying all physical evidence -- is performed with the same calm, dutiful loyalty it showed throughout her life, its motivations (grief, programmed duty, or something else) left entirely unexplored." }
     ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
-    "author": "Anne R. Dick",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 3055,
-      "quote": "…ed as small child. In “Service Call,” a swivel will control men’s thoughts in order to prevent atomic war. “The Impossible Planet” tells the story of an old lady who wants to return to the planet of man’s birth; she does return, but can th…"
-     }
+
+    "settings": [
+      { "name": "Emphor III", "note": "A dead, radiation-scarred, war-ravaged planet selected purely because its basic orbital statistics matched Earth's legendary description -- and, per the story's final revelation, was Earth all along, its true identity lost entirely to the intervening centuries of catastrophe and myth-making." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "motifs": [
+      "A scientifically 'disproven' legendary homeland that turns out to be real, discoverable only by accident rather than by any deliberate search",
+      "A cynical fraud committed for profit that accidentally happens to be entirely true",
+      "Physical evidence (a worn, illegible coin) surviving as the only trace of a truth no living witness can confirm or even recognize",
+      "A dying woman's inherited, secondhand faith in a place she has never seen, sustained across centuries by nothing more than her grandfather's stories"
+    ],
+
+    "significance": "Palmer identifies this story as an early instance of a recurring Dick pattern (later developed at greater length in A Maze of Death) in which characters land on an unknown planet only to discover it is a ruined, far-future Earth -- reframing what looks like alien exploration as a return to a forgotten, devastated home. The story's particular cruelty is structural: Andrews's fraud is designed to be safely deniable and consequence-free, resting entirely on the scientific certainty that Earth is a myth, and the story's final coin undermines that certainty completely, without ever letting Andrews or the reader learn this until it is too late to matter to anyone within the story. The story's real subject is less the specific fate of Earth than the unprovable, unfalsifiable nature of origin myths generally -- Mrs. Gordon's grandfather's stories were true, but neither she nor anyone else could ever have confirmed it, and her faith is vindicated only after her own death, in a form she never gets to know about.",
+
+    "closing_note": "Andrews's careless disposal of the ancient coin into a waste unit, after briefly puzzling over its worn inscription, closes the story on a note of missed recognition -- the one piece of proof that could validate Mrs. Gordon's dying faith is discarded by the very man who defrauded her, without either of them ever understanding what it actually was."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Earth", "entity_id": "TERM_earth", "count": 31, "distinctiveness": 22.82, "note": "The word's extraordinarily high density in this short story reflects its function as the central, unresolved object of the plot's entire deception and revelation." },
+      { "label": "Scanner", "entity_id": "TERM_scanner", "count": 2, "distinctiveness": 9.49 }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "religion-gnosis", "basis": "a scientifically disproven, quasi-religious origin myth (the legendary homeworld Earth) that turns out to be literally true, its truth accessible only through inherited faith rather than empirical verification" },
+      { "theme": "betrayal", "basis": "a dying woman's life savings and final wish exploited through calculated fraud, with the deceiver facing no consequence even as the story reveals his deception was accidentally, tragically genuine" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No direct author commentary was found, but Palmer identifies this story as part of a recurring Dick pattern (also seen in A Maze of Death) of unknown planets turning out to be a wrecked, far-future Earth, and Anne R. Dick's memoir independently summarizes its central premise.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 2,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Philip K. Dick: Exhilaration and Terror of the Postmodern",
+        "line": 818,
+        "quote": "an apparently unknown planet, barren and dull, and discover that it is a wrecked, far-future earth (A Maze of Death, 'The Impossible Planet')",
+        "reading": "Palmer places this story within a recurring pattern in Dick's fiction, connecting it directly to the much later novel A Maze of Death and to the broken-down Martian colony setting drawn on for The Three Stigmata of Palmer Eldritch."
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "line": 3055,
+        "quote": "\"The Impossible Planet\" tells the story of an old lady who wants to return to the planet of man's birth; she does return, but can th[e crew tell her the truth?]",
+        "reading": "Anne R. Dick's brief biographical summary independently confirms the story's basic premise and frames its central tension as one of truth-telling, consistent with the close reading's emphasis on Andrews's fraud and its accidental vindication."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is there documented commentary from Dick on his specific choice to have the fraud turn out to be accidentally true, rather than simply exposed as a fraud?",
+    "Is this story's connection to A Maze of Death (per Palmer) explored in more depth anywhere, given how much more elaborately that novel develops the 'ruined future Earth' premise?",
+    "Is the robant's final act (destroying Mrs. Gordon's body along with any evidence) ever discussed as raising questions about robot loyalty, agency, or grief in Dick's early robotics stories?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "3 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 2,992 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 direct author citations found.",
+    "layer_4_criticism": "2 substantive citations (Palmer, Anne R. Dick).",
+    "related_dossiers": "none identified (A Maze of Death, cited by Palmer as a related later work, remains unread pending structural fixes).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

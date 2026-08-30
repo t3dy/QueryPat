@@ -48,6 +48,10 @@ In a bleak future where surviving humanity toils underground for rigid, bureaucr
 
 Eye in the Sky is the canonical works record for PKD's novel. In a novel like [Eye in the Sky](/works/eye-in-the-sky), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Misadjustment
+
+In a future ruled by a small cabal of 'id bloc' industrial leaders who maintain power through an all-female Agency of psychic 'Immune' investigators hunting down parakinetic mutants ('P-K's) -- individuals whose delusions can warp reality... In a story collection like [Misadjustment](/works/misadjustment), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Fair Game
 
 Professor Anthony Douglas, a leading nuclear physicist, is terrorized by an enormous eye peering through his window, then by a gigantic cosmic face blotting out the stars. In a story collection like [Fair Game](/works/fair-game), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

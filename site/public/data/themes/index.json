@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 128,
+  "fiction_work_count": 131,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -280,7 +280,7 @@
       "slug": "authentic-human",
       "label": "Authentic Human",
       "description": "Human authenticity, empathy, caritas, and the resistance to programmed or mechanical existence.",
-      "work_count": 41,
+      "work_count": 43,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -343,6 +343,15 @@
           "category": "short_stories",
           "work_type": "novelette",
           "date_display": "Galaxy, January 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-infinites",
+          "canonical_title": "The Infinites",
+          "slug": "the-infinites",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Planet Stories, May 1953",
           "date_start": "1953"
         },
         {
@@ -461,6 +470,15 @@
           "work_type": "short_story",
           "date_display": "If, October 1956",
           "date_start": "1956"
+        },
+        {
+          "work_id": "WORK_misadjustment",
+          "canonical_title": "Misadjustment",
+          "slug": "misadjustment",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Science Fiction Stories, September 1957",
+          "date_start": "1957"
         },
         {
           "work_id": "WORK_explorers-we",
@@ -659,7 +677,7 @@
       "slug": "betrayal",
       "label": "Betrayal",
       "description": "Deception, imposture, treachery, and the collapse of trust between people or institutions.",
-      "work_count": 45,
+      "work_count": 46,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -695,6 +713,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Fantastic Universe, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-impossible-planet",
+          "canonical_title": "The Impossible Planet",
+          "slug": "the-impossible-planet",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Original Science Fiction Stories, May 1953",
           "date_start": "1953"
         },
         {
@@ -1543,7 +1570,7 @@
       "slug": "delusions",
       "label": "Delusions",
       "description": "Paranoia, psychosis, hallucination, schizophrenia, and other forms of unstable perception.",
-      "work_count": 15,
+      "work_count": 16,
       "works": [
         {
           "work_id": "WORK_colony",
@@ -1633,6 +1660,15 @@
           "category": "novels",
           "work_type": "novel",
           "date_display": "1957",
+          "date_start": "1957"
+        },
+        {
+          "work_id": "WORK_misadjustment",
+          "canonical_title": "Misadjustment",
+          "slug": "misadjustment",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Science Fiction Stories, September 1957",
           "date_start": "1957"
         },
         {
@@ -2438,7 +2474,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 63,
+      "work_count": 64,
       "works": [
         {
           "work_id": "WORK_the-cosmic-poachers",
@@ -2528,6 +2564,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Science Fiction Adventures, December 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-infinites",
+          "canonical_title": "The Infinites",
+          "slug": "the-infinites",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Planet Stories, May 1953",
           "date_start": "1953"
         },
         {
@@ -3015,7 +3060,7 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 26,
+      "work_count": 27,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -3069,6 +3114,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Science Fiction Adventures, December 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-impossible-planet",
+          "canonical_title": "The Impossible Planet",
+          "slug": "the-impossible-planet",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Original Science Fiction Stories, May 1953",
           "date_start": "1953"
         },
         {
