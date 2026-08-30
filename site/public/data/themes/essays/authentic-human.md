@@ -24,6 +24,10 @@ Boris, a large black dog belonging to the Cardossi family, barks a single word â
 
 Eight years into a nuclear war, the entire human population of both blocs lives in sealed installations beneath the surface, manufacturing weapons that robots called leadies carry up and use. In a story collection like [The Defenders](/works/the-defenders), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Small Town
+
+Verne Haskel, exhausted and embittered after twenty resentful years at Larson's Pump and Valve Works, retreats each evening to his basement, where he has spent his entire life building an obsessively exact miniature model of his hometown... In a story collection like [Small Town](/works/small-town), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Father-thing
 
 Eight-year-old Charles Walton is sent to fetch his father for dinner and comes back unable to say which of them to fetch: there are two, and they look alike. In a story collection like [The Father-thing](/works/the-father-thing), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -43,6 +47,10 @@ After a nuclear war has reduced the world to ash and rubble, human settlements s
 ### Clans of the Alphane Moon
 
 Clans of the Alphane Moon is the canonical works record for PKD's novel. In a novel like [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### Precious Artifact
+
+After six years reconstructing Mars following Terra's defeat in the Prox-Terra war, exhausted reconstruct engineer Milt Biskle asks to go home instead of accepting his reward â€” priority land on the world he rebuilt. In a story collection like [Precious Artifact](/works/precious-artifact), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Zap Gun
 

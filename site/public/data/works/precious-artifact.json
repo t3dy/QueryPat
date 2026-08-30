@@ -1,33 +1,26 @@
 {
-  "artifact_id": "ART_DOSSIER_PRECIOUS_ARTIFACT",
-  "artifact_type": "work_dossier",
-  "schema_version": "1.0",
-  "source_id": "precious-artifact",
-  "generated_by": "reading_notes_agent",
-  "status": "LLM_CANDIDATE",
-  "review_state": "unreviewed",
-  "reading_status": "close_reading_complete",
-
-  "work": {
-    "title": "Precious Artifact",
-    "slug": "precious-artifact",
-    "form": "short story",
-    "word_count": 5880,
-    "lane": "A",
-    "written": "1963",
-    "first_publication": "Galaxy, October 1964",
-    "source": {
-      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-      "line_start": 49601,
-      "line_end": 49942,
-      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
-    }
-  },
-
+  "work_id": "WORK_precious-artifact",
+  "canonical_title": "Precious Artifact",
+  "slug": "precious-artifact",
+  "author": "Philip K. Dick",
+  "work_type": "short_story",
+  "category": "short_stories",
+  "date_display": "Galaxy, October 1964",
+  "date_start": "1964",
+  "card_summary": "After six years reconstructing Mars following Terra's defeat in the Prox-Terra war, exhausted reconstruct engineer Milt Biskle asks to go home instead of accepting his reward — priority land on the world he rebuilt.",
+  "page_summary": "After six years reconstructing Mars following Terra's defeat in the Prox-Terra war, exhausted reconstruct engineer Milt Biskle asks to go home instead of accepting his reward — priority land on the world he rebuilt. He is talked out of it and sent instead on a supervised visit to Terra, escorted everywhere by Mary Ableseth, a tour guide who never leaves him, day or night. Small wrongnesses accumulate: a Martian dime falls straight through an amphetamine dispenser as though the machine isn't really there; a squirrel and Mary both prick up their ears in a reflex that atrophied out of humans generations ago; his Martian pet plant dies of dehydration in a climate that should suit it. At the Smithsonian, before a museum exhibit of frozen Prox soldiers, Biskle smashes the display glass, seizes a rifle, and forces Mary to admit the truth: Terra lost the war completely. There are no surviving Terran women; Mary is a Prox agent, sent to manage him. The city outside the museum is rubble being cleared by machines identical to the ones he used on Mars, watched by Prox overseers waiting to build their own city on the ruins. Given a mechanical kitten as a psychological anchor to hold him together, Biskle returns to Mars, briefly considers suicide through an airlock, and decides against it — not from resolve, but because the fake kitten in his arms also flinches from the vacuum. Dr. DeWinter, revealed as Prox as well, reflects privately that every reconstruct engineer will need his own manufactured 'exception' to survive the same discovery, and idly worries about the kitten's batteries running down.\n\n**Why it matters.** Dick returned to this story more than once in the Exegesis as a key to his own theology, using its three-layer structure — the lie, the truth behind the lie, and Biskle's manufactured accommodation to that truth — as a template for a specific idea: that a fake can itself be layered, so that exposing one fabrication only reveals a further one built to receive the shock. He calls the story's own structure 'close' to what he believed was the actual relationship between apparent reality and Christianity, phrased as the paradox 'is a fake fake real?' answered 'yes.' The story does not resolve into simple horror or simple comfort: Biskle's survival is real, his kitten is not, and the story refuses to say which of those facts should determine how the ending is read.\n\n*Dr. DeWinter pats the kitten too, and thinks only about its batteries — the story's last line withholds any reassurance that the mercy just extended to Biskle came from anything capable of caring whether it worked.*",
+  "page_count": 0,
+  "source_count": 0,
+  "related_docs": [],
+  "biography_events": [],
+  "themes": [
+    "illusionary-realities",
+    "authentic-human",
+    "empire-control",
+    "betrayal"
+  ],
+  "word_count": 5880,
   "reading": {
-    "reading_status": "close_reading_complete",
-    "synopsis": "After six years reconstructing Mars following Terra's defeat in the Prox-Terra war, exhausted reconstruct engineer Milt Biskle asks to go home instead of accepting his reward — priority land on the world he rebuilt. He is talked out of it and sent instead on a supervised visit to Terra, escorted everywhere by Mary Ableseth, a tour guide who never leaves him, day or night. Small wrongnesses accumulate: a Martian dime falls straight through an amphetamine dispenser as though the machine isn't really there; a squirrel and Mary both prick up their ears in a reflex that atrophied out of humans generations ago; his Martian pet plant dies of dehydration in a climate that should suit it. At the Smithsonian, before a museum exhibit of frozen Prox soldiers, Biskle smashes the display glass, seizes a rifle, and forces Mary to admit the truth: Terra lost the war completely. There are no surviving Terran women; Mary is a Prox agent, sent to manage him. The city outside the museum is rubble being cleared by machines identical to the ones he used on Mars, watched by Prox overseers waiting to build their own city on the ruins. Given a mechanical kitten as a psychological anchor to hold him together, Biskle returns to Mars, briefly considers suicide through an airlock, and decides against it — not from resolve, but because the fake kitten in his arms also flinches from the vacuum. Dr. DeWinter, revealed as Prox as well, reflects privately that every reconstruct engineer will need his own manufactured 'exception' to survive the same discovery, and idly worries about the kitten's batteries running down.",
-
     "structure": {
       "form": "short story in three movements: the false reward, the guided unraveling on Terra, the manufactured mercy of the return",
       "movements": [
@@ -38,20 +31,42 @@
       "point_of_view": "third person close to Biskle throughout, with a final paragraph breaking to Dr. DeWinter's private thoughts — the only moment the reader is let behind the deception, and it is used to reveal that the deception is systemic, not personal.",
       "central_device": "A nested structure of substitutions — a false planet standing in for a lost war, a false companion standing in for a lost species, a false psychiatrist administering both — each layer holding up the one below it."
     },
-
     "characters": [
-      { "name": "Milt Biskle", "role": "reconstruct engineer", "note": "The story's most sympathetic quality is that his instincts are always correct and always overridden by exhaustion, hope, or the sheer scale of what he would have to accept if he trusted them." },
-      { "name": "Mary Ableseth", "role": "tour guide, Prox agent", "note": "Genuinely tender toward Biskle by the story's end, and honest that she cannot tell him what he needs to know without breaking him — a captor who becomes something closer to a hospice worker." },
-      { "name": "Dr. DeWinter", "role": "psychiatrist, revealed as Prox", "note": "The final paragraph's shift into his point of view is the story's coldest moment: he plans, with clinical detachment, exactly which manufactured animal each engineer will need to survive their own discovery." },
-      { "name": "The orange kitten", "role": "manufactured companion", "note": "A machine built to be loved, and effective at it — Biskle's life is saved by its flinch from the airlock vacuum, a reflex with no more feeling behind it than his own atrophied ear muscles." }
+      {
+        "name": "Milt Biskle",
+        "role": "reconstruct engineer",
+        "note": "The story's most sympathetic quality is that his instincts are always correct and always overridden by exhaustion, hope, or the sheer scale of what he would have to accept if he trusted them."
+      },
+      {
+        "name": "Mary Ableseth",
+        "role": "tour guide, Prox agent",
+        "note": "Genuinely tender toward Biskle by the story's end, and honest that she cannot tell him what he needs to know without breaking him — a captor who becomes something closer to a hospice worker."
+      },
+      {
+        "name": "Dr. DeWinter",
+        "role": "psychiatrist, revealed as Prox",
+        "note": "The final paragraph's shift into his point of view is the story's coldest moment: he plans, with clinical detachment, exactly which manufactured animal each engineer will need to survive their own discovery."
+      },
+      {
+        "name": "The orange kitten",
+        "role": "manufactured companion",
+        "note": "A machine built to be loved, and effective at it — Biskle's life is saved by its flinch from the airlock vacuum, a reflex with no more feeling behind it than his own atrophied ear muscles."
+      }
     ],
-
     "settings": [
-      { "name": "Reconstructed Mars", "note": "Genuinely rebuilt and genuinely his — the one part of the story's world that is not a lie, which is what makes the ending's return to it a real mercy rather than only a trap." },
-      { "name": "Terra, post-defeat", "note": "Presented first as merely overcrowded, then revealed as a supervised simulation laid over actual ruins, maintained specifically for returning engineers." },
-      { "name": "The Smithsonian exhibit of frozen Prox soldiers", "note": "The one piece of the false Terra that turns out to be entirely true — 'they do look frighteningly real, because of course they are.'" }
+      {
+        "name": "Reconstructed Mars",
+        "note": "Genuinely rebuilt and genuinely his — the one part of the story's world that is not a lie, which is what makes the ending's return to it a real mercy rather than only a trap."
+      },
+      {
+        "name": "Terra, post-defeat",
+        "note": "Presented first as merely overcrowded, then revealed as a supervised simulation laid over actual ruins, maintained specifically for returning engineers."
+      },
+      {
+        "name": "The Smithsonian exhibit of frozen Prox soldiers",
+        "note": "The one piece of the false Terra that turns out to be entirely true — 'they do look frighteningly real, because of course they are.'"
+      }
     ],
-
     "motifs": [
       "Small physical impossibilities as the only available evidence against a totalizing deception — a coin, an ear muscle, a wilting plant",
       "A manufactured companion animal as the precise, individualized mechanism by which each survivor is kept sane",
@@ -59,26 +74,23 @@
       "The moment of discovery not ending the story but requiring its own further management",
       "Mercy administered by the same authority responsible for the deception, with no way to tell the two apart"
     ],
-
     "significance": "Dick returned to this story more than once in the Exegesis as a key to his own theology, using its three-layer structure — the lie, the truth behind the lie, and Biskle's manufactured accommodation to that truth — as a template for a specific idea: that a fake can itself be layered, so that exposing one fabrication only reveals a further one built to receive the shock. He calls the story's own structure 'close' to what he believed was the actual relationship between apparent reality and Christianity, phrased as the paradox 'is a fake fake real?' answered 'yes.' The story does not resolve into simple horror or simple comfort: Biskle's survival is real, his kitten is not, and the story refuses to say which of those facts should determine how the ending is read.",
-
     "closing_note": "Dr. DeWinter pats the kitten too, and thinks only about its batteries — the story's last line withholds any reassurance that the mercy just extended to Biskle came from anything capable of caring whether it worked."
   },
-
-  "concepts": {
-    "distinctive_terms": [
-      { "label": "Viewed", "entity_id": "TERM_viewed", "count": 2, "distinctiveness": 15.28 },
-      { "label": "Spirit", "entity_id": "TERM_spirit", "count": 2, "distinctiveness": 7.97 }
-    ],
-    "names_matched": ["NAME_mary", "NAME_sophia", "NAME_laura"],
-    "thematic_links_proposed": [
-      { "theme": "illusionary-realities", "basis": "a false Terra maintained specifically for returning engineers, layered over genuine ruins" },
-      { "theme": "authentic-human", "basis": "a manufactured kitten performs the exact function of a real bond and succeeds at saving a life" },
-      { "theme": "empire-control", "basis": "a defeated population managed through supervised, individualized deception rather than force" },
-      { "theme": "betrayal", "basis": "Mary's genuine tenderness toward Biskle coexists with her role as his warden, without either canceling the other" }
-    ]
-  },
-
+  "distinctive_terms": [
+    {
+      "label": "Viewed",
+      "entity_id": "TERM_viewed",
+      "count": 2,
+      "distinctiveness": 15.28
+    },
+    {
+      "label": "Spirit",
+      "entity_id": "TERM_spirit",
+      "count": 2,
+      "distinctiveness": 7.97
+    }
+  ],
   "pkd_on_this_work": {
     "lane": "E",
     "total_mentions": 5,
@@ -104,7 +116,6 @@
       }
     ]
   },
-
   "criticism": {
     "lane": "C",
     "total_mentions": 2,
@@ -125,30 +136,34 @@
       }
     ]
   },
-
   "contradictions": [
     {
       "type": "authorial_self-assessment",
       "summary": "Dick cites this story as a genuine key to his theology in one Exegesis passage and dismisses it, in another, as telling us nothing.",
-      "claim_a": { "lane": "B", "source": "Exegesis l.4561", "text": "\"Precious Artifact\" (3 layer) was close [to the real structure of Christianity]" },
-      "claim_b": { "lane": "B", "source": "Exegesis l.4125", "text": "Such stories as \"Precious Artifact\" and \"Electric Ant\" and \"Retreat Syndrome\" tell us nothing" },
+      "claim_a": {
+        "lane": "B",
+        "source": "Exegesis l.4561",
+        "text": "\"Precious Artifact\" (3 layer) was close [to the real structure of Christianity]"
+      },
+      "claim_b": {
+        "lane": "B",
+        "source": "Exegesis l.4125",
+        "text": "Such stories as \"Precious Artifact\" and \"Electric Ant\" and \"Retreat Syndrome\" tell us nothing"
+      },
       "editorial_status": "unresolved_by_design",
       "note": "Both statements come from the same ongoing self-interrogation and were very likely written at different emotional and argumentative moments within the Exegesis's years-long composition. Held open rather than reconciled."
     }
   ],
-
   "open_questions": [
     "Sutin's sentence about the Proxmen's use of hope is cut off before its point; the fuller passage would clarify his reading of the ending.",
     "Anne Dick spells the protagonist 'Briskle' rather than the text's 'Biskle' — worth checking whether this is a transcription slip or reflects an earlier draft's spelling.",
     "This story shares its exact three-layer fake-within-a-fake structure with Dick's stated reading of Christianity. Is there a fuller Exegesis passage developing the Q&A ('Is a fake fake real?') beyond the single line captured here?"
   ],
-
-  "provenance": {
-    "layer_1_reading": "Full text read at the locator above, 5,880 words.",
-    "layer_2_concepts": "scripts/reading/gather_evidence.py",
-    "layer_3_pkd": "5 citations, three of them substantial Exegesis passages.",
-    "layer_4_criticism": "2, from Sutin and Anne R. Dick.",
-    "related_dossiers": "the-electric-ant (grouped with this story by Dick himself in the Exegesis).",
-    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
-  }
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  },
+  "written": "1963"
 }

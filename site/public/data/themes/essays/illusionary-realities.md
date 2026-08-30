@@ -36,6 +36,10 @@ Eight years into a nuclear war, the entire human population of both blocs lives 
 
 A Clerk arrives to make sure a sleepy dog — the neighborhood's Summoner — barks at exactly 8:15 to bring insurance salesman Ed Fletcher 'A Friend with a Car,' getting him to his office an hour early before Sector T137 is taken offline for... In a story collection like [Adjustment Team](/works/adjustment-team), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Small Town
+
+Verne Haskel, exhausted and embittered after twenty resentful years at Larson's Pump and Valve Works, retreats each evening to his basement, where he has spent his entire life building an obsessively exact miniature model of his hometown... In a story collection like [Small Town](/works/small-town), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Pay for the Printer
 
 After a nuclear war has reduced the world to ash and rubble, human settlements survive by trading their salvaged pre-war goods to the Biltong — alien, amoeba-like creatures drawn to Earth by the H-bomb flashes — who duplicate them. In a story collection like [Pay for the Printer](/works/pay-for-the-printer), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -63,6 +67,10 @@ Survivors of a hydrogen war — 'flukers', so named because they lived by a fluk
 ### The Game-Players of Titan
 
 The Game-Players of Titan is the canonical works record for PKD's novel. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### Precious Artifact
+
+After six years reconstructing Mars following Terra's defeat in the Prox-Terra war, exhausted reconstruct engineer Milt Biskle asks to go home instead of accepting his reward — priority land on the world he rebuilt. In a story collection like [Precious Artifact](/works/precious-artifact), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Penultimate Truth
 
