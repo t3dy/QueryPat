@@ -24,6 +24,10 @@ Boris, a large black dog belonging to the Cardossi family, barks a single word â
 
 Eight years into a nuclear war, the entire human population of both blocs lives in sealed installations beneath the surface, manufacturing weapons that robots called leadies carry up and use. In a story collection like [The Defenders](/works/the-defenders), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The King of the Elves
+
+Shadrach Jones, an old man running a nearly abandoned filling station in Derryville, Colorado, gives shelter one stormy night to a bedraggled party of Elves carrying their dying king on a platform. In a story collection like [The King of the Elves](/works/the-king-of-the-elves), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Small Town
 
 Verne Haskel, exhausted and embittered after twenty resentful years at Larson's Pump and Valve Works, retreats each evening to his basement, where he has spent his entire life building an obsessively exact miniature model of his hometown... In a story collection like [Small Town](/works/small-town), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

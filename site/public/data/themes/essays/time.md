@@ -8,6 +8,10 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 ## Reading the works
 
+### The Skull
+
+Conger, a convicted smuggler and skilled hunter, is offered release from prison by a totalitarian Council in exchange for a mission: travel back in time to twentieth-century Colorado and kill the founder of the pacifist First Church before... In a story collection like [The Skull](/works/the-skull), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Commuter
 
 A tired commuter named Ernest Critchet asks ticket agent Ed Jacobson for a new commute book to a town called Macon Heights. In a story collection like [The Commuter](/works/the-commuter), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

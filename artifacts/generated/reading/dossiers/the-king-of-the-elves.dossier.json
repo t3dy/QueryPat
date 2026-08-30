@@ -1,188 +1,139 @@
 {
- "artifact_id": "ART_DOSSIER_THE_KING_OF_THE_ELVES",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-king-of-the-elves",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The King Of The Elves",
-  "slug": "the-king-of-the-elves",
-  "form": "story",
-  "word_count": 6770,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 10512,
-   "line_end": 11145,
-   "word_count": 6770,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "King",
-    "entity_id": "TERM_king",
-    "count": 56,
-    "distinctiveness": 62.83
-   },
-   {
-    "label": "Kingdom",
-    "entity_id": "TERM_kingdom",
-    "count": 6,
-    "distinctiveness": 51.36
-   },
-   {
-    "label": "Adam",
-    "entity_id": "TERM_adam",
-    "count": 1,
-    "distinctiveness": 14.61
-   },
-   {
-    "label": "Golden",
-    "entity_id": "TERM_golden",
-    "count": 3,
-    "distinctiveness": 6.9
-   },
-   {
-    "label": "Empire",
-    "entity_id": "TERM_empire",
-    "count": 1,
-    "distinctiveness": 5.38
-   },
-   {
-    "label": "Iron",
-    "entity_id": "TERM_iron",
-    "count": 1,
-    "distinctiveness": 4.27
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 15,
-    "distinctiveness": 4.15
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 12,
-    "distinctiveness": 2.98
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 4,
-    "distinctiveness": 2.26
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 6,
-    "distinctiveness": 1.99
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 3,
-    "distinctiveness": 1.96
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 10,
-    "distinctiveness": 1.53
-   }
+  "artifact_id": "ART_DOSSIER_THE_KING_OF_THE_ELVES",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-king-of-the-elves",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The King of the Elves",
+    "slug": "the-king-of-the-elves",
+    "form": "short story",
+    "word_count": 6764,
+    "lane": "A",
+    "first_publication": "Beyond Fantasy Fiction, September 1953",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 10512,
+      "line_end": 11145,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Shadrach Jones, an old man running a nearly abandoned filling station in Derryville, Colorado, gives shelter one stormy night to a bedraggled party of Elves carrying their dying king on a platform. The king dies that night, having named Shadrach — a mortal who took him in expecting nothing in return — as his successor. Shadrach dismisses it as a joke at first, and the town treats his claim with a mix of mockery and unease, his old friend Phineas Judd growing visibly troubled rather than amused. An Elf soldier arrives to summon Shadrach to lead the defense of the Elf Kingdom against the Trolls, who are rising now that the old king is dead. Shadrach stalls, walks to Phineas's farm to explain, and is talked inside for coffee and delay — until, standing close to Phineas in the moonlight for the first time in years, he notices what he never had before: a huge, rough hand, a heavy brutal face, a smell of rot. Phineas is the Great Troll, and his farmhouse conceals the entire Troll horde. Shadrach fights them off with a barrel stave until the Elf army arrives, and in the chaos he alone kills Phineas — the Great Troll, leader of them all, whose death has never happened before in Elvish memory. Offered his freedom now that the war is won, Shadrach starts back toward his ruined filling station, sees exactly what waits for him there, turns around, and asks to remain King of the Elves after all.",
+
+    "structure": {
+      "form": "short story in three movements: the king's death, the mounting call to duty, the true nature of Phineas revealed",
+      "movements": [
+        "A stormy night, the dying Elf King, and the naming of an unlikely successor.",
+        "Shadrach's ordinary life continuing in parallel with his new title, and the town's uncertain reaction.",
+        "The walk to Phineas's farm, the moonlit revelation, the battle, and the choice to remain king."
+      ],
+      "point_of_view": "third person close to Shadrach throughout, occasionally cutting away to the townspeople's gossip, which keeps the fantastic claim suspended between delusion and fact for most of the story's length.",
+      "central_device": "A trusted friend of decades revealed, by a change of light alone, to have been the enemy leader the whole time — nothing about Phineas changes except how Shadrach is finally seeing him."
+    },
+
+    "characters": [
+      { "name": "Shadrach Jones", "role": "filling station owner, later King of the Elves", "note": "Chosen specifically because he expected nothing for his hospitality — the story's stated criterion for kingship is generosity without transaction." },
+      { "name": "Phineas Judd", "role": "Shadrach's old friend, revealed as the Great Troll", "note": "The story never explains how long the deception ran, or whether 'Phineas' had any existence apart from the disguise — a gap the story leaves entirely open." },
+      { "name": "The old Elf King", "role": "dies naming his successor", "note": "His last words name Shadrach specifically for having given without expecting return." },
+      { "name": "Dan Green, Pop Richey", "role": "townspeople", "note": "Debate whether Shadrach believes his own claim or is running a promotional stunt for the failing filling station — the ordinary, deflationary reading the story lets stand right up until it can't." }
+    ],
+
+    "settings": [
+      { "name": "Shadrach's filling station", "note": "On a nearly abandoned stretch of highway, failing exactly as its owner is aging — the mundane poverty his kingship offers an escape from." },
+      { "name": "Phineas Judd's farm", "note": "An ordinary farmhouse concealing, beneath it, the entire Troll horde — domesticity as camouflage for what would otherwise be pure fantasy menace." },
+      { "name": "The battlefield by the Great Oak", "note": "Where Elf and Troll armies clash in full and Shadrach kills the Great Troll without knowing, until afterward, what he had done." }
+    ],
+
+    "motifs": [
+      "A familiar face made suddenly strange by a change of light — the moonlight revelation of Phineas as monster",
+      "Kingship earned through disinterested kindness rather than conquest or birthright",
+      "The mundane and the fantastic occupying the same space without contradiction — a filling station beside an Elf Kingdom",
+      "The community's practical, deflationary theories (promotion, senility) offered as live alternatives to the fantastic explanation for most of the story",
+      "A return to ordinary life glimpsed and explicitly rejected in favor of the fantastic role"
+    ],
+
+    "significance": "Sutin rates this Dick's best fantasy story, and Anne Dick reads it as a directly autobiographical document of his early adult pattern: an unremarkable man pulled by circumstance into an entirely different, more meaningful existence, with agoraphobia — a wariness of ordinary society — cited as a genuine factor in his own life at the time of writing. What makes the story more than wish-fulfillment is its ending: Shadrach is given a real chance to return to his old, failing, ordinary life and refuses it, not because the Elf Kingdom is easier, but because he has already seen exactly what waits for him if he goes back. The choice to remain king is made with full knowledge of both options, which is the detail that keeps the story from being a simple escape fantasy.",
+
+    "closing_note": "Shadrach looks back at his filling station from the rise, sees precisely what it is — failing, unrepairable, not enough — and turns around without another word."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "King", "entity_id": "TERM_king", "count": 14, "distinctiveness": 62.83 },
+      { "label": "Kingdom", "entity_id": "TERM_kingdom", "count": 9, "distinctiveness": 51.36 },
+      { "label": "Golden", "entity_id": "TERM_golden", "count": 2, "distinctiveness": 6.9 },
+      { "label": "Empire", "entity_id": "TERM_empire", "count": 1, "distinctiveness": 5.38, "note": "The dying king's prophecy of 'the rising once again of the Elf Empire.'" },
+      { "label": "Iron", "entity_id": "TERM_iron", "count": 1, "distinctiveness": 4.27, "note": "The Great Troll's suit of ancient mail." }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "authentic-human", "basis": "kingship awarded specifically for disinterested generosity — Shadrach chosen because he expected nothing in return" },
+      { "theme": "betrayal", "basis": "a decades-long friendship revealed to have concealed the enemy leader the entire time, with no explanation of how much of it was ever real" },
+      { "theme": "illusionary-realities", "basis": "an entire hidden kingdom and war coexisting with, and eventually absorbing, an ordinary failing rural life" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No direct statement by Dick about this specific story was found in the corpus currently indexed.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 6,
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 1431,
+        "quote": "Phil was gracious enough to give Gold credit for improving the ending of Phil's best fantasy story, \"The King of the Elves,\" which appeared in the September 1953 Beyond Fantasy Fiction",
+        "reading": "Editor Horace Gold reportedly improved the story's ending, and Dick credited him for it — a rare documented instance of editorial collaboration Dick himself acknowledged."
+      },
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 5647,
+        "quote": "\"The King of the Elves\" (1953) (see Chapter 4) is a gem — Phil's best fantasy story. Rating: 8.",
+        "reading": "Sutin's own critical rating, among the highest given to any story in this corpus so far."
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "Search for Philip K. Dick",
+        "line": 2969,
+        "quote": "Agoraphobia seemed to be a determining factor for his writing career. An early story, \"The King of the Elves,\" describes the beginnings of this lifestyle.",
+        "reading": "A direct biographical reading: Anne Dick connects Shadrach's pull away from ordinary society and into a hidden, more meaningful role to Dick's own agoraphobia at the time."
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "Search for Philip K. Dick",
+        "line": 3049,
+        "quote": "Shadrach Jones in \"The King of the Elves\" has been lured into becoming the king of the elves, instead of working at his prosaic",
+        "reading": "Continues the biographical reading, framing Shadrach's transformation as escape from prosaic obligation rather than heroic elevation."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "What specifically did Horace Gold change about the ending, and does Dick's correspondence with Gold survive describing the original version?",
+    "Anne Dick's sentence about Shadrach being 'lured' rather than chosen is cut off — does she go on to read the story more skeptically than Sutin's unreserved praise suggests?",
+    "The story never explains Phineas Judd's status before the story begins — was 'Phineas' ever a real person, or has the Great Troll occupied that identity for the entire twenty-year friendship? Worth checking whether any critic addresses this directly."
   ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 6,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 1431,
-      "quote": "…ors. But Phil was gracious enough to give Gold credit for improving the ending of Phil’s best fantasy story, “The King of the Elves,” which appeared in the September 1953 Beyond Fantasy Fiction (a sister publication to Galaxy). Shadrach Jone…"
-     },
-     {
-      "line": 5647,
-      "quote": "…es the empathic religion of Mercerism, which plays such a major role in Do Androids Dream of Electric Sheep? “The King of the Elves” (1953) (see Chapter 4) is a gem-Phil’s best fantasy story. Rating: 8. 51. A Scanner Darkly (w. 1973, rew.…"
-     },
-     {
-      "line": 6035,
-      "quote": "…Thirty Years of Innovative Science Fiction (New York: Playboy Press, 1980), p. 239. - 75 Shadrach carried: “The King of the Elves” (1953). SF and fantasy: PKD, “My Definition of SF,” Just SF 1 (1981): 1. - 75-76 Inner-projection stories:…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
-    "author": "Anne R. Dick",
-    "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 2969,
-      "quote": "…o work on his writing. Agoraphobia seemed to be a determining factor for his writing career. An early story, “The King of the Elves,” describes the beginnings of this lifestyle. “Phil’s output, even at the beginning, was so voluminous,” Kl…"
-     },
-     {
-      "line": 3049,
-      "quote": "…” can see a halfhour ahead and can always find a woman to keep him out of society’s traps. Shadrach Jones in “The King of the Elves” has been lured into becoming the king of the elves, instead of working at his prosaic job running a filling…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 1332,
-      "quote": "…originally efforts to save humanity from the consequences of nuclear holocaust. (The Biltongs > 14 Elves: ‘The King of the Elves’ (1953, CS1); taxis: ‘We Can Remember It For You Wholesale’ (1966, CS4), _The Game-Players of Titan_ (1963) a…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "6 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 6,764 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 citations found.",
+    "layer_4_criticism": "6 across Sutin, Anne R. Dick, and Palmer.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

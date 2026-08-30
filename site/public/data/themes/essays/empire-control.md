@@ -8,6 +8,10 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 ## Reading the works
 
+### The Skull
+
+Conger, a convicted smuggler and skilled hunter, is offered release from prison by a totalitarian Council in exchange for a mission: travel back in time to twentieth-century Colorado and kill the founder of the pacifist First Church before... In a story collection like [The Skull](/works/the-skull), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Expendable
 
 An unnamed man crushes two eavesdropping caterpillars under his foot on his way to the bus, cautiously avoids a spider web, and rides home uneasy about an insect world he half-perceives is aware of him. In a story collection like [Expendable](/works/expendable), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

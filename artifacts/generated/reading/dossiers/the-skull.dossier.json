@@ -1,183 +1,112 @@
 {
- "artifact_id": "ART_DOSSIER_THE_SKULL",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-skull",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Skull",
-  "slug": "the-skull",
-  "form": "story",
-  "word_count": 7767,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 1564,
-   "line_end": 2279,
-   "word_count": 7767,
-   "status": "ready"
+  "artifact_id": "ART_DOSSIER_THE_SKULL",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-skull",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Skull",
+    "slug": "the-skull",
+    "form": "short story",
+    "word_count": 7767,
+    "lane": "A",
+    "first_publication": "If, September 1952",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 1564,
+      "line_end": 2279,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Conger, a convicted smuggler and skilled hunter, is offered release from prison by a totalitarian Council in exchange for a mission: travel back in time to twentieth-century Colorado and kill the founder of the pacifist First Church before he ever preaches. The Council, believing war performs a necessary Darwinian function by culling the unfit, blames the Church's non-violence doctrine for ending war and allowing 'inferior' populations to multiply unchecked. Conger's only means of identifying his target is the Founder's own two-century-old skull, stolen from the Church's hidden reliquary. Sent back to 1960s Cooper Creek in a time machine disguised as a crystal cage, Conger researches newspaper archives to pinpoint the date and place the Founder will first speak, poses as an eccentric bearded stranger, and draws suspicion from the small town's residents — including a jealous local boy he stuns with a concealed weapon. Warned by a girl, Lora, that the sheriff and state police are closing in on him as a suspected radical, Conger nearly decides to kill the surrounding crowd with his advanced weapon rather than be taken. Instead, alone in his cage, he picks up the skull once more, holds it against his own face in the mirror, and recognizes it: the teeth are his own. He is the Founder. Understanding that his own death is both fixed and, in a stranger sense, not final — he will be seen alive again after his death, and reborn centuries later on Mars, growing up to become the very hunter sent to kill him — Conger walks out unarmed to face the crowd and the police, and delivers the paradox that will become the Church's founding teaching before accepting the death he now knows is his own.",
+
+    "structure": {
+      "form": "short story in three movements: the mission given, the mission attempted, the mission revealed as a closed loop",
+      "movements": [
+        "The Council's proposition, the theft of the Founder's relics from the First Church, and the journey back in time.",
+        "Conger's investigation in Cooper Creek, his growing entanglement with the townspeople, and the manhunt closing in.",
+        "The recognition scene with the mirror and the skull, and Conger's choice to accept the death he now understands is his own."
+      ],
+      "point_of_view": "third person close to Conger, so his gradual realization — withheld from the reader only by Conger's own failure to look closely at what he is carrying — lands with the same force for both.",
+      "central_device": "A closed causal loop in which the assassin and the target are revealed to be the same person across two centuries, so that the mission was always going to fail in exactly the way that created the outcome it was meant to prevent."
+    },
+
+    "characters": [
+      { "name": "Conger", "role": "hunter, assassin, unknowingly the Founder", "note": "Skilled, mercenary, and entirely rational about his mission until the mirror scene, after which his final act is delivered with total calm rather than despair." },
+      { "name": "The Speaker", "role": "Council representative", "note": "Articulates the story's totalitarian eugenic argument for war without any apparent discomfort, treating the Founder's death as a straightforward historical correction." },
+      { "name": "Lora Hunt", "role": "local girl", "note": "Warns Conger of the approaching police out of personal loyalty rather than belief in his innocence — the story's one act of unmotivated kindness toward him." },
+      { "name": "Bill Willet", "role": "local boy, Lora's suitor", "note": "His jealousy of Conger is what first draws official suspicion, an entirely mundane human cause behind the story's cosmic mechanism." }
+    ],
+
+    "settings": [
+      { "name": "The First Church", "note": "A pacifist religious movement descended from the Founder's teaching, whose relics the Council violates to obtain — the story's ironic detail that killing the Founder in the past cannot erase the two centuries of consequence already built on him." },
+      { "name": "Cooper Creek, Colorado, 1960", "note": "An ordinary small town made increasingly menacing by its capacity for casual suspicion of any stranger, well before the Founder's identity is ever in question." },
+      { "name": "The crystal cage", "note": "The time machine, tracked and recallable by the Council at will — Conger's only route of escape, which he ultimately chooses not to use." }
+    ],
+
+    "motifs": [
+      "A closed time loop in which cause and effect fold back on the same person",
+      "A relic (the skull) functioning simultaneously as evidence, weapon, and, unrecognized until the end, self-portrait",
+      "Small-town suspicion of strangeness as the true mechanism that closes the trap, independent of any cosmic plan",
+      "A totalitarian rationale for violence (war as eugenic selection) stated plainly and without narrative refutation, left to indict itself",
+      "Acceptance of death delivered as calm, reasoned choice rather than tragic defeat"
+    ],
+
+    "significance": "The story's power is structural: Conger is sent to prevent a religious movement by killing its founder, and the killing he is sent to prevent is the killing he is fated to become the victim of, closing the loop from both directions at once. The Council's eugenic justification for war is presented with chilling flatness, never rebutted within the text — its refutation is instead the entire existence of the peaceful, if ironic, mission Conger unknowingly completes by dying. The paradox Conger coins at the end — 'those who take lives will lose their own... but he who gives his own life away will live again' — is delivered as the Founder's first and only recorded utterance, meaning the story's protagonist writes his own scripture in the act of accepting his execution.",
+
+    "closing_note": "Conger smiles at his own paradox, pleased with its construction, in the last moment before the death that will make it doctrine."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Church", "entity_id": "TERM_church", "count": 9, "distinctiveness": 51.55 },
+      { "label": "Holy", "entity_id": "TERM_holy", "count": 2, "distinctiveness": 11.01 },
+      { "label": "Prison", "entity_id": "TERM_prison", "count": 2, "distinctiveness": 8.72 },
+      { "label": "Divine", "entity_id": "TERM_divine", "count": 1, "distinctiveness": 5.51, "note": "Used of the Founder's reported resurrection, which the Council dismisses as rumor and which the story confirms is literally true." }
+    ],
+    "note_on_false_positives": "The evidence scan's pkd_on_this_work hits are all false positives: they quote Dick praising a different story by another author, Rog Phillips' 'Rat in the Skull' (If, December 1958), which shares only a word with this story's title. None of those citations are about this work and none are used below.",
+    "thematic_links_proposed": [
+      { "theme": "religion-gnosis", "basis": "a pacifist church founded on a single execution the founder is shown, from inside the story, to have consciously chosen and even scripted" },
+      { "theme": "time", "basis": "a closed causal loop in which the assassin sent back in time is revealed to be the very target he was sent to kill" },
+      { "theme": "empire-control", "basis": "a totalitarian council's explicit eugenic justification for preserving war, stated without irony or rebuttal" },
+      { "theme": "betrayal", "basis": "the Council violates the First Church's own sanctuary to steal the relics needed to destroy it" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No genuine statement by Dick about this story was found. The evidence scan's apparent hits are false positives about an entirely different story by another author sharing only the word 'skull' in its title (Rog Phillips' 'Rat in the Skull').",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "This is Dick's earliest professionally published story to appear in this reading queue by date (If, September 1952) and no critical commentary specific to it was found in the current archive — worth checking Sutin's and Palmer's full texts for passages the keyword scan missed.",
+    "The Council's belief that killing the Founder before he speaks would prevent the Church's existence is proven false by the story's own closed loop — is this irony ever remarked on by Dick or a critic elsewhere as an early instance of his fatalistic time-travel logic (compare 'The Skull' to 'Adjustment Team' and 'The Commuter', both read in this project)?",
+    "No secondary criticism was found at all for this story, unusually for one this early and this fully formed a time-loop paradox — a genuine archive gap rather than a null result from an overly narrow search, worth flagging for acquisition."
+  ],
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 7,767 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 genuine citations; 5 false-positive matches for a different story by another author, excluded.",
+    "layer_4_criticism": "0 found.",
+    "related_dossiers": "adjustment-team, the-commuter (both share the closed-loop time structure).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "The authorities",
-    "name_id": "NAME_the-authorities",
-    "mentions": 3
-   },
-   {
-    "name": "The Man",
-    "name_id": "NAME_the-man",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Church",
-    "entity_id": "TERM_church",
-    "count": 11,
-    "distinctiveness": 51.55
-   },
-   {
-    "label": "Bill",
-    "entity_id": "TERM_bill",
-    "count": 13,
-    "distinctiveness": 11.63
-   },
-   {
-    "label": "Holy",
-    "entity_id": "TERM_holy",
-    "count": 2,
-    "distinctiveness": 11.01
-   },
-   {
-    "label": "Prison",
-    "entity_id": "TERM_prison",
-    "count": 2,
-    "distinctiveness": 8.72
-   },
-   {
-    "label": "Divine",
-    "entity_id": "TERM_divine",
-    "count": 1,
-    "distinctiveness": 5.51
-   },
-   {
-    "label": "Girl",
-    "entity_id": "TERM_girl",
-    "count": 8,
-    "distinctiveness": 2.2
-   },
-   {
-    "label": "Garden",
-    "entity_id": "TERM_garden",
-    "count": 1,
-    "distinctiveness": 2.14
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 3,
-    "distinctiveness": 1.7
-   },
-   {
-    "label": "Wait",
-    "entity_id": "TERM_wait",
-    "count": 4,
-    "distinctiveness": 1.63
-   },
-   {
-    "label": "Good",
-    "entity_id": "TERM_good",
-    "count": 13,
-    "distinctiveness": 1.54
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 5,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 2180,
-      "quote": "…once before in my lifetime did a science fiction story touch me so deeply, and that was Rog Phillips’ “Rat in the Skull.” I knew Rog personally and loved him very much; he was a good man, too. I haven’t met you, but for you to wr…"
-     },
-     {
-      "line": 4698,
-      "quote": "…one of the finest stories ever 266 THE SELECTED LETTERS OF PHILIP K. DICK to appear in our field: “Rat in the Skull,” If, Dec. ’58. I urge you to print it before all else. Thank you for your request, and good luck on the an…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 1510,
-      "quote": "…ve my chance. By the way—I wonder if you read the lead story in the December 1958 If; Rog Phillips’ _Rat in the Skull._ I considered it one of the finest s-f stories that I know, and, in some ways, comparable with various liter…"
-     },
-     {
-      "line": 1538,
-      "quote": "…ve my chance. By the way—I wonder if you read the lead story in the December 1958 If; Rog Phillips’ _Rat in the Skull. I_ considered it one of the finest s-f stories that I know, and, in some ways, comparable with various liter…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 2580,
-      "quote": "…aised up as Christopher...my son’s name, bom in 1973. Rog Phillips (who autographed this story of his “Rat in the Skull,” “To Phillip K. Dick, a name under which I frequently write” and who now is dead—) in that great story of hi…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "5 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "0 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
 }

@@ -32,6 +32,10 @@ A tired commuter named Ernest Critchet asks ticket agent Ed Jacobson for a new c
 
 Eight years into a nuclear war, the entire human population of both blocs lives in sealed installations beneath the surface, manufacturing weapons that robots called leadies carry up and use. In a story collection like [The Defenders](/works/the-defenders), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The King of the Elves
+
+Shadrach Jones, an old man running a nearly abandoned filling station in Derryville, Colorado, gives shelter one stormy night to a bedraggled party of Elves carrying their dying king on a platform. In a story collection like [The King of the Elves](/works/the-king-of-the-elves), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Adjustment Team
 
 A Clerk arrives to make sure a sleepy dog — the neighborhood's Summoner — barks at exactly 8:15 to bring insurance salesman Ed Fletcher 'A Friend with a Car,' getting him to his office an hour early before Sector T137 is taken offline for... In a story collection like [Adjustment Team](/works/adjustment-team), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
