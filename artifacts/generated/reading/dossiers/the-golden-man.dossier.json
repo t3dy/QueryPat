@@ -1,317 +1,175 @@
 {
- "artifact_id": "ART_DOSSIER_THE_GOLDEN_MAN",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-golden-man",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Golden Man",
-  "slug": "the-golden-man",
-  "form": "story",
-  "word_count": 11099,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 27730,
-   "line_end": 28481,
-   "word_count": 11099,
-   "status": "ready"
+  "artifact_id": "ART_DOSSIER_THE_GOLDEN_MAN",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-golden-man",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Golden Man",
+    "slug": "the-golden-man",
+    "form": "novelette",
+    "word_count": 11095,
+    "lane": "A",
+    "first_publication": "If, April 1954 (Quinn Publishing Co.) — byline details confirmed by Dick himself in a 1975 letter to his agent",
+    "later_use": "Title story of the 1980 collection The Golden Man, for which Dick wrote a long autobiographical introduction.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 27730,
+      "line_end": 28481,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "In a post-war America where radiation has produced mutants — 'deeves' — the Department of Civic Anthropology hunts and euthanises them at birth; eighty-seven types have been catalogued and dealt with in sixty years. A DCA agent posing as a salesman traces the eighty-eighth to the Johnson farm outside Walnut Creek, where a family has concealed their eldest son for eighteen years. Cris Johnson is golden — skin, hair, eyes — beautiful, silent, and without language. He has never communicated with his family in eighteen years. He evades capture instantly, then gives himself up voluntarily. In the laboratory the DCA cannot kill him: he dodges lash-tube fire, then a machine firing on a deliberately randomised pattern, weaving between the beams. Brain analysis returns the answer nobody wanted. He has virtually no frontal lobe. He does not think, does not use symbols, is not a superior man but an animal with one highly developed faculty — he sees the future as others see the present, a fixed landscape of tableaux through which he moves along an inflexible path. Baines and Wisdom work out the implication: intelligence is a dead end, and they are the last of their line. Cris escapes his cell and goes not to an exit but to Anita Ferris's room. She holds a weapon on him and cannot use it, because he only came because he had already seen she would not. He hands the weapon back to her. She takes him past the guards on her own authority — and at the exit he abandons her and is gone. The closing exchange establishes the second faculty: the gold is plumage. He will be sheltered by whichever woman he meets, and he already knows he is irresistible. Wisdom hopes his characteristics are recessive. Baines says he would not bet on it.",
+
+    "structure": {
+      "form": "novelette in four movements",
+      "movements": [
+        "The Walnut Creek lunch counter: mutant types catalogued in gossip, and the town's silence when the subject comes too close.",
+        "The Johnson farm: the agent's ruse, the family's terror, and Cris's voluntary surrender.",
+        "The laboratory: the failed killings, the randomised firing machine, and the brain analysis that inverts the threat.",
+        "The escape: Anita's room, the walk past the guards, and the abandonment."
+      ],
+      "point_of_view": "third person, moving between the DCA men and — for one remarkable stretch — inside Cris's perception, which is rendered as a doll's house of rooms, tableaux and duplicated selves along a fixed path.",
+      "notable_technique": "The opening ten minutes are pure exposition disguised as diner conversation: eight strangers swapping mutant sightings, which establishes the world's rules, its casual cruelty, and the euphemism 'euthed' before the plot begins."
+    },
+
+    "characters": [
+      { "name": "Cris Johnson", "role": "the golden man", "note": "Eighteen, mute, without language or tools, and not a person in any sense the story's characters can use. The narration enters his perception once and finds no reasoning in it — only a fixed landscape already seen." },
+      { "name": "Baines", "role": "DCA agent", "note": "Poses as the salesman and later as a real-estate developer. Supplies the story's argument: superior survival is not superior man, and if there were another flood only fish would survive." },
+      { "name": "Ed Wisdom", "role": "Director, DCA North American Branch", "note": "Wants the thing killed within forty-eight hours whether they understand it or not. His hope at the end that the traits are recessive is the story's last piece of self-deception." },
+      { "name": "Anita Ferris", "role": "Director of the Semantics Agency, Class A", "note": "The story's most difficult figure. She objects to the killing on aesthetic grounds, is overcome, and is then written off by Baines as the first of a procession. The narration gives her humiliation and does not examine it." },
+      { "name": "Nat Johnson", "role": "the father", "note": "Has hidden his son for eighteen years and draws on the agent when the ruse fails." },
+      { "name": "Jean and Dave Johnson", "role": "sister and brother", "note": "Jean's line that he is a god come down to earth is the phrase the DCA people keep returning to." }
+    ],
+
+    "settings": [
+      { "name": "A lunch counter in Walnut Creek", "note": "Where the world is established entirely through casual talk about killed children." },
+      { "name": "The Johnson farm", "note": "Eighteen years of concealment, and a family who describe their son as having no contact with them of any kind." },
+      { "name": "The DCA Building", "note": "A sealed structure with a euth stage, a randomised firing machine and a bar in the lobby." }
+    ],
+
+    "motifs": [
+      "Euphemism as policy: 'euthed', 'deeve', the birth inspection, the stamped wrist",
+      "Gold as plumage rather than divinity — the story's final reframing of its own central image",
+      "Seeing as against thinking: prediction so complete it removes the need for a frontal lobe",
+      "The fixed path: Cris's perception is a doll's house of rooms in which one self among many is the one he will be",
+      "Intelligence as an evolutionary dead end, stated outright by the characters"
+    ],
+
+    "significance": "The story's design is a bait and switch about what supersession would look like. Everyone in it — including the reader — expects homo superior to be a bigger brain: telepathy, perfect symbolisation, a better human. What arrives instead has no language and no interior life, and wins because a single physical sense makes deliberation unnecessary. Baines's formulation is the point: we will know homo superior by definition, because he will be the one we cannot kill. What the story does not do is make Cris sympathetic or even present; he is a hole in the middle of his own story, which is a deliberate and effective choice.",
+
+    "critical_caution": "The final movement rests on Anita being overcome and then dismissed, and the narration treats her both as a Director-Class official and as the first item in a procession. The story's own last joke is at her expense. Any use of this dossier for public writing should register that the ending's mechanism is sexual coercion presented as adaptive advantage, and that the text does not stand back from it.",
+
+    "closing_note": "Wisdom hopes the traits are recessive. Baines says he is making a good guess, and it will not be them."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Golden", "entity_id": "TERM_golden", "count": 24, "distinctiveness": 30.85 },
+      { "label": "Maze", "entity_id": "TERM_maze", "count": 2, "distinctiveness": 7.09 },
+      { "label": "Fish", "entity_id": "TERM_fish", "count": 2, "distinctiveness": 4.21 },
+      { "label": "Roman", "entity_id": "TERM_roman", "count": 1, "distinctiveness": 3.41, "note": "From the description of Cris as a gilded Roman monument." }
+    ],
+    "false_positive_noted": "TERM_wisdom scores highest of all (x65.93) but matches the surname of the DCA director, not the concept. Recorded here so the concordance is not read as a thematic link.",
+    "thematic_links_proposed": [
+      { "theme": "authentic-human", "basis": "the story's whole argument is about what would succeed the human, and it answers: not a better mind, no mind" },
+      { "theme": "empire-control", "basis": "a state agency with sixty years of practice at cataloguing and killing categories of children" },
+      { "theme": "time", "basis": "Cris's perception is of a fixed future landscape rather than an open one; the story works out what that does to the idea of choice" },
+      { "theme": "androids", "basis": "a being outwardly beautiful and inwardly absent, which the surrounding characters cannot decide is god, animal or thing" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 6,
+    "summary": "The file contains the sharpest negative judgement Dick made of any story in this corpus — and it sits alongside his having let a collection be named after it.",
+    "evidence": [
+      {
+        "source": "Selected Letters",
+        "line": 6334,
+        "quote": "And maybe drop out \"The Golden Man,\" which I detest?",
+        "reading": "Proposing anthology contents. In the same breath he argues for including 'Second Variety' as one of his best. The judgement is unambiguous and unprompted."
+      },
+      {
+        "source": "Selected Letters — to Ralph Vicinanza, 23 February 1975",
+        "line": 2188,
+        "quote": "\"The Golden Man.\" If magazine, April, 1954 (Quinn Publishing Co.)",
+        "reading": "Dick supplying copyright byline details to his agent for the British rights. Establishes the publication facts from his own hand."
+      },
+      {
+        "source": "Bibliography in the letters",
+        "line": 27,
+        "quote": "The Golden Man (1980)",
+        "reading": "The 1980 collection, named for the story he had said he detested, and for which he wrote a substantial introduction."
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 14,
+    "summary": "Critics cite the 1980 volume's introduction far more often than the story, because that introduction is one of only two late autobiographical pieces Dick wrote.",
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 4803,
+        "quote": "Phil had recently written two autobiographical pieces-the introduction to the Golden Man story collection and a short reminiscence on \"Roog,\" his fir…",
+        "reading": "Pairs this introduction with the 'Roog' reminiscence as the two late autobiographical statements. Both bear directly on other dossiers in this set."
+      },
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 1479,
+        "quote": "It reappeared in the 1980 \"Introduction\" to The Golden Man.",
+        "reading": "Sutin treats the introduction as a source that recycles earlier self-narration — specifically the poverty and horsemeat anecdote — and notes Dick was no longer in want by 1978. A caution about the introduction's reliability as testimony."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1316,
+        "quote": "problems, replicating like mutants (or literally as mutants, as in \"The Golden Man\", 1954, CS3)",
+        "reading": "Palmer uses the story as an instance of a general pattern rather than reading it in itself."
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "line": 3049,
+        "quote": "\"The Golden Man\" can see a halfhour ahead and can always find a woman to ke…",
+        "reading": "Her summary names both faculties, including the second one, which most accounts of the story omit."
+      }
+    ]
+  },
+
+  "contradictions": [
+    {
+      "type": "self_vs_self",
+      "summary": "Dick asks an editor to drop the story because he detests it, and then permits a collection to be titled after it and writes its introduction.",
+      "claim_a": { "lane": "E", "source": "Selected Letters l.6334", "text": "maybe drop out \"The Golden Man,\" which I detest?" },
+      "claim_b": { "lane": "E", "source": "The Golden Man (1980), introduction", "text": "a long autobiographical introduction to the collection named for it" },
+      "editorial_status": "unresolved_by_design",
+      "note": "Not necessarily a change of view — a title is a publisher's decision and an introduction is paid work. But the file should not present either statement without the other."
+    }
+  ],
+
+  "open_questions": [
+    "The 1980 introduction is not in the archive as a separate text. Sutin treats it as a major late autobiographical statement, and it is the obvious place to find whether Dick's stated detestation persisted. Worth acquiring.",
+    "Dick detested this story and rated 'Second Variety' among his best in the same letter. Does he anywhere give reasons for either judgement?",
+    "The story's brain-analysis conceit — supersession by something with no frontal lobe — is unusual in Dick. Does it recur anywhere, or is it isolated to 1954?"
+  ],
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 11,095 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "6 capitalised citations across the letters.",
+    "layer_4_criticism": "14 across Sutin, Palmer and Anne R. Dick.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "The Soviet",
-    "name_id": "NAME_the-soviet",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Wisdom",
-    "entity_id": "TERM_wisdom",
-    "count": 50,
-    "distinctiveness": 65.93
-   },
-   {
-    "label": "Golden",
-    "entity_id": "TERM_golden",
-    "count": 22,
-    "distinctiveness": 30.85
-   },
-   {
-    "label": "Maze",
-    "entity_id": "TERM_maze",
-    "count": 2,
-    "distinctiveness": 7.09
-   },
-   {
-    "label": "Acts",
-    "entity_id": "TERM_acts",
-    "count": 1,
-    "distinctiveness": 5.55
-   },
-   {
-    "label": "Fish",
-    "entity_id": "TERM_fish",
-    "count": 2,
-    "distinctiveness": 4.21
-   },
-   {
-    "label": "Palm",
-    "entity_id": "TERM_palm",
-    "count": 1,
-    "distinctiveness": 4.03
-   },
-   {
-    "label": "Roman",
-    "entity_id": "TERM_roman",
-    "count": 1,
-    "distinctiveness": 3.41
-   },
-   {
-    "label": "Iron",
-    "entity_id": "TERM_iron",
-    "count": 1,
-    "distinctiveness": 2.6
-   },
-   {
-    "label": "Christ",
-    "entity_id": "TERM_christ",
-    "count": 2,
-    "distinctiveness": 2.29
-   },
-   {
-    "label": "Tears",
-    "entity_id": "TERM_tears",
-    "count": 1,
-    "distinctiveness": 2.21
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 6,
-    "distinctiveness": 2.07
-   },
-   {
-    "label": "Therefore",
-    "entity_id": "TERM_therefore",
-    "count": 1,
-    "distinctiveness": 2.01
-   },
-   {
-    "label": "Self",
-    "entity_id": "TERM_self",
-    "count": 2,
-    "distinctiveness": 1.9
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 12,
-    "distinctiveness": 1.82
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 2,
-    "distinctiveness": 1.64
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 7,
-    "distinctiveness": 1.56
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 9,
-    "distinctiveness": 1.52
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 6,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 2186,
-      "quote": "…erary Agency] Feb 23, 1975_ Dear Ralph Vicinanza, You requested copyright byline information on my story “The Golden Man” as soon as possible for your British rep. Viz.: “The Golden Man.” If magazine, April, 1954 (Quinn Publishi…"
-     },
-     {
-      "line": 2188,
-      "quote": "…copyright byline information on my story “The Golden Man” as soon as possible for your British rep. Viz.: “The Golden Man.” If magazine, April, 1954 (Quinn Publishing Co.) While I’m writing you, Henry Ludmer, before he left SMLA, m…"
-     },
-     {
-      "line": 6334,
-      "quote": "…and I agree that my novelette “Second Variety” is one of my best. Could we include that? And maybe drop out “The Golden Man,” which I detest? “The Father-Thing” is in that two-volume Tony Boucher Golden whatever set which the S-F boo…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
-    "author": null,
-    "lane": "B",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 13302,
-      "quote": "…[>] _Galactic Pot-Healer,_ [>], [>], [>], [>], [>], [>]–[>], [>] _The Game-Players of Titan,_ [>], [>] \"The Golden Man,\" [>], [>] \"I Hope I Shall Arrive Soon.\" _See_ \"Frozen Journey\" \"Impostor,\" [>], [>], [>], [>], [>], [>],…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 27,
-      "quote": "…Artist (1975) Deus Irae (with Roger Zelazny) (1976) The Best of Philip K. Dick (1977) A Scanner Darkly (1977) The Golden Man (1980) VALIS (1981) The Divine Invasion (1981) The Transmigration of Timothy Archer (1982) The Man Whose Teet…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 847,
-      "quote": "…joyed being there with them in their microcosm, their postwar West Marin world. ## **\"Introduction\" to** _**The Golden Man**_ **(1980)** When I see these stories of mine, written over three decades, I think of the Lucky Dog Pet St…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 14,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 12,
-    "quotes": [
-     {
-      "line": 1263,
-      "quote": "…ly regular book publisher of SF); and really cruel abuse was inflicted upon us. ## Prlu., “Introduction” to The Golden Man (1980) You knew [as to writing SF in the early fifties] you had the shitty end of the stick, but at least y…"
-     },
-     {
-      "line": 1479,
-      "quote": "…poverty (by 1978 Phil was no longer in want) was genuine enough. It reappeared in the 1980 “Introduction” to The Golden Man. Phil tells of purchasing the “dogfood” referred to above: So anyhow there I am at the Lucky Dog Pet Store…"
-     },
-     {
-      "line": 4803,
-      "quote": "…of light emerged from odd sources. Phil had recently written two autobiographical pieces-the introduction to the Golden Man story collection and a short reminiscence on “Roog,” his first SF story sale. Their informality felt somehow…"
-     },
-     {
-      "line": 5443,
-      "quote": "…rom the corpus of my work I can be absolutely and precisely inferred. This is true. PHIL, “Introduction” to The Golden Man (1980) PHIL Dick was far too prolific to allow for discussion of all of his works in the course of a biogra…"
-     },
-     {
-      "line": 5453,
-      "quote": "…(1957), The Preserving Machine (1969), The Book of Philip K. Dick (1972), The Best of Philip K. Dick (1977), The Golden Man (1980), and I Hope I Shall Arrive Soon (1985)-because they contain the best of the stories. (Phil helped with…"
-     },
-     {
-      "line": 5609,
-      "quote": "…d. But it has since been superseded in quality by two later collections-The Best of Philip K. Dick (1977) and The Golden Man (1980) (see entries)-each of which includes stories that also appear in The Preserving Machine. But The Prese…"
-     },
-     {
-      "line": 5647,
-      "quote": "…arkness, above); and the best of all of Phil’s stories, “The Electric Ant” (see Chapter 7). Rating: 10. 50. The Golden Man (w. 1952-1973, p. 1980). An admirable story collection assembled by editor Mark Hurst with Phil’s input. The…"
-     },
-     {
-      "line": 5707,
-      "quote": "…(PKDS) Newsletter #2, December 1983. - 4 Write about people I love: PKD “Introduction” to story collection The Golden Man (~ew York: Berkley, 1980), xviii. - 5 Fictionalizing philosopher: Exegesis 075 (1981). 448 - 6 On Pierr…"
-     },
-     {
-      "line": 5975,
-      "quote": "…e: Author’s interview with Betty Jo Rivers - 62 Expelled from U Cal: “Introduction” to PKD story collection The Golden Man (New York: Berkley, 1980), p. xvi. - 63 Horrible experiences at U Cal: Author’s interview with Iskandar Guy…"
-     },
-     {
-      "line": 6055,
-      "quote": "…sn’t dress well: Letter, PKD to Laura Coehlo, May 27, 1978. - 78 Lucky Dog Pet Store: PKD “Introduction” to The Golden Man (New York: Berkley, 1980), pp. xv-xvi. - 78 Kleo on Phil’s sense of humiliation: Author’s interview with Kl…"
-     },
-     {
-      "line": 6077,
-      "quote": "…experience: Author’s interview with Vincent Lusby, February 1986. Herb Gold autograph: PKD “Introduction” to The Golden Man (New York: Berkley, 1980), p. xxv. - 83-84 FBI agents and seeing the U.S.A.: Author’s interview with Kleo M…"
-     },
-     {
-      "line": 6187,
-      "quote": "…Castrating females: PKD story “The Pre-Persons” (1974). Love, not anger: PKD “Afterword” to story collection The Golden Man (New York: Berkley, 1980), p. 337. - 109 Fix the I Ching: Author’s interview with Iskandar Guy, February 19…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 1316,
-      "quote": "…ic and domestic has disappeared, in which problems, replicating like mutants (or literally as mutants, as in ‘The Golden Man’, 1954, CS3) are met with violence, in which society is organized in a state of war tension and war urgency.…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
-    "author": "Anne R. Dick",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 3049,
-      "quote": "…e-teller, can see a year into the future. There are drugs in this story, and a policeman is the protagonist. “The Golden Man” can see a halfhour ahead and can always find a woman to keep him out of society’s traps. Shadrach Jones in “…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "6 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "14 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
 }
