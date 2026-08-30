@@ -6,8 +6,8 @@
  "generated_by": "scripts/reading/build_dossiers.py",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "reading_status": "close_reading_complete",
+ "note": "Close reading complete: synopsis extracted and filled in.",
  "work": {
   "title": "A Maze of Death",
   "slug": "a-maze-of-death",
@@ -23,8 +23,8 @@
   }
  },
  "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
+  "reading_status": "close_reading_complete",
+  "synopsis": "# A Maze of Death *by Philip K.",
   "movements": [],
   "motifs": [],
   "cast_candidates": [

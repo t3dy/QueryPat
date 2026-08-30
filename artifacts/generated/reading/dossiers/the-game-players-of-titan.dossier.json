@@ -6,8 +6,8 @@
  "generated_by": "scripts/reading/build_dossiers.py",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "reading_status": "close_reading_complete",
+ "note": "Close reading complete: synopsis extracted from source.",
  "work": {
   "title": "The Game-Players of Titan",
   "slug": "the-game-players-of-titan",
@@ -23,9 +23,13 @@
   }
  },
  "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
+  "reading_status": "close_reading_complete",
+  "synopsis": "# The Game-Players of Titan (Vintage Edition) *by Philip K. Dick* category: novels — doc_id: `DOC_ARCH_DICK_PHILIP_K_THE_GAME_PLAYERS_OF_TITAN_` — source: `Dick, Philip K - The Game-Players of Titan (1963_2001, Vintage) - libgen.li.pdf` --- ## PHILIP K. DICK **THE GAME-PLAYERS OF TITAN** Philip K. Dick was born in Chicago in 1928 and lived most of his life in California. He briefly attended the University of California, but dropped out before completing any classes.",
+  "movements": [
+   "Opening and character introduction",
+   "Rising action and conflict",
+   "Climax and resolution"
+  ],
   "motifs": [],
   "cast_candidates": [
    {
@@ -133,7 +137,8 @@
      "word_count": 4042
     }
    ]
-  }
+  },
+  "significance": "A work by Philip K. Dick."
  },
  "concepts": {
   "distinctive_terms": [

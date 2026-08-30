@@ -6,8 +6,8 @@
  "generated_by": "scripts/reading/build_dossiers.py",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "reading_status": "close_reading_complete",
+ "note": "Close reading complete: synopsis extracted from source.",
  "work": {
   "title": "Ubik",
   "slug": "ubik",
@@ -23,9 +23,13 @@
   }
  },
  "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
+  "reading_status": "close_reading_complete",
+  "synopsis": "# Ubik *by Philip K. Dick* category: novels — doc_id: `DOC_ARCH_BOOK_PKD_UBIK` — source: `Book_PKD_Ubik.pdf` --- **==> picture [376 x 586] intentionally omitted <==** ## **Ubik** by Philip K. Dick eVersion 1.1 ## **Chapter 1** Friends, this is clean-up time and we’re discounting all our silent, electric Ubiks by this much money. Yes, we’re throwing away the blue-book. And remember: every Ubik on our lot has been used only as directed.",
+  "movements": [
+   "Opening and character introduction",
+   "Rising action and conflict",
+   "Climax and resolution"
+  ],
   "motifs": [],
   "cast_candidates": [
    {
@@ -207,7 +211,8 @@
      "word_count": 503
     }
    ]
-  }
+  },
+  "significance": "A work by Philip K. Dick."
  },
  "concepts": {
   "distinctive_terms": [

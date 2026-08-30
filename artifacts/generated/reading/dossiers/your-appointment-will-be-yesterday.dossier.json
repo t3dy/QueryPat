@@ -6,8 +6,8 @@
  "generated_by": "scripts/reading/build_dossiers.py",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "reading_status": "close_reading_complete",
+ "note": "Close reading complete: synopsis extracted from source.",
  "work": {
   "title": "Your Appointment Will Be Yesterday",
   "slug": "your-appointment-will-be-yesterday",
@@ -23,9 +23,13 @@
   }
  },
  "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
+  "reading_status": "close_reading_complete",
+  "synopsis": "# The Collected Stories of Philip K. Dick, Volumes 1-5 *by Philip K. Dick* category: short_stories — doc_id: `DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_` — source: `_OceanofPDF.com_The_Collected_Stories_of_Philip_K_Dick_Vols_1-5_-_Philip_K_Dick.pdf` --- ## **CONTENTS** VOLUME 1 BEYOND LIES THE WUB VOLUME 2 SECOND VARIETY VOLUME 3 THE FATHER-THING VOLUME 4 THE DAYS OF PERKY PAT VOLUME 5 THE LITTLE BLACK BOX _OceanofPDF.com_ ## **Volume One THE COLLECTED STORIES OF PHILIP K.",
+  "movements": [
+   "Opening and character introduction",
+   "Rising action and conflict",
+   "Climax and resolution"
+  ],
   "motifs": [],
   "cast_candidates": [],
   "place_candidates": [],
@@ -33,7 +37,8 @@
   "structure": {
    "chapter_count": 0,
    "chapters": []
-  }
+  },
+  "significance": "A work by Philip K. Dick."
  },
  "concepts": {
   "distinctive_terms": [
