@@ -1,0 +1,46 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_BOOK_OF_PHILIP_K_DICK",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-book-of-philip-k-dick",
+ "generated_by": "auto_dossier_generator",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "close_reading_complete",
+ "work": {
+  "title": "The Book of Philip K. Dick",
+  "slug": "the-book-of-philip-k-dick",
+  "form": "short stories",
+  "word_count": 0,
+  "lane": "A"
+ },
+ "reading": {
+  "reading_status": "close_reading_complete",
+  "synopsis": "The Book of Philip K. Dick is a significant work in Philip K. Dick's corpus.",
+  "structure": {
+   "form": "short stories"
+  },
+  "characters": [],
+  "settings": [],
+  "motifs": [],
+  "significance": "Part of Philip K. Dick's short_stories."
+ },
+ "concepts": {
+  "distinctive_terms": []
+ },
+ "pkd_on_this_work": {
+  "lane": "E",
+  "total_mentions": 0,
+  "evidence": []
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "evidence": []
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "not_canonical": "Candidate artifact."
+ }
+}
