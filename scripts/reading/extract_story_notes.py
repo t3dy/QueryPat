@@ -28,8 +28,12 @@ OUT = PROJECT / "artifacts" / "generated" / "reading" / "pkd_story_notes.json"
 
 # A heading is an all-caps title (letters, apostrophes, hyphens, spaces only —
 # deliberately excluding digits, which belong to the date/magazine info that
-# follows and must not be swallowed into the title).
-HEADING_RE = re.compile(r"^(?:##\s*)?((?:[A-Z][A-Z'\-]*\s*)+)")
+# follows and must not be swallowed into the title). A handful of titles carry
+# an internal comma-clause (FOSTER, YOU'RE DEAD; CHAINS OF AIR, WEB OF AETHER;
+# CADBURY, THE BEAVER WHO LACKED...) so one optional ", CLAUSE" continuation is
+# allowed; it still stops at the first digit, parenthesis, or lowercase word,
+# which is always where the date or magazine name actually begins.
+HEADING_RE = re.compile(r"^(?:##\s*)?((?:[A-Z][A-Z'\-]*\s*)+(?:,\s*(?:[A-Z][A-Z'\-]*\s*)+)?)")
 DATE_RE = re.compile(r"^(\d{1,2}/\d{1,2}/\d{2,4})\.?\s*(.*)$")
 ALT_TITLE_RE = re.compile(r'\(["“]([^)"”]+)["”]\)')
 
@@ -57,7 +61,12 @@ def extract() -> list[dict]:
             stripped = raw.strip()
             if not stripped or stripped.startswith("## **NOTES**") or "_OceanofPDF.com_" in stripped:
                 continue
-            is_heading = bool(re.match(r"^(?:##\s*)?[A-Z][A-Z'\-]", stripped)) and not stripped.startswith("_")
+            # A leading single-letter word ("A", "I") followed by a space must
+            # still count as a heading start — without \s* here, titles like
+            # "A WORLD OF TALENT" or "A LITTLE SOMETHING FOR US TEMPUNAUTS"
+            # fail this check and get silently absorbed into the previous
+            # entry's note instead of starting their own.
+            is_heading = bool(re.match(r"^(?:##\s*)?[A-Z][A-Z'\-]*\s*[A-Z'\-]", stripped)) and not stripped.startswith("_")
             if is_heading:
                 m = HEADING_RE.match(stripped)
                 if m and len(m.group(1).strip()) >= 3:

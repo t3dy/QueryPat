@@ -179,8 +179,25 @@
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
  },
  "pkd_on_this_work": {
-  "sources": [],
-  "total_mentions": 0
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "is_author_story_note": true,
+    "quotes": [
+     {
+      "line": null,
+      "quote": "I made use of this story when I wrote my novel DO ANDROIDS DREAM OF ELECTRIC SHEEP? Actually, the idea is better put forth in the story. Here, a religion is regarded as a menace to all political systems; therefore it, too, is a kind of political system, perhaps even an ultimate one. The concept of caritas (or agape ) shows up in my writing as the key to the authentic human. The android, which is the unauthentic human, the mere reflex machine, is unable to experience empathy. In this story it is never clear whether Mercer is an invader from some other world. But he must be; in a sense all religious leaders are … but not from another planet as such. (1978)",
+      "written_date": null,
+      "alt_title": "From Ordinary Household Objects"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
  },
  "criticism": {
   "sources": [

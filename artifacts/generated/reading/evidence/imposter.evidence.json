@@ -125,8 +125,25 @@
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
  },
  "pkd_on_this_work": {
-  "sources": [],
-  "total_mentions": 0
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "is_author_story_note": true,
+    "quotes": [
+     {
+      "line": null,
+      "quote": "Here was my first story on the topic of: Am I a human? Or am I just programmed to believe I am human? When you consider that I wrote this back in 1953, it was, if I may say so, a pretty damn good new idea in sf. Of course, by now I've done it to death. But the theme still preoccupies me. It's an important theme because it forces us to ask: What is a human? And— what isn't? (1976)",
+      "written_date": "2/24/53",
+      "alt_title": null
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
  },
  "criticism": {
   "sources": [

@@ -99,7 +99,7 @@ def work_from_dossier(dossier: dict[str, Any]) -> dict[str, Any]:
         "slug": slug,
         "author": "Philip K. Dick",
         "work_type": FORM_MAP.get(form, "short_story"),
-        "category": "short_stories" if FORM_MAP.get(form) != "novel" else "novels",
+        "category": {"novel": "novels", "essay": "primary"}.get(FORM_MAP.get(form), "short_stories"),
         "date_display": work.get("first_publication") or "",
         "date_start": year.group(1) if year else "",
         "card_summary": work.get("card_summary") or card_from_synopsis(reading["synopsis"]),

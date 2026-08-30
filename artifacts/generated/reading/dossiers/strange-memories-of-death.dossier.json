@@ -1,195 +1,136 @@
 {
- "artifact_id": "ART_DOSSIER_STRANGE_MEMORIES_OF_DEATH",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "strange-memories-of-death",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Strange Memories Of Death",
-  "slug": "strange-memories-of-death",
-  "form": "story",
-  "word_count": 2567,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 57421,
-   "line_end": 57494,
-   "word_count": 2567,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "St. Augustine",
-    "name_id": "NAME_st-augustine",
-    "mentions": 1
-   },
-   {
-    "name": "The authorities",
-    "name_id": "NAME_the-authorities",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Augustine",
-    "entity_id": "TERM_augustine",
-    "count": 1,
-    "distinctiveness": 64.7
-   },
-   {
-    "label": "Jesus Christ",
-    "entity_id": "TERM_jesus-christ",
-    "count": 1,
-    "distinctiveness": 42.88
-   },
-   {
-    "label": "Santa",
-    "entity_id": "TERM_santa",
-    "count": 1,
-    "distinctiveness": 29.58
-   },
-   {
-    "label": "Jesus",
-    "entity_id": "TERM_jesus",
-    "count": 1,
-    "distinctiveness": 23.99
-   },
-   {
-    "label": "Fate",
-    "entity_id": "TERM_fate",
-    "count": 1,
-    "distinctiveness": 15.32
-   },
-   {
-    "label": "Christ",
-    "entity_id": "TERM_christ",
-    "count": 3,
-    "distinctiveness": 14.88
-   },
-   {
-    "label": "Prison",
-    "entity_id": "TERM_prison",
-    "count": 1,
-    "distinctiveness": 13.2
-   },
-   {
-    "label": "Garden",
-    "entity_id": "TERM_garden",
-    "count": 1,
-    "distinctiveness": 6.48
-   },
-   {
-    "label": "Bill",
-    "entity_id": "TERM_bill",
-    "count": 1,
-    "distinctiveness": 2.71
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 4,
-    "distinctiveness": 2.53
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 3,
-    "distinctiveness": 1.97
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 2,
-    "distinctiveness": 1.93
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 1,
-    "distinctiveness": 1.72
-   },
-   {
-    "label": "Girl",
-    "entity_id": "TERM_girl",
-    "count": 2,
-    "distinctiveness": 1.67
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 2,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
-    "author": null,
+  "artifact_id": "ART_DOSSIER_STRANGE_MEMORIES_OF_DEATH",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "strange-memories-of-death",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+  "critical_caution": "This is nonfiction, not a short story despite its placement in the Collected Stories corpus and its title's echo of genre fiction. Sutin identifies it directly as an essay, written in 1979 and first published in Interzone (1984), later collected in the essay-story anthology I Hope I Shall Arrive Soon. The first-person narrator is Philip K. Dick himself, describing his own apartment building, his own upcoming condominium purchase, and a real neighbor. It is classified here under lane E (Dick's own voice) rather than lane A (fiction), and the 'reading' fields below describe an autobiographical account, not an invented plot.",
+
+  "work": {
+    "title": "Strange Memories of Death",
+    "slug": "strange-memories-of-death",
+    "form": "essay",
+    "word_count": 2567,
     "lane": "E",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 237,
-      "quote": "…ort, Happy Life of a Science Fiction Writer\" first appeared in _Scintillation_ , Vol. 3, No. 3, June 1976. \"Strange Memories of Death,\" written in 1979, first appeared in _Interzone_ , Summer 1984, and was republished in the Dick essay-story c…"
-     },
-     {
-      "line": 477,
-      "quote": "…stein found. Would you believe that \"Watergate,\" as they found it, was a CIA red herring? Incredible. ## **\"Strange Memories of Death\" (1979, 1984)** I woke up this morning and felt the chill of October [1979] in the apartment, as if the sea…"
-     }
+    "written": "1979",
+    "first_publication": "Interzone, Summer 1984",
+    "later_use": "Collected in the essay-story anthology I Hope I Shall Arrive Soon (Doubleday, 1985).",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 57421,
+      "line_end": 57494,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Dick describes an October morning in his Orange County apartment building, which has been converted to condominiums; he has decided to buy his unit for $52,000 rather than move, while nearly everyone else has already left. His attention fixes on a reclusive, silent neighbor the building calls the 'Lysol Lady' — a woman no one has ever heard speak, who uses the elevator to avoid other tenants and drenches her apartment in disinfectant against imagined contamination — who is scheduled to be evicted that day because she cannot afford to buy her unit and has, in Dick's view, made herself too functional to qualify for the mental-health advocacy that could block the eviction on grounds of diminished capacity. Reading a newspaper account of a teenage girl who shot up a schoolyard 'because she didn't like Mondays,' Dick develops an extended meditation on the nature of psychosis: that a psychotic person does not take the easy path but perceptually cannot see it, choosing the harder, self-defeating one until 'the impossible closes in' and the person 'freezes' — kinetic death, a term he borrows in spirit from Augustine's observation that there is ultimately 'no place,' only cessation. He reflects that the only thing separating him from the Lysol Lady is money — a social convention as arbitrary, he suggests, as agreeing gold has value or that a tree is third base — and that her refusal to enter society's 'unwritten contract' has doomed her, in his logic, to a kind of self-willed defeat. The essay resolves anticlimactically: when the property manager returns from a trip, Dick learns the Lysol Lady (identified as a Mrs. Archer) was never evicted at all — the Santa Ana Housing Authority found her a subsidized apartment and is paying her rent, a mundane, functioning social safety net succeeding exactly where Dick's dark philosophical spiral had assumed only catastrophe was possible.",
+
+    "structure": {
+      "form": "personal essay in three movements: observation and dread, philosophical digression on psychosis, anticlimactic resolution",
+      "movements": [
+        "Dick's own condominium purchase, his fixation on the Lysol Lady's coming eviction, and his uneasy sense of solidarity with her isolation.",
+        "An extended meditation, prompted by a news story about a school shooting, on the nature of psychosis as a perceptual inability to find the easy way out.",
+        "The mundane, non-catastrophic resolution: the Lysol Lady was quietly rehoused by a housing authority while Dick was absorbed in imagining her doom."
+      ],
+      "point_of_view": "first person, Dick's own voice throughout, self-implicating and self-questioning rather than observational — he repeatedly measures his own fear of change and his own fragile grip on 'sanity' against hers.",
+      "central_device": "An essay that builds toward an imagined tragedy through pure philosophical extrapolation and is then deflated by an entirely unremarkable, bureaucratically successful real-world outcome — the meditation on psychosis turns out to have been more about the essayist's own anxieties than about its ostensible subject."
+    },
+
+    "characters": [
+      { "name": "Philip K. Dick (narrator)", "role": "essayist", "note": "Repeatedly and explicitly identifies his own stability as contingent on money alone — 'money is the official seal of sanity' — refusing to place himself at any secure distance from the woman he is theorizing about." },
+      { "name": "The Lysol Lady (Mrs. Archer)", "role": "reclusive neighbor", "note": "Never given voice or interiority beyond what Dick projects onto her silence; the essay's final paragraph corrects this by revealing she took practical action (Legal Aid, then housing assistance) entirely outside of Dick's imagined narrative for her." },
+      { "name": "Al Newcum", "role": "sales representative, South Orange Investments", "note": "The essay's source for the mundane, deflating final fact — that the housing authority had already solved the problem while Dick was composing his psychosis meditation." }
     ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 2,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
+
+    "settings": [
+      { "name": "The Orange County apartment-turned-condominium complex", "note": "Rendered with the specific, unglamorous detail of a real late-1970s Southern California housing conversion — dead-bolt locks, developer-installed fountains, a hundred-and-twenty-day legal notice period." }
+    ],
+
+    "motifs": [
+      "Money as an arbitrary but absolute social convention separating the sane from the psychotic",
+      "Silence and facial avoidance as a neighbor's entire visible personality, filled in entirely by the narrator's own projection",
+      "Psychosis defined not as taking the easy way out but as a perceptual inability to see that an easy way exists",
+      "A philosophical or literary flourish (Augustine's 'we go backward and forward, and there is no place') applied to an ordinary, unheroic social situation",
+      "An anticipated catastrophe deflated by an unglamorous, functioning bureaucratic solution the essayist never considered"
+    ],
+
+    "significance": "Sutin frames the piece precisely: Dick, having 'known well the vertigo of losing one's home,' responded to a real, un-fictionalized housing conversion crisis with an essay rather than a story — meaning the philosophical material here (psychosis as a failure of perception, kinetic death, the arbitrariness of sanity's social contract) is offered as Dick's genuine, real-time thinking rather than as material assigned to a character. The essay's real subject may be less the Lysol Lady than Dick's own admitted terror of change and his own fragile claim to normalcy, measured against a woman he never speaks to and knows only by her silence and her smell of disinfectant. Its anticlimactic ending is itself the point: the essay spends most of its length building an elaborate, literary theory of psychotic self-destruction, only to have the real world quietly solve the problem through an ordinary housing authority — undercutting the narrator's own dramatic framework with a fact he had not thought to check.",
+
+    "closing_note": "Dick's closing exchange with Al Newcum — 'I wish someone would pay my rent,' answered flatly, 'You're not paying rent, you're buying your apartment' — deflates his own philosophical meditation with a small, exact joke at his own expense."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Augustine", "entity_id": "TERM_augustine", "count": 2, "distinctiveness": 64.7, "note": "Directly quoted: 'Place there is none... We go backward and forward, and there is no place,' used as the essay's philosophical anchor for the concept of kinetic death." },
+      { "label": "Fate", "entity_id": "TERM_fate", "count": 1, "distinctiveness": 15.32, "note": "Dick's own phrase — 'my fate is tied to that of the Lysol Lady' — stating the essay's central identification directly." },
+      { "label": "Prison", "entity_id": "TERM_prison", "count": 1, "distinctiveness": 13.2, "note": "The building 'formerly looked like a prison' before the developers' renovation — an incidental but telling word choice given the essay's themes of confinement and escape." }
+    ],
+    "names_matched": ["NAME_st-augustine"],
+    "thematic_links_proposed": [
+      { "theme": "memory-identity", "basis": "Dick's own explicit, repeated identification of his sanity and stability with the fragile neighbor he is theorizing about, distinguished from her by money alone" },
+      { "theme": "reality-breakdown", "basis": "an extended philosophical account of psychosis as a perceptual failure to see available options, applied both to a stranger and reflexively to the essayist himself" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 3,
+    "summary": "This entire piece is Dick's own voice; the corpus additionally confirms its composition date, original publication, and republication history directly.",
+    "evidence": [
+      {
+        "source": "Editorial notes (The Collected Stories of Philip K. Dick)",
+        "line": 237,
+        "quote": "\"Strange Memories of Death,\" written in 1979, first appeared in Interzone, Summer 1984, and was republished in the Dick essay-story c[ollection]",
+        "reading": "Establishes composition and publication dates precisely."
+      },
+      {
+        "source": "Editorial notes (The Collected Stories of Philip K. Dick)",
+        "line": 477,
+        "quote": "\"Strange Memories of Death\" (1979, 1984)",
+        "reading": "A bibliographic heading confirming the two key dates already established."
+      }
+    ]
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 4953,
-      "quote": "…were also forced to move out. Phil, who knew well the vertigo of losing one’s home, responded with an essay, “Strange Memories of Death” (included in I Hope I Shall Arrive Soon), detailing the crisis of his neighbor the “Lysol Lady”: “What bothe…"
-     },
-     {
-      "line": 6865,
-      "quote": "…visit: Author’s interview with Russell Galen, June 1986. 493 - 265 Only thing separating him: PKD essay. “Strange Memories of Death,” in PKD story/essay collection I Hope I Shall Arrive Soon (Garden City, N.Y.: Doubleday, 1985), pp. 98-99.…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 2,
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 4953,
+        "quote": "Phil, who knew well the vertigo of losing one's home, responded with an essay, \"Strange Memories of Death\" (included in I Hope I Shall Arrive Soon), detailing the crisis of his neighbor the \"Lysol Lady\":",
+        "reading": "Confirms the piece's genre (essay, not story) directly and connects it to Dick's own recurring anxiety about housing instability across his life."
+      },
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 6865,
+        "quote": "\"Strange Memories of Death,\" in PKD story/essay collection I Hope I Shall Arrive Soon (Garden City, N.Y.: Doubleday, 1985), pp. 98-99.",
+        "reading": "A bibliographic citation confirming the collection and page range."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Sutin references Dick's own recurring 'vertigo of losing one's home' — is this documented more fully elsewhere in his biography (an eviction, a foreclosure, a specific move) that this essay is drawing on?",
+    "Was Mrs. Archer a real identifiable person, or a composite/pseudonym? The essay's specificity (Legal Aid, Santa Ana Housing Authority, a named sales rep) suggests real events, but this has not been independently verified here.",
+    "How does this essay's meditation on psychosis as 'perceptual inability to see the easy way out' relate to Dick's later Exegesis writing on the nature of delusion and reality-testing? Worth a direct comparison once more Exegesis-adjacent material is catalogued."
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "2 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "2 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 2,567 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "3 citations; the entire work is itself primary Dick testimony (lane E), not fiction.",
+    "layer_4_criticism": "2, from Sutin, both bibliographic and biographically grounding.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

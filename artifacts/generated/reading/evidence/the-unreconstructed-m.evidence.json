@@ -161,8 +161,25 @@
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
  },
  "pkd_on_this_work": {
-  "sources": [],
-  "total_mentions": 0
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "is_author_story_note": true,
+    "quotes": [
+     {
+      "line": null,
+      "quote": "If the main theme throughout my writing is, \"Can we consider the universe real, and if so, in what way?\" my secondary theme would be, \"Are we all humans?\" Here a machine does not imitate a human being, but instead fakes evidence of a human being, a given human being. Fakery is a topic which absolutely fascinates me; I am convinced that anything can be faked, or anyhow evidence pointing to any given thing. Spurious clues can lead us to believe anything they want us to believe. There is really no theoretical upper limit to this. Once you have mentally opened the door to the reception of the notion of fake, you are ready to think yourself into another kind of reality entirely. It's a trip from which you never return. And, I think, a healthy trip … unless you take it too seriously. (1978)",
+      "written_date": "6/2/55",
+      "alt_title": null
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
  },
  "criticism": {
   "sources": [

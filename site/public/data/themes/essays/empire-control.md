@@ -64,6 +64,10 @@ Centuries after an apocalyptic 'Time of Madness,' a rigid caste theocracy govern
 
 Five years after a global war, a planet-wide network of automated factories continues to supply human settlements with food and goods, exactly as instructed before the collapse. In a story collection like [Autofac](/works/autofac), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Foster, You're Dead
+
+In a Cold War future organized entirely around the threat of imminent nuclear and bacterial attack, schoolboy Mike Foster is the only child in his class whose family has no private bomb shelter, because his father Bob, a struggling... In a story collection like [Foster, You're Dead](/works/foster-you-re-dead), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Nanny
 
 In a comfortable future household, a spherical robot Nanny raises the Fields children with total competence — waking them, walking them safely to school, disciplining them with iron patience, protecting them from bullies and drunks. In a story collection like [Nanny](/works/nanny), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
