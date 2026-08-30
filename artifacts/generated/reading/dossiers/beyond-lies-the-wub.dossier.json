@@ -3,69 +3,110 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "beyond-lies-the-wub",
- "generated_by": "scripts/reading/build_dossiers.py",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "reading_status": "close_reading_complete",
  "work": {
-  "title": "Beyond Lies The Wub",
+  "title": "Beyond Lies the Wub",
   "slug": "beyond-lies-the-wub",
-  "form": "story",
+  "form": "short story",
   "word_count": 2630,
   "lane": "A",
+  "first_publication": "Planet Stories, July 1952 — the first Dick story to appear in print",
+  "note_on_priority": "'Roog' was sold first, in November 1951; 'Beyond Lies the Wub' was published first. Both facts circulate as 'his first story' and the distinction is worth keeping.",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 898,
    "line_end": 1181,
-   "word_count": 2630,
-   "status": "ready"
+   "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
   }
  },
  "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
+  "reading_status": "close_reading_complete",
+  "synopsis": "A ship provisioning on Mars takes aboard a wub — an enormous, placid, pig-like animal bought from a native for fifty cents by the crewman Peterson. Captain Franco intends to eat it; the ship's stores have spoiled and there is nothing to feed the crew for a month. The wub then speaks. It is telepathic, has read the Captain's mind, and would prefer to discuss philosophy, ethics and myth. It argues its case in the Captain's own terms — democracy, the protection of minorities, the barbarism of eating a being one can converse with — and when Franco walks out it briefly freezes him in the doorway. Left with Peterson, the wub talks about Odysseus as a figure of individuation: separation from family and country, and the return. Franco returns with a gun and the crew behind him. The men make excuses and leave, unwilling to watch; Peterson protests that the animal has harmed no one and that it is his. Franco shoots it. The crew eat in near silence while the Captain enjoys the meal — and then, turning to Peterson, resumes the wub's lecture on Odysseus exactly where it was interrupted.",
+  "structure": {
+   "form": "continuous short story in four movements, tightening from open deck to dinner table",
+   "movements": [
+    "Loading on Mars: the Optus's silent displeasure, the bargain, and the wub's arrival on a string.",
+    "The anteroom: the wub speaks, and the crew's assumption that a native must be hidden inside it.",
+    "The Captain's office: the debate proper — telepathy, catholicity, democracy, the request to be discussed rather than eaten.",
+    "The killing and the dinner: the crew's queasy withdrawal, Franco's appetite, and the final substitution."
+   ],
+   "point_of_view": "third person, moving with the crew rather than with any one man. The reader is never inside the wub, which is what keeps its interiority a matter of testimony rather than access.",
+   "ending_device": "The last three lines transfer the wub's argument, and its cadence, into the Captain's mouth. Nothing is explained; the reader is left to decide what has happened to whom."
+  },
+  "characters": [
    {
-    "name": "The Wub",
+    "name": "The wub",
     "name_id": "NAME_the-wub",
-    "mentions": 47
+    "role": "the alien",
+    "note": "Telepathic, vegetarian, self-described as tolerant and eclectic. Its rhetoric is entirely persuasive and entirely ineffective. It never uses its evident power to save itself, beyond a moment's paralysis."
+   },
+   {
+    "name": "Captain Franco",
+    "role": "antagonist and, at the end, host",
+    "note": "Reduces every question to provisioning. His farm-boy answer about razorback hogs is the story's refusal of squeamishness — and then he inherits the voice he silenced."
+   },
+   {
+    "name": "Peterson",
+    "role": "the wub's buyer and only defender",
+    "note": "Argues from ownership and from harmlessness, and is overruled on both. The final address is aimed at him."
+   },
+   {
+    "name": "Jones",
+    "role": "crewman",
+    "note": "Witnessed the Captain frozen in the doorway; his fear is what licenses the killing."
+   },
+   {
+    "name": "French",
+    "role": "crewman",
+    "note": "Supplies the butchering advice — aim for the brain, spare the rib cage — the story's coldest line."
+   },
+   {
+    "name": "The Optus",
+    "role": "Martian native leader",
+    "note": "Present only at the start, silently offended at the hunt being sold off. The story's other unheard party."
    }
   ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
+  "settings": [
+   {
+    "name": "Mars, at the gangplank",
+    "note": "A transaction between an indigenous population and a provisioning crew; the wub is bought for fifty cents."
+   },
+   {
+    "name": "The ship's anteroom and the Captain's office",
+    "note": "The debate happens in the Captain's own neat quarters, which the wub compliments — courtesy as a rhetorical move."
+   },
+   {
+    "name": "The mess table",
+    "note": "Where the argument is settled by digestion."
+   }
+  ],
+  "motifs": [
+   "Eating as the limit case of ethics: the entire dispute is whether a thing that can argue may be food",
+   "Mind-reading as intimacy the reader is never granted — we are told the wub sees Franco's images, never shown them",
+   "Myth as the wub's chosen ground, and Odysseus specifically: separation, wandering, return",
+   "The crew's departures — one by one they leave the room, and later the table, unable to watch or to eat",
+   "Tidiness and courtesy in the doomed party; appetite in the survivor"
+  ],
+  "significance": "The story's structural joke is also its metaphysics. The wub argues that the wanderer returns to land and race, and then demonstrates it by returning — in the Captain. Whether this is survival, possession, or nothing at all is unresolvable from inside the text, because the wub's interiority was never directly available to the reader in the first place. What can be said is that Dick found, in his first published story, an ending that asserts persistence of self through the destruction of the body without ever making a claim the narration has to stand behind.",
+  "closing_note": "Franco's last words resume the wub's sentence about Odysseus. The reader supplies everything else."
  },
  "concepts": {
   "distinctive_terms": [
    {
     "label": "Catholic",
     "entity_id": "TERM_catholic",
-    "count": 2,
-    "distinctiveness": 83.7
+    "count": 3,
+    "distinctiveness": 83.7,
+    "note": "The wub's self-description — 'We're very catholic. Tolerant, eclectic, catholic' — in its older sense of universal. The highest distinctiveness score in the story by a wide margin, and it sits on a word with a heavy later charge in Dick."
    },
    {
     "label": "Lord",
     "entity_id": "TERM_lord",
-    "count": 1,
-    "distinctiveness": 3.52
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
     "count": 2,
-    "distinctiveness": 3.36
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 5,
-    "distinctiveness": 3.2
+    "distinctiveness": 3.52
    },
    {
     "label": "Mind",
@@ -74,194 +115,110 @@
     "distinctiveness": 2.47
    },
    {
-    "label": "Good",
-    "entity_id": "TERM_good",
-    "count": 7,
-    "distinctiveness": 2.45
-   },
-   {
     "label": "Brain",
     "entity_id": "TERM_brain",
-    "count": 1,
+    "count": 2,
     "distinctiveness": 1.83
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 4,
-    "distinctiveness": 1.74
    }
   ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+  "names_matched": [
+   "NAME_the-wub"
+  ],
+  "thematic_links_proposed": [
+   {
+    "theme": "authentic-human",
+    "basis": "the criterion for a being that may not be eaten is exactly the criterion for personhood, and the crew cannot apply it"
+   },
+   {
+    "theme": "alien-contact",
+    "basis": "the whole encounter is first contact conducted as a provisioning problem; the crew's inability to eat is knowledge their reasoning could not reach"
+   },
+   {
+    "theme": "memory-identity",
+    "basis": "the ending stakes identity on continuity of voice and argument rather than of body"
+   },
+   {
+    "theme": "religion-gnosis",
+    "basis": "the wub's own vocabulary is theological — soul, parable, the Saviour — and Dick's 1981 headnote makes the reading explicit"
+   }
+  ]
  },
  "pkd_on_this_work": {
   "lane": "E/B",
   "total_mentions": 19,
-  "sources": [
+  "summary": "Dick wrote a headnote for the story around 1980, and — more strikingly — used it in the Exegesis as the structural model for the ending of his last novel.",
+  "evidence": [
    {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
-    "author": null,
-    "lane": "B",
-    "mention_count": 5,
-    "quotes": [
-     {
-      "line": 9788,
-      "quote": "…\" the Anokhi mushroom. Dies. It would seem Fate won. (7) Angel encounters Bill: Tim is alive in him (as in \"Beyond Lies the Wub\") but he (whoever \"he\" signifies) is mad. (8) All she can save now is herself. **[79:I-43]** All—repeat:…"
-     },
-     {
-      "line": 9800,
-      "quote": "…irsten\" _died anyhow!_ Angel _must_ be shown to realize this. Yet —what if \"Jim\" is alive in Bill (as in the \"Beyond Lies the Wub\" story)? It must be an inscrutable epiphany at the end; _she can't tell._ No; I know the answer; Jim, as we a…"
-     },
-     {
-      "line": 9802,
-      "quote": "…l at the end conveys to Angel that he really is Tim ( _even though he is mad_ and in the asylum). (My model: \"Beyond Lies the Wub.\") It must be a holy moment, and, to her, terrifying. Both: (1) holy; and (2) terrifying, not reassuring. (Th…"
-     },
-     {
-      "line": 12114,
-      "quote": "…n alien creature who can invade and inhabit other life forms. Appears in Dick's first published short story, \"Beyond Lies the Wub,\" _Planet Stories_ (July 1952). Wubfur appears in a number of Dick's works. 84. Telepathic, gambling-obsess…"
-     },
-     {
-      "line": 13244,
-      "quote": "…ts, William Butler, [>], [>] Zimmer, Heinrich, [>] ## **Works Index** \"Adjustment Team,\" [>], [>], [>] \"Beyond Lies the Wub,\" [>]–[>], [>], [>] \"Beyond the Door,\" [>] _Bishop Timothy Archer._ See _The Transmigration of Timothy Ar…"
-     }
-    ],
-    "quotes_truncated": 0
+    "source": "The Shifting Realities of Philip K. Dick — 'Headnote' for 'Beyond Lies the Wub' (1981)",
+    "line": 1033,
+    "quote": "I'm sorry if the word \"soul\" offends you, but I can think of no other term.",
+    "reading": "Dick names the story's subject as the soul, thirty years after writing it, and flags that he expects resistance to the word. The headnote is the closest thing to an authorial gloss the story has."
    },
    {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 5,
-    "quotes": [
-     {
-      "line": 603,
-      "quote": "…ee PKD_ (the successor to _PKDS Newsletter_ , edited by Gregory Lee), No. 1, February 1993. \"Headnote\" for \"Beyond Lies the Wub,\" written in 1980, first appeared in accompaniment with the reprinted story in _First Voyages_ (New York: Avo…"
-     },
-     {
-      "line": 1029,
-      "quote": "…mper but a bang. And maybe that's as it should be, in the best of all visual galaxies. ## **\"Headnote\" for \"Beyond Lies the Wub\" (1981)** The idea I wanted to get down on paper had to do with the definition of \"human.\" The dramatic way…"
-     },
-     {
-      "line": 1033,
-      "quote": "…'m sorry if the word \"soul\" offends you, but I can think of no other term. Certainly, when I wrote the story \"Beyond Lies the Wub\" back in my youth in politically active Berkeley, I myself would never have thought of the crucial ingredient…"
-     },
-     {
-      "line": 1033,
-      "quote": "…the speech I gave in Vancouver in 1972 [\"The Android and the Human,\" included herein] -- twenty years after \"Beyond Lies the Wub\" was published. The germ of the idea behind the speech lies in this, my first published story. It has to do w…"
-     },
-     {
-      "line": 1037,
-      "quote": "…d idea for a very early story by a very young person! I liked the blurbs that _Planet Stories_ printed for \"Beyond Lies the Wub.\" On the title page of the magazine they wrote: Many men talk like philosophers and live like fools, procla…"
-     }
-    ],
-    "quotes_truncated": 0
+    "source": "The Exegesis",
+    "line": 9802,
+    "quote": "(My model: \"Beyond Lies the Wub.\")",
+    "reading": "Written while working out the ending of The Transmigration of Timothy Archer. His first published story becomes the template for his last novel's close — one being's persistence inside another, with the question of whether it is real left standing."
    },
    {
-    "source_file": "database/extracted_markdown/DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 413,
-      "quote": "…s first professional sale, “Roog,” to Anthony Boucher, _The Magazine of Fantasy & Science Fiction._ - 1952 “Beyond Lies the Wub” first story to see print, in _Planet Stories;_ PKD becomes a client of the Scott Meredith Literary Agency, l…"
-     },
-     {
-      "line": 497,
-      "quote": "…signment; not much money is involved here, but I love to do these headnotes; hence you will find the one for “Beyond Lies the Wub” enclosed. I am looking forward to the fireworks on VALIS REGAINED. It is quite exciting! Cordially, Phil…"
-     },
-     {
-      "line": 505,
-      "quote": "…s (earnings) for 1979 for the IRS. I did say Yes, didn’t I? Yes? Enc: Headnote for Martin H. Greenberg for “Beyond Lies the Wub” and letter from Greenberg dated July 16, 1979 (Xerox). ## [TO JOHN B. ROSS] _January 30, 1980_ ## Dear…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 546,
-      "quote": "…rst professional sale, “Roog,” to Anthony Boucher, _The Magazine of Fantasy & Science Fiction._ - **1952** “Beyond Lies the Wub” first story to see print, in _Planet Stories;_ PKD becomes a client of the Scott Meredith Literary Agency, l…"
-     },
-     {
-      "line": 4694,
-      "quote": "…antastic Feb. ’64 “The Indefatigable Frog.” Fantastic story July ’53 “Out in the Garden.” Fantasy August ’52 “Beyond Lies the Wub.” Planet Stories, July ’52 “Roog.” F&SF Feb. ’53 “The Preserving Machine.” F&SF, June ’53 I would also recomm…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 564,
-      "quote": "…s first professional sale, “Roog,” to Anthony Boucher, _The Magazine of Fantasy & Science Fiction._ - 1952 “Beyond Lies the Wub” first story to see print, in _Planet Stories;_ PKD becomes a client of the Scott Meredith Literary Agency, l…"
-     },
-     {
-      "line": 6336,
-      "quote": "…. Could we use that, perhaps in place of “Service Call”? The others on the list strike me as fine: “Autofac” “Beyond Lies the Wub” “In the Days of Perky Pat” “The Defenders” (But this could be pulled for “Second Variety,” since the the…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 410,
-      "quote": "…s first professional sale, “Roog,” to Anthony Bouchei; _The Magazine of Fantasy & Science Fiction._ - 1952 “Beyond Lies the Wub” first story to see print, in _Planet Stories;_ PKD becomes a client of the Scott Meredith Literary Agency, l…"
-     },
-     {
-      "line": 1428,
-      "quote": "…that I could have written it. Ah, the inspiration of youth ... Cordially, Philip K. Dick P S. How about “Beyond Lies the WUB”? _Planet Stories,_ July 1952. Never been reprinted, & virtually unknown. Not a half-bad story. ## [TO ANNE…"
-     }
-    ],
-    "quotes_truncated": 0
+    "source": "The Exegesis",
+    "line": 9788,
+    "quote": "Tim is alive in him (as in \"Beyond Lies the Wub\")",
+    "reading": "The same move, stated as a plot mechanism. Confirms that Dick read the wub's return as genuine persistence rather than as the Captain's delusion — at least for the purpose he was putting it to."
    }
   ],
-  "reading": null
+  "caution": "The Exegesis passages are Dick using the story as a tool while drafting another book. They are strong evidence of how he construed the ending in 1981 and weak evidence of what he intended in 1952."
  },
  "criticism": {
   "lane": "C",
   "total_mentions": 2,
-  "sources": [
+  "summary": "Very little sustained critical attention, which is itself a finding: the story is habitually cited as a biographical landmark rather than analysed.",
+  "evidence": [
    {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
     "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 1457,
-      "quote": "…hree Stigmata of Palmer Eldritch, and Ubik. Before taking leave of Phil’s stories, mention must be made of “Beyond Lies the Wub,” the very first to appear in print (July 1952 Planet Stories). It is a lovely parable about a hoglike Martia…"
-     },
-     {
-      "line": 5641,
-      "quote": "…er, You’re Dead” and “The Father-thing” (see Chapter 2); tales from Phil’s Berkeley salad days, like “Roog,” “Beyond Lies the Wub,” “Second Variety,” “Colony,” and 442 “Impostor” (see Chapter 4 and A Handful of Darkness, above); and th…"
-     }
-    ],
-    "quotes_truncated": 0
+    "work": "Divine Invasions",
+    "line": 1457,
+    "quote": "mention must be made of \"Beyond Lies the Wub,\" the very first to appear in print",
+    "reading": "Cited for priority of publication, in a passage taking leave of the stories to turn to the novels — the characteristic gesture."
+   },
+   {
+    "author": "Lawrence Sutin",
+    "work": "Divine Invasions",
+    "line": 5641,
+    "quote": "tales from Phil's Berkeley salad days, like \"Roog,\" \"Beyond Lies the Wub,\" \"Second Variety,\" and…",
+    "reading": "Grouped with the other early stories as period work rather than treated individually."
    }
-  ],
-  "reading": null
+  ]
  },
- "contradictions": [],
- "open_questions": [],
+ "contradictions": [
+  {
+   "type": "factual",
+   "summary": "Both 'Roog' and 'Beyond Lies the Wub' are described in the sources as Dick's first story.",
+   "claim_a": {
+    "lane": "E",
+    "source": "Selected Letters, 8 Nov 1951",
+    "text": "'Roog,' as you slyly guessed, is my first acceptance"
+   },
+   "claim_b": {
+    "lane": "C",
+    "source": "Sutin, Divine Invasions",
+    "text": "'Beyond Lies the Wub,' the very first to appear in print"
+   },
+   "editorial_status": "resolvable",
+   "resolution": "Not a genuine conflict: 'Roog' was sold first, 'Beyond Lies the Wub' printed first. Both sources are precise about which claim they are making; only loose paraphrase collapses them."
+  }
+ ],
+ "open_questions": [
+  "The 1981 headnote appears in The Shifting Realities of Philip K. Dick. How much of it addresses the ending specifically, as against the story's origin? Only its opening lines were captured by the scripted gather.",
+  "Dick treats the wub's return as real when using it as a model for Timothy Archer. Does anything in the 1952 text support that over the reading in which Franco is simply a man who heard a lecture and repeated it?",
+  "The Optus is set up carefully in the first page and then dropped. Is there any evidence the story was cut, or was the frame always vestigial?"
+ ],
  "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_1_reading": "Full text read at the locator above, 2,630 words.",
   "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "19 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "2 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+  "layer_3_pkd": "19 capitalised citations across the Exegesis and Dick's collected non-fiction.",
+  "layer_4_criticism": "2, both in Sutin.",
+  "prior_artifact": "artifacts/generated/PKD_STORIES/story_001.json holds an earlier, thinner summary of this story. This dossier supersedes it; the older artifact should be retired in an editorial pass rather than silently deleted.",
+  "not_canonical": "Candidate artifact; promotion requires an editorial pass."
  }
 }
