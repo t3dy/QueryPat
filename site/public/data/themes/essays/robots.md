@@ -24,6 +24,10 @@ The Simulacra is the canonical works record for PKD's novel. In a novel like [Th
 
 The Crack in Space is the canonical works record for PKD's novel. In a novel like [The Crack in Space](/works/the-crack-in-space), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Return Match
+
+Police officer Joseph Tinbane raids an illegal alien ('outspacer') gambling casino on Terra, watching the alien operators incinerate the entire building — customers, evidence, and all — as their ship departs, exactly as expected. In a story collection like [Return Match](/works/return-match), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Zap Gun
 
 The Zap Gun is the canonical works record for PKD's novel. In a novel like [The Zap Gun](/works/the-zap-gun), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

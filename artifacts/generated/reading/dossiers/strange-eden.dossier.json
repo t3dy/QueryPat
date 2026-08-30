@@ -1,160 +1,106 @@
 {
- "artifact_id": "ART_DOSSIER_STRANGE_EDEN",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "strange-eden",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Strange Eden",
-  "slug": "strange-eden",
-  "form": "story",
-  "word_count": 4893,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 29942,
-   "line_end": 30185,
-   "word_count": 4893,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Humans",
-    "name_id": "NAME_humans",
-    "mentions": 4
-   }
+  "artifact_id": "ART_DOSSIER_STRANGE_EDEN",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "strange-eden",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Strange Eden",
+    "slug": "strange-eden",
+    "form": "short story",
+    "word_count": 4893,
+    "lane": "A",
+    "first_publication": "Imagination, December 1954",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 29942,
+      "line_end": 30185,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Surveying an uncharted, pristine planet, the cautious Captain Johnson stays with the ship while his brash colleague Brent explores on foot, encountering enormous, docile predator cats and eventually a marble mansion tended by tame, evolving animals. There he meets a beautiful woman who reveals herself and her departing 'brother' to be members of an immortal, technologically godlike race eleven thousand years old, who have visited Earth throughout history as the real basis for humanity's gods and myths, and who periodically stop at this planet as a way-station. She warns Brent that close contact with her kind causes involuntary evolutionary transformation — the tame animals outside are proof, having been gradually elevated by proximity to her — and that if he stays and becomes her lover, he will cease to be human at all, becoming a lone evolutionary 'forerunner' with no others of his new kind. Brent, drawn to her anyway, chooses to stay. The next morning, the woman meets Captain Johnson at the ship, tells him Brent has changed and will remain in her forest, and from the woods comes a great cat-beast, one of the 'tame' evolved animals, making a distinctly human, angry gesture as the ship departs — evidently what Brent has already become.",
+
+    "structure": {
+      "form": "short story in three movements: the sympathetic exploration, the encounter and revelation, and the transformation's aftermath",
+      "movements": [
+        "Brent explores the unspoiled planet, encountering strangely docile giant predators and eventually a hidden, luxurious mansion.",
+        "He meets an immortal, godlike woman who explains her race's history as the real basis of Earth's myths and religions, and who warns him that intimacy with her causes irreversible evolutionary transformation.",
+        "Despite the warning, Brent chooses to stay and is transformed; Captain Johnson departs alone, having glimpsed what may be Brent's new, animal form making a human gesture of farewell."
+      ],
+      "point_of_view": "third person close to Brent for nearly the entire story, so the reader receives the woman's revelations and warnings exactly as he does, sharing his temptation before the story cuts away to Johnson's outside perspective for the ambiguous final reveal.",
+      "central_device": "A euhemerist explanation of Earth's gods and myths (immortal, godlike aliens who periodically visited and were worshipped) combined with a body-horror transformation premise, so that the story's central romance is simultaneously a religious-historical revelation and a warning about the price of contact with the transcendent."
+    },
+
+    "characters": [
+      { "name": "Brent", "role": "protagonist, ship's surveyor", "note": "Explicitly characterized by the woman as 'stupid and brave' — his physical courage and lack of caution, framed sympathetically throughout, are exactly what lead him to choose transformation and loss of humanity over retreat." },
+      { "name": "Captain Johnson", "role": "the cautious ship's captain", "note": "His nervous unwillingness to leave the ship, gently mocked early in the story, is retroactively vindicated by its ending — his caution, unlike Brent's daring, preserves his humanity." },
+      { "name": "The woman", "role": "an immortal, godlike alien", "note": "Genuinely affectionate toward Brent and honest about the consequences of intimacy with her, she is neither predatory nor deceptive — her warnings are explicit and repeated, and Brent's transformation is the result of his own informed choice rather than any trick on her part." }
+    ],
+
+    "settings": [
+      { "name": "The unnamed uncharted planet", "note": "Established early, through Johnson's own cynical remark about what human colonization would inevitably do to it (beer cans, plastic houses), as a genuine, still-unspoiled Eden — the story's title ironic given what actually happens there." },
+      { "name": "The marble mansion", "note": "A way-station for an ancient, itinerant godlike race, its tame, gradually-evolving animals providing visible, ongoing evidence of what proximity to its owner does to lesser creatures." }
+    ],
+
+    "motifs": [
+      "Ancient astronaut/euhemerist mythology — 'gods' explicitly identified as advanced, itinerant, genuinely superior beings mistaken for divinity by early humans",
+      "Bodily transformation as the price of intimacy with a transcendent, superior being",
+      "A romantic choice framed simultaneously as temptation, sacrifice, and self-annihilation",
+      "Ambiguous final evidence (an animal's human-seeming gesture) standing in for a transformation too total for the story to depict directly"
+    ],
+
+    "significance": "The story develops an unusually direct and literal 'ancient astronauts' theory of religion — the woman states plainly that her people were 'gods to the ancients, saints to the Christians' across every major early civilization — while grounding that grand historical claim in an intimate, small-scale romance whose consequences are irreversible and costly rather than heroic. Brent's transformation is neither punishment nor reward in any simple sense: the woman is honest with him throughout, and his choice to stay is fully informed, yet the result (becoming a solitary, non-human 'forerunner' of an evolutionary future millions of years off) is presented as a genuine loss of self rather than an ascension. The story's closing ambiguity — is that cat-beast really Brent? — refuses to confirm the transformation directly, letting Johnson's (and the reader's) horrified inference stand in for a certainty the narrative withholds.",
+
+    "closing_note": "The great cat's futile, angry paw raised after the departing ship — 'too much like a man's angry gesture' — is the story's only evidence of what became of Brent, offered without confirmation and left to stand as its final image."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Gods", "entity_id": "TERM_gods", "count": 3, "distinctiveness": 17.2, "note": "The woman's own explicit self-identification as the historical basis for humanity's gods and myths across multiple civilizations." },
+      { "label": "Christian", "entity_id": "TERM_christian", "count": 1, "distinctiveness": 15.52 },
+      { "label": "Rome", "entity_id": "TERM_rome", "count": 1, "distinctiveness": 14.4 }
+    ],
+    "names_matched": ["NAME_humans"],
+    "thematic_links_proposed": [
+      { "theme": "alien-contact", "basis": "an ancient, technologically godlike alien race using a remote planet as a way-station, with a long documented history of contact with early human civilizations" },
+      { "theme": "religion-gnosis", "basis": "an explicit euhemerist account of the real, alien origin of humanity's gods and myths, delivered directly by one of the beings responsible for them" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No commentary by Dick on this specific story was found in this evidence pass.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is there documented commentary from Dick connecting this story's euhemerist ancient-astronaut premise to his much later, more developed gnostic ideas about divine or transcendent contact (VALIS, the Exegesis)?",
+    "Is the story's ambiguous ending (is the cat-beast really Brent?) ever discussed as a deliberate withholding, or is it generally read as a clear confirmation left merely unstated?",
+    "Is there secondary criticism situating this story within the broader 1950s pulp tradition of 'ancient astronaut' mythology, which predates von Däniken's popularization of the idea by over a decade?"
   ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 4,893 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 found in this evidence pass.",
+    "layer_4_criticism": "0 found in this evidence pass.",
+    "related_dossiers": "none identified.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Gods",
-    "entity_id": "TERM_gods",
-    "count": 3,
-    "distinctiveness": 17.2
-   },
-   {
-    "label": "Christian",
-    "entity_id": "TERM_christian",
-    "count": 1,
-    "distinctiveness": 15.52
-   },
-   {
-    "label": "Girl",
-    "entity_id": "TERM_girl",
-    "count": 33,
-    "distinctiveness": 14.42
-   },
-   {
-    "label": "Rome",
-    "entity_id": "TERM_rome",
-    "count": 1,
-    "distinctiveness": 14.4
-   },
-   {
-    "label": "Empire",
-    "entity_id": "TERM_empire",
-    "count": 1,
-    "distinctiveness": 7.44
-   },
-   {
-    "label": "Garden",
-    "entity_id": "TERM_garden",
-    "count": 2,
-    "distinctiveness": 6.79
-   },
-   {
-    "label": "Scanner",
-    "entity_id": "TERM_scanner",
-    "count": 2,
-    "distinctiveness": 5.81
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 5,
-    "distinctiveness": 3.91
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 2,
-    "distinctiveness": 3.71
-   },
-   {
-    "label": "Golden",
-    "entity_id": "TERM_golden",
-    "count": 1,
-    "distinctiveness": 3.18
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 6,
-    "distinctiveness": 3.05
-   },
-   {
-    "label": "Obviously",
-    "entity_id": "TERM_obviously",
-    "count": 2,
-    "distinctiveness": 2.84
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 3,
-    "distinctiveness": 2.71
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 5,
-    "distinctiveness": 2.53
-   },
-   {
-    "label": "Star",
-    "entity_id": "TERM_star",
-    "count": 1,
-    "distinctiveness": 2.47
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "0 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
 }

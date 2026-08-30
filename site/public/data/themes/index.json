@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 110,
+  "fiction_work_count": 113,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -116,7 +116,7 @@
       "slug": "robots",
       "label": "Robots",
       "description": "Robots, automation, machine labor, and the fear that technology can replace human agency.",
-      "work_count": 9,
+      "work_count": 10,
       "works": [
         {
           "work_id": "WORK_james-p-crow",
@@ -153,6 +153,15 @@
           "work_type": "novel",
           "date_display": "1966",
           "date_start": "1966"
+        },
+        {
+          "work_id": "WORK_return-match",
+          "canonical_title": "Return Match",
+          "slug": "return-match",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Analog, February 1967",
+          "date_start": "1967"
         },
         {
           "work_id": "WORK_the-zap-gun",
@@ -596,7 +605,7 @@
       "slug": "betrayal",
       "label": "Betrayal",
       "description": "Deception, imposture, treachery, and the collapse of trust between people or institutions.",
-      "work_count": 42,
+      "work_count": 43,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -686,6 +695,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Amazing, May 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_souvenir",
+          "canonical_title": "Souvenir",
+          "slug": "souvenir",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, July 1954",
           "date_start": "1954"
         },
         {
@@ -2231,7 +2249,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 56,
+      "work_count": 57,
       "works": [
         {
           "work_id": "WORK_the-cosmic-poachers",
@@ -2366,6 +2384,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Future, June 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_souvenir",
+          "canonical_title": "Souvenir",
+          "slug": "souvenir",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, July 1954",
           "date_start": "1954"
         },
         {
@@ -2745,7 +2772,7 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 24,
+      "work_count": 25,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2817,6 +2844,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Fantastic Universe, September–October 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_strange-eden",
+          "canonical_title": "Strange Eden",
+          "slug": "strange-eden",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Imagination, December 1954",
           "date_start": "1954"
         },
         {
@@ -2971,7 +3007,7 @@
       "slug": "alien-contact",
       "label": "Alien Contact",
       "description": "Aliens, extraterrestrial intelligence, off-world contact, and nonhuman ecologies.",
-      "work_count": 16,
+      "work_count": 18,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -3046,6 +3082,15 @@
           "date_start": "1954"
         },
         {
+          "work_id": "WORK_strange-eden",
+          "canonical_title": "Strange Eden",
+          "slug": "strange-eden",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Imagination, December 1954",
+          "date_start": "1954"
+        },
+        {
           "work_id": "WORK_human-is",
           "canonical_title": "Human Is",
           "slug": "human-is",
@@ -3089,6 +3134,15 @@
           "work_type": "novel",
           "date_display": "1966",
           "date_start": "1966"
+        },
+        {
+          "work_id": "WORK_return-match",
+          "canonical_title": "Return Match",
+          "slug": "return-match",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Analog, February 1967",
+          "date_start": "1967"
         },
         {
           "work_id": "WORK_the-ganymede-takeover",

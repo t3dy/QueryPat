@@ -68,6 +68,10 @@ In a future Earth rebuilt and ruled entirely by robots after a war destroyed all
 
 Ed Morris commutes home from Ganymede to Earth through a solar system saturated with advertising — audio and visual ads that fire directly into commuters' brains, salesrobots that swarm pedestrians and cannot be shaken. In a story collection like [Sales Pitch](/works/sales-pitch), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Souvenir
+
+After three centuries, the legendary 'lost' Williamson's World — colonized by the first human to leave the Solar System — is finally rediscovered. In a story collection like [Souvenir](/works/souvenir), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Survey Team
 
 Thirty years into a war that has stripped Earth's surface to ash and driven humanity into underground tunnels, a survey team leaps from a crashing rocket onto Mars, the last untested planet in the solar system, hoping to find a habitable... In a story collection like [Survey Team](/works/survey-team), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

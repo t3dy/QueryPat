@@ -1,110 +1,115 @@
 {
- "artifact_id": "ART_DOSSIER_RETURN_MATCH",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "return-match",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Return Match",
-  "slug": "return-match",
-  "form": "story",
-  "word_count": 5792,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 52857,
-   "line_end": 53218,
-   "word_count": 5792,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Hamlet",
-    "name_id": "NAME_hamlet",
-    "mentions": 2
-   },
-   {
-    "name": "Nancy",
-    "name_id": "NAME_nancy",
-    "mentions": 1
-   },
-   {
-    "name": "Sophia",
-    "name_id": "NAME_sophia",
-    "mentions": 1
-   }
+  "artifact_id": "ART_DOSSIER_RETURN_MATCH",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "return-match",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Return Match",
+    "slug": "return-match",
+    "form": "short story",
+    "word_count": 5792,
+    "lane": "A",
+    "written": "10/14/65",
+    "first_publication": "Analog, February 1967",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 52857,
+      "line_end": 53218,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Police officer Joseph Tinbane raids an illegal alien ('outspacer') gambling casino on Terra, watching the alien operators incinerate the entire building — customers, evidence, and all — as their ship departs, exactly as expected. Two humanoid infiltration robots die shielding a single salvaged object: an intricate outspacer pinball machine modeled on an Ionian village, whose circuitry adapts defensively after every game to make winning progressively harder. Examining it in the lab, Tinbane and a technician discover the machine is secretly building a miniature catapult sized precisely to hurl one of its own steel balls back at the player — a weapon completing itself in real time as the game is played. Tinbane, drawn by compulsive gambling instinct despite the escalating danger, keeps playing until the machine records his exact neural signature and fires on him; he narrowly survives and flees home, only to discover the machine has since built and transmitted his 'brain template' to unknown outspacer equipment. That night, disguised bug-like probes and finally a massive steel ball itself pursue him directly into his own apartment, revealing the entire 'gambling machine' was never a game at all, but a purpose-built vengeance weapon targeting the police who raid outspacer casinos.",
+
+    "structure": {
+      "form": "short story in three escalating movements: the raid and salvage, the lab's discovery of the machine's self-completing weapon, and its pursuit of Tinbane into his own home",
+      "movements": [
+        "A raid on an illegal alien casino ends in mass incineration by the fleeing outspacers, except for a pinball machine two dying robots died to protect.",
+        "Lab analysis reveals the machine's defensive circuitry is building an increasingly precise catapult designed to fire a steel ball back at whoever plays it, escalating as Tinbane compulsively keeps playing despite the danger.",
+        "Having recorded Tinbane's unique neural signature and transmitted it to unknown external equipment, the weapon pursues him home via disguised probes and finally a massive steel ball that breaches his own apartment."
+      ],
+      "point_of_view": "third person close to Tinbane throughout, tracking both his professional analytical distance from the machine and his personal, addictive compulsion to keep playing it even as its danger becomes explicit and severe.",
+      "central_device": "A game whose rules and difficulty adapt in real time specifically to defeat the player, revealed to have no actual winning condition at all — its entire apparent 'gameplay' was cover for constructing a targeted, personalized weapon against whoever proved willing to keep playing."
+    },
+
+    "characters": [
+      { "name": "Joseph Tinbane", "role": "police officer, protagonist", "note": "His own gambling compulsion, explicitly named by his lab chief ('You're a gambler; you've got the streak'), is what makes him vulnerable to the machine's design — he keeps playing precisely because he cannot resist trying to beat a game built to be unbeatable." },
+      { "name": "Officer Falkes", "role": "Tinbane's partner during the raid", "note": "His youthful eagerness for direct confrontation contrasts with Tinbane's more cautious, procedural instincts, though neither can prevent the outspacers' planned mass-incineration withdrawal." },
+      { "name": "The lab technician / Ted Donovan", "role": "police lab analysts", "note": "Their escalating, increasingly alarmed analysis of the machine's self-completing catapult supplies the story's procedural, methodical unpacking of a threat neither of them can fully counter in time." },
+      { "name": "The pinball machine", "role": "the outspacers' weapon", "note": "Never given any dialogue or clear intelligence of its own, its 'behavior' is instead entirely mechanical and adaptive — a weapon that learns and completes itself through use rather than through any explicit design intent visible to its victims." }
+    ],
+
+    "settings": [
+      { "name": "The outspacer casino (destroyed)", "note": "Its mass-incineration self-destruct, killing every human patron along with the evidence, establishes from the story's opening lines that the outspacers regard human life as expendable collateral in protecting their operations." },
+      { "name": "Tinbane's conapt", "note": "The site of the story's final confrontation, in which an ordinary domestic space is breached by an escalating series of alien probes and finally the weapon itself, collapsing any sense of safety a private home might offer." }
+    ],
+
+    "motifs": [
+      "A game whose difficulty escalates specifically to prevent victory, revealed to have no genuine winning condition at all",
+      "Compulsive gambling addiction as a specific, targetable human vulnerability an alien weapon is designed to exploit",
+      "A weapon that builds and completes itself through ordinary use rather than through any single moment of activation",
+      "Domestic space (the police lab, then Tinbane's own apartment) progressively breached by an escalating, personalized threat",
+      "Dick's recurring 'dangerous toy' theme (per his own story note), here made explicit as a vengeance weapon disguised as harmless recreation"
+    ],
+
+    "significance": "Dick's own 1978 story note names this story directly as part of 'the theme of dangerous toys' that 'runs like a tattered thread' throughout his writing — the innocent-seeming object (a pinball machine, in this case, following directly from the toy soldier of 'The Little Movement,' also read in this project) concealing genuine lethal intent. The story's sharpest structural move is making Tinbane's own gambling addiction, rather than any external force, the mechanism of his endangerment: the machine does not need to trick him into playing, only to exploit an already-present human compulsion. This shifts the story's horror from simple alien malevolence toward a more Dick-characteristic concern with how ordinary human weaknesses (compulsion, addiction, the urge to win) can be turned into vectors for exactly the kind of danger that 'objective,' seemingly harmless technology is assumed not to pose.",
+
+    "closing_note": "The story ends mid-crisis, with a new steel ball breaching the wall from the adjoining apartment — an escalating, apparently endless sequence of attacks that the story declines to resolve, leaving Tinbane's fate as open as the threat itself."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Roman", "entity_id": "TERM_roman", "count": 1, "distinctiveness": 6.53, "note": "Tinbane's own comparison of the machine's forming catapult to 'a Roman catapult' names the weapon's classical shape directly." },
+      { "label": "Obviously", "entity_id": "TERM_obviously", "count": 5, "distinctiveness": 6.0 }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "robots", "basis": "a machine that adapts and effectively 'learns' through use to defeat and ultimately attack its own player, alongside humanoid infiltration robots that die protecting it" },
+      { "theme": "alien-contact", "basis": "an outspacer weapon disguised as a gambling device, designed specifically to exploit human compulsion and target police officers who raid alien casino operations" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 1,
+    "summary": "A substantial author's story note directly names this story as an instance of Dick's recurring 'dangerous toys' theme.",
+    "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "The theme of dangerous toys runs like a tattered thread throughout my writing. The dangerous disguised as the innocent... and what could be more innocent than a toy?",
+        "written_date": "10/14/65",
+        "reading": "Dick explicitly connects this story to a recurring career-long preoccupation with objects that appear innocent or recreational while concealing genuine danger, directly linking it (in spirit, if not by name) to other 'dangerous toy' stories like 'The Little Movement,' also read in this project."
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is there a documented connection between this story and 'The Little Movement,' both examples of Dick's 'dangerous toys' theme, beyond the general pattern he names in his own note?",
+    "Is Tinbane's gambling compulsion ever discussed by critics as an early example of Dick's broader interest in addiction as a vulnerability exploited by external systems (cf. his later, more explicit drug-addiction fiction)?",
+    "Does the story ever resolve, in a sequel or later reference, or is its unresolved ending discussed as a deliberate refusal of closure?"
   ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 5,792 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "1 substantive citation, a direct author's story note.",
+    "layer_4_criticism": "0 found in this evidence pass.",
+    "related_dossiers": "the-little-movement (shares Dick's own 'dangerous toys' theme, also read).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Roman",
-    "entity_id": "TERM_roman",
-    "count": 1,
-    "distinctiveness": 6.53
-   },
-   {
-    "label": "Obviously",
-    "entity_id": "TERM_obviously",
-    "count": 5,
-    "distinctiveness": 6.0
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 6,
-    "distinctiveness": 2.57
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 4,
-    "distinctiveness": 2.54
-   },
-   {
-    "label": "Wait",
-    "entity_id": "TERM_wait",
-    "count": 3,
-    "distinctiveness": 1.64
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "0 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
 }

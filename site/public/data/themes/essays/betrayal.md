@@ -48,6 +48,10 @@ An isolated colony of roughly a hundred people on the bog-covered planet Betelge
 
 Verne Haskel, exhausted and embittered after twenty resentful years at Larson's Pump and Valve Works, retreats each evening to his basement, where he has spent his entire life building an obsessively exact miniature model of his hometown... In a story collection like [Small Town](/works/small-town), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Souvenir
+
+After three centuries, the legendary 'lost' Williamson's World — colonized by the first human to leave the Solar System — is finally rediscovered. In a story collection like [Souvenir](/works/souvenir), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Father-thing
 
 Eight-year-old Charles Walton is sent to fetch his father for dinner and comes back unable to say which of them to fetch: there are two, and they look alike. In a story collection like [The Father-thing](/works/the-father-thing), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

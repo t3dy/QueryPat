@@ -40,6 +40,10 @@ Ten-year-old Tony Rossi, born on the colonized planet of the insectile, hard-she
 
 Eric Blake returns from a Ganymede posting and gives his unenthusiastic wife Pat an unusual souvenir: a small, genuinely omnipotent, chronically foul-tempered alien deity, Tinokuknoi Arevulopapo, smuggled illegally to Earth in a box. In a story collection like [A Present for Pat](/works/a-present-for-pat), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Strange Eden
+
+Surveying an uncharted, pristine planet, the cautious Captain Johnson stays with the ship while his brash colleague Brent explores on foot, encountering enormous, docile predator cats and eventually a marble mansion tended by tame... In a story collection like [Strange Eden](/works/strange-eden), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Human Is
 
 Jill Herrick is married to Lester, a toxicologist who develops poisons for the military and who treats warmth, metaphor, food and children as forms of imprecision. In a story collection like [Human Is](/works/human-is), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -59,6 +63,10 @@ The Game-Players of Titan is the canonical works record for PKD's novel. In a no
 ### The Crack in Space
 
 The Crack in Space is the canonical works record for PKD's novel. In a novel like [The Crack in Space](/works/the-crack-in-space), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### Return Match
+
+Police officer Joseph Tinbane raids an illegal alien ('outspacer') gambling casino on Terra, watching the alien operators incinerate the entire building — customers, evidence, and all — as their ship departs, exactly as expected. In a story collection like [Return Match](/works/return-match), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Ganymede Takeover
 

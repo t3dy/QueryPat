@@ -40,6 +40,10 @@ A Clerk arrives to make sure a sleepy dog — the neighborhood's Summoner — ba
 
 Lori, a young Boston-raised wife transplanted to rural Vermont, is summoned by a dead leaf tapping at her window, which she tucks against her skin with an almost erotic charge. In a story collection like [Of Withered Apples](/works/of-withered-apples), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Strange Eden
+
+Surveying an uncharted, pristine planet, the cautious Captain Johnson stays with the ship while his brash colleague Brent explores on foot, encountering enormous, docile predator cats and eventually a marble mansion tended by tame... In a story collection like [Strange Eden](/works/strange-eden), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Turning Wheel
 
 Centuries after an apocalyptic 'Time of Madness,' a rigid caste theocracy governs the survivors, its doctrine of reincarnation administered through a rusting, decaying 'scanner' technology that lets the faithful preview their next... In a story collection like [The Turning Wheel](/works/the-turning-wheel), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

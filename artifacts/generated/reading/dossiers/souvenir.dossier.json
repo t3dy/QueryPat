@@ -1,152 +1,104 @@
 {
- "artifact_id": "ART_DOSSIER_SOUVENIR",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "souvenir",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Souvenir",
-  "slug": "souvenir",
-  "form": "story",
-  "word_count": 4101,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 25476,
-   "line_end": 25859,
-   "word_count": 4101,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Mission",
-    "name_id": "NAME_mission",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Rome",
-    "entity_id": "TERM_rome",
-    "count": 1,
-    "distinctiveness": 17.18
-   },
-   {
-    "label": "Acts",
-    "entity_id": "TERM_acts",
-    "count": 1,
-    "distinctiveness": 15.02
-   },
-   {
-    "label": "Holy",
-    "entity_id": "TERM_holy",
-    "count": 1,
-    "distinctiveness": 10.43
-   },
-   {
-    "label": "Roman",
-    "entity_id": "TERM_roman",
-    "count": 1,
-    "distinctiveness": 9.22
-   },
-   {
-    "label": "Empire",
-    "entity_id": "TERM_empire",
-    "count": 1,
-    "distinctiveness": 8.88
-   },
-   {
-    "label": "Self",
-    "entity_id": "TERM_self",
-    "count": 1,
-    "distinctiveness": 2.57
-   },
-   {
-    "label": "John",
-    "entity_id": "TERM_john",
-    "count": 1,
-    "distinctiveness": 2.44
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 1,
-    "distinctiveness": 2.21
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 5,
-    "distinctiveness": 2.05
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 1,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
+  "artifact_id": "ART_DOSSIER_SOUVENIR",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "souvenir",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Souvenir",
+    "slug": "souvenir",
+    "form": "short story",
+    "word_count": 4101,
+    "lane": "A",
+    "first_publication": "Fantastic Universe, July 1954",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 25476,
+      "line_end": 25859,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "After three centuries, the legendary 'lost' Williamson's World — colonized by the first human to leave the Solar System — is finally rediscovered. Relay official Edward Rogers arrives expecting a triumphant reunion, but finds a deliberately archaic, decentralized society of self-sufficient farm 'manors,' complete with ritual clan warfare, that has received the Galaxy's technological broadcasts for a century and simply chosen not to use them. Rogers explains that the uniform, centrally-coordinated Galactic Relay culture exists specifically to prevent war between divergent societies, and presents Articles of Incorporation for Williamson's World to formally join. The planet's leader and his people, after a private vote, refuse. Rogers reluctantly delivers an ultimatum — join within six hours or be destroyed — and when the planet's antiquated jet-rocket fleet rises in a doomed, symbolic defense, the Galactic battleship annihilates the entire world without difficulty. The story closes far from these events, on Corporal Pete Matson returning home on leave to give his young son a 'souvenir' — a handmade wooden cup, taken, unknowingly to the boy, from the world just destroyed to prevent exactly the kind of cultural variation that produced it.",
+
+    "structure": {
+      "form": "short story in three movements: discovery and cultural encounter, ultimatum and refusal, and a final ironic domestic coda",
+      "movements": [
+        "Rogers arrives at the newly rediscovered Williamson's World and learns its people have deliberately rejected Galactic technological and cultural uniformity in favor of an archaic, clan-based agrarian society.",
+        "Rogers presents Articles of Incorporation; the planet votes to refuse integration, and Rogers is forced to deliver an ultimatum of destruction within six hours.",
+        "The planet's token, doomed resistance is annihilated instantly; the story closes on a soldier from the destroying fleet bringing home an innocent souvenir from the now-erased world for his unknowing family."
+      ],
+      "point_of_view": "third person, close to Rogers for the bulk of the story, then shifting in its final scene to Corporal Matson's family, so the reader alone carries the full, devastating context that the story's own characters (Matson's wife and son) never learn.",
+      "central_device": "A closing scene of ordinary domestic warmth (a father's homecoming gift) deliberately staged to be read, by the reader alone, as the final harvest of an entire planet's annihilation — dramatic irony used to indict the callousness of the preceding genocide rather than to soften it."
+    },
+
+    "characters": [
+      { "name": "Edward Rogers", "role": "Relay official, protagonist", "note": "Genuinely moved by Williamson's World and reluctant to see it destroyed, yet never once considers refusing his orders or advocating for an alternative — his personal regret coexists entirely comfortably with his execution of policy." },
+      { "name": "Gene Williamson", "role": "leader of the colony, descendant of its founder", "note": "Calmly, clearly articulate about his people's deliberate choice to reject Galactic uniformity, his people's culture rendered with enough specificity and dignity that their destruction reads as tragedy rather than as the elimination of mere primitives." },
+      { "name": "Corporal Pete Matson", "role": "a soldier in the destroying fleet, unrelated to the story's main action until its final scene", "note": "His genuine tenderness toward his wife and son, and total ignorance of what his 'souvenir' actually represents, makes the story's closing irony land as an indictment of ordinary complicity rather than of any single villain." }
+    ],
+
+    "settings": [
+      { "name": "Williamson's World", "note": "Rendered with careful specificity — clan wars, communal manors, artisanal crafts, a common if fading language — establishing a genuine, coherent alternative culture rather than mere backwardness, which is precisely what makes Relay's justification for its destruction so troubling." },
+      { "name": "The Matson household, elsewhere", "note": "An entirely ordinary domestic scene, deliberately disconnected in tone and knowledge from the preceding genocide, its warmth curdled retroactively by what the reader alone understands the 'souvenir' to be." }
+    ],
+
+    "motifs": [
+      "A centrally enforced cultural uniformity justified as the only guarantee against war, itself enforced through the threat and execution of total destruction",
+      "A doomed, symbolically futile defense (antiquated rockets against a modern battleship) undertaken anyway, in preference to cultural erasure",
+      "Dramatic irony deployed in a story's closing scene to indict complicity rather than to comfort the reader",
+      "An innocent object (a souvenir) carrying, unknown to its recipients, the full weight of an atrocity"
+    ],
+
+    "significance": "The story's argument is structural rather than stated: Rogers's own justification for destroying Williamson's World — that uniform culture prevents war — is undercut by the fact that achieving and maintaining that uniformity itself requires an act of overwhelming, one-sided violence against anyone who declines to participate. The story never allows Rogers to be simply wrong or simply right; his genuine regret, and the Relay's genuinely stated peaceful rationale, sit uncomfortably alongside the fact that an entire distinct human culture, populated by people with names, customs, and a coherent way of life, is annihilated without survivors. The closing shift to Corporal Matson's family — utterly separate from and ignorant of the preceding events — refuses the reader any character within the story who understands the full moral weight of what has happened, leaving that recognition entirely to the reader alone.",
+
+    "closing_note": "The boy's wondering repetition of the unfamiliar word 'souvenir,' and the 'strange light' that 'grew' in his eyes as he turns the cup from the destroyed world in his hands, closes the story on an image of innocent wonder built directly on an atrocity neither he nor his father will ever understand."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Rome", "entity_id": "TERM_rome", "count": 1, "distinctiveness": 17.18, "note": "Williamson's manor-based clan culture is explicitly compared to Roman and medieval antecedents, giving it historical depth rather than mere invented strangeness." },
+      { "label": "Empire", "entity_id": "TERM_empire", "count": 1, "distinctiveness": 8.88 }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "empire-control", "basis": "a centrally enforced, homogeneous interplanetary culture that destroys any society choosing cultural divergence, justified explicitly as the price of preventing war" },
+      { "theme": "betrayal", "basis": "Rogers's genuine personal regret and respectful engagement with Williamson's World sits alongside his ultimate role in delivering the ultimatum that leads directly to its total destruction" }
+    ]
+  },
+
+  "pkd_on_this_work": {
     "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 5610,
-      "quote": "…me Bob’s address or some god dam thing? Do the easiest for you, Carol, and I will send you a silk pillow with Souvenir of Fullerton stitched on it. I still love you, but if you phoned or wrote or something I would love you more.…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 1,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_KRIPAL_JEFFREY_J_AUTHORS_OF_THE_IMPOSSIB.md",
-    "author": "Jeffrey J. Kripal",
+    "total_mentions": 0,
+    "summary": "No commentary by Dick on this specific story was found. The evidence gatherer's one hit (a joking reference to a 'silk pillow with Souvenir of Fullerton stitched on it' in a personal letter) and the one criticism hit (a bibliography citation of 'Souvenir Press,' a UK publisher) are both excluded here as false positives on the word 'souvenir' rather than genuine commentary on this story.",
+    "evidence": []
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 3243,
-      "quote": "…s_ (Chicago: Henry Regnery, 1969), 110, henceforth PM; and _Dimensions: A Casebook of Alien Contact_ (London: Souvenir Press, 1988), 136. 4. FS 1:147–48. Other significant statements on the category occur at FS 2:42, 61. 5.…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is there documented commentary from Dick on this story's use of dramatic irony in its closing scene, given how sharply it differs in tone from the preceding action?",
+    "Is Rogers's uncomplicated compliance with an order he personally regrets ever discussed by critics as an early example of Dick's recurring interest in bureaucratic complicity in atrocity?",
+    "Is there secondary criticism comparing this story's central conflict (enforced cultural uniformity vs. deliberate cultural divergence) to Dick's later, more developed treatments of the same tension?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "1 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 4,101 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 substantive citations; 2 false-positive hits excluded (see pkd_on_this_work.summary).",
+    "layer_4_criticism": "0 substantive citations; 1 false-positive bibliography hit excluded.",
+    "related_dossiers": "none identified.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

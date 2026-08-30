@@ -98,8 +98,25 @@
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
  },
  "pkd_on_this_work": {
-  "sources": [],
-  "total_mentions": 0
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "is_author_story_note": true,
+    "quotes": [
+     {
+      "line": null,
+      "quote": "The theme of dangerous toys runs like a tattered thread throughout my writing. The dangerous disguised as the innocent … and what could be more innocent than a toy? This story makes me think of a set of huge speakers I looked at last week; they cost six thousand dollars and were larger than refrigerators. Our joke about them was that if you didn't go to the audio store to see them, they'd come to see you. (1978)",
+      "written_date": "10/14/65",
+      "alt_title": null
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
  },
  "criticism": {
   "sources": [],
