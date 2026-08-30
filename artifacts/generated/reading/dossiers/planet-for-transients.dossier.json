@@ -1,149 +1,121 @@
 {
- "artifact_id": "ART_DOSSIER_PLANET_FOR_TRANSIENTS",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "planet-for-transients",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Planet For Transients",
-  "slug": "planet-for-transients",
-  "form": "story",
-  "word_count": 4897,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 24588,
-   "line_end": 25039,
-   "word_count": 4897,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Humans",
-    "name_id": "NAME_humans",
-    "mentions": 7
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Gnosis",
-    "entity_id": "TERM_gnosis",
-    "count": 1,
-    "distinctiveness": 33.91
-   },
-   {
-    "label": "Earth",
-    "entity_id": "TERM_earth",
-    "count": 11,
-    "distinctiveness": 4.95
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 9,
-    "distinctiveness": 3.09
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 5,
-    "distinctiveness": 2.53
-   },
-   {
-    "label": "Being",
-    "entity_id": "TERM_being",
-    "count": 5,
-    "distinctiveness": 1.92
-   },
-   {
-    "label": "Good",
-    "entity_id": "TERM_good",
-    "count": 10,
-    "distinctiveness": 1.88
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 7,
-    "distinctiveness": 1.64
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 1,
-    "distinctiveness": 1.53
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 3,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 786,
-      "quote": "…ne and interact: the little guy—a minor operative or repairman, a put-upon > 12 ‘The Great C’ (1953, CS1), ‘Planet for Transients’ (1953, CS2). ( _Deus Irae_ was published in 1976.) > 13 Suvin (1988: 120–21) very interestingly discusses…"
-     },
-     {
-      "line": 3762,
-      "quote": "…manufactured events in **20–21** , 81n13, 91, 101, 112, 135n2 power and fragmentation in 203–04, 224, 225n2 ‘Planet for Transients’ 48n12 ‘Pre-Persons, The’ compared to ‘Human Is’ **88–90** , 102 fathers in 105 ‘Preserving Machine, The’ 93n…"
-     }
+  "artifact_id": "ART_DOSSIER_PLANET_FOR_TRANSIENTS",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "planet-for-transients",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Planet for Transients",
+    "slug": "planet-for-transients",
+    "form": "short story",
+    "word_count": 4897,
+    "lane": "A",
+    "first_publication": "Fantastic Universe, October 1953",
+    "later_use": "Per Sutin, drawn upon alongside \"The Great C\" for plot material in Dick's 1964 Dr. Bloodmoney submission; Palmer separately cites it as material \"cannibalized\" into Deus Irae.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 24588,
+      "line_end": 25039,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Three centuries after a war left Earth's surface radioactive, Trent — one of a dwindling colony of unmutated 'true humans' surviving underground in a Pennsylvania mine — treks north in a lead-lined suit searching for other human settlements, since his own colony's failing equipment means extinction is near. He encounters a series of mutant tribes (blue-skinned 'toads,' insectile 'bugs,' kangaroo-like 'runners') who have adapted completely to the hot, radioactive, thriving new Earth, and who value him chiefly as a living relic — a source of pre-war knowledge and tradition. Following a lead to a human settlement near Montreal, Trent finds only recently-abandoned ruins, then discovers the settlers loading their remaining culture and belongings onto a repaired ancient rocket, preparing to abandon Earth entirely for Mars and beyond. The ship's leader, Norris, explains that unmutated humans are no longer suited to the Earth their own war transformed — that the countless thriving mutant forms are now Earth's rightful inhabitants, and that humans, in their sealed suits and helmets, are effectively alien visitors on their own former home, who may someday need the mutants' permission just to return.",
+
+    "structure": {
+      "form": "short story in three movements: Trent's journey and encounters with adapted mutant societies, the discovery of the abandoned human settlement, and its final departure",
+      "movements": [
+        "Trent, part of a failing underground human colony, journeys north through a thriving radioactive jungle, encountering mutant tribes who have fully adapted to postwar Earth.",
+        "He reaches the last known human settlement to find it recently abandoned, its people already gone.",
+        "He discovers the settlers loading their culture and belongings onto a repaired ancient rocket, and Norris explains that unmutated humans, no longer suited to their own transformed planet, must leave it to the beings who can actually live there."
+      ],
+      "point_of_view": "third person close to Trent throughout, so the reader's growing hope of finding surviving, thriving human civilization is punctured at exactly the moment Trent's own hope is, by discovering humans have not thrived at all — they have simply given up and left.",
+      "central_device": "A reversal of the expected post-apocalyptic survival narrative: rather than humans reclaiming or rebuilding Earth, the surviving 'true' humans are revealed to be an endangered minority in a world now genuinely owned by the mutant forms their own war created, forced to become interplanetary refugees on a planet no longer theirs."
+    },
+
+    "characters": [
+      { "name": "Trent", "role": "protagonist, human scout", "note": "His five years of searching for other humans culminate not in reunion but in watching the very idea of human permanence on Earth dissolve, his identity as 'the true human' revealed as increasingly beside the point." },
+      { "name": "Jackson and Potter", "role": "young 'toad' mutants", "note": "Genuinely friendly and curious toward Trent, treating him as a fascinating rarity and a valuable teacher of pre-war knowledge rather than as an enemy or inferior — a sympathetic mutant society given warmth the reader might not expect." },
+      { "name": "Norris", "role": "leader of the departing human settlement", "note": "Delivers the story's central thesis without bitterness: humans changed Earth so thoroughly that they no longer belong on it, and reclaiming it would require undoing the very conditions that let so much other life flourish — a price he is unwilling to pay even for his own species' survival." }
     ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 5651,
-      "quote": "…hil submitted to win the Doubleday contract in 1964. Two of Phil’s early stories, “The Great C” (1953) and “A Planet for Transients” (1953), were drawn upon for plot parts, but a greater 443 influence was Dr. Bloodmoney- the post-holocau…"
-     }
+
+    "settings": [
+      { "name": "The radioactive surface jungle", "note": "Described with genuine, unsettling vitality — 'Earth was alive, thriving with activity' — establishing from early in the story that the post-war world is not a wasteland but a flourishing, simply non-human, ecosystem." },
+      { "name": "The abandoned human ruins and departing rocket", "note": "The site of the story's final reversal, where an ancient weapon repurposed as an ark carries away the last remnants of a culture that has concluded it cannot survive on the world it destroyed and remade." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "motifs": [
+      "Radiation-driven mutation as adaptive success rather than tragedy for every form of life except the unmutated humans who caused it",
+      "A protagonist's search for surviving humanity ending not in triumph but in watching that humanity choose exile over reclamation",
+      "Humans recast as visitors in sealed suits on their own former planet, a role reversal made explicit in the story's closing dialogue",
+      "A repurposed instrument of war (an ancient rocket, once perhaps a bomb) becoming an ark of retreat rather than of victory"
+    ],
+
+    "significance": "The story's late-breaking role reversal is unusually direct for the genre and period: rather than a story about humans reclaiming a ruined Earth, it becomes a story about humans accepting that they are now the minority, endangered species on a planet transformed by their own actions into something that thrives without them. Norris's closing point — that restoring Earth to human habitability would require undoing everything the mutant forms depend on — refuses any easy reading in which humanity's survival is unambiguously worth pursuing at any cost. Confirmed by Sutin to have supplied plot material for Dr. Bloodmoney's own post-holocaust, mutant-populated Earth (and per Palmer, also cannibalized into Deus Irae), this early story establishes a template Dick returned to repeatedly: catastrophe as a permanent redefinition of what 'belonging' to a place means, rather than a problem awaiting eventual human restoration.",
+
+    "closing_note": "Norris's rueful admission that the departing humans will need the mutants' 'permission to land' if they ever wish to return closes the story on an image of humbled, reversed hierarchy rather than triumphant escape."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Gnosis", "entity_id": "TERM_gnosis", "count": 1, "distinctiveness": 33.91, "note": "The bugs' explicit valuing of Trent for the 'gnosis' — the traditional knowledge — he carries as a living relic of pre-war humanity." },
+      { "label": "Earth", "entity_id": "TERM_earth", "count": 11, "distinctiveness": 4.95 }
+    ],
+    "names_matched": ["NAME_humans"],
+    "thematic_links_proposed": [
+      { "theme": "authentic-human", "basis": "a story in which unmutated 'true' humans are revealed to be an endangered minority no longer suited to their own transformed planet, their claim to the world contested by thriving, radically adapted mutant forms" },
+      { "theme": "alien-contact", "basis": "the story's explicit closing reversal, in which humans are recast as sealed-suit visitors and potential future guests on their own former home world" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No direct author commentary was found, but two independent scholarly sources place this story concretely within Dick's development: Sutin identifies it as one of two early stories drawn upon for plot material in Dick's 1964 Dr. Bloodmoney submission, and Palmer separately cites it as material 'cannibalized' into the later novel Deus Irae.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 2,
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 5651,
+        "quote": "Two of Phil's early stories, \"The Great C\" (1953) and \"A Planet for Transients\" (1953), were drawn upon for plot parts, but a greater influence was Dr. Bloodmoney",
+        "reading": "Confirms this story supplied specific plot material for Dick's 1964 Doubleday submission that became Dr. Bloodmoney, connecting its post-holocaust, mutant-populated Earth directly to this early story's premise."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Philip K. Dick: Exhilaration and Terror of the Postmodern",
+        "line": 786,
+        "quote": "'The Great C' (1953, CS1), 'Planet for Transients' (1953, CS2). (Deus Irae was published in 1976.)",
+        "reading": "Palmer cites this story (alongside 'The Great C') as material Dick drew on, in his judgment somewhat 'desperately,' when cannibalizing earlier short fiction into the novel Deus Irae — a second, independent confirmation of this story's ongoing importance to Dick's later, larger-scale post-apocalyptic fiction."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "What specific plot elements from this story appear in Dr. Bloodmoney and in Deus Irae? A direct comparison, once those works are dossiered, would clarify exactly what Dick reused.",
+    "Is there a documented account of why Dick returned to this particular premise (humans as the endangered minority on their own mutated world) across multiple later works?",
+    "Is the story's sympathetic, non-monstrous portrayal of mutant societies (the friendly 'toads,' in particular) discussed by critics as notable for its period, given how often 1950s SF treated radiation mutants as straightforwardly monstrous?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "3 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 4,897 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 direct author citations found.",
+    "layer_4_criticism": "2 substantive citations (Sutin, Palmer), both confirming this story's reuse in later novels; 1 additional Palmer index-page hit excluded as non-substantive.",
+    "related_dossiers": "the-great-c (named alongside this story by both critics as shared source material for Dr. Bloodmoney and Deus Irae; still pending).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

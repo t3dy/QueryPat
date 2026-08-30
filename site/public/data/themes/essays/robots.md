@@ -12,6 +12,10 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 In a future Earth rebuilt and ruled entirely by robots after a war destroyed all human institutions and knowledge, humans occupy a strictly segregated underclass — body servants, gardeners, entertainers — barred from governance by 'Lists'... In a story collection like [James P. Crow](/works/james-p-crow), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### To Serve the Master
+
+In a bleak future where surviving humanity toils underground for rigid, bureaucratic Companies that emerged after an obscure war, low-level letter carrier Applequist discovers a damaged, still-conscious android buried in a ravine — the... In a story collection like [To Serve the Master](/works/to-serve-the-master), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Unreconstructed M
 
 In a future where a crime is solved by a forensic 'file bank' that narrows the population from billions to a handful of suspects through successive physical specifications, an autonomous watchdog robot — an 'M' (machine), built to hunt... In a story collection like [The Unreconstructed M](/works/the-unreconstructed-m), that premise becomes a thematic pressure point instead of background decoration. The plot often turns on automation, domestic machinery, or mechanical imitation, so the device becomes the theme. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

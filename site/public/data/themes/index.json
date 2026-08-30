@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 113,
+  "fiction_work_count": 116,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -116,7 +116,7 @@
       "slug": "robots",
       "label": "Robots",
       "description": "Robots, automation, machine labor, and the fear that technology can replace human agency.",
-      "work_count": 10,
+      "work_count": 11,
       "works": [
         {
           "work_id": "WORK_james-p-crow",
@@ -126,6 +126,15 @@
           "work_type": "short_story",
           "date_display": "Planet Stories, May 1954",
           "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_to-serve-the-master",
+          "canonical_title": "To Serve the Master",
+          "slug": "to-serve-the-master",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Worlds of If, February 1956",
+          "date_start": "1956"
         },
         {
           "work_id": "WORK_the-unreconstructed-m",
@@ -253,7 +262,7 @@
       "slug": "authentic-human",
       "label": "Authentic Human",
       "description": "Human authenticity, empathy, caritas, and the resistance to programmed or mechanical existence.",
-      "work_count": 38,
+      "work_count": 39,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -280,6 +289,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Astounding Science Fiction, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_planet-for-transients",
+          "canonical_title": "Planet for Transients",
+          "slug": "planet-for-transients",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, October 1953",
           "date_start": "1953"
         },
         {
@@ -1002,7 +1020,7 @@
       "slug": "reality-breakdown",
       "label": "Reality Breakdown",
       "description": "Unstable reality, temporal slippage, projected worlds, and the breakdown of ordinary perception.",
-      "work_count": 48,
+      "work_count": 49,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -1074,6 +1092,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Future, October 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_prize-ship",
+          "canonical_title": "Prize Ship",
+          "slug": "prize-ship",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Thrilling Wonder Stories, Winter 1954",
           "date_start": "1954"
         },
         {
@@ -1444,7 +1471,7 @@
       "slug": "delusions",
       "label": "Delusions",
       "description": "Paranoia, psychosis, hallucination, schizophrenia, and other forms of unstable perception.",
-      "work_count": 12,
+      "work_count": 13,
       "works": [
         {
           "work_id": "WORK_colony",
@@ -1499,6 +1526,15 @@
           "work_type": "short_story",
           "date_display": "Galaxy, September 1954",
           "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_to-serve-the-master",
+          "canonical_title": "To Serve the Master",
+          "slug": "to-serve-the-master",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Worlds of If, February 1956",
+          "date_start": "1956"
         },
         {
           "work_id": "WORK_eye-in-the-sky",
@@ -2068,7 +2104,7 @@
       "slug": "time",
       "label": "Time",
       "description": "Temporal distortion, regression, precognition, time slips, and altered historical sequence.",
-      "work_count": 19,
+      "work_count": 20,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -2113,6 +2149,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Future, October 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_prize-ship",
+          "canonical_title": "Prize Ship",
+          "slug": "prize-ship",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Thrilling Wonder Stories, Winter 1954",
           "date_start": "1954"
         },
         {
@@ -3007,7 +3052,7 @@
       "slug": "alien-contact",
       "label": "Alien Contact",
       "description": "Aliens, extraterrestrial intelligence, off-world contact, and nonhuman ecologies.",
-      "work_count": 18,
+      "work_count": 19,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -3043,6 +3088,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "If, September 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_planet-for-transients",
+          "canonical_title": "Planet for Transients",
+          "slug": "planet-for-transients",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, October 1953",
           "date_start": "1953"
         },
         {

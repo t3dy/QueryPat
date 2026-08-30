@@ -32,6 +32,10 @@ A man idly reading a paperback novel he found on the bus becomes convinced, sent
 
 An isolated colony of roughly a hundred people on the bog-covered planet Betelgeuse II has spent five years under siege by unseen 'attackers' — gas raids, sabotage, poisoned water — that no one has ever directly seen, defending itself with... In a story collection like [Shell Game](/works/shell-game), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### To Serve the Master
+
+In a bleak future where surviving humanity toils underground for rigid, bureaucratic Companies that emerged after an obscure war, low-level letter carrier Applequist discovers a damaged, still-conscious android buried in a ravine — the... In a story collection like [To Serve the Master](/works/to-serve-the-master), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Eye in the Sky
 
 Eye in the Sky is the canonical works record for PKD's novel. In a novel like [Eye in the Sky](/works/eye-in-the-sky), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

@@ -24,6 +24,10 @@ A survey unit has spent three weeks on Planet Blue and found no harmful life for
 
 Every few years, dry, cobweb-like Martian creatures ('buggies') drift down to Earth in clouds and are hunted and destroyed by panicked mobs the moment they are spotted. In a story collection like [Martians Come in Clouds](/works/martians-come-in-clouds), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Planet for Transients
+
+Three centuries after a war left Earth's surface radioactive, Trent — one of a dwindling colony of unmutated 'true humans' surviving underground in a Pennsylvania mine — treks north in a lead-lined suit searching for other human... In a story collection like [Planet for Transients](/works/planet-for-transients), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Some Kinds of Life
 
 Bob Clarke is called up for another tour fighting the Martians over rexeroid, a mineral essential to his household's automated control systems, and offers his wife Joan a matter-of-fact economic justification: without rexeroid, kryon, or... In a story collection like [Some Kinds of Life](/works/some-kinds-of-life), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

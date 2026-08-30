@@ -40,6 +40,10 @@ Doc Labyrinth, convinced that civilisation is going the way of Rome and that a d
 
 Historian Hasten is secretly shown a forbidden 'Time Dip' — illegal because observing the future irrevocably alters it — being used by a government research team to photograph conditions decades and centuries ahead. In a story collection like [Meddler](/works/meddler), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Prize Ship
+
+With the Terran System Senate on the verge of capitulating to the rebel colony of Ganymede over control of the only deep-space launch cradles, a captured Ganymedean ship — untranslatable, of unknown propulsion — offers a last-minute... In a story collection like [Prize Ship](/works/prize-ship), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Shell Game
 
 An isolated colony of roughly a hundred people on the bog-covered planet Betelgeuse II has spent five years under siege by unseen 'attackers' — gas raids, sabotage, poisoned water — that no one has ever directly seen, defending itself with... In a story collection like [Shell Game](/works/shell-game), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

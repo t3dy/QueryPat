@@ -28,6 +28,10 @@ The McLean family — Tim, Mary, and their three children — wake to an ordinar
 
 Historian Hasten is secretly shown a forbidden 'Time Dip' — illegal because observing the future irrevocably alters it — being used by a government research team to photograph conditions decades and centuries ahead. In a story collection like [Meddler](/works/meddler), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Prize Ship
+
+With the Terran System Senate on the verge of capitulating to the rebel colony of Ganymede over control of the only deep-space launch cradles, a captured Ganymedean ship — untranslatable, of unknown propulsion — offers a last-minute... In a story collection like [Prize Ship](/works/prize-ship), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Survey Team
 
 Thirty years into a war that has stripped Earth's surface to ash and driven humanity into underground tunnels, a survey team leaps from a crashing rocket onto Mars, the last untested planet in the solar system, hoping to find a habitable... In a story collection like [Survey Team](/works/survey-team), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

@@ -20,6 +20,10 @@ The Short Happy Life of the Brown Oxford and Other Classic Stories is the canoni
 
 Spence Olham, a senior researcher on a wartime defense project against the alien Outspacers, is arrested on his morning commute by Major Peters of the security service and his own old friend Nelson, who tell him he is not human at all: an... In a story collection like [Impostor](/works/imposter), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Planet for Transients
+
+Three centuries after a war left Earth's surface radioactive, Trent — one of a dwindling colony of unmutated 'true humans' surviving underground in a Pennsylvania mine — treks north in a lead-lined suit searching for other human... In a story collection like [Planet for Transients](/works/planet-for-transients), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Roog
 
 Boris, a large black dog belonging to the Cardossi family, barks a single word — 'Roog' — at figures nobody else can see. In a story collection like [Roog](/works/roog), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
