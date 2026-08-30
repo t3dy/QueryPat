@@ -79,8 +79,25 @@
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
  },
  "pkd_on_this_work": {
-  "sources": [],
-  "total_mentions": 0
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "is_author_story_note": true,
+    "quotes": [
+     {
+      "line": null,
+      "quote": "Within the beautiful lurks the ugly; you can see in this rather crude story the germ of my whole theme that nothing is what it seems. This story should be read as a trial run on my part; I was just beginning to grasp that obvious form and latent form are not the same thing. As Heraclitus said in fragment 54: \"Latent structure is master of obvious structure,\" and out of this comes the later more sophisticated Platonic dualism between the phenomenal world and the real but invisible realm of forms lying behind it. I may be reading too much into this simple-minded early story, but at least I was beginning to see in a dim way what I later saw so clearly; in fragment 123, Heraclitus said, \"The nature of things is in the habit of concealing itself,\" and therein lies it all. (1978)",
+      "written_date": "7/24/52",
+      "alt_title": null
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
  },
  "criticism": {
   "sources": [],

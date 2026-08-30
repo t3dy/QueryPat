@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 107,
+  "fiction_work_count": 110,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -116,8 +116,17 @@
       "slug": "robots",
       "label": "Robots",
       "description": "Robots, automation, machine labor, and the fear that technology can replace human agency.",
-      "work_count": 8,
+      "work_count": 9,
       "works": [
+        {
+          "work_id": "WORK_james-p-crow",
+          "canonical_title": "James P. Crow",
+          "slug": "james-p-crow",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Planet Stories, May 1954",
+          "date_start": "1954"
+        },
         {
           "work_id": "WORK_the-unreconstructed-m",
           "canonical_title": "The Unreconstructed M",
@@ -975,7 +984,7 @@
       "slug": "reality-breakdown",
       "label": "Reality Breakdown",
       "description": "Unstable reality, temporal slippage, projected worlds, and the breakdown of ordinary perception.",
-      "work_count": 47,
+      "work_count": 48,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -1039,6 +1048,15 @@
           "work_type": "short_story",
           "date_display": "The Magazine of Fantasy & Science Fiction, June 1953",
           "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_meddler",
+          "canonical_title": "Meddler",
+          "slug": "meddler",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Future, October 1954",
+          "date_start": "1954"
         },
         {
           "work_id": "WORK_shell-game",
@@ -1408,7 +1426,7 @@
       "slug": "delusions",
       "label": "Delusions",
       "description": "Paranoia, psychosis, hallucination, schizophrenia, and other forms of unstable perception.",
-      "work_count": 11,
+      "work_count": 12,
       "works": [
         {
           "work_id": "WORK_colony",
@@ -1472,6 +1490,15 @@
           "work_type": "novel",
           "date_display": "1957",
           "date_start": "1957"
+        },
+        {
+          "work_id": "WORK_fair-game",
+          "canonical_title": "Fair Game",
+          "slug": "fair-game",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, September 1959",
+          "date_start": "1959"
         },
         {
           "work_id": "WORK_clans-of-the-alphane-moon",
@@ -2023,7 +2050,7 @@
       "slug": "time",
       "label": "Time",
       "description": "Temporal distortion, regression, precognition, time slips, and altered historical sequence.",
-      "work_count": 18,
+      "work_count": 19,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -2059,6 +2086,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Amazing, July 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_meddler",
+          "canonical_title": "Meddler",
+          "slug": "meddler",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Future, October 1954",
           "date_start": "1954"
         },
         {
@@ -2195,7 +2231,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 55,
+      "work_count": 56,
       "works": [
         {
           "work_id": "WORK_the-cosmic-poachers",
@@ -2312,6 +2348,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "If, August 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_james-p-crow",
+          "canonical_title": "James P. Crow",
+          "slug": "james-p-crow",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Planet Stories, May 1954",
           "date_start": "1954"
         },
         {
@@ -2926,7 +2971,7 @@
       "slug": "alien-contact",
       "label": "Alien Contact",
       "description": "Aliens, extraterrestrial intelligence, off-world contact, and nonhuman ecologies.",
-      "work_count": 15,
+      "work_count": 16,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -3016,6 +3061,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Fantastic Universe, January 1959",
+          "date_start": "1959"
+        },
+        {
+          "work_id": "WORK_fair-game",
+          "canonical_title": "Fair Game",
+          "slug": "fair-game",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, September 1959",
           "date_start": "1959"
         },
         {

@@ -60,6 +60,10 @@ The McLean family — Tim, Mary, and their three children — wake to an ordinar
 
 In a sterile, uniform twenty-second century, George Miller curates the Twentieth Century exhibit at the History Agency, immersing himself so completely in his research period — its clothes, slang, briefcase, pipe tobacco — that his... In a story collection like [Exhibit Piece](/works/exhibit-piece), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### James P. Crow
+
+In a future Earth rebuilt and ruled entirely by robots after a war destroyed all human institutions and knowledge, humans occupy a strictly segregated underclass — body servants, gardeners, entertainers — barred from governance by 'Lists'... In a story collection like [James P. Crow](/works/james-p-crow), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Sales Pitch
 
 Ed Morris commutes home from Ganymede to Earth through a solar system saturated with advertising — audio and visual ads that fire directly into commuters' brains, salesrobots that swarm pedestrians and cannot be shaken. In a story collection like [Sales Pitch](/works/sales-pitch), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

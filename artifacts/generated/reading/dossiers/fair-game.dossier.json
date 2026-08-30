@@ -1,165 +1,107 @@
 {
- "artifact_id": "ART_DOSSIER_FAIR_GAME",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "fair-game",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Fair Game",
-  "slug": "fair-game",
-  "form": "story",
-  "word_count": 4866,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 26860,
-   "line_end": 27251,
-   "word_count": 4866,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Laura",
-    "name_id": "NAME_laura",
-    "mentions": 14
-   },
-   {
-    "name": "Humans",
-    "name_id": "NAME_humans",
-    "mentions": 1
-   }
+  "artifact_id": "ART_DOSSIER_FAIR_GAME",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "fair-game",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Fair Game",
+    "slug": "fair-game",
+    "form": "short story",
+    "word_count": 4866,
+    "lane": "A",
+    "first_publication": "If, September 1959",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 26860,
+      "line_end": 27251,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Professor Anthony Douglas, a leading nuclear physicist, is terrorized by an enormous eye peering through his window, then by a gigantic cosmic face blotting out the stars. Consulting his academic colleagues, he and they arrive at an increasingly grand theory: he has been singled out by an interdimensional, godlike race — the likely origin, they speculate, of humanity's myths of gods and mountaintop revelations — who intend to abduct him specifically because of his superior scientific knowledge, to exploit his mind for their own civilization's benefit. Fleeing across the countryside, Douglas is pursued by an escalating series of surreal lures and threats (a bar of gold, a decoy woman, an illusory roadside cafe, a corrosive net descending from the sky) until he is finally captured. Ascending toward the beings' realm, comforted by the flattering thought that he alone was chosen for his exceptional mind, Douglas overhears the two enormous figures' unguarded thoughts — 'The biggest yet. What a catch!' — and realizes, an instant before being dropped onto what looks unmistakably like a frying pan, that he was never valued for his intellect at all. He was simply the biggest fish in the pond.",
+
+    "structure": {
+      "form": "short story in three movements: escalating supernatural encounters, an academic committee's grandiose theorizing, and the literalizing reveal",
+      "movements": [
+        "Douglas is stalked by an enormous eye and face, framed by himself and his colleagues as evidence of interdimensional, godlike observers.",
+        "Fleeing across the state, Douglas is lured and threatened by a series of illusions (gold, a decoy woman, a phantom cafe) that grow more sophisticated and inescapable.",
+        "Captured in a descending net, Douglas ascends toward the beings' realm still flattering himself that his intellect made him a chosen target — until their unguarded thoughts reveal he was simply fishing bait, about to be cooked."
+      ],
+      "point_of_view": "third person close to Douglas throughout, so the reader shares fully in his and his colleagues' increasingly elaborate, self-flattering theorizing right up to the moment it is punctured.",
+      "central_device": "An escalating academic misreading of ordinary predation (fishing) as cosmic, meaning-laden abduction, sustained seriously and sympathetically until a single overheard thought collapses the entire framework in the story's final line."
+    },
+
+    "characters": [
+      { "name": "Professor Anthony Douglas", "role": "protagonist, nuclear physicist", "note": "His vanity is the story's real subject — his terror gradually curdles into a kind of flattered acceptance ('a compliment... his skill and knowledge, over everything else') that makes the story's final revelation land as a joke at his expense rather than a tragedy." },
+      { "name": "Bill and Jean Henderson", "role": "faculty colleagues", "note": "Their academic speculation (Jean's child psychology, Bill's biology) builds an increasingly confident, cross-disciplinary theory entirely out of insufficient evidence, mirroring Douglas's own overconfidence in his own significance." },
+      { "name": "Professor Milton Erick", "role": "mathematics department head", "note": "Supplies the story's most elaborate pseudo-scientific justification (multiple coexisting universe configurations) for what will ultimately prove to be nothing more exotic than someone fishing." },
+      { "name": "The two enormous beings", "role": "the 'gods'", "note": "Never given any interiority beyond two brief, thoroughly mundane exclamations about the size of their catch — the story's entire cosmic apparatus collapses into the register of a fishing trip the instant they are allowed to speak." }
+    ],
+
+    "settings": [
+      { "name": "The Colorado Rockies", "note": "Explicitly linked by the characters themselves to mountaintop religious revelation (Sinai, Olympus, Tibet), a theory the story validates only to undercut by revealing the 'revelation' as an act of fishing." }
+    ],
+
+    "motifs": [
+      "Escalating academic theorizing that becomes more elaborate and confident precisely as it grows more wrong",
+      "Vanity as a survival-defeating trait — Douglas's acceptance of his own supposed importance leaves him passive rather than desperate at the moment of capture",
+      "A mountaintop abduction narrative deliberately built to evoke religious revelation, then revealed as literal fishing",
+      "A single overheard, unguarded thought ('what a catch') collapsing an entire elaborately constructed cosmology in one line",
+      "A protagonist whose own field (nuclear physics, presumably a byword for rigorous empiricism) is exactly what makes him susceptible to over-theorizing his own situation"
+    ],
+
+    "significance": "The story's comic reveal works because it takes its characters' theorizing completely seriously for almost its entire length — the mountaintop-religion theory, the parasitic-culture theory, the flattering idea that Douglas was selected for his unique mind, are all developed with genuine narrative weight before being punctured by two words of interior alien monologue. The joke is ultimately at the expense of human self-importance broadly: even a brilliant nuclear physicist, applying his best analytical faculties to an inexplicable situation, cannot escape the anthropocentric assumption that whatever singles him out must be about him specifically, rather than being an accident of scale (he is simply the largest specimen in the area) with no meaning attached at all.",
+
+    "closing_note": "The story's final image — Douglas falling toward something 'almost like a frying pan' — replaces the entire preceding cosmology of gods, abduction, and chosen significance with the flattest possible mundane explanation, delivered as a punchline rather than a horror beat."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Moses", "entity_id": "TERM_moses", "count": 1, "distinctiveness": 25.48, "note": "Invoked directly in the characters' mountaintop-revelation theorizing, before the story's final reveal retroactively deflates the comparison." },
+      { "label": "Gods", "entity_id": "TERM_gods", "count": 2, "distinctiveness": 11.53 },
+      { "label": "Cosmic", "entity_id": "TERM_cosmic", "count": 2, "distinctiveness": 11.21 }
+    ],
+    "names_matched": ["NAME_laura"],
+    "thematic_links_proposed": [
+      { "theme": "alien-contact", "basis": "an escalating, seemingly cosmic abduction narrative that collapses, in its final line, into a mundane, non-meaningful act of alien fishing" },
+      { "theme": "delusions", "basis": "an academic committee's increasingly elaborate and self-flattering theory of the protagonist's cosmic significance, sustained with full narrative sympathy until a single overheard detail punctures it entirely" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No commentary by Dick on this specific story was found in this evidence pass.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is there documented commentary from Dick on this story's comic deflation of academic over-theorizing, given how often his more serious fiction takes the opposite tack (validating paranoid pattern-recognition as correct)?",
+    "Is the mountaintop-religion theory floated by the faculty characters ever discussed by critics as an early, comic version of ideas Dick treats much more seriously in his later gnostic writing?",
+    "Is there secondary criticism comparing this story's 'human as prey, not prize' twist to similar reversals elsewhere in mid-century SF?"
   ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 4,866 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 found in this evidence pass.",
+    "layer_4_criticism": "0 found in this evidence pass.",
+    "related_dossiers": "none identified.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Bill",
-    "entity_id": "TERM_bill",
-    "count": 20,
-    "distinctiveness": 28.56
-   },
-   {
-    "label": "Moses",
-    "entity_id": "TERM_moses",
-    "count": 1,
-    "distinctiveness": 25.48
-   },
-   {
-    "label": "Gods",
-    "entity_id": "TERM_gods",
-    "count": 2,
-    "distinctiveness": 11.53
-   },
-   {
-    "label": "Cosmic",
-    "entity_id": "TERM_cosmic",
-    "count": 2,
-    "distinctiveness": 11.21
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 6,
-    "distinctiveness": 4.72
-   },
-   {
-    "label": "Girl",
-    "entity_id": "TERM_girl",
-    "count": 8,
-    "distinctiveness": 3.52
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 10,
-    "distinctiveness": 3.34
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 8,
-    "distinctiveness": 3.08
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 6,
-    "distinctiveness": 3.06
-   },
-   {
-    "label": "Star",
-    "entity_id": "TERM_star",
-    "count": 1,
-    "distinctiveness": 2.49
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 7,
-    "distinctiveness": 2.42
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 1,
-    "distinctiveness": 1.9
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 4,
-    "distinctiveness": 1.85
-   },
-   {
-    "label": "Being",
-    "entity_id": "TERM_being",
-    "count": 4,
-    "distinctiveness": 1.55
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 3,
-    "distinctiveness": 1.53
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "0 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
 }
