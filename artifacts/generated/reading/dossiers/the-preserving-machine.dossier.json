@@ -1,222 +1,149 @@
 {
- "artifact_id": "ART_DOSSIER_THE_PRESERVING_MACHINE",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-preserving-machine",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Preserving Machine",
-  "slug": "the-preserving-machine",
-  "form": "story",
-  "word_count": 3483,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 5012,
-   "line_end": 5209,
-   "word_count": 3483,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Beethoven",
-    "name_id": "NAME_beethoven",
-    "mentions": 11
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Rome",
-    "entity_id": "TERM_rome",
-    "count": 2,
-    "distinctiveness": 40.46
-   },
-   {
-    "label": "Beethoven",
-    "entity_id": "TERM_beethoven",
-    "count": 1,
-    "distinctiveness": 23.63
-   },
-   {
-    "label": "Creator",
-    "entity_id": "TERM_creator",
-    "count": 1,
-    "distinctiveness": 18.87
-   },
-   {
-    "label": "Golden",
-    "entity_id": "TERM_golden",
-    "count": 3,
-    "distinctiveness": 13.41
-   },
-   {
-    "label": "Garden",
-    "entity_id": "TERM_garden",
-    "count": 1,
-    "distinctiveness": 4.77
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 4,
-    "distinctiveness": 4.39
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 7,
-    "distinctiveness": 3.76
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 1,
-    "distinctiveness": 2.65
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 4,
-    "distinctiveness": 2.58
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 5,
-    "distinctiveness": 2.33
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 7,
-    "distinctiveness": 2.08
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 5,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
-    "author": null,
+  "artifact_id": "ART_DOSSIER_THE_PRESERVING_MACHINE",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-preserving-machine",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Preserving Machine",
+    "slug": "the-preserving-machine",
+    "form": "short story",
+    "word_count": 3483,
+    "lane": "A",
+    "first_publication": "The Magazine of Fantasy & Science Fiction, June 1953",
+    "note": "Later the title story of the 1969 collection.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 5012,
+      "line_end": 5209,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Doc Labyrinth, convinced that civilisation is going the way of Rome and that a dark age is coming, worries that music is the most perishable of the things that will be lost. He imagines a score burrowing out of a bombed museum like a mole, and concludes that if music were given the ordinary survival instinct of an animal it might live. A midwestern university builds him the Preserving Machine, which converts scores into creatures. The results are nothing he predicted: a mozart bird with flowing plumage, a beethoven beetle, a silly adolescent schubert animal, a flat many-legged brahms insect, a large ill-tempered wagner animal, a flock of round bach bugs. He cannot control what form anything takes, and is frightened by the impersonal law that seems to be doing the shaping. He releases them into the woods behind his house and stops going in. The narrator persuades him to look. They find the schubert animal dead and torn open, and the wagner animal changed almost past recognition into something like a heavy coyote. A bach bug, now grown poisoned spines, stings Labyrinth's hand. He notes with relief that he made them all neuter, so there will be no second generation. They put the altered bug back through the Machine to hear what it has become. Labyrinth plays the resulting score: it is hideous, distorted, meaningless, and he tears it up. Driving home in the dark, the narrator sees the beethoven beetle at the base of a sycamore, building something out of mud, which goes inside and shuts its door.",
+
+    "structure": {
+      "form": "frame narrative — a first-person narrator draws the story out of Labyrinth in his garden, then accompanies him into the woods",
+      "movements": [
+        "The frame: Labyrinth in his lawn chair, the beetle crossing his blanket, the reluctant beginning.",
+        "The retrospect: the vision of the burrowing score, the Machine's construction, the parade of creatures.",
+        "The woods: the dead schubert animal, the altered wagner animal, the stinging bach bug.",
+        "The test: the bug fed back through the Machine, the ruined fugue, the score torn up.",
+        "The coda: the beetle building, alone, in the dark."
+      ],
+      "point_of_view": "first person, by an unnamed narrator who is sceptical, practical and largely unmoved — which keeps Labyrinth's grief at a distance the reader has to close.",
+      "narrative_device": "The reversibility test is the story's proof. Because the Machine can run backwards, the damage can be heard. Without that, the creatures' adaptation would be merely interesting."
+    },
+
+    "characters": [
+      { "name": "Doc Labyrinth", "role": "the inventor", "note": "A reader with too much time, grieving in advance for things not yet lost. His name is not subtle and the story does not pretend otherwise. He is defeated not by failure but by success." },
+      { "name": "The narrator", "role": "friend and witness", "note": "Unnamed, faintly impatient, supplies the word 'adaptation' and the analogy of the dog turned wolf. He gets the last image and does not comment on it." },
+      { "name": "The creatures", "role": "the transformed scores", "note": "mozart bird, beethoven beetle, schubert animal, brahms insect, wagner animal, bach bugs, stravinsky bird. Each form is a judgement on its composer that the story declines to explain." }
+    ],
+
+    "settings": [
+      { "name": "Labyrinth's garden and house, Los Angeles", "note": "A clear cold day, a barbecue pit, a small forest behind the house giving 'the illusion of wilderness within the very limits of the city'." },
+      { "name": "The woods", "note": "Where the creatures were released and where the story's actual events have already happened, unobserved." },
+      { "name": "The cellar", "note": "Where the Machine stands, by the laundry tubs — the instrument of preservation kept among the household plumbing." }
+    ],
+
+    "motifs": [
+      "Preservation that destroys the thing preserved by making it fit to survive",
+      "The creator who loses ownership of what he has made — the story states the Eden comparison outright",
+      "Neutering as the one act of foresight, which guarantees the whole effort ends with these animals",
+      "Reversibility as proof: the ruined fugue is the evidence, and it is destroyed immediately",
+      "The beetle building a door and shutting it — the creatures have purposes now, and none of them are his"
+    ],
+
+    "significance": "The story's argument is not that the plan failed but that it worked. Labyrinth wanted music to acquire the instinct of survival and it did, with exactly the consequences that instinct has: predation, adaptation, poison, the strong altering past recognition and the gentle torn open. The narrator's Eden aside makes the theological reading explicit — that a creator who gives his creatures autonomy loses the right to their form — and the story is unusually direct in stating its own theme rather than leaving it in the machinery. What survives the didacticism is the last image, which is given without gloss: the beetle, alone in the dark, building something and closing the door on being watched.",
+
+    "closing_note": "The final creature is not degraded. It is occupied. That is the more disquieting outcome and the story ends on it without saying so."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Rome", "entity_id": "TERM_rome", "count": 2, "distinctiveness": 40.46, "note": "Labyrinth's founding analogy: that our civilisation is going the way of Rome, and a period of darkness will follow." },
+      { "label": "Beethoven", "entity_id": "TERM_beethoven", "count": 2, "distinctiveness": 23.63 },
+      { "label": "Creator", "entity_id": "TERM_creator", "count": 1, "distinctiveness": 18.87, "note": "Sits on the story's explicit Eden comparison." },
+      { "label": "Golden", "entity_id": "TERM_golden", "count": 3, "distinctiveness": 13.41 },
+      { "label": "Garden", "entity_id": "TERM_garden", "count": 3, "distinctiveness": 4.77 }
+    ],
+    "names_matched": ["NAME_beethoven"],
+    "thematic_links_proposed": [
+      { "theme": "religion-gnosis", "basis": "the narrator states the Eden parallel directly — a creator watching his creatures alter past his intention, and feeling humiliation" },
+      { "theme": "reality-breakdown", "basis": "the reversibility test makes the corruption audible; the fugue comes back as noise" },
+      { "theme": "empire-control", "basis": "the framing premise is civilisational collapse and the loss of an inheritance" },
+      { "theme": "time", "basis": "the whole undertaking is an attempt to move fragile things across an interval of darkness" }
+    ]
+  },
+
+  "pkd_on_this_work": {
     "lane": "E",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 998,
-      "quote": "…previous one. The reason: both stories are related, and I feel sure you will want to see them together. Now, “The Preserving Machine” is long, contemplative, and philosophical. THE SELECTED LETTERS OF PHILIP K. DICK 21 “Left Shoe, My Foot…"
-     },
-     {
-      "line": 1178,
-      "quote": "…18, 1953_ ## Dear Mr. Boucher, Thank you very much for the very nice things you said in the printing of “The Preserving Machine.” I was overcome with delight. I was also overcome with delight to hear the Richard Tauber records on your pr…"
-     },
-     {
-      "line": 1292,
-      "quote": "…ed to me when you mentioned that you 34 THE SELECTED LETTERS OF PHILIP K. DICK picked up the original on “The Preserving Machine.” I have a ms of at least one and I think two previous versions; one is longer and one is shorter than the fi…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 37,
-      "quote": "…le (1988) Nick and the Glimmung (1988) The Dark-Haired Girl (1988) Galactic Pot-Healer (1969) Ubik (1969) The Preserving Machine (1969) A Maze of Death (1970) Our Friends from Frolix 8 (1970) We Can Build You (1972) The Book of Philip K.…"
-     },
-     {
-      "line": 4694,
-      "quote": "…Out in the Garden.” Fantasy August ’52 “Beyond Lies the Wub.” Planet Stories, July ’52 “Roog.” F&SF Feb. ’53 “The Preserving Machine.” F&SF, June ’53 I would also recommend a story by another s-f author, Rog Phillips, which I’ve long felt sho…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 7,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
+    "total_mentions": 5,
+    "summary": "Dick's own remarks are about placement and craft rather than meaning, and he characterises the story's register precisely.",
+    "evidence": [
+      {
+        "source": "Selected Letters",
+        "line": 998,
+        "quote": "\"The Preserving Machine\" is long, contemplative, and philosophica…",
+        "reading": "Dick's own generic placement of the story, offered to an editor while submitting it alongside a related piece. He is flagging that it is not an action story."
+      },
+      {
+        "source": "Selected Letters — to Anthony Boucher, 1953",
+        "line": 1178,
+        "quote": "Thank you very much for the very nice things you said in the printing of \"The Preserving Machine.\" I was overcome with delight.",
+        "reading": "Boucher wrote an introductory note for the F&SF printing. That note is a piece of contemporary reception not yet in the archive."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 4694,
+        "quote": "\"The Preserving Machine.\" F&SF, June '53",
+        "reading": "From a list Dick compiled of stories he recommended, alongside 'Out in the Garden', 'Beyond Lies the Wub' and 'Roog' — his own early selection."
+      }
+    ]
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 6,
-    "quotes": [
-     {
-      "line": 5385,
-      "quote": "…mber It for You Wholesale.” (Since Phil’s death, this film project has become a reality-see the discussion of The Preserving Machine in Chronological Survey.) There were even occasional Hollywood parties, such as the one thrown for prospectiv…"
-     },
-     {
-      "line": 5453,
-      "quote": "…this survey by way of the separate collections-A Handful of Darkness (1955), The 418 Variable Man (1957), The Preserving Machine (1969), The Book of Philip K. Dick (1972), The Best of Philip K. Dick (1977), The Golden Man (1980), and I Ho…"
-     },
-     {
-      "line": 5609,
-      "quote": "…retrogressing world; Ubik, written a year later, would remedy that failure with a vengeance. Rating: 5. 40. The Preserving Machine (w. 1953-66, p. 1969). This fine story collection, assembled and edited by the late Terry Carr, won Phil’s pr…"
-     },
-     {
-      "line": 5609,
-      "quote": "…lip K. Dick (1977) and The Golden Man (1980) (see entries)-each of which includes stories that also appear in The Preserving Machine. But The Preserving Machine is the only one to feature “We Can Remember It for You Wholesale” (1966), a loopi…"
-     },
-     {
-      "line": 5609,
-      "quote": "…olden Man (1980) (see entries)-each of which includes stories that also appear in The Preserving Machine. But The Preserving Machine is the only one to feature “We Can Remember It for You Wholesale” (1966), a looping tale of memory implants a…"
-     },
-     {
-      "line": 6097,
-      "quote": "…ith Kleo Mini, February 1986. SF stories and novels: Unpublished typed MS. “Foreword” to PKD story collection The Preserving Machine (1969), in PKD Estate Archives. - 89-90 Wollheim on SF, PKD, their 1969 encounter, and life at Ace: Author’…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 1332,
-      "quote": "…S2); spiders: ‘Expendable’ (1953, CS1); shoes: ‘The Short Happy Life of the Brown Oxford’ (1954, CS1); Bach: ‘The Preserving Machine’ (1953, CS1). 15 See also ‘Autofac’ (1955, CS4), discussed in Chapter 9, and later in this chapter. 94 EX…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 7,
+    "summary": "Cited more often for the collection it names than for itself.",
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1332,
+        "quote": "Bach: \"The Preserving Machine\" (1953, CS1)",
+        "reading": "Palmer files it in a list of stories organised by their central object — spiders, shoes, Bach — treating the conceit as the unit of interest."
+      },
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 5609,
+        "quote": "The Preserving Machine (w. 1953-66, p. 1969). This fine story coll…",
+        "reading": "Sutin's chronological survey rates the 1969 collection rather than the story. The dates given are the collection's span, not the story's composition."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Boucher wrote something in the F&SF printing that delighted Dick. Is the June 1953 issue's introductory note recoverable? It would be among the earliest critical notice of Dick's work.",
+    "Dick mentions holding manuscripts of an earlier state — 'I have a ms of at least one and I think two' — in a letter about the original of this story. What were the earlier versions?",
+    "The story names seven composers and gives each a distinct creature. Is the mapping systematic — plumage for Mozart, dignity for Beethoven, temper for Wagner — or opportunistic? Worth setting against Dick's documented musical knowledge."
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "5 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "7 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 3,483 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "5 capitalised citations across the letters.",
+    "layer_4_criticism": "7 across Palmer and Sutin.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

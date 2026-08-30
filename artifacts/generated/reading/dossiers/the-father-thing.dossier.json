@@ -1,264 +1,178 @@
 {
- "artifact_id": "ART_DOSSIER_THE_FATHER_THING",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-father-thing",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Father-thing",
-  "slug": "the-father-thing",
-  "form": "story",
-  "word_count": 4422,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 29658,
-   "line_end": 29941,
-   "word_count": 4422,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Pinky",
-    "name_id": "NAME_pinky",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Father",
-    "entity_id": "TERM_father",
-    "count": 54,
-    "distinctiveness": 34.36
-   },
-   {
-    "label": "Tears",
-    "entity_id": "TERM_tears",
-    "count": 2,
-    "distinctiveness": 11.1
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 6,
-    "distinctiveness": 5.19
-   },
-   {
-    "label": "Tony",
-    "entity_id": "TERM_tony",
-    "count": 3,
-    "distinctiveness": 5.19
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 11,
-    "distinctiveness": 4.66
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 7,
-    "distinctiveness": 3.93
-   },
-   {
-    "label": "Garden",
-    "entity_id": "TERM_garden",
-    "count": 1,
-    "distinctiveness": 3.76
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 6,
-    "distinctiveness": 3.05
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 6,
-    "distinctiveness": 2.21
-   },
-   {
-    "label": "Brain",
-    "entity_id": "TERM_brain",
-    "count": 2,
-    "distinctiveness": 2.18
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 7,
-    "distinctiveness": 1.81
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 1,
-    "distinctiveness": 1.69
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 15,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
+  "artifact_id": "ART_DOSSIER_THE_FATHER_THING",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-father-thing",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Father-thing",
+    "slug": "the-father-thing",
+    "form": "short story",
+    "word_count": 4422,
+    "lane": "A",
+    "first_publication": "The Magazine of Fantasy & Science Fiction, December 1954",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 29658,
+      "line_end": 29941,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Eight-year-old Charles Walton is sent to fetch his father for dinner and comes back unable to say which of them to fetch: there are two, and they look alike. The one that comes in to eat is the father-thing. Charles finds his real father's remains stuffed in the garage trash barrel — dry, translucent, an emptied skin, the insides eaten and the place taken. He escapes out of his bedroom window and recruits Tony Peretti, a fourteen-year-old who has beaten up every boy in the neighbourhood and who responds to the story with immediate, matter-of-fact belief. Watching through the window, they see the father-thing go slack the moment Charles's mother leaves the room — it is operated from outside. They fetch Bobby Daniels, a nine-year-old who is 'the best' at finding, and he locates the controlling organism under a stone by the garage: a foot-long jointed bug. It escapes down its tunnel. The father-thing catches Charles and drags him toward the bamboo behind the garage, where a mother-thing is maturing in its cocoon, more larvae are newly laid, and a Charles-thing is already dark and ready. The father-thing begins tearing the cocoon open so the Charles-thing can feed on the boy — and then convulses and dies. Daniels has poured the drum of kerosene down the bug's tunnel. The three boys go looking in the driveway for the matches to burn the rest.",
+
+    "structure": {
+      "form": "continuous short story in five scenes, moving from dinner table to the ground behind the garage",
+      "movements": [
+        "The dinner table: Charles cannot say which father to fetch; the reader sees the alien surface for an instant and it is gone.",
+        "The trash barrel: the discovery of the emptied skin, and the boy's flight over the roof.",
+        "Recruiting Peretti: the story told to a fourteen-year-old, and believed.",
+        "The window and the search: the father-thing goes slack; the controlling bug is found and gets away.",
+        "The bamboo: the nursery — mother-thing, larvae, and a Charles-thing already ripe — and the kerosene."
+      ],
+      "point_of_view": "third person, close to Charles, with two deliberate exceptions where the narration steps back to the parents' view. The story never explains the aliens beyond what three boys can work out by looking.",
+      "note_on_scale": "The horror escalates by inventory rather than by event: one father, then a mother in progress, then a row of larvae, then a copy of the boy himself. Nothing has to happen for the situation to get worse."
+    },
+
+    "characters": [
+      { "name": "Charles Walton", "role": "protagonist, eight years old", "note": "Correctly perceives the substitution and is disbelieved and punished for saying so. His knowledge of the ground — 'nobody knew the way like he did' — is what keeps him alive." },
+      { "name": "The father-thing", "role": "the substitute", "note": "Its menace is entirely parental. It never threatens; it disciplines. 'This is for your own good. I know best, Charles.' The horror runs on the ordinary authority of a father over a boy." },
+      { "name": "June Walton", "role": "mother", "note": "Notices everything — the tension, the child's fear, that her husband is 'so strange' — and is steered away from acting on any of it. She is being farmed and does not know it." },
+      { "name": "Ted Walton", "role": "the real father", "note": "Present only as a discarded skin. The reader never meets him." },
+      { "name": "Tony Peretti", "role": "fourteen, the neighbourhood bully", "note": "The story's structural surprise: he believes Charles at once, takes charge, arms himself, and is the one who shoots the thing in the eye. Competence arrives from the least likely quarter." },
+      { "name": "Bobby Daniels", "role": "nine, 'the best at finding'", "note": "Finds the controlling bug and, unprompted, solves the problem with kerosene — a method he attributes to his family's practice against mosquitoes in Virginia. He is the one who actually wins." }
+    ],
+
+    "settings": [
+      { "name": "The Walton house and dinner table", "note": "The alien is first detectable at a meal, in the middle of ordinary domestic complaint about work and manners." },
+      { "name": "The garage", "note": "Where the substitution happened and where the remains are hidden. The father-thing repeatedly tries to get Charles back inside it." },
+      { "name": "The bamboo and debris between garage and house", "note": "The nursery. The story's real discovery: the household has been colonised from its own neglected ground, among rotting boards and garbage." }
+    ],
+
+    "motifs": [
+      "The emptied skin — survival of the outside with the inside eaten out",
+      "Discipline as threat: every menacing line the father-thing speaks is a thing a father might legitimately say",
+      "Children's competence against adult incomprehension; the adults are never told and never help",
+      "Being controlled from outside — the body goes slack the moment no one is watching",
+      "The domestic ground itself as the breeding site: the horror grows in the household's own uncleared rubbish"
+    ],
+
+    "significance": "The premise is the one Jack Finney would publish as The Body Snatchers the following year, and the family resemblance is noted in the scholarship. What is Dick's own is the register: the substitute is frightening not because it is inhuman but because it is exactly as authoritative as a father is entitled to be, and the boy's testimony carries no weight against it. The story's engine is a child who is right and cannot be heard — the same structure as 'Roog', with the dog replaced by a son.",
+
+    "textual_note": "This story exists in at least three states. Dick sent Boucher and McComas a rewrite of eleven new pages with a new ending at their suggestion, and then, unprompted, a second alternative ending four pages shorter. Which ending stands in the published text, and what the discarded ones did, is a real editorial question this dossier cannot settle from the collected text alone."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Father", "entity_id": "TERM_father", "count": 41, "distinctiveness": 34.36 },
+      { "label": "Tears", "entity_id": "TERM_tears", "count": 3, "distinctiveness": 11.1 },
+      { "label": "Darkness", "entity_id": "TERM_darkness", "count": 4, "distinctiveness": 5.19 },
+      { "label": "House", "entity_id": "TERM_house", "count": 9, "distinctiveness": 4.66 },
+      { "label": "Garden", "entity_id": "TERM_garden", "count": 2, "distinctiveness": 3.76 }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "androids", "basis": "a simulacrum indistinguishable from the person it replaced, operated from outside" },
+      { "theme": "authentic-human", "basis": "the story turns on a criterion of the genuine that only a child can apply" },
+      { "theme": "suburbia-domesticity", "basis": "the colonisation is domestic, and breeds in the household's own uncleared ground" },
+      { "theme": "betrayal", "basis": "the betrayer wears the face of the person most owed trust" }
+    ]
+  },
+
+  "pkd_on_this_work": {
     "lane": "E",
-    "mention_count": 13,
-    "quotes": [
-     {
-      "line": 89,
-      "quote": "…to fan letters—including letters from a whole class full of students who had been assigned to read his story “The Father Thing”—are good examples. So too is his donating of all the royalties for the Polish edition of _Ubik_ to the Warsa…"
-     },
-     {
-      "line": 4820,
-      "quote": "…ich has been reissued. In it there’s a list of a few other nov­ els of mine. You should get it soon. I wrote “The Father Thing” years ago, back in the ’fifties, as I recall. Origi­ nally it was in a magazine. Last week an editor from Fr…"
-     },
-     {
-      "line": 4822,
-      "quote": "…s country; it’s been reprinted again and again, he said. In answer to your questions.. .1 got the idea for “The Father Thing” from the fact that I was always afraid of my father, but for reasons I couldn’t figure out. He always seemed…"
-     },
-     {
-      "line": 4912,
-      "quote": "…vels and almost 200 stories (I forget the exact figure). I presume that the story of mine that you read is “The Father-Thing,” right? Well, there is a perfect example of a story based on a fantasy of mine: that my father wasn’t really…"
-     },
-     {
-      "line": 4958,
-      "quote": "…ar_ Brad, Thank you for your most astute letter. Yes, years ago when I was writing such fantasy stories as “The Father Thing” I wrote several of that sort...you know, it was twenty years ago, I just realized! There was a market for th…"
-     },
-     {
-      "line": 4962,
-      "quote": "…ed it or not. I liked it, but not as much as fantasy. You are quite right in the two points you make about “The Father Thing,” first, that it makes its point without bloody events, and second that it’s set in the midst of the everyday…"
-     },
-     {
-      "line": 4976,
-      "quote": "…P K. DICK ## [ADDRESSEE UNKNOWN] _October 11, 1975_ ## Dear Jeff, Thanks for complimenting my story, “The Father-Thing,” and thanks, too, for writing me about it. That’s an early story of mine, written about twenty years ago. I…"
-     },
-     {
-      "line": 4976,
-      "quote": "…am really very pleased to know that it’s still being read. I believe I’ve seen the book that you have, with “The Father-Thing” in it. It’s a good collection. You raise an important point: where does an author get his ideas? People ask…"
-     },
-     {
-      "line": 4992,
-      "quote": "…have wonderful handwriting, if I may say so. 233 THE SELECTED LETTERS OF PHILIP K. DICK As to my story “The Father-Thing,” the idea really came to me when I was a kid. My parents were divorced, and I sometimes didn’t see my father…"
-     },
-     {
-      "line": 5842,
-      "quote": "…ite my novel in twenty days. And anyhow it’s a perfect novel as it already is. It was years ago that I wrote “The Father Thing,” back around 1954 as I recall. I had just started selling stories and was living in Berkeley, California, an…"
-     },
-     {
-      "line": 5850,
-      "quote": "…ry, and by doing such other things as illustrating it. As a matter of fact, I wrote two different endings to “The Father Thing” myself, the one which you read, and a longer one which I wasn’t satisfied with. I had a great deal of diffic…"
-     },
-     {
-      "line": 6334,
-      "quote": "…cond Variety” is one of my best. Could we include that? And maybe drop out “The Golden Man,” which I detest? “The Father-Thing” is in that two-volume Tony Boucher Golden whatever set which the S-F book club still peddles after all these…"
-     }
-    ],
-    "quotes_truncated": 1
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 1208,
-      "quote": "…_September 2, 1953_ ## J. FRANCIS McCOMAS] ## Dear Mr. Boucher and Mr. McComas, Here is the rewrite on “The Father-Thing.” Eleven new pages. A new end­ ing, as you suggested, and reworked material throughout: pages I thought could…"
-     },
-     {
-      "line": 1226,
-      "quote": "…# Dear Mr. Boucher and Mr. McComas, I hope this won’t foul everything up, but here is _another_ ending for “The Father-Thing.” A shorter version: knocks off four pages. Eliminates consider­ able material, and the ending is more powerf…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 7,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
+    "total_mentions": 15,
+    "summary": "Dick gave a direct biographical origin for the story, and the letters document an unusually fussy revision history.",
+    "evidence": [
+      {
+        "source": "Selected Letters",
+        "line": 4822,
+        "quote": "I got the idea for \"The Father Thing\" from the fact that I was always afraid of my fat…",
+        "reading": "An explicit statement of origin in fear of his own father. Rare directness from Dick about a story's source, and the sentence is cut off in the captured window — the full passage should be read before it is quoted."
+      },
+      {
+        "source": "Selected Letters — to Boucher and McComas, 2 September 1953",
+        "line": 1208,
+        "quote": "Here is the rewrite on \"The Father-Thing.\" Eleven new pages. A new ending, as you suggested",
+        "reading": "The published ending was written at editorial request. The story as read is not the story first submitted."
+      },
+      {
+        "source": "Selected Letters — to Boucher and McComas",
+        "line": 1226,
+        "quote": "here is another ending for \"The Father-Thing.\" A shorter version: knocks off four pages.",
+        "reading": "A third state, offered unprompted. At least three endings existed."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 4820,
+        "quote": "I wrote \"The Father Thing\" years ago, back in the 'fifties, as I recall.",
+        "reading": "Late-career recollection; he notes it has been reprinted repeatedly and that a class of students wrote to him about it."
+      }
+    ]
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 5,
-    "quotes": [
-     {
-      "line": 1416,
-      "quote": "…eves something more hopeful it is, as we shall see, neither a man nor a woman but a child.[23] So it is in ‘The Father-Thing’ (1954, CS3), an aliens-are-amongst-us horror story whose setting is domestic. A young boy, Charlie, discover…"
-     },
-     {
-      "line": 1418,
-      "quote": "…‘good at finding’. Together they locate the aliens, and destroy them with several gallons of kerosene.[24] ‘The Father-Thing’ hovers between metaphorical and literal; early in the story Charles is worried because his father is out in…"
-     },
-     {
-      "line": 1418,
-      "quote": "…ss of the story is in its depiction of young Charlie as an ethically responsible person, and in this respect ‘The Father-Thing’ mixes the fantastic and the ethically discursive. In fantasies, characters tend to be > 23 In Dick’s novel…"
-     },
-     {
-      "line": 1430,
-      "quote": "…is not only looking for ways to bring his stories to a close, but also challenging the process of fantasy. ‘The Father-Thing’ and ‘Human Is’ could be seen as counterparts, one treating an evil substitution, the other a benign one. Dic…"
-     },
-     {
-      "line": 1442,
-      "quote": "…f unless the males who are to do the competing and fighting learn the appropriate values from their fathers. ‘The Father-Thing’ is one of a series of stories exploring whether children will be destroyed by their parents, or their parent…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
-    "author": "Anne R. Dick",
-    "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 2633,
-      "quote": "…easons, she let him stay. Did she think that Earl would be a father substitute for Phil and tell Phil this? (“The Father-Thing”.) Earl wasn’t the only man who “wandered” in the early 1900s. Life could be bleak, and some people in rura…"
-     },
-     {
-      "line": 3055,
-      "quote": "…ruin be the fabled green Earth? “Elwood Builds an Ark” in his backyard. “Prominent Author” writes the Bible. “The Father-Thing” was a forerunner of Jack Finney’s _Invasion of the Body Snatchers_ . In July 1955, Phil and Kleo took a ca…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 7,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Philip K. Dick: Exhilaration and Terror of the Postmodern",
+        "line": 1416,
+        "quote": "if [Dick] believes something more hopeful it is, as we shall see, neither a man nor a woman but a child",
+        "reading": "Palmer places the story in an argument about where Dick locates hope. The reading is borne out by the text: every effective actor here is under fifteen."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1418,
+        "quote": "\"The Father-Thing\" hovers between metaphorical and literal",
+        "reading": "Palmer also singles out the depiction of the boy as 'an ethically responsible person', and reads the story as mixing the fantastic with the ethically discursive."
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "line": 3055,
+        "quote": "\"The Father-Thing\" was a forerunner of Jack Finney's Invasion of…",
+        "reading": "Priority claim over The Body Snatchers (1955). Worth checking against publication dates rather than accepted on assertion."
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "line": 2633,
+        "quote": "Did she think that Earl would be a father substitute for Phil and tell Phil this? (\"The Father-Thing\".)",
+        "reading": "A biographical reading tying the story to a specific figure in Dick's childhood household. Anne Dick's proximity is both what makes this valuable and what makes it interested testimony."
+      }
+    ]
+  },
+
+  "contradictions": [
+    {
+      "type": "interpretive",
+      "summary": "Two different origins are offered for the same story.",
+      "claim_a": { "lane": "E", "source": "Dick, Selected Letters l.4822", "text": "fear of his own father" },
+      "claim_b": { "lane": "C", "source": "Anne R. Dick, The Search for Philip K. Dick", "text": "Earl as a father substitute in the household" },
+      "editorial_status": "unresolved_by_design",
+      "note": "Not mutually exclusive, and neither is disinterested: Dick is explaining himself to a correspondent, Anne Dick is reconstructing a marriage she was inside. Both kept."
+    }
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "15 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "7 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "open_questions": [
+    "Three endings are documented in the letters. Which is in the collected text, and are the discarded pages extant in the Boucher correspondence or the manuscript record?",
+    "Anne Dick calls the story a forerunner of Invasion of the Body Snatchers. Finney's serial ran in Collier's from November 1954 and this story appeared in F&SF that December — the claim needs checking against exact dates before it is repeated.",
+    "The story is unusually specific about its three boys' ages, ethnicities and competences. Is there anything in the letters about the Daniels character, who solves the problem and is the only one given a family practice and a home state?"
+  ],
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 4,422 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "15 capitalised citations across the letters.",
+    "layer_4_criticism": "7 across Palmer and Anne R. Dick.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

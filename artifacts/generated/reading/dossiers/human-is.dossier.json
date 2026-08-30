@@ -1,249 +1,169 @@
 {
- "artifact_id": "ART_DOSSIER_HUMAN_IS",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "human-is",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Human Is",
-  "slug": "human-is",
-  "form": "story",
-  "word_count": 4210,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 22274,
-   "line_end": 22697,
-   "word_count": 4210,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Tears",
-    "entity_id": "TERM_tears",
-    "count": 3,
-    "distinctiveness": 17.49
-   },
-   {
-    "label": "Scanner",
-    "entity_id": "TERM_scanner",
-    "count": 4,
-    "distinctiveness": 13.5
-   },
-   {
-    "label": "Garden",
-    "entity_id": "TERM_garden",
-    "count": 2,
-    "distinctiveness": 7.9
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 2,
-    "distinctiveness": 3.55
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 7,
-    "distinctiveness": 2.7
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 6,
-    "distinctiveness": 2.67
-   },
-   {
-    "label": "Wait",
-    "entity_id": "TERM_wait",
-    "count": 3,
-    "distinctiveness": 2.25
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 9,
-    "distinctiveness": 2.22
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 2,
-    "distinctiveness": 2.07
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 5,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
+  "artifact_id": "ART_DOSSIER_HUMAN_IS",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "human-is",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Human Is",
+    "slug": "human-is",
+    "form": "short story",
+    "word_count": 4210,
+    "lane": "A",
+    "first_publication": "Startling Stories, Winter 1955",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 22274,
+      "line_end": 22697,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Jill Herrick is married to Lester, a toxicologist who develops poisons for the military and who treats warmth, metaphor, food and children as forms of imprecision. He refuses to let her young nephew Gus stay, corrects the boy's name for his kitten, and invites him to the lab to see the animals they use in research. Jill has decided to leave him. Lester goes to Rexor IV, an old dead world, and returns transformed: courteous, delighted by food and weather, playful with Gus, romantic, uninterested in his work — and speaking in a curiously formal, archaic register. Jill's brother Frank, a Clearance lawyer, recognises the pattern. Rexor IV is dying; its inhabitants have for a century migrated by displacing the minds of visitors, and their idea of human speech comes from centuries-old Terran books, which is exactly how they are detected. The real Lester is alive, held in suspension in the Rexorian ruins, and can be recovered — but only if a court accepts that the man in the room is not him, and the only possible evidence is Jill's testimony. Brought to the Clearance Building to give it, she looks at the man holding his coat and ivory-headed cane and says she has noticed no change. She takes his arm and leaves with him. Walking home, she asks his real name; he says she could not pronounce it. She decides she will go on calling him Lester.",
+
+    "structure": {
+      "form": "continuous short story in four movements, built as a reversal",
+      "movements": [
+        "The marriage as it is: Lester's cruelty rendered entirely through small domestic refusals.",
+        "The absence: Jill tells Frank she is leaving; a week of relief.",
+        "The return: the transformation catalogued in detail, and Frank's interrogation of it as evidence.",
+        "The Clearance Building: the testimony withheld, and the walk home."
+      ],
+      "point_of_view": "third person aligned with Jill, except for one scene at Clearance from which she is absent — which is where the reader is given the official account and its full plausibility.",
+      "narrative_device": "The evidence of the alien's presence and the evidence of its goodness are the same evidence. Every detail Frank collects as proof of infiltration — the metaphors, the appetite, the pleasure in weather, the kindness to the child — the reader has already registered as improvement."
+    },
+
+    "characters": [
+      { "name": "Jill Herrick", "role": "protagonist", "note": "Given the entire moral weight of the story in a single refusal. Her decision is not argued for; she simply declines to describe what she has seen." },
+      { "name": "Lester Herrick", "role": "husband, before and after", "note": "Two occupants of one body. The first develops poisons for the military and is credited with the weapon used against Callisto; the second cannot remember what toxicology is." },
+      { "name": "The Rexorian", "role": "the occupant", "note": "Never named — it says the sounds cannot be formed. Its archaic diction is the flaw that identifies it, and the flaw is that it learned humanity from old books." },
+      { "name": "Frank", "role": "Jill's brother, a Clearance lawyer", "note": "Sympathetic, methodical, and entirely on the side of the law. He is the one who works out what has happened, and he is the one his sister defeats." },
+      { "name": "Gus", "role": "Jill's nephew", "note": "The test case. The first Lester will not have him in the house; the second builds him an otter slide." },
+      { "name": "Director Douglas", "role": "Clearance", "note": "Explains the mechanism and confirms the real Lester is recoverable — which is what makes Jill's silence cost something." }
+    ],
+
+    "settings": [
+      { "name": "The Herrick house", "note": "Automated — a stove on a select-list, a robant waiter, conveyor belts from underground storage. Domestic warmth is entirely absent from the machinery and has to be supplied by a person." },
+      { "name": "Rexor IV", "note": "Old, dry, dying, squeezed to a pulp by wind and sun. Never shown; known only by report." },
+      { "name": "The Federal Clearance Building", "note": "Where the story's question is put formally and answered by refusal." }
+    ],
+
+    "motifs": [
+      "Archaic diction as the tell — the alien is caught by being two hundred years out of date, having learned people from novels",
+      "Food and appetite as evidence of a soul; the first Lester wanted intravenous intake made universal",
+      "The kitten called a tiger, and the correction of it — the story's whole ethic in one exchange",
+      "Testimony withheld: the plot is resolved by something a character declines to say",
+      "Naming: she keeps the name and gives up the man"
+    ],
+
+    "significance": "The title is a sentence with its predicate removed, and the story is the argument for what completes it. Dick sets up a case in which every legal, factual and familial consideration points one way — the man is an impostor, the husband is alive and retrievable, the wife's duty is to say so — and then has the criterion of the human turn out to be conduct rather than identity. What makes it more than a fable is that Jill's choice is not costless or clean: she is choosing an occupier over a victim, and the story lets that stand without softening it.",
+
+    "closing_note": "The last exchange is a negotiation over a name. He offers her anything she wishes; she asks only to go on using the name of the man he displaced."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Tears", "entity_id": "TERM_tears", "count": 3, "distinctiveness": 17.49 },
+      { "label": "Scanner", "entity_id": "TERM_scanner", "count": 3, "distinctiveness": 13.5, "note": "The desk scanner Lester feeds report tapes through. The word carries a much heavier charge later in Dick, and its appearance here is mechanical rather than thematic — recorded so the concordance does not overstate the link." },
+      { "label": "Garden", "entity_id": "TERM_garden", "count": 5, "distinctiveness": 7.9 },
+      { "label": "Mind", "entity_id": "TERM_mind", "count": 4, "distinctiveness": 2.7 }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "authentic-human", "basis": "the story is a direct argument about the criterion of the human, and settles on conduct over identity" },
+      { "theme": "androids", "basis": "the outward form is preserved exactly while the occupant is replaced — the android problem stated without an android" },
+      { "theme": "memory-identity", "basis": "the original mind is stored in suspension and could be restored; identity is made a recoverable object and then declined" },
+      { "theme": "alien-contact", "basis": "first contact conducted as displacement, and adjudicated in a courtroom" }
+    ]
+  },
+
+  "pkd_on_this_work": {
     "lane": "E",
-    "mention_count": 4,
-    "quotes": [
-     {
-      "line": 6336,
-      "quote": "…d it. Personally, I hated that story from the start, since it is a horror story. But of all the omissions, “Human Is” stands as most glaring. It _must_ be included. I sent Betty Ballantine a copy in the group of stories all th…"
-     },
-     {
-      "line": 6438,
-      "quote": "…now, so you can see that the entire piece builds up to an expression of the import and meaning of the story “Human Is,” and therefore I do really feel terribly, terribly strongly that this story _must_ be included. My entire “A…"
-     },
-     {
-      "line": 6438,
-      "quote": "…rongly that this story _must_ be included. My entire “Afterthoughts” statement depends on it, and, with­ out “Human Is” in the collection, makes no sense. My goodnessjt’s such a very short story. Again, I say PLEASE. Let me know…"
-     },
-     {
-      "line": 6658,
-      "quote": "…our May 17th letter. “Cantata 140” must be excluded , for example. And so forth, as you say. Just so long as “Human Is” stays in it. You ask if I want a dedication. (On the BEST OF PHILIP K. DICK collec­ tion.) Yes; please hav…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 6630,
-      "quote": "…ed stories myself. I know this sounds nutty, but it is true. My favorite short story of my own is one called “Human Is”, and I can’t locate a copy of it anywhere—I may literally die without ever seeing a copy of it again. I reme…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 5,
+    "summary": "Dick called this his favourite of his own stories and, in the strongest statement he made about any of them, his credo.",
+    "evidence": [
+      {
+        "source": "Selected Letters",
+        "line": 6630,
+        "quote": "My favorite short story of my own is one called \"Human Is\", and I can't locate a copy of it anywhere",
+        "reading": "Stated plainly, and with the wry detail that he could not find a copy. Weighs heavily against the general difficulty of getting Dick to rank his own work."
+      },
+      {
+        "source": "Quoted in Sutin, Divine Invasions",
+        "line": 1453,
+        "quote": "For me, \"Human Is\" is my credo. May it be yours.",
+        "reading": "The end of Dick's own note on the story. The preceding sentence in the captured window runs '…and sticks and metal, and will forever, whatever shape we take, wherever we go, whatever we become' — the full passage should be read at the locator before it is quoted at length."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 6336,
+        "quote": "of all the omissions, \"Human Is\" stands as most glaring. It must be included.",
+        "reading": "Arguing with an editor over a collection's contents. He adds that his entire 'Afterthoughts' statement depends on the story and makes no sense without it."
+      },
+      {
+        "source": "Quoted in Sutin",
+        "line": 1447,
+        "quote": "I have not really changed my view since I wrote this",
+        "reading": "Written decades later. One of the few positions Dick claims never to have revised."
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 16,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1254,
+        "quote": "a woman is married to the very embodiment o…",
+        "reading": "Palmer opens his discussion of Dick's family stories with this one, pairing it with 'The Pre-Persons' as stories set in outwardly typical American households."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1274,
+        "quote": "\"Human Is\" is unlikely to annoy anyone",
+        "reading": "A pointed comparison: Palmer finds 'The Pre-Persons' offensive and uses this story's inoffensiveness as the foil. A backhanded assessment worth keeping against Dick's own valuation of it as his credo."
+      },
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 1447,
+        "quote": "an alien also takes ove…",
+        "reading": "Sutin groups it with 'Impostor', noting that in both the artificial or alien party wins the reader's sympathy over the human pursuers."
+      }
+    ]
+  },
+
+  "contradictions": [
+    {
+      "type": "self_vs_critic",
+      "summary": "Dick calls the story his credo; Palmer calls it unlikely to annoy anyone.",
+      "claim_a": { "lane": "E", "source": "Dick, quoted in Sutin", "text": "For me, 'Human Is' is my credo." },
+      "claim_b": { "lane": "C", "source": "Palmer, Exhilaration and Terror", "text": "'Human Is' is unlikely to annoy anyone" },
+      "editorial_status": "unresolved_by_design",
+      "note": "Palmer is not disparaging the story so much as using it to measure a more abrasive one. But the gap between an author's credo and a critic's 'inoffensive' is exactly the kind of disagreement worth preserving rather than smoothing."
+    }
   ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 16,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 8,
-    "quotes": [
-     {
-      "line": 1254,
-      "quote": "…tasy** Two of Dick’s stories about typical families will set a framework for the discussion. In the first, ‘Human Is’ (1955, CS2), a woman is married to the very embodiment of impersonality, bloodless rationality and careerism…"
-     },
-     {
-      "line": 1274,
-      "quote": "…RT STORIES 89 ich kann nichts anders.’[9 ] Because the story is, for better or worse, offensive, whereas ‘Human Is’ is unlikely to annoy anyone, it is worth discussing its morality and its fantasy, though this entails briefl…"
-     },
-     {
-      "line": 1276,
-      "quote": "…ts fantasy, though this entails briefly digressing from our nominated period (the early fifties).[10] Like ‘Human Is’, ‘The Pre-Persons’ is set in an outwardly typical American family and concerns what it is to be a person. In…"
-     },
-     {
-      "line": 1418,
-      "quote": "…d his peers kill the monstrous grub, the ‘real’ father is gone forever (just as the ‘real’ Lester is gone in ‘Human Is’); however, insofar as the monstrous grub is a metaphor for the way one’s father can sometimes seem, frizzlin…"
-     },
-     {
-      "line": 1430,
-      "quote": "…ways to bring his stories to a close, but also challenging the process of fantasy. ‘The Father-Thing’ and ‘Human Is’ could be seen as counterparts, one treating an evil substitution, the other a benign one. Dick often works i…"
-     },
-     {
-      "line": 3028,
-      "quote": "…Impostor’ or _Androids_ ) are open and investigatory. Aside from early short stories in parable form such as ‘Human Is’ (1955, CS2), we cannot describe the android fictions as simply warning that humans are becoming mechanical,…"
-     },
-     {
-      "line": 3746,
-      "quote": "…2 ‘Great C, The’ 48n12 ‘Gun, The’ 91 ‘Hanging Stranger, The’ lack of difference in **98–99** , 100n24, 106 ‘Human Is’ **87** , 101, 225 ‘I Hope I Shall Arrive Soon’ movement as stasis in **52–53** ‘The Impossible Planet’ 50n18…"
-     },
-     {
-      "line": 3762,
-      "quote": "…2 power and fragmentation in 203–04, 224, 225n2 ‘Planet for Transients’ 48n12 ‘Pre-Persons, The’ compared to ‘Human Is’ **88–90** , 102 fathers in 105 ‘Preserving Machine, The’ 93n14 ‘Project Earth’ 102 ‘Prominent Author’ 107n33…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 4,
-    "quotes": [
-     {
-      "line": 1447,
-      "quote": "…In “Impostor,” robot Spence wins the reader’s sympathy far more than do his calculating human pursuers. In “Human Is” (Winter 1955 Startling Stories), an alien also takes over a human form. Lester Herrick was a jerk to his wif…"
-     },
-     {
-      "line": 1447,
-      "quote": "…ien soul now occupying his body-she saves the alien’s life when the authorities track it down. Phil wrote of “Human Is”: I have not really changed my view since I wrote this story, back in the fifties. It’s not what you look l…"
-     },
-     {
-      "line": 1453,
-      "quote": "…and sticks and metal, and will forever, whatever shape we take, wherever we go, whatever we become. For me, “Human Is” is my credo. May it be yours. Editor Campbell presided over Astounding for the unheard of duration of 1937…"
-     },
-     {
-      "line": 6041,
-      "quote": "…- 76 Private love: Letter, PKD to Mr. Haas, September 16, 1954. - 76 Olham robot: “Impostor” (1953). On “Human Is”: “Afterthoughts of the Author,” The Best of Philip K. Dick (New York: Ballantine, 461 1977), p. 449. -…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
-    "author": "Anne R. Dick",
-    "lane": "C",
-    "mention_count": 4,
-    "quotes": [
-     {
-      "line": 417,
-      "quote": "…and stories during the next few days, I commented delightedly on each story and novel. I especially loved “Human Is” and told him, “‘Human Is’ is your best story.” Our reading tastes were eclectic. Phil and I both owned cop…"
-     },
-     {
-      "line": 417,
-      "quote": "…xt few days, I commented delightedly on each story and novel. I especially loved “Human Is” and told him, “‘Human Is’ is your best story.” Our reading tastes were eclectic. Phil and I both owned copies of _Winnie the Pooh_ a…"
-     },
-     {
-      "line": 3065,
-      "quote": "…ny fifty-dollar-a-month cottage. Jerry was a psychology professor…. Marge was pregnant. Phil wrote the story “Human Is” with the Hirsches in mind. It bothered Phil a lot that the pulps would axe his work any way they wanted. He…"
-     },
-     {
-      "line": 3249,
-      "quote": "…9 _**Galactic Pot-Healer**_ 67, 142 _**Game Players of Titan, The**_ 71–72, 264 _**Ganymede Takeover**_ 93 **“Human Is”** 38, 259 _**Humpty Dumpty in Oakland**_ 59 **“King of the Elves”** 251, 257 _**Man in the High Castle, The*…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+
+  "open_questions": [
+    "Dick says his 'Afterthoughts' statement depends on this story. Which collection is that, and is the statement in the archive?",
+    "The full Dick note quoted by Sutin appears to run several sentences before 'For me, \"Human Is\" is my credo.' The scripted gather captured only a window; the passage should be read at Sutin l.1447-1453 and transcribed properly.",
+    "The first Lester is credited with the copper sulphate weapon used against Callisto. Does any other story in the corpus share that reference?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "5 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "16 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 4,210 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "5 capitalised citations, including two of the strongest self-assessments in the letters.",
+    "layer_4_criticism": "16 across Palmer and Sutin.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }
