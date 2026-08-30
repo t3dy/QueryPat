@@ -1,263 +1,159 @@
 {
- "artifact_id": "ART_DOSSIER_THE_ELECTRIC_ANT",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-electric-ant",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Electric Ant",
-  "slug": "the-electric-ant",
-  "form": "story",
-  "word_count": 6488,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 53911,
-   "line_end": 54344,
-   "word_count": 6488,
-   "status": "ready"
+  "artifact_id": "ART_DOSSIER_THE_ELECTRIC_ANT",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-electric-ant",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Electric Ant",
+    "slug": "the-electric-ant",
+    "form": "short story",
+    "word_count": 6488,
+    "lane": "A",
+    "written": "late 1968",
+    "first_publication": "The Magazine of Fantasy & Science Fiction, October 1969",
+    "note": "Followed by a long gap in Dick's short fiction — see the letters below.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 53911,
+      "line_end": 54344,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Garson Poole wakes in hospital after a crash, missing a right hand and feeling no pain, and is informed by his doctor that he is not a man but an 'electric ant' — an organic robot. The hospital cannot treat him, but bills him for services rendered up to the point of discovery. At the repair facility he examines his replacement hand: organic skin and real blood over surge gates and valves. A technician tells him he never noticed the clicks and whirrs because he was programmed not to. At home he opens his own chest panel looking for the programming circuit, and hires a computer to scan him. It reports no programming circuit — but a roll of punched tape above his heart, which it identifies as a reality-supply construct feeding all sense stimuli into his nervous system, and warns him that tampering would be risky. Poole grasps the implication: his universe is arriving through that tape. He experiments. Varnishing over a section of punch-holes makes New York City vanish for a time while Danceman, sitting opposite him, sees it unchanged. Splicing in a dead strip blanks everything, including his own body, until maintenance men restore him and bill him ninety-five frogs. Danceman meanwhile admits Poole has always been a figurehead, controlled from Prox 4 by the majority stockholders. Punching fresh random holes produces a flight of ducks and an old man on a park bench reading a newspaper, both of which Sarah cannot see. Poole tells her she is a stimulus-factor on his tape. Wanting total reality for one microsecond — every stimulus at once, all symphonies simultaneously — he cuts the tape. He experiences everything, tries to speak, and burns out. Sarah, watching smoke rise from his mouth, knows without checking that it has died.",
+
+    "structure": {
+      "form": "continuous short story in five movements, each an experiment with a result",
+      "movements": [
+        "Diagnosis: told what he is, and billed for the telling.",
+        "Inventory: the new hand, the technician's explanation of why he never noticed.",
+        "The tape found: the computer's scan, the reality-supply construct, the first understanding.",
+        "The experiments: varnished holes, the spliced dead strip, the random new punches.",
+        "The cut: total input, and the burnout."
+      ],
+      "point_of_view": "third person tight on Poole, with his interior monologue given directly. The reader is inside the only consciousness whose reliability is at issue.",
+      "narrative_device": "The story is built as a sequence of falsifiable experiments with observable results, which is what keeps it from being a mood piece. Poole forms a hypothesis, tests it against an outside witness who sees nothing, and revises."
+    },
+
+    "characters": [
+      { "name": "Garson Poole", "name_id": "NAME_garson-poole", "role": "protagonist; owner-in-name of Tri-Plan Electronics", "note": "Discovers in one afternoon that he is a machine, a slave, and a figurehead, and reacts by pursuing the metaphysical implication rather than the personal one. His last stated want is not freedom but total knowledge for a microsecond." },
+      { "name": "Louis Danceman", "role": "second at Tri-Plan", "note": "Has known from the beginning. Insists on continuing to call him 'Mr. Poole' after the doctor has pointedly dropped the honorific — the story's one gesture of unforced decency." },
+      { "name": "Sarah Benton", "role": "personal secretary", "note": "Described dismissively by Poole throughout and given the story's final perception anyway. She stays because she does not want to spend her life wondering what would have happened if she had left." },
+      { "name": "The Beys, of Prox 4", "role": "actual owners", "note": "Marvis and Ernan Bey hold fifty-one percent and have set company policy from the start. Named but never seen." }
+    ],
+
+    "settings": [
+      { "name": "The hospital ward, New York", "note": "Where the diagnosis is delivered and itemised." },
+      { "name": "Poole's one-room apartment", "note": "Where the whole investigation happens, with an imported armchair and microtools delivered from the plant." },
+      { "name": "Krackter's bar", "note": "Where the first experiment is confirmed: the skyline goes for Poole and stays for Danceman." }
+    ],
+
+    "motifs": [
+      "Being billed — for the hospital's services, for the hand, for the computer's time, for the repairs after his own experiment. Every discovery has an invoice",
+      "The honorific: whether he is 'Mr. Poole' or 'Poole' tracks who does and does not treat him as a person",
+      "Programming assumed, then not found — the constraint turns out to be perceptual rather than volitional",
+      "Simultaneity as the object of desire: all channels at once, all symphonies at once",
+      "Two witnesses to one event, one of whom sees nothing"
+    ],
+
+    "significance": "The story's move is to replace the question of free will with the question of input. Poole goes looking for a programming circuit — the expected device, the one that would make him a puppet — and is told he has none. What he has instead is a tape supplying his entire sensory world, which is a stranger and more general predicament: not that his choices are made for him, but that the world he chooses within is delivered. Dick then presses the point past solipsism. Poole's tape does not merely represent his reality; editing it removes New York for him alone, which makes his subjective world sovereign over nothing but itself. The ending refuses transcendence: given everything at once, he cannot say a word about it and burns out.",
+
+    "closing_note": "The last paragraph belongs to Sarah, and it is bathetic on purpose — she reasons that it could not have felt much pain, because it had said so itself."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Reality", "entity_id": "TERM_reality", "count": 11, "distinctiveness": 20.44, "note": "Load-bearing here rather than incidental: the tape is named a reality-supply construct, and Poole reasons explicitly about objective reality as a synthetic construct." },
+      { "label": "Scanner", "entity_id": "TERM_scanner", "count": 8, "distinctiveness": 19.71, "note": "The scanner reading the punched tape. The word's later charge in Dick's work makes this worth flagging as a genuine antecedent rather than a coincidence." },
+      { "label": "Maze", "entity_id": "TERM_maze", "count": 2, "distinctiveness": 6.06 },
+      { "label": "Christ", "entity_id": "TERM_christ", "count": 2, "distinctiveness": 3.92 }
+    ],
+    "names_matched": ["NAME_garson-poole"],
+    "thematic_links_proposed": [
+      { "theme": "androids", "basis": "an organic robot who did not know, and whose discovery is delivered as a clinical finding" },
+      { "theme": "reality-breakdown", "basis": "the sensory world is a supplied medium that can be edited, and is" },
+      { "theme": "authentic-human", "basis": "the honorific and the billing both track a judgement about personhood that the story keeps unsettled" },
+      { "theme": "illusionary-realities", "basis": "the punched tape is the most literal machinery Dick ever gave the idea" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E/B",
+    "total_mentions": 9,
+    "summary": "Dick used this story in the Exegesis as a standing reference for his own metaphysics, and the letters show it marked the beginning of a long silence in his short fiction.",
+    "evidence": [
+      {
+        "source": "The Exegesis",
+        "line": 3985,
+        "quote": "in that same sense we are not real (vide \"The Electric Ant\"). Not just our free will is illusory, but…",
+        "reading": "The story cited as authority in his own argument. Note that Dick extends it exactly as the text does — past free will to the reality of the perceiver."
+      },
+      {
+        "source": "The Exegesis",
+        "line": 3989,
+        "quote": "It is its punched tape, à la \"The Electric Ant.\"",
+        "reading": "Applying the story's mechanism to Flow My Tears — the Logos as the punched tape imposing form. The device became a permanent part of his working vocabulary."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 5956,
+        "quote": "I've written my first unsolicited story in SIX YEARS! (The last two, \"The Electric Ant\" and \"A Little Something for Us Tempunauts\"…",
+        "reading": "Dates a long gap in his short fiction from this story. Corroborated elsewhere in the letters: 'My first story since \"The Electric Ant.\" That was about five years ago.'"
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 5,
+    "summary": "The critical judgement is unusually emphatic and unusually consistent.",
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 5645,
+        "quote": "the best of all of Phil's stories, \"The Electric Ant\" … Rating: 10.",
+        "reading": "Sutin's top rating in his chronological survey. He calls it the finest of Dick's short fiction elsewhere in the same book."
+      },
+      {
+        "author": "Fredric Jameson",
+        "work": "Archaeologies of the Future",
+        "line": 4660,
+        "quote": "in crucial stories like \"Imposter\" or \"The Electric Ant\" the questions now identified as involv…",
+        "reading": "Jameson groups it with 'Impostor' as a crucial case, in a discussion of the malignant-genie hypothesis. Notable because Jameson elsewhere finds Dick's machinery conventional — he does not here."
+      }
+    ]
+  },
+
+  "contradictions": [
+    {
+      "type": "factual",
+      "summary": "The protagonist's name is given as Carson Poole in Sutin's notes and Garson Poole in the story.",
+      "claim_a": { "lane": "A", "source": "the story", "text": "Garson Poole" },
+      "claim_b": { "lane": "C", "source": "Sutin, Divine Invasions, notes at l.6415", "text": "Carson Poole" },
+      "editorial_status": "resolvable",
+      "resolution": "The text reads Garson throughout. Sutin's note is either a slip or an OCR artefact in this scan; the scanned page should be checked before the error is attributed to Sutin."
+    }
+  ],
+
+  "open_questions": [
+    "Sutin dates the story to late 1968 and rates it 10, his highest. Does he give reasons anywhere at length, or is the rating left to stand on the survey entry?",
+    "Dick describes the story as the start of a five- or six-year gap in his short fiction. What do the letters give as the reason?",
+    "The Exegesis applies the punched-tape figure to Flow My Tears. Is the connection developed anywhere beyond the single line captured here?"
+  ],
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 6,488 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "9 capitalised citations across the Exegesis and letters.",
+    "layer_4_criticism": "5 across Sutin and Jameson.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Garson Poole",
-    "name_id": "NAME_garson-poole",
-    "mentions": 4
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Reality",
-    "entity_id": "TERM_reality",
-    "count": 18,
-    "distinctiveness": 20.44
-   },
-   {
-    "label": "Scanner",
-    "entity_id": "TERM_scanner",
-    "count": 9,
-    "distinctiveness": 19.71
-   },
-   {
-    "label": "Daniel",
-    "entity_id": "TERM_daniel",
-    "count": 1,
-    "distinctiveness": 16.96
-   },
-   {
-    "label": "Maze",
-    "entity_id": "TERM_maze",
-    "count": 1,
-    "distinctiveness": 6.06
-   },
-   {
-    "label": "March",
-    "entity_id": "TERM_march",
-    "count": 1,
-    "distinctiveness": 5.61
-   },
-   {
-    "label": "Bill",
-    "entity_id": "TERM_bill",
-    "count": 5,
-    "distinctiveness": 5.35
-   },
-   {
-    "label": "Christ",
-    "entity_id": "TERM_christ",
-    "count": 2,
-    "distinctiveness": 3.92
-   },
-   {
-    "label": "Brain",
-    "entity_id": "TERM_brain",
-    "count": 5,
-    "distinctiveness": 3.72
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 7,
-    "distinctiveness": 2.42
-   },
-   {
-    "label": "Obviously",
-    "entity_id": "TERM_obviously",
-    "count": 2,
-    "distinctiveness": 2.14
-   },
-   {
-    "label": "Self",
-    "entity_id": "TERM_self",
-    "count": 1,
-    "distinctiveness": 1.62
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 6,
-    "distinctiveness": 1.5
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 9,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
-    "author": null,
-    "lane": "B",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 3985,
-      "quote": "…enerated reality field, and in a certain sense it is not real, then in that same sense we are not real (vide \"The Electric Ant\"). Not just our free will is illusory, but also our very substance. We are no more than points-of-view, mere…"
-     },
-     {
-      "line": 3989,
-      "quote": "…sfully accomplishes its work. _Tears_ contains the Logos or form to be imposed. It is its punched tape, à la \"The Electric Ant.\" A new, true story is being written, different from the old true story. **[15:85]** In _The Morning of the…"
-     },
-     {
-      "line": 13278,
-      "quote": "…[>], [>]–[>], [>]–[>], [>], [>], [>], [>] _Dr. Bloodmoney, or How We Got Along After the Bomb,_ [>], [>] \"The Electric Ant,\" [>], [>], [>], [>], [>], [>], [>] _Enough to Scare the Dead_ (working book title), [>]–[>], [>], [>], [>]…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 2434,
-      "quote": "…be proud to appear in it, and I hope my story will be acceptable. It’s the first short piece I’ve done since “The Electric Ant,” by the way. That’s a long time. It should be finished soon, but I note, alas, that after sitting here typin…"
-     },
-     {
-      "line": 2684,
-      "quote": "…Also, I wrote a new 6,000 word story for an anthology by Ed Ferman and Barry Malzberg. My first story since “The Electric Ant.” That was about five years ago. Also for Ed Ferman. I really consider this new story to be the best one I’ve…"
-     },
-     {
-      "line": 5956,
-      "quote": "…r Scott, Just a note to tell you that I’ve written my first unsolicited story in SIX YEARS! (The last two, “The Electric Ant” and “A Litde Something for Us Tempunauts” were both commissioned by Ed Ferman.) This story runs 6,000 words…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 6340,
-      "quote": "…f Perky Pat” “The Defenders” (But this could be pulled for “Second Variety,” since the theme is the same.) “The Electric Ant.” ## “Expendable.” “Faith of Our Fathers” “Had There Been No Benny Cemoli...” “Impostor” (But, like “…"
-     },
-     {
-      "line": 6846,
-      "quote": "…A] _June 26, 1976_ ## Dear Ralph, Here is the copyright information you requested for Le Livre de Poche. “The Electric Ant.” 1969 Mercury Press. First appeared in _Magazine of Fan­ tasy & Science-Fiction._ “The Impostor.” 1953 Stree…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 2153,
-      "quote": "…ently, there occurs a breakdown of communication... and _there_ is the real illness. I once wrote a story [\"The Electric Ant\" (1969)] about a man who was injured and taken to a hospital. When they began surgery on him, they discovered…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 5,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 3111,
-      "quote": "…a highly significant work, as has been discussed. As to “important” writing, mention should also be made of “The Electric Ant,” a late-1968 story that is the finest of Phil’s career. Protagonist Carson Poole thinks that he is a human b…"
-     },
-     {
-      "line": 5645,
-      "quote": "…442 “Impostor” (see Chapter 4 and A Handful of Darkness, above); and the best of all of Phil’s stories, “The Electric Ant” (see Chapter 7). Rating: 10. 50. The Golden Man (w. 1952-1973, p. 1980). An admirable story collection ass…"
-     },
-     {
-      "line": 6415,
-      "quote": "…- 163 No important book since 1964: Letter, PKD to stepdaughter Tandy, May 7, 1969. Carson Poole: PKD story The Electric Ant” (1969) Writing slump: Letter, PKD to Lynne Cecil, March 21, 1969. - 163-164 Plot and writing method: Lette…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT.md",
-    "author": "Fredric Jameson",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 4660,
-      "quote": "…ll-embracing fashion than the hypothesis of the \"malignant genie\". For in crucial stories like \"Imposter\" or \"The Electric Ant\" the ques­ tions now identified as involving Artificial Intelligence seep into and infect every experience of…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 2434,
-      "quote": "…1995: 122, n. 29) discusses a possible source for this kind of imagery in Dick, referring us to Dick’s story ‘The Electric Ant’ (1969). > 7 See the interest in the discovery of plastic—an almost endless chain of molecules—in Pynchon’s…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "9 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "5 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
 }

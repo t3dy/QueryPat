@@ -1,227 +1,147 @@
 {
- "artifact_id": "ART_DOSSIER_COLONY",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "colony",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Colony",
-  "slug": "colony",
-  "form": "story",
-  "word_count": 6385,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 11146,
-   "line_end": 11779,
-   "word_count": 6385,
-   "status": "ready"
+  "artifact_id": "ART_DOSSIER_COLONY",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "colony",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Colony",
+    "slug": "colony",
+    "form": "short story",
+    "word_count": 6385,
+    "lane": "A",
+    "first_publication": "Galaxy, June 1953",
+    "adaptation": "Dramatised on the radio series X Minus One; Dick ordered a recording of it years later.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 11146,
+      "line_end": 11779,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "A survey unit has spent three weeks on Planet Blue and found no harmful life form at all — no disease, no vermin, nothing. The place is so unspoiled that one officer has stopped smoking because he cannot bring himself to litter it, and the joke is that it might be Eden. Major Hall is at his microscope when the instrument's eyepieces wrap around his throat and try to strangle him. He blasts it, and then finds his microscope intact in its box. A towel, a belt and a chair attack him in turn; each is destroyed and each is afterwards present and ordinary. The psyche tester rates him severely unbalanced, and the Commander has him confined — until a scatter rug is found crushing Captain Taylor. The unit works out what it faces: an organic mimic of perfect fidelity, which copies inorganic objects down to their working properties, so that a duplicate microscope focuses and a duplicate mat sterilises. The tell is duplication itself, and duplication is everywhere: two gloves, two mats, two vases, two briefcases. People die in ones — a man shot by his own gloves, a man whose feet are dissolved by a safety mat, a man digested inside a copy of his own vehicle, a woman taken by her uniform beside a lake. Arsine released in the laboratory makes half the equipment lose its shape and flow. Since the things cannot imitate living creatures, the Commander orders the unit to abandon every possession and board the rescue cruiser naked. They walk across the field, up the ramp, into the dark interior of the ship. At exactly 15:00, Captain Davis lands the actual cruiser in the centre of the field, opens the lock, and waits for people who never come.",
+
+    "structure": {
+      "form": "continuous short story, alternating between the command group and short vignettes of individual deaths",
+      "movements": [
+        "Eden: the survey's failure to find anything harmful, and the first attack.",
+        "Disbelief: the psyche test, the confinement order, and Taylor found under the rug.",
+        "The rule discovered: mimicry down to function, and duplication as the only tell.",
+        "The vignettes: Dodds, Fulton, Unger, Gail Thomas — four deaths, each by an object trusted without thought.",
+        "The arsine test and the naked evacuation.",
+        "The coda: the real ship arrives on schedule and finds an empty field."
+      ],
+      "point_of_view": "third person, mostly with Hall and the Commander, cut with brief scenes attached to characters who are about to die — the reader is repeatedly given information the command group never receives.",
+      "ending_device": "The last scene is four sentences long and contains no explanation. The reader is left to reconstruct that the ship boarded at 14:50 was itself the largest mimic, and that the tell — two ships — was the one nobody thought to look for."
+    },
+
+    "characters": [
+      { "name": "Major Lawrence Hall", "role": "Research Division; the first attacked", "note": "Works the problem correctly throughout and is disbelieved until a second man is nearly killed. His final judgement — that the danger of carrying one home outweighs losing the whole unit — is the story's one act of real moral seriousness, and it is wasted." },
+      { "name": "Commander Stella Morrison", "role": "unit commander", "note": "Orders Hall confined on good evidence, then adapts fast. Hers is the plan that fails, and the story gives her a moment of unexplained panic at the foot of the ramp which turns out to have been the only accurate instinct anyone had." },
+      { "name": "Lieutenant Friendly", "role": "Hall's friend", "note": "Produces the intact microscope from its box — the story's first demonstration that destroying one of these things proves nothing." },
+      { "name": "Captain Taylor", "role": "victim and survivor", "note": "Attacked by a copy of a rug his wife gave him, an object he says he trusted completely." },
+      { "name": "Captain Daniel Davis", "role": "commander of the rescue cruiser", "note": "Appears twice: once on a vidscreen agreeing a time, and once at the end, landing on time into an empty field." }
+    ],
+
+    "settings": [
+      { "name": "Planet Blue", "note": "Forests, waterfalls, hanging moss, lakes; preserved intact by policy. Its total harmlessness is the clue nobody reads correctly — nothing else could compete with a form like this." },
+      { "name": "The laboratory", "note": "Where the samples were brought and where the infiltration began. Under arsine, half its contents lose their shape at once." },
+      { "name": "The landing field", "note": "Where a hundred naked people walk up a ramp into the dark." }
+    ],
+
+    "motifs": [
+      "Duplication as the only tell, in a world full of legitimate pairs — boots, gloves, vases, mats",
+      "The trusted object: a wife's rug, one's own gloves, the mat by the door, the vehicle one parked",
+      "Mimicry that goes below the surface — a copied microscope actually magnifies",
+      "Nakedness as the only defence, and the shame the officers feel about it",
+      "Eden invoked in the second page and quietly answered by the ending"
+    ],
+
+    "significance": "The premise is paranoia given a rule. Not everything is against you — that would be unfalsifiable and dull — but any given thing may be, and the only symptom is that there are two of it. Dick's own gloss on the story, quoted by Sutin, formulates this precisely: the ultimate paranoia is not that everyone is against you but something worse, which the story then stages. What makes the ending work is that the survivors' single correct insight, that the mimics cannot copy living things, is true and useless: they protect themselves against clothing and are eaten by a ship.",
+
+    "closing_note": "Nobody in the story ever learns what happened. The only witnesses are on a cruiser that arrives too late and concludes the whole thing may be a joke."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Daniel", "entity_id": "TERM_daniel", "count": 2, "distinctiveness": 34.48, "note": "Captain Daniel Davis. A name match rather than a conceptual one — recorded so the concordance is not read as a thematic link." },
+      { "label": "Garden", "entity_id": "TERM_garden", "count": 2, "distinctiveness": 2.6, "note": "Sits on the Eden exchange in the second page, which the ending answers." }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "reality-breakdown", "basis": "the reliability of ordinary objects is withdrawn, and no test distinguishes the real from the copy except counting" },
+      { "theme": "delusions", "basis": "the protagonist is formally diagnosed as unbalanced for reporting exactly what happened" },
+      { "theme": "alien-contact", "basis": "first contact with a form that can only be met by being consumed by it" },
+      { "theme": "androids", "basis": "mimicry that reproduces function as well as appearance — the simulacrum problem stated for objects rather than people" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E/B",
+    "total_mentions": 3,
+    "summary": "Dick used the story in the Exegesis as a standard case, and left one much-quoted formulation of its idea.",
+    "evidence": [
+      {
+        "source": "The Exegesis",
+        "line": 2401,
+        "quote": "Take my story \"Colony\" as paradigm.",
+        "reading": "Cited while working through an argument about whether a generated reality field implies that nothing exists but the generator. The story is treated as a worked example rather than as fiction."
+      },
+      {
+        "source": "Quoted in Sutin, Divine Invasions",
+        "line": 1423,
+        "quote": "The ultimate in paranoia is not when everyone is …",
+        "reading": "Dick's own gloss, cut off in the captured window. The full sentence should be read at the locator before it is quoted; it is the most-repeated remark about this story and is usually given second-hand."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 5730,
+        "quote": "#137 (\"Colony\" from X MINUS ONE)",
+        "reading": "Dick ordering a recording of the radio adaptation years later — evidence of the story's afterlife and of his interest in it."
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 11,
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 1415,
+        "quote": "a brilliant little horror tale in SF clothing called \"Colony,\"",
+        "reading": "Sutin's genre placement — horror wearing science fiction — matches how the story actually operates, since nothing is ever explained and no science is done that works."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 390,
+        "quote": "As Mackey remarks, in connection with \"Colony\" (1953, CS1), \"Everything possesses consciousness, tho…",
+        "reading": "Palmer relaying Douglas Mackey. A third-hand citation: the Mackey original should be located before this reading is attributed."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Dick's 'ultimate in paranoia' formulation is quoted everywhere in truncated form. The complete sentence is at Sutin l.1423 and should be transcribed from the source rather than from secondary repetition.",
+    "Palmer cites Douglas Mackey on this story. Is Mackey's book in the archive? If not it is a gap in the criticism corpus, since he is quoted as an authority here.",
+    "The story was dramatised on X Minus One and Dick ordered a copy decades later. Is there any comment from him on the adaptation?"
+  ],
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 6,385 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "3 capitalised citations across the Exegesis and letters.",
+    "layer_4_criticism": "11 across Sutin and Palmer.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Nick",
-    "name_id": "NAME_nick",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Daniel",
-    "entity_id": "TERM_daniel",
-    "count": 2,
-    "distinctiveness": 34.48
-   },
-   {
-    "label": "Thomas",
-    "entity_id": "TERM_thomas",
-    "count": 1,
-    "distinctiveness": 3.14
-   },
-   {
-    "label": "Garden",
-    "entity_id": "TERM_garden",
-    "count": 1,
-    "distinctiveness": 2.6
-   },
-   {
-    "label": "Wait",
-    "entity_id": "TERM_wait",
-    "count": 4,
-    "distinctiveness": 1.98
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 7,
-    "distinctiveness": 1.78
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 3,
-    "distinctiveness": 1.73
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 3,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
-    "author": null,
-    "lane": "B",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 2401,
-      "quote": "…were actually alive, were actually _it,_ does not actually mean that there is nothing but it. Take my story \"Colony\" as paradigm. But anyhow the responding beforehand to signals and the vision of the Urwelt below the Dokos…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 5730,
-      "quote": "…Jr. every few minutes. Also, I can pay you, which I should do and will gladly do. I’d like to order: #137 (“Colony” from X MINUS ONE), page 1 item 14. #313 (CARSACON ’74), page 26 item 10. THE SELECTED LETTERS OF PHILIP K.…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 1363,
-      "quote": "…which Dick seriously attempted to break into writing for television. (One of his finest early short stories, \"Colony,\" had been adapted, in 1956, for the _X Minus One_ radio program, devoted to SF dramatizations.) There is no…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 11,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 7,
-    "quotes": [
-     {
-      "line": 1415,
-      "quote": "…The closest Phil ever came to this crab grass story is a brilliant little horror tale in SF clothing called “Colony,” which appeared in the June 1953 Galaxy, edited by Horace Gold; it was also adapted for the X Minus One radi…"
-     },
-     {
-      "line": 1423,
-      "quote": "…cue ship into which they have all climbed naked (no longer being able to trust their clothes). Phil wrote of “Colony”: “The ultimate in paranoia is not when everyone is against you but when everything is against you. Instead o…"
-     },
-     {
-      "line": 2539,
-      "quote": "…The Ganymede Takeover (p. 1967), was inspired by one such session. There was a proposed novel, The Whalemouth Colony, ideas from which Phil worked into The Unteleported Man (p. 1966). But the most important fantasized projec…"
-     },
-     {
-      "line": 5477,
-      "quote": "…hil’s take on the Orpheus legend, with a lover seeking to rescue his Eurydice from lifethirsting angels. For “Colony” (w. 1952, p. 1953) and “Impostor” (1953), the two best tales in the book, see Chapter 4. Rating: 4. 7. Sol…"
-     },
-     {
-      "line": 5641,
-      "quote": "…see Chapter 2); tales from Phil’s Berkeley salad days, like “Roog,” “Beyond Lies the Wub,” “Second Variety,” “Colony,” and 442 “Impostor” (see Chapter 4 and A Handful of Darkness, above); and the best of all of Phil’s stor…"
-     },
-     {
-      "line": 6029,
-      "quote": "…ten when life simpler: “Afterthoughts by the Author,” The Best of Philip K. Dick, p. 444. 74 Towel attack: “Colony” (1953). - 74-75 On “Colony”: “Afterthoughts by the Author,” The Best of Philip K. Dick, p. 447. - 75 Ref…"
-     },
-     {
-      "line": 6031,
-      "quote": "…houghts by the Author,” The Best of Philip K. Dick, p. 444. 74 Towel attack: “Colony” (1953). - 74-75 On “Colony”: “Afterthoughts by the Author,” The Best of Philip K. Dick, p. 447. - 75 Refusal to sell to Gold: PKD “Mem…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 390,
-      "quote": "…rly terrifying episode in a very complex and successful novel). > 25 As Mackey remarks, in connection with ‘Colony’ (1953, CS1), ‘Everything possesses consciousness, though it may not be like ours or share our values. There…"
-     },
-     {
-      "line": 3732,
-      "quote": "…in 209–10, 213, 218, 219, 221 fantasy and the social in 146–49 Lord Running Clam in **149–54** , 158–59, 161 ‘Colony’ 16n25 ‘Commuter, The’ **99** _Confessions of a Crap Artist_ 37n14, 67, 68n3, 70 Fay Hume in **72–79** , 83–8…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_KRIPAL_JEFFREY_J_MUTANTS_AND_MYSTICS.md",
-    "author": "Jeffrey J. Kripal",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 2275,
-      "quote": "…two worlds” and that “mankind is a colony.”49 These two basic ideas the authors call the Hybrid Man and Earth Colony theories. The book drives these two points home over and over again, with varying degrees of plausibility and…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
-    "author": "Anne R. Dick",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 3051,
-      "quote": "…Turning Wheel” deals with Elron Hu. (Phil’s mother was a Dianetics auditor and wanted to “clear” Phil.) In “Colony,” everything in that world is out to “get” the colonists, from pseudo-microscopes to pseudo-spaceships. In “E…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "3 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "11 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
 }
