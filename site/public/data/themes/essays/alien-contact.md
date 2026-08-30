@@ -20,6 +20,10 @@ A survey unit has spent three weeks on Planet Blue and found no harmful life for
 
 Ten-year-old Tony Rossi, born on the colonized planet of the insectile, hard-shelled Pas-udeti (dismissively called 'beetles' by Terrans), has never seen Earth and has grown up playing with Pas-udeti children in the city of Karnet, working... In a story collection like [Tony and the Beetles](/works/tony-and-the-beetles), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### A Present for Pat
+
+Eric Blake returns from a Ganymede posting and gives his unenthusiastic wife Pat an unusual souvenir: a small, genuinely omnipotent, chronically foul-tempered alien deity, Tinokuknoi Arevulopapo, smuggled illegally to Earth in a box. In a story collection like [A Present for Pat](/works/a-present-for-pat), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Human Is
 
 Jill Herrick is married to Lester, a toxicologist who develops poisons for the military and who treats warmth, metaphor, food and children as forms of imprecision. In a story collection like [Human Is](/works/human-is), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

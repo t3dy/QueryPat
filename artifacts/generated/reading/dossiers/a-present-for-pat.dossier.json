@@ -1,144 +1,119 @@
 {
- "artifact_id": "ART_DOSSIER_A_PRESENT_FOR_PAT",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "a-present-for-pat",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "A Present For Pat",
-  "slug": "a-present-for-pat",
-  "form": "story",
-  "word_count": 6072,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 21008,
-   "line_end": 21585,
-   "word_count": 6072,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Eric",
-    "name_id": "NAME_eric",
-    "mentions": 111
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Gods",
-    "entity_id": "TERM_gods",
-    "count": 6,
-    "distinctiveness": 27.72
-   },
-   {
-    "label": "Thomas",
-    "entity_id": "TERM_thomas",
-    "count": 3,
-    "distinctiveness": 9.89
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 4,
-    "distinctiveness": 6.09
-   },
-   {
-    "label": "Prison",
-    "entity_id": "TERM_prison",
-    "count": 1,
-    "distinctiveness": 5.58
-   },
-   {
-    "label": "Cosmic",
-    "entity_id": "TERM_cosmic",
-    "count": 1,
-    "distinctiveness": 4.49
-   },
-   {
-    "label": "Tears",
-    "entity_id": "TERM_tears",
-    "count": 1,
-    "distinctiveness": 4.04
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 12,
-    "distinctiveness": 3.7
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 5,
-    "distinctiveness": 3.63
-   },
-   {
-    "label": "Good",
-    "entity_id": "TERM_good",
-    "count": 13,
-    "distinctiveness": 1.97
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 8,
-    "distinctiveness": 1.51
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 1,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 1280,
-      "quote": "…“Nanny” “The Turning Wheel” “The Defenders” “Adjustment Team” “Psi-Man Heal My Child” “The Commuter” “A Present For Pat” “Breakfast at Twilight” “Shell Game” That is it, Jack. Stress to Ballantine that I was already working on…"
-     }
+  "artifact_id": "ART_DOSSIER_A_PRESENT_FOR_PAT",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "a-present-for-pat",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "A Present for Pat",
+    "slug": "a-present-for-pat",
+    "form": "short story",
+    "word_count": 6072,
+    "lane": "A",
+    "first_publication": "Startling Stories, January 1954",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 21008,
+      "line_end": 21585,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Eric Blake returns from a Ganymede posting and gives his unenthusiastic wife Pat an unusual souvenir: a small, genuinely omnipotent, chronically foul-tempered alien deity, Tinokuknoi Arevulopapo, smuggled illegally to Earth in a box. When Eric's skeptical coworker Tom Matson mocks the god and threatens to have it dissected, it turns him into a toad; when Pat then threatens the sulking god with the garbage disposal, it turns her to stone. Eric is summoned to his boss Bradshaw's office, where the toad-Matson causes escalating panic, Eric is fired and blacklisted, and he returns home to find the god willing to restore Pat (an easy, close-range fix) but unable to restore Matson, who is now miles away in the company biology lab and thus outside the god's limited range. A raid by robot police leads to a farcical siege — atomic cannon ringing Eric's house, the god's rapidly failing energy shield collapsing under bombardment — until Eric brokers a deal to bring the god within range of the toad, restoring Matson. But bringing the god close enough exposes an unrelated secret: Bradshaw is himself a monstrous alien fugitive, 'Nar Dolk,' whom the god has been hunting; the two transform and fight in the sky before Nar Dolk escapes and the exhausted god departs for its own dimension, its 'gift' concluded. Eric, arrested and then released once the evidence has literally flown away, ends the story apologizing to Pat for losing her present — to which she laughs that she's just as glad to see it go.",
+
+    "structure": {
+      "form": "short story escalating through four movements: the gift and first transformation, the toad-crisis at the office, the siege at home, and the sky-battle resolution",
+      "movements": [
+        "Eric presents Pat with the alien god; Matson's mockery gets him turned into a toad.",
+        "Eric brings the toad to his boss Bradshaw's office, is fired and blacklisted amid mounting chaos and threats of prosecution.",
+        "Home again, Eric learns the god can restore Pat (in range) but not Matson (out of range), and the house is besieged by robot police and atomic cannon when the god's illegal presence is discovered.",
+        "A brokered truce brings the god close enough to restore Matson, but also close enough to recognize Bradshaw as a fugitive alien criminal, resolving the plot through an unrelated cosmic vendetta rather than anything Eric does."
+      ],
+      "point_of_view": "third person close to Eric, tracking his escalating, almost bureaucratic panic (job, marriage, prosecution) against a backdrop of genuinely cosmic stakes the other characters can barely process.",
+      "central_device": "A literally omnipotent being whose power is nonetheless bound by a mundane physical constraint (range), so that its godlike abilities repeatedly fail to solve Eric's problems for reasons as ordinary as a commute being too long."
+    },
+
+    "characters": [
+      { "name": "Eric Blake", "role": "protagonist, husband", "note": "Spends the entire story reacting rather than deciding, his own plans (a deal to trade the god's help for his job back) undone in the end by a plot twist that has nothing to do with him." },
+      { "name": "Pat Blake", "role": "his wife", "note": "Unenthusiastic about the gift from the start and vindicated by the story's end; her closing line reframes the entire escapade as more trouble than the present was worth." },
+      { "name": "Tinokuknoi Arevulopapo", "role": "the alien god", "note": "A comic deflation of omnipotence: petulant, bored, genuinely all-powerful within an arbitrarily small radius, and ultimately revealed to have had its own agenda (hunting the fugitive Nar Dolk) the entire time, making Eric's 'gift' incidental to the god's real business on Earth." },
+      { "name": "Tom Matson", "role": "Eric's coworker, turned into a toad", "note": "His casual cruelty toward the god (threatening dissection) triggers the story's central transformation and is never punished beyond the transformation itself, which the story treats as comic rather than moral comeuppance." },
+      { "name": "Horace Bradshaw / Nar Dolk", "role": "Eric's boss, revealed as a fugitive alien criminal", "note": "The story's real antagonist is not human at all; Bradshaw's bureaucratic cruelty toward Eric throughout the story is retroactively recontextualized as the behavior of a monster in disguise, though this is played for a punchline twist rather than thematic weight." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "settings": [
+      { "name": "The Blake home", "note": "Site of both transformations and the climactic siege, turning ordinary suburban domestic space into a battleground ringed by atomic cannon." },
+      { "name": "Terran Metals / Bradshaw's office", "note": "A future corporate bureaucracy (blacklists, inter-system employment records, robot guards) whose procedures continue functioning with deadpan normalcy around an obviously impossible crisis." }
+    ],
+
+    "motifs": [
+      "Omnipotence undercut by an arbitrary, almost bureaucratic physical limit (range) rather than by any moral or narrative constraint",
+      "A gift that causes escalating disaster disproportionate to its size or intent",
+      "Corporate and legal bureaucracy (firing forms, blacklists, prosecution, inter-system law) proceeding with straight-faced normalcy around a fantastical crisis",
+      "A twist resolution supplied by an entirely separate plot (the god's private vendetta) that renders the protagonist's own efforts largely beside the point",
+      "A domestic argument (over an unwanted present) framing a story that is otherwise cosmic in scale"
+    ],
+
+    "significance": "The story is a comic minor work whose interest lies mainly in its structural joke: it repeatedly sets up situations that ought to be solved instantly by an omnipotent being and then finds a mundane reason (distance, corporate procedure, an unrelated cosmic vendetta) why they aren't. Dick's own anthology-contents letter groups this story alongside 'Nanny,' 'The Commuter,' and 'Breakfast at Twilight' — all read in this project — suggesting it belonged, in his own mind, to a particular batch of magazine work rather than to any thematic program. Unlike the darker entries in that same list, this story plays its premise for farce rather than dread, closer in spirit to a shaggy-dog joke than to the anxious suburban and Cold War material found elsewhere in the same period of his short fiction.",
+
+    "closing_note": "Pat's final line — 'As a matter of fact — I'm just as glad' — undercuts the entire adventure as having been, from her point of view, an unwanted present rather than a wonder, closing the story on the same note of marital deflation it opened on."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Gods", "entity_id": "TERM_gods", "count": 6, "distinctiveness": 27.72, "note": "Repeated interrogation of what 'omnipotent' actually means when a god turns out to have a working radius, like a household appliance." },
+      { "label": "Lord", "entity_id": "TERM_lord", "count": 4, "distinctiveness": 6.09 },
+      { "label": "Prison", "entity_id": "TERM_prison", "count": 1, "distinctiveness": 5.58, "note": "Bradshaw's threat of a life sentence for smuggling a non-Terran to Earth, the story's one gesture toward genuine stakes for Eric." },
+      { "label": "Cosmic", "entity_id": "TERM_cosmic", "count": 1, "distinctiveness": 4.49 },
+      { "label": "House", "entity_id": "TERM_house", "count": 12, "distinctiveness": 3.7, "note": "The domestic setting under literal siege by atomic cannon, the story's most visually extreme image." }
+    ],
+    "names_matched": ["NAME_eric"],
+    "thematic_links_proposed": [
+      { "theme": "alien-contact", "basis": "a genuinely omnipotent extraterrestrial being brought to Earth as a souvenir, its powers and limits explored largely for comic effect" },
+      { "theme": "suburbia-domesticity", "basis": "an ordinary marriage and household used as the frame for an otherwise cosmic-scale plot, resolved on a note of domestic anticlimax" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 1,
+    "summary": "Dick names this story in an anthology-contents letter alongside several other stories read in this project.",
+    "evidence": [
+      {
+        "source": "Selected Letters",
+        "line": 1280,
+        "quote": "\"Nanny\" \"The Turning Wheel\" \"The Defenders\" \"Adjustment Team\" \"Psi-Man Heal My Child\" \"The Commuter\" \"A Present For Pat\" \"Breakfast at Twilight\" \"Shell Game\" That is it, Jack. Stress to Ballantine that I was already working on...",
+        "reading": "A contents list for a proposed collection, grouping this story with eight others (six of which have already been close-read in this project), suggesting it was part of a batch Dick considered representative of a particular period of his short fiction rather than a story he singled out for comment."
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "No secondary criticism was found for this story; given its minor, farcical status relative to the rest of the batch it appears in, it may simply not have drawn critical attention.",
+    "Is the god's true name for Bradshaw, 'Nar Dolk,' and the epithets 'Scourge of the Seven Temples' and 'Flotsam of Space' ever explained or reused elsewhere in Dick's work, or are they a one-off comic flourish?",
+    "Dick's letter groups this story with darker, more anxious entries (Nanny, The Turning Wheel) read elsewhere in this project — is there a documented reason he considered this comic piece part of the same batch, beyond shared timing of composition?"
   ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "0 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 6,072 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "1 citation, an anthology-contents list.",
+    "layer_4_criticism": "0 found in this evidence pass.",
+    "related_dossiers": "nanny, the-turning-wheel, the-defenders, the-commuter, breakfast-at-twilight, shell-game (all named in the same anthology-contents letter).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }
