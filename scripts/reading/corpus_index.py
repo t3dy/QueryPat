@@ -65,6 +65,12 @@ ROMAN_RE = re.compile(
 # A title shorter than this cannot be searched for reliably in running prose.
 MIN_TITLE_CHARS = 4
 
+# Watermarks and page furniture the scan leaves behind. They are not the
+# story's last line, so they must not be read as one.
+BOILERPLATE_RE = re.compile(
+    r"^[*_\s]*(oceanofpdf|libgen|www\.|http|page \d+|\d+\s*$)", re.I
+)
+
 
 # A heading that trails into punctuation is a line of prose the PDF-to-markdown
 # conversion promoted by accident, not a title.
@@ -254,6 +260,23 @@ def build(db: sqlite3.Connection) -> dict:
     for u in stories:
         by_title.setdefault(slugify(u.title), []).append(u)
 
+    # A story that stops mid-sentence has been cut short. The Electric Ant was
+    # read from a span ending "Anyhow, now it is", and the resulting dossier
+    # recorded the wrong ending. Cheap to check, so check it.
+    def ends_cleanly(unit: dict) -> bool:
+        path = PROJECT / unit["source_file"]
+        try:
+            lines = path.read_text(encoding="utf-8", errors="replace").split("\n")
+        except OSError:
+            return True
+        tail = [l.strip() for l in lines[max(0, unit["line_end"] - 6): unit["line_end"] + 1]]
+        tail = [l for l in tail if l and not l.startswith("#")
+                and not BOILERPLATE_RE.match(l)]
+        if not tail:
+            return False
+        last = re.sub(r"[*_`\"\u201d\u2019)\]]+$", "", tail[-1]).strip()
+        return last.endswith((".", "!", "?", "\u2026", ":", "\u2014"))
+
     # A heading the conversion dropped leaves its story fused onto the one
     # before it. Length is the tell: PKD short stories run to a few thousand
     # words, so anything far above that is probably two stories in one span.
@@ -285,6 +308,11 @@ def build(db: sqlite3.Connection) -> dict:
             best["needs_review"] = (
                 f"{best['word_count']:,} words is long for a short story - "
                 "check whether a missing heading fused two stories together"
+            )
+        if not ends_cleanly(best):
+            best["truncated"] = (
+                "span does not end on sentence-final punctuation - the text is "
+                "probably cut short and should not be read until the span is fixed"
             )
         best["also_in"] = [
             {"source_file": g.source_file, "line_start": g.line_start,
@@ -329,6 +357,10 @@ def report(manifest: dict, db: sqlite3.Connection) -> None:
           "  (listed in the manifest for review)")
     flagged = [s for s in stories if s.get("needs_review")]
     print(f"Units flagged for review: {len(flagged)}")
+    cut = [s for s in stories if s.get("truncated")]
+    print(f"Units ending mid-sentence: {len(cut)}")
+    for s in cut[:10]:
+        print(f"    {s['word_count']:>7,}w  {s['title'][:52]}")
     if stories:
         longest = sorted(stories, key=lambda s: -s["word_count"])[:5]
         print("\nLongest units:")
