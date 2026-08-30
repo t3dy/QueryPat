@@ -1,0 +1,200 @@
+{
+  "_note": [
+    "Curated map from a work to the primary text that can actually be read for it.",
+    "Editorial data, not derived: correct it by hand when a source is identified or",
+    "ruled out. Every entry states how it was verified, so nothing here is trusted",
+    "on the strength of a filename alone.",
+    "Paths are relative to the project root and point into database/extracted_markdown/,",
+    "which is git-ignored and regenerable. No primary text is stored in this file."
+  ],
+  "_status_values": {
+    "ready": "full text located and structurally split; safe to read from",
+    "needs_structure": "full text located, but chapter boundaries are not yet reliable",
+    "unresolved": "text is present in a container file whose boundaries are not yet found",
+    "no_primary_text": "no readable primary text in the corpus; dossier must rely on criticism and PKD's own commentary"
+  },
+  "novels": [
+    {
+      "slug": "ubik",
+      "title": "Ubik",
+      "source_file": "database/extracted_markdown/DOC_ARCH_BOOK_PKD_UBIK.md",
+      "word_count": 67277,
+      "structure": "h2_chapters",
+      "chapter_pattern": "^##\\s+\\*\\*Chapter\\s+(\\d+)\\*\\*",
+      "status": "ready",
+      "verified": "21 h2 headings, of the form 'Chapter N'; word count consistent with the novel"
+    },
+    {
+      "slug": "a-maze-of-death",
+      "title": "A Maze of Death",
+      "source_file": "database/extracted_markdown/DOC_ARCH_DICK_PHILIP_KINDRED_A_MAZE_OF_DEATH_LIBG.md",
+      "word_count": 63204,
+      "structure": "h2_numeric_chapters",
+      "chapter_pattern": "^##\\s+(\\d+)\\s*$",
+      "status": "needs_structure",
+      "verified": "the pattern finds only 12 of the novel's 16 chapters: headings for chapters 6, 8, 11 and 13 were dropped by the PDF conversion, so each is currently fused into the chapter before it. Six further headings ('MADE AT TERRA 35082R', 'WINERY', 'STOPPERY', 'WITCHERY', 'HIPPERY HOPPERY', 'MEKKISRY') are in-world text promoted to headings, not chapter markers."
+    },
+    {
+      "slug": "the-game-players-of-titan",
+      "title": "The Game-Players of Titan",
+      "source_file": "database/extracted_markdown/DOC_ARCH_DICK_PHILIP_K_THE_GAME_PLAYERS_OF_TITAN_.md",
+      "word_count": 62041,
+      "structure": "h2_numeric_chapters",
+      "chapter_pattern": "^##\\s+\\*\\*(\\d+)\\*\\*",
+      "status": "needs_structure",
+      "verified": "15 h2 headings, but at least one is a fragment of prose ('understand.') promoted by the PDF conversion; the numeric headings need checking before chapter spans are trusted"
+    },
+    {
+      "slug": "the-man-in-the-high-castle",
+      "title": "The Man in the High Castle",
+      "source_file": "database/extracted_markdown/THE_MAN_IN_THE_HIGH_CASTLE_CLEAN.md",
+      "word_count": 80641,
+      "structure": "none",
+      "chapter_pattern": null,
+      "status": "needs_structure",
+      "verified": "full text present and clean, but the file carries no headings at all; chapter boundaries must be recovered from the text itself"
+    },
+    {
+      "slug": "valis",
+      "title": "VALIS",
+      "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_VALIS_TRILOGY_PHILIP_.md",
+      "line_start": 6368,
+      "line_end": null,
+      "word_count": null,
+      "structure": "container_span",
+      "status": "unresolved",
+      "verified": "the trilogy file (228,329 words) carries one body heading for VALIS at line 6368; where VALIS ends is not yet established"
+    },
+    {
+      "slug": "the-divine-invasion",
+      "title": "The Divine Invasion",
+      "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_VALIS_TRILOGY_PHILIP_.md",
+      "status": "unresolved",
+      "verified": "present in the trilogy file but has no body heading; the only 'The Divine Invasion' heading is a table-of-contents entry at line 82. Partial chapter text also exists at the project root (divine_invasion_chapter_1..5_text.md)"
+    },
+    {
+      "slug": "the-transmigration-of-timothy-archer",
+      "title": "The Transmigration of Timothy Archer",
+      "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_VALIS_TRILOGY_PHILIP_.md",
+      "status": "unresolved",
+      "verified": "present in the trilogy file but has no heading of any kind, in the body or the table of contents"
+    },
+    {
+      "slug": "a-scanner-darkly",
+      "title": "A Scanner Darkly",
+      "source_file": null,
+      "status": "no_primary_text",
+      "verified": "DOC_ARCH_SCANNERDARKLY.md is NOT the novel. It runs to 28,129 words and contains 135 INT./EXT. slug lines, so it is a screenplay adaptation. Reading it as the novel would misattribute screenplay material to Dick's prose."
+    }
+  ],
+  "story_collections": [
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "word_count": 810082,
+      "role": "primary story corpus",
+      "status": "ready",
+      "verified": "split by scripts/reading/corpus_index.py; see artifacts/generated/reading/corpus_manifest.json"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI.md",
+      "word_count": 168916,
+      "role": "overlapping selection, used to corroborate splits",
+      "status": "ready"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_MINORITY_REPORT_AND_O.md",
+      "word_count": 163735,
+      "role": "overlapping selection",
+      "status": "ready"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_PHILIP_K_DICK_READER_.md",
+      "word_count": 176147,
+      "role": "overlapping selection",
+      "status": "ready"
+    }
+  ],
+  "pkd_own_voice": [
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+      "word_count": 421496,
+      "lane": "B"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+      "word_count": 217616,
+      "lane": "E"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+      "word_count": 191937,
+      "lane": "E"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+      "word_count": 190052,
+      "lane": "E"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19.md",
+      "word_count": 175409,
+      "lane": "E"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+      "word_count": 141478,
+      "lane": "E",
+      "note": "essays and interviews"
+    }
+  ],
+  "criticism": [
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT.md",
+      "word_count": 210415,
+      "author": "Fredric Jameson",
+      "lane": "C"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+      "word_count": 163283,
+      "author": "Lawrence Sutin",
+      "lane": "C"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_KRIPAL_JEFFREY_J_AUTHORS_OF_THE_IMPOSSIB.md",
+      "word_count": 148752,
+      "author": "Jeffrey J. Kripal",
+      "lane": "C"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_FIVE_STAR_PAPERBACK_ERIK_DAVIS_TECHGNOSI.md",
+      "word_count": 146484,
+      "author": "Erik Davis",
+      "lane": "C"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_KRIPAL_JEFFREY_J_MUTANTS_AND_MYSTICS.md",
+      "word_count": 141577,
+      "author": "Jeffrey J. Kripal",
+      "lane": "C"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+      "word_count": 123277,
+      "author": "Christopher Palmer",
+      "lane": "C"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+      "word_count": 110078,
+      "author": "Anne R. Dick",
+      "lane": "C"
+    },
+    {
+      "source_file": "database/extracted_markdown/DOC_ARCH_MCLOUGHLIN_PINK_LIGHT_AND_IRON.md",
+      "word_count": 104509,
+      "author": "McLoughlin",
+      "lane": "C"
+    }
+  ]
+}
