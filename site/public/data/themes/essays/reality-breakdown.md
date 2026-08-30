@@ -80,6 +80,10 @@ The Man in the High Castle is the canonical works record for PKD's novel. In a n
 
 The Penultimate Truth is the canonical works record for PKD's novel. In a novel like [The Penultimate Truth](/works/the-penultimate-truth), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Waterspider
+
+In the mid-21st century, the Emigration Bureau's interstellar colonization project keeps failing: convicts sent at near-light speed toward Proxima Centauri, reduced to an inch tall to conserve mass, can never regain their lost mass to land... In a story collection like [Waterspider](/works/waterspider), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Dr. Bloodmoney, or How We Got Along After the Bomb
 
 Dr. In a novel like [Dr. Bloodmoney, or How We Got Along After the Bomb](/works/dr-bloodmoney-or-how-we-got-along-after-the-bomb), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

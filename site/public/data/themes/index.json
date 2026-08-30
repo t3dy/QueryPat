@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 116,
+  "fiction_work_count": 119,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -1020,7 +1020,7 @@
       "slug": "reality-breakdown",
       "label": "Reality Breakdown",
       "description": "Unstable reality, temporal slippage, projected worlds, and the breakdown of ordinary perception.",
-      "work_count": 49,
+      "work_count": 50,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -1182,6 +1182,15 @@
           "category": "novels",
           "work_type": "novel",
           "date_display": "1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_waterspider",
+          "canonical_title": "Waterspider",
+          "slug": "waterspider",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "If, January 1964",
           "date_start": "1964"
         },
         {
@@ -1598,7 +1607,7 @@
       "slug": "illusionary-realities",
       "label": "Illusionary Realities",
       "description": "Simulations, false worlds, mimicry, illusions, and counterfeit reality-systems.",
-      "work_count": 39,
+      "work_count": 40,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -1889,6 +1898,15 @@
           "date_start": "1984"
         },
         {
+          "work_id": "WORK_cadbury-the-beaver-who-lacked",
+          "canonical_title": "Cadbury, the Beaver Who Lacked",
+          "slug": "cadbury-the-beaver-who-lacked",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantasy and Science Fiction, September 1987 (written earlier, unpublished in Dick's lifetime)",
+          "date_start": "1987"
+        },
+        {
           "work_id": "WORK_the-collected-stories-of-philip-k-dick-volumes-1-5",
           "canonical_title": "The Collected Stories of Philip K. Dick, Volumes 1-5",
           "slug": "the-collected-stories-of-philip-k-dick-volumes-1-5",
@@ -1959,7 +1977,7 @@
       "slug": "memory-identity",
       "label": "Memory & Identity",
       "description": "Amnesia, implanted or false memory, identity instability, and the porous self.",
-      "work_count": 15,
+      "work_count": 16,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2088,6 +2106,15 @@
           "date_start": "1980"
         },
         {
+          "work_id": "WORK_cadbury-the-beaver-who-lacked",
+          "canonical_title": "Cadbury, the Beaver Who Lacked",
+          "slug": "cadbury-the-beaver-who-lacked",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantasy and Science Fiction, September 1987 (written earlier, unpublished in Dick's lifetime)",
+          "date_start": "1987"
+        },
+        {
           "work_id": "WORK_mary-and-the-giant",
           "canonical_title": "Mary and the Giant",
           "slug": "mary-and-the-giant",
@@ -2104,7 +2131,7 @@
       "slug": "time",
       "label": "Time",
       "description": "Temporal distortion, regression, precognition, time slips, and altered historical sequence.",
-      "work_count": 20,
+      "work_count": 21,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -2215,6 +2242,15 @@
           "date_start": "1963"
         },
         {
+          "work_id": "WORK_waterspider",
+          "canonical_title": "Waterspider",
+          "slug": "waterspider",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "If, January 1964",
+          "date_start": "1964"
+        },
+        {
           "work_id": "WORK_dr-bloodmoney-or-how-we-got-along-after-the-bomb",
           "canonical_title": "Dr. Bloodmoney, or How We Got Along After the Bomb",
           "slug": "dr-bloodmoney-or-how-we-got-along-after-the-bomb",
@@ -2294,7 +2330,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 57,
+      "work_count": 58,
       "works": [
         {
           "work_id": "WORK_the-cosmic-poachers",
@@ -2357,6 +2393,15 @@
           "category": "short_stories",
           "work_type": "novelette",
           "date_display": "Galaxy, January 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-great-c",
+          "canonical_title": "The Great C",
+          "slug": "the-great-c",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Cosmos Science Fiction, September 1953",
           "date_start": "1953"
         },
         {
@@ -2817,7 +2862,7 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 25,
+      "work_count": 26,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2853,6 +2898,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Fantasy Fiction, August 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-great-c",
+          "canonical_title": "The Great C",
+          "slug": "the-great-c",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Cosmos Science Fiction, September 1953",
           "date_start": "1953"
         },
         {

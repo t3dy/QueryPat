@@ -36,6 +36,10 @@ E.J. In a story collection like [The Builder](/works/the-builder), that premise 
 
 Eight years into a nuclear war, the entire human population of both blocs lives in sealed installations beneath the surface, manufacturing weapons that robots called leadies carry up and use. In a story collection like [The Defenders](/works/the-defenders), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Great C
+
+Fifty years after 'the Smash,' a post-apocalyptic tribe living in an underground concrete shelter sends a chosen young man, Tim Meredith, on an annual pilgrimage through irradiated ruins to a vast ruined federal research building, where a... In a story collection like [The Great C](/works/the-great-c), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Hanging Stranger
 
 TV store owner Ed Loyce drives past his small town's central park one evening and sees a mutilated corpse hanging from the lamppost — and no one else reacts to it at all. In a story collection like [The Hanging Stranger](/works/the-hanging-stranger), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

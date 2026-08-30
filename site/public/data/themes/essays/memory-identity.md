@@ -64,6 +64,10 @@ Leo McVane lives alone in an isolated communications dome on a frozen, double-su
 
 On a ten-year interstellar crossing with sixty emigrants in cryonic suspension, one sleeper's tank malfunctions. In a story collection like [I Hope I Shall Arrive Soon](/works/i-hope-i-shall-arrive-soon), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Cadbury, the Beaver Who Lacked
+
+Cadbury, a discontented beaver in an anthropomorphic animal society run on a poker-chip currency, is nagged by his shrewish wife Hilda into psychiatric treatment with the amiably useless Dr. In a story collection like [Cadbury, the Beaver Who Lacked](/works/cadbury-the-beaver-who-lacked), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Mary and the Giant
 
 Mary and the Giant is the canonical works record for PKD's novel. In a novel like [Mary and the Giant](/works/mary-and-the-giant), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

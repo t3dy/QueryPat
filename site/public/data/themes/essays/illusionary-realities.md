@@ -136,6 +136,10 @@ The Unteleported Man is the canonical works record for PKD's novel. In a novel l
 
 Lies, Inc. In a novel like [Lies, Inc.](/works/lies-inc), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Cadbury, the Beaver Who Lacked
+
+Cadbury, a discontented beaver in an anthropomorphic animal society run on a poker-chip currency, is nagged by his shrewish wife Hilda into psychiatric treatment with the amiably useless Dr. In a story collection like [Cadbury, the Beaver Who Lacked](/works/cadbury-the-beaver-who-lacked), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Collected Stories of Philip K. Dick, Volumes 1-5
 
 The Collected Stories of Philip K. In a story collection like [The Collected Stories of Philip K. Dick, Volumes 1-5](/works/the-collected-stories-of-philip-k-dick-volumes-1-5), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

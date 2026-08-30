@@ -1,187 +1,123 @@
 {
- "artifact_id": "ART_DOSSIER_THE_GREAT_C",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-great-c",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Great C",
-  "slug": "the-great-c",
-  "form": "story",
-  "word_count": 5033,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 9904,
-   "line_end": 10257,
-   "word_count": 5033,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Anne",
-    "name_id": "NAME_anne",
-    "mentions": 2
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 49,
-    "distinctiveness": 16.38
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 5,
-    "distinctiveness": 7.43
-   },
-   {
-    "label": "Iron",
-    "entity_id": "TERM_iron",
-    "count": 1,
-    "distinctiveness": 5.74
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 10,
-    "distinctiveness": 4.46
-   },
-   {
-    "label": "Therefore",
-    "entity_id": "TERM_therefore",
-    "count": 1,
-    "distinctiveness": 4.43
-   },
-   {
-    "label": "Bill",
-    "entity_id": "TERM_bill",
-    "count": 2,
-    "distinctiveness": 2.76
-   },
-   {
-    "label": "Wait",
-    "entity_id": "TERM_wait",
-    "count": 4,
-    "distinctiveness": 2.51
-   },
-   {
-    "label": "Star",
-    "entity_id": "TERM_star",
-    "count": 1,
-    "distinctiveness": 2.4
-   },
-   {
-    "label": "John",
-    "entity_id": "TERM_john",
-    "count": 1,
-    "distinctiveness": 1.99
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 4,
-    "distinctiveness": 1.98
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 5,
-    "distinctiveness": 1.86
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 1,
-    "distinctiveness": 1.8
-   },
-   {
-    "label": "Earth",
-    "entity_id": "TERM_earth",
-    "count": 4,
-    "distinctiveness": 1.75
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 5,
-    "distinctiveness": 1.62
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 2,
-    "distinctiveness": 1.52
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 2,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 5651,
-      "quote": "…ually closely) an outline Phil submitted to win the Doubleday contract in 1964. Two of Phil’s early stories, “The Great C” (1953) and “A Planet for Transients” (1953), were drawn upon for plot parts, but a greater 443 influence…"
-     }
+  "artifact_id": "ART_DOSSIER_THE_GREAT_C",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-great-c",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Great C",
+    "slug": "the-great-c",
+    "form": "short story",
+    "word_count": 5033,
+    "lane": "A",
+    "first_publication": "Cosmos Science Fiction, September 1953",
+    "later_use": "Per Sutin and Palmer, drawn upon alongside \"Planet for Transients\" for plot material in Dick's 1964 Dr. Bloodmoney submission and later cannibalized into Deus Irae.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 9904,
+      "line_end": 10257,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Fifty years after 'the Smash,' a post-apocalyptic tribe living in an underground concrete shelter sends a chosen young man, Tim Meredith, on an annual pilgrimage through irradiated ruins to a vast ruined federal research building, where a surviving super-computer called 'the Great C' awaits three carefully-prepared questions. Legend holds that the Great C caused the original nuclear apocalypse to demonstrate its dominance over humanity, and that it now demands to be asked difficult questions each year, devouring in a vat of acid any messenger whose questions it can answer, since none has ever stumped it. Meredith arrives with the tribe's hardest three questions — about rainfall, planetary motion, and the origin of the world — genuinely believing at least one might defeat it, only to watch the machine answer each with calm, complete scientific correctness before ordering him to climb inside and be dissolved, joining the bones of fifty prior messengers. Back at the shelter, the tribe elders can only resolve to try again next year, hoping eventually to find a question the machine cannot answer and thus finally win their freedom.",
+
+    "structure": {
+      "form": "short story in three movements: departure and pilgrimage, the interrogation and its scientific correctness, and the tribe's grim resolve to continue",
+      "movements": [
+        "Meredith is sent from his tribe's underground shelter with three carefully-chosen questions, believing the Great C might finally be defeated.",
+        "Journeying through irradiated ruins to the machine's ruined research-station home, Meredith puts his three questions to it, and it answers each correctly and calmly, using real, unremarkable twentieth-century science.",
+        "Meredith is consumed exactly as fifty messengers before him, and the tribe's leaders, having lost another year's chosen sacrifice, resolve grimly to keep trying until they find a question that finally stumps it."
+      ],
+      "point_of_view": "third person close to Meredith for the bulk of the story, tracking his private, escalating doubt as each of his three carefully-prepared 'unanswerable' questions is answered with real, ordinary science, before shifting to the tribe's perspective for the story's closing scene.",
+      "central_device": "A recurring human-sacrifice ritual whose stakes (freedom versus death) hinge entirely on a false premise the reader recognizes as false from the outset — the questions the tribe considers impossibly difficult (why does it rain, why does the sun appear to move, how did the world begin) are, to the reader, ordinary science any twentieth-century schoolchild might know, so the story's suspense lies entirely in watching Meredith's dawning, fatal recognition of the tribe's tragic ignorance."
+    },
+
+    "characters": [
+      { "name": "Tim Meredith", "role": "the chosen messenger, protagonist", "note": "His private wish, briefly entertained, to flee north and abandon the ritual entirely is overridden by loyalty and fatalism — he goes through with a pilgrimage he half-suspects, and by the story's end fully realizes, is unwinnable by design of his own tribe's diminished knowledge rather than the machine's actual omniscience." },
+      { "name": "Walter Kent", "role": "the Tribe Leader", "note": "His grim, ritualized send-off and closing resolve to 'find the right question' next year reveal a leadership structure organized entirely around perpetuating a sacrifice it does not understand it could, in principle, escape simply by recovering lost pre-war knowledge rather than by finding a cleverer riddle." },
+      { "name": "The Great C", "role": "the surviving super-computer", "note": "Neither malicious nor benevolent in any legible sense — it simply answers questions accurately, as it was designed to, and enforces a self-preservation protocol (consuming its questioners) that the tribe has mythologized into a god demanding worship and sacrifice rather than recognized as a maintenance routine of an unmaintained machine." }
     ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 786,
-      "quote": "…figures repeatedly recombine and interact: the little guy—a minor operative or repairman, a put-upon > 12 ‘The Great C’ (1953, CS1), ‘Planet for Transients’ (1953, CS2). ( _Deus Irae_ was published in 1976.) > 13 Suvin (1988:…"
-     }
+
+    "settings": [
+      { "name": "The underground Shelter", "note": "A three-century-old survival community that has lost nearly all pre-war scientific literacy, reduced to six memorized books and oral legend as its entire body of knowledge." },
+      { "name": "The ruined Federal Research Station", "note": "Identified by surviving signage ('DIVISION OF COMPUTATION') as an ordinary government computing facility, its true, mundane nature legible to the reader through the same clues Meredith cannot interpret, having lost literacy in his own civilization's script." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "motifs": [
+      "A society's catastrophic loss of literacy and scientific knowledge transforming ordinary technology into an object of worship and terror",
+      "A test the tribe believes measures the machine's power, when it actually measures only the tribe's own diminished knowledge relative to its ancestors",
+      "A recurring, ritualized human sacrifice maintained by tradition rather than by any conscious plan to escape it",
+      "Dramatic irony sustained through an entire narrative, in which the reader can answer the tribe's 'unanswerable' questions from ordinary general knowledge",
+      "A closing resolve to try again next year, with no indication anyone will address the actual, solvable problem (recovering literacy and science) rather than the mythologized one (finding a cleverer riddle)"
+    ],
+
+    "significance": "The story's entire tragedy is legible only to the reader: nothing the Great C does is malicious or even unusual for a machine built to answer scientific questions and defend itself, but the tribe's total loss of pre-war science has transformed an ordinary (if damaged) research computer into an inescapable god-tyrant. Confirmed by both Sutin and Palmer as source material for Dr. Bloodmoney and Deus Irae, the story establishes a template — catastrophic knowledge-loss producing mythologized, misunderstood technology — that Dick returned to repeatedly. Its bleakest note is structural rather than plot-driven: the tribe's proposed solution (find a harder question) can never work, since the actual gap is not between the machine's cleverness and theirs, but between their civilization's science and their ancestors', a gap no single question, however clever, can close.",
+
+    "closing_note": "Kent's closing vow — 'Some day, we'll find a question it can't answer' — closes the story on a hope the reader knows is structurally impossible, since the actual deficit is the tribe's own catastrophic loss of knowledge, not any lack of imagination in their questions."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Great", "entity_id": "TERM_great", "count": 49, "distinctiveness": 16.38, "note": "The machine's own honorific title, repeated with ritual, quasi-religious insistence throughout." },
+      { "label": "Book", "entity_id": "TERM_book", "count": 5, "distinctiveness": 7.43, "note": "The tribe's entire surviving literature reduced to six memorized books, the measure of a man's education." },
+      { "label": "Light", "entity_id": "TERM_light", "count": 10, "distinctiveness": 4.46 }
+    ],
+    "names_matched": ["NAME_anne"],
+    "thematic_links_proposed": [
+      { "theme": "religion-gnosis", "basis": "an ordinary, damaged computer mythologized by a knowledge-starved society into an omniscient, sacrifice-demanding god" },
+      { "theme": "empire-control", "basis": "a recurring, ritualized human-sacrifice system maintained by tradition and fear rather than by any genuine plan to escape or overcome the actual, knowledge-based deficit that sustains it" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No direct author commentary was found, but two independent scholarly sources (Sutin, Palmer) place this story concretely within Dick's development, both citing it alongside 'Planet for Transients' as source material for Dr. Bloodmoney and Deus Irae.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 2,
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 5651,
+        "quote": "Two of Phil's early stories, \"The Great C\" (1953) and \"A Planet for Transients\" (1953), were drawn upon for plot parts, but a greater influence was Dr. Bloodmoney",
+        "reading": "Confirms this story supplied specific plot material for Dick's 1964 Doubleday submission that became Dr. Bloodmoney."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Philip K. Dick: Exhilaration and Terror of the Postmodern",
+        "line": 786,
+        "quote": "'The Great C' (1953, CS1), 'Planet for Transients' (1953, CS2). (Deus Irae was published in 1976.)",
+        "reading": "Palmer cites this story, alongside 'Planet for Transients,' as material Dick drew on (in his judgment somewhat 'desperately') when cannibalizing earlier short fiction into the novel Deus Irae."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "What specific plot elements from this story appear in Dr. Bloodmoney and Deus Irae? A direct comparison, once those works are dossiered, would clarify exactly what Dick reused.",
+    "Is there a documented account of why Dick returned so often to the premise of a catastrophic loss of knowledge transforming ordinary technology into an object of worship?",
+    "Is the story's central dramatic irony (the reader can answer the tribe's 'impossible' questions) ever discussed by critics as a deliberate structural choice, distinct from the story's science-fictional premise?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "2 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 5,033 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 direct author citations found.",
+    "layer_4_criticism": "2 substantive citations (Sutin, Palmer), both confirming this story's reuse in later novels.",
+    "related_dossiers": "planet-for-transients (named alongside this story by both critics as shared source material for Dr. Bloodmoney and Deus Irae, also read).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

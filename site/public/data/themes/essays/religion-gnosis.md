@@ -24,6 +24,10 @@ An unnamed man crushes two eavesdropping caterpillars under his foot on his way 
 
 Peggy Nye spends nearly all her time in her lush garden with Sir Francis, her pet duck, to her husband Robert's mild bemusement. In a story collection like [Out in the Garden](/works/out-in-the-garden), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Great C
+
+Fifty years after 'the Smash,' a post-apocalyptic tribe living in an underground concrete shelter sends a chosen young man, Tim Meredith, on an annual pilgrimage through irradiated ruins to a vast ruined federal research building, where a... In a story collection like [The Great C](/works/the-great-c), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Hanging Stranger
 
 TV store owner Ed Loyce drives past his small town's central park one evening and sees a mutilated corpse hanging from the lamppost — and no one else reacts to it at all. In a story collection like [The Hanging Stranger](/works/the-hanging-stranger), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

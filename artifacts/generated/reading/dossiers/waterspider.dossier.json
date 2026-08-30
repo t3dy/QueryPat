@@ -1,168 +1,118 @@
 {
- "artifact_id": "ART_DOSSIER_WATERSPIDER",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "waterspider",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Waterspider",
-  "slug": "waterspider",
-  "form": "story",
-  "word_count": 11773,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 43299,
-   "line_end": 44102,
-   "word_count": 11773,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Van Vogt",
-    "name_id": "NAME_van-vogt",
-    "mentions": 7
-   },
-   {
-    "name": "Tony Boucher",
-    "name_id": "NAME_tony-boucher",
-    "mentions": 3
-   },
-   {
-    "name": "A.E. van Vogt",
-    "name_id": "NAME_ae-van-vogt",
-    "mentions": 2
-   },
-   {
-    "name": "The Artifact",
-    "name_id": "NAME_the-artifact",
-    "mentions": 1
-   },
-   {
-    "name": "Mission",
-    "name_id": "NAME_mission",
-    "mentions": 1
-   },
-   {
-    "name": "Sophia",
-    "name_id": "NAME_sophia",
-    "mentions": 1
-   },
-   {
-    "name": "The authorities",
-    "name_id": "NAME_the-authorities",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Bureau",
-    "entity_id": "TERM_bureau",
-    "count": 19,
-    "distinctiveness": 36.83
-   },
-   {
-    "label": "Realm",
-    "entity_id": "TERM_realm",
-    "count": 1,
-    "distinctiveness": 5.58
-   },
-   {
-    "label": "Obviously",
-    "entity_id": "TERM_obviously",
-    "count": 7,
-    "distinctiveness": 4.13
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 4,
-    "distinctiveness": 3.14
-   },
-   {
-    "label": "Star",
-    "entity_id": "TERM_star",
-    "count": 3,
-    "distinctiveness": 3.08
-   },
-   {
-    "label": "Golden",
-    "entity_id": "TERM_golden",
-    "count": 2,
-    "distinctiveness": 2.64
-   },
-   {
-    "label": "Tony",
-    "entity_id": "TERM_tony",
-    "count": 4,
-    "distinctiveness": 2.6
-   },
-   {
-    "label": "Brain",
-    "entity_id": "TERM_brain",
-    "count": 6,
-    "distinctiveness": 2.46
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 6,
-    "distinctiveness": 1.88
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 1,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 6075,
-      "quote": "…er in Cassandra role: PKD, “Pessimism in Science Fiction,” Oblique, December 1955. - 82 Van Vogt’s advice: “Waterspider” (1964). Van Vogt’s suit: Author’s interview with Kleo Mini, February 1986. SF writer’s lot: Author’s intervi…"
-     }
+  "artifact_id": "ART_DOSSIER_WATERSPIDER",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "waterspider",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Waterspider",
+    "slug": "waterspider",
+    "form": "novelette",
+    "word_count": 11773,
+    "lane": "A",
+    "first_publication": "If, January 1964",
+    "later_use": "Confirmed by Sutin as dramatizing a real 1954 exchange between Dick and A.E. van Vogt at Worldcon, and grounded in interviews Sutin conducted with both Karen Anderson and Poul Anderson himself.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 43299,
+      "line_end": 44102,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here. Confirmed a single unified novelette in six numbered sections (I-VI), not a corpus-splitting fault despite its unusual length for this collection."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "In the mid-21st century, the Emigration Bureau's interstellar colonization project keeps failing: convicts sent at near-light speed toward Proxima Centauri, reduced to an inch tall to conserve mass, can never regain their lost mass to land safely. Desperate, bureaucrat Edwin Fermeti proposes retrieving one of the mid-twentieth century's celebrated 'pre-cogs' — writers whose guild journals, unrecognized in their own time as anything but fiction, are now understood to have genuinely predicted the future. Agents Aaron Tozzo and Craig Gilly travel back to the 1954 World Science Fiction Convention at San Francisco's Sir Francis Drake Hotel, moving starstruck through a crowd of real, historically attested SF authors (A.E. van Vogt, Ray Bradbury, Isaac Asimov's absence, Jack Williamson, Margaret St. Clair, Robert Bloch, Anthony Boucher) before abducting the amiable, bewildered Poul Anderson, whose 1955 story 'Night Flight' seems to describe their exact project. Brought forward in time, Anderson escapes repeatedly into an uncomprehending future society, encounters an alien slime mold that briefly protects him, and is finally recaptured and made to type out the very article that seeded the mission. Once the mass-restoration formula is obtained, Fermeti realizes Anderson's memory of the abduction must be erased to prevent paradox — but the erasure removes the story's own causal origin, so that when the men check the historical record afterward, Anderson's slot in the August 1955 If has been silently replaced by a story titled 'The Mold of Yancy,' credited to Philip K. Dick.",
+
+    "structure": {
+      "form": "novelette in six numbered sections: the failing Project and its bureaucratic frustration, discovery of the prophetic pre-cog article, the convention abduction, Anderson's escape into a bewildering future, his recapture and coerced writing, and the closing causal-loop paradox",
+      "movements": [
+        "The Emigration Bureau's interstellar colonization scheme is failing catastrophically, and Fermeti proposes retrieving a mid-twentieth-century 'pre-cog' science fiction writer to supply a missing technical formula.",
+        "Tozzo and Gilly travel back to the 1954 Worldcon, moving through a crowd of real historical SF figures before abducting Poul Anderson under false pretenses.",
+        "Anderson, confused but philosophical, escapes twice into a future society whose customs (mandatory head-shaving, forbidden childbirth, alien residents) he cannot parse, aided briefly by a telepathic slime mold from Callisto.",
+        "Recaptured and made to type the very article ('Night Flight') that inspired the mission, Anderson supplies the mass-restoration formula and is sent home with his memory of the entire episode erased.",
+        "The erasure retroactively removes the story's own cause: the historical record now shows a different author (Philip K. Dick) publishing a different story in the slot Anderson's article once occupied, closing the story on an unresolved causal paradox its own characters can no longer fully remember."
+      ],
+      "point_of_view": "third person, moving between the future bureaucrats' perspective and Anderson's own bewildered first-contact-in-reverse experience of the future, so the reader shares both the future characters' star-struck reverence for the 1954 SF community and Anderson's genuine confusion and quiet dignity as an abductee.",
+      "central_device": "A causal time-loop in which the future's entire justification for time-traveling to retrieve a science fiction writer (his story supposedly predicted their exact situation) is created by the retrieval itself, and then partially erased by the memory-wipe meant to prevent paradox, leaving even the characters unable to fully explain what just happened to them."
+    },
+
+    "characters": [
+      { "name": "Aaron Tozzo", "role": "Emigration Bureau agent, protagonist", "note": "His genuine, fannish awe at meeting real, historical SF writers (mistaking their casual fame for prophetic genius) is the story's warmest emotional register, and his growing unease at the ethics of memory erasure gives the story's ending its moral weight." },
+      { "name": "Edwin Fermeti", "role": "Tozzo's superior, architect of the plan", "note": "Practical and unsentimental about the plan's human cost (both to abducted convicts and to Anderson), his matter-of-fact order to erase Anderson's memory closes the story's central ethical question without ever pausing to weigh it." },
+      { "name": "Poul Anderson", "role": "the abducted pre-cog, based directly on the real author", "note": "Portrayed with warmth and specific, verifiable biographical detail (his verbal tics, his wife Karen, newborn daughter Astrid, his working method) — per Sutin, his line about plots 'folding up' is a verbatim quote from Dick's actual 1954 conversation with A.E. van Vogt, transplanted here into Anderson's mouth." },
+      { "name": "Donald Nils", "role": "a convict aboard the miniaturized colony ship, a parallel subplot", "note": "His delusional ambition to seize control of the Proxima colony, discovered reading a Cordwainer Smith-style pulp article on faster-than-light travel, mirrors the main plot's premise that pulp SF secretly contains real future technology." },
+      { "name": "The slime mold from Callisto", "role": "a telepathic alien encountered by Anderson", "note": "Genuinely helpful and courteous, its offhand exposition of the future's political history (the Gutman war, mandatory childbirth moratorium) supplies the story's worldbuilding without slowing its comic momentum." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "settings": [
+      { "name": "The 1954 Worldcon at the Sir Francis Drake Hotel", "note": "Populated by an extensive roster of real, historically attested science fiction figures (van Vogt, Bradbury, Williamson, Boucher, St. Clair, Bloch, and others), rendered with specific period detail and dialogue, some of it drawn directly from Dick's own convention memories." },
+      { "name": "The mid-21st century Emigration Bureau and its surrounding city", "note": "A future whose casual, unremarked strangeness (universal head-shaving, taboo childbirth, alien residents, telepathic monitoring) is filtered entirely through Anderson's own bewildered outsider perspective, inverting the usual SF structure of a human explorer encountering an alien world." }
+    ],
+
+    "motifs": [
+      "Real historical science fiction writers as literalized prophets, their fiction retroactively read as genuine, if garbled, prediction",
+      "A time-travel causal loop in which the investigation into a prophecy creates the very prophecy being investigated, then partially erases its own origin",
+      "An abducted, mistreated but unfailingly polite and philosophical protagonist, his dignity intact even as his memory and autonomy are erased",
+      "A closing act of narrative self-erasure, in which the story's own byline (given to 'Philip K. Dick' rather than the fictional Anderson within the world of the story) becomes the paradox's final, unresolved punchline"
+    ],
+
+    "significance": "The story is one of Dick's most direct pieces of science-fiction community self-mythology: confirmed by Sutin to dramatize an actual exchange Dick had with A.E. van Vogt at the real 1954 Worldcon, and grounded in interviews Sutin conducted with both Karen and Poul Anderson themselves, the fictional abduction of 'Poul Anderson' functions as an affectionate, slightly rueful tribute to the entire mid-century pulp SF community Dick came up in — a community he elsewhere described feeling 'declasse' within, even as this story elevates its members to literal prophets. The closing paradox, in which the historical record silently substitutes Dick's own byline for Anderson's erased article, is a knowing, self-aware joke about authorship and prophecy: the story's own existence (as 'Waterspider,' the title its future characters settle on almost by accident) is presented as the actual trace left behind once Anderson's genuine prophetic article is erased from time — Dick positioning his own fiction as the shadow or echo of a 'realer,' now-erased prophecy.",
+
+    "closing_note": "The final substitution of 'Philip K. Dick's The Mold of Yancy' for Anderson's erased article closes the story on a self-referential joke that also carries real weight: the story insists its own author is, within its fiction, merely what's left over once a truer account of the future has been wiped from history."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Bureau", "entity_id": "TERM_bureau", "count": 19, "distinctiveness": 36.83, "note": "The Emigration Bureau's bureaucratic apparatus and jargon frame the entire story's institutional, procedural tone even as its central act is a kidnapping." },
+      { "label": "Golden", "entity_id": "TERM_golden", "count": 2, "distinctiveness": 2.64, "note": "The future characters' nostalgic description of the mid-twentieth century as a 'golden age of pre-cognition.'" }
+    ],
+    "names_matched": ["NAME_van-vogt", "NAME_tony-boucher", "NAME_ae-van-vogt"],
+    "thematic_links_proposed": [
+      { "theme": "time", "basis": "a causal time-loop in which retrieving a science fiction writer to solve a technical problem creates the very prophetic text that justified the retrieval, then partially erases its own origin via memory-wipe" },
+      { "theme": "reality-breakdown", "basis": "the story's closing substitution of its own real-world byline for its fictional pre-cog's erased article, collapsing the boundary between the story's internal fiction and its actual publication history" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No direct author's story note was found, but Sutin's biography supplies unusually direct, doubly-sourced confirmation (an author interview with Poul Anderson himself, plus Kleo Apostolides's recollection) that this story dramatizes a real exchange between Dick and A.E. van Vogt at the actual 1954 World Science Fiction Convention.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 1,
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 1539,
+        "quote": "In his 1964 story \"Waterspider,\" Phil incorporated Van Vogt's response-back at the 1954 Worldcon-to Phil's question about plotting novels: \"Well, I'll tell you a secret. I start out with a plot and then the plot sort of folds up. So then I have to have another plot to finish the rest of the story.\"",
+        "reading": "Confirms that the van Vogt dialogue given to the fictional Anderson within the story is a verbatim transplant of a real exchange Dick had with A.E. van Vogt, and that Sutin's biographical research included direct interviews with both Karen Anderson and Poul Anderson about the real 1954 convention this story fictionalizes -- making 'Waterspider' one of the most directly and doubly-verified autobiographical stories found in this project."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "What did Poul Anderson himself say, in his February 1986 interview with Sutin, about being fictionalized in this story? The footnote confirms the interview exists but not its content.",
+    "Is the story's roster of real SF authors (Bradbury, Williamson, St. Clair, Bloch, Boucher, the noted absence of Asimov) discussed anywhere as a deliberate, comprehensive portrait of the 1954 Worldcon community, or were some names chosen simply for comic cameo value?",
+    "Is the closing substitution of 'Philip K. Dick' for the erased Anderson byline ever discussed by critics as an early, explicit instance of the authorial self-insertion Dick would later develop much further in VALIS?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "1 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 11,773 words across six numbered sections.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 direct author-note citations found; extensive corroborating biographical context found via Sutin instead.",
+    "layer_4_criticism": "1 substantive citation (Sutin), doubly sourced via interviews with both Karen and Poul Anderson.",
+    "related_dossiers": "none identified.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }
