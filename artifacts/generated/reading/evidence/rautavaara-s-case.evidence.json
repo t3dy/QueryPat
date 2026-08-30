@@ -1,0 +1,171 @@
+{
+ "slug": "rautavaara-s-case",
+ "title": "Rautavaara's Case",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 57973,
+  "line_end": 58218,
+  "word_count": 3590,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_savior",
+    "label": "Savior",
+    "count": 7,
+    "per_million": 1949.9,
+    "background_per_million": 14.3,
+    "distinctiveness": 101.03
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 17,
+    "per_million": 4735.4,
+    "background_per_million": 73.5,
+    "distinctiveness": 60.29
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christian",
+    "label": "Christian",
+    "count": 2,
+    "per_million": 557.1,
+    "background_per_million": 8.2,
+    "distinctiveness": 42.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 31,
+    "per_million": 8635.1,
+    "background_per_million": 202.2,
+    "distinctiveness": 41.67
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_eucharist",
+    "label": "Eucharist",
+    "count": 1,
+    "per_million": 278.6,
+    "background_per_million": 2.0,
+    "distinctiveness": 39.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_acts",
+    "label": "Acts",
+    "count": 1,
+    "per_million": 278.6,
+    "background_per_million": 11.2,
+    "distinctiveness": 17.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 26,
+    "per_million": 7242.3,
+    "background_per_million": 448.4,
+    "distinctiveness": 15.97
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_holy",
+    "label": "Holy",
+    "count": 1,
+    "per_million": 278.6,
+    "background_per_million": 18.4,
+    "distinctiveness": 11.91
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fate",
+    "label": "Fate",
+    "count": 1,
+    "per_million": 278.6,
+    "background_per_million": 20.4,
+    "distinctiveness": 10.95
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 2,
+    "per_million": 557.1,
+    "background_per_million": 77.6,
+    "distinctiveness": 6.74
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 278.6,
+    "background_per_million": 39.8,
+    "distinctiveness": 6.21
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 2,
+    "per_million": 557.1,
+    "background_per_million": 103.2,
+    "distinctiveness": 5.15
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 3,
+    "per_million": 835.7,
+    "background_per_million": 350.4,
+    "distinctiveness": 2.35
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_christ",
+    "label": "Christ",
+    "count": 4,
+    "per_million": 1114.2,
+    "background_per_million": 8.2,
+    "distinctiveness": 84.59
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mission",
+    "label": "Mission",
+    "count": 1,
+    "per_million": 278.6,
+    "background_per_million": 12.3,
+    "distinctiveness": 16.14
+   }
+  ],
+  "distinct_terms": 13,
+  "distinct_names": 2
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

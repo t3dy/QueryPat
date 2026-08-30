@@ -1,0 +1,189 @@
+{
+ "slug": "not-by-its-cover",
+ "title": "Not By Its Cover",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 52673,
+  "line_end": 52856,
+  "word_count": 3463,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 17,
+    "per_million": 4909.0,
+    "background_per_million": 128.7,
+    "distinctiveness": 36.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bible",
+    "label": "Bible",
+    "count": 2,
+    "per_million": 577.5,
+    "background_per_million": 14.3,
+    "distinctiveness": 29.92
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_spirit",
+    "label": "Spirit",
+    "count": 1,
+    "per_million": 288.8,
+    "background_per_million": 16.3,
+    "distinctiveness": 13.53
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_james",
+    "label": "James",
+    "count": 1,
+    "per_million": 288.8,
+    "background_per_million": 25.5,
+    "distinctiveness": 9.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 3,
+    "per_million": 866.3,
+    "background_per_million": 138.9,
+    "distinctiveness": 6.02
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_thomas",
+    "label": "Thomas",
+    "count": 1,
+    "per_million": 288.8,
+    "background_per_million": 44.9,
+    "distinctiveness": 5.78
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 4,
+    "per_million": 1155.1,
+    "background_per_million": 224.7,
+    "distinctiveness": 5.03
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 1,
+    "per_million": 288.8,
+    "background_per_million": 74.6,
+    "distinctiveness": 3.63
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 5,
+    "per_million": 1443.8,
+    "background_per_million": 448.4,
+    "distinctiveness": 3.18
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_john",
+    "label": "John",
+    "count": 1,
+    "per_million": 288.8,
+    "background_per_million": 95.0,
+    "distinctiveness": 2.89
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 2,
+    "per_million": 577.5,
+    "background_per_million": 202.2,
+    "distinctiveness": 2.79
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 1,
+    "per_million": 288.8,
+    "background_per_million": 105.2,
+    "distinctiveness": 2.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 2,
+    "per_million": 577.5,
+    "background_per_million": 266.6,
+    "distinctiveness": 2.13
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 5,
+    "per_million": 1443.8,
+    "background_per_million": 959.1,
+    "distinctiveness": 1.5
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_thomas-aquinas",
+    "label": "Thomas Aquinas",
+    "count": 1,
+    "per_million": 288.8,
+    "background_per_million": 2.0,
+    "distinctiveness": 41.0
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-wub",
+    "label": "The Wub",
+    "count": 17,
+    "per_million": 4909.0,
+    "background_per_million": 122.6,
+    "distinctiveness": 38.48
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_luther",
+    "label": "Luther",
+    "count": 1,
+    "per_million": 288.8,
+    "background_per_million": 3.1,
+    "distinctiveness": 35.81
+   }
+  ],
+  "distinct_terms": 14,
+  "distinct_names": 3
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

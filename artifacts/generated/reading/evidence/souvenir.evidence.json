@@ -1,0 +1,154 @@
+{
+ "slug": "souvenir",
+ "title": "Souvenir",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 25476,
+  "line_end": 25859,
+  "word_count": 4101,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_rome",
+    "label": "Rome",
+    "count": 1,
+    "per_million": 243.8,
+    "background_per_million": 9.2,
+    "distinctiveness": 17.18
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_acts",
+    "label": "Acts",
+    "count": 1,
+    "per_million": 243.8,
+    "background_per_million": 11.2,
+    "distinctiveness": 15.02
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_holy",
+    "label": "Holy",
+    "count": 1,
+    "per_million": 243.8,
+    "background_per_million": 18.4,
+    "distinctiveness": 10.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_roman",
+    "label": "Roman",
+    "count": 1,
+    "per_million": 243.8,
+    "background_per_million": 21.5,
+    "distinctiveness": 9.22
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_empire",
+    "label": "Empire",
+    "count": 1,
+    "per_million": 243.8,
+    "background_per_million": 22.5,
+    "distinctiveness": 8.88
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 1,
+    "per_million": 243.8,
+    "background_per_million": 89.9,
+    "distinctiveness": 2.57
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_john",
+    "label": "John",
+    "count": 1,
+    "per_million": 243.8,
+    "background_per_million": 95.0,
+    "distinctiveness": 2.44
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 1,
+    "per_million": 243.8,
+    "background_per_million": 105.2,
+    "distinctiveness": 2.21
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 5,
+    "per_million": 1219.2,
+    "background_per_million": 589.4,
+    "distinctiveness": 2.05
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mission",
+    "label": "Mission",
+    "count": 1,
+    "per_million": 243.8,
+    "background_per_million": 12.3,
+    "distinctiveness": 14.13
+   }
+  ],
+  "distinct_terms": 9,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5610,
+      "quote": "…me Bob’s address or some god dam thing? Do the easiest for you, Carol, and I will send you a silk pillow with Souvenir of Fullerton stitched on it. I still love you, but if you phoned or wrote or something I would love you more.…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_KRIPAL_JEFFREY_J_AUTHORS_OF_THE_IMPOSSIB.md",
+    "author": "Jeffrey J. Kripal",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3243,
+      "quote": "…s_ (Chicago: Henry Regnery, 1969), 110, henceforth PM; and _Dimensions: A Casebook of Alien Contact_ (London: Souvenir Press, 1988), 136. 4. FS 1:147–48. Other significant statements on the category occur at FS 2:42, 61. 5.…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "slug": "a-terran-odyssey",
+ "title": "A Terran Odyssey",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 50467,
+  "line_end": 51242,
+  "word_count": 12843,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jung",
+    "label": "Jung",
+    "count": 2,
+    "per_million": 155.7,
+    "background_per_million": 2.0,
+    "distinctiveness": 22.11
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 37,
+    "per_million": 2880.9,
+    "background_per_million": 138.9,
+    "distinctiveness": 20.02
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fish",
+    "label": "Fish",
+    "count": 3,
+    "per_million": 233.6,
+    "background_per_million": 37.8,
+    "distinctiveness": 5.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bible",
+    "label": "Bible",
+    "count": 1,
+    "per_million": 77.9,
+    "background_per_million": 14.3,
+    "distinctiveness": 4.03
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palm",
+    "label": "Palm",
+    "count": 1,
+    "per_million": 77.9,
+    "background_per_million": 17.4,
+    "distinctiveness": 3.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 7,
+    "per_million": 545.0,
+    "background_per_million": 266.6,
+    "distinctiveness": 2.01
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 12,
+    "per_million": 934.4,
+    "background_per_million": 462.7,
+    "distinctiveness": 2.0
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 2,
+    "per_million": 155.7,
+    "background_per_million": 73.5,
+    "distinctiveness": 1.98
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 1,
+    "per_million": 77.9,
+    "background_per_million": 35.8,
+    "distinctiveness": 1.91
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 2,
+    "per_million": 155.7,
+    "background_per_million": 77.6,
+    "distinctiveness": 1.88
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 25,
+    "per_million": 1946.6,
+    "background_per_million": 1079.7,
+    "distinctiveness": 1.79
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 3,
+    "per_million": 233.6,
+    "background_per_million": 128.7,
+    "distinctiveness": 1.75
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 7,
+    "per_million": 545.0,
+    "background_per_million": 311.5,
+    "distinctiveness": 1.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_soviet",
+    "label": "Soviet",
+    "count": 2,
+    "per_million": 155.7,
+    "background_per_million": 93.0,
+    "distinctiveness": 1.59
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_hoppy-harrington",
+    "label": "Hoppy Harrington",
+    "count": 12,
+    "per_million": 934.4,
+    "background_per_million": 12.3,
+    "distinctiveness": 54.14
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_stuart-mcconchie",
+    "label": "Stuart McConchie",
+    "count": 7,
+    "per_million": 545.0,
+    "background_per_million": 7.2,
+    "distinctiveness": 44.86
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_bonny-keller",
+    "label": "Bonny Keller",
+    "count": 7,
+    "per_million": 545.0,
+    "background_per_million": 7.2,
+    "distinctiveness": 44.86
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_edie-keller",
+    "label": "Edie Keller",
+    "count": 7,
+    "per_million": 545.0,
+    "background_per_million": 7.2,
+    "distinctiveness": 44.86
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_walt-dangerfield",
+    "label": "Walt Dangerfield",
+    "count": 5,
+    "per_million": 389.3,
+    "background_per_million": 5.1,
+    "distinctiveness": 38.52
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_carl-jung",
+    "label": "Carl Jung",
+    "count": 1,
+    "per_million": 77.9,
+    "background_per_million": 1.0,
+    "distinctiveness": 12.93
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_jim-fergesson",
+    "label": "Jim Fergesson",
+    "count": 1,
+    "per_million": 77.9,
+    "background_per_million": 1.0,
+    "distinctiveness": 12.93
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_solomon",
+    "label": "Solomon",
+    "count": 1,
+    "per_million": 77.9,
+    "background_per_million": 1.0,
+    "distinctiveness": 12.93
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_zebra",
+    "label": "Zebra",
+    "count": 1,
+    "per_million": 77.9,
+    "background_per_million": 3.1,
+    "distinctiveness": 9.66
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_luther",
+    "label": "Luther",
+    "count": 1,
+    "per_million": 77.9,
+    "background_per_million": 3.1,
+    "distinctiveness": 9.66
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_beethoven",
+    "label": "Beethoven",
+    "count": 1,
+    "per_million": 77.9,
+    "background_per_million": 20.4,
+    "distinctiveness": 3.06
+   }
+  ],
+  "distinct_terms": 14,
+  "distinct_names": 11
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5559,
+      "quote": "…ow We Got Along After the Bomb (w. 1963, p. 1965. Phil had proposed two titles: In Earth’s Diurnal Course and A Terran Odyssey). A post-nuclear holocaust idyll that is one of Phil’s warmest and most accessible novels. See Chapter 1; als…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

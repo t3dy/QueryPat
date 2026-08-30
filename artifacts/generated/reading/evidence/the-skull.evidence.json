@@ -1,0 +1,192 @@
+{
+ "slug": "the-skull",
+ "title": "The Skull",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 1564,
+  "line_end": 1759,
+  "word_count": 2829,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_church",
+    "label": "Church",
+    "count": 7,
+    "per_million": 2474.4,
+    "background_per_million": 22.5,
+    "distinctiveness": 90.07
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_holy",
+    "label": "Holy",
+    "count": 2,
+    "per_million": 707.0,
+    "background_per_million": 18.4,
+    "distinctiveness": 30.23
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_prison",
+    "label": "Prison",
+    "count": 2,
+    "per_million": 707.0,
+    "background_per_million": 24.5,
+    "distinctiveness": 23.95
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_divine",
+    "label": "Divine",
+    "count": 1,
+    "per_million": 353.5,
+    "background_per_million": 18.4,
+    "distinctiveness": 15.12
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_garden",
+    "label": "Garden",
+    "count": 1,
+    "per_million": 353.5,
+    "background_per_million": 55.2,
+    "distinctiveness": 5.88
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 1,
+    "per_million": 353.5,
+    "background_per_million": 105.2,
+    "distinctiveness": 3.21
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 1,
+    "per_million": 353.5,
+    "background_per_million": 128.7,
+    "distinctiveness": 2.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 2,
+    "per_million": 707.0,
+    "background_per_million": 398.4,
+    "distinctiveness": 1.75
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 3,
+    "per_million": 1060.4,
+    "background_per_million": 609.8,
+    "distinctiveness": 1.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 5,
+    "per_million": 1767.4,
+    "background_per_million": 1079.7,
+    "distinctiveness": 1.63
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 1,
+    "per_million": 353.5,
+    "background_per_million": 221.7,
+    "distinctiveness": 1.56
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-authorities",
+    "label": "The authorities",
+    "count": 2,
+    "per_million": 707.0,
+    "background_per_million": 32.7,
+    "distinctiveness": 18.76
+   }
+  ],
+  "distinct_terms": 11,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 2180,
+      "quote": "…once before in my lifetime did a science fiction story touch me so deeply, and that was Rog Phillips’ “Rat in the Skull.” I knew Rog personally and loved him very much; he was a good man, too. I haven’t met you, but for you to wr…"
+     },
+     {
+      "line": 4698,
+      "quote": "…one of the finest stories ever 266 THE SELECTED LETTERS OF PHILIP K. DICK to appear in our field: “Rat in the Skull,” If, Dec. ’58. I urge you to print it before all else. Thank you for your request, and good luck on the an…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1510,
+      "quote": "…ve my chance. By the way—I wonder if you read the lead story in the December 1958 If; Rog Phillips’ _Rat in the Skull._ I considered it one of the finest s-f stories that I know, and, in some ways, comparable with various liter…"
+     },
+     {
+      "line": 1538,
+      "quote": "…ve my chance. By the way—I wonder if you read the lead story in the December 1958 If; Rog Phillips’ _Rat in the Skull. I_ considered it one of the finest s-f stories that I know, and, in some ways, comparable with various liter…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 2580,
+      "quote": "…aised up as Christopher...my son’s name, bom in 1973. Rog Phillips (who autographed this story of his “Rat in the Skull,” “To Phillip K. Dick, a name under which I frequently write” and who now is dead—) in that great story of hi…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 5
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

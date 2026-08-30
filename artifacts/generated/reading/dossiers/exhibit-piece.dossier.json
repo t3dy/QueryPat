@@ -1,0 +1,191 @@
+{
+ "artifact_id": "ART_DOSSIER_EXHIBIT_PIECE",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "exhibit-piece",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Exhibit Piece",
+  "slug": "exhibit-piece",
+  "form": "story",
+  "word_count": 5164,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+   "line_start": 4584,
+   "line_end": 4925,
+   "word_count": 5164,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Pinky",
+    "name_id": "NAME_pinky",
+    "mentions": 1
+   },
+   {
+    "name": "The Russian",
+    "name_id": "NAME_the-russian",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Adam",
+    "entity_id": "TERM_adam",
+    "count": 1,
+    "distinctiveness": 19.16
+   },
+   {
+    "label": "Christian",
+    "entity_id": "TERM_christian",
+    "count": 1,
+    "distinctiveness": 14.7
+   },
+   {
+    "label": "Realm",
+    "entity_id": "TERM_realm",
+    "count": 1,
+    "distinctiveness": 12.73
+   },
+   {
+    "label": "Scanner",
+    "entity_id": "TERM_scanner",
+    "count": 3,
+    "distinctiveness": 8.26
+   },
+   {
+    "label": "Maze",
+    "entity_id": "TERM_maze",
+    "count": 1,
+    "distinctiveness": 7.62
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 3,
+    "distinctiveness": 4.28
+   },
+   {
+    "label": "Garden",
+    "entity_id": "TERM_garden",
+    "count": 1,
+    "distinctiveness": 3.22
+   },
+   {
+    "label": "Golden",
+    "entity_id": "TERM_golden",
+    "count": 1,
+    "distinctiveness": 3.01
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 8,
+    "distinctiveness": 2.9
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 2,
+    "distinctiveness": 2.9
+   },
+   {
+    "label": "Paul",
+    "entity_id": "TERM_paul",
+    "count": 1,
+    "distinctiveness": 2.43
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 10,
+    "distinctiveness": 1.79
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 1,
+    "distinctiveness": 1.79
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 2,
+    "distinctiveness": 1.71
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 2,
+    "distinctiveness": 1.69
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 4,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 1500,
+      "quote": "…odel becomes the ‘actual’ town, which then entraps the story’s other characters (his wife and her lover). In ‘Exhibit Piece’ (1954, CS3), which is set in the future, the man responsible for curating a museum exhibit on the typical su…"
+     },
+     {
+      "line": 1510,
+      "quote": "…ten shy about: a sense that escape can be good. Let the reality principle go hang. But take ‘Small Town’ and ‘Exhibit Piece’ together as variations on an idea, and we have not a dialectic or a resolved contradiction, but an instabili…"
+     },
+     {
+      "line": 1510,
+      "quote": "…nd the wife, as well as the model-builder, are absorbed into the model-become-town at the end. At the end of ‘Exhibit Piece’ the main character’s unpleasant colleagues, from whom he has so gratifyingly escaped, manage to put a fiftie…"
+     },
+     {
+      "line": 3738,
+      "quote": "…radio in 138n6, 225n2, 227 _Dr Futurity_ time travel in 46, 81n13, 207n6 _Exegesis, The_ 215, 224, 230, 235 ‘Exhibit Piece’ **106–07** ‘Exit Door Leads In, The’ 26 ‘Expendable’ 93n14 _Eye in the Sky_ African American in 81n13, 109n1…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "4 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

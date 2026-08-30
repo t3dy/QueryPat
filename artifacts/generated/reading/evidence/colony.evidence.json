@@ -1,0 +1,220 @@
+{
+ "slug": "colony",
+ "title": "Colony",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 11146,
+  "line_end": 11779,
+  "word_count": 6385,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_daniel",
+    "label": "Daniel",
+    "count": 2,
+    "per_million": 313.2,
+    "background_per_million": 4.1,
+    "distinctiveness": 34.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_thomas",
+    "label": "Thomas",
+    "count": 1,
+    "per_million": 156.6,
+    "background_per_million": 44.9,
+    "distinctiveness": 3.14
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_garden",
+    "label": "Garden",
+    "count": 1,
+    "per_million": 156.6,
+    "background_per_million": 55.2,
+    "distinctiveness": 2.6
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 4,
+    "per_million": 626.5,
+    "background_per_million": 311.5,
+    "distinctiveness": 1.98
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 7,
+    "per_million": 1096.3,
+    "background_per_million": 609.8,
+    "distinctiveness": 1.78
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 3,
+    "per_million": 469.9,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.73
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_nick",
+    "label": "Nick",
+    "count": 1,
+    "per_million": 156.6,
+    "background_per_million": 3.1,
+    "distinctiveness": 19.42
+   }
+  ],
+  "distinct_terms": 6,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 2401,
+      "quote": "…were actually alive, were actually _it,_ does not actually mean that there is nothing but it. Take my story \"Colony\" as paradigm. But anyhow the responding beforehand to signals and the vision of the Urwelt below the Dokos…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5730,
+      "quote": "…Jr. every few minutes. Also, I can pay you, which I should do and will gladly do. I’d like to order: #137 (“Colony” from X MINUS ONE), page 1 item 14. #313 (CARSACON ’74), page 26 item 10. THE SELECTED LETTERS OF PHILIP K.…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1363,
+      "quote": "…which Dick seriously attempted to break into writing for television. (One of his finest early short stories, \"Colony,\" had been adapted, in 1956, for the _X Minus One_ radio program, devoted to SF dramatizations.) There is no…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 7,
+    "quotes": [
+     {
+      "line": 1415,
+      "quote": "…The closest Phil ever came to this crab grass story is a brilliant little horror tale in SF clothing called “Colony,” which appeared in the June 1953 Galaxy, edited by Horace Gold; it was also adapted for the X Minus One radi…"
+     },
+     {
+      "line": 1423,
+      "quote": "…cue ship into which they have all climbed naked (no longer being able to trust their clothes). Phil wrote of “Colony”: “The ultimate in paranoia is not when everyone is against you but when everything is against you. Instead o…"
+     },
+     {
+      "line": 2539,
+      "quote": "…The Ganymede Takeover (p. 1967), was inspired by one such session. There was a proposed novel, The Whalemouth Colony, ideas from which Phil worked into The Unteleported Man (p. 1966). But the most important fantasized projec…"
+     },
+     {
+      "line": 5477,
+      "quote": "…hil’s take on the Orpheus legend, with a lover seeking to rescue his Eurydice from lifethirsting angels. For “Colony” (w. 1952, p. 1953) and “Impostor” (1953), the two best tales in the book, see Chapter 4. Rating: 4. 7. Sol…"
+     },
+     {
+      "line": 5641,
+      "quote": "…see Chapter 2); tales from Phil’s Berkeley salad days, like “Roog,” “Beyond Lies the Wub,” “Second Variety,” “Colony,” and 442 “Impostor” (see Chapter 4 and A Handful of Darkness, above); and the best of all of Phil’s stor…"
+     },
+     {
+      "line": 6029,
+      "quote": "…ten when life simpler: “Afterthoughts by the Author,” The Best of Philip K. Dick, p. 444. 74 Towel attack: “Colony” (1953). - 74-75 On “Colony”: “Afterthoughts by the Author,” The Best of Philip K. Dick, p. 447. - 75 Ref…"
+     },
+     {
+      "line": 6031,
+      "quote": "…houghts by the Author,” The Best of Philip K. Dick, p. 444. 74 Towel attack: “Colony” (1953). - 74-75 On “Colony”: “Afterthoughts by the Author,” The Best of Philip K. Dick, p. 447. - 75 Refusal to sell to Gold: PKD “Mem…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 390,
+      "quote": "…rly terrifying episode in a very complex and successful novel). > 25 As Mackey remarks, in connection with ‘Colony’ (1953, CS1), ‘Everything possesses consciousness, though it may not be like ours or share our values. There…"
+     },
+     {
+      "line": 3732,
+      "quote": "…in 209–10, 213, 218, 219, 221 fantasy and the social in 146–49 Lord Running Clam in **149–54** , 158–59, 161 ‘Colony’ 16n25 ‘Commuter, The’ **99** _Confessions of a Crap Artist_ 37n14, 67, 68n3, 70 Fay Hume in **72–79** , 83–8…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_KRIPAL_JEFFREY_J_MUTANTS_AND_MYSTICS.md",
+    "author": "Jeffrey J. Kripal",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 2275,
+      "quote": "…two worlds” and that “mankind is a colony.”49 These two basic ideas the authors call the Hybrid Man and Earth Colony theories. The book drives these two points home over and over again, with varying degrees of plausibility and…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3051,
+      "quote": "…Turning Wheel” deals with Elron Hu. (Phil’s mother was a Dianetics auditor and wanted to “clear” Phil.) In “Colony,” everything in that world is out to “get” the colonists, from pseudo-microscopes to pseudo-spaceships. In “E…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 11
+ }
+}

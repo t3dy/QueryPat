@@ -1,0 +1,118 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_INFINITES",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-infinites",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Infinites",
+  "slug": "the-infinites",
+  "form": "story",
+  "word_count": 7825,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 4408,
+   "line_end": 5011,
+   "word_count": 7825,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Gestalt",
+    "entity_id": "TERM_gestalt",
+    "count": 1,
+    "distinctiveness": 4.19
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 3,
+    "distinctiveness": 3.54
+   },
+   {
+    "label": "Cosmic",
+    "entity_id": "TERM_cosmic",
+    "count": 1,
+    "distinctiveness": 3.49
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 11,
+    "distinctiveness": 3.16
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 11,
+    "distinctiveness": 2.37
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 4,
+    "distinctiveness": 2.26
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 7,
+    "distinctiveness": 1.91
+   },
+   {
+    "label": "Brain",
+    "entity_id": "TERM_brain",
+    "count": 3,
+    "distinctiveness": 1.85
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 12,
+    "distinctiveness": 1.76
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

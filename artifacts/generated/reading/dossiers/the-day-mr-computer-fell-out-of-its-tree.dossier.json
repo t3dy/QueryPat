@@ -1,0 +1,181 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_DAY_MR_COMPUTER_FELL_OUT_OF_ITS_TREE",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-day-mr-computer-fell-out-of-its-tree",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Day Mr. Computer Fell Out Of Its Tree",
+  "slug": "the-day-mr-computer-fell-out-of-its-tree",
+  "form": "story",
+  "word_count": 2783,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 56049,
+   "line_end": 56240,
+   "word_count": 2783,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Joan Simpson",
+    "name_id": "NAME_joan-simpson",
+    "mentions": 12
+   },
+   {
+    "name": "Adolf Hitler",
+    "name_id": "NAME_adolf-hitler",
+    "mentions": 1
+   },
+   {
+    "name": "Joan",
+    "name_id": "NAME_joan",
+    "mentions": 12
+   },
+   {
+    "name": "Hitler",
+    "name_id": "NAME_hitler",
+    "mentions": 1
+   },
+   {
+    "name": "The authorities",
+    "name_id": "NAME_the-authorities",
+    "mentions": 1
+   },
+   {
+    "name": "Humans",
+    "name_id": "NAME_humans",
+    "mentions": 2
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Jesus Christ",
+    "entity_id": "TERM_jesus-christ",
+    "count": 1,
+    "distinctiveness": 39.55
+   },
+   {
+    "label": "Jesus",
+    "entity_id": "TERM_jesus",
+    "count": 1,
+    "distinctiveness": 22.13
+   },
+   {
+    "label": "Christ",
+    "entity_id": "TERM_christ",
+    "count": 2,
+    "distinctiveness": 9.15
+   },
+   {
+    "label": "Fish",
+    "entity_id": "TERM_fish",
+    "count": 1,
+    "distinctiveness": 8.4
+   },
+   {
+    "label": "Therefore",
+    "entity_id": "TERM_therefore",
+    "count": 1,
+    "distinctiveness": 8.01
+   },
+   {
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 9,
+    "distinctiveness": 7.13
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 2,
+    "distinctiveness": 5.29
+   },
+   {
+    "label": "Phil",
+    "entity_id": "TERM_phil",
+    "count": 1,
+    "distinctiveness": 4.35
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 3,
+    "distinctiveness": 3.41
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 2,
+    "distinctiveness": 2.75
+   },
+   {
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
+    "count": 1,
+    "distinctiveness": 2.5
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 3,
+    "distinctiveness": 1.81
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4645,
+      "quote": "…e of you, you don’t have to do anything, don’t worry.” That summer, Phil wrote a story as a gift for Joan: “The Day Mr. Computer Fell Out of Its Tree.” Composed in a childlike tone, “Mr. Computer” is a dress rehearsal of certain key themes in VALIS. It is als…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "1 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

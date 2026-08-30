@@ -1,0 +1,171 @@
+{
+ "slug": "anticipated-in-the-poetry-of-baha-ad-din-zuhayr-of-thirteenth-century-arabia",
+ "title": "Anticipated In The Poetry Of Baha Ad-din Zuhayr Of Thirteenth-century Arabia.",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 53303,
+  "line_end": 53906,
+  "word_count": 10293,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 9,
+    "per_million": 874.4,
+    "background_per_million": 138.9,
+    "distinctiveness": 6.08
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_spirit",
+    "label": "Spirit",
+    "count": 1,
+    "per_million": 97.2,
+    "background_per_million": 16.3,
+    "distinctiveness": 4.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 10,
+    "per_million": 971.5,
+    "background_per_million": 266.6,
+    "distinctiveness": 3.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 3,
+    "per_million": 291.5,
+    "background_per_million": 89.9,
+    "distinctiveness": 3.07
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 11,
+    "per_million": 1068.7,
+    "background_per_million": 398.4,
+    "distinctiveness": 2.65
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 3,
+    "per_million": 291.5,
+    "background_per_million": 105.2,
+    "distinctiveness": 2.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_faith",
+    "label": "Faith",
+    "count": 1,
+    "per_million": 97.2,
+    "background_per_million": 32.7,
+    "distinctiveness": 2.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 2,
+    "per_million": 194.3,
+    "background_per_million": 73.5,
+    "distinctiveness": 2.47
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 11,
+    "per_million": 1068.7,
+    "background_per_million": 462.7,
+    "distinctiveness": 2.28
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 3,
+    "per_million": 291.5,
+    "background_per_million": 130.7,
+    "distinctiveness": 2.15
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_thomas",
+    "label": "Thomas",
+    "count": 1,
+    "per_million": 97.2,
+    "background_per_million": 44.9,
+    "distinctiveness": 1.95
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 5,
+    "per_million": 485.8,
+    "background_per_million": 256.4,
+    "distinctiveness": 1.86
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_tanya-lee",
+    "label": "Tanya Lee",
+    "count": 8,
+    "per_million": 777.2,
+    "background_per_million": 16.3,
+    "distinctiveness": 36.42
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_st-cecilia",
+    "label": "St. Cecilia",
+    "count": 1,
+    "per_million": 97.2,
+    "background_per_million": 2.0,
+    "distinctiveness": 13.79
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_chien-tung",
+    "label": "Chien (Tung)",
+    "count": 1,
+    "per_million": 97.2,
+    "background_per_million": 2.0,
+    "distinctiveness": 13.79
+   }
+  ],
+  "distinct_terms": 12,
+  "distinct_names": 3
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

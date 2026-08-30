@@ -1,0 +1,135 @@
+{
+ "slug": "analysis-thanatous",
+ "title": "Analysis: Thanatous",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 57137,
+  "line_end": 57420,
+  "word_count": 3153,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 4,
+    "per_million": 1268.6,
+    "background_per_million": 73.5,
+    "distinctiveness": 16.15
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 11,
+    "per_million": 3488.7,
+    "background_per_million": 224.7,
+    "distinctiveness": 15.19
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 2,
+    "per_million": 634.3,
+    "background_per_million": 77.6,
+    "distinctiveness": 7.68
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 12,
+    "per_million": 3805.9,
+    "background_per_million": 959.1,
+    "distinctiveness": 3.95
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_john",
+    "label": "John",
+    "count": 1,
+    "per_million": 317.2,
+    "background_per_million": 95.0,
+    "distinctiveness": 3.17
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 1,
+    "per_million": 317.2,
+    "background_per_million": 128.7,
+    "distinctiveness": 2.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 2,
+    "per_million": 634.3,
+    "background_per_million": 350.4,
+    "distinctiveness": 1.79
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 2,
+    "per_million": 634.3,
+    "background_per_million": 398.4,
+    "distinctiveness": 1.57
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 1,
+    "per_million": 317.2,
+    "background_per_million": 202.2,
+    "distinctiveness": 1.53
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_linda-fox",
+    "label": "Linda Fox",
+    "count": 4,
+    "per_million": 1268.6,
+    "background_per_million": 11.2,
+    "distinctiveness": 78.14
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_linda",
+    "label": "Linda",
+    "count": 4,
+    "per_million": 1268.6,
+    "background_per_million": 13.3,
+    "distinctiveness": 69.4
+   }
+  ],
+  "distinct_terms": 9,
+  "distinct_names": 2
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

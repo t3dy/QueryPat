@@ -1,0 +1,344 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_MAN_IN_THE_HIGH_CASTLE",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-man-in-the-high-castle",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Man in the High Castle",
+  "slug": "the-man-in-the-high-castle",
+  "form": "novel",
+  "word_count": 80641,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/THE_MAN_IN_THE_HIGH_CASTLE_CLEAN.md",
+   "line_start": 0,
+   "line_end": null,
+   "word_count": 80641,
+   "status": "needs_structure"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Mr. Tagomi",
+    "name_id": "NAME_mr-tagomi",
+    "mentions": 287
+   },
+   {
+    "name": "Robert Childan",
+    "name_id": "NAME_robert-childan",
+    "mentions": 44
+   },
+   {
+    "name": "Frank Frink",
+    "name_id": "NAME_frank-frink",
+    "mentions": 22
+   },
+   {
+    "name": "Rommel",
+    "name_id": "NAME_rommel",
+    "mentions": 15
+   },
+   {
+    "name": "Calvin",
+    "name_id": "NAME_calvin",
+    "mentions": 14
+   },
+   {
+    "name": "The Tao",
+    "name_id": "NAME_the-tao",
+    "mentions": 8
+   },
+   {
+    "name": "Hitler",
+    "name_id": "NAME_hitler",
+    "mentions": 21
+   },
+   {
+    "name": "Mission",
+    "name_id": "NAME_mission",
+    "mentions": 19
+   },
+   {
+    "name": "Juliana Frink",
+    "name_id": "NAME_juliana-frink",
+    "mentions": 5
+   },
+   {
+    "name": "Hawthorne Abendsen",
+    "name_id": "NAME_hawthorne-abendsen",
+    "mentions": 5
+   },
+   {
+    "name": "Rudolf Wegener",
+    "name_id": "NAME_rudolf-wegener",
+    "mentions": 5
+   },
+   {
+    "name": "Mickey Mouse",
+    "name_id": "NAME_mickey-mouse",
+    "mentions": 4
+   },
+   {
+    "name": "Baynes (Mr.)",
+    "name_id": "NAME_baynes-mr",
+    "mentions": 3
+   },
+   {
+    "name": "Adolf Hitler",
+    "name_id": "NAME_adolf-hitler",
+    "mentions": 5
+   },
+   {
+    "name": "Saint",
+    "name_id": "NAME_saint",
+    "mentions": 3
+   },
+   {
+    "name": "Sophia",
+    "name_id": "NAME_sophia",
+    "mentions": 6
+   },
+   {
+    "name": "The Man",
+    "name_id": "NAME_the-man",
+    "mentions": 5
+   },
+   {
+    "name": "von Karajan",
+    "name_id": "NAME_von-karajan",
+    "mentions": 1
+   },
+   {
+    "name": "Saint Paul",
+    "name_id": "NAME_saint-paul",
+    "mentions": 1
+   },
+   {
+    "name": "Wilhelm",
+    "name_id": "NAME_wilhelm",
+    "mentions": 1
+   },
+   {
+    "name": "Socrates",
+    "name_id": "NAME_socrates",
+    "mentions": 1
+   },
+   {
+    "name": "The Empire",
+    "name_id": "NAME_the-empire",
+    "mentions": 1
+   },
+   {
+    "name": "Anne",
+    "name_id": "NAME_anne",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Jews",
+    "entity_id": "TERM_jews",
+    "count": 18,
+    "distinctiveness": 44.64
+   },
+   {
+    "label": "Jewish",
+    "entity_id": "TERM_jewish",
+    "count": 7,
+    "distinctiveness": 17.36
+   },
+   {
+    "label": "Paul",
+    "entity_id": "TERM_paul",
+    "count": 91,
+    "distinctiveness": 14.18
+   },
+   {
+    "label": "Yang",
+    "entity_id": "TERM_yang",
+    "count": 7,
+    "distinctiveness": 12.33
+   },
+   {
+    "label": "Bruno",
+    "entity_id": "TERM_bruno",
+    "count": 4,
+    "distinctiveness": 9.92
+   },
+   {
+    "label": "Spirit",
+    "entity_id": "TERM_spirit",
+    "count": 10,
+    "distinctiveness": 5.81
+   },
+   {
+    "label": "Bardo Thodol",
+    "entity_id": "TERM_bardo-thodol",
+    "count": 2,
+    "distinctiveness": 4.96
+   },
+   {
+    "label": "Bardo",
+    "entity_id": "TERM_bardo",
+    "count": 2,
+    "distinctiveness": 4.96
+   },
+   {
+    "label": "Thodol",
+    "entity_id": "TERM_thodol",
+    "count": 2,
+    "distinctiveness": 4.96
+   },
+   {
+    "label": "Viewed",
+    "entity_id": "TERM_viewed",
+    "count": 4,
+    "distinctiveness": 4.46
+   },
+   {
+    "label": "Rome",
+    "entity_id": "TERM_rome",
+    "count": 5,
+    "distinctiveness": 4.37
+   },
+   {
+    "label": "Jesus Christ",
+    "entity_id": "TERM_jesus-christ",
+    "count": 3,
+    "distinctiveness": 4.09
+   },
+   {
+    "label": "Simon",
+    "entity_id": "TERM_simon",
+    "count": 3,
+    "distinctiveness": 4.09
+   },
+   {
+    "label": "Faith",
+    "entity_id": "TERM_faith",
+    "count": 12,
+    "distinctiveness": 3.95
+   },
+   {
+    "label": "Empire",
+    "entity_id": "TERM_empire",
+    "count": 8,
+    "distinctiveness": 3.61
+   },
+   {
+    "label": "Karma",
+    "entity_id": "TERM_karma",
+    "count": 2,
+    "distinctiveness": 3.52
+   },
+   {
+    "label": "Palm",
+    "entity_id": "TERM_palm",
+    "count": 6,
+    "distinctiveness": 3.33
+   },
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 9,
+    "distinctiveness": 3.22
+   },
+   {
+    "label": "Jesus",
+    "entity_id": "TERM_jesus",
+    "count": 4,
+    "distinctiveness": 3.06
+   },
+   {
+    "label": "Folder",
+    "entity_id": "TERM_folder",
+    "count": 4,
+    "distinctiveness": 2.87
+   },
+   {
+    "label": "Christian",
+    "entity_id": "TERM_christian",
+    "count": 3,
+    "distinctiveness": 2.82
+   },
+   {
+    "label": "Therefore",
+    "entity_id": "TERM_therefore",
+    "count": 10,
+    "distinctiveness": 2.77
+   },
+   {
+    "label": "Joint",
+    "entity_id": "TERM_joint",
+    "count": 3,
+    "distinctiveness": 2.62
+   },
+   {
+    "label": "Godhead",
+    "entity_id": "TERM_godhead",
+    "count": 1,
+    "distinctiveness": 2.48
+   },
+   {
+    "label": "Elijah",
+    "entity_id": "TERM_elijah",
+    "count": 1,
+    "distinctiveness": 2.48
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6810,
+      "quote": "…ose and wicked and sinful that I really wanted to do. I’m sure God isn’t pissed with me. The guy who is doing the MAN IN THE HIGH CASTLE screenplay gave me a script he’d already writ­ ten, and in it God wears a t-shirt with his name (God) on it.…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

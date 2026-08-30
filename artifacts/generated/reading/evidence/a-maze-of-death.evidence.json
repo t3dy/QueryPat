@@ -1,0 +1,531 @@
+{
+ "slug": "a-maze-of-death",
+ "title": "A Maze of Death",
+ "kind": "novel",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_DICK_PHILIP_KINDRED_A_MAZE_OF_DEATH_LIBG.md",
+  "line_start": 0,
+  "line_end": null,
+  "word_count": 63204,
+  "status": "needs_structure"
+ },
+ "structure": {
+  "chapter_count": 12,
+  "chapters": [
+   {
+    "label": "1",
+    "line_start": 86,
+    "line_end": 185,
+    "word_count": 2156
+   },
+   {
+    "label": "2",
+    "line_start": 186,
+    "line_end": 417,
+    "word_count": 4167
+   },
+   {
+    "label": "3",
+    "line_start": 418,
+    "line_end": 577,
+    "word_count": 3175
+   },
+   {
+    "label": "4",
+    "line_start": 578,
+    "line_end": 861,
+    "word_count": 5144
+   },
+   {
+    "label": "5",
+    "line_start": 862,
+    "line_end": 1327,
+    "word_count": 9369
+   },
+   {
+    "label": "7",
+    "line_start": 1328,
+    "line_end": 1951,
+    "word_count": 10720
+   },
+   {
+    "label": "9",
+    "line_start": 1952,
+    "line_end": 2243,
+    "word_count": 5085
+   },
+   {
+    "label": "10",
+    "line_start": 2244,
+    "line_end": 2599,
+    "word_count": 7364
+   },
+   {
+    "label": "12",
+    "line_start": 2600,
+    "line_end": 2945,
+    "word_count": 5664
+   },
+   {
+    "label": "14",
+    "line_start": 2946,
+    "line_end": 3239,
+    "word_count": 5206
+   },
+   {
+    "label": "15",
+    "line_start": 3240,
+    "line_end": 3387,
+    "word_count": 2741
+   },
+   {
+    "label": "16",
+    "line_start": 3388,
+    "line_end": 3492,
+    "word_count": 1714
+   }
+  ]
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jung",
+    "label": "Jung",
+    "count": 4,
+    "per_million": 63.3,
+    "background_per_million": 2.0,
+    "distinctiveness": 8.99
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_emanation",
+    "label": "Emanation",
+    "count": 3,
+    "per_million": 47.5,
+    "background_per_million": 1.0,
+    "distinctiveness": 7.88
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tony",
+    "label": "Tony",
+    "count": 59,
+    "per_million": 933.5,
+    "background_per_million": 125.6,
+    "distinctiveness": 7.15
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_joint",
+    "label": "Joint",
+    "count": 4,
+    "per_million": 63.3,
+    "background_per_million": 9.2,
+    "distinctiveness": 4.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_maze",
+    "label": "Maze",
+    "count": 6,
+    "per_million": 94.9,
+    "background_per_million": 20.4,
+    "distinctiveness": 3.73
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gods",
+    "label": "Gods",
+    "count": 8,
+    "per_million": 126.6,
+    "background_per_million": 30.6,
+    "distinctiveness": 3.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jews",
+    "label": "Jews",
+    "count": 1,
+    "per_million": 15.8,
+    "background_per_million": 0.0,
+    "distinctiveness": 3.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_spinoza",
+    "label": "Spinoza",
+    "count": 1,
+    "per_million": 15.8,
+    "background_per_million": 0.0,
+    "distinctiveness": 3.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_judaism",
+    "label": "Judaism",
+    "count": 1,
+    "per_million": 15.8,
+    "background_per_million": 0.0,
+    "distinctiveness": 3.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jesus",
+    "label": "Jesus",
+    "count": 3,
+    "per_million": 47.5,
+    "background_per_million": 11.2,
+    "distinctiveness": 2.92
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 14,
+    "per_million": 221.5,
+    "background_per_million": 73.5,
+    "distinctiveness": 2.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christianity",
+    "label": "Christianity",
+    "count": 1,
+    "per_million": 15.8,
+    "background_per_million": 1.0,
+    "distinctiveness": 2.63
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_beethoven",
+    "label": "Beethoven",
+    "count": 2,
+    "per_million": 31.6,
+    "background_per_million": 7.2,
+    "distinctiveness": 2.6
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_indian",
+    "label": "Indian",
+    "count": 3,
+    "per_million": 47.5,
+    "background_per_million": 15.3,
+    "distinctiveness": 2.34
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_covenant",
+    "label": "Covenant",
+    "count": 1,
+    "per_million": 15.8,
+    "background_per_million": 2.0,
+    "distinctiveness": 2.25
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_prison",
+    "label": "Prison",
+    "count": 4,
+    "per_million": 63.3,
+    "background_per_million": 24.5,
+    "distinctiveness": 2.14
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palm",
+    "label": "Palm",
+    "count": 3,
+    "per_million": 47.5,
+    "background_per_million": 17.4,
+    "distinctiveness": 2.12
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_faith",
+    "label": "Faith",
+    "count": 5,
+    "per_million": 79.1,
+    "background_per_million": 32.7,
+    "distinctiveness": 2.1
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_moses",
+    "label": "Moses",
+    "count": 1,
+    "per_million": 15.8,
+    "background_per_million": 3.1,
+    "distinctiveness": 1.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_deus",
+    "label": "Deus",
+    "count": 1,
+    "per_million": 15.8,
+    "background_per_million": 3.1,
+    "distinctiveness": 1.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 11,
+    "per_million": 174.0,
+    "background_per_million": 89.9,
+    "distinctiveness": 1.83
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 24,
+    "per_million": 379.7,
+    "background_per_million": 224.7,
+    "distinctiveness": 1.65
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 4,
+    "per_million": 63.3,
+    "background_per_million": 35.8,
+    "distinctiveness": 1.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 39,
+    "per_million": 617.0,
+    "background_per_million": 398.4,
+    "distinctiveness": 1.53
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_horos",
+    "label": "Horos",
+    "count": 303,
+    "per_million": 4794.0,
+    "background_per_million": 0.0,
+    "distinctiveness": 958.8
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_seth-morley",
+    "label": "Seth Morley",
+    "count": 275,
+    "per_million": 4351.0,
+    "background_per_million": 0.0,
+    "distinctiveness": 870.2
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_wade-frazer",
+    "label": "Wade Frazer",
+    "count": 60,
+    "per_million": 949.3,
+    "background_per_million": 0.0,
+    "distinctiveness": 189.86
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mary-morley",
+    "label": "Mary Morley",
+    "count": 36,
+    "per_million": 569.6,
+    "background_per_million": 0.0,
+    "distinctiveness": 113.92
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_susie-smart",
+    "label": "Susie Smart",
+    "count": 31,
+    "per_million": 490.5,
+    "background_per_million": 0.0,
+    "distinctiveness": 98.1
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_tony-dunkelwelt",
+    "label": "Tony Dunkelwelt",
+    "count": 27,
+    "per_million": 427.2,
+    "background_per_million": 0.0,
+    "distinctiveness": 85.44
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_ben-tallchief",
+    "label": "Ben Tallchief",
+    "count": 25,
+    "per_million": 395.5,
+    "background_per_million": 0.0,
+    "distinctiveness": 79.11
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_parmenides",
+    "label": "Parmenides",
+    "count": 2,
+    "per_million": 31.6,
+    "background_per_million": 0.0,
+    "distinctiveness": 6.33
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mary",
+    "label": "Mary",
+    "count": 99,
+    "per_million": 1566.4,
+    "background_per_million": 276.8,
+    "distinctiveness": 5.56
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_bishop",
+    "label": "Bishop",
+    "count": 1,
+    "per_million": 15.8,
+    "background_per_million": 1.0,
+    "distinctiveness": 2.63
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_virgil",
+    "label": "Virgil",
+    "count": 1,
+    "per_million": 15.8,
+    "background_per_million": 2.0,
+    "distinctiveness": 2.25
+   }
+  ],
+  "distinct_terms": 24,
+  "distinct_names": 11
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 37,
+      "quote": "…g (1988) The Dark-Haired Girl (1988) Galactic Pot-Healer (1969) Ubik (1969) The Preserving Machine (1969) A Maze of Death (1970) Our Friends from Frolix 8 (1970) We Can Build You (1972) The Book of Philip K. Dick (1973) **==> pic…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 7,
+    "quotes": [
+     {
+      "line": 2629,
+      "quote": "…speaking in Latin and experiencing a spear thrust through his body. In a July 1974 letter Phil confirmed that A Maze of Death (1970) included “my own LSD vision from 1964 which is depicted with exact accuracy.” Here’s the quote in Phil…"
+     },
+     {
+      "line": 2789,
+      "quote": "…tion of Timothy Archer. But the in fluence went still deeper. Phil acknowledges in his “Author’s Foreword” to A Maze of Death (1968) the “wealth of theological material” he learned of through talks with Pike. What was this “theologic…"
+     },
+     {
+      "line": 2883,
+      "quote": "…ubtlety: Do Androids Dream of Electric Sheep? (w. 1966, p. 1968), Galactic Pot-Healer (w. 1968, p. 1969), and A Maze of Death (w. 1968, p. 1970) belie the mask of unsophistication donned above. But in his sixties SF novels that posed t…"
+     },
+     {
+      "line": 3251,
+      "quote": "…when she first befriended Phil, during his marriage with Nancy. (J’Ann served as a model for Sally Jo Berm in A Maze of Death, w. 1968.) After Nancy left, Phil tried to deepen the relationship. J’Ann recalls: I know I was frustrating…"
+     },
+     {
+      "line": 4529,
+      "quote": "…the best deals in Phil’s career to date. In May 1976, Bantam acquired three novels-Palmer Eldritch, Ubik, and A Maze of Death-for $20,000, a far cry from Phil’s typical $2,000-per-title reprint advances. Still more dazzling was a $12,0…"
+     },
+     {
+      "line": 5631,
+      "quote": "…the semi-all-powerful Glimmung. If Chesterton had written SF, it would have read like this. Rating: 8. 46. A Maze of Death, originally titled The Name of the Game Is Death (w. 1968, p. 1970). A group of colonists encounter inexplica…"
+     },
+     {
+      "line": 6315,
+      "quote": "…avis, February 1986. Insurance policy: Letter, J. G. Newkom to author, January 20, 1987. - 141 Acid trip in A Maze of Death Letter, PKD to Claudia Bush, July 15, 1974. 142 Acid vision: Letter, PKD to Rich Brown, August 21, 1967.…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT.md",
+    "author": "Fredric Jameson",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 4524,
+      "quote": "…ve); the Science Fiction period, from 1 961 to 1968 (I include ten novels, from The Man in the High Castle to A Maze of Death; we could argue about these and also set the dates a litde earlier or a litde later1); and finally the religi…"
+     },
+     {
+      "line": 4528,
+      "quote": "…ndroids Dream of Electric Sheep? (New York, 1984, orig. 1968), 1966: Ubik (New York, 1991, orig. 1969), 1968: A Maze of Death (New York, 1971). Page references within the text are to these editions. 2 But see, for an attempt to integ…"
+     },
+     {
+      "line": 5248,
+      "quote": "…n and 80-3 periods of 363 422 INDEX Dick, Philip K. (cont'd.) ten greatest novels 93 Van Vogt and 315 A Maze of Death 363, 381 A Scanner Darkly 347 Clans of the Alphane Moon 363, 376, 380 Cosmic Puppets 459 Do Androids Dr…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_FIVE_STAR_PAPERBACK_ERIK_DAVIS_TECHGNOSI.md",
+    "author": "Erik Davis",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 2965,
+      "quote": "…y somatic explanation), his earlier books prove that 2-3-74 erupted from his own creative daemon. In 1970’s A Maze of Death, for example, a character’s quest for self-knowledge stages a techgnostic metafable that mixes “The Hymn of t…"
+     },
+     {
+      "line": 2987,
+      "quote": "…claims he used to create the theology of Specktowsky’s book: that God exists. As postmodern allegories go, A Maze of Death cuts to the bone. Incapable of altering the destructive course of our dys­ functional technological society,…"
+     },
+     {
+      "line": 2997,
+      "quote": "…nding illusions, it appears to offer no ascent, only a frank awareness of the slow drift toward oblivion. But A Maze of Death is a Philip K. Dick story, which means that the story is never really over. Once Morley awakens on the spaces…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3249,
+      "quote": "…*Wolfson, Margaret** 57, 115, 235, 249 **Wolfson, William** 63, 115, 120, 126, 150–151, 235, 249 **Works** _**A Maze of Death**_ 116 _**A Scanner Darkly**_ 83, 141, 143–145, 165, 189, 269 _**A Time for George**_ **Stavros** 59 _**Blade…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 14
+ }
+}

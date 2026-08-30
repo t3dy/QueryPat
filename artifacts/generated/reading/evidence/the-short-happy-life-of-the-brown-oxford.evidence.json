@@ -1,0 +1,127 @@
+{
+ "slug": "the-short-happy-life-of-the-brown-oxford",
+ "title": "The Short Happy Life Of The Brown Oxford",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 8042,
+  "line_end": 8341,
+  "word_count": 3616,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 10,
+    "per_million": 2765.5,
+    "background_per_million": 529.1,
+    "distinctiveness": 5.18
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 2,
+    "per_million": 553.1,
+    "background_per_million": 103.2,
+    "distinctiveness": 5.11
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 5,
+    "per_million": 1382.7,
+    "background_per_million": 311.5,
+    "distinctiveness": 4.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 12,
+    "per_million": 3318.6,
+    "background_per_million": 959.1,
+    "distinctiveness": 3.44
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 7,
+    "per_million": 1935.8,
+    "background_per_million": 868.2,
+    "distinctiveness": 2.22
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 1,
+    "per_million": 276.5,
+    "background_per_million": 138.9,
+    "distinctiveness": 1.92
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_joan",
+    "label": "Joan",
+    "count": 28,
+    "per_million": 7743.4,
+    "background_per_million": 169.6,
+    "distinctiveness": 44.36
+   }
+  ],
+  "distinct_terms": 6,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6850,
+      "quote": "…agazine._ “Expendable.” 1953 Fantasy House. First appeared in _The Magazine of Fan­ tasy & Science-Fiction._ “The Short Happy Life of the Brown Oxford.” 1954 Fantasy House. First appeared in _The Magazine of Fantasy & Science-Fiction._ “Autofac.” 1955 Galaxy P…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1332,
+      "quote": "…c._ ); dogs: ‘Roog’ (1953, CS1) and ‘Adjustment Team’ (1954, CS2); spiders: ‘Expendable’ (1953, CS1); shoes: ‘The Short Happy Life of the Brown Oxford’ (1954, CS1); Bach: ‘The Preserving Machine’ (1953, CS1). 15 See also ‘Autofac’ (1955, CS4), discussed in C…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

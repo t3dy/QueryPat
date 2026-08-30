@@ -1,0 +1,194 @@
+{
+ "artifact_id": "ART_DOSSIER_ADJUSTMENT_TEAM",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "adjustment-team",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Adjustment Team",
+  "slug": "adjustment-team",
+  "form": "story",
+  "word_count": 5246,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 22698,
+   "line_end": 23155,
+   "word_count": 5246,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Ed Fletcher",
+    "name_id": "NAME_ed-fletcher",
+    "mentions": 2
+   },
+   {
+    "name": "Mary",
+    "name_id": "NAME_mary",
+    "mentions": 4
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Divine",
+    "entity_id": "TERM_divine",
+    "count": 1,
+    "distinctiveness": 8.15
+   },
+   {
+    "label": "Therefore",
+    "entity_id": "TERM_therefore",
+    "count": 1,
+    "distinctiveness": 4.25
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 2,
+    "distinctiveness": 2.81
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 4,
+    "distinctiveness": 1.9
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 6,
+    "distinctiveness": 1.86
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 3,
+    "distinctiveness": 1.81
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 5,
+    "distinctiveness": 1.78
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 1,
+    "distinctiveness": 1.76
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 4,
+    "distinctiveness": 1.71
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 6,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 999,
+      "quote": "…ing—hardly an economical or orderly way for God to handle things. (You'll find early stories of mine such as \"Adjustment Team\" and \"The Commuter\" dealing with post-screwup changes; they're always bad news to the Creator.) In connection…"
+     },
+     {
+      "line": 1085,
+      "quote": "…he same. (I suppose it is possible that these are not dysfunctions, though, but deliberate adjustments, à la \"Adjustment Team,\" in the process of continual creation. Which would account for my sense of the Holy Other in charge when thi…"
+     },
+     {
+      "line": 1735,
+      "quote": "…ak, makes it). Like in my story \"The Commuter.\" Also, there is to me the real thought that adjustments (à la \"Adjustment Team\") are being made in our past, which are to an ever increasing degree making a certain \"alternate present\" (or…"
+     },
+     {
+      "line": 13242,
+      "quote": "…ophanes, [>], [>]–[>], [>], [>] Yeats, William Butler, [>], [>] Zimmer, Heinrich, [>] ## **Works Index** \"Adjustment Team,\" [>], [>], [>] \"Beyond Lies the Wub,\" [>]–[>], [>], [>] \"Beyond the Door,\" [>] _Bishop Timothy Archer.…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1274,
+      "quote": "…so if you want you can check it against what Ballantine has: “Nanny” “The Turning Wheel” “The Defenders” “Adjustment Team” “Psi-Man Heal My Child” “The Commuter” “A Present For Pat” “Breakfast at Twilight” “Shell Game” That…"
+     },
+     {
+      "line": 1620,
+      "quote": "…ng— hardly an economical or orderly way for God to handle things. (You’ll find early stories of mine such as “Adjustment Team” and “The Commuter” dealing with post-screwup changes; they’re always bad news to the Creator.) In connection…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 3,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 1332,
+      "quote": "…an_ (1963) and _The Unteleported Man_ (1966, later published as _Lies, Inc._ ); dogs: ‘Roog’ (1953, CS1) and ‘Adjustment Team’ (1954, CS2); spiders: ‘Expendable’ (1953, CS1); shoes: ‘The Short Happy Life of the Brown Oxford’ (1954, CS1…"
+     },
+     {
+      "line": 1380,
+      "quote": "…transient and precarious. The moment of dissolution is often described, always horrifying (even when, as in ‘Adjustment Team’, the purpose behind it is benign—indeed, in that case, divine); it is almost always seen in the same way, as…"
+     },
+     {
+      "line": 3730,
+      "quote": "…mmarized, 6–7, 25, 35, 109n1, 113–14, 150, 178, 209, 221 works discussed; detailed discussions in **bold** : ‘Adjustment Team’ 93n14, 97 ‘Android and the Human, The’ 225 _Androids_ , _see Do Androids Dream of Electric Sheep?_ ‘Autofa…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "6 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "3 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "slug": "jon-s-world",
+ "title": "Jon's World",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 15096,
+  "line_end": 16235,
+  "word_count": 11514,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_soviet",
+    "label": "Soviet",
+    "count": 13,
+    "per_million": 1129.1,
+    "background_per_million": 93.0,
+    "distinctiveness": 11.53
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 6,
+    "per_million": 521.1,
+    "background_per_million": 130.7,
+    "distinctiveness": 3.84
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 7,
+    "per_million": 608.0,
+    "background_per_million": 202.2,
+    "distinctiveness": 2.93
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_james",
+    "label": "James",
+    "count": 1,
+    "per_million": 86.9,
+    "background_per_million": 25.5,
+    "distinctiveness": 2.84
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 86.9,
+    "background_per_million": 29.6,
+    "distinctiveness": 2.51
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_scanner",
+    "label": "Scanner",
+    "count": 2,
+    "per_million": 173.7,
+    "background_per_million": 65.4,
+    "distinctiveness": 2.47
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gods",
+    "label": "Gods",
+    "count": 1,
+    "per_million": 86.9,
+    "background_per_million": 30.6,
+    "distinctiveness": 2.44
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 86.9,
+    "background_per_million": 39.8,
+    "distinctiveness": 1.94
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 7,
+    "per_million": 608.0,
+    "background_per_million": 311.5,
+    "distinctiveness": 1.92
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-soviets",
+    "label": "The Soviets",
+    "count": 2,
+    "per_million": 173.7,
+    "background_per_million": 8.2,
+    "distinctiveness": 13.19
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_ikhnaton",
+    "label": "Ikhnaton",
+    "count": 1,
+    "per_million": 86.9,
+    "background_per_million": 3.1,
+    "distinctiveness": 10.77
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-soviet",
+    "label": "The Soviet",
+    "count": 3,
+    "per_million": 260.6,
+    "background_per_million": 54.1,
+    "distinctiveness": 4.41
+   }
+  ],
+  "distinct_terms": 9,
+  "distinct_names": 3
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

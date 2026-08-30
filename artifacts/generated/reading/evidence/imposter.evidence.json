@@ -1,0 +1,166 @@
+{
+ "slug": "imposter",
+ "title": "Imposter",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 23736,
+  "line_end": 24147,
+  "word_count": 5307,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 7,
+    "per_million": 1319.0,
+    "background_per_million": 311.5,
+    "distinctiveness": 4.17
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 10,
+    "per_million": 1884.3,
+    "background_per_million": 529.1,
+    "distinctiveness": 3.53
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 4,
+    "per_million": 753.7,
+    "background_per_million": 256.4,
+    "distinctiveness": 2.88
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 6,
+    "per_million": 1130.6,
+    "background_per_million": 398.4,
+    "distinctiveness": 2.8
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 3,
+    "per_million": 565.3,
+    "background_per_million": 221.7,
+    "distinctiveness": 2.49
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 10,
+    "per_million": 1884.3,
+    "background_per_million": 868.2,
+    "distinctiveness": 2.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 4,
+    "per_million": 753.7,
+    "background_per_million": 440.2,
+    "distinctiveness": 1.69
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 4,
+    "per_million": 753.7,
+    "background_per_million": 448.4,
+    "distinctiveness": 1.66
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 5,
+    "per_million": 942.2,
+    "background_per_million": 609.8,
+    "distinctiveness": 1.53
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_spence-olham",
+    "label": "Spence Olham",
+    "count": 5,
+    "per_million": 942.2,
+    "background_per_million": 10.2,
+    "distinctiveness": 61.92
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mary",
+    "label": "Mary",
+    "count": 9,
+    "per_million": 1695.9,
+    "background_per_million": 276.8,
+    "distinctiveness": 6.02
+   }
+  ],
+  "distinct_terms": 9,
+  "distinct_names": 2
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 3049,
+      "quote": "…novels and stories of the fifties. Among them: a killer robot with six personalities; and another robot, “The Imposter,” who is a bomb but thinks he’s human, as does the reader, until he/it explodes. In _The World Jones Made_ ,…"
+     },
+     {
+      "line": 3165,
+      "quote": "…Spielberg with Tom Cruise; _Paycheck_ , by Ang Lee with Ben Affleck. Some lesser-known films are _Screamers, Imposter, A Scanner Darkly, Next_ , and the French film _Barjo_ . Phil’s old house is still here in Point Reyes Stat…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT.md",
+    "author": "Fredric Jameson",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4660,
+      "quote": "…eatening and all-embracing fashion than the hypothesis of the \"malignant genie\". For in crucial stories like \"Imposter\" or \"The Electric Ant\" the ques­ tions now identified as involving Artificial Intelligence seep into and infe…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ }
+}

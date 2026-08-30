@@ -1,0 +1,265 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_EXIT_DOOR_LEADS_IN",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-exit-door-leads-in",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Exit Door Leads In",
+  "slug": "the-exit-door-leads-in",
+  "form": "story",
+  "word_count": 6692,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI.md",
+   "line_start": 11064,
+   "line_end": 11653,
+   "word_count": 6692,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Anaximander",
+    "name_id": "NAME_anaximander",
+    "mentions": 1
+   },
+   {
+    "name": "Xenophanes",
+    "name_id": "NAME_xenophanes",
+    "mentions": 1
+   },
+   {
+    "name": "Anaxagoras",
+    "name_id": "NAME_anaxagoras",
+    "mentions": 1
+   },
+   {
+    "name": "Mary",
+    "name_id": "NAME_mary",
+    "mentions": 38
+   },
+   {
+    "name": "Ikhnaton",
+    "name_id": "NAME_ikhnaton",
+    "mentions": 1
+   },
+   {
+    "name": "The authorities",
+    "name_id": "NAME_the-authorities",
+    "mentions": 1
+   },
+   {
+    "name": "The Russian",
+    "name_id": "NAME_the-russian",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Empedocles",
+    "entity_id": "TERM_empedocles",
+    "count": 5,
+    "distinctiveness": 49.11
+   },
+   {
+    "label": "Diagram",
+    "entity_id": "TERM_diagram",
+    "count": 2,
+    "distinctiveness": 29.57
+   },
+   {
+    "label": "Yang",
+    "entity_id": "TERM_yang",
+    "count": 1,
+    "distinctiveness": 21.22
+   },
+   {
+    "label": "Moses",
+    "entity_id": "TERM_moses",
+    "count": 1,
+    "distinctiveness": 18.53
+   },
+   {
+    "label": "Jesus Christ",
+    "entity_id": "TERM_jesus-christ",
+    "count": 1,
+    "distinctiveness": 16.45
+   },
+   {
+    "label": "Apollo",
+    "entity_id": "TERM_apollo",
+    "count": 1,
+    "distinctiveness": 16.45
+   },
+   {
+    "label": "Heraclitus",
+    "entity_id": "TERM_heraclitus",
+    "count": 1,
+    "distinctiveness": 16.45
+   },
+   {
+    "label": "Taoist",
+    "entity_id": "TERM_taoist",
+    "count": 1,
+    "distinctiveness": 16.45
+   },
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
+    "count": 2,
+    "distinctiveness": 10.13
+   },
+   {
+    "label": "Greek",
+    "entity_id": "TERM_greek",
+    "count": 2,
+    "distinctiveness": 9.47
+   },
+   {
+    "label": "Jesus",
+    "entity_id": "TERM_jesus",
+    "count": 1,
+    "distinctiveness": 9.2
+   },
+   {
+    "label": "Christ",
+    "entity_id": "TERM_christ",
+    "count": 3,
+    "distinctiveness": 5.71
+   },
+   {
+    "label": "Father",
+    "entity_id": "TERM_father",
+    "count": 11,
+    "distinctiveness": 4.63
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 11,
+    "distinctiveness": 3.51
+   },
+   {
+    "label": "Fish",
+    "entity_id": "TERM_fish",
+    "count": 1,
+    "distinctiveness": 3.49
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 5,
+    "distinctiveness": 3.25
+   },
+   {
+    "label": "Wisdom",
+    "entity_id": "TERM_wisdom",
+    "count": 1,
+    "distinctiveness": 2.19
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 7,
+    "distinctiveness": 1.97
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 3,
+    "distinctiveness": 1.65
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 1,
+    "distinctiveness": 1.57
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 11080,
+      "quote": "…on of/by the plasma; she represents a government regulatory agency—as Mary Lorne represents the college in \"The Exit Door Leads In.\" The government (à la Ursula) is worried about Owl's mental health: \"spiraling into himself and slowly going…"
+     },
+     {
+      "line": 13282,
+      "quote": "…[>], [>] _Enough to Scare the Dead_ (working book title), [>]–[>], [>], [>], [>], [>]–[>], [>], [>]–[>] \"The Exit Door Leads In,\" [>] _Eye in the Sky,_ [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>] \"The Eyes Have It,\" [>…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4879,
+      "quote": "…tor” award. Another coup came when “Rautavaara’s Case” appeared in the October 1980 Omni. A third new story, “The Exit Door Leads In,” was featured in the fall 1979 Rolling Stone College Papers. (For discussion of these stories, see I Hope I…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 514,
+      "quote": "…reader has pieced together. ‘This was just the beginning’ runs the last sentence of the novel (ch. 17, 202): ‘The Exit Door Leads In’, to quote the title of one of Dick’s late short stories (1979, CS5). We have not a conclusion but the sign o…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "2 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "2 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

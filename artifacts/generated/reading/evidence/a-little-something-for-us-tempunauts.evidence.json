@@ -1,0 +1,229 @@
+{
+ "slug": "a-little-something-for-us-tempunauts",
+ "title": "A Little Something For Us Tempunauts",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 54711,
+  "line_end": 55182,
+  "word_count": 8287,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_viewed",
+    "label": "Viewed",
+    "count": 1,
+    "per_million": 120.7,
+    "background_per_million": 6.1,
+    "distinctiveness": 10.84
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_soviet",
+    "label": "Soviet",
+    "count": 8,
+    "per_million": 965.4,
+    "background_per_million": 93.0,
+    "distinctiveness": 9.86
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_march",
+    "label": "March",
+    "count": 2,
+    "per_million": 241.3,
+    "background_per_million": 22.5,
+    "distinctiveness": 8.79
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jesus",
+    "label": "Jesus",
+    "count": 1,
+    "per_million": 120.7,
+    "background_per_million": 11.2,
+    "distinctiveness": 7.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bible",
+    "label": "Bible",
+    "count": 1,
+    "per_million": 120.7,
+    "background_per_million": 14.3,
+    "distinctiveness": 6.25
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 12,
+    "per_million": 1448.1,
+    "background_per_million": 462.7,
+    "distinctiveness": 3.1
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 1,
+    "per_million": 120.7,
+    "background_per_million": 35.8,
+    "distinctiveness": 2.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 6,
+    "per_million": 724.0,
+    "background_per_million": 397.3,
+    "distinctiveness": 1.8
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 4,
+    "per_million": 482.7,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.78
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 2,
+    "per_million": 241.3,
+    "background_per_million": 138.9,
+    "distinctiveness": 1.68
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 3,
+    "per_million": 362.0,
+    "background_per_million": 224.7,
+    "distinctiveness": 1.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 12,
+    "per_million": 1448.1,
+    "background_per_million": 959.1,
+    "distinctiveness": 1.5
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-kennedys",
+    "label": "The Kennedys",
+    "count": 1,
+    "per_million": 120.7,
+    "background_per_million": 2.0,
+    "distinctiveness": 17.13
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-soviet",
+    "label": "The Soviet",
+    "count": 7,
+    "per_million": 844.7,
+    "background_per_million": 54.1,
+    "distinctiveness": 14.28
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_ralph",
+    "label": "Ralph",
+    "count": 1,
+    "per_million": 120.7,
+    "background_per_million": 9.2,
+    "distinctiveness": 8.5
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mission",
+    "label": "Mission",
+    "count": 1,
+    "per_million": 120.7,
+    "background_per_million": 12.3,
+    "distinctiveness": 6.99
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_sophia",
+    "label": "Sophia",
+    "count": 1,
+    "per_million": 120.7,
+    "background_per_million": 17.4,
+    "distinctiveness": 5.4
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-russian",
+    "label": "The Russian",
+    "count": 2,
+    "per_million": 241.3,
+    "background_per_million": 49.0,
+    "distinctiveness": 4.47
+   }
+  ],
+  "distinct_terms": 12,
+  "distinct_names": 6
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 6336,
+      "quote": "…ate 1971 or early 1972, my choice selections. PLEASE use it, Judy-Lynn. Ballantine has my most recent story, “A Little Something For Us Tempunauts” in the current Terry Carr best s-f collection, and I consider—as Terry does—that this is one of my best stor…"
+     },
+     {
+      "line": 6572,
+      "quote": "…## [TO JACK SCOVIL] _May 18, 1976_ ## Dear Jack Enclosed is my check to your for your 10% commission on “A Little Something For Us Tempunauts.” I must admit I fouled up, here. We originally got a check for something like six dollars, direct from Ferma…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4050,
+      "quote": "…of Millgrove, Iowa” changed in a flash my entire conception of what a good s-f story is. So then I wrote, “A Little Something For Us Tempunauts” for Ed Ferman because I had a new mind, a whole mind again, a writer’s mind, and it was set facing the futur…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

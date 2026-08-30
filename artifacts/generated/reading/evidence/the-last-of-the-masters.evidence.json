@@ -1,0 +1,139 @@
+{
+ "slug": "the-last-of-the-masters",
+ "title": "The Last Of The Masters",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 28886,
+  "line_end": 29657,
+  "word_count": 10792,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 2,
+    "per_million": 185.3,
+    "background_per_million": 29.6,
+    "distinctiveness": 5.35
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_maze",
+    "label": "Maze",
+    "count": 1,
+    "per_million": 92.7,
+    "background_per_million": 20.4,
+    "distinctiveness": 3.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_march",
+    "label": "March",
+    "count": 1,
+    "per_million": 92.7,
+    "background_per_million": 22.5,
+    "distinctiveness": 3.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 15,
+    "per_million": 1389.9,
+    "background_per_million": 462.7,
+    "distinctiveness": 2.97
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 12,
+    "per_million": 1111.9,
+    "background_per_million": 397.3,
+    "distinctiveness": 2.76
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 15,
+    "per_million": 1389.9,
+    "background_per_million": 589.4,
+    "distinctiveness": 2.34
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 2,
+    "per_million": 185.3,
+    "background_per_million": 105.2,
+    "distinctiveness": 1.68
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_laura",
+    "label": "Laura",
+    "count": 3,
+    "per_million": 278.0,
+    "background_per_million": 41.9,
+    "distinctiveness": 5.93
+   }
+  ],
+  "distinct_terms": 7,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 422,
+      "quote": "…apons channelling unsensed energies: _Lies, Inc._ ; breakdown and ignorance: ‘The Variable Man’ (1953, CS1), ‘The Last of the Masters’ (1954, CS3), _The Penultimate Truth_ . PHILIP K. DICK AND THE POSTMODERN 19 shall consider where it ge…"
+     },
+     {
+      "line": 1314,
+      "quote": "…chapter revisits below. 92 EXHILARATION AND TERROR OF THE POSTMODERN to return to the short stories, in ‘The Last of the Masters’ (1954, CS3) the focus is on the sterility of a robot with a male name, Bors. In the future sketched by this…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5523,
+      "quote": "…es “Robert Hig” and “Nicholas”); there’s a Christ-like robot in need of repair parts in Phil’s 1954 SF story “The Last of the Masters.” 19. Time Out of Joint (w. 1958, p. 1959). See Chapter 4. Rating: 7. 20. In Milton Lumky Territory (w. 1…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ }
+}

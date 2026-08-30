@@ -1,0 +1,218 @@
+{
+ "slug": "retreat-syndrome",
+ "title": "Retreat Syndrome",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 49943,
+  "line_end": 50466,
+  "word_count": 8501,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_prison",
+    "label": "Prison",
+    "count": 5,
+    "per_million": 588.2,
+    "background_per_million": 24.5,
+    "distinctiveness": 19.93
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_john",
+    "label": "John",
+    "count": 12,
+    "per_million": 1411.6,
+    "background_per_million": 95.0,
+    "distinctiveness": 14.12
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_realm",
+    "label": "Realm",
+    "count": 1,
+    "per_million": 117.6,
+    "background_per_million": 10.2,
+    "distinctiveness": 7.73
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 9,
+    "per_million": 1058.7,
+    "background_per_million": 138.9,
+    "distinctiveness": 7.36
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bible",
+    "label": "Bible",
+    "count": 1,
+    "per_million": 117.6,
+    "background_per_million": 14.3,
+    "distinctiveness": 6.09
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 2,
+    "per_million": 235.3,
+    "background_per_million": 39.8,
+    "distinctiveness": 5.25
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 5,
+    "per_million": 588.2,
+    "background_per_million": 130.7,
+    "distinctiveness": 4.33
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_march",
+    "label": "March",
+    "count": 1,
+    "per_million": 117.6,
+    "background_per_million": 22.5,
+    "distinctiveness": 4.28
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 3,
+    "per_million": 352.9,
+    "background_per_million": 77.6,
+    "distinctiveness": 4.27
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 2,
+    "per_million": 235.3,
+    "background_per_million": 89.9,
+    "distinctiveness": 2.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 7,
+    "per_million": 823.4,
+    "background_per_million": 448.4,
+    "distinctiveness": 1.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 8,
+    "per_million": 941.1,
+    "background_per_million": 526.0,
+    "distinctiveness": 1.77
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 6,
+    "per_million": 705.8,
+    "background_per_million": 398.4,
+    "distinctiveness": 1.75
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 1,
+    "per_million": 117.6,
+    "background_per_million": 73.5,
+    "distinctiveness": 1.5
+   }
+  ],
+  "names": [],
+  "distinct_terms": 14,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 5,
+    "quotes": [
+     {
+      "line": 3059,
+      "quote": "…you get if you sit down starting with \"Roog\" and read through everything (including such strange stories as \"Retreat Syndrome\") all the way to _Scanner._ If everything interlocks, what is the total message? I know I scared myself shitl…"
+     },
+     {
+      "line": 4125,
+      "quote": "…is interwoven, it either all stands or it falls. Such stories as \"Precious Artifact\" and \"Electric Ant\" and \"Retreat Syndrome\" tell us nothing—not to mention the novels. _Ubik_ tells us nothing? And four years and four months of ex…"
+     },
+     {
+      "line": 4801,
+      "quote": "…rd of, let alone know, are my own stories and novels. This situation appears again and again. Take the story \"Retreat Syndrome.\" Or the novel _Maze._ The _same_ idea (as has been pointed out to me by all sorts of readers) is reworked ag…"
+     },
+     {
+      "line": 5138,
+      "quote": "…_ elements (9) Every other relevant story and novel, from _Joint_ to \"Remember Wholesale,\" \"Electric Ant,\" \"Retreat Syndrome,\" etc., not listed in (1) through (8).[➊] ➊ And (10) _Eye:_ Subjective private worlds. And, as in \"Faith of…"
+     },
+     {
+      "line": 13336,
+      "quote": "…, [>], [>]–[>], [>]–[>] _The Penultimate Truth,_ [>], [>], [>], [>] \"Precious Artifact,\" [>], [>], [>] \"Retreat Syndrome,\" [>], [>], [>], [>] _A Scanner Darkly,_ [>], [>], [>], [>]–[>], [>], [>], [>], [>], [>]–[>], [>], [>]–[>],…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4244,
+      "quote": "…well. What can you say. _262_ THE SELECTED LETTERS OF PHILIP K. DICK I’m afraid I don’t quite understand “Retreat Syndrome” entirely myself, but it seems to have something to do with hallucinations. I understood it when I wrote it,…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 6
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5609,
+      "quote": "…ected budget of $50 million; the scheduled release date is summer 1990. Another story unique to this volume, “Retreat Syndrome” (1965), is a chilling SF invasion tale that also employs the implanted-memory theme and somehow manages to i…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

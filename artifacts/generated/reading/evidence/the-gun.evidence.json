@@ -1,0 +1,121 @@
+{
+ "slug": "the-gun",
+ "title": "The Gun",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 1182,
+  "line_end": 1351,
+  "word_count": 2139,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 3,
+    "per_million": 1402.5,
+    "background_per_million": 221.7,
+    "distinctiveness": 6.19
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 1,
+    "per_million": 467.5,
+    "background_per_million": 103.2,
+    "distinctiveness": 4.32
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 7,
+    "per_million": 3272.6,
+    "background_per_million": 868.2,
+    "distinctiveness": 3.75
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 3,
+    "per_million": 1402.5,
+    "background_per_million": 398.4,
+    "distinctiveness": 3.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 7,
+    "per_million": 3272.6,
+    "background_per_million": 959.1,
+    "distinctiveness": 3.39
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 4,
+    "per_million": 1870.0,
+    "background_per_million": 589.4,
+    "distinctiveness": 3.15
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 2,
+    "per_million": 935.0,
+    "background_per_million": 311.5,
+    "distinctiveness": 2.95
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 1,
+    "per_million": 467.5,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.72
+   }
+  ],
+  "names": [],
+  "distinct_terms": 8,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1304,
+      "quote": "…e Defenders’, 1953, CS1); or a giant gun, still relentlessly defending a civilization that no longer exists (‘The Gun’,1952, CS1). In these stories, the real enemy is hypertrophied technology and the attitudes that give it powe…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

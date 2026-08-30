@@ -1,0 +1,171 @@
+{
+ "slug": "the-great-c",
+ "title": "The Great C",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 9904,
+  "line_end": 10013,
+  "word_count": 2213,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 451.9,
+    "background_per_million": 29.6,
+    "distinctiveness": 13.05
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 3,
+    "per_million": 1355.6,
+    "background_per_million": 128.7,
+    "distinctiveness": 10.14
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 6,
+    "per_million": 2711.3,
+    "background_per_million": 440.2,
+    "distinctiveness": 6.09
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 7,
+    "per_million": 3163.1,
+    "background_per_million": 589.4,
+    "distinctiveness": 5.32
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_john",
+    "label": "John",
+    "count": 1,
+    "per_million": 451.9,
+    "background_per_million": 95.0,
+    "distinctiveness": 4.52
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 4,
+    "per_million": 1807.5,
+    "background_per_million": 529.1,
+    "distinctiveness": 3.38
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 3,
+    "per_million": 1355.6,
+    "background_per_million": 397.3,
+    "distinctiveness": 3.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 2,
+    "per_million": 903.8,
+    "background_per_million": 266.6,
+    "distinctiveness": 3.33
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 1,
+    "per_million": 451.9,
+    "background_per_million": 138.9,
+    "distinctiveness": 3.14
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 6,
+    "per_million": 2711.3,
+    "background_per_million": 1079.7,
+    "distinctiveness": 2.5
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 3,
+    "per_million": 1355.6,
+    "background_per_million": 609.8,
+    "distinctiveness": 2.2
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_anne",
+    "label": "Anne",
+    "count": 1,
+    "per_million": 451.9,
+    "background_per_million": 2.0,
+    "distinctiveness": 64.16
+   }
+  ],
+  "distinct_terms": 11,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5651,
+      "quote": "…ually closely) an outline Phil submitted to win the Doubleday contract in 1964. Two of Phil’s early stories, “The Great C” (1953) and “A Planet for Transients” (1953), were drawn upon for plot parts, but a greater 443 influence…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 786,
+      "quote": "…figures repeatedly recombine and interact: the little guy—a minor operative or repairman, a put-upon > 12 ‘The Great C’ (1953, CS1), ‘Planet for Transients’ (1953, CS2). ( _Deus Irae_ was published in 1976.) > 13 Suvin (1988:…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 2
+ }
+}

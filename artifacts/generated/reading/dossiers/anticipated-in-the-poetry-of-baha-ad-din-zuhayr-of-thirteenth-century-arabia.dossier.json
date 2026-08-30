@@ -1,0 +1,152 @@
+{
+ "artifact_id": "ART_DOSSIER_ANTICIPATED_IN_THE_POETRY_OF_BAHA_AD_DIN_ZUHAYR_OF_THIRTEENTH_CENTURY_ARABIA",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "anticipated-in-the-poetry-of-baha-ad-din-zuhayr-of-thirteenth-century-arabia",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Anticipated In The Poetry Of Baha Ad-din Zuhayr Of Thirteenth-century Arabia.",
+  "slug": "anticipated-in-the-poetry-of-baha-ad-din-zuhayr-of-thirteenth-century-arabia",
+  "form": "story",
+  "word_count": 10293,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 53303,
+   "line_end": 53906,
+   "word_count": 10293,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Tanya Lee",
+    "name_id": "NAME_tanya-lee",
+    "mentions": 8
+   },
+   {
+    "name": "St. Cecilia",
+    "name_id": "NAME_st-cecilia",
+    "mentions": 1
+   },
+   {
+    "name": "Chien (Tung)",
+    "name_id": "NAME_chien-tung",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
+    "count": 9,
+    "distinctiveness": 6.08
+   },
+   {
+    "label": "Spirit",
+    "entity_id": "TERM_spirit",
+    "count": 1,
+    "distinctiveness": 4.55
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 10,
+    "distinctiveness": 3.58
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 3,
+    "distinctiveness": 3.07
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 11,
+    "distinctiveness": 2.65
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 3,
+    "distinctiveness": 2.64
+   },
+   {
+    "label": "Faith",
+    "entity_id": "TERM_faith",
+    "count": 1,
+    "distinctiveness": 2.58
+   },
+   {
+    "label": "Christ",
+    "entity_id": "TERM_christ",
+    "count": 2,
+    "distinctiveness": 2.47
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 11,
+    "distinctiveness": 2.28
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 3,
+    "distinctiveness": 2.15
+   },
+   {
+    "label": "Thomas",
+    "entity_id": "TERM_thomas",
+    "count": 1,
+    "distinctiveness": 1.95
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 5,
+    "distinctiveness": 1.86
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

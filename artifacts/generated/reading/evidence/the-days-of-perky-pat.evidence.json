@@ -1,0 +1,235 @@
+{
+ "slug": "the-days-of-perky-pat",
+ "title": "The Days Of Perky Pat",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 45859,
+  "line_end": 46508,
+  "word_count": 9584,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fate",
+    "label": "Fate",
+    "count": 3,
+    "per_million": 313.0,
+    "background_per_million": 20.4,
+    "distinctiveness": 12.31
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 9,
+    "per_million": 939.1,
+    "background_per_million": 74.6,
+    "distinctiveness": 11.8
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_acts",
+    "label": "Acts",
+    "count": 1,
+    "per_million": 104.3,
+    "background_per_million": 11.2,
+    "distinctiveness": 6.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 5,
+    "per_million": 521.7,
+    "background_per_million": 138.9,
+    "distinctiveness": 3.63
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 3,
+    "per_million": 313.0,
+    "background_per_million": 89.9,
+    "distinctiveness": 3.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 7,
+    "per_million": 730.4,
+    "background_per_million": 266.6,
+    "distinctiveness": 2.69
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 9,
+    "per_million": 939.1,
+    "background_per_million": 350.4,
+    "distinctiveness": 2.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bureau",
+    "label": "Bureau",
+    "count": 1,
+    "per_million": 104.3,
+    "background_per_million": 38.8,
+    "distinctiveness": 2.38
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 5,
+    "per_million": 521.7,
+    "background_per_million": 224.7,
+    "distinctiveness": 2.27
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 2,
+    "per_million": 208.7,
+    "background_per_million": 103.2,
+    "distinctiveness": 1.93
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 16,
+    "per_million": 1669.4,
+    "background_per_million": 959.1,
+    "distinctiveness": 1.73
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 14,
+    "per_million": 1460.8,
+    "background_per_million": 868.2,
+    "distinctiveness": 1.67
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 5,
+    "per_million": 521.7,
+    "background_per_million": 311.5,
+    "distinctiveness": 1.65
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 8,
+    "per_million": 834.7,
+    "background_per_million": 529.1,
+    "distinctiveness": 1.56
+   }
+  ],
+  "names": [],
+  "distinct_terms": 14,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3260,
+      "quote": "…. I’m enclosing Ted’s letter because of the purely business element in paragraph four: permission to print “The Days of Perky Pat” By coincidence, I just now came across the two permission forms Ted sent me originally; I don’t recall now w…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6338,
+      "quote": "…s in place of “Service Call”? The others on the list strike me as fine: “Autofac” “Beyond Lies the Wub” “In the Days of Perky Pat” “The Defenders” (But this could be pulled for “Second Variety,” since the theme is the same.) “The Electri…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 2
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 5,
+    "quotes": [
+     {
+      "line": 2401,
+      "quote": "…3, Phil and Anne gave their daughters Barbie and Ken dolls. That very month, Phil had published (in Amazing) “The Days of Perky Pat,” a strange, hilarious story of life on a bleak, defeated Earth whose survivors are kept alive through the re…"
+     },
+     {
+      "line": 5743,
+      "quote": "…use in the Best of Philip K. Dick story collection; a much shorter note was used instead) for the 1963 story “The Days of Perky Pat.” In Dick Estate Archives. - 15 Special event: Elizabeth M. Bryan, “The Death of a Newborn Twin: How Can Su…"
+     },
+     {
+      "line": 6267,
+      "quote": "…ial use in The Best of Philip K. Dick story collection; a much shorter note was used instead) for 1963 story “The Days of Perky Pat.” Certain chemicals: PKD essay, “Will the Atomic Bomb Ever Be Perfected, and If So, What Becomes of Robert He…"
+     },
+     {
+      "line": 6269,
+      "quote": "…drugs: Letter, PKD to Rich Brown, August 21, 1967. - 127 Gas mask memories: Unpublished PKD “Headnote” for “The Days of Perky Pat,” supra. Idios kosmoses needed to stay sane: Letter, PKD to Bruce Gillespie, June 8, 1969, published in Gille…"
+     },
+     {
+      "line": 6281,
+      "quote": "…It’s all the same: C. II of Palmer Eldritch. - 132 PKD’s father as Eldritch and Bulero: PKD “Headnote” to “The Days of Perky Pat,” supra. - 132 Chew-Z: Paul Williams, “The True Stories of Philip K. Dick,” Rolling Stone, November 6, 1975…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 818,
+      "quote": "…draws for its Martian colony sets the broken-down settlement in a wrecked, post-nuclear Oakland, California (‘The Days of Perky Pat’, 1963, CS4). STATIC AND KINETIC 51 from which he begins, as can be seen from his first novel, _Solar L…"
+     },
+     {
+      "line": 1964,
+      "quote": "…e_ : ‘Man has not eaten God; God has eaten man’ (ch. 3, 42). > 14 This part of the novel is anticipated by ‘The Days of Perky Pat’ (1963, CS4). > 15 This very interesting novel is briefly discussed in Chapter 9. (In _Galactic Pot-Healer_…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 7
+ }
+}

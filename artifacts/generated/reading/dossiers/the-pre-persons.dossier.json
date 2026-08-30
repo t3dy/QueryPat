@@ -1,0 +1,206 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_PRE_PERSONS",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-pre-persons",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Pre-persons",
+  "slug": "the-pre-persons",
+  "form": "story",
+  "word_count": 2358,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 55183,
+   "line_end": 55328,
+   "word_count": 2358,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Church",
+    "entity_id": "TERM_church",
+    "count": 2,
+    "distinctiveness": 30.87
+   },
+   {
+    "label": "King",
+    "entity_id": "TERM_king",
+    "count": 3,
+    "distinctiveness": 9.66
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 4,
+    "distinctiveness": 6.25
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 1,
+    "distinctiveness": 3.92
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 2,
+    "distinctiveness": 3.74
+   },
+   {
+    "label": "Bill",
+    "entity_id": "TERM_bill",
+    "count": 1,
+    "distinctiveness": 2.95
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 1,
+    "distinctiveness": 1.85
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 2,
+    "distinctiveness": 1.59
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 5,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 3854,
+      "quote": "…s-f writer]_ _July 8, 1975_ ## Dear Vonda, I received a fanzine with a piece of yours in it attacking “The Pre-Persons” as “vicious.” The story was written out of a love for small &. helpless living things: animals and children…"
+     },
+     {
+      "line": 3874,
+      "quote": "…lave state over­ thrown! I feel very happy these days, and now say whatever I believe to everyone. Regarding “The Pre-Persons.” I got a lot of unsigned hate mail on that. Even Vonda McIntyre wrote in an article that it is a crude and v…"
+     },
+     {
+      "line": 4036,
+      "quote": "…honor to be in it, really, I am so excited. Also, Terry, it must have taken courage for you to list my story “The Pre-Persons” in the Honorable Mention list, since all the lib ladies are madder than hell at me about it; maybe I told yo…"
+     },
+     {
+      "line": 5588,
+      "quote": "…e they’re the same people. Let me say that I am on your side. I got a lot of unsigned hate mail for my story “The Pre-Persons,” which was anti-abortion; I know how you feel. Some of the same zealots are probably writing you, now. Are t…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5956,
+      "quote": "…Something for Us Tempunauts” were both commissioned by Ed Ferman.) This story runs 6,000 words and is called “The Pre-Persons,” and deals with abortions (it’s against, not for). I’ve just got the rough so far, but as soon as I regain…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 9,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 6,
+    "quotes": [
+     {
+      "line": 1266,
+      "quote": "…ness. ‘For me, _Human Is_ is my credo. May it be yours.’[8] Dick was just as emphatic about a later story, ‘The Pre-Persons’ (1974, CS5), which is equally direct in its morality, and which outraged many readers. To those who were out…"
+     },
+     {
+      "line": 1276,
+      "quote": "…though this entails briefly digressing from our nominated period (the early fifties).[10] Like ‘Human Is’, ‘The Pre-Persons’ is set in an outwardly typical American family and concerns what it is to be a person. In fact it is a feroc…"
+     },
+     {
+      "line": 1290,
+      "quote": "…uctive psychiatrist/social engineer.) This does not mean that _Always Coming Home_ has the same qualities as ‘The Pre-Persons’, but it does remind us that in SF the author reimagines worlds, and also shows us other people—perhaps perni…"
+     },
+     {
+      "line": 1442,
+      "quote": "…53, CS3), ‘Jon’s World’ (1954, CS2), ‘A World of Talent’ (1954, CS3), ‘Foster, You’re Dead’ (1955, CS3), and ‘The Pre-Persons’ (1974, CS5). ‘Tony and the Beetles’ and ‘Martians Come in Clouds’ (1954, CS2) both begin with angry scenes…"
+     },
+     {
+      "line": 1486,
+      "quote": "…for it. Fathers cannot resist the pressures of the wider society, and, for Dick, it is fathers who count. In ‘The Pre-Persons’ the only way in which the father can express what he knows to be right and try to help his child is by joini…"
+     },
+     {
+      "line": 3886,
+      "quote": "…ick 49, 64 biographical aspects 87 in _Clans_ 150–54, 158n12, 198 in _Confessions of a Crap Artist_ 75–79 in ‘The Pre-Persons’ 89–90, 138–39 in _Timothy Archer_ 216–17 _see also_ marital conflict and breakdown Wood, Gerard 96n19 Wordsw…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 2025,
+      "quote": "…ne in life details and speech patterns. The high-water mark of the “problem” came in Phil’s 1974 short story “The Pre-Persons,” which reflects Phil’s deeply felt antiabortion stand. The vehemence of its womanhate is extraordinary. Fath…"
+     },
+     {
+      "line": 2027,
+      "quote": "…s if female fetuses did not exist. Phil later regretted the vehemence. In a 1980 “Afterword” he wrote: “In `The Pre-Persons’ it is love for the children that I feel, not anger toward those who would destroy them. My anger is generate…"
+     },
+     {
+      "line": 6187,
+      "quote": "…fe won’t help: Letter, PKD to Eleanor Dimoff, February 1, 1960, supra. - 109 Castrating females: PKD story “The Pre-Persons” (1974). Love, not anger: PKD “Afterword” to story collection The Golden Man (New York: Berkley, 1980), p. 33…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "5 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "9 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

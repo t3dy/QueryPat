@@ -1,0 +1,128 @@
+{
+ "artifact_id": "ART_DOSSIER_SMALL_TOWN",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "small-town",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Small Town",
+  "slug": "small-town",
+  "form": "story",
+  "word_count": 1414,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 25040,
+   "line_end": 25145,
+   "word_count": 1414,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 1,
+    "distinctiveness": 6.54
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 2,
+    "distinctiveness": 3.18
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 1,
+    "distinctiveness": 3.12
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 2,
+    "distinctiveness": 2.65
+   },
+   {
+    "label": "Father",
+    "entity_id": "TERM_father",
+    "count": 1,
+    "distinctiveness": 1.99
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 6,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 6,
+    "quotes": [
+     {
+      "line": 1500,
+      "quote": "…f-critical. Two contrary stories will enable us to examine the duplicity of fantasy in Philip. K. Dick. In ‘Small Town’ (1954, CS2), a bitter, unsuccessful ‘little guy’ pours all his spirit into the modelling of a miniature of h…"
+     },
+     {
+      "line": 1510,
+      "quote": "…am’ fiction is often shy about: a sense that escape can be good. Let the reality principle go hang. But take ‘Small Town’ and ‘Exhibit Piece’ together as variations on an idea, and we have not a dialectic or a resolved contradicti…"
+     },
+     {
+      "line": 1510,
+      "quote": "…er as variations on an idea, and we have not a dialectic or a resolved contradiction, but an instability. In ‘Small Town’ the wife’s lover analyses the main character’s inability to face reality and his regression to model-buildin…"
+     },
+     {
+      "line": 1512,
+      "quote": "…n, which he wields as a weapon, refusing the role of ingeniously extrapolating SF author; in stories such as ‘Small Town’, he stands inside the fiction, since it is easy to see how his imagining is subject to the same traps as tha…"
+     },
+     {
+      "line": 1512,
+      "quote": "…imagining is subject to the same traps as that of the characters. A sign of this is that it is easy to read ‘Small Town’ or, for instance, ‘Pay for the Printer’, as allegories of authorship (the author as creator of miniature wor…"
+     },
+     {
+      "line": 3770,
+      "quote": "…erence of 47–8, 52n23, 82n14, 110, 112n6 psychosis in 114, 138n7, 155, 204n4 shifting subjects in 13, 14, 35 ‘Small Town’ fantasy and **106–07** _Solar Lottery_ (also published, with differences, as _World of Chance_ ) 6n6, 36, 39…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "6 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

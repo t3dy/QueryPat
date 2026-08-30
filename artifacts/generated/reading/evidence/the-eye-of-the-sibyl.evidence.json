@@ -1,0 +1,355 @@
+{
+ "slug": "the-eye-of-the-sibyl",
+ "title": "The Eye Of The Sibyl",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 55853,
+  "line_end": 56048,
+  "word_count": 4125,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_sibyl",
+    "label": "Sibyl",
+    "count": 35,
+    "per_million": 8484.8,
+    "background_per_million": 37.8,
+    "distinctiveness": 198.27
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_roman",
+    "label": "Roman",
+    "count": 12,
+    "per_million": 2909.1,
+    "background_per_million": 21.5,
+    "distinctiveness": 109.98
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_apollo",
+    "label": "Apollo",
+    "count": 2,
+    "per_million": 484.8,
+    "background_per_million": 4.1,
+    "distinctiveness": 53.36
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anamnesis",
+    "label": "Anamnesis",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 1.0,
+    "distinctiveness": 40.26
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_rome",
+    "label": "Rome",
+    "count": 2,
+    "per_million": 484.8,
+    "background_per_million": 9.2,
+    "distinctiveness": 34.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_prison",
+    "label": "Prison",
+    "count": 2,
+    "per_million": 484.8,
+    "background_per_million": 24.5,
+    "distinctiveness": 16.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_greek",
+    "label": "Greek",
+    "count": 2,
+    "per_million": 484.8,
+    "background_per_million": 26.6,
+    "distinctiveness": 15.36
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gods",
+    "label": "Gods",
+    "count": 2,
+    "per_million": 484.8,
+    "background_per_million": 30.6,
+    "distinctiveness": 13.6
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bible",
+    "label": "Bible",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 14.3,
+    "distinctiveness": 12.56
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 6,
+    "per_million": 1454.5,
+    "background_per_million": 128.7,
+    "distinctiveness": 10.88
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_holy",
+    "label": "Holy",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 18.4,
+    "distinctiveness": 10.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_march",
+    "label": "March",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 22.5,
+    "distinctiveness": 8.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 2,
+    "per_million": 484.8,
+    "background_per_million": 59.2,
+    "distinctiveness": 7.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wisdom",
+    "label": "Wisdom",
+    "count": 2,
+    "per_million": 484.8,
+    "background_per_million": 63.3,
+    "distinctiveness": 7.1
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 29.6,
+    "distinctiveness": 7.0
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 39.8,
+    "distinctiveness": 5.41
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 2,
+    "per_million": 484.8,
+    "background_per_million": 105.2,
+    "distinctiveness": 4.4
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 4,
+    "per_million": 969.7,
+    "background_per_million": 266.6,
+    "distinctiveness": 3.57
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 74.6,
+    "distinctiveness": 3.05
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 77.6,
+    "distinctiveness": 2.93
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 6,
+    "per_million": 1454.5,
+    "background_per_million": 589.4,
+    "distinctiveness": 2.45
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 4,
+    "per_million": 969.7,
+    "background_per_million": 440.2,
+    "distinctiveness": 2.18
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_philip",
+    "label": "Philip",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 124.6,
+    "distinctiveness": 1.87
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_king",
+    "label": "King",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 126.7,
+    "distinctiveness": 1.84
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 4,
+    "per_million": 969.7,
+    "background_per_million": 526.0,
+    "distinctiveness": 1.83
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 130.7,
+    "distinctiveness": 1.79
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 138.9,
+    "distinctiveness": 1.68
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_nixon",
+    "label": "Nixon",
+    "count": 5,
+    "per_million": 1212.1,
+    "background_per_million": 6.1,
+    "distinctiveness": 108.92
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_virgil",
+    "label": "Virgil",
+    "count": 2,
+    "per_million": 484.8,
+    "background_per_million": 2.0,
+    "distinctiveness": 68.84
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-rightful-king",
+    "label": "The Rightful King",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 1.0,
+    "distinctiveness": 40.26
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mission",
+    "label": "Mission",
+    "count": 1,
+    "per_million": 242.4,
+    "background_per_million": 12.3,
+    "distinctiveness": 14.05
+   }
+  ],
+  "distinct_terms": 27,
+  "distinct_names": 4
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 3218,
+      "quote": "…] _March 30, 1975_ ## Dear Art and Michele, Here is a 14-page piece (about 3,000 words) for you called “The Eye of the Sibyl.” It is I think a story which you can illustrate in a vivid and compelling way. 145 THE SELECTED LETTERS…"
+     },
+     {
+      "line": 3228,
+      "quote": "…hurts really bad right now so I will knock off.. .please, if you could phone me and let me know if you find “The Eye of the Sibyl” okay.. .collect, of course; I get very anxious when I wait. I haven’t received a rejection slip since 1954,…"
+     },
+     {
+      "line": 3334,
+      "quote": "…story, but already they intuit that there is something more to it. I guess between my speech and this story, “The Eye of the Sibyl,” I’ve blown my cover. I’m amazed that I felt, from the start, that I should keep absolutely quiet about it;…"
+     },
+     {
+      "line": 3500,
+      "quote": "…paid me anyhow. It only took me half a morning to write the dam thing; for your records it’s a story called “The Eye of the Sibyl.” Jack, I would like to borrow $500, if I could. My son was unexpectedly injured this weekend, and we’re shor…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 4
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4439,
+      "quote": "…and world of robot presidents. Phil now proposed a collaboration; but the story Phil submitted in March 1975-“The Eye of the Sibyl”-was, like the 1974 Ubik screenplay, too intricate for adaptation to the intended (comic book/movie) medium.…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

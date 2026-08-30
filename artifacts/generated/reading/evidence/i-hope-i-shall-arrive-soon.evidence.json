@@ -1,0 +1,269 @@
+{
+ "slug": "i-hope-i-shall-arrive-soon",
+ "title": "I Hope I Shall Arrive Soon",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 57495,
+  "line_end": 57972,
+  "word_count": 6751,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_karma",
+    "label": "Karma",
+    "count": 1,
+    "per_million": 148.1,
+    "background_per_million": 2.0,
+    "distinctiveness": 21.03
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 2,
+    "per_million": 296.3,
+    "background_per_million": 35.8,
+    "distinctiveness": 7.27
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palm",
+    "label": "Palm",
+    "count": 1,
+    "per_million": 148.1,
+    "background_per_million": 17.4,
+    "distinctiveness": 6.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_cosmic",
+    "label": "Cosmic",
+    "count": 1,
+    "per_million": 148.1,
+    "background_per_million": 31.7,
+    "distinctiveness": 4.04
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 2,
+    "per_million": 296.3,
+    "background_per_million": 77.6,
+    "distinctiveness": 3.59
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 12,
+    "per_million": 1777.5,
+    "background_per_million": 529.1,
+    "distinctiveness": 3.33
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 1,
+    "per_million": 148.1,
+    "background_per_million": 59.2,
+    "distinctiveness": 2.31
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 3,
+    "per_million": 444.4,
+    "background_per_million": 202.2,
+    "distinctiveness": 2.14
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 3,
+    "per_million": 444.4,
+    "background_per_million": 221.7,
+    "distinctiveness": 1.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 1,
+    "per_million": 148.1,
+    "background_per_million": 73.5,
+    "distinctiveness": 1.89
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 3,
+    "per_million": 444.4,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 5,
+    "per_million": 740.6,
+    "background_per_million": 448.4,
+    "distinctiveness": 1.63
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_saint",
+    "label": "Saint",
+    "count": 1,
+    "per_million": 148.1,
+    "background_per_million": 6.1,
+    "distinctiveness": 13.31
+   }
+  ],
+  "distinct_terms": 12,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 12616,
+      "quote": "…ge (adjective) or stranger (noun); both rarely used. - \" **Frozen Journey** \": Original name for the story \"I Hope I Shall Arrive Soon\" (1980). **GABA fluid** : Gamma aminobutyric acid, an endogenous inhibitory neurotransmitter in the human n…"
+     },
+     {
+      "line": 13304,
+      "quote": "…[>], [>], [>], [>], [>], [>]–[>], [>] _The Game-Players of Titan,_ [>], [>] \"The Golden Man,\" [>], [>] \"I Hope I Shall Arrive Soon.\" _See_ \"Frozen Journey\" \"Impostor,\" [>], [>], [>], [>], [>], [>], [>] _The Man in the High Castle,_ [>],…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 31,
+      "quote": "…bots, Androids, and Mechanical Oddities (1984) In Milton Lumky Territory (1985) Ubik: The Screenplay (1985) I Hope I Shall Arrive Soon (1985) Puttering About in a Small Land (1985) Radio Free Albemuth (1985) Humpty Dumpty in Oakland (1986) Th…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1009,
+      "quote": "…_Playboy_ Award for Best New Contributor of Fiction for 1980 [for the story \"Frozen Journey,\" later retitled \"I Hope I Shall Arrive Soon\"]. This February, Bantam Books releases his new novel _Valis_ , and in April Simon & Schuster its sequel _The…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 4
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 7,
+    "quotes": [
+     {
+      "line": 4879,
+      "quote": "…that A 378 Scanner Darkly had won the Grand Prix du Festival de Metz. In June, he completed a new story, “I Hope I Shall Arrive Soon,” which Galen sold to Playboy. Phil didn’t care for the Playboy philosophy and gave his fourfigure fee to Cam…"
+     },
+     {
+      "line": 4879,
+      "quote": "…Leads In,” was featured in the fall 1979 Rolling Stone College Papers. (For discussion of these stories, see I Hope I Shall Arrive Soon in the Chronological Survey.) To his great joy, Phil was able now to reestablish close ties with Laura and…"
+     },
+     {
+      "line": 4953,
+      "quote": "…knew well the vertigo of losing one’s home, responded with an essay, “Strange Memories of Death” (included in I Hope I Shall Arrive Soon), detailing the crisis of his neighbor the “Lysol Lady”: “What bothers me is that I know the only thing separ…"
+     },
+     {
+      "line": 5453,
+      "quote": "…hine (1969), The Book of Philip K. Dick (1972), The Best of Philip K. Dick (1977), The Golden Man (1980), and I Hope I Shall Arrive Soon (1985)-because they contain the best of the stories. (Phil helped with the selection process for Best of and…"
+     },
+     {
+      "line": 5667,
+      "quote": "…Rating: 6.- 55. VALIS (w. 1978, p. 1981). See extensive discussion in Chapters 10 and 11. Rating: 10. 56. I Hope I Shall Arrive Soon (w. 1953-80, p. 1985). This posthumous collection, edited by Mark Hurst and Paul Williams, includes, most not…"
+     },
+     {
+      "line": 5667,
+      "quote": "…ity of a dying human astronaut is utilized by researchoriented Proxmen as a window into the next world), and “I Hope I Shall Arrive Soon” (first published as “Frozen Journey”-a spaceship computer tries without success to find happy life memories…"
+     },
+     {
+      "line": 6865,
+      "quote": "…493 - 265 Only thing separating him: PKD essay. “Strange Memories of Death,” in PKD story/essay collection I Hope I Shall Arrive Soon (Garden City, N.Y.: Doubleday, 1985), pp. 98-99. - 266 Proposed new novel: PKD eighty-page typed synopsis,…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 844,
+      "quote": "…Jones Made_ (1956) (ch. 15, 134–35), and attains classic Dickian form in the plight of the main character in ‘I Hope I Shall Arrive Soon’ (1985 [1980, CS5]). This character’s cryonic suspension, in which he is meant to lapse away the time of hi…"
+     },
+     {
+      "line": 858,
+      "quote": "…f progression—movement to a new planet and a new life—we have regression. This is not entirely horrifying in ‘I Hope I Shall Arrive Soon’; there is the possibility that the repetition of the past acts as a sort of therapy. (Dick’s attraction to r…"
+     },
+     {
+      "line": 3746,
+      "quote": "…, The’ 91 ‘Hanging Stranger, The’ lack of difference in **98–99** , 100n24, 106 ‘Human Is’ **87** , 101, 225 ‘I Hope I Shall Arrive Soon’ movement as stasis in **52–53** ‘The Impossible Planet’ 50n18 ‘Impostor’ 225 ‘Jon’s World’ 102 fate of child…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_FIVE_STAR_PAPERBACK_ERIK_DAVIS_TECHGNOSI.md",
+    "author": "Erik Davis",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4033,
+      "quote": "…Daw, 1970), 101. 234. Philip K. Dick, “How to Build a Universe That Doesn’t Fall Apart Two Days Later,” in I Hope I Shall Arrive Soon, ed. Mark Hurst and Paul Williams (New York: St. Martins Press, 1985), 4. 235. Ian Watson, “The False Reali…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 11
+ }
+}

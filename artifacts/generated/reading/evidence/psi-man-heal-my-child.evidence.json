@@ -1,0 +1,99 @@
+{
+ "slug": "psi-man-heal-my-child",
+ "title": "Psi-man Heal My Child!",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 36529,
+  "line_end": 36666,
+  "word_count": 2540,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 393.7,
+    "background_per_million": 29.6,
+    "distinctiveness": 11.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_soviet",
+    "label": "Soviet",
+    "count": 1,
+    "per_million": 393.7,
+    "background_per_million": 93.0,
+    "distinctiveness": 4.02
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 1,
+    "per_million": 393.7,
+    "background_per_million": 103.2,
+    "distinctiveness": 3.64
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_stephen",
+    "label": "Stephen",
+    "count": 1,
+    "per_million": 393.7,
+    "background_per_million": 57.2,
+    "distinctiveness": 6.33
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_doris",
+    "label": "Doris",
+    "count": 1,
+    "per_million": 393.7,
+    "background_per_million": 78.7,
+    "distinctiveness": 4.71
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_humans",
+    "label": "Humans",
+    "count": 1,
+    "per_million": 393.7,
+    "background_per_million": 112.4,
+    "distinctiveness": 3.35
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mary",
+    "label": "Mary",
+    "count": 2,
+    "per_million": 787.4,
+    "background_per_million": 276.8,
+    "distinctiveness": 2.79
+   }
+  ],
+  "distinct_terms": 3,
+  "distinct_names": 4
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

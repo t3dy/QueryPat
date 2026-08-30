@@ -1,0 +1,341 @@
+{
+ "artifact_id": "ART_DOSSIER_ROOG",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "roog",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Roog",
+  "slug": "roog",
+  "form": "story",
+  "word_count": 1794,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 486,
+   "line_end": 631,
+   "word_count": 1794,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 5,
+    "distinctiveness": 6.93
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 6,
+    "distinctiveness": 6.26
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 5,
+    "distinctiveness": 2.57
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 1,
+    "distinctiveness": 2.13
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 2,
+    "distinctiveness": 2.1
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 25,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 8,
+    "quotes": [
+     {
+      "line": 1563,
+      "quote": "…nd eats up people who are sleeping in tranquility. Like Tony. Something got him. I think the dog, who cried, \"Roog, Roog,\" was trying to warn me and Tony. I got the warning and escaped—for a while, anyhow—but Tony stayed at…"
+     },
+     {
+      "line": 1563,
+      "quote": "…s up people who are sleeping in tranquility. Like Tony. Something got him. I think the dog, who cried, \"Roog, Roog,\" was trying to warn me and Tony. I got the warning and escaped—for a while, anyhow—but Tony stayed at his po…"
+     },
+     {
+      "line": 2775,
+      "quote": "…fully to an end. I need not necessarily _add_ a final explanation to the 26-year work output; it, going from \"Roog\" to _Scanner_ is intrinsically complete; the answer lies in the question, and \"'Roog' to _Scanner_ \" is the q…"
+     },
+     {
+      "line": 2775,
+      "quote": "…output; it, going from \"Roog\" to _Scanner_ is intrinsically complete; the answer lies in the question, and \"'Roog' to _Scanner_ \" is the question. I have been [already] successful, but only now could I see it. Hosanna! It i…"
+     },
+     {
+      "line": 3059,
+      "quote": "…, that's expressed in _Maze,_ so I've inserted it supra. I wonder what you get if you sit down starting with \"Roog\" and read through everything (including such strange stories as \"Retreat Syndrome\") all the way to _Scanner._…"
+     },
+     {
+      "line": 3227,
+      "quote": "…ul book qua book. Jim Westaway's words on the back dust jacket. And what KW saw—the link between my intro to \"Roog,\" what I did in my first sold story 27 years ago and in _Scanner:_ voice for those without voices. The pa…"
+     },
+     {
+      "line": 9654,
+      "quote": "…bout world but a lot about me as artist. So _VALIS_ is part—an integral part—of the vision that began with \"Roog\" and forms one seamless whole. The whole theological, etc., view in _VALIS_ (and to a lesser extent in _DI_ )…"
+     },
+     {
+      "line": 12542,
+      "quote": "…itor of the _Magazine of Fantasy and Science Fiction,_ Boucher purchased the first story Dick sold, the tale \"Roog\" (1953). **Brahman:** A concept from the Vedic tradition that generally refers to the uncreated substance o…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 5,
+    "quotes": [
+     {
+      "line": 408,
+      "quote": "…Art Music, Berkeley. - 1950 Marries Kleo Apostolides. - 1951 In November makes first professional sale, “Roog,” to Anthony Bouchei; _The Magazine of Fantasy & Science Fiction._ - 1952 “Beyond Lies the Wub” first story…"
+     },
+     {
+      "line": 978,
+      "quote": "…K. Dick [TO ANTHONY BOUCHER & _November 8,1951_ ## J. FRANCIS McCOMAS] ## Gentlemen, I’m glad that “Roog” pleased you. Certainly, the new title is all right. That’s a lot of money for one story. I really feel a lit…"
+     },
+     {
+      "line": 978,
+      "quote": "…an say to defend it is that people who read it are disturbed, and go off brooding, very puzzled and unhappy. “Roog,” as you slyly guessed, is my first acceptance. Needless to say, I feel that an unusual honor is involved in…"
+     },
+     {
+      "line": 1014,
+      "quote": "…de, if the first “Dick” is coming out in August. I wonder if perhaps this yarn wouldn’t be the best “first.” “Roog” is more ordinary; its kind is common. This one (and “Little Movement”) is more my own kind of story. I’ll le…"
+     },
+     {
+      "line": 1068,
+      "quote": "…story of mine on the stands. Does this change my “first” status with you? Their story was pur­ chased after “Roog,” of course, but it’s out, sure enough. Also If has pur­ chased a novelette and there’s a chance it might app…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 562,
+      "quote": "…Art Music, Berkeley. - 1950 Marries Kleo Apostolides. - 1951 In November makes first professional sale, “Roog,” to Anthony Boucher, _The Magazine of Fantasy & Science Fiction._ - 1952 “Beyond Lies the Wub” first story…"
+     },
+     {
+      "line": 2830,
+      "quote": "…this recently when Xerox Corporation transcribed a discussion I had with a high school class about my story “Roog” which the class had read. You would swear that the person talking in the interview was not the person who ha…"
+     },
+     {
+      "line": 4962,
+      "quote": "…world, is this spider trying to talk to this man, and the man won’t listen. In another story I wrote, called “Roog,” a dog barks to warn the family that roogs are coming to get them, creatures from another world. First these…"
+     },
+     {
+      "line": 6348,
+      "quote": "…” (But, like “The Defenders,” this could be pulled to make room for “Second Variety.”) “Oh, To Be a Blobel.” “Roog.” “Upon the Dull Earth.” Personally, although Don Wollheim used “Breakfast At Twilight,” I’d like to see…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 411,
+      "quote": "…Art Music, Berkeley. - 1950 Marries Kleo Apostolides. - 1951 In November makes first professional sale, “Roog,” to Anthony Boucher, _The Magazine of Fantasy & Science Fiction._ - 1952 “Beyond Lies the Wub” first story…"
+     },
+     {
+      "line": 833,
+      "quote": "…r and wit, and the endings in both are superb. I foresee a career for you. Yes, you’re right; it’s like when “Roog” came ou t... and I feel it, too; I share your excitement (which seems out of line to me, because after all t…"
+     },
+     {
+      "line": 3119,
+      "quote": "…to how Tony Boucher must have felt in 1951 when I sent F&SF that first story, “Beyond Lies the— ” no, wrong. “Roog.” That’s it; “Roog.” And he bought it. I see in you a great career lying ahead, a person not only with talent…"
+     },
+     {
+      "line": 3119,
+      "quote": "…must have felt in 1951 when I sent F&SF that first story, “Beyond Lies the— ” no, wrong. “Roog.” That’s it; “Roog.” And he bought it. I see in you a great career lying ahead, a person not only with talent but with integrity…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 544,
+      "quote": "…ic, Berkeley. - **1950** Marries Kleo Apostolides. - **1951** In November makes first professional sale, “Roog,” to Anthony Boucher, _The Magazine of Fantasy & Science Fiction._ - **1952** “Beyond Lies the Wub” first s…"
+     },
+     {
+      "line": 4694,
+      "quote": "…astic story July ’53 “Out in the Garden.” Fantasy August ’52 “Beyond Lies the Wub.” Planet Stories, July ’52 “Roog.” F&SF Feb. ’53 “The Preserving Machine.” F&SF, June ’53 I would also recommend a story by another s-f author…"
+     },
+     {
+      "line": 6630,
+      "quote": "…le) THE PENULTIMATE TRUTH (Belmont) Now, about the stories. I made my first sale, a story to F&SF called “Roog”, in 1951, which is a long time ago. In 1953, for example, I had 27 stories appear that year. I cite these ma…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 2149,
+      "quote": "…ds us, that we call the not-me, or the empirical or phenomenal world? In 1951, when I sold my first story [\"Roog\"], I had no idea that such fundamental issues could be pursued in the science fiction field. I began to pursu…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 16,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 11,
+    "quotes": [
+     {
+      "line": 1343,
+      "quote": "…old, I sold my first story: a tiny fantasy to F&SF, the magazine which Tony Boucher edited. The story was “Roog” (originally titled “Friday Morning”), and Boucher forced Phil to go through several drafts before finally ac…"
+     },
+     {
+      "line": 1343,
+      "quote": "…ul away the trash are really alien Roogs who thrive on the food packed in metal “offering urns.” Boris barks “Roog!” to alert his owners, but they are annoyed and plan to give him away. This human indifference helps the Roog…"
+     },
+     {
+      "line": 1345,
+      "quote": "…is owners, but they are annoyed and plan to give him away. This human indifference helps the Roogs’ cause: “Roog! Roog!” Boris cried, huddled against the bottom of the porch steps. His body shook with horror. The Roogs wer…"
+     },
+     {
+      "line": 1345,
+      "quote": "…ers, but they are annoyed and plan to give him away. This human indifference helps the Roogs’ cause: “Roog! Roog!” Boris cried, huddled against the bottom of the porch steps. His body shook with horror. The Roogs were lift…"
+     },
+     {
+      "line": 1349,
+      "quote": "…d up, up the side of the house, along the stucco, to the window, with its brown shade pulled tightly down. “Roog” was inspired by Snooper, an Australian shepherd next door, who barked every Friday morning during garbage co…"
+     },
+     {
+      "line": 1399,
+      "quote": "…esent lent a vitality to SF-it could be both glorious escapism and serious prophecy. Phil moved fast after “Roog.” By May 1952 he had sold four more stories on his own. It was time to find an agent. Scott Meredith, who had…"
+     },
+     {
+      "line": 3365,
+      "quote": "…n coaxing Phil out of the house for a question-and-answer session with her high school class, which had read “Roog,” his first story sale back in 1951. (The delightful exchange between Phil and the kids was published in Refl…"
+     },
+     {
+      "line": 4803,
+      "quote": "…two autobiographical pieces-the introduction to the Golden Man story collection and a short reminiscence on “Roog,” his first SF story sale. Their informality felt somehow right-the writing flow had returned. Those heavy Ex…"
+     },
+     {
+      "line": 5641,
+      "quote": "…d, “Foster, You’re Dead” and “The Father-thing” (see Chapter 2); tales from Phil’s Berkeley salad days, like “Roog,” “Beyond Lies the Wub,” “Second Variety,” “Colony,” and 442 “Impostor” (see Chapter 4 and A Handful of D…"
+     },
+     {
+      "line": 6013,
+      "quote": "…ith Ron Goulart, May 1986. 70 Success of fantasy story: PKD “Self Portrait” (1968). 70-71 Boris barking: “Roog” (1953). - 71 PKD on “Roog”: PKD contribution (along with Michael Moorcock and Fritz Leiber) to “First Sale…"
+     },
+     {
+      "line": 6015,
+      "quote": "…70 Success of fantasy story: PKD “Self Portrait” (1968). 70-71 Boris barking: “Roog” (1953). - 71 PKD on “Roog”: PKD contribution (along with Michael Moorcock and Fritz Leiber) to “First Sale,” Unearth, Winter 1979. Lett…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 2379,
+      "quote": "…r and wit, and the endings in both are superb. I foresee a career for you. Yes, you’re right; it’s like when “Roog” [Phil’s first published short story] came out … and I feel it, too; I share your excitement (which seems out…"
+     },
+     {
+      "line": 2973,
+      "quote": "…so uncomfortable in a group situation that he had to send in his manuscripts in to be criticized. Phil sold “Roog,” his first story, to _The Magazine of Fantasy & Science Fiction_ . He papered the walls of the small center…"
+     },
+     {
+      "line": 3251,
+      "quote": "…ait for Last Year**_ 12, 95, 102, 264 _**Owl in Daylight, The**_ 164 _**Penultimate Truth, The**_ 104, 264 **“Roog”** 200, 251 _**Simulacra, The**_ 57, 92, 264 _**Solar Lottery**_ 26, 256–257 _**Three Stigmata of Palmer Eldr…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1332,
+      "quote": "…The Game-Players of Titan_ (1963) and _The Unteleported Man_ (1966, later published as _Lies, Inc._ ); dogs: ‘Roog’ (1953, CS1) and ‘Adjustment Team’ (1954, CS2); spiders: ‘Expendable’ (1953, CS1); shoes: ‘The Short Happy Li…"
+     },
+     {
+      "line": 3768,
+      "quote": "…tafiction in 214–15, 216n18, 219, 220, 221, 223, 230n11, 235 ‘Rautavaara’s Case’ devouring god in 143, 233 ‘Roog’ 93n14 ‘Sales Pitch’ consumerism and militarism in **103–04** stance of 106, 107 _Scanner Darkly, A_ 18n29 cl…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "25 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "16 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

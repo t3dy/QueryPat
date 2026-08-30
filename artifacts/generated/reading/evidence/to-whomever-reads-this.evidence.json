@@ -1,0 +1,135 @@
+{
+ "slug": "to-whomever-reads-this",
+ "title": "To Whomever Reads This!",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 54475,
+  "line_end": 54710,
+  "word_count": 5064,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_buddhism",
+    "label": "Buddhism",
+    "count": 1,
+    "per_million": 197.5,
+    "background_per_million": 6.1,
+    "distinctiveness": 17.74
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_joint",
+    "label": "Joint",
+    "count": 1,
+    "per_million": 197.5,
+    "background_per_million": 9.2,
+    "distinctiveness": 13.91
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_creator",
+    "label": "Creator",
+    "count": 1,
+    "per_million": 197.5,
+    "background_per_million": 10.2,
+    "distinctiveness": 12.98
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 24,
+    "per_million": 4739.3,
+    "background_per_million": 462.7,
+    "distinctiveness": 10.13
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 4,
+    "per_million": 789.9,
+    "background_per_million": 89.9,
+    "distinctiveness": 8.32
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wisdom",
+    "label": "Wisdom",
+    "count": 1,
+    "per_million": 197.5,
+    "background_per_million": 63.3,
+    "distinctiveness": 2.89
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 3,
+    "per_million": 592.4,
+    "background_per_million": 224.7,
+    "distinctiveness": 2.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 1,
+    "per_million": 197.5,
+    "background_per_million": 74.6,
+    "distinctiveness": 2.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 1,
+    "per_million": 197.5,
+    "background_per_million": 77.6,
+    "distinctiveness": 2.39
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 2,
+    "per_million": 394.9,
+    "background_per_million": 221.7,
+    "distinctiveness": 1.74
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_sophia",
+    "label": "Sophia",
+    "count": 1,
+    "per_million": 197.5,
+    "background_per_million": 17.4,
+    "distinctiveness": 8.83
+   }
+  ],
+  "distinct_terms": 10,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_INDEFATIGABLE_FROG",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-indefatigable-frog",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Indefatigable Frog",
+  "slug": "the-indefatigable-frog",
+  "form": "story",
+  "word_count": 2701,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 7202,
+   "line_end": 7433,
+   "word_count": 2701,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Maze",
+    "entity_id": "TERM_maze",
+    "count": 1,
+    "distinctiveness": 14.56
+   },
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
+    "count": 1,
+    "distinctiveness": 12.54
+   },
+   {
+    "label": "Therefore",
+    "entity_id": "TERM_therefore",
+    "count": 1,
+    "distinctiveness": 8.26
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 16,
+    "distinctiveness": 6.14
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 1,
+    "distinctiveness": 2.73
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 2,
+    "distinctiveness": 2.34
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 3,
+    "distinctiveness": 1.81
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 2,
+    "distinctiveness": 1.66
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4694,
+      "quote": "…list, with source citation: “Beyond the Door.” Fantastic Universe Jan. ’54 “Novelty Act.” Fantastic Feb. ’64 “The Indefatigable Frog.” Fantastic story July ’53 “Out in the Garden.” Fantasy August ’52 “Beyond Lies the Wub.” Planet Stories, Jul…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

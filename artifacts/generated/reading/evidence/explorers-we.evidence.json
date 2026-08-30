@@ -1,0 +1,122 @@
+{
+ "slug": "explorers-we",
+ "title": "Explorers We",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 41339,
+  "line_end": 41698,
+  "word_count": 3282,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bureau",
+    "label": "Bureau",
+    "count": 6,
+    "per_million": 1828.2,
+    "background_per_million": 38.8,
+    "distinctiveness": 41.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 304.7,
+    "background_per_million": 29.6,
+    "distinctiveness": 8.8
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 1,
+    "per_million": 304.7,
+    "background_per_million": 35.8,
+    "distinctiveness": 7.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 1,
+    "per_million": 304.7,
+    "background_per_million": 59.2,
+    "distinctiveness": 4.74
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 5,
+    "per_million": 1523.5,
+    "background_per_million": 448.4,
+    "distinctiveness": 3.36
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 3,
+    "per_million": 914.1,
+    "background_per_million": 397.3,
+    "distinctiveness": 2.27
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 2,
+    "per_million": 609.4,
+    "background_per_million": 398.4,
+    "distinctiveness": 1.51
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-fbi",
+    "label": "The FBI",
+    "count": 4,
+    "per_million": 1218.8,
+    "background_per_million": 54.1,
+    "distinctiveness": 20.61
+   }
+  ],
+  "distinct_terms": 7,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1266,
+      "quote": "…othering you with phone call and lettei; but I understand that Scott Meredith is going to write to you about “Explorers We” and I wanted to get hold of you first. As you recall, late in September of last year you wrote to me, expr…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

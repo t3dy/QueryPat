@@ -1,0 +1,157 @@
+{
+ "slug": "beyond-the-door",
+ "title": "Beyond The Door",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 13496,
+  "line_end": 13669,
+  "word_count": 2353,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 1,
+    "per_million": 425.0,
+    "background_per_million": 35.8,
+    "distinctiveness": 10.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 1,
+    "per_million": 425.0,
+    "background_per_million": 105.2,
+    "distinctiveness": 3.86
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 1,
+    "per_million": 425.0,
+    "background_per_million": 128.7,
+    "distinctiveness": 3.18
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 1,
+    "per_million": 425.0,
+    "background_per_million": 138.9,
+    "distinctiveness": 2.95
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 2,
+    "per_million": 850.0,
+    "background_per_million": 311.5,
+    "distinctiveness": 2.69
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 6,
+    "per_million": 2549.9,
+    "background_per_million": 959.1,
+    "distinctiveness": 2.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 2,
+    "per_million": 850.0,
+    "background_per_million": 398.4,
+    "distinctiveness": 2.11
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 2,
+    "per_million": 850.0,
+    "background_per_million": 529.1,
+    "distinctiveness": 1.59
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_doris",
+    "label": "Doris",
+    "count": 24,
+    "per_million": 10199.7,
+    "background_per_million": 78.7,
+    "distinctiveness": 121.93
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_nick",
+    "label": "Nick",
+    "count": 1,
+    "per_million": 425.0,
+    "background_per_million": 3.1,
+    "distinctiveness": 52.7
+   }
+  ],
+  "distinct_terms": 8,
+  "distinct_names": 2
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 5658,
+      "quote": "…ot part of this irreal world: this is why it sounds so far off. \"Martians Come in Clouds\" \"The Eyes Have It\" \"Beyond the Door\" \"Withered Apples\" \"Not by Its Cover\"[95] Since the totality is a hologram, each microbit contains the plan…"
+     },
+     {
+      "line": 13246,
+      "quote": "…ch, [>] ## **Works Index** \"Adjustment Team,\" [>], [>], [>] \"Beyond Lies the Wub,\" [>]–[>], [>], [>] \"Beyond the Door,\" [>] _Bishop Timothy Archer._ See _The Transmigration of Timothy Archer_ \"Breakfast at Twilight,\" [>]…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4694,
+      "quote": "…ani­ mals ... I have no tear sheets to send you, I’m sorry to say, but here is a list, with source citation: “Beyond the Door.” Fantastic Universe Jan. ’54 “Novelty Act.” Fantastic Feb. ’64 “The Indefatigable Frog.” Fantastic story Jul…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

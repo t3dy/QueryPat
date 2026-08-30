@@ -1,0 +1,130 @@
+{
+ "slug": "your-appointment-will-be-yesterday",
+ "title": "Your Appointment Will Be Yesterday",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 51243,
+  "line_end": 51322,
+  "word_count": 1909,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 523.8,
+    "background_per_million": 39.8,
+    "distinctiveness": 11.68
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 1,
+    "per_million": 523.8,
+    "background_per_million": 128.7,
+    "distinctiveness": 3.92
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 1,
+    "per_million": 523.8,
+    "background_per_million": 138.9,
+    "distinctiveness": 3.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 1,
+    "per_million": 523.8,
+    "background_per_million": 138.9,
+    "distinctiveness": 3.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 6,
+    "per_million": 3143.0,
+    "background_per_million": 959.1,
+    "distinctiveness": 3.26
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 2,
+    "per_million": 1047.7,
+    "background_per_million": 398.4,
+    "distinctiveness": 2.6
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 4,
+    "per_million": 2095.3,
+    "background_per_million": 1079.7,
+    "distinctiveness": 1.93
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 2,
+    "per_million": 1047.7,
+    "background_per_million": 589.4,
+    "distinctiveness": 1.76
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 1,
+    "per_million": 523.8,
+    "background_per_million": 311.5,
+    "distinctiveness": 1.65
+   }
+  ],
+  "names": [],
+  "distinct_terms": 9,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5603,
+      "quote": "…arch Peak, ascends from his tomb, the powers that be fear all hell will break loose. Expanded from the story “Your Appointment Will Be Yesterday” (Amazing, August 1966), Counter-Clock was Phil’s first return to sustained novel writing after a long dry sp…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

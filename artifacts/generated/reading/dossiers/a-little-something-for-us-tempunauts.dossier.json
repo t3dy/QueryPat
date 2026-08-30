@@ -1,0 +1,198 @@
+{
+ "artifact_id": "ART_DOSSIER_A_LITTLE_SOMETHING_FOR_US_TEMPUNAUTS",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "a-little-something-for-us-tempunauts",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "A Little Something For Us Tempunauts",
+  "slug": "a-little-something-for-us-tempunauts",
+  "form": "story",
+  "word_count": 8287,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 54711,
+   "line_end": 55182,
+   "word_count": 8287,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "The Kennedys",
+    "name_id": "NAME_the-kennedys",
+    "mentions": 1
+   },
+   {
+    "name": "The Soviet",
+    "name_id": "NAME_the-soviet",
+    "mentions": 7
+   },
+   {
+    "name": "Ralph",
+    "name_id": "NAME_ralph",
+    "mentions": 1
+   },
+   {
+    "name": "Mission",
+    "name_id": "NAME_mission",
+    "mentions": 1
+   },
+   {
+    "name": "Sophia",
+    "name_id": "NAME_sophia",
+    "mentions": 1
+   },
+   {
+    "name": "The Russian",
+    "name_id": "NAME_the-russian",
+    "mentions": 2
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Viewed",
+    "entity_id": "TERM_viewed",
+    "count": 1,
+    "distinctiveness": 10.84
+   },
+   {
+    "label": "Soviet",
+    "entity_id": "TERM_soviet",
+    "count": 8,
+    "distinctiveness": 9.86
+   },
+   {
+    "label": "March",
+    "entity_id": "TERM_march",
+    "count": 2,
+    "distinctiveness": 8.79
+   },
+   {
+    "label": "Jesus",
+    "entity_id": "TERM_jesus",
+    "count": 1,
+    "distinctiveness": 7.43
+   },
+   {
+    "label": "Bible",
+    "entity_id": "TERM_bible",
+    "count": 1,
+    "distinctiveness": 6.25
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 12,
+    "distinctiveness": 3.1
+   },
+   {
+    "label": "Tears",
+    "entity_id": "TERM_tears",
+    "count": 1,
+    "distinctiveness": 2.96
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 6,
+    "distinctiveness": 1.8
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 4,
+    "distinctiveness": 1.78
+   },
+   {
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
+    "count": 2,
+    "distinctiveness": 1.68
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 3,
+    "distinctiveness": 1.58
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 12,
+    "distinctiveness": 1.5
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 3,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 6336,
+      "quote": "…ate 1971 or early 1972, my choice selections. PLEASE use it, Judy-Lynn. Ballantine has my most recent story, “A Little Something For Us Tempunauts” in the current Terry Carr best s-f collection, and I consider—as Terry does—that this is one of my best stor…"
+     },
+     {
+      "line": 6572,
+      "quote": "…## [TO JACK SCOVIL] _May 18, 1976_ ## Dear Jack Enclosed is my check to your for your 10% commission on “A Little Something For Us Tempunauts.” I must admit I fouled up, here. We originally got a check for something like six dollars, direct from Ferma…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4050,
+      "quote": "…of Millgrove, Iowa” changed in a flash my entire conception of what a good s-f story is. So then I wrote, “A Little Something For Us Tempunauts” for Ed Ferman because I had a new mind, a whole mind again, a writer’s mind, and it was set facing the futur…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "3 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

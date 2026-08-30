@@ -1,0 +1,159 @@
+{
+ "artifact_id": "ART_DOSSIER_PROMINENT_AUTHOR",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "prominent-author",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Prominent Author",
+  "slug": "prominent-author",
+  "form": "story",
+  "word_count": 6086,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 26242,
+   "line_end": 26677,
+   "word_count": 6086,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Dorothy",
+    "name_id": "NAME_dorothy",
+    "mentions": 4
+   },
+   {
+    "name": "Pinky",
+    "name_id": "NAME_pinky",
+    "mentions": 1
+   },
+   {
+    "name": "Mary",
+    "name_id": "NAME_mary",
+    "mentions": 18
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Hebrew",
+    "entity_id": "TERM_hebrew",
+    "count": 2,
+    "distinctiveness": 32.51
+   },
+   {
+    "label": "Missive",
+    "entity_id": "TERM_missive",
+    "count": 1,
+    "distinctiveness": 27.29
+   },
+   {
+    "label": "Bible",
+    "entity_id": "TERM_bible",
+    "count": 1,
+    "distinctiveness": 8.51
+   },
+   {
+    "label": "Holy",
+    "entity_id": "TERM_holy",
+    "count": 1,
+    "distinctiveness": 7.03
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 4,
+    "distinctiveness": 6.08
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 21,
+    "distinctiveness": 3.18
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 13,
+    "distinctiveness": 2.45
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 6,
+    "distinctiveness": 1.85
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 3,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1516,
+      "quote": "…on of images of reading, rather than of writing. Other relevant works by Dick are ‘Stability’ (c.1947, CS1), ‘Prominent Author’ (1954, CS2), and _Radio Free Albemuth_ (1985). 108 EXHILARATION AND TERROR OF THE POSTMODERN which, by a…"
+     },
+     {
+      "line": 3762,
+      "quote": "…e’ compared to ‘Human Is’ **88–90** , 102 fathers in 105 ‘Preserving Machine, The’ 93n14 ‘Project Earth’ 102 ‘Prominent Author’ 107n33 _Puttering About in a Small Land_ 67, 68n3 historical moment of 69, 74, 75n9, 101n26, 151n2, 204n4…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3055,
+      "quote": "…return, but can this bombedout, grey ruin be the fabled green Earth? “Elwood Builds an Ark” in his backyard. “Prominent Author” writes the Bible. “The Father-Thing” was a forerunner of Jack Finney’s _Invasion of the Body Snatchers_ .…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "3 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

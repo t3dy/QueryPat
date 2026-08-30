@@ -1,0 +1,126 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_LITTLE_MOVEMENT",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-little-movement",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Little Movement",
+  "slug": "the-little-movement",
+  "form": "story",
+  "word_count": 2980,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 632,
+   "line_end": 897,
+   "word_count": 2980,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 22,
+    "distinctiveness": 68.25
+   },
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 1,
+    "distinctiveness": 9.69
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 2,
+    "distinctiveness": 5.02
+   },
+   {
+    "label": "Father",
+    "entity_id": "TERM_father",
+    "count": 5,
+    "distinctiveness": 4.72
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 1,
+    "distinctiveness": 3.04
+   },
+   {
+    "label": "Bill",
+    "entity_id": "TERM_bill",
+    "count": 1,
+    "distinctiveness": 2.33
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 2,
+    "distinctiveness": 2.12
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 5,
+    "distinctiveness": 1.55
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1026,
+      "quote": "…e long one about loyalty will not be ready for a week or so. It has to be worked over. You will find herein: “The Little Movement”—a brand new pretty typed-up version with a few minor changes only, all for the good, I think. It’s much smoo…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

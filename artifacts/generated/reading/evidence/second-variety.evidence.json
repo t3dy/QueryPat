@@ -121,6 +121,9 @@
   "distinct_terms": 4,
   "distinct_names": 7
  },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
  "pkd_on_this_work": {
   "sources": [
    {

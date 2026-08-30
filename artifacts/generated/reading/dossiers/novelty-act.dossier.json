@@ -1,0 +1,207 @@
+{
+ "artifact_id": "ART_DOSSIER_NOVELTY_ACT",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "novelty-act",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Novelty Act",
+  "slug": "novelty-act",
+  "form": "story",
+  "word_count": 12309,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 42673,
+   "line_end": 43298,
+   "word_count": 12309,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Ian Duncan",
+    "name_id": "NAME_ian-duncan",
+    "mentions": 28
+   },
+   {
+    "name": "Nicole Thibodeaux",
+    "name_id": "NAME_nicole-thibodeaux",
+    "mentions": 3
+   },
+   {
+    "name": "Beethoven",
+    "name_id": "NAME_beethoven",
+    "mentions": 7
+   },
+   {
+    "name": "Bruce",
+    "name_id": "NAME_bruce",
+    "mentions": 3
+   },
+   {
+    "name": "Hamlet",
+    "name_id": "NAME_hamlet",
+    "mentions": 1
+   },
+   {
+    "name": "The authorities",
+    "name_id": "NAME_the-authorities",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Luke",
+    "entity_id": "TERM_luke",
+    "count": 49,
+    "distinctiveness": 70.99
+   },
+   {
+    "label": "Acts",
+    "entity_id": "TERM_acts",
+    "count": 2,
+    "distinctiveness": 10.01
+   },
+   {
+    "label": "Beethoven",
+    "entity_id": "TERM_beethoven",
+    "count": 1,
+    "distinctiveness": 6.69
+   },
+   {
+    "label": "Christian",
+    "entity_id": "TERM_christian",
+    "count": 1,
+    "distinctiveness": 6.17
+   },
+   {
+    "label": "Fish",
+    "entity_id": "TERM_fish",
+    "count": 3,
+    "distinctiveness": 5.7
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 31,
+    "distinctiveness": 4.72
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 10,
+    "distinctiveness": 3.54
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 4,
+    "distinctiveness": 2.43
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 15,
+    "distinctiveness": 2.29
+   },
+   {
+    "label": "Faith",
+    "entity_id": "TERM_faith",
+    "count": 1,
+    "distinctiveness": 2.16
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 7,
+    "distinctiveness": 2.09
+   },
+   {
+    "label": "Paul",
+    "entity_id": "TERM_paul",
+    "count": 2,
+    "distinctiveness": 2.04
+   },
+   {
+    "label": "Bureau",
+    "entity_id": "TERM_bureau",
+    "count": 1,
+    "distinctiveness": 1.85
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 3,
+    "distinctiveness": 1.8
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4694,
+      "quote": "…, I’m sorry to say, but here is a list, with source citation: “Beyond the Door.” Fantastic Universe Jan. ’54 “Novelty Act.” Fantastic Feb. ’64 “The Indefatigable Frog.” Fantastic story July ’53 “Out in the Garden.” Fantasy August ’…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5567,
+      "quote": "…originally titled The First Lady of Earth (w. 1963, p. 1964; a portion of this novel was adapted for use in “Novelty Act,” a story p. February 1964 in Fantastic). Of all Phil’s novel plots, this may be the most complex. To say tha…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "1 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

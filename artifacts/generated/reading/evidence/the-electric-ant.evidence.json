@@ -1,0 +1,274 @@
+{
+ "slug": "the-electric-ant",
+ "title": "The Electric Ant",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 53911,
+  "line_end": 54344,
+  "word_count": 6488,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 18,
+    "per_million": 2774.4,
+    "background_per_million": 130.7,
+    "distinctiveness": 20.44
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_scanner",
+    "label": "Scanner",
+    "count": 9,
+    "per_million": 1387.2,
+    "background_per_million": 65.4,
+    "distinctiveness": 19.71
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_daniel",
+    "label": "Daniel",
+    "count": 1,
+    "per_million": 154.1,
+    "background_per_million": 4.1,
+    "distinctiveness": 16.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_maze",
+    "label": "Maze",
+    "count": 1,
+    "per_million": 154.1,
+    "background_per_million": 20.4,
+    "distinctiveness": 6.06
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_march",
+    "label": "March",
+    "count": 1,
+    "per_million": 154.1,
+    "background_per_million": 22.5,
+    "distinctiveness": 5.61
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 5,
+    "per_million": 770.7,
+    "background_per_million": 138.9,
+    "distinctiveness": 5.35
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 2,
+    "per_million": 308.3,
+    "background_per_million": 73.5,
+    "distinctiveness": 3.92
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 5,
+    "per_million": 770.7,
+    "background_per_million": 202.2,
+    "distinctiveness": 3.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 7,
+    "per_million": 1078.9,
+    "background_per_million": 440.2,
+    "distinctiveness": 2.42
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 2,
+    "per_million": 308.3,
+    "background_per_million": 138.9,
+    "distinctiveness": 2.14
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 1,
+    "per_million": 154.1,
+    "background_per_million": 89.9,
+    "distinctiveness": 1.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 6,
+    "per_million": 924.8,
+    "background_per_million": 609.8,
+    "distinctiveness": 1.5
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_garson-poole",
+    "label": "Garson Poole",
+    "count": 4,
+    "per_million": 616.5,
+    "background_per_million": 8.2,
+    "distinctiveness": 46.81
+   }
+  ],
+  "distinct_terms": 12,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 3985,
+      "quote": "…enerated reality field, and in a certain sense it is not real, then in that same sense we are not real (vide \"The Electric Ant\"). Not just our free will is illusory, but also our very substance. We are no more than points-of-view, mere…"
+     },
+     {
+      "line": 3989,
+      "quote": "…sfully accomplishes its work. _Tears_ contains the Logos or form to be imposed. It is its punched tape, à la \"The Electric Ant.\" A new, true story is being written, different from the old true story. **[15:85]** In _The Morning of the…"
+     },
+     {
+      "line": 13278,
+      "quote": "…[>], [>]–[>], [>]–[>], [>], [>], [>], [>] _Dr. Bloodmoney, or How We Got Along After the Bomb,_ [>], [>] \"The Electric Ant,\" [>], [>], [>], [>], [>], [>], [>] _Enough to Scare the Dead_ (working book title), [>]–[>], [>], [>], [>]…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 2434,
+      "quote": "…be proud to appear in it, and I hope my story will be acceptable. It’s the first short piece I’ve done since “The Electric Ant,” by the way. That’s a long time. It should be finished soon, but I note, alas, that after sitting here typin…"
+     },
+     {
+      "line": 2684,
+      "quote": "…Also, I wrote a new 6,000 word story for an anthology by Ed Ferman and Barry Malzberg. My first story since “The Electric Ant.” That was about five years ago. Also for Ed Ferman. I really consider this new story to be the best one I’ve…"
+     },
+     {
+      "line": 5956,
+      "quote": "…r Scott, Just a note to tell you that I’ve written my first unsolicited story in SIX YEARS! (The last two, “The Electric Ant” and “A Litde Something for Us Tempunauts” were both commissioned by Ed Ferman.) This story runs 6,000 words…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 6340,
+      "quote": "…f Perky Pat” “The Defenders” (But this could be pulled for “Second Variety,” since the theme is the same.) “The Electric Ant.” ## “Expendable.” “Faith of Our Fathers” “Had There Been No Benny Cemoli...” “Impostor” (But, like “…"
+     },
+     {
+      "line": 6846,
+      "quote": "…A] _June 26, 1976_ ## Dear Ralph, Here is the copyright information you requested for Le Livre de Poche. “The Electric Ant.” 1969 Mercury Press. First appeared in _Magazine of Fan­ tasy & Science-Fiction._ “The Impostor.” 1953 Stree…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 2153,
+      "quote": "…ently, there occurs a breakdown of communication... and _there_ is the real illness. I once wrote a story [\"The Electric Ant\" (1969)] about a man who was injured and taken to a hospital. When they began surgery on him, they discovered…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 9
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 3111,
+      "quote": "…a highly significant work, as has been discussed. As to “important” writing, mention should also be made of “The Electric Ant,” a late-1968 story that is the finest of Phil’s career. Protagonist Carson Poole thinks that he is a human b…"
+     },
+     {
+      "line": 5645,
+      "quote": "…442 “Impostor” (see Chapter 4 and A Handful of Darkness, above); and the best of all of Phil’s stories, “The Electric Ant” (see Chapter 7). Rating: 10. 50. The Golden Man (w. 1952-1973, p. 1980). An admirable story collection ass…"
+     },
+     {
+      "line": 6415,
+      "quote": "…- 163 No important book since 1964: Letter, PKD to stepdaughter Tandy, May 7, 1969. Carson Poole: PKD story The Electric Ant” (1969) Writing slump: Letter, PKD to Lynne Cecil, March 21, 1969. - 163-164 Plot and writing method: Lette…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT.md",
+    "author": "Fredric Jameson",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4660,
+      "quote": "…ll-embracing fashion than the hypothesis of the \"malignant genie\". For in crucial stories like \"Imposter\" or \"The Electric Ant\" the ques­ tions now identified as involving Artificial Intelligence seep into and infect every experience of…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 2434,
+      "quote": "…1995: 122, n. 29) discusses a possible source for this kind of imagery in Dick, referring us to Dick’s story ‘The Electric Ant’ (1969). > 7 See the interest in the discovery of plastic—an almost endless chain of molecules—in Pynchon’s…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 5
+ }
+}

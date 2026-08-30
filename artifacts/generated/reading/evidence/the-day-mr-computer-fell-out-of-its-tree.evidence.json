@@ -1,0 +1,212 @@
+{
+ "slug": "the-day-mr-computer-fell-out-of-its-tree",
+ "title": "The Day Mr. Computer Fell Out Of Its Tree",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 56049,
+  "line_end": 56240,
+  "word_count": 2783,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jesus-christ",
+    "label": "Jesus Christ",
+    "count": 1,
+    "per_million": 359.3,
+    "background_per_million": 4.1,
+    "distinctiveness": 39.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jesus",
+    "label": "Jesus",
+    "count": 1,
+    "per_million": 359.3,
+    "background_per_million": 11.2,
+    "distinctiveness": 22.13
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 2,
+    "per_million": 718.6,
+    "background_per_million": 73.5,
+    "distinctiveness": 9.15
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fish",
+    "label": "Fish",
+    "count": 1,
+    "per_million": 359.3,
+    "background_per_million": 37.8,
+    "distinctiveness": 8.4
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 359.3,
+    "background_per_million": 39.8,
+    "distinctiveness": 8.01
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 9,
+    "per_million": 3233.9,
+    "background_per_million": 448.4,
+    "distinctiveness": 7.13
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 2,
+    "per_million": 718.6,
+    "background_per_million": 130.7,
+    "distinctiveness": 5.29
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_phil",
+    "label": "Phil",
+    "count": 1,
+    "per_million": 359.3,
+    "background_per_million": 77.6,
+    "distinctiveness": 4.35
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 3,
+    "per_million": 1078.0,
+    "background_per_million": 311.5,
+    "distinctiveness": 3.41
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 2,
+    "per_million": 718.6,
+    "background_per_million": 256.4,
+    "distinctiveness": 2.75
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 1,
+    "per_million": 359.3,
+    "background_per_million": 138.9,
+    "distinctiveness": 2.5
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 3,
+    "per_million": 1078.0,
+    "background_per_million": 589.4,
+    "distinctiveness": 1.81
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_joan-simpson",
+    "label": "Joan Simpson",
+    "count": 12,
+    "per_million": 4311.9,
+    "background_per_million": 12.3,
+    "distinctiveness": 249.86
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_adolf-hitler",
+    "label": "Adolf Hitler",
+    "count": 1,
+    "per_million": 359.3,
+    "background_per_million": 5.1,
+    "distinctiveness": 35.55
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_joan",
+    "label": "Joan",
+    "count": 12,
+    "per_million": 4311.9,
+    "background_per_million": 169.6,
+    "distinctiveness": 24.7
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_hitler",
+    "label": "Hitler",
+    "count": 1,
+    "per_million": 359.3,
+    "background_per_million": 13.3,
+    "distinctiveness": 19.66
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-authorities",
+    "label": "The authorities",
+    "count": 1,
+    "per_million": 359.3,
+    "background_per_million": 32.7,
+    "distinctiveness": 9.53
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_humans",
+    "label": "Humans",
+    "count": 2,
+    "per_million": 718.6,
+    "background_per_million": 112.4,
+    "distinctiveness": 6.12
+   }
+  ],
+  "distinct_terms": 12,
+  "distinct_names": 6
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4645,
+      "quote": "…e of you, you don’t have to do anything, don’t worry.” That summer, Phil wrote a story as a gift for Joan: “The Day Mr. Computer Fell Out of Its Tree.” Composed in a childlike tone, “Mr. Computer” is a dress rehearsal of certain key themes in VALIS. It is als…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

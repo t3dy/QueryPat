@@ -1,0 +1,275 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_EYE_OF_THE_SIBYL",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-eye-of-the-sibyl",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Eye Of The Sibyl",
+  "slug": "the-eye-of-the-sibyl",
+  "form": "story",
+  "word_count": 4125,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 55853,
+   "line_end": 56048,
+   "word_count": 4125,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Nixon",
+    "name_id": "NAME_nixon",
+    "mentions": 5
+   },
+   {
+    "name": "Virgil",
+    "name_id": "NAME_virgil",
+    "mentions": 2
+   },
+   {
+    "name": "The Rightful King",
+    "name_id": "NAME_the-rightful-king",
+    "mentions": 1
+   },
+   {
+    "name": "Mission",
+    "name_id": "NAME_mission",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Sibyl",
+    "entity_id": "TERM_sibyl",
+    "count": 35,
+    "distinctiveness": 198.27
+   },
+   {
+    "label": "Roman",
+    "entity_id": "TERM_roman",
+    "count": 12,
+    "distinctiveness": 109.98
+   },
+   {
+    "label": "Apollo",
+    "entity_id": "TERM_apollo",
+    "count": 2,
+    "distinctiveness": 53.36
+   },
+   {
+    "label": "Anamnesis",
+    "entity_id": "TERM_anamnesis",
+    "count": 1,
+    "distinctiveness": 40.26
+   },
+   {
+    "label": "Rome",
+    "entity_id": "TERM_rome",
+    "count": 2,
+    "distinctiveness": 34.16
+   },
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
+    "count": 2,
+    "distinctiveness": 16.43
+   },
+   {
+    "label": "Greek",
+    "entity_id": "TERM_greek",
+    "count": 2,
+    "distinctiveness": 15.36
+   },
+   {
+    "label": "Gods",
+    "entity_id": "TERM_gods",
+    "count": 2,
+    "distinctiveness": 13.6
+   },
+   {
+    "label": "Bible",
+    "entity_id": "TERM_bible",
+    "count": 1,
+    "distinctiveness": 12.56
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 6,
+    "distinctiveness": 10.88
+   },
+   {
+    "label": "Holy",
+    "entity_id": "TERM_holy",
+    "count": 1,
+    "distinctiveness": 10.37
+   },
+   {
+    "label": "March",
+    "entity_id": "TERM_march",
+    "count": 1,
+    "distinctiveness": 8.82
+   },
+   {
+    "label": "Golden",
+    "entity_id": "TERM_golden",
+    "count": 2,
+    "distinctiveness": 7.55
+   },
+   {
+    "label": "Wisdom",
+    "entity_id": "TERM_wisdom",
+    "count": 2,
+    "distinctiveness": 7.1
+   },
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 1,
+    "distinctiveness": 7.0
+   },
+   {
+    "label": "Therefore",
+    "entity_id": "TERM_therefore",
+    "count": 1,
+    "distinctiveness": 5.41
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 2,
+    "distinctiveness": 4.4
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 4,
+    "distinctiveness": 3.57
+   },
+   {
+    "label": "Paul",
+    "entity_id": "TERM_paul",
+    "count": 1,
+    "distinctiveness": 3.05
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 1,
+    "distinctiveness": 2.93
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 6,
+    "distinctiveness": 2.45
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 4,
+    "distinctiveness": 2.18
+   },
+   {
+    "label": "Philip",
+    "entity_id": "TERM_philip",
+    "count": 1,
+    "distinctiveness": 1.87
+   },
+   {
+    "label": "King",
+    "entity_id": "TERM_king",
+    "count": 1,
+    "distinctiveness": 1.84
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 4,
+    "distinctiveness": 1.83
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 4,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 3218,
+      "quote": "…] _March 30, 1975_ ## Dear Art and Michele, Here is a 14-page piece (about 3,000 words) for you called “The Eye of the Sibyl.” It is I think a story which you can illustrate in a vivid and compelling way. 145 THE SELECTED LETTERS…"
+     },
+     {
+      "line": 3228,
+      "quote": "…hurts really bad right now so I will knock off.. .please, if you could phone me and let me know if you find “The Eye of the Sibyl” okay.. .collect, of course; I get very anxious when I wait. I haven’t received a rejection slip since 1954,…"
+     },
+     {
+      "line": 3334,
+      "quote": "…story, but already they intuit that there is something more to it. I guess between my speech and this story, “The Eye of the Sibyl,” I’ve blown my cover. I’m amazed that I felt, from the start, that I should keep absolutely quiet about it;…"
+     },
+     {
+      "line": 3500,
+      "quote": "…paid me anyhow. It only took me half a morning to write the dam thing; for your records it’s a story called “The Eye of the Sibyl.” Jack, I would like to borrow $500, if I could. My son was unexpectedly injured this weekend, and we’re shor…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4439,
+      "quote": "…and world of robot presidents. Phil now proposed a collaboration; but the story Phil submitted in March 1975-“The Eye of the Sibyl”-was, like the 1974 Ubik screenplay, too intricate for adaptation to the intended (comic book/movie) medium.…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "4 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "1 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

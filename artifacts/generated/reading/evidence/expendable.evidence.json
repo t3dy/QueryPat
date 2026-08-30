@@ -1,0 +1,160 @@
+{
+ "slug": "expendable",
+ "title": "Expendable",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 5210,
+  "line_end": 5397,
+  "word_count": 1883,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gods",
+    "label": "Gods",
+    "count": 4,
+    "per_million": 2124.3,
+    "background_per_million": 30.6,
+    "distinctiveness": 59.6
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_march",
+    "label": "March",
+    "count": 1,
+    "per_million": 531.1,
+    "background_per_million": 22.5,
+    "distinctiveness": 19.33
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 3,
+    "per_million": 1593.2,
+    "background_per_million": 311.5,
+    "distinctiveness": 5.03
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 4,
+    "per_million": 2124.3,
+    "background_per_million": 529.1,
+    "distinctiveness": 3.98
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 3,
+    "per_million": 1593.2,
+    "background_per_million": 397.3,
+    "distinctiveness": 3.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 6,
+    "per_million": 3186.4,
+    "background_per_million": 959.1,
+    "distinctiveness": 3.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 2,
+    "per_million": 1062.1,
+    "background_per_million": 448.4,
+    "distinctiveness": 2.34
+   }
+  ],
+  "names": [],
+  "distinct_terms": 7,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 6342,
+      "quote": "…ders” (But this could be pulled for “Second Variety,” since the theme is the same.) “The Electric Ant.” ## “Expendable.” “Faith of Our Fathers” “Had There Been No Benny Cemoli...” “Impostor” (But, like “The Defenders,” thi…"
+     },
+     {
+      "line": 6850,
+      "quote": "…asy & Science-Fiction._ “The Defenders.” 1953 Galaxy Publishing Corp. First appeared in _Galaxy Magazine._ “Expendable.” 1953 Fantasy House. First appeared in _The Magazine of Fan­ tasy & Science-Fiction._ “The Short Happy Life…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1178,
+      "quote": "…r foreign rights to “Left Shoe, My Foot.” I am pleased-surprised>thankful. But I am puzzled by the new title “Expendable.” What does it mean? How does it fit the story? Who put it on? And—is there any way I can get hold of the for…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1332,
+      "quote": "…966, later published as _Lies, Inc._ ); dogs: ‘Roog’ (1953, CS1) and ‘Adjustment Team’ (1954, CS2); spiders: ‘Expendable’ (1953, CS1); shoes: ‘The Short Happy Life of the Brown Oxford’ (1954, CS1); Bach: ‘The Preserving Machine’ (…"
+     },
+     {
+      "line": 3738,
+      "quote": "…46, 81n13, 207n6 _Exegesis, The_ 215, 224, 230, 235 ‘Exhibit Piece’ **106–07** ‘Exit Door Leads In, The’ 26 ‘Expendable’ 93n14 _Eye in the Sky_ African American in 81n13, 109n1, 138n6 ‘normal’ characters in 207n7 ‘Faith of Our Fa…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3051,
+      "quote": "…y,” everything in that world is out to “get” the colonists, from pseudo-microscopes to pseudo-spaceships. In “Expendable,” the bugs are out to get everybody (except for the spiders). Eventually, the spiders will win, but it’s too…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ }
+}

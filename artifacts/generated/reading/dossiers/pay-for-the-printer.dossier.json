@@ -1,0 +1,163 @@
+{
+ "artifact_id": "ART_DOSSIER_PAY_FOR_THE_PRINTER",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "pay-for-the-printer",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Pay For The Printer",
+  "slug": "pay-for-the-printer",
+  "form": "story",
+  "word_count": 6546,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+   "line_start": 7064,
+   "line_end": 7433,
+   "word_count": 6546,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "John",
+    "entity_id": "TERM_john",
+    "count": 5,
+    "distinctiveness": 7.64
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 15,
+    "distinctiveness": 5.7
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 3,
+    "distinctiveness": 4.16
+   },
+   {
+    "label": "Garden",
+    "entity_id": "TERM_garden",
+    "count": 1,
+    "distinctiveness": 2.54
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 13,
+    "distinctiveness": 2.27
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 6,
+    "distinctiveness": 1.96
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 1,
+    "distinctiveness": 1.85
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 13,
+    "distinctiveness": 1.83
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 8,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT.md",
+    "author": "Fredric Jameson",
+    "lane": "C",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 4352,
+      "quote": "…foot through. Hence the obsessive compensatory theme of reproduction. In one of his most alarming fables, \"Pay for the Printer\", Dick imagines a steadily deterio­ rating post-atomic universe momentarily rescued by the arrival of a curio…"
+     },
+     {
+      "line": 4664,
+      "quote": "…is technology, most of the time mechani­ cal, but occasionally throwing up stunningly organic images such as \"Pay for the Printer\", in which the alien Biltong faithfully reproduce any object set in front of them - a situation then grimly w…"
+     },
+     {
+      "line": 4666,
+      "quote": "…aver to a bath of fixing-chemicals which had the capacity to lock the amoeba into that fmal form\" (14). In \"Pay for the Printer\", to be sure, the organic reproductive or mimetic technology is a kind of alien assistance in a postwar situa…"
+     },
+     {
+      "line": 5268,
+      "quote": "…Man 349 Ubik 82, 270, 340, 345-6, 348, 368, 376 Vulcan's Hammer 359 We Can Build You 83, 1 14, 363, 375-7 \"Pay for the Printer\" 374 \"Second Variety\" 375 Dickens, Charles 34-5 DiFazio, William 150 differentiation 14-7, 20 Dilthey, Wilhel…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 1330,
+      "quote": "…of tinkering (as in ‘The Turning Wheel’,1954, CS3), or of the value of making rather than replicating, as in ‘Pay for the Printer’ (1956, CS3). ‘Pay for the Printer’ is another story[15] treating the dependence of consumers on processes of…"
+     },
+     {
+      "line": 1330,
+      "quote": "…eel’,1954, CS3), or of the value of making rather than replicating, as in ‘Pay for the Printer’ (1956, CS3). ‘Pay for the Printer’ is another story[15] treating the dependence of consumers on processes of production of which they have lost…"
+     },
+     {
+      "line": 1512,
+      "quote": "…me traps as that of the characters. A sign of this is that it is easy to read ‘Small Town’ or, for instance, ‘Pay for the Printer’, as allegories of authorship (the author as creator of miniature worlds, or of ‘prints’).[33] The question…"
+     },
+     {
+      "line": 3758,
+      "quote": "…viours in 49n14 fathers and sons in 100n23 _Palmer Eldritch_ , _see The Three Stigmata of Palmer Eldritch_ ‘Pay for the Printer’ consuming and making in **93–94** , 107 _Penultimate Truth, The_ 18n30 manufactured events in **20–21**…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "8 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

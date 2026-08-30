@@ -1,0 +1,177 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_TURNING_WHEEL",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-turning-wheel",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Turning Wheel",
+  "slug": "the-turning-wheel",
+  "form": "story",
+  "word_count": 7246,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 28482,
+   "line_end": 28885,
+   "word_count": 7246,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Indian",
+    "entity_id": "TERM_indian",
+    "count": 14,
+    "distinctiveness": 95.08
+   },
+   {
+    "label": "Divine",
+    "entity_id": "TERM_divine",
+    "count": 9,
+    "distinctiveness": 53.11
+   },
+   {
+    "label": "Cosmic",
+    "entity_id": "TERM_cosmic",
+    "count": 14,
+    "distinctiveness": 52.7
+   },
+   {
+    "label": "Holy",
+    "entity_id": "TERM_holy",
+    "count": 4,
+    "distinctiveness": 23.6
+   },
+   {
+    "label": "Scanner",
+    "entity_id": "TERM_scanner",
+    "count": 7,
+    "distinctiveness": 13.73
+   },
+   {
+    "label": "Faith",
+    "entity_id": "TERM_faith",
+    "count": 1,
+    "distinctiveness": 3.66
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 10,
+    "distinctiveness": 3.43
+   },
+   {
+    "label": "Tears",
+    "entity_id": "TERM_tears",
+    "count": 1,
+    "distinctiveness": 3.39
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 2,
+    "distinctiveness": 2.91
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 12,
+    "distinctiveness": 2.79
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 9,
+    "distinctiveness": 2.66
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 3,
+    "distinctiveness": 1.58
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1272,
+      "quote": "…t the contents of the DAW collection, so if you want you can check it against what Ballantine has: “Nanny” “The Turning Wheel” “The Defenders” “Adjustment Team” “Psi-Man Heal My Child” “The Commuter” “A Present For Pat” “Breakf…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1330,
+      "quote": "…ries in which technology is rehabilitated from within, by the rediscovery of the virtues of tinkering (as in ‘The Turning Wheel’,1954, CS3), or of the value of making rather than replicating, as in ‘Pay for the Printer’ (1956, CS3). ‘Pay…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3049,
+      "quote": "…ike one of his friends. In “Progeny,” Phil uses the name of Janet Doyle, a woman with whom he had an affair. “The Turning Wheel” deals with Elron Hu. (Phil’s mother was a Dianetics auditor and wanted to “clear” Phil.) In “Colony,” ever…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "2 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

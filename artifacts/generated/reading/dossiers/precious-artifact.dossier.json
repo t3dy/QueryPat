@@ -1,0 +1,167 @@
+{
+ "artifact_id": "ART_DOSSIER_PRECIOUS_ARTIFACT",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "precious-artifact",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Precious Artifact",
+  "slug": "precious-artifact",
+  "form": "story",
+  "word_count": 3239,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 49601,
+   "line_end": 49802,
+   "word_count": 3239,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Mary",
+    "name_id": "NAME_mary",
+    "mentions": 23
+   },
+   {
+    "name": "Sophia",
+    "name_id": "NAME_sophia",
+    "mentions": 1
+   },
+   {
+    "name": "Laura",
+    "name_id": "NAME_laura",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Viewed",
+    "entity_id": "TERM_viewed",
+    "count": 1,
+    "distinctiveness": 27.74
+   },
+   {
+    "label": "Spirit",
+    "entity_id": "TERM_spirit",
+    "count": 1,
+    "distinctiveness": 14.47
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 2,
+    "distinctiveness": 2.69
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 7,
+    "distinctiveness": 2.24
+   },
+   {
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 3,
+    "distinctiveness": 2.04
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 5,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 5,
+    "quotes": [
+     {
+      "line": 4095,
+      "quote": "…imulations of worlds, mirror opposites of worlds. Like I do in my stories and novels (e.g., _Stigmata_ and \"Precious Artifact\"). I am James-James. I created one world among many and entered it and hid myself in it. But the police det…"
+     },
+     {
+      "line": 4101,
+      "quote": "…is _write about_ what I used to do. In a sense I am a prisoner. But it's for the best. I learned this from \"Precious Artifact.\" I am a mad ex world-generator, now confined. But still periodically mad. I can't die. I am countless reborn…"
+     },
+     {
+      "line": 4125,
+      "quote": "…for years just crazy— Because everything is interwoven, it either all stands or it falls. Such stories as \"Precious Artifact\" and \"Electric Ant\" and \"Retreat Syndrome\" tell us nothing—not to mention the novels. _Ubik_ tells us nothi…"
+     },
+     {
+      "line": 4561,
+      "quote": "…think this 3 level structure is the one _we_ have vis-à-vis Christianity. A secret within a secret A, Ā, A. \"Precious Artifact\" (3 layer) was close. You have this: Q: \"Is a fake fake real?\" re Christianity: A: \"Yes.\" — This is in te…"
+     },
+     {
+      "line": 13334,
+      "quote": "…[>], [>] _The Owl in Daylight,_ [>], [>], [>]–[>], [>]–[>] _The Penultimate Truth,_ [>], [>], [>], [>] \"Precious Artifact,\" [>], [>], [>] \"Retreat Syndrome,\" [>], [>], [>], [>] _A Scanner Darkly,_ [>], [>], [>], [>]–[>], [>], […"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5647,
+      "quote": "…nput. The “Introduction” and “Story Notes” by Phil are alone worth the price of admission. The best story is “Precious Artifact” (w. 1963, p. 1964), in which the all-too-human need for hope gives the conquering Proxmen the edge they need…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1245,
+      "quote": "…e money from these works went into our joint bank account. Also at his time Phil wrote a touching story, “Precious Artifact,” about engineer Briskle, a man exhausted by his work of the past five years, transforming arid, dreary Mars…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "5 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "2 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

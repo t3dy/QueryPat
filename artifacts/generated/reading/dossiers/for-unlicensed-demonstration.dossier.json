@@ -1,0 +1,117 @@
+{
+ "artifact_id": "ART_DOSSIER_FOR_UNLICENSED_DEMONSTRATION",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "for-unlicensed-demonstration",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "For Unlicensed Demonstration",
+  "slug": "for-unlicensed-demonstration",
+  "form": "story",
+  "word_count": 4632,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 1798,
+   "line_end": 2279,
+   "word_count": 4632,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "The Man",
+    "name_id": "NAME_the-man",
+    "mentions": 1
+   },
+   {
+    "name": "The authorities",
+    "name_id": "NAME_the-authorities",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Church",
+    "entity_id": "TERM_church",
+    "count": 4,
+    "distinctiveness": 31.43
+   },
+   {
+    "label": "Bill",
+    "entity_id": "TERM_bill",
+    "count": 13,
+    "distinctiveness": 19.5
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 8,
+    "distinctiveness": 3.69
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 8,
+    "distinctiveness": 1.98
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 4,
+    "distinctiveness": 1.94
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 2,
+    "distinctiveness": 1.91
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 8,
+    "distinctiveness": 1.59
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

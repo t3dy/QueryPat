@@ -1,0 +1,89 @@
+{
+ "slug": "meddler",
+ "title": "Meddler",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 8700,
+  "line_end": 8841,
+  "word_count": 2647,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_rome",
+    "label": "Rome",
+    "count": 1,
+    "per_million": 377.8,
+    "background_per_million": 9.2,
+    "distinctiveness": 26.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gestalt",
+    "label": "Gestalt",
+    "count": 1,
+    "per_million": 377.8,
+    "background_per_million": 25.5,
+    "distinctiveness": 12.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 6,
+    "per_million": 2266.7,
+    "background_per_million": 440.2,
+    "distinctiveness": 5.09
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 3,
+    "per_million": 1133.4,
+    "background_per_million": 256.4,
+    "distinctiveness": 4.34
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 2,
+    "per_million": 755.6,
+    "background_per_million": 397.3,
+    "distinctiveness": 1.88
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 1,
+    "per_million": 377.8,
+    "background_per_million": 221.7,
+    "distinctiveness": 1.67
+   }
+  ],
+  "names": [],
+  "distinct_terms": 6,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

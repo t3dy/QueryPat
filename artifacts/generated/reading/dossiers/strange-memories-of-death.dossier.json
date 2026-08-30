@@ -1,0 +1,195 @@
+{
+ "artifact_id": "ART_DOSSIER_STRANGE_MEMORIES_OF_DEATH",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "strange-memories-of-death",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Strange Memories Of Death",
+  "slug": "strange-memories-of-death",
+  "form": "story",
+  "word_count": 2567,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 57421,
+   "line_end": 57494,
+   "word_count": 2567,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "St. Augustine",
+    "name_id": "NAME_st-augustine",
+    "mentions": 1
+   },
+   {
+    "name": "The authorities",
+    "name_id": "NAME_the-authorities",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Augustine",
+    "entity_id": "TERM_augustine",
+    "count": 1,
+    "distinctiveness": 64.7
+   },
+   {
+    "label": "Jesus Christ",
+    "entity_id": "TERM_jesus-christ",
+    "count": 1,
+    "distinctiveness": 42.88
+   },
+   {
+    "label": "Santa",
+    "entity_id": "TERM_santa",
+    "count": 1,
+    "distinctiveness": 29.58
+   },
+   {
+    "label": "Jesus",
+    "entity_id": "TERM_jesus",
+    "count": 1,
+    "distinctiveness": 23.99
+   },
+   {
+    "label": "Fate",
+    "entity_id": "TERM_fate",
+    "count": 1,
+    "distinctiveness": 15.32
+   },
+   {
+    "label": "Christ",
+    "entity_id": "TERM_christ",
+    "count": 3,
+    "distinctiveness": 14.88
+   },
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
+    "count": 1,
+    "distinctiveness": 13.2
+   },
+   {
+    "label": "Garden",
+    "entity_id": "TERM_garden",
+    "count": 1,
+    "distinctiveness": 6.48
+   },
+   {
+    "label": "Bill",
+    "entity_id": "TERM_bill",
+    "count": 1,
+    "distinctiveness": 2.71
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 4,
+    "distinctiveness": 2.53
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 3,
+    "distinctiveness": 1.97
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 2,
+    "distinctiveness": 1.93
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 1,
+    "distinctiveness": 1.72
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 2,
+    "distinctiveness": 1.67
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 237,
+      "quote": "…ort, Happy Life of a Science Fiction Writer\" first appeared in _Scintillation_ , Vol. 3, No. 3, June 1976. \"Strange Memories of Death,\" written in 1979, first appeared in _Interzone_ , Summer 1984, and was republished in the Dick essay-story c…"
+     },
+     {
+      "line": 477,
+      "quote": "…stein found. Would you believe that \"Watergate,\" as they found it, was a CIA red herring? Incredible. ## **\"Strange Memories of Death\" (1979, 1984)** I woke up this morning and felt the chill of October [1979] in the apartment, as if the sea…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 4953,
+      "quote": "…were also forced to move out. Phil, who knew well the vertigo of losing one’s home, responded with an essay, “Strange Memories of Death” (included in I Hope I Shall Arrive Soon), detailing the crisis of his neighbor the “Lysol Lady”: “What bothe…"
+     },
+     {
+      "line": 6865,
+      "quote": "…visit: Author’s interview with Russell Galen, June 1986. 493 - 265 Only thing separating him: PKD essay. “Strange Memories of Death,” in PKD story/essay collection I Hope I Shall Arrive Soon (Garden City, N.Y.: Doubleday, 1985), pp. 98-99.…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "2 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "2 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

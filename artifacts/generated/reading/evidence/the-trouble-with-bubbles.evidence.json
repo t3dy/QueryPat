@@ -1,0 +1,80 @@
+{
+ "slug": "the-trouble-with-bubbles",
+ "title": "The Trouble With Bubbles",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 19918,
+  "line_end": 20407,
+  "word_count": 5928,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_viewed",
+    "label": "Viewed",
+    "count": 1,
+    "per_million": 168.7,
+    "background_per_million": 6.1,
+    "distinctiveness": 15.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 7,
+    "per_million": 1180.8,
+    "background_per_million": 138.9,
+    "distinctiveness": 8.2
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 168.7,
+    "background_per_million": 29.6,
+    "distinctiveness": 4.87
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 1,
+    "per_million": 168.7,
+    "background_per_million": 103.2,
+    "distinctiveness": 1.56
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 1,
+    "per_million": 168.7,
+    "background_per_million": 105.2,
+    "distinctiveness": 1.53
+   }
+  ],
+  "names": [],
+  "distinct_terms": 5,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

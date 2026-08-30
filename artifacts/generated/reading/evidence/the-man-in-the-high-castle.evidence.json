@@ -1,0 +1,608 @@
+{
+ "slug": "the-man-in-the-high-castle",
+ "title": "The Man in the High Castle",
+ "kind": "novel",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/THE_MAN_IN_THE_HIGH_CASTLE_CLEAN.md",
+  "line_start": 0,
+  "line_end": null,
+  "word_count": 80641,
+  "status": "needs_structure"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jews",
+    "label": "Jews",
+    "count": 18,
+    "per_million": 223.2,
+    "background_per_million": 0.0,
+    "distinctiveness": 44.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jewish",
+    "label": "Jewish",
+    "count": 7,
+    "per_million": 86.8,
+    "background_per_million": 0.0,
+    "distinctiveness": 17.36
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 91,
+    "per_million": 1128.5,
+    "background_per_million": 74.6,
+    "distinctiveness": 14.18
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_yang",
+    "label": "Yang",
+    "count": 7,
+    "per_million": 86.8,
+    "background_per_million": 2.0,
+    "distinctiveness": 12.33
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bruno",
+    "label": "Bruno",
+    "count": 4,
+    "per_million": 49.6,
+    "background_per_million": 0.0,
+    "distinctiveness": 9.92
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_spirit",
+    "label": "Spirit",
+    "count": 10,
+    "per_million": 124.0,
+    "background_per_million": 16.3,
+    "distinctiveness": 5.81
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bardo-thodol",
+    "label": "Bardo Thodol",
+    "count": 2,
+    "per_million": 24.8,
+    "background_per_million": 0.0,
+    "distinctiveness": 4.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bardo",
+    "label": "Bardo",
+    "count": 2,
+    "per_million": 24.8,
+    "background_per_million": 0.0,
+    "distinctiveness": 4.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_thodol",
+    "label": "Thodol",
+    "count": 2,
+    "per_million": 24.8,
+    "background_per_million": 0.0,
+    "distinctiveness": 4.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_viewed",
+    "label": "Viewed",
+    "count": 4,
+    "per_million": 49.6,
+    "background_per_million": 6.1,
+    "distinctiveness": 4.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_rome",
+    "label": "Rome",
+    "count": 5,
+    "per_million": 62.0,
+    "background_per_million": 9.2,
+    "distinctiveness": 4.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jesus-christ",
+    "label": "Jesus Christ",
+    "count": 3,
+    "per_million": 37.2,
+    "background_per_million": 4.1,
+    "distinctiveness": 4.09
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_simon",
+    "label": "Simon",
+    "count": 3,
+    "per_million": 37.2,
+    "background_per_million": 4.1,
+    "distinctiveness": 4.09
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_faith",
+    "label": "Faith",
+    "count": 12,
+    "per_million": 148.8,
+    "background_per_million": 32.7,
+    "distinctiveness": 3.95
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_empire",
+    "label": "Empire",
+    "count": 8,
+    "per_million": 99.2,
+    "background_per_million": 22.5,
+    "distinctiveness": 3.61
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_karma",
+    "label": "Karma",
+    "count": 2,
+    "per_million": 24.8,
+    "background_per_million": 2.0,
+    "distinctiveness": 3.52
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palm",
+    "label": "Palm",
+    "count": 6,
+    "per_million": 74.4,
+    "background_per_million": 17.4,
+    "distinctiveness": 3.33
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 9,
+    "per_million": 111.6,
+    "background_per_million": 29.6,
+    "distinctiveness": 3.22
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jesus",
+    "label": "Jesus",
+    "count": 4,
+    "per_million": 49.6,
+    "background_per_million": 11.2,
+    "distinctiveness": 3.06
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_folder",
+    "label": "Folder",
+    "count": 4,
+    "per_million": 49.6,
+    "background_per_million": 12.3,
+    "distinctiveness": 2.87
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christian",
+    "label": "Christian",
+    "count": 3,
+    "per_million": 37.2,
+    "background_per_million": 8.2,
+    "distinctiveness": 2.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 10,
+    "per_million": 124.0,
+    "background_per_million": 39.8,
+    "distinctiveness": 2.77
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_joint",
+    "label": "Joint",
+    "count": 3,
+    "per_million": 37.2,
+    "background_per_million": 9.2,
+    "distinctiveness": 2.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_godhead",
+    "label": "Godhead",
+    "count": 1,
+    "per_million": 12.4,
+    "background_per_million": 0.0,
+    "distinctiveness": 2.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_elijah",
+    "label": "Elijah",
+    "count": 1,
+    "per_million": 12.4,
+    "background_per_million": 0.0,
+    "distinctiveness": 2.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_maya",
+    "label": "Maya",
+    "count": 1,
+    "per_million": 12.4,
+    "background_per_million": 0.0,
+    "distinctiveness": 2.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_realm",
+    "label": "Realm",
+    "count": 3,
+    "per_million": 37.2,
+    "background_per_million": 10.2,
+    "distinctiveness": 2.45
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_acts",
+    "label": "Acts",
+    "count": 3,
+    "per_million": 37.2,
+    "background_per_million": 11.2,
+    "distinctiveness": 2.29
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 14,
+    "per_million": 173.6,
+    "background_per_million": 73.5,
+    "distinctiveness": 2.21
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_holy",
+    "label": "Holy",
+    "count": 4,
+    "per_million": 49.6,
+    "background_per_million": 18.4,
+    "distinctiveness": 2.12
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christianity",
+    "label": "Christianity",
+    "count": 1,
+    "per_million": 12.4,
+    "background_per_million": 1.0,
+    "distinctiveness": 2.06
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fate",
+    "label": "Fate",
+    "count": 4,
+    "per_million": 49.6,
+    "background_per_million": 20.4,
+    "distinctiveness": 1.95
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bible",
+    "label": "Bible",
+    "count": 3,
+    "per_million": 37.2,
+    "background_per_million": 14.3,
+    "distinctiveness": 1.93
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jung",
+    "label": "Jung",
+    "count": 1,
+    "per_million": 12.4,
+    "background_per_million": 2.0,
+    "distinctiveness": 1.76
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 36,
+    "per_million": 446.4,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_divine",
+    "label": "Divine",
+    "count": 3,
+    "per_million": 37.2,
+    "background_per_million": 18.4,
+    "distinctiveness": 1.59
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 138,
+    "per_million": 1711.3,
+    "background_per_million": 1079.7,
+    "distinctiveness": 1.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_grace",
+    "label": "Grace",
+    "count": 2,
+    "per_million": 24.8,
+    "background_per_million": 11.2,
+    "distinctiveness": 1.53
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 5,
+    "per_million": 62.0,
+    "background_per_million": 35.8,
+    "distinctiveness": 1.52
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mr-tagomi",
+    "label": "Mr. Tagomi",
+    "count": 287,
+    "per_million": 3559.0,
+    "background_per_million": 1.0,
+    "distinctiveness": 591.05
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_robert-childan",
+    "label": "Robert Childan",
+    "count": 44,
+    "per_million": 545.6,
+    "background_per_million": 0.0,
+    "distinctiveness": 109.13
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_frank-frink",
+    "label": "Frank Frink",
+    "count": 22,
+    "per_million": 272.8,
+    "background_per_million": 0.0,
+    "distinctiveness": 54.56
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_rommel",
+    "label": "Rommel",
+    "count": 15,
+    "per_million": 186.0,
+    "background_per_million": 0.0,
+    "distinctiveness": 37.2
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_calvin",
+    "label": "Calvin",
+    "count": 14,
+    "per_million": 173.6,
+    "background_per_million": 0.0,
+    "distinctiveness": 34.72
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-tao",
+    "label": "The Tao",
+    "count": 8,
+    "per_million": 99.2,
+    "background_per_million": 0.0,
+    "distinctiveness": 19.84
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_hitler",
+    "label": "Hitler",
+    "count": 21,
+    "per_million": 260.4,
+    "background_per_million": 13.3,
+    "distinctiveness": 14.25
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mission",
+    "label": "Mission",
+    "count": 19,
+    "per_million": 235.6,
+    "background_per_million": 12.3,
+    "distinctiveness": 13.65
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_juliana-frink",
+    "label": "Juliana Frink",
+    "count": 5,
+    "per_million": 62.0,
+    "background_per_million": 0.0,
+    "distinctiveness": 12.4
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_hawthorne-abendsen",
+    "label": "Hawthorne Abendsen",
+    "count": 5,
+    "per_million": 62.0,
+    "background_per_million": 0.0,
+    "distinctiveness": 12.4
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_rudolf-wegener",
+    "label": "Rudolf Wegener",
+    "count": 5,
+    "per_million": 62.0,
+    "background_per_million": 0.0,
+    "distinctiveness": 12.4
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mickey-mouse",
+    "label": "Mickey Mouse",
+    "count": 4,
+    "per_million": 49.6,
+    "background_per_million": 0.0,
+    "distinctiveness": 9.92
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_baynes-mr",
+    "label": "Baynes (Mr.)",
+    "count": 3,
+    "per_million": 37.2,
+    "background_per_million": 0.0,
+    "distinctiveness": 7.44
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_adolf-hitler",
+    "label": "Adolf Hitler",
+    "count": 5,
+    "per_million": 62.0,
+    "background_per_million": 5.1,
+    "distinctiveness": 6.13
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_saint",
+    "label": "Saint",
+    "count": 3,
+    "per_million": 37.2,
+    "background_per_million": 6.1,
+    "distinctiveness": 3.34
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_sophia",
+    "label": "Sophia",
+    "count": 6,
+    "per_million": 74.4,
+    "background_per_million": 17.4,
+    "distinctiveness": 3.33
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-man",
+    "label": "The Man",
+    "count": 5,
+    "per_million": 62.0,
+    "background_per_million": 19.4,
+    "distinctiveness": 2.54
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_von-karajan",
+    "label": "von Karajan",
+    "count": 1,
+    "per_million": 12.4,
+    "background_per_million": 0.0,
+    "distinctiveness": 2.48
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_saint-paul",
+    "label": "Saint Paul",
+    "count": 1,
+    "per_million": 12.4,
+    "background_per_million": 0.0,
+    "distinctiveness": 2.48
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_wilhelm",
+    "label": "Wilhelm",
+    "count": 1,
+    "per_million": 12.4,
+    "background_per_million": 0.0,
+    "distinctiveness": 2.48
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_socrates",
+    "label": "Socrates",
+    "count": 1,
+    "per_million": 12.4,
+    "background_per_million": 0.0,
+    "distinctiveness": 2.48
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-empire",
+    "label": "The Empire",
+    "count": 1,
+    "per_million": 12.4,
+    "background_per_million": 2.0,
+    "distinctiveness": 1.76
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_anne",
+    "label": "Anne",
+    "count": 1,
+    "per_million": 12.4,
+    "background_per_million": 2.0,
+    "distinctiveness": 1.76
+   }
+  ],
+  "distinct_terms": 39,
+  "distinct_names": 23
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6810,
+      "quote": "…ose and wicked and sinful that I really wanted to do. I’m sure God isn’t pissed with me. The guy who is doing the MAN IN THE HIGH CASTLE screenplay gave me a script he’d already writ­ ten, and in it God wears a t-shirt with his name (God) on it.…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

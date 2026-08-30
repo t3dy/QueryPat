@@ -1,0 +1,197 @@
+{
+ "slug": "mr-spaceship",
+ "title": "Mr. Spaceship",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 2912,
+  "line_end": 3833,
+  "word_count": 10523,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_thomas",
+    "label": "Thomas",
+    "count": 11,
+    "per_million": 1045.3,
+    "background_per_million": 44.9,
+    "distinctiveness": 20.93
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_dante",
+    "label": "Dante",
+    "count": 1,
+    "per_million": 95.0,
+    "background_per_million": 1.0,
+    "distinctiveness": 15.78
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 21,
+    "per_million": 1995.6,
+    "background_per_million": 202.2,
+    "distinctiveness": 9.63
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_philip",
+    "label": "Philip",
+    "count": 11,
+    "per_million": 1045.3,
+    "background_per_million": 124.6,
+    "distinctiveness": 8.06
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_phil",
+    "label": "Phil",
+    "count": 6,
+    "per_million": 570.2,
+    "background_per_million": 77.6,
+    "distinctiveness": 6.9
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_acts",
+    "label": "Acts",
+    "count": 1,
+    "per_million": 95.0,
+    "background_per_million": 11.2,
+    "distinctiveness": 5.85
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_folder",
+    "label": "Folder",
+    "count": 1,
+    "per_million": 95.0,
+    "background_per_million": 12.3,
+    "distinctiveness": 5.51
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bible",
+    "label": "Bible",
+    "count": 1,
+    "per_million": 95.0,
+    "background_per_million": 14.3,
+    "distinctiveness": 4.92
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_maze",
+    "label": "Maze",
+    "count": 1,
+    "per_million": 95.0,
+    "background_per_million": 20.4,
+    "distinctiveness": 3.74
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 6,
+    "per_million": 570.2,
+    "background_per_million": 221.7,
+    "distinctiveness": 2.52
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_faith",
+    "label": "Faith",
+    "count": 1,
+    "per_million": 95.0,
+    "background_per_million": 32.7,
+    "distinctiveness": 2.52
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 1,
+    "per_million": 95.0,
+    "background_per_million": 35.8,
+    "distinctiveness": 2.33
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fish",
+    "label": "Fish",
+    "count": 1,
+    "per_million": 95.0,
+    "background_per_million": 37.8,
+    "distinctiveness": 2.22
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 14,
+    "per_million": 1330.4,
+    "background_per_million": 609.8,
+    "distinctiveness": 2.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 19,
+    "per_million": 1805.6,
+    "background_per_million": 868.2,
+    "distinctiveness": 2.07
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 5,
+    "per_million": 475.1,
+    "background_per_million": 256.4,
+    "distinctiveness": 1.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 17,
+    "per_million": 1615.5,
+    "background_per_million": 959.1,
+    "distinctiveness": 1.68
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 19,
+    "per_million": 1805.6,
+    "background_per_million": 1079.7,
+    "distinctiveness": 1.66
+   }
+  ],
+  "names": [],
+  "distinct_terms": 18,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

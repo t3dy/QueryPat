@@ -1,0 +1,215 @@
+{
+ "artifact_id": "ART_DOSSIER_WE_CAN_REMEMBER_IT_FOR_YOU_WHOLESALE",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "we-can-remember-it-for-you-wholesale",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "We Can Remember It For You Wholesale",
+  "slug": "we-can-remember-it-for-you-wholesale",
+  "form": "story",
+  "word_count": 2228,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI.md",
+   "line_start": 8938,
+   "line_end": 9041,
+   "word_count": 2228,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Folder",
+    "entity_id": "TERM_folder",
+    "count": 1,
+    "distinctiveness": 26.01
+   },
+   {
+    "label": "Bureau",
+    "entity_id": "TERM_bureau",
+    "count": 1,
+    "distinctiveness": 10.24
+   },
+   {
+    "label": "John",
+    "entity_id": "TERM_john",
+    "count": 1,
+    "distinctiveness": 4.49
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 2,
+    "distinctiveness": 3.91
+   },
+   {
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 2,
+    "distinctiveness": 1.98
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 2,
+    "distinctiveness": 1.69
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 1,
+    "distinctiveness": 1.65
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 2,
+    "distinctiveness": 1.51
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 5,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 937,
+      "quote": "…ly and he seems like a wonderful guy. And then there are my MOVIE DEALS, all four of them: on Second Variety, We Can Remember It For You Wholesale, Do 24 T HE S E L E C T E D L E T T E R S OF P H I L I P K. D I C K Androids Dream of Electric Sheep,…"
+     },
+     {
+      "line": 1665,
+      "quote": "…e projects right now. (1) “Second Variety” to be made into a movie called _Claw._ By Capi­ tol Pictures. (2) “We Can Remember It For You Wholesale” to be made into a movie called _Total Recall_ (screenplay on both of these by Dan O’bannon who wrote _Alien)…"
+     },
+     {
+      "line": 3051,
+      "quote": "…n the first month. Bantam has now printed up 137,000 copies in all: three printings since February! My story “We Can Remember It For You Wholesale” is being made into a film based on a screenplay by Dan O’Bannon (who, as I’m sure you know, wrote ALIEN); it…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 13366,
+      "quote": "…## _VALIS Regained_ ( _VR_ ). See _The Divine Invasion_ – _Valisystem A_ (working book title), [>] [>] \"We Can Remember It for You Wholesale,\" [>] ## **More by Philip K. Dick:** _Lies, Inc. Now Wait for Last Year A Scanner Darkly The Simulacra Th…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6334,
+      "quote": "…sional editor you know this, but I wanted to state it anyhow, as I read over the proposed list. For example, “We Can Remember It For You Wholesale” has been in many collections. Personally, I wince every time Scott sells it again to someone else. That does…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 9,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 7,
+    "quotes": [
+     {
+      "line": 454,
+      "quote": "…r revelations and mysteries in turn displace the object of quest from the centre of the narrative. Again, in ‘We Can Remember It For You Wholesale’ (1966, CS2) the situation is that those who cannot afford expensive vacations can have memories of them impl…"
+     },
+     {
+      "line": 454,
+      "quote": "…_The Penultimate Truth_ , this is David Lantano, a time-travelling Native American of mysterious powers; in ‘We Can Remember It For You Wholesale’, it is a group of aliens and a magic wand. A formula offers itself: humanism troubled by postmodernity invok…"
+     },
+     {
+      "line": 1302,
+      "quote": "…is for the reader to catalogue the dazzling reality inversions of a story THE SHORT STORIES 91 such as ‘We Can Remember It For You Wholesale’ (1966, CS2). There is always a value at stake and, at the same time, imagination is repeatedly the threat to…"
+     },
+     {
+      "line": 1332,
+      "quote": "…e consequences of nuclear holocaust. (The Biltongs > 14 Elves: ‘The King of the Elves’ (1953, CS1); taxis: ‘We Can Remember It For You Wholesale’ (1966, CS4), _The Game-Players of Titan_ (1963) and _The Unteleported Man_ (1966, later published as _Lies,…"
+     },
+     {
+      "line": 1902,
+      "quote": "…exts are themselves involved. > 7 Relevant breasts occur in _The Simulacra_ , _The World Jones Made_ , and ‘We Can Remember It For You Wholesale’. EATING AND BEING EATEN 139 The one Patty is politely unavailable, the other is indigestible. Barris d…"
+     },
+     {
+      "line": 2206,
+      "quote": "…d of the social itself. > 17 A good example is _Total Recall_ (1990), a film loosely based on Dick’s story ‘We Can Remember It For You Wholesale’ (1966): a superhero, played by Arnold Schwarzenegger, allied with assorted misfits, mutants and aliens, batt…"
+     },
+     {
+      "line": 3796,
+      "quote": "…le Man, The’ 18n30 repair in **93–94** _Vulcan’s Hammer_ 113n10, 114n11 _We Can Build You_ 59, 171n6, 216n19 ‘We Can Remember It for You Wholesale’ 21, 91, 93n14, 138n7, 161n17 _World of Chance_ , _see Solar Lottery World Jones Made, The_ 15n22 aliens cont…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 5385,
+      "quote": "…s that the Disney Studios would exercise its option on Total Recall, a screenplay based on Phil’s 1966 story “We Can Remember It for You Wholesale.” (Since Phil’s death, this film project has become a reality-see the discussion of The Preserving Machine in…"
+     },
+     {
+      "line": 5609,
+      "quote": "…es stories that also appear in The Preserving Machine. But The Preserving Machine is the only one to feature “We Can Remember It for You Wholesale” (1966), a looping tale of memory implants and undercover spy activity on Mars that is, at the time of this w…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "5 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "9 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

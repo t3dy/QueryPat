@@ -1,0 +1,134 @@
+{
+ "slug": "recall-mechanism",
+ "title": "Recall Mechanism",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 39955,
+  "line_end": 40430,
+  "word_count": 5767,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 9,
+    "per_million": 1560.6,
+    "background_per_million": 74.6,
+    "distinctiveness": 19.61
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_roman",
+    "label": "Roman",
+    "count": 1,
+    "per_million": 173.4,
+    "background_per_million": 21.5,
+    "distinctiveness": 6.56
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_church",
+    "label": "Church",
+    "count": 1,
+    "per_million": 173.4,
+    "background_per_million": 22.5,
+    "distinctiveness": 6.31
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 4,
+    "per_million": 693.6,
+    "background_per_million": 105.2,
+    "distinctiveness": 6.29
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 5,
+    "per_million": 867.0,
+    "background_per_million": 256.4,
+    "distinctiveness": 3.32
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_garden",
+    "label": "Garden",
+    "count": 1,
+    "per_million": 173.4,
+    "background_per_million": 55.2,
+    "distinctiveness": 2.88
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 6,
+    "per_million": 1040.4,
+    "background_per_million": 398.4,
+    "distinctiveness": 2.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 7,
+    "per_million": 1213.8,
+    "background_per_million": 609.8,
+    "distinctiveness": 1.97
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 10,
+    "per_million": 1734.0,
+    "background_per_million": 959.1,
+    "distinctiveness": 1.8
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_soviet",
+    "label": "Soviet",
+    "count": 1,
+    "per_million": 173.4,
+    "background_per_million": 93.0,
+    "distinctiveness": 1.77
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 2,
+    "per_million": 346.8,
+    "background_per_million": 221.7,
+    "distinctiveness": 1.53
+   }
+  ],
+  "names": [],
+  "distinct_terms": 11,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

@@ -1,0 +1,227 @@
+{
+ "artifact_id": "ART_DOSSIER_COLONY",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "colony",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Colony",
+  "slug": "colony",
+  "form": "story",
+  "word_count": 6385,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 11146,
+   "line_end": 11779,
+   "word_count": 6385,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Nick",
+    "name_id": "NAME_nick",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Daniel",
+    "entity_id": "TERM_daniel",
+    "count": 2,
+    "distinctiveness": 34.48
+   },
+   {
+    "label": "Thomas",
+    "entity_id": "TERM_thomas",
+    "count": 1,
+    "distinctiveness": 3.14
+   },
+   {
+    "label": "Garden",
+    "entity_id": "TERM_garden",
+    "count": 1,
+    "distinctiveness": 2.6
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 4,
+    "distinctiveness": 1.98
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 7,
+    "distinctiveness": 1.78
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 3,
+    "distinctiveness": 1.73
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 3,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 2401,
+      "quote": "…were actually alive, were actually _it,_ does not actually mean that there is nothing but it. Take my story \"Colony\" as paradigm. But anyhow the responding beforehand to signals and the vision of the Urwelt below the Dokos…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5730,
+      "quote": "…Jr. every few minutes. Also, I can pay you, which I should do and will gladly do. I’d like to order: #137 (“Colony” from X MINUS ONE), page 1 item 14. #313 (CARSACON ’74), page 26 item 10. THE SELECTED LETTERS OF PHILIP K.…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1363,
+      "quote": "…which Dick seriously attempted to break into writing for television. (One of his finest early short stories, \"Colony,\" had been adapted, in 1956, for the _X Minus One_ radio program, devoted to SF dramatizations.) There is no…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 11,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 7,
+    "quotes": [
+     {
+      "line": 1415,
+      "quote": "…The closest Phil ever came to this crab grass story is a brilliant little horror tale in SF clothing called “Colony,” which appeared in the June 1953 Galaxy, edited by Horace Gold; it was also adapted for the X Minus One radi…"
+     },
+     {
+      "line": 1423,
+      "quote": "…cue ship into which they have all climbed naked (no longer being able to trust their clothes). Phil wrote of “Colony”: “The ultimate in paranoia is not when everyone is against you but when everything is against you. Instead o…"
+     },
+     {
+      "line": 2539,
+      "quote": "…The Ganymede Takeover (p. 1967), was inspired by one such session. There was a proposed novel, The Whalemouth Colony, ideas from which Phil worked into The Unteleported Man (p. 1966). But the most important fantasized projec…"
+     },
+     {
+      "line": 5477,
+      "quote": "…hil’s take on the Orpheus legend, with a lover seeking to rescue his Eurydice from lifethirsting angels. For “Colony” (w. 1952, p. 1953) and “Impostor” (1953), the two best tales in the book, see Chapter 4. Rating: 4. 7. Sol…"
+     },
+     {
+      "line": 5641,
+      "quote": "…see Chapter 2); tales from Phil’s Berkeley salad days, like “Roog,” “Beyond Lies the Wub,” “Second Variety,” “Colony,” and 442 “Impostor” (see Chapter 4 and A Handful of Darkness, above); and the best of all of Phil’s stor…"
+     },
+     {
+      "line": 6029,
+      "quote": "…ten when life simpler: “Afterthoughts by the Author,” The Best of Philip K. Dick, p. 444. 74 Towel attack: “Colony” (1953). - 74-75 On “Colony”: “Afterthoughts by the Author,” The Best of Philip K. Dick, p. 447. - 75 Ref…"
+     },
+     {
+      "line": 6031,
+      "quote": "…houghts by the Author,” The Best of Philip K. Dick, p. 444. 74 Towel attack: “Colony” (1953). - 74-75 On “Colony”: “Afterthoughts by the Author,” The Best of Philip K. Dick, p. 447. - 75 Refusal to sell to Gold: PKD “Mem…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 390,
+      "quote": "…rly terrifying episode in a very complex and successful novel). > 25 As Mackey remarks, in connection with ‘Colony’ (1953, CS1), ‘Everything possesses consciousness, though it may not be like ours or share our values. There…"
+     },
+     {
+      "line": 3732,
+      "quote": "…in 209–10, 213, 218, 219, 221 fantasy and the social in 146–49 Lord Running Clam in **149–54** , 158–59, 161 ‘Colony’ 16n25 ‘Commuter, The’ **99** _Confessions of a Crap Artist_ 37n14, 67, 68n3, 70 Fay Hume in **72–79** , 83–8…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_KRIPAL_JEFFREY_J_MUTANTS_AND_MYSTICS.md",
+    "author": "Jeffrey J. Kripal",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 2275,
+      "quote": "…two worlds” and that “mankind is a colony.”49 These two basic ideas the authors call the Hybrid Man and Earth Colony theories. The book drives these two points home over and over again, with varying degrees of plausibility and…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3051,
+      "quote": "…Turning Wheel” deals with Elron Hu. (Phil’s mother was a Dianetics auditor and wanted to “clear” Phil.) In “Colony,” everything in that world is out to “get” the colonists, from pseudo-microscopes to pseudo-spaceships. In “E…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "3 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "11 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

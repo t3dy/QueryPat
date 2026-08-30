@@ -1,0 +1,167 @@
+{
+ "slug": "foster-you-re-dead",
+ "title": "Foster, You're Dead",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 32953,
+  "line_end": 33416,
+  "word_count": 7334,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 29,
+    "per_million": 3954.2,
+    "background_per_million": 350.4,
+    "distinctiveness": 11.13
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jesus",
+    "label": "Jesus",
+    "count": 1,
+    "per_million": 136.4,
+    "background_per_million": 11.2,
+    "distinctiveness": 8.4
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_folder",
+    "label": "Folder",
+    "count": 1,
+    "per_million": 136.4,
+    "background_per_million": 12.3,
+    "distinctiveness": 7.9
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 4,
+    "per_million": 545.4,
+    "background_per_million": 89.9,
+    "distinctiveness": 5.75
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 3,
+    "per_million": 409.1,
+    "background_per_million": 138.9,
+    "distinctiveness": 2.84
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 2,
+    "per_million": 272.7,
+    "background_per_million": 105.2,
+    "distinctiveness": 2.47
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 4,
+    "per_million": 545.4,
+    "background_per_million": 256.4,
+    "distinctiveness": 2.09
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 8,
+    "per_million": 1090.8,
+    "background_per_million": 529.1,
+    "distinctiveness": 2.04
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 16,
+    "per_million": 2181.6,
+    "background_per_million": 1079.7,
+    "distinctiveness": 2.01
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 11,
+    "per_million": 1499.9,
+    "background_per_million": 868.2,
+    "distinctiveness": 1.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 1,
+    "per_million": 136.4,
+    "background_per_million": 77.6,
+    "distinctiveness": 1.65
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_zebra",
+    "label": "Zebra",
+    "count": 1,
+    "per_million": 136.4,
+    "background_per_million": 3.1,
+    "distinctiveness": 16.91
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-man",
+    "label": "The Man",
+    "count": 1,
+    "per_million": 136.4,
+    "background_per_million": 19.4,
+    "distinctiveness": 5.59
+   }
+  ],
+  "distinct_terms": 11,
+  "distinct_names": 2
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 13294,
+      "quote": "…>], [>], [>], [>], [>], [>]–[>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>] \"Foster, You're Dead!,\" [>] \"Frozen Journey,\" [>], [>], [>]–[>], [>], [>], [>], [>], [>] _Galactic Pot-Healer,_ [>], [>], [>],…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

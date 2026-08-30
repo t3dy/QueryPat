@@ -1,0 +1,147 @@
+{
+ "slug": "stability",
+ "title": "Stability",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 198,
+  "line_end": 485,
+  "word_count": 4831,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palm",
+    "label": "Palm",
+    "count": 2,
+    "per_million": 414.0,
+    "background_per_million": 17.4,
+    "distinctiveness": 18.51
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 2,
+    "per_million": 414.0,
+    "background_per_million": 105.2,
+    "distinctiveness": 3.76
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 7,
+    "per_million": 1449.0,
+    "background_per_million": 440.2,
+    "distinctiveness": 3.25
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 8,
+    "per_million": 1656.0,
+    "background_per_million": 959.1,
+    "distinctiveness": 1.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 1,
+    "per_million": 207.0,
+    "background_per_million": 128.7,
+    "distinctiveness": 1.55
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_eric",
+    "label": "Eric",
+    "count": 2,
+    "per_million": 414.0,
+    "background_per_million": 134.8,
+    "distinctiveness": 2.96
+   }
+  ],
+  "distinct_terms": 5,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1339,
+      "quote": "…ll dissolve as all the accretion of at least 3,500 years will vanish, as if dreamlike. They never took place. Stability, and proper everything, will lock in at 1500 to 2500 B.C. (Is it possible that an explosion, that Cretean civ…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 957,
+      "quote": "…suggestion, he never spoke of it, and no Phil Dick story was to appear until 1952. One unpublished SF story-“Stability”-does survive from his high school years, however. “Stability” depicts a post-twenty-fifth-century dystopia g…"
+     },
+     {
+      "line": 957,
+      "quote": "…to appear until 1952. One unpublished SF story-“Stability”-does survive from his high school years, however. “Stability” depicts a post-twenty-fifth-century dystopia governed by the stifling principle of “Stabilization,” which pe…"
+     },
+     {
+      "line": 5485,
+      "quote": "…adens the human spirit by denying all ideals that cannot be objectively proven. (There is a similar world in “Stability,” a story Phil wrote in high school. See Chapter 3.) Floyd Jones, a disgruntled carny fortune-teller (born in…"
+     },
+     {
+      "line": 5887,
+      "quote": "…le Jackie: C 5 of Martian Time-Slip (1964). ## **Chapter 3: Forward Into The “Real” World** PKD’s works: “Stability,” unpublished short story from high school days, in PKD Estate Archives. Gather Yourselves Together, unpublis…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1516,
+      "quote": "…to the SF’s text’s inclusion of images of reading, rather than of writing. Other relevant works by Dick are ‘Stability’ (c.1947, CS1), ‘Prominent Author’ (1954, CS2), and _Radio Free Albemuth_ (1985). 108 EXHILARATION AND TERR…"
+     },
+     {
+      "line": 3770,
+      "quote": "…fferences, as _World of Chance_ ) 6n6, 36, 39n19 class in 185n12, 204n4, 209n8 journeying in 51, 114, 114n11 ‘Stability’ 107n33 ‘Survey Team’ 50n18 _Teeth_ , _see The Man Whose Teeth Were All Exactly Alike Three Stigmata of Pal…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 6
+ }
+}

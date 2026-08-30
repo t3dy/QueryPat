@@ -1,0 +1,325 @@
+{
+ "slug": "the-golden-man",
+ "title": "The Golden Man",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 27730,
+  "line_end": 28419,
+  "word_count": 10172,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wisdom",
+    "label": "Wisdom",
+    "count": 44,
+    "per_million": 4325.6,
+    "background_per_million": 63.3,
+    "distinctiveness": 63.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 20,
+    "per_million": 1966.2,
+    "background_per_million": 59.2,
+    "distinctiveness": 30.6
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_maze",
+    "label": "Maze",
+    "count": 2,
+    "per_million": 196.6,
+    "background_per_million": 20.4,
+    "distinctiveness": 7.73
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_acts",
+    "label": "Acts",
+    "count": 1,
+    "per_million": 98.3,
+    "background_per_million": 11.2,
+    "distinctiveness": 6.06
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palm",
+    "label": "Palm",
+    "count": 1,
+    "per_million": 98.3,
+    "background_per_million": 17.4,
+    "distinctiveness": 4.4
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_roman",
+    "label": "Roman",
+    "count": 1,
+    "per_million": 98.3,
+    "background_per_million": 21.5,
+    "distinctiveness": 3.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 98.3,
+    "background_per_million": 29.6,
+    "distinctiveness": 2.84
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 2,
+    "per_million": 196.6,
+    "background_per_million": 73.5,
+    "distinctiveness": 2.5
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fish",
+    "label": "Fish",
+    "count": 1,
+    "per_million": 98.3,
+    "background_per_million": 37.8,
+    "distinctiveness": 2.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 98.3,
+    "background_per_million": 39.8,
+    "distinctiveness": 2.19
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 2,
+    "per_million": 196.6,
+    "background_per_million": 89.9,
+    "distinctiveness": 2.07
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 5,
+    "per_million": 491.5,
+    "background_per_million": 256.4,
+    "distinctiveness": 1.88
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 2,
+    "per_million": 196.6,
+    "background_per_million": 105.2,
+    "distinctiveness": 1.78
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 9,
+    "per_million": 884.8,
+    "background_per_million": 529.1,
+    "distinctiveness": 1.66
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 10,
+    "per_million": 983.1,
+    "background_per_million": 589.4,
+    "distinctiveness": 1.65
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-soviet",
+    "label": "The Soviet",
+    "count": 1,
+    "per_million": 98.3,
+    "background_per_million": 54.1,
+    "distinctiveness": 1.66
+   }
+  ],
+  "distinct_terms": 15,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 2186,
+      "quote": "…erary Agency] Feb 23, 1975_ Dear Ralph Vicinanza, You requested copyright byline information on my story “The Golden Man” as soon as possible for your British rep. Viz.: “The Golden Man.” If magazine, April, 1954 (Quinn Publishi…"
+     },
+     {
+      "line": 2188,
+      "quote": "…copyright byline information on my story “The Golden Man” as soon as possible for your British rep. Viz.: “The Golden Man.” If magazine, April, 1954 (Quinn Publishing Co.) While I’m writing you, Henry Ludmer, before he left SMLA, m…"
+     },
+     {
+      "line": 6334,
+      "quote": "…and I agree that my novelette “Second Variety” is one of my best. Could we include that? And maybe drop out “The Golden Man,” which I detest? “The Father-Thing” is in that two-volume Tony Boucher Golden whatever set which the S-F boo…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 13302,
+      "quote": "…[>] _Galactic Pot-Healer,_ [>], [>], [>], [>], [>], [>]–[>], [>] _The Game-Players of Titan,_ [>], [>] \"The Golden Man,\" [>], [>] \"I Hope I Shall Arrive Soon.\" _See_ \"Frozen Journey\" \"Impostor,\" [>], [>], [>], [>], [>], [>],…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 27,
+      "quote": "…Artist (1975) Deus Irae (with Roger Zelazny) (1976) The Best of Philip K. Dick (1977) A Scanner Darkly (1977) The Golden Man (1980) VALIS (1981) The Divine Invasion (1981) The Transmigration of Timothy Archer (1982) The Man Whose Teet…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 847,
+      "quote": "…joyed being there with them in their microcosm, their postwar West Marin world. ## **\"Introduction\" to** _**The Golden Man**_ **(1980)** When I see these stories of mine, written over three decades, I think of the Lucky Dog Pet St…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 6
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 12,
+    "quotes": [
+     {
+      "line": 1263,
+      "quote": "…ly regular book publisher of SF); and really cruel abuse was inflicted upon us. ## Prlu., “Introduction” to The Golden Man (1980) You knew [as to writing SF in the early fifties] you had the shitty end of the stick, but at least y…"
+     },
+     {
+      "line": 1479,
+      "quote": "…poverty (by 1978 Phil was no longer in want) was genuine enough. It reappeared in the 1980 “Introduction” to The Golden Man. Phil tells of purchasing the “dogfood” referred to above: So anyhow there I am at the Lucky Dog Pet Store…"
+     },
+     {
+      "line": 4803,
+      "quote": "…of light emerged from odd sources. Phil had recently written two autobiographical pieces-the introduction to the Golden Man story collection and a short reminiscence on “Roog,” his first SF story sale. Their informality felt somehow…"
+     },
+     {
+      "line": 5443,
+      "quote": "…rom the corpus of my work I can be absolutely and precisely inferred. This is true. PHIL, “Introduction” to The Golden Man (1980) PHIL Dick was far too prolific to allow for discussion of all of his works in the course of a biogra…"
+     },
+     {
+      "line": 5453,
+      "quote": "…(1957), The Preserving Machine (1969), The Book of Philip K. Dick (1972), The Best of Philip K. Dick (1977), The Golden Man (1980), and I Hope I Shall Arrive Soon (1985)-because they contain the best of the stories. (Phil helped with…"
+     },
+     {
+      "line": 5609,
+      "quote": "…d. But it has since been superseded in quality by two later collections-The Best of Philip K. Dick (1977) and The Golden Man (1980) (see entries)-each of which includes stories that also appear in The Preserving Machine. But The Prese…"
+     },
+     {
+      "line": 5647,
+      "quote": "…arkness, above); and the best of all of Phil’s stories, “The Electric Ant” (see Chapter 7). Rating: 10. 50. The Golden Man (w. 1952-1973, p. 1980). An admirable story collection assembled by editor Mark Hurst with Phil’s input. The…"
+     },
+     {
+      "line": 5707,
+      "quote": "…(PKDS) Newsletter #2, December 1983. - 4 Write about people I love: PKD “Introduction” to story collection The Golden Man (~ew York: Berkley, 1980), xviii. - 5 Fictionalizing philosopher: Exegesis 075 (1981). 448 - 6 On Pierr…"
+     },
+     {
+      "line": 5975,
+      "quote": "…e: Author’s interview with Betty Jo Rivers - 62 Expelled from U Cal: “Introduction” to PKD story collection The Golden Man (New York: Berkley, 1980), p. xvi. - 63 Horrible experiences at U Cal: Author’s interview with Iskandar Guy…"
+     },
+     {
+      "line": 6055,
+      "quote": "…sn’t dress well: Letter, PKD to Laura Coehlo, May 27, 1978. - 78 Lucky Dog Pet Store: PKD “Introduction” to The Golden Man (New York: Berkley, 1980), pp. xv-xvi. - 78 Kleo on Phil’s sense of humiliation: Author’s interview with Kl…"
+     },
+     {
+      "line": 6077,
+      "quote": "…experience: Author’s interview with Vincent Lusby, February 1986. Herb Gold autograph: PKD “Introduction” to The Golden Man (New York: Berkley, 1980), p. xxv. - 83-84 FBI agents and seeing the U.S.A.: Author’s interview with Kleo M…"
+     },
+     {
+      "line": 6187,
+      "quote": "…Castrating females: PKD story “The Pre-Persons” (1974). Love, not anger: PKD “Afterword” to story collection The Golden Man (New York: Berkley, 1980), p. 337. - 109 Fix the I Ching: Author’s interview with Iskandar Guy, February 19…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1316,
+      "quote": "…ic and domestic has disappeared, in which problems, replicating like mutants (or literally as mutants, as in ‘The Golden Man’, 1954, CS3) are met with violence, in which society is organized in a state of war tension and war urgency.…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3049,
+      "quote": "…e-teller, can see a year into the future. There are drugs in this story, and a policeman is the protagonist. “The Golden Man” can see a halfhour ahead and can always find a woman to keep him out of society’s traps. Shadrach Jones in “…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 14
+ }
+}

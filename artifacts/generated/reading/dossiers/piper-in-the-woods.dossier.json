@@ -1,0 +1,136 @@
+{
+ "artifact_id": "ART_DOSSIER_PIPER_IN_THE_WOODS",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "piper-in-the-woods",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Piper In The Woods",
+  "slug": "piper-in-the-woods",
+  "form": "story",
+  "word_count": 7212,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 3834,
+   "line_end": 4407,
+   "word_count": 7212,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "The Projector",
+    "name_id": "NAME_the-projector",
+    "mentions": 2
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Christianity",
+    "entity_id": "TERM_christianity",
+    "count": 1,
+    "distinctiveness": 23.03
+   },
+   {
+    "label": "Grace",
+    "entity_id": "TERM_grace",
+    "count": 1,
+    "distinctiveness": 8.54
+   },
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 1,
+    "distinctiveness": 4.0
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 6,
+    "distinctiveness": 3.67
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 24,
+    "distinctiveness": 3.45
+   },
+   {
+    "label": "Fish",
+    "entity_id": "TERM_fish",
+    "count": 1,
+    "distinctiveness": 3.24
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 2,
+    "distinctiveness": 2.52
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 8,
+    "distinctiveness": 2.37
+   },
+   {
+    "label": "Garden",
+    "entity_id": "TERM_garden",
+    "count": 1,
+    "distinctiveness": 2.3
+   },
+   {
+    "label": "Golden",
+    "entity_id": "TERM_golden",
+    "count": 1,
+    "distinctiveness": 2.16
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 9,
+    "distinctiveness": 2.03
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

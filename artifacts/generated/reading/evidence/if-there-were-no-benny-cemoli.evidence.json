@@ -1,0 +1,135 @@
+{
+ "slug": "if-there-were-no-benny-cemoli",
+ "title": "If There Were No Benny Cemoli",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 42201,
+  "line_end": 42326,
+  "word_count": 2349,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 3,
+    "per_million": 1277.1,
+    "background_per_million": 105.2,
+    "distinctiveness": 11.59
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bureau",
+    "label": "Bureau",
+    "count": 1,
+    "per_million": 425.7,
+    "background_per_million": 38.8,
+    "distinctiveness": 9.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_john",
+    "label": "John",
+    "count": 2,
+    "per_million": 851.4,
+    "background_per_million": 95.0,
+    "distinctiveness": 8.51
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 1,
+    "per_million": 425.7,
+    "background_per_million": 89.9,
+    "distinctiveness": 4.49
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 1,
+    "per_million": 425.7,
+    "background_per_million": 138.9,
+    "distinctiveness": 2.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 3,
+    "per_million": 1277.1,
+    "background_per_million": 448.4,
+    "distinctiveness": 2.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 1,
+    "per_million": 425.7,
+    "background_per_million": 202.2,
+    "distinctiveness": 2.05
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 2,
+    "per_million": 851.4,
+    "background_per_million": 526.0,
+    "distinctiveness": 1.6
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 1,
+    "per_million": 425.7,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.57
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mission",
+    "label": "Mission",
+    "count": 1,
+    "per_million": 425.7,
+    "background_per_million": 12.3,
+    "distinctiveness": 24.67
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_joan",
+    "label": "Joan",
+    "count": 2,
+    "per_million": 851.4,
+    "background_per_million": 169.6,
+    "distinctiveness": 4.88
+   }
+  ],
+  "distinct_terms": 9,
+  "distinct_names": 2
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

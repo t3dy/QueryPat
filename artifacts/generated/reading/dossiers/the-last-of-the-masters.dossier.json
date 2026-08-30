@@ -1,0 +1,143 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_LAST_OF_THE_MASTERS",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-last-of-the-masters",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Last Of The Masters",
+  "slug": "the-last-of-the-masters",
+  "form": "story",
+  "word_count": 10792,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 28886,
+   "line_end": 29657,
+   "word_count": 10792,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Laura",
+    "name_id": "NAME_laura",
+    "mentions": 3
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 2,
+    "distinctiveness": 5.35
+   },
+   {
+    "label": "Maze",
+    "entity_id": "TERM_maze",
+    "count": 1,
+    "distinctiveness": 3.64
+   },
+   {
+    "label": "March",
+    "entity_id": "TERM_march",
+    "count": 1,
+    "distinctiveness": 3.37
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 15,
+    "distinctiveness": 2.97
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 12,
+    "distinctiveness": 2.76
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 15,
+    "distinctiveness": 2.34
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 2,
+    "distinctiveness": 1.68
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 3,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 422,
+      "quote": "…apons channelling unsensed energies: _Lies, Inc._ ; breakdown and ignorance: ‘The Variable Man’ (1953, CS1), ‘The Last of the Masters’ (1954, CS3), _The Penultimate Truth_ . PHILIP K. DICK AND THE POSTMODERN 19 shall consider where it ge…"
+     },
+     {
+      "line": 1314,
+      "quote": "…chapter revisits below. 92 EXHILARATION AND TERROR OF THE POSTMODERN to return to the short stories, in ‘The Last of the Masters’ (1954, CS3) the focus is on the sterility of a robot with a male name, Bors. In the future sketched by this…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5523,
+      "quote": "…es “Robert Hig” and “Nicholas”); there’s a Christ-like robot in need of repair parts in Phil’s 1954 SF story “The Last of the Masters.” 19. Time Out of Joint (w. 1958, p. 1959). See Chapter 4. Rating: 7. 20. In Milton Lumky Territory (w. 1…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "3 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

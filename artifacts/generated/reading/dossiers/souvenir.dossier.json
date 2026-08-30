@@ -1,0 +1,152 @@
+{
+ "artifact_id": "ART_DOSSIER_SOUVENIR",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "souvenir",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Souvenir",
+  "slug": "souvenir",
+  "form": "story",
+  "word_count": 4101,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 25476,
+   "line_end": 25859,
+   "word_count": 4101,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Mission",
+    "name_id": "NAME_mission",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Rome",
+    "entity_id": "TERM_rome",
+    "count": 1,
+    "distinctiveness": 17.18
+   },
+   {
+    "label": "Acts",
+    "entity_id": "TERM_acts",
+    "count": 1,
+    "distinctiveness": 15.02
+   },
+   {
+    "label": "Holy",
+    "entity_id": "TERM_holy",
+    "count": 1,
+    "distinctiveness": 10.43
+   },
+   {
+    "label": "Roman",
+    "entity_id": "TERM_roman",
+    "count": 1,
+    "distinctiveness": 9.22
+   },
+   {
+    "label": "Empire",
+    "entity_id": "TERM_empire",
+    "count": 1,
+    "distinctiveness": 8.88
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 1,
+    "distinctiveness": 2.57
+   },
+   {
+    "label": "John",
+    "entity_id": "TERM_john",
+    "count": 1,
+    "distinctiveness": 2.44
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 1,
+    "distinctiveness": 2.21
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 5,
+    "distinctiveness": 2.05
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5610,
+      "quote": "…me Bob’s address or some god dam thing? Do the easiest for you, Carol, and I will send you a silk pillow with Souvenir of Fullerton stitched on it. I still love you, but if you phoned or wrote or something I would love you more.…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_KRIPAL_JEFFREY_J_AUTHORS_OF_THE_IMPOSSIB.md",
+    "author": "Jeffrey J. Kripal",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3243,
+      "quote": "…s_ (Chicago: Henry Regnery, 1969), 110, henceforth PM; and _Dimensions: A Casebook of Alien Contact_ (London: Souvenir Press, 1988), 136. 4. FS 1:147–48. Other significant statements on the category occur at FS 2:42, 61. 5.…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "1 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

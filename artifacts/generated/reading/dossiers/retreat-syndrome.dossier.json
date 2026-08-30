@@ -1,0 +1,205 @@
+{
+ "artifact_id": "ART_DOSSIER_RETREAT_SYNDROME",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "retreat-syndrome",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Retreat Syndrome",
+  "slug": "retreat-syndrome",
+  "form": "story",
+  "word_count": 8501,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 49943,
+   "line_end": 50466,
+   "word_count": 8501,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
+    "count": 5,
+    "distinctiveness": 19.93
+   },
+   {
+    "label": "John",
+    "entity_id": "TERM_john",
+    "count": 12,
+    "distinctiveness": 14.12
+   },
+   {
+    "label": "Realm",
+    "entity_id": "TERM_realm",
+    "count": 1,
+    "distinctiveness": 7.73
+   },
+   {
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
+    "count": 9,
+    "distinctiveness": 7.36
+   },
+   {
+    "label": "Bible",
+    "entity_id": "TERM_bible",
+    "count": 1,
+    "distinctiveness": 6.09
+   },
+   {
+    "label": "Therefore",
+    "entity_id": "TERM_therefore",
+    "count": 2,
+    "distinctiveness": 5.25
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 5,
+    "distinctiveness": 4.33
+   },
+   {
+    "label": "March",
+    "entity_id": "TERM_march",
+    "count": 1,
+    "distinctiveness": 4.28
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 3,
+    "distinctiveness": 4.27
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 2,
+    "distinctiveness": 2.48
+   },
+   {
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 7,
+    "distinctiveness": 1.82
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 8,
+    "distinctiveness": 1.77
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 6,
+    "distinctiveness": 1.75
+   },
+   {
+    "label": "Christ",
+    "entity_id": "TERM_christ",
+    "count": 1,
+    "distinctiveness": 1.5
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 6,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 5,
+    "quotes": [
+     {
+      "line": 3059,
+      "quote": "…you get if you sit down starting with \"Roog\" and read through everything (including such strange stories as \"Retreat Syndrome\") all the way to _Scanner._ If everything interlocks, what is the total message? I know I scared myself shitl…"
+     },
+     {
+      "line": 4125,
+      "quote": "…is interwoven, it either all stands or it falls. Such stories as \"Precious Artifact\" and \"Electric Ant\" and \"Retreat Syndrome\" tell us nothing—not to mention the novels. _Ubik_ tells us nothing? And four years and four months of ex…"
+     },
+     {
+      "line": 4801,
+      "quote": "…rd of, let alone know, are my own stories and novels. This situation appears again and again. Take the story \"Retreat Syndrome.\" Or the novel _Maze._ The _same_ idea (as has been pointed out to me by all sorts of readers) is reworked ag…"
+     },
+     {
+      "line": 5138,
+      "quote": "…_ elements (9) Every other relevant story and novel, from _Joint_ to \"Remember Wholesale,\" \"Electric Ant,\" \"Retreat Syndrome,\" etc., not listed in (1) through (8).[➊] ➊ And (10) _Eye:_ Subjective private worlds. And, as in \"Faith of…"
+     },
+     {
+      "line": 13336,
+      "quote": "…, [>], [>]–[>], [>]–[>] _The Penultimate Truth,_ [>], [>], [>], [>] \"Precious Artifact,\" [>], [>], [>] \"Retreat Syndrome,\" [>], [>], [>], [>] _A Scanner Darkly,_ [>], [>], [>], [>]–[>], [>], [>], [>], [>], [>]–[>], [>], [>]–[>],…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4244,
+      "quote": "…well. What can you say. _262_ THE SELECTED LETTERS OF PHILIP K. DICK I’m afraid I don’t quite understand “Retreat Syndrome” entirely myself, but it seems to have something to do with hallucinations. I understood it when I wrote it,…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5609,
+      "quote": "…ected budget of $50 million; the scheduled release date is summer 1990. Another story unique to this volume, “Retreat Syndrome” (1965), is a chilling SF invasion tale that also employs the implanted-memory theme and somehow manages to i…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "6 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "1 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

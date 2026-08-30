@@ -1,0 +1,215 @@
+{
+ "slug": "exhibit-piece",
+ "title": "Exhibit Piece",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+  "line_start": 4584,
+  "line_end": 4925,
+  "word_count": 5164,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_adam",
+    "label": "Adam",
+    "count": 1,
+    "per_million": 193.6,
+    "background_per_million": 5.1,
+    "distinctiveness": 19.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christian",
+    "label": "Christian",
+    "count": 1,
+    "per_million": 193.6,
+    "background_per_million": 8.2,
+    "distinctiveness": 14.7
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_realm",
+    "label": "Realm",
+    "count": 1,
+    "per_million": 193.6,
+    "background_per_million": 10.2,
+    "distinctiveness": 12.73
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_scanner",
+    "label": "Scanner",
+    "count": 3,
+    "per_million": 580.9,
+    "background_per_million": 65.4,
+    "distinctiveness": 8.26
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_maze",
+    "label": "Maze",
+    "count": 1,
+    "per_million": 193.6,
+    "background_per_million": 20.4,
+    "distinctiveness": 7.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 3,
+    "per_million": 580.9,
+    "background_per_million": 130.7,
+    "distinctiveness": 4.28
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_garden",
+    "label": "Garden",
+    "count": 1,
+    "per_million": 193.6,
+    "background_per_million": 55.2,
+    "distinctiveness": 3.22
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 1,
+    "per_million": 193.6,
+    "background_per_million": 59.2,
+    "distinctiveness": 3.01
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 8,
+    "per_million": 1549.2,
+    "background_per_million": 529.1,
+    "distinctiveness": 2.9
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 2,
+    "per_million": 387.3,
+    "background_per_million": 128.7,
+    "distinctiveness": 2.9
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 1,
+    "per_million": 193.6,
+    "background_per_million": 74.6,
+    "distinctiveness": 2.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 10,
+    "per_million": 1936.5,
+    "background_per_million": 1079.7,
+    "distinctiveness": 1.79
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 1,
+    "per_million": 193.6,
+    "background_per_million": 103.2,
+    "distinctiveness": 1.79
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 2,
+    "per_million": 387.3,
+    "background_per_million": 221.7,
+    "distinctiveness": 1.71
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 2,
+    "per_million": 387.3,
+    "background_per_million": 224.7,
+    "distinctiveness": 1.69
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_pinky",
+    "label": "Pinky",
+    "count": 1,
+    "per_million": 193.6,
+    "background_per_million": 4.1,
+    "distinctiveness": 21.31
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-russian",
+    "label": "The Russian",
+    "count": 1,
+    "per_million": 193.6,
+    "background_per_million": 49.0,
+    "distinctiveness": 3.58
+   }
+  ],
+  "distinct_terms": 15,
+  "distinct_names": 2
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 1500,
+      "quote": "…odel becomes the ‘actual’ town, which then entraps the story’s other characters (his wife and her lover). In ‘Exhibit Piece’ (1954, CS3), which is set in the future, the man responsible for curating a museum exhibit on the typical su…"
+     },
+     {
+      "line": 1510,
+      "quote": "…ten shy about: a sense that escape can be good. Let the reality principle go hang. But take ‘Small Town’ and ‘Exhibit Piece’ together as variations on an idea, and we have not a dialectic or a resolved contradiction, but an instabili…"
+     },
+     {
+      "line": 1510,
+      "quote": "…nd the wife, as well as the model-builder, are absorbed into the model-become-town at the end. At the end of ‘Exhibit Piece’ the main character’s unpleasant colleagues, from whom he has so gratifyingly escaped, manage to put a fiftie…"
+     },
+     {
+      "line": 3738,
+      "quote": "…radio in 138n6, 225n2, 227 _Dr Futurity_ time travel in 46, 81n13, 207n6 _Exegesis, The_ 215, 224, 230, 235 ‘Exhibit Piece’ **106–07** ‘Exit Door Leads In, The’ 26 ‘Expendable’ 93n14 _Eye in the Sky_ African American in 81n13, 109n1…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 4
+ }
+}

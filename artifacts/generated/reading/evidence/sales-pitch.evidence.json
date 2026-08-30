@@ -1,0 +1,156 @@
+{
+ "slug": "sales-pitch",
+ "title": "Sales Pitch",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+  "line_start": 5138,
+  "line_end": 5499,
+  "word_count": 5518,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 4,
+    "per_million": 724.9,
+    "background_per_million": 89.9,
+    "distinctiveness": 7.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 4,
+    "per_million": 724.9,
+    "background_per_million": 256.4,
+    "distinctiveness": 2.77
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 3,
+    "per_million": 543.7,
+    "background_per_million": 202.2,
+    "distinctiveness": 2.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_scanner",
+    "label": "Scanner",
+    "count": 1,
+    "per_million": 181.2,
+    "background_per_million": 65.4,
+    "distinctiveness": 2.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 1,
+    "per_million": 181.2,
+    "background_per_million": 77.6,
+    "distinctiveness": 2.19
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 5,
+    "per_million": 906.1,
+    "background_per_million": 448.4,
+    "distinctiveness": 2.0
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 5,
+    "per_million": 906.1,
+    "background_per_million": 529.1,
+    "distinctiveness": 1.7
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 1,
+    "per_million": 181.2,
+    "background_per_million": 103.2,
+    "distinctiveness": 1.68
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 10,
+    "per_million": 1812.3,
+    "background_per_million": 1079.7,
+    "distinctiveness": 1.67
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-man",
+    "label": "The Man",
+    "count": 1,
+    "per_million": 181.2,
+    "background_per_million": 19.4,
+    "distinctiveness": 7.42
+   }
+  ],
+  "distinct_terms": 9,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 5,
+    "quotes": [
+     {
+      "line": 1456,
+      "quote": "…e family will serve to protect its members against the values of the wider society, rather than impose them. ‘Sales Pitch’ (1954, CS3) concerns a husband coming home from a hard day at the office, and a hard commute (since people n…"
+     },
+     {
+      "line": 1484,
+      "quote": "…‘Foster, You’re Dead’ gains a dimension from its focus on the child rather than the father or husband (as in ‘Sales Pitch’ and ‘Nanny’); here the child is wholly a victim. The story expresses the harm done to the child by society’s…"
+     },
+     {
+      "line": 1498,
+      "quote": "…his is that zany or wonderfully surprising quality that draws many readers to Dick. In fact, stories such as ‘Sales Pitch’ and ‘Foster, You’re Dead’ renounce fantasy, however we define it. The refusal to be other than bluntly expli…"
+     },
+     {
+      "line": 1512,
+      "quote": "…ricks of idiom, or those who came up with the cobalt bomb. Where does the author stand? In stories such as ‘Sales Pitch’, he stands angrily outside the fiction, which he wields as a weapon, refusing the role of ingeniously extrap…"
+     },
+     {
+      "line": 3768,
+      "quote": "…214–15, 216n18, 219, 220, 221, 223, 230n11, 235 ‘Rautavaara’s Case’ devouring god in 143, 233 ‘Roog’ 93n14 ‘Sales Pitch’ consumerism and militarism in **103–04** stance of 106, 107 _Scanner Darkly, A_ 18n29 closed loop in 29, 35n…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 5
+ }
+}

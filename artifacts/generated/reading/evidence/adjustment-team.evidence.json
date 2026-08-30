@@ -1,0 +1,200 @@
+{
+ "slug": "adjustment-team",
+ "title": "Adjustment Team",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 22698,
+  "line_end": 23155,
+  "word_count": 5246,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_divine",
+    "label": "Divine",
+    "count": 1,
+    "per_million": 190.6,
+    "background_per_million": 18.4,
+    "distinctiveness": 8.15
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 190.6,
+    "background_per_million": 39.8,
+    "distinctiveness": 4.25
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 2,
+    "per_million": 381.2,
+    "background_per_million": 130.7,
+    "distinctiveness": 2.81
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 4,
+    "per_million": 762.5,
+    "background_per_million": 397.3,
+    "distinctiveness": 1.9
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 6,
+    "per_million": 1143.7,
+    "background_per_million": 609.8,
+    "distinctiveness": 1.86
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 3,
+    "per_million": 571.9,
+    "background_per_million": 311.5,
+    "distinctiveness": 1.81
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 5,
+    "per_million": 953.1,
+    "background_per_million": 529.1,
+    "distinctiveness": 1.78
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 1,
+    "per_million": 190.6,
+    "background_per_million": 103.2,
+    "distinctiveness": 1.76
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 4,
+    "per_million": 762.5,
+    "background_per_million": 440.2,
+    "distinctiveness": 1.71
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_ed-fletcher",
+    "label": "Ed Fletcher",
+    "count": 2,
+    "per_million": 381.2,
+    "background_per_million": 14.3,
+    "distinctiveness": 19.75
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mary",
+    "label": "Mary",
+    "count": 4,
+    "per_million": 762.5,
+    "background_per_million": 276.8,
+    "distinctiveness": 2.71
+   }
+  ],
+  "distinct_terms": 9,
+  "distinct_names": 2
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 999,
+      "quote": "…ing—hardly an economical or orderly way for God to handle things. (You'll find early stories of mine such as \"Adjustment Team\" and \"The Commuter\" dealing with post-screwup changes; they're always bad news to the Creator.) In connection…"
+     },
+     {
+      "line": 1085,
+      "quote": "…he same. (I suppose it is possible that these are not dysfunctions, though, but deliberate adjustments, à la \"Adjustment Team,\" in the process of continual creation. Which would account for my sense of the Holy Other in charge when thi…"
+     },
+     {
+      "line": 1735,
+      "quote": "…ak, makes it). Like in my story \"The Commuter.\" Also, there is to me the real thought that adjustments (à la \"Adjustment Team\") are being made in our past, which are to an ever increasing degree making a certain \"alternate present\" (or…"
+     },
+     {
+      "line": 13242,
+      "quote": "…ophanes, [>], [>]–[>], [>], [>] Yeats, William Butler, [>], [>] Zimmer, Heinrich, [>] ## **Works Index** \"Adjustment Team,\" [>], [>], [>] \"Beyond Lies the Wub,\" [>]–[>], [>], [>] \"Beyond the Door,\" [>] _Bishop Timothy Archer.…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1274,
+      "quote": "…so if you want you can check it against what Ballantine has: “Nanny” “The Turning Wheel” “The Defenders” “Adjustment Team” “Psi-Man Heal My Child” “The Commuter” “A Present For Pat” “Breakfast at Twilight” “Shell Game” That…"
+     },
+     {
+      "line": 1620,
+      "quote": "…ng— hardly an economical or orderly way for God to handle things. (You’ll find early stories of mine such as “Adjustment Team” and “The Commuter” dealing with post-screwup changes; they’re always bad news to the Creator.) In connection…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 6
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 1332,
+      "quote": "…an_ (1963) and _The Unteleported Man_ (1966, later published as _Lies, Inc._ ); dogs: ‘Roog’ (1953, CS1) and ‘Adjustment Team’ (1954, CS2); spiders: ‘Expendable’ (1953, CS1); shoes: ‘The Short Happy Life of the Brown Oxford’ (1954, CS1…"
+     },
+     {
+      "line": 1380,
+      "quote": "…transient and precarious. The moment of dissolution is often described, always horrifying (even when, as in ‘Adjustment Team’, the purpose behind it is benign—indeed, in that case, divine); it is almost always seen in the same way, as…"
+     },
+     {
+      "line": 3730,
+      "quote": "…mmarized, 6–7, 25, 35, 109n1, 113–14, 150, 178, 209, 221 works discussed; detailed discussions in **bold** : ‘Adjustment Team’ 93n14, 97 ‘Android and the Human, The’ 225 _Androids_ , _see Do Androids Dream of Electric Sheep?_ ‘Autofa…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ }
+}

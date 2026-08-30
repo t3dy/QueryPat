@@ -1,0 +1,163 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_GREAT_C",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-great-c",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Great C",
+  "slug": "the-great-c",
+  "form": "story",
+  "word_count": 2213,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 9904,
+   "line_end": 10013,
+   "word_count": 2213,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Anne",
+    "name_id": "NAME_anne",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 1,
+    "distinctiveness": 13.05
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 3,
+    "distinctiveness": 10.14
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 6,
+    "distinctiveness": 6.09
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 7,
+    "distinctiveness": 5.32
+   },
+   {
+    "label": "John",
+    "entity_id": "TERM_john",
+    "count": 1,
+    "distinctiveness": 4.52
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 4,
+    "distinctiveness": 3.38
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 3,
+    "distinctiveness": 3.37
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 2,
+    "distinctiveness": 3.33
+   },
+   {
+    "label": "Bill",
+    "entity_id": "TERM_bill",
+    "count": 1,
+    "distinctiveness": 3.14
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 6,
+    "distinctiveness": 2.5
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 3,
+    "distinctiveness": 2.2
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5651,
+      "quote": "…ually closely) an outline Phil submitted to win the Doubleday contract in 1964. Two of Phil’s early stories, “The Great C” (1953) and “A Planet for Transients” (1953), were drawn upon for plot parts, but a greater 443 influence…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 786,
+      "quote": "…figures repeatedly recombine and interact: the little guy—a minor operative or repairman, a put-upon > 12 ‘The Great C’ (1953, CS1), ‘Planet for Transients’ (1953, CS2). ( _Deus Irae_ was published in 1976.) > 13 Suvin (1988:…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "2 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

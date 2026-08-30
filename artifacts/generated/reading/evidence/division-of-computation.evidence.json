@@ -1,0 +1,144 @@
+{
+ "slug": "division-of-computation",
+ "title": "Division Of Computation",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 10014,
+  "line_end": 10257,
+  "word_count": 2820,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 42,
+    "per_million": 14893.6,
+    "background_per_million": 589.4,
+    "distinctiveness": 25.06
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 354.6,
+    "background_per_million": 39.8,
+    "distinctiveness": 7.91
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 2,
+    "per_million": 709.2,
+    "background_per_million": 128.7,
+    "distinctiveness": 5.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 1,
+    "per_million": 354.6,
+    "background_per_million": 77.6,
+    "distinctiveness": 4.29
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 3,
+    "per_million": 1063.8,
+    "background_per_million": 311.5,
+    "distinctiveness": 3.36
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 1,
+    "per_million": 354.6,
+    "background_per_million": 105.2,
+    "distinctiveness": 3.22
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 4,
+    "per_million": 1418.4,
+    "background_per_million": 440.2,
+    "distinctiveness": 3.19
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 4,
+    "per_million": 1418.4,
+    "background_per_million": 448.4,
+    "distinctiveness": 3.13
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 2,
+    "per_million": 709.2,
+    "background_per_million": 256.4,
+    "distinctiveness": 2.71
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 1,
+    "per_million": 354.6,
+    "background_per_million": 138.9,
+    "distinctiveness": 2.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 1,
+    "per_million": 354.6,
+    "background_per_million": 221.7,
+    "distinctiveness": 1.56
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_anne",
+    "label": "Anne",
+    "count": 1,
+    "per_million": 354.6,
+    "background_per_million": 2.0,
+    "distinctiveness": 50.35
+   }
+  ],
+  "distinct_terms": 11,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "artifact_id": "ART_DOSSIER_PAYCHECK",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "paycheck",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Paycheck",
+  "slug": "paycheck",
+  "form": "story",
+  "word_count": 3779,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+   "line_start": 10386,
+   "line_end": 10625,
+   "word_count": 3779,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Palm",
+    "entity_id": "TERM_palm",
+    "count": 2,
+    "distinctiveness": 23.66
+   },
+   {
+    "label": "Church",
+    "entity_id": "TERM_church",
+    "count": 2,
+    "distinctiveness": 19.26
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 2,
+    "distinctiveness": 4.8
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 9,
+    "distinctiveness": 3.87
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 1,
+    "distinctiveness": 2.79
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 2,
+    "distinctiveness": 2.34
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 3,
+    "distinctiveness": 1.97
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3051,
+      "quote": "…lways telling me that spiders were mankind’s friends. He would have liked to have a tarantula for a pet.) In “Paycheck,” Jennings I foresees and engineers, by use of a time scoop, the successful escape and job rehabilitation of…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "1 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

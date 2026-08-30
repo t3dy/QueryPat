@@ -1,0 +1,108 @@
+{
+ "slug": "banish-it",
+ "title": "Banish It!",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 40479,
+  "line_end": 40714,
+  "word_count": 3030,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 2,
+    "per_million": 660.1,
+    "background_per_million": 74.6,
+    "distinctiveness": 8.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 4,
+    "per_million": 1320.1,
+    "background_per_million": 266.6,
+    "distinctiveness": 4.86
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 1,
+    "per_million": 330.0,
+    "background_per_million": 128.7,
+    "distinctiveness": 2.47
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 3,
+    "per_million": 990.1,
+    "background_per_million": 398.4,
+    "distinctiveness": 2.45
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-man",
+    "label": "The Man",
+    "count": 3,
+    "per_million": 990.1,
+    "background_per_million": 19.4,
+    "distinctiveness": 40.57
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_david-lantano",
+    "label": "David Lantano",
+    "count": 1,
+    "per_million": 330.0,
+    "background_per_million": 9.2,
+    "distinctiveness": 23.25
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_harvey",
+    "label": "Harvey",
+    "count": 1,
+    "per_million": 330.0,
+    "background_per_million": 110.3,
+    "distinctiveness": 2.86
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_david",
+    "label": "David",
+    "count": 1,
+    "per_million": 330.0,
+    "background_per_million": 122.6,
+    "distinctiveness": 2.59
+   }
+  ],
+  "distinct_terms": 4,
+  "distinct_names": 4
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

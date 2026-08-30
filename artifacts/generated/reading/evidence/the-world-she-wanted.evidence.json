@@ -1,0 +1,180 @@
+{
+ "slug": "the-world-she-wanted",
+ "title": "The World She Wanted",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 18238,
+  "line_end": 18713,
+  "word_count": 5531,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_creator",
+    "label": "Creator",
+    "count": 5,
+    "per_million": 904.0,
+    "background_per_million": 10.2,
+    "distinctiveness": 59.42
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_descartes",
+    "label": "Descartes",
+    "count": 1,
+    "per_million": 180.8,
+    "background_per_million": 1.0,
+    "distinctiveness": 30.03
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_plato",
+    "label": "Plato",
+    "count": 1,
+    "per_million": 180.8,
+    "background_per_million": 2.0,
+    "distinctiveness": 25.67
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 16,
+    "per_million": 2892.8,
+    "background_per_million": 529.1,
+    "distinctiveness": 5.42
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 9,
+    "per_million": 1627.2,
+    "background_per_million": 462.7,
+    "distinctiveness": 3.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 2,
+    "per_million": 361.6,
+    "background_per_million": 103.2,
+    "distinctiveness": 3.34
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 4,
+    "per_million": 723.2,
+    "background_per_million": 224.7,
+    "distinctiveness": 3.15
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 16,
+    "per_million": 2892.8,
+    "background_per_million": 959.1,
+    "distinctiveness": 3.0
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 7,
+    "per_million": 1265.6,
+    "background_per_million": 440.2,
+    "distinctiveness": 2.84
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 1,
+    "per_million": 180.8,
+    "background_per_million": 59.2,
+    "distinctiveness": 2.81
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 2,
+    "per_million": 361.6,
+    "background_per_million": 138.9,
+    "distinctiveness": 2.51
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 1,
+    "per_million": 180.8,
+    "background_per_million": 89.9,
+    "distinctiveness": 1.91
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 6,
+    "per_million": 1084.8,
+    "background_per_million": 589.4,
+    "distinctiveness": 1.83
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 1,
+    "per_million": 180.8,
+    "background_per_million": 105.2,
+    "distinctiveness": 1.64
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_hitler",
+    "label": "Hitler",
+    "count": 1,
+    "per_million": 180.8,
+    "background_per_million": 13.3,
+    "distinctiveness": 9.89
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-man",
+    "label": "The Man",
+    "count": 1,
+    "per_million": 180.8,
+    "background_per_million": 19.4,
+    "distinctiveness": 7.41
+   }
+  ],
+  "distinct_terms": 14,
+  "distinct_names": 2
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

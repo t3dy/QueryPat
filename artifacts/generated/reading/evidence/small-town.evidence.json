@@ -1,0 +1,114 @@
+{
+ "slug": "small-town",
+ "title": "Small Town",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 25040,
+  "line_end": 25145,
+  "word_count": 1414,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 1,
+    "per_million": 707.2,
+    "background_per_million": 103.2,
+    "distinctiveness": 6.54
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 2,
+    "per_million": 1414.4,
+    "background_per_million": 440.2,
+    "distinctiveness": 3.18
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 1,
+    "per_million": 707.2,
+    "background_per_million": 221.7,
+    "distinctiveness": 3.12
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 2,
+    "per_million": 1414.4,
+    "background_per_million": 529.1,
+    "distinctiveness": 2.65
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 1,
+    "per_million": 707.2,
+    "background_per_million": 350.4,
+    "distinctiveness": 1.99
+   }
+  ],
+  "names": [],
+  "distinct_terms": 5,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 6,
+    "quotes": [
+     {
+      "line": 1500,
+      "quote": "…f-critical. Two contrary stories will enable us to examine the duplicity of fantasy in Philip. K. Dick. In ‘Small Town’ (1954, CS2), a bitter, unsuccessful ‘little guy’ pours all his spirit into the modelling of a miniature of h…"
+     },
+     {
+      "line": 1510,
+      "quote": "…am’ fiction is often shy about: a sense that escape can be good. Let the reality principle go hang. But take ‘Small Town’ and ‘Exhibit Piece’ together as variations on an idea, and we have not a dialectic or a resolved contradicti…"
+     },
+     {
+      "line": 1510,
+      "quote": "…er as variations on an idea, and we have not a dialectic or a resolved contradiction, but an instability. In ‘Small Town’ the wife’s lover analyses the main character’s inability to face reality and his regression to model-buildin…"
+     },
+     {
+      "line": 1512,
+      "quote": "…n, which he wields as a weapon, refusing the role of ingeniously extrapolating SF author; in stories such as ‘Small Town’, he stands inside the fiction, since it is easy to see how his imagining is subject to the same traps as tha…"
+     },
+     {
+      "line": 1512,
+      "quote": "…imagining is subject to the same traps as that of the characters. A sign of this is that it is easy to read ‘Small Town’ or, for instance, ‘Pay for the Printer’, as allegories of authorship (the author as creator of miniature wor…"
+     },
+     {
+      "line": 3770,
+      "quote": "…erence of 47–8, 52n23, 82n14, 110, 112n6 psychosis in 114, 138n7, 155, 204n4 shifting subjects in 13, 14, 35 ‘Small Town’ fantasy and **106–07** _Solar Lottery_ (also published, with differences, as _World of Chance_ ) 6n6, 36, 39…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 6
+ }
+}

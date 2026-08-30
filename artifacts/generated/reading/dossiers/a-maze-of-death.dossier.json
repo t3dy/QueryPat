@@ -1,0 +1,444 @@
+{
+ "artifact_id": "ART_DOSSIER_A_MAZE_OF_DEATH",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "a-maze-of-death",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "A Maze of Death",
+  "slug": "a-maze-of-death",
+  "form": "novel",
+  "word_count": 63204,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_DICK_PHILIP_KINDRED_A_MAZE_OF_DEATH_LIBG.md",
+   "line_start": 0,
+   "line_end": null,
+   "word_count": 63204,
+   "status": "needs_structure"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Horos",
+    "name_id": "NAME_horos",
+    "mentions": 303
+   },
+   {
+    "name": "Seth Morley",
+    "name_id": "NAME_seth-morley",
+    "mentions": 275
+   },
+   {
+    "name": "Wade Frazer",
+    "name_id": "NAME_wade-frazer",
+    "mentions": 60
+   },
+   {
+    "name": "Mary Morley",
+    "name_id": "NAME_mary-morley",
+    "mentions": 36
+   },
+   {
+    "name": "Susie Smart",
+    "name_id": "NAME_susie-smart",
+    "mentions": 31
+   },
+   {
+    "name": "Tony Dunkelwelt",
+    "name_id": "NAME_tony-dunkelwelt",
+    "mentions": 27
+   },
+   {
+    "name": "Ben Tallchief",
+    "name_id": "NAME_ben-tallchief",
+    "mentions": 25
+   },
+   {
+    "name": "Parmenides",
+    "name_id": "NAME_parmenides",
+    "mentions": 2
+   },
+   {
+    "name": "Mary",
+    "name_id": "NAME_mary",
+    "mentions": 99
+   },
+   {
+    "name": "Bishop",
+    "name_id": "NAME_bishop",
+    "mentions": 1
+   },
+   {
+    "name": "Virgil",
+    "name_id": "NAME_virgil",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 12,
+   "chapters": [
+    {
+     "label": "1",
+     "line_start": 86,
+     "line_end": 185,
+     "word_count": 2156
+    },
+    {
+     "label": "2",
+     "line_start": 186,
+     "line_end": 417,
+     "word_count": 4167
+    },
+    {
+     "label": "3",
+     "line_start": 418,
+     "line_end": 577,
+     "word_count": 3175
+    },
+    {
+     "label": "4",
+     "line_start": 578,
+     "line_end": 861,
+     "word_count": 5144
+    },
+    {
+     "label": "5",
+     "line_start": 862,
+     "line_end": 1327,
+     "word_count": 9369
+    },
+    {
+     "label": "7",
+     "line_start": 1328,
+     "line_end": 1951,
+     "word_count": 10720
+    },
+    {
+     "label": "9",
+     "line_start": 1952,
+     "line_end": 2243,
+     "word_count": 5085
+    },
+    {
+     "label": "10",
+     "line_start": 2244,
+     "line_end": 2599,
+     "word_count": 7364
+    },
+    {
+     "label": "12",
+     "line_start": 2600,
+     "line_end": 2945,
+     "word_count": 5664
+    },
+    {
+     "label": "14",
+     "line_start": 2946,
+     "line_end": 3239,
+     "word_count": 5206
+    },
+    {
+     "label": "15",
+     "line_start": 3240,
+     "line_end": 3387,
+     "word_count": 2741
+    },
+    {
+     "label": "16",
+     "line_start": 3388,
+     "line_end": 3492,
+     "word_count": 1714
+    }
+   ]
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Jung",
+    "entity_id": "TERM_jung",
+    "count": 4,
+    "distinctiveness": 8.99
+   },
+   {
+    "label": "Emanation",
+    "entity_id": "TERM_emanation",
+    "count": 3,
+    "distinctiveness": 7.88
+   },
+   {
+    "label": "Tony",
+    "entity_id": "TERM_tony",
+    "count": 59,
+    "distinctiveness": 7.15
+   },
+   {
+    "label": "Joint",
+    "entity_id": "TERM_joint",
+    "count": 4,
+    "distinctiveness": 4.46
+   },
+   {
+    "label": "Maze",
+    "entity_id": "TERM_maze",
+    "count": 6,
+    "distinctiveness": 3.73
+   },
+   {
+    "label": "Gods",
+    "entity_id": "TERM_gods",
+    "count": 8,
+    "distinctiveness": 3.55
+   },
+   {
+    "label": "Jews",
+    "entity_id": "TERM_jews",
+    "count": 1,
+    "distinctiveness": 3.16
+   },
+   {
+    "label": "Spinoza",
+    "entity_id": "TERM_spinoza",
+    "count": 1,
+    "distinctiveness": 3.16
+   },
+   {
+    "label": "Judaism",
+    "entity_id": "TERM_judaism",
+    "count": 1,
+    "distinctiveness": 3.16
+   },
+   {
+    "label": "Jesus",
+    "entity_id": "TERM_jesus",
+    "count": 3,
+    "distinctiveness": 2.92
+   },
+   {
+    "label": "Christ",
+    "entity_id": "TERM_christ",
+    "count": 14,
+    "distinctiveness": 2.82
+   },
+   {
+    "label": "Christianity",
+    "entity_id": "TERM_christianity",
+    "count": 1,
+    "distinctiveness": 2.63
+   },
+   {
+    "label": "Beethoven",
+    "entity_id": "TERM_beethoven",
+    "count": 2,
+    "distinctiveness": 2.6
+   },
+   {
+    "label": "Indian",
+    "entity_id": "TERM_indian",
+    "count": 3,
+    "distinctiveness": 2.34
+   },
+   {
+    "label": "Covenant",
+    "entity_id": "TERM_covenant",
+    "count": 1,
+    "distinctiveness": 2.25
+   },
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
+    "count": 4,
+    "distinctiveness": 2.14
+   },
+   {
+    "label": "Palm",
+    "entity_id": "TERM_palm",
+    "count": 3,
+    "distinctiveness": 2.12
+   },
+   {
+    "label": "Faith",
+    "entity_id": "TERM_faith",
+    "count": 5,
+    "distinctiveness": 2.1
+   },
+   {
+    "label": "Moses",
+    "entity_id": "TERM_moses",
+    "count": 1,
+    "distinctiveness": 1.96
+   },
+   {
+    "label": "Deus",
+    "entity_id": "TERM_deus",
+    "count": 1,
+    "distinctiveness": 1.96
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 11,
+    "distinctiveness": 1.83
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 24,
+    "distinctiveness": 1.65
+   },
+   {
+    "label": "Tears",
+    "entity_id": "TERM_tears",
+    "count": 4,
+    "distinctiveness": 1.55
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 39,
+    "distinctiveness": 1.53
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 37,
+      "quote": "…g (1988) The Dark-Haired Girl (1988) Galactic Pot-Healer (1969) Ubik (1969) The Preserving Machine (1969) A Maze of Death (1970) Our Friends from Frolix 8 (1970) We Can Build You (1972) The Book of Philip K. Dick (1973) **==> pic…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 14,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 7,
+    "quotes": [
+     {
+      "line": 2629,
+      "quote": "…speaking in Latin and experiencing a spear thrust through his body. In a July 1974 letter Phil confirmed that A Maze of Death (1970) included “my own LSD vision from 1964 which is depicted with exact accuracy.” Here’s the quote in Phil…"
+     },
+     {
+      "line": 2789,
+      "quote": "…tion of Timothy Archer. But the in fluence went still deeper. Phil acknowledges in his “Author’s Foreword” to A Maze of Death (1968) the “wealth of theological material” he learned of through talks with Pike. What was this “theologic…"
+     },
+     {
+      "line": 2883,
+      "quote": "…ubtlety: Do Androids Dream of Electric Sheep? (w. 1966, p. 1968), Galactic Pot-Healer (w. 1968, p. 1969), and A Maze of Death (w. 1968, p. 1970) belie the mask of unsophistication donned above. But in his sixties SF novels that posed t…"
+     },
+     {
+      "line": 3251,
+      "quote": "…when she first befriended Phil, during his marriage with Nancy. (J’Ann served as a model for Sally Jo Berm in A Maze of Death, w. 1968.) After Nancy left, Phil tried to deepen the relationship. J’Ann recalls: I know I was frustrating…"
+     },
+     {
+      "line": 4529,
+      "quote": "…the best deals in Phil’s career to date. In May 1976, Bantam acquired three novels-Palmer Eldritch, Ubik, and A Maze of Death-for $20,000, a far cry from Phil’s typical $2,000-per-title reprint advances. Still more dazzling was a $12,0…"
+     },
+     {
+      "line": 5631,
+      "quote": "…the semi-all-powerful Glimmung. If Chesterton had written SF, it would have read like this. Rating: 8. 46. A Maze of Death, originally titled The Name of the Game Is Death (w. 1968, p. 1970). A group of colonists encounter inexplica…"
+     },
+     {
+      "line": 6315,
+      "quote": "…avis, February 1986. Insurance policy: Letter, J. G. Newkom to author, January 20, 1987. - 141 Acid trip in A Maze of Death Letter, PKD to Claudia Bush, July 15, 1974. 142 Acid vision: Letter, PKD to Rich Brown, August 21, 1967.…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT.md",
+    "author": "Fredric Jameson",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 4524,
+      "quote": "…ve); the Science Fiction period, from 1 961 to 1968 (I include ten novels, from The Man in the High Castle to A Maze of Death; we could argue about these and also set the dates a litde earlier or a litde later1); and finally the religi…"
+     },
+     {
+      "line": 4528,
+      "quote": "…ndroids Dream of Electric Sheep? (New York, 1984, orig. 1968), 1966: Ubik (New York, 1991, orig. 1969), 1968: A Maze of Death (New York, 1971). Page references within the text are to these editions. 2 But see, for an attempt to integ…"
+     },
+     {
+      "line": 5248,
+      "quote": "…n and 80-3 periods of 363 422 INDEX Dick, Philip K. (cont'd.) ten greatest novels 93 Van Vogt and 315 A Maze of Death 363, 381 A Scanner Darkly 347 Clans of the Alphane Moon 363, 376, 380 Cosmic Puppets 459 Do Androids Dr…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_FIVE_STAR_PAPERBACK_ERIK_DAVIS_TECHGNOSI.md",
+    "author": "Erik Davis",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 2965,
+      "quote": "…y somatic explanation), his earlier books prove that 2-3-74 erupted from his own creative daemon. In 1970’s A Maze of Death, for example, a character’s quest for self-knowledge stages a techgnostic metafable that mixes “The Hymn of t…"
+     },
+     {
+      "line": 2987,
+      "quote": "…claims he used to create the theology of Specktowsky’s book: that God exists. As postmodern allegories go, A Maze of Death cuts to the bone. Incapable of altering the destructive course of our dys­ functional technological society,…"
+     },
+     {
+      "line": 2997,
+      "quote": "…nding illusions, it appears to offer no ascent, only a frank awareness of the slow drift toward oblivion. But A Maze of Death is a Philip K. Dick story, which means that the story is never really over. Once Morley awakens on the spaces…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3249,
+      "quote": "…*Wolfson, Margaret** 57, 115, 235, 249 **Wolfson, William** 63, 115, 120, 126, 150–151, 235, 249 **Works** _**A Maze of Death**_ 116 _**A Scanner Darkly**_ 83, 141, 143–145, 165, 189, 269 _**A Time for George**_ **Stavros** 59 _**Blade…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "14 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

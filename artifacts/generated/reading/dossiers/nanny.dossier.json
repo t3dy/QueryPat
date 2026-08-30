@@ -1,0 +1,178 @@
+{
+ "artifact_id": "ART_DOSSIER_NANNY",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "nanny",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Nanny",
+  "slug": "nanny",
+  "form": "story",
+  "word_count": 6040,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 12578,
+   "line_end": 13043,
+   "word_count": 6040,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Mary",
+    "name_id": "NAME_mary",
+    "mentions": 17
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Fish",
+    "entity_id": "TERM_fish",
+    "count": 2,
+    "distinctiveness": 7.74
+   },
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 1,
+    "distinctiveness": 4.78
+   },
+   {
+    "label": "Cosmic",
+    "entity_id": "TERM_cosmic",
+    "count": 1,
+    "distinctiveness": 4.52
+   },
+   {
+    "label": "Tears",
+    "entity_id": "TERM_tears",
+    "count": 1,
+    "distinctiveness": 4.06
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 2,
+    "distinctiveness": 3.06
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 7,
+    "distinctiveness": 2.17
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 7,
+    "distinctiveness": 1.95
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 1,
+    "distinctiveness": 1.74
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 4,
+    "distinctiveness": 1.65
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 3,
+    "distinctiveness": 1.57
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 8,
+    "distinctiveness": 1.52
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 1,
+    "distinctiveness": 1.5
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1272,
+      "quote": "…with list the contents of the DAW collection, so if you want you can check it against what Ballantine has: “Nanny” “The Turning Wheel” “The Defenders” “Adjustment Team” “Psi-Man Heal My Child” “The Commuter” “A Pres…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 3,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 1470,
+      "quote": "…ht up and people commonly make love, then the world of the market is literally breaking down the walls. In ‘Nanny’ (1955, CS1) robot child carers become more and more formidable fighting machines, engaging each other in des…"
+     },
+     {
+      "line": 1484,
+      "quote": "…ad’ gains a dimension from its focus on the child rather than the father or husband (as in ‘Sales Pitch’ and ‘Nanny’); here the child is wholly a victim. The story expresses the harm done to the child by society’s double insi…"
+     },
+     {
+      "line": 3754,
+      "quote": "…6n6, 18n30 irrational impulse in 165–66, 168 ordinariness in 35 religion in 39n19, 50n18, **54–55** , 142 ‘Nanny’ 104 _Now Wait for Last Year_ 17 kindness in 210, 218, 224 machines in 41n22, 112 power in 135n2, 137n5 _Our…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "3 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

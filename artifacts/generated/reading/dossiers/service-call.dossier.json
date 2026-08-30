@@ -1,0 +1,134 @@
+{
+ "artifact_id": "ART_DOSSIER_SERVICE_CALL",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "service-call",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Service Call",
+  "slug": "service-call",
+  "form": "story",
+  "word_count": 1344,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 37811,
+   "line_end": 37876,
+   "word_count": 1344,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "David",
+    "name_id": "NAME_david",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 4,
+    "distinctiveness": 7.38
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 1,
+    "distinctiveness": 6.88
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 1,
+    "distinctiveness": 5.56
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 3,
+    "distinctiveness": 5.55
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 2,
+    "distinctiveness": 2.42
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 2,
+    "distinctiveness": 1.7
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6336,
+      "quote": "…on, and I consider—as Terry does—that this is one of my best stories. Could we use that, perhaps in place of “Service Call”? The others on the list strike me as fine: “Autofac” “Beyond Lies the Wub” “In the Days of Perky Pat” “T…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3053,
+      "quote": "…. Foster in “Foster, You’re Dead” was named after Edgar Dick’s youngest brother, who died as small child. In “Service Call,” a swivel will control men’s thoughts in order to prevent atomic war. “The Impossible Planet” tells the st…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "1 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

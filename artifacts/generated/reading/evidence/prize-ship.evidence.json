@@ -1,0 +1,108 @@
+{
+ "slug": "prize-ship",
+ "title": "Prize Ship",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 11780,
+  "line_end": 12577,
+  "word_count": 6871,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 3,
+    "per_million": 436.6,
+    "background_per_million": 77.6,
+    "distinctiveness": 5.28
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_james",
+    "label": "James",
+    "count": 1,
+    "per_million": 145.5,
+    "background_per_million": 25.5,
+    "distinctiveness": 4.77
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 145.5,
+    "background_per_million": 29.6,
+    "distinctiveness": 4.2
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 3,
+    "per_million": 436.6,
+    "background_per_million": 103.2,
+    "distinctiveness": 4.04
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 7,
+    "per_million": 1018.8,
+    "background_per_million": 311.5,
+    "distinctiveness": 3.22
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_thomas",
+    "label": "Thomas",
+    "count": 1,
+    "per_million": 145.5,
+    "background_per_million": 44.9,
+    "distinctiveness": 2.91
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 1,
+    "per_million": 145.5,
+    "background_per_million": 89.9,
+    "distinctiveness": 1.53
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_pinky",
+    "label": "Pinky",
+    "count": 1,
+    "per_million": 145.5,
+    "background_per_million": 4.1,
+    "distinctiveness": 16.02
+   }
+  ],
+  "distinct_terms": 7,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

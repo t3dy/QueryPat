@@ -1,0 +1,94 @@
+{
+ "slug": "of-withered-apples",
+ "title": "Of Withered Apples",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 22010,
+  "line_end": 22273,
+  "word_count": 2996,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 3,
+    "per_million": 1001.3,
+    "background_per_million": 397.3,
+    "distinctiveness": 2.49
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 3,
+    "per_million": 1001.3,
+    "background_per_million": 462.7,
+    "distinctiveness": 2.14
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 2,
+    "per_million": 667.6,
+    "background_per_million": 350.4,
+    "distinctiveness": 1.88
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 3,
+    "per_million": 1001.3,
+    "background_per_million": 529.1,
+    "distinctiveness": 1.87
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 3,
+    "per_million": 1001.3,
+    "background_per_million": 589.4,
+    "distinctiveness": 1.68
+   }
+  ],
+  "names": [],
+  "distinct_terms": 5,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 13326,
+      "quote": "…[>], [>], [>], [>]–[>], [>], [>], [>], [>], [>] \"Not by Its Cover,\" [>] _Now Wait for Last Year,_ [>] \"Of Withered Apples,\" [>] – _Our Friends from Frolix [>],_ [>], [>] [>], [>], [>], [>], [>], [>] _The Owl in Daylight,_ [>],…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

@@ -1,0 +1,267 @@
+{
+ "artifact_id": "ART_DOSSIER_BEYOND_LIES_THE_WUB",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "beyond-lies-the-wub",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Beyond Lies The Wub",
+  "slug": "beyond-lies-the-wub",
+  "form": "story",
+  "word_count": 2630,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 898,
+   "line_end": 1181,
+   "word_count": 2630,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "The Wub",
+    "name_id": "NAME_the-wub",
+    "mentions": 47
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Catholic",
+    "entity_id": "TERM_catholic",
+    "count": 2,
+    "distinctiveness": 83.7
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 1,
+    "distinctiveness": 3.52
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 2,
+    "distinctiveness": 3.36
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 5,
+    "distinctiveness": 3.2
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 4,
+    "distinctiveness": 2.47
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 7,
+    "distinctiveness": 2.45
+   },
+   {
+    "label": "Brain",
+    "entity_id": "TERM_brain",
+    "count": 1,
+    "distinctiveness": 1.83
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 4,
+    "distinctiveness": 1.74
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 19,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 5,
+    "quotes": [
+     {
+      "line": 9788,
+      "quote": "…\" the Anokhi mushroom. Dies. It would seem Fate won. (7) Angel encounters Bill: Tim is alive in him (as in \"Beyond Lies the Wub\") but he (whoever \"he\" signifies) is mad. (8) All she can save now is herself. **[79:I-43]** All—repeat:…"
+     },
+     {
+      "line": 9800,
+      "quote": "…irsten\" _died anyhow!_ Angel _must_ be shown to realize this. Yet —what if \"Jim\" is alive in Bill (as in the \"Beyond Lies the Wub\" story)? It must be an inscrutable epiphany at the end; _she can't tell._ No; I know the answer; Jim, as we a…"
+     },
+     {
+      "line": 9802,
+      "quote": "…l at the end conveys to Angel that he really is Tim ( _even though he is mad_ and in the asylum). (My model: \"Beyond Lies the Wub.\") It must be a holy moment, and, to her, terrifying. Both: (1) holy; and (2) terrifying, not reassuring. (Th…"
+     },
+     {
+      "line": 12114,
+      "quote": "…n alien creature who can invade and inhabit other life forms. Appears in Dick's first published short story, \"Beyond Lies the Wub,\" _Planet Stories_ (July 1952). Wubfur appears in a number of Dick's works. 84. Telepathic, gambling-obsess…"
+     },
+     {
+      "line": 13244,
+      "quote": "…ts, William Butler, [>], [>] Zimmer, Heinrich, [>] ## **Works Index** \"Adjustment Team,\" [>], [>], [>] \"Beyond Lies the Wub,\" [>]–[>], [>], [>] \"Beyond the Door,\" [>] _Bishop Timothy Archer._ See _The Transmigration of Timothy Ar…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 5,
+    "quotes": [
+     {
+      "line": 603,
+      "quote": "…ee PKD_ (the successor to _PKDS Newsletter_ , edited by Gregory Lee), No. 1, February 1993. \"Headnote\" for \"Beyond Lies the Wub,\" written in 1980, first appeared in accompaniment with the reprinted story in _First Voyages_ (New York: Avo…"
+     },
+     {
+      "line": 1029,
+      "quote": "…mper but a bang. And maybe that's as it should be, in the best of all visual galaxies. ## **\"Headnote\" for \"Beyond Lies the Wub\" (1981)** The idea I wanted to get down on paper had to do with the definition of \"human.\" The dramatic way…"
+     },
+     {
+      "line": 1033,
+      "quote": "…'m sorry if the word \"soul\" offends you, but I can think of no other term. Certainly, when I wrote the story \"Beyond Lies the Wub\" back in my youth in politically active Berkeley, I myself would never have thought of the crucial ingredient…"
+     },
+     {
+      "line": 1033,
+      "quote": "…the speech I gave in Vancouver in 1972 [\"The Android and the Human,\" included herein] -- twenty years after \"Beyond Lies the Wub\" was published. The germ of the idea behind the speech lies in this, my first published story. It has to do w…"
+     },
+     {
+      "line": 1037,
+      "quote": "…d idea for a very early story by a very young person! I liked the blurbs that _Planet Stories_ printed for \"Beyond Lies the Wub.\" On the title page of the magazine they wrote: Many men talk like philosophers and live like fools, procla…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 413,
+      "quote": "…s first professional sale, “Roog,” to Anthony Boucher, _The Magazine of Fantasy & Science Fiction._ - 1952 “Beyond Lies the Wub” first story to see print, in _Planet Stories;_ PKD becomes a client of the Scott Meredith Literary Agency, l…"
+     },
+     {
+      "line": 497,
+      "quote": "…signment; not much money is involved here, but I love to do these headnotes; hence you will find the one for “Beyond Lies the Wub” enclosed. I am looking forward to the fireworks on VALIS REGAINED. It is quite exciting! Cordially, Phil…"
+     },
+     {
+      "line": 505,
+      "quote": "…s (earnings) for 1979 for the IRS. I did say Yes, didn’t I? Yes? Enc: Headnote for Martin H. Greenberg for “Beyond Lies the Wub” and letter from Greenberg dated July 16, 1979 (Xerox). ## [TO JOHN B. ROSS] _January 30, 1980_ ## Dear…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 546,
+      "quote": "…rst professional sale, “Roog,” to Anthony Boucher, _The Magazine of Fantasy & Science Fiction._ - **1952** “Beyond Lies the Wub” first story to see print, in _Planet Stories;_ PKD becomes a client of the Scott Meredith Literary Agency, l…"
+     },
+     {
+      "line": 4694,
+      "quote": "…antastic Feb. ’64 “The Indefatigable Frog.” Fantastic story July ’53 “Out in the Garden.” Fantasy August ’52 “Beyond Lies the Wub.” Planet Stories, July ’52 “Roog.” F&SF Feb. ’53 “The Preserving Machine.” F&SF, June ’53 I would also recomm…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 564,
+      "quote": "…s first professional sale, “Roog,” to Anthony Boucher, _The Magazine of Fantasy & Science Fiction._ - 1952 “Beyond Lies the Wub” first story to see print, in _Planet Stories;_ PKD becomes a client of the Scott Meredith Literary Agency, l…"
+     },
+     {
+      "line": 6336,
+      "quote": "…. Could we use that, perhaps in place of “Service Call”? The others on the list strike me as fine: “Autofac” “Beyond Lies the Wub” “In the Days of Perky Pat” “The Defenders” (But this could be pulled for “Second Variety,” since the the…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 410,
+      "quote": "…s first professional sale, “Roog,” to Anthony Bouchei; _The Magazine of Fantasy & Science Fiction._ - 1952 “Beyond Lies the Wub” first story to see print, in _Planet Stories;_ PKD becomes a client of the Scott Meredith Literary Agency, l…"
+     },
+     {
+      "line": 1428,
+      "quote": "…that I could have written it. Ah, the inspiration of youth ... Cordially, Philip K. Dick P S. How about “Beyond Lies the WUB”? _Planet Stories,_ July 1952. Never been reprinted, & virtually unknown. Not a half-bad story. ## [TO ANNE…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1457,
+      "quote": "…hree Stigmata of Palmer Eldritch, and Ubik. Before taking leave of Phil’s stories, mention must be made of “Beyond Lies the Wub,” the very first to appear in print (July 1952 Planet Stories). It is a lovely parable about a hoglike Martia…"
+     },
+     {
+      "line": 5641,
+      "quote": "…er, You’re Dead” and “The Father-thing” (see Chapter 2); tales from Phil’s Berkeley salad days, like “Roog,” “Beyond Lies the Wub,” “Second Variety,” “Colony,” and 442 “Impostor” (see Chapter 4 and A Handful of Darkness, above); and th…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "19 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "2 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

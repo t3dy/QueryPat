@@ -1,0 +1,90 @@
+{
+ "slug": "war-game",
+ "title": "War Game",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 41699,
+  "line_end": 41848,
+  "word_count": 2061,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bureau",
+    "label": "Bureau",
+    "count": 1,
+    "per_million": 485.2,
+    "background_per_million": 38.8,
+    "distinctiveness": 11.07
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 1,
+    "per_million": 485.2,
+    "background_per_million": 105.2,
+    "distinctiveness": 4.4
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 1,
+    "per_million": 485.2,
+    "background_per_million": 130.7,
+    "distinctiveness": 3.57
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 2,
+    "per_million": 970.4,
+    "background_per_million": 526.0,
+    "distinctiveness": 1.83
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 1,
+    "per_million": 485.2,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.79
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-projector",
+    "label": "The Projector",
+    "count": 1,
+    "per_million": 485.2,
+    "background_per_million": 5.1,
+    "distinctiveness": 48.01
+   }
+  ],
+  "distinct_terms": 5,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

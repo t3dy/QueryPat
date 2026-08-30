@@ -1,0 +1,121 @@
+{
+ "slug": "the-little-movement",
+ "title": "The Little Movement",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 632,
+  "line_end": 897,
+  "word_count": 2980,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 22,
+    "per_million": 7382.6,
+    "background_per_million": 103.2,
+    "distinctiveness": 68.25
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 335.6,
+    "background_per_million": 29.6,
+    "distinctiveness": 9.69
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 2,
+    "per_million": 671.1,
+    "background_per_million": 128.7,
+    "distinctiveness": 5.02
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 5,
+    "per_million": 1677.9,
+    "background_per_million": 350.4,
+    "distinctiveness": 4.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 1,
+    "per_million": 335.6,
+    "background_per_million": 105.2,
+    "distinctiveness": 3.04
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 1,
+    "per_million": 335.6,
+    "background_per_million": 138.9,
+    "distinctiveness": 2.33
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 2,
+    "per_million": 671.1,
+    "background_per_million": 311.5,
+    "distinctiveness": 2.12
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 5,
+    "per_million": 1677.9,
+    "background_per_million": 1079.7,
+    "distinctiveness": 1.55
+   }
+  ],
+  "names": [],
+  "distinct_terms": 8,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1026,
+      "quote": "…e long one about loyalty will not be ready for a week or so. It has to be worked over. You will find herein: “The Little Movement”—a brand new pretty typed-up version with a few minor changes only, all for the good, I think. It’s much smoo…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

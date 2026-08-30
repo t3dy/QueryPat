@@ -1,0 +1,150 @@
+{
+ "artifact_id": "ART_DOSSIER_UPON_THE_DULL_EARTH",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "upon-the-dull-earth",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Upon The Dull Earth",
+  "slug": "upon-the-dull-earth",
+  "form": "story",
+  "word_count": 8250,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+   "line_start": 5988,
+   "line_end": 6555,
+   "word_count": 8250,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Saint",
+    "name_id": "NAME_saint",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Garden",
+    "entity_id": "TERM_garden",
+    "count": 3,
+    "distinctiveness": 6.04
+   },
+   {
+    "label": "Gods",
+    "entity_id": "TERM_gods",
+    "count": 1,
+    "distinctiveness": 3.4
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 7,
+    "distinctiveness": 3.25
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 11,
+    "distinctiveness": 2.85
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 5,
+    "distinctiveness": 1.91
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 2,
+    "distinctiveness": 1.81
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 6,
+    "distinctiveness": 1.81
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 6,
+    "distinctiveness": 1.63
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 5380,
+      "quote": "…The only reason I can see for not going ahead with this would be if it were to conflict with other sales of “Upon the Dull Earth,” as for instance in the BEST OF PHILIP K. DICK which Ballantine is going to bring out. Would it conflict? Of…"
+     },
+     {
+      "line": 6350,
+      "quote": "…ke “The Defenders,” this could be pulled to make room for “Second Variety.”) “Oh, To Be a Blobel.” “Roog.” “Upon the Dull Earth.” Personally, although Don Wollheim used “Breakfast At Twilight,” I’d like to see it included, with “The De…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5477,
+      "quote": "…made it: “The Cookie Lady” (w. 1952, p. 1953), a variation on the Hansel and Gretel theme, and the haunting “Upon the Dull Earth” (w. 1953, p. 1954), Phil’s take on the Orpheus legend, with a lover seeking to rescue his Eurydice from life…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "2 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "1 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

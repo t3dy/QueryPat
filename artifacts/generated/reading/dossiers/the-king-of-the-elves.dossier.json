@@ -1,0 +1,188 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_KING_OF_THE_ELVES",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-king-of-the-elves",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The King Of The Elves",
+  "slug": "the-king-of-the-elves",
+  "form": "story",
+  "word_count": 6770,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 10512,
+   "line_end": 11145,
+   "word_count": 6770,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "King",
+    "entity_id": "TERM_king",
+    "count": 56,
+    "distinctiveness": 62.83
+   },
+   {
+    "label": "Kingdom",
+    "entity_id": "TERM_kingdom",
+    "count": 6,
+    "distinctiveness": 51.36
+   },
+   {
+    "label": "Adam",
+    "entity_id": "TERM_adam",
+    "count": 1,
+    "distinctiveness": 14.61
+   },
+   {
+    "label": "Golden",
+    "entity_id": "TERM_golden",
+    "count": 3,
+    "distinctiveness": 6.9
+   },
+   {
+    "label": "Empire",
+    "entity_id": "TERM_empire",
+    "count": 1,
+    "distinctiveness": 5.38
+   },
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 1,
+    "distinctiveness": 4.27
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 15,
+    "distinctiveness": 4.15
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 12,
+    "distinctiveness": 2.98
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 4,
+    "distinctiveness": 2.26
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 6,
+    "distinctiveness": 1.99
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 3,
+    "distinctiveness": 1.96
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 10,
+    "distinctiveness": 1.53
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 6,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 1431,
+      "quote": "…ors. But Phil was gracious enough to give Gold credit for improving the ending of Phil’s best fantasy story, “The King of the Elves,” which appeared in the September 1953 Beyond Fantasy Fiction (a sister publication to Galaxy). Shadrach Jone…"
+     },
+     {
+      "line": 5647,
+      "quote": "…es the empathic religion of Mercerism, which plays such a major role in Do Androids Dream of Electric Sheep? “The King of the Elves” (1953) (see Chapter 4) is a gem-Phil’s best fantasy story. Rating: 8. 51. A Scanner Darkly (w. 1973, rew.…"
+     },
+     {
+      "line": 6035,
+      "quote": "…Thirty Years of Innovative Science Fiction (New York: Playboy Press, 1980), p. 239. - 75 Shadrach carried: “The King of the Elves” (1953). SF and fantasy: PKD, “My Definition of SF,” Just SF 1 (1981): 1. - 75-76 Inner-projection stories:…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 2969,
+      "quote": "…o work on his writing. Agoraphobia seemed to be a determining factor for his writing career. An early story, “The King of the Elves,” describes the beginnings of this lifestyle. “Phil’s output, even at the beginning, was so voluminous,” Kl…"
+     },
+     {
+      "line": 3049,
+      "quote": "…” can see a halfhour ahead and can always find a woman to keep him out of society’s traps. Shadrach Jones in “The King of the Elves” has been lured into becoming the king of the elves, instead of working at his prosaic job running a filling…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1332,
+      "quote": "…originally efforts to save humanity from the consequences of nuclear holocaust. (The Biltongs > 14 Elves: ‘The King of the Elves’ (1953, CS1); taxis: ‘We Can Remember It For You Wholesale’ (1966, CS4), _The Game-Players of Titan_ (1963) a…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "6 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

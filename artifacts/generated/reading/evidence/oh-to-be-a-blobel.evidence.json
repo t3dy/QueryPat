@@ -1,0 +1,135 @@
+{
+ "slug": "oh-to-be-a-blobel",
+ "title": "Oh, To Be A Blobel!",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 47511,
+  "line_end": 47964,
+  "word_count": 6754,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 2,
+    "per_million": 296.1,
+    "background_per_million": 35.8,
+    "distinctiveness": 7.27
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fate",
+    "label": "Fate",
+    "count": 1,
+    "per_million": 148.1,
+    "background_per_million": 20.4,
+    "distinctiveness": 5.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 2,
+    "per_million": 296.1,
+    "background_per_million": 77.6,
+    "distinctiveness": 3.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 10,
+    "per_million": 1480.6,
+    "background_per_million": 462.7,
+    "distinctiveness": 3.17
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 1,
+    "per_million": 148.1,
+    "background_per_million": 59.2,
+    "distinctiveness": 2.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 2,
+    "per_million": 296.1,
+    "background_per_million": 138.9,
+    "distinctiveness": 2.06
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 6,
+    "per_million": 888.4,
+    "background_per_million": 526.0,
+    "distinctiveness": 1.67
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 1,
+    "per_million": 148.1,
+    "background_per_million": 89.9,
+    "distinctiveness": 1.56
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_nina",
+    "label": "Nina",
+    "count": 7,
+    "per_million": 1036.4,
+    "background_per_million": 7.2,
+    "distinctiveness": 85.3
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_nick",
+    "label": "Nick",
+    "count": 1,
+    "per_million": 148.1,
+    "background_per_million": 3.1,
+    "distinctiveness": 18.36
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mission",
+    "label": "Mission",
+    "count": 1,
+    "per_million": 148.1,
+    "background_per_million": 12.3,
+    "distinctiveness": 8.58
+   }
+  ],
+  "distinct_terms": 8,
+  "distinct_names": 3
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

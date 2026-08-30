@@ -1,0 +1,219 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_MOLD_OF_YANCY",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-mold-of-yancy",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Mold Of Yancy",
+  "slug": "the-mold-of-yancy",
+  "form": "story",
+  "word_count": 7517,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 38547,
+   "line_end": 39034,
+   "word_count": 7517,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "The authorities",
+    "name_id": "NAME_the-authorities",
+    "mentions": 8
+   },
+   {
+    "name": "Beethoven",
+    "name_id": "NAME_beethoven",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Taverner",
+    "entity_id": "TERM_taverner",
+    "count": 75,
+    "distinctiveness": 122.26
+   },
+   {
+    "label": "Gestalt",
+    "entity_id": "TERM_gestalt",
+    "count": 13,
+    "distinctiveness": 56.63
+   },
+   {
+    "label": "John",
+    "entity_id": "TERM_john",
+    "count": 10,
+    "distinctiveness": 13.3
+   },
+   {
+    "label": "Adam",
+    "entity_id": "TERM_adam",
+    "count": 1,
+    "distinctiveness": 13.16
+   },
+   {
+    "label": "Garden",
+    "entity_id": "TERM_garden",
+    "count": 4,
+    "distinctiveness": 8.85
+   },
+   {
+    "label": "Cosmic",
+    "entity_id": "TERM_cosmic",
+    "count": 2,
+    "distinctiveness": 7.26
+   },
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
+    "count": 1,
+    "distinctiveness": 4.51
+   },
+   {
+    "label": "Greek",
+    "entity_id": "TERM_greek",
+    "count": 1,
+    "distinctiveness": 4.22
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 4,
+    "distinctiveness": 3.98
+   },
+   {
+    "label": "Wisdom",
+    "entity_id": "TERM_wisdom",
+    "count": 2,
+    "distinctiveness": 3.89
+   },
+   {
+    "label": "Faith",
+    "entity_id": "TERM_faith",
+    "count": 1,
+    "distinctiveness": 3.53
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 12,
+    "distinctiveness": 3.01
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 4,
+    "distinctiveness": 2.35
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 18,
+    "distinctiveness": 2.21
+   },
+   {
+    "label": "Scanner",
+    "entity_id": "TERM_scanner",
+    "count": 1,
+    "distinctiveness": 1.89
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 3,
+    "distinctiveness": 1.74
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 11,
+    "distinctiveness": 1.52
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 10,
+    "distinctiveness": 1.52
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 5350,
+      "quote": "…tions Opta. You want me to make a Xerox copy for you? THE FIRST LADY OF EARTH, I believe, is THE SIMULACRA. “The Mold of Yancy” is a story from If which I made into the novel, THE PENULTI­ MATE TRUTH. CANTATA 40 is the first half, print…"
+     },
+     {
+      "line": 6066,
+      "quote": "…ACRA, DR. BLOODMONEY were original, but I used material from the story “War Veteran” (published in _If,_ and “The Mold of Yancy”, published in _If,_ and “The Defenders” published in _Galaxy) for_ THE PENULTIMATE TRUTH. You might be inter…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 5595,
+      "quote": "…he black side of Jack Isidore [of Crap Artist].” Rating: 7. 37. The Penultimate Truth, originally titled In the Mold of Yancy (w. 1964, p. 1964.) Cynical world leaders keep their populations huddled in underground bomb shelters when in…"
+     },
+     {
+      "line": 5595,
+      "quote": "…ee also The Zap Gun, above. The Penultimate Truth draws upon four of Phil’s stories: “The Defenders” (1953), “The Mold of Yancy” (1955), “War Veteran” (1955), and “The Unreconstructed M” (1956). Penultimate is Phil’s most pointed examina…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "2 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "2 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

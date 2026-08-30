@@ -1,0 +1,144 @@
+{
+ "artifact_id": "ART_DOSSIER_A_PRESENT_FOR_PAT",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "a-present-for-pat",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "A Present For Pat",
+  "slug": "a-present-for-pat",
+  "form": "story",
+  "word_count": 6072,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 21008,
+   "line_end": 21585,
+   "word_count": 6072,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Eric",
+    "name_id": "NAME_eric",
+    "mentions": 111
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Gods",
+    "entity_id": "TERM_gods",
+    "count": 6,
+    "distinctiveness": 27.72
+   },
+   {
+    "label": "Thomas",
+    "entity_id": "TERM_thomas",
+    "count": 3,
+    "distinctiveness": 9.89
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 4,
+    "distinctiveness": 6.09
+   },
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
+    "count": 1,
+    "distinctiveness": 5.58
+   },
+   {
+    "label": "Cosmic",
+    "entity_id": "TERM_cosmic",
+    "count": 1,
+    "distinctiveness": 4.49
+   },
+   {
+    "label": "Tears",
+    "entity_id": "TERM_tears",
+    "count": 1,
+    "distinctiveness": 4.04
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 12,
+    "distinctiveness": 3.7
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 5,
+    "distinctiveness": 3.63
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 13,
+    "distinctiveness": 1.97
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 8,
+    "distinctiveness": 1.51
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1280,
+      "quote": "…“Nanny” “The Turning Wheel” “The Defenders” “Adjustment Team” “Psi-Man Heal My Child” “The Commuter” “A Present For Pat” “Breakfast at Twilight” “Shell Game” That is it, Jack. Stress to Ballantine that I was already working on…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

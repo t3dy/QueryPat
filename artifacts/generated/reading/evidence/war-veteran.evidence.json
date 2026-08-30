@@ -1,0 +1,117 @@
+{
+ "slug": "war-veteran",
+ "title": "War Veteran",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+  "line_start": 7434,
+  "line_end": 7525,
+  "word_count": 1315,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_john",
+    "label": "John",
+    "count": 1,
+    "per_million": 760.5,
+    "background_per_million": 95.0,
+    "distinctiveness": 7.6
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 1,
+    "per_million": 760.5,
+    "background_per_million": 202.2,
+    "distinctiveness": 3.67
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 1,
+    "per_million": 760.5,
+    "background_per_million": 311.5,
+    "distinctiveness": 2.4
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 1,
+    "per_million": 760.5,
+    "background_per_million": 397.3,
+    "distinctiveness": 1.89
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 1,
+    "per_million": 760.5,
+    "background_per_million": 398.4,
+    "distinctiveness": 1.89
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 1,
+    "per_million": 760.5,
+    "background_per_million": 448.4,
+    "distinctiveness": 1.68
+   }
+  ],
+  "names": [],
+  "distinct_terms": 6,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6066,
+      "quote": "…. THE GAME PLAYERS OF TITAN, THE SIMULACRA, DR. BLOODMONEY were original, but I used material from the story “War Veteran” (published in _If,_ and “The Mold of Yancy”, published in _If,_ and “The Defenders” published in _Galaxy) fo…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5595,
+      "quote": "…The Penultimate Truth draws upon four of Phil’s stories: “The Defenders” (1953), “The Mold of Yancy” (1955), “War Veteran” (1955), and “The Unreconstructed M” (1956). Penultimate is Phil’s most pointed examination of the lies woven…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

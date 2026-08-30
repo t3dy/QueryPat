@@ -1,0 +1,144 @@
+{
+ "slug": "piper-in-the-woods",
+ "title": "Piper In The Woods",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 3834,
+  "line_end": 4407,
+  "word_count": 7212,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christianity",
+    "label": "Christianity",
+    "count": 1,
+    "per_million": 138.7,
+    "background_per_million": 1.0,
+    "distinctiveness": 23.03
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_grace",
+    "label": "Grace",
+    "count": 1,
+    "per_million": 138.7,
+    "background_per_million": 11.2,
+    "distinctiveness": 8.54
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 138.7,
+    "background_per_million": 29.6,
+    "distinctiveness": 4.0
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 6,
+    "per_million": 831.9,
+    "background_per_million": 221.7,
+    "distinctiveness": 3.67
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 24,
+    "per_million": 3327.8,
+    "background_per_million": 959.1,
+    "distinctiveness": 3.45
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fish",
+    "label": "Fish",
+    "count": 1,
+    "per_million": 138.7,
+    "background_per_million": 37.8,
+    "distinctiveness": 3.24
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 2,
+    "per_million": 277.3,
+    "background_per_million": 105.2,
+    "distinctiveness": 2.52
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 8,
+    "per_million": 1109.3,
+    "background_per_million": 462.7,
+    "distinctiveness": 2.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_garden",
+    "label": "Garden",
+    "count": 1,
+    "per_million": 138.7,
+    "background_per_million": 55.2,
+    "distinctiveness": 2.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 1,
+    "per_million": 138.7,
+    "background_per_million": 59.2,
+    "distinctiveness": 2.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 9,
+    "per_million": 1247.9,
+    "background_per_million": 609.8,
+    "distinctiveness": 2.03
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-projector",
+    "label": "The Projector",
+    "count": 2,
+    "per_million": 277.3,
+    "background_per_million": 5.1,
+    "distinctiveness": 27.44
+   }
+  ],
+  "distinct_terms": 11,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

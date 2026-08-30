@@ -1,0 +1,127 @@
+{
+ "slug": "service-call",
+ "title": "Service Call",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 37811,
+  "line_end": 37876,
+  "word_count": 1344,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 4,
+    "per_million": 2976.2,
+    "background_per_million": 398.4,
+    "distinctiveness": 7.38
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 1,
+    "per_million": 744.0,
+    "background_per_million": 103.2,
+    "distinctiveness": 6.88
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 1,
+    "per_million": 744.0,
+    "background_per_million": 128.7,
+    "distinctiveness": 5.56
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 3,
+    "per_million": 2232.1,
+    "background_per_million": 397.3,
+    "distinctiveness": 5.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 2,
+    "per_million": 1488.1,
+    "background_per_million": 609.8,
+    "distinctiveness": 2.42
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 2,
+    "per_million": 1488.1,
+    "background_per_million": 868.2,
+    "distinctiveness": 1.7
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_david",
+    "label": "David",
+    "count": 1,
+    "per_million": 744.0,
+    "background_per_million": 122.6,
+    "distinctiveness": 5.83
+   }
+  ],
+  "distinct_terms": 6,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6336,
+      "quote": "…on, and I consider—as Terry does—that this is one of my best stories. Could we use that, perhaps in place of “Service Call”? The others on the list strike me as fine: “Autofac” “Beyond Lies the Wub” “In the Days of Perky Pat” “T…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3053,
+      "quote": "…. Foster in “Foster, You’re Dead” was named after Edgar Dick’s youngest brother, who died as small child. In “Service Call,” a swivel will control men’s thoughts in order to prevent atomic war. “The Impossible Planet” tells the st…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

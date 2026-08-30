@@ -1,0 +1,154 @@
+{
+ "artifact_id": "ART_DOSSIER_SALES_PITCH",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "sales-pitch",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Sales Pitch",
+  "slug": "sales-pitch",
+  "form": "story",
+  "word_count": 5518,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+   "line_start": 5138,
+   "line_end": 5499,
+   "word_count": 5518,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "The Man",
+    "name_id": "NAME_the-man",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 4,
+    "distinctiveness": 7.64
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 4,
+    "distinctiveness": 2.77
+   },
+   {
+    "label": "Brain",
+    "entity_id": "TERM_brain",
+    "count": 3,
+    "distinctiveness": 2.62
+   },
+   {
+    "label": "Scanner",
+    "entity_id": "TERM_scanner",
+    "count": 1,
+    "distinctiveness": 2.58
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 1,
+    "distinctiveness": 2.19
+   },
+   {
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 5,
+    "distinctiveness": 2.0
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 5,
+    "distinctiveness": 1.7
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 1,
+    "distinctiveness": 1.68
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 10,
+    "distinctiveness": 1.67
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 5,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 5,
+    "quotes": [
+     {
+      "line": 1456,
+      "quote": "…e family will serve to protect its members against the values of the wider society, rather than impose them. ‘Sales Pitch’ (1954, CS3) concerns a husband coming home from a hard day at the office, and a hard commute (since people n…"
+     },
+     {
+      "line": 1484,
+      "quote": "…‘Foster, You’re Dead’ gains a dimension from its focus on the child rather than the father or husband (as in ‘Sales Pitch’ and ‘Nanny’); here the child is wholly a victim. The story expresses the harm done to the child by society’s…"
+     },
+     {
+      "line": 1498,
+      "quote": "…his is that zany or wonderfully surprising quality that draws many readers to Dick. In fact, stories such as ‘Sales Pitch’ and ‘Foster, You’re Dead’ renounce fantasy, however we define it. The refusal to be other than bluntly expli…"
+     },
+     {
+      "line": 1512,
+      "quote": "…ricks of idiom, or those who came up with the cobalt bomb. Where does the author stand? In stories such as ‘Sales Pitch’, he stands angrily outside the fiction, which he wields as a weapon, refusing the role of ingeniously extrap…"
+     },
+     {
+      "line": 3768,
+      "quote": "…214–15, 216n18, 219, 220, 221, 223, 230n11, 235 ‘Rautavaara’s Case’ devouring god in 143, 233 ‘Roog’ 93n14 ‘Sales Pitch’ consumerism and militarism in **103–04** stance of 106, 107 _Scanner Darkly, A_ 18n29 closed loop in 29, 35n…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "5 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

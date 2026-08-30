@@ -1,0 +1,155 @@
+{
+ "artifact_id": "ART_DOSSIER_FOSTER_YOU_RE_DEAD",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "foster-you-re-dead",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Foster, You're Dead",
+  "slug": "foster-you-re-dead",
+  "form": "story",
+  "word_count": 7334,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 32953,
+   "line_end": 33416,
+   "word_count": 7334,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Zebra",
+    "name_id": "NAME_zebra",
+    "mentions": 1
+   },
+   {
+    "name": "The Man",
+    "name_id": "NAME_the-man",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Father",
+    "entity_id": "TERM_father",
+    "count": 29,
+    "distinctiveness": 11.13
+   },
+   {
+    "label": "Jesus",
+    "entity_id": "TERM_jesus",
+    "count": 1,
+    "distinctiveness": 8.4
+   },
+   {
+    "label": "Folder",
+    "entity_id": "TERM_folder",
+    "count": 1,
+    "distinctiveness": 7.9
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 4,
+    "distinctiveness": 5.75
+   },
+   {
+    "label": "Bill",
+    "entity_id": "TERM_bill",
+    "count": 3,
+    "distinctiveness": 2.84
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 2,
+    "distinctiveness": 2.47
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 4,
+    "distinctiveness": 2.09
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 8,
+    "distinctiveness": 2.04
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 16,
+    "distinctiveness": 2.01
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 11,
+    "distinctiveness": 1.72
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 1,
+    "distinctiveness": 1.65
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 13294,
+      "quote": "…>], [>], [>], [>], [>], [>]–[>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>] \"Foster, You're Dead!,\" [>] \"Frozen Journey,\" [>], [>], [>]–[>], [>], [>], [>], [>], [>] _Galactic Pot-Healer,_ [>], [>], [>],…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

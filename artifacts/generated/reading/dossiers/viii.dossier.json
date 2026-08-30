@@ -1,0 +1,280 @@
+{
+ "artifact_id": "ART_DOSSIER_VIII",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "viii",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Viii",
+  "slug": "viii",
+  "form": "story",
+  "word_count": 1380,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_PHILIP_K_DICK_READER_.md",
+   "line_start": 9628,
+   "line_end": 9737,
+   "word_count": 1380,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Donna",
+    "name_id": "NAME_donna",
+    "mentions": 5
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
+    "count": 1,
+    "distinctiveness": 5.04
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 2,
+    "distinctiveness": 3.59
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 1,
+    "distinctiveness": 3.2
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 1,
+    "distinctiveness": 2.67
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 3,
+    "distinctiveness": 2.0
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 3,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 85,
+      "quote": "…y laundry. Why his letters and not someone’s else’s? The answer, of course, lies in the extraordinary vii viii THE SELECTED LETTERS OF PHILIP K. DICK attention that is now focused on his work, and the amazing fact that h…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 83,
+      "quote": "…had been damaged. I’m writing again fine without speed, but there is indeed an interval when nothing comes viii THE SELECTED LETTERS OF PHILIP K. DICK to mind, and the body is in a weak state. The endocrine system has t…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 53,
+      "quote": "…aggering. Add to it the million'word “Exegesis,” the dozens of novels, the hundreds of short stories, vii viii THE SELECTED LETTERS OF PHILIP K. DICK and what you come up with is a lifetime defined and redefined by wor…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 19,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT.md",
+    "author": "Fredric Jameson",
+    "lane": "C",
+    "mention_count": 8,
+    "quotes": [
+     {
+      "line": 514,
+      "quote": "…the way in which the buildings were constructed and the plantations laid out).l0 It may well have been Henry VIII's closing of the monasteries and his plundering of their collective treasures that generated More's ultimate…"
+     },
+     {
+      "line": 570,
+      "quote": "…liquidation is a physical one and underwrites the separation from the church of both Luther himself and Henry VIII. I want to understand the process in a more general way, not as the opposition between two religious principl…"
+     },
+     {
+      "line": 596,
+      "quote": "…ndon, so that More's imaginary island is simply a literal inversion of the actually existing kingdom of Henry VIII. The alleged Utopian vision is therefore little more than a point-by-point commentary on English affairs and…"
+     },
+     {
+      "line": 976,
+      "quote": "…quei che pili innanzi appariro sonava \"Osanna\" S1, che unque poi di rludir non fui sanza disiro. Paradiso, VIII And as we see a spark within a flame, and as a voice within a voice is distin­ guished when one holds the n…"
+     },
+     {
+      "line": 984,
+      "quote": "…New York, 1948 [1947]), p. 162. 8 Dante Alighieri, Paradiso (princeton, 1975: Singleton translation), Canto VIII, verses 16-30, pp. 82-85. THE G REAT SCHISM 63 must use each singular perception to express the other, th…"
+     },
+     {
+      "line": 2408,
+      "quote": "…emably class-based. More is marked not only by his status as lawyer and a Londoner, a humanist close to Henry VIII's court; he is also marked by the ambiguities of that transitional period between the medieval dispensation a…"
+     },
+     {
+      "line": 4002,
+      "quote": "…tated on the point of surrendering her or his reading body to this unpredictable dialectical experiment. ## VIII Returning now to the ultimate voyage into the bowels of Mcintyre'S \"Earth\" - that is, literally into the \"i…"
+     },
+     {
+      "line": 5290,
+      "quote": "…-9 Stranger in a Strange Land 59 The Moon is a Harsh Mistress 195, 412 Time Enough jor Love 335-40, 343 Henry VIII 26-7, 31 Herbert, Frank Dune 59, 268 Hernadi, Paul 257 Hexter, J.H. 23 Hirsch Jr, E.D. 257 historicism 170-2…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_KRIPAL_JEFFREY_J_MUTANTS_AND_MYSTICS.md",
+    "author": "Jeffrey J. Kripal",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 4235,
+      "quote": "…a, Terence, 17 McMoneagle, Joseph, 197–98, 200, 207 McRae, Ron, 201 Mead, Margaret, 196, 209 Meaney, Patrick, viii, 17 mediums: contact with aliens through, 105; Élise Müller, 64–69; Phyllis Schlemmer, 226–27; Spiritualism a…"
+     },
+     {
+      "line": 4239,
+      "quote": "…h and, 259, 266 Mormonism, 110 _Morning of the Magicians, The_ (Pauwels and Bergier), 178–80 Morrison, Grant, viii, 8, 16–24, 28, 170–71; Buddhist Batman of, 247, 249; _The Invisibles_ , 17, 18, 19–22, 265, 329; mutant sexua…"
+     },
+     {
+      "line": 4239,
+      "quote": "…339n22 multiple personalities, 64, 65, 67 multiverse, 41, 64. _See also_ dimensions, alternate Murdoch, Iris, viii Murdock, Matt, 139 Murphy, Michael, 29, 181–82, 185, 186, 305 mutants: as gay, 169; hippies as, 143, 180; as…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 6071,
+      "quote": "…n” by Richard Lupoff to reprint of PKD story collection A Handful of Darkness (Boston: Gregg Press, 1978), p. viii. - 82 Fans as trolls: PKD note quoted in Lupoff, “Introduction,” A Handful of Darkness, p. x. SF writer in…"
+     },
+     {
+      "line": 6161,
+      "quote": "…in Williams’s “Introduction” to Confessions of a Crap Artist (Glen Ellen, Calif.: Entwhistle Books, 1975), p. viii. - 105 Comments on Crap Artist (ss. 1959, p. 1975): Margin notes made by PKD in September 1980 in the Entwh…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 134,
+      "quote": "…ond part (Chapters 4–12) concentrates on specific stories and novels. I have included extensive discussions viii EXHILARATION AND TERROR OF THE POSTMODERN of _The Man in the High Castle_ , _Martian Time-Slip_ , _A Scanne…"
+     },
+     {
+      "line": 3830,
+      "quote": "…and of Dr Moreau, The_ (Wells) 60 Jackson, Rosemary 9n13, 11, 85n1, 97 Jakaitis, Jake 67n1 Jameson, Fredric viii, ix, 4n3, 5, 22n35, 23n36, 40, 41n22 concept of political unconscious in 44, 48, 49, 58n30, 60n33, 63n37, 96…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_MCLOUGHLIN_PINK_LIGHT_AND_IRON.md",
+    "author": "McLoughlin",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 355,
+      "quote": "…les oiseaux qui volent ont à la patte le fil de l'infini.’ Trans. from Victor Hugo, _Oeuvres Complètes, Roman VIII: Les Misérables IV_ (Paris: HetzelQuantin, 1881), p. 114, cited in Walter Benjamin, _Gesammelte Schriften: Fü…"
+     },
+     {
+      "line": 4413,
+      "quote": "…ans. by Edmund Jephcott (Stanford: Stanford University Press, 2002) Hugo, Victor, _Oeuvres Complètes, Roman VIII: Les Misérables IV_ (Paris: Hetzel-Quantin, 1881) Hausmann, Raoul, _The Art Critic_ , 1919–20, Lithograph a…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_KRIPAL_JEFFREY_J_AUTHORS_OF_THE_IMPOSSIB.md",
+    "author": "Jeffrey J. Kripal",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1633,
+      "quote": "…ds in his comparative data: “visitation by an aerial people from one or more remote, legendary countries” (PM viii). There are many names for what Fort had called his “New Lands,” but Vallee rhetorically and mythically privi…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_FIVE_STAR_PAPERBACK_ERIK_DAVIS_TECHGNOSI.md",
+    "author": "Erik Davis",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 125,
+      "quote": "…yle 123 V the spiritual cyborg 155 VI a most enchanting machine 196 VII cyberspace: the virtual craft 226 VIII the alien call 267 IX datapocalypse 299 X third mind from the sun 341 XI the path is a network 376 AF…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "3 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "19 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

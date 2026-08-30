@@ -1,0 +1,120 @@
+{
+ "slug": "tony-and-the-beetles",
+ "title": "Tony And The Beetles",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+  "line_start": 3654,
+  "line_end": 4007,
+  "word_count": 4770,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tony",
+    "label": "Tony",
+    "count": 65,
+    "per_million": 13626.8,
+    "background_per_million": 125.6,
+    "distinctiveness": 104.31
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 9,
+    "per_million": 1886.8,
+    "background_per_million": 350.4,
+    "distinctiveness": 5.31
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 1,
+    "per_million": 209.6,
+    "background_per_million": 73.5,
+    "distinctiveness": 2.67
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 5,
+    "per_million": 1048.2,
+    "background_per_million": 397.3,
+    "distinctiveness": 2.61
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 3,
+    "per_million": 628.9,
+    "background_per_million": 266.6,
+    "distinctiveness": 2.32
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 1,
+    "per_million": 209.6,
+    "background_per_million": 105.2,
+    "distinctiveness": 1.9
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 4,
+    "per_million": 838.6,
+    "background_per_million": 448.4,
+    "distinctiveness": 1.85
+   }
+  ],
+  "names": [],
+  "distinct_terms": 7,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 1442,
+      "quote": "…e case of ‘Project Earth’ [1953, CS2], the human race itself); others include ‘The Cookie Lady’ (1953, CS2), ‘Tony and the Beetles’ (1953, CS3), ‘Jon’s World’ (1954, CS2), ‘A World of Talent’ (1954, CS3), ‘Foster, You’re Dead’ (1955, CS3),…"
+     },
+     {
+      "line": 1444,
+      "quote": "…2), ‘A World of Talent’ (1954, CS3), ‘Foster, You’re Dead’ (1955, CS3), and ‘The Pre-Persons’ (1974, CS5). ‘Tony and the Beetles’ and ‘Martians Come in Clouds’ (1954, CS2) both begin with angry scenes between hard-boiled fathers and their…"
+     },
+     {
+      "line": 3780,
+      "quote": "…39 postmodern ontology of **23–24** , 28, 39n18, 109, 112, 137 the self in 195n26 war as condition in 202–04 ‘Tony and the Beetles’ **102–03** _Transmigration of Timothy Archer, The_ 27n41 meditation in 37, 39n19–20, 64, 67n1 meditations, a…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ }
+}

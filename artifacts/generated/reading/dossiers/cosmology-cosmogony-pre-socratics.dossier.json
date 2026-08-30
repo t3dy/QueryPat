@@ -1,0 +1,214 @@
+{
+ "artifact_id": "ART_DOSSIER_COSMOLOGY_COSMOGONY_PRE_SOCRATICS",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "cosmology-cosmogony-pre-socratics",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Cosmology Cosmogony Pre-socratics",
+  "slug": "cosmology-cosmogony-pre-socratics",
+  "form": "story",
+  "word_count": 3536,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 56471,
+   "line_end": 56790,
+   "word_count": 3536,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Anaximander",
+    "name_id": "NAME_anaximander",
+    "mentions": 1
+   },
+   {
+    "name": "Xenophanes",
+    "name_id": "NAME_xenophanes",
+    "mentions": 1
+   },
+   {
+    "name": "Anaxagoras",
+    "name_id": "NAME_anaxagoras",
+    "mentions": 1
+   },
+   {
+    "name": "Ikhnaton",
+    "name_id": "NAME_ikhnaton",
+    "mentions": 1
+   },
+   {
+    "name": "Mary",
+    "name_id": "NAME_mary",
+    "mentions": 24
+   },
+   {
+    "name": "Sophia",
+    "name_id": "NAME_sophia",
+    "mentions": 1
+   },
+   {
+    "name": "The authorities",
+    "name_id": "NAME_the-authorities",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Empedocles",
+    "entity_id": "TERM_empedocles",
+    "count": 5,
+    "distinctiveness": 92.94
+   },
+   {
+    "label": "Yang",
+    "entity_id": "TERM_yang",
+    "count": 1,
+    "distinctiveness": 40.15
+   },
+   {
+    "label": "Moses",
+    "entity_id": "TERM_moses",
+    "count": 1,
+    "distinctiveness": 35.07
+   },
+   {
+    "label": "Jesus Christ",
+    "entity_id": "TERM_jesus-christ",
+    "count": 1,
+    "distinctiveness": 31.13
+   },
+   {
+    "label": "Apollo",
+    "entity_id": "TERM_apollo",
+    "count": 1,
+    "distinctiveness": 31.13
+   },
+   {
+    "label": "Heraclitus",
+    "entity_id": "TERM_heraclitus",
+    "count": 1,
+    "distinctiveness": 31.13
+   },
+   {
+    "label": "Taoist",
+    "entity_id": "TERM_taoist",
+    "count": 1,
+    "distinctiveness": 31.13
+   },
+   {
+    "label": "Diagram",
+    "entity_id": "TERM_diagram",
+    "count": 1,
+    "distinctiveness": 27.98
+   },
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
+    "count": 2,
+    "distinctiveness": 19.16
+   },
+   {
+    "label": "Greek",
+    "entity_id": "TERM_greek",
+    "count": 2,
+    "distinctiveness": 17.92
+   },
+   {
+    "label": "Jesus",
+    "entity_id": "TERM_jesus",
+    "count": 1,
+    "distinctiveness": 17.42
+   },
+   {
+    "label": "Christ",
+    "entity_id": "TERM_christ",
+    "count": 3,
+    "distinctiveness": 10.8
+   },
+   {
+    "label": "Fish",
+    "entity_id": "TERM_fish",
+    "count": 1,
+    "distinctiveness": 6.61
+   },
+   {
+    "label": "Father",
+    "entity_id": "TERM_father",
+    "count": 8,
+    "distinctiveness": 6.37
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 4,
+    "distinctiveness": 4.92
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 1,
+    "distinctiveness": 2.98
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 5,
+    "distinctiveness": 2.66
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 2,
+    "distinctiveness": 2.08
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 1,
+    "distinctiveness": 2.08
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

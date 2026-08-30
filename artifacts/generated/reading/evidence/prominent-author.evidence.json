@@ -1,0 +1,166 @@
+{
+ "slug": "prominent-author",
+ "title": "Prominent Author",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 26242,
+  "line_end": 26677,
+  "word_count": 6086,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_hebrew",
+    "label": "Hebrew",
+    "count": 2,
+    "per_million": 328.6,
+    "background_per_million": 5.1,
+    "distinctiveness": 32.51
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_missive",
+    "label": "Missive",
+    "count": 1,
+    "per_million": 164.3,
+    "background_per_million": 1.0,
+    "distinctiveness": 27.29
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bible",
+    "label": "Bible",
+    "count": 1,
+    "per_million": 164.3,
+    "background_per_million": 14.3,
+    "distinctiveness": 8.51
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_holy",
+    "label": "Holy",
+    "count": 1,
+    "per_million": 164.3,
+    "background_per_million": 18.4,
+    "distinctiveness": 7.03
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 4,
+    "per_million": 657.2,
+    "background_per_million": 103.2,
+    "distinctiveness": 6.08
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 21,
+    "per_million": 3450.5,
+    "background_per_million": 1079.7,
+    "distinctiveness": 3.18
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 13,
+    "per_million": 2136.0,
+    "background_per_million": 868.2,
+    "distinctiveness": 2.45
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 6,
+    "per_million": 985.9,
+    "background_per_million": 529.1,
+    "distinctiveness": 1.85
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_dorothy",
+    "label": "Dorothy",
+    "count": 4,
+    "per_million": 657.2,
+    "background_per_million": 4.1,
+    "distinctiveness": 72.34
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_pinky",
+    "label": "Pinky",
+    "count": 1,
+    "per_million": 164.3,
+    "background_per_million": 4.1,
+    "distinctiveness": 18.08
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mary",
+    "label": "Mary",
+    "count": 18,
+    "per_million": 2957.6,
+    "background_per_million": 276.8,
+    "distinctiveness": 10.49
+   }
+  ],
+  "distinct_terms": 8,
+  "distinct_names": 3
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1516,
+      "quote": "…on of images of reading, rather than of writing. Other relevant works by Dick are ‘Stability’ (c.1947, CS1), ‘Prominent Author’ (1954, CS2), and _Radio Free Albemuth_ (1985). 108 EXHILARATION AND TERROR OF THE POSTMODERN which, by a…"
+     },
+     {
+      "line": 3762,
+      "quote": "…e’ compared to ‘Human Is’ **88–90** , 102 fathers in 105 ‘Preserving Machine, The’ 93n14 ‘Project Earth’ 102 ‘Prominent Author’ 107n33 _Puttering About in a Small Land_ 67, 68n3 historical moment of 69, 74, 75n9, 101n26, 151n2, 204n4…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3055,
+      "quote": "…return, but can this bombedout, grey ruin be the fabled green Earth? “Elwood Builds an Ark” in his backyard. “Prominent Author” writes the Bible. “The Father-Thing” was a forerunner of Jack Finney’s _Invasion of the Body Snatchers_ .…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ }
+}

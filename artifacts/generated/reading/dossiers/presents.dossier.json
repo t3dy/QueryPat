@@ -1,0 +1,148 @@
+{
+ "artifact_id": "ART_DOSSIER_PRESENTS",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "presents",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Presents",
+  "slug": "presents",
+  "form": "story",
+  "word_count": 6596,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 49203,
+   "line_end": 49532,
+   "word_count": 6596,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "The authorities",
+    "name_id": "NAME_the-authorities",
+    "mentions": 3
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Simon",
+    "entity_id": "TERM_simon",
+    "count": 2,
+    "distinctiveness": 33.37
+   },
+   {
+    "label": "Tony",
+    "entity_id": "TERM_tony",
+    "count": 15,
+    "distinctiveness": 17.41
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 8,
+    "distinctiveness": 14.68
+   },
+   {
+    "label": "Realm",
+    "entity_id": "TERM_realm",
+    "count": 1,
+    "distinctiveness": 9.96
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 14,
+    "distinctiveness": 4.54
+   },
+   {
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
+    "count": 3,
+    "distinctiveness": 3.16
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 5,
+    "distinctiveness": 2.9
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 2,
+    "distinctiveness": 2.8
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 5,
+    "distinctiveness": 2.79
+   },
+   {
+    "label": "Garden",
+    "entity_id": "TERM_garden",
+    "count": 1,
+    "distinctiveness": 2.52
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 5,
+    "distinctiveness": 1.88
+   },
+   {
+    "label": "Father",
+    "entity_id": "TERM_father",
+    "count": 4,
+    "distinctiveness": 1.71
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 5,
+    "distinctiveness": 1.7
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

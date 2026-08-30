@@ -1,0 +1,143 @@
+{
+ "slug": "the-cookie-lady",
+ "title": "The Cookie Lady",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 13280,
+  "line_end": 13495,
+  "word_count": 3140,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 7,
+    "per_million": 2229.3,
+    "background_per_million": 128.7,
+    "distinctiveness": 16.67
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 1,
+    "per_million": 318.5,
+    "background_per_million": 35.8,
+    "distinctiveness": 7.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 5,
+    "per_million": 1592.4,
+    "background_per_million": 350.4,
+    "distinctiveness": 4.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 6,
+    "per_million": 1910.8,
+    "background_per_million": 529.1,
+    "distinctiveness": 3.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 7,
+    "per_million": 2229.3,
+    "background_per_million": 1079.7,
+    "distinctiveness": 2.06
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 5,
+    "per_million": 1592.4,
+    "background_per_million": 959.1,
+    "distinctiveness": 1.65
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 2,
+    "per_million": 636.9,
+    "background_per_million": 397.3,
+    "distinctiveness": 1.58
+   }
+  ],
+  "names": [],
+  "distinct_terms": 7,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 6844,
+      "quote": "…OVIL1 _December 6, 1973_ ## Dear Jack, Here are the signed Metromedia contracts back for the TV rights on\"The Cookie Lady\" (three copies). By the way—yesterday the London Daily Telegraph sent an interviewer down 370 THE SELECTE…"
+     },
+     {
+      "line": 6880,
+      "quote": "…s selling the republishing rights to itself. And I made my first (although tiny) U.S. TV sale: an old story, “The Cookie Lady,” for $750. Congratulations for winning the 1973 Grand Award of the Swedish Science Fiction Academy; you dese…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 2
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5477,
+      "quote": "…dered his fantasy stories to be his best, but R & C held that fantasies were for children. Only two made it: “The Cookie Lady” (w. 1952, p. 1953), a variation on the Hansel and Gretel theme, and the haunting “Upon the Dull Earth” (w. 1…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1442,
+      "quote": "…e to save themselves (or, in the case of ‘Project Earth’ [1953, CS2], the human race itself); others include ‘The Cookie Lady’ (1953, CS2), ‘Tony and the Beetles’ (1953, CS3), ‘Jon’s World’ (1954, CS2), ‘A World of Talent’ (1954, CS3),…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 2
+ }
+}

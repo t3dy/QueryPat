@@ -1,0 +1,220 @@
+{
+ "artifact_id": "ART_DOSSIER_ORPHEUS_WITH_CLAY_FEET",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "orpheus-with-clay-feet",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Orpheus With Clay Feet",
+  "slug": "orpheus-with-clay-feet",
+  "form": "story",
+  "word_count": 5397,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 45515,
+   "line_end": 45858,
+   "word_count": 5397,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Adolf Hitler",
+    "name_id": "NAME_adolf-hitler",
+    "mentions": 4
+   },
+   {
+    "name": "Hitler",
+    "name_id": "NAME_hitler",
+    "mentions": 7
+   },
+   {
+    "name": "Gibbon",
+    "name_id": "NAME_gibbon",
+    "mentions": 2
+   },
+   {
+    "name": "Orpheus",
+    "name_id": "NAME_orpheus",
+    "mentions": 4
+   },
+   {
+    "name": "A.E. van Vogt",
+    "name_id": "NAME_ae-van-vogt",
+    "mentions": 2
+   },
+   {
+    "name": "Jacob",
+    "name_id": "NAME_jacob",
+    "mentions": 1
+   },
+   {
+    "name": "Van Vogt",
+    "name_id": "NAME_van-vogt",
+    "mentions": 2
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Beethoven",
+    "entity_id": "TERM_beethoven",
+    "count": 5,
+    "distinctiveness": 76.25
+   },
+   {
+    "label": "Rome",
+    "entity_id": "TERM_rome",
+    "count": 2,
+    "distinctiveness": 26.11
+   },
+   {
+    "label": "Adam",
+    "entity_id": "TERM_adam",
+    "count": 1,
+    "distinctiveness": 18.33
+   },
+   {
+    "label": "Empire",
+    "entity_id": "TERM_empire",
+    "count": 2,
+    "distinctiveness": 13.49
+   },
+   {
+    "label": "Cosmic",
+    "entity_id": "TERM_cosmic",
+    "count": 2,
+    "distinctiveness": 10.11
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 6,
+    "distinctiveness": 10.09
+   },
+   {
+    "label": "Roman",
+    "entity_id": "TERM_roman",
+    "count": 1,
+    "distinctiveness": 7.01
+   },
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 1,
+    "distinctiveness": 5.35
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 3,
+    "distinctiveness": 4.16
+   },
+   {
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
+    "count": 3,
+    "distinctiveness": 3.86
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 2,
+    "distinctiveness": 3.43
+   },
+   {
+    "label": "Golden",
+    "entity_id": "TERM_golden",
+    "count": 1,
+    "distinctiveness": 2.88
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 14,
+    "distinctiveness": 2.69
+   },
+   {
+    "label": "Christ",
+    "entity_id": "TERM_christ",
+    "count": 1,
+    "distinctiveness": 2.36
+   },
+   {
+    "label": "Paul",
+    "entity_id": "TERM_paul",
+    "count": 1,
+    "distinctiveness": 2.33
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 4,
+    "distinctiveness": 1.84
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 3,
+    "distinctiveness": 1.76
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 2,
+    "distinctiveness": 1.61
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 5,
+    "distinctiveness": 1.56
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 5,
+    "distinctiveness": 1.51
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

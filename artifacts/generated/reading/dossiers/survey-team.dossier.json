@@ -1,0 +1,130 @@
+{
+ "artifact_id": "ART_DOSSIER_SURVEY_TEAM",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "survey-team",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Survey Team",
+  "slug": "survey-team",
+  "form": "story",
+  "word_count": 3987,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 25860,
+   "line_end": 26241,
+   "word_count": 3987,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Humans",
+    "name_id": "NAME_humans",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Scanner",
+    "entity_id": "TERM_scanner",
+    "count": 4,
+    "distinctiveness": 14.26
+   },
+   {
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 12,
+    "distinctiveness": 6.64
+   },
+   {
+    "label": "Fish",
+    "entity_id": "TERM_fish",
+    "count": 1,
+    "distinctiveness": 5.86
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 4,
+    "distinctiveness": 2.25
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 6,
+    "distinctiveness": 1.72
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 4,
+    "distinctiveness": 1.69
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 7,
+    "distinctiveness": 1.62
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 818,
+      "quote": "…hock_ (1990). > 18 See for instance _Time-Slip_ , _Palmer Eldritch_ , ‘The Unreconstructed M’ (1957, CS4), ‘Survey Team’ (1954, CS2), and _Lies, Inc_ . Or travellers may land on a previously unknown planet, barren and dull, and d…"
+     },
+     {
+      "line": 3770,
+      "quote": "…d of Chance_ ) 6n6, 36, 39n19 class in 185n12, 204n4, 209n8 journeying in 51, 114, 114n11 ‘Stability’ 107n33 ‘Survey Team’ 50n18 _Teeth_ , _see The Man Whose Teeth Were All Exactly Alike Three Stigmata of Palmer Eldritch, The_ de…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "2 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

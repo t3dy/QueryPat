@@ -137,7 +137,7 @@ def count_vocabulary(text: str, vocab: dict) -> Counter:
     return hits
 
 
-def build_background(registry: dict, vocab: dict) -> tuple[Counter, int]:
+def build_background(registry: dict, vocab: dict) -> tuple[Counter, int, Counter]:
     """Vocabulary frequencies across a general slice of the corpus.
 
     Terms like "Well" and "Look" score cleanly in the dictionary but occur
@@ -151,14 +151,19 @@ def build_background(registry: dict, vocab: dict) -> tuple[Counter, int]:
     """
     background: Counter = Counter()
     words = 0
+    chunks: list[str] = []
     for entry in registry["story_collections"][:2]:
-        path = PROJECT / entry["source_file"]
-        if not path.exists():
+        loaded = load_corpus_file(entry["source_file"])
+        if loaded is None:
             continue
-        text = path.read_text(encoding="utf-8", errors="replace")
+        text = loaded[0]
         background += count_vocabulary(text, vocab)
         words += len(text.split())
-    return background, words
+        chunks.append(text)
+    unigrams: Counter = Counter()
+    for chunk in chunks:
+        unigrams.update(tokenize(chunk))
+    return background, words, unigrams
 
 
 def match_concepts(text: str, vocab: dict, background: Counter,
@@ -190,17 +195,46 @@ def match_concepts(text: str, vocab: dict, background: Counter,
 
 # ── discussion of a work elsewhere in the corpus ────────────────────────
 
-def title_patterns(title: str, extra: list[str]) -> re.Pattern:
-    forms = {title, *extra}
-    # "The Game-Players of Titan" is also written without its hyphen or article.
-    bare = re.sub(r"^(the|a|an)\s+", "", title, flags=re.I)
-    forms.add(bare)
-    forms.add(title.replace("-", " "))
-    forms.add(bare.replace("-", " "))
-    alts = sorted({re.escape(f.strip()) for f in forms if len(f.strip()) > 3}, key=len, reverse=True)
-    # Tolerate the hyphen/space difference and runs of whitespace in scans.
-    joined = "|".join(a.replace(r"\-", r"[-\s]").replace(r"\ ", r"\s+") for a in alts)
-    return re.compile(rf"\b({joined})\b", re.I)
+# Above this rate in ordinary fiction, a title is an ordinary phrase and
+# "mentions" of it are mostly the language, not discussion of the work.
+# "Presents" and "Colony" fail this; "Ubik" and "Second Variety" pass easily.
+MAX_TITLE_RATE_PER_MILLION = 8.0
+
+
+def looks_like_citation(matched: str) -> bool:
+    """True when the matched text is capitalised the way a title is.
+
+    A work referred to by name is capitalised — "Presents", "The Gun" — while
+    the same words used ordinarily are not: "Dick's work presents", "he drew
+    the gun". Searching case-insensitively and then keeping only the
+    capitalised hits separates the two exactly, which no frequency heuristic
+    managed to do. Titles inside a fully upper-case run (running heads, index
+    lines) are also rejected.
+    """
+    words = [w for w in re.split(r"[\s-]+", matched.strip()) if w]
+    if not words:
+        return False
+    if matched.isupper() and len(matched) > 3:
+        return False
+    lead = [w for w in words if w.lower() not in {"the", "a", "an", "of", "and", "for"}]
+    return bool(lead) and all(w[:1].isupper() for w in lead)
+
+
+def title_patterns(title: str, extra: list[str]) -> re.Pattern | None:
+    """Search only for the title as written.
+
+    An earlier version also searched for the title stripped of its article,
+    which is what turned "The Gun" into a match on every "gun" in the archive.
+    """
+    if len(title.strip()) < 3:
+        return None
+    forms = {title.strip(), *extra}
+    forms.add(title.strip().replace("-", " "))
+    alts = sorted({re.escape(f) for f in forms if len(f) > 2}, key=len, reverse=True)
+    joined = "|".join(
+        a.replace(r"\-", r"[-\s]").replace(r"\ ", r"\s+") for a in alts
+    )
+    return re.compile(r"\b(" + joined + r")\b", re.I)
 
 
 def kwic(text: str, match: re.Match, width: int = KWIC_CHARS) -> str:
@@ -211,26 +245,53 @@ def kwic(text: str, match: re.Match, width: int = KWIC_CHARS) -> str:
     return ("…" if start > 0 else "") + snippet + ("…" if end < len(text) else "")
 
 
+# file path -> (text, line_start_offsets). Reading the letters, the Exegesis and
+# eight critical books once instead of once per work is the difference between
+# a corpus-wide run taking minutes and taking hours.
+_CORPUS_CACHE: dict[str, tuple[str, list[int]]] = {}
+
+
+def load_corpus_file(rel: str) -> tuple[str, list[int]] | None:
+    if rel in _CORPUS_CACHE:
+        return _CORPUS_CACHE[rel]
+    path = PROJECT / rel
+    if not path.exists():
+        return None
+    text = path.read_text(encoding="utf-8", errors="replace")
+    starts = [0]
+    for m in re.finditer(r"\n", text):
+        starts.append(m.end())
+    _CORPUS_CACHE[rel] = (text, starts)
+    return _CORPUS_CACHE[rel]
+
+
+def line_of(starts: list[int], offset: int) -> int:
+    """Binary search the line number for a character offset."""
+    lo, hi = 0, len(starts) - 1
+    while lo < hi:
+        mid = (lo + hi + 1) // 2
+        if starts[mid] <= offset:
+            lo = mid
+        else:
+            hi = mid - 1
+    return lo + 1
+
+
 def find_discussion(sources: list[dict], pattern: re.Pattern, lane: str) -> list[dict]:
     out: list[dict] = []
     for entry in sources:
-        path = PROJECT / entry["source_file"]
-        if not path.exists():
+        loaded = load_corpus_file(entry["source_file"])
+        if loaded is None:
             continue
-        text = path.read_text(encoding="utf-8", errors="replace")
-        # Map character offsets to line numbers once per file.
-        line_starts = [0]
-        for m in re.finditer(r"\n", text):
-            line_starts.append(m.end())
+        text, line_starts = loaded
 
-        found = list(pattern.finditer(text))
+        found = [m for m in pattern.finditer(text) if looks_like_citation(m.group(0))]
         if not found:
             continue
 
         quotes = []
         for m in found[:MAX_QUOTES_PER_SOURCE]:
-            lineno = sum(1 for s in line_starts if s <= m.start())
-            quotes.append({"line": lineno, "quote": kwic(text, m)})
+            quotes.append({"line": line_of(line_starts, m.start()), "quote": kwic(text, m)})
 
         out.append({
             "source_file": entry["source_file"],
@@ -248,8 +309,10 @@ def find_discussion(sources: list[dict], pattern: re.Pattern, lane: str) -> list
 
 def read_work_text(entry: dict) -> tuple[str, list[dict]]:
     """Return the work's text and its chapter spans (may be empty)."""
-    path = PROJECT / entry["source_file"]
-    lines = path.read_text(encoding="utf-8", errors="replace").split("\n")
+    loaded = load_corpus_file(entry["source_file"])
+    if loaded is None:
+        raise SystemExit(f"missing corpus file: {entry['source_file']}")
+    lines = loaded[0].split("\n")
 
     start = entry.get("line_start") or 0
     end = entry.get("line_end") or len(lines) - 1
@@ -283,7 +346,8 @@ def story_entry(manifest: dict, title_key: str) -> dict | None:
 # ── main ────────────────────────────────────────────────────────────────
 
 def gather(slug: str, db: sqlite3.Connection, registry: dict, vocab: dict,
-           manifest: dict, background: Counter, background_words: int) -> dict:
+           manifest: dict, background: Counter, background_words: int,
+           unigrams: Counter) -> dict:
     entry = next((n for n in registry["novels"] if n["slug"] == slug), None)
     kind = "novel"
     if entry is None:
@@ -299,8 +363,11 @@ def gather(slug: str, db: sqlite3.Connection, registry: dict, vocab: dict,
     words = len(text.split())
 
     pattern = title_patterns(title, [])
-    pkd = find_discussion(registry["pkd_own_voice"], pattern, lane="B")
-    crit = find_discussion(registry["criticism"], pattern, lane="C")
+    if pattern is None:
+        pkd, crit = [], []
+    else:
+        pkd = find_discussion(registry["pkd_own_voice"], pattern, lane="B")
+        crit = find_discussion(registry["criticism"], pattern, lane="C")
 
     concepts = [
         c for c in match_concepts(text, vocab, background, background_words)
@@ -329,6 +396,13 @@ def gather(slug: str, db: sqlite3.Connection, registry: dict, vocab: dict,
             "distinct_terms": sum(1 for c in concepts if c["entity_type"] == "term"),
             "distinct_names": sum(1 for c in concepts if c["entity_type"] == "name"),
         },
+        "title_search": {
+            "method": (
+                "Case-insensitive search for the title as written, keeping only "
+                "matches capitalised as a citation. This is what separates the "
+                "story 'Presents' from the verb 'presents'."
+            ),
+        },
         "pkd_on_this_work": {
             "sources": pkd,
             "total_mentions": sum(s["mention_count"] for s in pkd),
@@ -345,6 +419,12 @@ def main() -> int:
     ap.add_argument("--work", help="registry slug, or a story title_key")
     ap.add_argument("--all-pilot", action="store_true",
                     help="run the three pilot works")
+    ap.add_argument("--all-stories", action="store_true",
+                    help="run every story in the corpus manifest")
+    ap.add_argument("--all-novels", action="store_true",
+                    help="run every novel with readable primary text")
+    ap.add_argument("--min-words", type=int, default=1200,
+                    help="skip units shorter than this (default 1200)")
     args = ap.parse_args()
 
     registry = json.loads(REGISTRY.read_text(encoding="utf-8"))
@@ -354,27 +434,55 @@ def main() -> int:
     db = sqlite3.connect(DB_PATH)
     vocab = load_vocabulary(db)
     print(f"vocabulary: {len(vocab):,} phrases resolving to TERM_*/NAME_* ids")
-    background, background_words = build_background(registry, vocab)
+    background, background_words, unigrams = build_background(registry, vocab)
     print(f"background: {background_words:,} words of general prose for comparison")
 
-    slugs = ["ubik", "the-game-players-of-titan", "second-variety"] if args.all_pilot \
-        else [args.work]
-    if not slugs or slugs == [None]:
-        ap.error("pass --work or --all-pilot")
+    slugs: list[str] = []
+    if args.all_pilot:
+        slugs = ["ubik", "the-game-players-of-titan", "second-variety"]
+    if args.all_novels:
+        slugs += [
+            n["slug"] for n in registry["novels"]
+            if n.get("status") in {"ready", "needs_structure"}
+        ]
+    if args.all_stories:
+        slugs += [
+            u["title_key"] for u in manifest["story_units"]
+            if u["word_count"] >= args.min_words
+        ]
+    if args.work:
+        slugs.append(args.work)
+    slugs = list(dict.fromkeys(slugs))
+    if not slugs:
+        ap.error("pass --work, --all-pilot, --all-stories or --all-novels")
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    for slug in slugs:
-        ev = gather(slug, db, registry, vocab, manifest, background, background_words)
+    verbose = len(slugs) <= 6
+    done = failed = 0
+    for i, slug in enumerate(slugs, 1):
+        try:
+            ev = gather(slug, db, registry, vocab, manifest, background,
+                        background_words, unigrams)
+        except SystemExit as exc:
+            print(f"  ! {slug}: {exc}")
+            failed += 1
+            continue
         out = OUT_DIR / f"{slug}.evidence.json"
         out.write_text(json.dumps(ev, indent=1, ensure_ascii=False), encoding="utf-8")
-        print(
-            f"  {slug:<28} {ev['source']['word_count']:>7,}w"
-            f"  chapters={ev['structure']['chapter_count']:>3}"
-            f"  terms={ev['concepts']['distinct_terms']:>4}"
-            f"  names={ev['concepts']['distinct_names']:>4}"
-            f"  pkd={ev['pkd_on_this_work']['total_mentions']:>4}"
-            f"  crit={ev['criticism']['total_mentions']:>4}"
-        )
+        done += 1
+        if verbose:
+            print(
+                f"  {slug:<28} {ev['source']['word_count']:>7,}w"
+                f"  chapters={ev['structure']['chapter_count']:>3}"
+                f"  terms={ev['concepts']['distinct_terms']:>4}"
+                f"  names={ev['concepts']['distinct_names']:>4}"
+                f"  pkd={ev['pkd_on_this_work']['total_mentions']:>4}"
+                f"  crit={ev['criticism']['total_mentions']:>4}"
+            )
+        elif i % 25 == 0 or i == len(slugs):
+            print(f"  {i}/{len(slugs)} gathered")
+    print(f"\nwrote {done} evidence files to {OUT_DIR.relative_to(PROJECT)}"
+          + (f"; {failed} failed" if failed else ""))
     return 0
 
 

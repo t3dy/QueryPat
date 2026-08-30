@@ -55,6 +55,17 @@ def slugify(text: str) -> str:
     return re.sub(r"-{2,}", "-", text)
 
 
+# Novellas number their sections in Roman numerals, and those headings are set
+# in capitals exactly like a story title. Left alone they become "stories"
+# whose title is "I" or "IV" — which then matches every "I" in the corpus.
+ROMAN_RE = re.compile(
+    r"^(?=[MDCLXVI])M*(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})\.?$", re.I
+)
+
+# A title shorter than this cannot be searched for reliably in running prose.
+MIN_TITLE_CHARS = 4
+
+
 # A heading that trails into punctuation is a line of prose the PDF-to-markdown
 # conversion promoted by accident, not a title.
 BAD_TAIL = (":", "?", '"', "\u201d", ",", ";", "\u2014", "-")
@@ -70,6 +81,8 @@ def heading_is_titlelike(raw: str) -> bool:
     core = re.sub(r"^#{1,6}\s*", "", raw).strip()
     core = re.sub(r"[*_`]+", "", core).strip()
     if not core or core.endswith(BAD_TAIL):
+        return False
+    if ROMAN_RE.match(core) or len(core) < MIN_TITLE_CHARS:
         return False
     alpha = "".join(c for c in core if c.isalpha())
     return bool(alpha) and alpha.isupper()
@@ -141,7 +154,9 @@ def split_headed_file(path: Path, container_title: str | None) -> list[Unit]:
             reason = "front matter or divider"
         elif not titlelike:
             kind = "rejected"
-            reason = "heading was not set in capitals"
+            reason = ("heading is a section number or too short to be a title"
+                      if (ROMAN_RE.match(title) or len(title) < MIN_TITLE_CHARS)
+                      else "heading was not set in capitals")
         elif words < MIN_STORY_WORDS:
             kind = "rejected"
             reason = f"only {words} words follow the heading"

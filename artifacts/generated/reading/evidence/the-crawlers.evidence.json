@@ -1,0 +1,90 @@
+{
+ "slug": "the-crawlers",
+ "title": "The Crawlers",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+  "line_start": 4932,
+  "line_end": 5137,
+  "word_count": 3122,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 320.3,
+    "background_per_million": 29.6,
+    "distinctiveness": 9.25
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fish",
+    "label": "Fish",
+    "count": 1,
+    "per_million": 320.3,
+    "background_per_million": 37.8,
+    "distinctiveness": 7.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 6,
+    "per_million": 1921.8,
+    "background_per_million": 868.2,
+    "distinctiveness": 2.2
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 3,
+    "per_million": 960.9,
+    "background_per_million": 529.1,
+    "distinctiveness": 1.8
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 1,
+    "per_million": 320.3,
+    "background_per_million": 202.2,
+    "distinctiveness": 1.55
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-fbi",
+    "label": "The FBI",
+    "count": 1,
+    "per_million": 320.3,
+    "background_per_million": 54.1,
+    "distinctiveness": 5.42
+   }
+  ],
+  "distinct_terms": 5,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

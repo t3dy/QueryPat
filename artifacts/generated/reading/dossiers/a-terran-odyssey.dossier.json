@@ -1,0 +1,219 @@
+{
+ "artifact_id": "ART_DOSSIER_A_TERRAN_ODYSSEY",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "a-terran-odyssey",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "A Terran Odyssey",
+  "slug": "a-terran-odyssey",
+  "form": "story",
+  "word_count": 12843,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 50467,
+   "line_end": 51242,
+   "word_count": 12843,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Hoppy Harrington",
+    "name_id": "NAME_hoppy-harrington",
+    "mentions": 12
+   },
+   {
+    "name": "Stuart McConchie",
+    "name_id": "NAME_stuart-mcconchie",
+    "mentions": 7
+   },
+   {
+    "name": "Bonny Keller",
+    "name_id": "NAME_bonny-keller",
+    "mentions": 7
+   },
+   {
+    "name": "Edie Keller",
+    "name_id": "NAME_edie-keller",
+    "mentions": 7
+   },
+   {
+    "name": "Walt Dangerfield",
+    "name_id": "NAME_walt-dangerfield",
+    "mentions": 5
+   },
+   {
+    "name": "Carl Jung",
+    "name_id": "NAME_carl-jung",
+    "mentions": 1
+   },
+   {
+    "name": "Jim Fergesson",
+    "name_id": "NAME_jim-fergesson",
+    "mentions": 1
+   },
+   {
+    "name": "Solomon",
+    "name_id": "NAME_solomon",
+    "mentions": 1
+   },
+   {
+    "name": "Zebra",
+    "name_id": "NAME_zebra",
+    "mentions": 1
+   },
+   {
+    "name": "Beethoven",
+    "name_id": "NAME_beethoven",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [
+   {
+    "name": "Luther",
+    "name_id": "NAME_luther",
+    "mentions": 1
+   }
+  ],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Jung",
+    "entity_id": "TERM_jung",
+    "count": 2,
+    "distinctiveness": 22.11
+   },
+   {
+    "label": "Bill",
+    "entity_id": "TERM_bill",
+    "count": 37,
+    "distinctiveness": 20.02
+   },
+   {
+    "label": "Fish",
+    "entity_id": "TERM_fish",
+    "count": 3,
+    "distinctiveness": 5.46
+   },
+   {
+    "label": "Bible",
+    "entity_id": "TERM_bible",
+    "count": 1,
+    "distinctiveness": 4.03
+   },
+   {
+    "label": "Palm",
+    "entity_id": "TERM_palm",
+    "count": 1,
+    "distinctiveness": 3.48
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 7,
+    "distinctiveness": 2.01
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 12,
+    "distinctiveness": 2.0
+   },
+   {
+    "label": "Christ",
+    "entity_id": "TERM_christ",
+    "count": 2,
+    "distinctiveness": 1.98
+   },
+   {
+    "label": "Tears",
+    "entity_id": "TERM_tears",
+    "count": 1,
+    "distinctiveness": 1.91
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 2,
+    "distinctiveness": 1.88
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 25,
+    "distinctiveness": 1.79
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 3,
+    "distinctiveness": 1.75
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 7,
+    "distinctiveness": 1.72
+   },
+   {
+    "label": "Soviet",
+    "entity_id": "TERM_soviet",
+    "count": 2,
+    "distinctiveness": 1.59
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5559,
+      "quote": "…ow We Got Along After the Bomb (w. 1963, p. 1965. Phil had proposed two titles: In Earth’s Diurnal Course and A Terran Odyssey). A post-nuclear holocaust idyll that is one of Phil’s warmest and most accessible novels. See Chapter 1; als…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "1 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

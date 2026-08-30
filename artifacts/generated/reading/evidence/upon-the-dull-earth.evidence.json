@@ -1,0 +1,149 @@
+{
+ "slug": "upon-the-dull-earth",
+ "title": "Upon The Dull Earth",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+  "line_start": 5988,
+  "line_end": 6555,
+  "word_count": 8250,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_garden",
+    "label": "Garden",
+    "count": 3,
+    "per_million": 363.6,
+    "background_per_million": 55.2,
+    "distinctiveness": 6.04
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gods",
+    "label": "Gods",
+    "count": 1,
+    "per_million": 121.2,
+    "background_per_million": 30.6,
+    "distinctiveness": 3.4
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 7,
+    "per_million": 848.5,
+    "background_per_million": 256.4,
+    "distinctiveness": 3.25
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 11,
+    "per_million": 1333.3,
+    "background_per_million": 462.7,
+    "distinctiveness": 2.85
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 5,
+    "per_million": 606.1,
+    "background_per_million": 311.5,
+    "distinctiveness": 1.91
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 2,
+    "per_million": 242.4,
+    "background_per_million": 128.7,
+    "distinctiveness": 1.81
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 6,
+    "per_million": 727.3,
+    "background_per_million": 397.3,
+    "distinctiveness": 1.81
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 6,
+    "per_million": 727.3,
+    "background_per_million": 440.2,
+    "distinctiveness": 1.63
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_saint",
+    "label": "Saint",
+    "count": 1,
+    "per_million": 121.2,
+    "background_per_million": 6.1,
+    "distinctiveness": 10.89
+   }
+  ],
+  "distinct_terms": 8,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 5380,
+      "quote": "…The only reason I can see for not going ahead with this would be if it were to conflict with other sales of “Upon the Dull Earth,” as for instance in the BEST OF PHILIP K. DICK which Ballantine is going to bring out. Would it conflict? Of…"
+     },
+     {
+      "line": 6350,
+      "quote": "…ke “The Defenders,” this could be pulled to make room for “Second Variety.”) “Oh, To Be a Blobel.” “Roog.” “Upon the Dull Earth.” Personally, although Don Wollheim used “Breakfast At Twilight,” I’d like to see it included, with “The De…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 2
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5477,
+      "quote": "…made it: “The Cookie Lady” (w. 1952, p. 1953), a variation on the Hansel and Gretel theme, and the haunting “Upon the Dull Earth” (w. 1953, p. 1954), Phil’s take on the Orpheus legend, with a lover seeking to rescue his Eurydice from life…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

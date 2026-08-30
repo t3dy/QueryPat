@@ -1,0 +1,143 @@
+{
+ "artifact_id": "ART_DOSSIER_PLANET_FOR_TRANSIENTS",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "planet-for-transients",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Planet For Transients",
+  "slug": "planet-for-transients",
+  "form": "story",
+  "word_count": 3728,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 24588,
+   "line_end": 24935,
+   "word_count": 3728,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Humans",
+    "name_id": "NAME_humans",
+    "mentions": 6
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Gnosis",
+    "entity_id": "TERM_gnosis",
+    "count": 1,
+    "distinctiveness": 44.55
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 7,
+    "distinctiveness": 3.16
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 4,
+    "distinctiveness": 2.66
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 10,
+    "distinctiveness": 2.47
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 4,
+    "distinctiveness": 2.02
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 3,
+    "distinctiveness": 1.81
+   },
+   {
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 3,
+    "distinctiveness": 1.77
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 3,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 786,
+      "quote": "…ne and interact: the little guy—a minor operative or repairman, a put-upon > 12 ‘The Great C’ (1953, CS1), ‘Planet for Transients’ (1953, CS2). ( _Deus Irae_ was published in 1976.) > 13 Suvin (1988: 120–21) very interestingly discusses…"
+     },
+     {
+      "line": 3762,
+      "quote": "…manufactured events in **20–21** , 81n13, 91, 101, 112, 135n2 power and fragmentation in 203–04, 224, 225n2 ‘Planet for Transients’ 48n12 ‘Pre-Persons, The’ compared to ‘Human Is’ **88–90** , 102 fathers in 105 ‘Preserving Machine, The’ 93n…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5651,
+      "quote": "…hil submitted to win the Doubleday contract in 1964. Two of Phil’s early stories, “The Great C” (1953) and “A Planet for Transients” (1953), were drawn upon for plot parts, but a greater 443 influence was Dr. Bloodmoney- the post-holocau…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "3 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

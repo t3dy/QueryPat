@@ -1,0 +1,108 @@
+{
+ "slug": "some-kinds-of-life",
+ "title": "Some Kinds Of Life",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 17126,
+  "line_end": 17517,
+  "word_count": 3777,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 8,
+    "per_million": 2118.1,
+    "background_per_million": 529.1,
+    "distinctiveness": 3.97
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 9,
+    "per_million": 2382.8,
+    "background_per_million": 868.2,
+    "distinctiveness": 2.73
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 8,
+    "per_million": 2118.1,
+    "background_per_million": 959.1,
+    "distinctiveness": 2.2
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 8,
+    "per_million": 2118.1,
+    "background_per_million": 1079.7,
+    "distinctiveness": 1.95
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 1,
+    "per_million": 264.8,
+    "background_per_million": 138.9,
+    "distinctiveness": 1.84
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_joan",
+    "label": "Joan",
+    "count": 42,
+    "per_million": 11119.9,
+    "background_per_million": 169.6,
+    "distinctiveness": 63.7
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-artifact",
+    "label": "The Artifact",
+    "count": 1,
+    "per_million": 264.8,
+    "background_per_million": 2.0,
+    "distinctiveness": 37.59
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_sophia",
+    "label": "Sophia",
+    "count": 1,
+    "per_million": 264.8,
+    "background_per_million": 17.4,
+    "distinctiveness": 11.84
+   }
+  ],
+  "distinct_terms": 5,
+  "distinct_names": 3
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

@@ -1,0 +1,170 @@
+{
+ "slug": "the-commuter",
+ "title": "The Commuter",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 17834,
+  "line_end": 18127,
+  "word_count": 2730,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_holy",
+    "label": "Holy",
+    "count": 1,
+    "per_million": 366.3,
+    "background_per_million": 18.4,
+    "distinctiveness": 15.66
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 2,
+    "per_million": 732.6,
+    "background_per_million": 103.2,
+    "distinctiveness": 6.77
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 2,
+    "per_million": 732.6,
+    "background_per_million": 128.7,
+    "distinctiveness": 5.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 1,
+    "per_million": 366.3,
+    "background_per_million": 130.7,
+    "distinctiveness": 2.7
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 1,
+    "per_million": 366.3,
+    "background_per_million": 138.9,
+    "distinctiveness": 2.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 2,
+    "per_million": 732.6,
+    "background_per_million": 397.3,
+    "distinctiveness": 1.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 2,
+    "per_million": 732.6,
+    "background_per_million": 440.2,
+    "distinctiveness": 1.65
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_laura",
+    "label": "Laura",
+    "count": 8,
+    "per_million": 2930.4,
+    "background_per_million": 41.9,
+    "distinctiveness": 62.51
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_nixon",
+    "label": "Nixon",
+    "count": 1,
+    "per_million": 366.3,
+    "background_per_million": 6.1,
+    "distinctiveness": 32.91
+   }
+  ],
+  "distinct_terms": 7,
+  "distinct_names": 2
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 999,
+      "quote": "…al or orderly way for God to handle things. (You'll find early stories of mine such as \"Adjustment Team\" and \"The Commuter\" dealing with post-screwup changes; they're always bad news to the Creator.) In connection with this thought,…"
+     },
+     {
+      "line": 1735,
+      "quote": "…n the sea of potential facts around each actualized fact—each that, so to speak, makes it). Like in my story \"The Commuter.\" Also, there is to me the real thought that adjustments (à la \"Adjustment Team\") are being made in our past,…"
+     },
+     {
+      "line": 13258,
+      "quote": "…mothy Archer_ \"Chains of Air, Web of Aether,\" [>], [>], [>] _Clans of the Alphane Moon,_ [>], [>], [>] \"The Commuter,\" [>], [>], [>] _Confessions of a Crap Artist,_ [>], [>], [>], [>]–[>] _The Cosmic Puppets,_ [>] _Count…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1278,
+      "quote": "…allantine has: “Nanny” “The Turning Wheel” “The Defenders” “Adjustment Team” “Psi-Man Heal My Child” “The Commuter” “A Present For Pat” “Breakfast at Twilight” “Shell Game” That is it, Jack. Stress to Ballantine that I w…"
+     },
+     {
+      "line": 1620,
+      "quote": "…al or orderly way for God to handle things. (You’ll find early stories of mine such as “Adjustment Team” and “The Commuter” dealing with post-screwup changes; they’re always bad news to the Creator.) In connection with this thought,…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 5
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1406,
+      "quote": "…ms of the fifties: there is no special place or agent of horror such as the House of Usher or Count Dracula. ‘The Commuter’ (1953, CS2) treats the main character’s discovery that a suburb, complete with its own railway station, neat…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

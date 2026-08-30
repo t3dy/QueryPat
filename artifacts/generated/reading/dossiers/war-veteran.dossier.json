@@ -1,0 +1,128 @@
+{
+ "artifact_id": "ART_DOSSIER_WAR_VETERAN",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "war-veteran",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "War Veteran",
+  "slug": "war-veteran",
+  "form": "story",
+  "word_count": 1315,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+   "line_start": 7434,
+   "line_end": 7525,
+   "word_count": 1315,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "John",
+    "entity_id": "TERM_john",
+    "count": 1,
+    "distinctiveness": 7.6
+   },
+   {
+    "label": "Brain",
+    "entity_id": "TERM_brain",
+    "count": 1,
+    "distinctiveness": 3.67
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 1,
+    "distinctiveness": 2.4
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 1,
+    "distinctiveness": 1.89
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 1,
+    "distinctiveness": 1.89
+   },
+   {
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 1,
+    "distinctiveness": 1.68
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6066,
+      "quote": "…. THE GAME PLAYERS OF TITAN, THE SIMULACRA, DR. BLOODMONEY were original, but I used material from the story “War Veteran” (published in _If,_ and “The Mold of Yancy”, published in _If,_ and “The Defenders” published in _Galaxy) fo…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5595,
+      "quote": "…The Penultimate Truth draws upon four of Phil’s stories: “The Defenders” (1953), “The Mold of Yancy” (1955), “War Veteran” (1955), and “The Unreconstructed M” (1956). Penultimate is Phil’s most pointed examination of the lies woven…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "1 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

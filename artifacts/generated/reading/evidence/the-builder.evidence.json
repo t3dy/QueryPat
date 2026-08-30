@@ -1,0 +1,120 @@
+{
+ "slug": "the-builder",
+ "title": "The Builder",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 8342,
+  "line_end": 8699,
+  "word_count": 4248,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 7,
+    "per_million": 1647.8,
+    "background_per_million": 350.4,
+    "distinctiveness": 4.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 7,
+    "per_million": 1647.8,
+    "background_per_million": 529.1,
+    "distinctiveness": 3.09
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 6,
+    "per_million": 1412.4,
+    "background_per_million": 609.8,
+    "distinctiveness": 2.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 1,
+    "per_million": 235.4,
+    "background_per_million": 103.2,
+    "distinctiveness": 2.18
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 2,
+    "per_million": 470.8,
+    "background_per_million": 256.4,
+    "distinctiveness": 1.8
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 3,
+    "per_million": 706.2,
+    "background_per_million": 440.2,
+    "distinctiveness": 1.59
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 4,
+    "per_million": 941.6,
+    "background_per_million": 589.4,
+    "distinctiveness": 1.58
+   }
+  ],
+  "names": [],
+  "distinct_terms": 7,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 697,
+      "quote": "…t have arrived here already, even long ago, and touched a few of us, bringing those few into the total entity the Builder was preparing. That entity would, in our words, be a man and also a spirit—touched by the Holy Spirit or bo…"
+     },
+     {
+      "line": 703,
+      "quote": "…toward us might well be the same veneration as ours toward them. What is truly to be venerated and revered is the Builder Himself and His Plan which caused both our species to come into being and then move toward each other to join…"
+     },
+     {
+      "line": 2529,
+      "quote": "…ice. Have I had an insight here without realizing it, that what is being built in linear time is identical to the Builder who lies outside of time— is it/he/she completing itself? The highest level of homeostasis: it is its own cre…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

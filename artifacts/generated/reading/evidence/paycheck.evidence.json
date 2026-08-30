@@ -1,0 +1,112 @@
+{
+ "slug": "paycheck",
+ "title": "Paycheck",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
+  "line_start": 10386,
+  "line_end": 10625,
+  "word_count": 3779,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palm",
+    "label": "Palm",
+    "count": 2,
+    "per_million": 529.2,
+    "background_per_million": 17.4,
+    "distinctiveness": 23.66
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_church",
+    "label": "Church",
+    "count": 2,
+    "per_million": 529.2,
+    "background_per_million": 22.5,
+    "distinctiveness": 19.26
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 2,
+    "per_million": 529.2,
+    "background_per_million": 105.2,
+    "distinctiveness": 4.8
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 9,
+    "per_million": 2381.6,
+    "background_per_million": 609.8,
+    "distinctiveness": 3.87
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 1,
+    "per_million": 264.6,
+    "background_per_million": 89.9,
+    "distinctiveness": 2.79
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 2,
+    "per_million": 529.2,
+    "background_per_million": 221.7,
+    "distinctiveness": 2.34
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 3,
+    "per_million": 793.9,
+    "background_per_million": 398.4,
+    "distinctiveness": 1.97
+   }
+  ],
+  "names": [],
+  "distinct_terms": 7,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3051,
+      "quote": "…lways telling me that spiders were mankind’s friends. He would have liked to have a tarantula for a pet.) In “Paycheck,” Jennings I foresees and engineers, by use of a time scoop, the successful escape and job rehabilitation of…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

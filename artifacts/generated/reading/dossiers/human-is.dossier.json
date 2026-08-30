@@ -1,0 +1,249 @@
+{
+ "artifact_id": "ART_DOSSIER_HUMAN_IS",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "human-is",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Human Is",
+  "slug": "human-is",
+  "form": "story",
+  "word_count": 4210,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 22274,
+   "line_end": 22697,
+   "word_count": 4210,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Tears",
+    "entity_id": "TERM_tears",
+    "count": 3,
+    "distinctiveness": 17.49
+   },
+   {
+    "label": "Scanner",
+    "entity_id": "TERM_scanner",
+    "count": 4,
+    "distinctiveness": 13.5
+   },
+   {
+    "label": "Garden",
+    "entity_id": "TERM_garden",
+    "count": 2,
+    "distinctiveness": 7.9
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 2,
+    "distinctiveness": 3.55
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 7,
+    "distinctiveness": 2.7
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 6,
+    "distinctiveness": 2.67
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 3,
+    "distinctiveness": 2.25
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 9,
+    "distinctiveness": 2.22
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 2,
+    "distinctiveness": 2.07
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 5,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 6336,
+      "quote": "…d it. Personally, I hated that story from the start, since it is a horror story. But of all the omissions, “Human Is” stands as most glaring. It _must_ be included. I sent Betty Ballantine a copy in the group of stories all th…"
+     },
+     {
+      "line": 6438,
+      "quote": "…now, so you can see that the entire piece builds up to an expression of the import and meaning of the story “Human Is,” and therefore I do really feel terribly, terribly strongly that this story _must_ be included. My entire “A…"
+     },
+     {
+      "line": 6438,
+      "quote": "…rongly that this story _must_ be included. My entire “Afterthoughts” statement depends on it, and, with­ out “Human Is” in the collection, makes no sense. My goodnessjt’s such a very short story. Again, I say PLEASE. Let me know…"
+     },
+     {
+      "line": 6658,
+      "quote": "…our May 17th letter. “Cantata 140” must be excluded , for example. And so forth, as you say. Just so long as “Human Is” stays in it. You ask if I want a dedication. (On the BEST OF PHILIP K. DICK collec­ tion.) Yes; please hav…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6630,
+      "quote": "…ed stories myself. I know this sounds nutty, but it is true. My favorite short story of my own is one called “Human Is”, and I can’t locate a copy of it anywhere—I may literally die without ever seeing a copy of it again. I reme…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 16,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 8,
+    "quotes": [
+     {
+      "line": 1254,
+      "quote": "…tasy** Two of Dick’s stories about typical families will set a framework for the discussion. In the first, ‘Human Is’ (1955, CS2), a woman is married to the very embodiment of impersonality, bloodless rationality and careerism…"
+     },
+     {
+      "line": 1274,
+      "quote": "…RT STORIES 89 ich kann nichts anders.’[9 ] Because the story is, for better or worse, offensive, whereas ‘Human Is’ is unlikely to annoy anyone, it is worth discussing its morality and its fantasy, though this entails briefl…"
+     },
+     {
+      "line": 1276,
+      "quote": "…ts fantasy, though this entails briefly digressing from our nominated period (the early fifties).[10] Like ‘Human Is’, ‘The Pre-Persons’ is set in an outwardly typical American family and concerns what it is to be a person. In…"
+     },
+     {
+      "line": 1418,
+      "quote": "…d his peers kill the monstrous grub, the ‘real’ father is gone forever (just as the ‘real’ Lester is gone in ‘Human Is’); however, insofar as the monstrous grub is a metaphor for the way one’s father can sometimes seem, frizzlin…"
+     },
+     {
+      "line": 1430,
+      "quote": "…ways to bring his stories to a close, but also challenging the process of fantasy. ‘The Father-Thing’ and ‘Human Is’ could be seen as counterparts, one treating an evil substitution, the other a benign one. Dick often works i…"
+     },
+     {
+      "line": 3028,
+      "quote": "…Impostor’ or _Androids_ ) are open and investigatory. Aside from early short stories in parable form such as ‘Human Is’ (1955, CS2), we cannot describe the android fictions as simply warning that humans are becoming mechanical,…"
+     },
+     {
+      "line": 3746,
+      "quote": "…2 ‘Great C, The’ 48n12 ‘Gun, The’ 91 ‘Hanging Stranger, The’ lack of difference in **98–99** , 100n24, 106 ‘Human Is’ **87** , 101, 225 ‘I Hope I Shall Arrive Soon’ movement as stasis in **52–53** ‘The Impossible Planet’ 50n18…"
+     },
+     {
+      "line": 3762,
+      "quote": "…2 power and fragmentation in 203–04, 224, 225n2 ‘Planet for Transients’ 48n12 ‘Pre-Persons, The’ compared to ‘Human Is’ **88–90** , 102 fathers in 105 ‘Preserving Machine, The’ 93n14 ‘Project Earth’ 102 ‘Prominent Author’ 107n33…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 1447,
+      "quote": "…In “Impostor,” robot Spence wins the reader’s sympathy far more than do his calculating human pursuers. In “Human Is” (Winter 1955 Startling Stories), an alien also takes over a human form. Lester Herrick was a jerk to his wif…"
+     },
+     {
+      "line": 1447,
+      "quote": "…ien soul now occupying his body-she saves the alien’s life when the authorities track it down. Phil wrote of “Human Is”: I have not really changed my view since I wrote this story, back in the fifties. It’s not what you look l…"
+     },
+     {
+      "line": 1453,
+      "quote": "…and sticks and metal, and will forever, whatever shape we take, wherever we go, whatever we become. For me, “Human Is” is my credo. May it be yours. Editor Campbell presided over Astounding for the unheard of duration of 1937…"
+     },
+     {
+      "line": 6041,
+      "quote": "…- 76 Private love: Letter, PKD to Mr. Haas, September 16, 1954. - 76 Olham robot: “Impostor” (1953). On “Human Is”: “Afterthoughts of the Author,” The Best of Philip K. Dick (New York: Ballantine, 461 1977), p. 449. -…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 417,
+      "quote": "…and stories during the next few days, I commented delightedly on each story and novel. I especially loved “Human Is” and told him, “‘Human Is’ is your best story.” Our reading tastes were eclectic. Phil and I both owned cop…"
+     },
+     {
+      "line": 417,
+      "quote": "…xt few days, I commented delightedly on each story and novel. I especially loved “Human Is” and told him, “‘Human Is’ is your best story.” Our reading tastes were eclectic. Phil and I both owned copies of _Winnie the Pooh_ a…"
+     },
+     {
+      "line": 3065,
+      "quote": "…ny fifty-dollar-a-month cottage. Jerry was a psychology professor…. Marge was pregnant. Phil wrote the story “Human Is” with the Hirsches in mind. It bothered Phil a lot that the pulps would axe his work any way they wanted. He…"
+     },
+     {
+      "line": 3249,
+      "quote": "…9 _**Galactic Pot-Healer**_ 67, 142 _**Game Players of Titan, The**_ 71–72, 264 _**Ganymede Takeover**_ 93 **“Human Is”** 38, 259 _**Humpty Dumpty in Oakland**_ 59 **“King of the Elves”** 251, 257 _**Man in the High Castle, The*…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "5 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "16 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

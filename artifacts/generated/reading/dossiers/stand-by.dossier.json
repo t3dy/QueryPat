@@ -1,0 +1,111 @@
+{
+ "artifact_id": "ART_DOSSIER_STAND_BY",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "stand-by",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Stand-by",
+  "slug": "stand-by",
+  "form": "story",
+  "word_count": 7019,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 46509,
+   "line_end": 46920,
+   "word_count": 7019,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Jim Briskin",
+    "name_id": "NAME_jim-briskin",
+    "mentions": 15
+   },
+   {
+    "name": "The FBI",
+    "name_id": "NAME_the-fbi",
+    "mentions": 3
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "James",
+    "entity_id": "TERM_james",
+    "count": 3,
+    "distinctiveness": 14.0
+   },
+   {
+    "label": "Joint",
+    "entity_id": "TERM_joint",
+    "count": 1,
+    "distinctiveness": 10.04
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 16,
+    "distinctiveness": 4.27
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 5,
+    "distinctiveness": 2.62
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 3,
+    "distinctiveness": 1.86
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 11,
+    "distinctiveness": 1.79
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

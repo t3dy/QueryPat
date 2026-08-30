@@ -1,0 +1,230 @@
+{
+ "slug": "the-preserving-machine",
+ "title": "The Preserving Machine",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 5012,
+  "line_end": 5209,
+  "word_count": 3483,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_rome",
+    "label": "Rome",
+    "count": 2,
+    "per_million": 574.2,
+    "background_per_million": 9.2,
+    "distinctiveness": 40.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_beethoven",
+    "label": "Beethoven",
+    "count": 1,
+    "per_million": 287.1,
+    "background_per_million": 7.2,
+    "distinctiveness": 23.63
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_creator",
+    "label": "Creator",
+    "count": 1,
+    "per_million": 287.1,
+    "background_per_million": 10.2,
+    "distinctiveness": 18.87
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 3,
+    "per_million": 861.3,
+    "background_per_million": 59.2,
+    "distinctiveness": 13.41
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_garden",
+    "label": "Garden",
+    "count": 1,
+    "per_million": 287.1,
+    "background_per_million": 55.2,
+    "distinctiveness": 4.77
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 4,
+    "per_million": 1148.4,
+    "background_per_million": 256.4,
+    "distinctiveness": 4.39
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 7,
+    "per_million": 2009.8,
+    "background_per_million": 529.1,
+    "distinctiveness": 3.76
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 1,
+    "per_million": 287.1,
+    "background_per_million": 103.2,
+    "distinctiveness": 2.65
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 4,
+    "per_million": 1148.4,
+    "background_per_million": 440.2,
+    "distinctiveness": 2.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 5,
+    "per_million": 1435.5,
+    "background_per_million": 609.8,
+    "distinctiveness": 2.33
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 7,
+    "per_million": 2009.8,
+    "background_per_million": 959.1,
+    "distinctiveness": 2.08
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_beethoven",
+    "label": "Beethoven",
+    "count": 11,
+    "per_million": 3158.2,
+    "background_per_million": 20.4,
+    "distinctiveness": 124.2
+   }
+  ],
+  "distinct_terms": 11,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LETTERS_VOLU.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 998,
+      "quote": "…previous one. The reason: both stories are related, and I feel sure you will want to see them together. Now, “The Preserving Machine” is long, contemplative, and philosophical. THE SELECTED LETTERS OF PHILIP K. DICK 21 “Left Shoe, My Foot…"
+     },
+     {
+      "line": 1178,
+      "quote": "…18, 1953_ ## Dear Mr. Boucher, Thank you very much for the very nice things you said in the printing of “The Preserving Machine.” I was overcome with delight. I was also overcome with delight to hear the Richard Tauber records on your pr…"
+     },
+     {
+      "line": 1292,
+      "quote": "…ed to me when you mentioned that you 34 THE SELECTED LETTERS OF PHILIP K. DICK picked up the original on “The Preserving Machine.” I have a ms of at least one and I think two previous versions; one is longer and one is shorter than the fi…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 37,
+      "quote": "…le (1988) Nick and the Glimmung (1988) The Dark-Haired Girl (1988) Galactic Pot-Healer (1969) Ubik (1969) The Preserving Machine (1969) A Maze of Death (1970) Our Friends from Frolix 8 (1970) We Can Build You (1972) The Book of Philip K.…"
+     },
+     {
+      "line": 4694,
+      "quote": "…Out in the Garden.” Fantasy August ’52 “Beyond Lies the Wub.” Planet Stories, July ’52 “Roog.” F&SF Feb. ’53 “The Preserving Machine.” F&SF, June ’53 I would also recommend a story by another s-f author, Rog Phillips, which I’ve long felt sho…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 5
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 6,
+    "quotes": [
+     {
+      "line": 5385,
+      "quote": "…mber It for You Wholesale.” (Since Phil’s death, this film project has become a reality-see the discussion of The Preserving Machine in Chronological Survey.) There were even occasional Hollywood parties, such as the one thrown for prospectiv…"
+     },
+     {
+      "line": 5453,
+      "quote": "…this survey by way of the separate collections-A Handful of Darkness (1955), The 418 Variable Man (1957), The Preserving Machine (1969), The Book of Philip K. Dick (1972), The Best of Philip K. Dick (1977), The Golden Man (1980), and I Ho…"
+     },
+     {
+      "line": 5609,
+      "quote": "…retrogressing world; Ubik, written a year later, would remedy that failure with a vengeance. Rating: 5. 40. The Preserving Machine (w. 1953-66, p. 1969). This fine story collection, assembled and edited by the late Terry Carr, won Phil’s pr…"
+     },
+     {
+      "line": 5609,
+      "quote": "…lip K. Dick (1977) and The Golden Man (1980) (see entries)-each of which includes stories that also appear in The Preserving Machine. But The Preserving Machine is the only one to feature “We Can Remember It for You Wholesale” (1966), a loopi…"
+     },
+     {
+      "line": 5609,
+      "quote": "…olden Man (1980) (see entries)-each of which includes stories that also appear in The Preserving Machine. But The Preserving Machine is the only one to feature “We Can Remember It for You Wholesale” (1966), a looping tale of memory implants a…"
+     },
+     {
+      "line": 6097,
+      "quote": "…ith Kleo Mini, February 1986. SF stories and novels: Unpublished typed MS. “Foreword” to PKD story collection The Preserving Machine (1969), in PKD Estate Archives. - 89-90 Wollheim on SF, PKD, their 1969 encounter, and life at Ace: Author’…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1332,
+      "quote": "…S2); spiders: ‘Expendable’ (1953, CS1); shoes: ‘The Short Happy Life of the Brown Oxford’ (1954, CS1); Bach: ‘The Preserving Machine’ (1953, CS1). 15 See also ‘Autofac’ (1955, CS4), discussed in Chapter 9, and later in this chapter. 94 EX…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 7
+ }
+}

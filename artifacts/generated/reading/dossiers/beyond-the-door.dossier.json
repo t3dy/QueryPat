@@ -1,0 +1,154 @@
+{
+ "artifact_id": "ART_DOSSIER_BEYOND_THE_DOOR",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "beyond-the-door",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Beyond The Door",
+  "slug": "beyond-the-door",
+  "form": "story",
+  "word_count": 2353,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 13496,
+   "line_end": 13669,
+   "word_count": 2353,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Doris",
+    "name_id": "NAME_doris",
+    "mentions": 24
+   },
+   {
+    "name": "Nick",
+    "name_id": "NAME_nick",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Tears",
+    "entity_id": "TERM_tears",
+    "count": 1,
+    "distinctiveness": 10.43
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 1,
+    "distinctiveness": 3.86
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 1,
+    "distinctiveness": 3.18
+   },
+   {
+    "label": "Bill",
+    "entity_id": "TERM_bill",
+    "count": 1,
+    "distinctiveness": 2.95
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 2,
+    "distinctiveness": 2.69
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 6,
+    "distinctiveness": 2.64
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 2,
+    "distinctiveness": 2.11
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 2,
+    "distinctiveness": 1.59
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 3,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 5658,
+      "quote": "…ot part of this irreal world: this is why it sounds so far off. \"Martians Come in Clouds\" \"The Eyes Have It\" \"Beyond the Door\" \"Withered Apples\" \"Not by Its Cover\"[95] Since the totality is a hologram, each microbit contains the plan…"
+     },
+     {
+      "line": 13246,
+      "quote": "…ch, [>] ## **Works Index** \"Adjustment Team,\" [>], [>], [>] \"Beyond Lies the Wub,\" [>]–[>], [>], [>] \"Beyond the Door,\" [>] _Bishop Timothy Archer._ See _The Transmigration of Timothy Archer_ \"Breakfast at Twilight,\" [>]…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4694,
+      "quote": "…ani­ mals ... I have no tear sheets to send you, I’m sorry to say, but here is a list, with source citation: “Beyond the Door.” Fantastic Universe Jan. ’54 “Novelty Act.” Fantastic Feb. ’64 “The Indefatigable Frog.” Fantastic story Jul…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "3 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

@@ -1,0 +1,324 @@
+{
+ "slug": "the-exit-door-leads-in",
+ "title": "The Exit Door Leads In",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI.md",
+  "line_start": 11064,
+  "line_end": 11653,
+  "word_count": 6692,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_empedocles",
+    "label": "Empedocles",
+    "count": 5,
+    "per_million": 747.2,
+    "background_per_million": 10.2,
+    "distinctiveness": 49.11
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_diagram",
+    "label": "Diagram",
+    "count": 2,
+    "per_million": 298.9,
+    "background_per_million": 5.1,
+    "distinctiveness": 29.57
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_yang",
+    "label": "Yang",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 2.0,
+    "distinctiveness": 21.22
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_moses",
+    "label": "Moses",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 3.1,
+    "distinctiveness": 18.53
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jesus-christ",
+    "label": "Jesus Christ",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 4.1,
+    "distinctiveness": 16.45
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_apollo",
+    "label": "Apollo",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 4.1,
+    "distinctiveness": 16.45
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_heraclitus",
+    "label": "Heraclitus",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 4.1,
+    "distinctiveness": 16.45
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_taoist",
+    "label": "Taoist",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 4.1,
+    "distinctiveness": 16.45
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_prison",
+    "label": "Prison",
+    "count": 2,
+    "per_million": 298.9,
+    "background_per_million": 24.5,
+    "distinctiveness": 10.13
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_greek",
+    "label": "Greek",
+    "count": 2,
+    "per_million": 298.9,
+    "background_per_million": 26.6,
+    "distinctiveness": 9.47
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jesus",
+    "label": "Jesus",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 11.2,
+    "distinctiveness": 9.2
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 3,
+    "per_million": 448.3,
+    "background_per_million": 73.5,
+    "distinctiveness": 5.71
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 11,
+    "per_million": 1643.8,
+    "background_per_million": 350.4,
+    "distinctiveness": 4.63
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 11,
+    "per_million": 1643.8,
+    "background_per_million": 462.7,
+    "distinctiveness": 3.51
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fish",
+    "label": "Fish",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 37.8,
+    "distinctiveness": 3.49
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 5,
+    "per_million": 747.2,
+    "background_per_million": 224.7,
+    "distinctiveness": 3.25
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wisdom",
+    "label": "Wisdom",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 63.3,
+    "distinctiveness": 2.19
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 7,
+    "per_million": 1046.0,
+    "background_per_million": 526.0,
+    "distinctiveness": 1.97
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 3,
+    "per_million": 448.3,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.65
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 89.9,
+    "distinctiveness": 1.57
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_anaximander",
+    "label": "Anaximander",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 2.0,
+    "distinctiveness": 21.22
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_xenophanes",
+    "label": "Xenophanes",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 2.0,
+    "distinctiveness": 21.22
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_anaxagoras",
+    "label": "Anaxagoras",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 2.0,
+    "distinctiveness": 21.22
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mary",
+    "label": "Mary",
+    "count": 38,
+    "per_million": 5678.4,
+    "background_per_million": 276.8,
+    "distinctiveness": 20.15
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_ikhnaton",
+    "label": "Ikhnaton",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 3.1,
+    "distinctiveness": 18.53
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-authorities",
+    "label": "The authorities",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 32.7,
+    "distinctiveness": 3.97
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-russian",
+    "label": "The Russian",
+    "count": 1,
+    "per_million": 149.4,
+    "background_per_million": 49.0,
+    "distinctiveness": 2.77
+   }
+  ],
+  "distinct_terms": 20,
+  "distinct_names": 7
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 11080,
+      "quote": "…on of/by the plasma; she represents a government regulatory agency—as Mary Lorne represents the college in \"The Exit Door Leads In.\" The government (à la Ursula) is worried about Owl's mental health: \"spiraling into himself and slowly going…"
+     },
+     {
+      "line": 13282,
+      "quote": "…[>], [>] _Enough to Scare the Dead_ (working book title), [>]–[>], [>], [>], [>], [>]–[>], [>], [>]–[>] \"The Exit Door Leads In,\" [>] _Eye in the Sky,_ [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>], [>] \"The Eyes Have It,\" [>…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 2
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4879,
+      "quote": "…tor” award. Another coup came when “Rautavaara’s Case” appeared in the October 1980 Omni. A third new story, “The Exit Door Leads In,” was featured in the fall 1979 Rolling Stone College Papers. (For discussion of these stories, see I Hope I…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 514,
+      "quote": "…reader has pieced together. ‘This was just the beginning’ runs the last sentence of the novel (ch. 17, 202): ‘The Exit Door Leads In’, to quote the title of one of Dick’s late short stories (1979, CS5). We have not a conclusion but the sign o…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 2
+ }
+}

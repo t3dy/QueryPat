@@ -1,0 +1,186 @@
+{
+ "slug": "the-defenders",
+ "title": "The Defenders",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 2280,
+  "line_end": 2911,
+  "word_count": 8519,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_soviet",
+    "label": "Soviet",
+    "count": 8,
+    "per_million": 939.1,
+    "background_per_million": 93.0,
+    "distinctiveness": 9.59
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 117.4,
+    "background_per_million": 39.8,
+    "distinctiveness": 2.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 11,
+    "per_million": 1291.2,
+    "background_per_million": 526.0,
+    "distinctiveness": 2.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 2,
+    "per_million": 234.8,
+    "background_per_million": 105.2,
+    "distinctiveness": 2.13
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-soviets",
+    "label": "The Soviets",
+    "count": 5,
+    "per_million": 586.9,
+    "background_per_million": 8.2,
+    "distinctiveness": 44.56
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mary",
+    "label": "Mary",
+    "count": 9,
+    "per_million": 1056.5,
+    "background_per_million": 276.8,
+    "distinctiveness": 3.75
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-russian",
+    "label": "The Russian",
+    "count": 1,
+    "per_million": 117.4,
+    "background_per_million": 49.0,
+    "distinctiveness": 2.17
+   }
+  ],
+  "distinct_terms": 4,
+  "distinct_names": 3
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 5,
+    "quotes": [
+     {
+      "line": 1274,
+      "quote": "…DAW collection, so if you want you can check it against what Ballantine has: “Nanny” “The Turning Wheel” “The Defenders” “Adjustment Team” “Psi-Man Heal My Child” “The Commuter” “A Present For Pat” “Breakfast at Twilight” “…"
+     },
+     {
+      "line": 6340,
+      "quote": "…l”? The others on the list strike me as fine: “Autofac” “Beyond Lies the Wub” “In the Days of Perky Pat” “The Defenders” (But this could be pulled for “Second Variety,” since the theme is the same.) “The Electric Ant.” ## “Expe…"
+     },
+     {
+      "line": 6348,
+      "quote": "….” ## “Expendable.” “Faith of Our Fathers” “Had There Been No Benny Cemoli...” “Impostor” (But, like “The Defenders,” this could be pulled to make room for “Second Variety.”) “Oh, To Be a Blobel.” “Roog.” “Upon the Dull Ear…"
+     },
+     {
+      "line": 6352,
+      "quote": "…Earth.” Personally, although Don Wollheim used “Breakfast At Twilight,” I’d like to see it included, with “The Defenders,” which he also used, dropped. Another suggestion, for a long piece, would be “Cantata 140,” which was a comp…"
+     },
+     {
+      "line": 6850,
+      "quote": "…_ “The Father-Thing.” 1954 Fantasy House. First appeared in _The Magazine of Fantasy & Science-Fiction._ “The Defenders.” 1953 Galaxy Publishing Corp. First appeared in _Galaxy Magazine._ “Expendable.” 1953 Fantasy House. First a…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+    "author": null,
+    "lane": "B",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 13266,
+      "quote": "…ns of a Crap Artist,_ [>], [>], [>], [>]–[>] _The Cosmic Puppets,_ [>] _Counter-Clock World,_ [>], [>] \"The Defenders,\" [>] _Deus Irae,_ [>], [>], [>], [>], [>] ## DI. See _The Divine Invasion_ _The Divine Invasion_ ( _VA…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6066,
+      "quote": "…ed material from the story “War Veteran” (published in _If,_ and “The Mold of Yancy”, published in _If,_ and “The Defenders” published in _Galaxy) for_ THE PENULTIMATE TRUTH. You might be interested to know that THE MAN IN THE HIGH C…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 7
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1304,
+      "quote": "…behalf of a humanity forced underground by radioactivity and the destructiveness of interminable technowar (‘The Defenders’, 1953, CS1); or a giant gun, still relentlessly defending a civilization that no longer exists (‘The Gun’,19…"
+     },
+     {
+      "line": 1430,
+      "quote": "…parts, one treating an evil substitution, the other a benign one. Dick often works in this way; for instance ‘The Defenders’ and _The Penultimate Truth_ (1964) offer contrary versions of the situation in which the bulk of humanity is…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5595,
+      "quote": "…han let out the truth. See also The Zap Gun, above. The Penultimate Truth draws upon four of Phil’s stories: “The Defenders” (1953), “The Mold of Yancy” (1955), “War Veteran” (1955), and “The Unreconstructed M” (1956). Penultimate is…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "slug": "return-match",
+ "title": "Return Match",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 52857,
+  "line_end": 53218,
+  "word_count": 5792,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_roman",
+    "label": "Roman",
+    "count": 1,
+    "per_million": 172.7,
+    "background_per_million": 21.5,
+    "distinctiveness": 6.53
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 5,
+    "per_million": 863.3,
+    "background_per_million": 138.9,
+    "distinctiveness": 6.0
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 6,
+    "per_million": 1035.9,
+    "background_per_million": 398.4,
+    "distinctiveness": 2.57
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 4,
+    "per_million": 690.6,
+    "background_per_million": 266.6,
+    "distinctiveness": 2.54
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 3,
+    "per_million": 518.0,
+    "background_per_million": 311.5,
+    "distinctiveness": 1.64
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_hamlet",
+    "label": "Hamlet",
+    "count": 2,
+    "per_million": 345.3,
+    "background_per_million": 3.1,
+    "distinctiveness": 42.82
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_nancy",
+    "label": "Nancy",
+    "count": 1,
+    "per_million": 172.7,
+    "background_per_million": 1.0,
+    "distinctiveness": 28.67
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_sophia",
+    "label": "Sophia",
+    "count": 1,
+    "per_million": 172.7,
+    "background_per_million": 17.4,
+    "distinctiveness": 7.72
+   }
+  ],
+  "distinct_terms": 5,
+  "distinct_names": 3
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

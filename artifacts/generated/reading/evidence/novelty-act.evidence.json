@@ -1,0 +1,244 @@
+{
+ "slug": "novelty-act",
+ "title": "Novelty Act",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 42673,
+  "line_end": 43298,
+  "word_count": 12309,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_luke",
+    "label": "Luke",
+    "count": 49,
+    "per_million": 3980.8,
+    "background_per_million": 51.1,
+    "distinctiveness": 70.99
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_acts",
+    "label": "Acts",
+    "count": 2,
+    "per_million": 162.5,
+    "background_per_million": 11.2,
+    "distinctiveness": 10.01
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_beethoven",
+    "label": "Beethoven",
+    "count": 1,
+    "per_million": 81.2,
+    "background_per_million": 7.2,
+    "distinctiveness": 6.69
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christian",
+    "label": "Christian",
+    "count": 1,
+    "per_million": 81.2,
+    "background_per_million": 8.2,
+    "distinctiveness": 6.17
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fish",
+    "label": "Fish",
+    "count": 3,
+    "per_million": 243.7,
+    "background_per_million": 37.8,
+    "distinctiveness": 5.7
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 31,
+    "per_million": 2518.5,
+    "background_per_million": 529.1,
+    "distinctiveness": 4.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 10,
+    "per_million": 812.4,
+    "background_per_million": 224.7,
+    "distinctiveness": 3.54
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 4,
+    "per_million": 325.0,
+    "background_per_million": 128.7,
+    "distinctiveness": 2.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 15,
+    "per_million": 1218.6,
+    "background_per_million": 526.0,
+    "distinctiveness": 2.29
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_faith",
+    "label": "Faith",
+    "count": 1,
+    "per_million": 81.2,
+    "background_per_million": 32.7,
+    "distinctiveness": 2.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 7,
+    "per_million": 568.7,
+    "background_per_million": 266.6,
+    "distinctiveness": 2.09
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 2,
+    "per_million": 162.5,
+    "background_per_million": 74.6,
+    "distinctiveness": 2.04
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bureau",
+    "label": "Bureau",
+    "count": 1,
+    "per_million": 81.2,
+    "background_per_million": 38.8,
+    "distinctiveness": 1.85
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 3,
+    "per_million": 243.7,
+    "background_per_million": 130.7,
+    "distinctiveness": 1.8
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_ian-duncan",
+    "label": "Ian Duncan",
+    "count": 28,
+    "per_million": 2274.8,
+    "background_per_million": 28.6,
+    "distinctiveness": 67.7
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_nicole-thibodeaux",
+    "label": "Nicole Thibodeaux",
+    "count": 3,
+    "per_million": 243.7,
+    "background_per_million": 3.1,
+    "distinctiveness": 30.22
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_beethoven",
+    "label": "Beethoven",
+    "count": 7,
+    "per_million": 568.7,
+    "background_per_million": 20.4,
+    "distinctiveness": 22.36
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_bruce",
+    "label": "Bruce",
+    "count": 3,
+    "per_million": 243.7,
+    "background_per_million": 8.2,
+    "distinctiveness": 18.5
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_hamlet",
+    "label": "Hamlet",
+    "count": 1,
+    "per_million": 81.2,
+    "background_per_million": 3.1,
+    "distinctiveness": 10.07
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-authorities",
+    "label": "The authorities",
+    "count": 1,
+    "per_million": 81.2,
+    "background_per_million": 32.7,
+    "distinctiveness": 2.16
+   }
+  ],
+  "distinct_terms": 14,
+  "distinct_names": 6
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 4694,
+      "quote": "…, I’m sorry to say, but here is a list, with source citation: “Beyond the Door.” Fantastic Universe Jan. ’54 “Novelty Act.” Fantastic Feb. ’64 “The Indefatigable Frog.” Fantastic story July ’53 “Out in the Garden.” Fantasy August ’…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5567,
+      "quote": "…originally titled The First Lady of Earth (w. 1963, p. 1964; a portion of this novel was adapted for use in “Novelty Act,” a story p. February 1964 in Fantastic). Of all Phil’s novel plots, this may be the most complex. To say tha…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

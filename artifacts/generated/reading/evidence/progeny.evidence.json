@@ -1,0 +1,112 @@
+{
+ "slug": "progeny",
+ "title": "Progeny",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 16576,
+  "line_end": 17125,
+  "word_count": 6106,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 163.8,
+    "background_per_million": 29.6,
+    "distinctiveness": 4.73
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 8,
+    "per_million": 1310.2,
+    "background_per_million": 440.2,
+    "distinctiveness": 2.94
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_scanner",
+    "label": "Scanner",
+    "count": 1,
+    "per_million": 163.8,
+    "background_per_million": 65.4,
+    "distinctiveness": 2.33
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 7,
+    "per_million": 1146.4,
+    "background_per_million": 609.8,
+    "distinctiveness": 1.86
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_good",
+    "label": "Good",
+    "count": 12,
+    "per_million": 1965.3,
+    "background_per_million": 1079.7,
+    "distinctiveness": 1.81
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 2,
+    "per_million": 327.5,
+    "background_per_million": 202.2,
+    "distinctiveness": 1.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 1,
+    "per_million": 163.8,
+    "background_per_million": 103.2,
+    "distinctiveness": 1.51
+   }
+  ],
+  "names": [],
+  "distinct_terms": 7,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3049,
+      "quote": "…e elves and is a king there. The leader of the trolls, whom he has killed, looks like one of his friends. In “Progeny,” Phil uses the name of Janet Doyle, a woman with whom he had an affair. “The Turning Wheel” deals with Elron…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}
