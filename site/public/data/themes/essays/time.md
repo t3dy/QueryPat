@@ -56,6 +56,10 @@ Now Wait for Last Year is the canonical works record for PKD's novel. In a novel
 
 Counter-Clock World is the canonical works record for PKD's novel. In a novel like [Counter-Clock World](/works/counter-clock-world), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### A Little Something for Us Tempunauts
+
+Three American time travelers — Addison Doug, Benz, and Crayne — return from history's first crewed time-travel launch only to learn, via television, that they were killed in an implosion on reentry. In a story collection like [A Little Something for Us Tempunauts](/works/a-little-something-for-us-tempunauts), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Eye of the Sibyl
 
 An aging Roman priest named Philos Diktos of Tyana ('Philip' transliterated into Greek and Latin) confesses, near the end of his life, a secret witnessed decades earlier at the temple of the Cumaean Sibyl, shortly after the assassination... In a story collection like [The Eye of the Sibyl](/works/the-eye-of-the-sibyl), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

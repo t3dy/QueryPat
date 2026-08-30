@@ -40,6 +40,10 @@ Peace officers stop John Cupertino for driving at 160 miles an hour, and find a 
 
 Douglas Quail, a clerk at the West Coast Emigration Bureau, wants to have gone to Mars and cannot afford to go. In a story collection like [We Can Remember It For You Wholesale](/works/we-can-remember-it-for-you-wholesale), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### A Little Something for Us Tempunauts
+
+Three American time travelers — Addison Doug, Benz, and Crayne — return from history's first crewed time-travel launch only to learn, via television, that they were killed in an implosion on reentry. In a story collection like [A Little Something for Us Tempunauts](/works/a-little-something-for-us-tempunauts), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Confessions of a Crap Artist
 
 Confessions of a Crap Artist is the canonical works record for PKD's novel. In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

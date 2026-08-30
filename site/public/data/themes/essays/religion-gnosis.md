@@ -36,6 +36,10 @@ Centuries after an apocalyptic 'Time of Madness,' a rigid caste theocracy govern
 
 The Cosmic Puppets is the canonical works record for PKD's novel. In a novel like [The Cosmic Puppets](/works/the-cosmic-puppets), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Little Black Box
+
+Zen Buddhism scholar Joan Hiashi is recruited by the State Department to bring her expertise to Havana, ostensibly to convert wealthy Chinese-Cuban businessmen away from Communism, but really as bait: her lover, jazz harpist and telepath... In a story collection like [The Little Black Box](/works/the-little-black-box), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Faith of Our Fathers
 
 In a Hanoi where the Party has won the global war, Tung Chien is a mid-level functionary at the Ministry of Cultural Artifacts. In a story collection like [Faith of Our Fathers](/works/faith-of-our-fathers), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

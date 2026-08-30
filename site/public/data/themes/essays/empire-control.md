@@ -92,6 +92,10 @@ The Game-Players of Titan is the canonical works record for PKD's novel. In a no
 
 After six years reconstructing Mars following Terra's defeat in the Prox-Terra war, exhausted reconstruct engineer Milt Biskle asks to go home instead of accepting his reward — priority land on the world he rebuilt. In a story collection like [Precious Artifact](/works/precious-artifact), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Little Black Box
+
+Zen Buddhism scholar Joan Hiashi is recruited by the State Department to bring her expertise to Havana, ostensibly to convert wealthy Chinese-Cuban businessmen away from Communism, but really as bait: her lover, jazz harpist and telepath... In a story collection like [The Little Black Box](/works/the-little-black-box), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Penultimate Truth
 
 The Penultimate Truth is the canonical works record for PKD's novel. In a novel like [The Penultimate Truth](/works/the-penultimate-truth), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -135,6 +139,10 @@ The Zap Gun is the canonical works record for PKD's novel. In a novel like [The 
 ### Our Friends from Frolix 8
 
 Our Friends from Frolix 8 is the canonical works record for PKD's novel. In a novel like [Our Friends from Frolix 8](/works/our-friends-from-frolix-8), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### A Little Something for Us Tempunauts
+
+Three American time travelers — Addison Doug, Benz, and Crayne — return from history's first crewed time-travel launch only to learn, via television, that they were killed in an implosion on reentry. In a story collection like [A Little Something for Us Tempunauts](/works/a-little-something-for-us-tempunauts), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Pre-Persons
 

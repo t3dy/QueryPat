@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 83,
+  "fiction_work_count": 85,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -226,7 +226,7 @@
       "slug": "authentic-human",
       "label": "Authentic Human",
       "description": "Human authenticity, empathy, caritas, and the resistance to programmed or mechanical existence.",
-      "work_count": 34,
+      "work_count": 35,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -379,6 +379,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Galaxy, October 1964",
+          "date_start": "1964"
+        },
+        {
+          "work_id": "WORK_the-little-black-box",
+          "canonical_title": "The Little Black Box",
+          "slug": "the-little-black-box",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Worlds of Tomorrow, August 1964",
           "date_start": "1964"
         },
         {
@@ -1716,7 +1725,7 @@
       "slug": "memory-identity",
       "label": "Memory & Identity",
       "description": "Amnesia, implanted or false memory, identity instability, and the porous self.",
-      "work_count": 13,
+      "work_count": 14,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -1791,6 +1800,15 @@
           "date_start": "1966"
         },
         {
+          "work_id": "WORK_a-little-something-for-us-tempunauts",
+          "canonical_title": "A Little Something for Us Tempunauts",
+          "slug": "a-little-something-for-us-tempunauts",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Final Stage, edited by Edward L. Ferman and Barry N. Malzberg, 1974",
+          "date_start": "1974"
+        },
+        {
           "work_id": "WORK_confessions-of-a-crap-artist",
           "canonical_title": "Confessions of a Crap Artist",
           "slug": "confessions-of-a-crap-artist",
@@ -1843,7 +1861,7 @@
       "slug": "time",
       "label": "Time",
       "description": "Temporal distortion, regression, precognition, time slips, and altered historical sequence.",
-      "work_count": 16,
+      "work_count": 17,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -1954,6 +1972,15 @@
           "date_start": "1967"
         },
         {
+          "work_id": "WORK_a-little-something-for-us-tempunauts",
+          "canonical_title": "A Little Something for Us Tempunauts",
+          "slug": "a-little-something-for-us-tempunauts",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Final Stage, edited by Edward L. Ferman and Barry N. Malzberg, 1974",
+          "date_start": "1974"
+        },
+        {
           "work_id": "WORK_the-eye-of-the-sibyl",
           "canonical_title": "The Eye of the Sibyl",
           "slug": "the-eye-of-the-sibyl",
@@ -1997,7 +2024,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 43,
+      "work_count": 45,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -2189,6 +2216,15 @@
           "date_start": "1964"
         },
         {
+          "work_id": "WORK_the-little-black-box",
+          "canonical_title": "The Little Black Box",
+          "slug": "the-little-black-box",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Worlds of Tomorrow, August 1964",
+          "date_start": "1964"
+        },
+        {
           "work_id": "WORK_the-penultimate-truth",
           "canonical_title": "The Penultimate Truth",
           "slug": "the-penultimate-truth",
@@ -2286,6 +2322,15 @@
           "work_type": "novel",
           "date_display": "1970",
           "date_start": "1970"
+        },
+        {
+          "work_id": "WORK_a-little-something-for-us-tempunauts",
+          "canonical_title": "A Little Something for Us Tempunauts",
+          "slug": "a-little-something-for-us-tempunauts",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Final Stage, edited by Edward L. Ferman and Barry N. Malzberg, 1974",
+          "date_start": "1974"
         },
         {
           "work_id": "WORK_the-pre-persons",
@@ -2394,7 +2439,7 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 17,
+      "work_count": 18,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2458,6 +2503,15 @@
           "work_type": "novel",
           "date_display": "1957",
           "date_start": "1957"
+        },
+        {
+          "work_id": "WORK_the-little-black-box",
+          "canonical_title": "The Little Black Box",
+          "slug": "the-little-black-box",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Worlds of Tomorrow, August 1964",
+          "date_start": "1964"
         },
         {
           "work_id": "WORK_faith-of-our-fathers",

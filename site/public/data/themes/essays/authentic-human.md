@@ -76,6 +76,10 @@ Clans of the Alphane Moon is the canonical works record for PKD's novel. In a no
 
 After six years reconstructing Mars following Terra's defeat in the Prox-Terra war, exhausted reconstruct engineer Milt Biskle asks to go home instead of accepting his reward — priority land on the world he rebuilt. In a story collection like [Precious Artifact](/works/precious-artifact), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Little Black Box
+
+Zen Buddhism scholar Joan Hiashi is recruited by the State Department to bring her expertise to Havana, ostensibly to convert wealthy Chinese-Cuban businessmen away from Communism, but really as bait: her lover, jazz harpist and telepath... In a story collection like [The Little Black Box](/works/the-little-black-box), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Zap Gun
 
 The Zap Gun is the canonical works record for PKD's novel. In a novel like [The Zap Gun](/works/the-zap-gun), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

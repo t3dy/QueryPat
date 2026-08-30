@@ -1,198 +1,125 @@
 {
- "artifact_id": "ART_DOSSIER_A_LITTLE_SOMETHING_FOR_US_TEMPUNAUTS",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "a-little-something-for-us-tempunauts",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "A Little Something For Us Tempunauts",
-  "slug": "a-little-something-for-us-tempunauts",
-  "form": "story",
-  "word_count": 8287,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 54711,
-   "line_end": 55182,
-   "word_count": 8287,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "The Kennedys",
-    "name_id": "NAME_the-kennedys",
-    "mentions": 1
-   },
-   {
-    "name": "The Soviet",
-    "name_id": "NAME_the-soviet",
-    "mentions": 7
-   },
-   {
-    "name": "Ralph",
-    "name_id": "NAME_ralph",
-    "mentions": 1
-   },
-   {
-    "name": "Mission",
-    "name_id": "NAME_mission",
-    "mentions": 1
-   },
-   {
-    "name": "Sophia",
-    "name_id": "NAME_sophia",
-    "mentions": 1
-   },
-   {
-    "name": "The Russian",
-    "name_id": "NAME_the-russian",
-    "mentions": 2
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Viewed",
-    "entity_id": "TERM_viewed",
-    "count": 1,
-    "distinctiveness": 10.84
-   },
-   {
-    "label": "Soviet",
-    "entity_id": "TERM_soviet",
-    "count": 8,
-    "distinctiveness": 9.86
-   },
-   {
-    "label": "March",
-    "entity_id": "TERM_march",
-    "count": 2,
-    "distinctiveness": 8.79
-   },
-   {
-    "label": "Jesus",
-    "entity_id": "TERM_jesus",
-    "count": 1,
-    "distinctiveness": 7.43
-   },
-   {
-    "label": "Bible",
-    "entity_id": "TERM_bible",
-    "count": 1,
-    "distinctiveness": 6.25
-   },
-   {
-    "label": "Girl",
-    "entity_id": "TERM_girl",
-    "count": 12,
-    "distinctiveness": 3.1
-   },
-   {
-    "label": "Tears",
-    "entity_id": "TERM_tears",
-    "count": 1,
-    "distinctiveness": 2.96
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 6,
-    "distinctiveness": 1.8
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 4,
-    "distinctiveness": 1.78
-   },
-   {
-    "label": "Obviously",
-    "entity_id": "TERM_obviously",
-    "count": 2,
-    "distinctiveness": 1.68
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 3,
-    "distinctiveness": 1.58
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 12,
-    "distinctiveness": 1.5
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 3,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 6336,
-      "quote": "…ate 1971 or early 1972, my choice selections. PLEASE use it, Judy-Lynn. Ballantine has my most recent story, “A Little Something For Us Tempunauts” in the current Terry Carr best s-f collection, and I consider—as Terry does—that this is one of my best stor…"
-     },
-     {
-      "line": 6572,
-      "quote": "…## [TO JACK SCOVIL] _May 18, 1976_ ## Dear Jack Enclosed is my check to your for your 10% commission on “A Little Something For Us Tempunauts.” I must admit I fouled up, here. We originally got a check for something like six dollars, direct from Ferma…"
-     }
+  "artifact_id": "ART_DOSSIER_A_LITTLE_SOMETHING_FOR_US_TEMPUNAUTS",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "a-little-something-for-us-tempunauts",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "A Little Something for Us Tempunauts",
+    "slug": "a-little-something-for-us-tempunauts",
+    "form": "novelette",
+    "word_count": 8287,
+    "lane": "A",
+    "first_publication": "Final Stage, edited by Edward L. Ferman and Barry N. Malzberg, 1974",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 54711,
+      "line_end": 55182,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Three American time travelers — Addison Doug, Benz, and Crayne — return from history's first crewed time-travel launch only to learn, via television, that they were killed in an implosion on reentry. In fact they have simply undershot their landing in a state called ETA (Emergence Time Activity), technically alive but scheduled to be publicly memorialized as dead, complete with autopsies, closed-casket funerals, and a national day of mourning, while the government keeps their survival classified to avoid embarrassment before a planned Soviet-style propaganda victory. Addison Doug becomes increasingly convinced that this entire sequence — the funeral procession, the interviews, the bureaucratic wrangling — has already happened to them many times before, that they are trapped in a closed time loop caused by the reentry implosion itself, and that his crushing exhaustion is the accumulated weight of having lived this same week over and over. His fellow tempunauts and the mission scientists dismiss this as depression and grief, until a Soviet chrononaut who underwent a similar crisis on an earlier mission confirms that the greatest fear of any time traveler is exactly this: an inescapable closed loop. Faced with a choice — attempt a clean reentry that might finally break the cycle, or deliberately sabotage it by smuggling extra mass (junked Volkswagen parts) into the time field to guarantee a fatal implosion — Doug, backed reluctantly by his girlfriend Merry Lou and eventually by his crewmates, chooses death, reasoning that dying for certain is preferable to risking an eternity of repetition. The story ends with Doug driving toward the reentry site at peace, having concluded that if the loop is real, he will spend eternity returning again and again to the one moment — the mourning, the flag-draped funeral, the shared national grief — that gave his life its only sense of meaning.",
+
+    "structure": {
+      "form": "novelette in four movements: return and revelation, the funeral procession, the bureaucratic decision process, the drive to sabotage",
+      "movements": [
+        "Addison Doug's return to his girlfriend Merry Lou, and the tempunauts' discovery that they are believed dead by the public.",
+        "The staged public funeral procession, where Doug's visible exhaustion and impromptu remarks to reporters go dangerously off-script.",
+        "The debate among officials, scientists, and a Soviet counterpart over whether Doug's belief in a closed time loop should be taken seriously.",
+        "Merry Lou's supply of sabotage material, the crew's decision to implode deliberately, and Doug's drive toward the reentry site."
+      ],
+      "point_of_view": "close third person centered on Addison Doug throughout, so his exhaustion and déjà vu are delivered as lived subjective certainty rather than as a diagnosable symptom the reader is invited to doubt from outside.",
+      "central_device": "A closed time loop whose only available evidence is subjective exhaustion and déjà vu — the story never confirms or disproves the loop objectively, and Doug's fatal choice is made entirely on the strength of a feeling neither he nor the reader can verify."
+    },
+
+    "characters": [
+      { "name": "Addison Doug", "role": "tempunaut, protagonist", "note": "His conviction that he has lived this same sequence of events countless times is never validated by outside evidence, only by his crewmates' and a Soviet counterpart's willingness to entertain it — the story asks whether that is enough to justify choosing death." },
+      { "name": "Merry Lou Hawkins", "role": "Doug's girlfriend", "note": "The one person Doug trusts to help him decide, and the one who actually supplies the junked auto parts needed to guarantee the fatal implosion, making her a full participant in the decision rather than a bystander to it." },
+      { "name": "Benz and Crayne", "role": "fellow tempunauts", "note": "Skeptical of Doug's loop theory at first, they come around not because the evidence changes but because their own exhaustion with the bureaucratic process makes death seem, on its own separate merits, preferable to continuing." },
+      { "name": "General Toad, Dr. Fein", "role": "mission oversight", "note": "Represent the state's instinct to manage the tempunauts' deaths as a media and propaganda event even as they debate, with real scientific seriousness, whether a closed time loop is actually possible." },
+      { "name": "N. Gauki", "role": "Soviet chrononaut", "note": "Confirms that he and his own mission partner shared exactly Doug's fear during their earlier, ostensibly successful time flight — the story's only external corroboration of the loop hypothesis." }
     ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 4050,
-      "quote": "…of Millgrove, Iowa” changed in a flash my entire conception of what a good s-f story is. So then I wrote, “A Little Something For Us Tempunauts” for Ed Ferman because I had a new mind, a whole mind again, a writer’s mind, and it was set facing the futur…"
-     }
+
+    "settings": [
+      { "name": "Merry Lou's A-frame house in Ojai", "note": "The one private space in the story, where Doug first tests whether anyone still recognizes him as human rather than as a media event." },
+      { "name": "The funeral procession on Pennsylvania Avenue", "note": "Staged for a grieving public that believes the tempunauts already dead — restaged, in Doug's conviction, an unknown number of times before." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "motifs": [
+      "Déjà vu as lived, cumulative exhaustion rather than a passing sensation",
+      "A funeral and national mourning ceremony as the emotional high point of a life, sought out and returned to rather than merely endured",
+      "Media commentary (the TV anchors' scripted excitement) narrating an event whose true nature the commentators themselves do not understand",
+      "A decision about life and death made entirely on unverifiable subjective evidence, with the people closest to the person choosing to trust the feeling rather than demand proof",
+      "Bureaucratic process ('they will nibble you to death') as its own form of exhausting repetition, mirroring the cosmic loop at a smaller scale"
+    ],
+
+    "significance": "Dick himself rated this among his best work, telling his editor directly that he and Terry Carr both considered it 'one of my best,' and credits its composition to a specific turning point: reading another writer's story ('of Millgrove, Iowa') gave him, in his words, 'a new mind, a whole mind again, a writer's mind... set facing the f[uture]' just before he wrote this piece. The story's power lies in its refusal to resolve the central question: the reader, like Doug's crewmates and the scientists, is given no way to confirm or deny that a closed time loop is real, only the escalating weight of Doug's exhaustion and the corroborating testimony of a Soviet counterpart who cannot prove his own claim either. Doug's final peace is unsettling precisely because it is genuine — he does not choose death out of despair alone but out of a specific, considered preference for eternal repetition of one meaningful moment (universal mourning, a nation's shared grief) over the uncertainty of an unrepeated, ordinary life.",
+
+    "closing_note": "Doug's mind returns, in his final drive, to the Kennedy and King funeral processions of American memory, concluding that all of these are, for him, 'really it was one death and one parade' — the story's closing claim that repetition and communal mourning may not be a trap at all, but the only form of meaning he actually wants."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Viewed", "entity_id": "TERM_viewed", "count": 2, "distinctiveness": 10.84 },
+      { "label": "Soviet", "entity_id": "TERM_soviet", "count": 4, "distinctiveness": 9.86 },
+      { "label": "Jesus", "entity_id": "TERM_jesus", "count": 1, "distinctiveness": 7.43 },
+      { "label": "Bible", "entity_id": "TERM_bible", "count": 1, "distinctiveness": 6.25, "note": "Doug's own allusion — 'we all go to one place, as the Bible says' — reframing the loop in explicitly scriptural terms." }
+    ],
+    "names_matched": ["NAME_the-kennedys", "NAME_the-soviet", "NAME_the-russian"],
+    "thematic_links_proposed": [
+      { "theme": "time", "basis": "a protagonist's unverifiable conviction that he is trapped in an eternally repeating closed time loop, acted on as though it were certain" },
+      { "theme": "empire-control", "basis": "a government's management of the tempunauts' deaths as a staged media and propaganda event, negotiated alongside Soviet counterparts" },
+      { "theme": "memory-identity", "basis": "déjà vu experienced not as a fleeting sensation but as cumulative, embodied exhaustion from a life the protagonist believes he has already lived many times" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 3,
+    "summary": "Dick rates this among his own best stories and credits its composition to a specific creative turning point inspired by reading another writer's work.",
+    "evidence": [
+      {
+        "source": "Selected Letters",
+        "line": 6336,
+        "quote": "Ballantine has my most recent story, \"A Little Something For Us Tempunauts\" in the current Terry Carr best s-f collection, and I consider — as Terry does — that this is one of my be[st]",
+        "reading": "A direct, confident self-assessment, corroborated by editor Terry Carr's selection of the story for a best-of-the-year anthology."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 4050,
+        "quote": "of Millgrove, Iowa\" changed in a flash my entire conception of what a good s-f story is. So then I wrote, \"A Little Something For Us Tempunauts\" for Ed Ferman because I had a new mind, a whole mind again, a writer's mind, and it was set facing the f[uture]",
+        "reading": "Dick crediting a specific unnamed story (title truncated to '...of Millgrove, Iowa') with catalyzing a creative breakthrough that directly produced this piece — the referenced story's full title was not captured in this evidence pass."
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "What is the full title of the story ending '...of Millgrove, Iowa' that Dick credits with reshaping his sense of good science fiction just before writing this piece? Identifying it would clarify an important influence on his late style.",
+    "No secondary criticism was found for this story despite Dick's own high estimation of it and its selection for a best-of-the-year anthology — worth flagging as an archive gap for acquisition, particularly given the story's clear connections to Dick's broader closed-loop and simulated-reality fiction (compare retreat-syndrome, already read).",
+    "The story never resolves whether the closed time loop is objectively real. Is there any later interview or Exegesis passage where Dick discusses his own view on this, distinct from the story's deliberate ambiguity?"
   ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "3 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "0 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 8,287 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "3 citations, two of them substantial.",
+    "layer_4_criticism": "0 found — a genuine archive gap given the story's regard.",
+    "related_dossiers": "retreat-syndrome (shared theme of an unverifiable, subjectively certain closed loop).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }
