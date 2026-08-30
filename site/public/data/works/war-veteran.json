@@ -1,0 +1,121 @@
+{
+  "work_id": "WORK_war-veteran",
+  "canonical_title": "War Veteran",
+  "slug": "war-veteran",
+  "author": "Philip K. Dick",
+  "work_type": "short_story",
+  "category": "short_stories",
+  "date_display": "",
+  "date_start": "",
+  "card_summary": "# The Collected Stories of Philip K. Dick, Volumes 1-5 *by Philip K.",
+  "page_summary": "# The Collected Stories of Philip K. Dick, Volumes 1-5 *by Philip K. Dick* category: short_stories — doc_id: `DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_` — source: `_OceanofPDF.com_The_Collected_Stories_of_Philip_K_Dick_Vols_1-5_-_Philip_K_Dick.pdf` --- ## **CONTENTS** VOLUME 1 BEYOND LIES THE WUB VOLUME 2 SECOND VARIETY VOLUME 3 THE FATHER-THING VOLUME 4 THE DAYS OF PERKY PAT VOLUME 5 THE LITTLE BLACK BOX _OceanofPDF.com_ ## **Volume One THE COLLECTED STORIES OF PHILIP K.\n\n**Why it matters.** A work by Philip K. Dick.",
+  "page_count": 0,
+  "source_count": 0,
+  "related_docs": [],
+  "biography_events": [],
+  "themes": [],
+  "word_count": 16280,
+  "reading": {
+    "structure": {
+      "chapter_count": 0,
+      "chapters": []
+    },
+    "characters": null,
+    "settings": null,
+    "motifs": [],
+    "significance": "A work by Philip K. Dick.",
+    "closing_note": null
+  },
+  "distinctive_terms": [
+    {
+      "label": "Earth",
+      "entity_id": "TERM_earth",
+      "count": 49,
+      "distinctiveness": 6.64
+    },
+    {
+      "label": "Girl",
+      "entity_id": "TERM_girl",
+      "count": 23,
+      "distinctiveness": 3.02
+    },
+    {
+      "label": "Suppose",
+      "entity_id": "TERM_suppose",
+      "count": 10,
+      "distinctiveness": 2.71
+    },
+    {
+      "label": "Empire",
+      "entity_id": "TERM_empire",
+      "count": 1,
+      "distinctiveness": 2.24
+    },
+    {
+      "label": "Gestalt",
+      "entity_id": "TERM_gestalt",
+      "count": 1,
+      "distinctiveness": 2.01
+    },
+    {
+      "label": "Brain",
+      "entity_id": "TERM_brain",
+      "count": 6,
+      "distinctiveness": 1.78
+    },
+    {
+      "label": "Tears",
+      "entity_id": "TERM_tears",
+      "count": 1,
+      "distinctiveness": 1.51
+    }
+  ],
+  "pkd_on_this_work": {
+    "lane": "E/B",
+    "total_mentions": 1,
+    "sources": [
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+        "author": null,
+        "lane": "E",
+        "mention_count": 1,
+        "quotes": [
+          {
+            "line": 6066,
+            "quote": "…. THE GAME PLAYERS OF TITAN, THE SIMULACRA, DR. BLOODMONEY were original, but I used material from the story “War Veteran” (published in _If,_ and “The Mold of Yancy”, published in _If,_ and “The Defenders” published in _Galaxy) fo…"
+          }
+        ],
+        "quotes_truncated": 0
+      }
+    ],
+    "reading": null
+  },
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 1,
+    "sources": [
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+        "author": "Lawrence Sutin",
+        "lane": "C",
+        "mention_count": 1,
+        "quotes": [
+          {
+            "line": 5595,
+            "quote": "…The Penultimate Truth draws upon four of Phil’s stories: “The Defenders” (1953), “The Mold of Yancy” (1955), “War Veteran” (1955), and “The Unreconstructed M” (1956). Penultimate is Phil’s most pointed examination of the lies woven…"
+          }
+        ],
+        "quotes_truncated": 0
+      }
+    ],
+    "reading": null
+  },
+  "contradictions": [],
+  "open_questions": [],
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  }
+}

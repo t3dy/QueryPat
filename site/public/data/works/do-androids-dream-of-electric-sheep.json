@@ -2,7 +2,7 @@
   "work_id": "WORK_do-androids-dream-of-electric-sheep",
   "canonical_title": "Do Androids Dream of Electric Sheep?",
   "slug": "do-androids-dream-of-electric-sheep",
-  "author": "Philip K. Dick (adapted by Andy Hopkins and Joc Potter)",
+  "author": "Philip K. Dick",
   "work_type": "novel",
   "category": "novels",
   "date_display": "2007",
@@ -94,7 +94,34 @@
   "themes": [
     "androids",
     "authentic-human",
-    "reality-breakdown",
-    "illusionary-realities"
-  ]
+    "illusionary-realities",
+    "reality-breakdown"
+  ],
+  "word_count": 0,
+  "reading": {
+    "structure": {
+      "form": "novel"
+    },
+    "characters": [],
+    "settings": [],
+    "motifs": [],
+    "significance": "Part of Philip K. Dick's novels.",
+    "closing_note": null
+  },
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "evidence": []
+  },
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  }
 }

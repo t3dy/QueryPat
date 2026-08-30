@@ -68,9 +68,250 @@
     }
   ],
   "themes": [
-    "illusionary-realities",
-    "empire-control",
     "betrayal",
+    "empire-control",
+    "illusionary-realities",
     "reality-breakdown"
-  ]
+  ],
+  "word_count": 80641,
+  "reading": {
+    "structure": {
+      "chapter_count": 0,
+      "chapters": []
+    },
+    "characters": [
+      {
+        "name": "Robert Childan",
+        "role": "protagonist",
+        "note": "An American art dealer in San Francisco, anxious about his position in the Japanese-controlled economy and his aspirations for social acceptance and cultural legitimacy"
+      },
+      {
+        "name": "Frank Frink",
+        "role": "protagonist",
+        "note": "A Jewish man hiding his identity, recently fired from his factory job, who consults the I Ching for guidance and becomes peripherally involved in the resistance"
+      },
+      {
+        "name": "Juliana Frink",
+        "role": "secondary protagonist",
+        "note": "Frank's ex-wife, who becomes an agent for Japanese intelligence; encounters the contraband book and becomes obsessed with reaching its author"
+      },
+      {
+        "name": "Nobusuke Tagomi",
+        "role": "protagonist",
+        "note": "A high-ranking Japanese Trade Mission official in San Francisco who begins to doubt the legitimacy of the Japanese-Nazi order after reading 'The Grasshopper Lies Heavy'"
+      },
+      {
+        "name": "Hawthorne Abendsen",
+        "role": "absent protagonist",
+        "note": "The reclusive author of 'The Grasshopper Lies Heavy,' never directly encountered but whose work drives the plot's entire movement"
+      }
+    ],
+    "settings": [
+      {
+        "name": "San Francisco, Pacific States of America (Japanese-controlled West Coast)",
+        "note": "A divided city under Japanese occupation, with Japanese hierarchies, Trade Missions, and a subjugated white American population"
+      },
+      {
+        "name": "The Rocky Mountain States",
+        "note": "A neutral buffer zone between the Axis powers; the location of Hawthorne Abendsen's high castle, representing the last refuge of independent thought"
+      },
+      {
+        "name": "An alternate-history world depicted in 'The Grasshopper Lies Heavy'",
+        "note": "The novel within the novel: an imagined history in which the Allies won WWII, whose possibility destabilizes the perceived reality of the novel's world"
+      }
+    ],
+    "motifs": [
+      "Alternate history as a form of hidden truth or prophecy; the unreliability of perceived reality",
+      "The I Ching as an oracular guide to action in an unjust world; chance and fate as determiners of identity and survival",
+      "Objects from pre-war America (Civil War artifacts, antique furniture) as bearers of lost authenticity and cultural meaning",
+      "Jewish identity in hiding; the moral impossibility of neutrality under totalitarian rule",
+      "The figure of the author in hiding: authority, knowledge, and the power to reshape reality through narrative"
+    ],
+    "significance": "The Man in the High Castle is Dick's breakthrough novel and his most sustained exploration of alternate history as a epistemological problem: How do we know which reality is true? The novel treats the I Ching not as mysticism but as a serious method of divination and decision-making in an unjust world, reflecting Dick's own increasing preoccupation with the I Ching in the 1960s. The book won the Hugo Award in 1963 and established Dick's reputation for philosophical science fiction. Its central conceit — that an imagined alternate history might be more 'true' than the apparent reality — anticipates Dick's later work on the nature of reality, particularly his 1974 religious experience and the themes of VALIS and the Exegesis. The novel also marks Dick's sophisticated engagement with the problem of moral agency under totalitarianism: Childan, Frink, and Tagomi are all compromised participants in an unjust order, and the novel offers no clean path to resistance or redemption.",
+    "closing_note": "The novel ends with the I Ching offering an oracle that leaves ambiguous which world is the true one: the world of the novel's readers (the Axis-victorious world) or the world described in the contraband book. This ambiguity is the novel's central achievement: it refuses to resolve the question of reality into certainty."
+  },
+  "distinctive_terms": [
+    {
+      "label": "Jews",
+      "entity_id": "TERM_jews",
+      "count": 18,
+      "distinctiveness": 44.64
+    },
+    {
+      "label": "Jewish",
+      "entity_id": "TERM_jewish",
+      "count": 7,
+      "distinctiveness": 17.36
+    },
+    {
+      "label": "Paul",
+      "entity_id": "TERM_paul",
+      "count": 91,
+      "distinctiveness": 14.18
+    },
+    {
+      "label": "Yang",
+      "entity_id": "TERM_yang",
+      "count": 7,
+      "distinctiveness": 12.33
+    },
+    {
+      "label": "Bruno",
+      "entity_id": "TERM_bruno",
+      "count": 4,
+      "distinctiveness": 9.92
+    },
+    {
+      "label": "Spirit",
+      "entity_id": "TERM_spirit",
+      "count": 10,
+      "distinctiveness": 5.81
+    },
+    {
+      "label": "Bardo Thodol",
+      "entity_id": "TERM_bardo-thodol",
+      "count": 2,
+      "distinctiveness": 4.96
+    },
+    {
+      "label": "Bardo",
+      "entity_id": "TERM_bardo",
+      "count": 2,
+      "distinctiveness": 4.96
+    },
+    {
+      "label": "Thodol",
+      "entity_id": "TERM_thodol",
+      "count": 2,
+      "distinctiveness": 4.96
+    },
+    {
+      "label": "Viewed",
+      "entity_id": "TERM_viewed",
+      "count": 4,
+      "distinctiveness": 4.46
+    },
+    {
+      "label": "Rome",
+      "entity_id": "TERM_rome",
+      "count": 5,
+      "distinctiveness": 4.37
+    },
+    {
+      "label": "Jesus Christ",
+      "entity_id": "TERM_jesus-christ",
+      "count": 3,
+      "distinctiveness": 4.09
+    },
+    {
+      "label": "Simon",
+      "entity_id": "TERM_simon",
+      "count": 3,
+      "distinctiveness": 4.09
+    },
+    {
+      "label": "Faith",
+      "entity_id": "TERM_faith",
+      "count": 12,
+      "distinctiveness": 3.95
+    },
+    {
+      "label": "Empire",
+      "entity_id": "TERM_empire",
+      "count": 8,
+      "distinctiveness": 3.61
+    },
+    {
+      "label": "Karma",
+      "entity_id": "TERM_karma",
+      "count": 2,
+      "distinctiveness": 3.52
+    },
+    {
+      "label": "Palm",
+      "entity_id": "TERM_palm",
+      "count": 6,
+      "distinctiveness": 3.33
+    },
+    {
+      "label": "Iron",
+      "entity_id": "TERM_iron",
+      "count": 9,
+      "distinctiveness": 3.22
+    },
+    {
+      "label": "Jesus",
+      "entity_id": "TERM_jesus",
+      "count": 4,
+      "distinctiveness": 3.06
+    },
+    {
+      "label": "Folder",
+      "entity_id": "TERM_folder",
+      "count": 4,
+      "distinctiveness": 2.87
+    },
+    {
+      "label": "Christian",
+      "entity_id": "TERM_christian",
+      "count": 3,
+      "distinctiveness": 2.82
+    },
+    {
+      "label": "Therefore",
+      "entity_id": "TERM_therefore",
+      "count": 10,
+      "distinctiveness": 2.77
+    },
+    {
+      "label": "Joint",
+      "entity_id": "TERM_joint",
+      "count": 3,
+      "distinctiveness": 2.62
+    },
+    {
+      "label": "Godhead",
+      "entity_id": "TERM_godhead",
+      "count": 1,
+      "distinctiveness": 2.48
+    },
+    {
+      "label": "Elijah",
+      "entity_id": "TERM_elijah",
+      "count": 1,
+      "distinctiveness": 2.48
+    }
+  ],
+  "pkd_on_this_work": {
+    "lane": "E/B",
+    "total_mentions": 1,
+    "sources": [
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+        "author": null,
+        "lane": "E",
+        "mention_count": 1,
+        "quotes": [
+          {
+            "line": 6810,
+            "quote": "…ose and wicked and sinful that I really wanted to do. I’m sure God isn’t pissed with me. The guy who is doing the MAN IN THE HIGH CASTLE screenplay gave me a script he’d already writ­ ten, and in it God wears a t-shirt with his name (God) on it.…"
+          }
+        ],
+        "quotes_truncated": 0
+      }
+    ],
+    "reading": null
+  },
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "sources": [],
+    "reading": null
+  },
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  }
 }

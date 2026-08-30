@@ -1,0 +1,172 @@
+{
+  "work_id": "WORK_prominent-author",
+  "canonical_title": "Prominent Author",
+  "slug": "prominent-author",
+  "author": "Philip K. Dick",
+  "work_type": "short_story",
+  "category": "short_stories",
+  "date_display": "",
+  "date_start": "",
+  "card_summary": "# The Collected Stories of Philip K. Dick, Volumes 1-5 *by Philip K.",
+  "page_summary": "# The Collected Stories of Philip K. Dick, Volumes 1-5 *by Philip K. Dick* category: short_stories — doc_id: `DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_` — source: `_OceanofPDF.com_The_Collected_Stories_of_Philip_K_Dick_Vols_1-5_-_Philip_K_Dick.pdf` --- ## **CONTENTS** VOLUME 1 BEYOND LIES THE WUB VOLUME 2 SECOND VARIETY VOLUME 3 THE FATHER-THING VOLUME 4 THE DAYS OF PERKY PAT VOLUME 5 THE LITTLE BLACK BOX _OceanofPDF.com_ ## **Volume One THE COLLECTED STORIES OF PHILIP K.\n\n**Why it matters.** A work by Philip K. Dick.",
+  "page_count": 0,
+  "source_count": 0,
+  "related_docs": [],
+  "biography_events": [],
+  "themes": [],
+  "word_count": 7013,
+  "reading": {
+    "structure": {
+      "chapter_count": 0,
+      "chapters": []
+    },
+    "characters": null,
+    "settings": null,
+    "motifs": [],
+    "significance": "A work by Philip K. Dick.",
+    "closing_note": null
+  },
+  "distinctive_terms": [
+    {
+      "label": "Hebrew",
+      "entity_id": "TERM_hebrew",
+      "count": 2,
+      "distinctiveness": 28.22
+    },
+    {
+      "label": "Missive",
+      "entity_id": "TERM_missive",
+      "count": 1,
+      "distinctiveness": 23.68
+    },
+    {
+      "label": "Deus",
+      "entity_id": "TERM_deus",
+      "count": 1,
+      "distinctiveness": 17.68
+    },
+    {
+      "label": "Bible",
+      "entity_id": "TERM_bible",
+      "count": 1,
+      "distinctiveness": 7.39
+    },
+    {
+      "label": "Holy",
+      "entity_id": "TERM_holy",
+      "count": 1,
+      "distinctiveness": 6.1
+    },
+    {
+      "label": "Lord",
+      "entity_id": "TERM_lord",
+      "count": 4,
+      "distinctiveness": 5.27
+    },
+    {
+      "label": "James",
+      "entity_id": "TERM_james",
+      "count": 1,
+      "distinctiveness": 4.67
+    },
+    {
+      "label": "Philip",
+      "entity_id": "TERM_philip",
+      "count": 4,
+      "distinctiveness": 4.4
+    },
+    {
+      "label": "Cosmic",
+      "entity_id": "TERM_cosmic",
+      "count": 1,
+      "distinctiveness": 3.89
+    },
+    {
+      "label": "Good",
+      "entity_id": "TERM_good",
+      "count": 22,
+      "distinctiveness": 2.89
+    },
+    {
+      "label": "Look",
+      "entity_id": "TERM_look",
+      "count": 14,
+      "distinctiveness": 2.29
+    },
+    {
+      "label": "Golden",
+      "entity_id": "TERM_golden",
+      "count": 1,
+      "distinctiveness": 2.22
+    },
+    {
+      "label": "Paul",
+      "entity_id": "TERM_paul",
+      "count": 1,
+      "distinctiveness": 1.79
+    },
+    {
+      "label": "House",
+      "entity_id": "TERM_house",
+      "count": 6,
+      "distinctiveness": 1.6
+    },
+    {
+      "label": "Self",
+      "entity_id": "TERM_self",
+      "count": 1,
+      "distinctiveness": 1.5
+    }
+  ],
+  "pkd_on_this_work": {
+    "lane": "E/B",
+    "total_mentions": 0,
+    "sources": [],
+    "reading": null
+  },
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 3,
+    "sources": [
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+        "author": "Christopher Palmer",
+        "lane": "C",
+        "mention_count": 2,
+        "quotes": [
+          {
+            "line": 1516,
+            "quote": "…on of images of reading, rather than of writing. Other relevant works by Dick are ‘Stability’ (c.1947, CS1), ‘Prominent Author’ (1954, CS2), and _Radio Free Albemuth_ (1985). 108 EXHILARATION AND TERROR OF THE POSTMODERN which, by a…"
+          },
+          {
+            "line": 3762,
+            "quote": "…e’ compared to ‘Human Is’ **88–90** , 102 fathers in 105 ‘Preserving Machine, The’ 93n14 ‘Project Earth’ 102 ‘Prominent Author’ 107n33 _Puttering About in a Small Land_ 67, 68n3 historical moment of 69, 74, 75n9, 101n26, 151n2, 204n4…"
+          }
+        ],
+        "quotes_truncated": 0
+      },
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+        "author": "Anne R. Dick",
+        "lane": "C",
+        "mention_count": 1,
+        "quotes": [
+          {
+            "line": 3055,
+            "quote": "…return, but can this bombedout, grey ruin be the fabled green Earth? “Elwood Builds an Ark” in his backyard. “Prominent Author” writes the Bible. “The Father-Thing” was a forerunner of Jack Finney’s _Invasion of the Body Snatchers_ .…"
+          }
+        ],
+        "quotes_truncated": 0
+      }
+    ],
+    "reading": null
+  },
+  "contradictions": [],
+  "open_questions": [],
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  }
+}

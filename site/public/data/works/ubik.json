@@ -100,5 +100,731 @@
   ],
   "themes": [
     "reality-breakdown"
-  ]
+  ],
+  "word_count": 67277,
+  "reading": {
+    "structure": {
+      "chapter_count": 17,
+      "chapters": [
+        {
+          "label": "1",
+          "line_start": 16,
+          "line_end": 115,
+          "word_count": 2475
+        },
+        {
+          "label": "2",
+          "line_start": 116,
+          "line_end": 233,
+          "word_count": 2613
+        },
+        {
+          "label": "3",
+          "line_start": 234,
+          "line_end": 531,
+          "word_count": 5020
+        },
+        {
+          "label": "4",
+          "line_start": 532,
+          "line_end": 733,
+          "word_count": 3807
+        },
+        {
+          "label": "5",
+          "line_start": 734,
+          "line_end": 1005,
+          "word_count": 4459
+        },
+        {
+          "label": "6",
+          "line_start": 1006,
+          "line_end": 1285,
+          "word_count": 4531
+        },
+        {
+          "label": "7",
+          "line_start": 1286,
+          "line_end": 1655,
+          "word_count": 5539
+        },
+        {
+          "label": "8",
+          "line_start": 1656,
+          "line_end": 2085,
+          "word_count": 5665
+        },
+        {
+          "label": "9",
+          "line_start": 2086,
+          "line_end": 2331,
+          "word_count": 3940
+        },
+        {
+          "label": "10",
+          "line_start": 2332,
+          "line_end": 2595,
+          "word_count": 6256
+        },
+        {
+          "label": "11",
+          "line_start": 2596,
+          "line_end": 2887,
+          "word_count": 4638
+        },
+        {
+          "label": "12",
+          "line_start": 2888,
+          "line_end": 3101,
+          "word_count": 3556
+        },
+        {
+          "label": "13",
+          "line_start": 3102,
+          "line_end": 3317,
+          "word_count": 4081
+        },
+        {
+          "label": "14",
+          "line_start": 3318,
+          "line_end": 3527,
+          "word_count": 3230
+        },
+        {
+          "label": "15",
+          "line_start": 3528,
+          "line_end": 3679,
+          "word_count": 2564
+        },
+        {
+          "label": "16",
+          "line_start": 3680,
+          "line_end": 3947,
+          "word_count": 4318
+        },
+        {
+          "label": "17",
+          "line_start": 3948,
+          "line_end": 3980,
+          "word_count": 503
+        }
+      ]
+    },
+    "characters": null,
+    "settings": null,
+    "motifs": [],
+    "significance": "A work by Philip K. Dick.",
+    "closing_note": null
+  },
+  "distinctive_terms": [
+    {
+      "label": "Runciter",
+      "entity_id": "TERM_runciter",
+      "count": 467,
+      "distinctiveness": 1152.79
+    },
+    {
+      "label": "Ubik",
+      "entity_id": "TERM_ubik",
+      "count": 112,
+      "distinctiveness": 276.47
+    },
+    {
+      "label": "Jews",
+      "entity_id": "TERM_jews",
+      "count": 4,
+      "distinctiveness": 11.89
+    },
+    {
+      "label": "Emanation",
+      "entity_id": "TERM_emanation",
+      "count": 2,
+      "distinctiveness": 4.94
+    },
+    {
+      "label": "Plato",
+      "entity_id": "TERM_plato",
+      "count": 2,
+      "distinctiveness": 4.22
+    },
+    {
+      "label": "Joint",
+      "entity_id": "TERM_joint",
+      "count": 3,
+      "distinctiveness": 3.14
+    },
+    {
+      "label": "Iron",
+      "entity_id": "TERM_iron",
+      "count": 7,
+      "distinctiveness": 3.01
+    },
+    {
+      "label": "Bardo Thodol",
+      "entity_id": "TERM_bardo-thodol",
+      "count": 1,
+      "distinctiveness": 2.97
+    },
+    {
+      "label": "Retrograde Time",
+      "entity_id": "TERM_retrograde-time",
+      "count": 1,
+      "distinctiveness": 2.97
+    },
+    {
+      "label": "Bardo",
+      "entity_id": "TERM_bardo",
+      "count": 1,
+      "distinctiveness": 2.97
+    },
+    {
+      "label": "Thodol",
+      "entity_id": "TERM_thodol",
+      "count": 1,
+      "distinctiveness": 2.97
+    },
+    {
+      "label": "Jewish",
+      "entity_id": "TERM_jewish",
+      "count": 1,
+      "distinctiveness": 2.97
+    },
+    {
+      "label": "Hebrew",
+      "entity_id": "TERM_hebrew",
+      "count": 2,
+      "distinctiveness": 2.94
+    },
+    {
+      "label": "Christ",
+      "entity_id": "TERM_christ",
+      "count": 13,
+      "distinctiveness": 2.46
+    },
+    {
+      "label": "Anyhow",
+      "entity_id": "TERM_anyhow",
+      "count": 42,
+      "distinctiveness": 2.3
+    },
+    {
+      "label": "Okay",
+      "entity_id": "TERM_okay",
+      "count": 33,
+      "distinctiveness": 2.14
+    },
+    {
+      "label": "Jung",
+      "entity_id": "TERM_jung",
+      "count": 1,
+      "distinctiveness": 2.11
+    },
+    {
+      "label": "Bill",
+      "entity_id": "TERM_bill",
+      "count": 20,
+      "distinctiveness": 2.07
+    },
+    {
+      "label": "Probably",
+      "entity_id": "TERM_probably",
+      "count": 56,
+      "distinctiveness": 2.06
+    },
+    {
+      "label": "Therefore",
+      "entity_id": "TERM_therefore",
+      "count": 6,
+      "distinctiveness": 1.99
+    },
+    {
+      "label": "Girl",
+      "entity_id": "TERM_girl",
+      "count": 62,
+      "distinctiveness": 1.97
+    },
+    {
+      "label": "Reality",
+      "entity_id": "TERM_reality",
+      "count": 17,
+      "distinctiveness": 1.86
+    },
+    {
+      "label": "Jesus",
+      "entity_id": "TERM_jesus",
+      "count": 2,
+      "distinctiveness": 1.83
+    },
+    {
+      "label": "Obviously",
+      "entity_id": "TERM_obviously",
+      "count": 17,
+      "distinctiveness": 1.76
+    },
+    {
+      "label": "Jesus Christ",
+      "entity_id": "TERM_jesus-christ",
+      "count": 1,
+      "distinctiveness": 1.64
+    }
+  ],
+  "pkd_on_this_work": {
+    "lane": "E/B",
+    "total_mentions": 159,
+    "sources": [
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
+        "author": null,
+        "lane": "B",
+        "mention_count": 136,
+        "quotes": [
+          {
+            "line": 81,
+            "quote": "…son, Christopher. Then he was visited by a \"red and gold plasmatic entity,\" which he came to call, variously, Ubik, the Logos, Zebra, or the plasmate. He also heard dire messages on his radio (which played whether or not it…"
+          },
+          {
+            "line": 199,
+            "quote": "…reveals both good and bad things; which is to say, coaching entities (Runciter, who is the Logos), the Atman (Ubik), Ella; it isn't a static world, but it begins to _cool._ What is missing is a form of heat: the Aton. The Lo…"
+          },
+          {
+            "line": 251,
+            "quote": "…d Entity: that of all creation as it lies ahead of us in time. Cordially, Philip K. Dick P.S. In terms of Ubik (not the novel but the force described in my novel) perhaps I was coherence which the universe is moving towa…"
+          },
+          {
+            "line": 251,
+            "quote": "…-à-vis the tachyon theory, which is connected with the theory that the universe is moving from chaos to form. Ubik talks to us from the future, from the end state to which everything is moving; thus Ubik is not here—which is…"
+          },
+          {
+            "line": 251,
+            "quote": "…from chaos to form. Ubik talks to us from the future, from the end state to which everything is moving; thus Ubik is not here—which is to say now—but will be, and what we get is information about and from Ubik, as we receiv…"
+          },
+          {
+            "line": 251,
+            "quote": "…moving; thus Ubik is not here—which is to say now—but will be, and what we get is information about and from Ubik, as we receive TV or radio signals from transmitters located in other spaces in this time continuum. I see…"
+          },
+          {
+            "line": 253,
+            "quote": "…located in other spaces in this time continuum. I see no objection to interpreting the meaning of the force Ubik this way. Nor in interpreting the purpose of the novel _Ubik_ by saying that in it I was trying in a dim and…"
+          },
+          {
+            "line": 255,
+            "quote": "…fictional statement containing a presentation of this directing presence which I arbitrarily chose the name \"Ubik\" for. That Ubik (or more accurately the future total Gestalt of purpose and Meaning) may well have written th…"
+          },
+          {
+            "line": 255,
+            "quote": "…ment containing a presentation of this directing presence which I arbitrarily chose the name \"Ubik\" for. That Ubik (or more accurately the future total Gestalt of purpose and Meaning) may well have written the book through…"
+          },
+          {
+            "line": 489,
+            "quote": "…house: Sleep-Eze and spray can sprays with traces of metal in them. This is very much like _Ubik,_ in which Ubik the force, the deity, the underlying entity bringing on and stabilizing eidos, form, is seen as a spray can—i…"
+          },
+          {
+            "line": 491,
+            "quote": "…ox _about_ a spray can. A main difference, though, is that my infodump told me the spray can was bad; whereas Ubik of course was good. The absolute good of the universe. Anyhow I rose up in the night and threw out my Sleep…"
+          },
+          {
+            "line": 493,
+            "quote": "…up backward. Maybe when I did that I not only wound up in my own book I even turned the book backward. Turned Ubik inside out too. This causes me to think up, sui generis, another theory. - (1) I, consciously, don't write…"
+          }
+        ],
+        "quotes_truncated": 124
+      },
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+        "author": null,
+        "lane": "E",
+        "mention_count": 11,
+        "quotes": [
+          {
+            "line": 698,
+            "quote": "…n phoned me on December 31st at long last to say that the final payment of $2,500 due me on the screenplay of Ubik will be along in a few days. Jean-Pierre has been ill and hospitalized for over a month, he says, with a chro…"
+          },
+          {
+            "line": 1362,
+            "quote": "…the energy or information when pushed far enough will do the same. Fuse into something everywhere (the force Ubik) that is sentient and alive. Then THE SELECTED LETTERS OF PHILIP K. DICK 34 inner-outer, then-now, caus…"
+          },
+          {
+            "line": 1478,
+            "quote": "…(Ella versus Jory, which is love versus hate, a kind of dialectic interaction generating all change; (three) Ubik as an omnipresent energy field, which would be the ancient notion of God as Immanent Mind infusing the univer…"
+          },
+          {
+            "line": 1480,
+            "quote": "…ving life energy, cosmic in origin, the link between the living and the non-living, would be roughly equal to Ubik, although not conceived by Reich as sentient. I obviously conceive of Ubik as sentient, perhaps a bioplasmic…"
+          },
+          {
+            "line": 1480,
+            "quote": "…-living, would be roughly equal to Ubik, although not conceived by Reich as sentient. I obviously conceive of Ubik as sentient, perhaps a bioplasmic life form related to the Logos, as the three mem­ bers of the Christian Tri…"
+          },
+          {
+            "line": 1480,
+            "quote": "…as the three mem­ bers of the Christian Trinity are related to each other and one another: Runciter as Christ/Ubik as Immanent God/Runciter, when not visible but writing to them as Logos. Which, I see now, by my logic, makes…"
+          },
+          {
+            "line": 2002,
+            "quote": "…r Lem or anyone else over there has noticed that my novel UBIK seems to describe an underlying energy (called Ubik in the novel) which to an extraordinary extent resembles Dr. Nikolai Kozyrev’s new and revolutionary concept…"
+          },
+          {
+            "line": 2164,
+            "quote": "…d store I used to work at, and., etc. Whereas I was undergo­ ing another session with this ionospheric entity—Ubik.) (ten) It may saturated us with vitality/information/brain prints to the extent that our ontological categor…"
+          },
+          {
+            "line": 3900,
+            "quote": "…Christ used (in the Bible Christ says, “Before Abraham was I am,” which is the language of the spraycan-force Ubik at the end; Ubik is both God and the Creator, and, by his specific language, Christ. None of this was known t…"
+          },
+          {
+            "line": 3900,
+            "quote": "…he Bible Christ says, “Before Abraham was I am,” which is the language of the spraycan-force Ubik at the end; Ubik is both God and the Creator, and, by his specific language, Christ. None of this was known to me when I wrote…"
+          },
+          {
+            "line": 3906,
+            "quote": "…, here we have the Trinity accidentally expressed and put forth in UBIK: God the Creation (the spraycan force Ubik), Christ who is the Logos (Runciter and his endless written messages), and the reversion of forms which someh…"
+          }
+        ],
+        "quotes_truncated": 0
+      },
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+        "author": null,
+        "lane": "E",
+        "mention_count": 5,
+        "quotes": [
+          {
+            "line": 1935,
+            "quote": "…nger rule his little kingdom here; he will soar upward, flying like a field of negative ions, like the entity Ubik in my novel of that name: being life and giving life, but never defining himself because no clearcut name to…"
+          },
+          {
+            "line": 2323,
+            "quote": "…25). If any of you have read my novel _Ubik_ , you know that the mysterious entity or mind or force called Ubik starts out as a series of cheap and vulgar commercials and winds up saying: I am Ubik. Before the universe…"
+          },
+          {
+            "line": 2325,
+            "quote": "…mind or force called Ubik starts out as a series of cheap and vulgar commercials and winds up saying: I am Ubik. Before the universe was I am. I made the suns. I made the worlds. I created the lives and the places they in…"
+          },
+          {
+            "line": 2325,
+            "quote": "…, they do as I tell them. I am the word and my name is never spoken, the name which no one knows. I am called Ubik but that is not my name. I am. I shall always be. It is obvious from this who and what Ubik is; it specific…"
+          },
+          {
+            "line": 2327,
+            "quote": "…ws. I am called Ubik but that is not my name. I am. I shall always be. It is obvious from this who and what Ubik is; it specifically says that it is the word, which is to say, the Logos. In the German translation, there is…"
+          }
+        ],
+        "quotes_truncated": 0
+      },
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19.md",
+        "author": null,
+        "lane": "E",
+        "mention_count": 4,
+        "quotes": [
+          {
+            "line": 1231,
+            "quote": "…and a pure knowing of concepts; VALIS did not think as we think but a priori knew everything. VALIS resembled Ubik in that VALIS arranged physical reality into informa­ tion; also VALIS was here in the world. But on 11-17-80…"
+          },
+          {
+            "line": 1269,
+            "quote": "…or pervasive of all reality “as a drop of wine in a glass of water.” Now, I said supra that VALIS resembled Ubik, which is my own personal conception of Deity. But in UBIK, at the top of the final chapter, Ubik is specific…"
+          },
+          {
+            "line": 1269,
+            "quote": "…S resembled Ubik, which is my own personal conception of Deity. But in UBIK, at the top of the final chapter, Ubik is specifically identified— it identifies itself—with and as the Logos. So it seems very possible to me that…"
+          },
+          {
+            "line": 3211,
+            "quote": "…E C T E D L E T T E R S OF P H I L I P K. D I C K form of Runciter’s messages (that would be Christ) and Ubik itself (that would be God). The Orphic-Pythagorean utterance that Plato quotes (“Now we are dead and in a kin…"
+          }
+        ],
+        "quotes_truncated": 0
+      },
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+        "author": null,
+        "lane": "E",
+        "mention_count": 3,
+        "quotes": [
+          {
+            "line": 31,
+            "quote": "…All Exacdy Alike (1984) Robots, Androids, and Mechanical Oddities (1984) In Milton Lumky Territory (1985) Ubik: The Screenplay (1985) I Hope I Shall Arrive Soon (1985) Puttering About in a Small Land (1985) Radio Free…"
+          },
+          {
+            "line": 35,
+            "quote": "…he Broken Bubble (1988) Nick and the Glimmung (1988) The Dark-Haired Girl (1988) Galactic Pot-Healer (1969) Ubik (1969) The Preserving Machine (1969) A Maze of Death (1970) Our Friends from Frolix 8 (1970) We Can Build Y…"
+          },
+          {
+            "line": 4842,
+            "quote": "…ry her offwhere she’d be safe ... with me, that is. Thank you again for the pictures, and I await the copy of UBIk with thanks, too. With warm regards, Philip K. Dick P. S.Speaking of beautiful women, I am convinced that…"
+          }
+        ],
+        "quotes_truncated": 0
+      }
+    ],
+    "reading": null
+  },
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 104,
+    "sources": [
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+        "author": "Lawrence Sutin",
+        "lane": "C",
+        "mention_count": 63,
+        "quotes": [
+          {
+            "line": 73,
+            "quote": "…ter 7: A New Start, A Quiet Life, Then Everything Falls Apart AgainAnd Phil Can’t Find The Handy Spray Can Of Ubik That Could Make It All Cohere (1965-1970) 145 Chapter 8: Dark Night Of The Soul, Dark-Haired Girls, A Scann…"
+          },
+          {
+            "line": 157,
+            "quote": "…he Man in the High Castle_ (1962), _The Three Stigmata of Palmer Eldritch_ (1964), _Martian TimeSlip_ (1964), Ubik (1969), _A Scanner Darkly_ (1977), and the aforementioned _VALIS_ —comes under the heading of SF if it comes…"
+          },
+          {
+            "line": 693,
+            "quote": "…real as former wives lost in alternate worlds or God the Logos in the guise of your boss doing a TV spot for Ubik instant coffee. Characters can be saintly, silly, lonely, horny, brilliant, and crazed all at once in the sam…"
+          },
+          {
+            "line": 1073,
+            "quote": "…Leo Bulero and Barney Mayerson (The Three Stigmata of Palmer Eldritch, 1965), and Glen Runciter and Joe Chip (Ubik, 1969) are the most notable portraits of the trust and tension that existed between Hollis and Phil. In Voi…"
+          },
+          {
+            "line": 1455,
+            "quote": "…s to multiply realities) in masterworks such as Martian Time-Slip, The Three Stigmata of Palmer Eldritch, and Ubik. Before taking leave of Phil’s stories, mention must be made of “Beyond Lies the Wub,” the very first to ap…"
+          },
+          {
+            "line": 1789,
+            "quote": "…37 deceived as to the reality in which we dwell. In the Exegesis he wrote: “EYE,” “Joint,” “3 Stigmata,” “Ubik” & “Maze” are the same novel written over and over again. The characters are all out cold & lying around toge…"
+          },
+          {
+            "line": 2427,
+            "quote": "…f enduring out of all of his work. VALIS (1981) is its superior in metaphysical and psychological brilliance; Ubik (1969) outdoes it in sheer pataphysical slapstick; A Scanner Darkly (1977) explores more convincingly hell’s…"
+          },
+          {
+            "line": 2677,
+            "quote": "…## **A New Start, A Quiet Life, Then Everything Falls Apart Again-And Phil Can’t Find The Handy Spray Can Of Ubik That Could Make It All Cohere (1965-1970)** Philip K. Dick (…J lives now in San Rafael and is interested in…"
+          },
+          {
+            "line": 2689,
+            "quote": "…y, I begin another book. PHIL., “Notes Made Late at Night by a Weary SF Writer” (1968) Taken as directed, Ubik provides uninterrupted sleep without morning-after grogginess. You awaken fresh, ready to tackle all those an…"
+          },
+          {
+            "line": 2695,
+            "quote": "…sh, ready to tackle all those annoying problems 206 ## facing you. Do not exceed recommended dosage. ## Ubik commercial in Ubik (1969) THE sixties was a decade that made a lot of big promises to those who lived throu…"
+          },
+          {
+            "line": 2695,
+            "quote": "…all those annoying problems 206 ## facing you. Do not exceed recommended dosage. ## Ubik commercial in Ubik (1969) THE sixties was a decade that made a lot of big promises to those who lived through it with an open…"
+          },
+          {
+            "line": 2813,
+            "quote": "…material also utilized in the excellent Galactic PotHealer (p. 1969). But above and beyond all these soars Ubik (w. 1966, p. 1969). This is the novel that propelled Phil’s election, in France, as an honorary member of the…"
+          }
+        ],
+        "quotes_truncated": 51
+      },
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_FREDRIC_JAMESON_ARCHAEOLOGIES_OF_THE_FUT.md",
+        "author": "Fredric Jameson",
+        "lane": "C",
+        "mention_count": 14,
+        "quotes": [
+          {
+            "line": 1234,
+            "quote": "…sult not of an aberrant wish­ fulfi ment, but rather of the malignancy of being itself which will later on in Ubik be personified by one of Dick's incomparable villains. What is closer in register is the result, and the sh…"
+          },
+          {
+            "line": 1248,
+            "quote": "…ostalgic fascination with it. But this is also the question of the ending of The Lathe of 8 Philip K. Dick, Ubik (New York, 1969), pp. 138-144. It would be instructive to compare these two nightmarish Western transformatio…"
+          },
+          {
+            "line": 1250,
+            "quote": "…e the descent into the image cuts far deeper into the sources of commodification and spectacle society. > 9 Ubik, p. 102. > 10 See the chapter on Platonov's Chevengurin my Seeds of Time (New York, 1994). HOW TO FULFILL…"
+          },
+          {
+            "line": 3534,
+            "quote": "…of consciousness from the external world (as, for example, in the \"half-life\" of the dead in Philip K. Dick's Ubik). One of the most significant potentialities of SF as a form is precisely this capacity to provide something…"
+          },
+          {
+            "line": 4288,
+            "quote": "…sleep or suspen­ sion now taking the place of living as a narratable event). It remained for Philip K. Dick's Ubik (1969) to produce in advance something like the metanarra­ tive of this now conventional narrative and raise…"
+          },
+          {
+            "line": 4334,
+            "quote": "…uture, as in the most electrifying episodes of his books. In one of the frnest and most somber of his novels, Ubik, hapless pro­ tagonist Joe Chip is desperately trying to reach Des Moines and must travel across a landscape…"
+          },
+          {
+            "line": 4372,
+            "quote": "…tions and depersonalization in which the individual is held in our own time, \"like a bird caught in cobwebs\" (Ubik). Dick's work does that. It is a virtual \"art of the fugue\" of storytelling, narrative pyrotech­ nics that un…"
+          },
+          {
+            "line": 4380,
+            "quote": "…y Galactic Pot-Healer) and, of course, the late \"metaphysical\" cycle which includes his most striking novels, Ubik and The Three Stigmata of Palmer Eldritch. On such a view, Dr Bloodmonry (1965) can be assigned to a small bu…"
+          },
+          {
+            "line": 4420,
+            "quote": "…of them and they're all different . . . Down in the ground\" (136). Here then, already the half-life world of Ubik is beginning to take shape; yet as entities the dead are quite distinct from either Bill or Dangerfield in th…"
+          },
+          {
+            "line": 4528,
+            "quote": "…(New York, 1977, orig. 1965), 1966: Do Androids Dream of Electric Sheep? (New York, 1984, orig. 1968), 1966: Ubik (New York, 1991, orig. 1969), 1968: A Maze of Death (New York, 1971). Page references within the text are to…"
+          },
+          {
+            "line": 4538,
+            "quote": "…out of the tomb world (in Do Androids Dream of Electric Sheep?). Meanwhile the theological preoccupations of Ubik are yet again something else: representational dilemmas, which rehearse the impos­ sible dialectic of the let…"
+          },
+          {
+            "line": 4588,
+            "quote": "…m be taken as outright visions of horror (unlike, for instance, Mercer's tomb­ world or the menace of Jory in Ubik). In another way they seem to rhyme with the America of the 1950s of the mainstream novels, of which the leas…"
+          }
+        ],
+        "quotes_truncated": 2
+      },
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+        "author": "Christopher Palmer",
+        "lane": "C",
+        "mention_count": 13,
+        "quotes": [
+          {
+            "line": 410,
+            "quote": "…eality-restorant, advertised, literally, in the epigraphs to the chapters of _Ubik_ . These epigraphs depict ‘Ubik’ as both a commodity, like Harpic, and a deity. Commodities and deities both promise everything, but deliver…"
+          },
+          {
+            "line": 906,
+            "quote": "…eriences the events of the narrative as an attempt to stave off death by finding the magic restorative elixir Ubik. This death within death that repeatedly threatens him and overtakes many of the other characters takes the f…"
+          },
+          {
+            "line": 908,
+            "quote": "…horrific climb up the stairs in the Des Moines hotel, he uses his very fortunate restoration by grace of the Ubik aerosol to commence a hunt for a prostitute. This disgusts the 1939 inhabitants of Des Moines who witness it,…"
+          },
+          {
+            "line": 908,
+            "quote": "…unciter, Glen’s deceased wife, an emissary of good from another province of the half-life world, bearing more Ubik— and shortly afterwards another young woman of a similar kind is sent to help him secure more (ch. 16, 190–98…"
+          },
+          {
+            "line": 910,
+            "quote": "…leased some drifting sexual material into the novel’s psyche. The implication seems to be that one _can_ find Ubik—which is simultaneously a deity; the ultimate, shiny and wonder-working, but insubstantial, consumer product;…"
+          },
+          {
+            "line": 912,
+            "quote": "…e onset of death and the magical 58 EXHILARATION AND TERROR OF THE POSTMODERN recovery from this onset that Ubik can grant, but he cannot actually move or act. This imagination of an existence wholly abstract (Ubik is th…"
+          },
+          {
+            "line": 914,
+            "quote": "…that Ubik can grant, but he cannot actually move or act. This imagination of an existence wholly abstract (Ubik is the spirit of the Commodity, rather than a material thing) yet capable of the most vivid fearing and desir…"
+          },
+          {
+            "line": 1926,
+            "quote": "…ilet wall, interruptions to a television commercial for detergent. Runciter finally conveys something called ‘Ubik’ to Joe; ‘Ubik’ is not very solidly material, since its manifestations change and it is sprayed from an aeros…"
+          },
+          {
+            "line": 1926,
+            "quote": "…rruptions to a television commercial for detergent. Runciter finally conveys something called ‘Ubik’ to Joe; ‘Ubik’ is not very solidly material, since its manifestations change and it is sprayed from an aerosol can, but it…"
+          },
+          {
+            "line": 1926,
+            "quote": "…ng slogans (the epigraphs to the book’s chapters). It is also divine, if you can believe advertisments: ‘I am Ubik. Before the universe was, I am’ (ch. 17, 201: the ultimate epigraph). _Ubik_ the novel ends hopefully: the…"
+          },
+          {
+            "line": 1928,
+            "quote": "…an aerosol with divine pretensions. We can ascertain from our survey of Dick’s treatment of consumption that Ubik the spray satisfies certain conditions: it comes from a benign, non-coercive deity;[11] it is both magical an…"
+          },
+          {
+            "line": 1994,
+            "quote": "…as transcendence, that is, as the only transcendence we can now expect. This is clearest in the treatment of Ubik —a commodity, a god, a poison (at one point), an elixir, a device with a scientific rationale, an object of q…"
+          }
+        ],
+        "quotes_truncated": 1
+      },
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_MCLOUGHLIN_PINK_LIGHT_AND_IRON.md",
+        "author": "McLoughlin",
+        "lane": "C",
+        "mention_count": 8,
+        "quotes": [
+          {
+            "line": 523,
+            "quote": "…ty of the 2-3-74 experience is this: It’s as if certain books of mine went _out_ from me ( _Unteleported man, Ubik, Tears_ , etc.) and then (years) later (or weeks) _came_ back, like in F. Brown’s “The Waveries,” in signal f…"
+          },
+          {
+            "line": 617,
+            "quote": "…elves of their own accord—just like a violent toothache, for example. All sensations, > 102 Philip K. Dick, Ubik (London: Gollancz, 2000), p. 62. > 103 Philip K. Dick, _Exegesis_ , p. 479. 35 especially mental ones,…"
+          },
+          {
+            "line": 1863,
+            "quote": "…rlds,_ ed. by Mark Knight and Louise Lee (London: Continuum, 2009), pp. 8–22 (p. 12). > 376 Philip K. Dick, Ubik (London: Gollancz, 2000), p. 224. 103 _Heavy_ outlines a different history than ours, troubling the prima…"
+          },
+          {
+            "line": 3773,
+            "quote": "…al Theory and Science Fiction_ (Middletown: Wesleyan University Press, 2000), p. 89. > 791 Peter Fitting, ‘“Ubik”: The Deconstruction of Bourgeois SF’, _Science Fiction Studies,_ 2.1 (1975), pp 47–54 (p. 47) <https://www.j…"
+          },
+          {
+            "line": 3781,
+            "quote": "…ogical bent requires, and his desire to get away from extant dogma: ‘VALIS is no God formerly known closer to Ubik than to YHWH or even Mazda.’[794] Any one explanation, any one dogma, is like glimpsing the divine holographi…"
+          },
+          {
+            "line": 3893,
+            "quote": "…id-century advertising jargon, but transforming by the end of the novel into an unguarded proselytism: I am Ubik. Before the universe was, I am. I made the suns. I made the worlds…. I am the word and my name is never spoke…"
+          },
+          {
+            "line": 3893,
+            "quote": "…suns. I made the worlds…. I am the word and my name is never spoken, the name which no one knows. I am called Ubik, but that is not my name. I am. I shall always be.[818] By the time of his death _Ubik_ was Dick’s most wri…"
+          },
+          {
+            "line": 4613,
+            "quote": "…s, 10.2 (1983), 219–236 - <https://www.jstor.org/stable/4239550> [Accessed 21 November 2023] - ——— , ‘“Ubik”: The Deconstruction of Bourgeois SF’, Science Fiction Studies, 2.1 (1975), 47– 54 https://www.jstor.org/stab…"
+          }
+        ],
+        "quotes_truncated": 0
+      },
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_KRIPAL_JEFFREY_J_MUTANTS_AND_MYSTICS.md",
+        "author": "Jeffrey J. Kripal",
+        "lane": "C",
+        "mention_count": 5,
+        "quotes": [
+          {
+            "line": 2647,
+            "quote": "…weh of the Hebrew Bible: “I am the word and my name is never spoken, the name which no one knows. I am called Ubik, but that is not my name. I am. I shall always be.”17 During the same sixties, Dick had also been very close…"
+          },
+          {
+            "line": 2711,
+            "quote": "…God,” as Dick glossed his own character of Palmer Eldritch.30 And there is the transcendent Godhead, Yahweh, Ubik, or Yah (in _The_ _Divine Invasion_ ), whose absolute nature we share by virtue of our deepest divine spiri…"
+          },
+          {
+            "line": 4043,
+            "quote": "…. This is also what he means, I believe, by “rational.” See also SR 277. 17. DIS 154. Dick traces the name “Ubik” back to _ubique_ , the Latin for “everywhere,” as in - “ubiquitous” (PV 98)—the Everywhere of the unraveli…"
+          },
+          {
+            "line": 4061,
+            "quote": "…as well to 2-3-74 as UBIK, my own earlier novel” (PV 160). Or: “It’s obvious that the real author of UBIK was Ubik” (PV 185). And so on. 27. PV 79–80, 101, 103. Such passages point to Dick’s concept of “metareasoning” as “…"
+          },
+          {
+            "line": 4065,
+            "quote": "…nt to Dick’s concept of “metareasoning” as “the infinite logic of the dialectic” (PV 94). 28. For the Atman/Ubik comparison, see PV 63–64 and 98, where he connects it to the Jewish mystical notion of Adam Kadmon, “defined…"
+          }
+        ],
+        "quotes_truncated": 0
+      },
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+        "author": "Anne R. Dick",
+        "lane": "C",
+        "mention_count": 1,
+        "quotes": [
+          {
+            "line": 3251,
+            "quote": "…Out of Joint**_ 12, 26, 39, 48, 264 _**Transmigration of Timothy Archer, The**_ 134, 205–206, 232–233, 250 _**Ubik**_ 135, 174, 186, 200, 264, 269 _**Unteleported Man, The**_ 104 _**VALIS**_ 104, 174, 178, 181–184, 196, 202…"
+          }
+        ],
+        "quotes_truncated": 0
+      }
+    ],
+    "reading": null
+  },
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  }
 }

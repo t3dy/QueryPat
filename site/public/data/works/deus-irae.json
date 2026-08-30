@@ -2,7 +2,7 @@
   "work_id": "WORK_deus-irae",
   "canonical_title": "Deus Irae",
   "slug": "deus-irae",
-  "author": "Philip K. Dick and Roger Zelazny",
+  "author": "Philip K. Dick",
   "work_type": "novel",
   "category": "novels",
   "date_display": "1976",
@@ -92,9 +92,36 @@
     }
   ],
   "themes": [
-    "religion-gnosis",
-    "reality-breakdown",
     "delusions",
-    "empire-control"
-  ]
+    "empire-control",
+    "reality-breakdown",
+    "religion-gnosis"
+  ],
+  "word_count": 0,
+  "reading": {
+    "structure": {
+      "form": "novel"
+    },
+    "characters": [],
+    "settings": [],
+    "motifs": [],
+    "significance": "Part of Philip K. Dick's novels.",
+    "closing_note": null
+  },
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "evidence": []
+  },
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  }
 }

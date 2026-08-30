@@ -29,7 +29,244 @@
   "themes": [
     "alien-contact",
     "betrayal",
-    "illusionary-realities",
-    "empire-control"
-  ]
+    "empire-control",
+    "illusionary-realities"
+  ],
+  "word_count": 62041,
+  "reading": {
+    "structure": {
+      "chapter_count": 8,
+      "chapters": [
+        {
+          "label": "10",
+          "line_start": 2228,
+          "line_end": 2773,
+          "word_count": 5089
+        },
+        {
+          "label": "11",
+          "line_start": 2774,
+          "line_end": 3105,
+          "word_count": 4445
+        },
+        {
+          "label": "12",
+          "line_start": 3106,
+          "line_end": 3269,
+          "word_count": 2403
+        },
+        {
+          "label": "13",
+          "line_start": 3270,
+          "line_end": 3513,
+          "word_count": 3681
+        },
+        {
+          "label": "14",
+          "line_start": 3514,
+          "line_end": 3775,
+          "word_count": 3172
+        },
+        {
+          "label": "15",
+          "line_start": 3776,
+          "line_end": 4237,
+          "word_count": 5798
+        },
+        {
+          "label": "16",
+          "line_start": 4238,
+          "line_end": 4589,
+          "word_count": 4265
+        },
+        {
+          "label": "17",
+          "line_start": 4590,
+          "line_end": 4948,
+          "word_count": 4042
+        }
+      ]
+    },
+    "characters": null,
+    "settings": null,
+    "motifs": [],
+    "significance": "A work by Philip K. Dick.",
+    "closing_note": null
+  },
+  "distinctive_terms": [
+    {
+      "label": "Garden",
+      "entity_id": "TERM_garden",
+      "count": 208,
+      "distinctiveness": 55.73
+    },
+    {
+      "label": "Folder",
+      "entity_id": "TERM_folder",
+      "count": 8,
+      "distinctiveness": 7.47
+    },
+    {
+      "label": "Bill",
+      "entity_id": "TERM_bill",
+      "count": 63,
+      "distinctiveness": 7.06
+    },
+    {
+      "label": "Jung",
+      "entity_id": "TERM_jung",
+      "count": 3,
+      "distinctiveness": 6.87
+    },
+    {
+      "label": "Anyhow",
+      "entity_id": "TERM_anyhow",
+      "count": 52,
+      "distinctiveness": 3.09
+    },
+    {
+      "label": "Tears",
+      "entity_id": "TERM_tears",
+      "count": 7,
+      "distinctiveness": 2.77
+    },
+    {
+      "label": "Ubik",
+      "entity_id": "TERM_ubik",
+      "count": 1,
+      "distinctiveness": 2.68
+    },
+    {
+      "label": "Valis",
+      "entity_id": "TERM_valis",
+      "count": 1,
+      "distinctiveness": 2.68
+    },
+    {
+      "label": "Platonic",
+      "entity_id": "TERM_platonic",
+      "count": 1,
+      "distinctiveness": 2.68
+    },
+    {
+      "label": "Palmer",
+      "entity_id": "TERM_palmer",
+      "count": 2,
+      "distinctiveness": 2.65
+    },
+    {
+      "label": "Black",
+      "entity_id": "TERM_black",
+      "count": 58,
+      "distinctiveness": 2.32
+    },
+    {
+      "label": "Self",
+      "entity_id": "TERM_self",
+      "count": 12,
+      "distinctiveness": 2.04
+    },
+    {
+      "label": "Acts",
+      "entity_id": "TERM_acts",
+      "count": 2,
+      "distinctiveness": 1.99
+    },
+    {
+      "label": "Reality",
+      "entity_id": "TERM_reality",
+      "count": 15,
+      "distinctiveness": 1.78
+    },
+    {
+      "label": "Jesus Christ",
+      "entity_id": "TERM_jesus-christ",
+      "count": 1,
+      "distinctiveness": 1.77
+    },
+    {
+      "label": "Daniel",
+      "entity_id": "TERM_daniel",
+      "count": 1,
+      "distinctiveness": 1.77
+    },
+    {
+      "label": "Mind",
+      "entity_id": "TERM_mind",
+      "count": 62,
+      "distinctiveness": 1.63
+    },
+    {
+      "label": "Okay",
+      "entity_id": "TERM_okay",
+      "count": 23,
+      "distinctiveness": 1.61
+    },
+    {
+      "label": "Girl",
+      "entity_id": "TERM_girl",
+      "count": 46,
+      "distinctiveness": 1.59
+    },
+    {
+      "label": "Obviously",
+      "entity_id": "TERM_obviously",
+      "count": 14,
+      "distinctiveness": 1.57
+    }
+  ],
+  "pkd_on_this_work": {
+    "lane": "E/B",
+    "total_mentions": 1,
+    "sources": [
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+        "author": null,
+        "lane": "E",
+        "mention_count": 1,
+        "quotes": [
+          {
+            "line": 15,
+            "quote": "…(1957) Time out of Joint (1959) Dr. Futurity (1960) Vulcan’s Hammer (1960) The Man in the High Castle (1962) The Game-Players of Titan (1963) The Penultimate Truth (1964) Martian Time-Slip (1964) The Simulacra (1964) Clans of the Alphane Mo…"
+          }
+        ],
+        "quotes_truncated": 0
+      }
+    ],
+    "reading": null
+  },
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 3,
+    "sources": [
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+        "author": "Lawrence Sutin",
+        "lane": "C",
+        "mention_count": 3,
+        "quotes": [
+          {
+            "line": 2415,
+            "quote": "…tandards. In the twelve months that preceded Palmer Eldritch, Phil had written six SF novels: Dr. Bloodmoney, The Game-Players of Titan, The Simulacra, Now Wait for Last Year, Clans of the Alphane Moon, The Crack in Space. In the five months tha…"
+          },
+          {
+            "line": 5497,
+            "quote": "…a powerful triumvirate. Schilling and a wayward Mary Anne (last name now McClain) appear in modified form in The Game-Players of Titan (p. 1963). Mary Anne Dominic in Flow My Tears, The Policeman Said (p. 1974) has a purity of heart prefiguring…"
+          },
+          {
+            "line": 5561,
+            "quote": "…world, Dr. Bloodmoney resolutely avoids realism as to the effects of the blasts and fallout. Rating: 9. 30. The Game-Players of Titan (w. 1963, p. 1963). After aliens take over Earth, the surviving humans are governed by a cosmic version of Mo…"
+          }
+        ],
+        "quotes_truncated": 0
+      }
+    ],
+    "reading": null
+  },
+  "has_reading_notes": true,
+  "reading_provenance": {
+    "status": "LLM_CANDIDATE",
+    "review_state": "unreviewed",
+    "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
+  }
 }
