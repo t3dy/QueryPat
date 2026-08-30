@@ -1,241 +1,184 @@
 {
- "artifact_id": "ART_DOSSIER_THE_PRE_PERSONS",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-pre-persons",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Pre-persons",
-  "slug": "the-pre-persons",
-  "form": "story",
-  "word_count": 10096,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 55183,
-   "line_end": 55852,
-   "word_count": 10096,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "YHWH",
-    "name_id": "NAME_yhwh",
-    "mentions": 1
-   },
-   {
-    "name": "Thomas Aquinas",
-    "name_id": "NAME_thomas-aquinas",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Fish",
-    "entity_id": "TERM_fish",
-    "count": 12,
-    "distinctiveness": 27.77
-   },
-   {
-    "label": "Gabriel",
-    "entity_id": "TERM_gabriel",
-    "count": 1,
-    "distinctiveness": 16.45
-   },
-   {
-    "label": "Plato",
-    "entity_id": "TERM_plato",
-    "count": 1,
-    "distinctiveness": 14.06
-   },
-   {
-    "label": "Church",
-    "entity_id": "TERM_church",
-    "count": 3,
-    "distinctiveness": 10.82
-   },
-   {
-    "label": "Father",
-    "entity_id": "TERM_father",
-    "count": 23,
-    "distinctiveness": 6.41
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 9,
-    "distinctiveness": 3.28
-   },
-   {
-    "label": "Greek",
-    "entity_id": "TERM_greek",
-    "count": 1,
-    "distinctiveness": 3.14
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 6,
-    "distinctiveness": 2.59
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 10,
-    "distinctiveness": 2.46
-   },
-   {
-    "label": "King",
-    "entity_id": "TERM_king",
-    "count": 3,
-    "distinctiveness": 2.26
-   },
-   {
-    "label": "Obviously",
-    "entity_id": "TERM_obviously",
-    "count": 3,
-    "distinctiveness": 2.06
-   },
-   {
-    "label": "Thomas",
-    "entity_id": "TERM_thomas",
-    "count": 1,
-    "distinctiveness": 1.98
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 5,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
+  "artifact_id": "ART_DOSSIER_THE_PRE_PERSONS",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-pre-persons",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Pre-Persons",
+    "slug": "the-pre-persons",
+    "form": "novelette",
+    "word_count": 10093,
+    "lane": "A",
+    "written": "1974",
+    "first_publication": "The Magazine of Fantasy & Science Fiction, October 1974",
+    "commission": "Commissioned by Ed Ferman, along with 'A Little Something for Us Tempunauts'.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 55183,
+      "line_end": 55852,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    },
+    "editorial_flag": "The most directly polemical story in this corpus and the one that generated the most hostile contemporary reception. Handle with the reception file attached; see contradictions and criticism below."
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "In a near-future California, Congress has extended abortion law past birth: a child has no soul, and so no legal protection, until it can do algebra — a test the law sets at twelve. Unwanted children up to that age can be surrendered by their parents to a County Facility, collected by a white truck that plays a nursery rhyme through a loudspeaker, held thirty days for adoption, and then killed. Walter Best, who is twelve and therefore safe, hides in the brambles when the truck passes anyway; his mother explains that his fear is irrational and legally groundless, and he concludes that she is the one without a soul. The truck's driver, Ferris, picks up a boy named Tim Gantro who has no Desirability card. Tim's father Ed Gantro — a Stanford graduate in mathematics with a further degree in psychology — demands to be taken too, on the grounds that he cannot do algebra and therefore has no soul either. His argument is that the line is arbitrary and that either all of them should be killed or none. At the Facility the manager recognises the trap, discovers Gantro's qualifications, and orders him expelled before the press arrives; they arrive anyway. Ian Best, Walter's father, drives down to collect them, drunk and delighted. The story ends with the two men agreeing that they will never actually escape to Vancouver Island, and driving home in silence.",
+
+    "structure": {
+      "form": "novelette in five movements, alternating between the children, the truck, and the two households",
+      "movements": [
+        "Walter in the brambles, and his mother's legal reassurance.",
+        "The boys in the yard, working out what could be done about the truck.",
+        "Ferris's pickup of Tim Gantro, and Ed Gantro's demand to be taken as well.",
+        "The Best household: Cynthia's enthusiasm for having an abortion, and Ian's drinking.",
+        "The Facility, the press, and the drive home."
+      ],
+      "point_of_view": "third person, moving between Walter, Ferris, Ian Best and Ed Gantro. The shifts are used to give the polemic more than one mouth.",
+      "rhetorical_method": "The story argues by extension: it accepts the logic that personhood begins at a legally set threshold and pushes the threshold forward until the result is monstrous. Gantro states the argument outright in the truck — that the line was always arbitrary and that the Greeks of Plato's time would have failed the algebra test."
+    },
+
+    "characters": [
+      { "name": "Walter Best", "role": "twelve; legally safe and still frightened", "note": "The story's best-realised figure. His reasoning — that if he has a soul now he had one two years ago, or nobody has one — is the argument stated by a child before any adult makes it." },
+      { "name": "Ed Gantro", "role": "Tim's father; Stanford MA", "note": "Claims to have lost his soul to an embolism and to have forgotten algebra. His demand to be caged is the story's central action and its most effective device: a protest that works precisely because it cannot be refused without conceding the point." },
+      { "name": "Tim Gantro", "role": "Ed's son", "note": "Picked up for lacking a ninety-dollar Desirability card his father could not afford." },
+      { "name": "Oscar Ferris", "role": "driver of truck three", "note": "Given interior monologue, and it is coarse and incurious. He defends the work in the language of population policy and says it lets him move around and meet people." },
+      { "name": "Ian Best", "role": "Walter's father", "note": "Drunk, defeated, and the source of the story's harshest rhetoric. His long speech about 'castrating females' is the passage the reception file turns on." },
+      { "name": "Cynthia Best", "role": "Walter's mother", "note": "Wants an abortion because it is fashionable and one can discuss it with visitors. The story's least mediated caricature." },
+      { "name": "Sam B. Carpenter", "role": "manager of the County Facility", "note": "Recognises Gantro as a protester and thinks entirely in terms of headlines and appropriations." }
+    ],
+
+    "settings": [
+      { "name": "The California coast near Big Sur", "note": "Highway One, canyons, strays scratching about in the fields." },
+      { "name": "The abortion truck", "note": "Wire cages, a gas button for obstreperous passengers, a shotgun mounted across the cab, and a tape loop playing a nursery rhyme." },
+      { "name": "The County Facility", "note": "A green-painted building where children wait thirty days behind a fence, showing well to visitors." }
+    ],
+
+    "motifs": [
+      "The nursery rhyme played from the truck, switched off during a collection and back on afterwards",
+      "Algebra as the legal test of a soul, and Gantro's forgetting of it as his defence",
+      "Euphemism: 'put them to sleep', 'pre-person', 'child protection shelter', the Desirability card",
+      "Vancouver Island as the escape that both men know will not happen",
+      "The pound truck for dogs and cats, treated by the children as the same institution and by the adults as an obvious comparison"
+    ],
+
+    "significance": "As argument, the story is a reductio: it takes a threshold theory of personhood and moves the threshold until the reader's assent breaks. Its most effective stroke is procedural rather than rhetorical — Gantro cannot be released without conceding that the criterion is arbitrary, and cannot be held without the state killing an adult, so the institution simply expels him and denies everything. As fiction, its quality is uneven in a way worth recording: Walter's chapters are observed and particular, while the Best household scenes are broad caricature, and the story's anger is distributed unevenly between the policy and the women who are made to voice it.",
+
+    "critical_caution": "This is a polemic on a live political question and it was received as one. The dossier records the story's argument and its reception; it does not adjudicate the underlying question. Note specifically that the story routes its anger through female characters — Cynthia's enthusiasm, the mother's coldness, Ian Best's speech about 'castrating females' — and that this is what contemporary readers objected to, Dick later regretted, and Sutin criticised. Any public writing drawn from this file needs the reception attached."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Plato", "entity_id": "TERM_plato", "count": 2, "distinctiveness": 14.06, "note": "From Gantro's argument that the Greeks of Plato's time knew only geometry and would have failed the algebra test." },
+      { "label": "Church", "entity_id": "TERM_church", "count": 4, "distinctiveness": 10.82, "note": "The Church of Watchers, which lobbied Congress and wanted the threshold set at three." },
+      { "label": "Father", "entity_id": "TERM_father", "count": 8, "distinctiveness": 6.41 },
+      { "label": "Greek", "entity_id": "TERM_greek", "count": 1, "distinctiveness": 3.14 }
+    ],
+    "names_matched": ["NAME_thomas-aquinas"],
+    "thematic_links_proposed": [
+      { "theme": "authentic-human", "basis": "the story is entirely about where the line of personhood is drawn and who gets to draw it" },
+      { "theme": "empire-control", "basis": "a state apparatus with trucks, forms, cards and euphemisms for killing children" },
+      { "theme": "suburbia-domesticity", "basis": "the horror is administered through ordinary households, school runs and dinner plans" },
+      { "theme": "betrayal", "basis": "the parents make the call; the truck only collects" }
+    ]
+  },
+
+  "pkd_on_this_work": {
     "lane": "E",
-    "mention_count": 4,
-    "quotes": [
-     {
-      "line": 3854,
-      "quote": "…s-f writer]_ _July 8, 1975_ ## Dear Vonda, I received a fanzine with a piece of yours in it attacking “The Pre-Persons” as “vicious.” The story was written out of a love for small &. helpless living things: animals and children…"
-     },
-     {
-      "line": 3874,
-      "quote": "…lave state over­ thrown! I feel very happy these days, and now say whatever I believe to everyone. Regarding “The Pre-Persons.” I got a lot of unsigned hate mail on that. Even Vonda McIntyre wrote in an article that it is a crude and v…"
-     },
-     {
-      "line": 4036,
-      "quote": "…honor to be in it, really, I am so excited. Also, Terry, it must have taken courage for you to list my story “The Pre-Persons” in the Honorable Mention list, since all the lib ladies are madder than hell at me about it; maybe I told yo…"
-     },
-     {
-      "line": 5588,
-      "quote": "…e they’re the same people. Let me say that I am on your side. I got a lot of unsigned hate mail for my story “The Pre-Persons,” which was anti-abortion; I know how you feel. Some of the same zealots are probably writing you, now. Are t…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 5956,
-      "quote": "…Something for Us Tempunauts” were both commissioned by Ed Ferman.) This story runs 6,000 words and is called “The Pre-Persons,” and deals with abortions (it’s against, not for). I’ve just got the rough so far, but as soon as I regain…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 9,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
+    "total_mentions": 5,
+    "summary": "Dick defended the story vigorously at the time, recorded the hostility it drew, and softened his account of his own motive by 1980.",
+    "evidence": [
+      {
+        "source": "Selected Letters — to Vonda McIntyre, 8 July 1975",
+        "line": 3854,
+        "quote": "I received a fanzine with a piece of yours in it attacking \"The Pre-Persons\" as \"vicious.\" The story was written out of a love for small &. helple…",
+        "reading": "Dick answering a named fellow writer directly. His defence is about motive — love for the helpless — rather than about the story's treatment of the women in it, which was the objection."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 3874,
+        "quote": "I got a lot of unsigned hate mail on that.",
+        "reading": "His own account of the reception."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 5956,
+        "quote": "This story runs 6,000 words and is called \"The Pre-Persons,\" and deals with abortions (it's against, not for).",
+        "reading": "Describing the commission to a correspondent. Note the word count: he gives 6,000 against a finished text of roughly 10,000, so this is likely a draft or projected length."
+      },
+      {
+        "source": "Quoted in Sutin, from Dick's 1980 Afterword",
+        "line": 2027,
+        "quote": "In `The Pre-Persons' it is love for the children that I feel, not anger toward those …",
+        "reading": "A retrospective softening. Sutin introduces it with the statement that Dick later regretted the vehemence, which makes this the closest thing to a retraction in the file."
+      }
+    ]
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 6,
-    "quotes": [
-     {
-      "line": 1266,
-      "quote": "…ness. ‘For me, _Human Is_ is my credo. May it be yours.’[8] Dick was just as emphatic about a later story, ‘The Pre-Persons’ (1974, CS5), which is equally direct in its morality, and which outraged many readers. To those who were out…"
-     },
-     {
-      "line": 1276,
-      "quote": "…though this entails briefly digressing from our nominated period (the early fifties).[10] Like ‘Human Is’, ‘The Pre-Persons’ is set in an outwardly typical American family and concerns what it is to be a person. In fact it is a feroc…"
-     },
-     {
-      "line": 1290,
-      "quote": "…uctive psychiatrist/social engineer.) This does not mean that _Always Coming Home_ has the same qualities as ‘The Pre-Persons’, but it does remind us that in SF the author reimagines worlds, and also shows us other people—perhaps perni…"
-     },
-     {
-      "line": 1442,
-      "quote": "…53, CS3), ‘Jon’s World’ (1954, CS2), ‘A World of Talent’ (1954, CS3), ‘Foster, You’re Dead’ (1955, CS3), and ‘The Pre-Persons’ (1974, CS5). ‘Tony and the Beetles’ and ‘Martians Come in Clouds’ (1954, CS2) both begin with angry scenes…"
-     },
-     {
-      "line": 1486,
-      "quote": "…for it. Fathers cannot resist the pressures of the wider society, and, for Dick, it is fathers who count. In ‘The Pre-Persons’ the only way in which the father can express what he knows to be right and try to help his child is by joini…"
-     },
-     {
-      "line": 3886,
-      "quote": "…ick 49, 64 biographical aspects 87 in _Clans_ 150–54, 158n12, 198 in _Confessions of a Crap Artist_ 75–79 in ‘The Pre-Persons’ 89–90, 138–39 in _Timothy Archer_ 216–17 _see also_ marital conflict and breakdown Wood, Gerard 96n19 Wordsw…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 3,
-    "quotes": [
-     {
-      "line": 2025,
-      "quote": "…ne in life details and speech patterns. The high-water mark of the “problem” came in Phil’s 1974 short story “The Pre-Persons,” which reflects Phil’s deeply felt antiabortion stand. The vehemence of its womanhate is extraordinary. Fath…"
-     },
-     {
-      "line": 2027,
-      "quote": "…s if female fetuses did not exist. Phil later regretted the vehemence. In a 1980 “Afterword” he wrote: “In `The Pre-Persons’ it is love for the children that I feel, not anger toward those who would destroy them. My anger is generate…"
-     },
-     {
-      "line": 6187,
-      "quote": "…fe won’t help: Letter, PKD to Eleanor Dimoff, February 1, 1960, supra. - 109 Castrating females: PKD story “The Pre-Persons” (1974). Love, not anger: PKD “Afterword” to story collection The Golden Man (New York: Berkley, 1980), p. 33…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 9,
+    "summary": "The critics treat it as the point where Dick's handling of women in his fiction became a problem in its own right.",
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 2025,
+        "quote": "The high-water mark of the \"problem\" came in Phil's 1974 short story \"The Pre-Persons,\" which reflects Phil's deeply felt antiabortion stand.",
+        "reading": "Sutin is discussing a running 'problem' in Dick's portrayal of women and identifies this story as its extreme point."
+      },
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 2027,
+        "quote": "as if female fetuses did not exist.",
+        "reading": "Sutin's sharpest formulation: the story's rhetoric is conducted entirely in terms of boys and men, which he takes as revealing about what the anger is actually directed at."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1266,
+        "quote": "Dick was just as emphatic about a later story, \"The Pre-Persons\" (1974, CS5), which is equally direct in its morality",
+        "reading": "Palmer pairs it with 'Human Is', which Dick called his credo, as the two stories where he wrote directly and emphatically about morality. Elsewhere Palmer calls this one offensive and uses 'Human Is' as its inoffensive foil."
+      }
+    ]
+  },
+
+  "contradictions": [
+    {
+      "type": "self_vs_self",
+      "summary": "Dick defends the story's vehemence in 1975 and disowns it in 1980.",
+      "claim_a": { "lane": "E", "source": "Letter to Vonda McIntyre, 8 July 1975", "text": "written out of a love for small & helpless…, answering a charge of viciousness" },
+      "claim_b": { "lane": "E", "source": "1980 Afterword, quoted in Sutin", "text": "it is love for the children that I feel, not anger toward those…" },
+      "editorial_status": "unresolved_by_design",
+      "note": "Sutin frames the 1980 statement as regret for the vehemence. Both are Dick's; the five-year gap and the change of audience are part of the evidence."
+    },
+    {
+      "type": "self_vs_critic",
+      "summary": "Dick says the story was written out of love; contemporary readers and later critics say its anger is directed at women.",
+      "claim_a": { "lane": "E", "source": "Dick, 1975 and 1980", "text": "love for small and helpless things; love for the children, not anger" },
+      "claim_b": { "lane": "C", "source": "Sutin; Vonda McIntyre's fanzine piece", "text": "'vicious'; the high-water mark of the problem; as if female fetuses did not exist" },
+      "editorial_status": "unresolved_by_design",
+      "note": "Kept in full. The dossier's own reading notes that the story routes its anger through its female characters, which is an observation about the text rather than an adjudication of the politics."
+    }
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "5 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "9 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "open_questions": [
+    "Vonda McIntyre's fanzine piece calling the story 'vicious' is not in the archive. It is the primary contemporary criticism and Dick answers it directly; worth locating.",
+    "Dick's 1980 Afterword survives here only as a fragment quoted by Sutin. The full text would settle how far the retraction goes.",
+    "Dick describes the commission as a 6,000-word story against a finished text near 10,000. Is there a shorter draft in the record?"
+  ],
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the corrected locator, 10,093 words. The pre-repair index gave 2,358.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "5 capitalised citations across the letters.",
+    "layer_4_criticism": "9 across Sutin and Palmer.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }
