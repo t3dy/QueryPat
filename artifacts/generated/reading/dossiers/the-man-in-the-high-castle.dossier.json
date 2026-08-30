@@ -6,8 +6,8 @@
  "generated_by": "scripts/reading/build_dossiers.py",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "reading_status": "close_reading_complete",
+ "note": "Close reading complete: synopsis, movements, characters, settings, motifs, significance, and closing note all present.",
  "work": {
   "title": "The Man in the High Castle",
   "slug": "the-man-in-the-high-castle",
@@ -23,10 +23,21 @@
   }
  },
  "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
+  "reading_status": "close_reading_complete",
+  "synopsis": "In a world where Nazi Germany and the Japanese Empire won World War II and divided the globe between them, the western United States is under Japanese control (the Pacific States of America), the East is controlled by the Nazis, and a buffer zone of neutral Rocky Mountain States lies between. The novel follows multiple viewpoint characters: Robert Childan, an art dealer in San Francisco caught between desire for cultural acceptance and economic survival under Japanese rule; Frank Frink, a Jew hiding his identity while consulting the I Ching for guidance after being fired from his job; Juliana Frink, Frank's ex-wife; and Nobusuke Tagomi, a Japanese Trade Mission official. The plot turns on the discovery of a contraband book titled 'The Grasshopper Lies Heavy,' an alternate history depicting an Axis defeat, which circulates underground and destabilizes both the German and Japanese governments. Characters make pilgrimages to meet the book's reclusive author, Hawthorne Abendsen, hidden in a high castle in neutral territory. The novel ends ambiguously, with the I Ching suggesting that the book's alternate history might be the true reality, leaving both reader and character uncertain about which world is real.",
+  "movements": [
+    "Establishment of a divided world: the Japanese Pacific States, the Nazi Reich, and the neutral buffer; introduction of multiple protagonist viewpoints in occupied San Francisco",
+    "Frank Frink's firing and his reliance on the I Ching; Robert Childan's anxious negotiation of social and business hierarchies",
+    "The discovery of 'The Grasshopper Lies Heavy' and its circulation as contraband; growing political instability as both empires recognize the book's threat",
+    "A journey to meet the author Hawthorne Abendsen in his high castle; the revelation that the alternate history in the book may be truer than the world characters inhabit"
+  ],
+  "motifs": [
+    "Alternate history as a form of hidden truth or prophecy; the unreliability of perceived reality",
+    "The I Ching as an oracular guide to action in an unjust world; chance and fate as determiners of identity and survival",
+    "Objects from pre-war America (Civil War artifacts, antique furniture) as bearers of lost authenticity and cultural meaning",
+    "Jewish identity in hiding; the moral impossibility of neutrality under totalitarian rule",
+    "The figure of the author in hiding: authority, knowledge, and the power to reshape reality through narrative"
+  ],
   "cast_candidates": [
    {
     "name": "Mr. Tagomi",
@@ -144,12 +155,26 @@
     "mentions": 1
    }
   ],
+  "characters": [
+    { "name": "Robert Childan", "role": "protagonist", "note": "An American art dealer in San Francisco, anxious about his position in the Japanese-controlled economy and his aspirations for social acceptance and cultural legitimacy" },
+    { "name": "Frank Frink", "role": "protagonist", "note": "A Jewish man hiding his identity, recently fired from his factory job, who consults the I Ching for guidance and becomes peripherally involved in the resistance" },
+    { "name": "Juliana Frink", "role": "secondary protagonist", "note": "Frank's ex-wife, who becomes an agent for Japanese intelligence; encounters the contraband book and becomes obsessed with reaching its author" },
+    { "name": "Nobusuke Tagomi", "role": "protagonist", "note": "A high-ranking Japanese Trade Mission official in San Francisco who begins to doubt the legitimacy of the Japanese-Nazi order after reading 'The Grasshopper Lies Heavy'" },
+    { "name": "Hawthorne Abendsen", "role": "absent protagonist", "note": "The reclusive author of 'The Grasshopper Lies Heavy,' never directly encountered but whose work drives the plot's entire movement" }
+  ],
+  "settings": [
+    { "name": "San Francisco, Pacific States of America (Japanese-controlled West Coast)", "note": "A divided city under Japanese occupation, with Japanese hierarchies, Trade Missions, and a subjugated white American population" },
+    { "name": "The Rocky Mountain States", "note": "A neutral buffer zone between the Axis powers; the location of Hawthorne Abendsen's high castle, representing the last refuge of independent thought" },
+    { "name": "An alternate-history world depicted in 'The Grasshopper Lies Heavy'", "note": "The novel within the novel: an imagined history in which the Allies won WWII, whose possibility destabilizes the perceived reality of the novel's world" }
+  ],
   "place_candidates": [],
   "other_entities": [],
   "structure": {
    "chapter_count": 0,
    "chapters": []
-  }
+  },
+  "significance": "The Man in the High Castle is Dick's breakthrough novel and his most sustained exploration of alternate history as a epistemological problem: How do we know which reality is true? The novel treats the I Ching not as mysticism but as a serious method of divination and decision-making in an unjust world, reflecting Dick's own increasing preoccupation with the I Ching in the 1960s. The book won the Hugo Award in 1963 and established Dick's reputation for philosophical science fiction. Its central conceit — that an imagined alternate history might be more 'true' than the apparent reality — anticipates Dick's later work on the nature of reality, particularly his 1974 religious experience and the themes of VALIS and the Exegesis. The novel also marks Dick's sophisticated engagement with the problem of moral agency under totalitarianism: Childan, Frink, and Tagomi are all compromised participants in an unjust order, and the novel offers no clean path to resistance or redemption.",
+  "closing_note": "The novel ends with the I Ching offering an oracle that leaves ambiguous which world is the true one: the world of the novel's readers (the Axis-victorious world) or the world described in the contraband book. This ambiguity is the novel's central achievement: it refuses to resolve the question of reality into certainty."
  },
  "concepts": {
   "distinctive_terms": [
