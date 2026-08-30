@@ -36,6 +36,10 @@ In a sterile, uniform twenty-second century, George Miller curates the Twentieth
 
 Ed Morris commutes home from Ganymede to Earth through a solar system saturated with advertising — audio and visual ads that fire directly into commuters' brains, salesrobots that swarm pedestrians and cannot be shaken. In a story collection like [Sales Pitch](/works/sales-pitch), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Survey Team
+
+Thirty years into a war that has stripped Earth's surface to ash and driven humanity into underground tunnels, a survey team leaps from a crashing rocket onto Mars, the last untested planet in the solar system, hoping to find a habitable... In a story collection like [Survey Team](/works/survey-team), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Golden Man
 
 In a post-war America where radiation has produced mutants — 'deeves' — the Department of Civic Anthropology hunts and euthanises them at birth; eighty-seven types have been catalogued and dealt with in sixty years. In a story collection like [The Golden Man](/works/the-golden-man), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

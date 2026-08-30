@@ -16,6 +16,10 @@ A ship provisioning on Mars takes aboard a wub — an enormous, placid, pig-like
 
 A tired commuter named Ernest Critchet asks ticket agent Ed Jacobson for a new commute book to a town called Macon Heights. In a story collection like [The Commuter](/works/the-commuter), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Survey Team
+
+Thirty years into a war that has stripped Earth's surface to ash and driven humanity into underground tunnels, a survey team leaps from a crashing rocket onto Mars, the last untested planet in the solar system, hoping to find a habitable... In a story collection like [Survey Team](/works/survey-team), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Human Is
 
 Jill Herrick is married to Lester, a toxicologist who develops poisons for the military and who treats warmth, metaphor, food and children as forms of imprecision. In a story collection like [Human Is](/works/human-is), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -39,6 +43,10 @@ Douglas Quail, a clerk at the West Coast Emigration Bureau, wants to have gone t
 ### Confessions of a Crap Artist
 
 Confessions of a Crap Artist is the canonical works record for PKD's novel. In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### The Eye of the Sibyl
+
+An aging Roman priest named Philos Diktos of Tyana ('Philip' transliterated into Greek and Latin) confesses, near the end of his life, a secret witnessed decades earlier at the temple of the Cumaean Sibyl, shortly after the assassination... In a story collection like [The Eye of the Sibyl](/works/the-eye-of-the-sibyl), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Chains of Air, Web of Aether
 

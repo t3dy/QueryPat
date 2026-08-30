@@ -20,6 +20,10 @@ A tired commuter named Ernest Critchet asks ticket agent Ed Jacobson for a new c
 
 Doc Labyrinth, convinced that civilisation is going the way of Rome and that a dark age is coming, worries that music is the most perishable of the things that will be lost. In a story collection like [The Preserving Machine](/works/the-preserving-machine), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Survey Team
+
+Thirty years into a war that has stripped Earth's surface to ash and driven humanity into underground tunnels, a survey team leaps from a crashing rocket onto Mars, the last untested planet in the solar system, hoping to find a habitable... In a story collection like [Survey Team](/works/survey-team), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Golden Man
 
 In a post-war America where radiation has produced mutants — 'deeves' — the Department of Civic Anthropology hunts and euthanises them at birth; eighty-seven types have been catalogued and dealt with in sixty years. In a story collection like [The Golden Man](/works/the-golden-man), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -51,6 +55,10 @@ Now Wait for Last Year is the canonical works record for PKD's novel. In a novel
 ### Counter-Clock World
 
 Counter-Clock World is the canonical works record for PKD's novel. In a novel like [Counter-Clock World](/works/counter-clock-world), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### The Eye of the Sibyl
+
+An aging Roman priest named Philos Diktos of Tyana ('Philip' transliterated into Greek and Latin) confesses, near the end of his life, a secret witnessed decades earlier at the temple of the Cumaean Sibyl, shortly after the assassination... In a story collection like [The Eye of the Sibyl](/works/the-eye-of-the-sibyl), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### I Hope I Shall Arrive Soon
 

@@ -1,130 +1,116 @@
 {
- "artifact_id": "ART_DOSSIER_SURVEY_TEAM",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "survey-team",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Survey Team",
-  "slug": "survey-team",
-  "form": "story",
-  "word_count": 3987,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 25860,
-   "line_end": 26241,
-   "word_count": 3987,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Humans",
-    "name_id": "NAME_humans",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Scanner",
-    "entity_id": "TERM_scanner",
-    "count": 4,
-    "distinctiveness": 14.26
-   },
-   {
-    "label": "Earth",
-    "entity_id": "TERM_earth",
-    "count": 12,
-    "distinctiveness": 6.64
-   },
-   {
-    "label": "Fish",
-    "entity_id": "TERM_fish",
-    "count": 1,
-    "distinctiveness": 5.86
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 4,
-    "distinctiveness": 2.25
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 6,
-    "distinctiveness": 1.72
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 4,
-    "distinctiveness": 1.69
-   },
-   {
-    "label": "Good",
-    "entity_id": "TERM_good",
-    "count": 7,
-    "distinctiveness": 1.62
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 2,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
-    "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 818,
-      "quote": "…hock_ (1990). > 18 See for instance _Time-Slip_ , _Palmer Eldritch_ , ‘The Unreconstructed M’ (1957, CS4), ‘Survey Team’ (1954, CS2), and _Lies, Inc_ . Or travellers may land on a previously unknown planet, barren and dull, and d…"
-     },
-     {
-      "line": 3770,
-      "quote": "…d of Chance_ ) 6n6, 36, 39n19 class in 185n12, 204n4, 209n8 journeying in 51, 114, 114n11 ‘Stability’ 107n33 ‘Survey Team’ 50n18 _Teeth_ , _see The Man Whose Teeth Were All Exactly Alike Three Stigmata of Palmer Eldritch, The_ de…"
-     }
+  "artifact_id": "ART_DOSSIER_SURVEY_TEAM",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "survey-team",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Survey Team",
+    "slug": "survey-team",
+    "form": "short story",
+    "word_count": 3987,
+    "lane": "A",
+    "first_publication": "Fantastic Universe, May 1954",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 25860,
+      "line_end": 26241,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Thirty years into a war that has stripped Earth's surface to ash and driven humanity into underground tunnels, a survey team leaps from a crashing rocket onto Mars, the last untested planet in the solar system, hoping to find a habitable refuge. They find instead a completely dead, mined-out world — a civilization's worth of minerals, water and soil extracted down to bare rock, its cities reduced to rusted scaffolding. Buried records reveal that the Martians did not go extinct: faced with a used-up planet, they built an interstellar drive, evacuated their entire civilization to a pristine 'escape world,' and left automated launch towers running for centuries after the last Martian had departed. A rusted but still-functioning telescopic sighting device, aimed at the escape world for millennia, lets the survey team see it directly for the first time — and it is unmistakably Earth, seen thousands of years in the past. The team realizes with horror that humanity is not a native species but the degenerated remnant of the Martian colonists themselves, that Earth's own civilization arose from Martian refugees who could not sustain their inherited culture and fell into barbarism, and that history has now closed a perfect loop: having used up Earth exactly as their ancestors used up Mars, humanity stands on the ruins of its true homeworld debating whether to pursue the Martians' drive technology and do the same thing to a third planet. Over one team member's anguished objection, the others resolve to press on and find that world.",
+
+    "structure": {
+      "form": "short story in three movements: the search for a habitable planet, the discovery of Mars as ruin, the revelation that Earth was the Martians' own escape",
+      "movements": [
+        "Earth's underground society and the last-hope survey mission to Mars, the only remaining untested planet.",
+        "The landing on a dead, thoroughly mined-out Mars and the recovery of Martian records describing an interstellar evacuation to an unspoiled 'escape world.'",
+        "The telescope's revelation that the escape world was Earth, and the team's decision to repeat the entire cycle by searching for the Martians' further destination."
+      ],
+      "point_of_view": "third person, following the survey team as a group rather than a single protagonist, so the closing decision to continue the cycle reads as a collective, near-unanimous human failing rather than one man's error.",
+      "central_device": "A closed historical loop revealed by a literal optical instrument — the telescope does not need to be explained or interpreted, it simply shows the truth directly, refusing the characters (and the reader) any room to doubt the revelation."
+    },
+
+    "characters": [
+      { "name": "Halloway", "role": "reconstruct/survey technician", "note": "The character most attached to memories of Earth as it was, and the one who first thinks to worry whether the Martians left anything behind — his imagination anticipates the story's horror before the facts confirm it." },
+      { "name": "Young", "role": "survey technician", "note": "Immediately reframes the discovery as opportunity rather than warning — proposes finding and taking the Martians' further escape world within moments of learning what happened to Earth." },
+      { "name": "Mason", "role": "ship's captain, first to land", "note": "The story's lone dissenting voice — 'Two are enough! Let's not destroy a third world!' — outvoted and ignored in the final scene." },
+      { "name": "Judde", "role": "semantics/translation specialist", "note": "Provides the technical confirmation of both discoveries (the Martian migration, then the identification of the escape world as Earth) with scholarly detachment that never turns to alarm." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "settings": [
+      { "name": "Undersurface Earth", "note": "Thirty years of tunnel life, tank-grown food, and a rising 'tension index' among a generation of children who have never seen the sky — the pressure driving the survey mission." },
+      { "name": "Ruined Mars", "note": "A planet mined, drilled and stripped of every resource of value, its cities nothing but rust — presented first as alien tragedy and only later recognized as a mirror." }
+    ],
+
+    "motifs": [
+      "A planet used up completely and abandoned rather than managed or preserved",
+      "A closed historical loop discovered through hard physical evidence (a telescope) rather than deduction, foreclosing denial",
+      "Human civilization revealed to be an alien species' own failed colonial remnant, undermining any claim to native belonging on Earth",
+      "A single dissenting voice overruled by a group already emotionally committed to repeating the mistake",
+      "Ruins read first as evidence of someone else's failure and only later as a mirror of the reader's own"
+    ],
+
+    "significance": "The story's closing image is exact and damning: Halloway compares the ruined Mars to 'a picnic site' after the picnickers have left, except the picnickers have now returned and must live in the mess they made — and immediately after this recognition, the team chooses to look for a third world to exploit rather than reckon with the pattern. Palmer groups this story with 'The Unreconstructed M' (also read in this project) and other Dick fiction of interstellar travel and colonization; the shared thread across those works is that arrival at a new world is never a clean beginning but always freighted with an inherited history the travelers would rather not examine. What makes this particular version sharp is the total absence of villains — no one is acting from malice, only from the same exhausted, urgent self-preservation that presumably drove the Martians centuries before, which is exactly why the cycle is not obviously breakable.",
+
+    "closing_note": "The story ends not on discovery but on the moment after: three men already imagining themselves in possession of an unspoiled third world, 'tearing it apart, atom by atom,' with the fourth man's objection left unanswered on the page."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Scanner", "entity_id": "TERM_scanner", "count": 2, "distinctiveness": 14.26, "note": "The Martian records-translation device, and, structurally, the same revelatory-technology device recurring across this reading project's stories." },
+      { "label": "Earth", "entity_id": "TERM_earth", "count": 8, "distinctiveness": 6.64 },
+      { "label": "Fish", "entity_id": "TERM_fish", "count": 1, "distinctiveness": 5.86, "note": "The undersurface children described as having eyes 'like blind fish.'" }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "empire-control", "basis": "a civilization that strips a planet of every resource and abandons it, then repeats the pattern without apparent capacity to stop" },
+      { "theme": "memory-identity", "basis": "humanity's discovery that it is not native to Earth but the degenerated remnant of an alien colonization it has no memory of" },
+      { "theme": "time", "basis": "a historical loop closed and made visible through direct optical evidence spanning six hundred thousand years" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No statement by Dick about this specific story was found in the corpus currently indexed.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 2,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 818,
+        "quote": "See for instance Time-Slip, Palmer Eldritch, 'The Unreconstructed M' (1957, CS4), 'Survey Team' (1954, CS2), and Lies, Inc. Or travellers may land on a previously unknown planet, barren and dull, and d[iscover]",
+        "reading": "Palmer's grouping of this story with 'The Unreconstructed M' (also read in this project) and other interstellar-travel fiction, in a discussion of how Dick's travelers repeatedly discover their destinations are not the clean beginnings they hoped for."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Palmer's sentence about travelers discovering something on a barren planet is cut off — the fuller passage would clarify what pattern he sees repeating across this story and 'The Unreconstructed M'.",
+    "Is there a direct sequel or companion piece addressing what happens on the third planet the team sets out to find? The story ends before any resolution.",
+    "This 1954 story anticipates the Martian-colonization-of-Earth premise Dick would use again in later work — worth checking whether he ever discussed this story specifically as an early version of that idea."
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "2 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 3,987 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 citations found.",
+    "layer_4_criticism": "2, from Palmer.",
+    "related_dossiers": "the-unreconstructed-m (Palmer's direct pairing, both close-read).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }

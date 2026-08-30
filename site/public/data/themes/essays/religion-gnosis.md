@@ -48,6 +48,10 @@ A Maze of Death is the canonical works record for PKD's novel. In a novel like [
 
 Deus Irae is the canonical works record for PKD's novel. In a novel like [Deus Irae](/works/deus-irae), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Eye of the Sibyl
+
+An aging Roman priest named Philos Diktos of Tyana ('Philip' transliterated into Greek and Latin) confesses, near the end of his life, a secret witnessed decades earlier at the temple of the Cumaean Sibyl, shortly after the assassination... In a story collection like [The Eye of the Sibyl](/works/the-eye-of-the-sibyl), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Chains of Air, Web of Aether
 
 Leo McVane lives alone in an isolated communications dome on a frozen, double-sunned world, his only real companionship the recorded voice of Linda Fox, a singer who reworks the Elizabethan lute songs of John Dowland for a scattered... In a story collection like [Chains of Air, Web of Aether](/works/chains-of-air-web-of-aether), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

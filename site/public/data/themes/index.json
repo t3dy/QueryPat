@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 81,
+  "fiction_work_count": 83,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -1716,7 +1716,7 @@
       "slug": "memory-identity",
       "label": "Memory & Identity",
       "description": "Amnesia, implanted or false memory, identity instability, and the porous self.",
-      "work_count": 11,
+      "work_count": 13,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -1735,6 +1735,15 @@
           "work_type": "short_story",
           "date_display": "Amazing, July 1953",
           "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_survey-team",
+          "canonical_title": "Survey Team",
+          "slug": "survey-team",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, May 1954",
+          "date_start": "1954"
         },
         {
           "work_id": "WORK_human-is",
@@ -1791,6 +1800,15 @@
           "date_start": "1975"
         },
         {
+          "work_id": "WORK_the-eye-of-the-sibyl",
+          "canonical_title": "The Eye of the Sibyl",
+          "slug": "the-eye-of-the-sibyl",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Dark Side, edited by Damon Knight, 1976",
+          "date_start": "1976"
+        },
+        {
           "work_id": "WORK_chains-of-air-web-of-aether",
           "canonical_title": "Chains of Air, Web of Aether",
           "slug": "chains-of-air-web-of-aether",
@@ -1825,7 +1843,7 @@
       "slug": "time",
       "label": "Time",
       "description": "Temporal distortion, regression, precognition, time slips, and altered historical sequence.",
-      "work_count": 14,
+      "work_count": 16,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -1853,6 +1871,15 @@
           "work_type": "short_story",
           "date_display": "The Magazine of Fantasy & Science Fiction, June 1953",
           "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_survey-team",
+          "canonical_title": "Survey Team",
+          "slug": "survey-team",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, May 1954",
+          "date_start": "1954"
         },
         {
           "work_id": "WORK_the-golden-man",
@@ -1927,6 +1954,15 @@
           "date_start": "1967"
         },
         {
+          "work_id": "WORK_the-eye-of-the-sibyl",
+          "canonical_title": "The Eye of the Sibyl",
+          "slug": "the-eye-of-the-sibyl",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Dark Side, edited by Damon Knight, 1976",
+          "date_start": "1976"
+        },
+        {
           "work_id": "WORK_i-hope-i-shall-arrive-soon",
           "canonical_title": "I Hope I Shall Arrive Soon",
           "slug": "i-hope-i-shall-arrive-soon",
@@ -1961,7 +1997,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 42,
+      "work_count": 43,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -2024,6 +2060,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Future, June 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_survey-team",
+          "canonical_title": "Survey Team",
+          "slug": "survey-team",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, May 1954",
           "date_start": "1954"
         },
         {
@@ -2349,7 +2394,7 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 16,
+      "work_count": 17,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2439,6 +2484,15 @@
           "category": "novels",
           "work_type": "novel",
           "date_display": "1976",
+          "date_start": "1976"
+        },
+        {
+          "work_id": "WORK_the-eye-of-the-sibyl",
+          "canonical_title": "The Eye of the Sibyl",
+          "slug": "the-eye-of-the-sibyl",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "The Dark Side, edited by Damon Knight, 1976",
           "date_start": "1976"
         },
         {
