@@ -36,6 +36,10 @@ Physics professor Hardy and philosophy professor Grote publicly feud over Zeno's
 
 Doc Labyrinth, convinced that civilisation is going the way of Rome and that a dark age is coming, worries that music is the most perishable of the things that will be lost. In a story collection like [The Preserving Machine](/works/the-preserving-machine), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The World She Wanted
+
+Larry Brewster, drinking alone in a bar, is approached by the poised, unhurried Allison Holmes, who calmly explains a solipsistic philosophy: each person inhabits their own private world in which they alone are wholly real, while everyone... In a story collection like [The World She Wanted](/works/the-world-she-wanted), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Meddler
 
 Historian Hasten is secretly shown a forbidden 'Time Dip' — illegal because observing the future irrevocably alters it — being used by a government research team to photograph conditions decades and centuries ahead. In a story collection like [Meddler](/works/meddler), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

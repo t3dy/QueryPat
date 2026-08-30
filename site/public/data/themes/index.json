@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 131,
+  "fiction_work_count": 134,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -1101,7 +1101,7 @@
       "slug": "reality-breakdown",
       "label": "Reality Breakdown",
       "description": "Unstable reality, temporal slippage, projected worlds, and the breakdown of ordinary perception.",
-      "work_count": 51,
+      "work_count": 52,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -1164,6 +1164,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "The Magazine of Fantasy & Science Fiction, June 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-world-she-wanted",
+          "canonical_title": "The World She Wanted",
+          "slug": "the-world-she-wanted",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Science Fiction Quarterly, May 1953",
           "date_start": "1953"
         },
         {
@@ -1724,7 +1733,7 @@
       "slug": "illusionary-realities",
       "label": "Illusionary Realities",
       "description": "Simulations, false worlds, mimicry, illusions, and counterfeit reality-systems.",
-      "work_count": 41,
+      "work_count": 43,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -1796,6 +1805,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Beyond Fantasy Fiction, September 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-world-she-wanted",
+          "canonical_title": "The World She Wanted",
+          "slug": "the-world-she-wanted",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Science Fiction Quarterly, May 1953",
           "date_start": "1953"
         },
         {
@@ -1914,6 +1932,15 @@
           "work_type": "novel",
           "date_display": "1963",
           "date_start": "1963"
+        },
+        {
+          "work_id": "WORK_novelty-act",
+          "canonical_title": "Novelty Act",
+          "slug": "novelty-act",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Fantastic, February 1964",
+          "date_start": "1964"
         },
         {
           "work_id": "WORK_precious-artifact",
@@ -2103,7 +2130,7 @@
       "slug": "memory-identity",
       "label": "Memory & Identity",
       "description": "Amnesia, implanted or false memory, identity instability, and the porous self.",
-      "work_count": 16,
+      "work_count": 17,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2149,6 +2176,15 @@
           "work_type": "short_story",
           "date_display": "Startling Stories, Winter 1955",
           "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_recall-mechanism",
+          "canonical_title": "Recall Mechanism",
+          "slug": "recall-mechanism",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, July 1959",
+          "date_start": "1959"
         },
         {
           "work_id": "WORK_the-days-of-perky-pat",
@@ -2257,7 +2293,7 @@
       "slug": "time",
       "label": "Time",
       "description": "Temporal distortion, regression, precognition, time slips, and altered historical sequence.",
-      "work_count": 23,
+      "work_count": 24,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -2357,6 +2393,15 @@
           "work_type": "short_story",
           "date_display": "If, October 1955",
           "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_recall-mechanism",
+          "canonical_title": "Recall Mechanism",
+          "slug": "recall-mechanism",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, July 1959",
+          "date_start": "1959"
         },
         {
           "work_id": "WORK_time-out-of-joint",
@@ -2474,7 +2519,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 64,
+      "work_count": 65,
       "works": [
         {
           "work_id": "WORK_the-cosmic-poachers",
@@ -2817,6 +2862,15 @@
           "work_type": "novel",
           "date_display": "1963",
           "date_start": "1963"
+        },
+        {
+          "work_id": "WORK_novelty-act",
+          "canonical_title": "Novelty Act",
+          "slug": "novelty-act",
+          "category": "short_stories",
+          "work_type": "novelette",
+          "date_display": "Fantastic, February 1964",
+          "date_start": "1964"
         },
         {
           "work_id": "WORK_precious-artifact",

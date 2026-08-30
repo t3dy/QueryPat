@@ -28,6 +28,10 @@ Silvia, a young woman with an inherited gift for summoning vast, alien 'angels' 
 
 Jill Herrick is married to Lester, a toxicologist who develops poisons for the military and who treats warmth, metaphor, food and children as forms of imprecision. In a story collection like [Human Is](/works/human-is), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Recall Mechanism
+
+Paul Sharp, an economist at a post-nuclear-war reclamation agency, seeks psychiatric help from Dr. In a story collection like [Recall Mechanism](/works/recall-mechanism), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Days of Perky Pat
 
 Survivors of a hydrogen war — 'flukers', so named because they lived by a fluke of fate — shelter in underground pits, kept alive by Martian 'careboys' who parachute supplies they no longer need. In a story collection like [The Days of Perky Pat](/works/the-days-of-perky-pat), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

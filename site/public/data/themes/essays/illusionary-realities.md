@@ -40,6 +40,10 @@ Physics professor Hardy and philosophy professor Grote publicly feud over Zeno's
 
 Shadrach Jones, an old man running a nearly abandoned filling station in Derryville, Colorado, gives shelter one stormy night to a bedraggled party of Elves carrying their dying king on a platform. In a story collection like [The King of the Elves](/works/the-king-of-the-elves), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The World She Wanted
+
+Larry Brewster, drinking alone in a bar, is approached by the poised, unhurried Allison Holmes, who calmly explains a solipsistic philosophy: each person inhabits their own private world in which they alone are wholly real, while everyone... In a story collection like [The World She Wanted](/works/the-world-she-wanted), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Adjustment Team
 
 A Clerk arrives to make sure a sleepy dog — the neighborhood's Summoner — barks at exactly 8:15 to bring insurance salesman Ed Fletcher 'A Friend with a Car,' getting him to his office an hour early before Sector T137 is taken offline for... In a story collection like [Adjustment Team](/works/adjustment-team), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -91,6 +95,10 @@ Survivors of a hydrogen war — 'flukers', so named because they lived by a fluk
 ### The Game-Players of Titan
 
 The Game-Players of Titan is the canonical works record for PKD's novel. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### Novelty Act
+
+In a mandatory-attendance communal apartment building, brothers Ian and Al Duncan dream of escaping their cramped, surveilled, bureaucratic lives by performing their amateur 'classical jug' act -- Baroque music played on ceramic jugs --... In a story collection like [Novelty Act](/works/novelty-act), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Precious Artifact
 

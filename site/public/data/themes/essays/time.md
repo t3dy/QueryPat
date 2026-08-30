@@ -52,6 +52,10 @@ Five years after a global war, a planet-wide network of automated factories cont
 
 Elderly country storekeeper Edna Berthelson makes a secretive weekly business trip alone in her pickup truck, exploiting an inexplicable personal ability to shift into a branching post-nuclear-war 'ahead' where a small colony of survivors... In a story collection like [Captive Market](/works/captive-market), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Recall Mechanism
+
+Paul Sharp, an economist at a post-nuclear-war reclamation agency, seeks psychiatric help from Dr. In a story collection like [Recall Mechanism](/works/recall-mechanism), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Time Out of Joint
 
 Time Out of Joint is the canonical works record for PKD's novel. In a novel like [Time Out of Joint](/works/time-out-of-joint), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

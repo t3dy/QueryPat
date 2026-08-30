@@ -1,207 +1,133 @@
 {
- "artifact_id": "ART_DOSSIER_NOVELTY_ACT",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "novelty-act",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "Novelty Act",
-  "slug": "novelty-act",
-  "form": "story",
-  "word_count": 12309,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 42673,
-   "line_end": 43298,
-   "word_count": 12309,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Ian Duncan",
-    "name_id": "NAME_ian-duncan",
-    "mentions": 28
-   },
-   {
-    "name": "Nicole Thibodeaux",
-    "name_id": "NAME_nicole-thibodeaux",
-    "mentions": 3
-   },
-   {
-    "name": "Beethoven",
-    "name_id": "NAME_beethoven",
-    "mentions": 7
-   },
-   {
-    "name": "Bruce",
-    "name_id": "NAME_bruce",
-    "mentions": 3
-   },
-   {
-    "name": "Hamlet",
-    "name_id": "NAME_hamlet",
-    "mentions": 1
-   },
-   {
-    "name": "The authorities",
-    "name_id": "NAME_the-authorities",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Luke",
-    "entity_id": "TERM_luke",
-    "count": 49,
-    "distinctiveness": 70.99
-   },
-   {
-    "label": "Acts",
-    "entity_id": "TERM_acts",
-    "count": 2,
-    "distinctiveness": 10.01
-   },
-   {
-    "label": "Beethoven",
-    "entity_id": "TERM_beethoven",
-    "count": 1,
-    "distinctiveness": 6.69
-   },
-   {
-    "label": "Christian",
-    "entity_id": "TERM_christian",
-    "count": 1,
-    "distinctiveness": 6.17
-   },
-   {
-    "label": "Fish",
-    "entity_id": "TERM_fish",
-    "count": 3,
-    "distinctiveness": 5.7
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 31,
-    "distinctiveness": 4.72
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 10,
-    "distinctiveness": 3.54
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 4,
-    "distinctiveness": 2.43
-   },
-   {
-    "label": "Being",
-    "entity_id": "TERM_being",
-    "count": 15,
-    "distinctiveness": 2.29
-   },
-   {
-    "label": "Faith",
-    "entity_id": "TERM_faith",
-    "count": 1,
-    "distinctiveness": 2.16
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 7,
-    "distinctiveness": 2.09
-   },
-   {
-    "label": "Paul",
-    "entity_id": "TERM_paul",
-    "count": 2,
-    "distinctiveness": 2.04
-   },
-   {
-    "label": "Bureau",
-    "entity_id": "TERM_bureau",
-    "count": 1,
-    "distinctiveness": 1.85
-   },
-   {
-    "label": "Reality",
-    "entity_id": "TERM_reality",
-    "count": 3,
-    "distinctiveness": 1.8
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 1,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
+  "artifact_id": "ART_DOSSIER_NOVELTY_ACT",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "novelty-act",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "Novelty Act",
+    "slug": "novelty-act",
+    "form": "novelette",
+    "word_count": 12309,
+    "lane": "A",
+    "first_publication": "Fantastic, February 1964",
+    "alt_title": "At Second Jug",
+    "written_date": "1963-03-23",
+    "later_use": "Adapted from a portion of Dick's novel The First Lady of Earth (written 1963, published 1964 as The Simulacra); per Sutin, this story draws on part of that novel's plot.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 42673,
+      "line_end": 43298,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here. Length (12,309 words) is genuine and confirmed against the corpus manifest as a single unbroken unit, not a corpus-splitting artifact."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "In a mandatory-attendance communal apartment building, brothers Ian and Al Duncan dream of escaping their cramped, surveilled, bureaucratic lives by performing their amateur 'classical jug' act -- Baroque music played on ceramic jugs -- for Nicole Thibodeaux, the eternally young, universally adored First Lady who has effectively displaced the President as the true object of the one-party society's devotion. Ian struggles under constant political testing and the threat of eviction; Al sells cut-rate emigration spacecraft for the disreputable Loony Luke, using a telepathic 'papoola' -- a puppet modeled on an extinct Martian creature -- to psychologically pressure customers into buying. When the brothers win a coveted slot performing at the White House, Luke insists on personally operating the papoola as a condition of lending it, and during the performance the papoola bites Nicole; a guard vaporizes it and the brothers are arrested. In the story's climactic revelation, 'Nicole' explains she is not the original at all but Kate Rupert, the fourth actress to play the role after the real Nicole died years ago, with actual power held by an unseen council; she has the brothers' memories of the whole affair erased rather than punishing them further. Waking with no memory of the White House trip, Ian is later rescued from the mundane despair of his old life by Loony Luke, who spirits him away to Mars alongside Al -- whom Ian, his memory gone, no longer recognizes.",
+
+    "structure": {
+      "form": "novelette in four movements: communal-building life and Ian's political anxiety, Al's jalopy-lot life and the papoola's persuasive power, the brothers' White House performance and its violent collapse, and Ian's memory-wiped aftermath and eventual escape to Mars",
+      "movements": [
+        "Ian Duncan endures mandatory communal-building meetings, political testing, and the threat of eviction, sustained mainly by the fantasy of performing his jug act for the First Lady, Nicole Thibodeaux.",
+        "His brother Al, selling cut-rate emigration jalopies for Loony Luke, uses a telepathic Martian puppet, the papoola, to psychologically pressure sidewalk passersby into buying escape from the very society Ian cannot bring himself to leave.",
+        "The brothers win a coveted slot at the White House; Loony Luke insists on personally operating the papoola during the performance, and when it bites Nicole a guard destroys it and the brothers are arrested.",
+        "'Nicole' reveals herself as an actress, one of several to play the role since the original's death, with real power held by an unseen council; she has the brothers' memories erased rather than punishing them, and Ian -- his memory of Al now gone -- is later rescued by Loony Luke and taken to Mars."
+      ],
+      "point_of_view": "third person, alternating close focus between Ian's anxious, worshipful relationship to the regime's mediated image of Nicole and Al's cynical, streetwise operation of the papoola, converging at the White House where both brothers' illusions -- Ian's about Nicole's reality, Al's about his own control of the papoola -- collapse within the same scene.",
+      "central_device": "A telepathic sales tool designed to manufacture false desire in strangers is turned, without irony, on the very seat of political power the brothers most desperately want to be embraced by -- and it is precisely this device's failure, engineered by its true owner rather than its apparent operators, that exposes the First Lady herself as an equally manufactured, substitutable illusion."
+    },
+
+    "characters": [
+      { "name": "Ian Duncan", "role": "protagonist", "note": "His lifelong, quasi-religious devotion to Nicole's televised image -- validated, in his mind, by nothing more than the fantasy of being watched and known by her -- is punctured twice: first by learning she is not who she appears to be, and then, more totally, by having even that memory erased, leaving him to be rescued from despair by the very man (Luke) whose commercial cynicism he once found repellent." },
+      { "name": "Al Duncan", "role": "Ian's brother, a jalopy salesman", "note": "His fluent, guiltless use of the papoola's telepathic persuasion on strangers, and his casual admission that Nicole's own televised omnipresence works the identical trick 'so subtle and so complete' at civilizational scale, positions him as the story's most clear-eyed character even as he remains fully complicit in exactly the kind of manipulation he warns his brother about." },
+      { "name": "Nicole Thibodeaux / Kate Rupert", "role": "the First Lady, revealed as an actress and figurehead", "note": "Her calm, almost bureaucratic confession that she is the fourth woman to play a since-deceased Nicole, with genuine power held by an unseen council, retroactively converts the entire society's devotional relationship to her into a relationship with a maintained illusion -- one she herself seems to find as constraining as anyone else does." },
+      { "name": "Loony Luke", "role": "a jalopy-jungle operator, seller of cut-rate emigration ships", "note": "His own decades-old grudge against Nicole -- rejected as a young puppeteer for having indecent puppets -- gives his sabotage of the brothers' performance a personal motive the brothers never learn, and his later, unexplained rescue of the memory-wiped Ian completes an arc in which he is simultaneously villain, saboteur, and savior." },
+      { "name": "Edgar Stone", "role": "Ian's neighbor", "note": "His falsified test score, meant as an act of pity, and his subsequent guilt-driven confession seeking to have it reversed, form a smaller-scale parallel to the novelette's larger theme of well-intentioned interference producing consequences the intervener cannot control." }
+    ],
+
+    "settings": [
+      { "name": "Abraham Lincoln Apartments", "note": "A mandatory-attendance communal building whose religious observance (All Souls night, a sky pilot, a mechanical 'confessionator'), political testing, and building-versus-building rivalry render an entire society's authoritarian control mechanisms as simultaneously bureaucratic, spiritual, and almost domestic in scale." },
+      { "name": "The White House", "note": "Presented first as an object of televised, quasi-religious longing and then, on arrival, as a set of ordinary rooms separated from visitors by a security glass barrier -- its casualness and its violence (the instant, procedural response to the papoola's bite) both undercutting the mythic weight the regime's propaganda has built around it." },
+      { "name": "Jalopy Jungle No. 3", "note": "A mobile, barely-legal sales lot offering one-way emigration to Mars, its transience and semi-outlaw status positioning Loony Luke's operation as both an escape valve for the regime's dissatisfied and, per Luke himself, a permanent irritant the regime tolerates only provisionally." }
+    ],
+
+    "motifs": [
+      "A televised, universally beloved public figure whose intimate, personalized address to viewers is revealed as a manufactured illusion maintained by substitution and unseen authority",
+      "Telepathic or psychological persuasion technology used interchangeably for commercial sales pitches and for civilizational-scale political devotion, differing only in subtlety and scale",
+      "A mandatory, surveilled communal domesticity (political tests, religious observance, building loyalty) as the ordinary texture of authoritarian control rather than its dramatic exception",
+      "Memory erasure as a regime's preferred instrument of mercy, indistinguishable in its effects from a more ordinary act of erasure or punishment"
+    ],
+
+    "significance": "The story's structural joke -- two amateur musicians using a mind-control puppet to charm their way into the presence of a woman whose own charm is itself an engineered, substitutable performance -- collapses the distinction between commercial persuasion and political devotion entirely. Al's observation that Nicole's television apparatus achieves 'the real danger' at a scale the crude, visible papoola cannot match identifies the story's actual subject: not the brothers' small deception, but the vastly larger and more successful one the entire society lives inside without recognizing it as such. The story's final mercy -- memory erasure rather than punishment -- refuses the brothers even the dignity of remembering they were right to suspect something was wrong, so that Ian's eventual rescue by Loony Luke arrives not as a triumphant escape earned through insight but as a stroke of external luck visited on a man who no longer knows what he is being rescued from.",
+
+    "closing_note": "The story ends with Ian, his memory of Al and of the White House affair completely gone, being carried to Mars by Loony Luke alongside a brother he no longer recognizes as such -- a rescue that restores his freedom while permanently severing the relationship, and the hard-won understanding, that might have made that freedom mean something to him."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Luke", "entity_id": "TERM_luke", "count": 49, "distinctiveness": 70.99 },
+      { "label": "Acts", "entity_id": "TERM_acts", "count": 2, "distinctiveness": 10.01, "note": "Tracks both the story's talent-show framing device and its title's double meaning -- a 'novelty act' as amateur performance and as an act of sabotage." },
+      { "label": "Reality", "entity_id": "TERM_reality", "count": 3, "distinctiveness": 1.8 },
+      { "label": "Faith", "entity_id": "TERM_faith", "count": 1, "distinctiveness": 2.16 }
+    ],
+    "names_matched": ["NAME_ian-duncan", "NAME_nicole-thibodeaux", "NAME_beethoven", "NAME_bruce", "NAME_hamlet"],
+    "false_positives_excluded": [
+      { "entity_id": "NAME_hamlet", "reason": "On review this is a genuine allusion, not a false positive: the story explicitly describes a failed White House talent-show act of dogs in Elizabethan costume 'portraying characters from Hamlet,' a real textual reference retained rather than excluded." }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "empire-control", "basis": "a one-party, communally-surveilled society organized around mandatory devotion to a First Lady whose real power, and even real identity, is concealed from the public she is devoted to" },
+      { "theme": "illusionary-realities", "basis": "a beloved, intimately-known public figure revealed as a substitutable actress performing a role, maintained by an unseen governing council for a public that experiences the illusion as more real than any alternative" }
+    ]
+  },
+
+  "pkd_on_this_work": {
     "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 4694,
-      "quote": "…, I’m sorry to say, but here is a list, with source citation: “Beyond the Door.” Fantastic Universe Jan. ’54 “Novelty Act.” Fantastic Feb. ’64 “The Indefatigable Frog.” Fantastic story July ’53 “Out in the Garden.” Fantasy August ’…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 1,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
+    "total_mentions": 1,
+    "summary": "The one letters hit found is a bibliographic list of story titles and publication data (including this story's own citation) rather than commentary on its content, and is not treated as substantive author commentary here. The stronger author-adjacent evidence is bibliographic: pkd_story_notes.json records the alt-title 'At Second Jug,' a composition date of 3/23/63, and the explicit note that the story was 'Included in PKD's novel THE SIMULACRA' -- independently corroborated by Sutin below.",
+    "evidence": [
+      {
+        "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+        "lane": "E",
+        "line": 4694,
+        "quote": "\"Novelty Act.\" Fantastic Feb. '64",
+        "reading": "A bibliographic citation within a list of story titles and publication venues, not commentary on the story's content; included here for the record but not counted as substantive author reflection."
+      }
+    ]
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 5567,
-      "quote": "…originally titled The First Lady of Earth (w. 1963, p. 1964; a portion of this novel was adapted for use in “Novelty Act,” a story p. February 1964 in Fantastic). Of all Phil’s novel plots, this may be the most complex. To say tha…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 1,
+    "evidence": [
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions: A Life of Philip K. Dick",
+        "line": 5567,
+        "quote": "originally titled The First Lady of Earth (w. 1963, p. 1964; a portion of this novel was adapted for use in \"Novelty Act,\" a story p. February 1964 in Fantastic)",
+        "reading": "Sutin confirms the story is drawn from a portion of the novel published as The Simulacra (written under the working title The First Lady of Earth), directly explaining this dossier's identification of the White House/Nicole Thibodeaux material -- the Duncan brothers, the papoola, Loony Luke's jalopy jungles -- as belonging to that novel's world."
+      }
+    ]
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is there documented commentary from Dick on his choice to excerpt and republish a self-contained portion of The Simulacra as a standalone story, and on how the two versions' endings compare?",
+    "Is the ambiguity over Nicole's true age and true identity (Loony Luke's claim that she has held office 73 years) treated consistently between this story and the full novel, or is it left more or less resolved in one version than the other?",
+    "Is Ian's memory-erasure ending read by critics as a bleaker outcome than an equivalent scene in The Simulacra itself, given the story's compressed, standalone form?"
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "1 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 12,309 words. Length confirmed as a genuine single unit via heading-count check against the corpus manifest, not a corpus-splitting artifact.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "1 found in this evidence pass; treated as bibliographic rather than substantive commentary.",
+    "layer_4_criticism": "1 substantive citation (Sutin), confirming the story's origin as adapted material from The Simulacra.",
+    "related_dossiers": "none identified (The Simulacra itself remains unread).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }
