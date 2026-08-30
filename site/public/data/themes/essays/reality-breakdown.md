@@ -124,6 +124,10 @@ The Book of Philip K. In a story collection like [The Book of Philip K. Dick](/w
 
 Deus Irae is the canonical works record for PKD's novel. In a novel like [Deus Irae](/works/deus-irae), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Day Mr. Computer Fell Out of Its Tree
+
+Joe Contemptible wakes to a world run by a vast central computer that has gone psychotic, dispensing bloomers instead of suits, soap instead of coffee, and a newspaper headlined 'Adolf Hitler Crowned Pope.' The only cure is Ms. In a story collection like [The Day Mr. Computer Fell Out of Its Tree](/works/the-day-mr-computer-fell-out-of-its-tree), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Unteleported Man
 
 The Unteleported Man is the canonical works record for PKD's novel. In a novel like [The Unteleported Man](/works/the-unteleported-man), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

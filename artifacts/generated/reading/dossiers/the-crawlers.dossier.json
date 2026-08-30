@@ -1,100 +1,106 @@
 {
- "artifact_id": "ART_DOSSIER_THE_CRAWLERS",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-crawlers",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Crawlers",
-  "slug": "the-crawlers",
-  "form": "story",
-  "word_count": 3057,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 31382,
-   "line_end": 31573,
-   "word_count": 3057,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "The FBI",
-    "name_id": "NAME_the-fbi",
-    "mentions": 1
-   }
+  "artifact_id": "ART_DOSSIER_THE_CRAWLERS",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-crawlers",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Crawlers",
+    "slug": "the-crawlers",
+    "form": "short story",
+    "word_count": 3057,
+    "lane": "A",
+    "first_publication": "Fantastic Universe, July 1954 (as \"Foundation of Fear\" / \"The Crawlers\")",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 31382,
+      "line_end": 31573,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "In rural Tennessee, near a radiation lab, government investigator Ernest Gretry examines a mangled, snail-like creature killed on the highway — a mutant child, one of a growing population being born to local families in the wake of radiation exposure. Distraught residents describe an entire hidden colony of the creatures, tended by their still-human parents, building an elaborate underground city just outside town. Confronting a young couple forced to surrender their infant crawler in a punctured cardboard box, Gretry witnesses their genuine grief and horror in equal measure, and negotiates a government plan to relocate the entire colony to an island already cleared for H-bomb testing. The story then shifts, without transition, to the crawlers' own perspective: one of them, now on the island decades later, builds contentedly as the colony's underground city grows to eighty miles deep, en route to eventually spreading beneath the ocean to reach 'the land beyond' — until its own kind gives birth to a human-looking child, a 'throwback' so disturbing to the crawlers that they kill it exactly as humans once killed their own kind.",
+
+    "structure": {
+      "form": "short story in two mirrored movements: the human perspective on the crawlers' emergence and relocation, then the crawlers' own perspective decades later",
+      "movements": [
+        "Gretry investigates a growing population of radiation-mutant infants ('crawlers') being born to human parents, witnesses one grieving family's forced surrender of their child, and arranges a mass relocation to an isolated island.",
+        "Told from a crawler's own point of view, the colony has thrived and grown into a vast underground civilization on the island — until one of their own gives birth to a human-looking 'throwback,' which the horrified crawlers destroy exactly as humans once destroyed crawlers born to human parents."
+      ],
+      "point_of_view": "third person close to Gretry in the first half, then, without any framing transition, third person close to an unnamed crawler in the second half — the structural inversion is the story's entire argument.",
+      "central_device": "A perfectly symmetrical role-reversal: the same horror, the same act of infanticide against a 'throwback' child, is repeated verbatim by the opposite side once enough time has passed for the formerly-persecuted species to become the persecuting majority."
+    },
+
+    "characters": [
+      { "name": "Ernest Gretry", "role": "government investigator", "note": "Genuinely horrified and sympathetic throughout, his discomfort with the relocation plan doesn't stop him executing it, embodying the story's dispassionate, procedural response to a crisis nobody chose to have happen to them." },
+      { "name": "Mrs. Higgins", "role": "elderly farm owner", "note": "Her flat, commanding insistence that the crawlers be removed entirely and never be visible again voices the human community's revulsion without a trace of the grief shown by the actual parents." },
+      { "name": "The young couple", "role": "parents of an infant crawler", "note": "Their raw, conflicted grief — keeping their 'child' fed on chosen leaves while also admitting they nearly killed it themselves — is the story's most human moment, deliberately placed just before the story abandons human perspective altogether." },
+      { "name": "The unnamed crawler narrator", "role": "protagonist of the story's second half", "note": "Given the exact interiority (joy in building, pride, contentment) the story previously withheld from any description of the crawlers as seen by humans, so the reader's sympathy transfers fully to what was, minutes earlier, described as monstrous." }
+    ],
+
+    "settings": [
+      { "name": "Rural Tennessee near the radiation lab", "note": "An ordinary agricultural community whose distrust and horror the story treats as an understandable, even inevitable human response rather than as simple bigotry." },
+      { "name": "The relocated island colony", "note": "Explicitly the same island 'taken over for H-bomb tests,' repurposed decades later into the site of the crawlers' own flourishing civilization, until they reproduce a version of the very crisis that displaced them there." }
+    ],
+
+    "motifs": [
+      "Radiation-caused mutation treated with the same fear and stigma as any other unassimilable difference",
+      "A structural mirror in which yesterday's persecuted minority becomes tomorrow's persecuting majority, performing the identical act of violence against its own 'throwback'",
+      "Parents caught between love for their child and horror at what that child has become",
+      "Colonial relocation logic (an island already cleared of native inhabitants) applied without comment to a new population",
+      "A story's sympathy relocating entirely, in its second half, to the very beings its first half asked the reader to fear"
+    ],
+
+    "significance": "The story's late, unmarked shift in point of view is its whole argument: by giving the crawlers the identical interior warmth, pride, and industriousness previously reserved for human characters, and then having them commit the identical act of infanticide against their own 'throwback,' Dick refuses any reading in which either species is inherently monstrous or inherently sympathetic. The horror is structural and cyclical rather than located in any one group's nature — whoever holds majority status responds to a minority's unassimilable child with the same violence, regardless of which side of the original transformation they stand on. The story's closing image, 'somebody had finally mashed the throwback with a rock. And hoped there wouldn't be any more,' repeats verbatim the earlier human violence (Douglas 'mashed its head with a rock'), making the parallel impossible to miss.",
+
+    "closing_note": "The story ends exactly where it began, on an act of violence against a child too different to be accepted, only now perpetrated by the formerly-persecuted rather than against them — a closed loop rather than a resolution."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Fish", "entity_id": "TERM_fish", "count": 1, "distinctiveness": 7.64, "note": "Gretry's comparison of the crawler's dead eyes to a fish's, then his immediate retraction — they were not vacant like a fish's eyes — is the story's first gesture toward the creature's genuine interiority." },
+      { "label": "House", "entity_id": "TERM_house", "count": 3, "distinctiveness": 1.84 }
+    ],
+    "names_matched": ["NAME_the-fbi"],
+    "thematic_links_proposed": [
+      { "theme": "authentic-human", "basis": "the story's structural mirroring denies any stable definition of monstrousness, giving radiation-mutant 'crawlers' the same interior sympathy as their human parents, then repeating the same violence against their own eventual 'throwback'" },
+      { "theme": "empire-control", "basis": "a government relocation plan explicitly reusing an island 'already cleared' of native inhabitants for H-bomb testing, applying colonial displacement logic without comment to a newly stigmatized population" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 0,
+    "summary": "No commentary by Dick on this specific story was found in this evidence pass.",
+    "evidence": []
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is there a documented connection between this story's radiation-mutation premise and Dick's broader 1950s Cold War atomic-anxiety fiction (cf. 'The Builder,' also read in this project)?",
+    "Is the story's late, unmarked point-of-view shift ever discussed by critics as a deliberate technique, or read instead as an editorial or structural rough edge?",
+    "What is the significance, if any, of the crawlers' plan to eventually tunnel 'to the land beyond the ocean' — is this ever glossed as a specific, deliberate act of aggression, or left as ambiguous as the story leaves everything else?"
   ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 3,057 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "0 found in this evidence pass.",
+    "layer_4_criticism": "0 found in this evidence pass.",
+    "related_dossiers": "the-builder (shares Cold War/radiation-era atomic anxiety, both read).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Iron",
-    "entity_id": "TERM_iron",
-    "count": 1,
-    "distinctiveness": 9.45
-   },
-   {
-    "label": "Fish",
-    "entity_id": "TERM_fish",
-    "count": 1,
-    "distinctiveness": 7.64
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 6,
-    "distinctiveness": 2.25
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 3,
-    "distinctiveness": 1.84
-   },
-   {
-    "label": "Brain",
-    "entity_id": "TERM_brain",
-    "count": 1,
-    "distinctiveness": 1.58
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "0 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
 }

@@ -16,6 +16,10 @@ Conger, a convicted smuggler and skilled hunter, is offered release from prison 
 
 An unnamed man crushes two eavesdropping caterpillars under his foot on his way to the bus, cautiously avoids a spider web, and rides home uneasy about an insect world he half-perceives is aware of him. In a story collection like [Expendable](/works/expendable), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Some Kinds of Life
+
+Bob Clarke is called up for another tour fighting the Martians over rexeroid, a mineral essential to his household's automated control systems, and offers his wife Joan a matter-of-fact economic justification: without rexeroid, kryon, or... In a story collection like [Some Kinds of Life](/works/some-kinds-of-life), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Builder
 
 E.J. In a story collection like [The Builder](/works/the-builder), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -55,6 +59,10 @@ Ed Morris commutes home from Ganymede to Earth through a solar system saturated 
 ### Survey Team
 
 Thirty years into a war that has stripped Earth's surface to ash and driven humanity into underground tunnels, a survey team leaps from a crashing rocket onto Mars, the last untested planet in the solar system, hoping to find a habitable... In a story collection like [Survey Team](/works/survey-team), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### The Crawlers
+
+In rural Tennessee, near a radiation lab, government investigator Ernest Gretry examines a mangled, snail-like creature killed on the highway — a mutant child, one of a growing population being born to local families in the wake of... In a story collection like [The Crawlers](/works/the-crawlers), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Golden Man
 

@@ -76,6 +76,10 @@ Deus Irae is the canonical works record for PKD's novel. In a novel like [Deus I
 
 An aging Roman priest named Philos Diktos of Tyana ('Philip' transliterated into Greek and Latin) confesses, near the end of his life, a secret witnessed decades earlier at the temple of the Cumaean Sibyl, shortly after the assassination... In a story collection like [The Eye of the Sibyl](/works/the-eye-of-the-sibyl), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Day Mr. Computer Fell Out of Its Tree
+
+Joe Contemptible wakes to a world run by a vast central computer that has gone psychotic, dispensing bloomers instead of suits, soap instead of coffee, and a newspaper headlined 'Adolf Hitler Crowned Pope.' The only cure is Ms. In a story collection like [The Day Mr. Computer Fell Out of Its Tree](/works/the-day-mr-computer-fell-out-of-its-tree), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Chains of Air, Web of Aether
 
 Leo McVane lives alone in an isolated communications dome on a frozen, double-sunned world, his only real companionship the recorded voice of Linda Fox, a singer who reworks the Elizabethan lute songs of John Dowland for a scattered... In a story collection like [Chains of Air, Web of Aether](/works/chains-of-air-web-of-aether), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

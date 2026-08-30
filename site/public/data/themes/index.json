@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 101,
+  "fiction_work_count": 104,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -235,7 +235,7 @@
       "slug": "authentic-human",
       "label": "Authentic Human",
       "description": "Human authenticity, empathy, caritas, and the resistance to programmed or mechanical existence.",
-      "work_count": 37,
+      "work_count": 38,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -316,6 +316,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Amazing, May 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_the-crawlers",
+          "canonical_title": "The Crawlers",
+          "slug": "the-crawlers",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, July 1954 (as \"Foundation of Fear\" / \"The Crawlers\")",
           "date_start": "1954"
         },
         {
@@ -966,7 +975,7 @@
       "slug": "reality-breakdown",
       "label": "Reality Breakdown",
       "description": "Unstable reality, temporal slippage, projected worlds, and the breakdown of ordinary perception.",
-      "work_count": 45,
+      "work_count": 46,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -1228,6 +1237,15 @@
           "work_type": "novel",
           "date_display": "1976",
           "date_start": "1976"
+        },
+        {
+          "work_id": "WORK_the-day-mr-computer-fell-out-of-its-tree",
+          "canonical_title": "The Day Mr. Computer Fell Out of Its Tree",
+          "slug": "the-day-mr-computer-fell-out-of-its-tree",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Rolling Stone College Papers, 1978",
+          "date_start": "1978"
         },
         {
           "work_id": "WORK_the-unteleported-man",
@@ -2150,7 +2168,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 51,
+      "work_count": 53,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -2168,6 +2186,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "The Magazine of Fantasy & Science Fiction, 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_some-kinds-of-life",
+          "canonical_title": "Some Kinds of Life",
+          "slug": "some-kinds-of-life",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, October 1953",
           "date_start": "1953"
         },
         {
@@ -2258,6 +2285,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Fantastic Universe, May 1954",
+          "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_the-crawlers",
+          "canonical_title": "The Crawlers",
+          "slug": "the-crawlers",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, July 1954 (as \"Foundation of Fear\" / \"The Crawlers\")",
           "date_start": "1954"
         },
         {
@@ -2619,7 +2655,7 @@
       "slug": "religion-gnosis",
       "label": "Religion & Gnosis",
       "description": "God, Christ, revelation, Gnosticism, theology, salvation, and mystical interpretation.",
-      "work_count": 23,
+      "work_count": 24,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2775,6 +2811,15 @@
           "date_start": "1976"
         },
         {
+          "work_id": "WORK_the-day-mr-computer-fell-out-of-its-tree",
+          "canonical_title": "The Day Mr. Computer Fell Out of Its Tree",
+          "slug": "the-day-mr-computer-fell-out-of-its-tree",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Rolling Stone College Papers, 1978",
+          "date_start": "1978"
+        },
+        {
           "work_id": "WORK_chains-of-air-web-of-aether",
           "canonical_title": "Chains of Air, Web of Aether",
           "slug": "chains-of-air-web-of-aether",
@@ -2836,7 +2881,7 @@
       "slug": "alien-contact",
       "label": "Alien Contact",
       "description": "Aliens, extraterrestrial intelligence, off-world contact, and nonhuman ecologies.",
-      "work_count": 13,
+      "work_count": 14,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2863,6 +2908,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "If, September 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_some-kinds-of-life",
+          "canonical_title": "Some Kinds of Life",
+          "slug": "some-kinds-of-life",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Universe, October 1953",
           "date_start": "1953"
         },
         {
