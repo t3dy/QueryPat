@@ -1,0 +1,220 @@
+{
+ "slug": "the-little-black-box",
+ "title": "The Little Black Box",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 48185,
+  "line_end": 48884,
+  "word_count": 8936,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_buddhism",
+    "label": "Buddhism",
+    "count": 5,
+    "per_million": 559.5,
+    "background_per_million": 6.1,
+    "distinctiveness": 50.28
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_buddha",
+    "label": "Buddha",
+    "count": 4,
+    "per_million": 447.6,
+    "background_per_million": 4.1,
+    "distinctiveness": 49.27
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_krishna",
+    "label": "Krishna",
+    "count": 1,
+    "per_million": 111.9,
+    "background_per_million": 1.0,
+    "distinctiveness": 18.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_folder",
+    "label": "Folder",
+    "count": 2,
+    "per_million": 223.8,
+    "background_per_million": 12.3,
+    "distinctiveness": 12.97
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_santa",
+    "label": "Santa",
+    "count": 1,
+    "per_million": 111.9,
+    "background_per_million": 8.2,
+    "distinctiveness": 8.5
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_roman",
+    "label": "Roman",
+    "count": 1,
+    "per_million": 111.9,
+    "background_per_million": 21.5,
+    "distinctiveness": 4.23
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 17,
+    "per_million": 1902.4,
+    "background_per_million": 609.8,
+    "distinctiveness": 3.09
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_faith",
+    "label": "Faith",
+    "count": 1,
+    "per_million": 111.9,
+    "background_per_million": 32.7,
+    "distinctiveness": 2.97
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 5,
+    "per_million": 559.5,
+    "background_per_million": 266.6,
+    "distinctiveness": 2.06
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 5,
+    "per_million": 559.5,
+    "background_per_million": 311.5,
+    "distinctiveness": 1.77
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 8,
+    "per_million": 895.3,
+    "background_per_million": 526.0,
+    "distinctiveness": 1.69
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 7,
+    "per_million": 783.3,
+    "background_per_million": 462.7,
+    "distinctiveness": 1.67
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_wilbur-mercer",
+    "label": "Wilbur Mercer",
+    "count": 29,
+    "per_million": 3245.3,
+    "background_per_million": 29.6,
+    "distinctiveness": 93.73
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_joan",
+    "label": "Joan",
+    "count": 60,
+    "per_million": 6714.4,
+    "background_per_million": 169.6,
+    "distinctiveness": 38.46
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_saint",
+    "label": "Saint",
+    "count": 1,
+    "per_million": 111.9,
+    "background_per_million": 6.1,
+    "distinctiveness": 10.06
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-fbi",
+    "label": "The FBI",
+    "count": 3,
+    "per_million": 335.7,
+    "background_per_million": 54.1,
+    "distinctiveness": 5.68
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-authorities",
+    "label": "The authorities",
+    "count": 1,
+    "per_million": 111.9,
+    "background_per_million": 32.7,
+    "distinctiveness": 2.97
+   }
+  ],
+  "distinct_terms": 12,
+  "distinct_names": 5
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 5621,
+      "quote": "…ntervention of Wilbur Mercer (left out of the film), who is contacted by gripping “empathy box” handles (cf. “The Little Black Box” [1964] and the empathic Ludens Maze in The Zap Gun). Mercer is exposed by TV personality-jerk Buster Friendl…"
+     },
+     {
+      "line": 5647,
+      "quote": "…w. 1963, p. 1964), in which the all-too-human need for hope gives the conquering Proxmen the edge they need. “The Little Black Box” (1964), originally part of The Canymede Takeover but removed from the final version, introduces the empathic…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1241,
+      "quote": "…left over from _The Man Whose Teeth Were All Exactly Alike_ . The scary stories “What the Dead Men Say” and “The Little Black Box,” and the novel _The Unteleported Man_ , were also part of this output. None of the money from these works we…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ }
+}

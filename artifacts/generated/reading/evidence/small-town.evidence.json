@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 25040,
-  "line_end": 25145,
-  "word_count": 1414,
+  "line_end": 25475,
+  "word_count": 5102,
   "status": "ready"
  },
  "structure": {
@@ -18,52 +18,97 @@
   "terms": [
    {
     "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 6,
+    "per_million": 1176.0,
+    "background_per_million": 74.6,
+    "distinctiveness": 14.78
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_greek",
+    "label": "Greek",
+    "count": 1,
+    "per_million": 196.0,
+    "background_per_million": 26.6,
+    "distinctiveness": 6.21
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 3,
+    "per_million": 588.0,
+    "background_per_million": 130.7,
+    "distinctiveness": 4.33
+   },
+   {
+    "entity_type": "term",
     "entity_id": "TERM_lord",
     "label": "Lord",
-    "count": 1,
-    "per_million": 707.2,
+    "count": 2,
+    "per_million": 392.0,
     "background_per_million": 103.2,
-    "distinctiveness": 6.54
+    "distinctiveness": 3.62
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_light",
     "label": "Light",
-    "count": 2,
-    "per_million": 1414.4,
+    "count": 6,
+    "per_million": 1176.0,
     "background_per_million": 440.2,
-    "distinctiveness": 3.18
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_suppose",
-    "label": "Suppose",
-    "count": 1,
-    "per_million": 707.2,
-    "background_per_million": 221.7,
-    "distinctiveness": 3.12
+    "distinctiveness": 2.64
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_house",
     "label": "House",
-    "count": 2,
-    "per_million": 1414.4,
+    "count": 7,
+    "per_million": 1372.0,
     "background_per_million": 529.1,
-    "distinctiveness": 2.65
+    "distinctiveness": 2.57
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_father",
-    "label": "Father",
-    "count": 1,
-    "per_million": 707.2,
-    "background_per_million": 350.4,
-    "distinctiveness": 1.99
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 8,
+    "per_million": 1568.0,
+    "background_per_million": 868.2,
+    "distinctiveness": 1.8
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 2,
+    "per_million": 392.0,
+    "background_per_million": 221.7,
+    "distinctiveness": 1.73
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 2,
+    "per_million": 392.0,
+    "background_per_million": 224.7,
+    "distinctiveness": 1.71
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 2,
+    "per_million": 392.0,
+    "background_per_million": 256.4,
+    "distinctiveness": 1.5
    }
   ],
   "names": [],
-  "distinct_terms": 5,
+  "distinct_terms": 10,
   "distinct_names": 0
  },
  "title_search": {

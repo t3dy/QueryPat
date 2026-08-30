@@ -12,13 +12,13 @@
   "title": "Psi-man Heal My Child!",
   "slug": "psi-man-heal-my-child",
   "form": "story",
-  "word_count": 2540,
+  "word_count": 10147,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 36529,
-   "line_end": 36666,
-   "word_count": 2540,
+   "line_end": 37106,
+   "word_count": 10147,
    "status": "ready"
   }
  },
@@ -31,22 +31,42 @@
    {
     "name": "Stephen",
     "name_id": "NAME_stephen",
-    "mentions": 1
+    "mentions": 25
    },
    {
     "name": "Doris",
     "name_id": "NAME_doris",
+    "mentions": 26
+   },
+   {
+    "name": "A.E. van Vogt",
+    "name_id": "NAME_ae-van-vogt",
+    "mentions": 1
+   },
+   {
+    "name": "Paul Williams",
+    "name_id": "NAME_paul-williams",
+    "mentions": 1
+   },
+   {
+    "name": "Van Vogt",
+    "name_id": "NAME_van-vogt",
+    "mentions": 1
+   },
+   {
+    "name": "The authorities",
+    "name_id": "NAME_the-authorities",
     "mentions": 1
    },
    {
     "name": "Humans",
     "name_id": "NAME_humans",
-    "mentions": 1
+    "mentions": 3
    },
    {
-    "name": "Mary",
-    "name_id": "NAME_mary",
-    "mentions": 2
+    "name": "The Soviet",
+    "name_id": "NAME_the-soviet",
+    "mentions": 1
    }
   ],
   "place_candidates": [],
@@ -59,22 +79,64 @@
  "concepts": {
   "distinctive_terms": [
    {
+    "label": "Golden",
+    "entity_id": "TERM_golden",
+    "count": 5,
+    "distinctiveness": 7.67
+   },
+   {
+    "label": "John",
+    "entity_id": "TERM_john",
+    "count": 6,
+    "distinctiveness": 5.91
+   },
+   {
+    "label": "Gods",
+    "entity_id": "TERM_gods",
+    "count": 2,
+    "distinctiveness": 5.53
+   },
+   {
+    "label": "March",
+    "entity_id": "TERM_march",
+    "count": 1,
+    "distinctiveness": 3.59
+   },
+   {
+    "label": "James",
+    "entity_id": "TERM_james",
+    "count": 1,
+    "distinctiveness": 3.23
+   },
+   {
+    "label": "Philip",
+    "entity_id": "TERM_philip",
+    "count": 4,
+    "distinctiveness": 3.04
+   },
+   {
     "label": "Iron",
     "entity_id": "TERM_iron",
     "count": 1,
-    "distinctiveness": 11.37
+    "distinctiveness": 2.85
+   },
+   {
+    "label": "Paul",
+    "entity_id": "TERM_paul",
+    "count": 2,
+    "distinctiveness": 2.48
+   },
+   {
+    "label": "Tears",
+    "entity_id": "TERM_tears",
+    "count": 1,
+    "distinctiveness": 2.42
    },
    {
     "label": "Soviet",
     "entity_id": "TERM_soviet",
-    "count": 1,
-    "distinctiveness": 4.02
-   },
-   {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 1,
-    "distinctiveness": 3.64
+    "count": 2,
+    "distinctiveness": 2.01
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

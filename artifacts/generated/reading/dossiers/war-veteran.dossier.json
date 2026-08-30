@@ -12,13 +12,13 @@
   "title": "War Veteran",
   "slug": "war-veteran",
   "form": "story",
-  "word_count": 1315,
+  "word_count": 16280,
   "lane": "A",
   "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-   "line_start": 7434,
-   "line_end": 7525,
-   "word_count": 1315,
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 33793,
+   "line_end": 34888,
+   "word_count": 16280,
    "status": "ready"
   }
  },
@@ -27,7 +27,18 @@
   "synopsis": null,
   "movements": [],
   "motifs": [],
-  "cast_candidates": [],
+  "cast_candidates": [
+   {
+    "name": "David",
+    "name_id": "NAME_david",
+    "mentions": 32
+   },
+   {
+    "name": "The Projector",
+    "name_id": "NAME_the-projector",
+    "mentions": 2
+   }
+  ],
   "place_candidates": [],
   "other_entities": [],
   "structure": {
@@ -38,40 +49,46 @@
  "concepts": {
   "distinctive_terms": [
    {
-    "label": "John",
-    "entity_id": "TERM_john",
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 49,
+    "distinctiveness": 6.64
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 23,
+    "distinctiveness": 3.02
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 10,
+    "distinctiveness": 2.71
+   },
+   {
+    "label": "Empire",
+    "entity_id": "TERM_empire",
     "count": 1,
-    "distinctiveness": 7.6
+    "distinctiveness": 2.24
+   },
+   {
+    "label": "Gestalt",
+    "entity_id": "TERM_gestalt",
+    "count": 1,
+    "distinctiveness": 2.01
    },
    {
     "label": "Brain",
     "entity_id": "TERM_brain",
-    "count": 1,
-    "distinctiveness": 3.67
+    "count": 6,
+    "distinctiveness": 1.78
    },
    {
-    "label": "Wait",
-    "entity_id": "TERM_wait",
+    "label": "Tears",
+    "entity_id": "TERM_tears",
     "count": 1,
-    "distinctiveness": 2.4
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 1,
-    "distinctiveness": 1.89
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 1,
-    "distinctiveness": 1.89
-   },
-   {
-    "label": "Earth",
-    "entity_id": "TERM_earth",
-    "count": 1,
-    "distinctiveness": 1.68
+    "distinctiveness": 1.51
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

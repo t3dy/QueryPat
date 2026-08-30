@@ -12,13 +12,13 @@
   "title": "Paycheck",
   "slug": "paycheck",
   "form": "story",
-  "word_count": 3779,
+  "word_count": 13478,
   "lane": "A",
   "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-   "line_start": 10386,
-   "line_end": 10625,
-   "word_count": 3779,
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 8932,
+   "line_end": 9903,
+   "word_count": 13478,
    "status": "ready"
   }
  },
@@ -27,7 +27,13 @@
   "synopsis": null,
   "movements": [],
   "motifs": [],
-  "cast_candidates": [],
+  "cast_candidates": [
+   {
+    "name": "Paraclete",
+    "name_id": "NAME_paraclete",
+    "mentions": 1
+   }
+  ],
   "place_candidates": [],
   "other_entities": [],
   "structure": {
@@ -38,46 +44,58 @@
  "concepts": {
   "distinctive_terms": [
    {
+    "label": "Joint",
+    "entity_id": "TERM_joint",
+    "count": 2,
+    "distinctiveness": 10.46
+   },
+   {
     "label": "Palm",
     "entity_id": "TERM_palm",
     "count": 2,
-    "distinctiveness": 23.66
+    "distinctiveness": 6.64
+   },
+   {
+    "label": "Faith",
+    "entity_id": "TERM_faith",
+    "count": 3,
+    "distinctiveness": 5.91
    },
    {
     "label": "Church",
     "entity_id": "TERM_church",
     "count": 2,
-    "distinctiveness": 19.26
+    "distinctiveness": 5.4
+   },
+   {
+    "label": "Maze",
+    "entity_id": "TERM_maze",
+    "count": 1,
+    "distinctiveness": 2.92
    },
    {
     "label": "Fall",
     "entity_id": "TERM_fall",
-    "count": 2,
-    "distinctiveness": 4.8
+    "count": 3,
+    "distinctiveness": 2.02
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 8,
+    "distinctiveness": 1.88
    },
    {
     "label": "Mind",
     "entity_id": "TERM_mind",
-    "count": 9,
-    "distinctiveness": 3.87
+    "count": 13,
+    "distinctiveness": 1.57
    },
    {
     "label": "Self",
     "entity_id": "TERM_self",
-    "count": 1,
-    "distinctiveness": 2.79
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
     "count": 2,
-    "distinctiveness": 2.34
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 3,
-    "distinctiveness": 1.97
+    "distinctiveness": 1.56
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

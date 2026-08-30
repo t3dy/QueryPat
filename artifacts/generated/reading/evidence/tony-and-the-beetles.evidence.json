@@ -4,10 +4,10 @@
  "kind": "story",
  "generated_by": "scripts/reading/gather_evidence.py",
  "source": {
-  "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-  "line_start": 3654,
-  "line_end": 4007,
-  "word_count": 4770,
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 30186,
+  "line_end": 30517,
+  "word_count": 4686,
   "status": "ready"
  },
  "structure": {
@@ -21,63 +21,63 @@
     "entity_id": "TERM_tony",
     "label": "Tony",
     "count": 65,
-    "per_million": 13626.8,
+    "per_million": 13871.1,
     "background_per_million": 125.6,
-    "distinctiveness": 104.31
+    "distinctiveness": 106.18
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_father",
     "label": "Father",
     "count": 9,
-    "per_million": 1886.8,
+    "per_million": 1920.6,
     "background_per_million": 350.4,
-    "distinctiveness": 5.31
+    "distinctiveness": 5.4
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_christ",
     "label": "Christ",
     "count": 1,
-    "per_million": 209.6,
+    "per_million": 213.4,
     "background_per_million": 73.5,
-    "distinctiveness": 2.67
+    "distinctiveness": 2.72
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_black",
     "label": "Black",
     "count": 5,
-    "per_million": 1048.2,
+    "per_million": 1067.0,
     "background_per_million": 397.3,
-    "distinctiveness": 2.61
+    "distinctiveness": 2.65
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_anyhow",
     "label": "Anyhow",
     "count": 3,
-    "per_million": 628.9,
+    "per_million": 640.2,
     "background_per_million": 266.6,
-    "distinctiveness": 2.32
+    "distinctiveness": 2.36
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_fall",
     "label": "Fall",
     "count": 1,
-    "per_million": 209.6,
+    "per_million": 213.4,
     "background_per_million": 105.2,
-    "distinctiveness": 1.9
+    "distinctiveness": 1.94
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_earth",
     "label": "Earth",
     "count": 4,
-    "per_million": 838.6,
+    "per_million": 853.6,
     "background_per_million": 448.4,
-    "distinctiveness": 1.85
+    "distinctiveness": 1.88
    }
   ],
   "names": [],

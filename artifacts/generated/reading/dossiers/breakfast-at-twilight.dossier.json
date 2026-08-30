@@ -1,0 +1,149 @@
+{
+ "artifact_id": "ART_DOSSIER_BREAKFAST_AT_TWILIGHT",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "breakfast-at-twilight",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Breakfast At Twilight",
+  "slug": "breakfast-at-twilight",
+  "form": "story",
+  "word_count": 5619,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 20408,
+   "line_end": 21007,
+   "word_count": 5619,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Mary",
+    "name_id": "NAME_mary",
+    "mentions": 46
+   },
+   {
+    "name": "The Soviets",
+    "name_id": "NAME_the-soviets",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 24,
+    "distinctiveness": 8.0
+   },
+   {
+    "label": "Faith",
+    "entity_id": "TERM_faith",
+    "count": 1,
+    "distinctiveness": 4.72
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 3,
+    "distinctiveness": 3.99
+   },
+   {
+    "label": "Soviet",
+    "entity_id": "TERM_soviet",
+    "count": 2,
+    "distinctiveness": 3.63
+   },
+   {
+    "label": "Garden",
+    "entity_id": "TERM_garden",
+    "count": 1,
+    "distinctiveness": 2.96
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 3,
+    "distinctiveness": 2.36
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 3,
+    "distinctiveness": 2.32
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 4,
+    "distinctiveness": 2.25
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 10,
+    "distinctiveness": 2.04
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
+    "count": 1,
+    "distinctiveness": 1.65
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6352,
+      "quote": "…d Variety.”) “Oh, To Be a Blobel.” “Roog.” “Upon the Dull Earth.” Personally, although Don Wollheim used “Breakfast At Twilight,” I’d like to see it included, with “The Defenders,” which he also used, dropped. Another suggestion, for a l…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

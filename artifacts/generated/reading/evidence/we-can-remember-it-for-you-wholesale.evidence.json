@@ -4,10 +4,10 @@
  "kind": "story",
  "generated_by": "scripts/reading/gather_evidence.py",
  "source": {
-  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI.md",
-  "line_start": 8938,
-  "line_end": 9041,
-  "word_count": 2228,
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 52233,
+  "line_end": 52672,
+  "word_count": 8073,
   "status": "ready"
  },
  "structure": {
@@ -18,79 +18,97 @@
   "terms": [
    {
     "entity_type": "term",
-    "entity_id": "TERM_folder",
-    "label": "Folder",
+    "entity_id": "TERM_covenant",
+    "label": "Covenant",
     "count": 1,
-    "per_million": 448.8,
-    "background_per_million": 12.3,
-    "distinctiveness": 26.01
+    "per_million": 123.9,
+    "background_per_million": 2.0,
+    "distinctiveness": 17.59
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_bureau",
     "label": "Bureau",
-    "count": 1,
-    "per_million": 448.8,
+    "count": 3,
+    "per_million": 371.6,
     "background_per_million": 38.8,
-    "distinctiveness": 10.24
+    "distinctiveness": 8.48
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_john",
-    "label": "John",
+    "entity_id": "TERM_folder",
+    "label": "Folder",
     "count": 1,
-    "per_million": 448.8,
-    "background_per_million": 95.0,
-    "distinctiveness": 4.49
+    "per_million": 123.9,
+    "background_per_million": 12.3,
+    "distinctiveness": 7.18
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_okay",
-    "label": "Okay",
-    "count": 2,
-    "per_million": 897.7,
-    "background_per_million": 224.7,
-    "distinctiveness": 3.91
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 3,
+    "per_million": 371.6,
+    "background_per_million": 77.6,
+    "distinctiveness": 4.5
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 14,
+    "per_million": 1734.2,
+    "background_per_million": 398.4,
+    "distinctiveness": 4.3
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_earth",
     "label": "Earth",
-    "count": 2,
-    "per_million": 897.7,
+    "count": 13,
+    "per_million": 1610.3,
     "background_per_million": 448.4,
-    "distinctiveness": 1.98
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_being",
-    "label": "Being",
-    "count": 2,
-    "per_million": 897.7,
-    "background_per_million": 526.0,
-    "distinctiveness": 1.69
+    "distinctiveness": 3.55
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_anyhow",
     "label": "Anyhow",
-    "count": 1,
-    "per_million": 448.8,
+    "count": 5,
+    "per_million": 619.3,
     "background_per_million": 266.6,
-    "distinctiveness": 1.65
+    "distinctiveness": 2.28
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_great",
-    "label": "Great",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 4,
+    "per_million": 495.5,
+    "background_per_million": 221.7,
+    "distinctiveness": 2.19
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
     "count": 2,
-    "per_million": 897.7,
-    "background_per_million": 589.4,
-    "distinctiveness": 1.51
+    "per_million": 247.7,
+    "background_per_million": 138.9,
+    "distinctiveness": 1.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 7,
+    "per_million": 867.1,
+    "background_per_million": 526.0,
+    "distinctiveness": 1.63
    }
   ],
   "names": [],
-  "distinct_terms": 8,
+  "distinct_terms": 10,
   "distinct_names": 0
  },
  "title_search": {

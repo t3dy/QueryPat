@@ -1,0 +1,225 @@
+{
+ "slug": "holy-quarrel",
+ "title": "Holy Quarrel",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 51691,
+  "line_end": 52232,
+  "word_count": 9181,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_satan",
+    "label": "Satan",
+    "count": 2,
+    "per_million": 217.8,
+    "background_per_million": 3.1,
+    "distinctiveness": 27.01
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_creator",
+    "label": "Creator",
+    "count": 2,
+    "per_million": 217.8,
+    "background_per_million": 10.2,
+    "distinctiveness": 14.32
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_divine",
+    "label": "Divine",
+    "count": 3,
+    "per_million": 326.8,
+    "background_per_million": 18.4,
+    "distinctiveness": 13.97
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_holy",
+    "label": "Holy",
+    "count": 2,
+    "per_million": 217.8,
+    "background_per_million": 18.4,
+    "distinctiveness": 9.31
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_empire",
+    "label": "Empire",
+    "count": 2,
+    "per_million": 217.8,
+    "background_per_million": 22.5,
+    "distinctiveness": 7.93
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fish",
+    "label": "Fish",
+    "count": 3,
+    "per_million": 326.8,
+    "background_per_million": 37.8,
+    "distinctiveness": 7.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 3,
+    "per_million": 326.8,
+    "background_per_million": 39.8,
+    "distinctiveness": 7.29
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gestalt",
+    "label": "Gestalt",
+    "count": 2,
+    "per_million": 217.8,
+    "background_per_million": 25.5,
+    "distinctiveness": 7.13
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bible",
+    "label": "Bible",
+    "count": 1,
+    "per_million": 108.9,
+    "background_per_million": 14.3,
+    "distinctiveness": 5.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_spirit",
+    "label": "Spirit",
+    "count": 1,
+    "per_million": 108.9,
+    "background_per_million": 16.3,
+    "distinctiveness": 5.1
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 4,
+    "per_million": 435.7,
+    "background_per_million": 138.9,
+    "distinctiveness": 3.03
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_cosmic",
+    "label": "Cosmic",
+    "count": 1,
+    "per_million": 108.9,
+    "background_per_million": 31.7,
+    "distinctiveness": 2.97
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 7,
+    "per_million": 762.4,
+    "background_per_million": 266.6,
+    "distinctiveness": 2.81
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 5,
+    "per_million": 544.6,
+    "background_per_million": 224.7,
+    "distinctiveness": 2.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 11,
+    "per_million": 1198.1,
+    "background_per_million": 526.0,
+    "distinctiveness": 2.26
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 8,
+    "per_million": 871.4,
+    "background_per_million": 440.2,
+    "distinctiveness": 1.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 6,
+    "per_million": 653.5,
+    "background_per_million": 398.4,
+    "distinctiveness": 1.62
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_herb-sousa",
+    "label": "Herb Sousa",
+    "count": 21,
+    "per_million": 2287.3,
+    "background_per_million": 22.5,
+    "distinctiveness": 83.26
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-fbi",
+    "label": "The FBI",
+    "count": 37,
+    "per_million": 4030.1,
+    "background_per_million": 54.1,
+    "distinctiveness": 68.15
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_herb",
+    "label": "Herb",
+    "count": 21,
+    "per_million": 2287.3,
+    "background_per_million": 54.1,
+    "distinctiveness": 38.68
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_humans",
+    "label": "Humans",
+    "count": 2,
+    "per_million": 217.8,
+    "background_per_million": 112.4,
+    "distinctiveness": 1.86
+   }
+  ],
+  "distinct_terms": 17,
+  "distinct_names": 4
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

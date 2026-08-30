@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 46509,
-  "line_end": 46920,
-  "word_count": 7019,
+  "line_end": 47510,
+  "word_count": 14905,
   "status": "ready"
  },
  "structure": {
@@ -20,55 +20,100 @@
     "entity_type": "term",
     "entity_id": "TERM_james",
     "label": "James",
-    "count": 3,
-    "per_million": 427.4,
+    "count": 4,
+    "per_million": 268.4,
     "background_per_million": 25.5,
-    "distinctiveness": 14.0
+    "distinctiveness": 8.79
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_prison",
+    "label": "Prison",
+    "count": 3,
+    "per_million": 201.3,
+    "background_per_million": 24.5,
+    "distinctiveness": 6.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_spirit",
+    "label": "Spirit",
+    "count": 2,
+    "per_million": 134.2,
+    "background_per_million": 16.3,
+    "distinctiveness": 6.29
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_joint",
     "label": "Joint",
     "count": 1,
-    "per_million": 142.5,
+    "per_million": 67.1,
     "background_per_million": 9.2,
-    "distinctiveness": 10.04
+    "distinctiveness": 4.73
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_house",
-    "label": "House",
-    "count": 16,
-    "per_million": 2279.5,
-    "background_per_million": 529.1,
-    "distinctiveness": 4.27
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_anyhow",
-    "label": "Anyhow",
-    "count": 5,
-    "per_million": 712.4,
-    "background_per_million": 266.6,
-    "distinctiveness": 2.62
+    "entity_id": "TERM_creator",
+    "label": "Creator",
+    "count": 1,
+    "per_million": 67.1,
+    "background_per_million": 10.2,
+    "distinctiveness": 4.41
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_okay",
     "label": "Okay",
-    "count": 3,
-    "per_million": 427.4,
+    "count": 12,
+    "per_million": 805.1,
     "background_per_million": 224.7,
+    "distinctiveness": 3.5
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 19,
+    "per_million": 1274.7,
+    "background_per_million": 529.1,
+    "distinctiveness": 2.39
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 9,
+    "per_million": 603.8,
+    "background_per_million": 266.6,
+    "distinctiveness": 2.22
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 3,
+    "per_million": 201.3,
+    "background_per_million": 103.2,
     "distinctiveness": 1.86
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_look",
-    "label": "Look",
-    "count": 11,
-    "per_million": 1567.2,
-    "background_per_million": 868.2,
-    "distinctiveness": 1.79
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 15,
+    "per_million": 1006.4,
+    "background_per_million": 609.8,
+    "distinctiveness": 1.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 22,
+    "per_million": 1476.0,
+    "background_per_million": 959.1,
+    "distinctiveness": 1.53
    }
   ],
   "names": [
@@ -76,23 +121,32 @@
     "entity_type": "name",
     "entity_id": "NAME_jim-briskin",
     "label": "Jim Briskin",
-    "count": 15,
-    "per_million": 2137.1,
+    "count": 26,
+    "per_million": 1744.4,
     "background_per_million": 26.6,
-    "distinctiveness": 67.72
+    "distinctiveness": 55.28
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_the-fbi",
     "label": "The FBI",
-    "count": 3,
-    "per_million": 427.4,
+    "count": 7,
+    "per_million": 469.6,
     "background_per_million": 54.1,
-    "distinctiveness": 7.23
+    "distinctiveness": 7.94
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mission",
+    "label": "Mission",
+    "count": 1,
+    "per_million": 67.1,
+    "background_per_million": 12.3,
+    "distinctiveness": 3.89
    }
   ],
-  "distinct_terms": 6,
-  "distinct_names": 2
+  "distinct_terms": 11,
+  "distinct_names": 3
  },
  "title_search": {
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."

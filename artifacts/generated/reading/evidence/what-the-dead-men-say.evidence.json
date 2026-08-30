@@ -1,0 +1,251 @@
+{
+ "slug": "what-the-dead-men-say",
+ "title": "What The Dead Men Say",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 44103,
+  "line_end": 45514,
+  "word_count": 20339,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_kathy",
+    "label": "Kathy",
+    "count": 102,
+    "per_million": 5015.0,
+    "background_per_million": 105.2,
+    "distinctiveness": 45.5
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_phil",
+    "label": "Phil",
+    "count": 40,
+    "per_million": 1966.7,
+    "background_per_million": 77.6,
+    "distinctiveness": 23.8
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_nixon",
+    "label": "Nixon",
+    "count": 1,
+    "per_million": 49.2,
+    "background_per_million": 1.0,
+    "distinctiveness": 8.17
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_emanation",
+    "label": "Emanation",
+    "count": 1,
+    "per_million": 49.2,
+    "background_per_million": 1.0,
+    "distinctiveness": 8.17
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fate",
+    "label": "Fate",
+    "count": 3,
+    "per_million": 147.5,
+    "background_per_million": 20.4,
+    "distinctiveness": 5.8
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_faith",
+    "label": "Faith",
+    "count": 3,
+    "per_million": 147.5,
+    "background_per_million": 32.7,
+    "distinctiveness": 3.91
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_spirit",
+    "label": "Spirit",
+    "count": 1,
+    "per_million": 49.2,
+    "background_per_million": 16.3,
+    "distinctiveness": 2.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_divine",
+    "label": "Divine",
+    "count": 1,
+    "per_million": 49.2,
+    "background_per_million": 18.4,
+    "distinctiveness": 2.1
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_soviet",
+    "label": "Soviet",
+    "count": 4,
+    "per_million": 196.7,
+    "background_per_million": 93.0,
+    "distinctiveness": 2.01
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 9,
+    "per_million": 442.5,
+    "background_per_million": 224.7,
+    "distinctiveness": 1.93
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_maze",
+    "label": "Maze",
+    "count": 1,
+    "per_million": 49.2,
+    "background_per_million": 20.4,
+    "distinctiveness": 1.93
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 15,
+    "per_million": 737.5,
+    "background_per_million": 398.4,
+    "distinctiveness": 1.83
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 10,
+    "per_million": 491.7,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.81
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_empire",
+    "label": "Empire",
+    "count": 1,
+    "per_million": 49.2,
+    "background_per_million": 22.5,
+    "distinctiveness": 1.79
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_sarapis",
+    "label": "Sarapis",
+    "count": 60,
+    "per_million": 2950.0,
+    "background_per_million": 61.3,
+    "distinctiveness": 44.5
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_harvey",
+    "label": "Harvey",
+    "count": 90,
+    "per_million": 4425.0,
+    "background_per_million": 110.3,
+    "distinctiveness": 38.37
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_herb",
+    "label": "Herb",
+    "count": 30,
+    "per_million": 1475.0,
+    "background_per_million": 54.1,
+    "distinctiveness": 24.94
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_herbert-schoenheit-von-vogelsang",
+    "label": "Herbert Schoenheit von Vogelsang",
+    "count": 3,
+    "per_million": 147.5,
+    "background_per_million": 3.1,
+    "distinctiveness": 18.29
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_richard-nixon",
+    "label": "Richard Nixon",
+    "count": 1,
+    "per_million": 49.2,
+    "background_per_million": 1.0,
+    "distinctiveness": 8.17
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-soviet",
+    "label": "The Soviet",
+    "count": 4,
+    "per_million": 196.7,
+    "background_per_million": 54.1,
+    "distinctiveness": 3.33
+   }
+  ],
+  "distinct_terms": 14,
+  "distinct_names": 6
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 3,
+    "quotes": [
+     {
+      "line": 1241,
+      "quote": "…was partly based on material left over from _The Man Whose Teeth Were All Exactly Alike_ . The scary stories “What the Dead Men Say” and “The Little Black Box,” and the novel _The Unteleported Man_ , were also part of this output. None of th…"
+     },
+     {
+      "line": 1343,
+      "quote": "…had thought at the time—but then it’s also possible that Phil was playing a role_ . That spring Phil wrote “What the Dead Men Say,” a story that I didn’t read until after his death. Johnny Barefoot, the protagonist, hears booming voices ov…"
+     },
+     {
+      "line": 3251,
+      "quote": "…*_ 104, 174, 178, 181–184, 196, 202 _**Valisystem A**_ 174, 184 _**We Can Build You**_ 16, 57, 61, 63, 264 **“What the Dead Men Say”** 104, 116 _**World Jones Made, The**_ 26, 257–258 _**Zap Gun, The**_ 43, 95, 264 **Wright, Jack** 98 **Wrig…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_MCLOUGHLIN_PINK_LIGHT_AND_IRON.md",
+    "author": "McLoughlin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3307,
+      "quote": "…in, _Divine Invasions,_ p. 153; the concept of ‘cold-pac’, for example, was poached from Dick’s 1964 novella ‘What the Dead Men Say’. Precogs and telepaths are standard Dick fare, with well-known stories like ‘The Minority Report’ and ‘We Ca…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 4
+ }
+}

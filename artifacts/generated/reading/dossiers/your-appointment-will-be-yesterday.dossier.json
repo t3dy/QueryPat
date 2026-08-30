@@ -12,13 +12,13 @@
   "title": "Your Appointment Will Be Yesterday",
   "slug": "your-appointment-will-be-yesterday",
   "form": "story",
-  "word_count": 1909,
+  "word_count": 8385,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 51243,
-   "line_end": 51322,
-   "word_count": 1909,
+   "line_end": 51690,
+   "word_count": 8385,
    "status": "ready"
   }
  },
@@ -40,56 +40,32 @@
    {
     "label": "Therefore",
     "entity_id": "TERM_therefore",
-    "count": 1,
-    "distinctiveness": 11.68
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 1,
-    "distinctiveness": 3.92
-   },
-   {
-    "label": "Bill",
-    "entity_id": "TERM_bill",
-    "count": 1,
-    "distinctiveness": 3.64
-   },
-   {
-    "label": "Obviously",
-    "entity_id": "TERM_obviously",
-    "count": 1,
-    "distinctiveness": 3.64
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 6,
-    "distinctiveness": 3.26
+    "count": 4,
+    "distinctiveness": 10.64
    },
    {
     "label": "Probably",
     "entity_id": "TERM_probably",
-    "count": 2,
-    "distinctiveness": 2.6
-   },
-   {
-    "label": "Good",
-    "entity_id": "TERM_good",
-    "count": 4,
-    "distinctiveness": 1.93
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 2,
-    "distinctiveness": 1.76
+    "count": 8,
+    "distinctiveness": 2.37
    },
    {
     "label": "Wait",
     "entity_id": "TERM_wait",
+    "count": 5,
+    "distinctiveness": 1.88
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 15,
+    "distinctiveness": 1.86
+   },
+   {
+    "label": "Scanner",
+    "entity_id": "TERM_scanner",
     "count": 1,
-    "distinctiveness": 1.65
+    "distinctiveness": 1.69
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

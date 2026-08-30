@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 56791,
-  "line_end": 56896,
-  "word_count": 1555,
+  "line_end": 57420,
+  "word_count": 7705,
   "status": "ready"
  },
  "structure": {
@@ -18,98 +18,116 @@
   "terms": [
    {
     "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 18,
+    "per_million": 2336.1,
+    "background_per_million": 224.7,
+    "distinctiveness": 10.17
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 6,
+    "per_million": 778.7,
+    "background_per_million": 73.5,
+    "distinctiveness": 9.91
+   },
+   {
+    "entity_type": "term",
     "entity_id": "TERM_jesus",
     "label": "Jesus",
     "count": 1,
-    "per_million": 643.1,
+    "per_million": 129.8,
     "background_per_million": 11.2,
-    "distinctiveness": 39.61
+    "distinctiveness": 7.99
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_grace",
     "label": "Grace",
     "count": 1,
-    "per_million": 643.1,
+    "per_million": 129.8,
     "background_per_million": 11.2,
-    "distinctiveness": 39.61
+    "distinctiveness": 7.99
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_spirit",
+    "label": "Spirit",
+    "count": 1,
+    "per_million": 129.8,
+    "background_per_million": 16.3,
+    "distinctiveness": 6.08
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_holy",
     "label": "Holy",
     "count": 1,
-    "per_million": 643.1,
+    "per_million": 129.8,
     "background_per_million": 18.4,
-    "distinctiveness": 27.5
+    "distinctiveness": 5.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 3,
+    "per_million": 389.4,
+    "background_per_million": 77.6,
+    "distinctiveness": 4.71
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_john",
     "label": "John",
-    "count": 1,
-    "per_million": 643.1,
+    "count": 2,
+    "per_million": 259.6,
     "background_per_million": 95.0,
-    "distinctiveness": 6.43
+    "distinctiveness": 2.6
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 19,
+    "per_million": 2465.9,
+    "background_per_million": 959.1,
+    "distinctiveness": 2.56
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_book",
     "label": "Book",
-    "count": 1,
-    "per_million": 643.1,
-    "background_per_million": 128.7,
-    "distinctiveness": 4.81
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_brain",
-    "label": "Brain",
-    "count": 1,
-    "per_million": 643.1,
-    "background_per_million": 202.2,
-    "distinctiveness": 3.1
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_suppose",
-    "label": "Suppose",
-    "count": 1,
-    "per_million": 643.1,
-    "background_per_million": 221.7,
-    "distinctiveness": 2.84
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_mind",
-    "label": "Mind",
     "count": 2,
-    "per_million": 1286.2,
-    "background_per_million": 609.8,
-    "distinctiveness": 2.09
+    "per_million": 259.6,
+    "background_per_million": 128.7,
+    "distinctiveness": 1.94
    }
   ],
   "names": [
    {
     "entity_type": "name",
-    "entity_id": "NAME_linda-fox",
-    "label": "Linda Fox",
-    "count": 4,
-    "per_million": 2572.3,
-    "background_per_million": 11.2,
-    "distinctiveness": 158.44
+    "entity_id": "NAME_linda",
+    "label": "Linda",
+    "count": 13,
+    "per_million": 1687.2,
+    "background_per_million": 13.3,
+    "distinctiveness": 92.3
    },
    {
     "entity_type": "name",
-    "entity_id": "NAME_linda",
-    "label": "Linda",
-    "count": 4,
-    "per_million": 2572.3,
-    "background_per_million": 13.3,
-    "distinctiveness": 140.73
+    "entity_id": "NAME_linda-fox",
+    "label": "Linda Fox",
+    "count": 11,
+    "per_million": 1427.6,
+    "background_per_million": 11.2,
+    "distinctiveness": 87.93
    }
   ],
-  "distinct_terms": 8,
+  "distinct_terms": 10,
   "distinct_names": 2
  },
  "title_search": {

@@ -1,0 +1,194 @@
+{
+ "slug": "waterspider",
+ "title": "Waterspider",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 43299,
+  "line_end": 44102,
+  "word_count": 11773,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bureau",
+    "label": "Bureau",
+    "count": 19,
+    "per_million": 1613.9,
+    "background_per_million": 38.8,
+    "distinctiveness": 36.83
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_realm",
+    "label": "Realm",
+    "count": 1,
+    "per_million": 84.9,
+    "background_per_million": 10.2,
+    "distinctiveness": 5.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 7,
+    "per_million": 594.6,
+    "background_per_million": 138.9,
+    "distinctiveness": 4.13
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_lord",
+    "label": "Lord",
+    "count": 4,
+    "per_million": 339.8,
+    "background_per_million": 103.2,
+    "distinctiveness": 3.14
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 3,
+    "per_million": 254.8,
+    "background_per_million": 77.6,
+    "distinctiveness": 3.08
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 2,
+    "per_million": 169.9,
+    "background_per_million": 59.2,
+    "distinctiveness": 2.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tony",
+    "label": "Tony",
+    "count": 4,
+    "per_million": 339.8,
+    "background_per_million": 125.6,
+    "distinctiveness": 2.6
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 6,
+    "per_million": 509.6,
+    "background_per_million": 202.2,
+    "distinctiveness": 2.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 6,
+    "per_million": 509.6,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.88
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_van-vogt",
+    "label": "Van Vogt",
+    "count": 7,
+    "per_million": 594.6,
+    "background_per_million": 12.3,
+    "distinctiveness": 34.45
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_tony-boucher",
+    "label": "Tony Boucher",
+    "count": 3,
+    "per_million": 254.8,
+    "background_per_million": 7.2,
+    "distinctiveness": 20.97
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_ae-van-vogt",
+    "label": "A.E. van Vogt",
+    "count": 2,
+    "per_million": 169.9,
+    "background_per_million": 6.1,
+    "distinctiveness": 15.27
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-artifact",
+    "label": "The Artifact",
+    "count": 1,
+    "per_million": 84.9,
+    "background_per_million": 2.0,
+    "distinctiveness": 12.06
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mission",
+    "label": "Mission",
+    "count": 1,
+    "per_million": 84.9,
+    "background_per_million": 12.3,
+    "distinctiveness": 4.92
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_sophia",
+    "label": "Sophia",
+    "count": 1,
+    "per_million": 84.9,
+    "background_per_million": 17.4,
+    "distinctiveness": 3.8
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-authorities",
+    "label": "The authorities",
+    "count": 1,
+    "per_million": 84.9,
+    "background_per_million": 32.7,
+    "distinctiveness": 2.25
+   }
+  ],
+  "distinct_terms": 9,
+  "distinct_names": 7
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 6075,
+      "quote": "…er in Cassandra role: PKD, “Pessimism in Science Fiction,” Oblique, December 1955. - 82 Van Vogt’s advice: “Waterspider” (1964). Van Vogt’s suit: Author’s interview with Kleo Mini, February 1986. SF writer’s lot: Author’s intervi…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

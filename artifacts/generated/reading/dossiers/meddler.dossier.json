@@ -12,13 +12,13 @@
   "title": "Meddler",
   "slug": "meddler",
   "form": "story",
-  "word_count": 2647,
+  "word_count": 4474,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 8700,
-   "line_end": 8841,
-   "word_count": 2647,
+   "line_end": 8931,
+   "word_count": 4474,
    "status": "ready"
   }
  },
@@ -41,37 +41,37 @@
     "label": "Rome",
     "entity_id": "TERM_rome",
     "count": 1,
-    "distinctiveness": 26.62
+    "distinctiveness": 15.75
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 6,
+    "distinctiveness": 10.03
    },
    {
     "label": "Gestalt",
     "entity_id": "TERM_gestalt",
     "count": 1,
-    "distinctiveness": 12.37
+    "distinctiveness": 7.32
    },
    {
     "label": "Light",
     "entity_id": "TERM_light",
-    "count": 6,
-    "distinctiveness": 5.09
+    "count": 9,
+    "distinctiveness": 4.52
    },
    {
     "label": "Darkness",
     "entity_id": "TERM_darkness",
-    "count": 3,
-    "distinctiveness": 4.34
+    "count": 5,
+    "distinctiveness": 4.28
    },
    {
     "label": "Black",
     "entity_id": "TERM_black",
-    "count": 2,
-    "distinctiveness": 1.88
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 1,
-    "distinctiveness": 1.67
+    "count": 6,
+    "distinctiveness": 3.33
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

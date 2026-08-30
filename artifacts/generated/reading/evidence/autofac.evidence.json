@@ -1,0 +1,185 @@
+{
+ "slug": "autofac",
+ "title": "Autofac",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 37223,
+  "line_end": 37810,
+  "word_count": 8520,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jesus",
+    "label": "Jesus",
+    "count": 1,
+    "per_million": 117.4,
+    "background_per_million": 11.2,
+    "distinctiveness": 7.23
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 2,
+    "per_million": 234.7,
+    "background_per_million": 39.8,
+    "distinctiveness": 5.24
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 10,
+    "per_million": 1173.7,
+    "background_per_million": 397.3,
+    "distinctiveness": 2.92
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fish",
+    "label": "Fish",
+    "count": 1,
+    "per_million": 117.4,
+    "background_per_million": 37.8,
+    "distinctiveness": 2.74
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 4,
+    "per_million": 469.5,
+    "background_per_million": 256.4,
+    "distinctiveness": 1.8
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 7,
+    "per_million": 821.6,
+    "background_per_million": 526.0,
+    "distinctiveness": 1.55
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_humans",
+    "label": "Humans",
+    "count": 2,
+    "per_million": 234.7,
+    "background_per_million": 112.4,
+    "distinctiveness": 2.0
+   }
+  ],
+  "distinct_terms": 6,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 6336,
+      "quote": "…st stories. Could we use that, perhaps in place of “Service Call”? The others on the list strike me as fine: “Autofac” “Beyond Lies the Wub” “In the Days of Perky Pat” “The Defenders” (But this could be pulled for “Second V…"
+     },
+     {
+      "line": 6850,
+      "quote": "…ife of the Brown Oxford.” 1954 Fantasy House. First appeared in _The Magazine of Fantasy & Science-Fiction._ “Autofac.” 1955 Galaxy Publishing Corp. First appeared in _Galaxy Maga­ zine._ Thank you, Ralph, for this sale, and…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1829,
+      "quote": "…ated, computer-controlled, homeostatic Budweiser beer factory -- an autofac, as I called it once in a story [\"Autofac\" (1955)] -- hugs the discarded empties back into herself to recycle them over again into new life, with new,…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 7,
+    "quotes": [
+     {
+      "line": 1334,
+      "quote": "…Short Happy Life of the Brown Oxford’ (1954, CS1); Bach: ‘The Preserving Machine’ (1953, CS1). 15 See also ‘Autofac’ (1955, CS4), discussed in Chapter 9, and later in this chapter. 94 EXHILARATION AND TERROR OF THE POSTMODE…"
+     },
+     {
+      "line": 2228,
+      "quote": "…nificant pressure. ## **1. Prophetic Children and Childish Adults** Two short stories, ‘Jon’s World’ and ‘Autofac’, give the scope of the case. The first illustrates affinities with the romantic view of the child, the 164…"
+     },
+     {
+      "line": 2234,
+      "quote": "…atext, in which precognition (psychic) is as real as time travel (technological). There are no children in ‘Autofac’ (1955, CS4), only adults and robots, but both parties behave childishly. In the world of ‘Autofac’, humans a…"
+     },
+     {
+      "line": 2234,
+      "quote": "…ildren in ‘Autofac’ (1955, CS4), only adults and robots, but both parties behave childishly. In the world of ‘Autofac’, humans are confined to consumption, served by homeostatic factories which were set up before the usual SF d…"
+     },
+     {
+      "line": 2234,
+      "quote": "…meostatic factories which were set up before the usual SF destructive war and are now working independently. ‘Autofac’ can be read as an allegory of the situation of consumers in modern society, who are served by a totally effi…"
+     },
+     {
+      "line": 2242,
+      "quote": "…y has a twist in its end, which is not relevant for our purposes. The irrational outbreaks which structure ‘Autofac’ reveal in schematic form why the classic romantic depiction of the child as visionary and victim that we fou…"
+     },
+     {
+      "line": 3732,
+      "quote": "…t Team’ 93n14, 97 ‘Android and the Human, The’ 225 _Androids_ , _see Do Androids Dream of Electric Sheep?_ ‘Autofac’ 93n15, **164–65** ‘Breakfast at Twilight’ **95–96** , 106 _Broken Bubble, The_ 68n3 noir and 70n5–7, 72 symb…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 5491,
+      "quote": "…nd Dan O’Bannon has completed a screenplay which was to be produced by Capitol Pictures before it folded. In “Autofac” (w. 1954, p. 1955) (which uses the name Phil devised for the autonomic factories of “Second Variety”), the a…"
+     },
+     {
+      "line": 5491,
+      "quote": "…“Second Variety”), the autofacs won’t stop producing (and consuming) all raw materials. Thomas Disch termed “Autofac” one of the earliest SF ecology warnings. Rating: 5. 11. Mary and the Giant (w. 1953-55, p. 1987). A young…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 9
+ }
+}

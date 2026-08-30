@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 24588,
-  "line_end": 24935,
-  "word_count": 3728,
+  "line_end": 25039,
+  "word_count": 4897,
   "status": "ready"
  },
  "structure": {
@@ -21,63 +21,72 @@
     "entity_id": "TERM_gnosis",
     "label": "Gnosis",
     "count": 1,
-    "per_million": 268.2,
+    "per_million": 204.2,
     "background_per_million": 1.0,
-    "distinctiveness": 44.55
+    "distinctiveness": 33.91
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 11,
+    "per_million": 2246.3,
+    "background_per_million": 448.4,
+    "distinctiveness": 4.95
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_great",
     "label": "Great",
-    "count": 7,
-    "per_million": 1877.7,
+    "count": 9,
+    "per_million": 1837.9,
     "background_per_million": 589.4,
-    "distinctiveness": 3.16
+    "distinctiveness": 3.09
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_probably",
     "label": "Probably",
-    "count": 4,
-    "per_million": 1073.0,
+    "count": 5,
+    "per_million": 1021.0,
     "background_per_million": 398.4,
-    "distinctiveness": 2.66
+    "distinctiveness": 2.53
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 5,
+    "per_million": 1021.0,
+    "background_per_million": 526.0,
+    "distinctiveness": 1.92
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_good",
     "label": "Good",
     "count": 10,
-    "per_million": 2682.4,
+    "per_million": 2042.1,
     "background_per_million": 1079.7,
-    "distinctiveness": 2.47
+    "distinctiveness": 1.88
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_being",
-    "label": "Being",
-    "count": 4,
-    "per_million": 1073.0,
-    "background_per_million": 526.0,
-    "distinctiveness": 2.02
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 7,
+    "per_million": 1429.4,
+    "background_per_million": 868.2,
+    "distinctiveness": 1.64
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_light",
-    "label": "Light",
-    "count": 3,
-    "per_million": 804.7,
-    "background_per_million": 440.2,
-    "distinctiveness": 1.81
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_earth",
-    "label": "Earth",
-    "count": 3,
-    "per_million": 804.7,
-    "background_per_million": 448.4,
-    "distinctiveness": 1.77
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 1,
+    "per_million": 204.2,
+    "background_per_million": 128.7,
+    "distinctiveness": 1.53
    }
   ],
   "names": [
@@ -85,13 +94,13 @@
     "entity_type": "name",
     "entity_id": "NAME_humans",
     "label": "Humans",
-    "count": 6,
-    "per_million": 1609.4,
+    "count": 7,
+    "per_million": 1429.4,
     "background_per_million": 112.4,
-    "distinctiveness": 13.71
+    "distinctiveness": 12.18
    }
   ],
-  "distinct_terms": 7,
+  "distinct_terms": 8,
   "distinct_names": 1
  },
  "title_search": {

@@ -1,159 +1,216 @@
 {
-  "artifact_id": "ART_DOSSIER_THE_ELECTRIC_ANT",
-  "artifact_type": "work_dossier",
-  "schema_version": "1.0",
-  "source_id": "the-electric-ant",
-  "generated_by": "reading_notes_agent",
-  "status": "LLM_CANDIDATE",
-  "review_state": "unreviewed",
-  "reading_status": "close_reading_complete",
-
-  "work": {
-    "title": "The Electric Ant",
-    "slug": "the-electric-ant",
-    "form": "short story",
-    "word_count": 6488,
-    "lane": "A",
-    "written": "late 1968",
-    "first_publication": "The Magazine of Fantasy & Science Fiction, October 1969",
-    "note": "Followed by a long gap in Dick's short fiction — see the letters below.",
-    "source": {
-      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-      "line_start": 53911,
-      "line_end": 54344,
-      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
-    }
-  },
-
-  "reading": {
-    "reading_status": "close_reading_complete",
-    "synopsis": "Garson Poole wakes in hospital after a crash, missing a right hand and feeling no pain, and is informed by his doctor that he is not a man but an 'electric ant' — an organic robot. The hospital cannot treat him, but bills him for services rendered up to the point of discovery. At the repair facility he examines his replacement hand: organic skin and real blood over surge gates and valves. A technician tells him he never noticed the clicks and whirrs because he was programmed not to. At home he opens his own chest panel looking for the programming circuit, and hires a computer to scan him. It reports no programming circuit — but a roll of punched tape above his heart, which it identifies as a reality-supply construct feeding all sense stimuli into his nervous system, and warns him that tampering would be risky. Poole grasps the implication: his universe is arriving through that tape. He experiments. Varnishing over a section of punch-holes makes New York City vanish for a time while Danceman, sitting opposite him, sees it unchanged. Splicing in a dead strip blanks everything, including his own body, until maintenance men restore him and bill him ninety-five frogs. Danceman meanwhile admits Poole has always been a figurehead, controlled from Prox 4 by the majority stockholders. Punching fresh random holes produces a flight of ducks and an old man on a park bench reading a newspaper, both of which Sarah cannot see. Poole tells her she is a stimulus-factor on his tape. Wanting total reality for one microsecond — every stimulus at once, all symphonies simultaneously — he cuts the tape. He experiences everything, tries to speak, and burns out. Sarah, watching smoke rise from his mouth, knows without checking that it has died.",
-
-    "structure": {
-      "form": "continuous short story in five movements, each an experiment with a result",
-      "movements": [
-        "Diagnosis: told what he is, and billed for the telling.",
-        "Inventory: the new hand, the technician's explanation of why he never noticed.",
-        "The tape found: the computer's scan, the reality-supply construct, the first understanding.",
-        "The experiments: varnished holes, the spliced dead strip, the random new punches.",
-        "The cut: total input, and the burnout."
-      ],
-      "point_of_view": "third person tight on Poole, with his interior monologue given directly. The reader is inside the only consciousness whose reliability is at issue.",
-      "narrative_device": "The story is built as a sequence of falsifiable experiments with observable results, which is what keeps it from being a mood piece. Poole forms a hypothesis, tests it against an outside witness who sees nothing, and revises."
-    },
-
-    "characters": [
-      { "name": "Garson Poole", "name_id": "NAME_garson-poole", "role": "protagonist; owner-in-name of Tri-Plan Electronics", "note": "Discovers in one afternoon that he is a machine, a slave, and a figurehead, and reacts by pursuing the metaphysical implication rather than the personal one. His last stated want is not freedom but total knowledge for a microsecond." },
-      { "name": "Louis Danceman", "role": "second at Tri-Plan", "note": "Has known from the beginning. Insists on continuing to call him 'Mr. Poole' after the doctor has pointedly dropped the honorific — the story's one gesture of unforced decency." },
-      { "name": "Sarah Benton", "role": "personal secretary", "note": "Described dismissively by Poole throughout and given the story's final perception anyway. She stays because she does not want to spend her life wondering what would have happened if she had left." },
-      { "name": "The Beys, of Prox 4", "role": "actual owners", "note": "Marvis and Ernan Bey hold fifty-one percent and have set company policy from the start. Named but never seen." }
-    ],
-
-    "settings": [
-      { "name": "The hospital ward, New York", "note": "Where the diagnosis is delivered and itemised." },
-      { "name": "Poole's one-room apartment", "note": "Where the whole investigation happens, with an imported armchair and microtools delivered from the plant." },
-      { "name": "Krackter's bar", "note": "Where the first experiment is confirmed: the skyline goes for Poole and stays for Danceman." }
-    ],
-
-    "motifs": [
-      "Being billed — for the hospital's services, for the hand, for the computer's time, for the repairs after his own experiment. Every discovery has an invoice",
-      "The honorific: whether he is 'Mr. Poole' or 'Poole' tracks who does and does not treat him as a person",
-      "Programming assumed, then not found — the constraint turns out to be perceptual rather than volitional",
-      "Simultaneity as the object of desire: all channels at once, all symphonies at once",
-      "Two witnesses to one event, one of whom sees nothing"
-    ],
-
-    "significance": "The story's move is to replace the question of free will with the question of input. Poole goes looking for a programming circuit — the expected device, the one that would make him a puppet — and is told he has none. What he has instead is a tape supplying his entire sensory world, which is a stranger and more general predicament: not that his choices are made for him, but that the world he chooses within is delivered. Dick then presses the point past solipsism. Poole's tape does not merely represent his reality; editing it removes New York for him alone, which makes his subjective world sovereign over nothing but itself. The ending refuses transcendence: given everything at once, he cannot say a word about it and burns out.",
-
-    "closing_note": "The last paragraph belongs to Sarah, and it is bathetic on purpose — she reasons that it could not have felt much pain, because it had said so itself."
-  },
-
-  "concepts": {
-    "distinctive_terms": [
-      { "label": "Reality", "entity_id": "TERM_reality", "count": 11, "distinctiveness": 20.44, "note": "Load-bearing here rather than incidental: the tape is named a reality-supply construct, and Poole reasons explicitly about objective reality as a synthetic construct." },
-      { "label": "Scanner", "entity_id": "TERM_scanner", "count": 8, "distinctiveness": 19.71, "note": "The scanner reading the punched tape. The word's later charge in Dick's work makes this worth flagging as a genuine antecedent rather than a coincidence." },
-      { "label": "Maze", "entity_id": "TERM_maze", "count": 2, "distinctiveness": 6.06 },
-      { "label": "Christ", "entity_id": "TERM_christ", "count": 2, "distinctiveness": 3.92 }
-    ],
-    "names_matched": ["NAME_garson-poole"],
-    "thematic_links_proposed": [
-      { "theme": "androids", "basis": "an organic robot who did not know, and whose discovery is delivered as a clinical finding" },
-      { "theme": "reality-breakdown", "basis": "the sensory world is a supplied medium that can be edited, and is" },
-      { "theme": "authentic-human", "basis": "the honorific and the billing both track a judgement about personhood that the story keeps unsettled" },
-      { "theme": "illusionary-realities", "basis": "the punched tape is the most literal machinery Dick ever gave the idea" }
-    ]
-  },
-
-  "pkd_on_this_work": {
-    "lane": "E/B",
-    "total_mentions": 9,
-    "summary": "Dick used this story in the Exegesis as a standing reference for his own metaphysics, and the letters show it marked the beginning of a long silence in his short fiction.",
-    "evidence": [
-      {
-        "source": "The Exegesis",
-        "line": 3985,
-        "quote": "in that same sense we are not real (vide \"The Electric Ant\"). Not just our free will is illusory, but…",
-        "reading": "The story cited as authority in his own argument. Note that Dick extends it exactly as the text does — past free will to the reality of the perceiver."
-      },
-      {
-        "source": "The Exegesis",
-        "line": 3989,
-        "quote": "It is its punched tape, à la \"The Electric Ant.\"",
-        "reading": "Applying the story's mechanism to Flow My Tears — the Logos as the punched tape imposing form. The device became a permanent part of his working vocabulary."
-      },
-      {
-        "source": "Selected Letters",
-        "line": 5956,
-        "quote": "I've written my first unsolicited story in SIX YEARS! (The last two, \"The Electric Ant\" and \"A Little Something for Us Tempunauts\"…",
-        "reading": "Dates a long gap in his short fiction from this story. Corroborated elsewhere in the letters: 'My first story since \"The Electric Ant.\" That was about five years ago.'"
-      }
-    ]
-  },
-
-  "criticism": {
-    "lane": "C",
-    "total_mentions": 5,
-    "summary": "The critical judgement is unusually emphatic and unusually consistent.",
-    "evidence": [
-      {
-        "author": "Lawrence Sutin",
-        "work": "Divine Invasions",
-        "line": 5645,
-        "quote": "the best of all of Phil's stories, \"The Electric Ant\" … Rating: 10.",
-        "reading": "Sutin's top rating in his chronological survey. He calls it the finest of Dick's short fiction elsewhere in the same book."
-      },
-      {
-        "author": "Fredric Jameson",
-        "work": "Archaeologies of the Future",
-        "line": 4660,
-        "quote": "in crucial stories like \"Imposter\" or \"The Electric Ant\" the questions now identified as involv…",
-        "reading": "Jameson groups it with 'Impostor' as a crucial case, in a discussion of the malignant-genie hypothesis. Notable because Jameson elsewhere finds Dick's machinery conventional — he does not here."
-      }
-    ]
-  },
-
-  "contradictions": [
-    {
-      "type": "factual",
-      "summary": "The protagonist's name is given as Carson Poole in Sutin's notes and Garson Poole in the story.",
-      "claim_a": { "lane": "A", "source": "the story", "text": "Garson Poole" },
-      "claim_b": { "lane": "C", "source": "Sutin, Divine Invasions, notes at l.6415", "text": "Carson Poole" },
-      "editorial_status": "resolvable",
-      "resolution": "The text reads Garson throughout. Sutin's note is either a slip or an OCR artefact in this scan; the scanned page should be checked before the error is attributed to Sutin."
-    }
-  ],
-
-  "open_questions": [
-    "Sutin dates the story to late 1968 and rates it 10, his highest. Does he give reasons anywhere at length, or is the rating left to stand on the survey entry?",
-    "Dick describes the story as the start of a five- or six-year gap in his short fiction. What do the letters give as the reason?",
-    "The Exegesis applies the punched-tape figure to Flow My Tears. Is the connection developed anywhere beyond the single line captured here?"
-  ],
-
-  "provenance": {
-    "layer_1_reading": "Full text read at the locator above, 6,488 words.",
-    "layer_2_concepts": "scripts/reading/gather_evidence.py",
-    "layer_3_pkd": "9 capitalised citations across the Exegesis and letters.",
-    "layer_4_criticism": "5 across Sutin and Jameson.",
-    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+ "artifact_id": "ART_DOSSIER_THE_ELECTRIC_ANT",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-electric-ant",
+ "generated_by": "reading_notes_agent",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "close_reading_complete",
+ "work": {
+  "title": "The Electric Ant",
+  "slug": "the-electric-ant",
+  "form": "short story",
+  "word_count": 6785,
+  "lane": "A",
+  "written": "late 1968",
+  "first_publication": "The Magazine of Fantasy & Science Fiction, October 1969",
+  "note": "Followed by a long gap in Dick's short fiction — see the letters below.",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 53911,
+   "line_end": 54374,
+   "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
   }
+ },
+ "reading": {
+  "reading_status": "close_reading_complete",
+  "synopsis": "Garson Poole wakes in hospital after a crash, missing a right hand and feeling no pain, and is informed by his doctor that he is not a man but an 'electric ant' — an organic robot. The hospital cannot treat him, but bills him for services rendered up to the point of discovery. At the repair facility he examines his replacement hand: organic skin and real blood over surge gates and valves. A technician tells him he never noticed the clicks and whirrs because he was programmed not to. At home he opens his own chest panel looking for the programming circuit, and hires a computer to scan him. It reports no programming circuit — but a roll of punched tape above his heart, which it identifies as a reality-supply construct feeding all sense stimuli into his nervous system, and warns him that tampering would be risky. Poole grasps the implication: his universe is arriving through that tape. He experiments. Varnishing over a section of punch-holes makes New York City vanish for a time while Danceman, sitting opposite him, sees it unchanged. Splicing in a dead strip blanks everything, including his own body, until maintenance men restore him and bill him ninety-five frogs. Danceman meanwhile admits Poole has always been a figurehead, controlled from Prox 4 by the majority stockholders. Punching fresh random holes produces a flight of ducks and an old man on a park bench reading a newspaper, both of which Sarah cannot see. Poole tells her she is a stimulus-factor on his tape. Wanting total reality for one microsecond — every stimulus at once, all symphonies simultaneously — he cuts the tape. He experiences everything, tries to speak, and burns out. Sarah watches smoke rise from his mouth and reasons that it cannot have felt much pain, since it said so itself. She telephones Danceman; they agree they are finally free of it. Then she notices she can see through her own hands. The walls lose definition, the carpet goes transparent, and layers of disintegrating matter show beyond it. She wonders whether she could fuse the tape-ends back together, and does not know how. The wind of early morning blows about her and she has already begun to cease to feel.",
+  "structure": {
+   "form": "continuous short story in five movements, each an experiment with a result",
+   "movements": [
+    "Diagnosis: told what he is, and billed for the telling.",
+    "Inventory: the new hand, the technician's explanation of why he never noticed.",
+    "The tape found: the computer's scan, the reality-supply construct, the first understanding.",
+    "The experiments: varnished holes, the spliced dead strip, the random new punches.",
+    "The cut: total input, the burnout — and the coda, in which the world Poole was supplying ends for everyone in it."
+   ],
+   "point_of_view": "third person tight on Poole, with his interior monologue given directly. The reader is inside the only consciousness whose reliability is at issue.",
+   "narrative_device": "The story is built as a sequence of falsifiable experiments with observable results, which is what keeps it from being a mood piece. Poole forms a hypothesis, tests it against an outside witness who sees nothing, and revises."
+  },
+  "characters": [
+   {
+    "name": "Garson Poole",
+    "name_id": "NAME_garson-poole",
+    "role": "protagonist; owner-in-name of Tri-Plan Electronics",
+    "note": "Discovers in one afternoon that he is a machine, a slave, and a figurehead, and reacts by pursuing the metaphysical implication rather than the personal one. His last stated want is not freedom but total knowledge for a microsecond."
+   },
+   {
+    "name": "Louis Danceman",
+    "role": "second at Tri-Plan",
+    "note": "Has known from the beginning. Insists on continuing to call him 'Mr. Poole' after the doctor has pointedly dropped the honorific — the story's one gesture of unforced decency."
+   },
+   {
+    "name": "Sarah Benton",
+    "role": "personal secretary",
+    "note": "Described dismissively by Poole throughout and given the story's final perception anyway. She stays because she does not want to spend her life wondering what would have happened if she had left."
+   },
+   {
+    "name": "The Beys, of Prox 4",
+    "role": "actual owners",
+    "note": "Marvis and Ernan Bey hold fifty-one percent and have set company policy from the start. Named but never seen."
+   }
+  ],
+  "settings": [
+   {
+    "name": "The hospital ward, New York",
+    "note": "Where the diagnosis is delivered and itemised."
+   },
+   {
+    "name": "Poole's one-room apartment",
+    "note": "Where the whole investigation happens, with an imported armchair and microtools delivered from the plant."
+   },
+   {
+    "name": "Krackter's bar",
+    "note": "Where the first experiment is confirmed: the skyline goes for Poole and stays for Danceman."
+   }
+  ],
+  "motifs": [
+   "Being billed — for the hospital's services, for the hand, for the computer's time, for the repairs after his own experiment. Every discovery has an invoice",
+   "The honorific: whether he is 'Mr. Poole' or 'Poole' tracks who does and does not treat him as a person",
+   "Programming assumed, then not found — the constraint turns out to be perceptual rather than volitional",
+   "Simultaneity as the object of desire: all channels at once, all symphonies at once",
+   "Two witnesses to one event, one of whom sees nothing"
+  ],
+  "significance": "The story's move is to replace the question of free will with the question of input. Poole goes looking for a programming circuit — the expected device, the one that would make him a puppet — and is told he has none. What he has instead is a tape supplying his entire sensory world, which is a stranger and more general predicament: not that his choices are made for him, but that the world he chooses within is delivered. The ending then settles the question the middle of the story leaves open. When Poole tells Sarah she is a stimulus-factor on his tape she says she is real, and the reader has every reason to side with her — she is corroborated by Danceman, by the technicians, by the whole furniture of the story. She is wrong. Poole's reality was not one perspective among others; it was the medium, and when he cut it everything in it went, including the woman who stayed to watch him do it.",
+  "closing_note": "The last movement belongs to Sarah, and its cruelty is structural rather than tonal: she is given a moment of relief, a telephone call, and a plan to go home and rest, before she begins to see through her own hands. The final line is four words about the wind.",
+  "ending_correction": "This dossier initially recorded the story as ending with Sarah's remark that the roby could not have felt much pain, read as deliberate bathos. That was wrong: the reading had been taken from a truncated span that stopped 297 words early, at a point where the story's last word had been promoted to a heading by the PDF conversion. The corrected span reverses the interpretation — Poole is vindicated, not deflated."
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 11,
+    "distinctiveness": 20.44,
+    "note": "Load-bearing here rather than incidental: the tape is named a reality-supply construct, and Poole reasons explicitly about objective reality as a synthetic construct."
+   },
+   {
+    "label": "Scanner",
+    "entity_id": "TERM_scanner",
+    "count": 8,
+    "distinctiveness": 19.71,
+    "note": "The scanner reading the punched tape. The word's later charge in Dick's work makes this worth flagging as a genuine antecedent rather than a coincidence."
+   },
+   {
+    "label": "Maze",
+    "entity_id": "TERM_maze",
+    "count": 2,
+    "distinctiveness": 6.06
+   },
+   {
+    "label": "Christ",
+    "entity_id": "TERM_christ",
+    "count": 2,
+    "distinctiveness": 3.92
+   }
+  ],
+  "names_matched": [
+   "NAME_garson-poole"
+  ],
+  "thematic_links_proposed": [
+   {
+    "theme": "androids",
+    "basis": "an organic robot who did not know, and whose discovery is delivered as a clinical finding"
+   },
+   {
+    "theme": "reality-breakdown",
+    "basis": "the sensory world is a supplied medium that can be edited, and is"
+   },
+   {
+    "theme": "authentic-human",
+    "basis": "the honorific and the billing both track a judgement about personhood that the story keeps unsettled"
+   },
+   {
+    "theme": "illusionary-realities",
+    "basis": "the punched tape is the most literal machinery Dick ever gave the idea"
+   }
+  ]
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 9,
+  "summary": "Dick used this story in the Exegesis as a standing reference for his own metaphysics, and the letters show it marked the beginning of a long silence in his short fiction.",
+  "evidence": [
+   {
+    "source": "The Exegesis",
+    "line": 3985,
+    "quote": "in that same sense we are not real (vide \"The Electric Ant\"). Not just our free will is illusory, but…",
+    "reading": "The story cited as authority in his own argument. Note that Dick extends it exactly as the text does — past free will to the reality of the perceiver."
+   },
+   {
+    "source": "The Exegesis",
+    "line": 3989,
+    "quote": "It is its punched tape, à la \"The Electric Ant.\"",
+    "reading": "Applying the story's mechanism to Flow My Tears — the Logos as the punched tape imposing form. The device became a permanent part of his working vocabulary."
+   },
+   {
+    "source": "Selected Letters",
+    "line": 5956,
+    "quote": "I've written my first unsolicited story in SIX YEARS! (The last two, \"The Electric Ant\" and \"A Little Something for Us Tempunauts\"…",
+    "reading": "Dates a long gap in his short fiction from this story. Corroborated elsewhere in the letters: 'My first story since \"The Electric Ant.\" That was about five years ago.'"
+   }
+  ]
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 5,
+  "summary": "The critical judgement is unusually emphatic and unusually consistent.",
+  "evidence": [
+   {
+    "author": "Lawrence Sutin",
+    "work": "Divine Invasions",
+    "line": 5645,
+    "quote": "the best of all of Phil's stories, \"The Electric Ant\" … Rating: 10.",
+    "reading": "Sutin's top rating in his chronological survey. He calls it the finest of Dick's short fiction elsewhere in the same book."
+   },
+   {
+    "author": "Fredric Jameson",
+    "work": "Archaeologies of the Future",
+    "line": 4660,
+    "quote": "in crucial stories like \"Imposter\" or \"The Electric Ant\" the questions now identified as involv…",
+    "reading": "Jameson groups it with 'Impostor' as a crucial case, in a discussion of the malignant-genie hypothesis. Notable because Jameson elsewhere finds Dick's machinery conventional — he does not here."
+   }
+  ]
+ },
+ "contradictions": [
+  {
+   "type": "factual",
+   "summary": "The protagonist's name is given as Carson Poole in Sutin's notes and Garson Poole in the story.",
+   "claim_a": {
+    "lane": "A",
+    "source": "the story",
+    "text": "Garson Poole"
+   },
+   "claim_b": {
+    "lane": "C",
+    "source": "Sutin, Divine Invasions, notes at l.6415",
+    "text": "Carson Poole"
+   },
+   "editorial_status": "resolvable",
+   "resolution": "The text reads Garson throughout. Sutin's note is either a slip or an OCR artefact in this scan; the scanned page should be checked before the error is attributed to Sutin."
+  }
+ ],
+ "open_questions": [
+  "Sutin dates the story to late 1968 and rates it 10, his highest. Does he give reasons anywhere at length, or is the rating left to stand on the survey entry?",
+  "Dick describes the story as the start of a five- or six-year gap in his short fiction. What do the letters give as the reason?",
+  "The Exegesis applies the punched-tape figure to Flow My Tears. Is the connection developed anywhere beyond the single line captured here?"
+ ],
+ "provenance": {
+  "layer_1_reading": "Full text read at the locator above, 6,785 words. An earlier reading used a span truncated at 6,488 words and misread the ending; see reading.ending_correction.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "9 capitalised citations across the Exegesis and letters.",
+  "layer_4_criticism": "5 across Sutin and Jameson.",
+  "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+ }
 }

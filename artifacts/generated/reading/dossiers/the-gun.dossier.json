@@ -12,13 +12,13 @@
   "title": "The Gun",
   "slug": "the-gun",
   "form": "story",
-  "word_count": 2139,
+  "word_count": 4765,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 1182,
-   "line_end": 1351,
-   "word_count": 2139,
+   "line_end": 1563,
+   "word_count": 4765,
    "status": "ready"
   }
  },
@@ -27,7 +27,13 @@
   "synopsis": null,
   "movements": [],
   "motifs": [],
-  "cast_candidates": [],
+  "cast_candidates": [
+   {
+    "name": "Mission",
+    "name_id": "NAME_mission",
+    "mentions": 1
+   }
+  ],
   "place_candidates": [],
   "other_entities": [],
   "structure": {
@@ -38,52 +44,70 @@
  "concepts": {
   "distinctive_terms": [
    {
+    "label": "Church",
+    "entity_id": "TERM_church",
+    "count": 1,
+    "distinctiveness": 7.64
+   },
+   {
     "label": "Suppose",
     "entity_id": "TERM_suppose",
+    "count": 6,
+    "distinctiveness": 5.56
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
     "count": 3,
-    "distinctiveness": 6.19
+    "distinctiveness": 4.71
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 9,
+    "distinctiveness": 4.68
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 9,
+    "distinctiveness": 3.18
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 6,
+    "distinctiveness": 2.83
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 11,
+    "distinctiveness": 2.64
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 11,
+    "distinctiveness": 2.39
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 5,
+    "distinctiveness": 1.98
    },
    {
     "label": "Lord",
     "entity_id": "TERM_lord",
     "count": 1,
-    "distinctiveness": 4.32
+    "distinctiveness": 1.94
    },
    {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 7,
-    "distinctiveness": 3.75
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 3,
-    "distinctiveness": 3.48
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 7,
-    "distinctiveness": 3.39
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 4,
-    "distinctiveness": 3.15
-   },
-   {
-    "label": "Wait",
-    "entity_id": "TERM_wait",
-    "count": 2,
-    "distinctiveness": 2.95
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
+    "label": "Fall",
+    "entity_id": "TERM_fall",
     "count": 1,
-    "distinctiveness": 1.72
+    "distinctiveness": 1.9
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

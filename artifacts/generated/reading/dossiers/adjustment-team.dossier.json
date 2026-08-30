@@ -12,13 +12,13 @@
   "title": "Adjustment Team",
   "slug": "adjustment-team",
   "form": "story",
-  "word_count": 5246,
+  "word_count": 7992,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 22698,
-   "line_end": 23155,
-   "word_count": 5246,
+   "line_end": 23401,
+   "word_count": 7992,
    "status": "ready"
   }
  },
@@ -31,7 +31,12 @@
    {
     "name": "Ed Fletcher",
     "name_id": "NAME_ed-fletcher",
-    "mentions": 2
+    "mentions": 7
+   },
+   {
+    "name": "The authorities",
+    "name_id": "NAME_the-authorities",
+    "mentions": 1
    },
    {
     "name": "Mary",
@@ -49,58 +54,64 @@
  "concepts": {
   "distinctive_terms": [
    {
+    "label": "Tears",
+    "entity_id": "TERM_tears",
+    "count": 2,
+    "distinctiveness": 6.14
+   },
+   {
     "label": "Divine",
     "entity_id": "TERM_divine",
     "count": 1,
-    "distinctiveness": 8.15
+    "distinctiveness": 5.35
+   },
+   {
+    "label": "Fate",
+    "entity_id": "TERM_fate",
+    "count": 1,
+    "distinctiveness": 4.92
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 4,
+    "distinctiveness": 3.69
    },
    {
     "label": "Therefore",
     "entity_id": "TERM_therefore",
     "count": 1,
-    "distinctiveness": 4.25
+    "distinctiveness": 2.79
    },
    {
-    "label": "Reality",
-    "entity_id": "TERM_reality",
+    "label": "Soviet",
+    "entity_id": "TERM_soviet",
     "count": 2,
-    "distinctiveness": 2.81
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 4,
-    "distinctiveness": 1.9
+    "distinctiveness": 2.55
    },
    {
     "label": "Mind",
     "entity_id": "TERM_mind",
-    "count": 6,
-    "distinctiveness": 1.86
+    "count": 11,
+    "distinctiveness": 2.24
    },
    {
-    "label": "Wait",
-    "entity_id": "TERM_wait",
-    "count": 3,
-    "distinctiveness": 1.81
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 6,
+    "distinctiveness": 1.87
    },
    {
     "label": "House",
     "entity_id": "TERM_house",
-    "count": 5,
-    "distinctiveness": 1.78
+    "count": 7,
+    "distinctiveness": 1.64
    },
    {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
-    "count": 1,
-    "distinctiveness": 1.76
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 4,
-    "distinctiveness": 1.71
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 3,
+    "distinctiveness": 1.63
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

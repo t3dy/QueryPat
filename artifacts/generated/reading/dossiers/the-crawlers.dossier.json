@@ -12,13 +12,13 @@
   "title": "The Crawlers",
   "slug": "the-crawlers",
   "form": "story",
-  "word_count": 3122,
+  "word_count": 3057,
   "lane": "A",
   "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-   "line_start": 4932,
-   "line_end": 5137,
-   "word_count": 3122,
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 31382,
+   "line_end": 31573,
+   "word_count": 3057,
    "status": "ready"
   }
  },
@@ -47,31 +47,31 @@
     "label": "Iron",
     "entity_id": "TERM_iron",
     "count": 1,
-    "distinctiveness": 9.25
+    "distinctiveness": 9.45
    },
    {
     "label": "Fish",
     "entity_id": "TERM_fish",
     "count": 1,
-    "distinctiveness": 7.48
+    "distinctiveness": 7.64
    },
    {
     "label": "Look",
     "entity_id": "TERM_look",
     "count": 6,
-    "distinctiveness": 2.2
+    "distinctiveness": 2.25
    },
    {
     "label": "House",
     "entity_id": "TERM_house",
     "count": 3,
-    "distinctiveness": 1.8
+    "distinctiveness": 1.84
    },
    {
     "label": "Brain",
     "entity_id": "TERM_brain",
     "count": 1,
-    "distinctiveness": 1.55
+    "distinctiveness": 1.58
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

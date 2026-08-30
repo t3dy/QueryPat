@@ -1,0 +1,255 @@
+{
+ "artifact_id": "ART_DOSSIER_NOVELS_BY_PHILIP_K_DICK",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "novels-by-philip-k-dick",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "Novels By Philip K. Dick",
+  "slug": "novels-by-philip-k-dick",
+  "form": "story",
+  "word_count": 2321,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI.md",
+   "line_start": 10,
+   "line_end": 87,
+   "word_count": 2321,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Bruce",
+    "name_id": "NAME_bruce",
+    "mentions": 4
+   },
+   {
+    "name": "Timothy Archer",
+    "name_id": "NAME_timothy-archer",
+    "mentions": 1
+   },
+   {
+    "name": "Kurt Vonnegut",
+    "name_id": "NAME_kurt-vonnegut",
+    "mentions": 1
+   },
+   {
+    "name": "Kleo",
+    "name_id": "NAME_kleo",
+    "mentions": 1
+   },
+   {
+    "name": "A.E. van Vogt",
+    "name_id": "NAME_ae-van-vogt",
+    "mentions": 1
+   },
+   {
+    "name": "Sophia",
+    "name_id": "NAME_sophia",
+    "mentions": 2
+   },
+   {
+    "name": "Van Vogt",
+    "name_id": "NAME_van-vogt",
+    "mentions": 1
+   },
+   {
+    "name": "The Wub",
+    "name_id": "NAME_the-wub",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Black Iron Prison",
+    "entity_id": "TERM_black-iron-prison",
+    "count": 1,
+    "distinctiveness": 71.55
+   },
+   {
+    "label": "Frolix",
+    "entity_id": "TERM_frolix",
+    "count": 1,
+    "distinctiveness": 71.55
+   },
+   {
+    "label": "Ubik",
+    "entity_id": "TERM_ubik",
+    "count": 1,
+    "distinctiveness": 71.55
+   },
+   {
+    "label": "Valis",
+    "entity_id": "TERM_valis",
+    "count": 1,
+    "distinctiveness": 71.55
+   },
+   {
+    "label": "Hermetic",
+    "entity_id": "TERM_hermetic",
+    "count": 1,
+    "distinctiveness": 71.55
+   },
+   {
+    "label": "Gnostic",
+    "entity_id": "TERM_gnostic",
+    "count": 1,
+    "distinctiveness": 71.55
+   },
+   {
+    "label": "Deus",
+    "entity_id": "TERM_deus",
+    "count": 1,
+    "distinctiveness": 53.43
+   },
+   {
+    "label": "Spirit",
+    "entity_id": "TERM_spirit",
+    "count": 2,
+    "distinctiveness": 40.37
+   },
+   {
+    "label": "Stigmata",
+    "entity_id": "TERM_stigmata",
+    "count": 1,
+    "distinctiveness": 38.72
+   },
+   {
+    "label": "Palmer Eldritch",
+    "entity_id": "TERM_palmer-eldritch",
+    "count": 1,
+    "distinctiveness": 35.46
+   },
+   {
+    "label": "Palmer",
+    "entity_id": "TERM_palmer",
+    "count": 1,
+    "distinctiveness": 35.46
+   },
+   {
+    "label": "Eldritch",
+    "entity_id": "TERM_eldritch",
+    "count": 1,
+    "distinctiveness": 35.46
+   },
+   {
+    "label": "Faith",
+    "entity_id": "TERM_faith",
+    "count": 3,
+    "distinctiveness": 34.3
+   },
+   {
+    "label": "Joint",
+    "entity_id": "TERM_joint",
+    "count": 1,
+    "distinctiveness": 30.36
+   },
+   {
+    "label": "Indian",
+    "entity_id": "TERM_indian",
+    "count": 1,
+    "distinctiveness": 21.2
+   },
+   {
+    "label": "Divine",
+    "entity_id": "TERM_divine",
+    "count": 1,
+    "distinctiveness": 18.42
+   },
+   {
+    "label": "Maze",
+    "entity_id": "TERM_maze",
+    "count": 1,
+    "distinctiveness": 16.94
+   },
+   {
+    "label": "Fate",
+    "entity_id": "TERM_fate",
+    "count": 1,
+    "distinctiveness": 16.94
+   },
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
+    "count": 1,
+    "distinctiveness": 14.6
+   },
+   {
+    "label": "Golden",
+    "entity_id": "TERM_golden",
+    "count": 2,
+    "distinctiveness": 13.41
+   },
+   {
+    "label": "Philip",
+    "entity_id": "TERM_philip",
+    "count": 4,
+    "distinctiveness": 13.3
+   },
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 1,
+    "distinctiveness": 12.44
+   },
+   {
+    "label": "Scanner",
+    "entity_id": "TERM_scanner",
+    "count": 2,
+    "distinctiveness": 12.24
+   },
+   {
+    "label": "Cosmic",
+    "entity_id": "TERM_cosmic",
+    "count": 1,
+    "distinctiveness": 11.75
+   },
+   {
+    "label": "Tears",
+    "entity_id": "TERM_tears",
+    "count": 1,
+    "distinctiveness": 10.57
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

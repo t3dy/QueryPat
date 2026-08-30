@@ -12,13 +12,13 @@
   "title": "Sales Pitch",
   "slug": "sales-pitch",
   "form": "story",
-  "word_count": 5518,
+  "word_count": 5420,
   "lane": "A",
   "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-   "line_start": 5138,
-   "line_end": 5499,
-   "word_count": 5518,
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 31574,
+   "line_end": 31919,
+   "word_count": 5420,
    "status": "ready"
   }
  },
@@ -47,55 +47,61 @@
     "label": "Self",
     "entity_id": "TERM_self",
     "count": 4,
-    "distinctiveness": 7.64
+    "distinctiveness": 7.78
    },
    {
     "label": "Darkness",
     "entity_id": "TERM_darkness",
     "count": 4,
-    "distinctiveness": 2.77
+    "distinctiveness": 2.82
    },
    {
     "label": "Brain",
     "entity_id": "TERM_brain",
     "count": 3,
-    "distinctiveness": 2.62
+    "distinctiveness": 2.67
    },
    {
     "label": "Scanner",
     "entity_id": "TERM_scanner",
     "count": 1,
-    "distinctiveness": 2.58
+    "distinctiveness": 2.62
    },
    {
     "label": "Star",
     "entity_id": "TERM_star",
     "count": 1,
-    "distinctiveness": 2.19
+    "distinctiveness": 2.23
    },
    {
     "label": "Earth",
     "entity_id": "TERM_earth",
     "count": 5,
-    "distinctiveness": 2.0
+    "distinctiveness": 2.03
    },
    {
     "label": "House",
     "entity_id": "TERM_house",
     "count": 5,
-    "distinctiveness": 1.7
+    "distinctiveness": 1.73
    },
    {
     "label": "Lord",
     "entity_id": "TERM_lord",
     "count": 1,
-    "distinctiveness": 1.68
+    "distinctiveness": 1.71
    },
    {
     "label": "Good",
     "entity_id": "TERM_good",
     "count": 10,
-    "distinctiveness": 1.67
+    "distinctiveness": 1.7
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 5,
+    "distinctiveness": 1.5
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

@@ -12,13 +12,13 @@
   "title": "The Hanging Stranger",
   "slug": "the-hanging-stranger",
   "form": "story",
-  "word_count": 1817,
+  "word_count": 5176,
   "lane": "A",
   "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-   "line_start": 490,
-   "line_end": 653,
-   "word_count": 1817,
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 27252,
+   "line_end": 27653,
+   "word_count": 5176,
    "status": "ready"
   }
  },
@@ -32,6 +32,11 @@
     "name": "The Man",
     "name_id": "NAME_the-man",
     "mentions": 2
+   },
+   {
+    "name": "Humans",
+    "name_id": "NAME_humans",
+    "mentions": 1
    }
   ],
   "place_candidates": [],
@@ -44,28 +49,64 @@
  "concepts": {
   "distinctive_terms": [
    {
+    "label": "Hebrew",
+    "entity_id": "TERM_hebrew",
+    "count": 2,
+    "distinctiveness": 38.23
+   },
+   {
+    "label": "Bible",
+    "entity_id": "TERM_bible",
+    "count": 2,
+    "distinctiveness": 20.02
+   },
+   {
+    "label": "Realm",
+    "entity_id": "TERM_realm",
+    "count": 1,
+    "distinctiveness": 12.7
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 8,
+    "distinctiveness": 5.91
+   },
+   {
+    "label": "Gods",
+    "entity_id": "TERM_gods",
+    "count": 1,
+    "distinctiveness": 5.42
+   },
+   {
     "label": "Lord",
     "entity_id": "TERM_lord",
-    "count": 1,
-    "distinctiveness": 5.09
+    "count": 2,
+    "distinctiveness": 3.57
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 8,
+    "distinctiveness": 2.51
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 4,
+    "distinctiveness": 1.92
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 4,
+    "distinctiveness": 1.74
    },
    {
     "label": "Okay",
     "entity_id": "TERM_okay",
     "count": 2,
-    "distinctiveness": 4.79
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 3,
-    "distinctiveness": 3.71
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 1,
-    "distinctiveness": 2.11
+    "distinctiveness": 1.68
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

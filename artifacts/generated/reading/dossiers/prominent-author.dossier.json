@@ -12,13 +12,13 @@
   "title": "Prominent Author",
   "slug": "prominent-author",
   "form": "story",
-  "word_count": 6086,
+  "word_count": 7013,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 26242,
-   "line_end": 26677,
-   "word_count": 6086,
+   "line_end": 26753,
+   "word_count": 7013,
    "status": "ready"
   }
  },
@@ -36,6 +36,11 @@
    {
     "name": "Pinky",
     "name_id": "NAME_pinky",
+    "mentions": 1
+   },
+   {
+    "name": "Paul Williams",
+    "name_id": "NAME_paul-williams",
     "mentions": 1
    },
    {
@@ -57,49 +62,91 @@
     "label": "Hebrew",
     "entity_id": "TERM_hebrew",
     "count": 2,
-    "distinctiveness": 32.51
+    "distinctiveness": 28.22
    },
    {
     "label": "Missive",
     "entity_id": "TERM_missive",
     "count": 1,
-    "distinctiveness": 27.29
+    "distinctiveness": 23.68
+   },
+   {
+    "label": "Deus",
+    "entity_id": "TERM_deus",
+    "count": 1,
+    "distinctiveness": 17.68
    },
    {
     "label": "Bible",
     "entity_id": "TERM_bible",
     "count": 1,
-    "distinctiveness": 8.51
+    "distinctiveness": 7.39
    },
    {
     "label": "Holy",
     "entity_id": "TERM_holy",
     "count": 1,
-    "distinctiveness": 7.03
+    "distinctiveness": 6.1
    },
    {
     "label": "Lord",
     "entity_id": "TERM_lord",
     "count": 4,
-    "distinctiveness": 6.08
+    "distinctiveness": 5.27
+   },
+   {
+    "label": "James",
+    "entity_id": "TERM_james",
+    "count": 1,
+    "distinctiveness": 4.67
+   },
+   {
+    "label": "Philip",
+    "entity_id": "TERM_philip",
+    "count": 4,
+    "distinctiveness": 4.4
+   },
+   {
+    "label": "Cosmic",
+    "entity_id": "TERM_cosmic",
+    "count": 1,
+    "distinctiveness": 3.89
    },
    {
     "label": "Good",
     "entity_id": "TERM_good",
-    "count": 21,
-    "distinctiveness": 3.18
+    "count": 22,
+    "distinctiveness": 2.89
    },
    {
     "label": "Look",
     "entity_id": "TERM_look",
-    "count": 13,
-    "distinctiveness": 2.45
+    "count": 14,
+    "distinctiveness": 2.29
+   },
+   {
+    "label": "Golden",
+    "entity_id": "TERM_golden",
+    "count": 1,
+    "distinctiveness": 2.22
+   },
+   {
+    "label": "Paul",
+    "entity_id": "TERM_paul",
+    "count": 1,
+    "distinctiveness": 1.79
    },
    {
     "label": "House",
     "entity_id": "TERM_house",
     "count": 6,
-    "distinctiveness": 1.85
+    "distinctiveness": 1.6
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 1,
+    "distinctiveness": 1.5
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

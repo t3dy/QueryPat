@@ -1,0 +1,324 @@
+{
+ "slug": "the-alien-mind",
+ "title": "The Alien Mind",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 58219,
+  "line_end": 58419,
+  "word_count": 4582,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_jason",
+    "label": "Jason",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 1.0,
+    "distinctiveness": 36.24
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_russ",
+    "label": "Russ",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 2.0,
+    "distinctiveness": 30.99
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bible",
+    "label": "Bible",
+    "count": 2,
+    "per_million": 436.5,
+    "background_per_million": 14.3,
+    "distinctiveness": 22.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_viewed",
+    "label": "Viewed",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 6.1,
+    "distinctiveness": 19.61
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_faith",
+    "label": "Faith",
+    "count": 3,
+    "per_million": 654.7,
+    "background_per_million": 32.7,
+    "distinctiveness": 17.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fate",
+    "label": "Fate",
+    "count": 2,
+    "per_million": 436.5,
+    "background_per_million": 20.4,
+    "distinctiveness": 17.17
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_realm",
+    "label": "Realm",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 10.2,
+    "distinctiveness": 14.34
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_holy",
+    "label": "Holy",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 18.4,
+    "distinctiveness": 9.33
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_divine",
+    "label": "Divine",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 18.4,
+    "distinctiveness": 9.33
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_garden",
+    "label": "Garden",
+    "count": 2,
+    "per_million": 436.5,
+    "background_per_million": 55.2,
+    "distinctiveness": 7.26
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_philip",
+    "label": "Philip",
+    "count": 4,
+    "per_million": 873.0,
+    "background_per_million": 124.6,
+    "distinctiveness": 6.74
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 29.6,
+    "distinctiveness": 6.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 3,
+    "per_million": 654.7,
+    "background_per_million": 105.2,
+    "distinctiveness": 5.94
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 39.8,
+    "distinctiveness": 4.87
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 59.2,
+    "distinctiveness": 3.4
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 2,
+    "per_million": 436.5,
+    "background_per_million": 130.7,
+    "distinctiveness": 3.22
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 3,
+    "per_million": 654.7,
+    "background_per_million": 224.7,
+    "distinctiveness": 2.85
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 74.6,
+    "distinctiveness": 2.74
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 77.6,
+    "distinctiveness": 2.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 4,
+    "per_million": 873.0,
+    "background_per_million": 350.4,
+    "distinctiveness": 2.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 89.9,
+    "distinctiveness": 2.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_john",
+    "label": "John",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 95.0,
+    "distinctiveness": 2.18
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 6,
+    "per_million": 1309.5,
+    "background_per_million": 609.8,
+    "distinctiveness": 2.13
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_king",
+    "label": "King",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 126.7,
+    "distinctiveness": 1.66
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 3,
+    "per_million": 654.7,
+    "background_per_million": 398.4,
+    "distinctiveness": 1.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 138.9,
+    "distinctiveness": 1.52
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_martin-luther",
+    "label": "Martin Luther",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 1.0,
+    "distinctiveness": 36.24
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_willis-mcnelly",
+    "label": "Willis McNelly",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 2.0,
+    "distinctiveness": 30.99
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_barry",
+    "label": "Barry",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 2.0,
+    "distinctiveness": 30.99
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_luther",
+    "label": "Luther",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 3.1,
+    "distinctiveness": 27.06
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_paul-williams",
+    "label": "Paul Williams",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 10.2,
+    "distinctiveness": 14.34
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_sophia",
+    "label": "Sophia",
+    "count": 1,
+    "per_million": 218.2,
+    "background_per_million": 17.4,
+    "distinctiveness": 9.76
+   }
+  ],
+  "distinct_terms": 26,
+  "distinct_names": 6
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

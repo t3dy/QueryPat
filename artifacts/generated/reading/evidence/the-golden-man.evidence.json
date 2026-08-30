@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 27730,
-  "line_end": 28419,
-  "word_count": 10172,
+  "line_end": 28481,
+  "word_count": 11099,
   "status": "ready"
  },
  "structure": {
@@ -20,136 +20,154 @@
     "entity_type": "term",
     "entity_id": "TERM_wisdom",
     "label": "Wisdom",
-    "count": 44,
-    "per_million": 4325.6,
+    "count": 50,
+    "per_million": 4504.9,
     "background_per_million": 63.3,
-    "distinctiveness": 63.3
+    "distinctiveness": 65.93
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_golden",
     "label": "Golden",
-    "count": 20,
-    "per_million": 1966.2,
+    "count": 22,
+    "per_million": 1982.2,
     "background_per_million": 59.2,
-    "distinctiveness": 30.6
+    "distinctiveness": 30.85
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_maze",
     "label": "Maze",
     "count": 2,
-    "per_million": 196.6,
+    "per_million": 180.2,
     "background_per_million": 20.4,
-    "distinctiveness": 7.73
+    "distinctiveness": 7.09
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_acts",
     "label": "Acts",
     "count": 1,
-    "per_million": 98.3,
+    "per_million": 90.1,
     "background_per_million": 11.2,
-    "distinctiveness": 6.06
+    "distinctiveness": 5.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fish",
+    "label": "Fish",
+    "count": 2,
+    "per_million": 180.2,
+    "background_per_million": 37.8,
+    "distinctiveness": 4.21
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_palm",
     "label": "Palm",
     "count": 1,
-    "per_million": 98.3,
+    "per_million": 90.1,
     "background_per_million": 17.4,
-    "distinctiveness": 4.4
+    "distinctiveness": 4.03
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_roman",
     "label": "Roman",
     "count": 1,
-    "per_million": 98.3,
+    "per_million": 90.1,
     "background_per_million": 21.5,
-    "distinctiveness": 3.72
+    "distinctiveness": 3.41
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_iron",
     "label": "Iron",
     "count": 1,
-    "per_million": 98.3,
+    "per_million": 90.1,
     "background_per_million": 29.6,
-    "distinctiveness": 2.84
+    "distinctiveness": 2.6
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_christ",
     "label": "Christ",
     "count": 2,
-    "per_million": 196.6,
+    "per_million": 180.2,
     "background_per_million": 73.5,
-    "distinctiveness": 2.5
+    "distinctiveness": 2.29
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_fish",
-    "label": "Fish",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
     "count": 1,
-    "per_million": 98.3,
-    "background_per_million": 37.8,
-    "distinctiveness": 2.3
+    "per_million": 90.1,
+    "background_per_million": 35.8,
+    "distinctiveness": 2.21
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 6,
+    "per_million": 540.6,
+    "background_per_million": 256.4,
+    "distinctiveness": 2.07
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_therefore",
     "label": "Therefore",
     "count": 1,
-    "per_million": 98.3,
+    "per_million": 90.1,
     "background_per_million": 39.8,
-    "distinctiveness": 2.19
+    "distinctiveness": 2.01
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_self",
     "label": "Self",
     "count": 2,
-    "per_million": 196.6,
+    "per_million": 180.2,
     "background_per_million": 89.9,
-    "distinctiveness": 2.07
+    "distinctiveness": 1.9
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_darkness",
-    "label": "Darkness",
-    "count": 5,
-    "per_million": 491.5,
-    "background_per_million": 256.4,
-    "distinctiveness": 1.88
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 12,
+    "per_million": 1081.2,
+    "background_per_million": 589.4,
+    "distinctiveness": 1.82
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_fall",
     "label": "Fall",
     "count": 2,
-    "per_million": 196.6,
+    "per_million": 180.2,
     "background_per_million": 105.2,
-    "distinctiveness": 1.78
+    "distinctiveness": 1.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 7,
+    "per_million": 630.7,
+    "background_per_million": 398.4,
+    "distinctiveness": 1.56
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_house",
     "label": "House",
     "count": 9,
-    "per_million": 884.8,
+    "per_million": 810.9,
     "background_per_million": 529.1,
-    "distinctiveness": 1.66
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_great",
-    "label": "Great",
-    "count": 10,
-    "per_million": 983.1,
-    "background_per_million": 589.4,
-    "distinctiveness": 1.65
+    "distinctiveness": 1.52
    }
   ],
   "names": [
@@ -158,12 +176,12 @@
     "entity_id": "NAME_the-soviet",
     "label": "The Soviet",
     "count": 1,
-    "per_million": 98.3,
+    "per_million": 90.1,
     "background_per_million": 54.1,
-    "distinctiveness": 1.66
+    "distinctiveness": 1.52
    }
   ],
-  "distinct_terms": 15,
+  "distinct_terms": 17,
   "distinct_names": 1
  },
  "title_search": {

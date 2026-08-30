@@ -12,13 +12,13 @@
   "title": "Project: Earth",
   "slug": "project-earth",
   "form": "story",
-  "word_count": 1451,
+  "word_count": 7644,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 19226,
-   "line_end": 19347,
-   "word_count": 1451,
+   "line_end": 19917,
+   "word_count": 7644,
    "status": "ready"
   }
  },
@@ -29,9 +29,14 @@
   "motifs": [],
   "cast_candidates": [
    {
+    "name": "The Man",
+    "name_id": "NAME_the-man",
+    "mentions": 2
+   },
+   {
     "name": "Joan",
     "name_id": "NAME_joan",
-    "mentions": 5
+    "mentions": 13
    }
   ],
   "place_candidates": [],
@@ -47,61 +52,79 @@
     "label": "Hebrew",
     "entity_id": "TERM_hebrew",
     "count": 1,
-    "distinctiveness": 68.19
+    "distinctiveness": 12.94
+   },
+   {
+    "label": "Palm",
+    "entity_id": "TERM_palm",
+    "count": 2,
+    "distinctiveness": 11.7
    },
    {
     "label": "Greek",
     "entity_id": "TERM_greek",
     "count": 1,
-    "distinctiveness": 21.84
+    "distinctiveness": 4.15
+   },
+   {
+    "label": "Therefore",
+    "entity_id": "TERM_therefore",
+    "count": 1,
+    "distinctiveness": 2.92
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 2,
+    "distinctiveness": 2.76
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 5,
+    "distinctiveness": 2.5
    },
    {
     "label": "Garden",
     "entity_id": "TERM_garden",
     "count": 1,
-    "distinctiveness": 11.46
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 4,
-    "distinctiveness": 6.19
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 4,
-    "distinctiveness": 5.16
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 1,
-    "distinctiveness": 5.15
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 3,
-    "distinctiveness": 5.14
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 4,
-    "distinctiveness": 4.64
+    "distinctiveness": 2.17
    },
    {
     "label": "Earth",
     "entity_id": "TERM_earth",
-    "count": 2,
-    "distinctiveness": 3.04
+    "count": 7,
+    "distinctiveness": 2.02
    },
    {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 1,
-    "distinctiveness": 2.54
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 2,
+    "distinctiveness": 1.96
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 6,
+    "distinctiveness": 1.95
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 6,
+    "distinctiveness": 1.76
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 7,
+    "distinctiveness": 1.71
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 7,
+    "distinctiveness": 1.54
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

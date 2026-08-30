@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 17834,
-  "line_end": 18127,
-  "word_count": 2730,
+  "line_end": 18237,
+  "word_count": 4155,
   "status": "ready"
  },
  "structure": {
@@ -21,63 +21,72 @@
     "entity_id": "TERM_holy",
     "label": "Holy",
     "count": 1,
-    "per_million": 366.3,
+    "per_million": 240.7,
     "background_per_million": 18.4,
-    "distinctiveness": 15.66
+    "distinctiveness": 10.29
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 3,
+    "per_million": 722.0,
+    "background_per_million": 128.7,
+    "distinctiveness": 5.4
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_lord",
     "label": "Lord",
     "count": 2,
-    "per_million": 732.6,
+    "per_million": 481.3,
     "background_per_million": 103.2,
-    "distinctiveness": 6.77
+    "distinctiveness": 4.45
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_book",
-    "label": "Book",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 4,
+    "per_million": 962.7,
+    "background_per_million": 397.3,
+    "distinctiveness": 2.39
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
     "count": 2,
-    "per_million": 732.6,
-    "background_per_million": 128.7,
-    "distinctiveness": 5.48
+    "per_million": 481.3,
+    "background_per_million": 224.7,
+    "distinctiveness": 2.1
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_reality",
     "label": "Reality",
     "count": 1,
-    "per_million": 366.3,
+    "per_million": 240.7,
     "background_per_million": 130.7,
-    "distinctiveness": 2.7
+    "distinctiveness": 1.77
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_bill",
     "label": "Bill",
     "count": 1,
-    "per_million": 366.3,
+    "per_million": 240.7,
     "background_per_million": 138.9,
-    "distinctiveness": 2.55
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_black",
-    "label": "Black",
-    "count": 2,
-    "per_million": 732.6,
-    "background_per_million": 397.3,
-    "distinctiveness": 1.82
+    "distinctiveness": 1.67
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_light",
     "label": "Light",
-    "count": 2,
-    "per_million": 732.6,
+    "count": 3,
+    "per_million": 722.0,
     "background_per_million": 440.2,
-    "distinctiveness": 1.65
+    "distinctiveness": 1.62
    }
   ],
   "names": [
@@ -85,22 +94,22 @@
     "entity_type": "name",
     "entity_id": "NAME_laura",
     "label": "Laura",
-    "count": 8,
-    "per_million": 2930.4,
+    "count": 18,
+    "per_million": 4332.1,
     "background_per_million": 41.9,
-    "distinctiveness": 62.51
+    "distinctiveness": 92.41
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_nixon",
     "label": "Nixon",
     "count": 1,
-    "per_million": 366.3,
+    "per_million": 240.7,
     "background_per_million": 6.1,
-    "distinctiveness": 32.91
+    "distinctiveness": 21.63
    }
   ],
-  "distinct_terms": 7,
+  "distinct_terms": 8,
   "distinct_names": 2
  },
  "title_search": {

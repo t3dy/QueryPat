@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 51243,
-  "line_end": 51322,
-  "word_count": 1909,
+  "line_end": 51690,
+  "word_count": 8385,
   "status": "ready"
  },
  "structure": {
@@ -20,86 +20,50 @@
     "entity_type": "term",
     "entity_id": "TERM_therefore",
     "label": "Therefore",
-    "count": 1,
-    "per_million": 523.8,
+    "count": 4,
+    "per_million": 477.0,
     "background_per_million": 39.8,
-    "distinctiveness": 11.68
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_book",
-    "label": "Book",
-    "count": 1,
-    "per_million": 523.8,
-    "background_per_million": 128.7,
-    "distinctiveness": 3.92
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_bill",
-    "label": "Bill",
-    "count": 1,
-    "per_million": 523.8,
-    "background_per_million": 138.9,
-    "distinctiveness": 3.64
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_obviously",
-    "label": "Obviously",
-    "count": 1,
-    "per_million": 523.8,
-    "background_per_million": 138.9,
-    "distinctiveness": 3.64
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_well",
-    "label": "Well",
-    "count": 6,
-    "per_million": 3143.0,
-    "background_per_million": 959.1,
-    "distinctiveness": 3.26
+    "distinctiveness": 10.64
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_probably",
     "label": "Probably",
-    "count": 2,
-    "per_million": 1047.7,
+    "count": 8,
+    "per_million": 954.1,
     "background_per_million": 398.4,
-    "distinctiveness": 2.6
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_good",
-    "label": "Good",
-    "count": 4,
-    "per_million": 2095.3,
-    "background_per_million": 1079.7,
-    "distinctiveness": 1.93
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_great",
-    "label": "Great",
-    "count": 2,
-    "per_million": 1047.7,
-    "background_per_million": 589.4,
-    "distinctiveness": 1.76
+    "distinctiveness": 2.37
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_wait",
     "label": "Wait",
-    "count": 1,
-    "per_million": 523.8,
+    "count": 5,
+    "per_million": 596.3,
     "background_per_million": 311.5,
-    "distinctiveness": 1.65
+    "distinctiveness": 1.88
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_well",
+    "label": "Well",
+    "count": 15,
+    "per_million": 1788.9,
+    "background_per_million": 959.1,
+    "distinctiveness": 1.86
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_scanner",
+    "label": "Scanner",
+    "count": 1,
+    "per_million": 119.3,
+    "background_per_million": 65.4,
+    "distinctiveness": 1.69
    }
   ],
   "names": [],
-  "distinct_terms": 9,
+  "distinct_terms": 5,
   "distinct_names": 0
  },
  "title_search": {

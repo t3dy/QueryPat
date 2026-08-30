@@ -1,0 +1,167 @@
+{
+ "slug": "a-world-of-talent",
+ "title": "A World Of Talent",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 35609,
+  "line_end": 36528,
+  "word_count": 14640,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 21,
+    "per_million": 1434.4,
+    "background_per_million": 462.7,
+    "distinctiveness": 3.07
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_prison",
+    "label": "Prison",
+    "count": 1,
+    "per_million": 68.3,
+    "background_per_million": 24.5,
+    "distinctiveness": 2.31
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 11,
+    "per_million": 751.4,
+    "background_per_million": 350.4,
+    "distinctiveness": 2.11
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gods",
+    "label": "Gods",
+    "count": 1,
+    "per_million": 68.3,
+    "background_per_million": 30.6,
+    "distinctiveness": 1.92
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 7,
+    "per_million": 478.1,
+    "background_per_million": 256.4,
+    "distinctiveness": 1.83
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 1,
+    "per_million": 68.3,
+    "background_per_million": 35.8,
+    "distinctiveness": 1.68
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 13,
+    "per_million": 888.0,
+    "background_per_million": 526.0,
+    "distinctiveness": 1.67
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 68.3,
+    "background_per_million": 39.8,
+    "distinctiveness": 1.52
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_curt",
+    "label": "Curt",
+    "count": 157,
+    "per_million": 10724.0,
+    "background_per_million": 160.4,
+    "distinctiveness": 64.85
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_humans",
+    "label": "Humans",
+    "count": 3,
+    "per_million": 204.9,
+    "background_per_million": 112.4,
+    "distinctiveness": 1.75
+   }
+  ],
+  "distinct_terms": 8,
+  "distinct_names": 2
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3009,
+      "quote": "…oving retrograde in time and precognition). Something on the order of what I described in \"World of Talent\" [\"A World of Talent\" (1954)]. Now let's try this theory. The ability to make time run backward gets you out of your programmed…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1455,
+      "quote": "…nition) as a “necessary premise for science fiction.” While Phil did write stories during this periodnotably “A World of Talent” (1954) and “Psi Man” (1955)-that utilized psi powers, his interest in them did not peak until the sixties, w…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1442,
+      "quote": "…others include ‘The Cookie Lady’ (1953, CS2), ‘Tony and the Beetles’ (1953, CS3), ‘Jon’s World’ (1954, CS2), ‘A World of Talent’ (1954, CS3), ‘Foster, You’re Dead’ (1955, CS3), and ‘The Pre-Persons’ (1974, CS5). ‘Tony and the Beetles’…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 2
+ }
+}

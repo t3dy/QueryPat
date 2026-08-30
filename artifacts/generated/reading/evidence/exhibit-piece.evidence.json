@@ -4,10 +4,10 @@
  "kind": "story",
  "generated_by": "scripts/reading/gather_evidence.py",
  "source": {
-  "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-  "line_start": 4584,
-  "line_end": 4925,
-  "word_count": 5164,
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 31048,
+  "line_end": 31381,
+  "word_count": 5095,
   "status": "ready"
  },
  "structure": {
@@ -21,135 +21,135 @@
     "entity_id": "TERM_adam",
     "label": "Adam",
     "count": 1,
-    "per_million": 193.6,
+    "per_million": 196.3,
     "background_per_million": 5.1,
-    "distinctiveness": 19.16
+    "distinctiveness": 19.42
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_christian",
     "label": "Christian",
     "count": 1,
-    "per_million": 193.6,
+    "per_million": 196.3,
     "background_per_million": 8.2,
-    "distinctiveness": 14.7
+    "distinctiveness": 14.9
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_realm",
     "label": "Realm",
     "count": 1,
-    "per_million": 193.6,
+    "per_million": 196.3,
     "background_per_million": 10.2,
-    "distinctiveness": 12.73
+    "distinctiveness": 12.9
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_scanner",
     "label": "Scanner",
     "count": 3,
-    "per_million": 580.9,
+    "per_million": 588.8,
     "background_per_million": 65.4,
-    "distinctiveness": 8.26
+    "distinctiveness": 8.37
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_maze",
     "label": "Maze",
     "count": 1,
-    "per_million": 193.6,
+    "per_million": 196.3,
     "background_per_million": 20.4,
-    "distinctiveness": 7.62
+    "distinctiveness": 7.72
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_reality",
     "label": "Reality",
     "count": 3,
-    "per_million": 580.9,
+    "per_million": 588.8,
     "background_per_million": 130.7,
-    "distinctiveness": 4.28
+    "distinctiveness": 4.34
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_garden",
     "label": "Garden",
     "count": 1,
-    "per_million": 193.6,
+    "per_million": 196.3,
     "background_per_million": 55.2,
-    "distinctiveness": 3.22
+    "distinctiveness": 3.26
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_golden",
     "label": "Golden",
     "count": 1,
-    "per_million": 193.6,
+    "per_million": 196.3,
     "background_per_million": 59.2,
-    "distinctiveness": 3.01
+    "distinctiveness": 3.06
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_house",
     "label": "House",
     "count": 8,
-    "per_million": 1549.2,
+    "per_million": 1570.2,
     "background_per_million": 529.1,
-    "distinctiveness": 2.9
+    "distinctiveness": 2.94
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_book",
     "label": "Book",
     "count": 2,
-    "per_million": 387.3,
+    "per_million": 392.5,
     "background_per_million": 128.7,
-    "distinctiveness": 2.9
+    "distinctiveness": 2.94
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_paul",
     "label": "Paul",
     "count": 1,
-    "per_million": 193.6,
+    "per_million": 196.3,
     "background_per_million": 74.6,
-    "distinctiveness": 2.43
+    "distinctiveness": 2.47
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_good",
     "label": "Good",
     "count": 10,
-    "per_million": 1936.5,
+    "per_million": 1962.7,
     "background_per_million": 1079.7,
-    "distinctiveness": 1.79
+    "distinctiveness": 1.81
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_lord",
     "label": "Lord",
     "count": 1,
-    "per_million": 193.6,
+    "per_million": 196.3,
     "background_per_million": 103.2,
-    "distinctiveness": 1.79
+    "distinctiveness": 1.81
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_suppose",
     "label": "Suppose",
     "count": 2,
-    "per_million": 387.3,
+    "per_million": 392.5,
     "background_per_million": 221.7,
-    "distinctiveness": 1.71
+    "distinctiveness": 1.73
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_okay",
     "label": "Okay",
     "count": 2,
-    "per_million": 387.3,
+    "per_million": 392.5,
     "background_per_million": 224.7,
-    "distinctiveness": 1.69
+    "distinctiveness": 1.71
    }
   ],
   "names": [
@@ -158,18 +158,18 @@
     "entity_id": "NAME_pinky",
     "label": "Pinky",
     "count": 1,
-    "per_million": 193.6,
+    "per_million": 196.3,
     "background_per_million": 4.1,
-    "distinctiveness": 21.31
+    "distinctiveness": 21.6
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_the-russian",
     "label": "The Russian",
     "count": 1,
-    "per_million": 193.6,
+    "per_million": 196.3,
     "background_per_million": 49.0,
-    "distinctiveness": 3.58
+    "distinctiveness": 3.63
    }
   ],
   "distinct_terms": 15,

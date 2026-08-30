@@ -1,0 +1,164 @@
+{
+ "artifact_id": "ART_DOSSIER_A_WORLD_OF_TALENT",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "a-world-of-talent",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "A World Of Talent",
+  "slug": "a-world-of-talent",
+  "form": "story",
+  "word_count": 14640,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 35609,
+   "line_end": 36528,
+   "word_count": 14640,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Curt",
+    "name_id": "NAME_curt",
+    "mentions": 157
+   },
+   {
+    "name": "Humans",
+    "name_id": "NAME_humans",
+    "mentions": 3
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 21,
+    "distinctiveness": 3.07
+   },
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
+    "count": 1,
+    "distinctiveness": 2.31
+   },
+   {
+    "label": "Father",
+    "entity_id": "TERM_father",
+    "count": 11,
+    "distinctiveness": 2.11
+   },
+   {
+    "label": "Gods",
+    "entity_id": "TERM_gods",
+    "count": 1,
+    "distinctiveness": 1.92
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 7,
+    "distinctiveness": 1.83
+   },
+   {
+    "label": "Tears",
+    "entity_id": "TERM_tears",
+    "count": 1,
+    "distinctiveness": 1.68
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 13,
+    "distinctiveness": 1.67
+   },
+   {
+    "label": "Therefore",
+    "entity_id": "TERM_therefore",
+    "count": 1,
+    "distinctiveness": 1.52
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3009,
+      "quote": "…oving retrograde in time and precognition). Something on the order of what I described in \"World of Talent\" [\"A World of Talent\" (1954)]. Now let's try this theory. The ability to make time run backward gets you out of your programmed…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1455,
+      "quote": "…nition) as a “necessary premise for science fiction.” While Phil did write stories during this periodnotably “A World of Talent” (1954) and “Psi Man” (1955)-that utilized psi powers, his interest in them did not peak until the sixties, w…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1442,
+      "quote": "…others include ‘The Cookie Lady’ (1953, CS2), ‘Tony and the Beetles’ (1953, CS3), ‘Jon’s World’ (1954, CS2), ‘A World of Talent’ (1954, CS3), ‘Foster, You’re Dead’ (1955, CS3), and ‘The Pre-Persons’ (1974, CS5). ‘Tony and the Beetles’…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "2 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

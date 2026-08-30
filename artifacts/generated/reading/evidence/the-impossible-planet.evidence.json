@@ -1,0 +1,120 @@
+{
+ "slug": "the-impossible-planet",
+ "title": "The Impossible Planet",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 23402,
+  "line_end": 23735,
+  "word_count": 2996,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 31,
+    "per_million": 10347.1,
+    "background_per_million": 448.4,
+    "distinctiveness": 22.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_scanner",
+    "label": "Scanner",
+    "count": 2,
+    "per_million": 667.6,
+    "background_per_million": 65.4,
+    "distinctiveness": 9.49
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 2,
+    "per_million": 667.6,
+    "background_per_million": 77.6,
+    "distinctiveness": 8.08
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 4,
+    "per_million": 1335.1,
+    "background_per_million": 224.7,
+    "distinctiveness": 5.81
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 3,
+    "per_million": 1001.3,
+    "background_per_million": 398.4,
+    "distinctiveness": 2.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_look",
+    "label": "Look",
+    "count": 5,
+    "per_million": 1668.9,
+    "background_per_million": 868.2,
+    "distinctiveness": 1.91
+   }
+  ],
+  "names": [],
+  "distinct_terms": 6,
+  "distinct_names": 0
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 818,
+      "quote": "…y unknown planet, barren and dull, and discover that it is a wrecked, far-future earth ( _A Maze of Death_ , ‘The Impossible Planet’). The story on which _Palmer Eldritch_ draws for its Martian colony sets the broken-down settlement in a wre…"
+     },
+     {
+      "line": 3746,
+      "quote": "…99** , 100n24, 106 ‘Human Is’ **87** , 101, 225 ‘I Hope I Shall Arrive Soon’ movement as stasis in **52–53** ‘The Impossible Planet’ 50n18 ‘Impostor’ 225 ‘Jon’s World’ 102 fate of child in **163–64** ‘King of the Elves, The’ 93n14 ‘Last of t…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3055,
+      "quote": "…ed as small child. In “Service Call,” a swivel will control men’s thoughts in order to prevent atomic war. “The Impossible Planet” tells the story of an old lady who wants to return to the planet of man’s birth; she does return, but can th…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 3
+ }
+}

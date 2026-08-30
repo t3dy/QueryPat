@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 55183,
-  "line_end": 55328,
-  "word_count": 2358,
+  "line_end": 55852,
+  "word_count": 10096,
   "status": "ready"
  },
  "structure": {
@@ -18,80 +18,135 @@
   "terms": [
    {
     "entity_type": "term",
+    "entity_id": "TERM_fish",
+    "label": "Fish",
+    "count": 12,
+    "per_million": 1188.6,
+    "background_per_million": 37.8,
+    "distinctiveness": 27.77
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gabriel",
+    "label": "Gabriel",
+    "count": 1,
+    "per_million": 99.0,
+    "background_per_million": 1.0,
+    "distinctiveness": 16.45
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_plato",
+    "label": "Plato",
+    "count": 1,
+    "per_million": 99.0,
+    "background_per_million": 2.0,
+    "distinctiveness": 14.06
+   },
+   {
+    "entity_type": "term",
     "entity_id": "TERM_church",
     "label": "Church",
-    "count": 2,
-    "per_million": 848.2,
+    "count": 3,
+    "per_million": 297.1,
     "background_per_million": 22.5,
-    "distinctiveness": 30.87
+    "distinctiveness": 10.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 23,
+    "per_million": 2278.1,
+    "background_per_million": 350.4,
+    "distinctiveness": 6.41
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 9,
+    "per_million": 891.4,
+    "background_per_million": 266.6,
+    "distinctiveness": 3.28
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_greek",
+    "label": "Greek",
+    "count": 1,
+    "per_million": 99.0,
+    "background_per_million": 26.6,
+    "distinctiveness": 3.14
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 6,
+    "per_million": 594.3,
+    "background_per_million": 224.7,
+    "distinctiveness": 2.59
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 10,
+    "per_million": 990.5,
+    "background_per_million": 398.4,
+    "distinctiveness": 2.46
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_king",
     "label": "King",
     "count": 3,
-    "per_million": 1272.3,
+    "per_million": 297.1,
     "background_per_million": 126.7,
-    "distinctiveness": 9.66
+    "distinctiveness": 2.26
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_anyhow",
-    "label": "Anyhow",
-    "count": 4,
-    "per_million": 1696.4,
-    "background_per_million": 266.6,
-    "distinctiveness": 6.25
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_lord",
-    "label": "Lord",
-    "count": 1,
-    "per_million": 424.1,
-    "background_per_million": 103.2,
-    "distinctiveness": 3.92
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_suppose",
-    "label": "Suppose",
-    "count": 2,
-    "per_million": 848.2,
-    "background_per_million": 221.7,
-    "distinctiveness": 3.74
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_bill",
-    "label": "Bill",
-    "count": 1,
-    "per_million": 424.1,
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 3,
+    "per_million": 297.1,
     "background_per_million": 138.9,
-    "distinctiveness": 2.95
+    "distinctiveness": 2.06
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_okay",
-    "label": "Okay",
+    "entity_id": "TERM_thomas",
+    "label": "Thomas",
     "count": 1,
-    "per_million": 424.1,
-    "background_per_million": 224.7,
-    "distinctiveness": 1.85
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_house",
-    "label": "House",
-    "count": 2,
-    "per_million": 848.2,
-    "background_per_million": 529.1,
-    "distinctiveness": 1.59
+    "per_million": 99.0,
+    "background_per_million": 44.9,
+    "distinctiveness": 1.98
    }
   ],
-  "names": [],
-  "distinct_terms": 8,
-  "distinct_names": 0
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_yhwh",
+    "label": "YHWH",
+    "count": 1,
+    "per_million": 99.0,
+    "background_per_million": 1.0,
+    "distinctiveness": 16.45
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_thomas-aquinas",
+    "label": "Thomas Aquinas",
+    "count": 1,
+    "per_million": 99.0,
+    "background_per_million": 2.0,
+    "distinctiveness": 14.06
+   }
+  ],
+  "distinct_terms": 12,
+  "distinct_names": 2
  },
  "title_search": {
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."

@@ -12,13 +12,13 @@
   "title": "Upon The Dull Earth",
   "slug": "upon-the-dull-earth",
   "form": "story",
-  "word_count": 8250,
+  "word_count": 8015,
   "lane": "A",
   "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-   "line_start": 5988,
-   "line_end": 6555,
-   "word_count": 8250,
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 32401,
+   "line_end": 32952,
+   "word_count": 8015,
    "status": "ready"
   }
  },
@@ -47,49 +47,49 @@
     "label": "Garden",
     "entity_id": "TERM_garden",
     "count": 3,
-    "distinctiveness": 6.04
+    "distinctiveness": 6.22
    },
    {
     "label": "Gods",
     "entity_id": "TERM_gods",
     "count": 1,
-    "distinctiveness": 3.4
+    "distinctiveness": 3.5
    },
    {
     "label": "Darkness",
     "entity_id": "TERM_darkness",
     "count": 7,
-    "distinctiveness": 3.25
+    "distinctiveness": 3.34
    },
    {
     "label": "Girl",
     "entity_id": "TERM_girl",
     "count": 11,
-    "distinctiveness": 2.85
+    "distinctiveness": 2.93
    },
    {
     "label": "Wait",
     "entity_id": "TERM_wait",
     "count": 5,
-    "distinctiveness": 1.91
+    "distinctiveness": 1.97
    },
    {
     "label": "Book",
     "entity_id": "TERM_book",
     "count": 2,
-    "distinctiveness": 1.81
+    "distinctiveness": 1.87
    },
    {
     "label": "Black",
     "entity_id": "TERM_black",
     "count": 6,
-    "distinctiveness": 1.81
+    "distinctiveness": 1.86
    },
    {
     "label": "Light",
     "entity_id": "TERM_light",
     "count": 6,
-    "distinctiveness": 1.63
+    "distinctiveness": 1.68
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

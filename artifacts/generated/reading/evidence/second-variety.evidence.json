@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 13670,
-  "line_end": 15079,
-  "word_count": 15009,
+  "line_end": 15095,
+  "word_count": 15175,
   "status": "ready"
  },
  "structure": {
@@ -21,36 +21,36 @@
     "entity_id": "TERM_soviet",
     "label": "Soviet",
     "count": 15,
-    "per_million": 999.4,
+    "per_million": 988.5,
     "background_per_million": 93.0,
-    "distinctiveness": 10.2
+    "distinctiveness": 10.09
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_palm",
     "label": "Palm",
     "count": 1,
-    "per_million": 66.6,
+    "per_million": 65.9,
     "background_per_million": 17.4,
-    "distinctiveness": 2.98
+    "distinctiveness": 2.95
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_maze",
     "label": "Maze",
     "count": 1,
-    "per_million": 66.6,
+    "per_million": 65.9,
     "background_per_million": 20.4,
-    "distinctiveness": 2.62
+    "distinctiveness": 2.59
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_iron",
     "label": "Iron",
     "count": 1,
-    "per_million": 66.6,
+    "per_million": 65.9,
     "background_per_million": 29.6,
-    "distinctiveness": 1.92
+    "distinctiveness": 1.9
    }
   ],
   "names": [
@@ -59,63 +59,63 @@
     "entity_id": "NAME_tasso",
     "label": "Tasso",
     "count": 92,
-    "per_million": 6129.7,
+    "per_million": 6062.6,
     "background_per_million": 187.9,
-    "distinctiveness": 31.77
+    "distinctiveness": 31.42
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_klaus",
     "label": "Klaus",
-    "count": 85,
-    "per_million": 5663.3,
+    "count": 86,
+    "per_million": 5667.2,
     "background_per_million": 175.7,
-    "distinctiveness": 31.34
+    "distinctiveness": 31.36
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_major-hendricks",
     "label": "Major Hendricks",
     "count": 8,
-    "per_million": 533.0,
+    "per_million": 527.2,
     "background_per_million": 16.3,
-    "distinctiveness": 24.97
+    "distinctiveness": 24.7
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_the-russian",
     "label": "The Russian",
     "count": 20,
-    "per_million": 1332.5,
+    "per_million": 1318.0,
     "background_per_million": 49.0,
-    "distinctiveness": 24.66
+    "distinctiveness": 24.39
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_david",
     "label": "David",
-    "count": 36,
-    "per_million": 2398.6,
+    "count": 37,
+    "per_million": 2438.2,
     "background_per_million": 122.6,
-    "distinctiveness": 18.8
+    "distinctiveness": 19.11
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_the-soviet",
     "label": "The Soviet",
     "count": 14,
-    "per_million": 932.8,
+    "per_million": 922.6,
     "background_per_million": 54.1,
-    "distinctiveness": 15.77
+    "distinctiveness": 15.6
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_eric",
     "label": "Eric",
     "count": 8,
-    "per_million": 533.0,
+    "per_million": 527.2,
     "background_per_million": 134.8,
-    "distinctiveness": 3.81
+    "distinctiveness": 3.77
    }
   ],
   "distinct_terms": 4,

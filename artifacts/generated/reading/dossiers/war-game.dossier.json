@@ -12,13 +12,13 @@
   "title": "War Game",
   "slug": "war-game",
   "form": "story",
-  "word_count": 2061,
+  "word_count": 6042,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 41699,
-   "line_end": 41848,
-   "word_count": 2061,
+   "line_end": 42200,
+   "word_count": 6042,
    "status": "ready"
   }
  },
@@ -47,31 +47,31 @@
     "label": "Bureau",
     "entity_id": "TERM_bureau",
     "count": 1,
-    "distinctiveness": 11.07
+    "distinctiveness": 3.78
+   },
+   {
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
+    "count": 3,
+    "distinctiveness": 3.45
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 2,
+    "distinctiveness": 2.44
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 3,
+    "distinctiveness": 1.83
    },
    {
     "label": "Fall",
     "entity_id": "TERM_fall",
     "count": 1,
-    "distinctiveness": 4.4
-   },
-   {
-    "label": "Reality",
-    "entity_id": "TERM_reality",
-    "count": 1,
-    "distinctiveness": 3.57
-   },
-   {
-    "label": "Being",
-    "entity_id": "TERM_being",
-    "count": 2,
-    "distinctiveness": 1.83
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 1,
-    "distinctiveness": 1.79
+    "distinctiveness": 1.5
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

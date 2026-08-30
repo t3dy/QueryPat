@@ -12,13 +12,13 @@
   "title": "Planet For Transients",
   "slug": "planet-for-transients",
   "form": "story",
-  "word_count": 3728,
+  "word_count": 4897,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 24588,
-   "line_end": 24935,
-   "word_count": 3728,
+   "line_end": 25039,
+   "word_count": 4897,
    "status": "ready"
   }
  },
@@ -31,7 +31,7 @@
    {
     "name": "Humans",
     "name_id": "NAME_humans",
-    "mentions": 6
+    "mentions": 7
    }
   ],
   "place_candidates": [],
@@ -47,43 +47,49 @@
     "label": "Gnosis",
     "entity_id": "TERM_gnosis",
     "count": 1,
-    "distinctiveness": 44.55
+    "distinctiveness": 33.91
+   },
+   {
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 11,
+    "distinctiveness": 4.95
    },
    {
     "label": "Great",
     "entity_id": "TERM_great",
-    "count": 7,
-    "distinctiveness": 3.16
+    "count": 9,
+    "distinctiveness": 3.09
    },
    {
     "label": "Probably",
     "entity_id": "TERM_probably",
-    "count": 4,
-    "distinctiveness": 2.66
+    "count": 5,
+    "distinctiveness": 2.53
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 5,
+    "distinctiveness": 1.92
    },
    {
     "label": "Good",
     "entity_id": "TERM_good",
     "count": 10,
-    "distinctiveness": 2.47
+    "distinctiveness": 1.88
    },
    {
-    "label": "Being",
-    "entity_id": "TERM_being",
-    "count": 4,
-    "distinctiveness": 2.02
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 7,
+    "distinctiveness": 1.64
    },
    {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 3,
-    "distinctiveness": 1.81
-   },
-   {
-    "label": "Earth",
-    "entity_id": "TERM_earth",
-    "count": 3,
-    "distinctiveness": 1.77
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 1,
+    "distinctiveness": 1.53
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

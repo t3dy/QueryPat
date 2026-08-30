@@ -72,14 +72,19 @@ BAD_TAIL = (":", "?", '"', "\u201d", ",", ";", "\u2014", "-")
 
 
 def heading_is_titlelike(raw: str) -> bool:
-    """Story titles in these scans are set in full capitals.
+    """Story titles in these scans are capitalised *and* emphasised.
 
-    That single fact removes most of the false headings the conversion
-    introduces (dialogue lines, running heads, catalogue copy). Checked on the
-    raw heading, before it is title-cased for display.
+    Capitals alone are not enough. The conversion also promotes in-story text
+    set in capitals — shop signs, newspaper headlines, the epigraph inside
+    "Faith Of Our Fathers" — and those truncate the story they sit in. Across
+    the four collections, 262 all-capital headings carry bold markers and 83 do
+    not, and the 83 are uniformly in-story text ("PRISONER HANGS SELF",
+    "FRANKLIN APARTMENTS"). Requiring the emphasis separates them cleanly.
     """
-    core = re.sub(r"^#{1,6}\s*", "", raw).strip()
-    core = re.sub(r"[*_`]+", "", core).strip()
+    body = re.sub(r"^#{1,6}\s*", "", raw).strip()
+    if not body.startswith("**"):
+        return False
+    core = re.sub(r"[*_`]+", "", body).strip()
     if not core or core.endswith(BAD_TAIL):
         return False
     if ROMAN_RE.match(core) or len(core) < MIN_TITLE_CHARS:
@@ -142,36 +147,57 @@ def split_headed_file(path: Path, container_title: str | None) -> list[Unit]:
             )
         ]
 
-    units: list[Unit] = []
+    # Classify every heading first, then measure spans only between accepted
+    # story headings. Measuring to the next heading of *any* kind truncated
+    # every story that carries internal section headings — "Faith Of Our
+    # Fathers" came out at 1,696 words against a true length near 11,000,
+    # because its own section breaks ended its span.
+    classified: list[tuple[int, str, str, str]] = []  # line, title, kind, reason
     for idx, (line_no, title, titlelike) in enumerate(heads):
-        end = heads[idx + 1][0] - 1 if idx + 1 < len(heads) else len(lines) - 1
-        body = lines[line_no + 1 : end + 1]
-        words = sum(len(l.split()) for l in body)
-
         norm = title.lower().strip()
         if norm in NON_STORY_HEADINGS or DIVIDER_RE.match(title) or not norm:
-            kind = "collection_front_matter"
-            reason = "front matter or divider"
+            kind, reason = "collection_front_matter", "front matter or divider"
         elif not titlelike:
             kind = "rejected"
             reason = ("heading is a section number or too short to be a title"
                       if (ROMAN_RE.match(title) or len(title) < MIN_TITLE_CHARS)
-                      else "heading was not set in capitals")
-        elif words < MIN_STORY_WORDS:
-            kind = "rejected"
-            reason = f"only {words} words follow the heading"
+                      else "not set as an emphasised all-capital title")
         else:
-            kind = "story"
-            reason = ""
+            kind, reason = "story_candidate", ""
+        classified.append((line_no, title, kind, reason))
+
+    story_lines = [c[0] for c in classified if c[2] == "story_candidate"]
+
+    def span_end(line_no: int) -> int:
+        """A story runs to the next accepted story heading, not the next heading."""
+        later = [l for l in story_lines if l > line_no]
+        return (later[0] - 1) if later else len(lines) - 1
+
+    units: list[Unit] = []
+    for line_no, title, kind, reason in classified:
+        if kind == "story_candidate":
+            stop = span_end(line_no)
+        else:
+            nxt = [c[0] for c in classified if c[0] > line_no]
+            stop = (nxt[0] - 1) if nxt else len(lines) - 1
+
+        body = lines[line_no + 1 : stop + 1]
+        words = sum(len(l.split()) for l in body)
+
+        if kind == "story_candidate":
+            if words >= MIN_STORY_WORDS:
+                kind = "story"
+            else:
+                kind, reason = "rejected", f"only {words} words follow the heading"
 
         units.append(
             Unit(
-                unit_id=f"UNIT_{slugify(path.stem)[:28]}_{slugify(title)[:40] or idx}",
+                unit_id=f"UNIT_{slugify(path.stem)[:28]}_{slugify(title)[:40] or line_no}",
                 title=title,
                 kind=kind,
                 source_file=rel,
                 line_start=line_no,
-                line_end=end,
+                line_end=stop,
                 word_count=words,
                 container=container_title,
             )
@@ -217,8 +243,13 @@ def build(db: sqlite3.Connection) -> dict:
 
     stories = [u for u in units if u.kind == "story"]
 
-    # Collapse the same story appearing in several collections; keep the
-    # longest span, remember every place it occurs.
+    # Collapse the same story appearing in several collections.
+    #
+    # Keeping the longest span was wrong: it systematically prefers whichever
+    # collection happens to have over-merged the story with its neighbour.
+    # The Collected Stories is the complete edition and the one the registry
+    # marks as the primary corpus, so its span wins when it has one; otherwise
+    # take the median length, which resists both truncation and over-merge.
     by_title: dict[str, list[Unit]] = {}
     for u in stories:
         by_title.setdefault(slugify(u.title), []).append(u)
@@ -229,10 +260,27 @@ def build(db: sqlite3.Connection) -> dict:
     # Flagged rather than dropped — several genuine novellas live up here.
     SUSPECT_WORDS = 9000
 
+    PRIMARY = "COLLECTED_STORIES"
+
     deduped = []
     for key, group in sorted(by_title.items()):
-        group.sort(key=lambda u: -u.word_count)
-        best = asdict(group[0])
+        # A title listed in a contents page is bold and capitalised exactly like
+        # the story it points at, so it survives every other test. Within one
+        # file the body always follows the listing, so when a title occurs more
+        # than once in the same file the later occurrence is the story.
+        by_file: dict[str, list[Unit]] = {}
+        for u in group:
+            by_file.setdefault(u.source_file, []).append(u)
+        group = [max(us, key=lambda u: u.line_start) for us in by_file.values()]
+
+        primary = [u for u in group if PRIMARY in u.source_file.upper()]
+        if primary:
+            chosen = max(primary, key=lambda u: u.word_count)
+        else:
+            by_len = sorted(group, key=lambda u: u.word_count)
+            chosen = by_len[len(by_len) // 2]
+        group = [chosen] + [u for u in group if u is not chosen]
+        best = asdict(chosen)
         if best["word_count"] >= SUSPECT_WORDS:
             best["needs_review"] = (
                 f"{best['word_count']:,} words is long for a short story - "

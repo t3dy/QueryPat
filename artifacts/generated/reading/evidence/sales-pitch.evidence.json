@@ -4,10 +4,10 @@
  "kind": "story",
  "generated_by": "scripts/reading/gather_evidence.py",
  "source": {
-  "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-  "line_start": 5138,
-  "line_end": 5499,
-  "word_count": 5518,
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 31574,
+  "line_end": 31919,
+  "word_count": 5420,
   "status": "ready"
  },
  "structure": {
@@ -21,81 +21,90 @@
     "entity_id": "TERM_self",
     "label": "Self",
     "count": 4,
-    "per_million": 724.9,
+    "per_million": 738.0,
     "background_per_million": 89.9,
-    "distinctiveness": 7.64
+    "distinctiveness": 7.78
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_darkness",
     "label": "Darkness",
     "count": 4,
-    "per_million": 724.9,
+    "per_million": 738.0,
     "background_per_million": 256.4,
-    "distinctiveness": 2.77
+    "distinctiveness": 2.82
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_brain",
     "label": "Brain",
     "count": 3,
-    "per_million": 543.7,
+    "per_million": 553.5,
     "background_per_million": 202.2,
-    "distinctiveness": 2.62
+    "distinctiveness": 2.67
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_scanner",
     "label": "Scanner",
     "count": 1,
-    "per_million": 181.2,
+    "per_million": 184.5,
     "background_per_million": 65.4,
-    "distinctiveness": 2.58
+    "distinctiveness": 2.62
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_star",
     "label": "Star",
     "count": 1,
-    "per_million": 181.2,
+    "per_million": 184.5,
     "background_per_million": 77.6,
-    "distinctiveness": 2.19
+    "distinctiveness": 2.23
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_earth",
     "label": "Earth",
     "count": 5,
-    "per_million": 906.1,
+    "per_million": 922.5,
     "background_per_million": 448.4,
-    "distinctiveness": 2.0
+    "distinctiveness": 2.03
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_house",
     "label": "House",
     "count": 5,
-    "per_million": 906.1,
+    "per_million": 922.5,
     "background_per_million": 529.1,
-    "distinctiveness": 1.7
+    "distinctiveness": 1.73
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_lord",
     "label": "Lord",
     "count": 1,
-    "per_million": 181.2,
+    "per_million": 184.5,
     "background_per_million": 103.2,
-    "distinctiveness": 1.68
+    "distinctiveness": 1.71
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_good",
     "label": "Good",
     "count": 10,
-    "per_million": 1812.3,
+    "per_million": 1845.0,
     "background_per_million": 1079.7,
-    "distinctiveness": 1.67
+    "distinctiveness": 1.7
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_mind",
+    "label": "Mind",
+    "count": 5,
+    "per_million": 922.5,
+    "background_per_million": 609.8,
+    "distinctiveness": 1.5
    }
   ],
   "names": [
@@ -104,12 +113,12 @@
     "entity_id": "NAME_the-man",
     "label": "The Man",
     "count": 1,
-    "per_million": 181.2,
+    "per_million": 184.5,
     "background_per_million": 19.4,
-    "distinctiveness": 7.42
+    "distinctiveness": 7.56
    }
   ],
-  "distinct_terms": 9,
+  "distinct_terms": 10,
   "distinct_names": 1
  },
  "title_search": {

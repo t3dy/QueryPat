@@ -1,0 +1,131 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_IMPOSSIBLE_PLANET",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-impossible-planet",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Impossible Planet",
+  "slug": "the-impossible-planet",
+  "form": "story",
+  "word_count": 2996,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 23402,
+   "line_end": 23735,
+   "word_count": 2996,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 31,
+    "distinctiveness": 22.82
+   },
+   {
+    "label": "Scanner",
+    "entity_id": "TERM_scanner",
+    "count": 2,
+    "distinctiveness": 9.49
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 2,
+    "distinctiveness": 8.08
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 4,
+    "distinctiveness": 5.81
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 3,
+    "distinctiveness": 2.48
+   },
+   {
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 5,
+    "distinctiveness": 1.91
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 3,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 818,
+      "quote": "…y unknown planet, barren and dull, and discover that it is a wrecked, far-future earth ( _A Maze of Death_ , ‘The Impossible Planet’). The story on which _Palmer Eldritch_ draws for its Martian colony sets the broken-down settlement in a wre…"
+     },
+     {
+      "line": 3746,
+      "quote": "…99** , 100n24, 106 ‘Human Is’ **87** , 101, 225 ‘I Hope I Shall Arrive Soon’ movement as stasis in **52–53** ‘The Impossible Planet’ 50n18 ‘Impostor’ 225 ‘Jon’s World’ 102 fate of child in **163–64** ‘King of the Elves, The’ 93n14 ‘Last of t…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3055,
+      "quote": "…ed as small child. In “Service Call,” a swivel will control men’s thoughts in order to prevent atomic war. “The Impossible Planet” tells the story of an old lady who wants to return to the planet of man’s birth; she does return, but can th…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "3 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

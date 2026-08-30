@@ -12,13 +12,13 @@
   "title": "We Can Remember It For You Wholesale",
   "slug": "we-can-remember-it-for-you-wholesale",
   "form": "story",
-  "word_count": 2228,
+  "word_count": 8073,
   "lane": "A",
   "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI.md",
-   "line_start": 8938,
-   "line_end": 9041,
-   "word_count": 2228,
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 52233,
+   "line_end": 52672,
+   "word_count": 8073,
    "status": "ready"
   }
  },
@@ -38,52 +38,64 @@
  "concepts": {
   "distinctive_terms": [
    {
-    "label": "Folder",
-    "entity_id": "TERM_folder",
+    "label": "Covenant",
+    "entity_id": "TERM_covenant",
     "count": 1,
-    "distinctiveness": 26.01
+    "distinctiveness": 17.59
    },
    {
     "label": "Bureau",
     "entity_id": "TERM_bureau",
-    "count": 1,
-    "distinctiveness": 10.24
+    "count": 3,
+    "distinctiveness": 8.48
    },
    {
-    "label": "John",
-    "entity_id": "TERM_john",
+    "label": "Folder",
+    "entity_id": "TERM_folder",
     "count": 1,
-    "distinctiveness": 4.49
+    "distinctiveness": 7.18
    },
    {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 2,
-    "distinctiveness": 3.91
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 3,
+    "distinctiveness": 4.5
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 14,
+    "distinctiveness": 4.3
    },
    {
     "label": "Earth",
     "entity_id": "TERM_earth",
-    "count": 2,
-    "distinctiveness": 1.98
-   },
-   {
-    "label": "Being",
-    "entity_id": "TERM_being",
-    "count": 2,
-    "distinctiveness": 1.69
+    "count": 13,
+    "distinctiveness": 3.55
    },
    {
     "label": "Anyhow",
     "entity_id": "TERM_anyhow",
-    "count": 1,
-    "distinctiveness": 1.65
+    "count": 5,
+    "distinctiveness": 2.28
    },
    {
-    "label": "Great",
-    "entity_id": "TERM_great",
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 4,
+    "distinctiveness": 2.19
+   },
+   {
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
     "count": 2,
-    "distinctiveness": 1.51
+    "distinctiveness": 1.72
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 7,
+    "distinctiveness": 1.63
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

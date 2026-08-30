@@ -12,13 +12,13 @@
   "title": "If There Were No Benny Cemoli",
   "slug": "if-there-were-no-benny-cemoli",
   "form": "story",
-  "word_count": 2349,
+  "word_count": 7756,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 42201,
-   "line_end": 42326,
-   "word_count": 2349,
+   "line_end": 42672,
+   "word_count": 7756,
    "status": "ready"
   }
  },
@@ -36,7 +36,12 @@
    {
     "name": "Joan",
     "name_id": "NAME_joan",
-    "mentions": 2
+    "mentions": 10
+   },
+   {
+    "name": "Sophia",
+    "name_id": "NAME_sophia",
+    "mentions": 1
    }
   ],
   "place_candidates": [],
@@ -49,58 +54,64 @@
  "concepts": {
   "distinctive_terms": [
    {
+    "label": "Greek",
+    "entity_id": "TERM_greek",
+    "count": 14,
+    "distinctiveness": 57.2
+   },
+   {
+    "label": "March",
+    "entity_id": "TERM_march",
+    "count": 8,
+    "distinctiveness": 37.55
+   },
+   {
     "label": "Fall",
     "entity_id": "TERM_fall",
+    "count": 12,
+    "distinctiveness": 14.04
+   },
+   {
+    "label": "Folder",
+    "entity_id": "TERM_folder",
+    "count": 1,
+    "distinctiveness": 7.47
+   },
+   {
+    "label": "John",
+    "entity_id": "TERM_john",
     "count": 3,
-    "distinctiveness": 11.59
+    "distinctiveness": 3.87
    },
    {
     "label": "Bureau",
     "entity_id": "TERM_bureau",
     "count": 1,
-    "distinctiveness": 9.72
+    "distinctiveness": 2.94
    },
    {
-    "label": "John",
-    "entity_id": "TERM_john",
-    "count": 2,
-    "distinctiveness": 8.51
-   },
-   {
-    "label": "Self",
-    "entity_id": "TERM_self",
-    "count": 1,
-    "distinctiveness": 4.49
-   },
-   {
-    "label": "Bill",
-    "entity_id": "TERM_bill",
-    "count": 1,
-    "distinctiveness": 2.96
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
+    "count": 3,
+    "distinctiveness": 2.69
    },
    {
     "label": "Earth",
     "entity_id": "TERM_earth",
-    "count": 3,
-    "distinctiveness": 2.82
+    "count": 9,
+    "distinctiveness": 2.56
    },
    {
-    "label": "Brain",
-    "entity_id": "TERM_brain",
-    "count": 1,
-    "distinctiveness": 2.05
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 7,
+    "distinctiveness": 2.24
    },
    {
-    "label": "Being",
-    "entity_id": "TERM_being",
+    "label": "Reality",
+    "entity_id": "TERM_reality",
     "count": 2,
-    "distinctiveness": 1.6
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 1,
-    "distinctiveness": 1.57
+    "distinctiveness": 1.9
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

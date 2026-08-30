@@ -12,13 +12,13 @@
   "title": "The Hood Maker",
   "slug": "the-hood-maker",
   "form": "story",
-  "word_count": 1619,
+  "word_count": 4938,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 21586,
-   "line_end": 21749,
-   "word_count": 1619,
+   "line_end": 22009,
+   "word_count": 4938,
    "status": "ready"
   }
  },
@@ -27,7 +27,13 @@
   "synopsis": null,
   "movements": [],
   "motifs": [],
-  "cast_candidates": [],
+  "cast_candidates": [
+   {
+    "name": "Humans",
+    "name_id": "NAME_humans",
+    "mentions": 2
+   }
+  ],
   "place_candidates": [],
   "other_entities": [],
   "structure": {
@@ -38,46 +44,64 @@
  "concepts": {
   "distinctive_terms": [
    {
+    "label": "Bill",
+    "entity_id": "TERM_bill",
+    "count": 10,
+    "distinctiveness": 14.07
+   },
+   {
     "label": "Folder",
     "entity_id": "TERM_folder",
     "count": 1,
-    "distinctiveness": 35.79
+    "distinctiveness": 11.73
    },
    {
     "label": "Roman",
     "entity_id": "TERM_roman",
     "count": 1,
-    "distinctiveness": 23.35
+    "distinctiveness": 7.66
+   },
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
+    "count": 1,
+    "distinctiveness": 6.86
+   },
+   {
+    "label": "James",
+    "entity_id": "TERM_james",
+    "count": 1,
+    "distinctiveness": 6.63
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 9,
+    "distinctiveness": 3.9
    },
    {
     "label": "Suppose",
     "entity_id": "TERM_suppose",
-    "count": 2,
-    "distinctiveness": 5.45
+    "count": 3,
+    "distinctiveness": 2.68
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 7,
+    "distinctiveness": 2.31
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 1,
+    "distinctiveness": 2.13
    },
    {
     "label": "Book",
     "entity_id": "TERM_book",
     "count": 1,
-    "distinctiveness": 4.62
-   },
-   {
-    "label": "Bill",
-    "entity_id": "TERM_bill",
-    "count": 1,
-    "distinctiveness": 4.29
-   },
-   {
-    "label": "Being",
-    "entity_id": "TERM_being",
-    "count": 2,
-    "distinctiveness": 2.33
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 1,
-    "distinctiveness": 1.53
+    "distinctiveness": 1.51
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

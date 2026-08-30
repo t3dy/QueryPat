@@ -12,13 +12,13 @@
   "title": "Tony And The Beetles",
   "slug": "tony-and-the-beetles",
   "form": "story",
-  "word_count": 4770,
+  "word_count": 4686,
   "lane": "A",
   "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-   "line_start": 3654,
-   "line_end": 4007,
-   "word_count": 4770,
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 30186,
+   "line_end": 30517,
+   "word_count": 4686,
    "status": "ready"
   }
  },
@@ -41,43 +41,43 @@
     "label": "Tony",
     "entity_id": "TERM_tony",
     "count": 65,
-    "distinctiveness": 104.31
+    "distinctiveness": 106.18
    },
    {
     "label": "Father",
     "entity_id": "TERM_father",
     "count": 9,
-    "distinctiveness": 5.31
+    "distinctiveness": 5.4
    },
    {
     "label": "Christ",
     "entity_id": "TERM_christ",
     "count": 1,
-    "distinctiveness": 2.67
+    "distinctiveness": 2.72
    },
    {
     "label": "Black",
     "entity_id": "TERM_black",
     "count": 5,
-    "distinctiveness": 2.61
+    "distinctiveness": 2.65
    },
    {
     "label": "Anyhow",
     "entity_id": "TERM_anyhow",
     "count": 3,
-    "distinctiveness": 2.32
+    "distinctiveness": 2.36
    },
    {
     "label": "Fall",
     "entity_id": "TERM_fall",
     "count": 1,
-    "distinctiveness": 1.9
+    "distinctiveness": 1.94
    },
    {
     "label": "Earth",
     "entity_id": "TERM_earth",
     "count": 4,
-    "distinctiveness": 1.85
+    "distinctiveness": 1.88
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

@@ -1,0 +1,210 @@
+{
+ "slug": "the-variable-man",
+ "title": "The Variable Man",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 5398,
+  "line_end": 7201,
+  "word_count": 24975,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_thomas",
+    "label": "Thomas",
+    "count": 18,
+    "per_million": 720.7,
+    "background_per_million": 44.9,
+    "distinctiveness": 14.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_empire",
+    "label": "Empire",
+    "count": 9,
+    "per_million": 360.4,
+    "background_per_million": 22.5,
+    "distinctiveness": 13.12
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_folder",
+    "label": "Folder",
+    "count": 3,
+    "per_million": 120.1,
+    "background_per_million": 12.3,
+    "distinctiveness": 6.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_maze",
+    "label": "Maze",
+    "count": 3,
+    "per_million": 120.1,
+    "background_per_million": 20.4,
+    "distinctiveness": 4.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_diagram",
+    "label": "Diagram",
+    "count": 1,
+    "per_million": 40.0,
+    "background_per_million": 5.1,
+    "distinctiveness": 3.96
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 7,
+    "per_million": 280.3,
+    "background_per_million": 77.6,
+    "distinctiveness": 3.39
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gods",
+    "label": "Gods",
+    "count": 3,
+    "per_million": 120.1,
+    "background_per_million": 30.6,
+    "distinctiveness": 3.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 30,
+    "per_million": 1201.2,
+    "background_per_million": 440.2,
+    "distinctiveness": 2.7
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 3,
+    "per_million": 120.1,
+    "background_per_million": 39.8,
+    "distinctiveness": 2.68
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_realm",
+    "label": "Realm",
+    "count": 1,
+    "per_million": 40.0,
+    "background_per_million": 10.2,
+    "distinctiveness": 2.63
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 24,
+    "per_million": 961.0,
+    "background_per_million": 397.3,
+    "distinctiveness": 2.39
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 23,
+    "per_million": 920.9,
+    "background_per_million": 589.4,
+    "distinctiveness": 1.55
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-empire",
+    "label": "The Empire",
+    "count": 2,
+    "per_million": 80.1,
+    "background_per_million": 2.0,
+    "distinctiveness": 11.37
+   }
+  ],
+  "distinct_terms": 12,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 15,
+      "quote": "…(1955) The World Jones Made (1956) The Man Who Japed (1956) Eye in the Sky (1957) The Cosmic Puppets (1957) The Variable Man (1957) Time out of Joint (1959) Dr. Futurity (1960) Vulcan’s Hammer (1960) The Man in the High Castle (1962)…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 422,
+      "quote": "…Prayers: _A Maze of Death_ ; weapons channelling unsensed energies: _Lies, Inc._ ; breakdown and ignorance: ‘The Variable Man’ (1953, CS1), ‘The Last of the Masters’ (1954, CS3), _The Penultimate Truth_ . PHILIP K. DICK AND THE POSTM…"
+     },
+     {
+      "line": 1318,
+      "quote": "…se is sometimes suggested in stories dealing with hypertechnology, or, more generally, with production. In ‘The Variable Man’ (1953, CS1) 22nd-century society is dependent on a set of vast computers (called SRB machines) incessantly c…"
+     },
+     {
+      "line": 1328,
+      "quote": "…it is the way of questioning and, if possible, reaffirmation that is taken, not that of playful celebration. ‘The Variable Man’ reaffirms the single human centre, the ordinary American (from 1910, the age of Edison) who can fix things i…"
+     },
+     {
+      "line": 1330,
+      "quote": "…Edison) who can fix things in a time in which technology has become destructive and out of human control. ‘The Variable Man’ is one of several stories in which technology is rehabilitated from within, by the rediscovery of the virtue…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1407,
+      "quote": "…cation (an honor seldom accorded SF in the U. S. at that time) as A Handful of Darkness. A second collection, The Variable Man, was issued by Ace in 1957. Phil was prone to deride their quality in comparison to his later work, and it is…"
+     },
+     {
+      "line": 5491,
+      "quote": "…veryone’s out to get you; only human trust will do, and who’s stupid enough to rely on that? Rating: 3. 10. The Variable Man and Other Stories (w. 1952-55, p. 1957). The best story in this early Ace collection is “Second Variety” (w.…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 6
+ }
+}

@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 8700,
-  "line_end": 8841,
-  "word_count": 2647,
+  "line_end": 8931,
+  "word_count": 4474,
   "status": "ready"
  },
  "structure": {
@@ -21,54 +21,54 @@
     "entity_id": "TERM_rome",
     "label": "Rome",
     "count": 1,
-    "per_million": 377.8,
+    "per_million": 223.5,
     "background_per_million": 9.2,
-    "distinctiveness": 26.62
+    "distinctiveness": 15.75
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 6,
+    "per_million": 1341.1,
+    "background_per_million": 128.7,
+    "distinctiveness": 10.03
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_gestalt",
     "label": "Gestalt",
     "count": 1,
-    "per_million": 377.8,
+    "per_million": 223.5,
     "background_per_million": 25.5,
-    "distinctiveness": 12.37
+    "distinctiveness": 7.32
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_light",
     "label": "Light",
-    "count": 6,
-    "per_million": 2266.7,
+    "count": 9,
+    "per_million": 2011.6,
     "background_per_million": 440.2,
-    "distinctiveness": 5.09
+    "distinctiveness": 4.52
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_darkness",
     "label": "Darkness",
-    "count": 3,
-    "per_million": 1133.4,
+    "count": 5,
+    "per_million": 1117.6,
     "background_per_million": 256.4,
-    "distinctiveness": 4.34
+    "distinctiveness": 4.28
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_black",
     "label": "Black",
-    "count": 2,
-    "per_million": 755.6,
+    "count": 6,
+    "per_million": 1341.1,
     "background_per_million": 397.3,
-    "distinctiveness": 1.88
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_suppose",
-    "label": "Suppose",
-    "count": 1,
-    "per_million": 377.8,
-    "background_per_million": 221.7,
-    "distinctiveness": 1.67
+    "distinctiveness": 3.33
    }
   ],
   "names": [],

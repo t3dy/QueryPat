@@ -12,13 +12,13 @@
   "title": "Small Town",
   "slug": "small-town",
   "form": "story",
-  "word_count": 1414,
+  "word_count": 5102,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 25040,
-   "line_end": 25145,
-   "word_count": 1414,
+   "line_end": 25475,
+   "word_count": 5102,
    "status": "ready"
   }
  },
@@ -38,34 +38,64 @@
  "concepts": {
   "distinctive_terms": [
    {
+    "label": "Paul",
+    "entity_id": "TERM_paul",
+    "count": 6,
+    "distinctiveness": 14.78
+   },
+   {
+    "label": "Greek",
+    "entity_id": "TERM_greek",
+    "count": 1,
+    "distinctiveness": 6.21
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 3,
+    "distinctiveness": 4.33
+   },
+   {
     "label": "Lord",
     "entity_id": "TERM_lord",
-    "count": 1,
-    "distinctiveness": 6.54
+    "count": 2,
+    "distinctiveness": 3.62
    },
    {
     "label": "Light",
     "entity_id": "TERM_light",
-    "count": 2,
-    "distinctiveness": 3.18
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 1,
-    "distinctiveness": 3.12
+    "count": 6,
+    "distinctiveness": 2.64
    },
    {
     "label": "House",
     "entity_id": "TERM_house",
-    "count": 2,
-    "distinctiveness": 2.65
+    "count": 7,
+    "distinctiveness": 2.57
    },
    {
-    "label": "Father",
-    "entity_id": "TERM_father",
-    "count": 1,
-    "distinctiveness": 1.99
+    "label": "Look",
+    "entity_id": "TERM_look",
+    "count": 8,
+    "distinctiveness": 1.8
+   },
+   {
+    "label": "Suppose",
+    "entity_id": "TERM_suppose",
+    "count": 2,
+    "distinctiveness": 1.73
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 2,
+    "distinctiveness": 1.71
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 2,
+    "distinctiveness": 1.5
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

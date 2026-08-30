@@ -12,13 +12,13 @@
   "title": "The Pre-persons",
   "slug": "the-pre-persons",
   "form": "story",
-  "word_count": 2358,
+  "word_count": 10096,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 55183,
-   "line_end": 55328,
-   "word_count": 2358,
+   "line_end": 55852,
+   "word_count": 10096,
    "status": "ready"
   }
  },
@@ -27,7 +27,18 @@
   "synopsis": null,
   "movements": [],
   "motifs": [],
-  "cast_candidates": [],
+  "cast_candidates": [
+   {
+    "name": "YHWH",
+    "name_id": "NAME_yhwh",
+    "mentions": 1
+   },
+   {
+    "name": "Thomas Aquinas",
+    "name_id": "NAME_thomas-aquinas",
+    "mentions": 1
+   }
+  ],
   "place_candidates": [],
   "other_entities": [],
   "structure": {
@@ -38,52 +49,76 @@
  "concepts": {
   "distinctive_terms": [
    {
+    "label": "Fish",
+    "entity_id": "TERM_fish",
+    "count": 12,
+    "distinctiveness": 27.77
+   },
+   {
+    "label": "Gabriel",
+    "entity_id": "TERM_gabriel",
+    "count": 1,
+    "distinctiveness": 16.45
+   },
+   {
+    "label": "Plato",
+    "entity_id": "TERM_plato",
+    "count": 1,
+    "distinctiveness": 14.06
+   },
+   {
     "label": "Church",
     "entity_id": "TERM_church",
-    "count": 2,
-    "distinctiveness": 30.87
+    "count": 3,
+    "distinctiveness": 10.82
+   },
+   {
+    "label": "Father",
+    "entity_id": "TERM_father",
+    "count": 23,
+    "distinctiveness": 6.41
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 9,
+    "distinctiveness": 3.28
+   },
+   {
+    "label": "Greek",
+    "entity_id": "TERM_greek",
+    "count": 1,
+    "distinctiveness": 3.14
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 6,
+    "distinctiveness": 2.59
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 10,
+    "distinctiveness": 2.46
    },
    {
     "label": "King",
     "entity_id": "TERM_king",
     "count": 3,
-    "distinctiveness": 9.66
+    "distinctiveness": 2.26
    },
    {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 4,
-    "distinctiveness": 6.25
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
+    "count": 3,
+    "distinctiveness": 2.06
    },
    {
-    "label": "Lord",
-    "entity_id": "TERM_lord",
+    "label": "Thomas",
+    "entity_id": "TERM_thomas",
     "count": 1,
-    "distinctiveness": 3.92
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 2,
-    "distinctiveness": 3.74
-   },
-   {
-    "label": "Bill",
-    "entity_id": "TERM_bill",
-    "count": 1,
-    "distinctiveness": 2.95
-   },
-   {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 1,
-    "distinctiveness": 1.85
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 2,
-    "distinctiveness": 1.59
+    "distinctiveness": 1.98
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

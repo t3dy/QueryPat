@@ -12,13 +12,13 @@
   "title": "James P. Crow",
   "slug": "james-p-crow",
   "form": "story",
-  "word_count": 4398,
+  "word_count": 6177,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 24148,
-   "line_end": 24451,
-   "word_count": 4398,
+   "line_end": 24587,
+   "word_count": 6177,
    "status": "ready"
   }
  },
@@ -31,7 +31,7 @@
    {
     "name": "Humans",
     "name_id": "NAME_humans",
-    "mentions": 37
+    "mentions": 50
    }
   ],
   "place_candidates": [],
@@ -47,77 +47,71 @@
     "label": "Grace",
     "entity_id": "TERM_grace",
     "count": 8,
-    "distinctiveness": 112.04
+    "distinctiveness": 79.77
    },
    {
     "label": "James",
     "entity_id": "TERM_james",
     "count": 4,
-    "distinctiveness": 29.78
+    "distinctiveness": 21.21
    },
    {
     "label": "Scanner",
     "entity_id": "TERM_scanner",
-    "count": 4,
-    "distinctiveness": 12.92
+    "count": 7,
+    "distinctiveness": 16.1
    },
    {
     "label": "Roman",
     "entity_id": "TERM_roman",
     "count": 1,
-    "distinctiveness": 8.6
+    "distinctiveness": 6.12
    },
    {
     "label": "Gestalt",
     "entity_id": "TERM_gestalt",
     "count": 1,
-    "distinctiveness": 7.45
+    "distinctiveness": 5.3
+   },
+   {
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 13,
+    "distinctiveness": 4.64
    },
    {
     "label": "Being",
     "entity_id": "TERM_being",
-    "count": 13,
-    "distinctiveness": 5.57
+    "count": 15,
+    "distinctiveness": 4.57
+   },
+   {
+    "label": "Therefore",
+    "entity_id": "TERM_therefore",
+    "count": 1,
+    "distinctiveness": 3.61
    },
    {
     "label": "John",
     "entity_id": "TERM_john",
     "count": 2,
-    "distinctiveness": 4.55
+    "distinctiveness": 3.24
    },
    {
     "label": "Anyhow",
     "entity_id": "TERM_anyhow",
     "count": 3,
-    "distinctiveness": 2.51
+    "distinctiveness": 1.79
    },
    {
     "label": "Brain",
     "entity_id": "TERM_brain",
     "count": 2,
-    "distinctiveness": 2.19
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 4,
-    "distinctiveness": 1.7
-   },
-   {
-    "label": "Reality",
-    "entity_id": "TERM_reality",
-    "count": 1,
-    "distinctiveness": 1.68
-   },
-   {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 6,
     "distinctiveness": 1.56
    },
    {
-    "label": "Light",
-    "entity_id": "TERM_light",
+    "label": "Wait",
+    "entity_id": "TERM_wait",
     "count": 3,
     "distinctiveness": 1.53
    }

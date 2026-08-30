@@ -1,0 +1,177 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_UNRECONSTRUCTED_M",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-unreconstructed-m",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Unreconstructed M",
+  "slug": "the-unreconstructed-m",
+  "form": "story",
+  "word_count": 12791,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 40431,
+   "line_end": 41338,
+   "word_count": 12791,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "David Lantano",
+    "name_id": "NAME_david-lantano",
+    "mentions": 9
+   },
+   {
+    "name": "The Man",
+    "name_id": "NAME_the-man",
+    "mentions": 3
+   },
+   {
+    "name": "David",
+    "name_id": "NAME_david",
+    "mentions": 10
+   },
+   {
+    "name": "Mission",
+    "name_id": "NAME_mission",
+    "mentions": 1
+   },
+   {
+    "name": "Harvey",
+    "name_id": "NAME_harvey",
+    "mentions": 4
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Paul",
+    "entity_id": "TERM_paul",
+    "count": 18,
+    "distinctiveness": 17.69
+   },
+   {
+    "label": "Gestalt",
+    "entity_id": "TERM_gestalt",
+    "count": 2,
+    "distinctiveness": 5.12
+   },
+   {
+    "label": "Acts",
+    "entity_id": "TERM_acts",
+    "count": 1,
+    "distinctiveness": 4.82
+   },
+   {
+    "label": "Empire",
+    "entity_id": "TERM_empire",
+    "count": 1,
+    "distinctiveness": 2.85
+   },
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 1,
+    "distinctiveness": 2.26
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 11,
+    "distinctiveness": 2.13
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 7,
+    "distinctiveness": 2.01
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 2,
+    "distinctiveness": 1.89
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 6,
+    "distinctiveness": 1.79
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 10,
+    "distinctiveness": 1.76
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 2,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5595,
+      "quote": "…s upon four of Phil’s stories: “The Defenders” (1953), “The Mold of Yancy” (1955), “War Veteran” (1955), and “The Unreconstructed M” (1956). Penultimate is Phil’s most pointed examination of the lies woven by government. But the seriousness…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 818,
+      "quote": "…circular journey in _A Short, Sharp Shock_ (1990). > 18 See for instance _Time-Slip_ , _Palmer Eldritch_ , ‘The Unreconstructed M’ (1957, CS4), ‘Survey Team’ (1954, CS2), and _Lies, Inc_ . Or travellers may land on a previously unknown pla…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "2 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

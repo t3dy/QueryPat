@@ -1,0 +1,459 @@
+{
+ "slug": "novels-by-philip-k-dick",
+ "title": "Novels By Philip K. Dick",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI.md",
+  "line_start": 10,
+  "line_end": 87,
+  "word_count": 2321,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black-iron-prison",
+    "label": "Black Iron Prison",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 1.0,
+    "distinctiveness": 71.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_frolix",
+    "label": "Frolix",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 1.0,
+    "distinctiveness": 71.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_ubik",
+    "label": "Ubik",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 1.0,
+    "distinctiveness": 71.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_valis",
+    "label": "Valis",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 1.0,
+    "distinctiveness": 71.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_hermetic",
+    "label": "Hermetic",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 1.0,
+    "distinctiveness": 71.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gnostic",
+    "label": "Gnostic",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 1.0,
+    "distinctiveness": 71.55
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_deus",
+    "label": "Deus",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 3.1,
+    "distinctiveness": 53.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_spirit",
+    "label": "Spirit",
+    "count": 2,
+    "per_million": 861.7,
+    "background_per_million": 16.3,
+    "distinctiveness": 40.37
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_stigmata",
+    "label": "Stigmata",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 6.1,
+    "distinctiveness": 38.72
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palmer-eldritch",
+    "label": "Palmer Eldritch",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 7.2,
+    "distinctiveness": 35.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palmer",
+    "label": "Palmer",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 7.2,
+    "distinctiveness": 35.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_eldritch",
+    "label": "Eldritch",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 7.2,
+    "distinctiveness": 35.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_faith",
+    "label": "Faith",
+    "count": 3,
+    "per_million": 1292.5,
+    "background_per_million": 32.7,
+    "distinctiveness": 34.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_joint",
+    "label": "Joint",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 9.2,
+    "distinctiveness": 30.36
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_indian",
+    "label": "Indian",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 15.3,
+    "distinctiveness": 21.2
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_divine",
+    "label": "Divine",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 18.4,
+    "distinctiveness": 18.42
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_maze",
+    "label": "Maze",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 20.4,
+    "distinctiveness": 16.94
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fate",
+    "label": "Fate",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 20.4,
+    "distinctiveness": 16.94
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_prison",
+    "label": "Prison",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 24.5,
+    "distinctiveness": 14.6
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 2,
+    "per_million": 861.7,
+    "background_per_million": 59.2,
+    "distinctiveness": 13.41
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_philip",
+    "label": "Philip",
+    "count": 4,
+    "per_million": 1723.4,
+    "background_per_million": 124.6,
+    "distinctiveness": 13.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 29.6,
+    "distinctiveness": 12.44
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_scanner",
+    "label": "Scanner",
+    "count": 2,
+    "per_million": 861.7,
+    "background_per_million": 65.4,
+    "distinctiveness": 12.24
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_cosmic",
+    "label": "Cosmic",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 31.7,
+    "distinctiveness": 11.75
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 35.8,
+    "distinctiveness": 10.57
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 3,
+    "per_million": 1292.5,
+    "background_per_million": 130.7,
+    "distinctiveness": 9.52
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 2,
+    "per_million": 861.7,
+    "background_per_million": 89.9,
+    "distinctiveness": 9.08
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_thomas",
+    "label": "Thomas",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 44.9,
+    "distinctiveness": 8.63
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_john",
+    "label": "John",
+    "count": 2,
+    "per_million": 861.7,
+    "background_per_million": 95.0,
+    "distinctiveness": 8.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_king",
+    "label": "King",
+    "count": 2,
+    "per_million": 861.7,
+    "background_per_million": 126.7,
+    "distinctiveness": 6.54
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wisdom",
+    "label": "Wisdom",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 63.3,
+    "distinctiveness": 6.31
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_phil",
+    "label": "Phil",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 77.6,
+    "distinctiveness": 5.21
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_brain",
+    "label": "Brain",
+    "count": 2,
+    "per_million": 861.7,
+    "background_per_million": 202.2,
+    "distinctiveness": 4.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 3,
+    "per_million": 1292.5,
+    "background_per_million": 350.4,
+    "distinctiveness": 3.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 128.7,
+    "distinctiveness": 3.22
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_being",
+    "label": "Being",
+    "count": 3,
+    "per_million": 1292.5,
+    "background_per_million": 526.0,
+    "distinctiveness": 2.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 2,
+    "per_million": 861.7,
+    "background_per_million": 397.3,
+    "distinctiveness": 2.14
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 2,
+    "per_million": 861.7,
+    "background_per_million": 448.4,
+    "distinctiveness": 1.9
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.59
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_bruce",
+    "label": "Bruce",
+    "count": 4,
+    "per_million": 1723.4,
+    "background_per_million": 8.2,
+    "distinctiveness": 130.84
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_timothy-archer",
+    "label": "Timothy Archer",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 1.0,
+    "distinctiveness": 71.55
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_kurt-vonnegut",
+    "label": "Kurt Vonnegut",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 1.0,
+    "distinctiveness": 71.55
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_kleo",
+    "label": "Kleo",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 1.0,
+    "distinctiveness": 71.55
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_ae-van-vogt",
+    "label": "A.E. van Vogt",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 6.1,
+    "distinctiveness": 38.72
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_sophia",
+    "label": "Sophia",
+    "count": 2,
+    "per_million": 861.7,
+    "background_per_million": 17.4,
+    "distinctiveness": 38.53
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_van-vogt",
+    "label": "Van Vogt",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 12.3,
+    "distinctiveness": 24.97
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-wub",
+    "label": "The Wub",
+    "count": 1,
+    "per_million": 430.8,
+    "background_per_million": 122.6,
+    "distinctiveness": 3.38
+   }
+  ],
+  "distinct_terms": 39,
+  "distinct_names": 8
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

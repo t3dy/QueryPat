@@ -12,13 +12,13 @@
   "title": "The Indefatigable Frog",
   "slug": "the-indefatigable-frog",
   "form": "story",
-  "word_count": 2701,
+  "word_count": 3511,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 7202,
-   "line_end": 7433,
-   "word_count": 2701,
+   "line_end": 7503,
+   "word_count": 3511,
    "status": "ready"
   }
  },
@@ -41,49 +41,61 @@
     "label": "Maze",
     "entity_id": "TERM_maze",
     "count": 1,
-    "distinctiveness": 14.56
+    "distinctiveness": 11.2
    },
    {
     "label": "Prison",
     "entity_id": "TERM_prison",
     "count": 1,
-    "distinctiveness": 12.54
+    "distinctiveness": 9.65
    },
    {
     "label": "Therefore",
     "entity_id": "TERM_therefore",
     "count": 1,
-    "distinctiveness": 8.26
+    "distinctiveness": 6.35
    },
    {
     "label": "Well",
     "entity_id": "TERM_well",
     "count": 16,
-    "distinctiveness": 6.14
+    "distinctiveness": 4.73
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 4,
+    "distinctiveness": 4.36
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 5,
+    "distinctiveness": 3.2
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 1,
+    "distinctiveness": 2.58
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 1,
+    "distinctiveness": 2.13
    },
    {
     "label": "Reality",
     "entity_id": "TERM_reality",
     "count": 1,
-    "distinctiveness": 2.73
+    "distinctiveness": 2.1
    },
    {
     "label": "Wait",
     "entity_id": "TERM_wait",
     "count": 2,
-    "distinctiveness": 2.34
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 3,
-    "distinctiveness": 1.81
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 2,
-    "distinctiveness": 1.66
+    "distinctiveness": 1.8
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

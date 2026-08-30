@@ -12,13 +12,13 @@
   "title": "Stand-by",
   "slug": "stand-by",
   "form": "story",
-  "word_count": 7019,
+  "word_count": 14905,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 46509,
-   "line_end": 46920,
-   "word_count": 7019,
+   "line_end": 47510,
+   "word_count": 14905,
    "status": "ready"
   }
  },
@@ -31,12 +31,17 @@
    {
     "name": "Jim Briskin",
     "name_id": "NAME_jim-briskin",
-    "mentions": 15
+    "mentions": 26
    },
    {
     "name": "The FBI",
     "name_id": "NAME_the-fbi",
-    "mentions": 3
+    "mentions": 7
+   },
+   {
+    "name": "Mission",
+    "name_id": "NAME_mission",
+    "mentions": 1
    }
   ],
   "place_candidates": [],
@@ -51,38 +56,68 @@
    {
     "label": "James",
     "entity_id": "TERM_james",
+    "count": 4,
+    "distinctiveness": 8.79
+   },
+   {
+    "label": "Prison",
+    "entity_id": "TERM_prison",
     "count": 3,
-    "distinctiveness": 14.0
+    "distinctiveness": 6.82
+   },
+   {
+    "label": "Spirit",
+    "entity_id": "TERM_spirit",
+    "count": 2,
+    "distinctiveness": 6.29
    },
    {
     "label": "Joint",
     "entity_id": "TERM_joint",
     "count": 1,
-    "distinctiveness": 10.04
+    "distinctiveness": 4.73
    },
    {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 16,
-    "distinctiveness": 4.27
-   },
-   {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 5,
-    "distinctiveness": 2.62
+    "label": "Creator",
+    "entity_id": "TERM_creator",
+    "count": 1,
+    "distinctiveness": 4.41
    },
    {
     "label": "Okay",
     "entity_id": "TERM_okay",
+    "count": 12,
+    "distinctiveness": 3.5
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 19,
+    "distinctiveness": 2.39
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 9,
+    "distinctiveness": 2.22
+   },
+   {
+    "label": "Lord",
+    "entity_id": "TERM_lord",
     "count": 3,
     "distinctiveness": 1.86
    },
    {
-    "label": "Look",
-    "entity_id": "TERM_look",
-    "count": 11,
-    "distinctiveness": 1.79
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 15,
+    "distinctiveness": 1.64
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 22,
+    "distinctiveness": 1.53
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

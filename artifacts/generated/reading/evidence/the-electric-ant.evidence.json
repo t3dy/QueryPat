@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 53911,
-  "line_end": 54344,
-  "word_count": 6488,
+  "line_end": 54374,
+  "word_count": 6789,
   "status": "ready"
  },
  "structure": {
@@ -20,109 +20,100 @@
     "entity_type": "term",
     "entity_id": "TERM_reality",
     "label": "Reality",
-    "count": 18,
-    "per_million": 2774.4,
+    "count": 19,
+    "per_million": 2798.6,
     "background_per_million": 130.7,
-    "distinctiveness": 20.44
+    "distinctiveness": 20.62
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_scanner",
     "label": "Scanner",
     "count": 9,
-    "per_million": 1387.2,
+    "per_million": 1325.7,
     "background_per_million": 65.4,
-    "distinctiveness": 19.71
+    "distinctiveness": 18.84
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_daniel",
     "label": "Daniel",
     "count": 1,
-    "per_million": 154.1,
+    "per_million": 147.3,
     "background_per_million": 4.1,
-    "distinctiveness": 16.96
+    "distinctiveness": 16.21
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_maze",
     "label": "Maze",
     "count": 1,
-    "per_million": 154.1,
+    "per_million": 147.3,
     "background_per_million": 20.4,
-    "distinctiveness": 6.06
+    "distinctiveness": 5.79
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_march",
     "label": "March",
     "count": 1,
-    "per_million": 154.1,
+    "per_million": 147.3,
     "background_per_million": 22.5,
-    "distinctiveness": 5.61
+    "distinctiveness": 5.36
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_bill",
     "label": "Bill",
     "count": 5,
-    "per_million": 770.7,
+    "per_million": 736.5,
     "background_per_million": 138.9,
-    "distinctiveness": 5.35
+    "distinctiveness": 5.12
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_christ",
     "label": "Christ",
     "count": 2,
-    "per_million": 308.3,
+    "per_million": 294.6,
     "background_per_million": 73.5,
-    "distinctiveness": 3.92
+    "distinctiveness": 3.75
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_brain",
     "label": "Brain",
     "count": 5,
-    "per_million": 770.7,
+    "per_million": 736.5,
     "background_per_million": 202.2,
-    "distinctiveness": 3.72
+    "distinctiveness": 3.55
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_light",
     "label": "Light",
     "count": 7,
-    "per_million": 1078.9,
+    "per_million": 1031.1,
     "background_per_million": 440.2,
-    "distinctiveness": 2.42
+    "distinctiveness": 2.32
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_obviously",
     "label": "Obviously",
     "count": 2,
-    "per_million": 308.3,
+    "per_million": 294.6,
     "background_per_million": 138.9,
-    "distinctiveness": 2.14
+    "distinctiveness": 2.05
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_self",
     "label": "Self",
     "count": 1,
-    "per_million": 154.1,
+    "per_million": 147.3,
     "background_per_million": 89.9,
-    "distinctiveness": 1.62
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_mind",
-    "label": "Mind",
-    "count": 6,
-    "per_million": 924.8,
-    "background_per_million": 609.8,
-    "distinctiveness": 1.5
+    "distinctiveness": 1.55
    }
   ],
   "names": [
@@ -131,12 +122,12 @@
     "entity_id": "NAME_garson-poole",
     "label": "Garson Poole",
     "count": 4,
-    "per_million": 616.5,
+    "per_million": 589.2,
     "background_per_million": 8.2,
-    "distinctiveness": 46.81
+    "distinctiveness": 44.73
    }
   ],
-  "distinct_terms": 12,
+  "distinct_terms": 11,
   "distinct_names": 1
  },
  "title_search": {

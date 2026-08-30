@@ -12,13 +12,13 @@
   "title": "The Great C",
   "slug": "the-great-c",
   "form": "story",
-  "word_count": 2213,
+  "word_count": 5033,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 9904,
-   "line_end": 10013,
-   "word_count": 2213,
+   "line_end": 10257,
+   "word_count": 5033,
    "status": "ready"
   }
  },
@@ -31,7 +31,7 @@
    {
     "name": "Anne",
     "name_id": "NAME_anne",
-    "mentions": 1
+    "mentions": 2
    }
   ],
   "place_candidates": [],
@@ -44,70 +44,94 @@
  "concepts": {
   "distinctive_terms": [
    {
-    "label": "Iron",
-    "entity_id": "TERM_iron",
-    "count": 1,
-    "distinctiveness": 13.05
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 49,
+    "distinctiveness": 16.38
    },
    {
     "label": "Book",
     "entity_id": "TERM_book",
-    "count": 3,
-    "distinctiveness": 10.14
+    "count": 5,
+    "distinctiveness": 7.43
+   },
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 1,
+    "distinctiveness": 5.74
    },
    {
     "label": "Light",
     "entity_id": "TERM_light",
-    "count": 6,
-    "distinctiveness": 6.09
+    "count": 10,
+    "distinctiveness": 4.46
    },
    {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 7,
-    "distinctiveness": 5.32
+    "label": "Therefore",
+    "entity_id": "TERM_therefore",
+    "count": 1,
+    "distinctiveness": 4.43
+   },
+   {
+    "label": "Bill",
+    "entity_id": "TERM_bill",
+    "count": 2,
+    "distinctiveness": 2.76
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 4,
+    "distinctiveness": 2.51
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 1,
+    "distinctiveness": 2.4
    },
    {
     "label": "John",
     "entity_id": "TERM_john",
     "count": 1,
-    "distinctiveness": 4.52
-   },
-   {
-    "label": "House",
-    "entity_id": "TERM_house",
-    "count": 4,
-    "distinctiveness": 3.38
+    "distinctiveness": 1.99
    },
    {
     "label": "Black",
     "entity_id": "TERM_black",
-    "count": 3,
-    "distinctiveness": 3.37
+    "count": 4,
+    "distinctiveness": 1.98
    },
    {
-    "label": "Anyhow",
-    "entity_id": "TERM_anyhow",
-    "count": 2,
-    "distinctiveness": 3.33
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 5,
+    "distinctiveness": 1.86
    },
    {
-    "label": "Bill",
-    "entity_id": "TERM_bill",
+    "label": "Fall",
+    "entity_id": "TERM_fall",
     "count": 1,
-    "distinctiveness": 3.14
+    "distinctiveness": 1.8
    },
    {
-    "label": "Good",
-    "entity_id": "TERM_good",
-    "count": 6,
-    "distinctiveness": 2.5
+    "label": "Earth",
+    "entity_id": "TERM_earth",
+    "count": 4,
+    "distinctiveness": 1.75
    },
    {
     "label": "Mind",
     "entity_id": "TERM_mind",
-    "count": 3,
-    "distinctiveness": 2.2
+    "count": 5,
+    "distinctiveness": 1.62
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 2,
+    "distinctiveness": 1.52
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

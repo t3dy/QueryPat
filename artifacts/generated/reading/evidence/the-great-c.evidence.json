@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 9904,
-  "line_end": 10013,
-  "word_count": 2213,
+  "line_end": 10257,
+  "word_count": 5033,
   "status": "ready"
  },
  "structure": {
@@ -18,102 +18,138 @@
   "terms": [
    {
     "entity_type": "term",
-    "entity_id": "TERM_iron",
-    "label": "Iron",
-    "count": 1,
-    "per_million": 451.9,
-    "background_per_million": 29.6,
-    "distinctiveness": 13.05
+    "entity_id": "TERM_great",
+    "label": "Great",
+    "count": 49,
+    "per_million": 9735.7,
+    "background_per_million": 589.4,
+    "distinctiveness": 16.38
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_book",
     "label": "Book",
-    "count": 3,
-    "per_million": 1355.6,
+    "count": 5,
+    "per_million": 993.4,
     "background_per_million": 128.7,
-    "distinctiveness": 10.14
+    "distinctiveness": 7.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 198.7,
+    "background_per_million": 29.6,
+    "distinctiveness": 5.74
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_light",
     "label": "Light",
-    "count": 6,
-    "per_million": 2711.3,
+    "count": 10,
+    "per_million": 1986.9,
     "background_per_million": 440.2,
-    "distinctiveness": 6.09
+    "distinctiveness": 4.46
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_great",
-    "label": "Great",
-    "count": 7,
-    "per_million": 3163.1,
-    "background_per_million": 589.4,
-    "distinctiveness": 5.32
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 198.7,
+    "background_per_million": 39.8,
+    "distinctiveness": 4.43
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bill",
+    "label": "Bill",
+    "count": 2,
+    "per_million": 397.4,
+    "background_per_million": 138.9,
+    "distinctiveness": 2.76
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 4,
+    "per_million": 794.8,
+    "background_per_million": 311.5,
+    "distinctiveness": 2.51
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 1,
+    "per_million": 198.7,
+    "background_per_million": 77.6,
+    "distinctiveness": 2.4
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_john",
     "label": "John",
     "count": 1,
-    "per_million": 451.9,
+    "per_million": 198.7,
     "background_per_million": 95.0,
-    "distinctiveness": 4.52
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_house",
-    "label": "House",
-    "count": 4,
-    "per_million": 1807.5,
-    "background_per_million": 529.1,
-    "distinctiveness": 3.38
+    "distinctiveness": 1.99
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_black",
     "label": "Black",
-    "count": 3,
-    "per_million": 1355.6,
+    "count": 4,
+    "per_million": 794.8,
     "background_per_million": 397.3,
-    "distinctiveness": 3.37
+    "distinctiveness": 1.98
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_anyhow",
-    "label": "Anyhow",
-    "count": 2,
-    "per_million": 903.8,
-    "background_per_million": 266.6,
-    "distinctiveness": 3.33
+    "entity_id": "TERM_house",
+    "label": "House",
+    "count": 5,
+    "per_million": 993.4,
+    "background_per_million": 529.1,
+    "distinctiveness": 1.86
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_bill",
-    "label": "Bill",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
     "count": 1,
-    "per_million": 451.9,
-    "background_per_million": 138.9,
-    "distinctiveness": 3.14
+    "per_million": 198.7,
+    "background_per_million": 105.2,
+    "distinctiveness": 1.8
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_good",
-    "label": "Good",
-    "count": 6,
-    "per_million": 2711.3,
-    "background_per_million": 1079.7,
-    "distinctiveness": 2.5
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 4,
+    "per_million": 794.8,
+    "background_per_million": 448.4,
+    "distinctiveness": 1.75
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_mind",
     "label": "Mind",
-    "count": 3,
-    "per_million": 1355.6,
+    "count": 5,
+    "per_million": 993.4,
     "background_per_million": 609.8,
-    "distinctiveness": 2.2
+    "distinctiveness": 1.62
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 2,
+    "per_million": 397.4,
+    "background_per_million": 256.4,
+    "distinctiveness": 1.52
    }
   ],
   "names": [
@@ -121,13 +157,13 @@
     "entity_type": "name",
     "entity_id": "NAME_anne",
     "label": "Anne",
-    "count": 1,
-    "per_million": 451.9,
+    "count": 2,
+    "per_million": 397.4,
     "background_per_million": 2.0,
-    "distinctiveness": 64.16
+    "distinctiveness": 56.42
    }
   ],
-  "distinct_terms": 11,
+  "distinct_terms": 15,
   "distinct_names": 1
  },
  "title_search": {

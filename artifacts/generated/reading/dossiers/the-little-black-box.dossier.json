@@ -1,0 +1,193 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_LITTLE_BLACK_BOX",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-little-black-box",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Little Black Box",
+  "slug": "the-little-black-box",
+  "form": "story",
+  "word_count": 8936,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 48185,
+   "line_end": 48884,
+   "word_count": 8936,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Wilbur Mercer",
+    "name_id": "NAME_wilbur-mercer",
+    "mentions": 29
+   },
+   {
+    "name": "Joan",
+    "name_id": "NAME_joan",
+    "mentions": 60
+   },
+   {
+    "name": "Saint",
+    "name_id": "NAME_saint",
+    "mentions": 1
+   },
+   {
+    "name": "The FBI",
+    "name_id": "NAME_the-fbi",
+    "mentions": 3
+   },
+   {
+    "name": "The authorities",
+    "name_id": "NAME_the-authorities",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Buddhism",
+    "entity_id": "TERM_buddhism",
+    "count": 5,
+    "distinctiveness": 50.28
+   },
+   {
+    "label": "Buddha",
+    "entity_id": "TERM_buddha",
+    "count": 4,
+    "distinctiveness": 49.27
+   },
+   {
+    "label": "Krishna",
+    "entity_id": "TERM_krishna",
+    "count": 1,
+    "distinctiveness": 18.58
+   },
+   {
+    "label": "Folder",
+    "entity_id": "TERM_folder",
+    "count": 2,
+    "distinctiveness": 12.97
+   },
+   {
+    "label": "Santa",
+    "entity_id": "TERM_santa",
+    "count": 1,
+    "distinctiveness": 8.5
+   },
+   {
+    "label": "Roman",
+    "entity_id": "TERM_roman",
+    "count": 1,
+    "distinctiveness": 4.23
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 17,
+    "distinctiveness": 3.09
+   },
+   {
+    "label": "Faith",
+    "entity_id": "TERM_faith",
+    "count": 1,
+    "distinctiveness": 2.97
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 5,
+    "distinctiveness": 2.06
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 5,
+    "distinctiveness": 1.77
+   },
+   {
+    "label": "Being",
+    "entity_id": "TERM_being",
+    "count": 8,
+    "distinctiveness": 1.69
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 7,
+    "distinctiveness": 1.67
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 3,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 5621,
+      "quote": "…ntervention of Wilbur Mercer (left out of the film), who is contacted by gripping “empathy box” handles (cf. “The Little Black Box” [1964] and the empathic Ludens Maze in The Zap Gun). Mercer is exposed by TV personality-jerk Buster Friendl…"
+     },
+     {
+      "line": 5647,
+      "quote": "…w. 1963, p. 1964), in which the all-too-human need for hope gives the conquering Proxmen the edge they need. “The Little Black Box” (1964), originally part of The Canymede Takeover but removed from the final version, introduces the empathic…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_SEARCH_FOR_PHILIP_K_D.md",
+    "author": "Anne R. Dick",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 1241,
+      "quote": "…left over from _The Man Whose Teeth Were All Exactly Alike_ . The scary stories “What the Dead Men Say” and “The Little Black Box,” and the novel _The Unteleported Man_ , were also part of this output. None of the money from these works we…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "3 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

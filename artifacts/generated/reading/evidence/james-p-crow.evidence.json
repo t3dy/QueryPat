@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 24148,
-  "line_end": 24451,
-  "word_count": 4398,
+  "line_end": 24587,
+  "word_count": 6177,
   "status": "ready"
  },
  "structure": {
@@ -21,116 +21,107 @@
     "entity_id": "TERM_grace",
     "label": "Grace",
     "count": 8,
-    "per_million": 1819.0,
+    "per_million": 1295.1,
     "background_per_million": 11.2,
-    "distinctiveness": 112.04
+    "distinctiveness": 79.77
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_james",
     "label": "James",
     "count": 4,
-    "per_million": 909.5,
+    "per_million": 647.6,
     "background_per_million": 25.5,
-    "distinctiveness": 29.78
+    "distinctiveness": 21.21
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_scanner",
     "label": "Scanner",
-    "count": 4,
-    "per_million": 909.5,
+    "count": 7,
+    "per_million": 1133.2,
     "background_per_million": 65.4,
-    "distinctiveness": 12.92
+    "distinctiveness": 16.1
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_roman",
     "label": "Roman",
     "count": 1,
-    "per_million": 227.4,
+    "per_million": 161.9,
     "background_per_million": 21.5,
-    "distinctiveness": 8.6
+    "distinctiveness": 6.12
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_gestalt",
     "label": "Gestalt",
     "count": 1,
-    "per_million": 227.4,
+    "per_million": 161.9,
     "background_per_million": 25.5,
-    "distinctiveness": 7.45
+    "distinctiveness": 5.3
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 13,
+    "per_million": 2104.6,
+    "background_per_million": 448.4,
+    "distinctiveness": 4.64
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_being",
     "label": "Being",
-    "count": 13,
-    "per_million": 2955.9,
+    "count": 15,
+    "per_million": 2428.4,
     "background_per_million": 526.0,
-    "distinctiveness": 5.57
+    "distinctiveness": 4.57
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_therefore",
+    "label": "Therefore",
+    "count": 1,
+    "per_million": 161.9,
+    "background_per_million": 39.8,
+    "distinctiveness": 3.61
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_john",
     "label": "John",
     "count": 2,
-    "per_million": 454.8,
+    "per_million": 323.8,
     "background_per_million": 95.0,
-    "distinctiveness": 4.55
+    "distinctiveness": 3.24
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_anyhow",
     "label": "Anyhow",
     "count": 3,
-    "per_million": 682.1,
+    "per_million": 485.7,
     "background_per_million": 266.6,
-    "distinctiveness": 2.51
+    "distinctiveness": 1.79
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_brain",
     "label": "Brain",
     "count": 2,
-    "per_million": 454.8,
+    "per_million": 323.8,
     "background_per_million": 202.2,
-    "distinctiveness": 2.19
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_house",
-    "label": "House",
-    "count": 4,
-    "per_million": 909.5,
-    "background_per_million": 529.1,
-    "distinctiveness": 1.7
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_reality",
-    "label": "Reality",
-    "count": 1,
-    "per_million": 227.4,
-    "background_per_million": 130.7,
-    "distinctiveness": 1.68
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_look",
-    "label": "Look",
-    "count": 6,
-    "per_million": 1364.3,
-    "background_per_million": 868.2,
     "distinctiveness": 1.56
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_light",
-    "label": "Light",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
     "count": 3,
-    "per_million": 682.1,
-    "background_per_million": 440.2,
+    "per_million": 485.7,
+    "background_per_million": 311.5,
     "distinctiveness": 1.53
    }
   ],
@@ -139,13 +130,13 @@
     "entity_type": "name",
     "entity_id": "NAME_humans",
     "label": "Humans",
-    "count": 37,
-    "per_million": 8412.9,
+    "count": 50,
+    "per_million": 8094.5,
     "background_per_million": 112.4,
-    "distinctiveness": 71.68
+    "distinctiveness": 68.97
    }
   ],
-  "distinct_terms": 13,
+  "distinct_terms": 12,
   "distinct_names": 1
  },
  "title_search": {

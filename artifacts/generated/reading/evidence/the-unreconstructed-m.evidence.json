@@ -1,0 +1,198 @@
+{
+ "slug": "the-unreconstructed-m",
+ "title": "The Unreconstructed M",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 40431,
+  "line_end": 41338,
+  "word_count": 12791,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 18,
+    "per_million": 1407.2,
+    "background_per_million": 74.6,
+    "distinctiveness": 17.69
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gestalt",
+    "label": "Gestalt",
+    "count": 2,
+    "per_million": 156.4,
+    "background_per_million": 25.5,
+    "distinctiveness": 5.12
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_acts",
+    "label": "Acts",
+    "count": 1,
+    "per_million": 78.2,
+    "background_per_million": 11.2,
+    "distinctiveness": 4.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_empire",
+    "label": "Empire",
+    "count": 1,
+    "per_million": 78.2,
+    "background_per_million": 22.5,
+    "distinctiveness": 2.85
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 1,
+    "per_million": 78.2,
+    "background_per_million": 29.6,
+    "distinctiveness": 2.26
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 11,
+    "per_million": 860.0,
+    "background_per_million": 398.4,
+    "distinctiveness": 2.13
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 7,
+    "per_million": 547.3,
+    "background_per_million": 266.6,
+    "distinctiveness": 2.01
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 2,
+    "per_million": 156.4,
+    "background_per_million": 77.6,
+    "distinctiveness": 1.89
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 6,
+    "per_million": 469.1,
+    "background_per_million": 256.4,
+    "distinctiveness": 1.79
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 10,
+    "per_million": 781.8,
+    "background_per_million": 440.2,
+    "distinctiveness": 1.76
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_david-lantano",
+    "label": "David Lantano",
+    "count": 9,
+    "per_million": 703.6,
+    "background_per_million": 9.2,
+    "distinctiveness": 49.57
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-man",
+    "label": "The Man",
+    "count": 3,
+    "per_million": 234.5,
+    "background_per_million": 19.4,
+    "distinctiveness": 9.61
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_david",
+    "label": "David",
+    "count": 10,
+    "per_million": 781.8,
+    "background_per_million": 122.6,
+    "distinctiveness": 6.13
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_mission",
+    "label": "Mission",
+    "count": 1,
+    "per_million": 78.2,
+    "background_per_million": 12.3,
+    "distinctiveness": 4.53
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_harvey",
+    "label": "Harvey",
+    "count": 4,
+    "per_million": 312.7,
+    "background_per_million": 110.3,
+    "distinctiveness": 2.71
+   }
+  ],
+  "distinct_terms": 10,
+  "distinct_names": 5
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 5595,
+      "quote": "…s upon four of Phil’s stories: “The Defenders” (1953), “The Mold of Yancy” (1955), “War Veteran” (1955), and “The Unreconstructed M” (1956). Penultimate is Phil’s most pointed examination of the lies woven by government. But the seriousness…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 818,
+      "quote": "…circular journey in _A Short, Sharp Shock_ (1990). > 18 See for instance _Time-Slip_ , _Palmer Eldritch_ , ‘The Unreconstructed M’ (1957, CS4), ‘Survey Team’ (1954, CS2), and _Lies, Inc_ . Or travellers may land on a previously unknown pla…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 2
+ }
+}

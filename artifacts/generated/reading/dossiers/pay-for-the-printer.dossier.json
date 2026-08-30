@@ -12,13 +12,13 @@
   "title": "Pay For The Printer",
   "slug": "pay-for-the-printer",
   "form": "story",
-  "word_count": 6546,
+  "word_count": 6364,
   "lane": "A",
   "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-   "line_start": 7064,
-   "line_end": 7433,
-   "word_count": 6546,
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 33417,
+   "line_end": 33792,
+   "word_count": 6364,
    "status": "ready"
   }
  },
@@ -41,49 +41,49 @@
     "label": "John",
     "entity_id": "TERM_john",
     "count": 5,
-    "distinctiveness": 7.64
+    "distinctiveness": 7.86
    },
    {
     "label": "Black",
     "entity_id": "TERM_black",
     "count": 15,
-    "distinctiveness": 5.7
+    "distinctiveness": 5.86
    },
    {
     "label": "Fall",
     "entity_id": "TERM_fall",
     "count": 3,
-    "distinctiveness": 4.16
+    "distinctiveness": 4.28
    },
    {
     "label": "Garden",
     "entity_id": "TERM_garden",
     "count": 1,
-    "distinctiveness": 2.54
+    "distinctiveness": 2.61
    },
    {
     "label": "Look",
     "entity_id": "TERM_look",
     "count": 13,
-    "distinctiveness": 2.27
+    "distinctiveness": 2.34
    },
    {
     "label": "Girl",
     "entity_id": "TERM_girl",
     "count": 6,
-    "distinctiveness": 1.96
+    "distinctiveness": 2.02
    },
    {
     "label": "Star",
     "entity_id": "TERM_star",
     "count": 1,
-    "distinctiveness": 1.85
+    "distinctiveness": 1.9
    },
    {
     "label": "Good",
     "entity_id": "TERM_good",
     "count": 13,
-    "distinctiveness": 1.83
+    "distinctiveness": 1.88
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

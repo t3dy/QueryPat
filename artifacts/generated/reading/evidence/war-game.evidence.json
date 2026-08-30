@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 41699,
-  "line_end": 41848,
-  "word_count": 2061,
+  "line_end": 42200,
+  "word_count": 6042,
   "status": "ready"
  },
  "structure": {
@@ -21,45 +21,45 @@
     "entity_id": "TERM_bureau",
     "label": "Bureau",
     "count": 1,
-    "per_million": 485.2,
+    "per_million": 165.5,
     "background_per_million": 38.8,
-    "distinctiveness": 11.07
+    "distinctiveness": 3.78
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 3,
+    "per_million": 496.5,
+    "background_per_million": 138.9,
+    "distinctiveness": 3.45
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 2,
+    "per_million": 331.0,
+    "background_per_million": 130.7,
+    "distinctiveness": 2.44
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 3,
+    "per_million": 496.5,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.83
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_fall",
     "label": "Fall",
     "count": 1,
-    "per_million": 485.2,
+    "per_million": 165.5,
     "background_per_million": 105.2,
-    "distinctiveness": 4.4
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_reality",
-    "label": "Reality",
-    "count": 1,
-    "per_million": 485.2,
-    "background_per_million": 130.7,
-    "distinctiveness": 3.57
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_being",
-    "label": "Being",
-    "count": 2,
-    "per_million": 970.4,
-    "background_per_million": 526.0,
-    "distinctiveness": 1.83
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_anyhow",
-    "label": "Anyhow",
-    "count": 1,
-    "per_million": 485.2,
-    "background_per_million": 266.6,
-    "distinctiveness": 1.79
+    "distinctiveness": 1.5
    }
   ],
   "names": [
@@ -68,9 +68,9 @@
     "entity_id": "NAME_the-projector",
     "label": "The Projector",
     "count": 1,
-    "per_million": 485.2,
+    "per_million": 165.5,
     "background_per_million": 5.1,
-    "distinctiveness": 48.01
+    "distinctiveness": 16.38
    }
   ],
   "distinct_terms": 5,

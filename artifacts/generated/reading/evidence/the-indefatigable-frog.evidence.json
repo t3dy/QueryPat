@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 7202,
-  "line_end": 7433,
-  "word_count": 2701,
+  "line_end": 7503,
+  "word_count": 3511,
   "status": "ready"
  },
  "structure": {
@@ -21,76 +21,94 @@
     "entity_id": "TERM_maze",
     "label": "Maze",
     "count": 1,
-    "per_million": 370.2,
+    "per_million": 284.8,
     "background_per_million": 20.4,
-    "distinctiveness": 14.56
+    "distinctiveness": 11.2
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_prison",
     "label": "Prison",
     "count": 1,
-    "per_million": 370.2,
+    "per_million": 284.8,
     "background_per_million": 24.5,
-    "distinctiveness": 12.54
+    "distinctiveness": 9.65
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_therefore",
     "label": "Therefore",
     "count": 1,
-    "per_million": 370.2,
+    "per_million": 284.8,
     "background_per_million": 39.8,
-    "distinctiveness": 8.26
+    "distinctiveness": 6.35
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_well",
     "label": "Well",
     "count": 16,
-    "per_million": 5923.7,
+    "per_million": 4557.1,
     "background_per_million": 959.1,
-    "distinctiveness": 6.14
+    "distinctiveness": 4.73
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 4,
+    "per_million": 1139.3,
+    "background_per_million": 256.4,
+    "distinctiveness": 4.36
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_light",
+    "label": "Light",
+    "count": 5,
+    "per_million": 1424.1,
+    "background_per_million": 440.2,
+    "distinctiveness": 3.2
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 1,
+    "per_million": 284.8,
+    "background_per_million": 105.2,
+    "distinctiveness": 2.58
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_book",
+    "label": "Book",
+    "count": 1,
+    "per_million": 284.8,
+    "background_per_million": 128.7,
+    "distinctiveness": 2.13
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_reality",
     "label": "Reality",
     "count": 1,
-    "per_million": 370.2,
+    "per_million": 284.8,
     "background_per_million": 130.7,
-    "distinctiveness": 2.73
+    "distinctiveness": 2.1
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_wait",
     "label": "Wait",
     "count": 2,
-    "per_million": 740.5,
+    "per_million": 569.6,
     "background_per_million": 311.5,
-    "distinctiveness": 2.34
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_mind",
-    "label": "Mind",
-    "count": 3,
-    "per_million": 1110.7,
-    "background_per_million": 609.8,
-    "distinctiveness": 1.81
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_light",
-    "label": "Light",
-    "count": 2,
-    "per_million": 740.5,
-    "background_per_million": 440.2,
-    "distinctiveness": 1.66
+    "distinctiveness": 1.8
    }
   ],
   "names": [],
-  "distinct_terms": 8,
+  "distinct_terms": 10,
   "distinct_names": 0
  },
  "title_search": {

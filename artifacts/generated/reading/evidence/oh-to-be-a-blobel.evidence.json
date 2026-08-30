@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 47511,
-  "line_end": 47964,
-  "word_count": 6754,
+  "line_end": 48058,
+  "word_count": 9753,
   "status": "ready"
  },
  "structure": {
@@ -18,75 +18,174 @@
   "terms": [
    {
     "entity_type": "term",
+    "entity_id": "TERM_stigmata",
+    "label": "Stigmata",
+    "count": 5,
+    "per_million": 512.7,
+    "background_per_million": 6.1,
+    "distinctiveness": 46.07
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palmer-eldritch",
+    "label": "Palmer Eldritch",
+    "count": 5,
+    "per_million": 512.7,
+    "background_per_million": 7.2,
+    "distinctiveness": 42.19
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_palmer",
+    "label": "Palmer",
+    "count": 5,
+    "per_million": 512.7,
+    "background_per_million": 7.2,
+    "distinctiveness": 42.19
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_eldritch",
+    "label": "Eldritch",
+    "count": 5,
+    "per_million": 512.7,
+    "background_per_million": 7.2,
+    "distinctiveness": 42.19
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_satan",
+    "label": "Satan",
+    "count": 1,
+    "per_million": 102.5,
+    "background_per_million": 3.1,
+    "distinctiveness": 12.71
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christian",
+    "label": "Christian",
+    "count": 1,
+    "per_million": 102.5,
+    "background_per_million": 8.2,
+    "distinctiveness": 7.78
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_church",
+    "label": "Church",
+    "count": 2,
+    "per_million": 205.1,
+    "background_per_million": 22.5,
+    "distinctiveness": 7.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_iron",
+    "label": "Iron",
+    "count": 2,
+    "per_million": 205.1,
+    "background_per_million": 29.6,
+    "distinctiveness": 5.92
+   },
+   {
+    "entity_type": "term",
     "entity_id": "TERM_tears",
     "label": "Tears",
     "count": 2,
-    "per_million": 296.1,
+    "per_million": 205.1,
     "background_per_million": 35.8,
-    "distinctiveness": 7.27
+    "distinctiveness": 5.03
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_father",
+    "label": "Father",
+    "count": 15,
+    "per_million": 1538.0,
+    "background_per_million": 350.4,
+    "distinctiveness": 4.33
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_fate",
     "label": "Fate",
     "count": 1,
-    "per_million": 148.1,
+    "per_million": 102.5,
     "background_per_million": 20.4,
-    "distinctiveness": 5.82
+    "distinctiveness": 4.03
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_greek",
+    "label": "Greek",
+    "count": 1,
+    "per_million": 102.5,
+    "background_per_million": 26.6,
+    "distinctiveness": 3.25
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 2,
+    "per_million": 205.1,
+    "background_per_million": 59.2,
+    "distinctiveness": 3.19
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_philip",
+    "label": "Philip",
+    "count": 4,
+    "per_million": 410.1,
+    "background_per_million": 124.6,
+    "distinctiveness": 3.16
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 4,
+    "per_million": 410.1,
+    "background_per_million": 138.9,
+    "distinctiveness": 2.85
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_star",
     "label": "Star",
     "count": 2,
-    "per_million": 296.1,
+    "per_million": 205.1,
     "background_per_million": 77.6,
-    "distinctiveness": 3.58
+    "distinctiveness": 2.48
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_girl",
     "label": "Girl",
     "count": 10,
-    "per_million": 1480.6,
+    "per_million": 1025.3,
     "background_per_million": 462.7,
-    "distinctiveness": 3.17
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_golden",
-    "label": "Golden",
-    "count": 1,
-    "per_million": 148.1,
-    "background_per_million": 59.2,
-    "distinctiveness": 2.3
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_obviously",
-    "label": "Obviously",
-    "count": 2,
-    "per_million": 296.1,
-    "background_per_million": 138.9,
-    "distinctiveness": 2.06
+    "distinctiveness": 2.19
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_being",
     "label": "Being",
-    "count": 6,
-    "per_million": 888.4,
+    "count": 11,
+    "per_million": 1127.9,
     "background_per_million": 526.0,
-    "distinctiveness": 1.67
+    "distinctiveness": 2.12
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_self",
-    "label": "Self",
-    "count": 1,
-    "per_million": 148.1,
-    "background_per_million": 89.9,
-    "distinctiveness": 1.56
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 4,
+    "per_million": 410.1,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.51
    }
   ],
   "names": [
@@ -95,31 +194,85 @@
     "entity_id": "NAME_nina",
     "label": "Nina",
     "count": 7,
-    "per_million": 1036.4,
+    "per_million": 717.7,
     "background_per_million": 7.2,
-    "distinctiveness": 85.3
+    "distinctiveness": 59.07
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_hitler",
+    "label": "Hitler",
+    "count": 4,
+    "per_million": 410.1,
+    "background_per_million": 13.3,
+    "distinctiveness": 22.44
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_leo-bulero",
+    "label": "Leo Bulero",
+    "count": 1,
+    "per_million": 102.5,
+    "background_per_million": 1.0,
+    "distinctiveness": 17.03
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_nick",
     "label": "Nick",
     "count": 1,
-    "per_million": 148.1,
+    "per_million": 102.5,
     "background_per_million": 3.1,
-    "distinctiveness": 18.36
+    "distinctiveness": 12.71
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_saint",
+    "label": "Saint",
+    "count": 1,
+    "per_million": 102.5,
+    "background_per_million": 6.1,
+    "distinctiveness": 9.21
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_paul-williams",
+    "label": "Paul Williams",
+    "count": 1,
+    "per_million": 102.5,
+    "background_per_million": 10.2,
+    "distinctiveness": 6.74
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_orpheus",
+    "label": "Orpheus",
+    "count": 1,
+    "per_million": 102.5,
+    "background_per_million": 10.2,
+    "distinctiveness": 6.74
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_mission",
     "label": "Mission",
     "count": 1,
-    "per_million": 148.1,
+    "per_million": 102.5,
     "background_per_million": 12.3,
-    "distinctiveness": 8.58
+    "distinctiveness": 5.94
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_humans",
+    "label": "Humans",
+    "count": 2,
+    "per_million": 205.1,
+    "background_per_million": 112.4,
+    "distinctiveness": 1.75
    }
   ],
-  "distinct_terms": 8,
-  "distinct_names": 3
+  "distinct_terms": 19,
+  "distinct_names": 9
  },
  "title_search": {
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."

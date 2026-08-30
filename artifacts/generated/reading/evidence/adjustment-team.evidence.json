@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 22698,
-  "line_end": 23155,
-  "word_count": 5246,
+  "line_end": 23401,
+  "word_count": 7992,
   "status": "ready"
  },
  "structure": {
@@ -18,84 +18,93 @@
   "terms": [
    {
     "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 2,
+    "per_million": 250.3,
+    "background_per_million": 35.8,
+    "distinctiveness": 6.14
+   },
+   {
+    "entity_type": "term",
     "entity_id": "TERM_divine",
     "label": "Divine",
     "count": 1,
-    "per_million": 190.6,
+    "per_million": 125.1,
     "background_per_million": 18.4,
-    "distinctiveness": 8.15
+    "distinctiveness": 5.35
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fate",
+    "label": "Fate",
+    "count": 1,
+    "per_million": 125.1,
+    "background_per_million": 20.4,
+    "distinctiveness": 4.92
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 4,
+    "per_million": 500.5,
+    "background_per_million": 130.7,
+    "distinctiveness": 3.69
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_therefore",
     "label": "Therefore",
     "count": 1,
-    "per_million": 190.6,
+    "per_million": 125.1,
     "background_per_million": 39.8,
-    "distinctiveness": 4.25
+    "distinctiveness": 2.79
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_reality",
-    "label": "Reality",
+    "entity_id": "TERM_soviet",
+    "label": "Soviet",
     "count": 2,
-    "per_million": 381.2,
-    "background_per_million": 130.7,
-    "distinctiveness": 2.81
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_black",
-    "label": "Black",
-    "count": 4,
-    "per_million": 762.5,
-    "background_per_million": 397.3,
-    "distinctiveness": 1.9
+    "per_million": 250.3,
+    "background_per_million": 93.0,
+    "distinctiveness": 2.55
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_mind",
     "label": "Mind",
-    "count": 6,
-    "per_million": 1143.7,
+    "count": 11,
+    "per_million": 1376.4,
     "background_per_million": 609.8,
-    "distinctiveness": 1.86
+    "distinctiveness": 2.24
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_wait",
-    "label": "Wait",
-    "count": 3,
-    "per_million": 571.9,
-    "background_per_million": 311.5,
-    "distinctiveness": 1.81
+    "entity_id": "TERM_black",
+    "label": "Black",
+    "count": 6,
+    "per_million": 750.8,
+    "background_per_million": 397.3,
+    "distinctiveness": 1.87
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_house",
     "label": "House",
-    "count": 5,
-    "per_million": 953.1,
+    "count": 7,
+    "per_million": 875.9,
     "background_per_million": 529.1,
-    "distinctiveness": 1.78
+    "distinctiveness": 1.64
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_lord",
-    "label": "Lord",
-    "count": 1,
-    "per_million": 190.6,
-    "background_per_million": 103.2,
-    "distinctiveness": 1.76
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_light",
-    "label": "Light",
-    "count": 4,
-    "per_million": 762.5,
-    "background_per_million": 440.2,
-    "distinctiveness": 1.71
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 3,
+    "per_million": 375.4,
+    "background_per_million": 224.7,
+    "distinctiveness": 1.63
    }
   ],
   "names": [
@@ -103,23 +112,32 @@
     "entity_type": "name",
     "entity_id": "NAME_ed-fletcher",
     "label": "Ed Fletcher",
-    "count": 2,
-    "per_million": 381.2,
+    "count": 7,
+    "per_million": 875.9,
     "background_per_million": 14.3,
-    "distinctiveness": 19.75
+    "distinctiveness": 45.38
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-authorities",
+    "label": "The authorities",
+    "count": 1,
+    "per_million": 125.1,
+    "background_per_million": 32.7,
+    "distinctiveness": 3.32
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_mary",
     "label": "Mary",
     "count": 4,
-    "per_million": 762.5,
+    "per_million": 500.5,
     "background_per_million": 276.8,
-    "distinctiveness": 2.71
+    "distinctiveness": 1.78
    }
   ],
-  "distinct_terms": 9,
-  "distinct_names": 2
+  "distinct_terms": 10,
+  "distinct_names": 3
  },
  "title_search": {
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."

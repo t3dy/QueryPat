@@ -12,13 +12,13 @@
   "title": "The Commuter",
   "slug": "the-commuter",
   "form": "story",
-  "word_count": 2730,
+  "word_count": 4155,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 17834,
-   "line_end": 18127,
-   "word_count": 2730,
+   "line_end": 18237,
+   "word_count": 4155,
    "status": "ready"
   }
  },
@@ -31,7 +31,7 @@
    {
     "name": "Laura",
     "name_id": "NAME_laura",
-    "mentions": 8
+    "mentions": 18
    },
    {
     "name": "Nixon",
@@ -52,43 +52,49 @@
     "label": "Holy",
     "entity_id": "TERM_holy",
     "count": 1,
-    "distinctiveness": 15.66
+    "distinctiveness": 10.29
+   },
+   {
+    "label": "Book",
+    "entity_id": "TERM_book",
+    "count": 3,
+    "distinctiveness": 5.4
    },
    {
     "label": "Lord",
     "entity_id": "TERM_lord",
     "count": 2,
-    "distinctiveness": 6.77
+    "distinctiveness": 4.45
    },
    {
-    "label": "Book",
-    "entity_id": "TERM_book",
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 4,
+    "distinctiveness": 2.39
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
     "count": 2,
-    "distinctiveness": 5.48
+    "distinctiveness": 2.1
    },
    {
     "label": "Reality",
     "entity_id": "TERM_reality",
     "count": 1,
-    "distinctiveness": 2.7
+    "distinctiveness": 1.77
    },
    {
     "label": "Bill",
     "entity_id": "TERM_bill",
     "count": 1,
-    "distinctiveness": 2.55
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 2,
-    "distinctiveness": 1.82
+    "distinctiveness": 1.67
    },
    {
     "label": "Light",
     "entity_id": "TERM_light",
-    "count": 2,
-    "distinctiveness": 1.65
+    "count": 3,
+    "distinctiveness": 1.62
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

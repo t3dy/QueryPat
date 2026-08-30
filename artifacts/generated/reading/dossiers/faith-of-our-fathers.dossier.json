@@ -12,13 +12,13 @@
   "title": "Faith Of Our Fathers",
   "slug": "faith-of-our-fathers",
   "form": "story",
-  "word_count": 1696,
+  "word_count": 11995,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 53219,
-   "line_end": 53300,
-   "word_count": 1696,
+   "line_end": 53906,
+   "word_count": 11995,
    "status": "ready"
   }
  },
@@ -27,7 +27,23 @@
   "synopsis": null,
   "movements": [],
   "motifs": [],
-  "cast_candidates": [],
+  "cast_candidates": [
+   {
+    "name": "Tanya Lee",
+    "name_id": "NAME_tanya-lee",
+    "mentions": 8
+   },
+   {
+    "name": "St. Cecilia",
+    "name_id": "NAME_st-cecilia",
+    "mentions": 1
+   },
+   {
+    "name": "Chien (Tung)",
+    "name_id": "NAME_chien-tung",
+    "mentions": 1
+   }
+  ],
   "place_candidates": [],
   "other_entities": [],
   "structure": {
@@ -41,37 +57,85 @@
     "label": "Taoist",
     "entity_id": "TERM_taoist",
     "count": 1,
-    "distinctiveness": 64.89
+    "distinctiveness": 9.18
+   },
+   {
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
+    "count": 9,
+    "distinctiveness": 5.21
    },
    {
     "label": "Faith",
     "entity_id": "TERM_faith",
+    "count": 2,
+    "distinctiveness": 4.42
+   },
+   {
+    "label": "Spirit",
+    "entity_id": "TERM_spirit",
     "count": 1,
-    "distinctiveness": 15.65
+    "distinctiveness": 3.91
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 10,
+    "distinctiveness": 3.07
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 3,
+    "distinctiveness": 2.64
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 12,
+    "distinctiveness": 2.48
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 4,
+    "distinctiveness": 2.46
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 3,
+    "distinctiveness": 2.27
+   },
+   {
+    "label": "Christ",
+    "entity_id": "TERM_christ",
+    "count": 2,
+    "distinctiveness": 2.12
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 11,
+    "distinctiveness": 1.96
    },
    {
     "label": "Therefore",
     "entity_id": "TERM_therefore",
     "count": 1,
-    "distinctiveness": 13.15
+    "distinctiveness": 1.86
    },
    {
-    "label": "Reality",
-    "entity_id": "TERM_reality",
+    "label": "Thomas",
+    "entity_id": "TERM_thomas",
     "count": 1,
-    "distinctiveness": 4.34
+    "distinctiveness": 1.67
    },
    {
-    "label": "Okay",
-    "entity_id": "TERM_okay",
-    "count": 1,
-    "distinctiveness": 2.57
-   },
-   {
-    "label": "Father",
-    "entity_id": "TERM_father",
-    "count": 1,
-    "distinctiveness": 1.66
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 5,
+    "distinctiveness": 1.59
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

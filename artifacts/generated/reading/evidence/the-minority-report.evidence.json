@@ -1,0 +1,131 @@
+{
+ "slug": "the-minority-report",
+ "title": "The Minority Report",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 39035,
+  "line_end": 39954,
+  "word_count": 13711,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_john",
+    "label": "John",
+    "count": 7,
+    "per_million": 510.5,
+    "background_per_million": 95.0,
+    "distinctiveness": 5.11
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 6,
+    "per_million": 437.6,
+    "background_per_million": 138.9,
+    "distinctiveness": 3.04
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_maze",
+    "label": "Maze",
+    "count": 1,
+    "per_million": 72.9,
+    "background_per_million": 20.4,
+    "distinctiveness": 2.87
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_faith",
+    "label": "Faith",
+    "count": 1,
+    "per_million": 72.9,
+    "background_per_million": 32.7,
+    "distinctiveness": 1.94
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_bureau",
+    "label": "Bureau",
+    "count": 1,
+    "per_million": 72.9,
+    "background_per_million": 38.8,
+    "distinctiveness": 1.66
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wait",
+    "label": "Wait",
+    "count": 7,
+    "per_million": 510.5,
+    "background_per_million": 311.5,
+    "distinctiveness": 1.61
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 2,
+    "per_million": 145.9,
+    "background_per_million": 89.9,
+    "distinctiveness": 1.54
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_donna",
+    "label": "Donna",
+    "count": 11,
+    "per_million": 802.3,
+    "background_per_million": 22.5,
+    "distinctiveness": 29.2
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-man",
+    "label": "The Man",
+    "count": 1,
+    "per_million": 72.9,
+    "background_per_million": 19.4,
+    "distinctiveness": 2.99
+   }
+  ],
+  "distinct_terms": 7,
+  "distinct_names": 2
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_MCLOUGHLIN_PINK_LIGHT_AND_IRON.md",
+    "author": "McLoughlin",
+    "lane": "C",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 3307,
+      "quote": "…novella ‘What the Dead Men Say’. Precogs and telepaths are standard Dick fare, with well-known stories like ‘The Minority Report’ and ‘We Can Remember it for You Wholesale’ displaying corporate or government intervention in memories and t…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
+ }
+}

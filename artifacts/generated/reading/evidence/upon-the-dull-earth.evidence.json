@@ -4,10 +4,10 @@
  "kind": "story",
  "generated_by": "scripts/reading/gather_evidence.py",
  "source": {
-  "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-  "line_start": 5988,
-  "line_end": 6555,
-  "word_count": 8250,
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 32401,
+  "line_end": 32952,
+  "word_count": 8015,
   "status": "ready"
  },
  "structure": {
@@ -21,72 +21,72 @@
     "entity_id": "TERM_garden",
     "label": "Garden",
     "count": 3,
-    "per_million": 363.6,
+    "per_million": 374.3,
     "background_per_million": 55.2,
-    "distinctiveness": 6.04
+    "distinctiveness": 6.22
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_gods",
     "label": "Gods",
     "count": 1,
-    "per_million": 121.2,
+    "per_million": 124.8,
     "background_per_million": 30.6,
-    "distinctiveness": 3.4
+    "distinctiveness": 3.5
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_darkness",
     "label": "Darkness",
     "count": 7,
-    "per_million": 848.5,
+    "per_million": 873.4,
     "background_per_million": 256.4,
-    "distinctiveness": 3.25
+    "distinctiveness": 3.34
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_girl",
     "label": "Girl",
     "count": 11,
-    "per_million": 1333.3,
+    "per_million": 1372.4,
     "background_per_million": 462.7,
-    "distinctiveness": 2.85
+    "distinctiveness": 2.93
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_wait",
     "label": "Wait",
     "count": 5,
-    "per_million": 606.1,
+    "per_million": 623.8,
     "background_per_million": 311.5,
-    "distinctiveness": 1.91
+    "distinctiveness": 1.97
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_book",
     "label": "Book",
     "count": 2,
-    "per_million": 242.4,
+    "per_million": 249.5,
     "background_per_million": 128.7,
-    "distinctiveness": 1.81
+    "distinctiveness": 1.87
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_black",
     "label": "Black",
     "count": 6,
-    "per_million": 727.3,
+    "per_million": 748.6,
     "background_per_million": 397.3,
-    "distinctiveness": 1.81
+    "distinctiveness": 1.86
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_light",
     "label": "Light",
     "count": 6,
-    "per_million": 727.3,
+    "per_million": 748.6,
     "background_per_million": 440.2,
-    "distinctiveness": 1.63
+    "distinctiveness": 1.68
    }
   ],
   "names": [
@@ -95,9 +95,9 @@
     "entity_id": "NAME_saint",
     "label": "Saint",
     "count": 1,
-    "per_million": 121.2,
+    "per_million": 124.8,
     "background_per_million": 6.1,
-    "distinctiveness": 10.89
+    "distinctiveness": 11.21
    }
   ],
   "distinct_terms": 8,

@@ -12,13 +12,13 @@
   "title": "Fair Game",
   "slug": "fair-game",
   "form": "story",
-  "word_count": 1836,
+  "word_count": 4866,
   "lane": "A",
   "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-   "line_start": 82,
-   "line_end": 243,
-   "word_count": 1836,
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 26860,
+   "line_end": 27251,
+   "word_count": 4866,
    "status": "ready"
   }
  },
@@ -31,11 +31,11 @@
    {
     "name": "Laura",
     "name_id": "NAME_laura",
-    "mentions": 6
+    "mentions": 14
    },
    {
-    "name": "Eric",
-    "name_id": "NAME_eric",
+    "name": "Humans",
+    "name_id": "NAME_humans",
     "mentions": 1
    }
   ],
@@ -51,61 +51,91 @@
    {
     "label": "Bill",
     "entity_id": "TERM_bill",
+    "count": 20,
+    "distinctiveness": 28.56
+   },
+   {
+    "label": "Moses",
+    "entity_id": "TERM_moses",
+    "count": 1,
+    "distinctiveness": 25.48
+   },
+   {
+    "label": "Gods",
+    "entity_id": "TERM_gods",
+    "count": 2,
+    "distinctiveness": 11.53
+   },
+   {
+    "label": "Cosmic",
+    "entity_id": "TERM_cosmic",
+    "count": 2,
+    "distinctiveness": 11.21
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 6,
+    "distinctiveness": 4.72
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
     "count": 8,
-    "distinctiveness": 30.28
+    "distinctiveness": 3.52
    },
    {
     "label": "Mind",
     "entity_id": "TERM_mind",
+    "count": 10,
+    "distinctiveness": 3.34
+   },
+   {
+    "label": "House",
+    "entity_id": "TERM_house",
+    "count": 8,
+    "distinctiveness": 3.08
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
     "count": 6,
-    "distinctiveness": 5.32
+    "distinctiveness": 3.06
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 1,
+    "distinctiveness": 2.49
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 7,
+    "distinctiveness": 2.42
    },
    {
     "label": "Lord",
     "entity_id": "TERM_lord",
     "count": 1,
-    "distinctiveness": 5.04
+    "distinctiveness": 1.9
    },
    {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 2,
-    "distinctiveness": 4.17
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 3,
-    "distinctiveness": 4.05
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 4,
+    "distinctiveness": 1.85
    },
    {
     "label": "Being",
     "entity_id": "TERM_being",
-    "count": 3,
-    "distinctiveness": 3.08
+    "count": 4,
+    "distinctiveness": 1.55
    },
    {
     "label": "Black",
     "entity_id": "TERM_black",
-    "count": 2,
-    "distinctiveness": 2.71
-   },
-   {
-    "label": "Good",
-    "entity_id": "TERM_good",
-    "count": 4,
-    "distinctiveness": 2.01
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 2,
-    "distinctiveness": 1.83
-   },
-   {
-    "label": "Father",
-    "entity_id": "TERM_father",
-    "count": 1,
+    "count": 3,
     "distinctiveness": 1.53
    }
   ],

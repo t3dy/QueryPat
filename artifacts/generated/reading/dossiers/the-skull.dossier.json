@@ -12,13 +12,13 @@
   "title": "The Skull",
   "slug": "the-skull",
   "form": "story",
-  "word_count": 2829,
+  "word_count": 7767,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 1564,
-   "line_end": 1759,
-   "word_count": 2829,
+   "line_end": 2279,
+   "word_count": 7767,
    "status": "ready"
   }
  },
@@ -31,7 +31,12 @@
    {
     "name": "The authorities",
     "name_id": "NAME_the-authorities",
-    "mentions": 2
+    "mentions": 3
+   },
+   {
+    "name": "The Man",
+    "name_id": "NAME_the-man",
+    "mentions": 1
    }
   ],
   "place_candidates": [],
@@ -46,68 +51,62 @@
    {
     "label": "Church",
     "entity_id": "TERM_church",
-    "count": 7,
-    "distinctiveness": 90.07
+    "count": 11,
+    "distinctiveness": 51.55
+   },
+   {
+    "label": "Bill",
+    "entity_id": "TERM_bill",
+    "count": 13,
+    "distinctiveness": 11.63
    },
    {
     "label": "Holy",
     "entity_id": "TERM_holy",
     "count": 2,
-    "distinctiveness": 30.23
+    "distinctiveness": 11.01
    },
    {
     "label": "Prison",
     "entity_id": "TERM_prison",
     "count": 2,
-    "distinctiveness": 23.95
+    "distinctiveness": 8.72
    },
    {
     "label": "Divine",
     "entity_id": "TERM_divine",
     "count": 1,
-    "distinctiveness": 15.12
+    "distinctiveness": 5.51
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 8,
+    "distinctiveness": 2.2
    },
    {
     "label": "Garden",
     "entity_id": "TERM_garden",
     "count": 1,
-    "distinctiveness": 5.88
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 1,
-    "distinctiveness": 3.21
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 1,
-    "distinctiveness": 2.64
-   },
-   {
-    "label": "Probably",
-    "entity_id": "TERM_probably",
-    "count": 2,
-    "distinctiveness": 1.75
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
-    "count": 3,
-    "distinctiveness": 1.72
-   },
-   {
-    "label": "Good",
-    "entity_id": "TERM_good",
-    "count": 5,
-    "distinctiveness": 1.63
+    "distinctiveness": 2.14
    },
    {
     "label": "Suppose",
     "entity_id": "TERM_suppose",
-    "count": 1,
-    "distinctiveness": 1.56
+    "count": 3,
+    "distinctiveness": 1.7
+   },
+   {
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 4,
+    "distinctiveness": 1.63
+   },
+   {
+    "label": "Good",
+    "entity_id": "TERM_good",
+    "count": 13,
+    "distinctiveness": 1.54
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

@@ -12,13 +12,13 @@
   "title": "The Golden Man",
   "slug": "the-golden-man",
   "form": "story",
-  "word_count": 10172,
+  "word_count": 11099,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 27730,
-   "line_end": 28419,
-   "word_count": 10172,
+   "line_end": 28481,
+   "word_count": 11099,
    "status": "ready"
   }
  },
@@ -46,92 +46,104 @@
    {
     "label": "Wisdom",
     "entity_id": "TERM_wisdom",
-    "count": 44,
-    "distinctiveness": 63.3
+    "count": 50,
+    "distinctiveness": 65.93
    },
    {
     "label": "Golden",
     "entity_id": "TERM_golden",
-    "count": 20,
-    "distinctiveness": 30.6
+    "count": 22,
+    "distinctiveness": 30.85
    },
    {
     "label": "Maze",
     "entity_id": "TERM_maze",
     "count": 2,
-    "distinctiveness": 7.73
+    "distinctiveness": 7.09
    },
    {
     "label": "Acts",
     "entity_id": "TERM_acts",
     "count": 1,
-    "distinctiveness": 6.06
+    "distinctiveness": 5.55
+   },
+   {
+    "label": "Fish",
+    "entity_id": "TERM_fish",
+    "count": 2,
+    "distinctiveness": 4.21
    },
    {
     "label": "Palm",
     "entity_id": "TERM_palm",
     "count": 1,
-    "distinctiveness": 4.4
+    "distinctiveness": 4.03
    },
    {
     "label": "Roman",
     "entity_id": "TERM_roman",
     "count": 1,
-    "distinctiveness": 3.72
+    "distinctiveness": 3.41
    },
    {
     "label": "Iron",
     "entity_id": "TERM_iron",
     "count": 1,
-    "distinctiveness": 2.84
+    "distinctiveness": 2.6
    },
    {
     "label": "Christ",
     "entity_id": "TERM_christ",
     "count": 2,
-    "distinctiveness": 2.5
+    "distinctiveness": 2.29
    },
    {
-    "label": "Fish",
-    "entity_id": "TERM_fish",
+    "label": "Tears",
+    "entity_id": "TERM_tears",
     "count": 1,
-    "distinctiveness": 2.3
+    "distinctiveness": 2.21
+   },
+   {
+    "label": "Darkness",
+    "entity_id": "TERM_darkness",
+    "count": 6,
+    "distinctiveness": 2.07
    },
    {
     "label": "Therefore",
     "entity_id": "TERM_therefore",
     "count": 1,
-    "distinctiveness": 2.19
+    "distinctiveness": 2.01
    },
    {
     "label": "Self",
     "entity_id": "TERM_self",
     "count": 2,
-    "distinctiveness": 2.07
+    "distinctiveness": 1.9
    },
    {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 5,
-    "distinctiveness": 1.88
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 12,
+    "distinctiveness": 1.82
    },
    {
     "label": "Fall",
     "entity_id": "TERM_fall",
     "count": 2,
-    "distinctiveness": 1.78
+    "distinctiveness": 1.64
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 7,
+    "distinctiveness": 1.56
    },
    {
     "label": "House",
     "entity_id": "TERM_house",
     "count": 9,
-    "distinctiveness": 1.66
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 10,
-    "distinctiveness": 1.65
+    "distinctiveness": 1.52
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

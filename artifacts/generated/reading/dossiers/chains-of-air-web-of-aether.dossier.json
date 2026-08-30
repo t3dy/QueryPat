@@ -12,13 +12,13 @@
   "title": "Chains Of Air, Web Of Aether",
   "slug": "chains-of-air-web-of-aether",
   "form": "story",
-  "word_count": 1555,
+  "word_count": 7705,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 56791,
-   "line_end": 56896,
-   "word_count": 1555,
+   "line_end": 57420,
+   "word_count": 7705,
    "status": "ready"
   }
  },
@@ -29,14 +29,14 @@
   "motifs": [],
   "cast_candidates": [
    {
-    "name": "Linda Fox",
-    "name_id": "NAME_linda-fox",
-    "mentions": 4
-   },
-   {
     "name": "Linda",
     "name_id": "NAME_linda",
-    "mentions": 4
+    "mentions": 13
+   },
+   {
+    "name": "Linda Fox",
+    "name_id": "NAME_linda-fox",
+    "mentions": 11
    }
   ],
   "place_candidates": [],
@@ -49,52 +49,64 @@
  "concepts": {
   "distinctive_terms": [
    {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 18,
+    "distinctiveness": 10.17
+   },
+   {
+    "label": "Christ",
+    "entity_id": "TERM_christ",
+    "count": 6,
+    "distinctiveness": 9.91
+   },
+   {
     "label": "Jesus",
     "entity_id": "TERM_jesus",
     "count": 1,
-    "distinctiveness": 39.61
+    "distinctiveness": 7.99
    },
    {
     "label": "Grace",
     "entity_id": "TERM_grace",
     "count": 1,
-    "distinctiveness": 39.61
+    "distinctiveness": 7.99
+   },
+   {
+    "label": "Spirit",
+    "entity_id": "TERM_spirit",
+    "count": 1,
+    "distinctiveness": 6.08
    },
    {
     "label": "Holy",
     "entity_id": "TERM_holy",
     "count": 1,
-    "distinctiveness": 27.5
+    "distinctiveness": 5.55
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 3,
+    "distinctiveness": 4.71
    },
    {
     "label": "John",
     "entity_id": "TERM_john",
-    "count": 1,
-    "distinctiveness": 6.43
+    "count": 2,
+    "distinctiveness": 2.6
+   },
+   {
+    "label": "Well",
+    "entity_id": "TERM_well",
+    "count": 19,
+    "distinctiveness": 2.56
    },
    {
     "label": "Book",
     "entity_id": "TERM_book",
-    "count": 1,
-    "distinctiveness": 4.81
-   },
-   {
-    "label": "Brain",
-    "entity_id": "TERM_brain",
-    "count": 1,
-    "distinctiveness": 3.1
-   },
-   {
-    "label": "Suppose",
-    "entity_id": "TERM_suppose",
-    "count": 1,
-    "distinctiveness": 2.84
-   },
-   {
-    "label": "Mind",
-    "entity_id": "TERM_mind",
     "count": 2,
-    "distinctiveness": 2.09
+    "distinctiveness": 1.94
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

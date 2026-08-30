@@ -1,0 +1,153 @@
+{
+ "slug": "cadbury-the-beaver-who-lacked",
+ "title": "Cadbury, The Beaver Who Lacked",
+ "kind": "story",
+ "generated_by": "scripts/reading/gather_evidence.py",
+ "source": {
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 54375,
+  "line_end": 54710,
+  "word_count": 7279,
+  "status": "ready"
+ },
+ "structure": {
+  "chapter_count": 0,
+  "chapters": []
+ },
+ "concepts": {
+  "terms": [
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_buddhism",
+    "label": "Buddhism",
+    "count": 1,
+    "per_million": 137.4,
+    "background_per_million": 6.1,
+    "distinctiveness": 12.34
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_joint",
+    "label": "Joint",
+    "count": 1,
+    "per_million": 137.4,
+    "background_per_million": 9.2,
+    "distinctiveness": 9.68
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_creator",
+    "label": "Creator",
+    "count": 1,
+    "per_million": 137.4,
+    "background_per_million": 10.2,
+    "distinctiveness": 9.03
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 6,
+    "per_million": 824.3,
+    "background_per_million": 89.9,
+    "distinctiveness": 8.69
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 24,
+    "per_million": 3297.2,
+    "background_per_million": 462.7,
+    "distinctiveness": 7.05
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 2,
+    "per_million": 274.8,
+    "background_per_million": 73.5,
+    "distinctiveness": 3.5
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_okay",
+    "label": "Okay",
+    "count": 5,
+    "per_million": 686.9,
+    "background_per_million": 224.7,
+    "distinctiveness": 2.99
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_wisdom",
+    "label": "Wisdom",
+    "count": 1,
+    "per_million": 137.4,
+    "background_per_million": 63.3,
+    "distinctiveness": 2.01
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 3,
+    "per_million": 412.1,
+    "background_per_million": 221.7,
+    "distinctiveness": 1.82
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 1,
+    "per_million": 137.4,
+    "background_per_million": 74.6,
+    "distinctiveness": 1.73
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_star",
+    "label": "Star",
+    "count": 1,
+    "per_million": 137.4,
+    "background_per_million": 77.6,
+    "distinctiveness": 1.66
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 3,
+    "per_million": 412.1,
+    "background_per_million": 266.6,
+    "distinctiveness": 1.52
+   }
+  ],
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_sophia",
+    "label": "Sophia",
+    "count": 1,
+    "per_million": 137.4,
+    "background_per_million": 17.4,
+    "distinctiveness": 6.14
+   }
+  ],
+  "distinct_terms": 12,
+  "distinct_names": 1
+ },
+ "title_search": {
+  "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
+ },
+ "pkd_on_this_work": {
+  "sources": [],
+  "total_mentions": 0
+ },
+ "criticism": {
+  "sources": [],
+  "total_mentions": 0
+ }
+}

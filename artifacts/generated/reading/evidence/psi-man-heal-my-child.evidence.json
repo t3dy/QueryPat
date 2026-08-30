@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 36529,
-  "line_end": 36666,
-  "word_count": 2540,
+  "line_end": 37106,
+  "word_count": 10147,
   "status": "ready"
  },
  "structure": {
@@ -18,30 +18,93 @@
   "terms": [
    {
     "entity_type": "term",
+    "entity_id": "TERM_golden",
+    "label": "Golden",
+    "count": 5,
+    "per_million": 492.8,
+    "background_per_million": 59.2,
+    "distinctiveness": 7.67
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_john",
+    "label": "John",
+    "count": 6,
+    "per_million": 591.3,
+    "background_per_million": 95.0,
+    "distinctiveness": 5.91
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gods",
+    "label": "Gods",
+    "count": 2,
+    "per_million": 197.1,
+    "background_per_million": 30.6,
+    "distinctiveness": 5.53
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_march",
+    "label": "March",
+    "count": 1,
+    "per_million": 98.6,
+    "background_per_million": 22.5,
+    "distinctiveness": 3.59
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_james",
+    "label": "James",
+    "count": 1,
+    "per_million": 98.6,
+    "background_per_million": 25.5,
+    "distinctiveness": 3.23
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_philip",
+    "label": "Philip",
+    "count": 4,
+    "per_million": 394.2,
+    "background_per_million": 124.6,
+    "distinctiveness": 3.04
+   },
+   {
+    "entity_type": "term",
     "entity_id": "TERM_iron",
     "label": "Iron",
     "count": 1,
-    "per_million": 393.7,
+    "per_million": 98.6,
     "background_per_million": 29.6,
-    "distinctiveness": 11.37
+    "distinctiveness": 2.85
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_paul",
+    "label": "Paul",
+    "count": 2,
+    "per_million": 197.1,
+    "background_per_million": 74.6,
+    "distinctiveness": 2.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
+    "count": 1,
+    "per_million": 98.6,
+    "background_per_million": 35.8,
+    "distinctiveness": 2.42
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_soviet",
     "label": "Soviet",
-    "count": 1,
-    "per_million": 393.7,
+    "count": 2,
+    "per_million": 197.1,
     "background_per_million": 93.0,
-    "distinctiveness": 4.02
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_lord",
-    "label": "Lord",
-    "count": 1,
-    "per_million": 393.7,
-    "background_per_million": 103.2,
-    "distinctiveness": 3.64
+    "distinctiveness": 2.01
    }
   ],
   "names": [
@@ -49,41 +112,77 @@
     "entity_type": "name",
     "entity_id": "NAME_stephen",
     "label": "Stephen",
-    "count": 1,
-    "per_million": 393.7,
+    "count": 25,
+    "per_million": 2463.8,
     "background_per_million": 57.2,
-    "distinctiveness": 6.33
+    "distinctiveness": 39.61
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_doris",
     "label": "Doris",
-    "count": 1,
-    "per_million": 393.7,
+    "count": 26,
+    "per_million": 2562.3,
     "background_per_million": 78.7,
-    "distinctiveness": 4.71
+    "distinctiveness": 30.63
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_ae-van-vogt",
+    "label": "A.E. van Vogt",
+    "count": 1,
+    "per_million": 98.6,
+    "background_per_million": 6.1,
+    "distinctiveness": 8.86
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_paul-williams",
+    "label": "Paul Williams",
+    "count": 1,
+    "per_million": 98.6,
+    "background_per_million": 10.2,
+    "distinctiveness": 6.48
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_van-vogt",
+    "label": "Van Vogt",
+    "count": 1,
+    "per_million": 98.6,
+    "background_per_million": 12.3,
+    "distinctiveness": 5.71
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-authorities",
+    "label": "The authorities",
+    "count": 1,
+    "per_million": 98.6,
+    "background_per_million": 32.7,
+    "distinctiveness": 2.62
    },
    {
     "entity_type": "name",
     "entity_id": "NAME_humans",
     "label": "Humans",
-    "count": 1,
-    "per_million": 393.7,
+    "count": 3,
+    "per_million": 295.7,
     "background_per_million": 112.4,
-    "distinctiveness": 3.35
+    "distinctiveness": 2.52
    },
    {
     "entity_type": "name",
-    "entity_id": "NAME_mary",
-    "label": "Mary",
-    "count": 2,
-    "per_million": 787.4,
-    "background_per_million": 276.8,
-    "distinctiveness": 2.79
+    "entity_id": "NAME_the-soviet",
+    "label": "The Soviet",
+    "count": 1,
+    "per_million": 98.6,
+    "background_per_million": 54.1,
+    "distinctiveness": 1.67
    }
   ],
-  "distinct_terms": 3,
-  "distinct_names": 4
+  "distinct_terms": 10,
+  "distinct_names": 8
  },
  "title_search": {
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."

@@ -1,0 +1,199 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_VARIABLE_MAN",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-variable-man",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Variable Man",
+  "slug": "the-variable-man",
+  "form": "story",
+  "word_count": 24975,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 5398,
+   "line_end": 7201,
+   "word_count": 24975,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "The Empire",
+    "name_id": "NAME_the-empire",
+    "mentions": 2
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Thomas",
+    "entity_id": "TERM_thomas",
+    "count": 18,
+    "distinctiveness": 14.43
+   },
+   {
+    "label": "Empire",
+    "entity_id": "TERM_empire",
+    "count": 9,
+    "distinctiveness": 13.12
+   },
+   {
+    "label": "Folder",
+    "entity_id": "TERM_folder",
+    "count": 3,
+    "distinctiveness": 6.96
+   },
+   {
+    "label": "Maze",
+    "entity_id": "TERM_maze",
+    "count": 3,
+    "distinctiveness": 4.72
+   },
+   {
+    "label": "Diagram",
+    "entity_id": "TERM_diagram",
+    "count": 1,
+    "distinctiveness": 3.96
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 7,
+    "distinctiveness": 3.39
+   },
+   {
+    "label": "Gods",
+    "entity_id": "TERM_gods",
+    "count": 3,
+    "distinctiveness": 3.37
+   },
+   {
+    "label": "Light",
+    "entity_id": "TERM_light",
+    "count": 30,
+    "distinctiveness": 2.7
+   },
+   {
+    "label": "Therefore",
+    "entity_id": "TERM_therefore",
+    "count": 3,
+    "distinctiveness": 2.68
+   },
+   {
+    "label": "Realm",
+    "entity_id": "TERM_realm",
+    "count": 1,
+    "distinctiveness": 2.63
+   },
+   {
+    "label": "Black",
+    "entity_id": "TERM_black",
+    "count": 24,
+    "distinctiveness": 2.39
+   },
+   {
+    "label": "Great",
+    "entity_id": "TERM_great",
+    "count": 23,
+    "distinctiveness": 1.55
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 1,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "quotes": [
+     {
+      "line": 15,
+      "quote": "…(1955) The World Jones Made (1956) The Man Who Japed (1956) Eye in the Sky (1957) The Cosmic Puppets (1957) The Variable Man (1957) Time out of Joint (1959) Dr. Futurity (1960) Vulcan’s Hammer (1960) The Man in the High Castle (1962)…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 6,
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
+    "author": "Christopher Palmer",
+    "lane": "C",
+    "mention_count": 4,
+    "quotes": [
+     {
+      "line": 422,
+      "quote": "…Prayers: _A Maze of Death_ ; weapons channelling unsensed energies: _Lies, Inc._ ; breakdown and ignorance: ‘The Variable Man’ (1953, CS1), ‘The Last of the Masters’ (1954, CS3), _The Penultimate Truth_ . PHILIP K. DICK AND THE POSTM…"
+     },
+     {
+      "line": 1318,
+      "quote": "…se is sometimes suggested in stories dealing with hypertechnology, or, more generally, with production. In ‘The Variable Man’ (1953, CS1) 22nd-century society is dependent on a set of vast computers (called SRB machines) incessantly c…"
+     },
+     {
+      "line": 1328,
+      "quote": "…it is the way of questioning and, if possible, reaffirmation that is taken, not that of playful celebration. ‘The Variable Man’ reaffirms the single human centre, the ordinary American (from 1910, the age of Edison) who can fix things i…"
+     },
+     {
+      "line": 1330,
+      "quote": "…Edison) who can fix things in a time in which technology has become destructive and out of human control. ‘The Variable Man’ is one of several stories in which technology is rehabilitated from within, by the rediscovery of the virtue…"
+     }
+    ],
+    "quotes_truncated": 0
+   },
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
+    "author": "Lawrence Sutin",
+    "lane": "C",
+    "mention_count": 2,
+    "quotes": [
+     {
+      "line": 1407,
+      "quote": "…cation (an honor seldom accorded SF in the U. S. at that time) as A Handful of Darkness. A second collection, The Variable Man, was issued by Ace in 1957. Phil was prone to deride their quality in comparison to his later work, and it is…"
+     },
+     {
+      "line": 5491,
+      "quote": "…veryone’s out to get you; only human trust will do, and who’s stupid enough to rely on that? Rating: 3. 10. The Variable Man and Other Stories (w. 1952-55, p. 1957). The best story in this early Ace collection is “Second Variety” (w.…"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "6 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}

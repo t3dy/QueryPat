@@ -6,8 +6,8 @@
  "source": {
   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
   "line_start": 53219,
-  "line_end": 53300,
-  "word_count": 1696,
+  "line_end": 53906,
+  "word_count": 11995,
   "status": "ready"
  },
  "structure": {
@@ -21,59 +21,159 @@
     "entity_id": "TERM_taoist",
     "label": "Taoist",
     "count": 1,
-    "per_million": 589.6,
+    "per_million": 83.4,
     "background_per_million": 4.1,
-    "distinctiveness": 64.89
+    "distinctiveness": 9.18
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_obviously",
+    "label": "Obviously",
+    "count": 9,
+    "per_million": 750.3,
+    "background_per_million": 138.9,
+    "distinctiveness": 5.21
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_faith",
     "label": "Faith",
-    "count": 1,
-    "per_million": 589.6,
+    "count": 2,
+    "per_million": 166.7,
     "background_per_million": 32.7,
-    "distinctiveness": 15.65
+    "distinctiveness": 4.42
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_spirit",
+    "label": "Spirit",
+    "count": 1,
+    "per_million": 83.4,
+    "background_per_million": 16.3,
+    "distinctiveness": 3.91
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_anyhow",
+    "label": "Anyhow",
+    "count": 10,
+    "per_million": 833.7,
+    "background_per_million": 266.6,
+    "distinctiveness": 3.07
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_self",
+    "label": "Self",
+    "count": 3,
+    "per_million": 250.1,
+    "background_per_million": 89.9,
+    "distinctiveness": 2.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_probably",
+    "label": "Probably",
+    "count": 12,
+    "per_million": 1000.4,
+    "background_per_million": 398.4,
+    "distinctiveness": 2.48
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_reality",
+    "label": "Reality",
+    "count": 4,
+    "per_million": 333.5,
+    "background_per_million": 130.7,
+    "distinctiveness": 2.46
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_fall",
+    "label": "Fall",
+    "count": 3,
+    "per_million": 250.1,
+    "background_per_million": 105.2,
+    "distinctiveness": 2.27
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_christ",
+    "label": "Christ",
+    "count": 2,
+    "per_million": 166.7,
+    "background_per_million": 73.5,
+    "distinctiveness": 2.12
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 11,
+    "per_million": 917.0,
+    "background_per_million": 462.7,
+    "distinctiveness": 1.96
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_therefore",
     "label": "Therefore",
     "count": 1,
-    "per_million": 589.6,
+    "per_million": 83.4,
     "background_per_million": 39.8,
-    "distinctiveness": 13.15
+    "distinctiveness": 1.86
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_reality",
-    "label": "Reality",
+    "entity_id": "TERM_thomas",
+    "label": "Thomas",
     "count": 1,
-    "per_million": 589.6,
-    "background_per_million": 130.7,
-    "distinctiveness": 4.34
+    "per_million": 83.4,
+    "background_per_million": 44.9,
+    "distinctiveness": 1.67
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_okay",
-    "label": "Okay",
-    "count": 1,
-    "per_million": 589.6,
-    "background_per_million": 224.7,
-    "distinctiveness": 2.57
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_father",
-    "label": "Father",
-    "count": 1,
-    "per_million": 589.6,
-    "background_per_million": 350.4,
-    "distinctiveness": 1.66
+    "entity_id": "TERM_darkness",
+    "label": "Darkness",
+    "count": 5,
+    "per_million": 416.8,
+    "background_per_million": 256.4,
+    "distinctiveness": 1.59
    }
   ],
-  "names": [],
-  "distinct_terms": 6,
-  "distinct_names": 0
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_tanya-lee",
+    "label": "Tanya Lee",
+    "count": 8,
+    "per_million": 666.9,
+    "background_per_million": 16.3,
+    "distinctiveness": 31.25
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_st-cecilia",
+    "label": "St. Cecilia",
+    "count": 1,
+    "per_million": 83.4,
+    "background_per_million": 2.0,
+    "distinctiveness": 11.84
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_chien-tung",
+    "label": "Chien (Tung)",
+    "count": 1,
+    "per_million": 83.4,
+    "background_per_million": 2.0,
+    "distinctiveness": 11.84
+   }
+  ],
+  "distinct_terms": 14,
+  "distinct_names": 3
  },
  "title_search": {
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."

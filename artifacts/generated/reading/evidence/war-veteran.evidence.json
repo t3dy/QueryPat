@@ -4,10 +4,10 @@
  "kind": "story",
  "generated_by": "scripts/reading/gather_evidence.py",
  "source": {
-  "file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER.md",
-  "line_start": 7434,
-  "line_end": 7525,
-  "word_count": 1315,
+  "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+  "line_start": 33793,
+  "line_end": 34888,
+  "word_count": 16280,
   "status": "ready"
  },
  "structure": {
@@ -18,62 +18,90 @@
   "terms": [
    {
     "entity_type": "term",
-    "entity_id": "TERM_john",
-    "label": "John",
+    "entity_id": "TERM_earth",
+    "label": "Earth",
+    "count": 49,
+    "per_million": 3009.8,
+    "background_per_million": 448.4,
+    "distinctiveness": 6.64
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_girl",
+    "label": "Girl",
+    "count": 23,
+    "per_million": 1412.8,
+    "background_per_million": 462.7,
+    "distinctiveness": 3.02
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_suppose",
+    "label": "Suppose",
+    "count": 10,
+    "per_million": 614.3,
+    "background_per_million": 221.7,
+    "distinctiveness": 2.71
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_empire",
+    "label": "Empire",
     "count": 1,
-    "per_million": 760.5,
-    "background_per_million": 95.0,
-    "distinctiveness": 7.6
+    "per_million": 61.4,
+    "background_per_million": 22.5,
+    "distinctiveness": 2.24
+   },
+   {
+    "entity_type": "term",
+    "entity_id": "TERM_gestalt",
+    "label": "Gestalt",
+    "count": 1,
+    "per_million": 61.4,
+    "background_per_million": 25.5,
+    "distinctiveness": 2.01
    },
    {
     "entity_type": "term",
     "entity_id": "TERM_brain",
     "label": "Brain",
-    "count": 1,
-    "per_million": 760.5,
+    "count": 6,
+    "per_million": 368.6,
     "background_per_million": 202.2,
-    "distinctiveness": 3.67
+    "distinctiveness": 1.78
    },
    {
     "entity_type": "term",
-    "entity_id": "TERM_wait",
-    "label": "Wait",
+    "entity_id": "TERM_tears",
+    "label": "Tears",
     "count": 1,
-    "per_million": 760.5,
-    "background_per_million": 311.5,
-    "distinctiveness": 2.4
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_black",
-    "label": "Black",
-    "count": 1,
-    "per_million": 760.5,
-    "background_per_million": 397.3,
-    "distinctiveness": 1.89
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_probably",
-    "label": "Probably",
-    "count": 1,
-    "per_million": 760.5,
-    "background_per_million": 398.4,
-    "distinctiveness": 1.89
-   },
-   {
-    "entity_type": "term",
-    "entity_id": "TERM_earth",
-    "label": "Earth",
-    "count": 1,
-    "per_million": 760.5,
-    "background_per_million": 448.4,
-    "distinctiveness": 1.68
+    "per_million": 61.4,
+    "background_per_million": 35.8,
+    "distinctiveness": 1.51
    }
   ],
-  "names": [],
-  "distinct_terms": 6,
-  "distinct_names": 0
+  "names": [
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_david",
+    "label": "David",
+    "count": 32,
+    "per_million": 1965.6,
+    "background_per_million": 122.6,
+    "distinctiveness": 15.41
+   },
+   {
+    "entity_type": "name",
+    "entity_id": "NAME_the-projector",
+    "label": "The Projector",
+    "count": 2,
+    "per_million": 122.9,
+    "background_per_million": 5.1,
+    "distinctiveness": 12.15
+   }
+  ],
+  "distinct_terms": 7,
+  "distinct_names": 2
  },
  "title_search": {
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."

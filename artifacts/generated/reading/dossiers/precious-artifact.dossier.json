@@ -12,13 +12,13 @@
   "title": "Precious Artifact",
   "slug": "precious-artifact",
   "form": "story",
-  "word_count": 3239,
+  "word_count": 5880,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 49601,
-   "line_end": 49802,
-   "word_count": 3239,
+   "line_end": 49942,
+   "word_count": 5880,
    "status": "ready"
   }
  },
@@ -31,11 +31,16 @@
    {
     "name": "Mary",
     "name_id": "NAME_mary",
-    "mentions": 23
+    "mentions": 36
    },
    {
     "name": "Sophia",
     "name_id": "NAME_sophia",
+    "mentions": 2
+   },
+   {
+    "name": "The authorities",
+    "name_id": "NAME_the-authorities",
     "mentions": 1
    },
    {
@@ -57,31 +62,43 @@
     "label": "Viewed",
     "entity_id": "TERM_viewed",
     "count": 1,
-    "distinctiveness": 27.74
+    "distinctiveness": 15.28
    },
    {
     "label": "Spirit",
     "entity_id": "TERM_spirit",
     "count": 1,
-    "distinctiveness": 14.47
+    "distinctiveness": 7.97
+   },
+   {
+    "label": "Obviously",
+    "entity_id": "TERM_obviously",
+    "count": 2,
+    "distinctiveness": 2.36
    },
    {
     "label": "Okay",
     "entity_id": "TERM_okay",
-    "count": 2,
-    "distinctiveness": 2.69
+    "count": 3,
+    "distinctiveness": 2.22
    },
    {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 7,
-    "distinctiveness": 2.24
+    "label": "Wait",
+    "entity_id": "TERM_wait",
+    "count": 4,
+    "distinctiveness": 2.15
+   },
+   {
+    "label": "Anyhow",
+    "entity_id": "TERM_anyhow",
+    "count": 3,
+    "distinctiveness": 1.88
    },
    {
     "label": "Earth",
     "entity_id": "TERM_earth",
-    "count": 3,
-    "distinctiveness": 2.04
+    "count": 4,
+    "distinctiveness": 1.5
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

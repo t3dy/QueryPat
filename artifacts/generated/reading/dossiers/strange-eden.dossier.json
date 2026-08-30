@@ -12,13 +12,13 @@
   "title": "Strange Eden",
   "slug": "strange-eden",
   "form": "story",
-  "word_count": 4382,
+  "word_count": 4893,
   "lane": "A",
   "source": {
    "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
    "line_start": 29942,
-   "line_end": 30161,
-   "word_count": 4382,
+   "line_end": 30185,
+   "word_count": 4893,
    "status": "ready"
   }
  },
@@ -31,7 +31,7 @@
    {
     "name": "Humans",
     "name_id": "NAME_humans",
-    "mentions": 3
+    "mentions": 4
    }
   ],
   "place_candidates": [],
@@ -47,97 +47,91 @@
     "label": "Gods",
     "entity_id": "TERM_gods",
     "count": 3,
-    "distinctiveness": 19.21
+    "distinctiveness": 17.2
    },
    {
     "label": "Christian",
     "entity_id": "TERM_christian",
     "count": 1,
-    "distinctiveness": 17.33
+    "distinctiveness": 15.52
+   },
+   {
+    "label": "Girl",
+    "entity_id": "TERM_girl",
+    "count": 33,
+    "distinctiveness": 14.42
    },
    {
     "label": "Rome",
     "entity_id": "TERM_rome",
     "count": 1,
-    "distinctiveness": 16.08
-   },
-   {
-    "label": "Girl",
-    "entity_id": "TERM_girl",
-    "count": 29,
-    "distinctiveness": 14.15
+    "distinctiveness": 14.4
    },
    {
     "label": "Empire",
     "entity_id": "TERM_empire",
     "count": 1,
-    "distinctiveness": 8.31
+    "distinctiveness": 7.44
    },
    {
     "label": "Garden",
     "entity_id": "TERM_garden",
     "count": 2,
-    "distinctiveness": 7.59
+    "distinctiveness": 6.79
    },
    {
     "label": "Scanner",
     "entity_id": "TERM_scanner",
     "count": 2,
-    "distinctiveness": 6.49
+    "distinctiveness": 5.81
    },
    {
     "label": "Darkness",
     "entity_id": "TERM_darkness",
     "count": 5,
-    "distinctiveness": 4.37
+    "distinctiveness": 3.91
    },
    {
     "label": "Fall",
     "entity_id": "TERM_fall",
     "count": 2,
-    "distinctiveness": 4.14
+    "distinctiveness": 3.71
    },
    {
     "label": "Golden",
     "entity_id": "TERM_golden",
     "count": 1,
-    "distinctiveness": 3.55
+    "distinctiveness": 3.18
    },
    {
     "label": "Black",
     "entity_id": "TERM_black",
     "count": 6,
-    "distinctiveness": 3.4
+    "distinctiveness": 3.05
    },
    {
     "label": "Obviously",
     "entity_id": "TERM_obviously",
     "count": 2,
-    "distinctiveness": 3.17
+    "distinctiveness": 2.84
    },
    {
     "label": "Suppose",
     "entity_id": "TERM_suppose",
     "count": 3,
-    "distinctiveness": 3.02
+    "distinctiveness": 2.71
    },
    {
     "label": "Probably",
     "entity_id": "TERM_probably",
     "count": 5,
-    "distinctiveness": 2.83
+    "distinctiveness": 2.53
    },
    {
     "label": "Star",
     "entity_id": "TERM_star",
     "count": 1,
-    "distinctiveness": 2.76
-   },
-   {
-    "label": "Great",
-    "entity_id": "TERM_great",
-    "count": 4,
-    "distinctiveness": 1.54
+    "distinctiveness": 2.47
    }
   ],
   "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."

@@ -1,0 +1,246 @@
+{
+ "artifact_id": "ART_DOSSIER_THE_ALIEN_MIND",
+ "artifact_type": "work_dossier",
+ "schema_version": "1.0",
+ "source_id": "the-alien-mind",
+ "generated_by": "scripts/reading/build_dossiers.py",
+ "status": "LLM_CANDIDATE",
+ "review_state": "unreviewed",
+ "reading_status": "pending_close_reading",
+ "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
+ "work": {
+  "title": "The Alien Mind",
+  "slug": "the-alien-mind",
+  "form": "story",
+  "word_count": 4582,
+  "lane": "A",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+   "line_start": 58219,
+   "line_end": 58419,
+   "word_count": 4582,
+   "status": "ready"
+  }
+ },
+ "reading": {
+  "reading_status": "pending_close_reading",
+  "synopsis": null,
+  "movements": [],
+  "motifs": [],
+  "cast_candidates": [
+   {
+    "name": "Martin Luther",
+    "name_id": "NAME_martin-luther",
+    "mentions": 1
+   },
+   {
+    "name": "Willis McNelly",
+    "name_id": "NAME_willis-mcnelly",
+    "mentions": 1
+   },
+   {
+    "name": "Barry",
+    "name_id": "NAME_barry",
+    "mentions": 1
+   },
+   {
+    "name": "Paul Williams",
+    "name_id": "NAME_paul-williams",
+    "mentions": 1
+   },
+   {
+    "name": "Sophia",
+    "name_id": "NAME_sophia",
+    "mentions": 1
+   }
+  ],
+  "place_candidates": [],
+  "other_entities": [
+   {
+    "name": "Luther",
+    "name_id": "NAME_luther",
+    "mentions": 1
+   }
+  ],
+  "structure": {
+   "chapter_count": 0,
+   "chapters": []
+  }
+ },
+ "concepts": {
+  "distinctive_terms": [
+   {
+    "label": "Jason",
+    "entity_id": "TERM_jason",
+    "count": 1,
+    "distinctiveness": 36.24
+   },
+   {
+    "label": "Russ",
+    "entity_id": "TERM_russ",
+    "count": 1,
+    "distinctiveness": 30.99
+   },
+   {
+    "label": "Bible",
+    "entity_id": "TERM_bible",
+    "count": 2,
+    "distinctiveness": 22.62
+   },
+   {
+    "label": "Viewed",
+    "entity_id": "TERM_viewed",
+    "count": 1,
+    "distinctiveness": 19.61
+   },
+   {
+    "label": "Faith",
+    "entity_id": "TERM_faith",
+    "count": 3,
+    "distinctiveness": 17.37
+   },
+   {
+    "label": "Fate",
+    "entity_id": "TERM_fate",
+    "count": 2,
+    "distinctiveness": 17.17
+   },
+   {
+    "label": "Realm",
+    "entity_id": "TERM_realm",
+    "count": 1,
+    "distinctiveness": 14.34
+   },
+   {
+    "label": "Holy",
+    "entity_id": "TERM_holy",
+    "count": 1,
+    "distinctiveness": 9.33
+   },
+   {
+    "label": "Divine",
+    "entity_id": "TERM_divine",
+    "count": 1,
+    "distinctiveness": 9.33
+   },
+   {
+    "label": "Garden",
+    "entity_id": "TERM_garden",
+    "count": 2,
+    "distinctiveness": 7.26
+   },
+   {
+    "label": "Philip",
+    "entity_id": "TERM_philip",
+    "count": 4,
+    "distinctiveness": 6.74
+   },
+   {
+    "label": "Iron",
+    "entity_id": "TERM_iron",
+    "count": 1,
+    "distinctiveness": 6.3
+   },
+   {
+    "label": "Fall",
+    "entity_id": "TERM_fall",
+    "count": 3,
+    "distinctiveness": 5.94
+   },
+   {
+    "label": "Therefore",
+    "entity_id": "TERM_therefore",
+    "count": 1,
+    "distinctiveness": 4.87
+   },
+   {
+    "label": "Golden",
+    "entity_id": "TERM_golden",
+    "count": 1,
+    "distinctiveness": 3.4
+   },
+   {
+    "label": "Reality",
+    "entity_id": "TERM_reality",
+    "count": 2,
+    "distinctiveness": 3.22
+   },
+   {
+    "label": "Okay",
+    "entity_id": "TERM_okay",
+    "count": 3,
+    "distinctiveness": 2.85
+   },
+   {
+    "label": "Paul",
+    "entity_id": "TERM_paul",
+    "count": 1,
+    "distinctiveness": 2.74
+   },
+   {
+    "label": "Star",
+    "entity_id": "TERM_star",
+    "count": 1,
+    "distinctiveness": 2.64
+   },
+   {
+    "label": "Father",
+    "entity_id": "TERM_father",
+    "count": 4,
+    "distinctiveness": 2.46
+   },
+   {
+    "label": "Self",
+    "entity_id": "TERM_self",
+    "count": 1,
+    "distinctiveness": 2.3
+   },
+   {
+    "label": "John",
+    "entity_id": "TERM_john",
+    "count": 1,
+    "distinctiveness": 2.18
+   },
+   {
+    "label": "Mind",
+    "entity_id": "TERM_mind",
+    "count": 6,
+    "distinctiveness": 2.13
+   },
+   {
+    "label": "King",
+    "entity_id": "TERM_king",
+    "count": 1,
+    "distinctiveness": 1.66
+   },
+   {
+    "label": "Probably",
+    "entity_id": "TERM_probably",
+    "count": 3,
+    "distinctiveness": 1.62
+   }
+  ],
+  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
+ },
+ "pkd_on_this_work": {
+  "lane": "E/B",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "criticism": {
+  "lane": "C",
+  "total_mentions": 0,
+  "sources": [],
+  "reading": null
+ },
+ "contradictions": [],
+ "open_questions": [],
+ "provenance": {
+  "layer_1_reading": "NOT DONE — structural and entity facts only.",
+  "layer_2_concepts": "scripts/reading/gather_evidence.py",
+  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
+  "layer_4_criticism": "0 mentions across the archive scholarship.",
+  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
+ }
+}
