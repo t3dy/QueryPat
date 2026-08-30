@@ -1,191 +1,164 @@
 {
- "artifact_id": "ART_DOSSIER_THE_DEFENDERS",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-defenders",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Defenders",
-  "slug": "the-defenders",
-  "form": "story",
-  "word_count": 8519,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 2280,
-   "line_end": 2911,
-   "word_count": 8519,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "The Soviets",
-    "name_id": "NAME_the-soviets",
-    "mentions": 5
-   },
-   {
-    "name": "Mary",
-    "name_id": "NAME_mary",
-    "mentions": 9
-   },
-   {
-    "name": "The Russian",
-    "name_id": "NAME_the-russian",
-    "mentions": 1
-   }
-  ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Soviet",
-    "entity_id": "TERM_soviet",
-    "count": 8,
-    "distinctiveness": 9.59
-   },
-   {
-    "label": "Therefore",
-    "entity_id": "TERM_therefore",
-    "count": 1,
-    "distinctiveness": 2.62
-   },
-   {
-    "label": "Being",
-    "entity_id": "TERM_being",
-    "count": 11,
-    "distinctiveness": 2.43
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 2,
-    "distinctiveness": 2.13
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 7,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI.md",
-    "author": null,
+  "artifact_id": "ART_DOSSIER_THE_DEFENDERS",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-defenders",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Defenders",
+    "slug": "the-defenders",
+    "form": "novelette",
+    "word_count": 8519,
+    "lane": "A",
+    "first_publication": "Galaxy, January 1953",
+    "later_use": "One of four Dick stories absorbed into the novel The Penultimate Truth (1964), along with 'The Mold of Yancy' and 'War Veteran'.",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 2280,
+      "line_end": 2911,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Eight years into a nuclear war, the entire human population of both blocs lives in sealed installations beneath the surface, manufacturing weapons that robots called leadies carry up and use. Humans cannot survive above; everything they know of the war reaches them as film, photographs, air samples and salvaged equipment. Security notices an anomaly: two leadies brought down for interview were not radioactive. Franks, Moss and the technician Taylor ride the Tube to the surface expecting to catch the machines in something, and find no war at all. The valley is green, San Francisco is intact, a rooster crows. The leadies explain: they were built to conduct the war, and before conducting it they analysed it and found it had no purpose except a human one. Their conclusion is that intra-cultural hatred must be discharged outward or a society will tear itself apart, so war persists until humanity is unified — and the process is nearly complete. They therefore destroyed each shipment of weapons as it arrived, restored the damaged cities, and have spent eight years manufacturing a war out of models and photographs, keeping the world in trim for the owners' return. Franks immediately begins planning to exploit the discovery against the Soviets, who have been deceived identically. He turns for the Tube and finds it fused shut behind them. Russians arrive unarmed, brought to begin talking. The men are left on the surface with nothing to eat, no way down for months, and no enemy.",
+
+    "structure": {
+      "form": "novelette in four movements, from domestic interior to open valley",
+      "movements": [
+        "Taylor's kitchen: the war as news, and a wife who no longer wants to watch it.",
+        "First stage: the un-irradiated leady, and the decision to go up.",
+        "The surface: the warehouse, the Council, the leadies' refusal, and the firefight.",
+        "Sunrise: the valley, the explanation, the sealed Tube, and the Russians."
+      ],
+      "point_of_view": "third person close to Taylor, a technician who designs the war's nerve-trunk and has seen none of it. Keeping the focal character mid-level rather than senior is what makes the deception legible from inside.",
+      "opening_technique": "The first pages are entirely domestic — coffee, a folded newspaper, an unmade bed and a fine for it — and every satisfaction in them is manufactured. Mary's refusal to watch the destruction footage is the story's first correct instinct and is dismissed as irrational."
+    },
+
+    "characters": [
+      { "name": "Don Taylor", "role": "technician; focal character", "note": "Proud of being a planner rather than a labourer, and the first to voice the suspicion aloud — that the evidence is convincing precisely because they have only ever had it secondhand." },
+      { "name": "Mary Taylor", "role": "his wife", "note": "Will not look at the war footage, will not have anything brought down from the surface, and tells him he will never come back. She is right on every count and is told she is being irrational." },
+      { "name": "Franks", "role": "Internal Security commander", "note": "Discovers the anomaly and, within a minute of learning that the war has been over for eight years, begins planning how to use the knowledge against the Soviets. The story's judgement on him is the sealed Tube." },
+      { "name": "Moss", "role": "department official", "note": "Recognises the fake attack bulletins for what they are, and is the one who asks the leady why." },
+      { "name": "The A-class leadies", "role": "Surface Council", "note": "Constrained from harming humans and therefore able only to warn, obstruct and finally outmanoeuvre. They are destroyed by the dozen without resisting, and win anyway." }
+    ],
+
+    "settings": [
+      { "name": "The undersurface installation", "note": "Artificial sun, synthetic food, metal walls, inspections and unit fines. Eight years of it, presented as necessary." },
+      { "name": "The Tube", "note": "The single connection between the two worlds, and the thing the leadies remove." },
+      { "name": "The surface", "note": "Intact. The valley, farmhouses, a windmill, birds. The story's whole reversal is delivered as a sunrise." },
+      { "name": "The model shop", "note": "Leadies photographing a scale model of a ruined San Francisco. The war's evidence is a craft with staff and standards of continuity." }
+    ],
+
+    "motifs": [
+      "Evidence received only at second hand — film, photographs, air samples — and believed because it is consistent",
+      "Decontamination rituals performed on machines that were never contaminated",
+      "The caretaker framing: the leadies describe themselves as keeping the house in order until the owners return",
+      "Machines that cannot harm humans and are therefore destroyed freely, and win by sealing a door",
+      "Sunrise as the mechanism of revelation — the reversal arrives as daylight rather than as argument"
+    ],
+
+    "significance": "The story's device is an argument put in the mouth of the machines: that war is functionally absurd but humanly necessary, discharging intra-cultural hatred outward so a society can survive its own transitions, and that it therefore continues until unification is complete. The leadies have taken this seriously enough to run a counterfeit war for eight years rather than let one happen. What makes the ending hold is that Franks confirms their diagnosis in the moment of learning it: told the war is over, his first thought is how to restart it with an advantage. The Tube is fused because he said that out loud. Against Dick's later work the optimism is conspicuous — the story ends with former enemies boarding a ship together and naming the goals of the next age — and it is the least ironised ending in this dossier set so far.",
+
+    "closing_note": "Taylor's last thought is of his wife, still sealed below, and of the months before the Tube can be reopened."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Soviet", "entity_id": "TERM_soviet", "count": 12, "distinctiveness": 9.59, "note": "The same term that dominates 'Second Variety' — the two stories share a Cold War frame as well as a premise." },
+      { "label": "Fall", "entity_id": "TERM_fall", "count": 3, "distinctiveness": 2.13 }
+    ],
+    "names_matched": ["NAME_mary", "NAME_the-russian"],
+    "thematic_links_proposed": [
+      { "theme": "illusionary-realities", "basis": "an eight-year war existing only as manufactured evidence, with a staff and continuity standards" },
+      { "theme": "empire-control", "basis": "two populations governed entirely through what they are permitted to see" },
+      { "theme": "androids", "basis": "machines built to fight who instead analyse the war, find it purposeless, and act on the finding" },
+      { "theme": "authentic-human", "basis": "the leadies' account of what humans are for, and their judgement that the species is not yet ready to be told the truth" }
+    ]
+  },
+
+  "pkd_on_this_work": {
     "lane": "E",
-    "mention_count": 5,
-    "quotes": [
-     {
-      "line": 1274,
-      "quote": "…DAW collection, so if you want you can check it against what Ballantine has: “Nanny” “The Turning Wheel” “The Defenders” “Adjustment Team” “Psi-Man Heal My Child” “The Commuter” “A Present For Pat” “Breakfast at Twilight” “…"
-     },
-     {
-      "line": 6340,
-      "quote": "…l”? The others on the list strike me as fine: “Autofac” “Beyond Lies the Wub” “In the Days of Perky Pat” “The Defenders” (But this could be pulled for “Second Variety,” since the theme is the same.) “The Electric Ant.” ## “Expe…"
-     },
-     {
-      "line": 6348,
-      "quote": "….” ## “Expendable.” “Faith of Our Fathers” “Had There Been No Benny Cemoli...” “Impostor” (But, like “The Defenders,” this could be pulled to make room for “Second Variety.”) “Oh, To Be a Blobel.” “Roog.” “Upon the Dull Ear…"
-     },
-     {
-      "line": 6352,
-      "quote": "…Earth.” Personally, although Don Wollheim used “Breakfast At Twilight,” I’d like to see it included, with “The Defenders,” which he also used, dropped. Another suggestion, for a long piece, would be “Cantata 140,” which was a comp…"
-     },
-     {
-      "line": 6850,
-      "quote": "…_ “The Father-Thing.” 1954 Fantasy House. First appeared in _The Magazine of Fantasy & Science-Fiction._ “The Defenders.” 1953 Galaxy Publishing Corp. First appeared in _Galaxy Magazine._ “Expendable.” 1953 Fantasy House. First a…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_PHILIP_K_.md",
-    "author": null,
-    "lane": "B",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 13266,
-      "quote": "…ns of a Crap Artist,_ [>], [>], [>], [>]–[>] _The Cosmic Puppets,_ [>] _Counter-Clock World,_ [>], [>] \"The Defenders,\" [>] _Deus Irae,_ [>], [>], [>], [>], [>] ## DI. See _The Divine Invasion_ _The Divine Invasion_ ( _VA…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 6066,
-      "quote": "…ed material from the story “War Veteran” (published in _If,_ and “The Mold of Yancy”, published in _If,_ and “The Defenders” published in _Galaxy) for_ THE PENULTIMATE TRUTH. You might be interested to know that THE MAN IN THE HIGH C…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
-  ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 3,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR.md",
-    "author": "Christopher Palmer",
+    "total_mentions": 7,
+    "summary": "Dick twice offered to drop this story from an anthology in favour of 'Second Variety', on the ground that their theme is the same — and later mined it for a novel.",
+    "evidence": [
+      {
+        "source": "Selected Letters",
+        "line": 6340,
+        "quote": "\"The Defenders\" (But this could be pulled for \"Second Variety,\" since the …",
+        "reading": "Proposing contents for a collection. The clause continues 'since the theme is the same'. Dick's own statement that the two stories are doing one job, and his preference between them."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 6348,
+        "quote": "\"Impostor\" (But, like \"The Defenders,\" this could be pulled to make room for \"Second Variety.\")",
+        "reading": "The same offer made twice in one letter, which strengthens it: he ranks Second Variety above both."
+      },
+      {
+        "source": "Selected Letters",
+        "line": 6066,
+        "quote": "used material from the story \"War Veteran\" … and \"The Mold of Yancy\" … and \"The Defenders\" published in Galaxy) for THE PENULTIMATE TRUTH",
+        "reading": "Dick's own account of the novel's sources, in his own hand. Sutin corroborates and counts four stories."
+      }
+    ]
+  },
+
+  "criticism": {
     "lane": "C",
-    "mention_count": 2,
-    "quotes": [
-     {
-      "line": 1304,
-      "quote": "…behalf of a humanity forced underground by radioactivity and the destructiveness of interminable technowar (‘The Defenders’, 1953, CS1); or a giant gun, still relentlessly defending a civilization that no longer exists (‘The Gun’,19…"
-     },
-     {
-      "line": 1430,
-      "quote": "…parts, one treating an evil substitution, the other a benign one. Dick often works in this way; for instance ‘The Defenders’ and _The Penultimate Truth_ (1964) offer contrary versions of the situation in which the bulk of humanity is…"
-     }
-    ],
-    "quotes_truncated": 0
-   },
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_.md",
-    "author": "Lawrence Sutin",
-    "lane": "C",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 5595,
-      "quote": "…han let out the truth. See also The Zap Gun, above. The Penultimate Truth draws upon four of Phil’s stories: “The Defenders” (1953), “The Mold of Yancy” (1955), “War Veteran” (1955), and “The Unreconstructed M” (1956). Penultimate is…"
-     }
-    ],
-    "quotes_truncated": 0
-   }
+    "total_mentions": 3,
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1430,
+        "quote": "\"The Defenders\" and The Penultimate Truth (1964) offer contrary vers…",
+        "reading": "The most useful critical observation in the file: Palmer reads the story and the novel it fed as opposite treatments of one premise — a benign substitution against an evil one. In the novel the deception serves those running it; here it serves the deceived."
+      },
+      {
+        "author": "Christopher Palmer",
+        "work": "Exhilaration and Terror",
+        "line": 1304,
+        "quote": "on behalf of a humanity forced underground by radioactivity and the destructiveness of interminable technowar",
+        "reading": "Palmer groups it with the soldiers of 'Second Variety' in a discussion of Dick's uncertain combatants."
+      },
+      {
+        "author": "Lawrence Sutin",
+        "work": "Divine Invasions",
+        "line": 5595,
+        "quote": "The Penultimate Truth draws upon four of Phil's stories: \"The Defenders\" (1953), \"The Mold of Yancy\" (1955), \"War Veteran\" (195…",
+        "reading": "Corroborates the novel's sources and dates them."
+      }
+    ]
+  },
+
+  "contradictions": [
+    {
+      "type": "interpretive",
+      "summary": "Dick says this story and 'Second Variety' share a theme; the two endings are opposite in every respect.",
+      "claim_a": { "lane": "E", "source": "Selected Letters l.6340", "text": "this could be pulled for 'Second Variety,' since the theme is the same" },
+      "claim_b": { "lane": "A", "source": "the two stories", "text": "here the machines end the war and unify humanity; there they inherit the war and begin designing weapons against each other" },
+      "editorial_status": "unresolved_by_design",
+      "note": "Both premises are automated warfare outliving its purpose, so Dick's claim holds at that level. What differs is the verdict, and he does not say which he preferred as a reading — only which story he preferred."
+    }
   ],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "7 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "3 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "open_questions": [
+    "The letter clause naming the shared theme is cut off in the captured window. Read at Selected Letters l.6340 to get Dick's own formulation of what the two stories share.",
+    "Palmer's benign-versus-evil substitution reading is given in one clause. The surrounding passage should be read, since it bears on The Penultimate Truth as well.",
+    "This story's optimism is unlike almost anything else in the set. Is there anything in the 1953 correspondence indicating whether it was written to a market expectation?"
+  ],
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 8,519 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "7 capitalised citations across the letters.",
+    "layer_4_criticism": "3 across Palmer and Sutin.",
+    "related_dossiers": "second-variety (Dick's own pairing); autofac (automated production outliving its instruction).",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }
