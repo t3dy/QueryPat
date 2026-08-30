@@ -116,6 +116,10 @@ In a comfortable future household, a spherical robot Nanny raises the Fields chi
 
 Solar Lottery is the canonical works record for PKD's novel. In a novel like [Solar Lottery](/works/solar-lottery), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Chromium Fence
+
+In a near-future society polarized entirely into two rigid political factions — the hygiene-obsessed 'Purists,' who demand compulsory grooming and deodorization, and the body-accepting 'Naturalists,' who resist as a matter of principle —... In a story collection like [The Chromium Fence](/works/the-chromium-fence), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Mold of Yancy
 
 On Callisto, a team of anonymous 'yance-men' produce daily video 'gestalts' of John Edward Yancy, a folksy, avuncular composite personality — homespun wisdom, a devoted grandson, opinions on everything from primroses to just war —... In a story collection like [The Mold of Yancy](/works/the-mold-of-yancy), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
@@ -135,6 +139,10 @@ In a future where a crime is solved by a forensic 'file bank' that narrows the p
 ### The Man in the High Castle
 
 The Man in the High Castle is the canonical works record for PKD's novel. In a novel like [The Man in the High Castle](/works/the-man-in-the-high-castle), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
+### If There Were No Benny Cemoli
+
+A decade after a nuclear war ('the Misfortune') devastated Earth, an armada from the intersystem relief agency CURB finally arrives to oversee reconstruction, to the visible discomfort of the local political leadership who had quietly been... In a story collection like [If There Were No Benny Cemoli](/works/if-there-were-no-benny-cemoli), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Game-Players of Titan
 

@@ -143,8 +143,25 @@
   "method": "Case-insensitive search for the title as written, keeping only matches capitalised as a citation. This is what separates the story 'Presents' from the verb 'presents'."
  },
  "pkd_on_this_work": {
-  "sources": [],
-  "total_mentions": 0
+  "sources": [
+   {
+    "source_file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+    "author": null,
+    "lane": "E",
+    "mention_count": 1,
+    "is_author_story_note": true,
+    "quotes": [
+     {
+      "line": null,
+      "quote": "I have always believed that at least half the famous people in history never existed. You invent what you need to invent. Perhaps even Karl Marx was invented, the product of some hack writer. In which case— (1976)",
+      "written_date": null,
+      "alt_title": "Had There Never Been A Benny Cemoli"
+     }
+    ],
+    "quotes_truncated": 0
+   }
+  ],
+  "total_mentions": 1
  },
  "criticism": {
   "sources": [],

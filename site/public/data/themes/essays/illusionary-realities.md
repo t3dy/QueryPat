@@ -80,6 +80,10 @@ Time Out of Joint is the canonical works record for PKD's novel. In a novel like
 
 The Man in the High Castle is the canonical works record for PKD's novel. In a novel like [The Man in the High Castle](/works/the-man-in-the-high-castle), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### If There Were No Benny Cemoli
+
+A decade after a nuclear war ('the Misfortune') devastated Earth, an armada from the intersystem relief agency CURB finally arrives to oversee reconstruction, to the visible discomfort of the local political leadership who had quietly been... In a story collection like [If There Were No Benny Cemoli](/works/if-there-were-no-benny-cemoli), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Days of Perky Pat
 
 Survivors of a hydrogen war — 'flukers', so named because they lived by a fluke of fate — shelter in underground pits, kept alive by Martian 'careboys' who parachute supplies they no longer need. In a story collection like [The Days of Perky Pat](/works/the-days-of-perky-pat), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

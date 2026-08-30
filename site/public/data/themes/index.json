@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 122,
+  "fiction_work_count": 125,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -632,7 +632,7 @@
       "slug": "betrayal",
       "label": "Betrayal",
       "description": "Deception, imposture, treachery, and the collapse of trust between people or institutions.",
-      "work_count": 44,
+      "work_count": 45,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -759,6 +759,15 @@
           "work_type": "short_story",
           "date_display": "If, November 1954",
           "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_captive-market",
+          "canonical_title": "Captive Market",
+          "slug": "captive-market",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, October 1955",
+          "date_start": "1955"
         },
         {
           "work_id": "WORK_solar-lottery",
@@ -1507,7 +1516,7 @@
       "slug": "delusions",
       "label": "Delusions",
       "description": "Paranoia, psychosis, hallucination, schizophrenia, and other forms of unstable perception.",
-      "work_count": 13,
+      "work_count": 14,
       "works": [
         {
           "work_id": "WORK_colony",
@@ -1562,6 +1571,15 @@
           "work_type": "short_story",
           "date_display": "Galaxy, September 1954",
           "date_start": "1954"
+        },
+        {
+          "work_id": "WORK_the-chromium-fence",
+          "canonical_title": "The Chromium Fence",
+          "slug": "the-chromium-fence",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, September 1955",
+          "date_start": "1955"
         },
         {
           "work_id": "WORK_to-serve-the-master",
@@ -1634,7 +1652,7 @@
       "slug": "illusionary-realities",
       "label": "Illusionary Realities",
       "description": "Simulations, false worlds, mimicry, illusions, and counterfeit reality-systems.",
-      "work_count": 40,
+      "work_count": 41,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -1797,6 +1815,15 @@
           "work_type": "novel",
           "date_display": "1962",
           "date_start": "1962"
+        },
+        {
+          "work_id": "WORK_if-there-were-no-benny-cemoli",
+          "canonical_title": "If There Were No Benny Cemoli",
+          "slug": "if-there-were-no-benny-cemoli",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Galaxy, December 1963",
+          "date_start": "1963"
         },
         {
           "work_id": "WORK_the-days-of-perky-pat",
@@ -2158,7 +2185,7 @@
       "slug": "time",
       "label": "Time",
       "description": "Temporal distortion, regression, precognition, time slips, and altered historical sequence.",
-      "work_count": 22,
+      "work_count": 23,
       "works": [
         {
           "work_id": "WORK_the-skull",
@@ -2248,6 +2275,15 @@
           "category": "short_stories",
           "work_type": "novelette",
           "date_display": "Galaxy, November 1955",
+          "date_start": "1955"
+        },
+        {
+          "work_id": "WORK_captive-market",
+          "canonical_title": "Captive Market",
+          "slug": "captive-market",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, October 1955",
           "date_start": "1955"
         },
         {
@@ -2366,7 +2402,7 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 59,
+      "work_count": 61,
       "works": [
         {
           "work_id": "WORK_the-cosmic-poachers",
@@ -2612,6 +2648,15 @@
           "date_start": "1955"
         },
         {
+          "work_id": "WORK_the-chromium-fence",
+          "canonical_title": "The Chromium Fence",
+          "slug": "the-chromium-fence",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, September 1955",
+          "date_start": "1955"
+        },
+        {
           "work_id": "WORK_the-mold-of-yancy",
           "canonical_title": "The Mold of Yancy",
           "slug": "the-mold-of-yancy",
@@ -2655,6 +2700,15 @@
           "work_type": "novel",
           "date_display": "1962",
           "date_start": "1962"
+        },
+        {
+          "work_id": "WORK_if-there-were-no-benny-cemoli",
+          "canonical_title": "If There Were No Benny Cemoli",
+          "slug": "if-there-were-no-benny-cemoli",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Galaxy, December 1963",
+          "date_start": "1963"
         },
         {
           "work_id": "WORK_the-game-players-of-titan",

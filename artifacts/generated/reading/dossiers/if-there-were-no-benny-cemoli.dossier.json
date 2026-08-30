@@ -1,140 +1,117 @@
 {
- "artifact_id": "ART_DOSSIER_IF_THERE_WERE_NO_BENNY_CEMOLI",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "if-there-were-no-benny-cemoli",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "If There Were No Benny Cemoli",
-  "slug": "if-there-were-no-benny-cemoli",
-  "form": "story",
-  "word_count": 7756,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 42201,
-   "line_end": 42672,
-   "word_count": 7756,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [
-   {
-    "name": "Mission",
-    "name_id": "NAME_mission",
-    "mentions": 1
-   },
-   {
-    "name": "Joan",
-    "name_id": "NAME_joan",
-    "mentions": 10
-   },
-   {
-    "name": "Sophia",
-    "name_id": "NAME_sophia",
-    "mentions": 1
-   }
+  "artifact_id": "ART_DOSSIER_IF_THERE_WERE_NO_BENNY_CEMOLI",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "if-there-were-no-benny-cemoli",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "If There Were No Benny Cemoli",
+    "slug": "if-there-were-no-benny-cemoli",
+    "form": "short story",
+    "word_count": 7756,
+    "lane": "A",
+    "alt_title": "Had There Never Been a Benny Cemoli",
+    "first_publication": "Galaxy, December 1963",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 42201,
+      "line_end": 42672,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "A decade after a nuclear war ('the Misfortune') devastated Earth, an armada from the intersystem relief agency CURB finally arrives to oversee reconstruction, to the visible discomfort of the local political leadership who had quietly been governing the ruins themselves. CURB administrator Peter Hood revives a buried, automated 'homeostatic newspaper' — the New York Times — hoping its restored operation will help reunify a fractured planetary culture, and it immediately begins reporting, with total editorial confidence, on a growing political movement led by a charismatic demagogue named Benny Cemoli, whose followers are marching on New York. Investigation reveals no such march exists anywhere in the present — but Cemoli turns out to have been real: a minor, long-dead crank political figure from before the war, whom local officials have spent a decade in an elaborate, expensive conspiracy to erase from history, discovering with dawning terror that the reviving newspaper's genuinely accurate 'morgue' of pre-war records and its own bizarrely retroactive present-tense reporting on Cemoli threaten to unravel their cover-up of who actually caused the war. In the story's final scene, the local political leadership is revealed manufacturing fresh 'historical' evidence — forged textbooks, faked audio recordings — to feed CURB's investigation, deliberately allowing Cemoli to be blamed for the war's true origin rather than risk their own culpability being exposed, while the newspaper itself continues confidently reporting Cemoli's entirely fictional present-day political triumph.",
+
+    "structure": {
+      "form": "short story in three interwoven movements: CURB's arrival and the newspaper's revival, the investigation into Cemoli's apparent present-day movement, and the reveal of a decade-long local conspiracy to fabricate his historical guilt",
+      "movements": [
+        "CURB's relief armada arrives on a devastated, decade-ravaged Earth, and administrator Peter Hood revives the long-dormant, automated New York Times to help re-establish planetary culture.",
+        "The revived newspaper immediately reports, with complete editorial confidence, an ongoing political march led by Benny Cemoli -- a movement Hood's own investigators can find no trace of anywhere in the present.",
+        "Investigation reveals Cemoli was a real, long-dead minor pre-war crank whom local political leadership has spent a decade elaborately erasing from history, and the story closes on those same officials now manufacturing fresh false evidence to retroactively make Cemoli, rather than themselves, responsible for having started the war."
+      ],
+      "point_of_view": "third person, alternating between CURB administrator Peter Hood's genuine bewilderment and local official John LeConte's calculated, self-preserving manipulation, so the reader assembles the full conspiracy only gradually, at the same pace as Hood.",
+      "central_device": "An automated news system whose reporting is simultaneously perfectly accurate (in its unearthing of suppressed historical fact) and entirely fictional (in its present-tense reporting of events that are not occurring), with neither the newspaper nor the reader ever cleanly able to separate the two registers -- a confusion the local conspirators actively exploit by manufacturing evidence to match and reinforce the newspaper's own delusion."
+    },
+
+    "characters": [
+      { "name": "Peter Hood", "role": "CURB administrator, protagonist", "note": "His growing unease at the newspaper's blend of genuine revelation and apparent fantasy -- and his intuition that CURB's own reality and authority might be similarly dependent on the newspaper's continued attention -- gives the story its most explicitly epistemological register." },
+      { "name": "John LeConte", "role": "local political leader and war-crimes conspirator", "note": "Revealed in the story's final scene to be actively manufacturing forged historical evidence to frame the dead Cemoli, his calm, procedural approach to fabricating an entire retroactive political movement mirrors the newspaper's own uncanny blend of fact and invention." },
+      { "name": "Otto Dietrich", "role": "CURB's chief police investigator", "note": "His blunt commitment to prosecuting 'war criminals' regardless of the passage of time drives the local leadership's cover-up, and his unwitting cooperation with LeConte's fabricated evidence trail closes the story's central irony." },
+      { "name": "Stavros", "role": "a Greek grocer and Cemoli loyalist", "note": "The only character who actually remembers the real, minor, long-dead Cemoli, his genuine, decades-old devotion to an obscure crank supplies the story's one thread of unmanufactured, authentic historical truth amid layers of institutional fabrication." },
+      { "name": "The New York Times (the homeopape)", "role": "the automated newspaper itself", "note": "Neither simply broken nor simply accurate, its blend of genuinely unearthed historical fact and apparently fantastical present-tense invention is never fully resolved by the story, leaving its exact nature -- prophetic, delusional, or something else entirely -- deliberately ambiguous." }
+    ],
+
+    "settings": [
+      { "name": "The ruins of New York City", "note": "Site of both CURB's reconstruction headquarters and the buried, automated newspaper's underground printing plant, layering the story's themes of excavation, revelation, and reconstruction directly into its physical setting." },
+      { "name": "Oklahoma City, local Party headquarters", "note": "The seat of the surviving local political leadership's quiet decade-long rule and their active, ongoing conspiracy to control the historical record CURB is now unearthing." }
+    ],
+
+    "motifs": [
+      "A historical record whose accuracy and fabrication cannot be cleanly separated, both by the reader and by the characters investigating it",
+      "A society's political survival depending on the successful, ongoing manufacture and control of its own historical narrative",
+      "An entity (the newspaper) whose reporting shapes reality for its readers regardless of whether the reported events are actually occurring",
+      "A minor, genuinely obscure historical figure retroactively inflated into a scapegoat sufficient to absorb blame for events far larger than himself"
+    ],
+
+    "significance": "Dick's own 1978 author's story note states the story's thesis with unusual directness: 'I have always believed that at least half the famous people in history never existed. You invent what you need to invent. Perhaps even Karl Marx was invented, the product of some hack writer.' Read against that note, the story is not simply a puzzle about a malfunctioning newspaper but a serious claim about how historical memory and blame are manufactured to serve the needs of the present -- Cemoli's genuine but minor historical existence is deliberately and knowingly inflated by the surviving local leadership into a scapegoat sufficient to explain a catastrophe they themselves actually caused. The newspaper's own uncanny blend of buried fact and apparent fantasy becomes, in this light, less a technical malfunction than an image of how any historical record -- even one built from genuinely excavated documents -- can be made to serve whichever narrative its handlers need it to tell.",
+
+    "closing_note": "LeConte's calm, procedural fabrication of forged evidence ('DOWN WITH CEMOLI... WHERE ARE THE ORANGES?') in the story's final scene closes the narrative not on resolution but on the active, ongoing manufacture of the very historical record the newspaper -- and the reader -- has just spent the whole story trying to verify."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Greek", "entity_id": "TERM_greek", "count": 14, "distinctiveness": 57.2, "note": "Stavros the grocer's identity as the story's one genuine, uncoached witness to the real, historical Cemoli anchors the story's single thread of unmanufactured truth." },
+      { "label": "March", "entity_id": "TERM_march", "count": 8, "distinctiveness": 37.55, "note": "The newspaper's escalating, entirely fictional coverage of Cemoli's 'march' on New York structures the story's mounting tension." },
+      { "label": "Fall", "entity_id": "TERM_fall", "count": 12, "distinctiveness": 14.04, "note": "Mr. Fall, LeConte's efficient secretary and co-conspirator in fabricating false evidence." }
+    ],
+    "names_matched": ["NAME_joan"],
+    "thematic_links_proposed": [
+      { "theme": "illusionary-realities", "basis": "an automated historical/news system whose reporting blends genuinely excavated fact with apparently fictional present-tense invention, with neither the characters nor the reader ever able to cleanly separate the two" },
+      { "theme": "empire-control", "basis": "a decade-long, actively maintained local conspiracy to fabricate historical blame for a war's true perpetrators, exploiting an occupying authority's own investigative and reconstructive efforts" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 1,
+    "summary": "A direct, unusually explicit author's story note states the story's central historiographical thesis in Dick's own words.",
+    "evidence": [
+      {
+        "source": "Author's story note (The Collected Stories of Philip K. Dick)",
+        "line": null,
+        "quote": "I have always believed that at least half the famous people in history never existed. You invent what you need to invent. Perhaps even Karl Marx was invented, the product of some hack writer. In which case—",
+        "written_date": null,
+        "reading": "Dick states directly, without qualification, the belief that underlies the story's entire plot: that historical figures and movements can be manufactured after the fact to serve present needs, and that the boundary between genuine history and convenient invention is far less stable than official record implies."
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Does the story ever resolve whether the newspaper's 'march on New York' coverage is pure fabrication by the homeopape itself, or is being actively fed false information by LeConte's conspiracy? The text leaves this genuinely ambiguous.",
+    "Is there secondary criticism connecting this story's central thesis (historical figures manufactured to serve present political needs) to Dick's broader career-long skepticism about the reliability of recorded history and memory?",
+    "Is the story's original alternate title, 'Had There Never Been a Benny Cemoli,' ever discussed as carrying different emphasis than the published title -- e.g., a more explicit counterfactual framing?"
   ],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 7,756 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "1 substantive citation, a directly thematic author's story note.",
+    "layer_4_criticism": "0 found in this evidence pass.",
+    "related_dossiers": "none identified.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
   }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Greek",
-    "entity_id": "TERM_greek",
-    "count": 14,
-    "distinctiveness": 57.2
-   },
-   {
-    "label": "March",
-    "entity_id": "TERM_march",
-    "count": 8,
-    "distinctiveness": 37.55
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 12,
-    "distinctiveness": 14.04
-   },
-   {
-    "label": "Folder",
-    "entity_id": "TERM_folder",
-    "count": 1,
-    "distinctiveness": 7.47
-   },
-   {
-    "label": "John",
-    "entity_id": "TERM_john",
-    "count": 3,
-    "distinctiveness": 3.87
-   },
-   {
-    "label": "Bureau",
-    "entity_id": "TERM_bureau",
-    "count": 1,
-    "distinctiveness": 2.94
-   },
-   {
-    "label": "Obviously",
-    "entity_id": "TERM_obviously",
-    "count": 3,
-    "distinctiveness": 2.69
-   },
-   {
-    "label": "Earth",
-    "entity_id": "TERM_earth",
-    "count": 9,
-    "distinctiveness": 2.56
-   },
-   {
-    "label": "Black",
-    "entity_id": "TERM_black",
-    "count": 7,
-    "distinctiveness": 2.24
-   },
-   {
-    "label": "Reality",
-    "entity_id": "TERM_reality",
-    "count": 2,
-    "distinctiveness": 1.9
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "0 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "0 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
 }

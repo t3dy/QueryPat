@@ -48,6 +48,10 @@ The Minority Report and Other Classic Stories is the canonical works record for 
 
 Five years after a global war, a planet-wide network of automated factories continues to supply human settlements with food and goods, exactly as instructed before the collapse. In a story collection like [Autofac](/works/autofac), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Captive Market
+
+Elderly country storekeeper Edna Berthelson makes a secretive weekly business trip alone in her pickup truck, exploiting an inexplicable personal ability to shift into a branching post-nuclear-war 'ahead' where a small colony of survivors... In a story collection like [Captive Market](/works/captive-market), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Time Out of Joint
 
 Time Out of Joint is the canonical works record for PKD's novel. In a novel like [Time Out of Joint](/works/time-out-of-joint), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
