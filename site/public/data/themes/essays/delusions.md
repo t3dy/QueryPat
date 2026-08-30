@@ -16,6 +16,10 @@ A survey unit has spent three weeks on Planet Blue and found no harmful life for
 
 An unnamed man crushes two eavesdropping caterpillars under his foot on his way to the bus, cautiously avoids a spider web, and rides home uneasy about an insect world he half-perceives is aware of him. In a story collection like [Expendable](/works/expendable), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### Null-O
+
+Lemuel, a mutant boy capable of dissecting derelicts and attacking classmates without a flicker of remorse, is committed by his terrified parents to a psychiatric hospital, where Dr. In a story collection like [Null-O](/works/null-o), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Roog
 
 Boris, a large black dog belonging to the Cardossi family, barks a single word — 'Roog' — at figures nobody else can see. In a story collection like [Roog](/works/roog), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

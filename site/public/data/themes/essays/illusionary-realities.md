@@ -32,6 +32,10 @@ A tired commuter named Ernest Critchet asks ticket agent Ed Jacobson for a new c
 
 Eight years into a nuclear war, the entire human population of both blocs lives in sealed installations beneath the surface, manufacturing weapons that robots called leadies carry up and use. In a story collection like [The Defenders](/works/the-defenders), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Indefatigable Frog
+
+Physics professor Hardy and philosophy professor Grote publicly feud over Zeno's paradox — whether a frog jumping half the remaining distance to the top of a well can ever actually get out — until their exasperated Dean orders them to... In a story collection like [The Indefatigable Frog](/works/the-indefatigable-frog), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The King of the Elves
 
 Shadrach Jones, an old man running a nearly abandoned filling station in Derryville, Colorado, gives shelter one stormy night to a bedraggled party of Elves carrying their dying king on a platform. In a story collection like [The King of the Elves](/works/the-king-of-the-elves), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

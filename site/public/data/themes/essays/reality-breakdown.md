@@ -28,6 +28,10 @@ Boris, a large black dog belonging to the Cardossi family, barks a single word �
 
 TV store owner Ed Loyce drives past his small town's central park one evening and sees a mutilated corpse hanging from the lamppost — and no one else reacts to it at all. In a story collection like [The Hanging Stranger](/works/the-hanging-stranger), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Indefatigable Frog
+
+Physics professor Hardy and philosophy professor Grote publicly feud over Zeno's paradox — whether a frog jumping half the remaining distance to the top of a well can ever actually get out — until their exasperated Dean orders them to... In a story collection like [The Indefatigable Frog](/works/the-indefatigable-frog), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### The Preserving Machine
 
 Doc Labyrinth, convinced that civilisation is going the way of Rome and that a dark age is coming, worries that music is the most perishable of the things that will be lost. In a story collection like [The Preserving Machine](/works/the-preserving-machine), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

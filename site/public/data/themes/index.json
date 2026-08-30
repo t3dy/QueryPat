@@ -1,6 +1,6 @@
 {
   "theme_count": 14,
-  "fiction_work_count": 104,
+  "fiction_work_count": 107,
   "themes": [
     {
       "theme_id": "THEME_androids",
@@ -975,7 +975,7 @@
       "slug": "reality-breakdown",
       "label": "Reality Breakdown",
       "description": "Unstable reality, temporal slippage, projected worlds, and the breakdown of ordinary perception.",
-      "work_count": 46,
+      "work_count": 47,
       "works": [
         {
           "work_id": "WORK_the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
@@ -1020,6 +1020,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Science Fiction Adventures, December 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-indefatigable-frog",
+          "canonical_title": "The Indefatigable Frog",
+          "slug": "the-indefatigable-frog",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Story Magazine, July 1953",
           "date_start": "1953"
         },
         {
@@ -1399,7 +1408,7 @@
       "slug": "delusions",
       "label": "Delusions",
       "description": "Paranoia, psychosis, hallucination, schizophrenia, and other forms of unstable perception.",
-      "work_count": 10,
+      "work_count": 11,
       "works": [
         {
           "work_id": "WORK_colony",
@@ -1417,6 +1426,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "The Magazine of Fantasy & Science Fiction, 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_null-o",
+          "canonical_title": "Null-O",
+          "slug": "null-o",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantasy Fiction, August 1953",
           "date_start": "1953"
         },
         {
@@ -1499,7 +1517,7 @@
       "slug": "illusionary-realities",
       "label": "Illusionary Realities",
       "description": "Simulations, false worlds, mimicry, illusions, and counterfeit reality-systems.",
-      "work_count": 38,
+      "work_count": 39,
       "works": [
         {
           "work_id": "WORK_the-jungle-people",
@@ -1553,6 +1571,15 @@
           "category": "short_stories",
           "work_type": "novelette",
           "date_display": "Galaxy, January 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_the-indefatigable-frog",
+          "canonical_title": "The Indefatigable Frog",
+          "slug": "the-indefatigable-frog",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantastic Story Magazine, July 1953",
           "date_start": "1953"
         },
         {
@@ -2168,8 +2195,17 @@
       "slug": "empire-control",
       "label": "Empire & Control",
       "description": "Tyranny, surveillance, fascism, state power, and coercive social systems.",
-      "work_count": 53,
+      "work_count": 55,
       "works": [
+        {
+          "work_id": "WORK_the-cosmic-poachers",
+          "canonical_title": "The Cosmic Poachers",
+          "slug": "the-cosmic-poachers",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, July 1952",
+          "date_start": "1952"
+        },
         {
           "work_id": "WORK_the-skull",
           "canonical_title": "The Skull",
@@ -2186,6 +2222,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "The Magazine of Fantasy & Science Fiction, 1953",
+          "date_start": "1953"
+        },
+        {
+          "work_id": "WORK_null-o",
+          "canonical_title": "Null-O",
+          "slug": "null-o",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "Fantasy Fiction, August 1953",
           "date_start": "1953"
         },
         {
@@ -2881,7 +2926,7 @@
       "slug": "alien-contact",
       "label": "Alien Contact",
       "description": "Aliens, extraterrestrial intelligence, off-world contact, and nonhuman ecologies.",
-      "work_count": 14,
+      "work_count": 15,
       "works": [
         {
           "work_id": "WORK_beyond-lies-the-wub",
@@ -2890,6 +2935,15 @@
           "category": "short_stories",
           "work_type": "short_story",
           "date_display": "Planet Stories, July 1952 — the first Dick story to appear in print",
+          "date_start": "1952"
+        },
+        {
+          "work_id": "WORK_the-cosmic-poachers",
+          "canonical_title": "The Cosmic Poachers",
+          "slug": "the-cosmic-poachers",
+          "category": "short_stories",
+          "work_type": "short_story",
+          "date_display": "If, July 1952",
           "date_start": "1952"
         },
         {

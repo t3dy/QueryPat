@@ -12,6 +12,10 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 A ship provisioning on Mars takes aboard a wub — an enormous, placid, pig-like animal bought from a native for fifty cents by the crewman Peterson. In a story collection like [Beyond Lies the Wub](/works/beyond-lies-the-wub), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
+### The Cosmic Poachers
+
+A Terran patrol ship spots an armed Adharan freighter illegally trespassing in the closed Sirius system, methodically landing on planet after planet, sending out swarms of crew to gather something unknown, then moving on. In a story collection like [The Cosmic Poachers](/works/the-cosmic-poachers), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+
 ### Colony
 
 A survey unit has spent three weeks on Planet Blue and found no harmful life form at all — no disease, no vermin, nothing. In a story collection like [Colony](/works/colony), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.

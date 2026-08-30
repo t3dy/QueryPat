@@ -1,138 +1,113 @@
 {
- "artifact_id": "ART_DOSSIER_THE_INDEFATIGABLE_FROG",
- "artifact_type": "work_dossier",
- "schema_version": "1.0",
- "source_id": "the-indefatigable-frog",
- "generated_by": "scripts/reading/build_dossiers.py",
- "status": "LLM_CANDIDATE",
- "review_state": "unreviewed",
- "reading_status": "pending_close_reading",
- "note": "Scripted layers are complete. The interpretive layer is open: no synopsis, movement breakdown or thematic reading appears here because nobody has read the work yet. Do not cite this as a summary of the work.",
- "work": {
-  "title": "The Indefatigable Frog",
-  "slug": "the-indefatigable-frog",
-  "form": "story",
-  "word_count": 3511,
-  "lane": "A",
-  "source": {
-   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
-   "line_start": 7202,
-   "line_end": 7503,
-   "word_count": 3511,
-   "status": "ready"
-  }
- },
- "reading": {
-  "reading_status": "pending_close_reading",
-  "synopsis": null,
-  "movements": [],
-  "motifs": [],
-  "cast_candidates": [],
-  "place_candidates": [],
-  "other_entities": [],
-  "structure": {
-   "chapter_count": 0,
-   "chapters": []
-  }
- },
- "concepts": {
-  "distinctive_terms": [
-   {
-    "label": "Maze",
-    "entity_id": "TERM_maze",
-    "count": 1,
-    "distinctiveness": 11.2
-   },
-   {
-    "label": "Prison",
-    "entity_id": "TERM_prison",
-    "count": 1,
-    "distinctiveness": 9.65
-   },
-   {
-    "label": "Therefore",
-    "entity_id": "TERM_therefore",
-    "count": 1,
-    "distinctiveness": 6.35
-   },
-   {
-    "label": "Well",
-    "entity_id": "TERM_well",
-    "count": 16,
-    "distinctiveness": 4.73
-   },
-   {
-    "label": "Darkness",
-    "entity_id": "TERM_darkness",
-    "count": 4,
-    "distinctiveness": 4.36
-   },
-   {
-    "label": "Light",
-    "entity_id": "TERM_light",
-    "count": 5,
-    "distinctiveness": 3.2
-   },
-   {
-    "label": "Fall",
-    "entity_id": "TERM_fall",
-    "count": 1,
-    "distinctiveness": 2.58
-   },
-   {
-    "label": "Book",
-    "entity_id": "TERM_book",
-    "count": 1,
-    "distinctiveness": 2.13
-   },
-   {
-    "label": "Reality",
-    "entity_id": "TERM_reality",
-    "count": 1,
-    "distinctiveness": 2.1
-   },
-   {
-    "label": "Wait",
-    "entity_id": "TERM_wait",
-    "count": 2,
-    "distinctiveness": 1.8
-   }
-  ],
-  "method": "Matched against the dictionary's accepted and provisional terms, filtered by noise_score, then ranked by how much more often the term occurs here than across Dick's other fiction."
- },
- "pkd_on_this_work": {
-  "lane": "E/B",
-  "total_mentions": 1,
-  "sources": [
-   {
-    "source_file": "database/extracted_markdown/DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH.md",
-    "author": null,
-    "lane": "E",
-    "mention_count": 1,
-    "quotes": [
-     {
-      "line": 4694,
-      "quote": "…list, with source citation: “Beyond the Door.” Fantastic Universe Jan. ’54 “Novelty Act.” Fantastic Feb. ’64 “The Indefatigable Frog.” Fantastic story July ’53 “Out in the Garden.” Fantasy August ’52 “Beyond Lies the Wub.” Planet Stories, Jul…"
-     }
+  "artifact_id": "ART_DOSSIER_THE_INDEFATIGABLE_FROG",
+  "artifact_type": "work_dossier",
+  "schema_version": "1.0",
+  "source_id": "the-indefatigable-frog",
+  "generated_by": "reading_notes_agent",
+  "status": "LLM_CANDIDATE",
+  "review_state": "unreviewed",
+  "reading_status": "close_reading_complete",
+
+  "work": {
+    "title": "The Indefatigable Frog",
+    "slug": "the-indefatigable-frog",
+    "form": "short story",
+    "word_count": 3511,
+    "lane": "A",
+    "first_publication": "Fantastic Story Magazine, July 1953",
+    "source": {
+      "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_.md",
+      "line_start": 7202,
+      "line_end": 7503,
+      "note": "Locator into the git-ignored reading corpus. No primary text is stored here."
+    }
+  },
+
+  "reading": {
+    "reading_status": "close_reading_complete",
+    "synopsis": "Physics professor Hardy and philosophy professor Grote publicly feud over Zeno's paradox — whether a frog jumping half the remaining distance to the top of a well can ever actually get out — until their exasperated Dean orders them to settle it experimentally. They build the 'Frog Chamber,' a long tube with a force field that physically shrinks anything moving through it in exact proportion to Zeno's halving paradox, so that a test frog appears to jump forever without reaching the far end, vanishing into apparent infinity. When Grote climbs into the tube himself to investigate, Hardy — whether from mischief or the desire to win the argument once and for all — seals him in and activates the field, forcing Grote to spend what feels like days shrinking and wandering through an increasingly vast, rocky, glowing landscape as the tube's ordinary imperfections (grit, rock, light) become mountains and boulders at his shrinking scale. Grote eventually falls through the literal gaps between the floor's constituent molecules, drops harmlessly back to his normal size thanks to reduced gravitational effect at small scale, and reappears as an ordinary frog hops into Hardy's classroom moments before Grote himself, wrapped in a blanket, storms in to declare the experiment inconclusive and demand round two.",
+
+    "structure": {
+      "form": "comic short story in three movements: the academic feud and the Dean's ultimatum, the frog experiment and Grote's own accidental ordeal inside the tube, and the ambiguous return",
+      "movements": [
+        "Hardy and Grote's public dispute over Zeno's paradox draws the Dean's exasperated order to settle it by direct experiment.",
+        "Their 'Frog Chamber' shrinks a test frog toward apparent infinity; when Grote enters the tube to investigate, Hardy traps and activates the field on him too, forcing Grote through an escalating, disorienting ordeal of shrinking and wandering.",
+        "Grote falls through the gaps between molecules and returns to normal size, but the experiment's core question — would the frog ever actually reach the end? — remains formally unresolved, as Grote himself insists on his return."
+      ],
+      "point_of_view": "third person, alternating between the classroom/hallway comic register and Grote's increasingly disoriented, first-person-feeling ordeal inside the tube, so the reader experiences both the story's comic frame and its genuinely vertiginous middle section.",
+      "central_device": "A literal, physically-constructed version of Zeno's paradox, turning an abstract philosophical puzzle into an actual, survivable (if harrowing) physical ordeal, and then declining to resolve the puzzle even after the experiment concludes."
+    },
+
+    "characters": [
+      { "name": "Professor Hardy", "role": "physicist, believes the frog never escapes", "note": "His decision to trap Grote in the tube — framed ambiguously as 'a joke' — never receives clear moral accounting from the story, which treats it as academic rivalry taken to a literal extreme rather than as genuine malice." },
+      { "name": "Professor Grote", "role": "philosopher, believes the frog escapes", "note": "His ordeal inside the tube is rendered with real disorientation and dread despite the story's comic frame, and his own theoretical commitment (the frog will escape) is what he clings to, quite literally, to keep moving forward." },
+      { "name": "The Dean", "role": "university administrator", "note": "His weary ultimatum ('you two grown men... arguing like a—') sets the entire plot in motion by insisting on empirical resolution to what both professors had treated as a purely rhetorical dispute." },
+      { "name": "Pitner", "role": "a student", "note": "Supplies the story's final explanatory theory (Grote fell through molecular gaps and was less affected by gravity at reduced size) with more genuine scientific reasoning than either professor musters during the actual crisis." }
     ],
-    "quotes_truncated": 0
-   }
+
+    "settings": [
+      { "name": "The university basement 'Frog Chamber'", "note": "A long sewer-pipe-like tube whose ordinary physical imperfections (rock, grit, uneven flooring) become, from Grote's shrinking perspective, an entire vast and increasingly perilous landscape." }
+    ],
+
+    "motifs": [
+      "An abstract philosophical paradox made literal and physically dangerous through direct experimental construction",
+      "Scale itself as a source of horror — ordinary surface roughness becoming mountains and boulders as the viewer shrinks",
+      "Academic rivalry escalating from rhetorical argument to actual physical harm without clear resolution of the underlying question",
+      "A story that refuses, even after its climactic experiment, to answer the question that provoked it"
+    ],
+
+    "significance": "The story's real interest lies in refusing closure: even after Grote's harrowing ordeal and apparent escape, both he and the story insist the actual question (would the frog, or Grote, ever have reached the literal end of an infinitely-approaching series) remains unanswered, since he escaped by falling through the tube's floor rather than by completing the paradoxical journey. This formal refusal mirrors Zeno's paradox itself: the experiment, like the mathematical proof it enacts, cannot be completed within its own terms, only escaped by changing the terms entirely (falling between molecules rather than reaching the end). The story is comic in tone throughout but genuinely unsettling in its middle section, using pure scale-distortion — no monsters, no violence — to produce real dread from Grote's mounting, isolated uncertainty.",
+
+    "closing_note": "Grote's blanket-wrapped return and immediate demand to 'find some other way to test the paradox' refuses any sense of resolution, ending the story exactly where it began: an unresolved argument between two professors, now with one added, terrifying anecdote neither will ever be able to fully explain to the other."
+  },
+
+  "concepts": {
+    "distinctive_terms": [
+      { "label": "Maze", "entity_id": "TERM_maze", "count": 1, "distinctiveness": 11.2 },
+      { "label": "Prison", "entity_id": "TERM_prison", "count": 1, "distinctiveness": 9.65, "note": "Hardy's own description of the frog's situation as 'an eternal prison' foreshadows Grote's later, much more literal imprisonment in the same apparatus." },
+      { "label": "Well", "entity_id": "TERM_well", "count": 16, "distinctiveness": 4.73, "note": "Both the literal frog-and-well paradox and its extensive echoing throughout the dialogue anchor the story's central conceit." },
+      { "label": "Darkness", "entity_id": "TERM_darkness", "count": 4, "distinctiveness": 4.36 }
+    ],
+    "thematic_links_proposed": [
+      { "theme": "reality-breakdown", "basis": "an abstract mathematical paradox made physically real, distorting scale and space until ordinary surface texture becomes an entire disorienting landscape" },
+      { "theme": "illusionary-realities", "basis": "the tube's force field constructs a subjective, ever-lengthening world for its shrinking occupant, one whose apparent infinity is entirely an artifact of the mechanism rather than of real space" }
+    ]
+  },
+
+  "pkd_on_this_work": {
+    "lane": "E",
+    "total_mentions": 1,
+    "summary": "A letter's bare bibliographic citation list confirms the story's original publication venue and date but offers no interpretive commentary.",
+    "evidence": [
+      {
+        "source": "Selected Letters of Philip K. Dick",
+        "line": 4694,
+        "quote": "\"The Indefatigable Frog.\" Fantastic story July '53",
+        "reading": "A tear-sheet citation list rather than commentary; included only to document the story's confirmed original publication details."
+      }
+    ]
+  },
+
+  "criticism": {
+    "lane": "C",
+    "total_mentions": 0,
+    "evidence": []
+  },
+
+  "contradictions": [],
+
+  "open_questions": [
+    "Is Hardy's decision to trap Grote in the tube ever discussed by critics as more sinister than the story's comic tone suggests, given the genuine risk to Grote's life it represents?",
+    "Is there a documented connection between this story's literalized Zeno's paradox and Dick's later, more metaphysically serious treatments of infinite regress or unresolvable epistemological puzzles?",
+    "Does the story's ending (the paradox remaining formally unresolved despite the experiment) reflect any specific philosophical position Dick held on Zeno, or is it purely comic deflection?"
   ],
-  "reading": null
- },
- "criticism": {
-  "lane": "C",
-  "total_mentions": 0,
-  "sources": [],
-  "reading": null
- },
- "contradictions": [],
- "open_questions": [],
- "provenance": {
-  "layer_1_reading": "NOT DONE — structural and entity facts only.",
-  "layer_2_concepts": "scripts/reading/gather_evidence.py",
-  "layer_3_pkd": "1 mentions across Dick's letters, Exegesis and essays.",
-  "layer_4_criticism": "0 mentions across the archive scholarship.",
-  "not_canonical": "Candidate artifact. Promotion to the database requires an editorial pass."
- }
+
+  "provenance": {
+    "layer_1_reading": "Full text read at the locator above, 3,511 words.",
+    "layer_2_concepts": "scripts/reading/gather_evidence.py",
+    "layer_3_pkd": "1 citation, bibliographic only.",
+    "layer_4_criticism": "0 found in this evidence pass.",
+    "related_dossiers": "none identified.",
+    "not_canonical": "Candidate artifact; promotion requires an editorial pass."
+  }
 }
