@@ -3,27 +3,35 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-second-philip-k-dick-megapack",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "All thirteen stories in this anthology already have their own dedicated close-reading dossiers elsewhere in this corpus. This entry describes the collection as a publishing object.",
  "work": {
   "title": "The Second Philip K. Dick MEGAPACK",
   "slug": "the-second-philip-k-dick-megapack",
-  "form": "short stories",
+  "form": "short story anthology (e-book)",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Wildside Press, 2015",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_OCEANOFPDF_COM_THE_SECOND_PHILI"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Second Philip K. Dick MEGAPACK is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "Published by Wildside Press in 2015 as part of their popular MEGAPACK e-book series and compiled as a companion to the first Philip K. Dick MEGAPACK volume, this anthology contains thirteen stories: The Unreconstructed M, Sales Pitch, Shell Game, Breakfast at Twilight, Adjustment Team, Foster, You're Dead, The Crawlers, The Golden Man, The Last of the Masters, The Turning Wheel, Upon the Dull Earth, Human Is, and Meddler. Publisher John Betancourt's note frames Dick as one of the iconic science fiction figures of the twentieth century whose reach now extends across books, movies, and television.",
   "structure": {
-   "form": "short stories"
+   "form": "thirteen-story e-book anthology",
+   "chapter_count": 13,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
   "motifs": [],
-  "significance": "Part of Philip K. Dick's short_stories."
+  "significance": "As an affordable digital anthology, this volume served readers discovering Dick's short fiction through screen adaptations -- 'Adjustment Team' (The Adjustment Bureau, 2011), 'Sales Pitch' and 'Human Is' (Electric Dreams), and 'The Golden Man' (loosely, Next, 2007) -- providing low-friction access to stories otherwise scattered across older, harder-to-find print anthologies.",
+  "closing_note": "This entry documents the anthology as a publishing object; readers seeking analysis of individual stories should consult each story's own dossier elsewhere in this corpus."
  },
  "concepts": {
   "distinctive_terms": []

@@ -3,27 +3,39 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-selected-letters-of-philip-k-dick-1972-1973",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is a curated letters volume, the largest in the Underwood Books series; publisher disclaimers on companion volumes in the same series note the letters cannot be treated as reliable reporting about third parties.",
  "work": {
   "title": "The Selected Letters of Philip K. Dick: 1972-1973",
   "slug": "the-selected-letters-of-philip-k-dick-1972-1973",
-  "form": "letter",
+  "form": "letter collection",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "written": "1972-1973",
+  "first_publication": "Underwood Books, 1993",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETT"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Selected Letters of Philip K. Dick: 1972-1973 is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "At 423 pages, this is the largest volume in the Underwood Books Selected Letters series, documenting one of the most turbulent and transformative periods in Dick's life: the mysterious 1971 break-in at his San Rafael home, his 1972 trip to Vancouver for a science fiction convention where he delivered the speech 'The Android and the Human,' his brief sojourn in Canada, a suicide attempt, his entry into the X-Kalay drug rehabilitation program, and his eventual relocation to Orange County, California. The volume opens with a comprehensive bibliography of Dick's published novels from Solar Lottery (1955) through Dr. Bloodmoney and beyond.",
   "structure": {
-   "form": "letter"
+   "form": "letter collection, chronologically arranged, with prefatory bibliography",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's letters."
+  "motifs": [
+   "Personal crisis (suicide attempt, drug rehabilitation) documented in real time through correspondence",
+   "Geographic relocation as a marker of a major life transition, from Northern California through Canada to Orange County"
+  ],
+  "significance": "These letters provide essential primary documentation of the most dramatic biographical rupture in Dick's adult life, immediately preceding the 1974 religious experiences that would reshape his final decade of writing.",
+  "closing_note": "The volume's span -- from the unresolved 1971 break-in through the crisis and rehabilitation that followed -- captures Dick at his most personally destabilized, just before the theological reorientation of 2-3-74."
  },
  "concepts": {
   "distinctive_terms": []

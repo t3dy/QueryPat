@@ -3,27 +3,41 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-selected-letters-of-philip-k-dick-1980-1982",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is the final volume of Dick's selected letters, covering the last years of his life; its opening account of a 'second theophany' is Dick's own private, self-authenticating interpretation of an experience, not an adjudicated fact.",
  "work": {
   "title": "The Selected Letters of Philip K. Dick: 1980-1982",
   "slug": "the-selected-letters-of-philip-k-dick-1980-1982",
-  "form": "letter",
+  "form": "letter collection",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "written": "1980-1982",
+  "first_publication": "2009",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_; 344 pages, ISBN 1-887424-26-1."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Selected Letters of Philip K. Dick: 1980-1982 is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "The final volume in the Selected Letters series, covering the last years of Dick's life, opens with an extraordinary passage in which Dick describes what he calls his 'second theophany' -- which he considered the most treasured moment of his life -- standing in his kitchen with his friend Ray Torrence (referenced in Dick's story 'I Hope I Shall Arrive Soon,' also known as 'Frozen Journey') at about eleven in the morning, as Torrence was about to return to Northern California after staying overnight. Dick notes the experience was self-authenticating and something he discussed with even his closest friends only rarely. The volume documents his final creative period, spanning the completion of The Transmigration of Timothy Archer and his continuing work on the Exegesis.",
   "structure": {
-   "form": "letter"
+   "form": "letter collection, chronologically arranged, culminating in the final months of Dick's life",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
+  "characters": [
+   { "name": "Ray Torrence", "role": "friend, subject of the 'second theophany' account", "note": "A friend present during the kitchen experience Dick describes as his second theophany; also referenced in Dick's story 'I Hope I Shall Arrive Soon.'" }
+  ],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's letters."
+  "motifs": [
+   "A second, distinct visionary experience beyond 2-3-74, treated by Dick as self-authenticating and largely private",
+   "Simultaneous completion of major fiction (The Transmigration of Timothy Archer) and continued theological journal work in Dick's final years"
+  ],
+  "significance": "As the final documentary record of Dick's correspondence before his death in March 1982, this volume is irreplaceable for understanding his state of mind at the height of his philosophical ambition and at the close of his life, including a previously under-examined 'second theophany' distinct from the more famous 2-3-74 events.",
+  "closing_note": "The letters' proximity to Dick's death gives this volume a documentary finality the earlier volumes in the series do not carry."
  },
  "concepts": {
   "distinctive_terms": []

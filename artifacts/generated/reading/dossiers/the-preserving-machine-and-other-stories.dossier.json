@@ -3,27 +3,37 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-preserving-machine-and-other-stories",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "The database's own catalog record for this document notes 'full summary pending'; its full table of contents was not independently established in this pass. The title story already has its own dedicated close-reading dossier elsewhere in this corpus.",
  "work": {
   "title": "The Preserving Machine and Other Stories",
   "slug": "the-preserving-machine-and-other-stories",
-  "form": "short stories",
+  "form": "short story anthology",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Ace Books, 1969",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_DICK_PHILIP_K_THE_PRESERVING_MA"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Preserving Machine and Other Stories is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "First published by Ace Books in 1969 and anchored by its title story -- in which a machine transforms musical compositions into living creatures in an attempt to preserve them against a feared future collapse of culture -- this collection showcases Dick's inventive short fiction from the 1950s and 1960s.",
   "structure": {
-   "form": "short stories"
+   "form": "multi-story anthology",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's short_stories."
+  "motifs": [
+   "Art and culture rendered fragile, requiring extraordinary or fantastical intervention to survive an anticipated collapse"
+  ],
+  "significance": "The title story's premise -- transforming Beethoven, Mozart, and Schubert into literal living animals to save them from an imagined coming dark age -- is a distinctive early expression of Dick's recurring concern with the fragility and endangerment of cultural and artistic value, later echoed in different registers throughout his career.",
+  "closing_note": "This entry documents the anthology as a publishing object; readers seeking analysis of the title story should consult its own dedicated dossier ('the-preserving-machine') elsewhere in this corpus."
  },
  "concepts": {
   "distinctive_terms": []

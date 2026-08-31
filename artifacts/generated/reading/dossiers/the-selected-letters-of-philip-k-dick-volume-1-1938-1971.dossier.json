@@ -3,27 +3,41 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-selected-letters-of-philip-k-dick-volume-1-1938-1971",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is a curated letters volume; the publisher's own note explicitly disclaims the letters as reliable reporting about third parties.",
  "work": {
   "title": "The Selected Letters of Philip K. Dick, Volume 1: 1938–1971",
   "slug": "the-selected-letters-of-philip-k-dick-volume-1-1938-1971",
-  "form": "letter",
+  "form": "letter collection",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "written": "1938-1971",
+  "first_publication": "Underwood Books, 1996 (introduction by James Blaylock)",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_OCEANOFPDF_COM_THE_SELECTED_LET"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Selected Letters of Philip K. Dick, Volume 1: 1938–1971 is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "The first volume of Dick's selected correspondence, covering over three decades from his teenage years through the early 1970s, with an introduction by fantasy novelist James Blaylock, a friend of Dick's writing from personal acquaintance. The publisher's cautionary note -- repeated across the series -- states that the letters 'are offered for the insight they may provide into their author; they cannot be considered reliable sources of information about any other persons.' This span encompasses Dick's formative years, his early marriage and divorce, the beginning of his science fiction career, his most productive period of novel writing, and the years leading up to the transformative 2-3-74 experiences.",
   "structure": {
-   "form": "letter"
+   "form": "letter collection, chronologically arranged across more than three decades, with editorial introduction",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
+  "characters": [
+   { "name": "James Blaylock", "role": "introduction author, friend", "note": "A noted fantasy author and personal friend of Dick's, providing the volume's introduction from firsthand acquaintance." }
+  ],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's letters."
+  "motifs": [
+   "A writer's entire early-to-mid career development traced through real-time correspondence rather than retrospective biography",
+   "The publisher's built-in caution about the unreliability of third-party claims within the letters"
+  ],
+  "significance": "As the earliest and longest-spanning volume in the series, this collection provides essential primary-source insight into Dick's personal, professional, and intellectual development from adolescence through the beginning of his most productive novel-writing period, before any of the theological reorientation of his final decade.",
+  "closing_note": "Spanning over three decades, this volume captures the full arc of Dick's formation as a writer before the biographical rupture of the early 1970s documented in the following volume."
  },
  "concepts": {
   "distinctive_terms": []

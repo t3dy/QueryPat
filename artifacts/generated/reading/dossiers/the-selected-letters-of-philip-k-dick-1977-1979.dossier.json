@@ -3,27 +3,41 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-selected-letters-of-philip-k-dick-1977-1979",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is a curated letters volume; two of its individual letters (Letter on Star Wars, Letter to Julian Jaynes) already have their own dedicated close-reading dossiers elsewhere in this corpus, drawn from this same period.",
  "work": {
   "title": "The Selected Letters of Philip K. Dick: 1977-1979",
   "slug": "the-selected-letters-of-philip-k-dick-1977-1979",
-  "form": "letter",
+  "form": "letter collection",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "written": "1977-1979",
+  "first_publication": "Underwood-Miller, 1993 (ed. Don Herron, introduction by Robert Anton Wilson)",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_PHILIP_K_DICK_PAUL_WILLIAMS_SEL; 300 pages, frontispiece photo by Nicole Panter (1980)."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Selected Letters of Philip K. Dick: 1977-1979 is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This volume, edited by Don Herron with an introduction by Robert Anton Wilson -- author of the Illuminatus! trilogy and a natural interlocutor for Dick's own interests in conspiracy, paranoia, and 'reality tunnels' -- covers a period of intense intellectual ferment as Dick deeply processed and interpreted his 2-3-74 mystical experiences through the Exegesis while also producing some of his most important late fiction. Letters from this period reveal Dick corresponding with friends, editors, and fellow writers about his evolving metaphysical framework.",
   "structure": {
-   "form": "letter"
+   "form": "letter collection, chronologically arranged, with editorial introduction",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
+  "characters": [
+   { "name": "Robert Anton Wilson", "role": "introduction author", "note": "Author of the Illuminatus! trilogy, sharing Dick's interest in conspiracy, paranoia, and the nature of consciousness; his introduction situates the letters within that shared intellectual territory." }
+  ],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's letters."
+  "motifs": [
+   "Sustained metaphysical correspondence running in parallel with the Exegesis's private development",
+   "A trusted interlocutor (Wilson) whose own work shared Dick's preoccupations with conspiracy and alternate realities"
+  ],
+  "significance": "This volume captures Dick's voice during a period of peak theological productivity, and two of its individual letters -- to Eugene Warren about Star Wars, and to psychologist Julian Jaynes about his bicameral-mind theory -- are treated as dedicated primary sources elsewhere in this corpus.",
+  "closing_note": "As with other volumes in the series, the letters here should be read as Dick's own perspective and interpretation rather than as verified fact about the people and events he describes."
  },
  "concepts": {
   "distinctive_terms": []
