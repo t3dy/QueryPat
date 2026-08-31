@@ -3,27 +3,38 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "philip-k-dick-reviews-herman-wouk-s-the-caine-mutiny",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is not a standalone review essay but a single sentence of critical comment, quoted secondhand in a profile of Dick (found in the local corpus at DOC_ARCH_OCEANOFPDF_COM_THE_LAST_INTERVIEW_AND_OT.md) attributing it to a letter Dick wrote to Time magazine. The letter's full text, exact date, and whether it was published are not established from this evidence pass; treat the quoted line as the entirety of directly verified content for this entry.",
  "work": {
   "title": "Philip K. Dick Reviews Herman Wouk's The Caine Mutiny",
   "slug": "philip-k-dick-reviews-herman-wouk-s-the-caine-mutiny",
-  "form": "primary",
+  "form": "letter fragment / critical remark",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_OCEANOFPDF_COM_THE_LAST_INTERVIEW_AND_OT.md",
+   "note": "Quoted within a secondary profile/interview collection, not as a standalone primary document."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Philip K. Dick Reviews Herman Wouk's The Caine Mutiny is a work by Philip K. Dick exploring themes central to his science fiction.",
+  "synopsis": "In a letter to Time magazine, Dick offered a terse, sardonic one-line verdict on Herman Wouk's bestselling 1951 novel The Caine Mutiny: 'The message I got out of Herman Wouk's Caine Mutiny is (a) Believe! (b) Work! (c) Die! What a hell of a message this is.' The remark condenses his objection to what he read as the novel's underlying message of dutiful submission to institutional authority into a blunt three-beat parody, followed by open contempt for the message he has just paraphrased.",
   "structure": {
-   "form": "primary"
+   "form": "a single sentence of epistolary critical comment, quoted secondhand in a later profile of Dick",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
-  "motifs": [],
-  "significance": "A primary by Philip K. Dick."
+  "motifs": [
+   "Institutional or authoritarian obedience ('Believe! Work! Die!') identified and rejected as a novel's implicit ideological message",
+   "Terse, sardonic compression of a critique into a parodic three-word slogan"
+  ],
+  "significance": "Brief as it is, this remark is a clear, quotable data point for Dick's lifelong suspicion of narratives that ask their audience to submit to institutional or hierarchical authority without question -- the same suspicion that runs through his fiction's recurring interest in ordinary people who refuse compliance with corrupt or oppressive systems. Its appearance in a secondary profile rather than as a preserved standalone document means the full context of the original letter -- what prompted it, whether Time published it, and what else it may have said -- is not established by the evidence available in this corpus.",
+  "closing_note": "The line is preserved only as a quotation inside a later piece of Dick scholarship; no primary copy of the original letter to Time has been located in this corpus."
  },
  "concepts": {
   "distinctive_terms": []

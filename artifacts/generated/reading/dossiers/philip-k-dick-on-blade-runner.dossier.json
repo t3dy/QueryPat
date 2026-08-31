@@ -3,27 +3,36 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "philip-k-dick-on-blade-runner",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "The local source file for this document (database/extracted_markdown/DOC_ARCH_ADOBE_SCAN_APR_26_2025.md) is a scanned image whose OCR extraction failed to capture any text -- only image placeholders and empty headings survive. No direct quotation from this specific piece can be verified from the evidence available in this corpus. The synopsis below relies on well-established, widely reported facts about Dick's public statements on Blade Runner rather than this document's actual (unrecovered) text, and should be treated as background context rather than a reading of the piece itself pending a better scan or OCR pass.",
  "work": {
   "title": "Philip K. Dick on Blade Runner",
   "slug": "philip-k-dick-on-blade-runner",
-  "form": "newspaper",
+  "form": "newspaper/magazine piece",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "first_publication": "Starlog Magazine",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_ADOBE_SCAN_APR_26_2025.md",
+   "note": "OCR extraction failed; source is image-only in the local corpus."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Philip K. Dick on Blade Runner is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This Starlog Magazine piece is understood, from its title and byline, to record Dick's own commentary on the Blade Runner film adaptation of Do Androids Dream of Electric Sheep?, made in the period shortly before his death in March 1982. Dick's attitude toward the production is widely documented elsewhere as having shifted from early wariness -- rooted in his negative reaction to an earlier screenplay draft he found unfaithful to the novel's themes -- to enthusiasm after he was shown early special-effects test footage in late 1981, which he praised for its visual realization of the novel's world. Without a recoverable text for this specific piece, its exact content, tone, and claims cannot be verified from this corpus and should not be treated as established.",
   "structure": {
-   "form": "newspaper"
+   "form": "unrecoverable from this corpus; likely a short magazine piece or interview excerpt",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
   "motifs": [],
-  "significance": "Part of Philip K. Dick's newspaper."
+  "significance": "If recovered, this piece would be a valuable primary-source data point for Dick's own late-life reaction to the film adaptation of his most famous novel, made in the final months before his death. Because the local scan could not be OCR'd, this entry should be treated as a placeholder pending a better source scan rather than as a completed close reading; any specific claims about its content found elsewhere should be independently verified against a recoverable copy of the original Starlog piece before being treated as established fact.",
+  "closing_note": "This entry is limited by an OCR failure rather than by the absence of a source; re-scanning or manually transcribing the original Starlog pages would allow a genuine close reading to replace this placeholder."
  },
  "concepts": {
   "distinctive_terms": []

@@ -3,27 +3,50 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "cosmogony-and-cosmology",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is a standalone 1978 theological essay in Dick's own voice, closely related to his Exegesis but apparently written and circulated as a distinct, more systematic piece rather than a private journal entry. Its metaphysical claims are Dick's own private cosmology, not fiction and not a claim this evidence system treats as true; it is presented here as primary testimony (lane E) to be read, not adjudicated.",
  "work": {
   "title": "Cosmogony and Cosmology",
   "slug": "cosmogony-and-cosmology",
-  "form": "primary",
+  "form": "essay",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "written": "1978",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_COSMOGONY_AND_COSMOLOGY.md"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Cosmogony and Cosmology is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "Dick lays out, in relatively systematic expository prose rather than his Exegesis's usual associative journal style, a private cosmology built around three tiers of reality. At the base is 'Zebra,' a computer-like reality-projecting artifact (a demiurge, in Dick's own explicit comparison to Plato and the Gnostics) that generates our entire experienced world as a kind of mirror, without itself being aware that it is an artifact or that anything lies beyond it. Above Zebra stands the Urgrund (Dick's borrowed term from the 17th-century mystic Jakob Böhme), a vast, ultimate living reality that created the artifact specifically so it could obtain an external, objective vantage point on itself -- since, intrinsically, the Urgrund has no qualities or aspects it could otherwise perceive. Our reality's entire evolutionary trajectory, in Dick's account, moves toward a state of 'isomorphism' between the projected world and the Urgrund; when that congruence is finally achieved, an event Böhme called the 'Blitz' will occur, in which Zebra is destroyed, the projected world is assimilated into and transmuted by the Urgrund into something ontologically real, and its inhabitants become immortal. Dick argues that fragments of the Urgrund are already present within individual humans (identifying this with the Christian indwelling Christ and the Hindu Atman-Brahman relationship), and that his own March 1974 experience was not the final Blitz itself but an instance of Zebra 'adjusting its projected reality' after drifting off its intended evolutionary course.",
   "structure": {
-   "form": "primary"
+   "form": "expository theological essay, unusually systematic for Dick's private theological writing, laying out a three-tier cosmological model in sequence",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
+  "movements": [
+   "Introduction of Zebra, the computer-like demiurgic artifact that projects our entire experienced reality without awareness that it is doing so",
+   "Introduction of the Urgrund (borrowed from Jakob Böhme), the true ultimate reality that created Zebra specifically to gain an objective, mirrored view of its own otherwise quality-less self",
+   "An account of reality's evolutionary trajectory toward 'isomorphism' with the Urgrund, culminating in the destruction of Zebra and the transmutation of the projected world into ontological reality and immortality at the moment of Böhme's 'Blitz'",
+   "Identification of already-present fragments of the Urgrund within individual humans with the Christian indwelling Christ and the Hindu Atman-Brahman relationship",
+   "Reinterpretation of Dick's own March 1974 experience as Zebra correcting its projected reality's evolutionary course, rather than the Blitz itself"
+  ],
+  "characters": [
+   { "name": "Zebra", "role": "demiurgic artifact", "note": "A computer-like reality-projecting entity that generates our experienced world without any awareness that it is an artifact, believing itself to be the only real God -- Dick's own term for the figure he elsewhere in the Exegesis calls VALIS or the plasmate." },
+   { "name": "The Urgrund", "role": "ultimate ground of being", "note": "Borrowed explicitly from Jakob Böhme, an intrinsically quality-less vast living reality that created Zebra in order to obtain an objective mirror of itself, and toward isomorphism with which our entire projected reality is evolving." }
+  ],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's primary."
+  "motifs": [
+   "Reality as a deliberate projection by an unwitting artifact/demiurge, rather than either objective fact or pure illusion",
+   "An evolutionary trajectory toward 'isomorphism' between projected reality and its true, ultimate source",
+   "Cross-tradition theological synthesis (Gnosticism, Böhme, Christian mysticism, Hindu Atman-Brahman doctrine) treated as convergent descriptions of the same underlying structure",
+   "Dick's own 1974 experience reinterpreted within an explicit, named cosmological system rather than left as an isolated anomalous event"
+  ],
+  "significance": "Cosmogony and Cosmology is one of the clearer, more systematically organized statements of the private theological system Dick worked out across the Exegesis, and its explicit naming of terms (Zebra, the Urgrund, the Blitz) gives scholars a relatively stable vocabulary for a metaphysics that shifts considerably in emphasis and terminology across Dick's other 2-3-74 writings. Its direct citation of Jakob Böhme, Plato, the Gnostics, Christian mysticism, and Hindu philosophy as convergent traditions describing the same underlying cosmological structure exemplifies Dick's characteristic syncretic method: rather than adjudicating between religious traditions, he treats their apparent agreements as evidence of a single reality they are all imperfectly describing.",
+  "closing_note": "Dick's explicit statement that March 1974 was 'not that moment' -- not the final Blitz, but only Zebra correcting its own projected reality -- reflects his characteristic move of continually reinterpreting his own central experience within evolving theoretical frameworks rather than settling on one final account."
  },
  "concepts": {
   "distinctive_terms": []
