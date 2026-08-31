@@ -3,27 +3,50 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-cosmic-puppets",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass).",
  "work": {
   "title": "The Cosmic Puppets",
   "slug": "the-cosmic-puppets",
   "form": "novel",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Ace Books, 1957 (expanded from the 1953 novella A Glass of Darkness)"
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Cosmic Puppets is a work by Philip K. Dick exploring themes central to his science fiction.",
+  "synopsis": "Ted Barton returns as an adult to his childhood town of Millgate, Virginia, only to find it utterly unrecognizable -- buildings, streets, and even the town's remembered history have been altered, and official records insist he died there as a child years earlier. Barton discovers that the town is the battleground of an ongoing cosmic conflict between figures drawn from Zoroastrian mythology: Ahriman, the destructive spirit, has seized control of Millgate and rewritten its reality and history according to his own design, while Ormazd, the creative spirit, works covertly through a young girl named Mary to restore the town's true, original form. Barton becomes caught between these mythic forces, his own erased identity and memory serving as both casualty and battleground of the struggle, with the novel's resolution turning on whether the original, 'true' Millgate -- and Barton's own genuine remembered life -- can be restored against Ahriman's fabricated overlay.",
   "structure": {
-   "form": "novel"
+   "form": "novel structured around a protagonist's return to a hometown transformed by a mythic cosmic battle over reality itself",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "A novel by Philip K. Dick."
+  "movements": [
+   "Ted Barton's return to his unrecognizable hometown of Millgate, and his discovery that official records claim he died there as a child",
+   "Revelation that the town is a battleground between the Zoroastrian cosmic figures Ahriman and Ormazd, contesting control over reality and history itself",
+   "Barton's entanglement with Mary, through whom Ormazd works covertly to restore the town's true original form",
+   "Resolution turning on whether Millgate's original reality -- and Barton's own genuine remembered identity -- can be restored against Ahriman's fabricated overlay"
+  ],
+  "characters": [
+   { "name": "Ted Barton", "role": "protagonist", "note": "Returns to his childhood hometown to find it transformed beyond recognition and official records claiming he died there as a child, becoming both witness to and casualty of the cosmic battle being fought over the town's reality." },
+   { "name": "Ahriman", "role": "antagonist, destructive cosmic spirit", "note": "Drawn from Zoroastrian mythology, has seized control of Millgate and rewritten its reality and history according to his own destructive design." },
+   { "name": "Ormazd", "role": "creative cosmic spirit", "note": "Works covertly through the young girl Mary to restore Millgate's true, original form against Ahriman's fabricated overlay." },
+   { "name": "Mary", "role": "vessel of Ormazd", "note": "A young girl through whom the creative cosmic spirit Ormazd works to counter Ahriman's control of the town." }
+  ],
+  "settings": [
+   { "name": "Millgate, Virginia", "note": "Ted Barton's childhood hometown, transformed and rewritten by the cosmic spirit Ahriman's control, such that its buildings, streets, and even its officially recorded history no longer match Barton's own memory." }
+  ],
+  "motifs": [
+   "A hometown's physical and historical reality directly contested and rewritten by opposing cosmic forces",
+   "Zoroastrian dualism (Ahriman versus Ormazd) as a literal, active mechanism shaping everyday reality rather than abstract theology",
+   "Erased or falsified personal identity and memory as both casualty and battleground of a larger metaphysical conflict",
+   "A young, seemingly ordinary character serving as the covert vessel for a much larger cosmic power"
+  ],
+  "significance": "The Cosmic Puppets, expanded from Dick's 1953 novella A Glass of Darkness, is one of his earliest sustained engagements with reality-alteration as a literalized battleground between opposing cosmic or theological forces, directly anticipating the reality-instability and gnostic dualism that would become central to his mature fiction and, eventually, the Exegesis. Its explicit use of Zoroastrian mythology (Ahriman and Ormazd) as active, reality-shaping combatants rather than abstract religious symbols marks an early instance of Dick's recurring interest in treating world religious and mythological traditions as literal metaphysical mechanisms rather than mere belief systems.",
+  "closing_note": "The restoration of Millgate's true form resolves the immediate conflict but leaves the larger cosmic struggle between Ahriman and Ormazd implicitly ongoing, consistent with Dick's general reluctance to grant any single victory final, permanent status."
  },
  "concepts": {
   "distinctive_terms": []

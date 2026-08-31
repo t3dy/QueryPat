@@ -3,27 +3,54 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "how-to-build-a-universe-that-doesn-t-fall-apart-two-days-later",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is a public speech (delivered 1978 in Metz, France) rather than fiction, read in full from the extracted source text. It is classified under lane E (Dick's own testimony/voice) in full.",
  "work": {
   "title": "How to Build a Universe That Doesn't Fall Apart Two Days Later",
   "slug": "how-to-build-a-universe-that-doesn-t-fall-apart-two-days-later",
-  "form": "primary",
+  "form": "essay/speech",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "written": "1978",
+  "first_publication": "delivered as a speech at the Second International Festival of Science Fiction, Metz, France, 1978",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_HOW_TO_BUILD_A_UNIVERSE_THAT_DOESN_T_FAL.md"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "How to Build a Universe That Doesn't Fall Apart Two Days Later is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "Opening with a self-deprecating bit about representing Disneyland (he lives nearby, and was once interviewed there while spinning in a teacup ride), Dick lays out what he calls his two lifelong preoccupations as a writer: 'What is reality?' and 'What constitutes the authentic human being?' He traces the first question through his own fiction -- a childhood story about a dog who misreads garbagemen as food thieves, leading him to wonder whether each person inhabits a genuinely private reality, and whether a schizophrenic's reality might be no less real, only incommunicable; and a story about an android (Garson Poole) who discovers his reality is literally recorded on punched tape he can edit. He offers his own one-sentence definition of reality from 1972 -- 'that which, when you stop believing in it, doesn't go away' -- and argues that this problem is not academic but urgent, because modern media, governments, and corporations now possess the electronic means to manufacture and deliver 'pseudo-realities' directly into people's heads, citing TV cop shows that teach passive obedience to authority as one example. He then pivots into an extended engagement with pre-Socratic Greek philosophy (Parmenides, Heraclitus, Xenophanes, Anaxagoras) and the Logos doctrine, using his own novel Ubik's climactic 'I am Ubik' passage -- and its accidental mistranslation into German as 'I am the brand name' -- to argue that his fiction has been unconsciously reaching toward the same idea these philosophers articulated: that the visible world conceals a deeper, unified, mind-like reality. He closes by answering his second question more confidently than the first: the authentic human is defined not by heroic action but by quiet, often unnoticed refusal -- the capacity to say no to a tyrant and accept the consequences -- and locates this capacity most purely in children, illustrated by his four-year-old son Christopher spontaneously declaring 'I am a fisherman. I fish for fish' while playing with a fish-shaped lantern, a moment Dick reads as an unprompted brush with the same Christian symbolism it took him until age forty-five to find.",
   "structure": {
-   "form": "primary"
+   "form": "public speech in three movements: self-deprecating opening, an extended meditation on the nature of reality grounded in his own fiction and pre-Socratic philosophy, and a closing argument about the authentic human",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's primary."
+  "movements": [
+   "A self-deprecating opening bit about representing Disneyland and science fiction writers' uncertain claim to any expertise",
+   "An extended argument that reality is plural and privately experienced, illustrated through his own early fiction (a dog's misreading of garbagemen; the android Garson Poole's punched-tape reality) and his 1972 definition of reality as 'that which, when you stop believing in it, doesn't go away'",
+   "A warning that modern media, government, and corporate power can now manufacture and deliver 'pseudo-realities' directly into people's minds, illustrated through television's lessons in passive obedience to authority",
+   "An extended detour through pre-Socratic Greek philosophy and the Logos doctrine, using Ubik's climactic 'I am Ubik' passage -- and its accidental German mistranslation as 'I am the brand name' -- to argue that his fiction has unconsciously converged on ancient ideas about a hidden, unified, mind-like reality",
+   "A closing argument that the authentic human is defined by quiet refusal rather than heroic action, illustrated by his young son's spontaneous, unprompted brush with Christian fish symbolism"
+  ],
+  "characters": [
+   { "name": "Philip K. Dick (speaker)", "role": "narrator", "note": "Moves between self-deprecating comic anecdote, serious philosophical argument, and personal anecdote about his son, treating all three registers as equally serious within the same speech." },
+   { "name": "Garson Poole", "role": "character from Dick's own fiction, cited as example", "note": "The protagonist of 'The Electric Ant,' whose discovery that his reality is recorded on editable punched tape Dick uses to illustrate the plurality and fragility of subjective reality." },
+   { "name": "Christopher (Dick's son)", "role": "anecdotal figure", "note": "His spontaneous, unprompted declaration 'I am a fisherman. I fish for fish' while playing with a fish-shaped lantern becomes Dick's clearest illustrated example of the authentic human's unmediated access to truth." }
+  ],
+  "settings": [
+   { "name": "The Second International Festival of Science Fiction, Metz, France, 1978", "note": "The occasion of the speech's delivery, referenced directly in Dick's opening remarks about representing Disneyland to a French audience." }
+  ],
+  "motifs": [
+   "Reality as plural, privately experienced, and vulnerable to deliberate manufacture by media and institutional power",
+   "The novelist's own fiction read retrospectively as unconscious philosophical or theological argument",
+   "Pre-Socratic Greek philosophy and the Christian Logos doctrine treated as continuous with, rather than separate from, science-fictional speculation about the nature of reality",
+   "Authenticity located in quiet, unheroic refusal rather than dramatic action, and found most purely in children"
+  ],
+  "significance": "This speech is one of Dick's most frequently cited and anthologized nonfiction statements, later used as the title essay of a major posthumous collection of his nonfiction writing. Its two-question framework -- 'What is reality?' and 'What constitutes the authentic human being?' -- is widely treated by scholars as the clearest single-paragraph summary Dick ever gave of his own life's work, and its extended reading of Ubik's climactic passage through pre-Socratic philosophy and the Logos doctrine offers a rare instance of Dick explicitly glossing his own fiction's theological ambitions in his own voice. The anecdote about the German translator rendering 'I am the word' as 'I am the brand name' functions as both a genuine translation error and an inadvertent illustration of exactly the kind of manufactured pseudo-reality (commercial branding overtaking scripture) the speech warns against.",
+  "closing_note": "The speech ends on a note of eschatological warmth rather than warning: if time itself is ending, the simulated animals at Disneyland will finally become real, and a real bird will sing for the first time -- a closing image that quietly reverses the speech's earlier anxiety about manufactured pseudo-realities into a hope that the authentic might ultimately break through the artificial."
  },
  "concepts": {
   "distinctive_terms": []

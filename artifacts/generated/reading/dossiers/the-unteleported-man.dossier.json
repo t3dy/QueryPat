@@ -3,27 +3,48 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-unteleported-man",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (a related source document, the shared 'aka Lies Inc.' archive file, exists but was not re-parsed independently for this shorter original version). This is the original 1966 novella/novel Dick later expanded and revised into Lies, Inc. (1984); see that entry for the expanded version's fuller plot and the added alien-occupation ending.",
  "work": {
   "title": "The Unteleported Man",
   "slug": "the-unteleported-man",
   "form": "novel",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Fantastic, 1964 (magazine novella); Ace Books, 1966 (expanded book edition)"
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Unteleported Man is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "An overcrowded Earth is offered emigration to a colony world, Whale's Mouth, reachable only via the one-way instantaneous teleportation service of Trails of Hoffman Limited -- a corporation whose monopoly on the route has driven Rachmael ben Applebaum's family slower-than-light passenger-ship business to ruin. Because no emigrant has ever returned or independently verified conditions on Whale's Mouth, and because Trails of Hoffman's advertised paradise cannot be confirmed by any means other than the one-way trip itself, Rachmael determines to fly there aboard one of his family's own obsolete ships -- a journey of many years -- specifically so that at least one human being can verify the truth by conventional travel and report back before further colonists are irrevocably committed. The shorter original version concentrates on this central premise and Rachmael's decision to undertake the voyage, establishing the core conflict between corporate-controlled, unverifiable convenience and the far slower cost of independently confirmed truth that Dick would expand at greater length, with an added alien-occupation revelation, in the 1984 rewrite Lies, Inc.",
   "structure": {
-   "form": "novel"
+   "form": "novel/novella establishing a one-way teleportation emigration monopoly and a protagonist's decision to independently verify its unconfirmable destination by conventional means",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "movements": [
+   "Establishment of overcrowded Earth and the Trails of Hoffman Limited one-way teleportation emigration monopoly to the colony world Whale's Mouth",
+   "Rachmael ben Applebaum's family history of ruin at the hands of the teleportation monopoly, and his growing suspicion that no independent verification of Whale's Mouth's advertised conditions exists",
+   "Rachmael's decision to undertake a years-long conventional voyage aboard an obsolete family ship specifically to verify the truth by means the teleportation monopoly cannot control or falsify"
+  ],
+  "characters": [
+   { "name": "Rachmael ben Applebaum", "role": "protagonist", "note": "Heir to a slower-than-light passenger line ruined by the teleportation monopoly, he resolves to undertake a years-long conventional voyage specifically to independently verify what one-way teleported emigrants have no means of confirming." },
+   { "name": "Trails of Hoffman Limited", "role": "corporate antagonist", "note": "The teleportation monopoly whose one-way emigration service to Whale's Mouth cannot be independently verified by any means other than the irrevocable trip itself." }
+  ],
+  "settings": [
+   { "name": "Overcrowded Earth", "note": "A population-crisis home world for which emigration to Whale's Mouth is advertised as the best available solution, regardless of the unverifiable risk involved." },
+   { "name": "Whale's Mouth", "note": "The advertised colony world, reachable only by one-way teleportation, whose true conditions cannot be confirmed by any means the Trails of Hoffman monopoly does not itself control." }
+  ],
+  "motifs": [
+   "One-way, unverifiable technology as a mechanism for total informational control over a population's understanding of its own options",
+   "Corporate monopoly power sustained by the absence of any independent means of confirming its claims",
+   "Slow, costly, independently verified truth pitted against fast, convenient, corporate-controlled convenience",
+   "Family ruin at the hands of a monopolizing new technology as personal motivation for a larger act of public verification"
+  ],
+  "significance": "The Unteleported Man is the original, shorter version of a premise Dick returned to in 1984 with the expanded novel Lies, Inc., which adds a fuller alien-occupation revelation and additional political material to the same core conflict between a one-way, unverifiable teleportation monopoly and Rachmael's determination to confirm the truth by conventional means. Studying the two versions together offers a clear case study in Dick's revision practice late in his career, showing how a compact 1960s pulp premise about corporate informational control could be substantially expanded, decades later, into a fuller indictment of both corporate and geopolitical deception.",
+  "closing_note": "Rachmael's decision to undertake the voyage rather than trust the teleportation monopoly's unverifiable advertising frames the novel's central argument: that some truths are worth the enormous cost of confirming firsthand rather than accepting on convenience alone."
  },
  "concepts": {
   "distinctive_terms": []

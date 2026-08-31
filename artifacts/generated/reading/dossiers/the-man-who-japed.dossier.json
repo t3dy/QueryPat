@@ -3,27 +3,48 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-man-who-japed",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass).",
  "work": {
   "title": "The Man Who Japed",
   "slug": "the-man-who-japed",
   "form": "novel",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Ace Books, 1956"
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Man Who Japed is a work by Philip K. Dick exploring themes central to his science fiction.",
+  "synopsis": "In a post-nuclear-war society rebuilt around a rigid, puritanical moral code enforced by pervasive surveillance and voluntary neighborhood 'block' informants, Allen Purcell works for an agency producing propaganda that reinforces the state's moral orthodoxy -- until he discovers, to his own horror, that he himself committed an anonymous act of public vandalism against a statue of the movement's revered founder, Major Streiter, apparently while in a dissociated state he cannot fully remember or control. As Purcell is offered the powerful directorship of the propaganda agency itself, he must reckon with his own unconscious rebellion against the moral system he has spent his career serving, ultimately choosing a more deliberate, public act of satire against the regime's sanctimonious puritanism rather than continuing to enforce it, testing whether institutional satire from within can actually loosen an oppressively moralistic society's grip without simply becoming another instrument of its control.",
   "structure": {
-   "form": "novel"
+   "form": "novel following a state propagandist's discovery of his own unconscious rebellion against the moral orthodoxy he serves",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "A novel by Philip K. Dick."
+  "movements": [
+   "Establishment of a post-nuclear-war society rebuilt around rigid puritanical moral enforcement via pervasive surveillance and neighborhood informants",
+   "Allen Purcell's discovery that he himself committed an anonymous act of vandalism against the movement's founder's statue, apparently while dissociated",
+   "Purcell's promotion to director of the propaganda agency, forcing a reckoning between his professional role and his own unconscious rebellion",
+   "Purcell's choice of a more deliberate public satirical act against the regime, testing whether institutional satire can loosen the society's moralistic grip from within"
+  ],
+  "characters": [
+   { "name": "Allen Purcell", "role": "protagonist", "note": "A propaganda-agency worker who discovers he himself committed an anonymous act of vandalism against the state's revered founder while in a dissociated state, and must reckon with his own unconscious rebellion as he is offered the agency's directorship." },
+   { "name": "Major Streiter", "role": "revered founder figure", "note": "The movement's founder, whose statue becomes the target of Purcell's unconscious act of vandalism -- an attack on the moral orthodoxy's own foundational symbol." }
+  ],
+  "settings": [
+   { "name": "A post-nuclear-war puritanical society", "note": "Rebuilt around rigid moral enforcement via pervasive surveillance and voluntary neighborhood 'block' informants, with propaganda agencies like Purcell's employer tasked with reinforcing the state's moral orthodoxy." }
+  ],
+  "motifs": [
+   "Unconscious rebellion against a moral system the protagonist has spent his career actively serving",
+   "Satire and jest as both a subversive and potentially self-defeating tool against institutional moral orthodoxy",
+   "Pervasive surveillance enforced not by a distant state apparatus but by voluntary, embedded neighborhood informants",
+   "Dissociation and lost self-control as a mechanism through which repressed political or moral dissent surfaces"
+  ],
+  "significance": "The Man Who Japed is one of Dick's sharpest satires of puritanical moral enforcement and propaganda, using Purcell's discovery of his own unconscious rebellion to dramatize how thoroughly even a system's most loyal servants can harbor unacknowledged resistance to its orthodoxy. Its portrayal of neighborhood-level voluntary surveillance as more effective and more insidious than centralized state monitoring anticipates later science fiction's interest in distributed, participatory forms of social control, while its ambivalent ending -- testing whether satire from within an institution can genuinely loosen its grip rather than simply become another managed outlet for dissent -- reflects Dick's characteristic skepticism toward clean revolutionary resolutions.",
+  "closing_note": "Purcell's deliberate turn to public satire against the regime leaves open whether his act constitutes genuine subversion or merely a more visible, still-contained form of the same institutional theater he has always served."
  },
  "concepts": {
   "distinctive_terms": []

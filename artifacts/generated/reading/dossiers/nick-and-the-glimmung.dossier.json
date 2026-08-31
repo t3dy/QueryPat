@@ -3,27 +3,49 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "nick-and-the-glimmung",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass). Dick's only children's novel, related to but distinct from his adult novel Galactic Pot-Healer, which shares the Glimmung character and premise.",
  "work": {
   "title": "Nick and the Glimmung",
   "slug": "nick-and-the-glimmung",
   "form": "novel",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "written": "1966",
+  "first_publication": "Gollancz, 1988 (posthumous; UK-only for decades)"
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Nick and the Glimmung is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "On a future Earth where all cats and dogs have been banned, young Nick Graham and his family emigrate to the distant planet Plowman's Planet so that Nick can keep his cat, Horace. There they encounter the Glimmung, a vast, ancient, shape-shifting alien entity that wants to raise a sunken cathedral, Heldscalla, from beneath the planet's waters, and that recruits a wide range of beings -- including Nick and his family -- to help with the project. The novel follows Nick's adventures among Plowman's Planet's strange creatures and the Glimmung's grand, uncertain project, culminating in the cathedral's raising and a resolution that, in keeping with Dick's usual skepticism toward triumphant endings, treats the Glimmung's success as partial and ambiguous rather than a clean, heroic victory.",
   "structure": {
-   "form": "novel"
+   "form": "children's novel following a young protagonist's adventures on an alien world centered on a communal salvage project",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "movements": [
+   "Establishment of a future Earth where pets are banned, prompting the Graham family's emigration to Plowman's Planet so Nick can keep his cat",
+   "Introduction of the Glimmung, a vast shape-shifting alien entity, and its project to raise the sunken cathedral Heldscalla",
+   "Nick and his family's recruitment into the Glimmung's project alongside a wide range of the planet's other beings",
+   "The cathedral's raising and a deliberately ambiguous, only partially triumphant resolution to the project"
+  ],
+  "characters": [
+   { "name": "Nick Graham", "role": "protagonist", "note": "A young boy who emigrates with his family to Plowman's Planet to keep his cat Horace, and becomes swept up in the Glimmung's grand salvage project." },
+   { "name": "The Glimmung", "role": "central alien entity", "note": "A vast, ancient, shape-shifting being whose project to raise the sunken cathedral Heldscalla from beneath Plowman's Planet's waters structures the novel's plot; the same figure and premise recur, reworked for an adult audience, in Dick's novel Galactic Pot-Healer." }
+  ],
+  "settings": [
+   { "name": "Plowman's Planet", "note": "A strange alien world populated by a wide range of creatures, and home to the sunken cathedral Heldscalla that the Glimmung seeks to raise." }
+  ],
+  "motifs": [
+   "A communal salvage or restoration project recruiting a diverse cast toward an uncertain, only partially achievable goal",
+   "Pet ownership and companionship as a value worth emigrating across space to preserve",
+   "A vast, ancient, shape-shifting entity whose motives and true nature remain only partly legible to the human characters who work for it",
+   "Ambiguous, only partially triumphant resolution in place of a clean heroic victory, even in a children's-novel register"
+  ],
+  "significance": "Nick and the Glimmung is Dick's only novel written explicitly for a younger audience, and its central premise -- the Glimmung's project to raise the sunken cathedral Heldscalla -- was reworked by Dick the same year into his adult novel Galactic Pot-Healer, making the two books a useful paired case study in how Dick adapted a single core idea for different audiences and registers. Long available only in the UK following its 1988 posthumous publication, the novel gives scholars insight into how Dick's characteristic skepticism toward clean, triumphant resolutions persisted even when writing explicitly for children, refusing the more straightforwardly redemptive arc a children's adventure novel might be expected to deliver.",
+  "closing_note": "The cathedral's raising is achieved, but the novel's refusal to frame this as an unambiguous triumph carries Dick's characteristic reluctance toward tidy resolution into a genre that typically expects one."
  },
  "concepts": {
   "distinctive_terms": []

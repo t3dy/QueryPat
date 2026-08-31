@@ -3,27 +3,48 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-crack-in-space",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass). Expanded from Dick's 1964 novella Cantata 140.",
  "work": {
   "title": "The Crack in Space",
   "slug": "the-crack-in-space",
   "form": "novel",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Ace Books, 1966 (expanded from the novella Cantata 140, 1964)"
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Crack in Space is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "In an overcrowded near-future America grappling with chronic unemployment and racial tension, a repair technician discovers that a malfunctioning experimental Jifi-scuttler (an instantaneous transit device) has opened a permanent crack into a parallel Earth, empty of humans and available for settlement. As word of the discovery spreads amid a presidential election in which the first Black candidate, Jim Briskin, campaigns partly on a promise to resettle America's unemployed underclass -- many of them held in cryogenic suspension for years for lack of jobs or housing -- to the newly discovered parallel world, competing factions maneuver to control access to and political credit for the alternate Earth, while the parallel world itself turns out to harbor its own indigenous hominid population, complicating the resettlement plan's premise of an empty world available for the taking.",
   "structure": {
-   "form": "novel"
+   "form": "novel intercutting a political campaign plot with the discovery and contested exploitation of a parallel-world resettlement opportunity",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "movements": [
+   "Establishment of an overcrowded, chronically unemployed near-future America, with many of its underclass held in long-term cryogenic suspension for lack of jobs or housing",
+   "Discovery of a permanent crack to a parallel, apparently empty Earth via a malfunctioning Jifi-scuttler transit device",
+   "Entanglement of the discovery with Jim Briskin's presidential campaign, built partly on a promise to resettle the unemployed underclass in the newly discovered world",
+   "Revelation that the parallel Earth harbors its own indigenous hominid population, complicating the resettlement plan's premise and the political and ethical stakes of the discovery"
+  ],
+  "characters": [
+   { "name": "Jim Briskin", "role": "presidential candidate", "note": "The first Black candidate for the American presidency, campaigning partly on a promise to resettle the country's chronically unemployed, cryogenically suspended underclass to the newly discovered parallel Earth." }
+  ],
+  "settings": [
+   { "name": "Overcrowded near-future America", "note": "Grappling with chronic unemployment and racial tension, with much of its underclass held in long-term cryogenic suspension for lack of jobs or housing." },
+   { "name": "The parallel Earth beyond the crack", "note": "Discovered via a malfunctioning instantaneous transit device, initially believed empty and available for human resettlement, but revealed to harbor its own indigenous hominid population." }
+  ],
+  "motifs": [
+   "Technological accident opening unexpected political and social opportunity, immediately contested by competing factions",
+   "Resettlement and colonization premised on an assumption of emptiness that turns out to be false, echoing real-world colonial displacement of indigenous populations",
+   "Racial politics and a historic first Black presidential candidacy intersecting directly with a science-fictional resource crisis",
+   "Cryogenic suspension as a literal, institutionalized holding pattern for economically surplus populations"
+  ],
+  "significance": "The Crack in Space, expanded from Dick's 1964 novella Cantata 140, is notable for its direct engagement with contemporary American racial politics through Jim Briskin's historic candidacy, years before a Black presidential candidacy became a mainstream political possibility in reality. Its parallel-world resettlement plot, complicated by the discovery of an indigenous population the human characters had assumed did not exist, functions as a pointed science-fictional allegory for the colonial premise that supposedly empty land is available for the taking, undercutting the technological-solution optimism of its own premise with an ethical complication its characters did not anticipate.",
+  "closing_note": "The discovery of the parallel Earth's indigenous population leaves the resettlement plan's moral and political legitimacy as unresolved as the overcrowding crisis it was meant to solve."
  },
  "concepts": {
   "distinctive_terms": []
