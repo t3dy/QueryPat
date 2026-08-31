@@ -62,7 +62,7 @@ Professor Anthony Douglas, a leading nuclear physicist, is terrorized by an enor
 
 ### The Game-Players of Titan
 
-The Game-Players of Titan is the canonical works record for PKD's novel. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+# The Game-Players of Titan (Vintage Edition) *by Philip K. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### A Game of Unchance
 
@@ -70,7 +70,7 @@ A Martian colony settlement, wary after a prior traveling carnival cheated them,
 
 ### The Crack in Space
 
-The Crack in Space is the canonical works record for PKD's novel. In a novel like [The Crack in Space](/works/the-crack-in-space), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In an overcrowded near-future America grappling with chronic unemployment and racial tension, a repair technician discovers that a malfunctioning experimental Jifi-scuttler (an instantaneous transit device) has opened a permanent crack... In a novel like [The Crack in Space](/works/the-crack-in-space), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Return Match
 
@@ -78,7 +78,7 @@ Police officer Joseph Tinbane raids an illegal alien ('outspacer') gambling casi
 
 ### The Ganymede Takeover
 
-The Ganymede Takeover is the canonical works record for PKD's novel. In a novel like [The Ganymede Takeover](/works/the-ganymede-takeover), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Earth has been conquered and occupied for years by the insectile Ganymedeans, who rule through a combination of bureaucratic administration and telepathic-propaganda broadcasts. In a novel like [The Ganymede Takeover](/works/the-ganymede-takeover), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Not by Its Cover
 
@@ -86,7 +86,7 @@ Obelisk Books, a Martian-colony publisher, discovers that its deluxe hardcover e
 
 ### Nick and the Glimmung
 
-Nick and the Glimmung is the canonical works record for PKD's novel. In a novel like [Nick and the Glimmung](/works/nick-and-the-glimmung), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+On a future Earth where all cats and dogs have been banned, young Nick Graham and his family emigrate to the distant planet Plowman's Planet so that Nick can keep his cat, Horace. In a novel like [Nick and the Glimmung](/works/nick-and-the-glimmung), that premise becomes a thematic pressure point instead of background decoration. Off-world encounter and nonhuman presence are used as estrangement devices that expose human habit from the outside. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 

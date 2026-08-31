@@ -14,7 +14,7 @@ A ship provisioning on Mars takes aboard a wub — an enormous, placid, pig-like
 
 ### The Short Happy Life of the Brown Oxford and Other Classic Stories
 
-The Short Happy Life of the Brown Oxford and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Short Happy Life of the Brown Oxford and Other Classic Stories](/works/the-short-happy-life-of-the-brown-oxford-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Volume 1 of The Collected Stories of Philip K. In a story collection like [The Short Happy Life of the Brown Oxford and Other Classic Stories](/works/the-short-happy-life-of-the-brown-oxford-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Impostor
 
@@ -102,7 +102,7 @@ Six astronauts crash-land back on Earth after a Mars expedition, jubilant to be 
 
 ### Clans of the Alphane Moon
 
-Clans of the Alphane Moon is the canonical works record for PKD's novel. In a novel like [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Decades after Earth abandoned a psychiatric colony on Alpha III M2, a moon in the Alpha Centauri system, during an interstellar war, the former patients have organized themselves into distinct societal 'clans' each built around a different... In a novel like [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Precious Artifact
 
@@ -114,7 +114,7 @@ Zen Buddhism scholar Joan Hiashi is recruited by the State Department to bring h
 
 ### The Zap Gun
 
-The Zap Gun is the canonical works record for PKD's novel. In a novel like [The Zap Gun](/works/the-zap-gun), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a Cold War stalemate between the Western bloc ('Wes-bloc') and the Eastern bloc ('Peep-East'), weapons design has become a form of state theater: 'weapons fashion designers' like Lars Powderdry channel psychic trance states to dream up... In a novel like [The Zap Gun](/works/the-zap-gun), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Electric Ant
 
@@ -122,15 +122,15 @@ Garson Poole wakes in hospital after a crash, missing a right hand and feeling n
 
 ### The Preserving Machine and Other Stories
 
-The Preserving Machine and Other Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Preserving Machine and Other Stories](/works/the-preserving-machine-and-other-stories), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+First published by Ace Books in 1969 and anchored by its title story -- in which a machine transforms musical compositions into living creatures in an attempt to preserve them against a feared future collapse of culture -- this collection... In a story collection like [The Preserving Machine and Other Stories](/works/the-preserving-machine-and-other-stories), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Our Friends from Frolix 8
 
-Our Friends from Frolix 8 is the canonical works record for PKD's novel. In a novel like [Our Friends from Frolix 8](/works/our-friends-from-frolix-8), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Earth is ruled by a rigid biological caste system: a tiny elite of genetically enhanced 'New Men' and telepathic 'Unusuals' govern a vast underclass of ordinary 'Old Men,' whose fitness for even basic civic participation is determined by... In a novel like [Our Friends from Frolix 8](/works/our-friends-from-frolix-8), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Book of Philip K. Dick
 
-The Book of Philip K. In a story collection like [The Book of Philip K. Dick](/works/the-book-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This 1973 collection, dedicated to 'Leslie Busby: the little black-haired girl I love so much,' gathers stories Dick wrote primarily between 1952 and 1955: Nanny, The Turning Wheel, The Defenders, Adjustment Team, Psi-man, The Commuter, A... In a story collection like [The Book of Philip K. Dick](/works/the-book-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Pre-Persons
 
@@ -138,7 +138,7 @@ In a near-future California, Congress has extended abortion law past birth: a ch
 
 ### Confessions of a Crap Artist
 
-Confessions of a Crap Artist is the canonical works record for PKD's novel. In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Set in Marin County, California, the novel alternates first-person narration between Jack Isidore, a socially maladroit, obsessively literal-minded collector of pseudo-scientific trivia (flying saucers, hollow-earth theories, perpetual... In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Exit Door Leads In
 
@@ -150,27 +150,27 @@ Leo McVane lives alone in an isolated communications dome on a frozen, double-su
 
 ### Mary and the Giant
 
-Mary and the Giant is the canonical works record for PKD's novel. In a novel like [Mary and the Giant](/works/mary-and-the-giant), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a small, stifling California town in the 1950s, Mary Anne Reynolds, a young woman working at a record shop, chafes against the narrow social and romantic options available to her -- an unsatisfying engagement, a stagnant hometown, and... In a novel like [Mary and the Giant](/works/mary-and-the-giant), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Collected Stories of Philip K. Dick, Volumes 1-5
 
-The Collected Stories of Philip K. In a story collection like [The Collected Stories of Philip K. Dick, Volumes 1-5](/works/the-collected-stories-of-philip-k-dick-volumes-1-5), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This is the complete five-volume Collected Stories of Philip K. In a story collection like [The Collected Stories of Philip K. Dick, Volumes 1-5](/works/the-collected-stories-of-philip-k-dick-volumes-1-5), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Nick and the Glimmung
 
-Nick and the Glimmung is the canonical works record for PKD's novel. In a novel like [Nick and the Glimmung](/works/nick-and-the-glimmung), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+On a future Earth where all cats and dogs have been banned, young Nick Graham and his family emigrate to the distant planet Plowman's Planet so that Nick can keep his cat, Horace. In a novel like [Nick and the Glimmung](/works/nick-and-the-glimmung), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Philip K. Dick Reader
 
-The Philip K. In a story collection like [The Philip K. Dick Reader](/works/the-philip-k-dick-reader), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Published posthumously in 1997 at 505 pages, this anthology opens with 'Fair Game,' in which an exhausted Colorado professor's ordinary domestic evening is disrupted by hints of government research -- a characteristic Dickian move of... In a story collection like [The Philip K. Dick Reader](/works/the-philip-k-dick-reader), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Do Androids Dream of Electric Sheep?
 
-Do Androids Dream of Electric Sheep? In a novel like [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a San Francisco depopulated by nuclear fallout from World War Terminus, bounty hunter Rick Deckard is assigned to 'retire' six escaped Nexus-6 androids -- the most advanced synthetic humans yet built, nearly indistinguishable from... In a novel like [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Electric Dreams
 
-Electric Dreams is the canonical works record for PKD's short-story collection. In a story collection like [Electric Dreams](/works/electric-dreams), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This anthology gathers ten Philip K. In a story collection like [Electric Dreams](/works/electric-dreams), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Second Variety
 
@@ -178,7 +178,7 @@ Six years into a nuclear war that has left most of the northern hemisphere ash, 
 
 ### Selected Stories of Philip K. Dick
 
-Selected Stories of Philip K. In a story collection like [Selected Stories of Philip K. Dick](/works/selected-stories-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This anthology draws from Dick's prolific short fiction output, primarily written in the 1950s and early 1960s, to present a curated selection of his shorter works. In a story collection like [Selected Stories of Philip K. Dick](/works/selected-stories-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 

@@ -38,7 +38,7 @@ Survivors of a hydrogen war — 'flukers', so named because they lived by a fluk
 
 ### Clans of the Alphane Moon
 
-Clans of the Alphane Moon is the canonical works record for PKD's novel. In a novel like [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Decades after Earth abandoned a psychiatric colony on Alpha III M2, a moon in the Alpha Centauri system, during an interstellar war, the former patients have organized themselves into distinct societal 'clans' each built around a different... In a novel like [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Retreat Syndrome
 
@@ -54,7 +54,7 @@ Three American time travelers — Addison Doug, Benz, and Crayne — return from
 
 ### Confessions of a Crap Artist
 
-Confessions of a Crap Artist is the canonical works record for PKD's novel. In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Set in Marin County, California, the novel alternates first-person narration between Jack Isidore, a socially maladroit, obsessively literal-minded collector of pseudo-scientific trivia (flying saucers, hollow-earth theories, perpetual... In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Eye of the Sibyl
 
@@ -74,7 +74,7 @@ Cadbury, a discontented beaver in an anthropomorphic animal society run on a pok
 
 ### Mary and the Giant
 
-Mary and the Giant is the canonical works record for PKD's novel. In a novel like [Mary and the Giant](/works/mary-and-the-giant), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a small, stifling California town in the 1950s, Mary Anne Reynolds, a young woman working at a record shop, chafes against the narrow social and romantic options available to her -- an unsatisfying engagement, a stagnant hometown, and... In a novel like [Mary and the Giant](/works/mary-and-the-giant), that premise becomes a thematic pressure point instead of background decoration. Recalling, forgetting, and misremembering become plot devices that make the self feel provisional. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 

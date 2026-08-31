@@ -38,7 +38,7 @@ Jill Herrick is married to Lester, a toxicologist who develops poisons for the m
 
 ### Solar Lottery
 
-Solar Lottery is the canonical works record for PKD's novel. In a novel like [Solar Lottery](/works/solar-lottery), that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a future society governed by a game-theory-derived randomization system -- the Quizmaster, the most powerful office in human space, is assigned by a literal, unpredictable lottery designed to prevent any individual or faction from... In a novel like [Solar Lottery](/works/solar-lottery), that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Electric Ant
 
@@ -46,7 +46,7 @@ Garson Poole wakes in hospital after a crash, missing a right hand and feeling n
 
 ### Do Androids Dream of Electric Sheep?
 
-Do Androids Dream of Electric Sheep? In a novel like [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep), that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a San Francisco depopulated by nuclear fallout from World War Terminus, bounty hunter Rick Deckard is assigned to 'retire' six escaped Nexus-6 androids -- the most advanced synthetic humans yet built, nearly indistinguishable from... In a novel like [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep), that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Second Variety
 

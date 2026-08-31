@@ -10,7 +10,7 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 ### Now Wait for Last Year
 
-Now Wait for Last Year is the canonical works record for PKD's novel. In a novel like [Now Wait for Last Year](/works/now-wait-for-last-year), that premise becomes a thematic pressure point instead of background decoration. Chemical distortion works as both subject matter and narrative method, blurring perception and destabilizing the scene. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Earth is a client state of the insectile alien Lilistar in a war against another alien race, the reptilian Reegs, a war Earth is quietly losing and increasingly suspects it should never have joined. In a novel like [Now Wait for Last Year](/works/now-wait-for-last-year), that premise becomes a thematic pressure point instead of background decoration. Chemical distortion works as both subject matter and narrative method, blurring perception and destabilizing the scene. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Faith of Our Fathers
 
@@ -18,7 +18,7 @@ In a Hanoi where the Party has won the global war, Tung Chien is a mid-level fun
 
 ### Voices from the Street
 
-Voices from the Street is the canonical works record for PKD's novel. In a novel like [Voices from the Street](/works/voices-from-the-street), that premise becomes a thematic pressure point instead of background decoration. Chemical distortion works as both subject matter and narrative method, blurring perception and destabilizing the scene. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Stuart Hadley, a television-and-appliance salesman in a Bay Area electronics store, feels suffocated by his marriage, his job, and the conformist consumer culture of 1950s suburban California, and drifts through a series of attempted... In a novel like [Voices from the Street](/works/voices-from-the-street), that premise becomes a thematic pressure point instead of background decoration. Chemical distortion works as both subject matter and narrative method, blurring perception and destabilizing the scene. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 

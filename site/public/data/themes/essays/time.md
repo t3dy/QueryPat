@@ -42,7 +42,7 @@ In a post-war America where radiation has produced mutants — 'deeves' — the 
 
 ### The Minority Report and Other Classic Stories
 
-The Minority Report and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Minority Report and Other Classic Stories](/works/the-minority-report-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Volume 4 of The Collected Stories of Philip K. In a story collection like [The Minority Report and Other Classic Stories](/works/the-minority-report-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Autofac
 
@@ -58,7 +58,7 @@ Paul Sharp, an economist at a post-nuclear-war reclamation agency, seeks psychia
 
 ### Time Out of Joint
 
-Time Out of Joint is the canonical works record for PKD's novel. In a novel like [Time Out of Joint](/works/time-out-of-joint), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Ragle Gumm lives in a quiet 1950s American town, supporting himself and his sister's family by winning, day after day, a newspaper contest called 'Where Will the Little Green Man Be Next?' His domestic routine -- rivalries with a neighbor... In a novel like [Time Out of Joint](/works/time-out-of-joint), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Days of Perky Pat
 
@@ -74,15 +74,15 @@ In the mid-21st century, the Emigration Bureau's interstellar colonization proje
 
 ### Dr. Bloodmoney, or How We Got Along After the Bomb
 
-Dr. In a novel like [Dr. Bloodmoney, or How We Got Along After the Bomb](/works/dr-bloodmoney-or-how-we-got-along-after-the-bomb), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Before a nuclear war devastates the United States, disgraced physicist Bruno Bluthgeld (who accidentally caused an earlier radiation disaster and believes, with escalating paranoid delusion, that he personally causes catastrophes through... In a novel like [Dr. Bloodmoney, or How We Got Along After the Bomb](/works/dr-bloodmoney-or-how-we-got-along-after-the-bomb), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Now Wait for Last Year
 
-Now Wait for Last Year is the canonical works record for PKD's novel. In a novel like [Now Wait for Last Year](/works/now-wait-for-last-year), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Earth is a client state of the insectile alien Lilistar in a war against another alien race, the reptilian Reegs, a war Earth is quietly losing and increasingly suspects it should never have joined. In a novel like [Now Wait for Last Year](/works/now-wait-for-last-year), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Counter-Clock World
 
-Counter-Clock World is the canonical works record for PKD's novel. In a novel like [Counter-Clock World](/works/counter-clock-world), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a near future where time locally has begun running backward -- the 'Hobart Phase' -- the dead rise from their graves and live their lives in reverse, aging backward toward birth and eventual re-absorption into a mother's womb; the dying... In a novel like [Counter-Clock World](/works/counter-clock-world), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### A Little Something for Us Tempunauts
 
@@ -98,7 +98,7 @@ On a ten-year interstellar crossing with sixty emigrants in cryonic suspension, 
 
 ### Five Novels of the 1960s and 70s
 
-Five Novels of the 1960s and 70s is the canonical works record for PKD's novel. In a novel like [Five Novels of the 1960s and 70s](/works/five-novels-of-the-1960s-and-70s), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This is the second of two Library of America volumes dedicated to Philip K. In a novel like [Five Novels of the 1960s and 70s](/works/five-novels-of-the-1960s-and-70s), that premise becomes a thematic pressure point instead of background decoration. Temporal slips, regressions, and loops let the plot itself enact the pressure of time on reality. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Stability
 

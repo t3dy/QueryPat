@@ -10,7 +10,7 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 ### The Short Happy Life of the Brown Oxford and Other Classic Stories
 
-The Short Happy Life of the Brown Oxford and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Short Happy Life of the Brown Oxford and Other Classic Stories](/works/the-short-happy-life-of-the-brown-oxford-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Volume 1 of The Collected Stories of Philip K. In a story collection like [The Short Happy Life of the Brown Oxford and Other Classic Stories](/works/the-short-happy-life-of-the-brown-oxford-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Colony
 
@@ -54,7 +54,7 @@ An isolated colony of roughly a hundred people on the bog-covered planet Betelge
 
 ### The Minority Report and Other Classic Stories
 
-The Minority Report and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Minority Report and Other Classic Stories](/works/the-minority-report-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Volume 4 of The Collected Stories of Philip K. In a story collection like [The Minority Report and Other Classic Stories](/works/the-minority-report-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Upon the Dull Earth
 
@@ -66,19 +66,19 @@ Five years after a global war, a planet-wide network of automated factories cont
 
 ### Eye in the Sky
 
-Eye in the Sky is the canonical works record for PKD's novel. In a novel like [Eye in the Sky](/works/eye-in-the-sky), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Eight visitors touring a Belmont, California particle accelerator (the 'Bevatron') are caught in a radiation accident when the observation platform collapses. In a novel like [Eye in the Sky](/works/eye-in-the-sky), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Cosmic Puppets
 
-The Cosmic Puppets is the canonical works record for PKD's novel. In a novel like [The Cosmic Puppets](/works/the-cosmic-puppets), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Ted Barton returns as an adult to his childhood town of Millgate, Virginia, only to find it utterly unrecognizable -- buildings, streets, and even the town's remembered history have been altered, and official records insist he died there... In a novel like [The Cosmic Puppets](/works/the-cosmic-puppets), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Time Out of Joint
 
-Time Out of Joint is the canonical works record for PKD's novel. In a novel like [Time Out of Joint](/works/time-out-of-joint), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Ragle Gumm lives in a quiet 1950s American town, supporting himself and his sister's family by winning, day after day, a newspaper contest called 'Where Will the Little Green Man Be Next?' His domestic routine -- rivalries with a neighbor... In a novel like [Time Out of Joint](/works/time-out-of-joint), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Man in the High Castle
 
-The Man in the High Castle is the canonical works record for PKD's novel. In a novel like [The Man in the High Castle](/works/the-man-in-the-high-castle), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a world where Nazi Germany and the Japanese Empire won World War II and divided the globe between them, the western United States is under Japanese control (the Pacific States of America), the East is controlled by the Nazis, and a... In a novel like [The Man in the High Castle](/works/the-man-in-the-high-castle), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Orpheus with Clay Feet
 
@@ -86,7 +86,7 @@ Bored military-exemption consultant Jesse Slade visits a time-travel agency, Mus
 
 ### The Penultimate Truth
 
-The Penultimate Truth is the canonical works record for PKD's novel. In a novel like [The Penultimate Truth](/works/the-penultimate-truth), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Most of humanity believes World War III is still raging on the surface and has lived for over a decade in vast underground bunkers ('ant tanks'), building robot soldiers called 'leadies' for the war effort while a handful of elite... In a novel like [The Penultimate Truth](/works/the-penultimate-truth), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Waterspider
 
@@ -94,7 +94,7 @@ In the mid-21st century, the Emigration Bureau's interstellar colonization proje
 
 ### Dr. Bloodmoney, or How We Got Along After the Bomb
 
-Dr. In a novel like [Dr. Bloodmoney, or How We Got Along After the Bomb](/works/dr-bloodmoney-or-how-we-got-along-after-the-bomb), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Before a nuclear war devastates the United States, disgraced physicist Bruno Bluthgeld (who accidentally caused an earlier radiation disaster and believes, with escalating paranoid delusion, that he personally causes catastrophes through... In a novel like [Dr. Bloodmoney, or How We Got Along After the Bomb](/works/dr-bloodmoney-or-how-we-got-along-after-the-bomb), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Retreat Syndrome
 
@@ -102,11 +102,11 @@ Peace officers stop John Cupertino for driving at 160 miles an hour, and find a 
 
 ### Now Wait for Last Year
 
-Now Wait for Last Year is the canonical works record for PKD's novel. In a novel like [Now Wait for Last Year](/works/now-wait-for-last-year), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Earth is a client state of the insectile alien Lilistar in a war against another alien race, the reptilian Reegs, a war Earth is quietly losing and increasingly suspects it should never have joined. In a novel like [Now Wait for Last Year](/works/now-wait-for-last-year), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Crack in Space
 
-The Crack in Space is the canonical works record for PKD's novel. In a novel like [The Crack in Space](/works/the-crack-in-space), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In an overcrowded near-future America grappling with chronic unemployment and racial tension, a repair technician discovers that a malfunctioning experimental Jifi-scuttler (an instantaneous transit device) has opened a permanent crack... In a novel like [The Crack in Space](/works/the-crack-in-space), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### We Can Remember It For You Wholesale
 
@@ -114,7 +114,7 @@ Douglas Quail, a clerk at the West Coast Emigration Bureau, wants to have gone t
 
 ### Counter-Clock World
 
-Counter-Clock World is the canonical works record for PKD's novel. In a novel like [Counter-Clock World](/works/counter-clock-world), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a near future where time locally has begun running backward -- the 'Hobart Phase' -- the dead rise from their graves and live their lives in reverse, aging backward toward birth and eventual re-absorption into a mother's womb; the dying... In a novel like [Counter-Clock World](/works/counter-clock-world), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Faith of Our Fathers
 
@@ -126,27 +126,27 @@ Garson Poole wakes in hospital after a crash, missing a right hand and feeling n
 
 ### The Preserving Machine and Other Stories
 
-The Preserving Machine and Other Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Preserving Machine and Other Stories](/works/the-preserving-machine-and-other-stories), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+First published by Ace Books in 1969 and anchored by its title story -- in which a machine transforms musical compositions into living creatures in an attempt to preserve them against a feared future collapse of culture -- this collection... In a story collection like [The Preserving Machine and Other Stories](/works/the-preserving-machine-and-other-stories), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Ubik
 
-Ubik is the canonical works record for PKD's novel. In a novel like [Ubik](/works/ubik), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+# Ubik *by Philip K. In a novel like [Ubik](/works/ubik), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### A Maze of Death
 
-A Maze of Death is the canonical works record for PKD's novel. In a novel like [A Maze of Death](/works/a-maze-of-death), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+# A Maze of Death *by Philip K. In a novel like [A Maze of Death](/works/a-maze-of-death), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Our Friends from Frolix 8
 
-Our Friends from Frolix 8 is the canonical works record for PKD's novel. In a novel like [Our Friends from Frolix 8](/works/our-friends-from-frolix-8), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Earth is ruled by a rigid biological caste system: a tiny elite of genetically enhanced 'New Men' and telepathic 'Unusuals' govern a vast underclass of ordinary 'Old Men,' whose fitness for even basic civic participation is determined by... In a novel like [Our Friends from Frolix 8](/works/our-friends-from-frolix-8), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Book of Philip K. Dick
 
-The Book of Philip K. In a story collection like [The Book of Philip K. Dick](/works/the-book-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This 1973 collection, dedicated to 'Leslie Busby: the little black-haired girl I love so much,' gathers stories Dick wrote primarily between 1952 and 1955: Nanny, The Turning Wheel, The Defenders, Adjustment Team, Psi-man, The Commuter, A... In a story collection like [The Book of Philip K. Dick](/works/the-book-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Deus Irae
 
-Deus Irae is the canonical works record for PKD's novel. In a novel like [Deus Irae](/works/deus-irae), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+After a nuclear war, a new religion has arisen worshipping Carleton Lufteufel, the scientist responsible for the weapon that devastated civilization, now venerated as the wrathful 'Deus Irae' (God of Wrath) by the Servants of Wrath sect... In a novel like [Deus Irae](/works/deus-irae), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Day Mr. Computer Fell Out of Its Tree
 
@@ -154,55 +154,55 @@ Joe Contemptible wakes to a world run by a vast central computer that has gone p
 
 ### The Unteleported Man
 
-The Unteleported Man is the canonical works record for PKD's novel. In a novel like [The Unteleported Man](/works/the-unteleported-man), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+An overcrowded Earth is offered emigration to a colony world, Whale's Mouth, reachable only via the one-way instantaneous teleportation service of Trails of Hoffman Limited -- a corporation whose monopoly on the route has driven Rachmael... In a novel like [The Unteleported Man](/works/the-unteleported-man), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Lies, Inc.
 
-Lies, Inc. In a novel like [Lies, Inc.](/works/lies-inc), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+An overcrowded, dystopian Earth is offered apparent salvation by Trails of Hoffman Limited, a corporation that instantaneously teleports emigrants to a colony world, Whale's Mouth, advertised as an idyllic new home. In a novel like [Lies, Inc.](/works/lies-inc), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Radio Free Albemuth
 
-Radio Free Albemuth is the canonical works record for PKD's novel. In a novel like [Radio Free Albemuth](/works/radio-free-albemuth), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In an alternate United States under the increasingly authoritarian rule of President Ferris F. In a novel like [Radio Free Albemuth](/works/radio-free-albemuth), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Collected Stories of Philip K. Dick, Volumes 1-5
 
-The Collected Stories of Philip K. In a story collection like [The Collected Stories of Philip K. Dick, Volumes 1-5](/works/the-collected-stories-of-philip-k-dick-volumes-1-5), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This is the complete five-volume Collected Stories of Philip K. In a story collection like [The Collected Stories of Philip K. Dick, Volumes 1-5](/works/the-collected-stories-of-philip-k-dick-volumes-1-5), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Second Variety and Other Classic Stories
 
-Second Variety and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [Second Variety and Other Classic Stories](/works/second-variety-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+A comprehensive, 499-page collection of Dick's short fiction anchored by the title story 'Second Variety,' one of his most celebrated early works about self-replicating war machines. In a story collection like [Second Variety and Other Classic Stories](/works/second-variety-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Gather Yourselves Together
 
-Gather Yourselves Together is the canonical works record for PKD's novel. In a novel like [Gather Yourselves Together](/works/gather-yourselves-together), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+As the Chinese Communist government prepares to take possession of an American industrial compound in China at the close of the civil war period, three Americans -- Carl Fitter, an older company employee; Verne Tildon, a younger colleague... In a novel like [Gather Yourselves Together](/works/gather-yourselves-together), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Philip K. Dick Reader
 
-The Philip K. In a story collection like [The Philip K. Dick Reader](/works/the-philip-k-dick-reader), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Published posthumously in 1997 at 505 pages, this anthology opens with 'Fair Game,' in which an exhausted Colorado professor's ordinary domestic evening is disrupted by hints of government research -- a characteristic Dickian move of... In a story collection like [The Philip K. Dick Reader](/works/the-philip-k-dick-reader), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Do Androids Dream of Electric Sheep?
 
-Do Androids Dream of Electric Sheep? In a novel like [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a San Francisco depopulated by nuclear fallout from World War Terminus, bounty hunter Rick Deckard is assigned to 'retire' six escaped Nexus-6 androids -- the most advanced synthetic humans yet built, nearly indistinguishable from... In a novel like [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Voices from the Street
 
-Voices from the Street is the canonical works record for PKD's novel. In a novel like [Voices from the Street](/works/voices-from-the-street), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Stuart Hadley, a television-and-appliance salesman in a Bay Area electronics store, feels suffocated by his marriage, his job, and the conformist consumer culture of 1950s suburban California, and drifts through a series of attempted... In a novel like [Voices from the Street](/works/voices-from-the-street), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Five Novels of the 1960s and 70s
 
-Five Novels of the 1960s and 70s is the canonical works record for PKD's novel. In a novel like [Five Novels of the 1960s and 70s](/works/five-novels-of-the-1960s-and-70s), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This is the second of two Library of America volumes dedicated to Philip K. In a novel like [Five Novels of the 1960s and 70s](/works/five-novels-of-the-1960s-and-70s), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The VALIS Trilogy
 
-The VALIS Trilogy is the canonical works record for PKD's novel. In a novel like [The VALIS Trilogy](/works/the-valis-trilogy), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This 2011 Houghton Mifflin Harcourt omnibus collects Dick's three final novels: VALIS (1981), The Divine Invasion (1982), and The Transmigration of Timothy Archer (1982), together representing his most sustained engagement with theology... In a novel like [The VALIS Trilogy](/works/the-valis-trilogy), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Electric Dreams
 
-Electric Dreams is the canonical works record for PKD's short-story collection. In a story collection like [Electric Dreams](/works/electric-dreams), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This anthology gathers ten Philip K. In a story collection like [Electric Dreams](/works/electric-dreams), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Five Great Novels
 
-Five Great Novels is the canonical works record for PKD's novel. In a novel like [Five Great Novels](/works/five-great-novels), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This omnibus volume collects five major Philip K. In a novel like [Five Great Novels](/works/five-great-novels), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Second Variety
 
@@ -210,7 +210,7 @@ Six years into a nuclear war that has left most of the northern hemisphere ash, 
 
 ### Selected Stories of Philip K. Dick
 
-Selected Stories of Philip K. In a story collection like [Selected Stories of Philip K. Dick](/works/selected-stories-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This anthology draws from Dick's prolific short fiction output, primarily written in the 1950s and early 1960s, to present a curated selection of his shorter works. In a story collection like [Selected Stories of Philip K. Dick](/works/selected-stories-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. The narrative repeatedly collapses frames of reference, so the reader experiences the theme as structural instability. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Stability
 

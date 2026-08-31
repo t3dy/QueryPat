@@ -10,7 +10,7 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 ### The Short Happy Life of the Brown Oxford and Other Classic Stories
 
-The Short Happy Life of the Brown Oxford and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Short Happy Life of the Brown Oxford and Other Classic Stories](/works/the-short-happy-life-of-the-brown-oxford-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Volume 1 of The Collected Stories of Philip K. In a story collection like [The Short Happy Life of the Brown Oxford and Other Classic Stories](/works/the-short-happy-life-of-the-brown-oxford-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Skull
 
@@ -62,7 +62,7 @@ Eight-year-old Charles Walton is sent to fetch his father for dinner and comes b
 
 ### The Minority Report and Other Classic Stories
 
-The Minority Report and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Minority Report and Other Classic Stories](/works/the-minority-report-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Volume 4 of The Collected Stories of Philip K. In a story collection like [The Minority Report and Other Classic Stories](/works/the-minority-report-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Turning Wheel
 
@@ -74,11 +74,11 @@ Elderly country storekeeper Edna Berthelson makes a secretive weekly business tr
 
 ### Solar Lottery
 
-Solar Lottery is the canonical works record for PKD's novel. In a novel like [Solar Lottery](/works/solar-lottery), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a future society governed by a game-theory-derived randomization system -- the Quizmaster, the most powerful office in human space, is assigned by a literal, unpredictable lottery designed to prevent any individual or faction from... In a novel like [Solar Lottery](/works/solar-lottery), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Man Who Japed
 
-The Man Who Japed is the canonical works record for PKD's novel. In a novel like [The Man Who Japed](/works/the-man-who-japed), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a post-nuclear-war society rebuilt around a rigid, puritanical moral code enforced by pervasive surveillance and voluntary neighborhood 'block' informants, Allen Purcell works for an agency producing propaganda that reinforces the... In a novel like [The Man Who Japed](/works/the-man-who-japed), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Unreconstructed M
 
@@ -86,15 +86,15 @@ In a future where a crime is solved by a forensic 'file bank' that narrows the p
 
 ### Time Out of Joint
 
-Time Out of Joint is the canonical works record for PKD's novel. In a novel like [Time Out of Joint](/works/time-out-of-joint), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Ragle Gumm lives in a quiet 1950s American town, supporting himself and his sister's family by winning, day after day, a newspaper contest called 'Where Will the Little Green Man Be Next?' His domestic routine -- rivalries with a neighbor... In a novel like [Time Out of Joint](/works/time-out-of-joint), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Man in the High Castle
 
-The Man in the High Castle is the canonical works record for PKD's novel. In a novel like [The Man in the High Castle](/works/the-man-in-the-high-castle), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a world where Nazi Germany and the Japanese Empire won World War II and divided the globe between them, the western United States is under Japanese control (the Pacific States of America), the East is controlled by the Nazis, and a... In a novel like [The Man in the High Castle](/works/the-man-in-the-high-castle), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Game-Players of Titan
 
-The Game-Players of Titan is the canonical works record for PKD's novel. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+# The Game-Players of Titan (Vintage Edition) *by Philip K. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### A Game of Unchance
 
@@ -106,15 +106,15 @@ After six years reconstructing Mars following Terra's defeat in the Prox-Terra w
 
 ### The Penultimate Truth
 
-The Penultimate Truth is the canonical works record for PKD's novel. In a novel like [The Penultimate Truth](/works/the-penultimate-truth), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Most of humanity believes World War III is still raging on the surface and has lived for over a decade in vast underground bunkers ('ant tanks'), building robot soldiers called 'leadies' for the war effort while a handful of elite... In a novel like [The Penultimate Truth](/works/the-penultimate-truth), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Simulacra
 
-The Simulacra is the canonical works record for PKD's novel. In a novel like [The Simulacra](/works/the-simulacra), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a future United States governed as the 'USEA' (United States of Europe and America), the public First Lady, Nicole Thibodeaux, is an eternally youthful media figure adored across generations -- but the presidency itself, 'der Alte,' is... In a novel like [The Simulacra](/works/the-simulacra), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Dr. Bloodmoney, or How We Got Along After the Bomb
 
-Dr. In a novel like [Dr. Bloodmoney, or How We Got Along After the Bomb](/works/dr-bloodmoney-or-how-we-got-along-after-the-bomb), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Before a nuclear war devastates the United States, disgraced physicist Bruno Bluthgeld (who accidentally caused an earlier radiation disaster and believes, with escalating paranoid delusion, that he personally causes catastrophes through... In a novel like [Dr. Bloodmoney, or How We Got Along After the Bomb](/works/dr-bloodmoney-or-how-we-got-along-after-the-bomb), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Retreat Syndrome
 
@@ -122,19 +122,19 @@ Peace officers stop John Cupertino for driving at 160 miles an hour, and find a 
 
 ### Now Wait for Last Year
 
-Now Wait for Last Year is the canonical works record for PKD's novel. In a novel like [Now Wait for Last Year](/works/now-wait-for-last-year), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Earth is a client state of the insectile alien Lilistar in a war against another alien race, the reptilian Reegs, a war Earth is quietly losing and increasingly suspects it should never have joined. In a novel like [Now Wait for Last Year](/works/now-wait-for-last-year), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Ganymede Takeover
 
-The Ganymede Takeover is the canonical works record for PKD's novel. In a novel like [The Ganymede Takeover](/works/the-ganymede-takeover), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Earth has been conquered and occupied for years by the insectile Ganymedeans, who rule through a combination of bureaucratic administration and telepathic-propaganda broadcasts. In a novel like [The Ganymede Takeover](/works/the-ganymede-takeover), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### A Maze of Death
 
-A Maze of Death is the canonical works record for PKD's novel. In a novel like [A Maze of Death](/works/a-maze-of-death), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+# A Maze of Death *by Philip K. In a novel like [A Maze of Death](/works/a-maze-of-death), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Our Friends from Frolix 8
 
-Our Friends from Frolix 8 is the canonical works record for PKD's novel. In a novel like [Our Friends from Frolix 8](/works/our-friends-from-frolix-8), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Earth is ruled by a rigid biological caste system: a tiny elite of genetically enhanced 'New Men' and telepathic 'Unusuals' govern a vast underclass of ordinary 'Old Men,' whose fitness for even basic civic participation is determined by... In a novel like [Our Friends from Frolix 8](/works/our-friends-from-frolix-8), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Pre-Persons
 
@@ -142,7 +142,7 @@ In a near-future California, Congress has extended abortion law past birth: a ch
 
 ### Confessions of a Crap Artist
 
-Confessions of a Crap Artist is the canonical works record for PKD's novel. In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Set in Marin County, California, the novel alternates first-person narration between Jack Isidore, a socially maladroit, obsessively literal-minded collector of pseudo-scientific trivia (flying saucers, hollow-earth theories, perpetual... In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Exit Door Leads In
 
@@ -150,47 +150,47 @@ Bob Bibleman, a floating-home salesman in a future where robots handle all low-w
 
 ### The Unteleported Man
 
-The Unteleported Man is the canonical works record for PKD's novel. In a novel like [The Unteleported Man](/works/the-unteleported-man), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+An overcrowded Earth is offered emigration to a colony world, Whale's Mouth, reachable only via the one-way instantaneous teleportation service of Trails of Hoffman Limited -- a corporation whose monopoly on the route has driven Rachmael... In a novel like [The Unteleported Man](/works/the-unteleported-man), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Lies, Inc.
 
-Lies, Inc. In a novel like [Lies, Inc.](/works/lies-inc), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+An overcrowded, dystopian Earth is offered apparent salvation by Trails of Hoffman Limited, a corporation that instantaneously teleports emigrants to a colony world, Whale's Mouth, advertised as an idyllic new home. In a novel like [Lies, Inc.](/works/lies-inc), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Mary and the Giant
 
-Mary and the Giant is the canonical works record for PKD's novel. In a novel like [Mary and the Giant](/works/mary-and-the-giant), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a small, stifling California town in the 1950s, Mary Anne Reynolds, a young woman working at a record shop, chafes against the narrow social and romantic options available to her -- an unsatisfying engagement, a stagnant hometown, and... In a novel like [Mary and the Giant](/works/mary-and-the-giant), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Collected Stories of Philip K. Dick, Volumes 1-5
 
-The Collected Stories of Philip K. In a story collection like [The Collected Stories of Philip K. Dick, Volumes 1-5](/works/the-collected-stories-of-philip-k-dick-volumes-1-5), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This is the complete five-volume Collected Stories of Philip K. In a story collection like [The Collected Stories of Philip K. Dick, Volumes 1-5](/works/the-collected-stories-of-philip-k-dick-volumes-1-5), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Second Variety and Other Classic Stories
 
-Second Variety and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [Second Variety and Other Classic Stories](/works/second-variety-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+A comprehensive, 499-page collection of Dick's short fiction anchored by the title story 'Second Variety,' one of his most celebrated early works about self-replicating war machines. In a story collection like [Second Variety and Other Classic Stories](/works/second-variety-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Gather Yourselves Together
 
-Gather Yourselves Together is the canonical works record for PKD's novel. In a novel like [Gather Yourselves Together](/works/gather-yourselves-together), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+As the Chinese Communist government prepares to take possession of an American industrial compound in China at the close of the civil war period, three Americans -- Carl Fitter, an older company employee; Verne Tildon, a younger colleague... In a novel like [Gather Yourselves Together](/works/gather-yourselves-together), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Philip K. Dick Reader
 
-The Philip K. In a story collection like [The Philip K. Dick Reader](/works/the-philip-k-dick-reader), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Published posthumously in 1997 at 505 pages, this anthology opens with 'Fair Game,' in which an exhausted Colorado professor's ordinary domestic evening is disrupted by hints of government research -- a characteristic Dickian move of... In a story collection like [The Philip K. Dick Reader](/works/the-philip-k-dick-reader), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Voices from the Street
 
-Voices from the Street is the canonical works record for PKD's novel. In a novel like [Voices from the Street](/works/voices-from-the-street), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Stuart Hadley, a television-and-appliance salesman in a Bay Area electronics store, feels suffocated by his marriage, his job, and the conformist consumer culture of 1950s suburban California, and drifts through a series of attempted... In a novel like [Voices from the Street](/works/voices-from-the-street), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Five Novels of the 1960s and 70s
 
-Five Novels of the 1960s and 70s is the canonical works record for PKD's novel. In a novel like [Five Novels of the 1960s and 70s](/works/five-novels-of-the-1960s-and-70s), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This is the second of two Library of America volumes dedicated to Philip K. In a novel like [Five Novels of the 1960s and 70s](/works/five-novels-of-the-1960s-and-70s), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Electric Dreams
 
-Electric Dreams is the canonical works record for PKD's short-story collection. In a story collection like [Electric Dreams](/works/electric-dreams), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This anthology gathers ten Philip K. In a story collection like [Electric Dreams](/works/electric-dreams), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Selected Stories of Philip K. Dick
 
-Selected Stories of Philip K. In a story collection like [Selected Stories of Philip K. Dick](/works/selected-stories-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This anthology draws from Dick's prolific short fiction output, primarily written in the 1950s and early 1960s, to present a curated selection of his shorter works. In a story collection like [Selected Stories of Philip K. Dick](/works/selected-stories-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. Double agents, false allies, and reversals of trust keep the plot moving while exposing social fraud. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 

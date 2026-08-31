@@ -173,13 +173,14 @@ def merge(existing: list[dict[str, Any]], dossier_works: list[dict[str, Any]]) -
         if slug in index:
             target = index[slug]
             for key, value in reading.items():
-                # Never reassign an established id, and never overwrite a
-                # curated archive summary with a derived one.
+                # Never reassign an established id or archive-derived bibliographic
+                # facts. card_summary/page_summary are the exception: a close
+                # reading's own summary is the curated version, and it should
+                # replace the generic "Canonical record for X..." template that
+                # build_canonical_works.py generates before any reading exists.
                 if key in ("work_id", "canonical_title", "date_display", "date_start",
                            "page_count", "source_count", "related_docs", "first_doc",
                            "biography_events", "work_type", "category"):
-                    continue
-                if key in ("card_summary", "page_summary") and target.get(key):
                     continue
                 if value in (None, [], {}, ""):
                     continue

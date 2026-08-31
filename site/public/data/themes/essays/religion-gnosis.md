@@ -62,7 +62,7 @@ Silvia, a young woman with an inherited gift for summoning vast, alien 'angels' 
 
 ### The Cosmic Puppets
 
-The Cosmic Puppets is the canonical works record for PKD's novel. In a novel like [The Cosmic Puppets](/works/the-cosmic-puppets), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Ted Barton returns as an adult to his childhood town of Millgate, Virginia, only to find it utterly unrecognizable -- buildings, streets, and even the town's remembered history have been altered, and official records insist he died there... In a novel like [The Cosmic Puppets](/works/the-cosmic-puppets), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Little Black Box
 
@@ -78,11 +78,11 @@ Obelisk Books, a Martian-colony publisher, discovers that its deluxe hardcover e
 
 ### A Maze of Death
 
-A Maze of Death is the canonical works record for PKD's novel. In a novel like [A Maze of Death](/works/a-maze-of-death), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+# A Maze of Death *by Philip K. In a novel like [A Maze of Death](/works/a-maze-of-death), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Deus Irae
 
-Deus Irae is the canonical works record for PKD's novel. In a novel like [Deus Irae](/works/deus-irae), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+After a nuclear war, a new religion has arisen worshipping Carleton Lufteufel, the scientist responsible for the weapon that devastated civilization, now venerated as the wrathful 'Deus Irae' (God of Wrath) by the Servants of Wrath sect... In a novel like [Deus Irae](/works/deus-irae), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Eye of the Sibyl
 
@@ -102,19 +102,19 @@ On a ten-year interstellar crossing with sixty emigrants in cryonic suspension, 
 
 ### Radio Free Albemuth
 
-Radio Free Albemuth is the canonical works record for PKD's novel. In a novel like [Radio Free Albemuth](/works/radio-free-albemuth), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In an alternate United States under the increasingly authoritarian rule of President Ferris F. In a novel like [Radio Free Albemuth](/works/radio-free-albemuth), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Nick and the Glimmung
 
-Nick and the Glimmung is the canonical works record for PKD's novel. In a novel like [Nick and the Glimmung](/works/nick-and-the-glimmung), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+On a future Earth where all cats and dogs have been banned, young Nick Graham and his family emigrate to the distant planet Plowman's Planet so that Nick can keep his cat, Horace. In a novel like [Nick and the Glimmung](/works/nick-and-the-glimmung), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Five Novels of the 1960s and 70s
 
-Five Novels of the 1960s and 70s is the canonical works record for PKD's novel. In a novel like [Five Novels of the 1960s and 70s](/works/five-novels-of-the-1960s-and-70s), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This is the second of two Library of America volumes dedicated to Philip K. In a novel like [Five Novels of the 1960s and 70s](/works/five-novels-of-the-1960s-and-70s), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The VALIS Trilogy
 
-The VALIS Trilogy is the canonical works record for PKD's novel. In a novel like [The VALIS Trilogy](/works/the-valis-trilogy), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This 2011 Houghton Mifflin Harcourt omnibus collects Dick's three final novels: VALIS (1981), The Divine Invasion (1982), and The Transmigration of Timothy Archer (1982), together representing his most sustained engagement with theology... In a novel like [The VALIS Trilogy](/works/the-valis-trilogy), that premise becomes a thematic pressure point instead of background decoration. Apocalyptic imagery, revelation, and scriptural echo give the fiction a theological register without abandoning plot. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 

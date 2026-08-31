@@ -98,7 +98,7 @@ In a post-war America where radiation has produced mutants — 'deeves' — the 
 
 ### The Minority Report and Other Classic Stories
 
-The Minority Report and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Minority Report and Other Classic Stories](/works/the-minority-report-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Volume 4 of The Collected Stories of Philip K. In a story collection like [The Minority Report and Other Classic Stories](/works/the-minority-report-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Turning Wheel
 
@@ -122,7 +122,7 @@ Paint-company research director David Courtland is interrupted one evening by a 
 
 ### Solar Lottery
 
-Solar Lottery is the canonical works record for PKD's novel. In a novel like [Solar Lottery](/works/solar-lottery), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a future society governed by a game-theory-derived randomization system -- the Quizmaster, the most powerful office in human space, is assigned by a literal, unpredictable lottery designed to prevent any individual or faction from... In a novel like [Solar Lottery](/works/solar-lottery), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Chromium Fence
 
@@ -142,7 +142,7 @@ After a nuclear war has reduced the world to ash and rubble, human settlements s
 
 ### The Man Who Japed
 
-The Man Who Japed is the canonical works record for PKD's novel. In a novel like [The Man Who Japed](/works/the-man-who-japed), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a post-nuclear-war society rebuilt around a rigid, puritanical moral code enforced by pervasive surveillance and voluntary neighborhood 'block' informants, Allen Purcell works for an agency producing propaganda that reinforces the... In a novel like [The Man Who Japed](/works/the-man-who-japed), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Unreconstructed M
 
@@ -150,7 +150,7 @@ In a future where a crime is solved by a forensic 'file bank' that narrows the p
 
 ### The Man in the High Castle
 
-The Man in the High Castle is the canonical works record for PKD's novel. In a novel like [The Man in the High Castle](/works/the-man-in-the-high-castle), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a world where Nazi Germany and the Japanese Empire won World War II and divided the globe between them, the western United States is under Japanese control (the Pacific States of America), the East is controlled by the Nazis, and a... In a novel like [The Man in the High Castle](/works/the-man-in-the-high-castle), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### If There Were No Benny Cemoli
 
@@ -158,7 +158,7 @@ A decade after a nuclear war ('the Misfortune') devastated Earth, an armada from
 
 ### The Game-Players of Titan
 
-The Game-Players of Titan is the canonical works record for PKD's novel. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+# The Game-Players of Titan (Vintage Edition) *by Philip K. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Novelty Act
 
@@ -174,15 +174,15 @@ Zen Buddhism scholar Joan Hiashi is recruited by the State Department to bring h
 
 ### The Penultimate Truth
 
-The Penultimate Truth is the canonical works record for PKD's novel. In a novel like [The Penultimate Truth](/works/the-penultimate-truth), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Most of humanity believes World War III is still raging on the surface and has lived for over a decade in vast underground bunkers ('ant tanks'), building robot soldiers called 'leadies' for the war effort while a handful of elite... In a novel like [The Penultimate Truth](/works/the-penultimate-truth), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Simulacra
 
-The Simulacra is the canonical works record for PKD's novel. In a novel like [The Simulacra](/works/the-simulacra), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a future United States governed as the 'USEA' (United States of Europe and America), the public First Lady, Nicole Thibodeaux, is an eternally youthful media figure adored across generations -- but the presidency itself, 'der Alte,' is... In a novel like [The Simulacra](/works/the-simulacra), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Dr. Bloodmoney, or How We Got Along After the Bomb
 
-Dr. In a novel like [Dr. Bloodmoney, or How We Got Along After the Bomb](/works/dr-bloodmoney-or-how-we-got-along-after-the-bomb), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Before a nuclear war devastates the United States, disgraced physicist Bruno Bluthgeld (who accidentally caused an earlier radiation disaster and believes, with escalating paranoid delusion, that he personally causes catastrophes through... In a novel like [Dr. Bloodmoney, or How We Got Along After the Bomb](/works/dr-bloodmoney-or-how-we-got-along-after-the-bomb), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Retreat Syndrome
 
@@ -190,7 +190,7 @@ Peace officers stop John Cupertino for driving at 160 miles an hour, and find a 
 
 ### The Crack in Space
 
-The Crack in Space is the canonical works record for PKD's novel. In a novel like [The Crack in Space](/works/the-crack-in-space), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In an overcrowded near-future America grappling with chronic unemployment and racial tension, a repair technician discovers that a malfunctioning experimental Jifi-scuttler (an instantaneous transit device) has opened a permanent crack... In a novel like [The Crack in Space](/works/the-crack-in-space), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### We Can Remember It For You Wholesale
 
@@ -198,7 +198,7 @@ Douglas Quail, a clerk at the West Coast Emigration Bureau, wants to have gone t
 
 ### Counter-Clock World
 
-Counter-Clock World is the canonical works record for PKD's novel. In a novel like [Counter-Clock World](/works/counter-clock-world), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a near future where time locally has begun running backward -- the 'Hobart Phase' -- the dead rise from their graves and live their lives in reverse, aging backward toward birth and eventual re-absorption into a mother's womb; the dying... In a novel like [Counter-Clock World](/works/counter-clock-world), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Faith of Our Fathers
 
@@ -206,15 +206,15 @@ In a Hanoi where the Party has won the global war, Tung Chien is a mid-level fun
 
 ### The Ganymede Takeover
 
-The Ganymede Takeover is the canonical works record for PKD's novel. In a novel like [The Ganymede Takeover](/works/the-ganymede-takeover), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Earth has been conquered and occupied for years by the insectile Ganymedeans, who rule through a combination of bureaucratic administration and telepathic-propaganda broadcasts. In a novel like [The Ganymede Takeover](/works/the-ganymede-takeover), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Zap Gun
 
-The Zap Gun is the canonical works record for PKD's novel. In a novel like [The Zap Gun](/works/the-zap-gun), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a Cold War stalemate between the Western bloc ('Wes-bloc') and the Eastern bloc ('Peep-East'), weapons design has become a form of state theater: 'weapons fashion designers' like Lars Powderdry channel psychic trance states to dream up... In a novel like [The Zap Gun](/works/the-zap-gun), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Our Friends from Frolix 8
 
-Our Friends from Frolix 8 is the canonical works record for PKD's novel. In a novel like [Our Friends from Frolix 8](/works/our-friends-from-frolix-8), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Earth is ruled by a rigid biological caste system: a tiny elite of genetically enhanced 'New Men' and telepathic 'Unusuals' govern a vast underclass of ordinary 'Old Men,' whose fitness for even basic civic participation is determined by... In a novel like [Our Friends from Frolix 8](/works/our-friends-from-frolix-8), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### A Little Something for Us Tempunauts
 
@@ -226,7 +226,7 @@ In a near-future California, Congress has extended abortion law past birth: a ch
 
 ### Deus Irae
 
-Deus Irae is the canonical works record for PKD's novel. In a novel like [Deus Irae](/works/deus-irae), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+After a nuclear war, a new religion has arisen worshipping Carleton Lufteufel, the scientist responsible for the weapon that devastated civilization, now venerated as the wrathful 'Deus Irae' (God of Wrath) by the Servants of Wrath sect... In a novel like [Deus Irae](/works/deus-irae), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Exit Door Leads In
 
@@ -234,27 +234,27 @@ Bob Bibleman, a floating-home salesman in a future where robots handle all low-w
 
 ### The Unteleported Man
 
-The Unteleported Man is the canonical works record for PKD's novel. In a novel like [The Unteleported Man](/works/the-unteleported-man), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+An overcrowded Earth is offered emigration to a colony world, Whale's Mouth, reachable only via the one-way instantaneous teleportation service of Trails of Hoffman Limited -- a corporation whose monopoly on the route has driven Rachmael... In a novel like [The Unteleported Man](/works/the-unteleported-man), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Lies, Inc.
 
-Lies, Inc. In a novel like [Lies, Inc.](/works/lies-inc), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+An overcrowded, dystopian Earth is offered apparent salvation by Trails of Hoffman Limited, a corporation that instantaneously teleports emigrants to a colony world, Whale's Mouth, advertised as an idyllic new home. In a novel like [Lies, Inc.](/works/lies-inc), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Radio Free Albemuth
 
-Radio Free Albemuth is the canonical works record for PKD's novel. In a novel like [Radio Free Albemuth](/works/radio-free-albemuth), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In an alternate United States under the increasingly authoritarian rule of President Ferris F. In a novel like [Radio Free Albemuth](/works/radio-free-albemuth), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Second Variety and Other Classic Stories
 
-Second Variety and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [Second Variety and Other Classic Stories](/works/second-variety-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+A comprehensive, 499-page collection of Dick's short fiction anchored by the title story 'Second Variety,' one of his most celebrated early works about self-replicating war machines. In a story collection like [Second Variety and Other Classic Stories](/works/second-variety-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Gather Yourselves Together
 
-Gather Yourselves Together is the canonical works record for PKD's novel. In a novel like [Gather Yourselves Together](/works/gather-yourselves-together), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+As the Chinese Communist government prepares to take possession of an American industrial compound in China at the close of the civil war period, three Americans -- Carl Fitter, an older company employee; Verne Tildon, a younger colleague... In a novel like [Gather Yourselves Together](/works/gather-yourselves-together), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Five Novels of the 1960s and 70s
 
-Five Novels of the 1960s and 70s is the canonical works record for PKD's novel. In a novel like [Five Novels of the 1960s and 70s](/works/five-novels-of-the-1960s-and-70s), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This is the second of two Library of America volumes dedicated to Philip K. In a novel like [Five Novels of the 1960s and 70s](/works/five-novels-of-the-1960s-and-70s), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Second Variety
 
@@ -266,7 +266,7 @@ In a future City of Lightness where citizens fly on mechanical wings, Robert Ben
 
 ### The Little Movement
 
-The Little Movement is the canonical works record for PKD's short-story collection. In a story collection like [The Little Movement](/works/the-little-movement), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+A nervous street vendor sells a wind-up toy soldier to a boy named Bobby, unaware — or perhaps all too aware — that the toy is an intelligent, autonomous being executing a plan. In a story collection like [The Little Movement](/works/the-little-movement), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 

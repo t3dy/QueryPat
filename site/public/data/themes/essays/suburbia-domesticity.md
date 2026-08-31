@@ -10,15 +10,15 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 ### The Jungle People
 
-The Jungle People is the canonical works record for PKD's short-story collection. In a story collection like [The Jungle People](/works/the-jungle-people), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This is among the earliest known published writings by Philip K. In a story collection like [The Jungle People](/works/the-jungle-people), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Magician's Box
 
-The Magician's Box is the canonical works record for PKD's short-story collection. In a story collection like [The Magician's Box](/works/the-magician-s-box), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+One of Dick's juvenile publications in his local Berkeley newspaper, printed when he was approximately fifteen years old, alongside 'The Jungle People' (1942) and 'The Visitation' (later in 1944). In a story collection like [The Magician's Box](/works/the-magician-s-box), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Visitation
 
-The Visitation is the canonical works record for PKD's short-story collection. In a story collection like [The Visitation](/works/the-visitation), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+The third known juvenile publication by Dick in his local Berkeley newspaper, following 'The Jungle People' (1942) and 'The Magician's Box' (earlier in 1944). In a story collection like [The Visitation](/works/the-visitation), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Martians Come in Clouds
 
@@ -70,11 +70,11 @@ In a comfortable future household, a spherical robot Nanny raises the Fields chi
 
 ### The Man Who Japed
 
-The Man Who Japed is the canonical works record for PKD's novel. In a novel like [The Man Who Japed](/works/the-man-who-japed), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a post-nuclear-war society rebuilt around a rigid, puritanical moral code enforced by pervasive surveillance and voluntary neighborhood 'block' informants, Allen Purcell works for an agency producing propaganda that reinforces the... In a novel like [The Man Who Japed](/works/the-man-who-japed), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Eye in the Sky
 
-Eye in the Sky is the canonical works record for PKD's novel. In a novel like [Eye in the Sky](/works/eye-in-the-sky), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Eight visitors touring a Belmont, California particle accelerator (the 'Bevatron') are caught in a radiation accident when the observation platform collapses. In a novel like [Eye in the Sky](/works/eye-in-the-sky), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Days of Perky Pat
 
@@ -82,11 +82,11 @@ Survivors of a hydrogen war — 'flukers', so named because they lived by a fluk
 
 ### Clans of the Alphane Moon
 
-Clans of the Alphane Moon is the canonical works record for PKD's novel. In a novel like [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Decades after Earth abandoned a psychiatric colony on Alpha III M2, a moon in the Alpha Centauri system, during an interstellar war, the former patients have organized themselves into distinct societal 'clans' each built around a different... In a novel like [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Book of Philip K. Dick
 
-The Book of Philip K. In a story collection like [The Book of Philip K. Dick](/works/the-book-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This 1973 collection, dedicated to 'Leslie Busby: the little black-haired girl I love so much,' gathers stories Dick wrote primarily between 1952 and 1955: Nanny, The Turning Wheel, The Defenders, Adjustment Team, Psi-man, The Commuter, A... In a story collection like [The Book of Philip K. Dick](/works/the-book-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Pre-Persons
 
@@ -94,27 +94,27 @@ In a near-future California, Congress has extended abortion law past birth: a ch
 
 ### Confessions of a Crap Artist
 
-Confessions of a Crap Artist is the canonical works record for PKD's novel. In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Set in Marin County, California, the novel alternates first-person narration between Jack Isidore, a socially maladroit, obsessively literal-minded collector of pseudo-scientific trivia (flying saucers, hollow-earth theories, perpetual... In a novel like [Confessions of a Crap Artist](/works/confessions-of-a-crap-artist), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Mary and the Giant
 
-Mary and the Giant is the canonical works record for PKD's novel. In a novel like [Mary and the Giant](/works/mary-and-the-giant), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a small, stifling California town in the 1950s, Mary Anne Reynolds, a young woman working at a record shop, chafes against the narrow social and romantic options available to her -- an unsatisfying engagement, a stagnant hometown, and... In a novel like [Mary and the Giant](/works/mary-and-the-giant), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Gather Yourselves Together
 
-Gather Yourselves Together is the canonical works record for PKD's novel. In a novel like [Gather Yourselves Together](/works/gather-yourselves-together), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+As the Chinese Communist government prepares to take possession of an American industrial compound in China at the close of the civil war period, three Americans -- Carl Fitter, an older company employee; Verne Tildon, a younger colleague... In a novel like [Gather Yourselves Together](/works/gather-yourselves-together), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Voices from the Street
 
-Voices from the Street is the canonical works record for PKD's novel. In a novel like [Voices from the Street](/works/voices-from-the-street), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Stuart Hadley, a television-and-appliance salesman in a Bay Area electronics store, feels suffocated by his marriage, his job, and the conformist consumer culture of 1950s suburban California, and drifts through a series of attempted... In a novel like [Voices from the Street](/works/voices-from-the-street), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Second Philip K. Dick MEGAPACK
 
-The Second Philip K. In a story collection like [The Second Philip K. Dick MEGAPACK](/works/the-second-philip-k-dick-megapack), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Published by Wildside Press in 2015 as part of their popular MEGAPACK e-book series and compiled as a companion to the first Philip K. In a story collection like [The Second Philip K. Dick MEGAPACK](/works/the-second-philip-k-dick-megapack), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Five Great Novels
 
-Five Great Novels is the canonical works record for PKD's novel. In a novel like [Five Great Novels](/works/five-great-novels), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This omnibus volume collects five major Philip K. In a novel like [Five Great Novels](/works/five-great-novels), that premise becomes a thematic pressure point instead of background decoration. Dick repeatedly places strange events inside kitchens, homes, and marriages so the domestic scene becomes uncanny. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 

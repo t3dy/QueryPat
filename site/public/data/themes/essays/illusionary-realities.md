@@ -10,19 +10,19 @@ This page reads the fiction corpus through that lens, with each work linked back
 
 ### The Jungle People
 
-The Jungle People is the canonical works record for PKD's short-story collection. In a story collection like [The Jungle People](/works/the-jungle-people), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This is among the earliest known published writings by Philip K. In a story collection like [The Jungle People](/works/the-jungle-people), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Magician's Box
 
-The Magician's Box is the canonical works record for PKD's short-story collection. In a story collection like [The Magician's Box](/works/the-magician-s-box), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+One of Dick's juvenile publications in his local Berkeley newspaper, printed when he was approximately fifteen years old, alongside 'The Jungle People' (1942) and 'The Visitation' (later in 1944). In a story collection like [The Magician's Box](/works/the-magician-s-box), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Visitation
 
-The Visitation is the canonical works record for PKD's short-story collection. In a story collection like [The Visitation](/works/the-visitation), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+The third known juvenile publication by Dick in his local Berkeley newspaper, following 'The Jungle People' (1942) and 'The Magician's Box' (earlier in 1944). In a story collection like [The Visitation](/works/the-visitation), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Short Happy Life of the Brown Oxford and Other Classic Stories
 
-The Short Happy Life of the Brown Oxford and Other Classic Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Short Happy Life of the Brown Oxford and Other Classic Stories](/works/the-short-happy-life-of-the-brown-oxford-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Volume 1 of The Collected Stories of Philip K. In a story collection like [The Short Happy Life of the Brown Oxford and Other Classic Stories](/works/the-short-happy-life-of-the-brown-oxford-and-other-classic-stories), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Commuter
 
@@ -66,11 +66,11 @@ After a nuclear war has reduced the world to ash and rubble, human settlements s
 
 ### Eye in the Sky
 
-Eye in the Sky is the canonical works record for PKD's novel. In a novel like [Eye in the Sky](/works/eye-in-the-sky), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Eight visitors touring a Belmont, California particle accelerator (the 'Bevatron') are caught in a radiation accident when the observation platform collapses. In a novel like [Eye in the Sky](/works/eye-in-the-sky), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Cosmic Puppets
 
-The Cosmic Puppets is the canonical works record for PKD's novel. In a novel like [The Cosmic Puppets](/works/the-cosmic-puppets), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Ted Barton returns as an adult to his childhood town of Millgate, Virginia, only to find it utterly unrecognizable -- buildings, streets, and even the town's remembered history have been altered, and official records insist he died there... In a novel like [The Cosmic Puppets](/works/the-cosmic-puppets), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Unreconstructed M
 
@@ -78,11 +78,11 @@ In a future where a crime is solved by a forensic 'file bank' that narrows the p
 
 ### Time Out of Joint
 
-Time Out of Joint is the canonical works record for PKD's novel. In a novel like [Time Out of Joint](/works/time-out-of-joint), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Ragle Gumm lives in a quiet 1950s American town, supporting himself and his sister's family by winning, day after day, a newspaper contest called 'Where Will the Little Green Man Be Next?' His domestic routine -- rivalries with a neighbor... In a novel like [Time Out of Joint](/works/time-out-of-joint), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Man in the High Castle
 
-The Man in the High Castle is the canonical works record for PKD's novel. In a novel like [The Man in the High Castle](/works/the-man-in-the-high-castle), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a world where Nazi Germany and the Japanese Empire won World War II and divided the globe between them, the western United States is under Japanese control (the Pacific States of America), the East is controlled by the Nazis, and a... In a novel like [The Man in the High Castle](/works/the-man-in-the-high-castle), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### If There Were No Benny Cemoli
 
@@ -94,7 +94,7 @@ Survivors of a hydrogen war — 'flukers', so named because they lived by a fluk
 
 ### The Game-Players of Titan
 
-The Game-Players of Titan is the canonical works record for PKD's novel. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+# The Game-Players of Titan (Vintage Edition) *by Philip K. In a novel like [The Game-Players of Titan](/works/the-game-players-of-titan), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Novelty Act
 
@@ -106,11 +106,11 @@ After six years reconstructing Mars following Terra's defeat in the Prox-Terra w
 
 ### The Penultimate Truth
 
-The Penultimate Truth is the canonical works record for PKD's novel. In a novel like [The Penultimate Truth](/works/the-penultimate-truth), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Most of humanity believes World War III is still raging on the surface and has lived for over a decade in vast underground bunkers ('ant tanks'), building robot soldiers called 'leadies' for the war effort while a handful of elite... In a novel like [The Penultimate Truth](/works/the-penultimate-truth), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Simulacra
 
-The Simulacra is the canonical works record for PKD's novel. In a novel like [The Simulacra](/works/the-simulacra), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a future United States governed as the 'USEA' (United States of Europe and America), the public First Lady, Nicole Thibodeaux, is an eternally youthful media figure adored across generations -- but the presidency itself, 'der Alte,' is... In a novel like [The Simulacra](/works/the-simulacra), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### We Can Remember It For You Wholesale
 
@@ -118,15 +118,15 @@ Douglas Quail, a clerk at the West Coast Emigration Bureau, wants to have gone t
 
 ### Counter-Clock World
 
-Counter-Clock World is the canonical works record for PKD's novel. In a novel like [Counter-Clock World](/works/counter-clock-world), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a near future where time locally has begun running backward -- the 'Hobart Phase' -- the dead rise from their graves and live their lives in reverse, aging backward toward birth and eventual re-absorption into a mother's womb; the dying... In a novel like [Counter-Clock World](/works/counter-clock-world), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Ganymede Takeover
 
-The Ganymede Takeover is the canonical works record for PKD's novel. In a novel like [The Ganymede Takeover](/works/the-ganymede-takeover), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Earth has been conquered and occupied for years by the insectile Ganymedeans, who rule through a combination of bureaucratic administration and telepathic-propaganda broadcasts. In a novel like [The Ganymede Takeover](/works/the-ganymede-takeover), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Zap Gun
 
-The Zap Gun is the canonical works record for PKD's novel. In a novel like [The Zap Gun](/works/the-zap-gun), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a Cold War stalemate between the Western bloc ('Wes-bloc') and the Eastern bloc ('Peep-East'), weapons design has become a form of state theater: 'weapons fashion designers' like Lars Powderdry channel psychic trance states to dream up... In a novel like [The Zap Gun](/works/the-zap-gun), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Electric Ant
 
@@ -134,7 +134,7 @@ Garson Poole wakes in hospital after a crash, missing a right hand and feeling n
 
 ### The Preserving Machine and Other Stories
 
-The Preserving Machine and Other Stories is the canonical works record for PKD's short-story collection. In a story collection like [The Preserving Machine and Other Stories](/works/the-preserving-machine-and-other-stories), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+First published by Ace Books in 1969 and anchored by its title story -- in which a machine transforms musical compositions into living creatures in an attempt to preserve them against a feared future collapse of culture -- this collection... In a story collection like [The Preserving Machine and Other Stories](/works/the-preserving-machine-and-other-stories), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### I Hope I Shall Arrive Soon
 
@@ -142,11 +142,11 @@ On a ten-year interstellar crossing with sixty emigrants in cryonic suspension, 
 
 ### The Unteleported Man
 
-The Unteleported Man is the canonical works record for PKD's novel. In a novel like [The Unteleported Man](/works/the-unteleported-man), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+An overcrowded Earth is offered emigration to a colony world, Whale's Mouth, reachable only via the one-way instantaneous teleportation service of Trails of Hoffman Limited -- a corporation whose monopoly on the route has driven Rachmael... In a novel like [The Unteleported Man](/works/the-unteleported-man), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Lies, Inc.
 
-Lies, Inc. In a novel like [Lies, Inc.](/works/lies-inc), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+An overcrowded, dystopian Earth is offered apparent salvation by Trails of Hoffman Limited, a corporation that instantaneously teleports emigrants to a colony world, Whale's Mouth, advertised as an idyllic new home. In a novel like [Lies, Inc.](/works/lies-inc), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Cadbury, the Beaver Who Lacked
 
@@ -154,31 +154,31 @@ Cadbury, a discontented beaver in an anthropomorphic animal society run on a pok
 
 ### The Collected Stories of Philip K. Dick, Volumes 1-5
 
-The Collected Stories of Philip K. In a story collection like [The Collected Stories of Philip K. Dick, Volumes 1-5](/works/the-collected-stories-of-philip-k-dick-volumes-1-5), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This is the complete five-volume Collected Stories of Philip K. In a story collection like [The Collected Stories of Philip K. Dick, Volumes 1-5](/works/the-collected-stories-of-philip-k-dick-volumes-1-5), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Nick and the Glimmung
 
-Nick and the Glimmung is the canonical works record for PKD's novel. In a novel like [Nick and the Glimmung](/works/nick-and-the-glimmung), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+On a future Earth where all cats and dogs have been banned, young Nick Graham and his family emigrate to the distant planet Plowman's Planet so that Nick can keep his cat, Horace. In a novel like [Nick and the Glimmung](/works/nick-and-the-glimmung), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Philip K. Dick Reader
 
-The Philip K. In a story collection like [The Philip K. Dick Reader](/works/the-philip-k-dick-reader), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Published posthumously in 1997 at 505 pages, this anthology opens with 'Fair Game,' in which an exhausted Colorado professor's ordinary domestic evening is disrupted by hints of government research -- a characteristic Dickian move of... In a story collection like [The Philip K. Dick Reader](/works/the-philip-k-dick-reader), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Do Androids Dream of Electric Sheep?
 
-Do Androids Dream of Electric Sheep? In a novel like [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In a San Francisco depopulated by nuclear fallout from World War Terminus, bounty hunter Rick Deckard is assigned to 'retire' six escaped Nexus-6 androids -- the most advanced synthetic humans yet built, nearly indistinguishable from... In a novel like [Do Androids Dream of Electric Sheep?](/works/do-androids-dream-of-electric-sheep), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Second Philip K. Dick MEGAPACK
 
-The Second Philip K. In a story collection like [The Second Philip K. Dick MEGAPACK](/works/the-second-philip-k-dick-megapack), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Published by Wildside Press in 2015 as part of their popular MEGAPACK e-book series and compiled as a companion to the first Philip K. In a story collection like [The Second Philip K. Dick MEGAPACK](/works/the-second-philip-k-dick-megapack), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Electric Dreams
 
-Electric Dreams is the canonical works record for PKD's short-story collection. In a story collection like [Electric Dreams](/works/electric-dreams), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This anthology gathers ten Philip K. In a story collection like [Electric Dreams](/works/electric-dreams), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Selected Stories of Philip K. Dick
 
-Selected Stories of Philip K. In a story collection like [Selected Stories of Philip K. Dick](/works/selected-stories-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+This anthology draws from Dick's prolific short fiction output, primarily written in the 1950s and early 1960s, to present a curated selection of his shorter works. In a story collection like [Selected Stories of Philip K. Dick](/works/selected-stories-of-philip-k-dick), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 

@@ -46,7 +46,7 @@ In a bleak future where surviving humanity toils underground for rigid, bureaucr
 
 ### Eye in the Sky
 
-Eye in the Sky is the canonical works record for PKD's novel. In a novel like [Eye in the Sky](/works/eye-in-the-sky), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Eight visitors touring a Belmont, California particle accelerator (the 'Bevatron') are caught in a radiation accident when the observation platform collapses. In a novel like [Eye in the Sky](/works/eye-in-the-sky), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Misadjustment
 
@@ -58,19 +58,19 @@ Professor Anthony Douglas, a leading nuclear physicist, is terrorized by an enor
 
 ### Clans of the Alphane Moon
 
-Clans of the Alphane Moon is the canonical works record for PKD's novel. In a novel like [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Decades after Earth abandoned a psychiatric colony on Alpha III M2, a moon in the Alpha Centauri system, during an interstellar war, the former patients have organized themselves into distinct societal 'clans' each built around a different... In a novel like [Clans of the Alphane Moon](/works/clans-of-the-alphane-moon), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### A Maze of Death
 
-A Maze of Death is the canonical works record for PKD's novel. In a novel like [A Maze of Death](/works/a-maze-of-death), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+# A Maze of Death *by Philip K. In a novel like [A Maze of Death](/works/a-maze-of-death), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Deus Irae
 
-Deus Irae is the canonical works record for PKD's novel. In a novel like [Deus Irae](/works/deus-irae), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+After a nuclear war, a new religion has arisen worshipping Carleton Lufteufel, the scientist responsible for the weapon that devastated civilization, now venerated as the wrathful 'Deus Irae' (God of Wrath) by the Servants of Wrath sect... In a novel like [Deus Irae](/works/deus-irae), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Radio Free Albemuth
 
-Radio Free Albemuth is the canonical works record for PKD's novel. In a novel like [Radio Free Albemuth](/works/radio-free-albemuth), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+In an alternate United States under the increasingly authoritarian rule of President Ferris F. In a novel like [Radio Free Albemuth](/works/radio-free-albemuth), that premise becomes a thematic pressure point instead of background decoration. Unreliable perception and paranoid interpretation become the engine of scene construction and point of view. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 
