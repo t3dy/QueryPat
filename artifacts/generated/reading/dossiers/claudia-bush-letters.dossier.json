@@ -3,27 +3,41 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "claudia-bush-letters",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is a corpus-level wrapper for 27 segmented letters rather than a single document; individual letters within it may warrant their own dossiers as focal evidence in future work.",
  "work": {
   "title": "Claudia Bush Letters",
   "slug": "claudia-bush-letters",
-  "form": "letter",
+  "form": "letter corpus",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "written": "1975-1979",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_CLAUDIA_BUSH_LETTERS_CORPUS; 27 segmented letters, January 1975 - March 1979."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Claudia Bush Letters is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This corpus of 27 letters from Dick to Claudia Bush (later Bush Krenz), spanning January 1975 through March 1979, forms one of the richest interpretive correspondences in the Selected Letters. Bush wrote seriously and knowledgeably about Dick's fiction, and he used the exchange to test out explanations of Ubik, Flow My Tears the Policeman Said, The Man in the High Castle, and Ursula K. Le Guin's The Lathe of Heaven, alongside his own post-2-3-74 religious model (Zebra, the right hemisphere, and his interpretation of the 1971 break-in at his home). Because Bush was neither merely a fan nor an editor but a serious early scholar of his work, the letters show Dick writing in an unusually sustained reflective, argumentative, speculative, and autobiographical register within single letters.",
   "structure": {
-   "form": "letter"
+   "form": "corpus of 27 individually dated letters",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
+  "characters": [
+   { "name": "Claudia Bush (Bush Krenz)", "role": "correspondent, early scholar", "note": "A serious early reader and interpreter of Dick's fiction, whose sustained engagement drew out unusually reflective and self-analytical letters from Dick across nearly four years." }
+  ],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's letters."
+  "motifs": [
+   "Dick using correspondence with a serious reader to test and refine his own explanations of his major novels",
+   "The 1971 break-in at Dick's home reinterpreted within his evolving post-2-3-74 religious framework",
+   "Sustained autobiographical and speculative reflection embedded within literary-critical exchange"
+  ],
+  "significance": "The Claudia Bush letters are a major primary source for Dick's own self-explanation of his fiction after his 1974 religious experience, and for tracing how his interpretation of that experience developed across a nearly four-year correspondence with a genuinely engaged interlocutor rather than a passive fan.",
+  "closing_note": "As a corpus wrapper rather than a single text, this entry should be understood as pointing toward a body of correspondence whose individual letters may merit dedicated close readings of their own."
  },
  "concepts": {
   "distinctive_terms": []

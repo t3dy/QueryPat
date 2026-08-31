@@ -3,27 +3,38 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "five-novels-of-the-1960s-and-70s",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This entry's contents list draws on established published bibliographic knowledge of the Library of America edition rather than a parse of this corpus's extracted text (the local database record notes 'full summary pending'). Each component novel already has, or should have, its own dedicated close-reading dossier elsewhere in this corpus.",
  "work": {
   "title": "Five Novels of the 1960s and 70s",
   "slug": "five-novels-of-the-1960s-and-70s",
-  "form": "novel",
+  "form": "novel omnibus",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Library of America, 2008 (edited by Jonathan Lethem)",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_DICK_PHILIP_K_FIVE_NOVELS_OF_TH"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Five Novels of the 1960s and 70s is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This is the second of two Library of America volumes dedicated to Philip K. Dick (following Four Novels of the 1960s, 2007), collecting Martian Time-Slip, Dr. Bloodmoney, Now Wait for Last Year, Flow My Tears, the Policeman Said, and A Scanner Darkly, and edited by Jonathan Lethem. Together the two Library of America volumes mark Dick's formal canonization into the American literary tradition, a status few science fiction writers of his generation achieved.",
   "structure": {
-   "form": "novel"
+   "form": "five-novel omnibus edition",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "motifs": [
+   "Institutional literary canonization of a writer who spent most of his career in the pulp genre marketplace",
+   "A curated span of Dick's most theologically and politically mature period (1964-1977) presented as a coherent artistic arc"
+  ],
+  "significance": "Dick's inclusion in the Library of America -- an institution otherwise reserved for canonical figures of American letters -- represents one of the clearest institutional confirmations of his posthumous critical reassessment from genre pulp writer to major American novelist. Jonathan Lethem's editorial involvement across both Library of America volumes situates Dick within a lineage Lethem has championed in his own fiction and criticism.",
+  "closing_note": "This entry documents the omnibus as a publishing and canonization milestone; readers seeking analysis of the individual novels should consult each title's own dedicated dossier."
  },
  "concepts": {
   "distinctive_terms": []

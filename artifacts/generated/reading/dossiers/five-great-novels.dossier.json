@@ -3,27 +3,37 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "five-great-novels",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is a multi-novel omnibus edition; its component novels (A Scanner Darkly and others) already have their own dedicated entries elsewhere in this corpus. This entry describes the omnibus as a publishing object rather than re-reading its contents.",
  "work": {
   "title": "Five Great Novels",
   "slug": "five-great-novels",
-  "form": "novel",
+  "form": "novel omnibus",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_OCEANOFPDF_COM_FIVE_GREAT_NOVEL"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Five Great Novels is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This omnibus volume collects five major Philip K. Dick novels in a single edition. The extracted text opens with A Scanner Darkly (1977), Dick's semi-autobiographical novel about drug addiction and surveillance in a near-future Orange County, whose acknowledgments cite Joseph E. Bogen's and Michael S. Gazzaniga's neuroscience research on divided brain hemispheres alongside poetry from Heinrich Heine and references to Goethe's Faust and Beethoven's Fidelio, and whose opening scene -- a man shaking bugs from his hair that a doctor insists do not exist -- immediately establishes the novel's themes of perceptual unreliability and drug-induced psychosis.",
   "structure": {
-   "form": "novel"
+   "form": "five-novel omnibus edition",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "motifs": [
+   "Perceptual unreliability and drug-induced psychosis, established from A Scanner Darkly's opening scene",
+   "Neuroscience research on divided brain hemispheres as source material for the novel's treatment of fractured identity"
+  ],
+  "significance": "A Scanner Darkly, the novel this omnibus's extracted text foregrounds, is widely regarded as one of Dick's finest achievements, drawing directly on his own experience of 1970s Southern California drug culture. Omnibus editions like this one reflect Dick's posthumous canonization, gathering multiple major novels for readers encountering his work as an established literary figure rather than as a working genre author.",
+  "closing_note": "This entry documents the omnibus as a publishing object; readers seeking analysis of A Scanner Darkly or its four companion novels should consult each novel's own dedicated dossier."
  },
  "concepts": {
   "distinctive_terms": []

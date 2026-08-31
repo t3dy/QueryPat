@@ -3,27 +3,38 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "electric-dreams",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is a tie-in anthology reprinting ten previously published Dick stories, each of which already has its own dedicated close-reading dossier in this corpus; this entry describes the collection as a publishing object rather than re-reading its contents.",
  "work": {
   "title": "Electric Dreams",
   "slug": "electric-dreams",
-  "form": "short stories",
+  "form": "short story anthology (television tie-in)",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_OCEANOFPDF_COM_ELECTRIC_DREAMS_"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Electric Dreams is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This anthology gathers ten Philip K. Dick short stories published to accompany the Channel 4/Amazon television anthology series Electric Dreams, with each story preceded by an introduction from the episode's screenwriter or producer: Exhibit Piece (Ronald D. Moore), The Commuter (Jack Thorne), The Impossible Planet (David Farr), The Hanging Stranger (Dee Rees), Sales Pitch (Tony Grisoni), The Father-Thing (Michael Dinner), The Hood Maker (Matthew Graham), Foster, You're Dead (Kalen Egan and Travis Sentell), Human Is (Jessica Mecklenburg), and Autofac (Travis Beacham). The stories span Dick's most productive short-fiction period of the 1950s and early 1960s and were selected to showcase recurring concerns -- suburban reality's instability, Cold War paranoia, the question of authentic humanity, and technology's encroachment on autonomy -- that the anthology series adapted for a contemporary television audience.",
   "structure": {
-   "form": "short stories"
+   "form": "ten-story anthology, each story preceded by a screenwriter/producer introduction",
+   "chapter_count": 10,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's short_stories."
+  "motifs": [
+   "Suburban and domestic reality's instability under technological or bureaucratic pressure",
+   "Cold War-era paranoia and loyalty anxiety",
+   "The question of authentic humanity under conditions of automation or surveillance"
+  ],
+  "significance": "As a screen-adaptation tie-in volume, Electric Dreams functions as both a companion to the television series and an accessible entry point into Dick's short fiction, and its paired introductions -- each screenwriter reflecting on adapting a specific story -- offer a useful secondary-source window into how contemporary television writers read and reworked Dick's mid-century concerns for a 2010s audience. Each of the ten stories collected here has its own dedicated close-reading dossier elsewhere in this corpus (autofac, the-commuter, the-hanging-stranger, the-hood-maker, foster-you-re-dead, human-is, the-father-thing, the-impossible-planet, exhibit-piece, sales-pitch).",
+  "closing_note": "This entry documents the anthology as a publishing and adaptation artifact; readers seeking analysis of the individual stories should consult each story's own dossier."
  },
  "concepts": {
   "distinctive_terms": []

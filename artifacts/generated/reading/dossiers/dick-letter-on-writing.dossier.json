@@ -3,27 +3,34 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "dick-letter-on-writing",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "No OCR text layer is present for this scanned five-page letter; recipient and date are unknown. This entry describes the document's known physical and archival characteristics rather than its specific content, which has not been recovered from this corpus.",
  "work": {
   "title": "Dick Letter on Writing",
   "slug": "dick-letter-on-writing",
   "form": "letter",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_DICK_LETTER_ON_WRITING; 5 scanned pages, no OCR text layer."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Dick Letter on Writing is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This is a five-page scanned letter by Dick concerning the craft or practice of writing; the recipient and precise date are unknown, and no OCR text layer exists in this corpus to establish its specific content. Dick was a prolific letter writer whose surviving correspondence frequently addresses the creative process, the economics of the writing life, and the philosophical dimensions of fiction, and letters of this kind are valuable for understanding his literary methods and self-conception as an artist -- but this particular letter's actual claims cannot be reported without direct examination of the scanned images.",
   "structure": {
-   "form": "letter"
+   "form": "letter, five pages, no digital text layer recovered",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
   "motifs": [],
-  "significance": "Part of Philip K. Dick's letters."
+  "significance": "If transcribed, a letter specifically addressing Dick's own writing practice would be a valuable primary-source complement to his more famous public statements on craft, such as How to Build a Universe That Doesn't Fall Apart Two Days Later and his remarks in The Mainstream That Through the Ghetto Flows interview.",
+  "closing_note": "This entry registers the document's presence and physical characteristics honestly rather than claiming knowledge of content not recoverable from this corpus; OCR or manual transcription would be needed for a genuine close reading."
  },
  "concepts": {
   "distinctive_terms": []

@@ -3,27 +3,38 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "in-pursuit-of-valis-selections-from-the-exegesis",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is an edited anthology of Exegesis excerpts (Dick's own writing curated by others), not a document Dick assembled himself. The archive holds two digital copies of the same 1991 edition.",
  "work": {
   "title": "In Pursuit of VALIS: Selections from the Exegesis",
   "slug": "in-pursuit-of-valis-selections-from-the-exegesis",
-  "form": "primary",
+  "form": "edited anthology of primary journal excerpts",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "first_publication": "Underwood-Miller, 1991 (ed. Lawrence Sutin)",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_ids DOC_ARCH_41706725_DICK_PHILIP_K_IN_PURSU and DOC_ARCH_OCEANOFPDF_COM_IN_PURSUIT_OF_VA (duplicate editions)"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "In Pursuit of VALIS: Selections from the Exegesis is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This 1991 Underwood-Miller anthology, edited by Lawrence Sutin with a preface by Sutin, an introduction by Jay Kinney (Gnosis Magazine's founding editor), an afterword by Terence McKenna, and a PKD chronology by Paul Williams, was the first major published selection from Dick's Exegesis -- his sustained, roughly 8,000-handwritten-page attempt to interpret the visionary experiences he underwent in February and March 1974 ('2-3-74') through theology, Gnostic philosophy, Neoplatonism, and quantum physics. For two decades, until the full Exegesis was published by Houghton Mifflin in 2011 (edited by Pamela Jackson and Jonathan Lethem), this Sutin-edited volume served as the primary access point for scholars and readers seeking Dick's late-period metaphysical thought in his own words.",
   "structure": {
-   "form": "primary"
+   "form": "edited anthology of excerpts, with editorial preface, introduction, afterword, and chronology",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's primary."
+  "motifs": [
+   "Editorial curation and framing of a private, unpublished journal for public scholarly consumption",
+   "Contributions from figures central to distinct strands of Dick reception (biography, fandom, esoteric studies, psychedelic discourse) framing a single body of primary text"
+  ],
+  "significance": "As the first substantial published window into the Exegesis, this anthology shaped how an entire generation of scholars and readers understood Dick's post-1974 metaphysics before the full manuscript became available in 2011. Its contributor list -- Sutin (author of the definitive Dick biography Divine Invasions), Williams (founder of the Philip K. Dick Society), Kinney (editor of Gnosis Magazine), and McKenna (a leading figure in psychedelic and esoteric discourse) -- reflects the specific intellectual communities that first took Dick's late theological writing seriously as a subject of study.",
+  "closing_note": "The volume's eventual superseding by the complete 2011 Exegesis does not diminish its historical importance as the text through which most Dick scholarship engaged his post-2-3-74 metaphysics for two decades."
  },
  "concepts": {
   "distinctive_terms": []
