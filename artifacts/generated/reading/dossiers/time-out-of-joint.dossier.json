@@ -3,27 +3,54 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "time-out-of-joint",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This close reading draws on the full extracted source text (database/extracted_markdown/DOC_ARCH_DICK_PHILIP_KINDRED_TIME_OUT_OF_JOINT_LI.md) together with established published scholarship on the novel; it was not built from an automated scene-by-scene structural pass.",
  "work": {
   "title": "Time Out of Joint",
   "slug": "time-out-of-joint",
   "form": "novel",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "J.B. Lippincott, 1959",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_DICK_PHILIP_KINDRED_TIME_OUT_OF_JOINT_LI.md"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Time Out of Joint is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "Ragle Gumm lives in a quiet 1950s American town, supporting himself and his sister's family by winning, day after day, a newspaper contest called 'Where Will the Little Green Man Be Next?' His domestic routine -- rivalries with a neighbor, small-town gossip, a crush on the woman next door -- is undercut by a string of accumulating wrongnesses: a soft-drink stand dissolves into a slip of paper reading 'SOFT-DRINK STAND' when Ragle tries to find it; a magazine's celebrity profile describes a person who could not possibly exist; a phone book yields no usable numbers. Ragle eventually determines that his entire town -- and 1959 itself -- is an elaborate physical and psychological simulation built around him, and that the contest he has been winning for years is not a newspaper puzzle at all but disguised military targeting data: Ragle is a gifted predictive analyst, kept docile inside a fabricated past because the war-weary population of his true present, 1997, cannot be trusted to let him keep working after the psychological toll of the job broke him. The novel ends with Ragle recovering his real identity and choosing to defect to the lunar colonists on the other side of the war his talent has been used to fight.",
   "structure": {
-   "form": "novel"
+   "form": "novel, told mostly through Ragle's close third-person point of view as his 1950s reality progressively de-materializes",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "movements": [
+   "Establishment of Ragle's placid small-town 1959 routine and the contest that structures his days",
+   "Escalating, uncanny failures of the simulated environment -- objects, people, and places that dissolve into labels or fail to cohere -- that Ragle alone begins to register as wrong",
+   "Ragle's investigation and gradual, terrifying reconstruction of the truth: the town, his memories, and 1959 itself are fabricated",
+   "Escape from the simulation into the real 1997, revelation of the war between Earth and the Lunar colonies, and Ragle's discovery that his 'contest' data has been targeting coordinates all along",
+   "Ragle's choice to defect from Earth's war effort to the Moon, refusing to keep being used now that he understands what his gift has actually been doing"
+  ],
+  "characters": [
+   { "name": "Ragle Gumm", "role": "protagonist", "note": "A gifted precognitive/predictive talent conscripted into a covert military program and kept compliant inside a fabricated 1959 town built specifically around his psychology, so he can keep unconsciously supplying targeting data he believes is a newspaper contest." },
+   { "name": "Margo", "role": "Ragle's sister", "note": "Part of Ragle's constructed domestic life inside the simulation; her household anchors the small-town normalcy the fabrication depends on." },
+   { "name": "Vic Nielson", "role": "Margo's husband, Ragle's brother-in-law", "note": "Becomes an ally in Ragle's investigation as the town's inconsistencies accumulate." }
+  ],
+  "settings": [
+   { "name": "The simulated 1959 town", "note": "A physically constructed environment -- down to newspapers, radio broadcasts, and consumer products -- built to convince Ragle he is living in a specific historical moment, which fails not through any single dramatic rupture but through small, uncanny substitutions (a vanishing soft-drink stand, a phone book with no working numbers) that accumulate into certainty." },
+   { "name": "The real 1997, Earth-Moon war", "note": "The novel's actual present: a civil war between Earth and its Lunar colonies, in which Ragle's predictive talent has been repurposed as targeting data for a war he has been shielded from ever knowingly fighting." }
+  ],
+  "motifs": [
+   "Reality that fails not through spectacle but through small, dissolving inconsistencies -- objects reverting to bare labels or descriptions rather than remaining physically coherent",
+   "Ordinary domestic and small-town Americana as a deliberately constructed cage, built specifically around one person's psychology",
+   "A talent or gift whose true purpose is hidden from the person who possesses it, so that its exercise can be extracted without consent",
+   "Defection and refusal as the only available form of political agency once the deception is understood"
+  ],
+  "significance": "Time Out of Joint is widely read as the clearest precursor to Dick's mature reality-instability fiction and a direct ancestor of The Truman Show's fabricated-hometown premise. Written and published just as Dick was completing The Man in the High Castle, it establishes in miniature the device his best-known later work would return to again and again: an ordinary, closely observed domestic setting whose wrongness surfaces gradually, through details rather than declaration, until the entire world the protagonist trusted is revealed as constructed for a purpose he never consented to serve. The novel's political undercurrent -- a talented individual's labor secretly conscripted into a war machine via a deception built around his own psychological comfort -- gives the reality-collapse plot a critique of Cold War-era institutional manipulation that later 'is reality even real' iterations of the theme sometimes lack.",
+  "closing_note": "Ragle's final choice to side with the Lunar colonists rather than return to the war that built his cage frames the novel's resolution as a political defection as much as an epistemological one."
  },
  "concepts": {
   "distinctive_terms": []

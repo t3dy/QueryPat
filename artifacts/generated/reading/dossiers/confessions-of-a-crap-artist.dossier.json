@@ -3,27 +3,51 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "confessions-of-a-crap-artist",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass).",
  "work": {
   "title": "Confessions of a Crap Artist",
   "slug": "confessions-of-a-crap-artist",
   "form": "novel",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "written 1959, published by Entwhistle Books, 1975",
+  "note": "The only one of Dick's mainstream, non-science-fiction novels published in his lifetime."
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Confessions of a Crap Artist is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "Set in Marin County, California, the novel alternates first-person narration between Jack Isidore, a socially maladroit, obsessively literal-minded collector of pseudo-scientific trivia (flying saucers, hollow-earth theories, perpetual motion) who moves in with his sister Fay and her husband Charley after Charley's heart attack, and Fay herself, whose marriage is disintegrating amid infidelity, contempt, and a slow-motion domestic collapse that Jack observes with the same uncomprehending, catalog-minded precision he brings to his pseudo-scientific enthusiasms. As Charley's health and the marriage deteriorate further, Fay begins an affair with a neighbor, and the household's domestic tensions escalate toward Charley's suicide attempt and eventual death, with Jack -- whose narration throughout has been strikingly unreliable in its confident misreading of ordinary human motive -- left to draw his own characteristically odd conclusions about what has happened around him. The novel closes with Jack, undeterred by the tragedy he has witnessed and barely understood, moving on to his next fixation (a doomsday prediction from a UFO cult), his fundamental inability to process ordinary human emotional reality left essentially unchanged.",
   "structure": {
-   "form": "novel"
+   "form": "mainstream domestic novel alternating first-person narration between two perspectives on the same slow-motion marital collapse",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "movements": [
+   "Jack Isidore's move into his sister Fay's household after her husband Charley's heart attack, establishing Jack's obsessive, literal-minded narrational voice",
+   "Escalating tension in Fay and Charley's marriage, narrated in alternation between Jack's uncomprehending outside view and Fay's own first-person account",
+   "Fay's affair with a neighbor and the household's accelerating domestic collapse",
+   "Charley's suicide attempt and eventual death, filtered through Jack's characteristically odd, emotionally disconnected interpretation of events",
+   "Jack's unchanged move to his next pseudo-scientific fixation, closing the novel without any suggestion that he has been altered by what he witnessed"
+  ],
+  "characters": [
+   { "name": "Jack Isidore", "role": "co-narrator", "note": "A socially maladroit collector of pseudo-scientific trivia whose obsessively literal, uncomprehending narration of his sister's marital collapse makes him one of Dick's most sustained studies of a mind fundamentally unable to process ordinary emotional and social reality." },
+   { "name": "Fay Hume", "role": "co-narrator, Jack's sister", "note": "Her disintegrating marriage to Charley, narrated in her own first-person voice in alternation with Jack's, provides the novel's other, more conventionally emotionally legible perspective on the same events." },
+   { "name": "Charley Hume", "role": "Fay's husband", "note": "His declining health after a heart attack and his wife's infidelity precipitate the household's collapse, culminating in his suicide attempt and death." }
+  ],
+  "settings": [
+   { "name": "Marin County, California", "note": "The specific, closely observed domestic setting of the novel, drawing directly on Dick's own life in the Point Reyes area during the period he wrote the book." }
+  ],
+  "motifs": [
+   "Narrational unreliability rooted not in deception but in a fundamental inability to correctly interpret ordinary human motive and emotion",
+   "Pseudo-scientific obsession (UFOs, hollow earth, doomsday cults) as a displaced substitute for genuine understanding of the people immediately around the obsessive",
+   "Domestic marital collapse observed from radically different interpretive positions by two narrators witnessing the same events",
+   "The absence of narrative transformation or moral growth in a protagonist who witnesses tragedy without being changed by it"
+  ],
+  "significance": "Confessions of a Crap Artist is the only one of Dick's mainstream literary novels published during his lifetime, after years of failed attempts to break out of genre science fiction into the literary mainstream that dominated much of his 1950s writing. Jack Isidore's name and diagnostic profile -- an obsessive, literal-minded collector of pseudo-scientific trivia incapable of ordinary emotional comprehension -- directly prefigures J.R. Isidore in Do Androids Dream of Electric Sheep?, making this novel a key text for tracing how Dick's mainstream character studies fed back into his later science fiction. Its double first-person structure, alternating between an unreliable outsider and a more conventionally legible insider narrating the same domestic collapse, is one of Dick's most formally controlled experiments outside the genre conventions that otherwise structured his career.",
+  "closing_note": "Jack's untroubled pivot to his next pseudo-scientific obsession after witnessing his brother-in-law's death closes the novel on a deliberately anticlimactic note, refusing him any of the insight or transformation a more conventional tragedy would grant its witness."
  },
  "concepts": {
   "distinctive_terms": []

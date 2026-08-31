@@ -3,27 +3,48 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "clans-of-the-alphane-moon",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass).",
  "work": {
   "title": "Clans of the Alphane Moon",
   "slug": "clans-of-the-alphane-moon",
   "form": "novel",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Ace Books, 1964"
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Clans of the Alphane Moon is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "Decades after Earth abandoned a psychiatric colony on Alpha III M2, a moon in the Alpha Centauri system, during an interstellar war, the former patients have organized themselves into distinct societal 'clans' each built around a different psychiatric diagnosis -- paranoids running the government and security apparatus, manics providing entrepreneurial energy, obsessive-compulsives handling meticulous bureaucratic administration, hebephrenics forming a religious caste, and so on -- functioning, after generations of self-government, as a stable if eccentric civilization in its own right. When Earth rediscovers the colony and moves to reassert control, telepath Mary Rittersdorf leads a delegation to survey the population for potential 're-integration' into normal society, arriving alongside her estranged, embittered husband Chuck, an advertising executive processing a bitter divorce alongside the colony's political crisis. The novel's satire operates on two levels simultaneously: the Alphane clans function as a working society whose 'madness' proves no less workable than Earth's supposedly sane institutions, and Chuck and Mary's disintegrating marriage mirrors the colony's own perilous transition, both plots suggesting that psychiatric normalcy is a far less stable or meaningful category than any institution -- Earth's or the moon's -- wants to admit.",
   "structure": {
-   "form": "novel"
+   "form": "novel intercutting political/anthropological survey plot on the Alphane moon with a parallel marital-collapse plot",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "movements": [
+   "Establishment of the Alphane moon's clan society, each clan organized around a distinct psychiatric diagnosis and functioning as a stable, self-governing civilization decades after Earth's abandonment",
+   "Earth's rediscovery of the colony and the arrival of a survey delegation, led by telepath Mary Rittersdorf, to assess the population for potential reintegration",
+   "Parallel escalation of Mary's bitter divorce from advertising executive Chuck Rittersdorf, who arrives independently and becomes entangled in the colony's political crisis",
+   "Convergence of the political and marital plots as the Alphane society's fate and the Rittersdorfs' personal collapse are worked out alongside one another"
+  ],
+  "characters": [
+   { "name": "Mary Rittersdorf", "role": "telepath, survey team leader", "note": "Leads Earth's delegation to assess the Alphane clans for reintegration, her professional psychiatric authority set against her own unresolved personal life." },
+   { "name": "Chuck Rittersdorf", "role": "advertising executive, Mary's estranged husband", "note": "Processes a bitter divorce alongside his entanglement in the colony's political crisis, his personal disintegration paralleling the larger question of whether 'normal' psychology is any more stable than the clans'." }
+  ],
+  "settings": [
+   { "name": "Alpha III M2 (the Alphane moon)", "note": "A former Earth psychiatric colony abandoned during an interstellar war, whose patient population has organized itself over decades into distinct clans built around psychiatric diagnosis, functioning as a genuinely stable, if eccentric, self-governing civilization." }
+  ],
+  "motifs": [
+   "Psychiatric diagnosis as the organizing principle of an entire functioning civilization, challenging the presumed superiority of 'sane' institutional structures",
+   "Marital collapse mirrored against political and anthropological crisis, both suggesting that stability and normalcy are far less secure categories than they appear",
+   "Earth's institutional authority to define and reintegrate 'madness' questioned by the Alphane clans' demonstrated functional stability",
+   "Telepathy and other psychic abilities treated as ordinary professional tools rather than exceptional phenomena"
+  ],
+  "significance": "Clans of the Alphane Moon is one of Dick's sharpest satires of psychiatric categorization, using the clan society's decades of stable self-government to directly challenge the presumption that 'sanity,' as defined by Earth's institutions, is either more functional or more meaningful than the alternative social organizations the Alphane patients have built for themselves. The novel's parallel marital-collapse plot, widely read as reflecting the strains of Dick's own contemporaneous marriage to Anne Dick, grounds the anthropological satire in intimate, specific personal pain, suggesting that the line between institutional and interpersonal breakdown is thinner than either side of the novel's political conflict wants to admit.",
+  "closing_note": "The novel's dual resolution -- political accommodation between Earth and the Alphane clans, alongside the Rittersdorfs' personal reckoning -- refuses to grant either 'normal' Earth society or the clans' unconventional civilization uncomplicated moral superiority over the other."
  },
  "concepts": {
   "distinctive_terms": []

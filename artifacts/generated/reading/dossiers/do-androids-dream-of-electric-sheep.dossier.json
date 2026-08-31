@@ -3,27 +3,54 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "do-androids-dream-of-electric-sheep",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass). It should be treated as a reliable bibliographic summary pending a dedicated textual close-reading session.",
  "work": {
   "title": "Do Androids Dream of Electric Sheep?",
   "slug": "do-androids-dream-of-electric-sheep",
   "form": "novel",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Doubleday, 1968"
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Do Androids Dream of Electric Sheep? is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "In a San Francisco depopulated by nuclear fallout from World War Terminus, bounty hunter Rick Deckard is assigned to 'retire' six escaped Nexus-6 androids -- the most advanced synthetic humans yet built, nearly indistinguishable from humans except by the Voigt-Kampff empathy test. Deckard's own status anxiety (real animals are prohibitively expensive and prestigious; he owns only an electric sheep, disguised as real) is entangled with the novel's central question of what empathy actually is and whether it can reliably distinguish human from android. His pursuit intersects with Rachael Rosen, a Nexus-6 android who seduces and manipulates him, and with J.R. Isidore, a 'chickenhead' (radiation-damaged, cognitively diminished human) who unknowingly shelters several of the fugitive androids and whose capacity for empathy toward them -- despite their manipulation and contempt for him -- becomes one of the novel's sharpest tests of its own thesis. Woven throughout is Mercerism, a communal quasi-religious technology of shared empathic suffering via 'empathy boxes,' which is revealed by novel's end to be a fraud -- a fact that troubles but does not ultimately dissolve its followers' emotional investment in it. Deckard completes his assignment but ends the novel deeply shaken, uncertain whether killing the androids was a moral act, and drawn instead toward an artificial toad he cannot initially tell is electric -- a final, quiet collapse of the distinction the whole novel has interrogated.",
   "structure": {
-   "form": "novel"
+   "form": "novel following a single day (with one embedded night) in Rick Deckard's bounty-hunting assignment, intercut with J.R. Isidore's parallel storyline",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "movements": [
+   "Establishment of post-apocalyptic San Francisco, the status economy of real versus artificial animals, and Deckard's assignment to retire six escaped Nexus-6 androids",
+   "Deckard's early retirements and his entanglement with Rachael Rosen, whose seduction and manipulation destabilize his confidence in the empathy test he depends on",
+   "J.R. Isidore's parallel plotline sheltering fugitive androids, and his capacity for empathy toward them despite their casual cruelty toward him",
+   "The unraveling of Mercerism as its prophet is exposed as a fraud, even as its emotional and communal function persists among believers",
+   "Deckard's final retirements, his psychological collapse under the moral weight of the assignment, and his quiet turn toward an artificial toad in the novel's closing image"
+  ],
+  "characters": [
+   { "name": "Rick Deckard", "role": "protagonist, bounty hunter", "note": "His pursuit of escaped androids becomes an extended interrogation of his own capacity for empathy and the moral status of the beings he is paid to destroy." },
+   { "name": "Rachael Rosen", "role": "Nexus-6 android", "note": "Seduces and manipulates Deckard partly to protect other androids and partly, it is suggested, out of her own unresolved need -- one of the novel's clearest sites of doubt about the human/android distinction." },
+   { "name": "J.R. Isidore", "role": "secondary protagonist", "note": "A radiation-damaged 'chickenhead' excluded from full social participation, whose unearned, unreciprocated empathy toward the androids he shelters poses the novel's sharpest challenge to empathy as a reliable marker of humanity." },
+   { "name": "Wilbur Mercer", "role": "religious figure", "note": "Founder of Mercerism, the communal empathy-sharing technology/religion practiced via 'empathy boxes'; revealed to be a fabricated media construct rather than a genuine prophet." },
+   { "name": "John Isidore's landlord and neighbors", "role": "minor social context", "note": "Illustrate the social stratification of a depopulated, radiation-damaged Earth, where full humans who can afford to emigrate to Mars have largely left." }
+  ],
+  "settings": [
+   { "name": "Post-apocalyptic San Francisco", "note": "A depopulated, radioactive-fallout-dusted city, its remaining human population stratified by the ability to own real (rather than artificial) animals and by physical/cognitive fitness to emigrate off-world." },
+   { "name": "Mercerism's empathy boxes", "note": "A shared virtual/psychic technology through which users experience a collective simulated suffering, central to the novel's communal religious life and ultimately exposed as fraudulent." }
+  ],
+  "motifs": [
+   "The empathy test as an unreliable, contested boundary between human and artificial life",
+   "Real versus artificial animals as a status economy standing in for authenticity more broadly",
+   "Religious or spiritual experience as technologically mediated and, potentially, entirely fabricated -- without this necessarily voiding its communal or emotional value",
+   "Empathy extended to those who do not reciprocate it (Isidore toward the androids) as the novel's most demanding ethical test",
+   "A closing gesture (Deckard and the electric toad) that quietly refuses to resolve the distinction between authentic and artificial the entire novel has interrogated"
+  ],
+  "significance": "Do Androids Dream of Electric Sheep? is Dick's most widely read and adapted novel, forming the direct basis for Ridley Scott's Blade Runner (1982) and its sequel, though the film diverges substantially from the novel's plot and thematic emphasis, particularly around Mercerism and the empathy-test apparatus, which the films largely omit. The novel's central question -- whether empathy is a reliable, even meaningful, boundary between human and artificial beings -- has become one of the most influential premises in science fiction's engagement with artificial intelligence, robotics, and personhood. J.R. Isidore's arc is frequently read as the novel's true ethical center: his empathy is not diminished by his own social marginalization or by the androids' contempt for him, suggesting that empathy's value does not depend on it being deserved or reciprocated.",
+  "closing_note": "Deckard's quiet turn toward an artificial toad, initially mistaken for real, closes the novel on an image that refuses rather than resolves the human/android distinction the entire narrative has tested."
  },
  "concepts": {
   "distinctive_terms": []

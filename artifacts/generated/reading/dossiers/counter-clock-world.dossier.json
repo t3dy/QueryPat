@@ -3,27 +3,48 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "counter-clock-world",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass).",
  "work": {
   "title": "Counter-Clock World",
   "slug": "counter-clock-world",
   "form": "novel",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Berkley Books, 1967"
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Counter-Clock World is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "In a near future where time locally has begun running backward -- the 'Hobart Phase' -- the dead rise from their graves and live their lives in reverse, aging backward toward birth and eventual re-absorption into a mother's womb; the dying gradually revert into infants, and the recently deceased must be dug up ('vitarium' services specialize in this exhumation). When the reversed corpse of controversial religious leader Anarch Peak begins to show early signs of returning consciousness, multiple factions -- a fanatical religious sect hoping to exploit his revival, government agencies concerned about the political and theological fallout, and the vitarium company racing to reach him first -- converge on securing or suppressing him before rival forces can, while protagonist Sebastian Hermes runs the vitarium at the center of the crisis and increasingly personal domestic tensions with his own recently-revived wife complicate his position at every step.",
   "structure": {
-   "form": "novel"
+   "form": "novel structured around a race between competing factions to control a revived religious figure, set against a fully reversed-time cosmology",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "movements": [
+   "Establishment of the Hobart Phase cosmology, in which time runs backward, the dead are exhumed and revived, and Sebastian Hermes's vitarium business specializes in this process",
+   "The rising political and religious stakes as the corpse of controversial religious leader Anarch Peak shows signs of returning consciousness",
+   "A multi-faction race -- religious fanatics, government agencies, and rival vitarium operators -- to reach and control Peak before rivals can",
+   "Personal and domestic complications for Sebastian, entangled with his own recently-revived wife, running alongside the larger political crisis"
+  ],
+  "characters": [
+   { "name": "Sebastian Hermes", "role": "protagonist, vitarium operator", "note": "Runs the business responsible for exhuming and caring for the reverse-aging dead, and becomes central to the multi-faction race to control the revived Anarch Peak." },
+   { "name": "Anarch Peak", "role": "revived religious leader", "note": "A controversial religious figure whose corpse begins showing signs of returning consciousness under the Hobart Phase's reversed time, triggering the novel's central political and theological crisis over who will control him." }
+  ],
+  "settings": [
+   { "name": "The Hobart Phase world", "note": "A near future in which time locally runs backward: the dead rise and age in reverse toward infancy and reabsorption, requiring a new industry (vitarium services) dedicated to exhumation and reverse-aging care." }
+  ],
+  "motifs": [
+   "Death and birth reversed and literalized as a continuous biological process rather than a single event",
+   "Religious authority and revelation entangled with commercial and governmental competition to control a resurrected figure",
+   "The instability of personal and marital relationships under a cosmology that inverts the normal direction of biological and emotional development",
+   "Bureaucratic and commercial institutions (the vitarium industry) built around a metaphysically strange premise treated with matter-of-fact procedural normalcy"
+  ],
+  "significance": "Counter-Clock World is one of Dick's most formally inventive premises, using literalized reversed time to explore questions about religious authority, resurrection, and institutional control that run through much of his mid-to-late career work. The novel's treatment of Anarch Peak's revival as a contested political and commercial prize rather than a purely theological event anticipates Dick's later, more explicitly religious fiction (VALIS, The Divine Invasion), while its matter-of-fact procedural treatment of a metaphysically bizarre premise -- exhumation as a normal business, aging backward as an ordinary biological process -- exemplifies Dick's characteristic strategy of grounding cosmic strangeness in mundane institutional detail.",
+  "closing_note": "The novel's resolution of the race to control Anarch Peak leaves open broader questions about what his revival actually means theologically, characteristic of Dick's reluctance to resolve his fiction's religious questions into settled answers."
  },
  "concepts": {
   "distinctive_terms": []

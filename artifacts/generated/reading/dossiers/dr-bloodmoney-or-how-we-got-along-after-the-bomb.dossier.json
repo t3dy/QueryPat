@@ -3,27 +3,52 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "dr-bloodmoney-or-how-we-got-along-after-the-bomb",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass).",
  "work": {
   "title": "Dr. Bloodmoney, or How We Got Along After the Bomb",
   "slug": "dr-bloodmoney-or-how-we-got-along-after-the-bomb",
   "form": "novel",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Ace Books, 1965"
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Dr. Bloodmoney, or How We Got Along After the Bomb is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "Before a nuclear war devastates the United States, disgraced physicist Bruno Bluthgeld (who accidentally caused an earlier radiation disaster and believes, with escalating paranoid delusion, that he personally causes catastrophes through the power of his mind) and Walter Dangerfield, a folksy astronaut bound for a Mars colony, are both introduced in Bay Area settings alongside a large ensemble including psychotic TV repairman Stuart McConchie and Hoppy Harrington, a phocomelus (limbless from thalidomide-style birth defects) with latent telekinetic powers. When the bombs fall, the novel jumps seven years forward to a scattered, low-tech survivor community around West Marin, where Dangerfield -- stranded in orbit rather than reaching Mars -- has become the sole surviving broadcast voice keeping the community connected via a satellite radio show, and where Bluthgeld, living under an assumed identity, still fears his own mind is a weapon of mass destruction. Hoppy Harrington's growing telekinetic powers and his ambition to replace Dangerfield's broadcasts (and control the community's connection to the wider world) put him on a collision course with the community, resolved through Hoppy's death at the hands of a psychically-linked local man and the fragile continuation of Dangerfield's broadcasts as the community's lifeline to a shared, if diminished, culture.",
   "structure": {
-   "form": "novel"
+   "form": "novel structured in two large movements -- pre-war ensemble setup and a seven-years-later post-war community -- with a large rotating ensemble cast",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "movements": [
+   "Pre-war establishment of the Bay Area ensemble: Bruno Bluthgeld's escalating persecutory delusion that his mind causes catastrophe, Walter Dangerfield's planned Mars mission, and Hoppy Harrington's latent telekinetic powers",
+   "The nuclear war itself and a seven-year jump forward to a scattered, low-tech survivor community in West Marin",
+   "Dangerfield, stranded in orbit rather than reaching Mars, becomes the community's sole broadcast lifeline via satellite radio, sustaining a fragile shared culture",
+   "Hoppy Harrington's growing powers and ambition to seize control of the community's connection to Dangerfield's broadcasts, resolved through his eventual death"
+  ],
+  "characters": [
+   { "name": "Bruno Bluthgeld", "role": "disgraced physicist", "note": "Believes with escalating paranoid delusion that he personally causes catastrophe through the power of his own mind, living under an assumed identity after the war he may or may not have actually helped bring about." },
+   { "name": "Walter Dangerfield", "role": "stranded astronaut, broadcaster", "note": "Intended for a Mars colony mission, he becomes stranded in orbit when the war breaks out, and his ongoing satellite radio broadcasts become the post-war community's essential connection to a shared culture and to each other." },
+   { "name": "Hoppy Harrington", "role": "phocomelus with telekinetic powers", "note": "Born without limbs due to a birth defect, his growing psychic abilities and ambition to seize control of the community's broadcast lifeline make him the novel's central antagonist figure, though the novel treats his disability and marginalization with notable sympathy alongside his menace." },
+   { "name": "Stuart McConchie", "role": "TV repairman", "note": "An ordinary survivor whose small-scale post-war entrepreneurship (television repair, then general trade) tracks the community's slow, improvised reconstruction of everyday economic life." }
+  ],
+  "settings": [
+   { "name": "Pre-war San Francisco Bay Area", "note": "The setting of the novel's first movement, establishing the ensemble cast and Bluthgeld's earlier radiation accident before the full nuclear war." },
+   { "name": "Post-war West Marin", "note": "A scattered, low-tech survivor community seven years after the bombs, dependent on salvage, small-scale barter, and Dangerfield's satellite broadcasts for any sense of connection to a wider, ongoing civilization." },
+   { "name": "Dangerfield's orbiting satellite", "note": "Never physically visited within the novel but constantly present as a voice -- the community's only surviving link to broadcast culture and collective identity after the war." }
+  ],
+  "motifs": [
+   "Paranoid delusions of cosmic personal responsibility (Bluthgeld's belief that his mind causes catastrophe) as a mirror for real, structural catastrophe caused by ordinary human institutions",
+   "Disability and physical marginalization (Hoppy's phocomelia) paired with extraordinary psychic power, refusing easy correlation between bodily wholeness and moral or narrative centrality",
+   "A single broadcast voice sustaining an entire community's sense of shared culture and continuity after civilizational collapse",
+   "Slow, improvised, often comic reconstruction of ordinary economic and social life after catastrophe, rather than heroic rebuilding"
+  ],
+  "significance": "Dr. Bloodmoney is one of Dick's warmest and most humane post-apocalyptic novels, notable for its focus on the gradual, often wry texture of communal survival rather than on spectacle or despair. Its ensemble structure and interest in marginalized, disabled, or mentally unstable characters (Hoppy Harrington, Bruno Bluthgeld) as figures of both danger and sympathy reflects Dick's recurring refusal to map moral worth cleanly onto physical or psychological normalcy. Dangerfield's stranded-in-orbit broadcast voice, functioning as the community's connective cultural tissue, has been widely read as an early and unusually optimistic meditation on the value of shared media and narrative in sustaining social bonds after their material infrastructure has collapsed.",
+  "closing_note": "Hoppy Harrington's defeat resolves the novel's central power struggle, but the fragile, ongoing dependence on Dangerfield's failing broadcasts leaves the community's survival as an open, continuing project rather than a settled achievement."
  },
  "concepts": {
   "distinctive_terms": []

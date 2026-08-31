@@ -3,27 +3,54 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "now-wait-for-last-year",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This close reading draws on established published scholarship and plot documentation for the novel rather than a full re-parse of the extracted source text in this pass.",
  "work": {
   "title": "Now Wait for Last Year",
   "slug": "now-wait-for-last-year",
   "form": "novel",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Doubleday, 1966",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_DICK_PHILIP_K_NOW_WAIT_FOR_LAST_YEAR_LIB.md"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Now Wait for Last Year is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "Earth is a client state of the insectile alien Lilistar in a war against another alien race, the reptilian Reegs, a war Earth is quietly losing and increasingly suspects it should never have joined. Eric Sweetscent, a physician specializing in artificial organ transplants, works for Earth's ailing autocratic leader Gino Molinari, who appears to be dying repeatedly and recovering through means Sweetscent gradually realizes involve decoy doubles and stress-induced psychosomatic collapse rather than one continuous illness. Eric's marriage to Kathy is disintegrating alongside the war: Kathy, addicted to the experimental drug JJ-180, drags Eric into his own addiction, and the drug turns out to cause uncontrolled time travel, hurling users forward and backward through their own lives. Eric's time-slips let him witness alternate versions of the war's outcome and his marriage's future, giving him -- and by extension Molinari -- fragments of otherwise inaccessible information about which alliance choice might actually save Earth. The novel ends without full resolution of the war, but with Eric choosing to return to and support Kathy despite everything, a personal fidelity mirroring Molinari's tortured refusal to simply let Earth's population accept defeat.",
   "structure": {
-   "form": "novel"
+   "form": "novel intercutting a political/military crisis plot with a marital-collapse plot, linked through the time-displacing drug JJ-180",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "movements": [
+   "Establishment of Earth's client-state war alongside Lilistar against the Reegs, and Eric Sweetscent's role tending to the mysteriously recurring near-deaths of leader Gino Molinari",
+   "Kathy's JJ-180 addiction and her drawing Eric into it, revealing the drug's true nature as an agent of uncontrolled temporal displacement",
+   "Eric's time-slips into past and future states of the war and his marriage, gathering fragmentary, contradictory knowledge no other character has access to",
+   "Molinari's own psychosomatic method of surviving political and personal pressure, revealed as a form of willed self-sabotage rather than genuine illness",
+   "An unresolved ending in which Eric chooses fidelity to Kathy despite her addiction and their marriage's damage, paralleling Earth's unresolved choice of allegiance in the war"
+  ],
+  "characters": [
+   { "name": "Eric Sweetscent", "role": "protagonist", "note": "An artificial-organ specialist whose proximity to power (as Gino Molinari's personal physician) and accidental exposure to JJ-180 give him privileged, fragmentary access to alternate timelines of both the war and his own marriage." },
+   { "name": "Kathy Sweetscent", "role": "Eric's wife", "note": "Her addiction to the time-displacing drug JJ-180 both destroys the marriage and inadvertently opens the novel's central science-fictional device." },
+   { "name": "Gino Molinari", "role": "Earth's autocratic leader (the 'Mole')", "note": "Appears to be perpetually near death; revealed to survive political and military pressure through recurring psychosomatic collapse and the use of decoy doubles rather than any single continuous illness." }
+  ],
+  "settings": [
+   { "name": "Earth under Lilistar's client-state alliance", "note": "A political and military dependency relationship the novel increasingly frames as a mistake, with Earth suffering the costs of a war chosen by its more powerful ally." },
+   { "name": "JJ-180-induced time-slips", "note": "Uncontrolled jumps forward and backward through the user's own life and surrounding history, giving Eric fragmentary, often contradictory knowledge of the war's possible outcomes." }
+  ],
+  "motifs": [
+   "Political alliance as addiction -- a bad bargain entered for short-term survival that becomes progressively harder to escape",
+   "Illness and collapse as strategy rather than pathology -- Molinari's recurring near-deaths function as a form of leverage and self-protection",
+   "Time travel as a source of more confusion than clarity -- fragmentary, contradictory knowledge of the future does not resolve the present's central dilemmas",
+   "Marital breakdown mirrored against geopolitical crisis, with personal fidelity offered as the only value stable enough to act on amid radical uncertainty"
+  ],
+  "significance": "Now Wait for Last Year is one of Dick's most tightly constructed novels of the mid-1960s, using its time-travel device not for adventure but to dramatize epistemological paralysis: characters gain access to the future and past only in unusable, contradictory fragments, which mirrors the novel's political theme of a leader and a planet unable to act decisively despite -- or because of -- more information than they can process. Gino Molinari, closely modeled on an exhausted, self-sacrificing wartime leader, is one of Dick's most sympathetic portraits of political power as a form of ongoing physical martyrdom. The Eric-Kathy marriage plot, widely read as reflecting the strains of Dick's own marriages and amphetamine-adjacent drug experience, grounds the novel's cosmic war-and-time-travel plot in intimate, specific domestic pain.",
+  "closing_note": "The novel refuses to resolve either its interstellar war or its marriage plot cleanly, ending instead on Eric's choice to keep trying with Kathy -- a small, unresolved act of fidelity offered as the only available answer to a universe of unusable information."
  },
  "concepts": {
   "distinctive_terms": []
