@@ -3,27 +3,40 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-valis-trilogy",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This entry describes the omnibus as a publishing object; each of the three component novels (VALIS, The Divine Invasion, The Transmigration of Timothy Archer) warrants, and may already have, its own dedicated close-reading dossier with full plot detail not repeated here.",
  "work": {
   "title": "The VALIS Trilogy",
   "slug": "the-valis-trilogy",
-  "form": "novel",
+  "form": "novel omnibus",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "First Mariner Books, 2011 (component novels: 1981-1982)",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_ids DOC_ARCH_DICK_PHILIP_K_THE_VALIS_TRILOGY and DOC_ARCH_OCEANOFPDF_COM_THE_VALIS_TRILOG (duplicate editions)"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The VALIS Trilogy is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This 2011 Houghton Mifflin Harcourt omnibus collects Dick's three final novels: VALIS (1981), The Divine Invasion (1982), and The Transmigration of Timothy Archer (1982), together representing his most sustained engagement with theology, Gnosticism, and the nature of divine reality, drawing heavily on his 1974 mystical experiences and Exegesis writings. VALIS -- Dick's most directly autobiographical novel, citing Edward Hussey's The Pre-Socratics and Lao Tzu's Tao Te Ching -- follows protagonist Horselover Fat (a Greek/German translation of 'Philip Dick') through a divine revelation he struggles to interpret; The Divine Invasion continues the theological exploration through a science-fictional narrative of God's return to Earth; and The Transmigration of Timothy Archer, Dick's final completed novel, takes a more realistic literary approach to faith, death, and transcendence through the story of an Episcopal bishop.",
   "structure": {
-   "form": "novel"
+   "form": "three-novel omnibus, thematically unified rather than a continuous narrative",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
+  "characters": [
+   { "name": "Horselover Fat", "role": "protagonist of VALIS", "note": "A Greek/German translation of 'Philip Dick,' making the novel's central figure an explicit authorial stand-in processing the 2-3-74 experiences directly." }
+  ],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's novels."
+  "motifs": [
+   "Direct autobiographical processing of the 1974 religious experience across three formally distinct approaches -- philosophical/comic (VALIS), science-fictional (The Divine Invasion), and realist-literary (Timothy Archer)",
+   "Theology and Gnosticism as live intellectual inquiry rather than settled belief, carried across all three novels"
+  ],
+  "significance": "The VALIS trilogy stands as one of the most philosophically ambitious achievements in science fiction, and its three novels' distinct formal approaches to the same underlying theological material make the trilogy a uniquely valuable case study in how Dick could rework a single body of personal experience into radically different narrative registers.",
+  "closing_note": "This entry documents the omnibus as a publishing object; readers seeking full plot detail on any of the three novels should consult each novel's own dedicated dossier."
  },
  "concepts": {
   "distinctive_terms": []

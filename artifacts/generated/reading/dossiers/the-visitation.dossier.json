@@ -3,27 +3,35 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-visitation",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "No OCR text layer is present for this single-page scanned juvenile publication; its actual content cannot be reported. Dick was approximately fifteen to sixteen years old when it was published.",
  "work": {
   "title": "The Visitation",
   "slug": "the-visitation",
-  "form": "short stories",
+  "form": "short story (juvenilia)",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Berkeley Daily Gazette, August 14, 1944",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_THEVISITATIONBYPHILIPK_DICKBERK; single scanned page, no OCR text layer."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Visitation is a work by Philip K. Dick exploring themes central to his science fiction.",
+  "synopsis": "The third known juvenile publication by Dick in his local Berkeley newspaper, following 'The Jungle People' (1942) and 'The Magician's Box' (earlier in 1944). No OCR text layer exists in this corpus, so the story's actual content cannot be reported; its title suggests themes of encounter with the unknown or supernatural that would become central to Dick's mature work, particularly his later explorations of divine intervention and mystical experience, though this connection cannot be confirmed without the recovered text.",
   "structure": {
-   "form": "short stories"
+   "form": "short piece, juvenile publication, no digital text layer recovered",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
   "motifs": [],
-  "significance": "A short stories by Philip K. Dick."
+  "significance": "Together with his other Berkeley Daily Gazette juvenilia, this piece documents the early creative development of one of the twentieth century's most important science fiction writers, though its specific content awaits direct examination of the scanned page.",
+  "closing_note": "This entry registers the document's biographical significance honestly rather than claiming knowledge of story content not recoverable from this corpus."
  },
  "concepts": {
   "distinctive_terms": []

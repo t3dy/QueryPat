@@ -3,27 +3,37 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "Most of the individual stories in this volume already have their own dedicated close-reading dossiers elsewhere in this corpus. This entry describes the collection as a publishing object.",
  "work": {
-  "title": "The Short Happy Life of the Brown Oxford and Other Classic Stories",
+  "title": "The Short Happy Life of the Brown Oxford and Other Classic Stories (Collected Stories of Philip K. Dick, Volume 1)",
   "slug": "the-short-happy-life-of-the-brown-oxford-and-other-classic-stories",
-  "form": "short stories",
+  "form": "short story anthology",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "written": "circa 1952-1955",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_OCEANOFPDF_COM_THE_SHORT_HAPPY_"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Short Happy Life of the Brown Oxford and Other Classic Stories is a work by Philip K. Dick exploring themes central to his science fiction.",
+  "synopsis": "Volume 1 of The Collected Stories of Philip K. Dick, dedicated to his memory (1928-1982) with a preface by Dick himself, a foreword by Steven Owen Godersky, and an introduction by Roger Zelazny, gathering 25 or more of his earliest published stories from 1952-1955 alongside previously unpublished pieces: Beyond Lies the Wub, Stability, Roog, The Little Movement, The Gun, The Skull, The Defenders, Mr. Spaceship, Piper in the Woods, The Infinites, The Preserving Machine, Expendable, The Variable Man, The Indefatigable Frog, The Crystal Crypt, the title story, The Builder, Meddler, Paycheck, The Great C, Out in the Garden, The King of the Elves, Colony, Prize Ship, and Nanny. Dick's own preface characteristically defines science fiction first by stating what it is not -- that it cannot be reduced simply to a story set in the future.",
   "structure": {
-   "form": "short stories"
+   "form": "multi-story anthology, 25+ stories",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
-  "motifs": [],
-  "significance": "A short stories by Philip K. Dick."
+  "motifs": [
+   "Suburban unease, technological anxiety, and reality's instability, established from the very beginning of Dick's professional career"
+  ],
+  "significance": "As Volume 1 of the definitive Underwood-Miller Collected Stories, this anthology captures Dick at the very start of his professional career writing for the science fiction magazine market, and its author's own preface offers a rare direct statement of how Dick thought about genre definition.",
+  "closing_note": "This entry documents the anthology as a publishing object; readers seeking analysis of the individual stories should consult each story's own dossier elsewhere in this corpus."
  },
  "concepts": {
   "distinctive_terms": []

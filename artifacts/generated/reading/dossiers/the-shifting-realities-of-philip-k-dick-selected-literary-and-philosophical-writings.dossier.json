@@ -3,27 +3,38 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-shifting-realities-of-philip-k-dick-selected-literary-and-philosophical-writings",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This entry describes the anthology as a publishing object; two of its included essays ('Schizophrenia and the Book of Changes' and 'How to Build a Universe That Doesn't Fall Apart Two Days Later') already have their own dedicated close-reading dossiers elsewhere in this corpus.",
  "work": {
   "title": "The Shifting Realities of Philip K. Dick: Selected Literary and Philosophical Writings",
   "slug": "the-shifting-realities-of-philip-k-dick-selected-literary-and-philosophical-writings",
-  "form": "primary",
+  "form": "edited nonfiction anthology",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "first_publication": "First Vintage Books Edition, 1995 (ed. Lawrence Sutin)",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REA"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Shifting Realities of Philip K. Dick: Selected Literary and Philosophical Writings is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "Edited by Lawrence Sutin -- author of the definitive Dick biography Divine Invasions and editor of In Pursuit of VALIS -- this is the most comprehensive single-volume gathering of Dick's nonfiction writing: philosophical essays, journal entries, speeches, autobiography, science fiction criticism, and two chapters of a proposed sequel to one of his award-winning novels, alongside provocative essays including 'The Android and the Human' and 'If You Find This World Bad, You Should See Some of the Others.' Sutin's editorial introduction frames Dick as both a brilliant science fiction novelist and a visionary philosopher who chose to couch his speculations in fiction, and the Boston Phoenix praised the collection for unearthing 'gems' for both casual and serious readers.",
   "structure": {
-   "form": "primary"
+   "form": "edited nonfiction anthology spanning essays, speeches, journal entries, and fiction fragments",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's primary."
+  "motifs": [
+   "Dick's nonfiction voice as a direct complement to, rather than separate from, the philosophical concerns of his fiction",
+   "Editorial curation by a single biographer-scholar (Sutin) across multiple major Dick nonfiction projects"
+  ],
+  "significance": "As the most comprehensive collection of Dick's nonfiction, this volume is essential reading for understanding him as a thinker and philosopher in his own explicit voice, complementing the more indirect philosophical arguments embedded in his fiction; Sutin's dual role as Dick's biographer and the editor of both this volume and In Pursuit of VALIS gives it unusual editorial coherence.",
+  "closing_note": "This entry documents the anthology as a publishing object; several of its individual essays, including 'How to Build a Universe That Doesn't Fall Apart Two Days Later' and 'Schizophrenia and the Book of Changes,' have their own dedicated dossiers elsewhere in this corpus."
  },
  "concepts": {
   "distinctive_terms": []
