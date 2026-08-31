@@ -3,27 +3,41 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "selected-letters-of-philip-k-dick-1975-1976",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is a curated letters volume; the publisher's own note (quoted below) explicitly warns that the letters cannot be treated as reliable reporting about third parties, reflecting Dick's tendency toward paranoid speculation in correspondence.",
  "work": {
   "title": "Selected Letters of Philip K. Dick, 1975-1976",
   "slug": "selected-letters-of-philip-k-dick-1975-1976",
-  "form": "letter",
+  "form": "letter collection",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "written": "1975-1976",
+  "first_publication": "Underwood-Miller, 1992 (ed. Don Herron, introduction by Tim Powers)",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Selected Letters of Philip K. Dick, 1975-1976 is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This volume continues the Underwood-Miller Selected Letters series, edited by Don Herron with an introduction by Tim Powers -- a close personal friend of Dick's during this period and himself a noted fantasy novelist -- covering Dick's post-2-3-74 years. The 1975-1976 period was one of intense creative and intellectual activity, as Dick worked simultaneously on the Exegesis and the novels that would become VALIS, The Divine Invasion, and The Transmigration of Timothy Archer. The publisher's note cautions that the letters 'cannot be considered reliable sources of information about any other persons,' a direct acknowledgment of Dick's tendency toward paranoid speculation in his correspondence.",
   "structure": {
-   "form": "letter"
+   "form": "letter collection, chronologically arranged, with editorial introduction",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
+  "characters": [
+   { "name": "Tim Powers", "role": "introduction author, friend", "note": "A noted fantasy novelist and close personal friend of Dick's during this period, providing an intimate introduction based on firsthand knowledge." }
+  ],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's letters."
+  "motifs": [
+   "Intense simultaneous creative and theological labor (the Exegesis and the VALIS-trilogy novels) documented through real-time correspondence",
+   "A publisher's explicit caution about the unreliability of Dick's own third-party reporting in his letters"
+  ],
+  "significance": "This volume provides essential documentary context for the development of Dick's late metaphysical fiction, capturing his voice during the same years he was actively writing the Exegesis and beginning the novels that would become the VALIS trilogy.",
+  "closing_note": "The publisher's built-in caution about factual unreliability regarding third parties should inform how any specific claim from these letters about other people is used."
  },
  "concepts": {
   "distinctive_terms": []

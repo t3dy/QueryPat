@@ -3,27 +3,34 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "pkd-signed-letters",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "No OCR text layer is present for this 13-page scanned document; individual letter count, recipients, and dates within it are unknown. This entry describes known physical/archival characteristics rather than content, which has not been recovered from this corpus.",
  "work": {
-  "title": "PKD Signed Letters",
+  "title": "PKD Signed Letters (Copies)",
   "slug": "pkd-signed-letters",
-  "form": "letter",
+  "form": "letter collection (photocopies)",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_PKD_SIGNED_LETTERS_COPY; 13 scanned pages, no OCR text layer."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "PKD Signed Letters is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "A 13-page scanned document containing photocopies of signed letters by Dick; no OCR text layer exists in this corpus, so the number of individual letters, their recipients, dates, and content cannot be reported. Signed letters of this kind are valuable both as primary biographical and intellectual sources and as collectible artifacts in the rare-book and manuscript trade, and the preservation of copies here ensures the content remains potentially accessible even if the originals are dispersed among private collectors.",
   "structure": {
-   "form": "letter"
+   "form": "photocopied letter collection, 13 pages, no digital text layer recovered",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
   "motifs": [],
-  "significance": "Part of Philip K. Dick's letters."
+  "significance": "As an unread multi-letter document, this collection's specific scholarly value cannot yet be assessed; it is registered here to keep the archive's catalog of known correspondence complete pending transcription.",
+  "closing_note": "This entry registers the document's presence honestly rather than claiming knowledge of content not recoverable from this corpus."
  },
  "concepts": {
   "distinctive_terms": []

@@ -3,27 +3,34 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "pkd-letter",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "No OCR text layer is present for this single-page scanned letter; recipient and year are unknown beyond an apparent September dateline. This entry describes known physical/archival characteristics rather than content, which has not been recovered from this corpus.",
  "work": {
-  "title": "PKD Letter",
+  "title": "PKD Letter (September, undated)",
   "slug": "pkd-letter",
   "form": "letter",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_SEPT_0_PKD_LETTER; single scanned page, no OCR text layer."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "PKD Letter is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "A single-page scanned letter by Dick, apparently written in September of an unspecified year; no OCR text layer exists in this corpus, so its recipient and specific content cannot be reported. Dick was an extraordinarily prolific correspondent whose letters are essential primary sources for his intellectual development and personal relationships, but this particular letter's content awaits direct examination of the scanned image.",
   "structure": {
-   "form": "letter"
+   "form": "letter, one page, no digital text layer recovered",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
   "motifs": [],
-  "significance": "Part of Philip K. Dick's letters."
+  "significance": "As an unread single letter, this document's specific scholarly value cannot yet be assessed; it is registered here to keep the archive's catalog of known correspondence complete pending transcription.",
+  "closing_note": "This entry registers the document's presence honestly rather than claiming knowledge of content not recoverable from this corpus."
  },
  "concepts": {
   "distinctive_terms": []

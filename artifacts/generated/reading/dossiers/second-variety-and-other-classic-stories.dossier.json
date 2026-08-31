@@ -3,27 +3,39 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "second-variety-and-other-classic-stories",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is a large multi-story anthology (499 pages); most of its individual stories already have their own dedicated close-reading dossiers elsewhere in this corpus. This entry describes the collection as a publishing object rather than re-reading its contents story by story.",
  "work": {
   "title": "Second Variety and Other Classic Stories",
   "slug": "second-variety-and-other-classic-stories",
-  "form": "short stories",
+  "form": "short story anthology",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "1991 (499 pages)",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AN"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "Second Variety and Other Classic Stories is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "A comprehensive, 499-page collection of Dick's short fiction anchored by the title story 'Second Variety,' one of his most celebrated early works about self-replicating war machines. The volume gathers an extraordinary range of stories across much of his career, including The Cookie Lady, Beyond the Door, Jon's World, The Cosmic Poachers, Progeny, Some Kinds of Life, Martians Come in Clouds, The Commuter, The World She Wanted, A Surface Raid, Project: Earth, The Trouble with Bubbles, Breakfast at Twilight, A Present for Pat, The Hood Maker, Of Withered Apples, Human Is, Adjustment Team, The Impossible Planet, Impostor, James P. Crow, Planet for Transients, Small Town, Souvenir, Survey Team, and Prominent Author. Several stories in the collection have been adapted for film and television: 'Second Variety' became Screamers (1995), 'Impostor' a 2001 film, and 'Adjustment Team' The Adjustment Bureau (2011).",
   "structure": {
-   "form": "short stories"
+   "form": "multi-story anthology, approximately two dozen stories",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's short_stories."
+  "motifs": [
+   "Self-replicating or autonomous machines outstripping human control ('Second Variety')",
+   "Identity, imposture, and the unreliability of self-knowledge across multiple stories",
+   "Suburban and small-town settings destabilized by concealed technological or bureaucratic forces"
+  ],
+  "significance": "As one of the more comprehensive single-volume gatherings of Dick's short fiction, this anthology showcases his mastery of the short story form and his ability to compress profound questions about identity, reality, and humanity into compact narratives, with several of its stories having gone on to independent cultural life as film and television adaptations.",
+  "closing_note": "This entry documents the anthology as a publishing object; most of the stories it collects have their own dedicated dossiers elsewhere in this corpus."
  },
  "concepts": {
   "distinctive_terms": []
