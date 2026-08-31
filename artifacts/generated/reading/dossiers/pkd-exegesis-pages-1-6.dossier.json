@@ -3,27 +3,35 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "pkd-exegesis-pages-1-6",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "These are scanned handwritten manuscript pages whose OCR text layer is entirely garbled (rendered as nonsense table fragments) due to the extreme difficulty of machine-reading Dick's handwriting -- confirmed by the extracted markdown itself and by the documents table's own page_summary. No readable content from these specific six pages can be reported; this entry describes the document honestly as a manuscript artifact rather than summarizing content that cannot actually be recovered from this corpus.",
  "work": {
   "title": "PKD Exegesis Pages 1-6",
   "slug": "pkd-exegesis-pages-1-6",
-  "form": "primary",
+  "form": "manuscript pages (handwritten)",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_PKD_EXEGESIS_1_6.md",
+   "note": "OCR output is illegible; the source PDF is titled 'PKD Exegesis 1-6.pdf'."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "PKD Exegesis Pages 1-6 is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "These are the opening six handwritten pages of Philip K. Dick's Exegesis, the sprawling private philosophical and theological journal -- an estimated 8,000 handwritten pages in total -- that Dick maintained from 1974 until his death in 1982 in an attempt to interpret and systematize the visionary experiences he underwent beginning in February and March 1974 ('2-3-74'). Because Dick's handwriting resists optical character recognition, the digital text layer for these specific pages is garbled beyond readability, and their substantive content cannot be recovered from this corpus; what can be established is their position as the very earliest stratum of the Exegesis, written when the 2-3-74 experiences were freshest, making them of exceptional scholarly interest despite being currently illegible in digital form.",
   "structure": {
-   "form": "primary"
+   "form": "handwritten manuscript, six pages, unreadable via OCR in this corpus",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
   "motifs": [],
-  "significance": "Part of Philip K. Dick's primary."
+  "significance": "As the opening pages of the single largest primary-source document in the Dick archive, this manuscript fragment is of exceptional potential scholarly importance -- it represents Dick's earliest sustained attempt to write through the 2-3-74 experiences into a systematic framework, before any of the reworking and reinterpretation visible in his later Exegesis entries and in published excerpts like The Exegesis of Philip K. Dick (2011, ed. Pamela Jackson and Jonathan Lethem). Its content, however, is not accessible through this corpus's OCR text layer; scholars seeking its actual content would need to consult the original manuscript images directly, or transcription efforts such as the Zebrapedia Project.",
+  "closing_note": "This entry exists to accurately register the document's presence and position in the archive rather than to claim knowledge of content that cannot currently be recovered from it."
  },
  "concepts": {
   "distinctive_terms": []

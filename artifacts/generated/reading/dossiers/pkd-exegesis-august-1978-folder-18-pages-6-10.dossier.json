@@ -3,27 +3,35 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "pkd-exegesis-august-1978-folder-18-pages-6-10",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "No OCR text layer exists for this document at all (extraction_status: failed in the documents table) -- these are scanned manuscript images with no digital text to read. This entry describes the document's known context (folder, date, archival position) rather than any content, which cannot currently be recovered from this corpus.",
  "work": {
   "title": "PKD Exegesis: August 1978, Folder 18, Pages 6-10",
   "slug": "pkd-exegesis-august-1978-folder-18-pages-6-10",
-  "form": "primary",
+  "form": "manuscript pages (handwritten/typed, unscanned to text)",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "written": "August 1978",
+  "source": {
+   "note": "No extracted markdown file exists; database/unified.sqlite documents table records extraction_status='failed' for doc_id DOC_ARCH_PKD_EXEGESIS_AUG_1978_FOLDER_18_PG_6_10."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "PKD Exegesis: August 1978, Folder 18, Pages 6-10 is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This is the second half (pages 6 through 10) of the same ten-page sequence from Folder 18 of Philip K. Dick's Exegesis continued from the preceding pages 1-5, dated August 1978. No OCR text layer exists for these pages in this corpus, so their specific content cannot be reported. Together with the first five pages, this completes a full ten-page segment from a single folder dating to a particularly intense period of Exegesis composition, as Dick was developing the theological and cosmological framework that would go on to inform the VALIS trilogy.",
   "structure": {
-   "form": "primary"
+   "form": "manuscript pages, no digital text layer recovered",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
   "motifs": [],
-  "significance": "Part of Philip K. Dick's primary."
+  "significance": "As the second half of an unpublished, untranscribed folder from Dick's mid-period Exegesis, this document would be of considerable scholarly value if and when its content becomes accessible, offering a data point for the theological and cosmological development that fed into the VALIS trilogy beyond what survives in the published, edited Exegesis (2011).",
+  "closing_note": "This entry registers the document's archival position honestly rather than claiming knowledge of content that has not been recovered from this corpus; a future OCR or manual transcription pass would be needed before a genuine close reading could replace this placeholder."
  },
  "concepts": {
   "distinctive_terms": []

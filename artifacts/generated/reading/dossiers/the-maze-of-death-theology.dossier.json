@@ -3,27 +3,46 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-maze-of-death-theology",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "These are Dick's own raw planning notes for what he called 'the Tench novel' -- the working title for what became A Maze of Death -- not a finished essay or a scholarly analysis. The notes are telegraphic, self-questioning, and sometimes contradictory across their own pages, consistent with a writer thinking on paper rather than composing for a reader; treat plot and theological details here as draft possibilities Dick was weighing, not as settled facts about the published novel.",
  "work": {
   "title": "The Maze of Death Theology",
   "slug": "the-maze-of-death-theology",
-  "form": "primary",
+  "form": "working notes",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "source": {
+   "file": "database/extracted_markdown/DOC_ARCH_MAZE_OF_DEATH_THEOLOGY.md",
+   "note": "Source PDF titled 'Maze notes.pdf'; 469 lines of raw planning notes across numbered pages."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Maze of Death Theology is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "In these working notes for 'the Tench novel' -- his working title for A Maze of Death -- Dick sketches a story of an Earth colony on a remote planet undergoing social, economic, and psychological decline, explicitly modeling the decay on Paul Bowles, Kafka's The Castle, and All Quiet on the Western Front's ending ('the last death'), with each colonist decaying by a different characteristic failure mode: alcoholism, schizoid withdrawal ('like me,' Dick notes of himself), flight, and others. Central to the notes is 'the Great Tench' (or Tenches), an oracular entity or entities the colonists can consult but whose advice comes back garbled, 'like fortune cookies' -- Dick works through several versions of how directly the Tench should intervene and how much real theological content it should carry, at one point noting that 'the only communicable aspect is -- oddly -- the theological aspect,' and sketching a scene in which a character glimpses actual gods residing in a temple, with Earth having made a compact with the gods to leave their world alone. The notes show Dick actively deciding, page by page, how much of the eventual novel's theology (the 'Tench,' possibly given Zoroastrian titles) should be revealed as real versus illusory, and how the ensemble cast's isolated failures should or should not interact.",
   "structure": {
-   "form": "primary"
+   "form": "raw working notes, organized by numbered page, mixing plot brainstorming, character-assignment lists, and direct theological speculation",
+   "chapter_count": 0,
+   "chapters": []
   },
-  "characters": [],
-  "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's primary."
+  "characters": [
+   { "name": "The Great Tench (or Tenches)", "role": "oracular entity", "note": "An entity or entities the colonists can consult, whose advice returns garbled 'like fortune cookies'; Dick weighs across the notes how directly the Tench should intervene and how much of its theological content should be real." },
+   { "name": "Maggie Walsh", "role": "colonist under consideration", "note": "Listed in the notes with an explicit theological role-assignment ('Theology? Yes.'), indicating Dick's practice of assigning each ensemble character a distinct thematic function before drafting." }
+  ],
+  "settings": [
+   { "name": "The remote Earth colony", "note": "The site of the colonists' social, economic, and psychological decline, explicitly modeled by Dick on Paul Bowles, Kafka's The Castle, and the ending of All Quiet on the Western Front." },
+   { "name": "The temple where the gods reside", "note": "A sketched scene in which a character discovers actual gods residing in a temple, with Earth having made a compact with the gods to leave their world alone -- one of several theological possibilities Dick weighs in the notes rather than a confirmed plot point." }
+  ],
+  "motifs": [
+   "Ensemble character decline, each colonist assigned a distinct thematic failure mode (alcoholism, schizoid withdrawal, flight) rather than a shared uniform breakdown",
+   "An oracular entity whose advice is garbled or fortune-cookie-like, raising the question of whether its theological content is genuine or empty",
+   "Direct authorial self-identification with a character's pathology ('Schizy -- like me')",
+   "Active, visible authorial decision-making about how much of a novel's theology should be revealed as literally real versus illusory or unreliable"
+  ],
+  "significance": "As Dick's own planning notes for A Maze of Death, this document offers rare direct access to his compositional process for one of his most theologically explicit pre-1974 novels, showing him consciously modeling the book's decay structure on specific literary precedents (Bowles, Kafka, Remarque) and actively weighing, page by page, how much of the novel's central oracular entity should be revealed as a genuine theological presence versus a source of unreliable, garbled guidance. The notes' explicit self-identification ('Schizy -- like me') is a valuable data point for tracing Dick's recurring practice of embedding his own psychological self-diagnosis directly into his fiction's character design, predating his more famous post-1974 theological writing by several years.",
+  "closing_note": "The notes end without settling definitively how much of the Tench's theology is real, leaving the published novel's eventual treatment of that question -- one of its most debated features -- visibly still undecided at this planning stage."
  },
  "concepts": {
   "distinctive_terms": []
