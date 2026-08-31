@@ -30,13 +30,25 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "letter"
+      "form": "letter collection with substantial editorial framing narrative by the recipient, organized into labeled thematic sections",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
+    "characters": [
+      {
+        "name": "Linda Levy (Linda Castellani)",
+        "role": "correspondent, editor",
+        "note": "One of the women Dick described among his 'dark-haired girls'; compiled and annotated this collection of their correspondence in 2008, framing it explicitly as a personal account meant to precede public perceptions being fixed by an in-development biopic."
+      }
+    ],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's letters.",
-    "closing_note": null
+    "motifs": [
+      "The recurring 'dark-haired girl' figure across Dick's life and fiction, here documented from one specific real correspondent's own perspective",
+      "A recipient's personal account offered explicitly as a counterweight to a forthcoming dramatized public portrayal",
+      "Physical ephemera (photographs, signed prints, a purchased magazine) presented alongside the letters as evidence of a lived relationship"
+    ],
+    "significance": "This self-published collection is a valuable, if non-scholarly, primary-source window into one of Dick's real-life romantic entanglements with the recurring 'dark-haired girl' figure that appears throughout his fiction and his own self-mythologizing correspondence (notably his December 1972 letter to Roger Zelazny). Because it is compiled and framed entirely by the recipient rather than through independent editorial verification, its characterizations of Dick -- both sympathetic and critical -- should be read as one participant's testimony rather than as adjudicated biographical fact.",
+    "closing_note": "Castellani's explicit motive for publishing -- getting her account into print before a Paul Giamatti biopic then in development could fix a different public image of Dick -- frames the entire collection as an act of personal historical intervention as much as archival preservation."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -53,5 +65,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This is a fan-compiled and self-published memoir/letters collection by Linda Levy (writing as Linda Castellani), not a scholarly or major-press edition. Its framing of Dick's character, including claims about violence toward women, is Castellani's own account and should be read as one participant's testimony rather than adjudicated fact."
 }

@@ -37,13 +37,18 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "primary"
+      "form": "edited anthology of excerpts, with editorial preface, introduction, afterword, and chronology",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's primary.",
-    "closing_note": null
+    "motifs": [
+      "Editorial curation and framing of a private, unpublished journal for public scholarly consumption",
+      "Contributions from figures central to distinct strands of Dick reception (biography, fandom, esoteric studies, psychedelic discourse) framing a single body of primary text"
+    ],
+    "significance": "As the first substantial published window into the Exegesis, this anthology shaped how an entire generation of scholars and readers understood Dick's post-1974 metaphysics before the full manuscript became available in 2011. Its contributor list -- Sutin (author of the definitive Dick biography Divine Invasions), Williams (founder of the Philip K. Dick Society), Kinney (editor of Gnosis Magazine), and McKenna (a leading figure in psychedelic and esoteric discourse) -- reflects the specific intellectual communities that first took Dick's late theological writing seriously as a subject of study.",
+    "closing_note": "The volume's eventual superseding by the complete 2011 Exegesis does not diminish its historical importance as the text through which most Dick scholarship engaged his post-2-3-74 metaphysics for two decades."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -60,5 +65,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This is an edited anthology of Exegesis excerpts (Dick's own writing curated by others), not a document Dick assembled himself. The archive holds two digital copies of the same 1991 edition."
 }

@@ -30,13 +30,15 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "primary"
+      "form": "handwritten manuscript, six pages, unreadable via OCR in this corpus",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
     "motifs": [],
-    "significance": "Part of Philip K. Dick's primary.",
-    "closing_note": null
+    "significance": "As the opening pages of the single largest primary-source document in the Dick archive, this manuscript fragment is of exceptional potential scholarly importance -- it represents Dick's earliest sustained attempt to write through the 2-3-74 experiences into a systematic framework, before any of the reworking and reinterpretation visible in his later Exegesis entries and in published excerpts like The Exegesis of Philip K. Dick (2011, ed. Pamela Jackson and Jonathan Lethem). Its content, however, is not accessible through this corpus's OCR text layer; scholars seeking its actual content would need to consult the original manuscript images directly, or transcription efforts such as the Zebrapedia Project.",
+    "closing_note": "This entry exists to accurately register the document's presence and position in the archive rather than to claim knowledge of content that cannot currently be recovered from it."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -53,5 +55,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "These are scanned handwritten manuscript pages whose OCR text layer is entirely garbled (rendered as nonsense table fragments) due to the extreme difficulty of machine-reading Dick's handwriting -- confirmed by the extracted markdown itself and by the documents table's own page_summary. No readable content from these specific six pages can be reported; this entry describes the document honestly as a manuscript artifact rather than summarizing content that cannot actually be recovered from this corpus."
 }

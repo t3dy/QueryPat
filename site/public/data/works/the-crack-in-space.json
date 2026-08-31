@@ -35,13 +35,35 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "novel intercutting a political campaign plot with the discovery and contested exploitation of a parallel-world resettlement opportunity",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Jim Briskin",
+        "role": "presidential candidate",
+        "note": "The first Black candidate for the American presidency, campaigning partly on a promise to resettle the country's chronically unemployed, cryogenically suspended underclass to the newly discovered parallel Earth."
+      }
+    ],
+    "settings": [
+      {
+        "name": "Overcrowded near-future America",
+        "note": "Grappling with chronic unemployment and racial tension, with much of its underclass held in long-term cryogenic suspension for lack of jobs or housing."
+      },
+      {
+        "name": "The parallel Earth beyond the crack",
+        "note": "Discovered via a malfunctioning instantaneous transit device, initially believed empty and available for human resettlement, but revealed to harbor its own indigenous hominid population."
+      }
+    ],
+    "motifs": [
+      "Technological accident opening unexpected political and social opportunity, immediately contested by competing factions",
+      "Resettlement and colonization premised on an assumption of emptiness that turns out to be false, echoing real-world colonial displacement of indigenous populations",
+      "Racial politics and a historic first Black presidential candidacy intersecting directly with a science-fictional resource crisis",
+      "Cryogenic suspension as a literal, institutionalized holding pattern for economically surplus populations"
+    ],
+    "significance": "The Crack in Space, expanded from Dick's 1964 novella Cantata 140, is notable for its direct engagement with contemporary American racial politics through Jim Briskin's historic candidacy, years before a Black presidential candidacy became a mainstream political possibility in reality. Its parallel-world resettlement plot, complicated by the discovery of an indigenous population the human characters had assumed did not exist, functions as a pointed science-fictional allegory for the colonial premise that supposedly empty land is available for the taking, undercutting the technological-solution optimism of its own premise with an ethical complication its characters did not anticipate.",
+    "closing_note": "The discovery of the parallel Earth's indigenous population leaves the resettlement plan's moral and political legitimacy as unresolved as the overcrowding crisis it was meant to solve."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +80,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass). Expanded from Dick's 1964 novella Cantata 140."
 }

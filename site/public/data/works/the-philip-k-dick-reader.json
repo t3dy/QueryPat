@@ -42,13 +42,18 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "short stories"
+      "form": "curated multi-story anthology",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's short_stories.",
-    "closing_note": null
+    "motifs": [
+      "Suburban alienation and altered perception as recurring entry points across the selected stories",
+      "The tension between domestic comfort and cosmic or institutional upheaval"
+    ],
+    "significance": "As a reader-friendly rather than completist selection, this anthology was designed to introduce Dick's short fiction to the expanding general audience discovering his work through film adaptations and posthumous critical reassessment, rather than to serve specialist collectors.",
+    "closing_note": "This entry documents the anthology as a publishing object; readers seeking analysis of individual stories, including 'Fair Game,' should consult each story's own dossier elsewhere in this corpus."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -65,5 +70,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This is a general-audience anthology distinct from the completist Underwood-Miller Collected Stories; most of its individual stories already have their own dedicated close-reading dossiers elsewhere in this corpus. This entry describes the anthology as a publishing object."
 }

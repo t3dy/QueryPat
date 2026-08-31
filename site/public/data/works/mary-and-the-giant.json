@@ -44,13 +44,36 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "mainstream literary novel of small-town social and romantic constraint",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Mary Anne Reynolds",
+        "role": "protagonist",
+        "note": "A young woman working at a record shop, chafing against the narrow romantic and social options available to her in a stifling small California town."
+      },
+      {
+        "name": "Joseph Schilling",
+        "role": "record-shop proprietor",
+        "note": "An older, culturally sophisticated newcomer from a larger city whose relationship with Mary offers her a glimpse of a life beyond her hometown's constraints."
+      }
+    ],
+    "settings": [
+      {
+        "name": "A small California town in the 1950s",
+        "note": "Rendered with close attention to class aspiration, provincial conformity, and the particular constraints facing a young woman without independent means, grounding the novel in the same regional milieu Dick drew on for much of his mainstream fiction."
+      }
+    ],
+    "motifs": [
+      "A young woman's search for a life larger than her small town's narrow social and romantic options allow",
+      "Class aspiration and cultural sophistication as an implicit escape route from provincial constraint",
+      "Period racial prejudice entering the town's social fabric directly through an interracial relationship",
+      "Self-sabotage and erratic choice as a response to constrained options rather than straightforward ambition"
+    ],
+    "significance": "Mary and the Giant is one of several mainstream literary novels Dick wrote in the 1950s during his sustained attempt to establish himself outside genre science fiction, none of which found a publisher during his lifetime except Confessions of a Crap Artist. Its close attention to small-town class dynamics, romantic constraint, and period racial prejudice reflects Dick's broader mainstream-fiction interest in ordinary American social pressure rather than the metaphysical and political speculation of his science fiction, and its posthumous 1987 publication -- alongside several other rediscovered mainstream manuscripts -- helped scholars reassess the range of Dick's ambitions beyond the genre reputation that dominated his career.",
+    "closing_note": "Mary's search for a larger life closes without full resolution, consistent with Dick's mainstream fiction's general preference for open, unresolved endings over the redemptive arcs more common in period popular fiction."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -67,5 +90,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "circa 1953-1955",
+  "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass). Written in the mid-1950s and not published until 1987, five years after Dick's death."
 }

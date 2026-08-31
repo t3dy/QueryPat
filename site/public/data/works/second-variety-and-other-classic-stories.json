@@ -35,13 +35,19 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "short stories"
+      "form": "multi-story anthology, approximately two dozen stories",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's short_stories.",
-    "closing_note": null
+    "motifs": [
+      "Self-replicating or autonomous machines outstripping human control ('Second Variety')",
+      "Identity, imposture, and the unreliability of self-knowledge across multiple stories",
+      "Suburban and small-town settings destabilized by concealed technological or bureaucratic forces"
+    ],
+    "significance": "As one of the more comprehensive single-volume gatherings of Dick's short fiction, this anthology showcases his mastery of the short story form and his ability to compress profound questions about identity, reality, and humanity into compact narratives, with several of its stories having gone on to independent cultural life as film and television adaptations.",
+    "closing_note": "This entry documents the anthology as a publishing object; most of the stories it collects have their own dedicated dossiers elsewhere in this corpus."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +64,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This is a large multi-story anthology (499 pages); most of its individual stories already have their own dedicated close-reading dossiers elsewhere in this corpus. This entry describes the collection as a publishing object rather than re-reading its contents story by story."
 }

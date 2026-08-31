@@ -35,13 +35,36 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "novel with a large ensemble cast whose separate plotlines converge around the central deception of Nicole Thibodeaux's manufactured, ageless public persona",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Nicole Thibodeaux",
+        "role": "First Lady, central symbolic figure",
+        "note": "An eternally youthful, beloved public persona maintained across decades through institutional stage management rather than a single continuous human life -- the novel's central object of both public devotion and hidden manipulation."
+      },
+      {
+        "name": "Various USEA functionaries",
+        "role": "propaganda apparatus insiders",
+        "note": "Maintain and gradually threaten to expose the mechanism behind Nicole's manufactured persona and the android nature of 'der Alte,' the rotating presidential figurehead."
+      }
+    ],
+    "settings": [
+      {
+        "name": "The USEA (United States of Europe and America)",
+        "note": "A merged transatlantic political entity whose actual governance depends on a manufactured, endlessly renewed public symbol rather than any transparent democratic process."
+      }
+    ],
+    "motifs": [
+      "A beloved public figure maintained as an ageless media construct, with the machinery behind the illusion hidden from the population that adores her",
+      "Political legitimacy manufactured through stagecraft and propaganda rather than genuine continuous rule",
+      "The outlawing of independent psychological treatment in favor of state-controlled therapeutic technology",
+      "Competing institutional interests in whether to preserve or expose a foundational public deception, weighed against social stability"
+    ],
+    "significance": "The Simulacra is one of Dick's most direct satires of manufactured political celebrity and mass-media governance, anticipating later cultural anxieties about deepfakes, stage-managed public figures, and manufactured political continuity by decades. Nicole Thibodeaux is widely read as a composite critique of Jacqueline Kennedy-style political celebrity and the cult of personality more broadly, her ageless persona standing in for the way media apparatuses can sustain a beloved public fiction indefinitely regardless of the reality behind it. The novel's dense ensemble structure -- typical of Dick's mid-1960s novels -- lets the central deception be viewed from multiple social positions simultaneously, from ordinary citizens who need the illusion to functionaries who manufacture it.",
+    "closing_note": "The novel's suggestion that the public's need for a stable, beloved symbolic figure may outlast any scandal capable of exposing the deception behind her offers one of Dick's bleaker verdicts on the durability of manufactured political belief."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +81,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This close reading draws on established published scholarship and plot documentation for the novel rather than a full re-parse of the extracted source text in this pass."
 }

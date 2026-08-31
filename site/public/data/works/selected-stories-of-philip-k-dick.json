@@ -35,13 +35,15 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "short stories"
+      "form": "short story anthology, specific contents not established from this corpus",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
     "motifs": [],
-    "significance": "Part of Philip K. Dick's short_stories.",
-    "closing_note": null
+    "significance": "Dick was one of the most prolific short story writers in science fiction, producing over 120 stories, many later adapted for film and television; anthologies like this one made that vast, scattered body of magazine fiction newly accessible to readers encountering Dick primarily through his novels and their adaptations.",
+    "closing_note": "A future pass with a cleaner scan or table of contents would allow this entry's specific story list to be established with confidence."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +60,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "The extracted text for this edition consists mainly of Dick's novel bibliography rather than a story-by-story table of contents, so the collection's specific selection of stories cannot be enumerated from this corpus."
 }

@@ -35,13 +35,36 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "novel satirizing Cold War arms-race politics through the device of trance-designed weapons that are secretly never manufactured",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Lars Powderdry",
+        "role": "protagonist, Wes-bloc weapons fashion designer",
+        "note": "Channels psychic trance states to produce weapon designs he believes will be manufactured for the ongoing Cold War, unaware for much of the novel that his designs are filed away rather than built."
+      },
+      {
+        "name": "Lilo Topchev",
+        "role": "Peep-East weapons fashion designer",
+        "note": "Lars's Eastern-bloc counterpart, operating under the same trance-design method and the same concealed arrangement that neither side's weapons are real."
+      }
+    ],
+    "settings": [
+      {
+        "name": "Wes-bloc and Peep-East",
+        "note": "Mirror-image Cold War superpowers whose decades-long arms race is revealed to be a mutually agreed theatrical deception, maintained for domestic economic and morale purposes while both sides quietly avoid actual rearmament."
+      }
+    ],
+    "motifs": [
+      "An arms race maintained as pure theater, with both sides secretly complicit in never building the weapons they publicly compete to design",
+      "Creative or psychic trance work as the actual mechanism of weapons design, blurring the line between artistic inspiration and military technology",
+      "A genuine external threat exposing the hollowness of a manufactured domestic conflict",
+      "Political systems more invested in stable, theatrical opposition than in real security"
+    ],
+    "significance": "The Zap Gun is one of Dick's most pointed satires of Cold War arms-race logic, imagining a deterrence system so thoroughly theatrical that both superpowers have secretly agreed to stop actually building weapons while maintaining the public appearance of escalating threat. The novel's late pivot to a genuine alien menace exposes the arms race's real function as domestic political and economic management rather than security, a critique made sharper by its ultimately hopeful suggestion that authentic creative collaboration (Lars and Lilo working together under real pressure) can produce what decades of staged rivalry never did. Its title and central weapons-fashion premise register as satirical commentary on the actual U.S. 'Operation Plowshare' program, from which an early version of the novel took its serialized title.",
+    "closing_note": "The novel's resolution -- a real weapon finally produced through Lars and Lilo's combined effort -- suggests that authentic cooperation across the Cold War divide, rather than continued theatrical rivalry, is what genuine crisis ultimately requires."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +81,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This close reading draws on established published scholarship and plot documentation for the novel rather than a full re-parse of the extracted source text in this pass."
 }

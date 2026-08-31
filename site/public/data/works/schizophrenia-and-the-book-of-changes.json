@@ -30,13 +30,20 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "primary"
+      "form": "essay combining analytical argument about schizophrenic time-perception with direct authorial self-diagnosis",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's primary.",
-    "closing_note": null
+    "motifs": [
+      "Schizophrenic experience reframed as a distinct, internally coherent relationship to time rather than mere pathological confusion",
+      "Synchronicity (borrowed from Wolfgang Pauli/Carl Jung) as an alternative organizing principle to ordinary linear causality",
+      "Direct authorial self-diagnosis and vulnerability embedded within an ostensibly analytical, third-person argument",
+      "The I Ching ('the Book of Changes') implicitly offered as a divinatory system whose acausal logic parallels the schizophrenic's own relationship to time"
+    ],
+    "significance": "This 1965 essay is an important early data point for Dick's recurring self-diagnosis as 'schizoid' or 'pre-schizophrenic,' a fear that runs through his private journals and essays for the rest of his career and that biographers connect directly to his lifelong preoccupation with the reliability of perceived reality. Its analytical move -- treating schizophrenic time-perception as a coherent alternative framework rather than simple malfunction, and linking it to Jungian/Pauli synchronicity and the I Ching's acausal divinatory logic -- previews the sympathetic, non-pathologizing treatment of altered mental states that recurs throughout Dick's fiction, from Eye in the Sky's subjective-reality layers to the visionary experiences woven into VALIS.",
+    "closing_note": "Dick's willingness to describe himself as 'pre-schizophrenic' within what is nominally a piece of cultural/scientific analysis exemplifies how thoroughly his private psychological fears and his public intellectual arguments were intertwined throughout his career."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -53,5 +60,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "1965",
+  "critical_caution": "The essay's full text was not found as a standalone file in this corpus; this reading is grounded in a substantial direct quotation and Lawrence Sutin's introductory framing of the essay preserved in the extracted text of The Shifting Realities of Philip K. Dick (the published collection that reprints it), rather than a complete pass over the essay itself."
 }

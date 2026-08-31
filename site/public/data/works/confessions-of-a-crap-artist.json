@@ -76,13 +76,41 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "mainstream domestic novel alternating first-person narration between two perspectives on the same slow-motion marital collapse",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Jack Isidore",
+        "role": "co-narrator",
+        "note": "A socially maladroit collector of pseudo-scientific trivia whose obsessively literal, uncomprehending narration of his sister's marital collapse makes him one of Dick's most sustained studies of a mind fundamentally unable to process ordinary emotional and social reality."
+      },
+      {
+        "name": "Fay Hume",
+        "role": "co-narrator, Jack's sister",
+        "note": "Her disintegrating marriage to Charley, narrated in her own first-person voice in alternation with Jack's, provides the novel's other, more conventionally emotionally legible perspective on the same events."
+      },
+      {
+        "name": "Charley Hume",
+        "role": "Fay's husband",
+        "note": "His declining health after a heart attack and his wife's infidelity precipitate the household's collapse, culminating in his suicide attempt and death."
+      }
+    ],
+    "settings": [
+      {
+        "name": "Marin County, California",
+        "note": "The specific, closely observed domestic setting of the novel, drawing directly on Dick's own life in the Point Reyes area during the period he wrote the book."
+      }
+    ],
+    "motifs": [
+      "Narrational unreliability rooted not in deception but in a fundamental inability to correctly interpret ordinary human motive and emotion",
+      "Pseudo-scientific obsession (UFOs, hollow earth, doomsday cults) as a displaced substitute for genuine understanding of the people immediately around the obsessive",
+      "Domestic marital collapse observed from radically different interpretive positions by two narrators witnessing the same events",
+      "The absence of narrative transformation or moral growth in a protagonist who witnesses tragedy without being changed by it"
+    ],
+    "significance": "Confessions of a Crap Artist is the only one of Dick's mainstream literary novels published during his lifetime, after years of failed attempts to break out of genre science fiction into the literary mainstream that dominated much of his 1950s writing. Jack Isidore's name and diagnostic profile -- an obsessive, literal-minded collector of pseudo-scientific trivia incapable of ordinary emotional comprehension -- directly prefigures J.R. Isidore in Do Androids Dream of Electric Sheep?, making this novel a key text for tracing how Dick's mainstream character studies fed back into his later science fiction. Its double first-person structure, alternating between an unreliable outsider and a more conventionally legible insider narrating the same domestic collapse, is one of Dick's most formally controlled experiments outside the genre conventions that otherwise structured his career.",
+    "closing_note": "Jack's untroubled pivot to his next pseudo-scientific obsession after witnessing his brother-in-law's death closes the novel on a deliberately anticlimactic note, refusing him any of the insight or transformation a more conventional tragedy would grant its witness."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -99,5 +127,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass)."
 }

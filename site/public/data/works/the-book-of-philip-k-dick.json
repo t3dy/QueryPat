@@ -35,13 +35,18 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "short stories"
+      "form": "nine-story anthology",
+      "chapter_count": 9,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's short_stories.",
-    "closing_note": null
+    "motifs": [
+      "Technology seamlessly integrated into domestic and suburban life, its unsettling implications only gradually surfacing",
+      "Automation and human dependency as an early, recurring anxiety in Dick's short fiction"
+    ],
+    "significance": "As a collection of Dick's earliest professionally published short fiction, this volume captures the formative years of a writer still developing the distinctive voice that would later produce his greatest novels; 'Adjustment Team' was later adapted as the 2011 film The Adjustment Bureau, and 'The Commuter' for the Electric Dreams television series.",
+    "closing_note": "This entry documents the anthology as a publishing object; readers seeking analysis of individual stories should consult each story's own dossier in this corpus."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +63,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "Most of the individual stories in this 1973 collection already have their own dedicated close-reading dossiers elsewhere in this corpus; this entry describes the collection as a publishing object."
 }

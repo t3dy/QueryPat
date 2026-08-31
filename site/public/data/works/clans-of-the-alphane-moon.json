@@ -35,13 +35,36 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "novel intercutting political/anthropological survey plot on the Alphane moon with a parallel marital-collapse plot",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Mary Rittersdorf",
+        "role": "telepath, survey team leader",
+        "note": "Leads Earth's delegation to assess the Alphane clans for reintegration, her professional psychiatric authority set against her own unresolved personal life."
+      },
+      {
+        "name": "Chuck Rittersdorf",
+        "role": "advertising executive, Mary's estranged husband",
+        "note": "Processes a bitter divorce alongside his entanglement in the colony's political crisis, his personal disintegration paralleling the larger question of whether 'normal' psychology is any more stable than the clans'."
+      }
+    ],
+    "settings": [
+      {
+        "name": "Alpha III M2 (the Alphane moon)",
+        "note": "A former Earth psychiatric colony abandoned during an interstellar war, whose patient population has organized itself over decades into distinct clans built around psychiatric diagnosis, functioning as a genuinely stable, if eccentric, self-governing civilization."
+      }
+    ],
+    "motifs": [
+      "Psychiatric diagnosis as the organizing principle of an entire functioning civilization, challenging the presumed superiority of 'sane' institutional structures",
+      "Marital collapse mirrored against political and anthropological crisis, both suggesting that stability and normalcy are far less secure categories than they appear",
+      "Earth's institutional authority to define and reintegrate 'madness' questioned by the Alphane clans' demonstrated functional stability",
+      "Telepathy and other psychic abilities treated as ordinary professional tools rather than exceptional phenomena"
+    ],
+    "significance": "Clans of the Alphane Moon is one of Dick's sharpest satires of psychiatric categorization, using the clan society's decades of stable self-government to directly challenge the presumption that 'sanity,' as defined by Earth's institutions, is either more functional or more meaningful than the alternative social organizations the Alphane patients have built for themselves. The novel's parallel marital-collapse plot, widely read as reflecting the strains of Dick's own contemporaneous marriage to Anne Dick, grounds the anthropological satire in intimate, specific personal pain, suggesting that the line between institutional and interpersonal breakdown is thinner than either side of the novel's political conflict wants to admit.",
+    "closing_note": "The novel's dual resolution -- political accommodation between Earth and the Alphane clans, alongside the Rittersdorfs' personal reckoning -- refuses to grant either 'normal' Earth society or the clans' unconventional civilization uncomplicated moral superiority over the other."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +81,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass)."
 }

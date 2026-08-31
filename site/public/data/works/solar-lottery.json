@@ -43,13 +43,46 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "novel structured around a volatile power struggle triggered by a randomized transfer of the highest political office",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "A novel by Philip K. Dick.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Ted Benteley",
+        "role": "protagonist",
+        "note": "An engineer who quits his position in protest of his employer's corruption and is drawn into the power struggle surrounding the randomized Quizmaster office."
+      },
+      {
+        "name": "Reese Verrick",
+        "role": "outgoing Quizmaster",
+        "note": "The most powerful office-holder in human space, whose loss of the randomized lottery triggers the novel's central power struggle."
+      },
+      {
+        "name": "Cartwright",
+        "role": "rival power broker",
+        "note": "Verrick's powerful rival, maneuvering to control or influence the outcome of the randomized transfer of power."
+      },
+      {
+        "name": "Preston",
+        "role": "religious mystic",
+        "note": "Pursues a legendary hidden Tenth Planet believed to hold answers about humanity's destiny, running as a parallel plotline to the central political struggle."
+      }
+    ],
+    "settings": [
+      {
+        "name": "A future human-space society governed by the Quizmaster lottery",
+        "note": "A political system designed to prevent lasting consolidation of power through literal randomization of its highest office, overlaid on a quasi-feudal economic structure of binding employment 'bottle' contracts."
+      }
+    ],
+    "motifs": [
+      "Randomization as a political mechanism designed to neutralize the concentration of power, and its practical failure to actually do so",
+      "Game theory (the Minimax strategy system) applied directly to political assassination and strategic conflict",
+      "Quasi-feudal economic bondage (the 'bottle' contract) coexisting with a nominally randomized, anti-authoritarian political system",
+      "A parallel mystical or religious quest (the Tenth Planet) running alongside the novel's political power struggle"
+    ],
+    "significance": "Solar Lottery was Dick's first published novel and one of the clearest early statements of his lifelong interest in the instability of political and economic power structures, using literal randomization as a thought experiment about whether any system can truly prevent the human hunger for control from reasserting itself. Its game-theoretic framing of both political succession and assassination reflects period American interest in game theory and cybernetics as tools for understanding social and military strategy, and its combination of hard political maneuvering with a parallel mystical quest plot (Preston's search for the Tenth Planet) previews the blend of political and metaphysical speculation that would characterize much of Dick's mature fiction.",
+    "closing_note": "The novel's refusal to fully resolve the lottery system's legitimacy -- leaving open whether randomization can ever truly neutralize power-seeking -- registers as an early instance of Dick's characteristic distrust of clean political solutions."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -66,5 +99,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass). Dick's first published novel."
 }

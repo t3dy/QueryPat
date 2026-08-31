@@ -37,13 +37,41 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "primary"
+      "form": "public speech in three movements: self-deprecating opening, an extended meditation on the nature of reality grounded in his own fiction and pre-Socratic philosophy, and a closing argument about the authentic human",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's primary.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Philip K. Dick (speaker)",
+        "role": "narrator",
+        "note": "Moves between self-deprecating comic anecdote, serious philosophical argument, and personal anecdote about his son, treating all three registers as equally serious within the same speech."
+      },
+      {
+        "name": "Garson Poole",
+        "role": "character from Dick's own fiction, cited as example",
+        "note": "The protagonist of 'The Electric Ant,' whose discovery that his reality is recorded on editable punched tape Dick uses to illustrate the plurality and fragility of subjective reality."
+      },
+      {
+        "name": "Christopher (Dick's son)",
+        "role": "anecdotal figure",
+        "note": "His spontaneous, unprompted declaration 'I am a fisherman. I fish for fish' while playing with a fish-shaped lantern becomes Dick's clearest illustrated example of the authentic human's unmediated access to truth."
+      }
+    ],
+    "settings": [
+      {
+        "name": "The Second International Festival of Science Fiction, Metz, France, 1978",
+        "note": "The occasion of the speech's delivery, referenced directly in Dick's opening remarks about representing Disneyland to a French audience."
+      }
+    ],
+    "motifs": [
+      "Reality as plural, privately experienced, and vulnerable to deliberate manufacture by media and institutional power",
+      "The novelist's own fiction read retrospectively as unconscious philosophical or theological argument",
+      "Pre-Socratic Greek philosophy and the Christian Logos doctrine treated as continuous with, rather than separate from, science-fictional speculation about the nature of reality",
+      "Authenticity located in quiet, unheroic refusal rather than dramatic action, and found most purely in children"
+    ],
+    "significance": "This speech is one of Dick's most frequently cited and anthologized nonfiction statements, later used as the title essay of a major posthumous collection of his nonfiction writing. Its two-question framework -- 'What is reality?' and 'What constitutes the authentic human being?' -- is widely treated by scholars as the clearest single-paragraph summary Dick ever gave of his own life's work, and its extended reading of Ubik's climactic passage through pre-Socratic philosophy and the Logos doctrine offers a rare instance of Dick explicitly glossing his own fiction's theological ambitions in his own voice. The anecdote about the German translator rendering 'I am the word' as 'I am the brand name' functions as both a genuine translation error and an inadvertent illustration of exactly the kind of manufactured pseudo-reality (commercial branding overtaking scripture) the speech warns against.",
+    "closing_note": "The speech ends on a note of eschatological warmth rather than warning: if time itself is ending, the simulated animals at Disneyland will finally become real, and a real bird will sing for the first time -- a closing image that quietly reverses the speech's earlier anxiety about manufactured pseudo-realities into a hope that the authentic might ultimately break through the artificial."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -60,5 +88,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "1978",
+  "critical_caution": "This is a public speech (delivered 1978 in Metz, France) rather than fiction, read in full from the extracted source text. It is classified under lane E (Dick's own testimony/voice) in full."
 }

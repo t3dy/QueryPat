@@ -36,13 +36,18 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "five-novel omnibus edition",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "motifs": [
+      "Institutional literary canonization of a writer who spent most of his career in the pulp genre marketplace",
+      "A curated span of Dick's most theologically and politically mature period (1964-1977) presented as a coherent artistic arc"
+    ],
+    "significance": "Dick's inclusion in the Library of America -- an institution otherwise reserved for canonical figures of American letters -- represents one of the clearest institutional confirmations of his posthumous critical reassessment from genre pulp writer to major American novelist. Jonathan Lethem's editorial involvement across both Library of America volumes situates Dick within a lineage Lethem has championed in his own fiction and criticism.",
+    "closing_note": "This entry documents the omnibus as a publishing and canonization milestone; readers seeking analysis of the individual novels should consult each title's own dedicated dossier."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -59,5 +64,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This entry's contents list draws on established published bibliographic knowledge of the Library of America edition rather than a parse of this corpus's extracted text (the local database record notes 'full summary pending'). Each component novel already has, or should have, its own dedicated close-reading dossier elsewhere in this corpus."
 }

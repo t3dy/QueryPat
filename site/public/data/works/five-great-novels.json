@@ -33,13 +33,18 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "five-novel omnibus edition",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "motifs": [
+      "Perceptual unreliability and drug-induced psychosis, established from A Scanner Darkly's opening scene",
+      "Neuroscience research on divided brain hemispheres as source material for the novel's treatment of fractured identity"
+    ],
+    "significance": "A Scanner Darkly, the novel this omnibus's extracted text foregrounds, is widely regarded as one of Dick's finest achievements, drawing directly on his own experience of 1970s Southern California drug culture. Omnibus editions like this one reflect Dick's posthumous canonization, gathering multiple major novels for readers encountering his work as an established literary figure rather than as a working genre author.",
+    "closing_note": "This entry documents the omnibus as a publishing object; readers seeking analysis of A Scanner Darkly or its four companion novels should consult each novel's own dedicated dossier."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -56,5 +61,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This is a multi-novel omnibus edition; its component novels (A Scanner Darkly and others) already have their own dedicated entries elsewhere in this corpus. This entry describes the omnibus as a publishing object rather than re-reading its contents."
 }

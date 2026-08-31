@@ -35,13 +35,17 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "short stories"
+      "form": "multi-story anthology",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's short_stories.",
-    "closing_note": null
+    "motifs": [
+      "Art and culture rendered fragile, requiring extraordinary or fantastical intervention to survive an anticipated collapse"
+    ],
+    "significance": "The title story's premise -- transforming Beethoven, Mozart, and Schubert into literal living animals to save them from an imagined coming dark age -- is a distinctive early expression of Dick's recurring concern with the fragility and endangerment of cultural and artistic value, later echoed in different registers throughout his career.",
+    "closing_note": "This entry documents the anthology as a publishing object; readers seeking analysis of the title story should consult its own dedicated dossier ('the-preserving-machine') elsewhere in this corpus."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +62,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "The database's own catalog record for this document notes 'full summary pending'; its full table of contents was not independently established in this pass. The title story already has its own dedicated close-reading dossier elsewhere in this corpus."
 }

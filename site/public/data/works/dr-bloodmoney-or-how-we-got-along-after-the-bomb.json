@@ -35,13 +35,54 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "novel structured in two large movements -- pre-war ensemble setup and a seven-years-later post-war community -- with a large rotating ensemble cast",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Bruno Bluthgeld",
+        "role": "disgraced physicist",
+        "note": "Believes with escalating paranoid delusion that he personally causes catastrophe through the power of his own mind, living under an assumed identity after the war he may or may not have actually helped bring about."
+      },
+      {
+        "name": "Walter Dangerfield",
+        "role": "stranded astronaut, broadcaster",
+        "note": "Intended for a Mars colony mission, he becomes stranded in orbit when the war breaks out, and his ongoing satellite radio broadcasts become the post-war community's essential connection to a shared culture and to each other."
+      },
+      {
+        "name": "Hoppy Harrington",
+        "role": "phocomelus with telekinetic powers",
+        "note": "Born without limbs due to a birth defect, his growing psychic abilities and ambition to seize control of the community's broadcast lifeline make him the novel's central antagonist figure, though the novel treats his disability and marginalization with notable sympathy alongside his menace."
+      },
+      {
+        "name": "Stuart McConchie",
+        "role": "TV repairman",
+        "note": "An ordinary survivor whose small-scale post-war entrepreneurship (television repair, then general trade) tracks the community's slow, improvised reconstruction of everyday economic life."
+      }
+    ],
+    "settings": [
+      {
+        "name": "Pre-war San Francisco Bay Area",
+        "note": "The setting of the novel's first movement, establishing the ensemble cast and Bluthgeld's earlier radiation accident before the full nuclear war."
+      },
+      {
+        "name": "Post-war West Marin",
+        "note": "A scattered, low-tech survivor community seven years after the bombs, dependent on salvage, small-scale barter, and Dangerfield's satellite broadcasts for any sense of connection to a wider, ongoing civilization."
+      },
+      {
+        "name": "Dangerfield's orbiting satellite",
+        "note": "Never physically visited within the novel but constantly present as a voice -- the community's only surviving link to broadcast culture and collective identity after the war."
+      }
+    ],
+    "motifs": [
+      "Paranoid delusions of cosmic personal responsibility (Bluthgeld's belief that his mind causes catastrophe) as a mirror for real, structural catastrophe caused by ordinary human institutions",
+      "Disability and physical marginalization (Hoppy's phocomelia) paired with extraordinary psychic power, refusing easy correlation between bodily wholeness and moral or narrative centrality",
+      "A single broadcast voice sustaining an entire community's sense of shared culture and continuity after civilizational collapse",
+      "Slow, improvised, often comic reconstruction of ordinary economic and social life after catastrophe, rather than heroic rebuilding"
+    ],
+    "significance": "Dr. Bloodmoney is one of Dick's warmest and most humane post-apocalyptic novels, notable for its focus on the gradual, often wry texture of communal survival rather than on spectacle or despair. Its ensemble structure and interest in marginalized, disabled, or mentally unstable characters (Hoppy Harrington, Bruno Bluthgeld) as figures of both danger and sympathy reflects Dick's recurring refusal to map moral worth cleanly onto physical or psychological normalcy. Dangerfield's stranded-in-orbit broadcast voice, functioning as the community's connective cultural tissue, has been widely read as an early and unusually optimistic meditation on the value of shared media and narrative in sustaining social bonds after their material infrastructure has collapsed.",
+    "closing_note": "Hoppy Harrington's defeat resolves the novel's central power struggle, but the fragile, ongoing dependence on Dangerfield's failing broadcasts leaves the community's survival as an open, continuing project rather than a settled achievement."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +99,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass)."
 }

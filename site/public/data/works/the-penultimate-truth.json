@@ -35,13 +35,45 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "novel alternating between an underground protagonist discovering the deception from below and a surface-elite protagonist entangled in a murder plot from within the deception's own machinery",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Nicholas St. James",
+        "role": "protagonist, underground representative",
+        "note": "Sent to the surface on an ordinary supply errand, he becomes the novel's discoverer of the central deception: that the war his community believes it is still fighting ended years ago."
+      },
+      {
+        "name": "Joseph Adams",
+        "role": "Yance-man scriptwriter",
+        "note": "Ghostwrites the speeches of the elderly, largely inert figurehead Talbot Yancy, giving him an insider's cynical view of how the deception's propaganda machinery actually operates."
+      },
+      {
+        "name": "Talbot Yancy",
+        "role": "figurehead leader",
+        "note": "An aging, largely passive public face for the surface elite's rule, his authority entirely manufactured through scripted broadcasts rather than any genuine political power he holds himself."
+      }
+    ],
+    "settings": [
+      {
+        "name": "The underground 'ant tanks'",
+        "note": "Vast bunker communities where most of humanity has lived for over a decade, laboring under the belief that World War III continues on the surface, producing robot soldiers for a war that in fact ended years before."
+      },
+      {
+        "name": "The peaceful surface world",
+        "note": "Secretly at peace and thinly populated by an elite class of Yance-men who maintain the underground's war delusion through fabricated newsreels while living in comfort on land the underground believes to be a radioactive battlefield."
+      }
+    ],
+    "motifs": [
+      "A fabricated, endlessly prolonged war maintained through media manipulation to keep a population docile and productive",
+      "Vast class inequality disguised as shared wartime sacrifice",
+      "Robot soldiers produced in enormous, unused numbers -- labor whose entire output serves no purpose beyond the deception itself",
+      "A figurehead leader whose authority is entirely performative, scripted by anonymous functionaries rather than exercised by the man himself"
+    ],
+    "significance": "The Penultimate Truth is one of Dick's most explicit political satires, using the fabricated-war premise to comment directly on Cold War propaganda, media manipulation, and the gap between a laboring underclass and a comfortable, deception-dependent elite. Its central image -- millions living underground in a war that ended without their knowledge -- has proven one of Dick's most durable dystopian premises, echoing forward into later fiction and film about manufactured crises used for social control. The novel expands and reworks material from Dick's earlier short story 'The Defenders,' and its two-tier narrative structure (a discoverer from below, a cynical insider from within) lets the deception be exposed both as spectacle and as ordinary, unremarkable bureaucratic practice.",
+    "closing_note": "The novel's exposure of the war's end does not resolve into a clean liberation; the deception's scale and duration leave open how -- or whether -- the underground population's decades of stolen life can be redressed."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +90,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This close reading draws on established published scholarship and plot documentation for the novel rather than a full re-parse of the extracted source text in this pass."
 }

@@ -30,13 +30,18 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "letter"
+      "form": "letter collection, chronologically arranged, with prefatory bibliography",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's letters.",
-    "closing_note": null
+    "motifs": [
+      "Personal crisis (suicide attempt, drug rehabilitation) documented in real time through correspondence",
+      "Geographic relocation as a marker of a major life transition, from Northern California through Canada to Orange County"
+    ],
+    "significance": "These letters provide essential primary documentation of the most dramatic biographical rupture in Dick's adult life, immediately preceding the 1974 religious experiences that would reshape his final decade of writing.",
+    "closing_note": "The volume's span -- from the unresolved 1971 break-in through the crisis and rehabilitation that followed -- captures Dick at his most personally destabilized, just before the theological reorientation of 2-3-74."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -53,5 +58,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "1972-1973",
+  "critical_caution": "This is a curated letters volume, the largest in the Underwood Books series; publisher disclaimers on companion volumes in the same series note the letters cannot be treated as reliable reporting about third parties."
 }

@@ -35,13 +35,17 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "short stories"
+      "form": "multi-story anthology, 25+ stories",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "A short stories by Philip K. Dick.",
-    "closing_note": null
+    "motifs": [
+      "Suburban unease, technological anxiety, and reality's instability, established from the very beginning of Dick's professional career"
+    ],
+    "significance": "As Volume 1 of the definitive Underwood-Miller Collected Stories, this anthology captures Dick at the very start of his professional career writing for the science fiction magazine market, and its author's own preface offers a rare direct statement of how Dick thought about genre definition.",
+    "closing_note": "This entry documents the anthology as a publishing object; readers seeking analysis of the individual stories should consult each story's own dossier elsewhere in this corpus."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +62,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "circa 1952-1955",
+  "critical_caution": "Most of the individual stories in this volume already have their own dedicated close-reading dossiers elsewhere in this corpus. This entry describes the collection as a publishing object."
 }

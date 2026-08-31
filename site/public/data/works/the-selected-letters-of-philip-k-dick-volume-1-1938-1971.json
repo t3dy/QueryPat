@@ -30,13 +30,24 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "letter"
+      "form": "letter collection, chronologically arranged across more than three decades, with editorial introduction",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
+    "characters": [
+      {
+        "name": "James Blaylock",
+        "role": "introduction author, friend",
+        "note": "A noted fantasy author and personal friend of Dick's, providing the volume's introduction from firsthand acquaintance."
+      }
+    ],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's letters.",
-    "closing_note": null
+    "motifs": [
+      "A writer's entire early-to-mid career development traced through real-time correspondence rather than retrospective biography",
+      "The publisher's built-in caution about the unreliability of third-party claims within the letters"
+    ],
+    "significance": "As the earliest and longest-spanning volume in the series, this collection provides essential primary-source insight into Dick's personal, professional, and intellectual development from adolescence through the beginning of his most productive novel-writing period, before any of the theological reorientation of his final decade.",
+    "closing_note": "Spanning over three decades, this volume captures the full arc of Dick's formation as a writer before the biographical rupture of the early 1970s documented in the following volume."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -53,5 +64,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "1938-1971",
+  "critical_caution": "This is a curated letters volume; the publisher's own note explicitly disclaims the letters as reliable reporting about third parties."
 }

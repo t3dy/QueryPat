@@ -49,13 +49,24 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "three-novel omnibus, thematically unified rather than a continuous narrative",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
+    "characters": [
+      {
+        "name": "Horselover Fat",
+        "role": "protagonist of VALIS",
+        "note": "A Greek/German translation of 'Philip Dick,' making the novel's central figure an explicit authorial stand-in processing the 2-3-74 experiences directly."
+      }
+    ],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "motifs": [
+      "Direct autobiographical processing of the 1974 religious experience across three formally distinct approaches -- philosophical/comic (VALIS), science-fictional (The Divine Invasion), and realist-literary (Timothy Archer)",
+      "Theology and Gnosticism as live intellectual inquiry rather than settled belief, carried across all three novels"
+    ],
+    "significance": "The VALIS trilogy stands as one of the most philosophically ambitious achievements in science fiction, and its three novels' distinct formal approaches to the same underlying theological material make the trilogy a uniquely valuable case study in how Dick could rework a single body of personal experience into radically different narrative registers.",
+    "closing_note": "This entry documents the omnibus as a publishing object; readers seeking full plot detail on any of the three novels should consult each novel's own dedicated dossier."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -72,5 +83,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This entry describes the omnibus as a publishing object; each of the three component novels (VALIS, The Divine Invasion, The Transmigration of Timothy Archer) warrants, and may already have, its own dedicated close-reading dossier with full plot detail not repeated here."
 }

@@ -37,13 +37,40 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "primary"
+      "form": "43-scene screenplay adapting the plot of the novel Ubik for film, with unusually extensive parenthetical description and interpretive stage direction",
+      "chapter_count": 43,
+      "chapters": []
     },
-    "characters": [],
+    "characters": [
+      {
+        "name": "Glen Runciter",
+        "role": "protagonist's employer",
+        "note": "Head of the psi-talent security agency whose apparent death in the bombing that opens the plot drives the screenplay's central uncertainty about who is actually alive."
+      },
+      {
+        "name": "Joe Chip",
+        "role": "protagonist",
+        "note": "Runciter's employee, whose search for the reality-restoring product Ubik structures the screenplay, given, per Tim Powers's foreword, an especially considered characterization in Dick's stage directions."
+      },
+      {
+        "name": "Ella Runciter",
+        "role": "Runciter's wife",
+        "note": "Given her own considered character portrait in Dick's parenthetical stage directions, per Powers's foreword."
+      },
+      {
+        "name": "Pat Conley",
+        "role": "psi-talent team member",
+        "note": "A member of Runciter's team whose own considered characterization is noted by Powers as one of the screenplay's distinctive contributions beyond the novel's text."
+      }
+    ],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's primary.",
-    "closing_note": null
+    "motifs": [
+      "Entropic decay of reality visualized directly through the medium of film itself (degrading film stock, jerky motion, a burning frame) rather than only through prose description",
+      "Advertising and commercial jingles as direct narrative intrusions rather than framing devices",
+      "Extensive interpretive stage direction giving the screenplay's characters a more directly authored psychological interiority than standard screenplay convention allows"
+    ],
+    "significance": "Ubik: The Screenplay occupies an unusual place in Dick's bibliography: written in October 1974, in the direct aftermath of his March 1974 religious experience, Tim Powers's foreword argues that its content is notably not reshaped by that experience -- Dick apparently found the novel's 1969 conception too complete a vehicle for his late-1960s concerns to comfortably absorb his mid-1970s theological preoccupations, though Powers detects a possible trace of the intervening 'in the street' period behind A Scanner Darkly in one of Joe Chip's added lines about the universe being able to 'think up far worse things than your own mind.' Because Dick included far more interpretive stage direction and character psychology than a standard screenplay would call for, Powers suggests the text sometimes reads as a purer, more direct version of the novel's original conception than the published novel itself -- making it a valuable comparative document for tracing how Dick understood his own most acclaimed novel's characters and themes a few years after writing it.",
+    "closing_note": "The screenplay was never produced as a film; its value, per Powers's foreword, lies in offering readers 'a seat...several rows closer to the stage' of Ubik's events and characters than the novel itself provides, regardless of whether the film was ever made."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -60,5 +87,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "October 1974",
+  "critical_caution": "This close reading draws on the extracted source text's foreword (by Tim Powers) and front matter rather than a full scene-by-scene parse of the 43-scene screenplay itself; the underlying plot (Runciter's team, the bombing, Ubik) is the same as the novel Ubik and is not re-summarized in full detail here."
 }

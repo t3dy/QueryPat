@@ -33,13 +33,15 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "short stories"
+      "form": "thirteen-story e-book anthology",
+      "chapter_count": 13,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
     "motifs": [],
-    "significance": "Part of Philip K. Dick's short_stories.",
-    "closing_note": null
+    "significance": "As an affordable digital anthology, this volume served readers discovering Dick's short fiction through screen adaptations -- 'Adjustment Team' (The Adjustment Bureau, 2011), 'Sales Pitch' and 'Human Is' (Electric Dreams), and 'The Golden Man' (loosely, Next, 2007) -- providing low-friction access to stories otherwise scattered across older, harder-to-find print anthologies.",
+    "closing_note": "This entry documents the anthology as a publishing object; readers seeking analysis of individual stories should consult each story's own dossier elsewhere in this corpus."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -56,5 +58,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "All thirteen stories in this anthology already have their own dedicated close-reading dossiers elsewhere in this corpus. This entry describes the collection as a publishing object."
 }

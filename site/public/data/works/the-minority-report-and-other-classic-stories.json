@@ -35,13 +35,18 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "short stories"
+      "form": "multi-story anthology",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "A short stories by Philip K. Dick.",
-    "closing_note": null
+    "motifs": [
+      "Precognition and predictive justice systems, most famously in the title story",
+      "Domestic and bureaucratic settings destabilized by encroaching technological control"
+    ],
+    "significance": "James Tiptree, Jr.'s introduction -- itself written by one of science fiction's most celebrated writers -- offers a valuable secondary-source characterization of what makes Dick's fiction distinctively strange, and the volume's title story's film adaptation is one of the most commercially successful Dick adaptations to date.",
+    "closing_note": "This entry documents the anthology as a publishing object; readers seeking analysis of the individual stories, including 'The Minority Report' itself, should consult each story's own dossier."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +63,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "circa 1954-1964",
+  "critical_caution": "Most of the individual stories in this volume already have their own dedicated close-reading dossiers elsewhere in this corpus. This entry describes the collection as a publishing object."
 }

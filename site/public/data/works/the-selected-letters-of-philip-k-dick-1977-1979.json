@@ -30,13 +30,24 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "letter"
+      "form": "letter collection, chronologically arranged, with editorial introduction",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
+    "characters": [
+      {
+        "name": "Robert Anton Wilson",
+        "role": "introduction author",
+        "note": "Author of the Illuminatus! trilogy, sharing Dick's interest in conspiracy, paranoia, and the nature of consciousness; his introduction situates the letters within that shared intellectual territory."
+      }
+    ],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's letters.",
-    "closing_note": null
+    "motifs": [
+      "Sustained metaphysical correspondence running in parallel with the Exegesis's private development",
+      "A trusted interlocutor (Wilson) whose own work shared Dick's preoccupations with conspiracy and alternate realities"
+    ],
+    "significance": "This volume captures Dick's voice during a period of peak theological productivity, and two of its individual letters -- to Eugene Warren about Star Wars, and to psychologist Julian Jaynes about his bicameral-mind theory -- are treated as dedicated primary sources elsewhere in this corpus.",
+    "closing_note": "As with other volumes in the series, the letters here should be read as Dick's own perspective and interpretation rather than as verified fact about the people and events he describes."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -53,5 +64,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "1977-1979",
+  "critical_caution": "This is a curated letters volume; two of its individual letters (Letter on Star Wars, Letter to Julian Jaynes) already have their own dedicated close-reading dossiers elsewhere in this corpus, drawn from this same period."
 }

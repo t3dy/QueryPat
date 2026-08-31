@@ -35,13 +35,40 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "novel intercutting a long solo interstellar voyage with escalating corporate/political intrigue on Earth over the true nature of an advertised colony world",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Rachmael ben Applebaum",
+        "role": "protagonist",
+        "note": "Heir to a slower-than-light passenger line ruined by the teleportation monopoly, he undertakes a solo eighteen-year voyage specifically to independently verify what one-way teleported emigrants have no means of reporting back to Earth."
+      },
+      {
+        "name": "Trails of Hoffman Limited",
+        "role": "corporate antagonist",
+        "note": "The teleportation monopoly whose advertised colonial paradise conceals the true, hostile nature of Whale's Mouth, and whose leadership works to suppress any possibility of independent verification."
+      }
+    ],
+    "settings": [
+      {
+        "name": "Overcrowded Earth",
+        "note": "A dystopian home world whose population crisis makes emigration to Whale's Mouth appear to be humanity's best available option, regardless of the unverifiable risk."
+      },
+      {
+        "name": "Whale's Mouth",
+        "note": "The advertised colony world, reachable only by one-way teleportation, ultimately revealed to be under hostile alien control rather than the idyllic new home depicted in Trails of Hoffman's propaganda."
+      }
+    ],
+    "motifs": [
+      "One-way technology (teleportation with no return trip) as a mechanism for total informational control over what is actually true about a destination",
+      "Corporate monopoly power entangled with, and potentially complicit in, actively hostile geopolitical or extraterrestrial interests",
+      "Slow, verifiable truth (Rachmael's conventional voyage) pitted against fast, unverifiable convenience (instantaneous teleportation) as competing epistemological strategies",
+      "Advertising and propaganda functioning as a literal life-or-death deception rather than mere commercial exaggeration"
+    ],
+    "significance": "Lies, Inc. is Dick's own 1984 expansion of his 1966 novel The Unteleported Man, and the two versions are frequently studied together as a case study in Dick's revision practices late in his career. The novel's central device -- a one-way, unverifiable teleportation link exploited to conceal a hostile reality from an eager, credulous population -- is one of Dick's most direct science-fictional metaphors for propaganda and corporate-state collusion, anticipating later fiction and film about advertised utopias concealing genuine danger. Rachmael's decision to take the slow, verifiable path specifically to preserve the possibility of independent truth-telling gives the novel an unusually explicit epistemological argument: that some truths are worth the enormous cost of confirming firsthand rather than trusting to convenience.",
+    "closing_note": "The revelation that Whale's Mouth serves a hostile alien occupation recasts the entire emigration program not as a well-intentioned failure but as an active, ongoing betrayal -- one Rachmael's decade-plus voyage was undertaken specifically to expose."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +85,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This close reading draws on established published scholarship and plot documentation for the novel rather than a full re-parse of the extracted source text in this pass. Lies, Inc. is an expanded 1984 rewrite of Dick's 1966 novel The Unteleported Man; the two share protagonist, premise, and much plot material, and this dossier treats them as closely related but distinct entries."
 }

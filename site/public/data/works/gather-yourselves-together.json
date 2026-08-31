@@ -35,13 +35,41 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "mainstream literary novel set almost entirely within a single isolated compound during its final days before a political handover",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Carl Fitter",
+        "role": "protagonist",
+        "note": "An older American employee of the compound whose relationship with the much younger Barbara Mahler forms the novel's central interpersonal tension during the compound's final days."
+      },
+      {
+        "name": "Verne Tildon",
+        "role": "secondary protagonist",
+        "note": "A younger American colleague whose presence completes the compound's isolated trio during the handover period."
+      },
+      {
+        "name": "Barbara Mahler",
+        "role": "central female character",
+        "note": "A young woman whose relationship with the older Carl Fitter, developed in the compound's final isolated days, is treated by the novel with unusual directness for Dick's early fiction."
+      }
+    ],
+    "settings": [
+      {
+        "name": "An American industrial compound in China",
+        "note": "Set during the final days before the Chinese Communist government's takeover at the close of the civil war period, its emptying-out of ordinary institutional life and purpose functions as the novel's central pressure chamber for its characters' interior lives."
+      }
+    ],
+    "motifs": [
+      "A liminal, about-to-be-abandoned institutional space as a pressure chamber that surfaces suppressed interpersonal tension once ordinary routine dissolves",
+      "Political upheaval kept largely offstage in favor of close, intimate focus on a small isolated cast",
+      "A generationally uneven relationship treated with unusual directness rather than moralized or softened",
+      "Dispersal and uncertainty rather than resolution as the novel's closing note"
+    ],
+    "significance": "Gather Yourselves Together is one of Dick's earliest surviving novel manuscripts, written in the early 1950s during his sustained but ultimately unsuccessful effort to break into mainstream literary fiction before turning primarily to genre science fiction for his living. Unpublished until 1994, over a decade after his death, it offers scholars a rare view of Dick's prose and thematic concerns before his voice had been shaped by pulp science fiction markets, and its focus on a small cast under interpersonal pressure in an isolated, dissolving institutional setting anticipates the character-driven, claustrophobic domestic dramas of his later mainstream novels like Confessions of a Crap Artist.",
+    "closing_note": "The novel's refusal to resolve either the political handover or its characters' personal entanglements into a clean ending reflects an early instance of Dick's recurring preference for unresolved, open-ended conclusions over tidy narrative closure."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +86,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "circa 1949-1952",
+  "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass). One of Dick's earliest surviving novel manuscripts, written around 1949-1952 and not published until after his death."
 }

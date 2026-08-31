@@ -35,13 +35,19 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "short stories"
+      "form": "ten-story anthology, each story preceded by a screenwriter/producer introduction",
+      "chapter_count": 10,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's short_stories.",
-    "closing_note": null
+    "motifs": [
+      "Suburban and domestic reality's instability under technological or bureaucratic pressure",
+      "Cold War-era paranoia and loyalty anxiety",
+      "The question of authentic humanity under conditions of automation or surveillance"
+    ],
+    "significance": "As a screen-adaptation tie-in volume, Electric Dreams functions as both a companion to the television series and an accessible entry point into Dick's short fiction, and its paired introductions -- each screenwriter reflecting on adapting a specific story -- offer a useful secondary-source window into how contemporary television writers read and reworked Dick's mid-century concerns for a 2010s audience. Each of the ten stories collected here has its own dedicated close-reading dossier elsewhere in this corpus (autofac, the-commuter, the-hanging-stranger, the-hood-maker, foster-you-re-dead, human-is, the-father-thing, the-impossible-planet, exhibit-piece, sales-pitch).",
+    "closing_note": "This entry documents the anthology as a publishing and adaptation artifact; readers seeking analysis of the individual stories should consult each story's own dossier."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +64,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This is a tie-in anthology reprinting ten previously published Dick stories, each of which already has its own dedicated close-reading dossier in this corpus; this entry describes the collection as a publishing object rather than re-reading its contents."
 }

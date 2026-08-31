@@ -100,13 +100,36 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "novel structured as a physical quest/pilgrimage across a post-nuclear wasteland to find and depict a living deity-by-designation",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Tibor McMasters",
+        "role": "protagonist, limbless artist",
+        "note": "Uses prosthetic mechanical arms mounted on an ox-drawn cart to paint, and is commissioned by his church to find and depict the living god-by-designation Carleton Lufteufel."
+      },
+      {
+        "name": "Carleton Lufteufel",
+        "role": "the Deus Irae",
+        "note": "The scientist responsible for the weapon that devastated civilization, now venerated by the Servants of Wrath as a wrathful god, whose actual living identity and fate remain uncertain throughout Tibor's search."
+      }
+    ],
+    "settings": [
+      {
+        "name": "The post-nuclear wasteland",
+        "note": "An irradiated landscape populated by mutated survivors and competing religious factions, across which Tibor's pilgrimage takes him in search of Lufteufel."
+      }
+    ],
+    "motifs": [
+      "The scientist responsible for civilizational catastrophe venerated as a literal wrathful god, collapsing the distinction between historical culpability and religious authority",
+      "Physical disability paired with artistic vocation, echoing Dick's recurring interest in marginalized bodies possessing unexpected creative or spiritual authority",
+      "A quest to find and authentically depict a living deity, testing whether any single account of a mythologized figure can be considered reliable",
+      "Competing post-catastrophe religions (the Servants of Wrath and a surviving Christian church) as rival, unresolved claims on ultimate meaning"
+    ],
+    "significance": "Deus Irae is the product of a collaboration Dick himself described at length in interviews as spanning roughly twelve years with Roger Zelazny, begun after Dick concluded he lacked the theological grounding to finish the book alone -- a gap he says he closed with two years of dedicated research before completing his next theological novel. Its premise, elevating a weapons scientist to the status of a literal wrathful deity, is one of Dick's most direct post-nuclear theological satires, using the physically disabled artist-pilgrim Tibor as a figure whose creative vocation and religious devotion persist despite -- or because of -- his marginalized body, a pattern that recurs across Dick's fiction wherever disability and spiritual or creative authority intersect.",
+    "closing_note": "The novel's refusal to settle definitively whether Tibor has actually found Lufteufel leaves the reliability of the entire post-nuclear religious cult -- and the authenticity of any icon built on its founding myth -- permanently in question."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -123,5 +146,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass). Co-written with Roger Zelazny over a twelve-year collaboration Dick describes at length in The Mainstream That Through the Ghetto Flows interview; attribution of specific passages between the two authors is not attempted here."
 }

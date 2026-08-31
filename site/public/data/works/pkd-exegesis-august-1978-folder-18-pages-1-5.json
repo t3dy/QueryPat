@@ -30,13 +30,15 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "primary"
+      "form": "manuscript pages, no digital text layer recovered",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
     "motifs": [],
-    "significance": "Part of Philip K. Dick's primary.",
-    "closing_note": null
+    "significance": "As an unpublished, untranscribed portion of Dick's mid-period Exegesis, this folder would be of considerable scholarly value if and when its content becomes accessible -- the published Exegesis represents only a curated selection of the full manuscript, and unpublished mid-1978 material could add to scholars' understanding of how Dick's metaphysical framework developed between the initial 2-3-74 experiences and his later, more systematic statements like Cosmogony and Cosmology.",
+    "closing_note": "This entry registers the document's archival position honestly rather than claiming knowledge of content that has not been recovered from this corpus; a future OCR or manual transcription pass would be needed before a genuine close reading could replace this placeholder."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -53,5 +55,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "August 1978",
+  "critical_caution": "No OCR text layer exists for this document at all (extraction_status: failed in the documents table) -- these are scanned manuscript images with no digital text to read. This entry describes the document's known context (folder, date, archival position) rather than any content, which cannot currently be recovered from this corpus."
 }

@@ -44,13 +44,41 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "novel narrated in alternation between Nicholas Brady's experience of contact and a fictionalized 'Philip' who chronicles and interprets it, set against an escalating authoritarian political crisis",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Nicholas Brady",
+        "role": "protagonist",
+        "note": "A science fiction writer who begins receiving communications from the satellite intelligence VALIS, including information he has no ordinary way of knowing, and is eventually arrested and killed as a suspected subversive after acting on its guidance."
+      },
+      {
+        "name": "Philip",
+        "role": "narrator, chronicler",
+        "note": "A thinly fictionalized version of Dick himself, a struggling science fiction writer who documents and increasingly comes to believe Nicholas's experience of contact."
+      },
+      {
+        "name": "Ferris F. Fremont",
+        "role": "authoritarian president",
+        "note": "The novel's fictional American president, whose government grows increasingly repressive and paranoid, hunting dissidents through surveillance and disinformation that frames ordinary opposition as un-American subversion."
+      }
+    ],
+    "settings": [
+      {
+        "name": "An alternate, increasingly authoritarian United States",
+        "note": "Ruled by President Ferris F. Fremont's expanding surveillance and disinformation apparatus, providing the political backdrop against which Nicholas's contact experience and eventual resistance play out."
+      }
+    ],
+    "motifs": [
+      "Direct, verifiable communication from an ambiguous divine, extraterrestrial, or delusional source, tested against concrete real-world outcomes (the birth-defect diagnosis)",
+      "Authoritarian political paranoia that frames genuine information and resistance as subversive delusion, deliberately blurring which side is actually unreliable",
+      "A chronicler-narrator whose sympathetic but uncertain interpretation of events refuses to resolve whether the central experience is genuinely transcendent or simply tragic",
+      "Autobiographical self-insertion (the character Philip) as a direct authorial stand-in processing Dick's own 1974 religious experience"
+    ],
+    "significance": "Radio Free Albemuth is Dick's first attempt to fictionalize his 1974 religious/visionary experience, written in 1976 and rejected by his publisher, who asked for a substantially different book -- the rejection that led Dick to write VALIS instead, reworking much of the same autobiographical and theological material into a different narrative frame. Published posthumously in 1985, the novel is frequently studied alongside VALIS as a comparative case study in how Dick's treatment of the same core experience shifted between drafts: Radio Free Albemuth splits the autobiographical material between two characters (Nicholas and Philip) rather than fusing them into VALIS's single unstable narrator, and frames the theological material more explicitly through an authoritarian political allegory targeting the Nixon-era surveillance state.",
+    "closing_note": "Philip's final uncertainty about whether Nicholas was a genuine instrument of transcendent contact or a delusional casualty of political paranoia leaves the novel's central theological question as open as Dick's own lifelong ambivalence about the nature of his 1974 experience."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -67,5 +95,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "1976",
+  "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass). Written in 1976 as an early, rejected treatment of the 2-3-74 material Dick later reworked into VALIS; the two novels share substantial autobiographical and theological content but differ in narrative frame and ending."
 }

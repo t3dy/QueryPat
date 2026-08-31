@@ -30,13 +30,18 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "primary"
+      "form": "a single sentence of epistolary critical comment, quoted secondhand in a later profile of Dick",
+      "chapter_count": 0,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "A primary by Philip K. Dick.",
-    "closing_note": null
+    "motifs": [
+      "Institutional or authoritarian obedience ('Believe! Work! Die!') identified and rejected as a novel's implicit ideological message",
+      "Terse, sardonic compression of a critique into a parodic three-word slogan"
+    ],
+    "significance": "Brief as it is, this remark is a clear, quotable data point for Dick's lifelong suspicion of narratives that ask their audience to submit to institutional or hierarchical authority without question -- the same suspicion that runs through his fiction's recurring interest in ordinary people who refuse compliance with corrupt or oppressive systems. Its appearance in a secondary profile rather than as a preserved standalone document means the full context of the original letter -- what prompted it, whether Time published it, and what else it may have said -- is not established by the evidence available in this corpus.",
+    "closing_note": "The line is preserved only as a quotation inside a later piece of Dick scholarship; no primary copy of the original letter to Time has been located in this corpus."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -53,5 +58,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This is not a standalone review essay but a single sentence of critical comment, quoted secondhand in a profile of Dick (found in the local corpus at DOC_ARCH_OCEANOFPDF_COM_THE_LAST_INTERVIEW_AND_OT.md) attributing it to a letter Dick wrote to Time magazine. The letter's full text, exact date, and whether it was published are not established from this evidence pass; treat the quoted line as the entirety of directly verified content for this entry."
 }

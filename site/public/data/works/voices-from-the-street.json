@@ -35,13 +35,36 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "mainstream literary novel of psychological and domestic disintegration in 1950s suburban California",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Stuart Hadley",
+        "role": "protagonist",
+        "note": "A television-and-appliance salesman whose suffocation under 1950s consumer conformity and domestic obligation drives a series of failed attempted escapes, ending in unresolved personal disintegration."
+      },
+      {
+        "name": "The cult leader",
+        "role": "religious/community figure",
+        "note": "A charismatic Black religious sect leader whose alternative community and belief system briefly offers Hadley a path outside the conformist consumer culture he feels trapped by."
+      }
+    ],
+    "settings": [
+      {
+        "name": "1950s suburban Bay Area California",
+        "note": "Rendered through the specific milieu of an electronics and appliance store, grounding the novel's psychological crisis in the period's consumer-culture conformity and domestic expectation."
+      }
+    ],
+    "motifs": [
+      "Suffocation under consumer-culture conformity and domestic obligation as a source of existential crisis rather than material lack",
+      "Religious or communal alternatives to mainstream society offering only partial, ultimately unresolved escape",
+      "Marital and professional disintegration narrated with unusually dense psychological interiority for Dick's early work",
+      "A search for meaning that fails to resolve into either genuine liberation or stable return to normalcy"
+    ],
+    "significance": "Voices from the Street is Dick's longest and most autobiographically direct mainstream novel, drawing closely on his own experience working in Bay Area electronics retail before his writing career took hold, and remained unpublished for twenty-five years after his death until its 2007 release. Its unusually dense psychological interiority and its refusal to resolve Hadley's crisis into either redemption or genuine escape mark it as one of the clearest statements of Dick's 1950s ambition to be taken seriously as a literary novelist of suburban American consumer alienation, an ambition that found only one lifetime publication (Confessions of a Crap Artist) before Dick redirected his primary energy toward science fiction.",
+    "closing_note": "Hadley's unresolved drift at the novel's close, neither liberated nor genuinely reconciled to his former life, reflects Dick's characteristic reluctance to grant his characters clean redemptive arcs even in his most directly autobiographical work."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +81,7 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "written": "1952-1953",
+  "critical_caution": "This close reading draws on established published scholarship and widely documented plot knowledge of the novel rather than a full parse of source text in the local corpus (no extracted markdown file for this novel was found in this pass). Dick's longest and most autobiographically direct mainstream novel, written in 1952-1953 and not published until 2007, twenty-five years after his death."
 }

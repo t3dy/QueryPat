@@ -35,13 +35,41 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "novel"
+      "form": "novel with a large ensemble cast, alternating between human resistance/collaboration plots and Ganymedean administrative and political maneuvering",
+      "chapter_count": 0,
+      "chapters": []
     },
-    "characters": [],
-    "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's novels.",
-    "closing_note": null
+    "characters": [
+      {
+        "name": "Percy X",
+        "role": "resistance leader",
+        "note": "A militant Black separatist figure whose movement operates as one of several competing human factions responding to occupation, reflecting the novel's 1960s American racial-politics context."
+      },
+      {
+        "name": "Dr. Balkani",
+        "role": "psychiatrist",
+        "note": "Inventor of a machine capable of directly altering personality and belief, whose device becomes the object of competing schemes by both human and Ganymedean factions."
+      },
+      {
+        "name": "The Ganymedean administrators",
+        "role": "occupying authority",
+        "note": "Rule through telepathic-propaganda broadcast and bureaucratic administration rather than overt military force, and are shown to be as internally fractured and self-serving as the humans they govern."
+      }
+    ],
+    "settings": [
+      {
+        "name": "Occupied Tennessee",
+        "note": "The novel's primary setting, rendered as an ordinary American region under an alien bureaucratic occupation that has become a mundane, if oppressive, fact of daily life rather than an active war zone."
+      }
+    ],
+    "motifs": [
+      "Occupation maintained through bureaucracy and propaganda rather than continuous overt force",
+      "Competing factions on both sides of a conflict whose internal self-interest undermines any coherent strategy",
+      "A technology capable of directly rewriting belief or personality, coveted precisely because it could resolve the conflict by force rather than persuasion",
+      "Anticlimax as political critique -- the occupation ends through institutional dysfunction rather than heroic resolution"
+    ],
+    "significance": "The Ganymede Takeover, co-written with Ray Nelson, is one of Dick's most direct engagements with contemporary American racial politics, using Percy X's separatist movement to refract 1960s Black nationalist politics through a science-fictional occupation narrative. Its portrayal of alien rule as bureaucratically banal rather than dramatically totalitarian anticipates Dick's more famous occupation narrative in The Man in the High Castle, while its anticlimactic ending -- collapse through internal dysfunction rather than triumphant resistance -- reflects a recurring Dick skepticism toward clean political victories on either side of any conflict.",
+    "closing_note": "The novel's refusal to grant either the occupiers or the resistance a clean victory positions bureaucratic self-interest, rather than ideology or heroism, as the actual engine of political history."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -58,5 +86,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This close reading draws on established published scholarship and plot documentation for the novel rather than a full re-parse of the extracted source text in this pass. Co-written with Ray Nelson; attribution of specific passages between the two authors is not attempted here."
 }

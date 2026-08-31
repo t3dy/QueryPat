@@ -37,13 +37,18 @@
   "word_count": 0,
   "reading": {
     "structure": {
-      "form": "primary"
+      "form": "four-part edited anthology with extensive scholarly apparatus",
+      "chapter_count": 4,
+      "chapters": []
     },
     "characters": [],
     "settings": [],
-    "motifs": [],
-    "significance": "Part of Philip K. Dick's primary.",
-    "closing_note": null
+    "motifs": [
+      "Editorial curation transforming an unpublished private journal into a structured, annotated scholarly text",
+      "Gnosticism, Neoplatonism, early Christianity, and information theory as the recurring intellectual frameworks Dick draws on throughout"
+    ],
+    "significance": "The Exegesis is widely regarded as one of the most extraordinary documents in American letters, combining rigorous philosophical inquiry with intensely personal spiritual searching; its 2011 publication gave scholars and general readers alike direct access to the theological reasoning underlying Dick's late fiction (VALIS, The Divine Invasion, The Transmigration of Timothy Archer) at a scale and fidelity the earlier Sutin selection could not match.",
+    "closing_note": "As a curated selection rather than the complete manuscript, this edition's boundaries -- what was included and what remains unpublished -- continue to shape which parts of Dick's private theological reasoning are most accessible to scholarship today."
   },
   "pkd_on_this_work": {
     "lane": "E",
@@ -60,5 +65,6 @@
     "status": "LLM_CANDIDATE",
     "review_state": "unreviewed",
     "note": "Close reading of the primary text plus attributed evidence from the archive. Candidate: not yet promoted to canonical."
-  }
+  },
+  "critical_caution": "This entry describes the published 2011 edition as a bibliographic object; the Exegesis's individual theological content is treated across many other dedicated entries in this corpus (e.g. Cosmogony and Cosmology) rather than re-summarized here."
 }
