@@ -3,27 +3,38 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-philip-k-dick-reader",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is a general-audience anthology distinct from the completist Underwood-Miller Collected Stories; most of its individual stories already have their own dedicated close-reading dossiers elsewhere in this corpus. This entry describes the anthology as a publishing object.",
  "work": {
   "title": "The Philip K. Dick Reader",
   "slug": "the-philip-k-dick-reader",
-  "form": "short stories",
+  "form": "short story anthology",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "1997 (505 pages)",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_ids DOC_ARCH_OCEANOFPDF_COM_THE_PHILIP_K_DIC and DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK (duplicate editions)"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Philip K. Dick Reader is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "Published posthumously in 1997 at 505 pages, this anthology opens with 'Fair Game,' in which an exhausted Colorado professor's ordinary domestic evening is disrupted by hints of government research -- a characteristic Dickian move of beginning with a mundane, recognizable scene before introducing destabilizing elements. Designed as a more curated, general-audience entry point than the completist Underwood-Miller Collected Stories, the volume's back cover quotes The Wall Street Journal praising Dick's distinctive ability to put readers inside his characters' consciousness, reflecting the growing critical reputation that followed his death in 1982.",
   "structure": {
-   "form": "short stories"
+   "form": "curated multi-story anthology",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's short_stories."
+  "motifs": [
+   "Suburban alienation and altered perception as recurring entry points across the selected stories",
+   "The tension between domestic comfort and cosmic or institutional upheaval"
+  ],
+  "significance": "As a reader-friendly rather than completist selection, this anthology was designed to introduce Dick's short fiction to the expanding general audience discovering his work through film adaptations and posthumous critical reassessment, rather than to serve specialist collectors.",
+  "closing_note": "This entry documents the anthology as a publishing object; readers seeking analysis of individual stories, including 'Fair Game,' should consult each story's own dossier elsewhere in this corpus."
  },
  "concepts": {
   "distinctive_terms": []

@@ -3,27 +3,35 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-jungle-people",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "No OCR text layer is present for this 2-page scanned juvenile publication; its actual content cannot be reported. Dick was approximately thirteen years old when it was published.",
  "work": {
   "title": "The Jungle People",
   "slug": "the-jungle-people",
-  "form": "short stories",
+  "form": "short story (juvenilia)",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Berkeley Daily Gazette, February 17, 1942",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_THEJUNGLEPEOPLEBYPHILIPK_DICKBE; 2 scanned pages, no OCR text layer."
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Jungle People is a work by Philip K. Dick exploring themes central to his science fiction.",
+  "synopsis": "This is among the earliest known published writings by Philip K. Dick, printed in his local Berkeley newspaper when he was approximately thirteen years old. No OCR text layer exists in this corpus, so the story's actual content cannot be reported; its established significance is biographical rather than textual, documenting Dick's precocious early entry into published writing years before his professional science fiction career.",
   "structure": {
-   "form": "short stories"
+   "form": "short piece, juvenile publication, no digital text layer recovered",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
   "motifs": [],
-  "significance": "A short stories by Philip K. Dick."
+  "significance": "As one of the rarest items in Dick bibliography, this juvenile publication is of considerable biographical interest as evidence of his earliest creative development, though its specific content awaits direct examination of the scanned pages.",
+  "closing_note": "This entry registers the document's biographical significance honestly rather than claiming knowledge of story content not recoverable from this corpus."
  },
  "concepts": {
   "distinctive_terms": []

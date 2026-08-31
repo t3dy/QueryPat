@@ -3,27 +3,38 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-exegesis-of-philip-k-dick",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This entry describes the published 2011 edition as a bibliographic object; the Exegesis's individual theological content is treated across many other dedicated entries in this corpus (e.g. Cosmogony and Cosmology) rather than re-summarized here.",
  "work": {
   "title": "The Exegesis of Philip K. Dick",
   "slug": "the-exegesis-of-philip-k-dick",
-  "form": "primary",
+  "form": "edited journal (published edition)",
   "word_count": 0,
-  "lane": "A"
+  "lane": "E",
+  "first_publication": "Houghton Mifflin Harcourt, 2011 (ed. Pamela Jackson and Jonathan Lethem, annotations by Erik Davis, afterword by Richard Doyle)",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_ids DOC_ARCH_OCEANOFPDF_COM_THE_EXEGESIS_OF_ and DOC_ARCH_THE_EXEGESIS_OF_PHILIP_K_DICK_D (duplicate editions)"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Exegesis of Philip K. Dick is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This landmark 2011 publication presents an edited and annotated selection from Dick's vast private philosophical journal -- an estimated 8,000 handwritten and typed pages compiled over the final eight years of his life as he attempted to understand the mystical experiences he underwent in February and March 1974 ('2-3-74'). Edited by Pamela Jackson and Jonathan Lethem, with Erik Davis as annotations editor and an afterword by Richard Doyle ('A Stairway to Eleusis: PKD, Perennial Philosopher'), the volume is organized in four parts with a glossary, names index, and works index. It superseded Lawrence Sutin's earlier 1991 selection (In Pursuit of VALIS) as the definitive published source for Dick's late metaphysical writing, though it still represents only a curated fraction of the full manuscript held at the Huntington Library.",
   "structure": {
-   "form": "primary"
+   "form": "four-part edited anthology with extensive scholarly apparatus",
+   "chapter_count": 4,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
-  "motifs": [],
-  "significance": "Part of Philip K. Dick's primary."
+  "motifs": [
+   "Editorial curation transforming an unpublished private journal into a structured, annotated scholarly text",
+   "Gnosticism, Neoplatonism, early Christianity, and information theory as the recurring intellectual frameworks Dick draws on throughout"
+  ],
+  "significance": "The Exegesis is widely regarded as one of the most extraordinary documents in American letters, combining rigorous philosophical inquiry with intensely personal spiritual searching; its 2011 publication gave scholars and general readers alike direct access to the theological reasoning underlying Dick's late fiction (VALIS, The Divine Invasion, The Transmigration of Timothy Archer) at a scale and fidelity the earlier Sutin selection could not match.",
+  "closing_note": "As a curated selection rather than the complete manuscript, this edition's boundaries -- what was included and what remains unpublished -- continue to shape which parts of Dick's private theological reasoning are most accessible to scholarship today."
  },
  "concepts": {
   "distinctive_terms": []

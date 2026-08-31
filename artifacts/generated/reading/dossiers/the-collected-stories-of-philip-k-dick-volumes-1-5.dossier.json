@@ -3,27 +3,35 @@
  "artifact_type": "work_dossier",
  "schema_version": "1.0",
  "source_id": "the-collected-stories-of-philip-k-dick-volumes-1-5",
- "generated_by": "auto_dossier_generator",
+ "generated_by": "reading_notes_agent",
  "status": "LLM_CANDIDATE",
  "review_state": "unreviewed",
  "reading_status": "close_reading_complete",
+ "critical_caution": "This is the complete five-volume omnibus; nearly all of its individual stories already have their own dedicated close-reading dossiers elsewhere in this corpus. This entry describes the omnibus as a publishing object.",
  "work": {
   "title": "The Collected Stories of Philip K. Dick, Volumes 1-5",
   "slug": "the-collected-stories-of-philip-k-dick-volumes-1-5",
-  "form": "short stories",
+  "form": "short story omnibus (complete)",
   "word_count": 0,
-  "lane": "A"
+  "lane": "A",
+  "first_publication": "Underwood-Miller, 1987",
+  "source": {
+   "note": "database/unified.sqlite documents table, doc_id DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_ST"
+  }
  },
  "reading": {
   "reading_status": "close_reading_complete",
-  "synopsis": "The Collected Stories of Philip K. Dick, Volumes 1-5 is a significant work in Philip K. Dick's corpus.",
+  "synopsis": "This is the complete five-volume Collected Stories of Philip K. Dick in a single 2,275-page omnibus, published by Underwood-Miller in 1987 with a preface by Dick himself (drawn from a letter to John Betancourt), a foreword by Steven Owen Godersky, and an introduction by Roger Zelazny. The five volumes are Beyond Lies the Wub, Second Variety, The Father-Thing, The Days of Perky Pat, and The Little Black Box, gathering stories originally scattered across dozens of science fiction magazines throughout the 1950s and 1960s alongside several previously unpublished pieces. It stands as the definitive, most comprehensive single publication of Dick's short fiction across his entire career.",
   "structure": {
-   "form": "short stories"
+   "form": "five-volume complete-works omnibus",
+   "chapter_count": 0,
+   "chapters": []
   },
   "characters": [],
   "settings": [],
   "motifs": [],
-  "significance": "Part of Philip K. Dick's short_stories."
+  "significance": "As the most complete single gathering of Dick's short fiction ever published, this omnibus is essential for any serious study of his development as a writer, documenting the extraordinary range of speculative premises he produced across three decades of prolific magazine writing.",
+  "closing_note": "This entry documents the omnibus as a publishing object; readers seeking analysis of individual stories should consult each story's own dossier elsewhere in this corpus."
  },
  "concepts": {
   "distinctive_terms": []
