@@ -310,6 +310,51 @@ ex('BWV-EX-1981-10', 'SEG_EXEG_1981-04-16_Pat_181', S17, D81,
    F53 + ' — the cut-up method and Hagia Sophia reading Torah')
 
 
+
+# --------------------------------------------------------------------------
+# Dating. Our Exegesis records carry a single date for each container document,
+# and for section 016 that date ("October 10, 1978") is contradicted by the
+# passages themselves: six carry internal stamps from September-December 1980,
+# and the published edition independently places three of them in late 1980.
+# So dates are asserted per passage, with the evidence that supports them.
+#
+#   stamp    — a date written in the passage itself
+#   edition  — bracketed by dated entries in the published edition
+#   folder   — inferred from the archival folder's position in the edition
+#   record   — our container record, used only where nothing contradicts it
+# --------------------------------------------------------------------------
+DATING = {
+    # September 1976 — container record, no contradicting evidence
+    **{f'BWV-EX-1976-{n:02d}': ('September 1976', 'record', 'medium')
+       for n in range(1, 14)},
+
+    # Autumn 1978 — folder 20 and 21, which the edition brackets between
+    # 7 September and 18 October 1978
+    'BWV-EX-1978-01': ('Autumn 1978', 'folder', 'medium'),
+    'BWV-EX-1978-02': ('Autumn 1978', 'folder', 'medium'),
+    'BWV-EXP-19-35':  ('Autumn 1978', 'edition', 'medium'),
+    'BWV-EXP-15-100': ('1977 or 1978', 'edition', 'low'),
+
+    # Undated: nothing in the passage or the edition places them
+    'BWV-EX-1978-03': ('Date uncertain', 'record', 'low'),
+    'BWV-EX-1978-05': ('Date uncertain', 'record', 'low'),
+    'BWV-EX-1978-11': ('Date uncertain', 'record', 'low'),
+
+    # Autumn 1980 — internal stamps and the published edition agree
+    'BWV-EX-1978-04': ('August or September 1980', 'edition', 'medium'),
+    'BWV-EX-1978-06': ('10 September 1980', 'stamp', 'high'),
+    'BWV-EX-1978-07': ('September 1980', 'stamp', 'high'),
+    'BWV-EX-1978-09': ('20 October 1980', 'stamp', 'high'),
+    'BWV-EX-1978-08': ('November 1980', 'edition', 'medium'),
+    'BWV-EX-1978-10': ('November or December 1980', 'stamp', 'high'),
+
+    # April 1981
+    **{f'BWV-EX-1981-{n:02d}': ('April 1981', 'record', 'high')
+       for n in range(1, 11)},
+    'BWV-EXP-90-16A': ('1981', 'folder', 'medium'),
+}
+
+
 PUB = 'DOC_ARCH_THE_EXEGESIS_OF_PHILIP_K_DICK_DICK_PHILI'
 
 
@@ -720,6 +765,12 @@ PACKETS = [
      'Note of A Scanner Darkly to Junky. Beyond those three, the archive’s '
      'scholarship does not treat the connection.'),
 ]
+
+# Attach the dating evidence.
+for e in E:
+    dt = DATING.get(e['id'])
+    if dt:
+        e['dated'], e['dating_basis'], e['dating_confidence'] = dt
 
 # Attach the archival folder, where it can be shown, and the published folio.
 for e in E:

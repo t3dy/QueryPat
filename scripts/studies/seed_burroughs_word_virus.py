@@ -256,7 +256,7 @@ EDGE_SPACED_CAPS = re.compile(
     r'^(?:\s*\d{1,4}\s+)?(?:[A-Z]{1,2}\.?\s+){3,}[A-Z]{1,2}\.?\s*|'
     r'\s*\d{1,4}\s+(?:[A-Z]{1,2}\.?\s+){2,}[A-Z]{1,2}\.?\s*$')
 PAGE_FURNITURE = re.compile(
-    r'folder\s+\d+\s*-\s*\d+|-\d{1,3}-|'
+    r'folder\s+\d+\s*-\s*\d+|(?<=\s)-\d{1,3}-(?=\s)|'
     r'\*\*==>.*?<==\*\*|https?://\S+|'
     r'\d+ of \d+\s+\d{1,2}/\d{1,2}/\d{2,4},?\s*\d{1,2}:\d{2}\s*[AP]M|'
     r'\d{1,2}/\d{1,2}/\d{2}\s+\d{1,2}:\d{2}\s*[AP]M')
@@ -346,6 +346,9 @@ QUOTED = re.compile(
     r'“([^“”]{20,}?)”'
     r'|(?<![A-Za-z])"([^"]{20,}?)"(?![A-Za-z])')
 
+MARKDOWN = re.compile(r'[_*~]')
+STAMPS = re.compile(r'\b\d{2}-\d{4}\b|\b[A-Z]-\d{1,2}\b')
+
 DASH_CHARS = ('—', '–', '--', '‐')
 DASHES = '-'
 TYPOGRAPHY = re.compile('[“”‘’«»"\']|--|[—–‐]')
@@ -371,6 +374,10 @@ def normalise(text: str) -> str:
     # nested quotation may be re-marked when a passage is quoted inside prose;
     # dashes are levelled because transcriptions and print editions differ. The
     # words themselves, and their order, still have to match.
+    # markdown emphasis in the published edition, and the folio stamps that
+    # interrupt sentences in the folder transcriptions ("63-2013 D-6")
+    text = MARKDOWN.sub('', text)
+    text = STAMPS.sub(' ', text)
     text = TYPOGRAPHY.sub(lambda m: DASHES if m.group(0) in DASH_CHARS else '', text)
     text = re.sub(r'\s*-\s*', '-', text)
     return re.sub(r'\s+', ' ', text).strip().lower()
