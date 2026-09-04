@@ -16,3 +16,6 @@ committed so the history of what was archived, and when, survives.
 | `20260904T211431Z_burroughs-v3-citations` | 2724 | 19.6 | `b3cb7a921` | yes | burroughs-v3-citations |
 | `20260904T215651Z_burroughs-v4-corrections` | 2724 | 19.6 | `57a1f9601` | yes | burroughs-v4-corrections |
 | `20260904T221727Z_burroughs-v5-chronological` | 2724 | 19.6 | `81e5ad753` | yes | burroughs-v5-chronological |
+| `20260904T224639Z_pre-export-studies` | 2724 | 19.6 | `5898026ac` | yes | pre-export-studies |
+| `20260904T224840Z_pre-export-studies` | 2724 | 19.6 | `5898026ac` | yes | pre-export-studies |
+| `20260904T225210Z_post-card-expansion` | 2724 | 16.9 | `5898026ac` | yes | post-card-expansion |

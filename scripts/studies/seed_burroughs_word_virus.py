@@ -444,6 +444,9 @@ def collect_passages(db, inventory):
                 'pith': card['pith'],
                 'speaker': card['speaker'],
                 'editorial_note': f.get('editorial_note'),
+                'dated': f.get('dated'),
+                'dating_basis': f.get('dating_basis'),
+                'passage': excerpt,
             })
 
         rows.append((

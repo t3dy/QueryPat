@@ -20,6 +20,11 @@ export interface MentionCard {
   pith: string
   speaker: string
   editorial_note?: string | null
+  /** Date, and the evidence for it: stamp, edition, folder or record. */
+  dated?: string | null
+  dating_basis?: string | null
+  /** The verbatim windowed excerpt this card summarises. */
+  passage?: string | null
 }
 
 interface Props {
@@ -71,8 +76,33 @@ const GROUPS: { key: string; label: string; blurb: string; match: (c: MentionCar
   },
 ]
 
+/** How a card's date was arrived at, spelled out for the badge's tooltip. */
+const DATING_BASIS: Record<string, string> = {
+  dateline: 'Dated from the letter’s own dateline',
+  stamp: 'Dated from a date written on the page itself',
+  edition: 'Dated by its position among dated entries in the published edition',
+  folder: 'Dated from the archival folder’s position in the published edition',
+  record: 'Dated from our container record only — nothing in the passage confirms it',
+  publication: 'Year of publication of the secondary source, not of Dick’s remark',
+}
+
+function datingTitle(basis?: string | null): string | undefined {
+  if (!basis) return undefined
+  return DATING_BASIS[basis] ?? `Dated from the ${basis}`
+}
+
 export default function MentionCards({ cards }: Props) {
-  const [open, setOpen] = useState<string | null>(null)
+  const [openNote, setOpenNote] = useState<string | null>(null)
+  const [openPassage, setOpenPassage] = useState<Set<string>>(new Set())
+
+  function togglePassage(id: string) {
+    setOpenPassage(prev => {
+      const next = new Set(prev)
+      if (next.has(id)) next.delete(id)
+      else next.add(id)
+      return next
+    })
+  }
 
   const grouped = useMemo(
     () =>
@@ -92,7 +122,8 @@ export default function MentionCards({ cards }: Props) {
         Each card summarises the whole passage and where it sits in the work, then quotes
         the sentence it turns on. Quotations are verbatim, including the transcription
         irregularities of the source; every one is machine-checked against the underlying
-        text before it is published. Follow the link on any card to read the full entry.
+        text before it is published. Open any card to read the passage it summarises, or
+        follow the link to the full entry it was cut from.
       </p>
 
       {grouped.map(group => (
@@ -105,7 +136,8 @@ export default function MentionCards({ cards }: Props) {
 
           <div className="mention-cards">
             {group.items.map(card => {
-              const isOpen = open === card.id
+              const noteOpen = openNote === card.id
+              const passageOpen = openPassage.has(card.id)
               return (
                 <div key={card.id} id={`card-${card.id}`} className="mention-card">
                   <div className="mention-card-head">
@@ -113,6 +145,12 @@ export default function MentionCards({ cards }: Props) {
                     <span className="mention-card-cite">{card.citation}</span>
                     {card.published_folio && (
                       <span className="mention-card-folio">[{card.published_folio}]</span>
+                    )}
+                    {card.dated && (
+                      <span className="mention-card-date"
+                            title={datingTitle(card.dating_basis)}>
+                        {card.dated}
+                      </span>
                     )}
                   </div>
 
@@ -122,6 +160,21 @@ export default function MentionCards({ cards }: Props) {
                     <p>{card.pith}</p>
                     <cite>&mdash; {card.speaker}</cite>
                   </blockquote>
+
+                  {card.passage && (
+                    <div className="mention-card-passage-wrap">
+                      <button
+                        className="mention-card-passage-toggle"
+                        aria-expanded={passageOpen}
+                        onClick={() => togglePassage(card.id)}
+                      >
+                        {passageOpen ? '▲ Hide the passage' : '▼ Read the passage'}
+                      </button>
+                      {passageOpen && (
+                        <div className="mention-card-passage">{card.passage}</div>
+                      )}
+                    </div>
+                  )}
 
                   <div className="mention-card-foot">
                     {card.concepts.slice(0, 5).map(t => (
@@ -137,14 +190,14 @@ export default function MentionCards({ cards }: Props) {
                     {card.editorial_note && (
                       <button
                         className="mention-card-note-toggle"
-                        onClick={() => setOpen(isOpen ? null : card.id)}
+                        onClick={() => setOpenNote(noteOpen ? null : card.id)}
                       >
-                        {isOpen ? 'Hide editorial note' : 'Editorial note'}
+                        {noteOpen ? 'Hide editorial note' : 'Editorial note'}
                       </button>
                     )}
                   </div>
 
-                  {isOpen && card.editorial_note && (
+                  {noteOpen && card.editorial_note && (
                     <p className="mention-card-note">{card.editorial_note}</p>
                   )}
                 </div>

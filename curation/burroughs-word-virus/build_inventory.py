@@ -352,6 +352,30 @@ DATING = {
     **{f'BWV-EX-1981-{n:02d}': ('April 1981', 'record', 'high')
        for n in range(1, 11)},
     'BWV-EXP-90-16A': ('1981', 'folder', 'medium'),
+
+    # Letters — the date is the letter's own dateline, as printed in the
+    # Selected Letters volumes. These are the firmest dates in the dossier.
+    'BWV-LET-1976-01': ('12 January 1976', 'dateline', 'high'),
+    'BWV-LET-1976-02': ('12 January 1976', 'dateline', 'high'),
+    'BWV-LET-1979-01': ('5 October 1979', 'dateline', 'high'),
+    'BWV-LET-1981-01': ('20 January 1981', 'dateline', 'high'),
+    'BWV-LET-1981-02': ('20 February 1981', 'dateline', 'high'),
+    'BWV-LET-1981-03': ('23 February 1981', 'dateline', 'high'),
+    **{k: ('15 April 1981', 'dateline', 'high')
+       for k in ('BWV-LET-1981-04', 'BWV-LET-1981-05',
+                 'BWV-LET-1981-06', 'BWV-LET-1981-06B')},
+    'BWV-LET-1981-07': ('18 August 1981', 'dateline', 'high'),
+    'BWV-LET-1981-08': ('18 August 1981', 'dateline', 'high'),
+
+    # Written and delivered as a speech in 1978; the date is the essay's.
+    'BWV-ESS-1978-01': ('1978', 'dateline', 'high'),
+
+    # Secondary sources — the year is the book's, not Dick's. Shown only
+    # where the citation itself carries one; Lapoujade, Butler, Davis and
+    # the Rickman interview stay undated because ours does not.
+    **{f'BWV-SCH-SUTIN-{n:02d}': ('1989', 'publication', 'high')
+       for n in range(1, 6)},
+    'BWV-EXP-90-6A': ('2011', 'publication', 'high'),
 }
 
 
