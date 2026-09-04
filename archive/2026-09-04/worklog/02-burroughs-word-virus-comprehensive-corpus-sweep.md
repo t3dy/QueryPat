@@ -154,3 +154,38 @@ Dick read Korzybski, on which Lapoujade's argument rests.
 - `archive/2026-09-04/drafts/{burroughs-word-virus,burroughs}.v1.*.json`,
   `seed_burroughs_word_virus.v1.*.py`, each with a note on why it was superseded
 - `curation/burroughs-word-virus/raw-findings.json` (10.2 MB, regenerable)
+
+---
+
+## Addendum: per-mention cards and deployment
+
+**Instruction.** "A card for each mention of Burroughs with a summary of the contents
+of the whole passage and its context in the pkd work and a fair use quotation of the
+pith of Dick's exact verbatim writing", placed below the essay; then deploy, with a
+Burroughs tab in the main toolbar.
+
+**What was added.** 59 cards in `curation/burroughs-word-virus/mention_cards.py`, one
+per published finding, each carrying a `context` (editorial summary of the whole
+passage and where it sits in the work — register D), a `pith` (short verbatim
+quotation), and a `speaker`, so that Sutin's or Lapoujade's sentence is never mistaken
+for Dick's. Grouped on the page by sitting and source type: 1976 (13), 1978 (11), 1981
+(10), letters (11), interview and essay (2), biography and scholarship (12).
+
+**Quotation integrity.** The seeder now refuses to run unless every pith is verbatim in
+its source. `normalise()` sees through scan artifacts — soft hyphens, hyphens broken
+across line ends, interleaved running heads — so a quotation faithful to the printed
+page matches OCR that is not, while the words must still be the author's in the
+author's order. The check caught two bad quotations on first run (`BWV-LET-1979-01`
+spanning a running head, `BWV-LET-1981-01` containing a soft hyphen); both were
+corrected rather than waved through.
+
+**Fair-use posture.** Cards quote a sentence, not a passage. The longer windowed
+excerpts remain in the evidence panel, which is the provenance machinery; the cards are
+the reader-facing layer. Cumulative quotation on one page is worth watching as the
+dossier grows.
+
+**Deployment.** Committed as `12c82e2` with the pre-commit guard active (no content
+loss), pushed to `main`, GitHub Pages workflow `33918761374` succeeded. Live at
+https://t3dy.github.io/QueryPat/#/studies/intertexts/burroughs-word-virus with a
+`Burroughs` entry in the main nav. Verified on the live site: 11 sections, 59 cards,
+11 packets, 4 contradictions, segment and dictionary links returning 200.
