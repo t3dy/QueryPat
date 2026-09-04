@@ -89,7 +89,7 @@ TERM_BURROUGHS = {
     ),
     'definition': (
         "William S. Burroughs (1914–1997), read by Dick from September 1976 and named "
-        "in twenty-four Exegesis segments, eleven letters and one interview. What Dick "
+        "in thirty-eight Exegesis passages, twelve letters and one interview. What Dick "
         "takes from him is a single proposition — that language is a parasitic "
         "organism, a \"word virus\", which infects its hosts and blinds them to their "
         "own condition — together with its furniture from The Ticket That Exploded: "
@@ -115,8 +115,9 @@ TERM_BURROUGHS = {
         "1971, \"before I knew of Burroughs\". No work of his fiction mentions Burroughs "
         "at all; the Exegesis reads Ubik, The Three Stigmata of Palmer Eldritch and A "
         "Maze of Death through him retroactively. Sutin places Burroughs in Dick's "
-        "lifelong reading but gives no date, and no reference in this archive predates "
-        "January 1976."
+        "lifelong reading but gives no date, and no document in this archive mentions "
+        "Burroughs before January 1976; Dick's own dating of the observation to 1971 is "
+        "made retrospectively, in 1981."
     ),
     'see_also': ['Living Information', 'Plasmate', 'Black Iron Prison', 'King Felix',
                  'Logos', 'Valis'],
@@ -255,6 +256,7 @@ EDGE_SPACED_CAPS = re.compile(
     r'^(?:\s*\d{1,4}\s+)?(?:[A-Z]{1,2}\.?\s+){3,}[A-Z]{1,2}\.?\s*|'
     r'\s*\d{1,4}\s+(?:[A-Z]{1,2}\.?\s+){2,}[A-Z]{1,2}\.?\s*$')
 PAGE_FURNITURE = re.compile(
+    r'folder\s+\d+\s*-\s*\d+|-\d{1,3}-|'
     r'\*\*==>.*?<==\*\*|https?://\S+|'
     r'\d+ of \d+\s+\d{1,2}/\d{1,2}/\d{2,4},?\s*\d{1,2}:\d{2}\s*[AP]M|'
     r'\d{1,2}/\d{1,2}/\d{2}\s+\d{1,2}:\d{2}\s*[AP]M')
@@ -305,11 +307,48 @@ def window(text: str, anchor: str, before: int, after: int, clean=None):
     return excerpt, start, end, ctx_b, ctx_a
 
 
+def _source_corpus(db, inventory):
+    """Normalised text of every source the dossier cites, for quote checking."""
+    seg_ids, doc_ids, letter_ids = set(), set(), set()
+    for f in inventory['evidence']:
+        src = f['source']
+        if src['type'] == 'exegesis_segment':
+            seg_ids.add(src['id'])
+        elif src['type'] == 'letter':
+            letter_ids.add(src['id'])
+        elif src.get('doc_id'):
+            doc_ids.add(src['doc_id'])
+    texts = []
+    for sid in seg_ids:
+        r = db.execute("SELECT raw_text FROM segments WHERE seg_id = ?", (sid,)).fetchone()
+        if r and r[0]:
+            texts.append(normalise(r[0]))
+    for lid in letter_ids:
+        r = db.execute("SELECT body_md FROM letters WHERE letter_id = ?", (lid,)).fetchone()
+        if r and r[0]:
+            texts.append(normalise(r[0]))
+    for did in doc_ids:
+        r = db.execute("SELECT markdown_content, text_content FROM document_texts "
+                       "WHERE doc_id = ?", (did,)).fetchone()
+        if r and (r[0] or r[1]):
+            texts.append(normalise(r[0] or r[1]))
+    return texts
+
+
 def load_curation():
     inv = json.loads((CURATION / 'evidence-inventory.json').read_text(encoding='utf-8'))
     dos = json.loads((CURATION / 'dossier.json').read_text(encoding='utf-8'))
     return inv, dos
 
+
+# Paired quotation marks: curly first, then straight.
+QUOTED = re.compile(
+    r'“([^“”]{20,}?)”'
+    r'|(?<![A-Za-z])"([^"]{20,}?)"(?![A-Za-z])')
+
+DASH_CHARS = ('—', '–', '--', '‐')
+DASHES = '-'
+TYPOGRAPHY = re.compile('[“”‘’«»"\']|--|[—–‐]')
 
 SOFT_HYPHEN = re.compile('­\\s*')
 LINEBREAK_HYPHEN = re.compile(r'(\w)-\s*\n\s*(\w)')
@@ -328,8 +367,13 @@ def normalise(text: str) -> str:
     text = SOFT_HYPHEN.sub('', text)
     # hard hyphen at a line break
     text = LINEBREAK_HYPHEN.sub(chr(92)+'1'+chr(92)+'2', text)
-    text = text.replace('‐', '-')
-    return re.sub(r'\s+', ' ', text).strip()
+    # Fold typography, not words. Quotation marks are dropped entirely because a
+    # nested quotation may be re-marked when a passage is quoted inside prose;
+    # dashes are levelled because transcriptions and print editions differ. The
+    # words themselves, and their order, still have to match.
+    text = TYPOGRAPHY.sub(lambda m: DASHES if m.group(0) in DASH_CHARS else '', text)
+    text = re.sub(r'\s*-\s*', '-', text)
+    return re.sub(r'\s+', ' ', text).strip().lower()
 
 def collect_passages(db, inventory):
     """Extract the verbatim passage for every publishable finding."""
@@ -475,6 +519,30 @@ def seed(db: sqlite3.Connection, check_only: bool = False):
             print(f"    {eid} [{stype} {sid}]: {anchor!r}")
         raise SystemExit(1)
 
+    # Every quotation of 40+ characters in the essay prose must be verbatim in
+    # some source the dossier draws on. The cards were already checked; the essay
+    # was not, and a misremembered quotation there is exactly the kind of error
+    # nobody catches by reading.
+    corpus = _source_corpus(db, inventory)
+    bad_quotes, checked_quotes = [], 0
+    for sec in dossier['sections']:
+        for para in sec['body']:
+            for groups in QUOTED.findall(para):
+                q = (groups[0] or groups[1]).strip()
+                # Spans carrying a citation marker or starting mid-clause are
+                # text *between* quotations, not quotations.
+                if '{{' in q or not q[:1].isalpha() or len(q) < 40:
+                    continue
+                checked_quotes += 1
+                probe = normalise(q.rstrip(' .,;'))
+                if not any(probe in text for text in corpus):
+                    bad_quotes.append((sec['id'], q[:70]))
+    if bad_quotes:
+        print(f"  ERROR: essay quotes text that is not verbatim in any cited source:")
+        for sid, q in bad_quotes:
+            print(f"    section {sid}: {q!r}")
+        raise SystemExit(1)
+
     # Every {{id}} citation in the essay must resolve to a published finding.
     ids = {f['id'] for f in inventory['evidence'] if f['on_public_page']}
     cited, bad_cites = set(), []
@@ -503,6 +571,7 @@ def seed(db: sqlite3.Connection, check_only: bool = False):
               f'{len(inventory["evidence_packets"])} packets, '
               f'{len(dossier["sections"])} dossier sections, '
               f'{len(cards)} mention cards, all quotations verbatim')
+        print(f'  {checked_quotes} quotations in the essay prose also verified verbatim')
         uncited = sorted(ids - cited)
         print(f'  essay cites {len(cited)} of {len(ids)} findings; '
               f'{len(uncited)} discussed only on their card')

@@ -486,7 +486,7 @@ CARDS = {
         "stupid. They’ve taken over the planet. That’s cool.", PKD),
 
     'BWV-ESS-1978-01': (
-        "From the 1978 essay, published in Dick's lifetime, in which he defines reality "
+        "From the essay Dick wrote in 1978 and delivered as a speech, in which he defines reality "
         "as that which does not go away when you stop believing in it. The surrounding "
         "argument is about manufactured pseudo-worlds delivered by media into the heads "
         "of viewers, and about how much of television is received subliminally. It is "
@@ -655,9 +655,11 @@ CARDS = {
         "diagnosing Angel Archer as intelligence without faith — a mind that plods and "
         "cannot leap the gap into what he calls divine foolishness — and locates her "
         "failure precisely at the boundary of language: she cannot pass from words to "
-        "the non-verbal. The self-description in passing is the reason this card is "
-        "here, and it is the only place Dick uses addiction and disease as figures for "
-        "language itself. Burroughs is not named; the debt cannot be shown.",
+        "the non-verbal. The phrase is the reason this card is here. Dick sets it in "
+        "quotation marks, and the surrounding text (\"as she says, a machine\") suggests "
+        "he is quoting Angel rather than describing himself; the archive does not settle "
+        "which. Either way it is the only place he uses addiction and disease as figures "
+        "for language itself. Burroughs is not named; the debt cannot be shown.",
         "It cannot pass over from words (\"I am a word junky, a word disease\") to the "
         "supra or non verbal", PKD),
 

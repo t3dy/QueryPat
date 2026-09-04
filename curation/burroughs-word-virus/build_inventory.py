@@ -49,10 +49,42 @@ PUBLISHED_FOLIO = {
 }
 
 
-F90 = 'Exegesis, September 15, 1976 (folder 90)'
-F20 = 'Exegesis, October 10, 1978 (folder 20)'
-F90b = 'Exegesis, April 16, 1981 (folder 90)'
-F53 = 'Exegesis, April 16, 1981 (folder 53)'
+
+# Archival folder numbers, asserted only where they can be shown.
+#   VERIFIED_FOLDER  — a "folder N - page" stamp appears in the segment text
+#                      itself, next to the passage.
+#   From the folio    — where the published edition prints the passage, its
+#                      folio prefix gives the folder (e.g. [29:9] -> folder 29).
+# Everything else carries no folder claim. An earlier version of this page
+# asserted a single folder for each sitting; that was unsupported, and in three
+# cases contradicted by the transcription. Note also that passages our records
+# group under one date map to several folders in the published edition, so the
+# date attributions here are container-level and should not be read as the date
+# of composition of each individual passage.
+VERIFIED_FOLDER = {
+    'BWV-EX-1978-01': '20',
+    'BWV-EX-1978-02': '21',
+    'BWV-EX-1978-08': '1',
+    'BWV-EX-1978-09': '1',
+    'BWV-EX-1981-01': '90',
+    'BWV-EX-1981-02': '90',
+    'BWV-EX-1981-10': '53',
+}
+
+
+def folder_for(eid):
+    if eid in VERIFIED_FOLDER:
+        return VERIFIED_FOLDER[eid], 'transcription'
+    folio = PUBLISHED_FOLIO.get(eid)
+    if folio:
+        return folio.split(':')[0], 'published edition'
+    return None, None
+
+
+F90 = 'Exegesis, September 15, 1976'
+F20 = 'Exegesis, October 10, 1978'
+F90b = 'Exegesis, April 16, 1981'
+F53 = 'Exegesis, April 16, 1981'
 S15, S16, S17 = 'DOC_EXEG_SECTION_015', 'DOC_EXEG_SECTION_016', 'DOC_EXEG_SECTION_017'
 D76, D78, D81 = '1976-09-15', '1978-10-10', '1981-04-16'
 
@@ -689,8 +721,15 @@ PACKETS = [
      'scholarship does not treat the connection.'),
 ]
 
-# Attach the published-edition folio where the passage was printed.
+# Attach the archival folder, where it can be shown, and the published folio.
 for e in E:
+    if e['source']['type'] == 'exegesis_segment':
+        fol, basis = folder_for(e['id'])
+        if fol:
+            e['source']['folder'] = fol
+            e['source']['folder_basis'] = basis
+            e['source']['citation'] += f' (folder {fol})'
+
     f = PUBLISHED_FOLIO.get(e['id'])
     if f:
         e['source']['published_folio'] = f
