@@ -53,3 +53,10 @@ site/.env.*.local
 PKD LLM Chats/
 PKD stuff to add/
 
+# Snapshot payloads: ~19 MB each. The ledger (archive/snapshots/INDEX.md) is
+# committed so the history of what was archived survives; the zips are not.
+archive/snapshots/*.zip
+archive/snapshots/.*_db/
+
+# One-commit bypass for the data-loss guard; never commit it
+.allow-data-loss

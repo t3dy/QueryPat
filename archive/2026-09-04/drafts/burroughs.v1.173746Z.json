@@ -1,0 +1,380 @@
+{
+  "term_id": "TERM_burroughs",
+  "canonical_name": "Burroughs",
+  "slug": "burroughs",
+  "status": "accepted",
+  "review_state": "human-revised",
+  "primary_category": "Intertext",
+  "thematic_categories": null,
+  "mention_count": 22,
+  "score": 0.0,
+  "definition": "William S. Burroughs (1914–1997), read by Dick from September 1976 onward and named in twenty-two Exegesis segments and nine letters. What Dick takes from him is a single proposition — that language is a parasitic organism, a \"word virus,\" which infects its hosts and blinds them to their own condition — together with its narrative furniture from The Ticket That Exploded: the Nova Mob, the Nova police, and the latent message riding inside ordinary text.",
+  "interpretive_note": "Dick's use of Burroughs moves in one direction over five years. In September 1976 the word virus is confirmation: Thomas is a Nova Mob parasite, the power that intervened in 3-74 is \"Equal to Burroughs' nova police,\" and 3-74 itself was a remission in which he \"threw off the word virus.\" In October 1978 the endorsement narrows — \"Burroughs is right but he has only a bit of the whole picture\" — and Dick names Burroughs's theory, together with his own \"paranoia and paranoiac fear,\" as the source of his long-held suspicion that the plasmate's messages were a contamination. In April 1981 he inverts it: man is already occluded, and the living information is what is sent to tell him so. Burroughs, on this reading, saw both halves correctly and connected them the wrong way round.",
+  "visionary_significance": null,
+  "scholarly_caution": "Dick had not read Burroughs when he wrote the novels most often compared to him. He says so himself in the April 15, 1981 letter to Brig Elliot: the occlusion he put into A Scanner Darkly was observed in 1971, \"before I knew of Burroughs.\" The Exegesis reads Ubik, The Three Stigmata of Palmer Eldritch and A Maze of Death through Burroughs retroactively. The one influence Dick claims prospectively is stylistic, on VALIS, alongside Hunter S. Thompson.",
+  "card_description": "William S. Burroughs, whose \"word virus\" Dick adopted in 1976, qualified in 1978, and inverted in 1981.",
+  "full_description": "William S. Burroughs (1914–1997), read by Dick from September 1976 onward and named in twenty-two Exegesis segments and nine letters. What Dick takes from him is a single proposition — that language is a parasitic organism, a \"word virus,\" which infects its hosts and blinds them to their own condition — together with its narrative furniture from The Ticket That Exploded: the Nova Mob, the Nova police, and the latent message riding inside ordinary text.",
+  "first_appearance": "1976",
+  "peak_usage_start": "1976",
+  "peak_usage_end": "1981",
+  "see_also": [
+    "Living Information",
+    "Plasmate",
+    "Black Iron Prison",
+    "King Felix",
+    "Logos",
+    "Valis"
+  ],
+  "provenance": "editorial_curation_from_corpus_evidence",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-09-04 17:14:13",
+  "definition_claim_ids": [],
+  "definition_legacy": null,
+  "definition_generator": "claude-curated@2026-09-04",
+  "interpretive_note_claim_ids": [],
+  "interpretive_note_legacy": null,
+  "interpretive_note_generator": "claude-curated@2026-09-04",
+  "visionary_significance_claim_ids": [],
+  "visionary_significance_legacy": null,
+  "visionary_significance_generator": null,
+  "scholarly_caution_claim_ids": [],
+  "scholarly_caution_legacy": null,
+  "scholarly_caution_generator": "claude-curated@2026-09-04",
+  "card_description_claim_ids": [],
+  "card_description_legacy": null,
+  "card_description_generator": "claude-curated@2026-09-04",
+  "full_description_claim_ids": [],
+  "full_description_legacy": null,
+  "full_description_generator": "claude-curated@2026-09-04",
+  "noise_score": 0.0,
+  "cited_claims": {},
+  "aliases": [
+    {
+      "text": "William S. Burroughs",
+      "type": "alternate_name"
+    },
+    {
+      "text": "William Burroughs",
+      "type": "alternate_name"
+    },
+    {
+      "text": "word virus",
+      "type": "alternate_name"
+    },
+    {
+      "text": "information virus",
+      "type": "alternate_name"
+    }
+  ],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_155",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_155.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_156",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_156.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_168",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_168.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_169",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_169.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_174",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_174.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_183",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_183.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_187",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_187.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_188",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_188.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_192",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_192.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_07",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_07.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_08",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_08.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_75",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_75.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_255",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_255.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_267",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_267.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_278",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_278.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_347",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_347.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_348",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_348.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_02",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_02.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_05",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_05.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_154",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_154.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_155",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_155.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_181",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_181.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Absolute",
+      "slug": "absolute",
+      "relation": "related",
+      "confidence": 3
+    },
+    {
+      "name": "Acts",
+      "slug": "acts",
+      "relation": "related",
+      "confidence": 3
+    },
+    {
+      "name": "Adam",
+      "slug": "adam",
+      "relation": "related",
+      "confidence": 3
+    },
+    {
+      "name": "Advent",
+      "slug": "advent",
+      "relation": "related",
+      "confidence": 3
+    },
+    {
+      "name": "After",
+      "slug": "after",
+      "relation": "related",
+      "confidence": 3
+    },
+    {
+      "name": "Again",
+      "slug": "again",
+      "relation": "related",
+      "confidence": 3
+    },
+    {
+      "name": "Although",
+      "slug": "although",
+      "relation": "related",
+      "confidence": 3
+    },
+    {
+      "name": "Anamnesis",
+      "slug": "anamnesis",
+      "relation": "related",
+      "confidence": 3
+    }
+  ],
+  "evidence": [
+    {
+      "text": "Last edit almost 3 years ago by svayambhu108\n9\nNeeds Review\n9\n9 then efforts to remove our occlusion, + emancipate us. It would seem from what Valise says that they are principally concerned with \"softening\" our brittle (sense of reality. latter considers the possibility that the experience is induced by microwave radiation + by \"pulsating colored lights. Gee- that's what I saw: pulsating colored lights for a certainty, +, by inference, microwave energy I learly identify the written messages I s",
+      "line_start": 10817,
+      "line_end": 10825,
+      "matched_alias": "Burroughs",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "Last edit almost 3 years ago by svayambhu108\n10\nNeeds Review\n10\n(16 KW has noted a resemblance between several Thing. I've described + what burrought has writted e e.g. My conviction that as a race or even planet we are \"sick\" i.e. occluded perceptually, + that a divine doctor-entity is restoring us - coincidence? Burroughs speaks of a virus - a word become a neural - cell virus, infecting us. After reading burrough, I dipped into \"Ubik.\" It certainly would be easy - + reasonable - for a reader ",
+      "line_start": 10823,
+      "line_end": 10831,
+      "matched_alias": "Burroughs",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "Last edit almost 3 years ago by svayambhu108\n\n11\n( The virus (of Burroughs) is an information (or word) virus, but in this sense: it blocks to reception of information. So it is an anti-information virus. + Then it substitutes false (homeo) info (die messages inside your psyche) that replaces the genuine information, auditory + visual nformation- blocking, as represented in \"Maze\" symbolically by the erasure of the instruction tape. This tells us what kind of info is blocked: our instructions as",
+      "line_start": 10828,
+      "line_end": 10836,
+      "matched_alias": "Burroughs",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "Last edit almost 3 years ago by svayambhu108\n17\nNeeds Review\n17\n( So we have divinity secretly entering this world, is judged, + then unmasks (unveils) its true self even to its own surprise It's like whichever bank it is which regulary (but in unexpected times) examiners (judges) enter + pose as [mere] customers, transact actual bank business with tellers - this is a very good way of determining what the employeds are really doing when they think themselves unobserved This paradigm very likely ",
+      "line_start": 10863,
+      "line_end": 10871,
+      "matched_alias": "Burroughs",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "Spinoza was not in possession of the secret that evil had won, a long time ago, + ousted God from this world. What an extraordinary theological thought-answer to the Q.: [\"]if God exists, why can't we see him + why does he permit evil?\" Fact is, evil did him in - temporarily - + banished him.\n\nThis is all in keeping with Christ's passion - + the words the voice said to me: \"...she was not acceptable before.\" The entire tale of the N.T. is rejection of the light, the killing of it, + the promise ",
+      "line_start": 11306,
+      "line_end": 11314,
+      "matched_alias": "Burroughs",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "Complete\nPage 10\n(10)\n\nI know little about the enemy; but the sentient power which took complete control of me is connected with the cosmic Christ, a healer + wise entity. Equal to Burroughs' nova police. Certainly it seems benign to me. It saved me, + it was here in pursuit of \"the conspirators\" to do them in. It had been watching: it told me that - watching with the ajna eye. Bob Wilson connects this with the star Sirius.\n\nAn information virus which has infected us all - our whole planet. We a",
+      "line_start": 11320,
+      "line_end": 11328,
+      "matched_alias": "Burroughs",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "Was the Fall the entry of bogus information, the lie, which we took for real (i.e. took to be the Logos)? + introjected - so it proliferates in us?➀ Perhaps much of the information (non verbal but sense-data report of the phenomenal world) is spurious - the empirical world is no world at all but just false information, depicting a world which isn't really there (what is there is the BIP c. CE 45, the time of \"Acts\"). + Zebra fixes us by inhabitating us so that true information (it) replaces the ",
+      "line_start": 11344,
+      "line_end": 11352,
+      "matched_alias": "Burroughs",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "I learned this from \"Precious Artifact.\" I am a mad ex world-generator, now confined. But still periodically mad. I can't die - I am countlessly reborn - metamorphed, I know the truth about the worlds I have made. That they're not real - I know about Dokos, simulations which will pass any test. They are not fantasy, + they are only illusion to those who take them as real. They are skillfull forgeries which will pass inspection. They are indeed like metastasizing cancers. \"A world capable of spli",
+      "line_start": 11815,
+      "line_end": 11823,
+      "matched_alias": "Burroughs",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "Last edit almost 3 years ago by svayambhu108\n\n96\n95 + at the deepest level, although he no long i knows it, he's a cop tracking down some evil (enslaving BIP) criminals - shades of Burroughs' nova Mob + the Nova police whom come after them! A cop with amnesia. But still with reflexes intact, to do his job on subconscious level. + He didn't set this all op; it was set t by persons (powers) superior to him, using him for something that must be done, this is the only way - this \"amnesia.\" To do his",
+      "line_start": 12839,
+      "line_end": 12847,
+      "matched_alias": "Burroughs",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "16\n17\n\nI should not say merely, \"I saw Rome CAD 45\" but rather, \"I saw the antithetical confrontation between Rome CAD 45 + the early secret Xtians.\" It was an activity, as well as a thing (Rome as thing). That this activity exists could explain why we don't see it: the thing uses a tactic of concealment to preserve itself. This fits the \"replicating virus\" theory of Burroughs - I would say as Gestalt, as shaping (+ certainly as functioning). It has a life cycle of sorts. It is an organism. But,",
+      "line_start": 13101,
+      "line_end": 13109,
+      "matched_alias": "Burroughs",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    }
+  ]
+}

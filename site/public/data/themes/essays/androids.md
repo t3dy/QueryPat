@@ -30,7 +30,7 @@ In a post-war America where radiation has produced mutants — 'deeves' — the 
 
 ### Autofac
 
-Five years after a global war, a planet-wide network of automated factories continues to supply human settlements with food and goods, exactly as instructed before the collapse. In a story collection like [Autofac](/works/autofac), that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Five years after a global war, a planet-wide network of automated factories continues to supply human settlements with food and goods, exactly as instructed before the collapse. In a story collection like Autofac, that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Human Is
 
@@ -42,7 +42,7 @@ In a future society governed by a game-theory-derived randomization system -- th
 
 ### The Electric Ant
 
-Garson Poole wakes in hospital after a crash, missing a right hand and feeling no pain, and is informed by his doctor that he is not a man but an 'electric ant' — an organic robot. In a story collection like [The Electric Ant](/works/the-electric-ant), that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Garson Poole wakes in hospital after a crash, missing a right hand and feeling no pain, and is informed by his doctor that he is not a man but an 'electric ant' — an organic robot. In a story collection like The Electric Ant, that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Do Androids Dream of Electric Sheep?
 
@@ -50,7 +50,7 @@ In a San Francisco depopulated by nuclear fallout from World War Terminus, bount
 
 ### Second Variety
 
-Six years into a nuclear war that has left most of the northern hemisphere ash, the American government has withdrawn to a Moon base and left its troops dug into bunkers on a dead Earth. In a story collection like [Second Variety](/works/second-variety), that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Six years into a nuclear war that has left most of the northern hemisphere ash, the American government has withdrawn to a Moon base and left its troops dug into bunkers on a dead Earth. In a story collection like Second Variety, that premise becomes a thematic pressure point instead of background decoration. He uses doubles, tests, and counterfeit behavior to make personhood legible as a dramatic problem. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ## Synthesis
 

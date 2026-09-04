@@ -2,6 +2,8 @@ const LANE_CONFIG: Record<string, { label: string; className: string }> = {
   A: { label: 'Fiction', className: 'lane-badge lane-a' },
   B: { label: 'Exegesis', className: 'lane-badge lane-b' },
   C: { label: 'Scholarship', className: 'lane-badge lane-c' },
+  D: { label: 'Biography', className: 'lane-badge lane-d' },
+  E: { label: 'Letters', className: 'lane-badge lane-e' },
 }
 
 interface LaneBadgeProps {

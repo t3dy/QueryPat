@@ -82,6 +82,10 @@ export default function Search() {
       threshold: 0.3,
       includeMatches: true,
       minMatchCharLength: 2,
+      // 1,173 of 1,244 index entries carry more than 150 characters of text.
+      // Fuse's default location window only matches near the start of a field,
+      // so anything said later in a definition or summary was unfindable.
+      ignoreLocation: true,
     })
   }, [entries])
 

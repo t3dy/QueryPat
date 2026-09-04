@@ -158,7 +158,8 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
                chronology_summary, contradictions_summary,
                related_thinkers, editorial_notes, open_questions,
                passage_count, evidence_count, contradiction_count,
-               first_appearance, peak_period_start, peak_period_end
+               first_appearance, peak_period_start, peak_period_end,
+               related_topics, dossier_sections, mention_cards
         FROM study_topics WHERE topic_id = ?
     """, (topic_id,)).fetchone()
 
@@ -173,26 +174,47 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
         FROM study_evidence_packets WHERE topic_id = ?
     """, (topic_id,)).fetchall()
 
+    has_ev_link = any(
+        c[1] == 'ev_id'
+        for c in db.execute("PRAGMA table_info(study_passages)").fetchall()
+    )
+
     for ev in evs:
         ev_id = ev[0]
-        # Get passages linked to this evidence packet (via topic for now)
-        passages = db.execute("""
-            SELECT sp.passage_id, sp.lane, sp.source_mode, sp.doc_id,
-                   d.title, sp.passage_text, sp.matched_terms,
-                   sp.claim_type, sp.confidence
-            FROM study_passages sp
-            LEFT JOIN documents d ON sp.doc_id = d.doc_id
-            WHERE sp.topic_id = ?
-            ORDER BY sp.lane, sp.char_offset_start
-            LIMIT 20
-        """, (topic_id,)).fetchall()
+        # Prefer passages the packet owns; fall back to the topic's passages for
+        # packets built before study_passages carried an ev_id.
+        passages = []
+        if has_ev_link:
+            passages = db.execute("""
+                SELECT sp.passage_id, sp.lane, sp.source_mode, sp.doc_id,
+                       d.title, sp.passage_text, sp.matched_terms,
+                       sp.claim_type, sp.confidence, sp.seg_id, sp.notes,
+                       COALESCE(d.date_display, d.date_start)
+                FROM study_passages sp
+                LEFT JOIN documents d ON sp.doc_id = d.doc_id
+                WHERE sp.ev_id = ?
+                ORDER BY sp.lane, sp.char_offset_start
+            """, (ev_id,)).fetchall()
+        if not passages:
+            passages = db.execute("""
+                SELECT sp.passage_id, sp.lane, sp.source_mode, sp.doc_id,
+                       d.title, sp.passage_text, sp.matched_terms,
+                       sp.claim_type, sp.confidence, sp.seg_id, sp.notes,
+                       COALESCE(d.date_display, d.date_start)
+                FROM study_passages sp
+                LEFT JOIN documents d ON sp.doc_id = d.doc_id
+                WHERE sp.topic_id = ?
+                ORDER BY sp.lane, sp.char_offset_start
+                LIMIT 20
+            """, (topic_id,)).fetchall()
 
         passage_list = [{
             'passage_id': p[0], 'lane': p[1], 'source_mode': p[2],
             'doc_id': p[3], 'doc_title': p[4],
-            'passage_text': (p[5] or '')[:500],
+            'passage_text': (p[5] or '')[:900],
             'matched_terms': safe_json(p[6]),
             'claim_type': p[7], 'confidence': p[8],
+            'seg_id': p[9], 'citation': p[10], 'date': p[11],
         } for p in passages]
 
         ev_packets.append({
@@ -208,7 +230,8 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
         passages = db.execute("""
             SELECT sp.passage_id, sp.lane, sp.source_mode, sp.doc_id,
                    d.title, sp.passage_text, sp.matched_terms,
-                   sp.claim_type, sp.confidence
+                   sp.claim_type, sp.confidence, sp.seg_id, sp.notes,
+                   COALESCE(d.date_display, d.date_start)
             FROM study_passages sp
             LEFT JOIN documents d ON sp.doc_id = d.doc_id
             WHERE sp.topic_id = ?
@@ -218,9 +241,10 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
         passage_list = [{
             'passage_id': p[0], 'lane': p[1], 'source_mode': p[2],
             'doc_id': p[3], 'doc_title': p[4],
-            'passage_text': (p[5] or '')[:500],
+            'passage_text': (p[5] or '')[:900],
             'matched_terms': safe_json(p[6]),
             'claim_type': p[7], 'confidence': p[8],
+            'seg_id': p[9], 'citation': p[10], 'date': p[11],
         } for p in passages]
 
         # Create a synthetic evidence packet from raw passages
@@ -252,13 +276,15 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
     contradiction_list = []
     for c in contras:
         pa = db.execute("""
-            SELECT sp.passage_id, sp.lane, d.title, sp.passage_text, sp.source_mode
+            SELECT sp.passage_id, sp.lane, d.title, sp.passage_text, sp.source_mode,
+                   sp.seg_id, sp.notes
             FROM study_passages sp
             LEFT JOIN documents d ON sp.doc_id = d.doc_id
             WHERE sp.passage_id = ?
         """, (c[4],)).fetchone()
         pb = db.execute("""
-            SELECT sp.passage_id, sp.lane, d.title, sp.passage_text, sp.source_mode
+            SELECT sp.passage_id, sp.lane, d.title, sp.passage_text, sp.source_mode,
+                   sp.seg_id, sp.notes
             FROM study_passages sp
             LEFT JOIN documents d ON sp.doc_id = d.doc_id
             WHERE sp.passage_id = ?
@@ -271,10 +297,12 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
             'passage_a': {
                 'passage_id': pa[0], 'lane': pa[1], 'doc_title': pa[2],
                 'passage_text': (pa[3] or '')[:500], 'source_mode': pa[4],
+                'seg_id': pa[5], 'citation': pa[6],
             } if pa else None,
             'passage_b': {
                 'passage_id': pb[0], 'lane': pb[1], 'doc_title': pb[2],
                 'passage_text': (pb[3] or '')[:500], 'source_mode': pb[4],
+                'seg_id': pb[5], 'citation': pb[6],
             } if pb else None,
         })
 
@@ -299,7 +327,8 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
     # Related documents
     rel_docs = db.execute("""
         SELECT std.doc_id, d.title, d.doc_type, std.relevance,
-               std.passage_count, d.slug
+               std.passage_count, d.slug,
+               COALESCE(d.date_display, d.date_start)
         FROM study_topic_docs std
         JOIN documents d ON std.doc_id = d.doc_id
         WHERE std.topic_id = ?
@@ -309,6 +338,7 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
     related_documents = [{
         'doc_id': r[0], 'title': r[1], 'doc_type': r[2],
         'relevance': r[3], 'passage_count': r[4], 'slug': r[5],
+        'date': r[6],
     } for r in rel_docs]
 
     # Related terms
@@ -338,7 +368,7 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
     } for r in rel_names]
 
     # Related topics (same study)
-    rel_topic_slugs = safe_json(topic[13]) if topic[13] else []
+    rel_topic_slugs = safe_json(topic[22]) if topic[22] else []
     related_topics = []
     for rslug in rel_topic_slugs:
         rt = db.execute("""
@@ -377,6 +407,9 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
         'first_appearance': topic[19],
         'peak_period_start': topic[20],
         'peak_period_end': topic[21],
+
+        'dossier_sections': safe_json(topic[23]) if len(topic) > 23 else [],
+        'mention_cards': safe_json(topic[24]) if len(topic) > 24 else [],
 
         'evidence_packets': ev_packets,
         'contradictions': contradiction_list,

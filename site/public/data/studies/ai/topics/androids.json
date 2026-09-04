@@ -25,6 +25,8 @@
   "first_appearance": null,
   "peak_period_start": null,
   "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
   "evidence_packets": [
     {
       "ev_id": "SEV_AI_androids_001",
@@ -47,7 +49,10 @@
             "Simulacra"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": null,
+          "date": "1964"
         },
         {
           "passage_id": 13230,
@@ -60,7 +65,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": null,
+          "date": "2007"
         },
         {
           "passage_id": 13228,
@@ -73,7 +81,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": null,
+          "date": "Unknown"
         },
         {
           "passage_id": 13251,
@@ -86,7 +97,10 @@
             "SIMULACRA"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": null,
+          "date": "1967"
         },
         {
           "passage_id": 13232,
@@ -99,7 +113,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 506 to 382 chars",
+          "date": "1997"
         },
         {
           "passage_id": 13315,
@@ -112,7 +129,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_69",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13258,
@@ -125,7 +145,10 @@
             "androids"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13259,
@@ -138,7 +161,10 @@
             "android"
           ],
           "claim_type": "definition",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_186",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13260,
@@ -151,7 +177,10 @@
             "Simulacra"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_148",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13229,
@@ -164,7 +193,10 @@
             "androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 526 to 446 chars",
+          "date": "1995"
         },
         {
           "passage_id": 13316,
@@ -177,7 +209,10 @@
             "androids"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_72",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13317,
@@ -190,7 +225,10 @@
             "Androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_131",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13318,
@@ -198,12 +236,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "qiaduoporic then enters the world directly from God. Thus God created what I have for years called \"the authentic human\" in contrast to \"the android, the reflex machine.\" Is it then so absurd to suppose that he also creates are not these evolutionary stages Ditheon? willed by God + God's Diagudporia? gigauporia is the quality that differ entiates the authentic human from the android can trace it directly back to the Torah (in + I contradistinction to the Empires + to Greco Roman civilization -..",
+          "passage_text": "qiaduoporic then enters the world directly from God. Thus God created what I have for years called \"the authentic human\" in contrast to \"the android, the reflex machine.\" Is it then so absurd to suppose that he also creates are not these evolutionary stages Ditheon? willed by God + God's Diagudporia? gigauporia is the quality that differ entiates the authentic human from the android can trace it directly back to the Torah (in + I contradistinction to the Empires + to Greco Roman civilization -...",
           "matched_terms": [
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_69",
+          "citation": "Fair-use trimmed from 530 to 501 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13261,
@@ -216,7 +257,10 @@
             "simulacra"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": "Fair-use trimmed from 612 to 500 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13262,
@@ -229,7 +273,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_132",
+          "citation": "Fair-use trimmed from 511 to 500 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13263,
@@ -242,7 +289,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_173",
+          "citation": "Fair-use trimmed from 684 to 346 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13319,
@@ -250,12 +300,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "i folder 55 - 077 folder 55 - 077 Yo + after all, it really was the purpose of but there \"BTA\" to explain \"Valis. between \"Valis\" is a thematic link + \"BTA\" I've failed to note: bill is insane, + Horselover Fat is insane; So Fat is another avatar explicity of the fool, Holy Fool, madman, Christ Thus if \"Valis\" is viewed after one has studied \"confessions,\" \"androids\" + \"BTA\" the results are amazing as to what \"Valis\" really depicts + it, more than the otter novels, is clearly autobiographical,..",
+          "passage_text": "i folder 55 - 077 folder 55 - 077 Yo + after all, it really was the purpose of but there \"BTA\" to explain \"Valis. between \"Valis\" is a thematic link + \"BTA\" I've failed to note: bill is insane, + Horselover Fat is insane; So Fat is another avatar explicity of the fool, Holy Fool, madman, Christ Thus if \"Valis\" is viewed after one has studied \"confessions,\" \"androids\" + \"BTA\" the results are amazing as to what \"Valis\" really depicts + it, more than the otter novels, is clearly autobiographical,...",
           "matched_terms": [
             "androids"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_131",
+          "citation": "Fair-use trimmed from 717 to 501 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13293,
@@ -268,7 +321,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_202",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 13320,
@@ -281,7 +337,10 @@
             "Androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_125",
+          "citation": "Fair-use trimmed from 634 to 424 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13321,
@@ -294,7 +353,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_100",
+          "citation": "Fair-use trimmed from 612 to 461 chars",
+          "date": "April 16, 1981"
         }
       ]
     },
@@ -319,7 +381,10 @@
             "Simulacra"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": null,
+          "date": "1964"
         },
         {
           "passage_id": 13230,
@@ -332,7 +397,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": null,
+          "date": "2007"
         },
         {
           "passage_id": 13228,
@@ -345,7 +413,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": null,
+          "date": "Unknown"
         },
         {
           "passage_id": 13251,
@@ -358,7 +429,10 @@
             "SIMULACRA"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": null,
+          "date": "1967"
         },
         {
           "passage_id": 13232,
@@ -371,7 +445,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 506 to 382 chars",
+          "date": "1997"
         },
         {
           "passage_id": 13315,
@@ -384,7 +461,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_69",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13258,
@@ -397,7 +477,10 @@
             "androids"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13259,
@@ -410,7 +493,10 @@
             "android"
           ],
           "claim_type": "definition",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_186",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13260,
@@ -423,7 +509,10 @@
             "Simulacra"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_148",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13229,
@@ -436,7 +525,10 @@
             "androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 526 to 446 chars",
+          "date": "1995"
         },
         {
           "passage_id": 13316,
@@ -449,7 +541,10 @@
             "androids"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_72",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13317,
@@ -462,7 +557,10 @@
             "Androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_131",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13318,
@@ -470,12 +568,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "qiaduoporic then enters the world directly from God. Thus God created what I have for years called \"the authentic human\" in contrast to \"the android, the reflex machine.\" Is it then so absurd to suppose that he also creates are not these evolutionary stages Ditheon? willed by God + God's Diagudporia? gigauporia is the quality that differ entiates the authentic human from the android can trace it directly back to the Torah (in + I contradistinction to the Empires + to Greco Roman civilization -..",
+          "passage_text": "qiaduoporic then enters the world directly from God. Thus God created what I have for years called \"the authentic human\" in contrast to \"the android, the reflex machine.\" Is it then so absurd to suppose that he also creates are not these evolutionary stages Ditheon? willed by God + God's Diagudporia? gigauporia is the quality that differ entiates the authentic human from the android can trace it directly back to the Torah (in + I contradistinction to the Empires + to Greco Roman civilization -...",
           "matched_terms": [
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_69",
+          "citation": "Fair-use trimmed from 530 to 501 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13261,
@@ -488,7 +589,10 @@
             "simulacra"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": "Fair-use trimmed from 612 to 500 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13262,
@@ -501,7 +605,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_132",
+          "citation": "Fair-use trimmed from 511 to 500 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13263,
@@ -514,7 +621,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_173",
+          "citation": "Fair-use trimmed from 684 to 346 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13319,
@@ -522,12 +632,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "i folder 55 - 077 folder 55 - 077 Yo + after all, it really was the purpose of but there \"BTA\" to explain \"Valis. between \"Valis\" is a thematic link + \"BTA\" I've failed to note: bill is insane, + Horselover Fat is insane; So Fat is another avatar explicity of the fool, Holy Fool, madman, Christ Thus if \"Valis\" is viewed after one has studied \"confessions,\" \"androids\" + \"BTA\" the results are amazing as to what \"Valis\" really depicts + it, more than the otter novels, is clearly autobiographical,..",
+          "passage_text": "i folder 55 - 077 folder 55 - 077 Yo + after all, it really was the purpose of but there \"BTA\" to explain \"Valis. between \"Valis\" is a thematic link + \"BTA\" I've failed to note: bill is insane, + Horselover Fat is insane; So Fat is another avatar explicity of the fool, Holy Fool, madman, Christ Thus if \"Valis\" is viewed after one has studied \"confessions,\" \"androids\" + \"BTA\" the results are amazing as to what \"Valis\" really depicts + it, more than the otter novels, is clearly autobiographical,...",
           "matched_terms": [
             "androids"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_131",
+          "citation": "Fair-use trimmed from 717 to 501 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13293,
@@ -540,7 +653,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_202",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 13320,
@@ -553,7 +669,10 @@
             "Androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_125",
+          "citation": "Fair-use trimmed from 634 to 424 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13321,
@@ -566,7 +685,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_100",
+          "citation": "Fair-use trimmed from 612 to 461 chars",
+          "date": "April 16, 1981"
         }
       ]
     },
@@ -591,7 +713,10 @@
             "Simulacra"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": null,
+          "date": "1964"
         },
         {
           "passage_id": 13230,
@@ -604,7 +729,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": null,
+          "date": "2007"
         },
         {
           "passage_id": 13228,
@@ -617,7 +745,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": null,
+          "date": "Unknown"
         },
         {
           "passage_id": 13251,
@@ -630,7 +761,10 @@
             "SIMULACRA"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": null,
+          "date": "1967"
         },
         {
           "passage_id": 13232,
@@ -643,7 +777,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 506 to 382 chars",
+          "date": "1997"
         },
         {
           "passage_id": 13315,
@@ -656,7 +793,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_69",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13258,
@@ -669,7 +809,10 @@
             "androids"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13259,
@@ -682,7 +825,10 @@
             "android"
           ],
           "claim_type": "definition",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_186",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13260,
@@ -695,7 +841,10 @@
             "Simulacra"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_148",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13229,
@@ -708,7 +857,10 @@
             "androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 526 to 446 chars",
+          "date": "1995"
         },
         {
           "passage_id": 13316,
@@ -721,7 +873,10 @@
             "androids"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_72",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13317,
@@ -734,7 +889,10 @@
             "Androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_131",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13318,
@@ -742,12 +900,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "qiaduoporic then enters the world directly from God. Thus God created what I have for years called \"the authentic human\" in contrast to \"the android, the reflex machine.\" Is it then so absurd to suppose that he also creates are not these evolutionary stages Ditheon? willed by God + God's Diagudporia? gigauporia is the quality that differ entiates the authentic human from the android can trace it directly back to the Torah (in + I contradistinction to the Empires + to Greco Roman civilization -..",
+          "passage_text": "qiaduoporic then enters the world directly from God. Thus God created what I have for years called \"the authentic human\" in contrast to \"the android, the reflex machine.\" Is it then so absurd to suppose that he also creates are not these evolutionary stages Ditheon? willed by God + God's Diagudporia? gigauporia is the quality that differ entiates the authentic human from the android can trace it directly back to the Torah (in + I contradistinction to the Empires + to Greco Roman civilization -...",
           "matched_terms": [
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_69",
+          "citation": "Fair-use trimmed from 530 to 501 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13261,
@@ -760,7 +921,10 @@
             "simulacra"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": "Fair-use trimmed from 612 to 500 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13262,
@@ -773,7 +937,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_132",
+          "citation": "Fair-use trimmed from 511 to 500 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13263,
@@ -786,7 +953,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_173",
+          "citation": "Fair-use trimmed from 684 to 346 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13319,
@@ -794,12 +964,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "i folder 55 - 077 folder 55 - 077 Yo + after all, it really was the purpose of but there \"BTA\" to explain \"Valis. between \"Valis\" is a thematic link + \"BTA\" I've failed to note: bill is insane, + Horselover Fat is insane; So Fat is another avatar explicity of the fool, Holy Fool, madman, Christ Thus if \"Valis\" is viewed after one has studied \"confessions,\" \"androids\" + \"BTA\" the results are amazing as to what \"Valis\" really depicts + it, more than the otter novels, is clearly autobiographical,..",
+          "passage_text": "i folder 55 - 077 folder 55 - 077 Yo + after all, it really was the purpose of but there \"BTA\" to explain \"Valis. between \"Valis\" is a thematic link + \"BTA\" I've failed to note: bill is insane, + Horselover Fat is insane; So Fat is another avatar explicity of the fool, Holy Fool, madman, Christ Thus if \"Valis\" is viewed after one has studied \"confessions,\" \"androids\" + \"BTA\" the results are amazing as to what \"Valis\" really depicts + it, more than the otter novels, is clearly autobiographical,...",
           "matched_terms": [
             "androids"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_131",
+          "citation": "Fair-use trimmed from 717 to 501 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13293,
@@ -812,7 +985,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_202",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 13320,
@@ -825,7 +1001,10 @@
             "Androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_125",
+          "citation": "Fair-use trimmed from 634 to 424 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13321,
@@ -838,7 +1017,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_100",
+          "citation": "Fair-use trimmed from 612 to 461 chars",
+          "date": "April 16, 1981"
         }
       ]
     },
@@ -863,7 +1045,10 @@
             "Simulacra"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": null,
+          "date": "1964"
         },
         {
           "passage_id": 13230,
@@ -876,7 +1061,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": null,
+          "date": "2007"
         },
         {
           "passage_id": 13228,
@@ -889,7 +1077,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": null,
+          "date": "Unknown"
         },
         {
           "passage_id": 13251,
@@ -902,7 +1093,10 @@
             "SIMULACRA"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": null,
+          "date": "1967"
         },
         {
           "passage_id": 13232,
@@ -915,7 +1109,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 506 to 382 chars",
+          "date": "1997"
         },
         {
           "passage_id": 13315,
@@ -928,7 +1125,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_69",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13258,
@@ -941,7 +1141,10 @@
             "androids"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13259,
@@ -954,7 +1157,10 @@
             "android"
           ],
           "claim_type": "definition",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_186",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13260,
@@ -967,7 +1173,10 @@
             "Simulacra"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_148",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13229,
@@ -980,7 +1189,10 @@
             "androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 526 to 446 chars",
+          "date": "1995"
         },
         {
           "passage_id": 13316,
@@ -993,7 +1205,10 @@
             "androids"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_72",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13317,
@@ -1006,7 +1221,10 @@
             "Androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_131",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13318,
@@ -1014,12 +1232,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "qiaduoporic then enters the world directly from God. Thus God created what I have for years called \"the authentic human\" in contrast to \"the android, the reflex machine.\" Is it then so absurd to suppose that he also creates are not these evolutionary stages Ditheon? willed by God + God's Diagudporia? gigauporia is the quality that differ entiates the authentic human from the android can trace it directly back to the Torah (in + I contradistinction to the Empires + to Greco Roman civilization -..",
+          "passage_text": "qiaduoporic then enters the world directly from God. Thus God created what I have for years called \"the authentic human\" in contrast to \"the android, the reflex machine.\" Is it then so absurd to suppose that he also creates are not these evolutionary stages Ditheon? willed by God + God's Diagudporia? gigauporia is the quality that differ entiates the authentic human from the android can trace it directly back to the Torah (in + I contradistinction to the Empires + to Greco Roman civilization -...",
           "matched_terms": [
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_69",
+          "citation": "Fair-use trimmed from 530 to 501 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13261,
@@ -1032,7 +1253,10 @@
             "simulacra"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": "Fair-use trimmed from 612 to 500 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13262,
@@ -1045,7 +1269,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_132",
+          "citation": "Fair-use trimmed from 511 to 500 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13263,
@@ -1058,7 +1285,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_173",
+          "citation": "Fair-use trimmed from 684 to 346 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13319,
@@ -1066,12 +1296,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "i folder 55 - 077 folder 55 - 077 Yo + after all, it really was the purpose of but there \"BTA\" to explain \"Valis. between \"Valis\" is a thematic link + \"BTA\" I've failed to note: bill is insane, + Horselover Fat is insane; So Fat is another avatar explicity of the fool, Holy Fool, madman, Christ Thus if \"Valis\" is viewed after one has studied \"confessions,\" \"androids\" + \"BTA\" the results are amazing as to what \"Valis\" really depicts + it, more than the otter novels, is clearly autobiographical,..",
+          "passage_text": "i folder 55 - 077 folder 55 - 077 Yo + after all, it really was the purpose of but there \"BTA\" to explain \"Valis. between \"Valis\" is a thematic link + \"BTA\" I've failed to note: bill is insane, + Horselover Fat is insane; So Fat is another avatar explicity of the fool, Holy Fool, madman, Christ Thus if \"Valis\" is viewed after one has studied \"confessions,\" \"androids\" + \"BTA\" the results are amazing as to what \"Valis\" really depicts + it, more than the otter novels, is clearly autobiographical,...",
           "matched_terms": [
             "androids"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_131",
+          "citation": "Fair-use trimmed from 717 to 501 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13293,
@@ -1084,7 +1317,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_202",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 13320,
@@ -1097,7 +1333,10 @@
             "Androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_125",
+          "citation": "Fair-use trimmed from 634 to 424 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13321,
@@ -1110,7 +1349,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_100",
+          "citation": "Fair-use trimmed from 612 to 461 chars",
+          "date": "April 16, 1981"
         }
       ]
     },
@@ -1135,7 +1377,10 @@
             "Simulacra"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": null,
+          "date": "1964"
         },
         {
           "passage_id": 13230,
@@ -1148,7 +1393,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": null,
+          "date": "2007"
         },
         {
           "passage_id": 13228,
@@ -1161,7 +1409,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": null,
+          "date": "Unknown"
         },
         {
           "passage_id": 13251,
@@ -1174,7 +1425,10 @@
             "SIMULACRA"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": null,
+          "date": "1967"
         },
         {
           "passage_id": 13232,
@@ -1187,7 +1441,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 506 to 382 chars",
+          "date": "1997"
         },
         {
           "passage_id": 13315,
@@ -1200,7 +1457,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_69",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13258,
@@ -1213,7 +1473,10 @@
             "androids"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13259,
@@ -1226,7 +1489,10 @@
             "android"
           ],
           "claim_type": "definition",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_186",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13260,
@@ -1239,7 +1505,10 @@
             "Simulacra"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_148",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13229,
@@ -1252,7 +1521,10 @@
             "androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 526 to 446 chars",
+          "date": "1995"
         },
         {
           "passage_id": 13316,
@@ -1265,7 +1537,10 @@
             "androids"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_72",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13317,
@@ -1278,7 +1553,10 @@
             "Androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_131",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13318,
@@ -1286,12 +1564,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "qiaduoporic then enters the world directly from God. Thus God created what I have for years called \"the authentic human\" in contrast to \"the android, the reflex machine.\" Is it then so absurd to suppose that he also creates are not these evolutionary stages Ditheon? willed by God + God's Diagudporia? gigauporia is the quality that differ entiates the authentic human from the android can trace it directly back to the Torah (in + I contradistinction to the Empires + to Greco Roman civilization -..",
+          "passage_text": "qiaduoporic then enters the world directly from God. Thus God created what I have for years called \"the authentic human\" in contrast to \"the android, the reflex machine.\" Is it then so absurd to suppose that he also creates are not these evolutionary stages Ditheon? willed by God + God's Diagudporia? gigauporia is the quality that differ entiates the authentic human from the android can trace it directly back to the Torah (in + I contradistinction to the Empires + to Greco Roman civilization -...",
           "matched_terms": [
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_69",
+          "citation": "Fair-use trimmed from 530 to 501 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13261,
@@ -1304,7 +1585,10 @@
             "simulacra"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": "Fair-use trimmed from 612 to 500 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13262,
@@ -1317,7 +1601,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_132",
+          "citation": "Fair-use trimmed from 511 to 500 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13263,
@@ -1330,7 +1617,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_173",
+          "citation": "Fair-use trimmed from 684 to 346 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13319,
@@ -1338,12 +1628,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "i folder 55 - 077 folder 55 - 077 Yo + after all, it really was the purpose of but there \"BTA\" to explain \"Valis. between \"Valis\" is a thematic link + \"BTA\" I've failed to note: bill is insane, + Horselover Fat is insane; So Fat is another avatar explicity of the fool, Holy Fool, madman, Christ Thus if \"Valis\" is viewed after one has studied \"confessions,\" \"androids\" + \"BTA\" the results are amazing as to what \"Valis\" really depicts + it, more than the otter novels, is clearly autobiographical,..",
+          "passage_text": "i folder 55 - 077 folder 55 - 077 Yo + after all, it really was the purpose of but there \"BTA\" to explain \"Valis. between \"Valis\" is a thematic link + \"BTA\" I've failed to note: bill is insane, + Horselover Fat is insane; So Fat is another avatar explicity of the fool, Holy Fool, madman, Christ Thus if \"Valis\" is viewed after one has studied \"confessions,\" \"androids\" + \"BTA\" the results are amazing as to what \"Valis\" really depicts + it, more than the otter novels, is clearly autobiographical,...",
           "matched_terms": [
             "androids"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_131",
+          "citation": "Fair-use trimmed from 717 to 501 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13293,
@@ -1356,7 +1649,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_202",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 13320,
@@ -1369,7 +1665,10 @@
             "Androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_125",
+          "citation": "Fair-use trimmed from 634 to 424 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13321,
@@ -1382,7 +1681,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_100",
+          "citation": "Fair-use trimmed from 612 to 461 chars",
+          "date": "April 16, 1981"
         }
       ]
     },
@@ -1407,7 +1709,10 @@
             "Simulacra"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": null,
+          "date": "1964"
         },
         {
           "passage_id": 13230,
@@ -1420,7 +1725,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": null,
+          "date": "2007"
         },
         {
           "passage_id": 13228,
@@ -1433,7 +1741,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": null,
+          "date": "Unknown"
         },
         {
           "passage_id": 13251,
@@ -1446,7 +1757,10 @@
             "SIMULACRA"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": null,
+          "date": "1967"
         },
         {
           "passage_id": 13232,
@@ -1459,7 +1773,10 @@
             "Androids"
           ],
           "claim_type": "allegory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 506 to 382 chars",
+          "date": "1997"
         },
         {
           "passage_id": 13315,
@@ -1472,7 +1789,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_69",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13258,
@@ -1485,7 +1805,10 @@
             "androids"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13259,
@@ -1498,7 +1821,10 @@
             "android"
           ],
           "claim_type": "definition",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_186",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13260,
@@ -1511,7 +1837,10 @@
             "Simulacra"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_148",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13229,
@@ -1524,7 +1853,10 @@
             "androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 526 to 446 chars",
+          "date": "1995"
         },
         {
           "passage_id": 13316,
@@ -1537,7 +1869,10 @@
             "androids"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_72",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13317,
@@ -1550,7 +1885,10 @@
             "Androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_131",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13318,
@@ -1558,12 +1896,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "qiaduoporic then enters the world directly from God. Thus God created what I have for years called \"the authentic human\" in contrast to \"the android, the reflex machine.\" Is it then so absurd to suppose that he also creates are not these evolutionary stages Ditheon? willed by God + God's Diagudporia? gigauporia is the quality that differ entiates the authentic human from the android can trace it directly back to the Torah (in + I contradistinction to the Empires + to Greco Roman civilization -..",
+          "passage_text": "qiaduoporic then enters the world directly from God. Thus God created what I have for years called \"the authentic human\" in contrast to \"the android, the reflex machine.\" Is it then so absurd to suppose that he also creates are not these evolutionary stages Ditheon? willed by God + God's Diagudporia? gigauporia is the quality that differ entiates the authentic human from the android can trace it directly back to the Torah (in + I contradistinction to the Empires + to Greco Roman civilization -...",
           "matched_terms": [
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_69",
+          "citation": "Fair-use trimmed from 530 to 501 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13261,
@@ -1576,7 +1917,10 @@
             "simulacra"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": "Fair-use trimmed from 612 to 500 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13262,
@@ -1589,7 +1933,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_132",
+          "citation": "Fair-use trimmed from 511 to 500 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13263,
@@ -1602,7 +1949,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_173",
+          "citation": "Fair-use trimmed from 684 to 346 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 13319,
@@ -1610,12 +1960,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "i folder 55 - 077 folder 55 - 077 Yo + after all, it really was the purpose of but there \"BTA\" to explain \"Valis. between \"Valis\" is a thematic link + \"BTA\" I've failed to note: bill is insane, + Horselover Fat is insane; So Fat is another avatar explicity of the fool, Holy Fool, madman, Christ Thus if \"Valis\" is viewed after one has studied \"confessions,\" \"androids\" + \"BTA\" the results are amazing as to what \"Valis\" really depicts + it, more than the otter novels, is clearly autobiographical,..",
+          "passage_text": "i folder 55 - 077 folder 55 - 077 Yo + after all, it really was the purpose of but there \"BTA\" to explain \"Valis. between \"Valis\" is a thematic link + \"BTA\" I've failed to note: bill is insane, + Horselover Fat is insane; So Fat is another avatar explicity of the fool, Holy Fool, madman, Christ Thus if \"Valis\" is viewed after one has studied \"confessions,\" \"androids\" + \"BTA\" the results are amazing as to what \"Valis\" really depicts + it, more than the otter novels, is clearly autobiographical,...",
           "matched_terms": [
             "androids"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_131",
+          "citation": "Fair-use trimmed from 717 to 501 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13293,
@@ -1628,7 +1981,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_202",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 13320,
@@ -1641,7 +1997,10 @@
             "Androids"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_125",
+          "citation": "Fair-use trimmed from 634 to 424 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 13321,
@@ -1654,7 +2013,10 @@
             "android"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_100",
+          "citation": "Fair-use trimmed from 612 to 461 chars",
+          "date": "April 16, 1981"
         }
       ]
     }
@@ -1670,14 +2032,18 @@
         "lane": "A",
         "doc_title": "Selected Stories of Philip K. Dick",
         "passage_text": "DICK\nClans of the Alphane Moon\nConfessions of a Crap Artist\nThe Cosmic Puppets\nCounter-Clock World\nThe Crack in Space\nDeus Irae (with Roger Zelazny)\nThe Divine Invasion\nDo Androids Dream of Electric Sheep?",
-        "source_mode": "fiction"
+        "source_mode": "fiction",
+        "seg_id": null,
+        "citation": null
       },
       "passage_b": {
         "passage_id": 13207,
         "lane": "B",
         "doc_title": "How to Build a Universe That Doesn't Fall Apart Two Days Later",
         "passage_text": "Maybe we cannot say that we are in touch with reality and he is not, but should instead say,\nHis reality is so different from ours that he can't explain his to us, and we can't explain ours\nto him. The problem, then, is that if subjective worlds are experienced too diffrently, there\noccurs a breakdown of communication... and there is the real illness.\nI once wrote a story about a man who was injured and taken to a hospital.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 532 to 427 chars"
       }
     },
     {
@@ -1690,14 +2056,18 @@
         "lane": "A",
         "doc_title": "Selected Stories of Philip K. Dick",
         "passage_text": "DICK\nClans of the Alphane Moon\nConfessions of a Crap Artist\nThe Cosmic Puppets\nCounter-Clock World\nThe Crack in Space\nDeus Irae (with Roger Zelazny)\nThe Divine Invasion\nDo Androids Dream of Electric Sheep?",
-        "source_mode": "fiction"
+        "source_mode": "fiction",
+        "seg_id": null,
+        "citation": null
       },
       "passage_b": {
         "passage_id": 13221,
         "lane": "B",
         "doc_title": "How to Build a Universe That Doesn't Fall Apart Two Days Later",
         "passage_text": "Maybe\nwe cannot say that we are in touch with reality and he is not, but should instead say, His reality is so\ndifferent from ours that he can't explain his to us, and we can't explain ours to him. The problem, then,\nis that if subjective worlds are experienced too diffrently, there occurs a breakdown of\ncommunication... and there is the real illness.\nI once wrote a story about a man who was injured and taken to a hospital.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 541 to 427 chars"
       }
     },
     {
@@ -1710,14 +2080,18 @@
         "lane": "A",
         "doc_title": "Selected Stories of Philip K. Dick",
         "passage_text": "DICK\nClans of the Alphane Moon\nConfessions of a Crap Artist\nThe Cosmic Puppets\nCounter-Clock World\nThe Crack in Space\nDeus Irae (with Roger Zelazny)\nThe Divine Invasion\nDo Androids Dream of Electric Sheep?",
-        "source_mode": "fiction"
+        "source_mode": "fiction",
+        "seg_id": null,
+        "citation": null
       },
       "passage_b": {
         "passage_id": 13299,
         "lane": "B",
         "doc_title": "Letter",
         "passage_text": "T.: \"No man has seen God.\" But the Rabbis speak of humans seeing the Shekhina: \"One Rabbi died; one went insane, one became irreligious, one escaped unharmed.\") Uh, Andy, less look aroun' heah.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_228",
+        "citation": null
       }
     },
     {
@@ -1730,14 +2104,18 @@
         "lane": "A",
         "doc_title": "Selected Stories of Philip K. Dick",
         "passage_text": "DICK\nClans of the Alphane Moon\nConfessions of a Crap Artist\nThe Cosmic Puppets\nCounter-Clock World\nThe Crack in Space\nDeus Irae (with Roger Zelazny)\nThe Divine Invasion\nDo Androids Dream of Electric Sheep?",
-        "source_mode": "fiction"
+        "source_mode": "fiction",
+        "seg_id": null,
+        "citation": null
       },
       "passage_b": {
         "passage_id": 13304,
         "lane": "B",
         "doc_title": "Letter",
         "passage_text": "\"The authentic human vs the android or reflex machine\" is the essence of it. Again + again I attempt to formulate criteria for what is fake + what is not fake, in every area, from a comic book to a world leader to a girl friend to an entire universe. \"Things are seldom what they seem\" - right. It has to do with reality testing, which is related to another theme of mine: mental illness (which brings in hallucinations) + deliberate deception (v \"Penultimate Truth,\" \"The Simulacra,\" \"Game Players..",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_13",
+        "citation": "Fair-use trimmed from 540 to 501 chars"
       }
     },
     {
@@ -1750,14 +2128,18 @@
         "lane": "A",
         "doc_title": "Selected Stories of Philip K. Dick",
         "passage_text": "DICK\nClans of the Alphane Moon\nConfessions of a Crap Artist\nThe Cosmic Puppets\nCounter-Clock World\nThe Crack in Space\nDeus Irae (with Roger Zelazny)\nThe Divine Invasion\nDo Androids Dream of Electric Sheep?",
-        "source_mode": "fiction"
+        "source_mode": "fiction",
+        "seg_id": null,
+        "citation": null
       },
       "passage_b": {
         "passage_id": 13305,
         "lane": "B",
         "doc_title": "Letter",
         "passage_text": "+ mental illness brings in \"Martian Time-Slip,\" \"Dr Bloodmoney,\" \"The Simulacra,\" \"Clans.\" So virtually all of my writing interlocks at this substratum.) I count 21 books (inc story collections) in which fake vs real is in some way the topic. 22, if \"Japed\" is included, plus a number of unanthologized stories. In \"Sheep\" for instance, fake vs real operates on 5 levels: 1) Fake (synthetic) moods (electronically generated) 2) Fake animals (machines) 3) Fake humans (androids) (inc.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_13",
+        "citation": null
       }
     },
     {
@@ -1770,14 +2152,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "\"VALIS\" would be no more that an explication + non-fictional confirmation of truths already told. + I'm not even considering the material in such lesser novels as \"Sheep\" + \"Frolix 8,\" etc. + \"Clans.\" \"Game-players of Titan,\" \"Simulacra\" + \"Blood Money\"; there are trace amounts in them which fill in details of the picture (like \"Now Wait for Last Year,\" eg).",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_148",
+        "citation": null
       },
       "passage_b": {
         "passage_id": 13220,
         "lane": "C",
         "doc_title": "Comprehensive Audit of Philip K. Dick's Documented Public Appearances, Speeches, and Interviews",
         "passage_text": "This was compiled from multiple primary sources including the official\nphilipdick.com archives, Frank C. Bertrand's \"Missing or Problem Interviews\" research, The Last\nInterview and Other Conversations anthology, and various fan scholarship databases.\nKey findings:\nDick was profoundly reclusive — nearly all of his public-facing life occurred between 1972\nand 1982, with virtually nothing documented from the 1960s when he wrote his greatest\nworks.",
-        "source_mode": "interview"
+        "source_mode": "interview",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 531 to 448 chars"
       }
     },
     {
@@ -1790,14 +2176,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "\"VALIS\" would be no more that an explication + non-fictional confirmation of truths already told. + I'm not even considering the material in such lesser novels as \"Sheep\" + \"Frolix 8,\" etc. + \"Clans.\" \"Game-players of Titan,\" \"Simulacra\" + \"Blood Money\"; there are trace amounts in them which fill in details of the picture (like \"Now Wait for Last Year,\" eg).",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_148",
+        "citation": null
       },
       "passage_b": {
         "passage_id": 13235,
         "lane": "C",
         "doc_title": "Philip K. Dick: Addresses and Residences Chronology",
         "passage_text": "Electronics\n1950–1958\n1126 Francisco Street,\nBerkeley, CA\nMarried Kleo Apostolides; published\nearly fiction\n1958–1959\nLorraine Avenue, Point Reyes\nStation, CA\nWith Kleo before divorce\n1959–1962\nLorraine Avenue, Point Reyes\nStation, CA\nLived with Anne; wrote The Man in the\nHigh Castle\n1968–1972\n707 Hacienda Way, San\nRafael, CA\nCommunal household; inspiration for A\nScanner Darkly\n1972\nCornwall Avenue, Vancouver,\nBC, Canada\nDrug rehab at X-Kalay; attended VCON;\ngave “The Android and the Human”",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": null
       }
     },
     {
@@ -1810,14 +2200,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "g. as with me). God lives on, the Kingdom (I), but it drags the Corpse of II which still simulates reality + life. One of the hyperuniverses has died (as if they once were indrogyny - twins, one good, one evil; the evil burst forth prematurely from the \"egg\" (whatever that might be), expanded its soma into II - which pre cates I which was born \"full term\" - thus evil always moves first, but, being dead is blind + without consciousness.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_89",
+        "citation": "Fair-use trimmed from 681 to 439 chars"
       },
       "passage_b": {
         "passage_id": 13220,
         "lane": "C",
         "doc_title": "Comprehensive Audit of Philip K. Dick's Documented Public Appearances, Speeches, and Interviews",
         "passage_text": "This was compiled from multiple primary sources including the official\nphilipdick.com archives, Frank C. Bertrand's \"Missing or Problem Interviews\" research, The Last\nInterview and Other Conversations anthology, and various fan scholarship databases.\nKey findings:\nDick was profoundly reclusive — nearly all of his public-facing life occurred between 1972\nand 1982, with virtually nothing documented from the 1960s when he wrote his greatest\nworks.",
-        "source_mode": "interview"
+        "source_mode": "interview",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 531 to 448 chars"
       }
     },
     {
@@ -1830,14 +2224,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "g. as with me). God lives on, the Kingdom (I), but it drags the Corpse of II which still simulates reality + life. One of the hyperuniverses has died (as if they once were indrogyny - twins, one good, one evil; the evil burst forth prematurely from the \"egg\" (whatever that might be), expanded its soma into II - which pre cates I which was born \"full term\" - thus evil always moves first, but, being dead is blind + without consciousness.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_89",
+        "citation": "Fair-use trimmed from 681 to 439 chars"
       },
       "passage_b": {
         "passage_id": 13235,
         "lane": "C",
         "doc_title": "Philip K. Dick: Addresses and Residences Chronology",
         "passage_text": "Electronics\n1950–1958\n1126 Francisco Street,\nBerkeley, CA\nMarried Kleo Apostolides; published\nearly fiction\n1958–1959\nLorraine Avenue, Point Reyes\nStation, CA\nWith Kleo before divorce\n1959–1962\nLorraine Avenue, Point Reyes\nStation, CA\nLived with Anne; wrote The Man in the\nHigh Castle\n1968–1972\n707 Hacienda Way, San\nRafael, CA\nCommunal household; inspiration for A\nScanner Darkly\n1972\nCornwall Avenue, Vancouver,\nBC, Canada\nDrug rehab at X-Kalay; attended VCON;\ngave “The Android and the Human”",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": null
       }
     },
     {
@@ -1850,14 +2248,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "At this point, in viewing my work from \"Imposter\" to \"Tears\" I tend to think I told the whole message, at least so far as I know it. \"VALIS\" would be no more that an explication + non-fictional confirmation of truths already told. + I'm not even considering the material in such lesser novels as \"Sheep\" + \"Frolix 8,\" etc. + \"Clans.\" \"Game-players of Titan,\" \"Simulacra\" + \"Blood Money\"; there are trace amounts in them which fill in details of the picture (like \"Now Wait for Last Year,\" eg).",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_147",
+        "citation": null
       },
       "passage_b": {
         "passage_id": 13220,
         "lane": "C",
         "doc_title": "Comprehensive Audit of Philip K. Dick's Documented Public Appearances, Speeches, and Interviews",
         "passage_text": "This was compiled from multiple primary sources including the official\nphilipdick.com archives, Frank C. Bertrand's \"Missing or Problem Interviews\" research, The Last\nInterview and Other Conversations anthology, and various fan scholarship databases.\nKey findings:\nDick was profoundly reclusive — nearly all of his public-facing life occurred between 1972\nand 1982, with virtually nothing documented from the 1960s when he wrote his greatest\nworks.",
-        "source_mode": "interview"
+        "source_mode": "interview",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 531 to 448 chars"
       }
     }
   ],
@@ -2110,7 +2512,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 49,
-      "slug": "section-017"
+      "slug": "section-017",
+      "date": "April 16, 1981"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_015",
@@ -2118,7 +2521,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 35,
-      "slug": "section-015"
+      "slug": "section-015",
+      "date": "September 15, 1976"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_016",
@@ -2126,7 +2530,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 22,
-      "slug": "section-016"
+      "slug": "section-016",
+      "date": "October 10, 1978"
     },
     {
       "doc_id": "DOC_ARCH_JOURNEYPLANET16",
@@ -2134,7 +2539,8 @@
       "doc_type": "archive_pdf",
       "relevance": "substantial",
       "passage_count": 4,
-      "slug": "journeyplanet16"
+      "slug": "journeyplanet16",
+      "date": "c. 2013"
     },
     {
       "doc_id": "DOC_ARCH_PKD_DOC_ADDR_PKD_ADDRESSES",
@@ -2142,7 +2548,8 @@
       "doc_type": "scholarship",
       "relevance": "substantial",
       "passage_count": 4,
-      "slug": "pkd-doc-addr-pkd-addresses"
+      "slug": "pkd-doc-addr-pkd-addresses",
+      "date": "Unknown"
     },
     {
       "doc_id": "DOC_ARCH_ADOBE_SCAN_APR_26_2025",
@@ -2150,7 +2557,8 @@
       "doc_type": "archive_pdf",
       "relevance": "substantial",
       "passage_count": 3,
-      "slug": "adobe-scan-apr-26-2025"
+      "slug": "adobe-scan-apr-26-2025",
+      "date": "1982"
     },
     {
       "doc_id": "DOC_ARCH_ANDREW_M_BUTLER_PHD_THESIS",
@@ -2158,7 +2566,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 2,
-      "slug": "andrew-m-butler-phd-thesis"
+      "slug": "andrew-m-butler-phd-thesis",
+      "date": "1995"
     },
     {
       "doc_id": "DOC_ARCH_EXTRAPOLATION_2007_JAN_VOL_48_ISS_2_THE_",
@@ -2166,7 +2575,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 2,
-      "slug": "extrapolation-2007-jan-vol-48-iss-2-the-french-dick-villiers-de-l-039-isle-adam-"
+      "slug": "extrapolation-2007-jan-vol-48-iss-2-the-french-dick-villiers-de-l-039-isle-adam-",
+      "date": "2007"
     },
     {
       "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_SELECTED_LETTERS_OF_PH",
@@ -2174,7 +2584,8 @@
       "doc_type": "letter",
       "relevance": "mentions",
       "passage_count": 2,
-      "slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books"
+      "slug": "philip-k-dick-the-selected-letters-of-philip-k-dick-1972-1973-underwood-books",
+      "date": "1993"
     },
     {
       "doc_id": "DOC_ARCH_PKD_PUBLIC_APPEARANCES_AUDIT",
@@ -2182,7 +2593,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 2,
-      "slug": "pkd-public-appearances-audit"
+      "slug": "pkd-public-appearances-audit",
+      "date": "Unknown"
     },
     {
       "doc_id": "DOC_ARCH_SFC31",
@@ -2190,7 +2602,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 2,
-      "slug": "sfc31"
+      "slug": "sfc31",
+      "date": "c. 1972-1973"
     },
     {
       "doc_id": "DOC_ARCH_SIMULACRUM_MELTDOWN_03",
@@ -2198,7 +2611,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 2,
-      "slug": "simulacrum-meltdown-03"
+      "slug": "simulacrum-meltdown-03",
+      "date": "2001"
     },
     {
       "doc_id": "DOC_ARCH_THE_ANDROID_AND_THE_HUMAN",
@@ -2206,7 +2620,8 @@
       "doc_type": "other",
       "relevance": "mentions",
       "passage_count": 2,
-      "slug": "the-android-and-the-human"
+      "slug": "the-android-and-the-human",
+      "date": "1972"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_010",
@@ -2214,7 +2629,8 @@
       "doc_type": "exegesis_section",
       "relevance": "mentions",
       "passage_count": 2,
-      "slug": "section-010"
+      "slug": "section-010",
+      "date": "circa 1975-1976"
     },
     {
       "doc_id": "DOC_ARCH_02_LAURIE_JUI_HUA_TSENG",
@@ -2222,7 +2638,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "02-laurie-jui-hua-tseng"
+      "slug": "02-laurie-jui-hua-tseng",
+      "date": "Unknown"
     },
     {
       "doc_id": "DOC_ARCH_45007880_PHILIP_K_DICK_HOW_TO_BUILD_A_UN",
@@ -2230,7 +2647,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "45007880-philip-k-dick-how-to-build-a-universe"
+      "slug": "45007880-philip-k-dick-how-to-build-a-universe",
+      "date": "1978"
     },
     {
       "doc_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
@@ -2238,7 +2656,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "556512336-will-the-real-ubik-please-stand-up"
+      "slug": "556512336-will-the-real-ubik-please-stand-up",
+      "date": "2014"
     },
     {
       "doc_id": "DOC_ARCH_627476247_SCIENCE_FICTION_IN_THE_REAL_WO",
@@ -2246,7 +2665,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "627476247-science-fiction-in-the-real-world-1990-by-norman-spinrad"
+      "slug": "627476247-science-fiction-in-the-real-world-1990-by-norman-spinrad",
+      "date": "1990"
     },
     {
       "doc_id": "DOC_ARCH_ALAS_V30_DICK_PHILIP_KINDRED_PHILIP_K_DI",
@@ -2254,7 +2674,8 @@
       "doc_type": "other",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "alas-v30-dick-philip-kindred-philip-k-dick-is-dead-libgen-li"
+      "slug": "alas-v30-dick-philip-kindred-philip-k-dick-is-dead-libgen-li",
+      "date": "1987"
     },
     {
       "doc_id": "DOC_ARCH_CHRISTOPHER_PALMER_PHILIP_K_DICK_EXHILAR",
@@ -2262,7 +2683,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "christopher-palmer-philip-k-dick-exhilaration-and-terror-of-the-postmodern"
+      "slug": "christopher-palmer-philip-k-dick-exhilaration-and-terror-of-the-postmodern",
+      "date": "2003"
     },
     {
       "doc_id": "DOC_ARCH_DICK_PHILIP_KINDRED_THE_SIMULACRA_LIBGEN",
@@ -2270,7 +2692,8 @@
       "doc_type": "novel",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "dick-philip-kindred-the-simulacra-libgen-li"
+      "slug": "dick-philip-kindred-the-simulacra-libgen-li",
+      "date": "1964"
     },
     {
       "doc_id": "DOC_ARCH_GENERATE_A_COMPREHENSIVE_AUDIT_OF_EVERY_",
@@ -2278,7 +2701,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "generate-a-comprehensive-audit-of-every-documented"
+      "slug": "generate-a-comprehensive-audit-of-every-documented",
+      "date": "2025"
     },
     {
       "doc_id": "DOC_ARCH_HOW_TO_BUILD_A_UNIVERSE_THAT_DOESN_T_FAL",
@@ -2286,7 +2710,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "how-to-build-a-universe-that-doesn-t-fall-apart-two-days-later"
+      "slug": "how-to-build-a-universe-that-doesn-t-fall-apart-two-days-later",
+      "date": "1978"
     },
     {
       "doc_id": "DOC_ARCH_OCEANOFPDF_COM_HOW_TO_BUILD_AN_ANDROID_D",
@@ -2294,7 +2719,8 @@
       "doc_type": "biography",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "oceanofpdf-com-how-to-build-an-android-david-f-dufty"
+      "slug": "oceanofpdf-com-how-to-build-an-android-david-f-dufty",
+      "date": "Unknown"
     },
     {
       "doc_id": "DOC_ARCH_OCEANOFPDF_COM_PHILIP_K_DICK_ANDREW_M_BU",
@@ -2302,7 +2728,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "oceanofpdf-com-philip-k-dick-andrew-m-butler"
+      "slug": "oceanofpdf-com-philip-k-dick-andrew-m-butler",
+      "date": "Unknown"
     },
     {
       "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_STORIES_OF_PHILI",
@@ -2310,7 +2737,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick"
+      "slug": "oceanofpdf-com-selected-stories-of-philip-k-dick-philip-k-dick",
+      "date": "Unknown"
     },
     {
       "doc_id": "DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF",
@@ -2318,7 +2746,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "oceanofpdf-com-the-shifting-realities-of-pk-dick-philip-k-dick"
+      "slug": "oceanofpdf-com-the-shifting-realities-of-pk-dick-philip-k-dick",
+      "date": "1995"
     },
     {
       "doc_id": "DOC_ARCH_OXFORD_BOOKWORMS_LIBRARY_STAGE_5_OXFORD_",
@@ -2326,7 +2755,8 @@
       "doc_type": "novel",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "oxford-bookworms-library-stage-5-oxford-bookworms-library-stage-5-do-androids-dr"
+      "slug": "oxford-bookworms-library-stage-5-oxford-bookworms-library-stage-5-do-androids-dr",
+      "date": "2007"
     },
     {
       "doc_id": "DOC_ARCH_PDF_THE_APOCOLYPTIC_VISION_OF_PHILIP_K_D",
@@ -2334,7 +2764,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "pdf-the-apocolyptic-vision-of-philip-k-dick"
+      "slug": "pdf-the-apocolyptic-vision-of-philip-k-dick",
+      "date": "Unknown (c. 1990s-2000s)"
     },
     {
       "doc_id": "DOC_ARCH_PHILIP_K_DICK_THE_PHILIP_K_DICK_READER",
@@ -2342,7 +2773,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "philip-k-dick-the-philip-k-dick-reader"
+      "slug": "philip-k-dick-the-philip-k-dick-reader",
+      "date": "1997"
     },
     {
       "doc_id": "DOC_ARCH_PKD_MAGAZINE_INTERVIEWS",
@@ -2350,7 +2782,8 @@
       "doc_type": "interview",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "pkd-magazine-interviews"
+      "slug": "pkd-magazine-interviews",
+      "date": "Unknown"
     },
     {
       "doc_id": "DOC_ARCH_PKD_TIMELINE",
@@ -2358,7 +2791,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "pkd-timeline"
+      "slug": "pkd-timeline",
+      "date": "Unknown"
     },
     {
       "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1984_MAR_VOL_11_",
@@ -2366,7 +2800,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "science-fiction-studies-1984-mar-vol-11-iss-1-towards-a-theory-of-paranoia-the-s"
+      "slug": "science-fiction-studies-1984-mar-vol-11-iss-1-towards-a-theory-of-paranoia-the-s",
+      "date": "1984"
     },
     {
       "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1991_JUL_VOL_18_",
@@ -2374,7 +2809,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "science-fiction-studies-1991-jul-vol-18-iss-2-dick-deception-and-dissociation-a-"
+      "slug": "science-fiction-studies-1991-jul-vol-18-iss-2-dick-deception-and-dissociation-a-",
+      "date": "1991"
     },
     {
       "doc_id": "DOC_ARCH_THE_GANYMEDE_TAKEOVER_PHILIP_K_DICK_AMP_",
@@ -2382,7 +2818,8 @@
       "doc_type": "novel",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "the-ganymede-takeover-philip-k-dick-amp-amp-ray-nelson-1967-ace-books-112999899-"
+      "slug": "the-ganymede-takeover-philip-k-dick-amp-amp-ray-nelson-1967-ace-books-112999899-",
+      "date": "1967"
     },
     {
       "doc_id": "DOC_ARCH_THE_PALM_TREE_GARDEN_OF_PHILIP_RYDEEN_PA",
@@ -2390,7 +2827,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "the-palm-tree-garden-of-philip-rydeen-paul"
+      "slug": "the-palm-tree-garden-of-philip-rydeen-paul",
+      "date": "1999"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_001",
@@ -2398,7 +2836,8 @@
       "doc_type": "exegesis_section",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "section-001"
+      "slug": "section-001",
+      "date": "February 27, 1975"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_003",
@@ -2406,7 +2845,8 @@
       "doc_type": "exegesis_section",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "section-003"
+      "slug": "section-003",
+      "date": "circa 1975-1976"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_005",
@@ -2414,7 +2854,8 @@
       "doc_type": "exegesis_section",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "section-005"
+      "slug": "section-005",
+      "date": "March 5, 1975"
     }
   ],
   "related_terms": [

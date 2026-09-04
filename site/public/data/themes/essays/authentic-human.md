@@ -118,7 +118,7 @@ In a Cold War stalemate between the Western bloc ('Wes-bloc') and the Eastern bl
 
 ### The Electric Ant
 
-Garson Poole wakes in hospital after a crash, missing a right hand and feeling no pain, and is informed by his doctor that he is not a man but an 'electric ant' — an organic robot. In a story collection like [The Electric Ant](/works/the-electric-ant), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Garson Poole wakes in hospital after a crash, missing a right hand and feeling no pain, and is informed by his doctor that he is not a man but an 'electric ant' — an organic robot. In a story collection like The Electric Ant, that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Preserving Machine and Other Stories
 
@@ -174,7 +174,7 @@ This anthology gathers ten Philip K. In a story collection like [Electric Dreams
 
 ### Second Variety
 
-Six years into a nuclear war that has left most of the northern hemisphere ash, the American government has withdrawn to a Moon base and left its troops dug into bunkers on a dead Earth. In a story collection like [Second Variety](/works/second-variety), that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Six years into a nuclear war that has left most of the northern hemisphere ash, the American government has withdrawn to a Moon base and left its troops dug into bunkers on a dead Earth. In a story collection like Second Variety, that premise becomes a thematic pressure point instead of background decoration. Dick stages contrast pairs, ethical tests, and empathic reversals to ask who deserves to count as human. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Selected Stories of Philip K. Dick
 

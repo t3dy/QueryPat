@@ -25,6 +25,8 @@
   "first_appearance": null,
   "peak_period_start": null,
   "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
   "evidence_packets": [
     {
       "ev_id": "SEV_PSYCHOLOGY_paranoia_001",
@@ -47,7 +49,10 @@
             "paranoia"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 503 to 311 chars",
+          "date": "1991"
         },
         {
           "passage_id": 19581,
@@ -60,7 +65,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_156",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19533,
@@ -73,7 +81,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_04",
+          "citation": "Fair-use trimmed from 662 to 417 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19553,
@@ -86,7 +97,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19582,
@@ -99,7 +113,10 @@
             "conspiracy"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_105",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19554,
@@ -112,7 +129,10 @@
             "conspiracy"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19534,
@@ -125,7 +145,10 @@
             "conspiracy"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_06",
+          "citation": "Fair-use trimmed from 873 to 496 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19555,
@@ -138,7 +161,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": "Fair-use trimmed from 505 to 454 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19556,
@@ -151,7 +177,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+          "citation": "Fair-use trimmed from 608 to 464 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19557,
@@ -164,7 +193,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": "Fair-use trimmed from 604 to 500 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19558,
@@ -177,7 +209,10 @@
             "paranoia"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_329",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19532,
@@ -190,7 +225,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-12_Dorothy_01",
+          "citation": "Fair-use trimmed from 534 to 357 chars",
+          "date": "September 12, 1976"
         },
         {
           "passage_id": 19535,
@@ -203,7 +241,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_45",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19583,
@@ -216,7 +257,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_152",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19559,
@@ -229,7 +273,10 @@
             "Paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": "Fair-use trimmed from 526 to 422 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19527,
@@ -242,7 +289,10 @@
             "paranoid"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_23",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 19560,
@@ -255,7 +305,10 @@
             "paranoid"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+          "citation": "Fair-use trimmed from 572 to 429 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19561,
@@ -268,7 +321,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19562,
@@ -281,7 +337,10 @@
             "conspiracy"
           ],
           "claim_type": "definition",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_312",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19536,
@@ -294,7 +353,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+          "citation": null,
+          "date": "September 15, 1976"
         }
       ]
     },
@@ -319,7 +381,10 @@
             "paranoia"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 503 to 311 chars",
+          "date": "1991"
         },
         {
           "passage_id": 19581,
@@ -332,7 +397,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_156",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19533,
@@ -345,7 +413,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_04",
+          "citation": "Fair-use trimmed from 662 to 417 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19553,
@@ -358,7 +429,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19582,
@@ -371,7 +445,10 @@
             "conspiracy"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_105",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19554,
@@ -384,7 +461,10 @@
             "conspiracy"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19534,
@@ -397,7 +477,10 @@
             "conspiracy"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_06",
+          "citation": "Fair-use trimmed from 873 to 496 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19555,
@@ -410,7 +493,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": "Fair-use trimmed from 505 to 454 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19556,
@@ -423,7 +509,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+          "citation": "Fair-use trimmed from 608 to 464 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19557,
@@ -436,7 +525,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": "Fair-use trimmed from 604 to 500 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19558,
@@ -449,7 +541,10 @@
             "paranoia"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_329",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19532,
@@ -462,7 +557,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-12_Dorothy_01",
+          "citation": "Fair-use trimmed from 534 to 357 chars",
+          "date": "September 12, 1976"
         },
         {
           "passage_id": 19535,
@@ -475,7 +573,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_45",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19583,
@@ -488,7 +589,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_152",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19559,
@@ -501,7 +605,10 @@
             "Paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": "Fair-use trimmed from 526 to 422 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19527,
@@ -514,7 +621,10 @@
             "paranoid"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_23",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 19560,
@@ -527,7 +637,10 @@
             "paranoid"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+          "citation": "Fair-use trimmed from 572 to 429 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19561,
@@ -540,7 +653,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19562,
@@ -553,7 +669,10 @@
             "conspiracy"
           ],
           "claim_type": "definition",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_312",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19536,
@@ -566,7 +685,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+          "citation": null,
+          "date": "September 15, 1976"
         }
       ]
     },
@@ -591,7 +713,10 @@
             "paranoia"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 503 to 311 chars",
+          "date": "1991"
         },
         {
           "passage_id": 19581,
@@ -604,7 +729,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_156",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19533,
@@ -617,7 +745,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_04",
+          "citation": "Fair-use trimmed from 662 to 417 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19553,
@@ -630,7 +761,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19582,
@@ -643,7 +777,10 @@
             "conspiracy"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_105",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19554,
@@ -656,7 +793,10 @@
             "conspiracy"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19534,
@@ -669,7 +809,10 @@
             "conspiracy"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_06",
+          "citation": "Fair-use trimmed from 873 to 496 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19555,
@@ -682,7 +825,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": "Fair-use trimmed from 505 to 454 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19556,
@@ -695,7 +841,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+          "citation": "Fair-use trimmed from 608 to 464 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19557,
@@ -708,7 +857,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": "Fair-use trimmed from 604 to 500 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19558,
@@ -721,7 +873,10 @@
             "paranoia"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_329",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19532,
@@ -734,7 +889,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-12_Dorothy_01",
+          "citation": "Fair-use trimmed from 534 to 357 chars",
+          "date": "September 12, 1976"
         },
         {
           "passage_id": 19535,
@@ -747,7 +905,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_45",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19583,
@@ -760,7 +921,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_152",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19559,
@@ -773,7 +937,10 @@
             "Paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": "Fair-use trimmed from 526 to 422 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19527,
@@ -786,7 +953,10 @@
             "paranoid"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_23",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 19560,
@@ -799,7 +969,10 @@
             "paranoid"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+          "citation": "Fair-use trimmed from 572 to 429 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19561,
@@ -812,7 +985,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19562,
@@ -825,7 +1001,10 @@
             "conspiracy"
           ],
           "claim_type": "definition",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_312",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19536,
@@ -838,7 +1017,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+          "citation": null,
+          "date": "September 15, 1976"
         }
       ]
     },
@@ -863,7 +1045,10 @@
             "paranoia"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 503 to 311 chars",
+          "date": "1991"
         },
         {
           "passage_id": 19581,
@@ -876,7 +1061,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_156",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19533,
@@ -889,7 +1077,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_04",
+          "citation": "Fair-use trimmed from 662 to 417 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19553,
@@ -902,7 +1093,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19582,
@@ -915,7 +1109,10 @@
             "conspiracy"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_105",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19554,
@@ -928,7 +1125,10 @@
             "conspiracy"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19534,
@@ -941,7 +1141,10 @@
             "conspiracy"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_06",
+          "citation": "Fair-use trimmed from 873 to 496 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19555,
@@ -954,7 +1157,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": "Fair-use trimmed from 505 to 454 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19556,
@@ -967,7 +1173,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+          "citation": "Fair-use trimmed from 608 to 464 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19557,
@@ -980,7 +1189,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": "Fair-use trimmed from 604 to 500 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19558,
@@ -993,7 +1205,10 @@
             "paranoia"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_329",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19532,
@@ -1006,7 +1221,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-12_Dorothy_01",
+          "citation": "Fair-use trimmed from 534 to 357 chars",
+          "date": "September 12, 1976"
         },
         {
           "passage_id": 19535,
@@ -1019,7 +1237,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_45",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19583,
@@ -1032,7 +1253,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_152",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19559,
@@ -1045,7 +1269,10 @@
             "Paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": "Fair-use trimmed from 526 to 422 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19527,
@@ -1058,7 +1285,10 @@
             "paranoid"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_23",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 19560,
@@ -1071,7 +1301,10 @@
             "paranoid"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+          "citation": "Fair-use trimmed from 572 to 429 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19561,
@@ -1084,7 +1317,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19562,
@@ -1097,7 +1333,10 @@
             "conspiracy"
           ],
           "claim_type": "definition",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_312",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19536,
@@ -1110,7 +1349,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+          "citation": null,
+          "date": "September 15, 1976"
         }
       ]
     },
@@ -1135,7 +1377,10 @@
             "paranoia"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 503 to 311 chars",
+          "date": "1991"
         },
         {
           "passage_id": 19581,
@@ -1148,7 +1393,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_156",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19533,
@@ -1161,7 +1409,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_04",
+          "citation": "Fair-use trimmed from 662 to 417 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19553,
@@ -1174,7 +1425,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19582,
@@ -1187,7 +1441,10 @@
             "conspiracy"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_105",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19554,
@@ -1200,7 +1457,10 @@
             "conspiracy"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19534,
@@ -1213,7 +1473,10 @@
             "conspiracy"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_06",
+          "citation": "Fair-use trimmed from 873 to 496 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19555,
@@ -1226,7 +1489,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": "Fair-use trimmed from 505 to 454 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19556,
@@ -1239,7 +1505,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+          "citation": "Fair-use trimmed from 608 to 464 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19557,
@@ -1252,7 +1521,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": "Fair-use trimmed from 604 to 500 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19558,
@@ -1265,7 +1537,10 @@
             "paranoia"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_329",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19532,
@@ -1278,7 +1553,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-12_Dorothy_01",
+          "citation": "Fair-use trimmed from 534 to 357 chars",
+          "date": "September 12, 1976"
         },
         {
           "passage_id": 19535,
@@ -1291,7 +1569,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_45",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19583,
@@ -1304,7 +1585,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_152",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19559,
@@ -1317,7 +1601,10 @@
             "Paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": "Fair-use trimmed from 526 to 422 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19527,
@@ -1330,7 +1617,10 @@
             "paranoid"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_23",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 19560,
@@ -1343,7 +1633,10 @@
             "paranoid"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+          "citation": "Fair-use trimmed from 572 to 429 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19561,
@@ -1356,7 +1649,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19562,
@@ -1369,7 +1665,10 @@
             "conspiracy"
           ],
           "claim_type": "definition",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_312",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19536,
@@ -1382,7 +1681,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+          "citation": null,
+          "date": "September 15, 1976"
         }
       ]
     },
@@ -1407,7 +1709,10 @@
             "paranoia"
           ],
           "claim_type": "allegory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 503 to 311 chars",
+          "date": "1991"
         },
         {
           "passage_id": 19581,
@@ -1420,7 +1725,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_156",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19533,
@@ -1433,7 +1741,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_04",
+          "citation": "Fair-use trimmed from 662 to 417 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19553,
@@ -1446,7 +1757,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19582,
@@ -1459,7 +1773,10 @@
             "conspiracy"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_105",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19554,
@@ -1472,7 +1789,10 @@
             "conspiracy"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19534,
@@ -1485,7 +1805,10 @@
             "conspiracy"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_06",
+          "citation": "Fair-use trimmed from 873 to 496 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19555,
@@ -1498,7 +1821,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": "Fair-use trimmed from 505 to 454 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19556,
@@ -1511,7 +1837,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+          "citation": "Fair-use trimmed from 608 to 464 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19557,
@@ -1524,7 +1853,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": "Fair-use trimmed from 604 to 500 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19558,
@@ -1537,7 +1869,10 @@
             "paranoia"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_329",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19532,
@@ -1550,7 +1885,10 @@
             "conspiracy"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-12_Dorothy_01",
+          "citation": "Fair-use trimmed from 534 to 357 chars",
+          "date": "September 12, 1976"
         },
         {
           "passage_id": 19535,
@@ -1563,7 +1901,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_45",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 19583,
@@ -1576,7 +1917,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_152",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 19559,
@@ -1589,7 +1933,10 @@
             "Paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": "Fair-use trimmed from 526 to 422 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19527,
@@ -1602,7 +1949,10 @@
             "paranoid"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_23",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 19560,
@@ -1615,7 +1965,10 @@
             "paranoid"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+          "citation": "Fair-use trimmed from 572 to 429 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19561,
@@ -1628,7 +1981,10 @@
             "paranoid"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_128",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19562,
@@ -1641,7 +1997,10 @@
             "conspiracy"
           ],
           "claim_type": "definition",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_312",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 19536,
@@ -1654,7 +2013,10 @@
             "paranoia"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_47",
+          "citation": null,
+          "date": "September 15, 1976"
         }
       ]
     }
@@ -1670,14 +2032,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "When the novel comes cut you can read about it in detail. For exactly one year this entity communicated with me, although the theolepsy was only s few days in duration; still, during those days, I possessed its wisdom and some of its power, and saw the universe quite differently, and my own purpose and reason for being here; in fact, for having been born.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-12_Dorothy_01",
+        "citation": "Fair-use trimmed from 534 to 357 chars"
       },
       "passage_b": {
         "passage_id": 19513,
         "lane": "C",
         "doc_title": "The Holy Family from Outer Space: Reconsidering Philip K. Dick's The Divine Invasion",
         "passage_text": "assessment of Philip Kindred Dick’s oeuvre:\nAlthough Dick wrote a number of novels within [. . .] Realist conventions, he perceived \nhimself as a genre writer [. . .] To lift two or three Dick novels into the ‘literate’ New \nWave or into a separate tradition of SF-as-critical-theory is to canonize by isolating \nthose works from the confusing and confused avalanche of SF he produced in the \n1960s.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 503 to 399 chars"
       }
     },
     {
@@ -1690,14 +2056,18 @@
         "lane": "B",
         "doc_title": "Letter",
         "passage_text": "They have a vast info-generating + processing technology here on this planet! Valis is a construct + not the Logos - that's nonsense, to think it's the Logos. Inadvertently I blew the whistle on them; I guess they're benign, but one thing they are for sure is - secret. Hence \"Valis\" wasn't supposed to be. I let the cat out of the bag. Now it's making sense. Much of what's in \"Valis\" is true - it's not superstitio-occult nonsense! (As I say supra, p 10 passim).",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+        "citation": "Fair-use trimmed from 608 to 464 chars"
       },
       "passage_b": {
         "passage_id": 19513,
         "lane": "C",
         "doc_title": "The Holy Family from Outer Space: Reconsidering Philip K. Dick's The Divine Invasion",
         "passage_text": "assessment of Philip Kindred Dick’s oeuvre:\nAlthough Dick wrote a number of novels within [. . .] Realist conventions, he perceived \nhimself as a genre writer [. . .] To lift two or three Dick novels into the ‘literate’ New \nWave or into a separate tradition of SF-as-critical-theory is to canonize by isolating \nthose works from the confusing and confused avalanche of SF he produced in the \n1960s.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 503 to 399 chars"
       }
     },
     {
@@ -1710,14 +2080,18 @@
         "lane": "B",
         "doc_title": "Letter",
         "passage_text": "\"Valis\" - what a scoop! The novelist + reporter in me got the upper hand over the conspirator! We have been invaded + I wrote about it. I may have depicted it with favor, but depict it I did, for better or worse. Oh well; Thomas + his cohorts need not worry; no one will believe \"Valis\"; I wrote it up in such a way as to discredit it. Mental illness + all. Maybe. Maybe not. But something did go wrong due to the pentathol, etc.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_306",
+        "citation": "Fair-use trimmed from 572 to 429 chars"
       },
       "passage_b": {
         "passage_id": 19513,
         "lane": "C",
         "doc_title": "The Holy Family from Outer Space: Reconsidering Philip K. Dick's The Divine Invasion",
         "passage_text": "assessment of Philip Kindred Dick’s oeuvre:\nAlthough Dick wrote a number of novels within [. . .] Realist conventions, he perceived \nhimself as a genre writer [. . .] To lift two or three Dick novels into the ‘literate’ New \nWave or into a separate tradition of SF-as-critical-theory is to canonize by isolating \nthose works from the confusing and confused avalanche of SF he produced in the \n1960s.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 503 to 399 chars"
       }
     },
     {
@@ -1730,14 +2104,18 @@
         "lane": "B",
         "doc_title": "Letter",
         "passage_text": "I lay there comparing Valis with ABBA. + realized, \"Valis is logically what you'd expect in a superior life form, + it can seem to be God - up until -+only until- you do experience God, + then you can see the difference; viz: \"if (i.e. since) ABBA is God, then what is Valis?\" Valis is here, arranges physical information, rides + cooks our media, is camouflaged, has invaded our world.¹ I saw Valis because Thomas came to the surface in me - due to the pentathol, primarily.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_304",
+        "citation": "Fair-use trimmed from 693 to 475 chars"
       },
       "passage_b": {
         "passage_id": 19513,
         "lane": "C",
         "doc_title": "The Holy Family from Outer Space: Reconsidering Philip K. Dick's The Divine Invasion",
         "passage_text": "assessment of Philip Kindred Dick’s oeuvre:\nAlthough Dick wrote a number of novels within [. . .] Realist conventions, he perceived \nhimself as a genre writer [. . .] To lift two or three Dick novels into the ‘literate’ New \nWave or into a separate tradition of SF-as-critical-theory is to canonize by isolating \nthose works from the confusing and confused avalanche of SF he produced in the \n1960s.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 503 to 399 chars"
       }
     },
     {
@@ -1750,14 +2128,18 @@
         "lane": "B",
         "doc_title": "Letter",
         "passage_text": "Then it needs our communications media for it to function. This isn't the will of God! This is all going on as what I call Valis' information metabolism. We're back to an information life form. It comes into existence only in the interface (arrangement of physical objects) that it controls. Controls. Does it control the world, then? If the grid/lens exists for the primary purpose of decyphering Valis' information then what we have is a titanic conspiracy involving human societies + human...",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_308",
+        "citation": "Fair-use trimmed from 501 to 495 chars"
       },
       "passage_b": {
         "passage_id": 19513,
         "lane": "C",
         "doc_title": "The Holy Family from Outer Space: Reconsidering Philip K. Dick's The Divine Invasion",
         "passage_text": "assessment of Philip Kindred Dick’s oeuvre:\nAlthough Dick wrote a number of novels within [. . .] Realist conventions, he perceived \nhimself as a genre writer [. . .] To lift two or three Dick novels into the ‘literate’ New \nWave or into a separate tradition of SF-as-critical-theory is to canonize by isolating \nthose works from the confusing and confused avalanche of SF he produced in the \n1960s.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 503 to 399 chars"
       }
     }
   ],
@@ -1882,7 +2264,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 28,
-      "slug": "section-016"
+      "slug": "section-016",
+      "date": "October 10, 1978"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_015",
@@ -1890,7 +2273,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 20,
-      "slug": "section-015"
+      "slug": "section-015",
+      "date": "September 15, 1976"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_017",
@@ -1898,7 +2282,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 10,
-      "slug": "section-017"
+      "slug": "section-017",
+      "date": "April 16, 1981"
     },
     {
       "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1984_MAR_VOL_11_",
@@ -1906,7 +2291,8 @@
       "doc_type": "scholarship",
       "relevance": "substantial",
       "passage_count": 5,
-      "slug": "science-fiction-studies-1984-mar-vol-11-iss-1-towards-a-theory-of-paranoia-the-s"
+      "slug": "science-fiction-studies-1984-mar-vol-11-iss-1-towards-a-theory-of-paranoia-the-s",
+      "date": "1984"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_013",
@@ -1914,7 +2300,8 @@
       "doc_type": "exegesis_section",
       "relevance": "substantial",
       "passage_count": 3,
-      "slug": "section-013"
+      "slug": "section-013",
+      "date": "November 5, 1975"
     },
     {
       "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1991_MAR_VOL_18_",
@@ -1922,7 +2309,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 2,
-      "slug": "science-fiction-studies-1991-mar-vol-18-iss-1-the-two-faces-of-philip-k-dick-les"
+      "slug": "science-fiction-studies-1991-mar-vol-18-iss-1-the-two-faces-of-philip-k-dick-les",
+      "date": "1991"
     },
     {
       "doc_id": "DOC_ARCH_THE_BREAK_IN_COPY",
@@ -1930,7 +2318,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 2,
-      "slug": "the-break-in-copy"
+      "slug": "the-break-in-copy",
+      "date": "2024"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_010",
@@ -1938,7 +2327,8 @@
       "doc_type": "exegesis_section",
       "relevance": "mentions",
       "passage_count": 2,
-      "slug": "section-010"
+      "slug": "section-010",
+      "date": "circa 1975-1976"
     },
     {
       "doc_id": "DOC_ARCH_EXTRAPOLATION_2011_JAN_VOL_52_ISS_2_THE_",
@@ -1946,7 +2336,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "extrapolation-2011-jan-vol-52-iss-2-the-holy-family-from-outer-space-reconsideri"
+      "slug": "extrapolation-2011-jan-vol-52-iss-2-the-holy-family-from-outer-space-reconsideri",
+      "date": "2011"
     },
     {
       "doc_id": "DOC_ARCH_PHILIP_K_DICK_SECOND_VARIETY_AND_OTHER_C",
@@ -1954,7 +2345,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "philip-k-dick-second-variety-and-other-classic-stories"
+      "slug": "philip-k-dick-second-variety-and-other-classic-stories",
+      "date": "1991"
     },
     {
       "doc_id": "DOC_ARCH_SCIENCE_FICTION_STUDIES_1991_JUL_VOL_18_",
@@ -1962,7 +2354,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "science-fiction-studies-1991-jul-vol-18-iss-2-dick-deception-and-dissociation-a-"
+      "slug": "science-fiction-studies-1991-jul-vol-18-iss-2-dick-deception-and-dissociation-a-",
+      "date": "1991"
     },
     {
       "doc_id": "DOC_ARCH_SCRAT044",
@@ -1970,7 +2363,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "scrat044"
+      "slug": "scrat044",
+      "date": "2001"
     },
     {
       "doc_id": "DOC_ARCH_UTOPIAN_STUDIES_VOL_7_ISS_2_SEARCH_FOR_P",
@@ -1978,7 +2372,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "utopian-studies-vol-7-iss-2-search-for-philip-k-dick-1928-1982-a-memoir-and-biog"
+      "slug": "utopian-studies-vol-7-iss-2-search-for-philip-k-dick-1928-1982-a-memoir-and-biog",
+      "date": "1996"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_014",
@@ -1986,7 +2381,8 @@
       "doc_type": "exegesis_section",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "section-014"
+      "slug": "section-014",
+      "date": "September 12, 1976"
     }
   ],
   "related_terms": [],

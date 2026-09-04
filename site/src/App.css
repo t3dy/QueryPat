@@ -1143,6 +1143,8 @@ a:hover { color: var(--accent-light); text-decoration: underline; }
 .lane-a { background: #dbeafe; color: #1e40af; }
 .lane-b { background: #fef3c7; color: #92400e; }
 .lane-c { background: #d1fae5; color: #065f46; }
+.lane-d { background: #ede9fe; color: #5b21b6; }
+.lane-e { background: #ffe4e6; color: #9f1239; }
 
 /* ── Studies: Lane filter toggles ── */
 .lane-filter {
@@ -1168,6 +1170,8 @@ a:hover { color: var(--accent-light); text-decoration: underline; }
 .lane-toggle-a.active { background: #dbeafe; color: #1e40af; border-color: #93bbfd; }
 .lane-toggle-b.active { background: #fef3c7; color: #92400e; border-color: #fcd34d; }
 .lane-toggle-c.active { background: #d1fae5; color: #065f46; border-color: #6ee7b7; }
+.lane-toggle-d.active { background: #ede9fe; color: #5b21b6; border-color: #c4b5fd; }
+.lane-toggle-e.active { background: #ffe4e6; color: #9f1239; border-color: #fda4af; }
 
 /* ── Studies: Lane distribution bar ── */
 .lane-bar {
@@ -1990,4 +1994,143 @@ a.cm-chip-link:hover {
   padding: 0.6rem 0.85rem;
   margin-top: 1rem;
   font-size: 0.88rem;
+}
+
+/* ── Studies: evidentiary register badges on authored dossier sections ── */
+.register-badge {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1px solid transparent;
+}
+
+.register-a { background: #fef3c7; color: #92400e; border-color: #fcd34d; }
+.register-b { background: #dbeafe; color: #1e40af; border-color: #93bbfd; }
+.register-c { background: #d1fae5; color: #065f46; border-color: #6ee7b7; }
+.register-d { background: #f3e8ff; color: #6b21a8; border-color: #d8b4fe; }
+
+.dossier-essay .detail-section h2 { scroll-margin-top: 1rem; }
+
+/* ── Studies: per-mention cards ── */
+.mention-group { margin-top: 1.75rem; }
+
+.mention-group-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  font-size: 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.mention-group-count {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.05rem 0.5rem;
+}
+
+.mention-group-blurb {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0 0 0.9rem;
+}
+
+.mention-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 0.9rem;
+}
+
+.mention-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  padding: 0.9rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.mention-card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.55rem;
+}
+
+.mention-card-cite {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.mention-card-context {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  margin: 0 0 0.75rem;
+}
+
+.mention-card-pith {
+  margin: 0 0 0.75rem;
+  padding: 0.55rem 0 0.55rem 0.85rem;
+  border-left: 3px solid var(--accent, #b45309);
+  background: transparent;
+}
+
+.mention-card-pith p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  font-style: italic;
+}
+
+.mention-card-pith cite {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.74rem;
+  font-style: normal;
+  color: var(--text-muted);
+}
+
+.mention-card-foot {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: 0.35rem;
+}
+
+.mention-card-link { font-size: 0.78rem; white-space: nowrap; }
+
+.mention-card-note-toggle {
+  font-size: 0.74rem;
+  background: none;
+  border: none;
+  border-bottom: 1px dotted var(--text-muted);
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0;
+  font-family: var(--font-body);
+}
+
+.mention-card-note {
+  margin: 0.6rem 0 0;
+  padding: 0.55rem 0.7rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+}
+
+@media (max-width: 640px) {
+  .mention-cards { grid-template-columns: 1fr; }
 }

@@ -25,6 +25,8 @@
   "first_appearance": null,
   "peak_period_start": null,
   "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
   "evidence_packets": [
     {
       "ev_id": "SEV_AI_simulation_001",
@@ -47,7 +49,10 @@
             "fake world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_229",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18717,
@@ -60,7 +65,10 @@
             "fake world"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_01",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18718,
@@ -73,7 +81,10 @@
             "simulated reality"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_65",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18719,
@@ -86,7 +97,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18720,
@@ -99,7 +113,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18721,
@@ -112,7 +129,10 @@
             "simulated reality"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_242",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18722,
@@ -125,7 +145,10 @@
             "simulation"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_234",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18723,
@@ -138,7 +161,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18603,
@@ -151,7 +177,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_206",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18724,
@@ -164,7 +193,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18604,
@@ -177,7 +209,10 @@
             "simulated world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_201",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18594,
@@ -190,7 +225,10 @@
             "virtual reality"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 526 to 446 chars",
+          "date": "1995"
         },
         {
           "passage_id": 18725,
@@ -203,7 +241,10 @@
             "simulation"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_296",
+          "citation": "Fair-use trimmed from 522 to 417 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18726,
@@ -216,7 +257,10 @@
             "simulated"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_87",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18605,
@@ -229,7 +273,10 @@
             "illusory world"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_209",
+          "citation": "Fair-use trimmed from 593 to 494 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18727,
@@ -242,7 +289,10 @@
             "simulated world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_229",
+          "citation": "Fair-use trimmed from 745 to 493 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18728,
@@ -255,7 +305,10 @@
             "simulation"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_94",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18597,
@@ -268,7 +321,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_05",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 18729,
@@ -281,7 +337,10 @@
             "simulated reality"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_46",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18606,
@@ -294,7 +353,10 @@
             "simulation"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": "Fair-use trimmed from 612 to 500 chars",
+          "date": "September 15, 1976"
         }
       ]
     },
@@ -319,7 +381,10 @@
             "fake world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_229",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18717,
@@ -332,7 +397,10 @@
             "fake world"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_01",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18718,
@@ -345,7 +413,10 @@
             "simulated reality"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_65",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18719,
@@ -358,7 +429,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18720,
@@ -371,7 +445,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18721,
@@ -384,7 +461,10 @@
             "simulated reality"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_242",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18722,
@@ -397,7 +477,10 @@
             "simulation"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_234",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18723,
@@ -410,7 +493,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18603,
@@ -423,7 +509,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_206",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18724,
@@ -436,7 +525,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18604,
@@ -449,7 +541,10 @@
             "simulated world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_201",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18594,
@@ -462,7 +557,10 @@
             "virtual reality"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 526 to 446 chars",
+          "date": "1995"
         },
         {
           "passage_id": 18725,
@@ -475,7 +573,10 @@
             "simulation"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_296",
+          "citation": "Fair-use trimmed from 522 to 417 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18726,
@@ -488,7 +589,10 @@
             "simulated"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_87",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18605,
@@ -501,7 +605,10 @@
             "illusory world"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_209",
+          "citation": "Fair-use trimmed from 593 to 494 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18727,
@@ -514,7 +621,10 @@
             "simulated world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_229",
+          "citation": "Fair-use trimmed from 745 to 493 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18728,
@@ -527,7 +637,10 @@
             "simulation"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_94",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18597,
@@ -540,7 +653,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_05",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 18729,
@@ -553,7 +669,10 @@
             "simulated reality"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_46",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18606,
@@ -566,7 +685,10 @@
             "simulation"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": "Fair-use trimmed from 612 to 500 chars",
+          "date": "September 15, 1976"
         }
       ]
     },
@@ -591,7 +713,10 @@
             "fake world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_229",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18717,
@@ -604,7 +729,10 @@
             "fake world"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_01",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18718,
@@ -617,7 +745,10 @@
             "simulated reality"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_65",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18719,
@@ -630,7 +761,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18720,
@@ -643,7 +777,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18721,
@@ -656,7 +793,10 @@
             "simulated reality"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_242",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18722,
@@ -669,7 +809,10 @@
             "simulation"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_234",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18723,
@@ -682,7 +825,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18603,
@@ -695,7 +841,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_206",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18724,
@@ -708,7 +857,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18604,
@@ -721,7 +873,10 @@
             "simulated world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_201",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18594,
@@ -734,7 +889,10 @@
             "virtual reality"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 526 to 446 chars",
+          "date": "1995"
         },
         {
           "passage_id": 18725,
@@ -747,7 +905,10 @@
             "simulation"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_296",
+          "citation": "Fair-use trimmed from 522 to 417 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18726,
@@ -760,7 +921,10 @@
             "simulated"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_87",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18605,
@@ -773,7 +937,10 @@
             "illusory world"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_209",
+          "citation": "Fair-use trimmed from 593 to 494 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18727,
@@ -786,7 +953,10 @@
             "simulated world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_229",
+          "citation": "Fair-use trimmed from 745 to 493 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18728,
@@ -799,7 +969,10 @@
             "simulation"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_94",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18597,
@@ -812,7 +985,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_05",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 18729,
@@ -825,7 +1001,10 @@
             "simulated reality"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_46",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18606,
@@ -838,7 +1017,10 @@
             "simulation"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": "Fair-use trimmed from 612 to 500 chars",
+          "date": "September 15, 1976"
         }
       ]
     },
@@ -863,7 +1045,10 @@
             "fake world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_229",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18717,
@@ -876,7 +1061,10 @@
             "fake world"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_01",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18718,
@@ -889,7 +1077,10 @@
             "simulated reality"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_65",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18719,
@@ -902,7 +1093,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18720,
@@ -915,7 +1109,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18721,
@@ -928,7 +1125,10 @@
             "simulated reality"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_242",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18722,
@@ -941,7 +1141,10 @@
             "simulation"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_234",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18723,
@@ -954,7 +1157,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18603,
@@ -967,7 +1173,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_206",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18724,
@@ -980,7 +1189,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18604,
@@ -993,7 +1205,10 @@
             "simulated world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_201",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18594,
@@ -1006,7 +1221,10 @@
             "virtual reality"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 526 to 446 chars",
+          "date": "1995"
         },
         {
           "passage_id": 18725,
@@ -1019,7 +1237,10 @@
             "simulation"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_296",
+          "citation": "Fair-use trimmed from 522 to 417 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18726,
@@ -1032,7 +1253,10 @@
             "simulated"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_87",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18605,
@@ -1045,7 +1269,10 @@
             "illusory world"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_209",
+          "citation": "Fair-use trimmed from 593 to 494 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18727,
@@ -1058,7 +1285,10 @@
             "simulated world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_229",
+          "citation": "Fair-use trimmed from 745 to 493 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18728,
@@ -1071,7 +1301,10 @@
             "simulation"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_94",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18597,
@@ -1084,7 +1317,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_05",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 18729,
@@ -1097,7 +1333,10 @@
             "simulated reality"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_46",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18606,
@@ -1110,7 +1349,10 @@
             "simulation"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": "Fair-use trimmed from 612 to 500 chars",
+          "date": "September 15, 1976"
         }
       ]
     },
@@ -1135,7 +1377,10 @@
             "fake world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_229",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18717,
@@ -1148,7 +1393,10 @@
             "fake world"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_01",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18718,
@@ -1161,7 +1409,10 @@
             "simulated reality"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_65",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18719,
@@ -1174,7 +1425,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18720,
@@ -1187,7 +1441,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18721,
@@ -1200,7 +1457,10 @@
             "simulated reality"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_242",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18722,
@@ -1213,7 +1473,10 @@
             "simulation"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_234",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18723,
@@ -1226,7 +1489,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18603,
@@ -1239,7 +1505,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_206",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18724,
@@ -1252,7 +1521,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18604,
@@ -1265,7 +1537,10 @@
             "simulated world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_201",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18594,
@@ -1278,7 +1553,10 @@
             "virtual reality"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 526 to 446 chars",
+          "date": "1995"
         },
         {
           "passage_id": 18725,
@@ -1291,7 +1569,10 @@
             "simulation"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_296",
+          "citation": "Fair-use trimmed from 522 to 417 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18726,
@@ -1304,7 +1585,10 @@
             "simulated"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_87",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18605,
@@ -1317,7 +1601,10 @@
             "illusory world"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_209",
+          "citation": "Fair-use trimmed from 593 to 494 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18727,
@@ -1330,7 +1617,10 @@
             "simulated world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_229",
+          "citation": "Fair-use trimmed from 745 to 493 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18728,
@@ -1343,7 +1633,10 @@
             "simulation"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_94",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18597,
@@ -1356,7 +1649,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_05",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 18729,
@@ -1369,7 +1665,10 @@
             "simulated reality"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_46",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18606,
@@ -1382,7 +1681,10 @@
             "simulation"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": "Fair-use trimmed from 612 to 500 chars",
+          "date": "September 15, 1976"
         }
       ]
     },
@@ -1407,7 +1709,10 @@
             "fake world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_229",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18717,
@@ -1420,7 +1725,10 @@
             "fake world"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_01",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18718,
@@ -1433,7 +1741,10 @@
             "simulated reality"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_65",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18719,
@@ -1446,7 +1757,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18720,
@@ -1459,7 +1773,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18721,
@@ -1472,7 +1789,10 @@
             "simulated reality"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_242",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18722,
@@ -1485,7 +1805,10 @@
             "simulation"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_234",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18723,
@@ -1498,7 +1821,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_96",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18603,
@@ -1511,7 +1837,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_206",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18724,
@@ -1524,7 +1853,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_98",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18604,
@@ -1537,7 +1869,10 @@
             "simulated world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_201",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18594,
@@ -1550,7 +1885,10 @@
             "virtual reality"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": null,
+          "citation": "Fair-use trimmed from 526 to 446 chars",
+          "date": "1995"
         },
         {
           "passage_id": 18725,
@@ -1563,7 +1901,10 @@
             "simulation"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_296",
+          "citation": "Fair-use trimmed from 522 to 417 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18726,
@@ -1576,7 +1917,10 @@
             "simulated"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_87",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18605,
@@ -1589,7 +1933,10 @@
             "illusory world"
           ],
           "claim_type": "self_report",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_209",
+          "citation": "Fair-use trimmed from 593 to 494 chars",
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 18727,
@@ -1602,7 +1949,10 @@
             "simulated world"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_229",
+          "citation": "Fair-use trimmed from 745 to 493 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18728,
@@ -1615,7 +1965,10 @@
             "simulation"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_94",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18597,
@@ -1628,7 +1981,10 @@
             "simulated"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_05",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 18729,
@@ -1641,7 +1997,10 @@
             "simulated reality"
           ],
           "claim_type": "comparison",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_46",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 18606,
@@ -1654,7 +2013,10 @@
             "simulation"
           ],
           "claim_type": "definition",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_49",
+          "citation": "Fair-use trimmed from 612 to 500 chars",
+          "date": "September 15, 1976"
         }
       ]
     }
@@ -1670,14 +2032,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "Also, this ratifies the truth + value of the grand theme of my writing. Although I often write about the irreal (or hallucinated) world crowding out the real, the facts are exactly opposite: the real has irrupted into the irreal, literally broken through into it, like Ubik + Runciter into the cold-pac world of \"Ubik\". (Or the way the real thrusts itself into the irreal world in \"Maze\" + finally completely abolishes it.) _Wachet_auf_.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_206",
+        "citation": "Fair-use trimmed from 525 to 437 chars"
       },
       "passage_b": {
         "passage_id": 18592,
         "lane": "C",
         "doc_title": "Will the Real Ubik Please Stand Up? (EdgeScience #20)",
         "passage_text": "His work \nhas also been taken seriously by philosophers ranging from \nJean Beaudrillard2 to Slavoj Žižek,3 and by scholars of religion \nsuch as Jeffrey J. Kripal,4 Erik Davis,5 and Gabriel McKee.6 \nBut perhaps the greatest impact of Dickian thought has been \non popular culture. Dick’s stamp is visible in many ﬁlms, not \njust the ones explicitly based on his ﬁction.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 515 to 367 chars"
       }
     },
     {
@@ -1690,14 +2056,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "But for my immediate purposes, I now view it as, I remembered that USA 1974 is not real - whereupon the disintegration of the \"hologram\" insidiously set in, with a full restitution of my real self + real world breaking through within a month: an inevitable, stealthy process which could have only one outcome: the perceptual + cognative surfacing of the actually real, in place of the simulated.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_223",
+        "citation": null
       },
       "passage_b": {
         "passage_id": 18592,
         "lane": "C",
         "doc_title": "Will the Real Ubik Please Stand Up? (EdgeScience #20)",
         "passage_text": "His work \nhas also been taken seriously by philosophers ranging from \nJean Beaudrillard2 to Slavoj Žižek,3 and by scholars of religion \nsuch as Jeffrey J. Kripal,4 Erik Davis,5 and Gabriel McKee.6 \nBut perhaps the greatest impact of Dickian thought has been \non popular culture. Dick’s stamp is visible in many ﬁlms, not \njust the ones explicitly based on his ﬁction.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 515 to 367 chars"
       }
     },
     {
@@ -1710,14 +2080,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "Since \"Joint\" was SF I naturally put the real time in the future, not the past. Damn it, I've overlooked the extraordinary parallels between \"Joint\" + my \"it's really 70 AD!\" experience. E.g. the dream I had of the dark, old-fashioned house with the archaic window shades, the cracked mirror - + realizing I couldn't get out of of that world without God's help.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_51",
+        "citation": "Fair-use trimmed from 563 to 361 chars"
       },
       "passage_b": {
         "passage_id": 18592,
         "lane": "C",
         "doc_title": "Will the Real Ubik Please Stand Up? (EdgeScience #20)",
         "passage_text": "His work \nhas also been taken seriously by philosophers ranging from \nJean Beaudrillard2 to Slavoj Žižek,3 and by scholars of religion \nsuch as Jeffrey J. Kripal,4 Erik Davis,5 and Gabriel McKee.6 \nBut perhaps the greatest impact of Dickian thought has been \non popular culture. Dick’s stamp is visible in many ﬁlms, not \njust the ones explicitly based on his ﬁction.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 515 to 367 chars"
       }
     },
     {
@@ -1730,14 +2104,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "II (lower) transmits a totally _static_, rigid, ossified + irreal world or worlds, a simulation. I (upper) consists of a living, sentient plan - or living information - forming a real (in contrast to simulated) brain in the midst of the irreal + static prison. Thus at all time there exists 1) the simulated sameness (form II) 2) the real growth + change (form I) The latter is invading + abolishing the former.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_206",
+        "citation": "Fair-use trimmed from 509 to 411 chars"
       },
       "passage_b": {
         "passage_id": 18592,
         "lane": "C",
         "doc_title": "Will the Real Ubik Please Stand Up? (EdgeScience #20)",
         "passage_text": "His work \nhas also been taken seriously by philosophers ranging from \nJean Beaudrillard2 to Slavoj Žižek,3 and by scholars of religion \nsuch as Jeffrey J. Kripal,4 Erik Davis,5 and Gabriel McKee.6 \nBut perhaps the greatest impact of Dickian thought has been \non popular culture. Dick’s stamp is visible in many ﬁlms, not \njust the ones explicitly based on his ﬁction.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 515 to 367 chars"
       }
     },
     {
@@ -1750,14 +2128,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "So neither (A) (\"3 Stigmata\") contains the total true message, nor does (B) (\"Maze\"), but a careful integration of selected themes from both A + B when collated do present the authentic state of being for us 97 N listed in terms of error not truth here is the contents: A) is wrong in assuming the given as real. (A) is rong assuming that the intruding substituting cosmic organism is a spurious mere imitation of reality.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_106",
+        "citation": "Fair-use trimmed from 541 to 422 chars"
       },
       "passage_b": {
         "passage_id": 18592,
         "lane": "C",
         "doc_title": "Will the Real Ubik Please Stand Up? (EdgeScience #20)",
         "passage_text": "His work \nhas also been taken seriously by philosophers ranging from \nJean Beaudrillard2 to Slavoj Žižek,3 and by scholars of religion \nsuch as Jeffrey J. Kripal,4 Erik Davis,5 and Gabriel McKee.6 \nBut perhaps the greatest impact of Dickian thought has been \non popular culture. Dick’s stamp is visible in many ﬁlms, not \njust the ones explicitly based on his ﬁction.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 515 to 367 chars"
       }
     }
   ],
@@ -1834,7 +2216,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 181,
-      "slug": "section-016"
+      "slug": "section-016",
+      "date": "October 10, 1978"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_015",
@@ -1842,7 +2225,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 115,
-      "slug": "section-015"
+      "slug": "section-015",
+      "date": "September 15, 1976"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_017",
@@ -1850,7 +2234,8 @@
       "doc_type": "exegesis_section",
       "relevance": "substantial",
       "passage_count": 9,
-      "slug": "section-017"
+      "slug": "section-017",
+      "date": "April 16, 1981"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_010",
@@ -1858,7 +2243,8 @@
       "doc_type": "exegesis_section",
       "relevance": "substantial",
       "passage_count": 4,
-      "slug": "section-010"
+      "slug": "section-010",
+      "date": "circa 1975-1976"
     },
     {
       "doc_id": "DOC_ARCH_OCEANOFPDF_COM_THE_SHIFTING_REALITIES_OF",
@@ -1866,7 +2252,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 2,
-      "slug": "oceanofpdf-com-the-shifting-realities-of-pk-dick-philip-k-dick"
+      "slug": "oceanofpdf-com-the-shifting-realities-of-pk-dick-philip-k-dick",
+      "date": "1995"
     },
     {
       "doc_id": "DOC_ARCH_02_LAURIE_JUI_HUA_TSENG",
@@ -1874,7 +2261,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "02-laurie-jui-hua-tseng"
+      "slug": "02-laurie-jui-hua-tseng",
+      "date": "Unknown"
     },
     {
       "doc_id": "DOC_ARCH_556512336_WILL_THE_REAL_UBIK_PLEASE_STAN",
@@ -1882,7 +2270,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "556512336-will-the-real-ubik-please-stand-up"
+      "slug": "556512336-will-the-real-ubik-please-stand-up",
+      "date": "2014"
     },
     {
       "doc_id": "DOC_ARCH_COSMOGONY_AND_COSMOLOGY",
@@ -1890,7 +2279,8 @@
       "doc_type": "archive_pdf",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "cosmogony-and-cosmology"
+      "slug": "cosmogony-and-cosmology",
+      "date": "1978"
     },
     {
       "doc_id": "DOC_ARCH_PDF_THE_APOCOLYPTIC_VISION_OF_PHILIP_K_D",
@@ -1898,7 +2288,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "pdf-the-apocolyptic-vision-of-philip-k-dick"
+      "slug": "pdf-the-apocolyptic-vision-of-philip-k-dick",
+      "date": "Unknown (c. 1990s-2000s)"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_013",
@@ -1906,7 +2297,8 @@
       "doc_type": "exegesis_section",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "section-013"
+      "slug": "section-013",
+      "date": "November 5, 1975"
     }
   ],
   "related_terms": [

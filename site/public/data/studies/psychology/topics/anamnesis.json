@@ -26,6 +26,8 @@
   "first_appearance": null,
   "peak_period_start": null,
   "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
   "evidence_packets": [
     {
       "ev_id": "SEV_PSYCHOLOGY_anamnesis_001",
@@ -48,7 +50,10 @@
             "anamnesis"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_16",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16904,
@@ -61,7 +66,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_39",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16905,
@@ -74,7 +82,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_42",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16906,
@@ -87,7 +98,10 @@
             "Anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_44",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16907,
@@ -100,7 +114,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_252",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16908,
@@ -113,7 +130,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_283",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16909,
@@ -126,7 +146,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_298",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17403,
@@ -139,7 +162,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_168",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16910,
@@ -152,7 +178,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_314",
+          "citation": "Fair-use trimmed from 506 to 400 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16634,
@@ -165,7 +194,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_73",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 17404,
@@ -178,7 +210,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_89",
+          "citation": "Fair-use trimmed from 515 to 415 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16615,
@@ -191,7 +226,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_18",
+          "citation": null,
+          "date": "November 5, 1975"
         },
         {
           "passage_id": 16579,
@@ -204,7 +242,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_U_Claudia_16",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 16911,
@@ -217,7 +258,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_18",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16635,
@@ -230,7 +274,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 16912,
@@ -243,7 +290,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_221",
+          "citation": "Fair-use trimmed from 501 to 309 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17405,
@@ -256,7 +306,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_175",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16636,
@@ -269,7 +322,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_159",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 16913,
@@ -282,7 +338,10 @@
             "Anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_122",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17406,
@@ -290,12 +349,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "Since it did pertain to world & world alone!) But (as I say) it was revealed to me tonight that the meta-abstraction (noesis) & anamnesis break the power of the tracking-mechanism to bind, to enclose & enthrall; the person is de facto released instantly, whereupon time, space & causation evaporate as if they were illusory from the beginning : they no longer pertain once one remembers (anamnesis) & understands (noesis/meta-abstraction) : but this comes only as a Gift from God : & , in time, this.",
+          "passage_text": "Since it did pertain to world & world alone!) But (as I say) it was revealed to me tonight that the meta-abstraction (noesis) & anamnesis break the power of the tracking-mechanism to bind, to enclose & enthrall; the person is de facto released instantly, whereupon time, space & causation evaporate as if they were illusory from the beginning : they no longer pertain once one remembers (anamnesis) & understands (noesis/meta-abstraction) : but this comes only as a Gift from God : & , in time, this...",
           "matched_terms": [
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_172",
+          "citation": "Fair-use trimmed from 637 to 502 chars",
+          "date": "April 16, 1981"
         }
       ]
     },
@@ -320,7 +382,10 @@
             "anamnesis"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_16",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16904,
@@ -333,7 +398,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_39",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16905,
@@ -346,7 +414,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_42",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16906,
@@ -359,7 +430,10 @@
             "Anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_44",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16907,
@@ -372,7 +446,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_252",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16908,
@@ -385,7 +462,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_283",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16909,
@@ -398,7 +478,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_298",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17403,
@@ -411,7 +494,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_168",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16910,
@@ -424,7 +510,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_314",
+          "citation": "Fair-use trimmed from 506 to 400 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16634,
@@ -437,7 +526,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_73",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 17404,
@@ -450,7 +542,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_89",
+          "citation": "Fair-use trimmed from 515 to 415 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16615,
@@ -463,7 +558,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_18",
+          "citation": null,
+          "date": "November 5, 1975"
         },
         {
           "passage_id": 16579,
@@ -476,7 +574,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_U_Claudia_16",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 16911,
@@ -489,7 +590,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_18",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16635,
@@ -502,7 +606,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 16912,
@@ -515,7 +622,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_221",
+          "citation": "Fair-use trimmed from 501 to 309 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17405,
@@ -528,7 +638,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_175",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16636,
@@ -541,7 +654,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_159",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 16913,
@@ -554,7 +670,10 @@
             "Anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_122",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17406,
@@ -562,12 +681,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "Since it did pertain to world & world alone!) But (as I say) it was revealed to me tonight that the meta-abstraction (noesis) & anamnesis break the power of the tracking-mechanism to bind, to enclose & enthrall; the person is de facto released instantly, whereupon time, space & causation evaporate as if they were illusory from the beginning : they no longer pertain once one remembers (anamnesis) & understands (noesis/meta-abstraction) : but this comes only as a Gift from God : & , in time, this.",
+          "passage_text": "Since it did pertain to world & world alone!) But (as I say) it was revealed to me tonight that the meta-abstraction (noesis) & anamnesis break the power of the tracking-mechanism to bind, to enclose & enthrall; the person is de facto released instantly, whereupon time, space & causation evaporate as if they were illusory from the beginning : they no longer pertain once one remembers (anamnesis) & understands (noesis/meta-abstraction) : but this comes only as a Gift from God : & , in time, this...",
           "matched_terms": [
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_172",
+          "citation": "Fair-use trimmed from 637 to 502 chars",
+          "date": "April 16, 1981"
         }
       ]
     },
@@ -592,7 +714,10 @@
             "anamnesis"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_16",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16904,
@@ -605,7 +730,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_39",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16905,
@@ -618,7 +746,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_42",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16906,
@@ -631,7 +762,10 @@
             "Anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_44",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16907,
@@ -644,7 +778,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_252",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16908,
@@ -657,7 +794,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_283",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16909,
@@ -670,7 +810,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_298",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17403,
@@ -683,7 +826,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_168",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16910,
@@ -696,7 +842,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_314",
+          "citation": "Fair-use trimmed from 506 to 400 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16634,
@@ -709,7 +858,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_73",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 17404,
@@ -722,7 +874,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_89",
+          "citation": "Fair-use trimmed from 515 to 415 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16615,
@@ -735,7 +890,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_18",
+          "citation": null,
+          "date": "November 5, 1975"
         },
         {
           "passage_id": 16579,
@@ -748,7 +906,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_U_Claudia_16",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 16911,
@@ -761,7 +922,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_18",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16635,
@@ -774,7 +938,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 16912,
@@ -787,7 +954,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_221",
+          "citation": "Fair-use trimmed from 501 to 309 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17405,
@@ -800,7 +970,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_175",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16636,
@@ -813,7 +986,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_159",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 16913,
@@ -826,7 +1002,10 @@
             "Anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_122",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17406,
@@ -834,12 +1013,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "Since it did pertain to world & world alone!) But (as I say) it was revealed to me tonight that the meta-abstraction (noesis) & anamnesis break the power of the tracking-mechanism to bind, to enclose & enthrall; the person is de facto released instantly, whereupon time, space & causation evaporate as if they were illusory from the beginning : they no longer pertain once one remembers (anamnesis) & understands (noesis/meta-abstraction) : but this comes only as a Gift from God : & , in time, this.",
+          "passage_text": "Since it did pertain to world & world alone!) But (as I say) it was revealed to me tonight that the meta-abstraction (noesis) & anamnesis break the power of the tracking-mechanism to bind, to enclose & enthrall; the person is de facto released instantly, whereupon time, space & causation evaporate as if they were illusory from the beginning : they no longer pertain once one remembers (anamnesis) & understands (noesis/meta-abstraction) : but this comes only as a Gift from God : & , in time, this...",
           "matched_terms": [
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_172",
+          "citation": "Fair-use trimmed from 637 to 502 chars",
+          "date": "April 16, 1981"
         }
       ]
     },
@@ -864,7 +1046,10 @@
             "anamnesis"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_16",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16904,
@@ -877,7 +1062,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_39",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16905,
@@ -890,7 +1078,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_42",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16906,
@@ -903,7 +1094,10 @@
             "Anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_44",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16907,
@@ -916,7 +1110,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_252",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16908,
@@ -929,7 +1126,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_283",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16909,
@@ -942,7 +1142,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_298",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17403,
@@ -955,7 +1158,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_168",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16910,
@@ -968,7 +1174,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_314",
+          "citation": "Fair-use trimmed from 506 to 400 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16634,
@@ -981,7 +1190,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_73",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 17404,
@@ -994,7 +1206,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_89",
+          "citation": "Fair-use trimmed from 515 to 415 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16615,
@@ -1007,7 +1222,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_18",
+          "citation": null,
+          "date": "November 5, 1975"
         },
         {
           "passage_id": 16579,
@@ -1020,7 +1238,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_U_Claudia_16",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 16911,
@@ -1033,7 +1254,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_18",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16635,
@@ -1046,7 +1270,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 16912,
@@ -1059,7 +1286,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_221",
+          "citation": "Fair-use trimmed from 501 to 309 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17405,
@@ -1072,7 +1302,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_175",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16636,
@@ -1085,7 +1318,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_159",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 16913,
@@ -1098,7 +1334,10 @@
             "Anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_122",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17406,
@@ -1106,12 +1345,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "Since it did pertain to world & world alone!) But (as I say) it was revealed to me tonight that the meta-abstraction (noesis) & anamnesis break the power of the tracking-mechanism to bind, to enclose & enthrall; the person is de facto released instantly, whereupon time, space & causation evaporate as if they were illusory from the beginning : they no longer pertain once one remembers (anamnesis) & understands (noesis/meta-abstraction) : but this comes only as a Gift from God : & , in time, this.",
+          "passage_text": "Since it did pertain to world & world alone!) But (as I say) it was revealed to me tonight that the meta-abstraction (noesis) & anamnesis break the power of the tracking-mechanism to bind, to enclose & enthrall; the person is de facto released instantly, whereupon time, space & causation evaporate as if they were illusory from the beginning : they no longer pertain once one remembers (anamnesis) & understands (noesis/meta-abstraction) : but this comes only as a Gift from God : & , in time, this...",
           "matched_terms": [
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_172",
+          "citation": "Fair-use trimmed from 637 to 502 chars",
+          "date": "April 16, 1981"
         }
       ]
     },
@@ -1136,7 +1378,10 @@
             "anamnesis"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_16",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16904,
@@ -1149,7 +1394,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_39",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16905,
@@ -1162,7 +1410,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_42",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16906,
@@ -1175,7 +1426,10 @@
             "Anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_44",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16907,
@@ -1188,7 +1442,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_252",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16908,
@@ -1201,7 +1458,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_283",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16909,
@@ -1214,7 +1474,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_298",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17403,
@@ -1227,7 +1490,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_168",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16910,
@@ -1240,7 +1506,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_314",
+          "citation": "Fair-use trimmed from 506 to 400 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16634,
@@ -1253,7 +1522,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_73",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 17404,
@@ -1266,7 +1538,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_89",
+          "citation": "Fair-use trimmed from 515 to 415 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16615,
@@ -1279,7 +1554,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_18",
+          "citation": null,
+          "date": "November 5, 1975"
         },
         {
           "passage_id": 16579,
@@ -1292,7 +1570,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_U_Claudia_16",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 16911,
@@ -1305,7 +1586,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_18",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16635,
@@ -1318,7 +1602,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 16912,
@@ -1331,7 +1618,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_221",
+          "citation": "Fair-use trimmed from 501 to 309 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17405,
@@ -1344,7 +1634,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_175",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16636,
@@ -1357,7 +1650,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_159",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 16913,
@@ -1370,7 +1666,10 @@
             "Anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_122",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17406,
@@ -1378,12 +1677,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "Since it did pertain to world & world alone!) But (as I say) it was revealed to me tonight that the meta-abstraction (noesis) & anamnesis break the power of the tracking-mechanism to bind, to enclose & enthrall; the person is de facto released instantly, whereupon time, space & causation evaporate as if they were illusory from the beginning : they no longer pertain once one remembers (anamnesis) & understands (noesis/meta-abstraction) : but this comes only as a Gift from God : & , in time, this.",
+          "passage_text": "Since it did pertain to world & world alone!) But (as I say) it was revealed to me tonight that the meta-abstraction (noesis) & anamnesis break the power of the tracking-mechanism to bind, to enclose & enthrall; the person is de facto released instantly, whereupon time, space & causation evaporate as if they were illusory from the beginning : they no longer pertain once one remembers (anamnesis) & understands (noesis/meta-abstraction) : but this comes only as a Gift from God : & , in time, this...",
           "matched_terms": [
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_172",
+          "citation": "Fair-use trimmed from 637 to 502 chars",
+          "date": "April 16, 1981"
         }
       ]
     },
@@ -1408,7 +1710,10 @@
             "anamnesis"
           ],
           "claim_type": "comparison",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_16",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16904,
@@ -1421,7 +1726,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_39",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16905,
@@ -1434,7 +1742,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_42",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16906,
@@ -1447,7 +1758,10 @@
             "Anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_44",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16907,
@@ -1460,7 +1774,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_252",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16908,
@@ -1473,7 +1790,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_283",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16909,
@@ -1486,7 +1806,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_298",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17403,
@@ -1499,7 +1822,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_168",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16910,
@@ -1512,7 +1838,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_314",
+          "citation": "Fair-use trimmed from 506 to 400 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16634,
@@ -1525,7 +1854,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_73",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 17404,
@@ -1538,7 +1870,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_89",
+          "citation": "Fair-use trimmed from 515 to 415 chars",
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16615,
@@ -1551,7 +1886,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_18",
+          "citation": null,
+          "date": "November 5, 1975"
         },
         {
           "passage_id": 16579,
@@ -1564,7 +1902,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_U_Claudia_16",
+          "citation": null,
+          "date": "circa 1975-1976"
         },
         {
           "passage_id": 16911,
@@ -1577,7 +1918,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_18",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 16635,
@@ -1590,7 +1934,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_140",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 16912,
@@ -1603,7 +1950,10 @@
             "anamnesis"
           ],
           "claim_type": "self_report",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_221",
+          "citation": "Fair-use trimmed from 501 to 309 chars",
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17405,
@@ -1616,7 +1966,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "high"
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_175",
+          "citation": null,
+          "date": "April 16, 1981"
         },
         {
           "passage_id": 16636,
@@ -1629,7 +1982,10 @@
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_159",
+          "citation": null,
+          "date": "September 15, 1976"
         },
         {
           "passage_id": 16913,
@@ -1642,7 +1998,10 @@
             "Anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_122",
+          "citation": null,
+          "date": "October 10, 1978"
         },
         {
           "passage_id": 17406,
@@ -1650,12 +2009,15 @@
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
           "doc_title": "Pat",
-          "passage_text": "Since it did pertain to world & world alone!) But (as I say) it was revealed to me tonight that the meta-abstraction (noesis) & anamnesis break the power of the tracking-mechanism to bind, to enclose & enthrall; the person is de facto released instantly, whereupon time, space & causation evaporate as if they were illusory from the beginning : they no longer pertain once one remembers (anamnesis) & understands (noesis/meta-abstraction) : but this comes only as a Gift from God : & , in time, this.",
+          "passage_text": "Since it did pertain to world & world alone!) But (as I say) it was revealed to me tonight that the meta-abstraction (noesis) & anamnesis break the power of the tracking-mechanism to bind, to enclose & enthrall; the person is de facto released instantly, whereupon time, space & causation evaporate as if they were illusory from the beginning : they no longer pertain once one remembers (anamnesis) & understands (noesis/meta-abstraction) : but this comes only as a Gift from God : & , in time, this...",
           "matched_terms": [
             "anamnesis"
           ],
           "claim_type": "causal_theory",
-          "confidence": "medium"
+          "confidence": "medium",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_172",
+          "citation": "Fair-use trimmed from 637 to 502 chars",
+          "date": "April 16, 1981"
         }
       ]
     }
@@ -1671,14 +2033,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "EB: \"Maya means wizardy (as well as illusion\"). It goes away when the empirical (?) ego goes away - which, as I have long realized, is exactly what 1) happened to me in 3-74; my ego died (was annihilated, abolished This was a tereying + painful experience - I hung onto it - but look what came as a result! Inner transformation + Gnosis (inc. anamnesis), outer awareness of Brahman I may have lost my family + my gieffrent but I I have seen Brahman, + linked up with it.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_09",
+        "citation": null
       },
       "passage_b": {
         "passage_id": 16577,
         "lane": "C",
         "doc_title": "Pink Light and Iron: Epistemo-Critical Writing in Walter Benjamin and Philip K. Dick",
         "passage_text": "....................................................... 74 \n(3.1) \nCartesian Furies ............................................................................................................... 74 \n(3.2) \nDialectical Oppositions .................................................................................................... 83 \n(3.3) \nAesthetic Oscillations ...................................................................................................... 93 \nChapter 4.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 513 to 483 chars"
       }
     },
     {
@@ -1691,14 +2057,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": ") ego goes away - which, as I have long realized, is exactly what 1) happened to me in 3-74; my ego died (was annihilated, abolished This was a tereying + painful experience - I hung onto it - but look what came as a result! Inner transformation + Gnosis (inc. anamnesis), outer awareness of Brahman I may have lost my family + my gieffrent but I I have seen Brahman, + linked up with it.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_09",
+        "citation": "Fair-use trimmed from 543 to 388 chars"
       },
       "passage_b": {
         "passage_id": 16577,
         "lane": "C",
         "doc_title": "Pink Light and Iron: Epistemo-Critical Writing in Walter Benjamin and Philip K. Dick",
         "passage_text": "....................................................... 74 \n(3.1) \nCartesian Furies ............................................................................................................... 74 \n(3.2) \nDialectical Oppositions .................................................................................................... 83 \n(3.3) \nAesthetic Oscillations ...................................................................................................... 93 \nChapter 4.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 513 to 483 chars"
       }
     },
     {
@@ -1711,14 +2081,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "+ how did he get it? Through an apostolic xtian (CAD 45) who _already_ had achieved immortality + who taught him. Thus we come to the conclusion that because Christ's offer of eternal life was bona fide, certain very early xtians are still alive, secretly, + can teach their gnosis to later persons. It has to do with recapitulation phylogenetically in some way; the individual's psyche or soul or identity is reassembled; via anamnesis it surfaces + takes control, until then it lives on in its own.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_212",
+        "citation": "Fair-use trimmed from 671 to 502 chars"
       },
       "passage_b": {
         "passage_id": 16577,
         "lane": "C",
         "doc_title": "Pink Light and Iron: Epistemo-Critical Writing in Walter Benjamin and Philip K. Dick",
         "passage_text": "....................................................... 74 \n(3.1) \nCartesian Furies ............................................................................................................... 74 \n(3.2) \nDialectical Oppositions .................................................................................................... 83 \n(3.3) \nAesthetic Oscillations ...................................................................................................... 93 \nChapter 4.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 513 to 483 chars"
       }
     },
     {
@@ -1731,14 +2105,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": ".. etc. \"Magus,\" although meaning magician also may mean something akin to our word \"scientist\" as contrasted to \"priest.\") - Consider What is said about the Hermetic Gnostic (presumably of the ancient world: Hermes Tristigistos) - what is meant by \"reflect\"? Anyhow, putting this material about the Hermetics + Bruno together with my view of Christ, we are forced to conclude that Christ was successfully what the Hermetics + Bruno strove for, whether they realized it or not.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_111",
+        "citation": "Fair-use trimmed from 585 to 477 chars"
       },
       "passage_b": {
         "passage_id": 16577,
         "lane": "C",
         "doc_title": "Pink Light and Iron: Epistemo-Critical Writing in Walter Benjamin and Philip K. Dick",
         "passage_text": "....................................................... 74 \n(3.1) \nCartesian Furies ............................................................................................................... 74 \n(3.2) \nDialectical Oppositions .................................................................................................... 83 \n(3.3) \nAesthetic Oscillations ...................................................................................................... 93 \nChapter 4.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 513 to 483 chars"
       }
     },
     {
@@ -1751,14 +2129,18 @@
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "g. the stone hured. The empire destroyed - + this is precisely what we saw in '74: the archetype \"Babylon\" destroyed. the exterior relieving column being the punching through hosts. This is really a stunning breakthrough, acheived by more carefully examining what is meant by the act of remembering. \"He remembered who he was + what he was supposed to do.",
-        "source_mode": "exegesis"
+        "source_mode": "exegesis",
+        "seg_id": "SEG_EXEG_1976-09-15_Dorothy_70",
+        "citation": "Fair-use trimmed from 710 to 355 chars"
       },
       "passage_b": {
         "passage_id": 16577,
         "lane": "C",
         "doc_title": "Pink Light and Iron: Epistemo-Critical Writing in Walter Benjamin and Philip K. Dick",
         "passage_text": "....................................................... 74 \n(3.1) \nCartesian Furies ............................................................................................................... 74 \n(3.2) \nDialectical Oppositions .................................................................................................... 83 \n(3.3) \nAesthetic Oscillations ...................................................................................................... 93 \nChapter 4.",
-        "source_mode": "criticism"
+        "source_mode": "criticism",
+        "seg_id": null,
+        "citation": "Fair-use trimmed from 513 to 483 chars"
       }
     }
   ],
@@ -1843,7 +2225,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 500,
-      "slug": "section-016"
+      "slug": "section-016",
+      "date": "October 10, 1978"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_015",
@@ -1851,7 +2234,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 269,
-      "slug": "section-015"
+      "slug": "section-015",
+      "date": "September 15, 1976"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_017",
@@ -1859,7 +2243,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 250,
-      "slug": "section-017"
+      "slug": "section-017",
+      "date": "April 16, 1981"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_010",
@@ -1867,7 +2252,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 31,
-      "slug": "section-010"
+      "slug": "section-010",
+      "date": "circa 1975-1976"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_013",
@@ -1875,7 +2261,8 @@
       "doc_type": "exegesis_section",
       "relevance": "primary",
       "passage_count": 18,
-      "slug": "section-013"
+      "slug": "section-013",
+      "date": "November 5, 1975"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_012",
@@ -1883,7 +2270,8 @@
       "doc_type": "exegesis_section",
       "relevance": "substantial",
       "passage_count": 5,
-      "slug": "section-012"
+      "slug": "section-012",
+      "date": "September 15, 1975"
     },
     {
       "doc_id": "DOC_ARCH_MCLOUGHLIN_PINK_LIGHT_AND_IRON",
@@ -1891,7 +2279,8 @@
       "doc_type": "scholarship",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "mcloughlin-pink-light-and-iron"
+      "slug": "mcloughlin-pink-light-and-iron",
+      "date": "2024"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_006",
@@ -1899,7 +2288,8 @@
       "doc_type": "exegesis_section",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "section-006"
+      "slug": "section-006",
+      "date": "March 4, 1975"
     },
     {
       "doc_id": "DOC_EXEG_SECTION_014",
@@ -1907,7 +2297,8 @@
       "doc_type": "exegesis_section",
       "relevance": "mentions",
       "passage_count": 1,
-      "slug": "section-014"
+      "slug": "section-014",
+      "date": "September 12, 1976"
     }
   ],
   "related_terms": [

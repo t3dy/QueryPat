@@ -258,6 +258,10 @@ def run_stage_5(db: sqlite3.Connection, source: Path):
     from studies.link_studies import run as link_studies
     link_studies(db)
 
+    # Hand-curated topics whose passages are anchored, not lexicon-scanned.
+    from studies.seed_burroughs_word_virus import seed as seed_burroughs
+    seed_burroughs(db)
+
     from studies.export_studies import run as export_studies
     export_studies(db)
 

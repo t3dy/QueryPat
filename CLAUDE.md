@@ -34,7 +34,8 @@ contradict it.
 ## Never do these
 
 1. **Never edit anything in `site/public/data/`.** It is generated from the
-   database. Edit the source and re-export.
+   database. Edit the source and re-export — but see the export warning below
+   before running any exporter.
 2. **Never promote an LLM output to canonical knowledge in one step.** It enters
    as a candidate with provenance and a status, and an editorial pass promotes
    it. See `.claude/rules/semantic-memory.md`.
@@ -45,6 +46,57 @@ contradict it.
    retrieval signal over canonical rows.
 6. **Never drop or rename an existing ID.** `TERM_*`, `NAME_*`, `SEG_*`,
    `DOC_*`, `EV_*`, `CLAIM_*` are referenced by exports and by the public site.
+
+## Preservation first — read this before running any build step
+
+`site/public/data` is **not** a disposable build artifact. It holds 673 Exegesis close
+readings, the study-topic dossier prose, biography relations and works pages that exist
+nowhere else. A naive re-export destroys 1,048 of 2,704 files. Full evidence:
+[`docs/PRESERVATION_AUDIT.md`](docs/PRESERVATION_AUDIT.md); mechanisms:
+[`docs/PRESERVATION.md`](docs/PRESERVATION.md).
+
+**Never run `export_json.py` or `export_studies.py` directly.** Use the guard:
+
+```bash
+python scripts/safeguard/safe_export.py --exporter all
+```
+
+It snapshots, exports, runs the post-export cleaning passes, and restores anything that
+lost content. Before committing:
+
+```bash
+python scripts/safeguard/check_data_diff.py --worktree
+```
+
+Install the commit guard once per clone:
+`python scripts/safeguard/check_data_diff.py --install-hook`.
+
+Editorial discoveries belong in `curation/<topic>/`, which the seeders read — not only
+in the exported JSON. Substantive research sessions get a worklog entry; see
+[`docs/RESEARCH_WORKLOG.md`](docs/RESEARCH_WORKLOG.md).
+
+## Why the export is lossy
+
+`site/public/data/` is nominally generated, but a full re-export **destroys
+committed content**. Verified 2026-09-04:
+
+- `scripts/export_json.py` drops `related_works`, `related_letters` and
+  `related_exegesis_entries` from `biography/events.json`, and re-introduces
+  leaked `CLM_*` ids into dictionary prose.
+- `scripts/studies/export_studies.py` nulls the dossier prose on most topics
+  (`definition`, `pkd_relevance`, `in_the_fiction`, …), because that prose was
+  written into the JSON after export by `scripts/merge_studies_topics.py` and
+  its `*.studies.json` source files no longer exist in the repo.
+- Several passes run *after* export and only over the JSON:
+  `clean_dictionary_claim_leaks.py`, `clean_dictionary_junk_descriptions.py`,
+  `clean_studies_claim_leaks.py`, `clean_segment_wiki_artifacts.py`,
+  `rebuild_search_index_terms.py`, `fix_dead_links.py`.
+
+So: for a change that touches one entity, write the DB, run the exporter,
+then **revert every file you did not intend to change** and hand-place the few
+you did. Diff `site/public/data` before committing; a diff of hundreds of files
+means the export ate curated work. Until the post-export prose is round-tripped
+back into the database, the committed JSON is the only copy of some of it.
 
 ## Route by task
 

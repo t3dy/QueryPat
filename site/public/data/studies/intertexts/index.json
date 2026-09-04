@@ -1,0 +1,26 @@
+{
+  "study_id": "intertexts",
+  "study_label": "Intertexts & Influences",
+  "study_description": "Writers and thinkers Philip K. Dick read, argued with, and absorbed into his own vocabulary. Each topic tracks a single interlocutor across the fiction, the Exegesis, and the correspondence, and holds on to the places where Dick changed his mind about them.",
+  "topics": [
+    {
+      "topic_id": "TOPIC_INTERTEXT_burroughs_word_virus",
+      "canonical_name": "Burroughs and the Word Virus",
+      "slug": "burroughs-word-virus",
+      "status": "reviewed",
+      "priority": 10,
+      "card_description": "Burroughs's word virus, adopted by Dick in September 1976 and argued with until his death — across 24 Exegesis segments, 11 letters and one interview.",
+      "passage_count": 59,
+      "evidence_count": 11,
+      "contradiction_count": 4,
+      "first_appearance": "1976",
+      "lane_distribution": {
+        "B": 34,
+        "C": 7,
+        "D": 5,
+        "E": 13
+      },
+      "related_topics": []
+    }
+  ]
+}

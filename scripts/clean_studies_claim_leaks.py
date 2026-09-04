@@ -28,6 +28,8 @@ def main():
         if touched:
             json.dump(d, open(f, "w", encoding="utf-8"), indent=2, ensure_ascii=False); nf += 1
     print(f"cleaned {nfields} fields in {nf} study files")
-    res = sum(1 for f in files if any("CLM_" in str(json.load(open(f,encoding='utf-8')).get(k) or '') for k in PROSE))
+    loaded = [json.load(open(f, encoding='utf-8')) for f in files]
+    res = sum(1 for d in loaded if isinstance(d, dict)
+              and any("CLM_" in str(d.get(k) or '') for k in PROSE))
     print("residual files with CLM:", res)
 if __name__ == "__main__": main()

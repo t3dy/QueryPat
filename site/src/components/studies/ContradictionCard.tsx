@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import LaneBadge from './LaneBadge'
 
 interface ContradictionPassage {
@@ -6,6 +7,8 @@ interface ContradictionPassage {
   doc_title: string
   passage_text: string
   source_mode: string
+  seg_id?: string | null
+  citation?: string | null
 }
 
 interface ContradictionData {
@@ -34,7 +37,12 @@ export default function ContradictionCard({ contradiction }: ContradictionCardPr
         <div className="contradiction-side">
           <div className="card-meta" style={{ marginBottom: '0.3rem' }}>
             <LaneBadge lane={contradiction.passage_a.lane} />
-            <span style={{ fontWeight: 600 }}>{contradiction.passage_a.doc_title}</span>
+            <span style={{ fontWeight: 600 }}>
+              {contradiction.passage_a.citation || contradiction.passage_a.doc_title}
+            </span>
+            {contradiction.passage_a.seg_id && (
+              <Link to={`/segments/${contradiction.passage_a.seg_id}`}>Read the entry &rarr;</Link>
+            )}
           </div>
           <div className="evidence-excerpt">
             {contradiction.passage_a.passage_text.slice(0, 200)}
@@ -45,7 +53,12 @@ export default function ContradictionCard({ contradiction }: ContradictionCardPr
         <div className="contradiction-side">
           <div className="card-meta" style={{ marginBottom: '0.3rem' }}>
             <LaneBadge lane={contradiction.passage_b.lane} />
-            <span style={{ fontWeight: 600 }}>{contradiction.passage_b.doc_title}</span>
+            <span style={{ fontWeight: 600 }}>
+              {contradiction.passage_b.citation || contradiction.passage_b.doc_title}
+            </span>
+            {contradiction.passage_b.seg_id && (
+              <Link to={`/segments/${contradiction.passage_b.seg_id}`}>Read the entry &rarr;</Link>
+            )}
           </div>
           <div className="evidence-excerpt">
             {contradiction.passage_b.passage_text.slice(0, 200)}

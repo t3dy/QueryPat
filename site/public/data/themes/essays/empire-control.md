@@ -106,7 +106,7 @@ Centuries after an apocalyptic 'Time of Madness,' a rigid caste theocracy govern
 
 ### Autofac
 
-Five years after a global war, a planet-wide network of automated factories continues to supply human settlements with food and goods, exactly as instructed before the collapse. In a story collection like [Autofac](/works/autofac), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Five years after a global war, a planet-wide network of automated factories continues to supply human settlements with food and goods, exactly as instructed before the collapse. In a story collection like Autofac, that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Foster, You're Dead
 
@@ -258,7 +258,7 @@ This is the second of two Library of America volumes dedicated to Philip K. In a
 
 ### Second Variety
 
-Six years into a nuclear war that has left most of the northern hemisphere ash, the American government has withdrawn to a Moon base and left its troops dug into bunkers on a dead Earth. In a story collection like [Second Variety](/works/second-variety), that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Six years into a nuclear war that has left most of the northern hemisphere ash, the American government has withdrawn to a Moon base and left its troops dug into bunkers on a dead Earth. In a story collection like Second Variety, that premise becomes a thematic pressure point instead of background decoration. The machinery of authority is rendered through satire, bureaucracy, and system language that feels larger than any character. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### Stability
 

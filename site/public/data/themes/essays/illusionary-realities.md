@@ -130,7 +130,7 @@ In a Cold War stalemate between the Western bloc ('Wes-bloc') and the Eastern bl
 
 ### The Electric Ant
 
-Garson Poole wakes in hospital after a crash, missing a right hand and feeling no pain, and is informed by his doctor that he is not a man but an 'electric ant' — an organic robot. In a story collection like [The Electric Ant](/works/the-electric-ant), that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
+Garson Poole wakes in hospital after a crash, missing a right hand and feeling no pain, and is informed by his doctor that he is not a man but an 'electric ant' — an organic robot. In a story collection like The Electric Ant, that premise becomes a thematic pressure point instead of background decoration. Dick uses nested worlds, simulations, and counterfeit surfaces to turn illusion into the book's governing principle. The theme emerges through reversals, doubling, and the small formal choices that make Dick's fiction feel unstable from inside.
 
 ### The Preserving Machine and Other Stories
 

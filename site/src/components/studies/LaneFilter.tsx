@@ -2,16 +2,23 @@ import { useState } from 'react'
 
 interface LaneFilterProps {
   onChange: (activeLanes: string[]) => void
+  /** Lanes actually present in the data; others are hidden. Defaults to A/B/C. */
+  lanes?: string[]
 }
 
 const LANES = [
   { key: 'A', label: 'Fiction', className: 'lane-toggle lane-toggle-a' },
   { key: 'B', label: 'Exegesis', className: 'lane-toggle lane-toggle-b' },
   { key: 'C', label: 'Scholarship', className: 'lane-toggle lane-toggle-c' },
+  { key: 'D', label: 'Biography', className: 'lane-toggle lane-toggle-d' },
+  { key: 'E', label: 'Letters', className: 'lane-toggle lane-toggle-e' },
 ]
 
-export default function LaneFilter({ onChange }: LaneFilterProps) {
-  const [active, setActive] = useState<Set<string>>(new Set(['A', 'B', 'C']))
+const DEFAULT_LANES = ['A', 'B', 'C']
+
+export default function LaneFilter({ onChange, lanes }: LaneFilterProps) {
+  const available = lanes && lanes.length > 0 ? lanes : DEFAULT_LANES
+  const [active, setActive] = useState<Set<string>>(new Set(available))
 
   function toggle(lane: string) {
     setActive(prev => {
@@ -28,7 +35,7 @@ export default function LaneFilter({ onChange }: LaneFilterProps) {
 
   return (
     <div className="lane-filter">
-      {LANES.map(l => (
+      {LANES.filter(l => available.includes(l.key)).map(l => (
         <button
           key={l.key}
           className={`${l.className}${active.has(l.key) ? ' active' : ''}`}

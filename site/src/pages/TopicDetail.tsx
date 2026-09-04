@@ -3,6 +3,8 @@ import { useData } from '../hooks/useData'
 import EvidencePanel from '../components/studies/EvidencePanel'
 import ContradictionCard from '../components/studies/ContradictionCard'
 import TopicChronology from '../components/studies/TopicChronology'
+import MentionCards from '../components/studies/MentionCards'
+import type { MentionCard } from '../components/studies/MentionCards'
 
 interface RelatedDoc {
   doc_id: string
@@ -11,7 +13,13 @@ interface RelatedDoc {
   relevance: string
   passage_count: number
   slug: string
+  date?: string | null
 }
+
+/** Document types that have their own page under /archive. */
+const ARCHIVE_TYPES = new Set([
+  'archive_pdf', 'scholarship', 'letter', 'interview', 'novel', 'biography', 'other',
+])
 
 interface RelatedTerm {
   term_id: string
@@ -25,6 +33,15 @@ interface RelatedName {
   display_name: string
   slug: string
   relation_type: string
+}
+
+interface DossierSection {
+  id: string
+  heading: string
+  /** Evidentiary register: A = PKD's own words, B = primary-source fact,
+   *  C = scholarly argument, D = portal-editor inference. */
+  register?: string
+  body: string[]
 }
 
 interface RelatedTopic {
@@ -48,6 +65,8 @@ interface TopicData {
   scholarly_debate: string | null
   chronology_summary: string | null
   contradictions_summary: string | null
+  dossier_sections?: DossierSection[]
+  mention_cards?: MentionCard[]
   related_thinkers: string[] | null
   editorial_notes: string | null
   open_questions: string[] | null
@@ -64,6 +83,13 @@ interface TopicData {
   related_terms: RelatedTerm[]
   related_names: RelatedName[]
   related_topics: RelatedTopic[]
+}
+
+const REGISTER_LABELS: Record<string, string> = {
+  A: "PKD's own words",
+  B: 'primary-source evidence',
+  C: 'scholarly argument',
+  D: 'portal-editor inference',
 }
 
 const DOSSIER_SECTIONS: { key: keyof TopicData; label: string }[] = [
@@ -87,6 +113,8 @@ export default function TopicDetail() {
   if (loading) return <div className="loading">Loading...</div>
   if (!topic) return <div className="loading">Topic not found.</div>
 
+  const hasEssay = !!(topic.dossier_sections && topic.dossier_sections.length > 0)
+
   return (
     <>
       <div className="page-header">
@@ -105,10 +133,31 @@ export default function TopicDetail() {
         </div>
       </div>
 
-      {/* Dossier prose sections */}
+      {/* Authored dossier: an ordered essay, when the topic has one. */}
+      {topic.dossier_sections && topic.dossier_sections.length > 0 && (
+        <div className="dossier-essay">
+          {topic.dossier_sections.map(section => (
+            <div key={section.id} className="detail-section">
+              <h2>{section.heading}</h2>
+              {section.register && (
+                <span className={`register-badge register-${section.register.toLowerCase()}`}
+                      title={REGISTER_LABELS[section.register] || section.register}>
+                  {section.register} &middot; {REGISTER_LABELS[section.register] || ''}
+                </span>
+              )}
+              {section.body.map((para, i) => (
+                <p key={i} style={{ fontSize: '0.95rem', lineHeight: 1.7 }}>{para}</p>
+              ))}
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* Structured dossier fields */}
       {DOSSIER_SECTIONS.map(({ key, label }) => {
         const value = topic[key]
         if (!value || typeof value !== 'string') return null
+        if (hasEssay && key !== 'editorial_notes') return null
         return (
           <div key={key} className="detail-section">
             <h2>{label}</h2>
@@ -166,8 +215,13 @@ export default function TopicDetail() {
           <ul>
             {topic.related_documents.map(doc => (
               <li key={doc.doc_id}>
-                <Link to={`/archive/${doc.slug}`}>{doc.title}</Link>
+                {ARCHIVE_TYPES.has(doc.doc_type) ? (
+                  <Link to={`/archive/${doc.slug}`}>{doc.title}</Link>
+                ) : (
+                  <span>{doc.title}</span>
+                )}
                 <span className="card-meta" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
+                  {doc.date && <span>{doc.date}</span>}
                   <span className="badge badge-category">{doc.doc_type}</span>
                   <span>{doc.passage_count} passages</span>
                 </span>
@@ -204,6 +258,9 @@ export default function TopicDetail() {
           </div>
         </div>
       )}
+
+      {/* Every mention, card by card — below the essay and the machinery */}
+      <MentionCards cards={topic.mention_cards || []} />
 
       {/* Related topics */}
       {topic.related_topics && topic.related_topics.length > 0 && (

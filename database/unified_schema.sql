@@ -850,6 +850,9 @@ CREATE TABLE IF NOT EXISTS study_passages (
     passage_id          INTEGER PRIMARY KEY AUTOINCREMENT,
     topic_id            TEXT NOT NULL,
 
+    -- Evidence packet that owns this passage, when one does
+    ev_id               TEXT,
+
     -- Source location
     doc_id              TEXT,
     seg_id              TEXT,
@@ -862,8 +865,8 @@ CREATE TABLE IF NOT EXISTS study_passages (
     context_before      TEXT,
     context_after       TEXT,
 
-    -- Evidentiary lane (derived from document)
-    lane                TEXT CHECK (lane IN ('A', 'B', 'C')),
+    -- Evidentiary lane (derived from document); matches documents.evidentiary_lane
+    lane                TEXT CHECK (lane IN ('A', 'B', 'C', 'D', 'E')),
 
     -- Classification (Claude-assigned)
     source_mode         TEXT CHECK (source_mode IN (
@@ -884,7 +887,7 @@ CREATE TABLE IF NOT EXISTS study_passages (
     matched_terms       TEXT,                       -- JSON array
     match_method        TEXT CHECK (match_method IN (
                             'lexicon_exact', 'lexicon_alias', 'claude_conceptual',
-                            'claude_inferred'
+                            'claude_inferred', 'curated_anchor'
                         )),
 
     -- Review
@@ -906,6 +909,7 @@ CREATE INDEX IF NOT EXISTS idx_study_passages_doc ON study_passages(doc_id);
 CREATE INDEX IF NOT EXISTS idx_study_passages_seg ON study_passages(seg_id);
 CREATE INDEX IF NOT EXISTS idx_study_passages_lane ON study_passages(lane);
 CREATE INDEX IF NOT EXISTS idx_study_passages_claim ON study_passages(claim_type);
+CREATE INDEX IF NOT EXISTS idx_study_passages_ev ON study_passages(ev_id);
 
 -- ============================================================
 
