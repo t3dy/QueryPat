@@ -4,6 +4,7 @@ import EvidencePanel from '../components/studies/EvidencePanel'
 import ContradictionCard from '../components/studies/ContradictionCard'
 import TopicChronology from '../components/studies/TopicChronology'
 import MentionCards from '../components/studies/MentionCards'
+import CitedText from '../components/studies/CitedText'
 import type { MentionCard } from '../components/studies/MentionCards'
 
 interface RelatedDoc {
@@ -146,7 +147,9 @@ export default function TopicDetail() {
                 </span>
               )}
               {section.body.map((para, i) => (
-                <p key={i} style={{ fontSize: '0.95rem', lineHeight: 1.7 }}>{para}</p>
+                <p key={i} style={{ fontSize: '0.95rem', lineHeight: 1.7 }}>
+                  <CitedText text={para} cards={topic.mention_cards || []} />
+                </p>
               ))}
             </div>
           ))}

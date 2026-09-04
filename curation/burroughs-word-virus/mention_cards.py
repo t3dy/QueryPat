@@ -625,4 +625,63 @@ CARDS = {
         "is measured: a succession, not an influence.",
         "If the ’70s and ’80s…belonged to William Burroughs, the millennium belongs to "
         "Philip K. Dick.", 'Erik Davis'),
+
+    # ---- Published Exegesis: folios absent from our transcriptions -------
+    'BWV-EXP-15-100': (
+        "Folio 15:100, and the passage that ties the cut-up method to everything else "
+        "in the late work. Dick is asking whether the latent story inside Flow My Tears "
+        "is a kind of living DNA guiding an entelechy through its growth, and reaches "
+        "for Bateson's immanent mind — the mind that narrates information to each "
+        "living thing. The novel becomes an incised form bearing the bench marks of "
+        "whatever fashioned him, read the way one reads tea leaves or entrails, with "
+        "Burroughs's method cited as the precedent for extracting latent meaning. It "
+        "ends in the eucharist: the text as wafer, the reader as host.",
+        "(Cf. Burroughs' cut-up message pieces latent meaning-extraction method.) This "
+        "being replicates itself through—as—information.", PKD),
+
+    'BWV-EXP-19-35': (
+        "Folio 19:35, and the most exact account Dick ever gives of why the impairment "
+        "cannot notice itself. Derange the brain in precisely the right circuits and it "
+        "will not only be deranged but unaware of it, and so will never seek repair — "
+        "which is what he says fascinated him in 1971 and 1972 and produced A Scanner "
+        "Darkly, here called \"the Key Book in the sequence\". The Burroughs invocation "
+        "arrives as an immunological figure: a pathogen the immune system failed to "
+        "detect, after which the host becomes its instrument.",
+        "It is as if the immune system has failed to detect an invader, a pathenogen "
+        "(shades of William Burroughs: a criminal virus!)", PKD),
+
+    'BWV-EXP-90-16A': (
+        "Folio 90:16A, from Dick's notes on The Transmigration of Timothy Archer. He is "
+        "diagnosing Angel Archer as intelligence without faith — a mind that plods and "
+        "cannot leap the gap into what he calls divine foolishness — and locates her "
+        "failure precisely at the boundary of language: she cannot pass from words to "
+        "the non-verbal. The self-description in passing is the reason this card is "
+        "here, and it is the only place Dick uses addiction and disease as figures for "
+        "language itself. Burroughs is not named; the debt cannot be shown.",
+        "It cannot pass over from words (\"I am a word junky, a word disease\") to the "
+        "supra or non verbal", PKD),
+
+    'BWV-EXP-90-6A': (
+        "Not Dick but his editors. The glossary appended to the 2011 Jackson and Lethem "
+        "edition supplies the only dating in the whole archive for the cut-up experiment "
+        "Sutin describes: 1978. It also states the debt more confidently than Dick ever "
+        "does — that Burroughs's reality-as-control-system and language-as-virus "
+        "\"clearly resonated\" with him. Worth reading against Dick's own careful "
+        "\"Where Burroughs and I sharply disagree\". The same sentence misplaces Brion "
+        "Gysin's nationality.",
+        "Burroughs's notions of reality as a control system and language as an "
+        "extraterrestrial virus clearly resonated with Dick, who, in 1978, experimented "
+        "with the cut-up method", 'Pamela Jackson and Jonathan Lethem, eds.'),
+
+    'BWV-LET-1981-06B': (
+        "The close of the Brig Elliot letter, and the hardest problem in the dossier. "
+        "Having set out where he and Burroughs agree and disagree, Dick turns the "
+        "hypothesis on the person holding it: if an occluding information virus exists, "
+        "then the mind assessing the claim is itself occluded, and so is its perception "
+        "that the thing exists at all. He does not resolve it. He names the novel where "
+        "he tried to.",
+        "if you grant an occluding information virus, are you not then yourself occluded "
+        "in your very analysis of it, as well as your perception of its existence? There "
+        "is a paradox involved. I’m sure you can see that. And I try to deal with it in "
+        "VALIS.", PKD),
 }

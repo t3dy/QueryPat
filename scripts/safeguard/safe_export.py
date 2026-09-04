@@ -97,15 +97,70 @@ def _key_of(item):
     return None
 
 
+# Surrogate keys that are reassigned on every rebuild, and bookkeeping columns.
+# They are not identity: comparing on them reports loss whenever a table is
+# repopulated, which is every time a topic is re-seeded.
+VOLATILE_KEYS = {'passage_id', 'created_at', 'updated_at', 'generated_utc'}
+
+
+def _strip_volatile(obj):
+    if isinstance(obj, dict):
+        return {k: _strip_volatile(v) for k, v in obj.items()
+                if k not in VOLATILE_KEYS}
+    if isinstance(obj, list):
+        return [_strip_volatile(v) for v in obj]
+    return obj
+
+
+def _signature(item) -> str:
+    return json.dumps(_strip_volatile(item), sort_keys=True, ensure_ascii=False)
+
+
 def _index_by_key(seq):
-    keyed, ok = {}, True
-    for it in seq:
-        k = _key_of(it)
-        if k is None or k in keyed:
-            ok = False
-            break
-        keyed[k] = it
-    return (keyed if ok and keyed else None)
+    """Index a list by whichever identity field uniquely identifies every item.
+
+    Trying keys in a fixed order is not enough: several mention cards share a
+    seg_id, so keying on the first field that merely exists collapses them and
+    falls back to positional comparison — which reads an inserted entry as
+    content loss. And passage_id is reassigned on every rebuild, so keying on it
+    reports every re-seed as a mass deletion. Pick a field that actually
+    identifies, ignoring volatile ones.
+    """
+    if not seq or not all(isinstance(it, dict) for it in seq):
+        return None
+    for key in ID_KEYS:
+        if key in VOLATILE_KEYS:
+            continue
+        vals = [it.get(key) for it in seq]
+        if any(v is None or not str(v) for v in vals):
+            continue
+        keyed = {f'{key}={v}': it for v, it in zip(vals, seq)}
+        if len(keyed) == len(seq):
+            return keyed
+    return None
+
+
+def _bag_losses(before, after, path) -> list[str]:
+    """No stable key: treat the arrays as bags of content.
+
+    An entry counts as lost only if nothing in `after` carries the same content,
+    ignoring volatile fields. Reordering and insertion are then invisible, which
+    is what we want; genuine removal still shows.
+    """
+    after_sigs = {}
+    for it in after:
+        after_sigs[_signature(it)] = after_sigs.get(_signature(it), 0) + 1
+    lost = 0
+    for it in before:
+        sig = _signature(it)
+        if after_sigs.get(sig, 0) > 0:
+            after_sigs[sig] -= 1
+        else:
+            lost += 1
+    if lost:
+        return [f'{path or "[root]"}: {lost} of {len(before)} entries no longer '
+                f'present by content']
+    return []
 
 
 def _size(v) -> int:
@@ -141,12 +196,7 @@ def compare_json(before, after, shrink_tol: float, path='') -> list[str]:
                 else:
                     losses.extend(compare_json(bv, a_keyed[k], shrink_tol, f'{path}[{k}]'))
             return losses
-        if len(after) < len(before):
-            losses.append(f'{path or "[root]"}: {len(before)} -> {len(after)} entries')
-            return losses
-        for i, bv in enumerate(before[:len(after)]):
-            losses.extend(compare_json(bv, after[i], shrink_tol, f'{path}[{i}]'))
-        return losses
+        return _bag_losses(before, after, path)
 
     bs, as_ = _size(before), _size(after)
     if bs and not as_:

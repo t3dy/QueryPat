@@ -2134,3 +2134,34 @@ a.cm-chip-link:hover {
 @media (max-width: 640px) {
   .mention-cards { grid-template-columns: 1fr; }
 }
+
+/* ── Studies: inline citation references in dossier prose ── */
+.cite-ref {
+  font-size: 0.72em;
+  vertical-align: 0.35em;
+  margin-left: 0.12em;
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--text-muted);
+  border-bottom: 1px dotted currentColor;
+}
+
+.cite-ref:hover { color: var(--accent, #b45309); }
+
+.mention-card-folio {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent, #b45309);
+  border: 1px solid currentColor;
+  border-radius: var(--radius-sm);
+  padding: 0 0.35rem;
+}
+
+.mention-card-flash {
+  animation: mention-flash 1.6s ease-out;
+}
+
+@keyframes mention-flash {
+  0%, 30% { box-shadow: 0 0 0 3px var(--accent, #b45309); }
+  100%    { box-shadow: 0 0 0 3px transparent; }
+}

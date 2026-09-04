@@ -96,15 +96,70 @@ def _key_of(item):
     return None
 
 
+# Surrogate keys that are reassigned on every rebuild, and bookkeeping columns.
+# They are not identity: comparing on them reports loss whenever a table is
+# repopulated, which is every time a topic is re-seeded.
+VOLATILE_KEYS = {'passage_id', 'created_at', 'updated_at', 'generated_utc'}
+
+
+def _strip_volatile(obj):
+    if isinstance(obj, dict):
+        return {k: _strip_volatile(v) for k, v in obj.items()
+                if k not in VOLATILE_KEYS}
+    if isinstance(obj, list):
+        return [_strip_volatile(v) for v in obj]
+    return obj
+
+
+def _signature(item) -> str:
+    return json.dumps(_strip_volatile(item), sort_keys=True, ensure_ascii=False)
+
+
 def _index_by_key(seq):
-    keyed, ok = {}, True
-    for it in seq:
-        k = _key_of(it)
-        if k is None or k in keyed:
-            ok = False
-            break
-        keyed[k] = it
-    return (keyed if ok and keyed else None)
+    """Index a list by whichever identity field uniquely identifies every item.
+
+    Trying keys in a fixed order is not enough: several mention cards share a
+    seg_id, so keying on the first field that merely exists collapses them and
+    falls back to positional comparison — which reads an inserted entry as
+    content loss. And passage_id is reassigned on every rebuild, so keying on it
+    reports every re-seed as a mass deletion. Pick a field that actually
+    identifies, ignoring volatile ones.
+    """
+    if not seq or not all(isinstance(it, dict) for it in seq):
+        return None
+    for key in ID_KEYS:
+        if key in VOLATILE_KEYS:
+            continue
+        vals = [it.get(key) for it in seq]
+        if any(v is None or not str(v) for v in vals):
+            continue
+        keyed = {f'{key}={v}': it for v, it in zip(vals, seq)}
+        if len(keyed) == len(seq):
+            return keyed
+    return None
+
+
+def _bag_losses(before, after, path) -> list[str]:
+    """No stable key: treat the arrays as bags of content.
+
+    An entry counts as lost only if nothing in `after` carries the same content,
+    ignoring volatile fields. Reordering and insertion are then invisible, which
+    is what we want; genuine removal still shows.
+    """
+    after_sigs = {}
+    for it in after:
+        after_sigs[_signature(it)] = after_sigs.get(_signature(it), 0) + 1
+    lost = 0
+    for it in before:
+        sig = _signature(it)
+        if after_sigs.get(sig, 0) > 0:
+            after_sigs[sig] -= 1
+        else:
+            lost += 1
+    if lost:
+        return [f'{path or "[root]"}: {lost} of {len(before)} entries no longer '
+                f'present by content']
+    return []
 
 
 def _size(v) -> int:
@@ -139,12 +194,7 @@ def find_losses(before, after, path='') -> list[str]:
                 else:
                     out.extend(find_losses(bv, a_keyed[k], f'{path}[{k}]'))
             return out
-        if len(after) < len(before):
-            out.append(f'{path or "[root]"}: {len(before)} -> {len(after)} entries')
-            return out
-        for i, bv in enumerate(before[:len(after)]):
-            out.extend(find_losses(bv, after[i], f'{path}[{i}]'))
-        return out
+        return _bag_losses(before, after, path)
     bs, as_ = _size(before), _size(after)
     if bs and not as_:
         out.append(f'{path or "[root]"}: emptied ({bs} -> 0)')
@@ -188,10 +238,17 @@ def main():
     if args.install_hook:
         return install_hook()
 
+    allowed_prefixes = []
     if BYPASS_FILE.exists():
-        print(f'check_data_diff: {BYPASS_FILE.name} present — data-loss check '
-              f'DISABLED for this commit.')
-        return 0
+        allowed_prefixes = [ln.strip() for ln in
+                            BYPASS_FILE.read_text(encoding='utf-8').splitlines()
+                            if ln.strip() and not ln.startswith('#')]
+        if not allowed_prefixes:
+            print(f'check_data_diff: {BYPASS_FILE.name} is empty — data-loss check '
+                  f'DISABLED for every path in this commit.')
+            return 0
+        print(f'check_data_diff: {BYPASS_FILE.name} permits content loss under: '
+              f'{", ".join(allowed_prefixes)}')
 
     staged = not args.worktree
     changes = changed_data_files(staged)
@@ -227,6 +284,19 @@ def main():
             losses = find_losses(before, after)
             if losses:
                 losing[path] = losses
+
+    def permitted(path):
+        rel = path[len(DATA_PREFIX):] if path.startswith(DATA_PREFIX) else path
+        return any(rel.startswith(pfx) for pfx in allowed_prefixes)
+
+    if allowed_prefixes:
+        skipped = [p for p in list(losing) + deleted if permitted(p)]
+        losing = {k: v for k, v in losing.items() if not permitted(k)}
+        deleted = [p for p in deleted if not permitted(p)]
+        if skipped:
+            print(f'  allowing content loss in {len(skipped)} permitted file(s):')
+            for p in skipped[:10]:
+                print(f'    {p}')
 
     problems = bool(deleted or losing or leaking or unparseable)
     if not problems:
@@ -275,7 +345,7 @@ def main():
      git checkout -- site/public/data          # discard, then re-apply your edits
 
  If the removal really is intended:
-     touch .allow-data-loss     # one commit, then delete the file
+     echo studies/intertexts/ > .allow-data-loss   # scope it, then delete the file
      or: git commit --no-verify
 """)
     return 1

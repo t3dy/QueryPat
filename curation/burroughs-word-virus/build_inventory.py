@@ -31,6 +31,24 @@ def add(**kw):
     E.append(kw)
 
 
+
+# Folio references in the published Exegesis (Jackson & Lethem, 2011), verified
+# by exact-phrase search against the edition held in this archive. Only 8 of the
+# 34 Burroughs passages in our segment transcriptions appear in the published
+# selection; the rest are from folders the editors did not print, which is why
+# they carry a folder reference rather than a folio.
+PUBLISHED_FOLIO = {
+    'BWV-EX-1976-01': '29:9',
+    'BWV-EX-1976-02': '29:9',
+    'BWV-EX-1976-04': '29:11',
+    'BWV-EX-1976-09': '16:29',
+    'BWV-EX-1976-13': '38:41',
+    'BWV-EX-1978-04': '83:60',
+    'BWV-EX-1978-07': '83:138',
+    'BWV-EX-1978-08': '1:24',
+}
+
+
 F90 = 'Exegesis, September 15, 1976 (folder 90)'
 F20 = 'Exegesis, October 10, 1978 (folder 20)'
 F90b = 'Exegesis, April 16, 1981 (folder 90)'
@@ -259,6 +277,69 @@ ex('BWV-EX-1981-10', 'SEG_EXEG_1981-04-16_Pat_181', S17, D81,
    ['cut-up', 'Hagia Sophia', 'Torah', 'coaxial realities'],
    F53 + ' — the cut-up method and Hagia Sophia reading Torah')
 
+
+PUB = 'DOC_ARCH_THE_EXEGESIS_OF_PHILIP_K_DICK_DICK_PHILI'
+
+
+# ---- From the published Exegesis, absent from our segment transcriptions ----
+# These were found by sweeping the Jackson & Lethem edition held in the archive,
+# not the folder transcriptions. They carry folio references.
+
+def pub(eid, anchor, before, after, packet, claim_type, concepts, folio,
+        note=None, confidence='high', relevance=1, register='A'):
+    add(id=eid, relevance=relevance, register=register, confidence=confidence,
+        source={'type': 'exegesis_published',
+                'corpus': 'document_texts.markdown_content',
+                'id': PUB, 'doc_id': PUB, 'date': None,
+                'published_folio': folio,
+                'citation': f'The Exegesis of Philip K. Dick, ed. Jackson & Lethem '
+                            f'(2011), folio [{folio}]'},
+        anchor=anchor, window=[before, after], lane='B', source_mode='exegesis',
+        claim_type=claim_type, evidence_packet=packet, concepts=concepts,
+        on_public_page=True, editorial_note=note)
+
+
+pub('BWV-EXP-15-100',
+    "What if the proto-story in _Tears_ is a sort of living DNA?", 60, 900,
+    'PKT-CUTUP', 'causal_theory',
+    ['cut-up', 'Bateson', 'living DNA', 'entelechy', 'Flow My Tears', 'eucharist'],
+    '15:100',
+    note='NOT in our segment transcriptions; found only in the published edition. '
+         'Dick sets the cut-up method beside Bateson’s immanent mind and the '
+         'eucharist, and arrives at the formulation that governs the late work: a '
+         'living word-entity taking us over through the messages we receive.')
+
+pub('BWV-EXP-19-35',
+    'shades of William Burroughs: a criminal virus!', 900, 620,
+    'PKT-1978-QUALIFIED', 'causal_theory',
+    ['occlusion', 'A Scanner Darkly', 'immune system', 'heavy metal', 'Black Iron Prison'],
+    '19:35',
+    note='NOT in our segment transcriptions. The most precise statement Dick makes '
+         'of the self-concealing nature of the impairment — a brain damaged in '
+         'exactly the circuits that would notice the damage — and he names A Scanner '
+         'Darkly as “the Key Book in the sequence” in the same breath.')
+
+pub('BWV-EXP-90-16A',
+    'I am a word junky, a word disease', 700, 500,
+    'PKT-LANGUAGE-CONTROL', 'allegory',
+    ['language', 'Angel Archer', 'The Transmigration of Timothy Archer', 'words'],
+    '90:16A', relevance=3, confidence='medium',
+    note='Dick on Angel Archer’s failure to leap from words to the non-verbal. The '
+         'phrasing is Burroughsian — addiction and disease as metaphors for language '
+         '— but Burroughs is not named and the debt cannot be demonstrated. Recorded '
+         'as a possible influence (relevance 3), not as a reference.')
+
+pub('BWV-EXP-90-6A',
+    "**Burroughs, William S** . (1914–1997): Experimental Beat writer.", 30, 420,
+    'PKT-SCHOLARSHIP', 'critique',
+    ['cut-up', 'Brion Gysin', 'control system', 'editorial apparatus'],
+    '90:6A', register='C',
+    note='The published edition’s own glossary. It dates Dick’s cut-up experiment to '
+         '1978, which Sutin leaves undated — the only dating of that experiment in the '
+         'archive. Note an error in the same sentence: Gysin was British-Canadian, born '
+         'in Taplow, not Swiss. Editorial apparatus, so register C, not Dick’s words.')
+
+
 # =========================================================================
 # A — PKD's own words: letters
 # =========================================================================
@@ -316,6 +397,15 @@ let('BWV-LET-1981-06', 'LET_1981-04-15_BRIG_ELLIOT_0079',
     'PKT-LETTERS-DISAGREE', 'critique',
     ['information life form', 'occlusion', '3-74', 'benign'],
     'Letter to Brig Elliot, April 15, 1981 — ' + SL8082)
+let('BWV-LET-1981-06B', 'LET_1981-04-15_BRIG_ELLIOT_0079',
+    'if you grant an occluding information virus, are you not then yourself occluded',
+    340, 260, 'PKT-LETTERS-DISAGREE', 'critique',
+    ['epistemology', 'paradox', 'VALIS', 'occlusion', '3-74'],
+    'Letter to Brig Elliot, April 15, 1981 — Selected Letters 1980–1982, p. 146',
+    note='The close of the letter, and the sharpest thing in the dossier: if the '
+         'occlusion is real then any analysis of it is also occluded, including this '
+         'one. Dick names VALIS as where he tries to deal with the trap.')
+
 let('BWV-LET-1981-07', 'LET_1981-08-18_PATRICIA_WARRICK_0132',
     'This life form has not invaded our universe (as William Burroughs supposes)', 380, 440,
     'PKT-LETTERS-DISAGREE', 'critique',
@@ -598,6 +688,15 @@ PACKETS = [
      'Note of A Scanner Darkly to Junky. Beyond those three, the archive’s '
      'scholarship does not treat the connection.'),
 ]
+
+# Attach the published-edition folio where the passage was printed.
+for e in E:
+    f = PUBLISHED_FOLIO.get(e['id'])
+    if f:
+        e['source']['published_folio'] = f
+        e['source']['citation'] += f' — published Exegesis [{f}]'
+    elif e['source']['type'] == 'exegesis_segment':
+        e['source']['published_folio'] = None
 
 # Attach the reader-facing card to each finding.
 missing_cards = []

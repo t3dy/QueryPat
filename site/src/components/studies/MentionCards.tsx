@@ -7,6 +7,7 @@ export interface MentionCard {
   citation: string
   date?: string | null
   source_type: string
+  published_folio?: string | null
   seg_id?: string | null
   doc_id?: string | null
   lane: string
@@ -43,6 +44,12 @@ const GROUPS: { key: string; label: string; blurb: string; match: (c: MentionCar
     label: 'The Exegesis — 16 April 1981',
     blurb: 'The reversal, and the passages in the same sitting that refuse to hold it.',
     match: c => c.source_type === 'exegesis_segment' && (c.date || '').startsWith('1981'),
+  },
+  {
+    key: 'published',
+    label: 'The Exegesis — passages printed only in the 2011 edition',
+    blurb: 'Four folios in the Jackson and Lethem selection that our folder transcriptions do not contain.',
+    match: c => c.source_type === 'exegesis_published',
   },
   {
     key: 'letters',
@@ -100,10 +107,13 @@ export default function MentionCards({ cards }: Props) {
             {group.items.map(card => {
               const isOpen = open === card.id
               return (
-                <div key={card.id} className="mention-card">
+                <div key={card.id} id={`card-${card.id}`} className="mention-card">
                   <div className="mention-card-head">
                     <LaneBadge lane={card.lane} />
                     <span className="mention-card-cite">{card.citation}</span>
+                    {card.published_folio && (
+                      <span className="mention-card-folio">[{card.published_folio}]</span>
+                    )}
                   </div>
 
                   <p className="mention-card-context">{card.context}</p>

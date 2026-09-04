@@ -382,6 +382,7 @@ def collect_passages(db, inventory):
                 'citation': src['citation'],
                 'date': src.get('date'),
                 'source_type': stype,
+                'published_folio': src.get('published_folio'),
                 'seg_id': seg_id,
                 'doc_id': doc_id,
                 'lane': f['lane'],
@@ -474,6 +475,21 @@ def seed(db: sqlite3.Connection, check_only: bool = False):
             print(f"    {eid} [{stype} {sid}]: {anchor!r}")
         raise SystemExit(1)
 
+    # Every {{id}} citation in the essay must resolve to a published finding.
+    ids = {f['id'] for f in inventory['evidence'] if f['on_public_page']}
+    cited, bad_cites = set(), []
+    for sec in dossier['sections']:
+        for para in sec['body']:
+            for cid in re.findall(r'\{\{([A-Za-z0-9\-]+)\}\}', para):
+                cited.add(cid)
+                if cid not in ids:
+                    bad_cites.append((sec['id'], cid))
+    if bad_cites:
+        print("  ERROR: essay cites findings that do not exist:")
+        for sid, cid in bad_cites:
+            print(f"    section {sid}: {{{{{cid}}}}}")
+        raise SystemExit(1)
+
     known = {p['id'] for p in inventory['evidence_packets']}
     orphan = {r[1] for r in passages} - known
     if orphan:
@@ -487,6 +503,12 @@ def seed(db: sqlite3.Connection, check_only: bool = False):
               f'{len(inventory["evidence_packets"])} packets, '
               f'{len(dossier["sections"])} dossier sections, '
               f'{len(cards)} mention cards, all quotations verbatim')
+        uncited = sorted(ids - cited)
+        print(f'  essay cites {len(cited)} of {len(ids)} findings; '
+              f'{len(uncited)} discussed only on their card')
+        if uncited:
+            print(f'    uncited: {", ".join(uncited[:8])}'
+                  + (' ...' if len(uncited) > 8 else ''))
         return
 
     db.execute("""
@@ -687,6 +709,7 @@ def seed(db: sqlite3.Connection, check_only: bool = False):
     print(f"  contradictions   {n_contra}")
     print(f"  dossier sections {len(dossier['sections'])}")
     print(f"  mention cards    {len(cards)} (all quotations verified verbatim)")
+    print(f"  essay citations  {len(cited)} findings cited inline")
     print(f"  recorded but not published: {recorded} findings")
     print(f"  TERM_burroughs   accepted / human-revised")
 
