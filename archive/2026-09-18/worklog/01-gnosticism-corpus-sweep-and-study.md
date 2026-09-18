@@ -233,6 +233,29 @@ data inside the argument rather than beside it.
 - Card summaries are marked `derived` on the page where a script wrote them
   rather than an editor, so the two can never be confused.
 
+### Quotation verification, and what it caught
+
+The Burroughs seeder verifies its essay quotations against source on every
+build; this study did not, and the essays quote heavily. Added the same check:
+every quotation of 40+ characters in the prose is matched against the swept
+corpus, folding typography — quote style, dashes, soft hyphens, words broken
+across a line, case, spacing — but never words. 74 quotations are checked and
+the build fails, naming the section, if one does not resolve.
+
+It failed ten times on first run and every failure was real. In each case the
+prose had silently tidied the transcription: `develation` written as
+`revelation`, `Peacable` as `Peaceable` (twice), `Pythagorian` as `Pythagorean`,
+`contraversy` as `controversy`, `Hermetic t Kaballist` as `Hermetic +
+Kaballist`, `it his yet to be overthrown` as `has yet to be overthrown`,
+`Encyclopedia Britannica` as `Encyclopaedia` inside a quotation of Erik Davis;
+plus a dropped `understood`, a verb silently conjugated, and a stray editorial
+`A` deleted from between two sentences rather than elided.
+
+None changed an argument, and that is the point: they are exactly the errors
+that survive review, because nothing about them looks wrong. A page whose claim
+is that every statement can be checked cannot quietly correct its sources, so
+the check belongs in the build rather than in a reviewer's attention.
+
 ## Files changed
 
 Curation (new):
