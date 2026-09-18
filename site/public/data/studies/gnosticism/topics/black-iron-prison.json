@@ -1,0 +1,893 @@
+{
+  "topic_id": "TOPIC_GNOS_black_iron_prison",
+  "study_id": "gnosticism",
+  "canonical_name": "The Black Iron Prison",
+  "slug": "black-iron-prison",
+  "status": "reviewed",
+  "generator": "curation/gnosticism@2026-09-18",
+  "provenance": "editorial_curation_from_corpus_sweep",
+  "definition": "The Black Iron Prison is the world seen as a coercive system: coextensive with the Roman Empire, concealing its own existence, and still in operation. Its counterpart is the Palm Tree Garden, the same world correctly perceived.",
+  "pkd_relevance": "This is Dick's most influential single coinage and his most complete translation of Gnostic cosmology into his own terms. It is also where he departs from his sources: the ancient archons rule a cosmos, Dick's rule a history.",
+  "in_the_fiction": "\"The Empire never ended\" is the formula, and it is in the Exegesis in September 1976 before it is in VALIS: \"Rome absorbed - & destroyed - Xtianity. 'The Empire never ended.'\" The novel gives it the reasoning that makes it historical rather than mythological — the early Christians \"had rediscovered the lost formula for immortality which the Empire had destroyed\" — and VALIS chapter 5 states the underlying cosmology as plainly as Dick ever does: \"Man and the true God are identical … but a lunatic blind creator and his screwed-up world separate man from God.\"",
+  "in_the_exegesis": "The Black Iron Prison is a September 1976 event. Its rate goes from 0.023 hits per segment in the 1975 folder to 2.247 in 1976 — a hundredfold jump, the sharpest in the register — then falls to 0.654 in 1978 and 0.293 in 1981. The Palm Tree Garden appears in the same sitting and never separately.\n\nThe pairing is worked out in a single run of entries. Dick considers \"that the black iron Prison world is how this world actually is, in all its evil\", and sets against it the \"'Palm tree' world\" as \"the authentic world\"; a few segments later the mechanism is explicit — VALIS is \"making 'orthogonal time' changes here, from Black Iron prison world to palm tree garden\". Both worlds are the same world. What changes is which one is real, and the change is something done to history rather than to the observer.\n\nAgainst this, the technical Gnostic vocabulary for the same idea declines steadily. The demiurge falls from 0.161 to 0.016 across the four folders; the archons are attested 19 times in six years. Dick does not adopt the ancient terminology and elaborate it. He replaces it.",
+  "intellectual_background": "The archons of Sethian myth are planetary powers guarding the spheres; heimarmene, astral fate, is what they administer. Dick keeps the structure of administered captivity and relocates it from the heavens to the state. The Cathar and Bogomil persecutions supply the historical evidence he wants for a suppression that continues.",
+  "scholarly_debate": "Whether the Black Iron Prison is a political metaphor with theological decoration or a theological claim with political consequences divides the criticism, and Dick is quotable on both sides. The corpus shows the concept arriving at the height of his Nixon material and outliving it.",
+  "chronology_summary": "Effectively absent in 1975 (0.023); explodes in the September 1976 folder (2.247); declines through 1978 (0.654) and 1981 (0.293). The Palm Tree Garden is born with it and tracks it.",
+  "contradictions_summary": "The Palm Tree Garden contradicts the prison and Dick keeps both. If the garden is the same world correctly seen, then matter is not the problem and the Gnostic diagnosis fails; if the prison is real, the garden is consolation. He states both positions within a single sitting and does not choose.",
+  "related_thinkers": [
+    "Hans Jonas",
+    "Mani",
+    "Marcion",
+    "Eric Voegelin"
+  ],
+  "editorial_notes": "The 1976 transcription is handwritten and the exported text preserves its irregularities — 'black iron Prison', 'Prisoin', inconsistent capitals. The search patterns are case-insensitive and cover the common variants, but a hand-check of the 1976 folder would probably raise the count rather than lower it.",
+  "open_questions": [
+    "What happened between the November 1975 and September 1976 folders? The jump is the largest in the corpus and the intervening months are not represented here.",
+    "Is the decline after 1976 a loss of conviction or the concept becoming settled enough not to need restating?",
+    "Dick uses 'demiurge' less as the Black Iron Prison rises. Is the coinage replacing the borrowed term, and is anything lost in the substitution?"
+  ],
+  "passage_count": 24,
+  "evidence_count": 8,
+  "contradiction_count": 1,
+  "first_appearance": "1975",
+  "peak_period_start": "1975",
+  "peak_period_end": "1981",
+  "evidence_packets": [
+    {
+      "ev_id": "PKT_GNOS_BIP",
+      "claim_text": "Black Iron Prison is attested 941 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "2073 in the Exegesis; 8 in the trilogy; 4 in secondary literature. The archons' cosmos in political dress. The signature image of Dick's Gnosticism and his most influential single coinage.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 29,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…; or (3) the Roman world is J-81 actual world, what he has actually constructed + then tried to make Palatable, with the \"Palm tree\" world the authentic world of Brahman I did have that impression (3, that the black iron Prison world is how this world actually is, in all its evil, but 5-5's keeps it disguised... + I fell the palm tree world to be the Kingdom of God (in this theory, Brahman's world). wizardry-maya. In my dream of 5-I,…",
+          "matched_terms": [
+            "black iron Prison"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_10",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-10"
+        },
+        {
+          "passage_id": 30,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…gned - not me inside but it outside. + I had new false memories of The hot low dry orange county \"already having been there.\" But it hadn't. So my Metz speech is correct. We all had just up to then been in the Black iron Prison world, + then intervention must have come in the past prior to 3-74. 3-74 was the pay off. Our past was attered It can, working retroactively, program any response to any stimulus for anyone + everyone. But to…",
+          "matched_terms": [
+            "Black iron Prison"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_101",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-101"
+        },
+        {
+          "passage_id": 31,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…o harm done The reason (+ the sole reason) I know about all this is that I was in 74 an overruled cont stituent, I reaffor what I said in my meta speech: I have lived at least 2 + possibly 3 present lives. The Black Iron Prison world of 8) is \"Tears\" definitely once existed - I lived there + I remembered it. M4 wasn't tampered with; a time period earter was rewoven. There is another possibility which is very scary, + that would be th…",
+          "matched_terms": [
+            "Black Iron Prison"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_103",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-103"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_bip",
+        "label": "Black Iron Prison",
+        "slug": "black-iron-prison",
+        "category": "pkd_coinage",
+        "tradition": "PKD",
+        "greek": null,
+        "gloss": "The world seen as a prison: a coercive system, coextensive with the Roman Empire, which has never fallen and which conceals its own existence.",
+        "status": "attested",
+        "attestations": {
+          "total": 2095,
+          "pkd_text": 941,
+          "editor_annotation": 1154,
+          "exegesis": 2073,
+          "letters": 0,
+          "valis_trilogy": 8,
+          "scholarship": 4
+        },
+        "by_year": {
+          "1975": 2,
+          "1976": 546,
+          "1978": 261,
+          "1981": 110
+        },
+        "by_year_rate": {
+          "1975": 0.023,
+          "1976": 2.247,
+          "1978": 0.654,
+          "1981": 0.293
+        },
+        "key_sources": [
+          "VALIS",
+          "Exegesis"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_PALM_TREE_GARDEN",
+      "claim_text": "Palm Tree Garden is attested 213 times in Dick's own words, 1976-1981.",
+      "evidence_summary": "410 in the Exegesis; 5 in the trilogy; 3 in secondary literature. The anti-Gnostic corrective Dick builds into his own system. If the garden is the same place, matter is not the problem.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 32,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…iel said, The times previously predicted have now come — with emphasis on the word now. It is not future; it is now, at least in part. And if in part, then the whole great process is here, and my vision of the palm tree garden is the final and true vision of the Peacable Kingdom. We are not talking about events hundreds or thousands of years hence; part has already become history — in the past. It is not so much that Gabriel said, T…",
+          "matched_terms": [
+            "palm tree garden"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_04",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-04"
+        },
+        {
+          "passage_id": 33,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…ast provides an explanation for My \"post Mortem\" experiences: acting as a bridge between ➀ + (3 it had -Zebra the Paraclete - had succes‐ sfully led me right through (2) + to (3 (this includes The hours in the Palm Tree Garden). So more than restored memory is involved. First the person remembers who + what he is - that he doesn't belong in (, + came from 3 originally, + then ZEBRA as psychopomp leads him back to ➁, his place of ori…",
+          "matched_terms": [
+            "Palm Tree Garden"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_103",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-103"
+        },
+        {
+          "passage_id": 34,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…ed then out of all the possibilities - or: she, like me, was subconsciously prompted Anyhow, these two are absolute epitomes of ( the hell world: âž€ the heaven world. Also, I had the distinct feeling that the Palm tree Garden had won out over the other, perhaps due to the historic intervention. One also could assess the two mysteriously. glimpsed worlds as two opposite mutually contradictory \"crypte morphoses\" latent in our [presen…",
+          "matched_terms": [
+            "Palm tree Garden"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_13",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-13"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_palm_tree_garden",
+        "label": "Palm Tree Garden",
+        "slug": "palm-tree-garden",
+        "category": "pkd_coinage",
+        "tradition": "PKD",
+        "greek": null,
+        "gloss": "The Black Iron Prison's counterpart: the same world correctly perceived, a garden rather than a jail. Both are present; which one is seen depends on the perceiver.",
+        "status": "attested",
+        "attestations": {
+          "total": 422,
+          "pkd_text": 213,
+          "editor_annotation": 209,
+          "exegesis": 410,
+          "letters": 0,
+          "valis_trilogy": 5,
+          "scholarship": 3
+        },
+        "by_year": {
+          "1976": 106,
+          "1978": 64,
+          "1981": 31
+        },
+        "by_year_rate": {
+          "1976": 0.436,
+          "1978": 0.16,
+          "1981": 0.083
+        },
+        "key_sources": [
+          "Exegesis"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_EMPIRE",
+      "claim_text": "The Empire never ended is attested 36 times in Dick's own words, 1976-1978.",
+      "evidence_summary": "26 in the Exegesis; 21 in the trilogy; 3 in secondary literature. Dick's formula for archontic rule as a historical rather than mythological claim. His strongest and most testable assertion, and the one most often quoted loose of its context.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 1,
+      "lane_b_count": 2,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 35,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…ains why the eschatological pectations of apostolic times were not fulfilled There was a complete exoteric misunderstanding the Roman Empire, the real e.g. Paul). t if enemy, + it his yet to be overthrown \"the empire never ended\"). Xtianity as we know it (the churches) is/are the Empire - the That's why the 2 enemy, still in power, hings I'm never supposed to reveal are: early 1) I'm a secret (i.e. real Xtian She is 2) Christ's female…",
+          "matched_terms": [
+            "empire never ended"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-191"
+        },
+        {
+          "passage_id": 36,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…s mind. I'm afraid that \"walloon\" + \"portugese states of merica\" completes the pattern of \"Tears\" but it is a trans-temporal pattern. It is the Empire as such. the state is clearly articulated in \"Tears\" (\"the Empire never ended\"). +: \"throughout this [part one] Siddhartha slept.\" He now wakes up; the stranger (Jason Taverner) has entered the empire it has detected him, so confrontation occurs. is not this Siddhartha waking up? + is n…",
+          "matched_terms": [
+            "Empire never ended"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_75",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-75"
+        },
+        {
+          "passage_id": 37,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": null,
+          "doc_title": "VALIS, chapter 5",
+          "passage_text": "…mselves as their mirror opposite: pose as sanity. The masks, however, wear thin and the madness reveals itself. It is an ugly thing. The remedy is here but so is the malady. As Fat repeats obsessively, “ **The Empire never ended** .” In a startling response to the crisis, the true God mimics the universe, the very region he has invaded: he takes on the likeness of sticks and trees and beer cans in gutters—he presumes to be trash disca…",
+          "matched_terms": [
+            "Empire never ended"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "valis_chapter_5_text",
+          "citation": "VALIS, chapter 5 — 1981",
+          "date": "1981",
+          "slug": null
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_empire",
+        "label": "The Empire never ended",
+        "slug": "the-empire-never-ended",
+        "category": "pkd_coinage",
+        "tradition": "PKD",
+        "greek": null,
+        "gloss": "Rome did not fall; it went underground and continues, so that the first-century persecution and the present are the same moment.",
+        "status": "attested",
+        "attestations": {
+          "total": 51,
+          "pkd_text": 36,
+          "editor_annotation": 15,
+          "exegesis": 26,
+          "letters": 0,
+          "valis_trilogy": 21,
+          "scholarship": 3
+        },
+        "by_year": {
+          "1976": 4,
+          "1978": 7
+        },
+        "by_year_rate": {
+          "1976": 0.016,
+          "1978": 0.018
+        },
+        "key_sources": [
+          "VALIS",
+          "Exegesis"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_DEMIURGE",
+      "claim_text": "Demiurge is attested 85 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "354 in the Exegesis; 1 in the trilogy; 3 in secondary literature. The single most load-bearing borrowing in Dick's late theology. The Black Iron Prison is a demiurgic artifact, and the 'creator who is not the true God' underwrites his reading of political tyranny as cosmic.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 38,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…'s collective unconscious; except that as RM says, the[y] involve something of nature and of history external to each and all psyches of human minds; and reach up to the divine, as he says. . . Not only is the demiurge (daimon) immortal but it contains wrapped up in it recollection of prior, perhaps all prior human culture forms, inventions and achievements; viz: Attic Greek is a human invention, as is geometry, and all else…",
+          "matched_terms": [
+            "demiurge"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_19",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-19"
+        },
+        {
+          "passage_id": 39,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…f all life, however named. But what I wonder, having experienced this and come to certify it by ancient and now modern authority -- why doesn't it occur more often? How strange, that God through some mediating demiurge can revivify any given human being, at his will, and yet until I read Rollo May's account of Socrates' daimon, I had found not a single other account of exactly what I had had since high school physics' class;…",
+          "matched_terms": [
+            "demiurge"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_20",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-20"
+        },
+        {
+          "passage_id": 40,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…se for one reason or another man lost the method and the notion. And then all that came were daemons rather than daimons -- evil spirits only, not from God. Yet this still seems strange to me; if God through a demiurge can do this, why doesn't he do it a lot? Look: if I assume that what happened to me in 3 74 was due to something I did, which others don't ever do, then heaven's sake, I stumbled onto something of such vast va…",
+          "matched_terms": [
+            "demiurge"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_21",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-21"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_demiurge",
+        "label": "Demiurge",
+        "slug": "demiurge",
+        "category": "concept",
+        "tradition": "Platonic / Gnostic",
+        "greek": "δημιουργός",
+        "gloss": "The craftsman who made the material world. Benign in Plato's Timaeus; in Gnostic revision, ignorant or malevolent — a god who believes himself the only god and is wrong.",
+        "status": "attested",
+        "attestations": {
+          "total": 361,
+          "pkd_text": 85,
+          "editor_annotation": 276,
+          "exegesis": 354,
+          "letters": 0,
+          "valis_trilogy": 1,
+          "scholarship": 3
+        },
+        "by_year": {
+          "1975": 14,
+          "1976": 39,
+          "1978": 19,
+          "1981": 6
+        },
+        "by_year_rate": {
+          "1975": 0.161,
+          "1976": 0.16,
+          "1978": 0.048,
+          "1981": 0.016
+        },
+        "key_sources": [
+          "Plato, Timaeus",
+          "Apocryphon of John"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_ARCHON",
+      "claim_text": "Archon is attested 19 times in Dick's own words, 1976-1978.",
+      "evidence_summary": "63 in the Exegesis. Dick's cosmic-political vocabulary — prison guards, the police of the Empire, the powers maintaining the counterfeit world — is archon language with the mythology stripped out.",
+      "confidence": "moderate",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 41,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…or of our reality (world); this is YHWH. This is what Mani + the Gnostics correctly saw 1) about the nature of the creator; [..] the nature of our world. They also saw the salvific stranger God \"outwitting the archons\" + penetrating our \"copy of a copy\" world to extricate us. According to this model the Good (Form I) which we experience is a sort of invader, unable to coerce or complete the Frozen BIP template. But on the o…",
+          "matched_terms": [
+            "archons"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_136",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-136"
+        },
+        {
+          "passage_id": 42,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…e culminated in success; it is not just us as computer terminals which are here in This cursed world but the urquelle him/her-self. that which was formerly called the 7 concentric imprisoning rings of the evil archons has been successfully penetrated + a beach head of divinity established here at the darkest, innermost ring, at the very core of enslavement + evil + tyranny. On the \"Dunesberry\" TV special the overthrow of Ni…",
+          "matched_terms": [
+            "archons"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_74",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-74"
+        },
+        {
+          "passage_id": 43,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…rming God seems to be the denial of the world. (Or: the road to affirming the true God stems from the initial denying of the world.) The Ramparts thing -- that was a direct disavowal of the power of the warden-archons, perhaps. I wonder if this sheds any light on the mysterious Xerox missive. What I did was act as mere transfer agent between it and the bureau. Or rather between its sender and the bureau. I did nothing but _…",
+          "matched_terms": [
+            "archons"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_83",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-83"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_archon",
+        "label": "Archon",
+        "slug": "archon",
+        "category": "concept",
+        "tradition": "Sethian / Valentinian",
+        "greek": "ἄρχων",
+        "gloss": "Ruler. The planetary powers who administer the cosmos on the Demiurge's behalf, guarding the spheres through which the ascending soul must pass.",
+        "status": "attested",
+        "attestations": {
+          "total": 63,
+          "pkd_text": 19,
+          "editor_annotation": 44,
+          "exegesis": 63,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {
+          "1976": 9,
+          "1978": 10
+        },
+        "by_year_rate": {
+          "1976": 0.037,
+          "1978": 0.025
+        },
+        "key_sources": [
+          "Hypostasis of the Archons",
+          "Apocryphon of John"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_YALDABAOTH",
+      "claim_text": "Yaldabaoth is attested 19 times in Dick's own words, 1976-1981.",
+      "evidence_summary": "82 in the Exegesis. Dick's blind, boastful creator-tyrant. The blasphemous declaration is the line he returns to when reading the God of the Old Testament against the God he believes met him.",
+      "confidence": "moderate",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 44,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…ion at the lowest stratum by the yang part of the urground. It is crucial that the yin part of the urgrund does not herself directly enter our world but is separated from it (us) by her offspring the artifact (yaldabaoth). Whereas the yang part does not create our world - as does Sophia through her progeny, the artifact - but does enter it directly. So this is why the ground is artifact-produced, + the set projected onto it by…",
+          "matched_terms": [
+            "yaldabaoth"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_136",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-136"
+        },
+        {
+          "passage_id": 45,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…ble (v. \"Scanner.\"). Further, that we are occluded will be a fact occluded off from us, which is the core-insight in \"Scanner.\" + why \"Scanner\" is so valuable in the presentation of our total actual situation. Yaldabaoth is the quasi-mind of the maze, not its creator - since in fact it does not really exist; it is a condition or state we've been put in, not a world or place at all; all it really consists of is info fired by th…",
+          "matched_terms": [
+            "Yaldabaoth"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_229",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-229"
+        },
+        {
+          "passage_id": 46,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…005 folder 49 - 005 system the original creation employs to govern our reality - the occlusion. The twin synchronized tapes; this is expressed by & through the DNA, & programmed, \"android\" lives. This would be Yaldabaoth. The system works to some extent, but we are not fully alive, not fully born, & doomed to scripted death (\"your ancestors ate manna in the wilderness & they are all dead.\" This doesn't sound as if Jesus speaks…",
+          "matched_terms": [
+            "Yaldabaoth"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_202",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-202"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_yaldabaoth",
+        "label": "Yaldabaoth",
+        "slug": "yaldabaoth",
+        "category": "concept",
+        "tradition": "Sethian",
+        "greek": null,
+        "gloss": "The name of the Demiurge in Sethian myth — Sophia's misbegotten son, a lion-faced serpent who declares 'I am God and there is no other beside me' in ignorance of the Pleroma above him.",
+        "status": "attested",
+        "attestations": {
+          "total": 82,
+          "pkd_text": 19,
+          "editor_annotation": 63,
+          "exegesis": 82,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {
+          "1976": 4,
+          "1978": 4,
+          "1981": 11
+        },
+        "by_year_rate": {
+          "1976": 0.016,
+          "1978": 0.01,
+          "1981": 0.029
+        },
+        "key_sources": [
+          "Apocryphon of John",
+          "On the Origin of the World"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_HEIMARMENE",
+      "claim_text": "Heimarmene is attested 312 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "704 in the Exegesis; 5 in the trilogy. Dick's determinism-and-release problem in its ancient form: the tape is running, and knowing it is running is what stops it.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 47,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_013",
+          "doc_title": "Letter",
+          "passage_text": "…t...it prepared the way to (1) transliminate the daimon, and (2) the Xerox information. The veil, inside and outside, was off. Gnosticism: \"The true purpose of Gnostic develation was to free spiritual man from astral determinism.\" Especially if man knew his origins in the pleroma. It is Gnosticism & Gnosticism alone which denies the patriarchal Jewish-Christian religion and enshrines Sophia as the creator goddess. So says Neumann in t…",
+          "matched_terms": [
+            "astral determinism"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_04",
+          "citation": "Letter — November 5, 1975",
+          "date": "November 5, 1975",
+          "slug": "1975-11-05-section-013-04"
+        },
+        {
+          "passage_id": 48,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_013",
+          "doc_title": "Letter",
+          "passage_text": "…t...it prepared the way to (1) transliminate the daimon, and (2) the Xerox information. The veil, inside and outside, was off. Gnosticism: \"The true purpose of Gnostic develation was to free spiritual man from astral determinism.\" Especially if man knew his origins in the pleroma. It is Gnosticism & Gnosticism alone which denies the patriarchal Jewish-Christian religion and enshrines Sophia as the creator goddess. So says Neumann in t…",
+          "matched_terms": [
+            "astral determinism"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_05",
+          "citation": "Letter — November 5, 1975",
+          "date": "November 5, 1975",
+          "slug": "1975-11-05-section-013-05"
+        },
+        {
+          "passage_id": 49,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…xternal situations were coming, the result is absolute enslavement with a subjective spurious sense of freedom. What the Fuck is going on? This all is completely equatable with the mystery religions' ideas of \"astral determinism\" + the \"God above the stars\" freeing you. I think of my concept of the yin world, + the yin-yang dichotomy of [tantra]. What is important here is the \"Electric Ant\" syndrome: the self-generation of plural quas…",
+          "matched_terms": [
+            "astral determinism"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_149",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-149"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_heimarmene",
+        "label": "Heimarmene",
+        "slug": "heimarmene",
+        "category": "concept",
+        "tradition": "Gnostic / Hellenistic",
+        "greek": "εἱμαρμένη",
+        "gloss": "Fate as astral determinism — the binding of human life to the movements of the planetary spheres, administered by the archons. The Gnostic is freed from it by gnosis.",
+        "status": "attested",
+        "attestations": {
+          "total": 709,
+          "pkd_text": 312,
+          "editor_annotation": 397,
+          "exegesis": 704,
+          "letters": 0,
+          "valis_trilogy": 5,
+          "scholarship": 0
+        },
+        "by_year": {
+          "1975": 2,
+          "1976": 38,
+          "1978": 158,
+          "1981": 109
+        },
+        "by_year_rate": {
+          "1975": 0.023,
+          "1976": 0.156,
+          "1978": 0.396,
+          "1981": 0.291
+        },
+        "key_sources": [
+          "Corpus Hermeticum",
+          "Hans Jonas, The Gnostic Religion"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_COUNTERFEIT",
+      "claim_text": "Counterfeit world is attested 173 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "294 in the Exegesis; 2 in the trilogy; 1 in the letters; 10 in secondary literature. Dick's lifelong plot — the fake world discovered to be fake — meets its theological warrant here. Forgery implies a forger, which is why his fake-world stories keep turning theological.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 50,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…mpirical world, generated by the artifact. 3. We must grasp the fact that the artifact has by its world-projecting power enslaved us. 4. We must recognize the fact that the artifact, although enslaving us in a counterfeit world, is teaching us. 5. We must finally come to the point where we disobey our teacher -- perhaps the most difficult moment in life, inasmuch as that teacher says, \"I will destroy you if you disobey me, and I woul…",
+          "matched_terms": [
+            "counterfeit world"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_117",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-117"
+        },
+        {
+          "passage_id": 51,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…aybe this is so; maybe not. In 1974 I saw it take aim at the center of tyranny in this country, and upon its successful attack there, the lesser evils fell into ruin, one by one. The Urgrund probably sees this counterfeit world as one Gestalt; it sees the polyform evils as stemming from a Quelle, a source. Aiming its arrow at the Source is the method of the warrior, and, beneath his cloak of mildness, our Savior Deity is a warrior. A…",
+          "matched_terms": [
+            "counterfeit world"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_121",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-121"
+        },
+        {
+          "passage_id": 52,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…arlike: an armed prison or fortress to repel invaders. The origin of the yin world was a primordeal overstepping of its proper [..] by the yin part of the Godhead; thus it aped yang + contructed a world, but a counterfeit world, simulating the authentic, natural creation of yang, who is the true creator. Yang must abolish, assimilate or transmute into authenticating our counterfeit yin world; evidently it is using all three solutions…",
+          "matched_terms": [
+            "counterfeit world"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_145",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-145"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_counterfeit",
+        "label": "Counterfeit world",
+        "slug": "counterfeit-world",
+        "category": "concept",
+        "tradition": "Gnostic / PKD",
+        "greek": null,
+        "gloss": "The world as forgery: not illusion in the Vedantic sense but a deliberate fake, manufactured and maintained to deceive.",
+        "status": "attested",
+        "attestations": {
+          "total": 307,
+          "pkd_text": 173,
+          "editor_annotation": 134,
+          "exegesis": 294,
+          "letters": 1,
+          "valis_trilogy": 2,
+          "scholarship": 10
+        },
+        "by_year": {
+          "1975": 2,
+          "1976": 80,
+          "1978": 64,
+          "1981": 14
+        },
+        "by_year_rate": {
+          "1975": 0.023,
+          "1976": 0.329,
+          "1978": 0.16,
+          "1981": 0.037
+        },
+        "key_sources": [
+          "Apocryphon of John"
+        ]
+      }
+    }
+  ],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [
+    {
+      "term_id": "GNOS_bip",
+      "canonical_name": "Black Iron Prison",
+      "slug": "black-iron-prison",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_palm_tree_garden",
+      "canonical_name": "Palm Tree Garden",
+      "slug": "palm-tree-garden",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_empire",
+      "canonical_name": "The Empire never ended",
+      "slug": "the-empire-never-ended",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_demiurge",
+      "canonical_name": "Demiurge",
+      "slug": "demiurge",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_archon",
+      "canonical_name": "Archon",
+      "slug": "archon",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_yaldabaoth",
+      "canonical_name": "Yaldabaoth",
+      "slug": "yaldabaoth",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_heimarmene",
+      "canonical_name": "Heimarmene",
+      "slug": "heimarmene",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_counterfeit",
+      "canonical_name": "Counterfeit world",
+      "slug": "counterfeit-world",
+      "relation_type": "primary"
+    }
+  ],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_GNOS_what_dick_actually_read",
+      "canonical_name": "What Dick Actually Read",
+      "slug": "what-dick-actually-read",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_sophia",
+      "canonical_name": "Sophia and the Fallen Wisdom",
+      "slug": "sophia",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_gnosis_and_anamnesis",
+      "canonical_name": "Gnosis and Anamnesis",
+      "slug": "gnosis-and-anamnesis",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_valis_trilogy",
+      "canonical_name": "Gnosticism in the VALIS Trilogy",
+      "slug": "valis-trilogy",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_orthodoxy_and_gnosis",
+      "canonical_name": "Orthodoxy and Gnosis",
+      "slug": "orthodoxy-and-gnosis",
+      "study_id": "gnosticism"
+    }
+  ]
+}

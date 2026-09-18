@@ -1,0 +1,898 @@
+{
+  "topic_id": "TOPIC_GNOS_orthodoxy_and_gnosis",
+  "study_id": "gnosticism",
+  "canonical_name": "Orthodoxy and Gnosis",
+  "slug": "orthodoxy-and-gnosis",
+  "status": "reviewed",
+  "generator": "curation/gnosticism@2026-09-18",
+  "provenance": "editorial_curation_from_corpus_sweep",
+  "definition": "The unresolved tension at the centre of Dick's late theology: a Gnostic cosmology, in which the creator is not the true God and the world is a prison, held simultaneously with a Christian sacramental instinct, in which God enters matter and the world is redeemable.",
+  "pkd_relevance": "Christian vocabulary is more attested than Gnostic vocabulary in every folder. Orthodox terms — incarnation, Holy Spirit, sacrament, Paraclete, Eucharist — run at 2.253 hits per segment in 1975 against 0.31 for Gnostic language, and are still ahead in 1981 at 0.533 against 0.709 only once the Gnostic vocabulary has risen. The man writing the Exegesis is a Christian arguing with himself, not a Gnostic with a Christian residue.",
+  "in_the_fiction": "The trilogy stages the conflict rather than settling it. VALIS is Gnostic in cosmology and sacramental in its attention to particular objects and people; The Divine Invasion swaps in a theology of repair; Timothy Archer is narrated by someone who has watched religion kill three people she loved.",
+  "in_the_exegesis": "The self-identification is conditional even at its most direct. In October 1978: \"If I am a Gnostic -+ my published writing is basically Gnostic- I should believe in Simon Magus who founded Gnosticism.\" The sentence is a hypothesis being tested, with a consequence he is not sure he accepts.\n\nThe doctrinal pressure points show up in the counts. Docetism — the view that Christ only appeared to have a body — is attested four times, and Dick rejects it whenever it appears; his instinct that the divine is actually present in the trash, the beer can, the pink light is incarnational and anti-Gnostic. Zebra, the God camouflaged as the world, is attested 1,075 times and is not a Gnostic idea at all: a deity hiding inside creation is the opposite of a deity exiled from it. The Palm Tree Garden does the same work.",
+  "intellectual_background": "The incompatibility is not a modern construction. It is what the second-century disputes were about: whether the creator is good, whether flesh can bear divinity, whether the world is to be escaped or redeemed. Dick holds positions the ancient parties defined themselves by rejecting.",
+  "scholarly_debate": "Criticism has generally resolved the tension in one direction — Dick the Gnostic — because it makes the better story and because the Gnostic material is more distinctive. The corpus does not support the resolution. On frequency alone the Christian vocabulary dominates throughout, and the most-used religious images of his last years, Zebra and the Palm Tree Garden, are both incarnational.",
+  "chronology_summary": "Christian vocabulary highest in 1975 (2.253) and declining but dominant throughout; Gnostic vocabulary rising to 1976 and levelling. The two run in parallel for six years without either displacing the other.",
+  "contradictions_summary": "This topic is the contradiction, and the portal's rule is to hold it open. Dick asserts that the creator of this world is blind and hostile, and that God is present in a beer can. He calls himself a Gnostic conditionally and takes communion unconditionally. Nothing in the corpus resolves this, and an interpretation that resolves it has removed evidence.",
+  "related_thinkers": [
+    "Origen",
+    "Marcion",
+    "Plotinus",
+    "Hans Jonas",
+    "Harold Bloom"
+  ],
+  "editorial_notes": "The Orthodox Christianity entry is a deliberately broad bucket of creedal and sacramental vocabulary, not a single term, and its counts are not comparable to a proper name like Sophia. It is included because leaving it out would let the Gnostic counts stand unopposed and imply a dominance the corpus does not show.",
+  "open_questions": [
+    "Does Dick anywhere state the incompatibility in his own terms and choose a side?",
+    "Is Zebra a Gnostic idea he has misclassified, or evidence that his cosmology was never Gnostic in the strict sense?",
+    "How much of the critical consensus that Dick is a Gnostic derives from VALIS alone, against the six years of Exegesis behind it?"
+  ],
+  "passage_count": 24,
+  "evidence_count": 8,
+  "contradiction_count": 1,
+  "first_appearance": "1975",
+  "peak_period_start": "1975",
+  "peak_period_end": "1981",
+  "evidence_packets": [
+    {
+      "ev_id": "PKT_GNOS_ORTHODOXY",
+      "claim_text": "Orthodox Christianity is attested 1219 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "2930 in the Exegesis; 23 in the trilogy; 4 in secondary literature. Dick was an Episcopalian who took the sacraments seriously. The study's central tension is that his orthodoxy and his Gnosticism are both real and mutually exclusive on exactly the points that matter.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 104,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_001",
+          "doc_title": "Claudia",
+          "passage_text": "…ted this axis out --the one he sees in UBIK-- as the orthogonal one. Now I say, its retrograde motion, expressed in the novel, is its proper development, its own forward. This \"decay\" is the same direction the Holy Spirit (or whatever you wish to deem it) was moving. Backward vis-a-vis our own time. So Joe Chip isn't seeing the anti-eidos. He is seeing the natural process of the other time exposed. Its normal motion under norma…",
+          "matched_terms": [
+            "Holy Spirit"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1975-02-27_Claudia_01",
+          "citation": "Claudia — February 27, 1975",
+          "date": "February 27, 1975",
+          "slug": "1975-02-27-claudia-01"
+        },
+        {
+          "passage_id": 105,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_001",
+          "doc_title": "Claudia",
+          "passage_text": "…Last night on the phone, though, I called Laura again, and got my former wife Anne. I had the opportunity to share some of my thoughts with her, about working out the ionosphere plasmic entity theory about the Holy Spirit, where upon Anne said, \"Well, that's the sin of pride, what you're doing; that is hubris To think that you, Philip K. Dick, can figure out God -- that is a sin.\" Instead of feeling bad I pointed out that judgm…",
+          "matched_terms": [
+            "Holy Spirit"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1975-02-27_Claudia_02",
+          "citation": "Claudia — February 27, 1975",
+          "date": "February 27, 1975",
+          "slug": "1975-02-27-claudia-02"
+        },
+        {
+          "passage_id": 106,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…ist himself offered, for the same reason What, though, took possession of me, which seemed like Elijah (if not truly Elijah)? I guess it was the Father; certainly it was not the seed. A form of the Father: the Holy Spirit, which, recall, made Mary pregnant, which brought conception to her; she conceived by the Holy Spirit and gave birth to the Logos; and yet, the Logos in a sense impregnated her; I guess the macroLogos this way…",
+          "matched_terms": [
+            "Holy Spirit"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_07",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-07"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_orthodoxy",
+        "label": "Orthodox Christianity",
+        "slug": "orthodox-christianity",
+        "category": "tradition",
+        "tradition": "Christian",
+        "greek": null,
+        "gloss": "The creedal tradition: one God who is both creator and redeemer, a good creation, a real incarnation, resurrection of the body.",
+        "status": "attested",
+        "attestations": {
+          "total": 2987,
+          "pkd_text": 1219,
+          "editor_annotation": 1768,
+          "exegesis": 2930,
+          "letters": 0,
+          "valis_trilogy": 23,
+          "scholarship": 4
+        },
+        "by_year": {
+          "1975": 196,
+          "1976": 320,
+          "1978": 446,
+          "1981": 200
+        },
+        "by_year_rate": {
+          "1975": 2.253,
+          "1976": 1.317,
+          "1978": 1.118,
+          "1981": 0.533
+        },
+        "key_sources": [
+          "Nicene Creed"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_GNOSTICISM",
+      "claim_text": "Gnosticism / Gnostic is attested 921 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "2242 in the Exegesis; 12 in the trilogy; 47 in secondary literature. Dick calls himself a Gnostic repeatedly in the Exegesis and in letters, and just as often qualifies or withdraws the label. The self-identification is one of the study's central contradictions.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 107,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…as a plant has, but an egg such as a human woman ovulates, and a cosmic spermatika fertilizes it; a zygote is produced. Firebright is a combining. Here would be the crucial distinction between Neoplatonism and Gnosticism, which I feel so strongly about: the former is sort of self-fertilizing, parthonogenesis, so to speak, but in Gnosticism you have the idea that the Savior is absolutely necessary, so we have here the idea that…",
+          "matched_terms": [
+            "Gnosticism"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_07",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-07"
+        },
+        {
+          "passage_id": 108,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_007",
+          "doc_title": "Henry",
+          "passage_text": "…ide. It is possible that I did it alone (the experimentation with the ortho molecular vitamins and so forth being my \"alchemical experiments\"), but it is also possible that a Redeemer caused it adventitiously (Gnosticism versus Neoplatonism). The spontaneousness of it would indicate that, like any true chemical reaction, it is not reversable. I think that the first dream being the baby's cereal box with the \"the bichlorides ar…",
+          "matched_terms": [
+            "Gnosticism"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Henry_02",
+          "citation": "Henry — February 29, 1975",
+          "date": "February 29, 1975",
+          "slug": "u-henry-02"
+        },
+        {
+          "passage_id": 109,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_013",
+          "doc_title": "Letter",
+          "passage_text": "…it is so, based on 3-74. Simon Magus lives. Also, it is a thoroughly Greek syncretistic system. I must go where truth (as I've experienced it) takes me; my experience is of St. Sophia. Well, this is a modified Gnosticism, with Sophia sanctified as Wisdom of Proverbs and the book \"Wisdom,\" so that it can be made to jibe with the Bible; thus Christ becomes the female spirit Sophia in a male body, a syzygy. Ah! Yes! This is the c…",
+          "matched_terms": [
+            "Gnosticism"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_05",
+          "citation": "Letter — November 5, 1975",
+          "date": "November 5, 1975",
+          "slug": "1975-11-05-section-013-05"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_gnosticism",
+        "label": "Gnosticism / Gnostic",
+        "slug": "gnosticism-gnostic",
+        "category": "concept",
+        "tradition": "Gnostic (general)",
+        "greek": null,
+        "gloss": "The modern collective name for a family of late-antique movements holding that the cosmos is the botched work of a lesser god, that a spark of the true God is trapped in human beings, and that saving knowledge comes from outside the system. The unity the name implies is itself contested.",
+        "status": "attested",
+        "attestations": {
+          "total": 2315,
+          "pkd_text": 921,
+          "editor_annotation": 1394,
+          "exegesis": 2242,
+          "letters": 0,
+          "valis_trilogy": 12,
+          "scholarship": 47
+        },
+        "by_year": {
+          "1975": 27,
+          "1976": 262,
+          "1978": 293,
+          "1981": 266
+        },
+        "by_year_rate": {
+          "1975": 0.31,
+          "1976": 1.078,
+          "1978": 0.734,
+          "1981": 0.709
+        },
+        "key_sources": [
+          "Irenaeus, Against Heresies",
+          "Nag Hammadi Library"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_DOCETISM",
+      "claim_text": "Docetism is attested 4 times in Dick's own words, 1978-1981.",
+      "evidence_summary": "14 in the Exegesis. The heresy Dick's incarnational instincts refuse. He wants the divine actually in the trash, the beer can, the body — which is anti-Gnostic, and he knows it.",
+      "confidence": "moderate",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 110,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "…sacrifice which in a sense is a trick on wisdom's part against power on Satan's part: an outmaneuvering, a strategy; it is indeed bait but the lamb does die: he is endlessly slaughtered. A I am therefore not a docetist; Christ actually suffers + dies as our ransom. it just came to me with full force: 1) I write a letter (sept 23 1981) saying that in a vision I saw that the Parousia is here. But that is not the whole story: 2…",
+          "matched_terms": [
+            "docetist"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_118",
+          "citation": "Pat — April 16, 1981",
+          "date": "April 16, 1981",
+          "slug": "1981-04-16-pat-118"
+        },
+        {
+          "passage_id": 111,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "…system, for it abolishes the issue of God the creator + God as transmundane in contradistinction to a blind demi‐ urge creator, + abolishes the issue of Gnosis versus justification - as well as abolishing the docetist contraversy. Orthodox Xtianity is amended substantially along Manichaean lines: world + Satan are equated; Christ stands opposed to world just as providentia is bipolarized to fate I destiny/ natural law, whic…",
+          "matched_terms": [
+            "docetist"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_119",
+          "citation": "Pat — April 16, 1981",
+          "date": "April 16, 1981",
+          "slug": "1981-04-16-pat-119"
+        },
+        {
+          "passage_id": 112,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…no other beings to rival his sovereignty + power. He does not change + he does not vary.\" \"All things other than God are created by the will of God out of nothing.\" My 11-17-80 experience has turned me from a Docetist (Gnostic) to an Arian! I perceive Valis totally involved in the world order; in fact insofar as the term world order means arrangement + structure, Valis -i.e. the Logos- is the [rational in the] world order.…",
+          "matched_terms": [
+            "Docetist"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_323",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-323"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_docetism",
+        "label": "Docetism",
+        "slug": "docetism",
+        "category": "concept",
+        "tradition": "Gnostic (general)",
+        "greek": null,
+        "gloss": "The doctrine that Christ only appeared to have a body and only appeared to suffer, the flesh being unworthy of the divine.",
+        "status": "attested",
+        "attestations": {
+          "total": 14,
+          "pkd_text": 4,
+          "editor_annotation": 10,
+          "exegesis": 14,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {
+          "1978": 1,
+          "1981": 3
+        },
+        "by_year_rate": {
+          "1978": 0.003,
+          "1981": 0.008
+        },
+        "key_sources": [
+          "Irenaeus, Against Heresies",
+          "Acts of John"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_LOGOS",
+      "claim_text": "Logos is attested 879 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "2415 in the Exegesis; 9 in the trilogy; 1 in secondary literature. Dick's bridge between Christian orthodoxy and the Gnostic material: living information that is also a person. The plasmate is a Logos doctrine.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 113,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_001",
+          "doc_title": "Claudia",
+          "passage_text": "…ron City --Rome-- [****?] didn't just go away...we threw it over, the tyranny. We fought well, organizated. Yes; it was Elijah who came first, in mid-March; he prepared us, gt blub zeesxh. First, the \"Artist\" (logos) is drawing you (or universe is fashioning you) more and more like Christ. These are first kinds of changes: you're made to look i.e. be like him. But the real thing is when you can see the likeness. First, se…",
+          "matched_terms": [
+            "logos"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1975-02-27_Claudia_01",
+          "citation": "Claudia — February 27, 1975",
+          "date": "February 27, 1975",
+          "slug": "1975-02-27-claudia-01"
+        },
+        {
+          "passage_id": 114,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…ts, slumbering always in his psyche; he would know, when he began to re-encounter them, what it signified (not that the end was near, but that the whole process was subsumed by intention, design, and a plan or Logos). These would be absolute signs along the trait that there was indeed and trail -- and it was one intended for him; he and it were isomorphic. Being a novelist I can appreciate how easily this could be done; t…",
+          "matched_terms": [
+            "Logos"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_03",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-03"
+        },
+        {
+          "passage_id": 115,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…God's Grace) is sent to you. . . I finally tied it all up: the phosphene graphics were exactly like the Auroras. Probably I thought of this already, but the significance escaped me. Pattern or blueprint -- the Logos. The Aurora is energy, in the ionosphere, is plasmic, and is involved with solar flares: is radiation. It acted as a cathode ray tube with my optic nerve as screen. . . On the \"Decoded New Testament\": It agree…",
+          "matched_terms": [
+            "Logos"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_04",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-04"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_logos",
+        "label": "Logos",
+        "slug": "logos",
+        "category": "concept",
+        "tradition": "Johannine / Hermetic / Stoic",
+        "greek": "λόγος",
+        "gloss": "Word, reason, the ordering principle; in John's prologue the divine Word through whom everything was made, become flesh.",
+        "status": "attested",
+        "attestations": {
+          "total": 2435,
+          "pkd_text": 879,
+          "editor_annotation": 1556,
+          "exegesis": 2415,
+          "letters": 0,
+          "valis_trilogy": 9,
+          "scholarship": 1
+        },
+        "by_year": {
+          "1975": 131,
+          "1976": 196,
+          "1978": 315,
+          "1981": 217
+        },
+        "by_year_rate": {
+          "1975": 1.506,
+          "1976": 0.807,
+          "1978": 0.789,
+          "1981": 0.579
+        },
+        "key_sources": [
+          "Gospel of John",
+          "Corpus Hermeticum"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_ZEBRA",
+      "claim_text": "Zebra is attested 1075 times in Dick's own words, 1976-1981.",
+      "evidence_summary": "2285 in the Exegesis; 47 in the trilogy; 14 in secondary literature. An immanent God hidden by disguise rather than a transcendent God hidden by distance — closer to Hermetic and Orthodox positions than to Gnostic ones.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 116,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…thinks of the entire other personality (Thomas\"). Then one could go on to presume that the whole superhuman \"ETI\" personality was intrinsic But if the ETI\" is intrinsic, + the \"ETI\" (Thomas) is isomorphic with Zebra, mentally at least, then but even if it was in me it was not me, because it talked to me, + in koine. Of course in \"Scanner\" it is posited as an appositional right brain personality. Either idea - a theoleptic…",
+          "matched_terms": [
+            "Zebra"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_100",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-100"
+        },
+        {
+          "passage_id": 117,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…thentic Xtians are using their knowledge + related abilities to travel back + forth (\"Garden-hose‐ wise) through linear time for the purpose of altering controlling) history; thus it is they, as extensors of 2 ZebRa, who are doing the tinkering, producing one alternate world after another, + each new one The true, secret Xtian church KW + I better. posited are able to reweave reality through a strange form of time-travel.…",
+          "matched_terms": [
+            "ZebRa"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_102",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-102"
+        },
+        {
+          "passage_id": 118,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…eal would be the same as taking a TV image, + program + its dramatic contents- as real. It, too, is spun - by a fast-moving dot. + that which the dot spins is fictitious I must not forget that the intrusion of ZebrA is a process of transubstantiating this spurious world into something actual: the real mimics the fake. 17) e Could it be said that ZebRA is an emissary from (3) which has penetrated ➁ + has in doing so gained…",
+          "matched_terms": [
+            "ZebrA"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_103",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-103"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_zebra",
+        "label": "Zebra",
+        "slug": "zebra",
+        "category": "pkd_coinage",
+        "tradition": "PKD",
+        "greek": null,
+        "gloss": "The camouflaged deity: God imitating the environment so exactly as to be invisible within it, like a zebra in grass.",
+        "status": "attested",
+        "attestations": {
+          "total": 2354,
+          "pkd_text": 1075,
+          "editor_annotation": 1279,
+          "exegesis": 2285,
+          "letters": 0,
+          "valis_trilogy": 47,
+          "scholarship": 14
+        },
+        "by_year": {
+          "1976": 817,
+          "1978": 172,
+          "1981": 17
+        },
+        "by_year_rate": {
+          "1976": 3.362,
+          "1978": 0.431,
+          "1981": 0.045
+        },
+        "key_sources": [
+          "VALIS",
+          "Exegesis"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_PALM_TREE_GARDEN",
+      "claim_text": "Palm Tree Garden is attested 213 times in Dick's own words, 1976-1981.",
+      "evidence_summary": "410 in the Exegesis; 5 in the trilogy; 3 in secondary literature. The anti-Gnostic corrective Dick builds into his own system. If the garden is the same place, matter is not the problem.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 119,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…iel said, The times previously predicted have now come — with emphasis on the word now. It is not future; it is now, at least in part. And if in part, then the whole great process is here, and my vision of the palm tree garden is the final and true vision of the Peacable Kingdom. We are not talking about events hundreds or thousands of years hence; part has already become history — in the past. It is not so much that Gabriel said, T…",
+          "matched_terms": [
+            "palm tree garden"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_04",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-04"
+        },
+        {
+          "passage_id": 120,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…ast provides an explanation for My \"post Mortem\" experiences: acting as a bridge between ➀ + (3 it had -Zebra the Paraclete - had succes‐ sfully led me right through (2) + to (3 (this includes The hours in the Palm Tree Garden). So more than restored memory is involved. First the person remembers who + what he is - that he doesn't belong in (, + came from 3 originally, + then ZEBRA as psychopomp leads him back to ➁, his place of ori…",
+          "matched_terms": [
+            "Palm Tree Garden"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_103",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-103"
+        },
+        {
+          "passage_id": 121,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…ed then out of all the possibilities - or: she, like me, was subconsciously prompted Anyhow, these two are absolute epitomes of ( the hell world: âž€ the heaven world. Also, I had the distinct feeling that the Palm tree Garden had won out over the other, perhaps due to the historic intervention. One also could assess the two mysteriously. glimpsed worlds as two opposite mutually contradictory \"crypte morphoses\" latent in our [presen…",
+          "matched_terms": [
+            "Palm tree Garden"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_13",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-13"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_palm_tree_garden",
+        "label": "Palm Tree Garden",
+        "slug": "palm-tree-garden",
+        "category": "pkd_coinage",
+        "tradition": "PKD",
+        "greek": null,
+        "gloss": "The Black Iron Prison's counterpart: the same world correctly perceived, a garden rather than a jail. Both are present; which one is seen depends on the perceiver.",
+        "status": "attested",
+        "attestations": {
+          "total": 422,
+          "pkd_text": 213,
+          "editor_annotation": 209,
+          "exegesis": 410,
+          "letters": 0,
+          "valis_trilogy": 5,
+          "scholarship": 3
+        },
+        "by_year": {
+          "1976": 106,
+          "1978": 64,
+          "1981": 31
+        },
+        "by_year_rate": {
+          "1976": 0.436,
+          "1978": 0.16,
+          "1981": 0.083
+        },
+        "key_sources": [
+          "Exegesis"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_APOCATASTASIS",
+      "claim_text": "Apocatastasis is attested 10 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "30 in the Exegesis. Dick's recurring hope against his own dualism: that the Empire's defeat is not a victory of one side but the repair of the whole.",
+      "confidence": "moderate",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 122,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…rebirth and renewal; our world --and each of us-- have been decaying into entropic dimness, and what God does is reestablished equilibrium: everything can, through Him, be restored -- back to that concept: the Restoration of All Things: the Day on which that occurs is God's return. This is Ubik, and for the universe to survive this force, God, must exist and be capable of doing what Run[ci]ter, Ella and Ubik do. Otherwise it would con…",
+          "matched_terms": [
+            "Restoration of All"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_02",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-02"
+        },
+        {
+          "passage_id": 123,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…ty already there. I did not acquire it abruptly; I recalled it. In reconciling this with Christianity, I was restored. To the former state I had lost (the myth of Adam, the Fall). In the Parousia, there is the Restoration of all things, specifically, man is restored to his intended, divine state. The Second Birth (born again or saved, found after having been lost) Is it food for a seed already there? A seed which was never germinated?…",
+          "matched_terms": [
+            "Restoration of all"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_07",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-07"
+        },
+        {
+          "passage_id": 124,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_013",
+          "doc_title": "Letter",
+          "passage_text": "…a reward; I hope this isn't hubris, but I did pay heavily for my anti-war stand, and that is a fact. That was the well-documented Time of Great Tribulation — cut short in 3-74 by God, to spare me. And then the restoration of all things began. My last act against the regime was when I fired off TEARS and it was published. So from the standpoint of efficient causes the experience can be understood (a reward following what I did and what…",
+          "matched_terms": [
+            "restoration of all"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1975-11-05_SECTION_013_10",
+          "citation": "Letter — November 5, 1975",
+          "date": "November 5, 1975",
+          "slug": "1975-11-05-section-013-10"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_apocatastasis",
+        "label": "Apocatastasis",
+        "slug": "apocatastasis",
+        "category": "concept",
+        "tradition": "Patristic / Gnostic",
+        "greek": "ἀποκατάστασις",
+        "gloss": "The final restoration of all things to their original condition — universal restitution, with nothing finally lost.",
+        "status": "attested",
+        "attestations": {
+          "total": 30,
+          "pkd_text": 10,
+          "editor_annotation": 20,
+          "exegesis": 30,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {
+          "1975": 4,
+          "1976": 3,
+          "1978": 1,
+          "1981": 2
+        },
+        "by_year_rate": {
+          "1975": 0.046,
+          "1976": 0.012,
+          "1978": 0.003,
+          "1981": 0.005
+        },
+        "key_sources": [
+          "Origen, On First Principles"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_DUALISM",
+      "claim_text": "Cosmic dualism is attested 163 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "599 in the Exegesis; 5 in the trilogy; 9 in secondary literature. The structural commitment underneath Dick's whole late period, and the one he most often tries to escape into a monism that will not hold.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 3,
+      "lane_b_count": 0,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 125,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": null,
+          "doc_title": "VALIS, chapter 8",
+          "passage_text": "…rm on its enemies. Thereby it becomes its enemies** . **43. Against the Empire is posed the living information, the plásmate or physician, which we know as the Holy Spirit or Christ discorporate. These are the two principles, the dark (the Empire) and the light (the plásmate). In the end, Mind will give victory to the latter. Each of us will die or survive according to which he aligns himself and his efforts. Each of us contains a…",
+          "matched_terms": [
+            "two principles"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "valis_chapter_8_text",
+          "citation": "VALIS, chapter 8 — 1981",
+          "date": "1981",
+          "slug": null
+        },
+        {
+          "passage_id": 126,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": null,
+          "doc_title": "VALIS, chapter 12",
+          "passage_text": "…et it. You will not forget it for long. I will be there and I will remind you. “The day of Wisdom and the rule of Wisdom has come. The day of power, which is the enemy of Wisdom, ends. Power and Wisdom are the two principles in the world. Power has had its rule and now it goes into the darkness from which it came, and Wisdom alone rules. “Those who obey power will succumb as power succumbs. “Those who love Wisdom and follow her wi…",
+          "matched_terms": [
+            "two principles"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "valis_chapter_12_text",
+          "citation": "VALIS, chapter 12 — 1981",
+          "date": "1981",
+          "slug": null
+        },
+        {
+          "passage_id": 127,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": null,
+          "doc_title": "VALIS, chapter 13",
+          "passage_text": "…m. I sat; I waited; I watched; I kept myself awake. As we had been told, originally, long ago, to do; I kept my commission. ## **Appendix** ## _Tractates: Cryptica Scriptura_ 1. One Mind there is; but under it two principles contend. 2. The Mind lets in the light, then the dark, in interaction; so time is generated. At the end Mind awards victory to the light; time ceases and the Mind is complete. 3. He causes things to look diffe…",
+          "matched_terms": [
+            "two principles"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "valis_chapter_13_text",
+          "citation": "VALIS, chapter 13 — 1981",
+          "date": "1981",
+          "slug": null
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_dualism",
+        "label": "Cosmic dualism",
+        "slug": "cosmic-dualism",
+        "category": "concept",
+        "tradition": "Gnostic / Zoroastrian / Manichaean",
+        "greek": null,
+        "gloss": "The doctrine of two irreducible principles — light and darkness, spirit and matter, true God and creator — at war, with the world as the contested ground.",
+        "status": "attested",
+        "attestations": {
+          "total": 615,
+          "pkd_text": 163,
+          "editor_annotation": 452,
+          "exegesis": 599,
+          "letters": 0,
+          "valis_trilogy": 5,
+          "scholarship": 9
+        },
+        "by_year": {
+          "1975": 2,
+          "1976": 50,
+          "1978": 58,
+          "1981": 37
+        },
+        "by_year_rate": {
+          "1975": 0.023,
+          "1976": 0.206,
+          "1978": 0.145,
+          "1981": 0.099
+        },
+        "key_sources": [
+          "Mani",
+          "Zoroastrian Gathas",
+          "Marcion"
+        ]
+      }
+    }
+  ],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [
+    {
+      "term_id": "GNOS_orthodoxy",
+      "canonical_name": "Orthodox Christianity",
+      "slug": "orthodox-christianity",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_gnosticism",
+      "canonical_name": "Gnosticism / Gnostic",
+      "slug": "gnosticism-gnostic",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_docetism",
+      "canonical_name": "Docetism",
+      "slug": "docetism",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_logos",
+      "canonical_name": "Logos",
+      "slug": "logos",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_zebra",
+      "canonical_name": "Zebra",
+      "slug": "zebra",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_palm_tree_garden",
+      "canonical_name": "Palm Tree Garden",
+      "slug": "palm-tree-garden",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_apocatastasis",
+      "canonical_name": "Apocatastasis",
+      "slug": "apocatastasis",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_dualism",
+      "canonical_name": "Cosmic dualism",
+      "slug": "cosmic-dualism",
+      "relation_type": "primary"
+    }
+  ],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_GNOS_what_dick_actually_read",
+      "canonical_name": "What Dick Actually Read",
+      "slug": "what-dick-actually-read",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_sophia",
+      "canonical_name": "Sophia and the Fallen Wisdom",
+      "slug": "sophia",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_black_iron_prison",
+      "canonical_name": "The Black Iron Prison",
+      "slug": "black-iron-prison",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_gnosis_and_anamnesis",
+      "canonical_name": "Gnosis and Anamnesis",
+      "slug": "gnosis-and-anamnesis",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_valis_trilogy",
+      "canonical_name": "Gnosticism in the VALIS Trilogy",
+      "slug": "valis-trilogy",
+      "study_id": "gnosticism"
+    }
+  ]
+}

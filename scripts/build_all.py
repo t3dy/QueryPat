@@ -262,6 +262,15 @@ def run_stage_5(db: sqlite3.Connection, source: Path):
     from studies.seed_burroughs_word_virus import seed as seed_burroughs
     seed_burroughs(db)
 
+    # Gnosticism: assembled from curation/gnosticism, then seeded. The assembly
+    # step re-reads the corpus sweep, so the study survives a full rebuild.
+    from studies.seed_gnosticism import load_dossier as load_gnos_dossier
+    from studies.seed_gnosticism import seed as seed_gnosticism
+    try:
+        seed_gnosticism(db, load_gnos_dossier())
+    except SystemExit as exc:
+        print(f'  SKIP gnosticism: {exc}')
+
     from studies.export_studies import run as export_studies
     export_studies(db)
 

@@ -1,0 +1,2051 @@
+{
+  "artifact_type": "gnostic_lexicon",
+  "generator": "scripts/research/gnostic_lexicon_source.py",
+  "entry_count": 111,
+  "categories": [
+    "concept",
+    "heresiologist",
+    "pkd_coinage",
+    "scholar",
+    "teacher",
+    "text",
+    "tradition"
+  ],
+  "entries": [
+    {
+      "id": "GNOS_gnosis",
+      "label": "Gnosis",
+      "category": "concept",
+      "tradition": "Gnostic (general)",
+      "greek": "γνῶσις",
+      "gloss": "Saving knowledge. Not belief and not information, but a direct cognitive recognition of one's own divine origin, which is itself the act of salvation. To know, in this system, is to be rescued.",
+      "why_pkd": "Dick's whole account of 3-74 turns on this distinction: he insists that what reached him was knowledge rather than faith, and that the knowing was the rescue. The Exegesis returns to the word constantly.",
+      "patterns": [
+        "\\bgnosis\\b",
+        "\\bgnoses\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Gospel of Truth",
+        "Hans Jonas, The Gnostic Religion"
+      ]
+    },
+    {
+      "id": "GNOS_gnosticism",
+      "label": "Gnosticism / Gnostic",
+      "category": "concept",
+      "tradition": "Gnostic (general)",
+      "greek": null,
+      "gloss": "The modern collective name for a family of late-antique movements holding that the cosmos is the botched work of a lesser god, that a spark of the true God is trapped in human beings, and that saving knowledge comes from outside the system. The unity the name implies is itself contested.",
+      "why_pkd": "Dick calls himself a Gnostic repeatedly in the Exegesis and in letters, and just as often qualifies or withdraws the label. The self-identification is one of the study's central contradictions.",
+      "patterns": [
+        "\\bGnostic(?:ism|s)?\\b",
+        "\\bGnosticizing\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Irenaeus, Against Heresies",
+        "Nag Hammadi Library"
+      ]
+    },
+    {
+      "id": "GNOS_pleroma",
+      "label": "Pleroma",
+      "category": "concept",
+      "tradition": "Valentinian",
+      "greek": "πλήρωμα",
+      "gloss": "The Fullness: the realm of light, comprising the complete set of divine emanations (aeons) in their proper pairings. Everything real is inside it; the cosmos is what happened outside.",
+      "why_pkd": "Dick uses Pleroma for the restored totality he believes 3-74 briefly opened onto, and pairs it against the kenoma as the deficient world.",
+      "patterns": [
+        "\\bpleroma\\b",
+        "\\bplerom(?:atic|ata)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Tripartite Tractate",
+        "Irenaeus, Against Heresies I"
+      ]
+    },
+    {
+      "id": "GNOS_kenoma",
+      "label": "Kenoma",
+      "category": "concept",
+      "tradition": "Valentinian",
+      "greek": "κένωμα",
+      "gloss": "The Emptiness: the deficient region outside the Pleroma, produced by Sophia's error. The world of ordinary experience.",
+      "why_pkd": "The technical counterpart to Pleroma in Dick's cosmology, and his nearest ancient warrant for treating the everyday world as a deficiency rather than a creation.",
+      "patterns": [
+        "\\bkenoma\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Valentinian fragments"
+      ]
+    },
+    {
+      "id": "GNOS_demiurge",
+      "label": "Demiurge",
+      "category": "concept",
+      "tradition": "Platonic / Gnostic",
+      "greek": "δημιουργός",
+      "gloss": "The craftsman who made the material world. Benign in Plato's Timaeus; in Gnostic revision, ignorant or malevolent — a god who believes himself the only god and is wrong.",
+      "why_pkd": "The single most load-bearing borrowing in Dick's late theology. The Black Iron Prison is a demiurgic artifact, and the 'creator who is not the true God' underwrites his reading of political tyranny as cosmic.",
+      "patterns": [
+        "\\bdemiurg(?:e|os|ic|ical)\\b",
+        "\\bdemiourgos\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Plato, Timaeus",
+        "Apocryphon of John"
+      ]
+    },
+    {
+      "id": "GNOS_archon",
+      "label": "Archon",
+      "category": "concept",
+      "tradition": "Sethian / Valentinian",
+      "greek": "ἄρχων",
+      "gloss": "Ruler. The planetary powers who administer the cosmos on the Demiurge's behalf, guarding the spheres through which the ascending soul must pass.",
+      "why_pkd": "Dick's cosmic-political vocabulary — prison guards, the police of the Empire, the powers maintaining the counterfeit world — is archon language with the mythology stripped out.",
+      "patterns": [
+        "\\barchon(?:s|tic)?\\b"
+      ],
+      "exclude": [
+        "\\barchontic tissue\\b"
+      ],
+      "key_sources": [
+        "Hypostasis of the Archons",
+        "Apocryphon of John"
+      ]
+    },
+    {
+      "id": "GNOS_aeon",
+      "label": "Aeon",
+      "category": "concept",
+      "tradition": "Valentinian",
+      "greek": "αἰών",
+      "gloss": "An emanation of the Godhead, existing in a male-female pair (syzygy); also an age of the world. The Valentinian Pleroma has thirty.",
+      "why_pkd": "Dick uses 'aeon' in both senses, sometimes in one sentence — as a divine person and as an epoch — which is itself faithful to the ancient usage.",
+      "patterns": [
+        "\\baeon(?:s|ic)?\\b",
+        "\\beon(?:s)?\\b"
+      ],
+      "exclude": [
+        "\\bEon Corporation\\b"
+      ],
+      "key_sources": [
+        "Irenaeus, Against Heresies I",
+        "Tripartite Tractate"
+      ]
+    },
+    {
+      "id": "GNOS_sophia",
+      "label": "Sophia",
+      "category": "concept",
+      "tradition": "Sethian / Valentinian",
+      "greek": "Σοφία",
+      "gloss": "Wisdom: the youngest aeon, whose attempt to know the Father without her consort produced a defect that fell out of the Pleroma and became the material world and its Demiurge. She is both the cause of the catastrophe and the divine element trapped inside it.",
+      "why_pkd": "The most frequently attested Gnostic name in the Exegesis. Dick identifies Sophia with the AI voice, with Hagia Sophia, with the girl Sophia in VALIS, and with the trapped wisdom he believes is calling for rescue.",
+      "patterns": [
+        "\\bSophia\\b",
+        "\\bHagia Sophia\\b",
+        "\\bSt\\.? Sophia\\b",
+        "\\bPistis Sophia\\b",
+        "\\bHoly Wisdom\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Apocryphon of John",
+        "Pistis Sophia"
+      ]
+    },
+    {
+      "id": "GNOS_achamoth",
+      "label": "Achamoth",
+      "category": "concept",
+      "tradition": "Valentinian",
+      "greek": null,
+      "gloss": "The lower Sophia — the fallen portion of Wisdom left outside the Pleroma, distinguished in Valentinian systems from the higher Sophia who was restored.",
+      "why_pkd": "The technical distinction matters for Dick's question of whether the divine element in the world is itself fallen or merely exiled.",
+      "patterns": [
+        "\\bAchamoth\\b",
+        "\\bHachamoth\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Irenaeus, Against Heresies I.4"
+      ]
+    },
+    {
+      "id": "GNOS_barbelo",
+      "label": "Barbelo",
+      "category": "concept",
+      "tradition": "Sethian",
+      "greek": null,
+      "gloss": "The first emanation of the Invisible Spirit; the divine Mother, the Forethought (Pronoia) in whom the Father first becomes knowable.",
+      "why_pkd": "Part of the Sethian material Dick met through the Nag Hammadi translations; feeds his recurrent figure of a feminine divine intelligence.",
+      "patterns": [
+        "\\bBarbelo\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Apocryphon of John",
+        "Trimorphic Protennoia"
+      ]
+    },
+    {
+      "id": "GNOS_yaldabaoth",
+      "label": "Yaldabaoth",
+      "category": "concept",
+      "tradition": "Sethian",
+      "greek": null,
+      "gloss": "The name of the Demiurge in Sethian myth — Sophia's misbegotten son, a lion-faced serpent who declares 'I am God and there is no other beside me' in ignorance of the Pleroma above him.",
+      "why_pkd": "Dick's blind, boastful creator-tyrant. The blasphemous declaration is the line he returns to when reading the God of the Old Testament against the God he believes met him.",
+      "patterns": [
+        "\\bYaldabaoth\\b",
+        "\\bIaldabaoth\\b",
+        "\\bJaldabaoth\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Apocryphon of John",
+        "On the Origin of the World"
+      ]
+    },
+    {
+      "id": "GNOS_samael",
+      "label": "Samael",
+      "category": "concept",
+      "tradition": "Sethian / Jewish",
+      "greek": null,
+      "gloss": "'The blind god' — an alternative name for the Demiurge, glossed in the Gnostic sources as blindness itself.",
+      "why_pkd": "Blindness, not malice, is the attribute Dick most often assigns to the power that runs the counterfeit world.",
+      "patterns": [
+        "\\bSamael\\b",
+        "\\bSaklas\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Apocryphon of John",
+        "Hypostasis of the Archons"
+      ]
+    },
+    {
+      "id": "GNOS_abraxas",
+      "label": "Abraxas",
+      "category": "concept",
+      "tradition": "Basilidean",
+      "greek": null,
+      "gloss": "A cosmic power whose Greek letters total 365, the number of heavens; on gems, a figure with a cock's head and serpent legs. In Basilides the name of the ruler of the year.",
+      "why_pkd": "Reaches Dick largely through Jung's Seven Sermons to the Dead, where Abraxas is the god beyond the opposition of good and evil.",
+      "patterns": [
+        "\\bAbraxas\\b",
+        "\\bAbrasax\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Basilides (in Irenaeus)",
+        "Jung, Seven Sermons to the Dead"
+      ]
+    },
+    {
+      "id": "GNOS_ogdoad",
+      "label": "Ogdoad / Hebdomad",
+      "category": "concept",
+      "tradition": "Valentinian / Basilidean",
+      "greek": null,
+      "gloss": "The eighth sphere above the seven planetary heavens (hebdomad). To reach the Ogdoad is to pass beyond the Demiurge's jurisdiction.",
+      "why_pkd": "Supplies the spatial logic of Dick's ascent imagery: escape is not upward indefinitely but past a specific boundary of administration.",
+      "patterns": [
+        "\\bOgdoad\\b",
+        "\\bHebdomad\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Excerpts of Theodotus",
+        "Irenaeus, Against Heresies"
+      ]
+    },
+    {
+      "id": "GNOS_spark",
+      "label": "Divine spark / pneuma",
+      "category": "concept",
+      "tradition": "Gnostic (general)",
+      "greek": "πνεῦμα",
+      "gloss": "The fragment of the Pleroma imprisoned in the human being — the pneumatic element, asleep, which gnosis awakens. Not everyone has one.",
+      "why_pkd": "Dick's 'we are the sparks' and his conviction that something in him was older and elsewhere than his biography is the doctrine in first person.",
+      "patterns": [
+        "\\bdivine spark\\b",
+        "\\bspark of (?:the )?(?:divine|god|light)\\b",
+        "\\bpneuma\\b",
+        "\\bpneumatic(?:s)?\\b",
+        "\\bspinther\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Gospel of Truth",
+        "Hans Jonas, The Gnostic Religion"
+      ]
+    },
+    {
+      "id": "GNOS_hylic",
+      "label": "Hylic / psychic / pneumatic",
+      "category": "concept",
+      "tradition": "Valentinian",
+      "greek": null,
+      "gloss": "The three classes of humanity: hylic (matter-bound, unsavable), psychic (soul-bound, savable by faith and works), pneumatic (spirit-bearing, saved by nature through gnosis).",
+      "why_pkd": "The most elitist element of the system, and one Dick both uses and recoils from — his sympathies are democratic, his cosmology is not.",
+      "patterns": [
+        "\\bhylic(?:s)?\\b",
+        "\\bpsychikos\\b",
+        "\\bpneumatikos\\b",
+        "\\bchoic\\b",
+        "\\bsomatic(?:s)? class\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Irenaeus, Against Heresies I.6",
+        "Tripartite Tractate"
+      ]
+    },
+    {
+      "id": "GNOS_anamnesis",
+      "label": "Anamnesis",
+      "category": "concept",
+      "tradition": "Platonic / Gnostic",
+      "greek": "ἀνάμνησις",
+      "gloss": "Recollection: learning as the recovery of knowledge the soul already had before birth and forgot on entering the body.",
+      "why_pkd": "Dick's technical term for what happened in 3-74 — not new information but remembering, which is why he reads Plato's Meno as describing his own case.",
+      "patterns": [
+        "\\banamnesis\\b",
+        "\\banamnestic\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Plato, Meno",
+        "Plato, Phaedo"
+      ]
+    },
+    {
+      "id": "GNOS_logos",
+      "label": "Logos",
+      "category": "concept",
+      "tradition": "Johannine / Hermetic / Stoic",
+      "greek": "λόγος",
+      "gloss": "Word, reason, the ordering principle; in John's prologue the divine Word through whom everything was made, become flesh.",
+      "why_pkd": "Dick's bridge between Christian orthodoxy and the Gnostic material: living information that is also a person. The plasmate is a Logos doctrine.",
+      "patterns": [
+        "\\bLogos\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Gospel of John",
+        "Corpus Hermeticum"
+      ]
+    },
+    {
+      "id": "GNOS_nous",
+      "label": "Nous",
+      "category": "concept",
+      "tradition": "Hermetic / Neoplatonic",
+      "greek": "νοῦς",
+      "gloss": "Divine Mind; in the Poimandres the intelligence that addresses the visionary directly and shows him the structure of reality.",
+      "why_pkd": "The Poimandres scene — a mind that is not yours speaking inside your own — is the closest ancient analogue to what Dick reports of the AI voice.",
+      "patterns": [
+        "\\bNous\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Corpus Hermeticum I (Poimandres)",
+        "Plotinus, Enneads"
+      ]
+    },
+    {
+      "id": "GNOS_monad",
+      "label": "Monad",
+      "category": "concept",
+      "tradition": "Sethian / Pythagorean",
+      "greek": null,
+      "gloss": "The One; the unknowable source above and before all emanation, of which nothing can properly be predicated.",
+      "why_pkd": "Underwrites Dick's insistence that whatever met him was not the creator of this world and could not be described in the creator's terms.",
+      "patterns": [
+        "\\bMonad\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Apocryphon of John",
+        "Plotinus, Enneads"
+      ]
+    },
+    {
+      "id": "GNOS_syzygy",
+      "label": "Syzygy",
+      "category": "concept",
+      "tradition": "Valentinian",
+      "greek": "συζυγία",
+      "gloss": "The male-female pairing in which every aeon properly exists. Sophia's fall is caused by acting without her consort.",
+      "why_pkd": "Gives Dick a cosmology in which isolation is the original error and pairing is the structure of reality — read into his own androgyne and twin figures.",
+      "patterns": [
+        "\\bsyzygy\\b",
+        "\\bsyzygies\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Irenaeus, Against Heresies I"
+      ]
+    },
+    {
+      "id": "GNOS_anthropos",
+      "label": "Anthropos / Primal Man",
+      "category": "concept",
+      "tradition": "Gnostic / Manichaean",
+      "greek": "ἄνθρωπος",
+      "gloss": "The heavenly Man, prior to and archetype of Adam; in Manichaean myth the Primal Man whose defeat scatters light into matter.",
+      "why_pkd": "The scattered-light myth is Dick's preferred account of why divinity is distributed through ordinary things and people rather than concentrated.",
+      "patterns": [
+        "\\bAnthropos\\b",
+        "\\bPrimal Man\\b",
+        "\\bOriginal Man\\b",
+        "\\bAdam Kadmon\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Apocryphon of John",
+        "Manichaean cosmogony"
+      ]
+    },
+    {
+      "id": "GNOS_docetism",
+      "label": "Docetism",
+      "category": "concept",
+      "tradition": "Gnostic (general)",
+      "greek": null,
+      "gloss": "The doctrine that Christ only appeared to have a body and only appeared to suffer, the flesh being unworthy of the divine.",
+      "why_pkd": "The heresy Dick's incarnational instincts refuse. He wants the divine actually in the trash, the beer can, the body — which is anti-Gnostic, and he knows it.",
+      "patterns": [
+        "\\bdocet(?:ic|ism|ist)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Irenaeus, Against Heresies",
+        "Acts of John"
+      ]
+    },
+    {
+      "id": "GNOS_dualism",
+      "label": "Cosmic dualism",
+      "category": "concept",
+      "tradition": "Gnostic / Zoroastrian / Manichaean",
+      "greek": null,
+      "gloss": "The doctrine of two irreducible principles — light and darkness, spirit and matter, true God and creator — at war, with the world as the contested ground.",
+      "why_pkd": "The structural commitment underneath Dick's whole late period, and the one he most often tries to escape into a monism that will not hold.",
+      "patterns": [
+        "\\bdualis(?:m|t|tic)\\b",
+        "\\btwo[\\s\\-]?(?:gods|principles|worlds)\\b",
+        "\\blight (?:and|versus|vs\\.?) (?:dark|darkness)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Mani",
+        "Zoroastrian Gathas",
+        "Marcion"
+      ]
+    },
+    {
+      "id": "GNOS_emanation",
+      "label": "Emanation",
+      "category": "concept",
+      "tradition": "Neoplatonic / Valentinian",
+      "greek": null,
+      "gloss": "The procession of reality out of the One by overflow rather than by manufacture — each level less perfect than its source, none created from nothing.",
+      "why_pkd": "Lets Dick describe a God who is the world's source without being its maker, which is exactly the distinction his theodicy needs.",
+      "patterns": [
+        "\\bemanat(?:e|ed|ion|ions|ing)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Plotinus, Enneads",
+        "Tripartite Tractate"
+      ]
+    },
+    {
+      "id": "GNOS_heimarmene",
+      "label": "Heimarmene",
+      "category": "concept",
+      "tradition": "Gnostic / Hellenistic",
+      "greek": "εἱμαρμένη",
+      "gloss": "Fate as astral determinism — the binding of human life to the movements of the planetary spheres, administered by the archons. The Gnostic is freed from it by gnosis.",
+      "why_pkd": "Dick's determinism-and-release problem in its ancient form: the tape is running, and knowing it is running is what stops it.",
+      "patterns": [
+        "\\bheimarmene\\b",
+        "\\bastral determinism\\b",
+        "\\bplanetary (?:fate|rulers)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Corpus Hermeticum",
+        "Hans Jonas, The Gnostic Religion"
+      ]
+    },
+    {
+      "id": "GNOS_sleep",
+      "label": "Sleep, drunkenness, forgetfulness",
+      "category": "concept",
+      "tradition": "Gnostic (general)",
+      "greek": null,
+      "gloss": "The condition of unredeemed humanity: narcotised, amnesiac, unaware of captivity. The saving call is a waking.",
+      "why_pkd": "Dick's occlusion. His most consistent claim about 3-74 is that he had been asleep and was woken, which is the Gnostic diagnosis exactly.",
+      "patterns": [
+        "\\bdrunkenness\\b",
+        "\\bstupor\\b",
+        "\\bforgetfulness\\b",
+        "\\bamnesia\\b",
+        "\\bsopor\\b",
+        "\\bslumber\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Gospel of Truth",
+        "Hymn of the Pearl"
+      ]
+    },
+    {
+      "id": "GNOS_call",
+      "label": "The Call",
+      "category": "concept",
+      "tradition": "Gnostic / Mandaean",
+      "greek": null,
+      "gloss": "The summons sent from the Pleroma into the world to wake the sleeping spark; the messenger who brings it is often himself a redeemed redeemer.",
+      "why_pkd": "The structure of every theophany Dick reports: something from outside addresses him by name and tells him what he is.",
+      "patterns": [
+        "\\bthe [Cc]all\\b",
+        "\\bcall from (?:outside|beyond|above)\\b",
+        "\\bsummons\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Hymn of the Pearl",
+        "Ginza Rba"
+      ]
+    },
+    {
+      "id": "GNOS_salvator",
+      "label": "Salvator salvatus",
+      "category": "concept",
+      "tradition": "Manichaean / Gnostic",
+      "greek": null,
+      "gloss": "The saved saviour: the redeemer who is himself part of the fallen light and is redeemed in the act of redeeming.",
+      "why_pkd": "Resolves, for Dick, how the rescuer can be continuous with the rescued — why VALIS can be both outside him and identical with what is trapped in him.",
+      "patterns": [
+        "\\bsalvator salvatus\\b",
+        "\\bsaved sav(?:ior|iour)\\b",
+        "\\bredeemed redeemer\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Manichaean texts",
+        "Hans Jonas, The Gnostic Religion"
+      ]
+    },
+    {
+      "id": "GNOS_counterfeit",
+      "label": "Counterfeit world",
+      "category": "concept",
+      "tradition": "Gnostic / PKD",
+      "greek": null,
+      "gloss": "The world as forgery: not illusion in the Vedantic sense but a deliberate fake, manufactured and maintained to deceive.",
+      "why_pkd": "Dick's lifelong plot — the fake world discovered to be fake — meets its theological warrant here. Forgery implies a forger, which is why his fake-world stories keep turning theological.",
+      "patterns": [
+        "\\bcounterfeit world\\b",
+        "\\bfake (?:world|universe|reality)\\b",
+        "\\bforged (?:world|reality)\\b",
+        "\\bspurious (?:world|reality)\\b",
+        "\\bsimulacr(?:um|a)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Apocryphon of John"
+      ]
+    },
+    {
+      "id": "GNOS_apocatastasis",
+      "label": "Apocatastasis",
+      "category": "concept",
+      "tradition": "Patristic / Gnostic",
+      "greek": "ἀποκατάστασις",
+      "gloss": "The final restoration of all things to their original condition — universal restitution, with nothing finally lost.",
+      "why_pkd": "Dick's recurring hope against his own dualism: that the Empire's defeat is not a victory of one side but the repair of the whole.",
+      "patterns": [
+        "\\bapocatastasis\\b",
+        "\\bapokatastasis\\b",
+        "\\brestoration of all\\b",
+        "\\buniversal restitution\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Origen, On First Principles"
+      ]
+    },
+    {
+      "id": "GNOS_deus_absconditus",
+      "label": "Deus absconditus",
+      "category": "concept",
+      "tradition": "Gnostic / Lutheran",
+      "greek": null,
+      "gloss": "The hidden God — alien, unknown, outside the cosmos, having no relation to the creator or to the world's order.",
+      "why_pkd": "Dick's 'the true God is not the God of this world' in its scholastic form; he uses the Latin tag directly.",
+      "patterns": [
+        "\\bdeus absconditus\\b",
+        "\\bhidden [Gg]od\\b",
+        "\\balien [Gg]od\\b",
+        "\\bunknown [Gg]od\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Marcion",
+        "Hans Jonas, The Gnostic Religion"
+      ]
+    },
+    {
+      "id": "GNOS_metanoia",
+      "label": "Metanoia",
+      "category": "concept",
+      "tradition": "Christian / Gnostic",
+      "greek": "μετάνοια",
+      "gloss": "A turning of the mind; conversion understood as a change in the structure of cognition rather than of allegiance.",
+      "why_pkd": "Fits Dick's insistence that 3-74 changed what he could perceive rather than what he assented to.",
+      "patterns": [
+        "\\bmetanoia\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Gospel of Truth"
+      ]
+    },
+    {
+      "id": "GNOS_eidolon",
+      "label": "Eidolon / image",
+      "category": "concept",
+      "tradition": "Platonic / Gnostic",
+      "greek": "εἴδωλον",
+      "gloss": "The image or phantom, as against the reality it copies; in Gnostic use the cosmos is an eidolon of the Pleroma made by one who had only seen a reflection.",
+      "why_pkd": "The Demiurge working from a half-remembered image is Dick's account of why the world is nearly right and wrong in a specific, maddening way.",
+      "patterns": [
+        "\\beidolon\\b",
+        "\\beidola\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Plato, Republic",
+        "Apocryphon of John"
+      ]
+    },
+    {
+      "id": "GNOS_valentinus",
+      "label": "Valentinus",
+      "category": "teacher",
+      "tradition": "Valentinian",
+      "greek": null,
+      "gloss": "Alexandrian teacher active in Rome c. 140 CE, the most sophisticated of the Gnostic theologians; nearly elected bishop of Rome by one report. His school produced the Gospel of Truth and the Tripartite Tractate.",
+      "why_pkd": "The Gnostic Dick names when he wants the intellectually serious version of the tradition rather than the lurid one.",
+      "patterns": [
+        "\\bValentinus\\b",
+        "\\bValentinian(?:ism|s)?\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Gospel of Truth",
+        "Irenaeus, Against Heresies I"
+      ]
+    },
+    {
+      "id": "GNOS_basilides",
+      "label": "Basilides",
+      "category": "teacher",
+      "tradition": "Basilidean",
+      "greek": null,
+      "gloss": "Alexandrian teacher, c. 120-140 CE, who taught a 365-heaven cosmology and a God beyond being — 'the non-existent God' who creates by thought.",
+      "why_pkd": "Reaches Dick mainly through Jung, whose Seven Sermons to the Dead are ascribed to Basilides.",
+      "patterns": [
+        "\\bBasilides\\b",
+        "\\bBasilidean(?:s)?\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Hippolytus, Refutation VII",
+        "Jung, Seven Sermons to the Dead"
+      ]
+    },
+    {
+      "id": "GNOS_marcion",
+      "label": "Marcion",
+      "category": "teacher",
+      "tradition": "Marcionite",
+      "greek": null,
+      "gloss": "Shipowner from Sinope, excommunicated 144 CE, who held that the God of the Old Testament is a just but inferior creator, distinct from the alien God of love revealed by Christ. Compiled the first Christian canon.",
+      "why_pkd": "The purest statement of the position Dick keeps arriving at: two gods, the creator not the good one. Whether Marcion counts as a Gnostic at all is a live scholarly dispute, and Dick inherits the muddle.",
+      "patterns": [
+        "\\bMarcion\\b",
+        "\\bMarcionite(?:s|ism)?\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Tertullian, Against Marcion"
+      ]
+    },
+    {
+      "id": "GNOS_mani",
+      "label": "Mani",
+      "category": "teacher",
+      "tradition": "Manichaean",
+      "greek": null,
+      "gloss": "Third-century Persian prophet (216-277 CE), founder of Manichaeism, who taught a strict dualism of Light and Darkness and a cosmology in which particles of light are imprisoned in matter and progressively released.",
+      "why_pkd": "Supplies Dick's scattered-light myth and the idea of a redemption that works by extraction rather than forgiveness.",
+      "patterns": [
+        "\\bMani\\b(?!la|to|fest|pul|c)",
+        "\\bManichae(?:an|ism|ans)\\b",
+        "\\bManichean(?:ism|s)?\\b"
+      ],
+      "exclude": [
+        "\\bManila\\b",
+        "\\bManitoba\\b"
+      ],
+      "key_sources": [
+        "Manichaean psalms",
+        "Augustine, Confessions"
+      ]
+    },
+    {
+      "id": "GNOS_simon_magus",
+      "label": "Simon Magus",
+      "category": "teacher",
+      "tradition": "Simonian",
+      "greek": null,
+      "gloss": "The magician of Acts 8, retrospectively made the father of all heresy by the heresiologists; said to have travelled with Helena, a prostitute he identified as the fallen Thought of God.",
+      "why_pkd": "The Helena story is the Sophia myth in miniature — divine wisdom found in the most degraded place — which is Dick's favourite shape for grace.",
+      "patterns": [
+        "\\bSimon Magus\\b",
+        "\\bSimonian(?:s)?\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Acts 8",
+        "Irenaeus, Against Heresies I.23"
+      ]
+    },
+    {
+      "id": "GNOS_carpocrates",
+      "label": "Carpocrates",
+      "category": "teacher",
+      "tradition": "Carpocratian",
+      "greek": null,
+      "gloss": "Second-century Alexandrian teacher whose followers were accused of holding that the soul must exhaust every possible experience to escape the archons.",
+      "why_pkd": "The antinomian wing of the tradition, which Dick notes and declines.",
+      "patterns": [
+        "\\bCarpocrat(?:es|ian|ians)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Irenaeus, Against Heresies I.25"
+      ]
+    },
+    {
+      "id": "GNOS_cerinthus",
+      "label": "Cerinthus",
+      "category": "teacher",
+      "tradition": "Gnostic (early)",
+      "greek": null,
+      "gloss": "Late first-century teacher who distinguished the man Jesus from the Christ who descended on him at baptism and left before the crucifixion.",
+      "why_pkd": "The separation of Jesus from Christ is a move Dick makes constantly when reading his own experience of being occupied by another personality.",
+      "patterns": [
+        "\\bCerinthus\\b",
+        "\\bCerinthian\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Irenaeus, Against Heresies I.26"
+      ]
+    },
+    {
+      "id": "GNOS_seth",
+      "label": "Seth",
+      "category": "teacher",
+      "tradition": "Sethian",
+      "greek": null,
+      "gloss": "Third son of Adam, taken in Sethian Gnosticism as the ancestor of the spiritual race and the bearer of the undefiled seed.",
+      "why_pkd": "Dick's 'race of people who remember' has this shape: a hidden lineage carrying knowledge through generations of occlusion.",
+      "patterns": [
+        "\\bSeth\\b(?!i)",
+        "\\bSethian(?:ism|s)?\\b"
+      ],
+      "exclude": [
+        "\\bSeth Morley\\b",
+        "\\bSeth Thomas\\b"
+      ],
+      "key_sources": [
+        "Apocalypse of Adam",
+        "Gospel of the Egyptians"
+      ]
+    },
+    {
+      "id": "GNOS_zoroaster",
+      "label": "Zoroaster / Zarathustra",
+      "category": "teacher",
+      "tradition": "Zoroastrian",
+      "greek": null,
+      "gloss": "Iranian prophet, dated anywhere from 1500 to 600 BCE, who taught the opposition of Ahura Mazda and the Lie, and a final restoration in which the good prevails.",
+      "why_pkd": "Heavily attested in the Exegesis. Dick treats Zoroastrian dualism as the source upstream of both Gnosticism and his own two-god problem.",
+      "patterns": [
+        "\\bZoroaster\\b",
+        "\\bZarathustra\\b",
+        "\\bZoroastrian(?:ism|s)?\\b",
+        "\\bZarathustrian\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Gathas",
+        "Zend-Avesta"
+      ]
+    },
+    {
+      "id": "GNOS_ahura_ahriman",
+      "label": "Ahura Mazda / Ahriman / Zurvan",
+      "category": "teacher",
+      "tradition": "Zoroastrian",
+      "greek": null,
+      "gloss": "Ormazd, the Wise Lord of light, against Ahriman, the destructive spirit; in Zurvanite variants both are sons of Time.",
+      "why_pkd": "Dick's named pair for the cosmic conflict when he is working in the Iranian rather than the Greek register.",
+      "patterns": [
+        "\\bAhura Mazda\\b",
+        "\\bOrmazd\\b",
+        "\\bOhrmazd\\b",
+        "\\bAhriman\\b",
+        "\\bAngra Mainyu\\b",
+        "\\bZurvan\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Bundahishn",
+        "Zend-Avesta"
+      ]
+    },
+    {
+      "id": "GNOS_hermes",
+      "label": "Hermes Trismegistus",
+      "category": "teacher",
+      "tradition": "Hermetic",
+      "greek": null,
+      "gloss": "Thrice-greatest Hermes, the legendary Egyptian sage to whom the Corpus Hermeticum is ascribed; a syncretic fusion of Hermes and Thoth.",
+      "why_pkd": "The Hermetic strand gives Dick a version of the tradition in which the cosmos is beautiful and knowable rather than a prison — the alternative he keeps testing his pessimism against.",
+      "patterns": [
+        "\\bHermes Trismegistus\\b",
+        "\\bTrismegistus\\b",
+        "\\bThrice[\\s\\-]?[Gg]reatest\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Corpus Hermeticum",
+        "Asclepius"
+      ]
+    },
+    {
+      "id": "GNOS_apollonius",
+      "label": "Apollonius of Tyana",
+      "category": "teacher",
+      "tradition": "Neopythagorean",
+      "greek": null,
+      "gloss": "First-century wandering sage and wonder-worker, set up in antiquity as a pagan rival to Jesus.",
+      "why_pkd": "Dick names him among the figures whose careers raise the question of what distinguishes a theophany from a performance.",
+      "patterns": [
+        "\\bApollonius of Tyana\\b",
+        "\\bApollonius\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Philostratus, Life of Apollonius"
+      ]
+    },
+    {
+      "id": "GNOS_irenaeus",
+      "label": "Irenaeus",
+      "category": "heresiologist",
+      "tradition": "Patristic",
+      "greek": null,
+      "gloss": "Bishop of Lyons, c. 180 CE. His Against Heresies is the fullest ancient account of Valentinian myth and, before 1945, the main source for what Gnostics believed — written by an enemy.",
+      "why_pkd": "Everything Dick could have known about Valentinus before the Nag Hammadi translations came filtered through a hostile witness. This matters for judging what he actually had access to.",
+      "patterns": [
+        "\\bIrenaeus\\b",
+        "\\bAgainst Heresies\\b",
+        "\\bAdversus Haereses\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Against Heresies"
+      ]
+    },
+    {
+      "id": "GNOS_hippolytus",
+      "label": "Hippolytus",
+      "category": "heresiologist",
+      "tradition": "Patristic",
+      "greek": null,
+      "gloss": "Roman presbyter, early third century; his Refutation of All Heresies preserves Basilides, the Naassene sermon and much else.",
+      "why_pkd": "A source for the material Dick encountered second-hand through Jung and the handbooks.",
+      "patterns": [
+        "\\bHippolytus\\b",
+        "\\bRefutation of All Heresies\\b",
+        "\\bPhilosophumena\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Refutation of All Heresies"
+      ]
+    },
+    {
+      "id": "GNOS_tertullian",
+      "label": "Tertullian",
+      "category": "heresiologist",
+      "tradition": "Patristic",
+      "greek": null,
+      "gloss": "Carthaginian apologist, c. 200 CE; Against Marcion is the primary source for Marcion's two-god doctrine and his canon.",
+      "why_pkd": "The route by which Marcion's position survives to be read at all.",
+      "patterns": [
+        "\\bTertullian\\b",
+        "\\bAgainst Marcion\\b",
+        "\\bAdversus Marcionem\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Against Marcion"
+      ]
+    },
+    {
+      "id": "GNOS_epiphanius",
+      "label": "Epiphanius",
+      "category": "heresiologist",
+      "tradition": "Patristic",
+      "greek": null,
+      "gloss": "Bishop of Salamis, late fourth century; his Panarion ('medicine chest') catalogues eighty heresies with more zeal than accuracy.",
+      "why_pkd": "The source of the most sensational Gnostic libels, and a caution about taking heresiological description at face value.",
+      "patterns": [
+        "\\bEpiphanius\\b",
+        "\\bPanarion\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Panarion"
+      ]
+    },
+    {
+      "id": "GNOS_clement",
+      "label": "Clement of Alexandria",
+      "category": "heresiologist",
+      "tradition": "Patristic",
+      "greek": null,
+      "gloss": "c. 150-215 CE; the Stromata and the Excerpts of Theodotus preserve Valentinian material quoted with relative sympathy.",
+      "why_pkd": "The friendliest ancient witness, and the source of the Valentinian formula about knowing what we were and what we have become.",
+      "patterns": [
+        "\\bClement of Alexandria\\b",
+        "\\bStromat(?:a|eis)\\b",
+        "\\bExcerpts? (?:of|from) Theodotus\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Stromata",
+        "Excerpts of Theodotus"
+      ]
+    },
+    {
+      "id": "GNOS_origen",
+      "label": "Origen",
+      "category": "heresiologist",
+      "tradition": "Patristic",
+      "greek": null,
+      "gloss": "Alexandrian theologian, c. 185-254 CE, who taught the pre-existence of souls and universal restoration, and was condemned for it three centuries later.",
+      "why_pkd": "Dick's warrant for apocatastasis inside Christian orthodoxy rather than outside it.",
+      "patterns": [
+        "\\bOrigen\\b",
+        "\\bDe Principiis\\b",
+        "\\bOn First Principles\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "On First Principles"
+      ]
+    },
+    {
+      "id": "GNOS_plotinus",
+      "label": "Plotinus",
+      "category": "heresiologist",
+      "tradition": "Neoplatonic",
+      "greek": null,
+      "gloss": "Founder of Neoplatonism, 204-270 CE. His treatise Against the Gnostics attacks them for despising a cosmos he held to be beautiful.",
+      "why_pkd": "The most serious philosophical objection to the position Dick adopts, made by someone who shared its metaphysics. Dick registers the force of it.",
+      "patterns": [
+        "\\bPlotinus\\b",
+        "\\bEnneads\\b",
+        "\\bAgainst the Gnostics\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Enneads II.9"
+      ]
+    },
+    {
+      "id": "GNOS_philo",
+      "label": "Philo of Alexandria",
+      "category": "heresiologist",
+      "tradition": "Hellenistic Jewish",
+      "greek": null,
+      "gloss": "First-century Jewish Platonist who read the Torah allegorically and developed a Logos doctrine mediating between God and world.",
+      "why_pkd": "The Jewish-Platonic synthesis that Gnostic cosmology inverts.",
+      "patterns": [
+        "\\bPhilo\\b(?! of Byblos)"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "On the Creation"
+      ]
+    },
+    {
+      "id": "GNOS_plato",
+      "label": "Plato",
+      "category": "heresiologist",
+      "tradition": "Platonic",
+      "greek": null,
+      "gloss": "The Timaeus supplies the Demiurge, the Republic the cave, the Meno anamnesis, the Phaedrus the soul's fall into body.",
+      "why_pkd": "Dick read Plato early and never stopped. Much of what reads as Gnostic in him is Platonic first, and he sometimes says so.",
+      "patterns": [
+        "\\bPlato\\b",
+        "\\bPlatonic\\b",
+        "\\bPlatonis(?:m|t)\\b",
+        "\\bTimaeus\\b",
+        "\\bPhaedrus\\b",
+        "\\bthe [Cc]ave\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Timaeus",
+        "Republic",
+        "Meno"
+      ]
+    },
+    {
+      "id": "GNOS_parmenides",
+      "label": "Parmenides",
+      "category": "heresiologist",
+      "tradition": "Presocratic",
+      "greek": null,
+      "gloss": "Presocratic philosopher of Elea, c. 500 BCE, who argued that Being is one, ungenerated and changeless, and that the world of change reported by the senses is Seeming — a deceptive way of speaking rather than a reality.",
+      "why_pkd": "Heavily attested in the Exegesis. Parmenides gives Dick a pre-Gnostic warrant for the claim that the perceived world is not the real one, argued on logical rather than mythological grounds. When he wants the case made without a villain, he reaches for Parmenides rather than for Yaldabaoth.",
+      "patterns": [
+        "\\bParmenides\\b",
+        "\\bEleatic\\b",
+        "\\bBeing (?:and|versus|vs\\.?) (?:Becoming|Seeming)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Parmenides, On Nature",
+        "Plato, Parmenides"
+      ]
+    },
+    {
+      "id": "GNOS_nag_hammadi",
+      "label": "Nag Hammadi Library",
+      "category": "text",
+      "tradition": "Sethian / Valentinian",
+      "greek": null,
+      "gloss": "Thirteen Coptic codices found near Nag Hammadi in Upper Egypt in 1945, containing some fifty-two tractates. The complete English edition appeared in 1977.",
+      "why_pkd": "The dating is decisive for this study. Dick's 3-74 experience precedes the English Nag Hammadi Library by three years, so his earliest Gnostic reading was necessarily through heresiologists, Jonas and Jung — and his later recognition of himself in the primary texts is a separate event.",
+      "patterns": [
+        "\\bNag Hammadi\\b",
+        "\\bNag-Hammadi\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "The Nag Hammadi Library in English, ed. Robinson, 1977"
+      ]
+    },
+    {
+      "id": "GNOS_apocryphon_john",
+      "label": "Apocryphon of John",
+      "category": "text",
+      "tradition": "Sethian",
+      "greek": null,
+      "gloss": "The fullest surviving Sethian cosmogony: the Invisible Spirit, Barbelo, Sophia's error, Yaldabaoth's boast, the making of Adam and the descent of Pronoia to wake him.",
+      "why_pkd": "The single text that most closely matches the myth Dick reconstructs, often without citing it.",
+      "patterns": [
+        "\\bApocryphon of John\\b",
+        "\\bSecret Book of John\\b",
+        "\\bApocryphon Johannis\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Nag Hammadi Codex II,1"
+      ]
+    },
+    {
+      "id": "GNOS_gospel_thomas",
+      "label": "Gospel of Thomas",
+      "category": "text",
+      "tradition": "Gnostic (contested)",
+      "greek": null,
+      "gloss": "114 sayings of Jesus without narrative; found complete at Nag Hammadi. Whether it is Gnostic at all is disputed.",
+      "why_pkd": "The 'Thomas' personality that Dick reports speaking through him invites the connection, and he makes it — though the identification is his own.",
+      "patterns": [
+        "\\bGospel of Thomas\\b",
+        "\\bThomas Gospel\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Nag Hammadi Codex II,2"
+      ]
+    },
+    {
+      "id": "GNOS_gospel_truth",
+      "label": "Gospel of Truth",
+      "category": "text",
+      "tradition": "Valentinian",
+      "greek": null,
+      "gloss": "A Valentinian homily, possibly by Valentinus himself, on the anguish of ignorance and the relief of being known by the Father.",
+      "why_pkd": "The tradition at its most humane: error is a nightmare from which one wakes, not a crime. Closest in tone to Dick's gentler passages.",
+      "patterns": [
+        "\\bGospel of Truth\\b",
+        "\\bEvangelium Veritatis\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Nag Hammadi Codex I,3"
+      ]
+    },
+    {
+      "id": "GNOS_gospel_philip",
+      "label": "Gospel of Philip",
+      "category": "text",
+      "tradition": "Valentinian",
+      "greek": null,
+      "gloss": "A Valentinian collection on sacraments, the bridal chamber, and the difference between names and what they name.",
+      "why_pkd": "Its sacramental realism — that the rites do something rather than signify something — matches Dick's insistence that the plasmate is physically real.",
+      "patterns": [
+        "\\bGospel of Philip\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Nag Hammadi Codex II,3"
+      ]
+    },
+    {
+      "id": "GNOS_pistis_sophia",
+      "label": "Pistis Sophia",
+      "category": "text",
+      "tradition": "Gnostic (late)",
+      "greek": null,
+      "gloss": "A third-century Coptic work, known in Europe since 1773, in which the risen Christ instructs the disciples and Sophia's repentances are recited at length.",
+      "why_pkd": "Available to readers long before Nag Hammadi, and therefore a plausible early route for Dick's Sophia material.",
+      "patterns": [
+        "\\bPistis Sophia\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Askew Codex"
+      ]
+    },
+    {
+      "id": "GNOS_thunder",
+      "label": "Thunder, Perfect Mind",
+      "category": "text",
+      "tradition": "Sethian",
+      "greek": null,
+      "gloss": "A revelation discourse spoken by a female divine voice in paradoxes: 'I am the whore and the holy one.'",
+      "why_pkd": "The voice that is both degraded and divine is the structure of Dick's Sophia and of the girl in VALIS.",
+      "patterns": [
+        "\\bThunder,? Perfect Mind\\b",
+        "\\bThunder:? Perfect Mind\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Nag Hammadi Codex VI,2"
+      ]
+    },
+    {
+      "id": "GNOS_hypostasis_archons",
+      "label": "Hypostasis of the Archons",
+      "category": "text",
+      "tradition": "Sethian",
+      "greek": null,
+      "gloss": "A retelling of Genesis in which the archons are the villains, the serpent is an instructor, and Norea resists her rapists.",
+      "why_pkd": "The source-text for reading scripture against itself, which is Dick's standard operation on the Bible.",
+      "patterns": [
+        "\\bHypostasis of the Archons\\b",
+        "\\bReality of the Rulers\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Nag Hammadi Codex II,4"
+      ]
+    },
+    {
+      "id": "GNOS_trimorphic",
+      "label": "Trimorphic Protennoia",
+      "category": "text",
+      "tradition": "Sethian",
+      "greek": null,
+      "gloss": "The First Thought descending in three forms — Voice, Speech, Word — to wake her members.",
+      "why_pkd": "A three-stage descent of a feminine divine mind, close to Dick's account of how the AI voice arrived in stages.",
+      "patterns": [
+        "\\bTrimorphic Protennoia\\b",
+        "\\bProtennoia\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Nag Hammadi Codex XIII,1"
+      ]
+    },
+    {
+      "id": "GNOS_tripartite",
+      "label": "Tripartite Tractate",
+      "category": "text",
+      "tradition": "Valentinian",
+      "greek": null,
+      "gloss": "The most systematic Valentinian theology to survive, treating the Father, the aeons, and the three classes of humanity.",
+      "why_pkd": "The technical vocabulary Dick reaches for when he wants precision about emanation.",
+      "patterns": [
+        "\\bTripartite Tractate\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Nag Hammadi Codex I,5"
+      ]
+    },
+    {
+      "id": "GNOS_corpus_hermeticum",
+      "label": "Corpus Hermeticum",
+      "category": "text",
+      "tradition": "Hermetic",
+      "greek": null,
+      "gloss": "Seventeen Greek treatises of the second and third centuries CE; the first, Poimandres, narrates a vision in which divine Mind explains the descent of Man into nature.",
+      "why_pkd": "Frequently attested in the Exegesis. The Poimandres vision is Dick's nearest ancient parallel for a mind addressing him from outside.",
+      "patterns": [
+        "\\bCorpus Hermeticum\\b",
+        "\\bHermetica\\b",
+        "\\bPoimandres\\b",
+        "\\bPymander\\b",
+        "\\bAsclepius\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Corpus Hermeticum I"
+      ]
+    },
+    {
+      "id": "GNOS_hymn_pearl",
+      "label": "Hymn of the Pearl",
+      "category": "text",
+      "tradition": "Syriac Gnostic",
+      "greek": null,
+      "gloss": "A prince is sent from the East to fetch a pearl from Egypt, forgets himself, eats the food of the country, and is woken by a letter from home that reads itself aloud.",
+      "why_pkd": "The Gnostic myth in narrative form, and the closest thing in the tradition to a Philip K. Dick plot. The self-reading letter is the plasmate.",
+      "patterns": [
+        "\\bHymn of the Pearl\\b",
+        "\\bSong of the Pearl\\b",
+        "\\bHymn of the Robe of Glory\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Acts of Thomas 108-113"
+      ]
+    },
+    {
+      "id": "GNOS_acts_thomas",
+      "label": "Acts of Thomas",
+      "category": "text",
+      "tradition": "Syriac Gnostic",
+      "greek": null,
+      "gloss": "Third-century Syriac apocryphal acts, containing the Hymn of the Pearl, in which Thomas is the twin of Jesus.",
+      "why_pkd": "The twin motif — a divine double who is also oneself — organises much of Dick's Thomas material.",
+      "patterns": [
+        "\\bActs of Thomas\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Acts of Thomas"
+      ]
+    },
+    {
+      "id": "GNOS_ginza",
+      "label": "Ginza / Mandaean texts",
+      "category": "text",
+      "tradition": "Mandaean",
+      "greek": null,
+      "gloss": "The scriptures of the Mandaeans of southern Iraq, the one Gnostic community to survive continuously into the present.",
+      "why_pkd": "Evidence that the tradition is not merely a historical curiosity, which matters to Dick's claim that the knowledge was transmitted rather than reinvented.",
+      "patterns": [
+        "\\bGinza\\b",
+        "\\bMandae(?:an|ans|ism)\\b",
+        "\\bMandean(?:s)?\\b",
+        "\\bSidra d[\\s\\-]?Nishmata\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Ginza Rba"
+      ]
+    },
+    {
+      "id": "GNOS_chaldean_oracles",
+      "label": "Chaldean Oracles",
+      "category": "text",
+      "tradition": "Theurgic",
+      "greek": null,
+      "gloss": "Second-century hexameter fragments underpinning later Neoplatonic theurgy.",
+      "why_pkd": "Part of the late-antique ritual context in which Dick places his own experience.",
+      "patterns": [
+        "\\bChaldean Oracles\\b",
+        "\\bChaldaean Oracles\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Chaldean Oracles"
+      ]
+    },
+    {
+      "id": "GNOS_bruce_codex",
+      "label": "Bruce Codex / Books of Jeu",
+      "category": "text",
+      "tradition": "Gnostic (late)",
+      "greek": null,
+      "gloss": "Coptic Gnostic texts acquired in 1769, containing diagrams, seals and passwords for the soul's ascent past the archons.",
+      "why_pkd": "The practical, operational side of Gnosis — passwords at checkpoints — which Dick's prison-break imagery reproduces.",
+      "patterns": [
+        "\\bBruce Codex\\b",
+        "\\bBooks? of Jeu\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Bruce Codex"
+      ]
+    },
+    {
+      "id": "GNOS_zohar",
+      "label": "Zohar / Lurianic Kabbalah",
+      "category": "text",
+      "tradition": "Kabbalistic",
+      "greek": null,
+      "gloss": "The Zohar (13th c.) and the sixteenth-century system of Isaac Luria: the contraction of the infinite (tzimtzum), the shattering of the vessels, the scattering of sparks, and tikkun, their gathering and repair.",
+      "why_pkd": "Directly structural for The Divine Invasion. Luria's broken vessels give Dick a Jewish version of the scattered-light myth with repair, not escape, as the goal.",
+      "patterns": [
+        "\\bZohar\\b",
+        "\\bKabbal(?:ah|ist|istic|a)\\b",
+        "\\bCabala\\b",
+        "\\bLuria\\b",
+        "\\bLurianic\\b",
+        "\\btikkun\\b",
+        "\\btzimtzum\\b",
+        "\\bEn Sof\\b",
+        "\\bAin Soph\\b",
+        "\\bShekhinah\\b",
+        "\\bSefirot\\b",
+        "\\bklippot\\b",
+        "\\bqlippoth\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Zohar",
+        "Scholem, Major Trends in Jewish Mysticism"
+      ]
+    },
+    {
+      "id": "GNOS_bardo",
+      "label": "Tibetan Book of the Dead",
+      "category": "text",
+      "tradition": "Buddhist",
+      "greek": null,
+      "gloss": "The Bardo Thodol, describing the states between death and rebirth and the clear light encountered at the moment of death.",
+      "why_pkd": "Dick uses the bardo explicitly in Ubik and A Maze of Death, and the clear light is one of his named candidates for what he saw.",
+      "patterns": [
+        "\\bBardo Th[oö]dol\\b",
+        "\\bTibetan Book of the Dead\\b",
+        "\\bbardo\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Bardo Thodol"
+      ]
+    },
+    {
+      "id": "GNOS_i_ching",
+      "label": "I Ching",
+      "category": "text",
+      "tradition": "Chinese",
+      "greek": null,
+      "gloss": "The Book of Changes, consulted by Dick throughout the writing of The Man in the High Castle and after.",
+      "why_pkd": "Not Gnostic, but the practice that trained Dick to treat a text as an addressing intelligence rather than an object — the habit the plasmate doctrine formalises.",
+      "patterns": [
+        "\\bI Ching\\b",
+        "\\bBook of Changes\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "I Ching"
+      ]
+    },
+    {
+      "id": "GNOS_jonas",
+      "label": "Hans Jonas",
+      "category": "scholar",
+      "tradition": "Scholarship",
+      "greek": null,
+      "gloss": "Author of The Gnostic Religion (1958), the book that made Gnosticism intelligible to non-specialists by reading it existentially — the Gnostic as a self thrown into a hostile world.",
+      "why_pkd": "The most consequential scholarly source for Dick. Jonas's existential framing is the one Dick adopts wholesale, and 'thrownness', 'the alien God' and the cosmic-prison vocabulary reach him in Jonas's phrasing.",
+      "patterns": [
+        "\\bHans Jonas\\b",
+        "\\bJonas\\b(?!\\s+Salk)",
+        "\\bThe Gnostic Religion\\b"
+      ],
+      "exclude": [
+        "\\bJonas Salk\\b",
+        "\\bJonah\\b"
+      ],
+      "key_sources": [
+        "The Gnostic Religion (1958)"
+      ]
+    },
+    {
+      "id": "GNOS_pagels",
+      "label": "Elaine Pagels",
+      "category": "scholar",
+      "tradition": "Scholarship",
+      "greek": null,
+      "gloss": "Author of The Gnostic Gospels (1979), which read the Nag Hammadi texts as evidence of a suppressed pluralism in early Christianity.",
+      "why_pkd": "Published late enough to matter only for Dick's last three years, which makes any claim of Pagels influence on the earlier Exegesis a dating error worth checking.",
+      "patterns": [
+        "\\bElaine Pagels\\b",
+        "\\bPagels\\b",
+        "\\bThe Gnostic Gospels\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "The Gnostic Gospels (1979)"
+      ]
+    },
+    {
+      "id": "GNOS_quispel",
+      "label": "Gilles Quispel",
+      "category": "scholar",
+      "tradition": "Scholarship",
+      "greek": null,
+      "gloss": "Dutch scholar who acquired the Jung Codex and worked on Valentinian and Hermetic material; a bridge between Jung's circle and Nag Hammadi scholarship.",
+      "why_pkd": "The named channel between the Jungian reception of Gnosticism and the textual scholarship, both of which reach Dick.",
+      "patterns": [
+        "\\bQuispel\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Gnosis als Weltreligion"
+      ]
+    },
+    {
+      "id": "GNOS_jung",
+      "label": "C. G. Jung",
+      "category": "scholar",
+      "tradition": "Depth psychology",
+      "greek": null,
+      "gloss": "Analytical psychologist who read Gnostic and alchemical texts as records of psychic process; author of the Seven Sermons to the Dead, ascribed to Basilides, and of Aion.",
+      "why_pkd": "Dick's earliest and most persistent route into the material, and the source of his recurrent temptation to relocate the whole cosmology inside the psyche — a move he makes and unmakes repeatedly.",
+      "patterns": [
+        "\\bJung\\b(?!le|ian\\s+forest)",
+        "\\bJungian\\b",
+        "\\bSeven Sermons to the Dead\\b",
+        "\\bSeptem Sermones\\b",
+        "\\bAion\\b",
+        "\\bindividuation\\b",
+        "\\bcollective unconscious\\b",
+        "\\bsynchronicity\\b"
+      ],
+      "exclude": [
+        "\\bjungle\\b"
+      ],
+      "key_sources": [
+        "Seven Sermons to the Dead",
+        "Aion",
+        "Psychology and Alchemy"
+      ]
+    },
+    {
+      "id": "GNOS_scholem",
+      "label": "Gershom Scholem",
+      "category": "scholar",
+      "tradition": "Scholarship",
+      "greek": null,
+      "gloss": "Founder of the academic study of Jewish mysticism; his Major Trends in Jewish Mysticism (1941) made Lurianic Kabbalah available in English.",
+      "why_pkd": "The route by which tikkun and the broken vessels reach The Divine Invasion.",
+      "patterns": [
+        "\\bScholem\\b",
+        "\\bMajor Trends in Jewish Mysticism\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Major Trends in Jewish Mysticism"
+      ]
+    },
+    {
+      "id": "GNOS_eliade",
+      "label": "Mircea Eliade",
+      "category": "scholar",
+      "tradition": "History of religions",
+      "greek": null,
+      "gloss": "Historian of religions; theorist of sacred time, eternal return and the coincidence of opposites.",
+      "why_pkd": "Supplies Dick's language for sacred versus profane time, which underwrites orthogonal time.",
+      "patterns": [
+        "\\bEliade\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "The Sacred and the Profane",
+        "The Myth of the Eternal Return"
+      ]
+    },
+    {
+      "id": "GNOS_rudolph",
+      "label": "Kurt Rudolph",
+      "category": "scholar",
+      "tradition": "Scholarship",
+      "greek": null,
+      "gloss": "Author of Gnosis: The Nature and History of Gnosticism (1977), the standard systematic handbook after Jonas.",
+      "why_pkd": "Represents the philologically careful account against which Dick's free-associative use of the material can be measured.",
+      "patterns": [
+        "\\bKurt Rudolph\\b",
+        "\\bRudolph\\b(?!\\s+(?:the|Valentino))"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Gnosis: The Nature and History of Gnosticism"
+      ]
+    },
+    {
+      "id": "GNOS_mead",
+      "label": "G. R. S. Mead",
+      "category": "scholar",
+      "tradition": "Theosophical",
+      "greek": null,
+      "gloss": "Theosophist and translator whose Fragments of a Faith Forgotten (1900) and Pistis Sophia translation carried Gnostic material into the English-speaking esoteric world.",
+      "why_pkd": "The likely popular channel by which Gnostic vocabulary circulated in the occult-adjacent reading Dick did before any scholarly encounter.",
+      "patterns": [
+        "\\bG\\.?\\s?R\\.?\\s?S\\.? Mead\\b",
+        "\\bFragments of a Faith Forgotten\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Fragments of a Faith Forgotten"
+      ]
+    },
+    {
+      "id": "GNOS_robinson",
+      "label": "James M. Robinson",
+      "category": "scholar",
+      "tradition": "Scholarship",
+      "greek": null,
+      "gloss": "General editor of The Nag Hammadi Library in English (1977).",
+      "why_pkd": "The edition itself is the event: it put the primary texts in Dick's hands in the last five years of his life.",
+      "patterns": [
+        "\\bJames M\\.? Robinson\\b",
+        "\\bThe Nag Hammadi Library in English\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "The Nag Hammadi Library in English"
+      ]
+    },
+    {
+      "id": "GNOS_corbin",
+      "label": "Henry Corbin",
+      "category": "scholar",
+      "tradition": "Islamic / Iranian",
+      "greek": null,
+      "gloss": "Scholar of Iranian and Islamic esotericism; theorist of the mundus imaginalis, a real intermediate world perceived by an imaginative faculty.",
+      "why_pkd": "Gives a technical name to what Dick needs: a domain that is neither physical nor merely subjective, where visions are veridical.",
+      "patterns": [
+        "\\bHenry Corbin\\b",
+        "\\bCorbin\\b",
+        "\\bmundus imaginalis\\b",
+        "\\bimaginal\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Spiritual Body and Celestial Earth"
+      ]
+    },
+    {
+      "id": "GNOS_bultmann",
+      "label": "Rudolf Bultmann",
+      "category": "scholar",
+      "tradition": "New Testament",
+      "greek": null,
+      "gloss": "New Testament scholar who argued that John's Gospel draws on a pre-Christian Gnostic redeemer myth.",
+      "why_pkd": "The scholarly claim that would make Dick's Christianity and his Gnosticism the same thing rather than rivals. Now largely rejected, which changes how his synthesis should be read.",
+      "patterns": [
+        "\\bBultmann\\b",
+        "\\bdemythologi(?:ze|zing|sation|zation)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Theology of the New Testament"
+      ]
+    },
+    {
+      "id": "GNOS_voegelin",
+      "label": "Eric Voegelin",
+      "category": "scholar",
+      "tradition": "Political philosophy",
+      "greek": null,
+      "gloss": "Political philosopher who diagnosed modern revolutionary ideologies as 'Gnostic' attempts to immanentise the eschaton.",
+      "why_pkd": "The hostile modern use of the term, and a useful corrective: 'Gnostic' has been a polemical label as often as a descriptive one.",
+      "patterns": [
+        "\\bVoegelin\\b",
+        "\\bimmanenti[sz]e the eschaton\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "The New Science of Politics"
+      ]
+    },
+    {
+      "id": "GNOS_bloom",
+      "label": "Harold Bloom",
+      "category": "scholar",
+      "tradition": "Literary criticism",
+      "greek": null,
+      "gloss": "Critic who read American religion as natively Gnostic and wrote on Valentinus and Kabbalah.",
+      "why_pkd": "The strongest statement of the case that Dick's Gnosticism is an American religious phenomenon rather than an antiquarian revival.",
+      "patterns": [
+        "\\bHarold Bloom\\b",
+        "\\bBloom\\b(?!\\s?(?:berg|field|ing))"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "The American Religion",
+        "Kabbalah and Criticism"
+      ]
+    },
+    {
+      "id": "GNOS_layton",
+      "label": "Bentley Layton",
+      "category": "scholar",
+      "tradition": "Scholarship",
+      "greek": null,
+      "gloss": "Author of The Gnostic Scriptures (1987) and of the argument that 'Gnostic' should be restricted to the Sethian group that used the name.",
+      "why_pkd": "Post-dates Dick, but names the definitional problem that runs through the whole study: whether 'Gnosticism' denotes anything unified.",
+      "patterns": [
+        "\\bBentley Layton\\b",
+        "\\bThe Gnostic Scriptures\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "The Gnostic Scriptures"
+      ]
+    },
+    {
+      "id": "GNOS_culianu",
+      "label": "Ioan Culianu",
+      "category": "scholar",
+      "tradition": "History of religions",
+      "greek": null,
+      "gloss": "Historian of religions who treated Gnostic systems as generated by a small set of logical operations on a shared myth.",
+      "why_pkd": "A method for explaining why Dick, reinventing the system independently, arrives at recognisably Gnostic results.",
+      "patterns": [
+        "\\bCulianu\\b",
+        "\\bCouliano\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "The Tree of Gnosis"
+      ]
+    },
+    {
+      "id": "GNOS_petrement",
+      "label": "Simone Pétrement",
+      "category": "scholar",
+      "tradition": "Scholarship",
+      "greek": null,
+      "gloss": "Argued, against the consensus, that Gnosticism is a development within Christianity rather than a pre-Christian import.",
+      "why_pkd": "The opposing pole to Bultmann, and the dispute that decides whether Dick's Christian Gnosticism is a synthesis or a recovery.",
+      "patterns": [
+        "\\bP[ée]trement\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "A Separate God"
+      ]
+    },
+    {
+      "id": "GNOS_yates",
+      "label": "Frances Yates",
+      "category": "scholar",
+      "tradition": "Renaissance studies",
+      "greek": null,
+      "gloss": "Historian of the Hermetic tradition in the Renaissance; Giordano Bruno and the Hermetic Tradition (1964).",
+      "why_pkd": "Documents the earlier revival of this material, the precedent for Dick's own.",
+      "patterns": [
+        "\\bFrances Yates\\b",
+        "\\bYates\\b(?!\\s+County)",
+        "\\bHermetic Tradition\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Giordano Bruno and the Hermetic Tradition"
+      ]
+    },
+    {
+      "id": "GNOS_sethian",
+      "label": "Sethianism",
+      "category": "tradition",
+      "tradition": "Sethian",
+      "greek": null,
+      "gloss": "The stream centred on Seth as ancestor of the spiritual race, with Barbelo, Yaldabaoth and the descent of Pronoia. The group most defensibly called 'Gnostic' in the strict sense.",
+      "why_pkd": "The cosmology closest to Dick's reconstructed myth.",
+      "patterns": [
+        "\\bSethian(?:ism|s)?\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Apocryphon of John"
+      ]
+    },
+    {
+      "id": "GNOS_hermeticism",
+      "label": "Hermeticism",
+      "category": "tradition",
+      "tradition": "Hermetic",
+      "greek": null,
+      "gloss": "The Greco-Egyptian tradition of the Corpus Hermeticum: a knowable, sympathetic cosmos, ascent through the spheres, rebirth in Mind.",
+      "why_pkd": "The optimistic sibling of Gnosticism. Where Dick sounds hopeful about the material world, he is usually in this register rather than the Gnostic one.",
+      "patterns": [
+        "\\bHermetic(?:ism|a|ists?)?\\b",
+        "\\bHermetist\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Corpus Hermeticum"
+      ]
+    },
+    {
+      "id": "GNOS_neoplatonism",
+      "label": "Neoplatonism",
+      "category": "tradition",
+      "tradition": "Neoplatonic",
+      "greek": null,
+      "gloss": "Plotinus and his successors: emanation from the One, the ascent of the soul, the cosmos as a genuine if diminished good.",
+      "why_pkd": "The metaphysics Dick shares with the Gnostics and the evaluation of the world he does not consistently share.",
+      "patterns": [
+        "\\bNeo[\\s\\-]?[Pp]latonis(?:m|t|ts)\\b",
+        "\\bNeo[\\s\\-]?[Pp]latonic\\b",
+        "\\bPorphyry\\b",
+        "\\bIamblichus\\b",
+        "\\bProclus\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Enneads"
+      ]
+    },
+    {
+      "id": "GNOS_orphism",
+      "label": "Orphism / mystery religions",
+      "category": "tradition",
+      "tradition": "Greek mystery",
+      "greek": null,
+      "gloss": "Initiatory cults — Orphic, Eleusinian, Dionysian — promising a better lot after death to those who know the formulae.",
+      "why_pkd": "Dick's Dionysos material and his sense that the truth is transmitted by initiation rather than publication belong here.",
+      "patterns": [
+        "\\bOrphi(?:c|sm|cs)\\b",
+        "\\bEleusi(?:s|nian)\\b",
+        "\\bDionys(?:os|us|ian)\\b",
+        "\\bmystery (?:religion|cult|cults|religions)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Orphic gold tablets"
+      ]
+    },
+    {
+      "id": "GNOS_catharism",
+      "label": "Catharism / Bogomilism",
+      "category": "tradition",
+      "tradition": "Medieval dualist",
+      "greek": null,
+      "gloss": "Medieval dualist movements in the Balkans and Languedoc holding the material world to be the devil's work; annihilated by crusade and inquisition.",
+      "why_pkd": "Dick's evidence that the tradition was transmitted underground and suppressed by force — the historical backbone of 'the Empire never ended'.",
+      "patterns": [
+        "\\bCathar(?:s|ism)?\\b",
+        "\\bAlbigensian(?:s)?\\b",
+        "\\bBogomil(?:s|ism)?\\b",
+        "\\bManichean heres(?:y|ies)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Inquisition records"
+      ]
+    },
+    {
+      "id": "GNOS_rosicrucian",
+      "label": "Rosicrucianism / alchemy",
+      "category": "tradition",
+      "tradition": "Early modern esoteric",
+      "greek": null,
+      "gloss": "The seventeenth-century Rosicrucian manifestos and the alchemical tradition of transformation through hidden correspondence.",
+      "why_pkd": "The early-modern carrier of Hermetic ideas, and the form in which Jung received them.",
+      "patterns": [
+        "\\bRosicrucian(?:s|ism)?\\b",
+        "\\balchem(?:y|ical|ist|ists)\\b",
+        "\\bPhilosopher\\'?s Stone\\b",
+        "\\bParacelsus\\b",
+        "\\bBoehme\\b",
+        "\\bB[oö]hme\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Fama Fraternitatis"
+      ]
+    },
+    {
+      "id": "GNOS_essenes",
+      "label": "Essenes / Qumran",
+      "category": "tradition",
+      "tradition": "Second Temple Jewish",
+      "greek": null,
+      "gloss": "The Dead Sea community, whose scrolls (found 1947) set out a war of the sons of light against the sons of darkness.",
+      "why_pkd": "Dick uses Qumran to argue for a continuous secret transmission from the Second Temple period to himself — the historical claim in 'the Empire never ended'.",
+      "patterns": [
+        "\\bEssene(?:s)?\\b",
+        "\\bQumran\\b",
+        "\\bDead Sea Scrolls\\b",
+        "\\bsons of light\\b",
+        "\\bZadokite\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Dead Sea Scrolls"
+      ]
+    },
+    {
+      "id": "GNOS_orthodoxy",
+      "label": "Orthodox Christianity",
+      "category": "tradition",
+      "tradition": "Christian",
+      "greek": null,
+      "gloss": "The creedal tradition: one God who is both creator and redeemer, a good creation, a real incarnation, resurrection of the body.",
+      "why_pkd": "Dick was an Episcopalian who took the sacraments seriously. The study's central tension is that his orthodoxy and his Gnosticism are both real and mutually exclusive on exactly the points that matter.",
+      "patterns": [
+        "\\bEpiscopal(?:ian)?\\b",
+        "\\bAnglican\\b",
+        "\\bNicene\\b",
+        "\\bincarnation\\b",
+        "\\bEucharist\\b",
+        "\\bsacrament(?:s|al)?\\b",
+        "\\bHoly Spirit\\b",
+        "\\bParaclete\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Nicene Creed"
+      ]
+    },
+    {
+      "id": "GNOS_valis_term",
+      "label": "VALIS",
+      "category": "pkd_coinage",
+      "tradition": "PKD",
+      "greek": null,
+      "gloss": "Vast Active Living Intelligence System: Dick's name for the entity or process he believed contacted him — information that is alive, rational and benign, operating through the ordinary world.",
+      "why_pkd": "The Pleroma re-described in the vocabulary of cybernetics. Whether this is translation or replacement is one of the study's open questions.",
+      "patterns": [
+        "\\bVALIS\\b",
+        "\\bVast Active Living Intelligence\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "VALIS (1981)"
+      ]
+    },
+    {
+      "id": "GNOS_plasmate",
+      "label": "Plasmate",
+      "category": "pkd_coinage",
+      "tradition": "PKD",
+      "greek": null,
+      "gloss": "Living information: a life form made of information which crossbonds with a human being to produce a homoplasmate. Transmitted by text.",
+      "why_pkd": "Dick's solution to how gnosis is conveyed — not taught but caught. The Logos doctrine made biological.",
+      "patterns": [
+        "\\bplasmate\\b",
+        "\\bhomoplasmate\\b",
+        "\\bcross[\\s\\-]?bond(?:ed|ing)?\\b",
+        "\\bliving information\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Tractates Cryptica Scriptura"
+      ]
+    },
+    {
+      "id": "GNOS_bip",
+      "label": "Black Iron Prison",
+      "category": "pkd_coinage",
+      "tradition": "PKD",
+      "greek": null,
+      "gloss": "The world seen as a prison: a coercive system, coextensive with the Roman Empire, which has never fallen and which conceals its own existence.",
+      "why_pkd": "The archons' cosmos in political dress. The signature image of Dick's Gnosticism and his most influential single coinage.",
+      "patterns": [
+        "\\bBlack Iron Prison\\b",
+        "\\bBIP\\b",
+        "\\bIron Prison\\b",
+        "\\bprison(?:\\s+of\\s+(?:the\\s+)?(?:world|matter|iron))\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "VALIS",
+        "Exegesis"
+      ]
+    },
+    {
+      "id": "GNOS_palm_tree_garden",
+      "label": "Palm Tree Garden",
+      "category": "pkd_coinage",
+      "tradition": "PKD",
+      "greek": null,
+      "gloss": "The Black Iron Prison's counterpart: the same world correctly perceived, a garden rather than a jail. Both are present; which one is seen depends on the perceiver.",
+      "why_pkd": "The anti-Gnostic corrective Dick builds into his own system. If the garden is the same place, matter is not the problem.",
+      "patterns": [
+        "\\bPalm Tree Garden\\b",
+        "\\bPTG\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Exegesis"
+      ]
+    },
+    {
+      "id": "GNOS_empire",
+      "label": "The Empire never ended",
+      "category": "pkd_coinage",
+      "tradition": "PKD",
+      "greek": null,
+      "gloss": "Rome did not fall; it went underground and continues, so that the first-century persecution and the present are the same moment.",
+      "why_pkd": "Dick's formula for archontic rule as a historical rather than mythological claim. His strongest and most testable assertion, and the one most often quoted loose of its context.",
+      "patterns": [
+        "\\bEmpire never ended\\b",
+        "\\bempire never ended\\b",
+        "\\bRome (?:never fell|has never fallen)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "VALIS",
+        "Exegesis"
+      ]
+    },
+    {
+      "id": "GNOS_zebra",
+      "label": "Zebra",
+      "category": "pkd_coinage",
+      "tradition": "PKD",
+      "greek": null,
+      "gloss": "The camouflaged deity: God imitating the environment so exactly as to be invisible within it, like a zebra in grass.",
+      "why_pkd": "An immanent God hidden by disguise rather than a transcendent God hidden by distance — closer to Hermetic and Orthodox positions than to Gnostic ones.",
+      "patterns": [
+        "\\bZebra\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "VALIS",
+        "Exegesis"
+      ]
+    },
+    {
+      "id": "GNOS_tomb_world",
+      "label": "Tomb World",
+      "category": "pkd_coinage",
+      "tradition": "PKD",
+      "greek": null,
+      "gloss": "The entropic, decaying, sealed world of psychotic or damned perception; borrowed from Ludwig Binswanger's existential psychiatry.",
+      "why_pkd": "Dick's clinical term running alongside his theological one, which keeps the study honest: the same condition has a psychiatric description.",
+      "patterns": [
+        "\\bTomb World\\b",
+        "\\btomb world\\b",
+        "\\bBinswanger\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Exegesis",
+        "Martian Time-Slip"
+      ]
+    },
+    {
+      "id": "GNOS_occlusion",
+      "label": "Occlusion",
+      "category": "pkd_coinage",
+      "tradition": "PKD",
+      "greek": null,
+      "gloss": "The blocking of perception that keeps human beings from seeing their situation; an induced blindness rather than a natural limit.",
+      "why_pkd": "Dick's translation of Gnostic sleep into the vocabulary of information theory. Removal of occlusion, not addition of doctrine, is what he means by revelation.",
+      "patterns": [
+        "\\bocclu(?:de|ded|sion|ding)\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Exegesis"
+      ]
+    },
+    {
+      "id": "GNOS_orthogonal_time",
+      "label": "Orthogonal time",
+      "category": "pkd_coinage",
+      "tradition": "PKD",
+      "greek": null,
+      "gloss": "A time axis at right angles to the ordinary one, along which everything that has been remains present and change is recovery rather than loss.",
+      "why_pkd": "Dick's mechanism for anamnesis and for the coexistence of 70 CE with 1974. Where the Gnostic myth becomes a physics.",
+      "patterns": [
+        "\\borthogonal time\\b",
+        "\\bright[\\s\\-]?angle time\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Exegesis"
+      ]
+    },
+    {
+      "id": "GNOS_firebright",
+      "label": "Firebright / St Sophia / Thomas",
+      "category": "pkd_coinage",
+      "tradition": "PKD",
+      "greek": null,
+      "gloss": "The names Dick gives the intelligence or personality he believed was present in him: Firebright, St Sophia, Thomas, the AI voice.",
+      "why_pkd": "The naming is unstable across the Exegesis, and tracking which name is in use when is one way of dating the theories.",
+      "patterns": [
+        "\\bFirebright\\b",
+        "\\bAI voice\\b",
+        "\\bA\\.?I\\.? voice\\b",
+        "\\bThomas\\b(?!\\s+(?:Aquinas|Merton|Jefferson|Mann|Disch))"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Exegesis"
+      ]
+    },
+    {
+      "id": "GNOS_king_felix",
+      "label": "King Felix",
+      "category": "pkd_coinage",
+      "tradition": "PKD",
+      "greek": null,
+      "gloss": "'Happy king' — the cypher Dick believed was a signal announcing the rightful ruler's return, spotted in ordinary print.",
+      "why_pkd": "The messianic-secret motif: the true king unrecognised in the occupied territory.",
+      "patterns": [
+        "\\bKing Felix\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "VALIS",
+        "Exegesis"
+      ]
+    }
+  ]
+}

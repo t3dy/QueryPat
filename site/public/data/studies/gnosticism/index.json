@@ -1,0 +1,202 @@
+{
+  "study_id": "gnosticism",
+  "study_label": "Gnosticism",
+  "study_description": "Philip K. Dick's engagement with Gnostic religion across the Exegesis, the correspondence and the VALIS trilogy — the vocabulary he used, the sources he actually had, the chronology of when each idea arrived, and the places where his Gnosticism and his Christianity cannot both be true.",
+  "generator": "curation/gnosticism@2026-09-18",
+  "featured_sections": [
+    {
+      "title": "What this study claims",
+      "body": [
+        "Philip K. Dick called himself a Gnostic, and the label has stuck hard enough that it now does much of his interpretation for him. This study takes the label as a question rather than an answer, and tests it against the corpus: which Gnostic terms does he actually use, how often, from when, and where did he get them.",
+        "The method is a full-text sweep of the Exegesis as transcribed here (1,104 segments, 9.26 million characters, covering the whole of the ordered text), the VALIS trilogy chapters held in the repository, and 241 catalogued secondary documents, against a hand-built register of 111 Gnostic terms, teachers, texts, traditions and modern scholars. Every count on these pages is regenerable from the corpus; every term carries its own attestations.",
+        "Three findings organise the study. First, Dick's Gnostic vocabulary is overwhelmingly conceptual rather than textual: he uses the ideas constantly and names the primary Gnostic documents almost never. Second, the vocabulary arrives in a datable order, and the scholarship arrives last — Hans Jonas appears in 1978 and 1981, years after the system he is supposed to have supplied was already built. Third, Dick never resolves the contradiction between the Gnostic cosmology he reasons with and the incarnational Christianity he keeps returning to, and the portal does not resolve it for him."
+      ]
+    },
+    {
+      "title": "How to read the numbers",
+      "body": [
+        "Attestation counts are raw occurrences of a term's search patterns in Dick's own transcribed words. They are a measure of vocabulary, not of importance: a term he used once at a decisive moment may matter more than one he used four hundred times in passing, and the register is built so that you can go and look.",
+        "Counts drawn from portal-editor annotation — the analytical fields attached to each segment — are tracked separately and never mixed with Dick's own text. A term attested only in annotation is marked as such; it means the editors reached for the word, not that Dick did.",
+        "The Exegesis chronology is coarser than it looks. The transcription carries folder dates, so every segment in a batch inherits one date, and the four batches are unequal: 87 segments dated 1975, 243 in 1976, 399 in 1978, 375 in 1981. Raw yearly counts are therefore confounded by how much text each folder holds, and the register reports a rate — hits per segment — alongside every count. Comparisons in this study use the rate."
+      ]
+    },
+    {
+      "title": "What this study does not cover",
+      "body": [
+        "The correspondence is the study's weakest lane, and the weakness is an accident of the archive rather than a finding about Dick. The letters held as full text in this repository are the 1972-73 volume: 75 letters, all of them written before the events of February and March 1974. They are silent on Gnosticism because they predate the occasion for it.",
+        "The Selected Letters volumes covering 1975-76, 1977-79 and 1980-82 are catalogued in the archive at full ingest level, but their text lives in the database rather than in the exported JSON, and the database is rebuilt from sources not present in this working tree. The sweep script takes a --db flag and will cover those volumes whenever it is run against a built database; until then, every statement here about the letters should be read as covering 1972-73 only.",
+        "Of the VALIS trilogy, VALIS is held as full chapter text for chapters 1 and 5-13 and as summaries for 2-4; The Divine Invasion as full text for chapters 1-5 and summaries beyond; The Transmigration of Timothy Archer as summaries only. Chapter summaries are portal-editor prose and are recorded in lane D, never quoted as Dick's words.",
+        "Three segment files in the exported corpus are malformed JSON and were skipped by the sweep: SEG_EXEG_1976-09-15_Dorothy_214, SEG_EXEG_1978-10-10_SECTION_016_129 and SEG_EXEG_1981-04-16_Pat_149. This is a pre-existing data fault, not one introduced here, and it means the counts are three segments short of complete."
+      ]
+    }
+  ],
+  "register_summary": {
+    "entry_count": 111,
+    "by_category": {
+      "pkd_coinage": 11,
+      "tradition": 8,
+      "heresiologist": 10,
+      "concept": 34,
+      "teacher": 12,
+      "scholar": 17,
+      "text": 19
+    },
+    "by_status": {
+      "attested": 75,
+      "unattested": 30,
+      "annotation_only": 6
+    },
+    "corpus_coverage": {
+      "exegesis": 1104,
+      "letters": 75,
+      "valis_trilogy": 21,
+      "scholarship": 241
+    }
+  },
+  "topics": [
+    {
+      "topic_id": "TOPIC_GNOS_what_dick_actually_read",
+      "canonical_name": "What Dick Actually Read",
+      "slug": "what-dick-actually-read",
+      "status": "reviewed",
+      "priority": 10,
+      "card_description": "Dick uses Gnostic concepts constantly and names the Gnostic texts almost never. The sweep puts numbers to the gap.",
+      "passage_count": 18,
+      "evidence_count": 9,
+      "contradiction_count": 1,
+      "first_appearance": "1975",
+      "lane_distribution": {
+        "A": 2,
+        "B": 16,
+        "C": 0
+      },
+      "related_topics": [
+        "Sophia and the Fallen Wisdom",
+        "The Black Iron Prison",
+        "Gnosis and Anamnesis",
+        "Gnosticism in the VALIS Trilogy",
+        "Orthodoxy and Gnosis"
+      ]
+    },
+    {
+      "topic_id": "TOPIC_GNOS_sophia",
+      "canonical_name": "Sophia and the Fallen Wisdom",
+      "slug": "sophia",
+      "status": "reviewed",
+      "priority": 9,
+      "card_description": "The first Gnostic figure to arrive and the one that never leaves. Attested 950 times, peaking in the earliest folder.",
+      "passage_count": 10,
+      "evidence_count": 7,
+      "contradiction_count": 1,
+      "first_appearance": "1975",
+      "lane_distribution": {
+        "A": 2,
+        "B": 8,
+        "C": 0
+      },
+      "related_topics": [
+        "What Dick Actually Read",
+        "The Black Iron Prison",
+        "Gnosis and Anamnesis",
+        "Gnosticism in the VALIS Trilogy",
+        "Orthodoxy and Gnosis"
+      ]
+    },
+    {
+      "topic_id": "TOPIC_GNOS_black_iron_prison",
+      "canonical_name": "The Black Iron Prison",
+      "slug": "black-iron-prison",
+      "status": "reviewed",
+      "priority": 9,
+      "card_description": "Dick's own name for the archons' cosmos. A 1976 invention, and the point where Gnostic myth becomes a historical claim.",
+      "passage_count": 24,
+      "evidence_count": 8,
+      "contradiction_count": 1,
+      "first_appearance": "1975",
+      "lane_distribution": {
+        "A": 1,
+        "B": 23,
+        "C": 0
+      },
+      "related_topics": [
+        "What Dick Actually Read",
+        "Sophia and the Fallen Wisdom",
+        "Gnosis and Anamnesis",
+        "Gnosticism in the VALIS Trilogy",
+        "Orthodoxy and Gnosis"
+      ]
+    },
+    {
+      "topic_id": "TOPIC_GNOS_gnosis_and_anamnesis",
+      "canonical_name": "Gnosis and Anamnesis",
+      "slug": "gnosis-and-anamnesis",
+      "status": "reviewed",
+      "priority": 8,
+      "card_description": "Knowledge as rescue, and remembering as the form the knowledge takes. Anamnesis is attested 1,045 times — more than any Gnostic term.",
+      "passage_count": 27,
+      "evidence_count": 9,
+      "contradiction_count": 1,
+      "first_appearance": "1975",
+      "lane_distribution": {
+        "A": 2,
+        "B": 25,
+        "C": 0
+      },
+      "related_topics": [
+        "What Dick Actually Read",
+        "Sophia and the Fallen Wisdom",
+        "The Black Iron Prison",
+        "Gnosticism in the VALIS Trilogy",
+        "Orthodoxy and Gnosis"
+      ]
+    },
+    {
+      "topic_id": "TOPIC_GNOS_valis_trilogy",
+      "canonical_name": "Gnosticism in the VALIS Trilogy",
+      "slug": "valis-trilogy",
+      "status": "reviewed",
+      "priority": 8,
+      "card_description": "Where the private system becomes public fiction — and where Dick puts the objections to it in other characters' mouths.",
+      "passage_count": 24,
+      "evidence_count": 8,
+      "contradiction_count": 1,
+      "first_appearance": "1975",
+      "lane_distribution": {
+        "A": 3,
+        "B": 21,
+        "C": 0
+      },
+      "related_topics": [
+        "What Dick Actually Read",
+        "Sophia and the Fallen Wisdom",
+        "The Black Iron Prison",
+        "Gnosis and Anamnesis",
+        "Orthodoxy and Gnosis"
+      ]
+    },
+    {
+      "topic_id": "TOPIC_GNOS_orthodoxy_and_gnosis",
+      "canonical_name": "Orthodoxy and Gnosis",
+      "slug": "orthodoxy-and-gnosis",
+      "status": "reviewed",
+      "priority": 7,
+      "card_description": "Dick was an Episcopalian who reasoned like a Gnostic. The corpus shows both, and shows him refusing to choose.",
+      "passage_count": 24,
+      "evidence_count": 8,
+      "contradiction_count": 1,
+      "first_appearance": "1975",
+      "lane_distribution": {
+        "A": 3,
+        "B": 21,
+        "C": 0
+      },
+      "related_topics": [
+        "What Dick Actually Read",
+        "Sophia and the Fallen Wisdom",
+        "The Black Iron Prison",
+        "Gnosis and Anamnesis",
+        "Gnosticism in the VALIS Trilogy"
+      ]
+    }
+  ]
+}

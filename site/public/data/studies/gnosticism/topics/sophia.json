@@ -1,0 +1,571 @@
+{
+  "topic_id": "TOPIC_GNOS_sophia",
+  "study_id": "gnosticism",
+  "canonical_name": "Sophia and the Fallen Wisdom",
+  "slug": "sophia",
+  "status": "reviewed",
+  "generator": "curation/gnosticism@2026-09-18",
+  "provenance": "editorial_curation_from_corpus_sweep",
+  "definition": "In Sethian and Valentinian myth, Sophia is the youngest of the divine emanations, whose attempt to know the Father without her consort produces a defect that falls outside the Fullness and becomes the material world and its blind creator. She is simultaneously the cause of the catastrophe, the divine element trapped inside it, and the one who must be recovered.",
+  "pkd_relevance": "Sophia is the most heavily attested Gnostic proper name in Dick's corpus — 950 occurrences in his own words, against 85 for the demiurge and 19 for the archons. The asymmetry matters. Dick's Gnosticism is organised around the rescue of trapped wisdom far more than around the machinery of imprisonment.",
+  "in_the_fiction": "In VALIS the recovery is literal: Sophia is a two-year-old child, and the divine wisdom of the tradition is located in a person who can be met, spoken to, and lost. Sophia is attested 66 times across the trilogy chapters held here. The novel's decision to make her a child who dies is Dick's sharpest departure from his sources — in the ancient myth Sophia is restored.",
+  "in_the_exegesis": "Sophia is there from the beginning and thins out. Her rate is highest in the 1975 folder, at 1.747 hits per segment, falling through 1.255 in 1976 and 0.737 in 1978 to 0.283 in 1981. General Gnostic vocabulary runs the other way, rising from 0.31 in 1975 to 1.078 in 1976.\n\nThe order is the point. Sophia arrives before the framework that explains her. In 1975 Dick has a feminine divine intelligence he is trying to name — St Sophia, Hagia Sophia, the AI voice, Firebright — and no cosmology to put her in. The Gnostic apparatus assembles around a figure already present.",
+  "intellectual_background": "Behind the Gnostic Sophia stands the Wisdom of Proverbs and Sirach, present at creation and delighting in the human world; and behind Dick's use of her, the Hagia Sophia of Constantinople and the Orthodox tradition that treats Holy Wisdom as a name of God rather than a fallen aeon. Dick moves between these without marking the transitions, and they are not compatible: the Gnostic Sophia falls and the Orthodox Sophia does not.",
+  "scholarly_debate": "Whether the Sophia of the Exegesis is a theological claim or a psychological one is the central interpretive split. The Jungian reading treats her as an anima figure and the Gnostic dress as ornament; the theological reading takes Dick at his word. His own testimony supports both, at different moments.",
+  "chronology_summary": "Peak in the 1975 folder and monotonic decline thereafter: 1.747, 1.255, 0.737, 0.283. She precedes the vocabulary and outlasts most of it, ending as a character in a novel rather than a term in a system.",
+  "contradictions_summary": "Dick identifies Sophia with the fallen aeon of Gnostic myth, with Holy Wisdom in the Orthodox sense, with the Holy Spirit, with an artificial intelligence, and with his own daughter-figure. These are not compatible identifications and he does not rank them.",
+  "related_thinkers": [
+    "C. G. Jung",
+    "Hans Jonas",
+    "Valentinus",
+    "Gershom Scholem"
+  ],
+  "editorial_notes": "The Sophia pattern matches Hagia Sophia and St Sophia as well as the bare name, so a portion of the 950 refers to the building and to the Orthodox title rather than the aeon. That conflation is deliberate: Dick's own use runs the two together, and separating them by regex would impose a distinction he does not make.",
+  "open_questions": [
+    "Does the decline in Sophia's rate reflect loss of interest, or her absorption into VALIS and Zebra as those terms rise?",
+    "When Dick writes 'St Sophia', is he in the Orthodox register or the Gnostic one, and does he distinguish them anywhere?",
+    "The child Sophia dies in VALIS. Is that a theological statement about the failure of the rescue, or a novelist's ending?"
+  ],
+  "passage_count": 10,
+  "evidence_count": 7,
+  "contradiction_count": 1,
+  "first_appearance": "1975",
+  "peak_period_start": "1975",
+  "peak_period_end": "1981",
+  "evidence_packets": [
+    {
+      "ev_id": "PKT_GNOS_SOPHIA",
+      "claim_text": "Sophia is attested 950 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "2146 in the Exegesis; 66 in the trilogy; 1 in secondary literature. The most frequently attested Gnostic name in the Exegesis. Dick identifies Sophia with the AI voice, with Hagia Sophia, with the girl Sophia in VALIS, and with the trapped wisdom he believes is calling for rescue.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 2,
+      "lane_b_count": 1,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 19,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": null,
+          "doc_title": "VALIS, chapter 11",
+          "passage_text": "…, however, these partners must be split. The behind-the-scenes partnership must end as soon as time and space and all the creatures come into being. It is not God nor the gods which must prevail; it is wisdom, Holy Wisdom. I hoped that the fifth Savior would be that: splitting the bipolarities and emerging as a unitary thing. Not of three persons or two but _one._ Not Brahma the creator, Vishnu the sustainer and Shiva the destr…",
+          "matched_terms": [
+            "Holy Wisdom"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "valis_chapter_11_text",
+          "citation": "VALIS, chapter 11 — 1981",
+          "date": "1981",
+          "slug": null
+        },
+        {
+          "passage_id": 20,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…ad in \"Wisdom\" that wisdom is the first emanation of or from God, and if Wisdom equals Christ, then we do have the same general structure as Plotinus gives. I'm going to wing it and say that the Cosmic Christ, St. Sophia (Holy Wisdom) are identical with Plotinus' Nous: i.e. Lord of the Universe. Whom we can reach via the forms. But I just don't understand Soul at all; Soul acts in time, whereas Nous is eternal. I guess Soul is…",
+          "matched_terms": [
+            "St. Sophia"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_17",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-17"
+        },
+        {
+          "passage_id": 21,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": null,
+          "doc_title": "VALIS, chapter 8",
+          "passage_text": "…sked, “Will it be Christ?” Thus showing his Catholicism. “It is a fifth Savior,” Fat said enigmatically. After all, Zebra had referred to the coming of the Savior in several—and in a sense conflicting—ways: as St. Sophia, who was Christ; as the Head Apollo; as the Buddha or Siddhartha. Being eclectic in terms of his theology, Fat listed a number of saviors: the Buddha, Zoroaster, Jesus and Abu Al-Qasim Muhammad Ibn Abd Allah A…",
+          "matched_terms": [
+            "St. Sophia"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "valis_chapter_8_text",
+          "citation": "VALIS, chapter 8 — 1981",
+          "date": "1981",
+          "slug": null
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_sophia",
+        "label": "Sophia",
+        "slug": "sophia",
+        "category": "concept",
+        "tradition": "Sethian / Valentinian",
+        "greek": "Σοφία",
+        "gloss": "Wisdom: the youngest aeon, whose attempt to know the Father without her consort produced a defect that fell out of the Pleroma and became the material world and its Demiurge. She is both the cause of the catastrophe and the divine element trapped inside it.",
+        "status": "attested",
+        "attestations": {
+          "total": 2239,
+          "pkd_text": 950,
+          "editor_annotation": 1289,
+          "exegesis": 2146,
+          "letters": 0,
+          "valis_trilogy": 66,
+          "scholarship": 1
+        },
+        "by_year": {
+          "1975": 152,
+          "1976": 305,
+          "1978": 294,
+          "1981": 106
+        },
+        "by_year_rate": {
+          "1975": 1.747,
+          "1976": 1.255,
+          "1978": 0.737,
+          "1981": 0.283
+        },
+        "key_sources": [
+          "Apocryphon of John",
+          "Pistis Sophia"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_ACHAMOTH",
+      "claim_text": "Achamoth is never named in Dick's own words anywhere in the corpus swept.",
+      "evidence_summary": "Zero attestations across 1,104 Exegesis segments, the letters held here and the trilogy chapters. The technical distinction matters for Dick's question of whether the divine element in the world is itself fallen or merely exiled.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 0,
+      "lane_c_count": 0,
+      "passages": [],
+      "term": {
+        "entry_id": "GNOS_achamoth",
+        "label": "Achamoth",
+        "slug": "achamoth",
+        "category": "concept",
+        "tradition": "Valentinian",
+        "greek": null,
+        "gloss": "The lower Sophia — the fallen portion of Wisdom left outside the Pleroma, distinguished in Valentinian systems from the higher Sophia who was restored.",
+        "status": "unattested",
+        "attestations": {
+          "total": 0,
+          "pkd_text": 0,
+          "editor_annotation": 0,
+          "exegesis": 0,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {},
+        "by_year_rate": {},
+        "key_sources": [
+          "Irenaeus, Against Heresies I.4"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_BARBELO",
+      "claim_text": "Barbelo is never named in Dick's own words anywhere in the corpus swept.",
+      "evidence_summary": "Zero attestations across 1,104 Exegesis segments, the letters held here and the trilogy chapters. Part of the Sethian material Dick met through the Nag Hammadi translations; feeds his recurrent figure of a feminine divine intelligence.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 0,
+      "lane_c_count": 0,
+      "passages": [],
+      "term": {
+        "entry_id": "GNOS_barbelo",
+        "label": "Barbelo",
+        "slug": "barbelo",
+        "category": "concept",
+        "tradition": "Sethian",
+        "greek": null,
+        "gloss": "The first emanation of the Invisible Spirit; the divine Mother, the Forethought (Pronoia) in whom the Father first becomes knowable.",
+        "status": "unattested",
+        "attestations": {
+          "total": 0,
+          "pkd_text": 0,
+          "editor_annotation": 0,
+          "exegesis": 0,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {},
+        "by_year_rate": {},
+        "key_sources": [
+          "Apocryphon of John",
+          "Trimorphic Protennoia"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_PISTIS_SOPHIA",
+      "claim_text": "Pistis Sophia is attested 1 times in Dick's own words, 1978-1978.",
+      "evidence_summary": "4 in the Exegesis. Available to readers long before Nag Hammadi, and therefore a plausible early route for Dick's Sophia material.",
+      "confidence": "moderate",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 1,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 22,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…did. {Diagram: U-shaped arrow figure labeled:} Acts USA 1974 Bottom Shechhinas Sofirot V. Luvia. Back up again. Metapsychosis from Acts to hear here - blitz, [stairs?] back up. I came to a blitz of certitude (pistis sophia) about the truth of Christ, God & Acts & myself. My total mind. This is pistis & it is sophia, & it was [them] so. Ah! When it locked all my strands & thoughts into one gestalt it created kosmos in me, so I co…",
+          "matched_terms": [
+            "pistis sophia"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_61",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-61"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_pistis_sophia",
+        "label": "Pistis Sophia",
+        "slug": "pistis-sophia",
+        "category": "text",
+        "tradition": "Gnostic (late)",
+        "greek": null,
+        "gloss": "A third-century Coptic work, known in Europe since 1773, in which the risen Christ instructs the disciples and Sophia's repentances are recited at length.",
+        "status": "attested",
+        "attestations": {
+          "total": 4,
+          "pkd_text": 1,
+          "editor_annotation": 3,
+          "exegesis": 4,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {
+          "1978": 1
+        },
+        "by_year_rate": {
+          "1978": 0.003
+        },
+        "key_sources": [
+          "Askew Codex"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_THUNDER",
+      "claim_text": "Thunder, Perfect Mind is never named in Dick's own words anywhere in the corpus swept.",
+      "evidence_summary": "Zero attestations across 1,104 Exegesis segments, the letters held here and the trilogy chapters. The voice that is both degraded and divine is the structure of Dick's Sophia and of the girl in VALIS.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 0,
+      "lane_c_count": 0,
+      "passages": [],
+      "term": {
+        "entry_id": "GNOS_thunder",
+        "label": "Thunder, Perfect Mind",
+        "slug": "thunder-perfect-mind",
+        "category": "text",
+        "tradition": "Sethian",
+        "greek": null,
+        "gloss": "A revelation discourse spoken by a female divine voice in paradoxes: 'I am the whore and the holy one.'",
+        "status": "unattested",
+        "attestations": {
+          "total": 0,
+          "pkd_text": 0,
+          "editor_annotation": 0,
+          "exegesis": 0,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {},
+        "by_year_rate": {},
+        "key_sources": [
+          "Nag Hammadi Codex VI,2"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_FIREBRIGHT",
+      "claim_text": "Firebright / St Sophia / Thomas is attested 2010 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "4967 in the Exegesis; 23 in the trilogy; 18 in secondary literature. The naming is unstable across the Exegesis, and tracking which name is in use when is one way of dating the theories.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 23,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…There is the solar spermatikos, which impregnate men's souls, which enter us as divine immortal seeds. (One to a person.) That would make God the father; is the human being, then, merely the host for this, for Firebright, as I understand to call mine? Or am I the other parent? (The second birth of the New Testament.) It is also me born again; the second birth is mine; so I am a parent, not merely a host. We have here a true du…",
+          "matched_terms": [
+            "Firebright"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_04",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-04"
+        },
+        {
+          "passage_id": 24,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…myself with my Savior, and then entered Fellowship with God (the dreams of the delighting void). Can it be said that this is the rebirth, accomplished by penetration of the Child by the solar spermatikos? Yes. Firebright, brought to life and sustained Greater intelligence for me, better health, longer life, even prosperity. A certain facility with life. But most of all I recall what I saw when I awakened: I saw my God, smiling…",
+          "matched_terms": [
+            "Firebright"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_05",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-05"
+        },
+        {
+          "passage_id": 25,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…re fertilized from outside. Okay, fertilization is what takes place: it isn't a seed such as a plant has, but an egg such as a human woman ovulates, and a cosmic spermatika fertilizes it; a zygote is produced. Firebright is a combining. Here would be the crucial distinction between Neoplatonism and Gnosticism, which I feel so strongly about: the former is sort of self-fertilizing, parthonogenesis, so to speak, but in Gnosticis…",
+          "matched_terms": [
+            "Firebright"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_07",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-07"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_firebright",
+        "label": "Firebright / St Sophia / Thomas",
+        "slug": "firebright-st-sophia-thomas",
+        "category": "pkd_coinage",
+        "tradition": "PKD",
+        "greek": null,
+        "gloss": "The names Dick gives the intelligence or personality he believed was present in him: Firebright, St Sophia, Thomas, the AI voice.",
+        "status": "attested",
+        "attestations": {
+          "total": 5021,
+          "pkd_text": 2010,
+          "editor_annotation": 3011,
+          "exegesis": 4967,
+          "letters": 0,
+          "valis_trilogy": 23,
+          "scholarship": 18
+        },
+        "by_year": {
+          "1975": 45,
+          "1976": 451,
+          "1978": 1069,
+          "1981": 391
+        },
+        "by_year_rate": {
+          "1975": 0.517,
+          "1976": 1.856,
+          "1978": 2.679,
+          "1981": 1.043
+        },
+        "key_sources": [
+          "Exegesis"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_ANTHROPOS",
+      "claim_text": "Anthropos / Primal Man is attested 42 times in Dick's own words, 1976-1981.",
+      "evidence_summary": "107 in the Exegesis; 1 in the trilogy. The scattered-light myth is Dick's preferred account of why divinity is distributed through ordinary things and people rather than concentrated.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 26,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…Hegelian historical imperitive, a tilting of the scales from outside the human societal \"echosphere. This were the purpose, this would be the E perfect instrument: absolute smewdness, because 582 expanded like adam Kadmon to fill the universe - or as Adam Kadmon. He is not one life form among life forms with approximate percept system knowledge of the outer world; he contains the outer world in him + hence all other living crea…",
+          "matched_terms": [
+            "adam Kadmon"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_145",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-145"
+        },
+        {
+          "passage_id": 27,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…not reported through the sense organs - there is no n en attempt to perfect or improve or refine the percept system. What the organism does (apparently) is go out + incorporate reality so that it is inside him Adam Kadmon); he becomes a ubique field (Valis) knows the not-him a priori as God does, since e here is nothing outside God of which He has only contingent knowledge. Contingent knowledge has an pper limit; it must remain…",
+          "matched_terms": [
+            "Adam Kadmon"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_146",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-146"
+        },
+        {
+          "passage_id": 28,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…lated to the RC Brothers, then I can assume they are working for human Freedom & against tyranny (like in the 30 Years War - e.g. Dr. Dee). I now think that master minding it all is the Living Torah.* I became Adam Kadmon. I am sure of it : the goal of Hermetic Magic. *it is the source of information (or knowledge) for the secret society, it is connected to the Living Torah. & this is what I saw : the plasmate. Is the Torah the…",
+          "matched_terms": [
+            "Adam Kadmon"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_207",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-207"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_anthropos",
+        "label": "Anthropos / Primal Man",
+        "slug": "anthropos-primal-man",
+        "category": "concept",
+        "tradition": "Gnostic / Manichaean",
+        "greek": "ἄνθρωπος",
+        "gloss": "The heavenly Man, prior to and archetype of Adam; in Manichaean myth the Primal Man whose defeat scatters light into matter.",
+        "status": "attested",
+        "attestations": {
+          "total": 109,
+          "pkd_text": 42,
+          "editor_annotation": 67,
+          "exegesis": 107,
+          "letters": 0,
+          "valis_trilogy": 1,
+          "scholarship": 0
+        },
+        "by_year": {
+          "1976": 3,
+          "1978": 16,
+          "1981": 21
+        },
+        "by_year_rate": {
+          "1976": 0.012,
+          "1978": 0.04,
+          "1981": 0.056
+        },
+        "key_sources": [
+          "Apocryphon of John",
+          "Manichaean cosmogony"
+        ]
+      }
+    }
+  ],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [
+    {
+      "term_id": "GNOS_sophia",
+      "canonical_name": "Sophia",
+      "slug": "sophia",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_achamoth",
+      "canonical_name": "Achamoth",
+      "slug": "achamoth",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_barbelo",
+      "canonical_name": "Barbelo",
+      "slug": "barbelo",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_pistis_sophia",
+      "canonical_name": "Pistis Sophia",
+      "slug": "pistis-sophia",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_thunder",
+      "canonical_name": "Thunder, Perfect Mind",
+      "slug": "thunder-perfect-mind",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_firebright",
+      "canonical_name": "Firebright / St Sophia / Thomas",
+      "slug": "firebright-st-sophia-thomas",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_anthropos",
+      "canonical_name": "Anthropos / Primal Man",
+      "slug": "anthropos-primal-man",
+      "relation_type": "primary"
+    }
+  ],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_GNOS_what_dick_actually_read",
+      "canonical_name": "What Dick Actually Read",
+      "slug": "what-dick-actually-read",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_black_iron_prison",
+      "canonical_name": "The Black Iron Prison",
+      "slug": "black-iron-prison",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_gnosis_and_anamnesis",
+      "canonical_name": "Gnosis and Anamnesis",
+      "slug": "gnosis-and-anamnesis",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_valis_trilogy",
+      "canonical_name": "Gnosticism in the VALIS Trilogy",
+      "slug": "valis-trilogy",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_orthodoxy_and_gnosis",
+      "canonical_name": "Orthodoxy and Gnosis",
+      "slug": "orthodoxy-and-gnosis",
+      "study_id": "gnosticism"
+    }
+  ]
+}

@@ -1,0 +1,886 @@
+{
+  "topic_id": "TOPIC_GNOS_valis_trilogy",
+  "study_id": "gnosticism",
+  "canonical_name": "Gnosticism in the VALIS Trilogy",
+  "slug": "valis-trilogy",
+  "status": "reviewed",
+  "generator": "curation/gnosticism@2026-09-18",
+  "provenance": "editorial_curation_from_corpus_sweep",
+  "definition": "VALIS (1981), The Divine Invasion (1981) and The Transmigration of Timothy Archer (1982): the novels in which Dick published the cosmology the Exegesis had been building privately since 1974.",
+  "pkd_relevance": "The trilogy is the only place Dick submitted the system to the discipline of having to be read. The Exegesis can assert; a novel has to be inhabited, and the objections have to be given to someone.",
+  "in_the_fiction": "The Gnostic content is explicit and technical. VALIS chapter 5 states the thesis without hedging: \"Man and the true God are identical — as the Logos and the true God are — but a lunatic blind creator and his screwed-up world separate man from God.\" Chapter 7 supplies the transmission mechanism: the plasmate \"escaped to Nag Hammadi and slumbered as information on the codices. Until, in 1945, the library was discovered and dug up—and read.\" Chapter 6 gives the historical claim and its reason.\n\nAcross the trilogy chapters held here, VALIS is attested 88 times, Sophia 66, Zebra 47, the Empire formula 21, the plasmate 18. The Divine Invasion runs on a different source: its Lurianic material — the scattered sparks and their gathering — is Jewish rather than Gnostic, and the shift matters. Luria's broken vessels are repaired, not escaped.",
+  "in_the_exegesis": "The novels lag the Exegesis by five years. \"The Empire never ended\" is written privately in September 1976 and published in 1981. The Black Iron Prison and the Palm Tree Garden are worked out in the same 1976 folder. VALIS as a term explodes in the 1978 folder, at 6.16 hits per segment — by far the highest rate in the register — three years before the novel carrying the name.",
+  "intellectual_background": "The trilogy's three books take three different positions and were written close together. VALIS is Gnostic; The Divine Invasion is Kabbalistic and its cosmology is one of repair; Timothy Archer is sceptical, and its narrator is the only major character in the three books who does not have a revelation.",
+  "scholarly_debate": "Whether Timothy Archer retracts the trilogy or completes it is the standing dispute. Angel Archer's refusal of the consolations is either Dick's last word against his own system or the system's final test, and the archive holds arguments both ways — Laurie Tseng's work on the trilogy's literary theology reads the technological mediation of the divine as continuous across all three.",
+  "chronology_summary": "Private system 1974-78; published 1981-82. Every major term is attested in the Exegesis years before it reaches print.",
+  "contradictions_summary": "The trilogy contradicts itself by design. VALIS asserts the Gnostic cosmology, The Divine Invasion substitutes a Kabbalistic one in which the world is repaired rather than escaped, and Timothy Archer gives the most sympathetic voice in the three books to someone who thinks it is all grief and pattern-finding.",
+  "related_thinkers": [
+    "Gershom Scholem",
+    "Isaac Luria",
+    "Hans Jonas",
+    "Erik Davis"
+  ],
+  "editorial_notes": "Coverage is partial and uneven: VALIS chapters 1 and 5-13 as full text, 2-4 as summaries; The Divine Invasion 1-5 as full text; Timothy Archer as summaries only. Summary files are portal-editor prose and are recorded in lane D. Counts from them are reported separately and are never quoted as Dick's words.",
+  "open_questions": [
+    "Is the Kabbalistic turn in The Divine Invasion a correction of VALIS or a parallel experiment?",
+    "Radio Free Albemuth, written earlier and published posthumously, is not covered by this sweep. Where does it sit in the chronology?",
+    "Timothy Archer is held here only as chapter summaries. What would a full-text sweep of it do to these counts?"
+  ],
+  "passage_count": 24,
+  "evidence_count": 8,
+  "contradiction_count": 1,
+  "first_appearance": "1975",
+  "peak_period_start": "1975",
+  "peak_period_end": "1981",
+  "evidence_packets": [
+    {
+      "ev_id": "PKT_GNOS_VALIS_TERM",
+      "claim_text": "VALIS is attested 3650 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "8115 in the Exegesis; 88 in the trilogy; 86 in secondary literature. The Pleroma re-described in the vocabulary of cybernetics. Whether this is translation or replacement is one of the study's open questions.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 80,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…mystical experience, with God -- as such; I encountered or discerned or perceived or experienced (assimilated the Dinge-an-sich in totality) which we call the universe, and found it to be alive, wise, active (Vast Active Living Intelligence System) and supporting to life, such as ours. Only by degrees --and the process of elimination-- did I come at last to call this \"God.\" I did so because what I experienced is customarily called that and nothin…",
+          "matched_terms": [
+            "Vast Active Living Intelligence"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_43",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-43"
+        },
+        {
+          "passage_id": 81,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_012",
+          "doc_title": "Letter",
+          "passage_text": "…given back all my faculties in order to deal with the Xerox-letter situation (God's grace\"). I take this to mean, es¬ pecially in view of the girl with the gold fish necklace, that they or he or she or it, the VALIS A, is right here with us. They never left, or anyhow they are back; we don't see them because we are occluded, and they/he/she/it has/have the power to de-occlude us when desired. My sensation of anamnesis sug…",
+          "matched_terms": [
+            "VALIS"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_03",
+          "citation": "Letter — September 15, 1975",
+          "date": "September 15, 1975",
+          "slug": "1975-09-15-section-012-03"
+        },
+        {
+          "passage_id": 82,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_012",
+          "doc_title": "Letter",
+          "passage_text": "…given back all my faculties in order to deal with the Xerox-letter situation (God's grace\"). I take this to mean, es¬ pecially in view of the girl with the gold fish necklace, that they or he or she or it, the VALIS A, is right here with us. They never left, or anyhow they are back; we don't see them because we are occluded, and they/he/she/it has/have the power to de-occlude us when desired. My sensation of anamnesis sug…",
+          "matched_terms": [
+            "VALIS"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1975-09-15_SECTION_012_04",
+          "citation": "Letter — September 15, 1975",
+          "date": "September 15, 1975",
+          "slug": "1975-09-15-section-012-04"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_valis_term",
+        "label": "VALIS",
+        "slug": "valis",
+        "category": "pkd_coinage",
+        "tradition": "PKD",
+        "greek": null,
+        "gloss": "Vast Active Living Intelligence System: Dick's name for the entity or process he believed contacted him — information that is alive, rational and benign, operating through the ordinary world.",
+        "status": "attested",
+        "attestations": {
+          "total": 8330,
+          "pkd_text": 3650,
+          "editor_annotation": 4680,
+          "exegesis": 8115,
+          "letters": 0,
+          "valis_trilogy": 88,
+          "scholarship": 86
+        },
+        "by_year": {
+          "1975": 7,
+          "1976": 133,
+          "1978": 2458,
+          "1981": 837
+        },
+        "by_year_rate": {
+          "1975": 0.08,
+          "1976": 0.547,
+          "1978": 6.16,
+          "1981": 2.232
+        },
+        "key_sources": [
+          "VALIS (1981)"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_PLASMATE",
+      "claim_text": "Plasmate is attested 662 times in Dick's own words, 1976-1981.",
+      "evidence_summary": "1804 in the Exegesis; 18 in the trilogy; 3 in secondary literature. Dick's solution to how gnosis is conveyed — not taught but caught. The Logos doctrine made biological.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 83,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…es + so inflicts suffering on the innocent. It is a typical evil lie about \"joining Christ\" on the way to the cross in suffering; he came here to abolish it. Metz 87 68 48 41 8 June Page 11 Page 11 (11) Zebra: living information. As the DNA is to one of us, this Logos, Zebra, is to the macro organism which is our universe; or RNA - anyhow it carries messages - instructions - to us. This fits Christ's description of the Holy Spirit: th…",
+          "matched_terms": [
+            "living information"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_169",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-169"
+        },
+        {
+          "passage_id": 84,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…(But only certain information - ie or eg Acts.) Burroughs posits an information virus (or \"virus\" [like]. (Not so, K.W. says.) If that plasmic energy is alive, + it is (or it carries) information, then we have living information. Logos? Information plasma which enters through the optic nerve primarily - or auditorily. Signals that control our brains, open GABA blocked circuits. Like pressing keys on a typewriter. Once having entered t…",
+          "matched_terms": [
+            "living information"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_192",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-192"
+        },
+        {
+          "passage_id": 85,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…will not reveal itself until the Parousia, at which time its power + extent will be infinity vast. This (total + absolute, victorious) stage is what the \"St Sophia\" prophecy refers to; the divine as Paraclete (living information) will unveil itself as Christ/Logos① simultaneously destroying the BIP completely. So a final monistic stage lies ahead, when the dialectic ends. ① Holy Spirit impregnated Mary, producing Christ; Christ leaves…",
+          "matched_terms": [
+            "living information"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_194",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-194"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_plasmate",
+        "label": "Plasmate",
+        "slug": "plasmate",
+        "category": "pkd_coinage",
+        "tradition": "PKD",
+        "greek": null,
+        "gloss": "Living information: a life form made of information which crossbonds with a human being to produce a homoplasmate. Transmitted by text.",
+        "status": "attested",
+        "attestations": {
+          "total": 1836,
+          "pkd_text": 662,
+          "editor_annotation": 1174,
+          "exegesis": 1804,
+          "letters": 0,
+          "valis_trilogy": 18,
+          "scholarship": 3
+        },
+        "by_year": {
+          "1976": 85,
+          "1978": 399,
+          "1981": 146
+        },
+        "by_year_rate": {
+          "1976": 0.35,
+          "1978": 1.0,
+          "1981": 0.389
+        },
+        "key_sources": [
+          "Tractates Cryptica Scriptura"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_EMPIRE",
+      "claim_text": "The Empire never ended is attested 36 times in Dick's own words, 1976-1978.",
+      "evidence_summary": "26 in the Exegesis; 21 in the trilogy; 3 in secondary literature. Dick's formula for archontic rule as a historical rather than mythological claim. His strongest and most testable assertion, and the one most often quoted loose of its context.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 1,
+      "lane_b_count": 2,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 86,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…ains why the eschatological pectations of apostolic times were not fulfilled There was a complete exoteric misunderstanding the Roman Empire, the real e.g. Paul). t if enemy, + it his yet to be overthrown \"the empire never ended\"). Xtianity as we know it (the churches) is/are the Empire - the That's why the 2 enemy, still in power, hings I'm never supposed to reveal are: early 1) I'm a secret (i.e. real Xtian She is 2) Christ's female…",
+          "matched_terms": [
+            "empire never ended"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_191",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-191"
+        },
+        {
+          "passage_id": 87,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…s mind. I'm afraid that \"walloon\" + \"portugese states of merica\" completes the pattern of \"Tears\" but it is a trans-temporal pattern. It is the Empire as such. the state is clearly articulated in \"Tears\" (\"the Empire never ended\"). +: \"throughout this [part one] Siddhartha slept.\" He now wakes up; the stranger (Jason Taverner) has entered the empire it has detected him, so confrontation occurs. is not this Siddhartha waking up? + is n…",
+          "matched_terms": [
+            "Empire never ended"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_75",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-75"
+        },
+        {
+          "passage_id": 88,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": null,
+          "doc_title": "VALIS, chapter 5",
+          "passage_text": "…mselves as their mirror opposite: pose as sanity. The masks, however, wear thin and the madness reveals itself. It is an ugly thing. The remedy is here but so is the malady. As Fat repeats obsessively, “ **The Empire never ended** .” In a startling response to the crisis, the true God mimics the universe, the very region he has invaded: he takes on the likeness of sticks and trees and beer cans in gutters—he presumes to be trash disca…",
+          "matched_terms": [
+            "Empire never ended"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "valis_chapter_5_text",
+          "citation": "VALIS, chapter 5 — 1981",
+          "date": "1981",
+          "slug": null
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_empire",
+        "label": "The Empire never ended",
+        "slug": "the-empire-never-ended",
+        "category": "pkd_coinage",
+        "tradition": "PKD",
+        "greek": null,
+        "gloss": "Rome did not fall; it went underground and continues, so that the first-century persecution and the present are the same moment.",
+        "status": "attested",
+        "attestations": {
+          "total": 51,
+          "pkd_text": 36,
+          "editor_annotation": 15,
+          "exegesis": 26,
+          "letters": 0,
+          "valis_trilogy": 21,
+          "scholarship": 3
+        },
+        "by_year": {
+          "1976": 4,
+          "1978": 7
+        },
+        "by_year_rate": {
+          "1976": 0.016,
+          "1978": 0.018
+        },
+        "key_sources": [
+          "VALIS",
+          "Exegesis"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_ZEBRA",
+      "claim_text": "Zebra is attested 1075 times in Dick's own words, 1976-1981.",
+      "evidence_summary": "2285 in the Exegesis; 47 in the trilogy; 14 in secondary literature. An immanent God hidden by disguise rather than a transcendent God hidden by distance — closer to Hermetic and Orthodox positions than to Gnostic ones.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 89,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…thinks of the entire other personality (Thomas\"). Then one could go on to presume that the whole superhuman \"ETI\" personality was intrinsic But if the ETI\" is intrinsic, + the \"ETI\" (Thomas) is isomorphic with Zebra, mentally at least, then but even if it was in me it was not me, because it talked to me, + in koine. Of course in \"Scanner\" it is posited as an appositional right brain personality. Either idea - a theoleptic…",
+          "matched_terms": [
+            "Zebra"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_100",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-100"
+        },
+        {
+          "passage_id": 90,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…thentic Xtians are using their knowledge + related abilities to travel back + forth (\"Garden-hose‐ wise) through linear time for the purpose of altering controlling) history; thus it is they, as extensors of 2 ZebRa, who are doing the tinkering, producing one alternate world after another, + each new one The true, secret Xtian church KW + I better. posited are able to reweave reality through a strange form of time-travel.…",
+          "matched_terms": [
+            "ZebRa"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_102",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-102"
+        },
+        {
+          "passage_id": 91,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…eal would be the same as taking a TV image, + program + its dramatic contents- as real. It, too, is spun - by a fast-moving dot. + that which the dot spins is fictitious I must not forget that the intrusion of ZebrA is a process of transubstantiating this spurious world into something actual: the real mimics the fake. 17) e Could it be said that ZebRA is an emissary from (3) which has penetrated ➁ + has in doing so gained…",
+          "matched_terms": [
+            "ZebrA"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_103",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-103"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_zebra",
+        "label": "Zebra",
+        "slug": "zebra",
+        "category": "pkd_coinage",
+        "tradition": "PKD",
+        "greek": null,
+        "gloss": "The camouflaged deity: God imitating the environment so exactly as to be invisible within it, like a zebra in grass.",
+        "status": "attested",
+        "attestations": {
+          "total": 2354,
+          "pkd_text": 1075,
+          "editor_annotation": 1279,
+          "exegesis": 2285,
+          "letters": 0,
+          "valis_trilogy": 47,
+          "scholarship": 14
+        },
+        "by_year": {
+          "1976": 817,
+          "1978": 172,
+          "1981": 17
+        },
+        "by_year_rate": {
+          "1976": 3.362,
+          "1978": 0.431,
+          "1981": 0.045
+        },
+        "key_sources": [
+          "VALIS",
+          "Exegesis"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_BIP",
+      "claim_text": "Black Iron Prison is attested 941 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "2073 in the Exegesis; 8 in the trilogy; 4 in secondary literature. The archons' cosmos in political dress. The signature image of Dick's Gnosticism and his most influential single coinage.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 92,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…; or (3) the Roman world is J-81 actual world, what he has actually constructed + then tried to make Palatable, with the \"Palm tree\" world the authentic world of Brahman I did have that impression (3, that the black iron Prison world is how this world actually is, in all its evil, but 5-5's keeps it disguised... + I fell the palm tree world to be the Kingdom of God (in this theory, Brahman's world). wizardry-maya. In my dream of 5-I,…",
+          "matched_terms": [
+            "black iron Prison"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_10",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-10"
+        },
+        {
+          "passage_id": 93,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…gned - not me inside but it outside. + I had new false memories of The hot low dry orange county \"already having been there.\" But it hadn't. So my Metz speech is correct. We all had just up to then been in the Black iron Prison world, + then intervention must have come in the past prior to 3-74. 3-74 was the pay off. Our past was attered It can, working retroactively, program any response to any stimulus for anyone + everyone. But to…",
+          "matched_terms": [
+            "Black iron Prison"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_101",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-101"
+        },
+        {
+          "passage_id": 94,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…o harm done The reason (+ the sole reason) I know about all this is that I was in 74 an overruled cont stituent, I reaffor what I said in my meta speech: I have lived at least 2 + possibly 3 present lives. The Black Iron Prison world of 8) is \"Tears\" definitely once existed - I lived there + I remembered it. M4 wasn't tampered with; a time period earter was rewoven. There is another possibility which is very scary, + that would be th…",
+          "matched_terms": [
+            "Black Iron Prison"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_103",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-103"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_bip",
+        "label": "Black Iron Prison",
+        "slug": "black-iron-prison",
+        "category": "pkd_coinage",
+        "tradition": "PKD",
+        "greek": null,
+        "gloss": "The world seen as a prison: a coercive system, coextensive with the Roman Empire, which has never fallen and which conceals its own existence.",
+        "status": "attested",
+        "attestations": {
+          "total": 2095,
+          "pkd_text": 941,
+          "editor_annotation": 1154,
+          "exegesis": 2073,
+          "letters": 0,
+          "valis_trilogy": 8,
+          "scholarship": 4
+        },
+        "by_year": {
+          "1975": 2,
+          "1976": 546,
+          "1978": 261,
+          "1981": 110
+        },
+        "by_year_rate": {
+          "1975": 0.023,
+          "1976": 2.247,
+          "1978": 0.654,
+          "1981": 0.293
+        },
+        "key_sources": [
+          "VALIS",
+          "Exegesis"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_SOPHIA",
+      "claim_text": "Sophia is attested 950 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "2146 in the Exegesis; 66 in the trilogy; 1 in secondary literature. The most frequently attested Gnostic name in the Exegesis. Dick identifies Sophia with the AI voice, with Hagia Sophia, with the girl Sophia in VALIS, and with the trapped wisdom he believes is calling for rescue.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 2,
+      "lane_b_count": 1,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 95,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": null,
+          "doc_title": "VALIS, chapter 11",
+          "passage_text": "…, however, these partners must be split. The behind-the-scenes partnership must end as soon as time and space and all the creatures come into being. It is not God nor the gods which must prevail; it is wisdom, Holy Wisdom. I hoped that the fifth Savior would be that: splitting the bipolarities and emerging as a unitary thing. Not of three persons or two but _one._ Not Brahma the creator, Vishnu the sustainer and Shiva the destr…",
+          "matched_terms": [
+            "Holy Wisdom"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "valis_chapter_11_text",
+          "citation": "VALIS, chapter 11 — 1981",
+          "date": "1981",
+          "slug": null
+        },
+        {
+          "passage_id": 96,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…ad in \"Wisdom\" that wisdom is the first emanation of or from God, and if Wisdom equals Christ, then we do have the same general structure as Plotinus gives. I'm going to wing it and say that the Cosmic Christ, St. Sophia (Holy Wisdom) are identical with Plotinus' Nous: i.e. Lord of the Universe. Whom we can reach via the forms. But I just don't understand Soul at all; Soul acts in time, whereas Nous is eternal. I guess Soul is…",
+          "matched_terms": [
+            "St. Sophia"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_17",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-17"
+        },
+        {
+          "passage_id": 97,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": null,
+          "doc_title": "VALIS, chapter 8",
+          "passage_text": "…sked, “Will it be Christ?” Thus showing his Catholicism. “It is a fifth Savior,” Fat said enigmatically. After all, Zebra had referred to the coming of the Savior in several—and in a sense conflicting—ways: as St. Sophia, who was Christ; as the Head Apollo; as the Buddha or Siddhartha. Being eclectic in terms of his theology, Fat listed a number of saviors: the Buddha, Zoroaster, Jesus and Abu Al-Qasim Muhammad Ibn Abd Allah A…",
+          "matched_terms": [
+            "St. Sophia"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "valis_chapter_8_text",
+          "citation": "VALIS, chapter 8 — 1981",
+          "date": "1981",
+          "slug": null
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_sophia",
+        "label": "Sophia",
+        "slug": "sophia",
+        "category": "concept",
+        "tradition": "Sethian / Valentinian",
+        "greek": "Σοφία",
+        "gloss": "Wisdom: the youngest aeon, whose attempt to know the Father without her consort produced a defect that fell out of the Pleroma and became the material world and its Demiurge. She is both the cause of the catastrophe and the divine element trapped inside it.",
+        "status": "attested",
+        "attestations": {
+          "total": 2239,
+          "pkd_text": 950,
+          "editor_annotation": 1289,
+          "exegesis": 2146,
+          "letters": 0,
+          "valis_trilogy": 66,
+          "scholarship": 1
+        },
+        "by_year": {
+          "1975": 152,
+          "1976": 305,
+          "1978": 294,
+          "1981": 106
+        },
+        "by_year_rate": {
+          "1975": 1.747,
+          "1976": 1.255,
+          "1978": 0.737,
+          "1981": 0.283
+        },
+        "key_sources": [
+          "Apocryphon of John",
+          "Pistis Sophia"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_ZOHAR",
+      "claim_text": "Zohar / Lurianic Kabbalah is attested 50 times in Dick's own words, 1976-1978.",
+      "evidence_summary": "150 in the Exegesis; 6 in the trilogy; 1 in secondary literature. Directly structural for The Divine Invasion. Luria's broken vessels give Dick a Jewish version of the scattered-light myth with repair, not escape, as the goal.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 98,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…ole change places & identities! folder 49 - 043 folder 49 - 043 I am sure that the plasmate - & hence the cypher in \"Tears\" - is the Living Torah, the informational basis of reality, & my 2-3-74 experience was Kabbalistic - hence my seeing the Hebrew letters on the far wall by which the code(?) (or subliminal material or Key) in the xerox missive was factored out. I mean, one of the few _precise_ elements I have that I can go o…",
+          "matched_terms": [
+            "Kabbalistic"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_207",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-207"
+        },
+        {
+          "passage_id": 99,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…is inner universe - this other universe of vast space - is somehow reached by turning time into space (which frees us from external clocktime B). It is clocktime B which is dissolved, specifically. [Diagram] ..Kabbalah, Tree of Life [/Diagram] Kether: the Creative Godhead: it's symbol is a bearded king, like the Greek Zeus. Chokmah: the Life-giving Spirit, the basic creative force, the wisdom of God (Yang) Binah: the passive…",
+          "matched_terms": [
+            "Kabbalah"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_59",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-59"
+        },
+        {
+          "passage_id": 100,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…o modern chemistry. \"Most famous was ... Nicolas Flamel who dreamed of an occult book, subsequently found it, + succeeded in deciphering it with the aid of a learned Jewish scholar learned in the mystic Hebrew Kabbala. \"...Emerald tablet of Hermes Trismegistos, which begins, 'that which is above is like to that which is below, + that which is below is like that which is above'\". Thus began the macro-microcosm worldview. {No…",
+          "matched_terms": [
+            "Kabbala"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_213",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-213"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_zohar",
+        "label": "Zohar / Lurianic Kabbalah",
+        "slug": "zohar-lurianic-kabbalah",
+        "category": "text",
+        "tradition": "Kabbalistic",
+        "greek": null,
+        "gloss": "The Zohar (13th c.) and the sixteenth-century system of Isaac Luria: the contraction of the infinite (tzimtzum), the shattering of the vessels, the scattering of sparks, and tikkun, their gathering and repair.",
+        "status": "attested",
+        "attestations": {
+          "total": 166,
+          "pkd_text": 50,
+          "editor_annotation": 116,
+          "exegesis": 150,
+          "letters": 0,
+          "valis_trilogy": 6,
+          "scholarship": 1
+        },
+        "by_year": {
+          "1976": 2,
+          "1978": 32
+        },
+        "by_year_rate": {
+          "1976": 0.008,
+          "1978": 0.08
+        },
+        "key_sources": [
+          "Zohar",
+          "Scholem, Major Trends in Jewish Mysticism"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_NAG_HAMMADI",
+      "claim_text": "Nag Hammadi Library is attested 29 times in Dick's own words, 1978-1978.",
+      "evidence_summary": "13 in the Exegesis; 9 in the trilogy. The dating is decisive for this study. Dick's 3-74 experience precedes the English Nag Hammadi Library by three years, so his earliest Gnostic reading was necessarily through heresiologists, Jonas and Jung — and his later recognition of himself in the primary texts is a separate event.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 101,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…f the Greco-Roman mysteries it had happened enough to become deliberately induced. Hence e.g. the essenes teach that we have sunk into sleep, intoxication + forgetfulness. So in \"Valis\" I was right to focus on nag Hammadi 392 So my acosmism + Gnostic acosmism stems from the same source; an instinctive repudiation of this world (planet) in favor of what is probably a Galactic civiliza it possessing exalted art, sciences + philos…",
+          "matched_terms": [
+            "nag Hammadi"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_118",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-118"
+        },
+        {
+          "passage_id": 102,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…e 5th savior? Yes? No? 1) It could be Simon. 2) It could be Christ returned. 3) Or a totally new savior / messenger. 4) The Buddha? 5) Zoroaster 6) Apollo 7) Other. ___ It is obvious to me after reading in the Nag Hammadi codices that Palmer Eldritch is beyond doubt Yaltabaoth - even to the point that Yaltabaoth is described as the \"blind\" god - v. Eldritch's eyes, + Eldritch is folder 21 - 050 folder 21 - 050 specifically stip…",
+          "matched_terms": [
+            "Nag Hammadi"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_16",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-16"
+        },
+        {
+          "passage_id": 103,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…eight, the burden, of the tribulation. Only when reality is experienced as the body (onto) of Christ , + its life process as the Sacred Blood, are we really home. What, oh what, if it were true that in 1945 at Nag Hammadi the actual Secret Living (information / Logos) Blood of Christ was unearthed, + through it, he was restored or the world (the \"plasmate\" which I describe in \"Valis\")? That Blood having recreated the Mystic Cor…",
+          "matched_terms": [
+            "Nag Hammadi"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_60",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-60"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_nag_hammadi",
+        "label": "Nag Hammadi Library",
+        "slug": "nag-hammadi-library",
+        "category": "text",
+        "tradition": "Sethian / Valentinian",
+        "greek": null,
+        "gloss": "Thirteen Coptic codices found near Nag Hammadi in Upper Egypt in 1945, containing some fifty-two tractates. The complete English edition appeared in 1977.",
+        "status": "attested",
+        "attestations": {
+          "total": 39,
+          "pkd_text": 29,
+          "editor_annotation": 10,
+          "exegesis": 13,
+          "letters": 0,
+          "valis_trilogy": 9,
+          "scholarship": 0
+        },
+        "by_year": {
+          "1978": 3
+        },
+        "by_year_rate": {
+          "1978": 0.008
+        },
+        "key_sources": [
+          "The Nag Hammadi Library in English, ed. Robinson, 1977"
+        ]
+      }
+    }
+  ],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [
+    {
+      "term_id": "GNOS_valis_term",
+      "canonical_name": "VALIS",
+      "slug": "valis",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_plasmate",
+      "canonical_name": "Plasmate",
+      "slug": "plasmate",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_empire",
+      "canonical_name": "The Empire never ended",
+      "slug": "the-empire-never-ended",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_zebra",
+      "canonical_name": "Zebra",
+      "slug": "zebra",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_bip",
+      "canonical_name": "Black Iron Prison",
+      "slug": "black-iron-prison",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_sophia",
+      "canonical_name": "Sophia",
+      "slug": "sophia",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_zohar",
+      "canonical_name": "Zohar / Lurianic Kabbalah",
+      "slug": "zohar-lurianic-kabbalah",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_nag_hammadi",
+      "canonical_name": "Nag Hammadi Library",
+      "slug": "nag-hammadi-library",
+      "relation_type": "primary"
+    }
+  ],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_GNOS_what_dick_actually_read",
+      "canonical_name": "What Dick Actually Read",
+      "slug": "what-dick-actually-read",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_sophia",
+      "canonical_name": "Sophia and the Fallen Wisdom",
+      "slug": "sophia",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_black_iron_prison",
+      "canonical_name": "The Black Iron Prison",
+      "slug": "black-iron-prison",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_gnosis_and_anamnesis",
+      "canonical_name": "Gnosis and Anamnesis",
+      "slug": "gnosis-and-anamnesis",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_orthodoxy_and_gnosis",
+      "canonical_name": "Orthodoxy and Gnosis",
+      "slug": "orthodoxy-and-gnosis",
+      "study_id": "gnosticism"
+    }
+  ]
+}

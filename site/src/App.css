@@ -2201,3 +2201,93 @@ a.cm-chip-link:hover {
   border-left: 3px solid var(--border);
   white-space: pre-wrap;
 }
+
+/* ── Studies: the Gnostic Lexicon register ── */
+.gl-caveat {
+  background: var(--accent-bg);
+  border-left: 3px solid var(--accent-light);
+  padding: 0.75rem 1rem;
+  margin: 0 0 1.25rem;
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.gl-footnote { margin-top: 1.5rem; font-size: 0.85rem; }
+
+.gl-table { width: 100%; }
+.gl-table th { white-space: nowrap; }
+.gl-row { cursor: pointer; }
+.gl-row:hover { background: var(--bg-secondary); }
+.gl-row-open { background: var(--accent-bg); }
+.gl-row-open:hover { background: var(--accent-bg); }
+.gl-row td { vertical-align: top; }
+
+.gl-caret {
+  display: inline-block;
+  width: 1rem;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+.gl-greek {
+  font-family: var(--font-body);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-left: 0.3rem;
+}
+.gl-cat {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-left: 1rem;
+  margin-top: 0.15rem;
+}
+.gl-sub { font-size: 0.78rem; color: var(--text-muted); font-weight: normal; }
+
+.gl-detail-row td { background: var(--bg-card); padding: 0 !important; }
+.gl-detail {
+  padding: 1rem 1.25rem 1.25rem 2rem;
+  border-left: 3px solid var(--accent-light);
+}
+.gl-gloss { margin-bottom: 0.6rem; }
+.gl-why, .gl-sources { margin-bottom: 0.6rem; font-size: 0.94rem; }
+.gl-sources { color: var(--text-secondary); font-size: 0.88rem; }
+
+.gl-years { margin: 0.9rem 0 0.6rem; font-size: 0.9rem; }
+.gl-year-row { display: flex; gap: 1.25rem; flex-wrap: wrap; margin-top: 0.4rem; }
+.gl-year { display: flex; flex-direction: column; line-height: 1.3; }
+.gl-year-label { font-size: 0.8rem; color: var(--text-muted); }
+.gl-year-val { font-weight: bold; font-family: var(--font-mono); }
+
+.gl-corpora { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.75rem 0; }
+.gl-chip {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 0.2rem 0.55rem;
+  font-size: 0.82rem;
+}
+
+.gl-exemplars { margin-top: 1rem; }
+.gl-quote {
+  margin: 0.55rem 0 0;
+  padding: 0.6rem 0.8rem;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+}
+.gl-quote-text { display: block; margin: 0.35rem 0; }
+.gl-quote cite {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: normal;
+}
+.gl-none { color: var(--text-muted); font-style: italic; margin-top: 0.75rem; }
+
+@media (max-width: 700px) {
+  .gl-table thead { display: none; }
+  .gl-table, .gl-table tbody, .gl-table tr, .gl-table td { display: block; width: 100%; }
+  .gl-row td { padding: 0.15rem 0.5rem; }
+  .gl-row td:first-child { padding-top: 0.6rem; }
+  .gl-row td:last-child { padding-bottom: 0.6rem; }
+  .gl-detail { padding-left: 1rem; }
+}

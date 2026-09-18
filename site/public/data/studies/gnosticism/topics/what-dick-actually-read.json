@@ -1,0 +1,797 @@
+{
+  "topic_id": "TOPIC_GNOS_what_dick_actually_read",
+  "study_id": "gnosticism",
+  "canonical_name": "What Dick Actually Read",
+  "slug": "what-dick-actually-read",
+  "status": "reviewed",
+  "generator": "curation/gnosticism@2026-09-18",
+  "provenance": "editorial_curation_from_corpus_sweep",
+  "definition": "The question of transmission: by what route did late-antique Gnostic ideas reach a science-fiction writer in Santa Ana, and how much of what he wrote was recovered from books as against reconstructed from an experience he then went looking for names for.",
+  "pkd_relevance": "Almost every critical account of Dick's Gnosticism assumes a reading list. The corpus does not support one. Across 1,104 Exegesis segments he names Valentinus five times, Basilides once, Marcion once, and Irenaeus, Hippolytus, Epiphanius and Clement of Alexandria not at all. He never names the Apocryphon of John, the Gospel of Truth, the Gospel of Philip, the Hypostasis of the Archons, the Tripartite Tractate, Trimorphic Protennoia, Thunder Perfect Mind, the Bruce Codex, the Chaldean Oracles or the Mandaean Ginza. The Corpus Hermeticum appears only in portal-editor annotation, never in his own words.",
+  "in_the_fiction": "VALIS makes the transmission question its own plot. The plasmate \"escaped to Nag Hammadi and slumbered as information on the codices. Until, in 1945, the library was discovered and dug up—and read.\" The novel's theory of how Gnosis survives — dormant in buried text, reactivated by a reader — is a theory about Dick's own access to it, and it is conspicuously not a theory about scholarship. The codices work on the reader whether or not the reader has studied them.",
+  "in_the_exegesis": "What he does have is the vocabulary. Sophia is attested 950 times in his own text, anamnesis 1,045, gnosis 293, pleroma 105, the demiurge 85. The ideas are everywhere and their sources are absent, which is the finding: Dick worked with a conceptual inheritance rather than a library.\n\nThe two documented channels fit that shape. Jung is attested 181 times and peaks earliest, at 0.379 hits per segment in the 1975 folder, falling to around 0.1 thereafter — he is the frame Dick already had when the experience arrived, not one he acquired to explain it. Hans Jonas is attested 26 times and appears only in the 1978 and 1981 folders, at rates of 0.005 and 0.048. Nag Hammadi is named 29 times, all of them in the 1978 folder.\n\nThe Jonas passages are not vague. In October 1978 Dick writes of \"the reversing of the original fall into ignorance and forgetfulness … as Hans Jonas points out about Syrian gnosticism\", and of a \"restoration in the ground of being itself, as Hans Jonas says about Gnosticism\". He is citing a specific argument from a specific book. He is doing it in 1978, two years after the cosmology it describes was already running.",
+  "intellectual_background": "Gnostic ideas were in general intellectual circulation in mid-century America independently of the primary texts: through Jung and the Eranos circle, through encyclopedia entries, through Jonas's existential reading, and through the occult and theosophical publishing that carried G. R. S. Mead's translations. A reader could acquire the whole conceptual apparatus — alien God, false creator, imprisoned spark, saving knowledge — without opening a Coptic tractate.",
+  "scholarly_debate": "The secondary literature in this archive converges on the same answer from the other direction. J. K. Thomas's 'Coin-Operated Doors and God: A Gnostic Reading of Philip K. Dick' (2014) sources Dick's Gnosticism to \"Hans Jonas's The Gnostic Religion and the Encyclopedia of Philosophy\". Erik Davis, tracing the Hymn of the Pearl through Dick's work, finds it reaching him \"via Encyclopaedia Britannica and Hans Jonas's Gnostic Religion\". Scholars working from the documents and a keyword sweep working from the corpus independently identify reference works and one monograph.\n\nThis is not a debunking. It raises the harder question. If Dick reconstructed a recognisably Valentinian cosmology without reading the Valentinians, either the system is convergent — derivable by anyone who starts from the same problem, as Culianu argued — or the encyclopedia entries carried more than their length suggests, or the experience he was interpreting genuinely resembled the one the ancient texts describe. The corpus cannot decide between these.",
+  "chronology_summary": "Jung early and steady from 1975. Gnostic vocabulary consolidating through 1976. Nag Hammadi and Hans Jonas both entering in the 1978 folder and not before. Jonas peaking in 1981, the last folder. The scholarship arrives after the system it is supposed to explain.",
+  "contradictions_summary": "Dick's own account of his sources is inconsistent with itself as well as with the corpus. He describes himself in 1978 as someone whose \"published writing is basically Gnostic\", which projects the identification backwards over books written before he had the vocabulary; and he attributes to reading what the dating shows he had before the reading.",
+  "related_thinkers": [
+    "Hans Jonas",
+    "C. G. Jung",
+    "Elaine Pagels",
+    "Gilles Quispel",
+    "Ioan Culianu",
+    "Erik Davis",
+    "James M. Robinson"
+  ],
+  "editorial_notes": "Attestation is not the same as knowledge: Dick could read a text and never name it, and absence of a name is weak evidence of absence of reading. What the sweep establishes is narrower and still substantial — that in six years of private theological writing, at enormous length and with no audience to impress, he did not reach for these names. Set against how often he reaches for Plato (1,066), Parmenides (216) and Plotinus (184), the silence about the Gnostics themselves is worth something.",
+  "open_questions": [
+    "Which edition or encyclopedia entry did Dick use before 1978, and is it identifiable from his phrasing?",
+    "Does the 1975-76 correspondence, absent from this working tree, name sources the Exegesis does not?",
+    "Dick owned or borrowed books not catalogued here. What would a reconstruction of his actual shelf change?",
+    "Is the near-total absence of heresiologists evidence he did not read them, or only that he had no reason to cite them?",
+    "Erik Davis dates a Hymn of the Pearl engagement to a February 1975 letter. The Hymn is attested only 7 times in the Exegesis. Does the letter corpus, once swept, move that date?"
+  ],
+  "passage_count": 18,
+  "evidence_count": 9,
+  "contradiction_count": 1,
+  "first_appearance": "1975",
+  "peak_period_start": "1975",
+  "peak_period_end": "1981",
+  "evidence_packets": [
+    {
+      "ev_id": "PKT_GNOS_NAG_HAMMADI",
+      "claim_text": "Nag Hammadi Library is attested 29 times in Dick's own words, 1978-1978.",
+      "evidence_summary": "13 in the Exegesis; 9 in the trilogy. The dating is decisive for this study. Dick's 3-74 experience precedes the English Nag Hammadi Library by three years, so his earliest Gnostic reading was necessarily through heresiologists, Jonas and Jung — and his later recognition of himself in the primary texts is a separate event.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 1,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…f the Greco-Roman mysteries it had happened enough to become deliberately induced. Hence e.g. the essenes teach that we have sunk into sleep, intoxication + forgetfulness. So in \"Valis\" I was right to focus on nag Hammadi 392 So my acosmism + Gnostic acosmism stems from the same source; an instinctive repudiation of this world (planet) in favor of what is probably a Galactic civiliza it possessing exalted art, sciences + philos…",
+          "matched_terms": [
+            "nag Hammadi"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_118",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-118"
+        },
+        {
+          "passage_id": 2,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…e 5th savior? Yes? No? 1) It could be Simon. 2) It could be Christ returned. 3) Or a totally new savior / messenger. 4) The Buddha? 5) Zoroaster 6) Apollo 7) Other. ___ It is obvious to me after reading in the Nag Hammadi codices that Palmer Eldritch is beyond doubt Yaltabaoth - even to the point that Yaltabaoth is described as the \"blind\" god - v. Eldritch's eyes, + Eldritch is folder 21 - 050 folder 21 - 050 specifically stip…",
+          "matched_terms": [
+            "Nag Hammadi"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_16",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-16"
+        },
+        {
+          "passage_id": 3,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…eight, the burden, of the tribulation. Only when reality is experienced as the body (onto) of Christ , + its life process as the Sacred Blood, are we really home. What, oh what, if it were true that in 1945 at Nag Hammadi the actual Secret Living (information / Logos) Blood of Christ was unearthed, + through it, he was restored or the world (the \"plasmate\" which I describe in \"Valis\")? That Blood having recreated the Mystic Cor…",
+          "matched_terms": [
+            "Nag Hammadi"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_60",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-60"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_nag_hammadi",
+        "label": "Nag Hammadi Library",
+        "slug": "nag-hammadi-library",
+        "category": "text",
+        "tradition": "Sethian / Valentinian",
+        "greek": null,
+        "gloss": "Thirteen Coptic codices found near Nag Hammadi in Upper Egypt in 1945, containing some fifty-two tractates. The complete English edition appeared in 1977.",
+        "status": "attested",
+        "attestations": {
+          "total": 39,
+          "pkd_text": 29,
+          "editor_annotation": 10,
+          "exegesis": 13,
+          "letters": 0,
+          "valis_trilogy": 9,
+          "scholarship": 0
+        },
+        "by_year": {
+          "1978": 3
+        },
+        "by_year_rate": {
+          "1978": 0.008
+        },
+        "key_sources": [
+          "The Nag Hammadi Library in English, ed. Robinson, 1977"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_JONAS",
+      "claim_text": "Hans Jonas is attested 26 times in Dick's own words, 1978-1981.",
+      "evidence_summary": "52 in the Exegesis; 6 in secondary literature. The most consequential scholarly source for Dick. Jonas's existential framing is the one Dick adopts wholesale, and 'thrownness', 'the alien God' and the cosmic-prison vocabulary reach him in Jonas's phrasing.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 4,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "…til then the two elements in us are hopelessly mingled I (Zoroastrian?); the whole Gnostic purpose is to unscramble the spiritual (pneuma?) back out - the fallen divine spark imprisoned here in this prison (v. Hans Jonas' article on Gnosticism). (+: \"One by one he draws us out of the world.\") Once the pneuma has been unscrambled back out, it can ascend This whole process is set off by anamnesis The pneuma remembers itself + sa…",
+          "matched_terms": [
+            "Hans Jonas"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_108",
+          "citation": "Pat — April 16, 1981",
+          "date": "April 16, 1981",
+          "slug": "1981-04-16-pat-108"
+        },
+        {
+          "passage_id": 5,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "…ributive punishing world - in my case in the form of the Xerox missive. Valis, then, did not enter my mind; It was my mind! This Gnostic anti-cosmism this o throwing off of the power + reality of world, is, as Hans Jonas says, Faustian. in fact (I think) it is the quintessentle Faustian act/deed: this is what the Faustion in is tually sta te to his lost the identity ut the of heimarmene, the nitributive power of world folder 5…",
+          "matched_terms": [
+            "Hans Jonas"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_141",
+          "citation": "Pat — April 16, 1981",
+          "date": "April 16, 1981",
+          "slug": "1981-04-16-pat-141"
+        },
+        {
+          "passage_id": 6,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "…nity evolved out of Judaism. + this solution nvolves me with the Great 17th century ost-descartes rationalists i.e. Spinoza folder 55 - 192 folder 55 - 192 D-142 my investigation of Faustian striving (seen via Hans Jonas' analysis of Gnosti‐ cism vs the Greek view of the cosmos) has opened up the most extraordinarily fruitful line of thought vis-a-vis my writing + my exegesis (two parts of one whole). Suddenly my own Faustian-…",
+          "matched_terms": [
+            "Hans Jonas"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_146",
+          "citation": "Pat — April 16, 1981",
+          "date": "April 16, 1981",
+          "slug": "1981-04-16-pat-146"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_jonas",
+        "label": "Hans Jonas",
+        "slug": "hans-jonas",
+        "category": "scholar",
+        "tradition": "Scholarship",
+        "greek": null,
+        "gloss": "Author of The Gnostic Religion (1958), the book that made Gnosticism intelligible to non-specialists by reading it existentially — the Gnostic as a self thrown into a hostile world.",
+        "status": "attested",
+        "attestations": {
+          "total": 58,
+          "pkd_text": 26,
+          "editor_annotation": 32,
+          "exegesis": 52,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 6
+        },
+        "by_year": {
+          "1978": 2,
+          "1981": 18
+        },
+        "by_year_rate": {
+          "1978": 0.005,
+          "1981": 0.048
+        },
+        "key_sources": [
+          "The Gnostic Religion (1958)"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_JUNG",
+      "claim_text": "C. G. Jung is attested 181 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "347 in the Exegesis; 11 in the trilogy; 3 in the letters; 6 in secondary literature. Dick's earliest and most persistent route into the material, and the source of his recurrent temptation to relocate the whole cosmology inside the psyche — a move he makes and unmakes repeatedly.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 1,
+      "lane_b_count": 2,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 7,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_007",
+          "doc_title": "Henry",
+          "passage_text": "…ish, etc.), out of Jung's description of the self in the process of psychic integration experiencing noetically these prior consciously arrived at symbols (prior in terms of centuries -- thus his theory of the Collective Unconscious, that such symbols could arise in a modern man who did not know them, who had no way of knowing them -- like me with the Greek. But this is only a beginning; it only shows that the various strata of the past a…",
+          "matched_terms": [
+            "Collective Unconscious"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Henry_02",
+          "citation": "Henry — February 29, 1975",
+          "date": "February 29, 1975",
+          "slug": "u-henry-02"
+        },
+        {
+          "passage_id": 8,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…up through 2000 years of human history-evolution-psychological-growth. Thus a very archaic personality came awake in me, suddenly, which is to say, the adult I had never been in all my life. Buried deep in my collective unconscious all these years, it possessed spiritual and practical wisdom acquired from the archetypes. Therefore I say this new personality or person was created from the deepest levels of my psyche, a child or rather new…",
+          "matched_terms": [
+            "collective unconscious"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_43",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-43"
+        },
+        {
+          "passage_id": 9,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": null,
+          "doc_title": "VALIS, chapter 11",
+          "passage_text": "…a Lampton could turn time back, if necessary; and restore everything to life. I had begun to understand the film. The Rhipidon Society, I realized, fish though it be, is out of its depth. An irruption from the collective unconscious, Jung taught, can wipe out the fragile individual ego. In the depths of the collective the archetypes slumber; if aroused, they can heal or they can destroy. This is the danger of the archetypes; the opposite…",
+          "matched_terms": [
+            "collective unconscious"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "valis_chapter_11_text",
+          "citation": "VALIS, chapter 11 — 1981",
+          "date": "1981",
+          "slug": null
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_jung",
+        "label": "C. G. Jung",
+        "slug": "c-g-jung",
+        "category": "scholar",
+        "tradition": "Depth psychology",
+        "greek": null,
+        "gloss": "Analytical psychologist who read Gnostic and alchemical texts as records of psychic process; author of the Seven Sermons to the Dead, ascribed to Basilides, and of Aion.",
+        "status": "attested",
+        "attestations": {
+          "total": 384,
+          "pkd_text": 181,
+          "editor_annotation": 203,
+          "exegesis": 347,
+          "letters": 3,
+          "valis_trilogy": 11,
+          "scholarship": 6
+        },
+        "by_year": {
+          "1975": 33,
+          "1976": 23,
+          "1978": 50,
+          "1981": 38
+        },
+        "by_year_rate": {
+          "1975": 0.379,
+          "1976": 0.095,
+          "1978": 0.125,
+          "1981": 0.101
+        },
+        "key_sources": [
+          "Seven Sermons to the Dead",
+          "Aion",
+          "Psychology and Alchemy"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_VALENTINUS",
+      "claim_text": "Valentinus is attested 5 times in Dick's own words, 1981-1981.",
+      "evidence_summary": "21 in the Exegesis; 2 in the trilogy. The Gnostic Dick names when he wants the intellectually serious version of the tradition rather than the lurid one.",
+      "confidence": "moderate",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 1,
+      "lane_b_count": 2,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 10,
+          "lane": "A",
+          "source_mode": "fiction",
+          "doc_id": null,
+          "doc_title": "VALIS, chapter 6",
+          "passage_text": "…d sees down from far above and in his pity sets to work to save us. Fragments of light from the Pleroma are—” Staring at him, Maurice said, “Who made up this stuff? You?” “Basically,” Fat said, “my doctrine is Valentinian, second century C.E.” “What’s ‘C.E.’?” “Common Era. The designation replaces A.D. Valentinus’s Gnosticism is the more subtle branch as opposed to the Iranian, which of course was strongly influenced by Zoroast…",
+          "matched_terms": [
+            "Valentinian"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "valis_chapter_6_text",
+          "citation": "VALIS, chapter 6 — 1981",
+          "date": "1981",
+          "slug": null
+        },
+        {
+          "passage_id": 11,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "…2-74 right then + there; the rest is explication of that initial meta-abstraction. Oh Weh! Oihmé! Tracking over + over + never progressing a second toward the Parousia! \"Oh Mensch! Wie kalt ist es --\" It is as Valentinus taught! But a great war took place between the forces of light + darkness (1915-1945) + light won, + now the 5th savior is here, the Maitreya; he has been transplanted + is alive! They broke through into our p…",
+          "matched_terms": [
+            "Valentinus"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_120",
+          "citation": "Pat — April 16, 1981",
+          "date": "April 16, 1981",
+          "slug": "1981-04-16-pat-120"
+        },
+        {
+          "passage_id": 12,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "…2-74 right then + there; the rest is explication of that initial meta-abstraction. Oh Weh! Oihmé! Tracking over + over + never progressing a second toward the Parousia! \"Oh Mensch! Wie kalt ist es --\" It is as Valentinus taught! But a great war took place between the forces of light + darkness (1915-1945) + light won, + now the 5th savior is here, the Maitreya; he has been transplanted + is alive! They broke through into our p…",
+          "matched_terms": [
+            "Valentinus"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_121",
+          "citation": "Pat — April 16, 1981",
+          "date": "April 16, 1981",
+          "slug": "1981-04-16-pat-121"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_valentinus",
+        "label": "Valentinus",
+        "slug": "valentinus",
+        "category": "teacher",
+        "tradition": "Valentinian",
+        "greek": null,
+        "gloss": "Alexandrian teacher active in Rome c. 140 CE, the most sophisticated of the Gnostic theologians; nearly elected bishop of Rome by one report. His school produced the Gospel of Truth and the Tripartite Tractate.",
+        "status": "attested",
+        "attestations": {
+          "total": 23,
+          "pkd_text": 5,
+          "editor_annotation": 18,
+          "exegesis": 21,
+          "letters": 0,
+          "valis_trilogy": 2,
+          "scholarship": 0
+        },
+        "by_year": {
+          "1981": 3
+        },
+        "by_year_rate": {
+          "1981": 0.008
+        },
+        "key_sources": [
+          "Gospel of Truth",
+          "Irenaeus, Against Heresies I"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_IRENAEUS",
+      "claim_text": "Irenaeus is never named in Dick's own words anywhere in the corpus swept.",
+      "evidence_summary": "Zero attestations across 1,104 Exegesis segments, the letters held here and the trilogy chapters. Everything Dick could have known about Valentinus before the Nag Hammadi translations came filtered through a hostile witness. This matters for judging what he actually had access to.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 0,
+      "lane_c_count": 0,
+      "passages": [],
+      "term": {
+        "entry_id": "GNOS_irenaeus",
+        "label": "Irenaeus",
+        "slug": "irenaeus",
+        "category": "heresiologist",
+        "tradition": "Patristic",
+        "greek": null,
+        "gloss": "Bishop of Lyons, c. 180 CE. His Against Heresies is the fullest ancient account of Valentinian myth and, before 1945, the main source for what Gnostics believed — written by an enemy.",
+        "status": "unattested",
+        "attestations": {
+          "total": 0,
+          "pkd_text": 0,
+          "editor_annotation": 0,
+          "exegesis": 0,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {},
+        "by_year_rate": {},
+        "key_sources": [
+          "Against Heresies"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_APOCRYPHON_JOHN",
+      "claim_text": "Apocryphon of John is never named in Dick's own words anywhere in the corpus swept.",
+      "evidence_summary": "Zero attestations across 1,104 Exegesis segments, the letters held here and the trilogy chapters. The single text that most closely matches the myth Dick reconstructs, often without citing it.",
+      "confidence": "strong",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 0,
+      "lane_c_count": 0,
+      "passages": [],
+      "term": {
+        "entry_id": "GNOS_apocryphon_john",
+        "label": "Apocryphon of John",
+        "slug": "apocryphon-of-john",
+        "category": "text",
+        "tradition": "Sethian",
+        "greek": null,
+        "gloss": "The fullest surviving Sethian cosmogony: the Invisible Spirit, Barbelo, Sophia's error, Yaldabaoth's boast, the making of Adam and the descent of Pronoia to wake him.",
+        "status": "unattested",
+        "attestations": {
+          "total": 0,
+          "pkd_text": 0,
+          "editor_annotation": 0,
+          "exegesis": 0,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {},
+        "by_year_rate": {},
+        "key_sources": [
+          "Nag Hammadi Codex II,1"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_CORPUS_HERMETICUM",
+      "claim_text": "Corpus Hermeticum appears only in portal-editor annotation, never in Dick's own words.",
+      "evidence_summary": "2 occurrences in analytical fields, none in his text. Frequently attested in the Exegesis. The Poimandres vision is Dick's nearest ancient parallel for a mind addressing him from outside.",
+      "confidence": "moderate",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 2,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 13,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…facilitated PKD's salvation in 2-3-74 — Torah (Hebrew scripture): identified as the informational substrate of reality, the living blueprint — The Kabbalistic tradition (implied Jewish mysticism references) — Hermetica / Hermetic philosophy (unnamed but referenced throughout) — Vedantic texts (via Sankara references)",
+          "matched_terms": [
+            "Hermetica"
+          ],
+          "claim_type": "attestation",
+          "confidence": "low",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_207",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-207"
+        },
+        {
+          "passage_id": 14,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "Timaeus (Plato; concept of space as ananke) — Hermetic philosophy / Hermetica (the axiom 'micro mirrors macro') — Great Soviet Dictionary (PKD's own reference to his vortex definition) — Gnosticism (cited religious/philosophical parallel) — Taoism (cited for yin/yang framework) — Christ…",
+          "matched_terms": [
+            "Hermetica"
+          ],
+          "claim_type": "attestation",
+          "confidence": "low",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_177",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-177"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_corpus_hermeticum",
+        "label": "Corpus Hermeticum",
+        "slug": "corpus-hermeticum",
+        "category": "text",
+        "tradition": "Hermetic",
+        "greek": null,
+        "gloss": "Seventeen Greek treatises of the second and third centuries CE; the first, Poimandres, narrates a vision in which divine Mind explains the descent of Man into nature.",
+        "status": "annotation_only",
+        "attestations": {
+          "total": 2,
+          "pkd_text": 0,
+          "editor_annotation": 2,
+          "exegesis": 2,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {},
+        "by_year_rate": {},
+        "key_sources": [
+          "Corpus Hermeticum I"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_PAGELS",
+      "claim_text": "Elaine Pagels appears only in portal-editor annotation, never in Dick's own words.",
+      "evidence_summary": "2 occurrences in analytical fields, none in his text. Published late enough to matter only for Dick's last three years, which makes any claim of Pagels influence on the earlier Exegesis a dating error worth checking.",
+      "confidence": "moderate",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 1,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 15,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_016",
+          "doc_title": "Letter",
+          "passage_text": "…— The Pearl Legend / Story of the Pearl: Gnostic archetypal narrative of descent and remembrance; PKD identifies the Golden Fish as a sign like \"the letter in the Story of the Pearl\" — E. of Ph. on Gnosticism (Elaine Pagels' The Gnostic Gospels): quoted on actualization of knowledge in the Ground of Being — EB source material: quoted on Simon Magus as supreme deity, primary function of Gnostic revelation, Simonians, and relation…",
+          "matched_terms": [
+            "Elaine Pagels"
+          ],
+          "claim_type": "attestation",
+          "confidence": "low",
+          "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_15",
+          "citation": "Letter — October 10, 1978",
+          "date": "October 10, 1978",
+          "slug": "1978-10-10-section-016-15"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_pagels",
+        "label": "Elaine Pagels",
+        "slug": "elaine-pagels",
+        "category": "scholar",
+        "tradition": "Scholarship",
+        "greek": null,
+        "gloss": "Author of The Gnostic Gospels (1979), which read the Nag Hammadi texts as evidence of a suppressed pluralism in early Christianity.",
+        "status": "annotation_only",
+        "attestations": {
+          "total": 2,
+          "pkd_text": 0,
+          "editor_annotation": 2,
+          "exegesis": 2,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {},
+        "by_year_rate": {},
+        "key_sources": [
+          "The Gnostic Gospels (1979)"
+        ]
+      }
+    },
+    {
+      "ev_id": "PKT_GNOS_GOSPEL_THOMAS",
+      "claim_text": "Gospel of Thomas is attested 3 times in Dick's own words, 1975-1981.",
+      "evidence_summary": "21 in the Exegesis. The 'Thomas' personality that Dick reports speaking through him invites the connection, and he makes it — though the identification is his own.",
+      "confidence": "moderate",
+      "source_method": "corpus_sweep",
+      "lane_a_count": 0,
+      "lane_b_count": 3,
+      "lane_c_count": 0,
+      "passages": [
+        {
+          "passage_id": 16,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "doc_title": "Dorothy",
+          "passage_text": "…ibit + particula one, + why - ie the forthcoming problem) was at work. of course, I could even reason that the problem itself (the Xerox letter) was to disinhibit (as in that EB article I can't find, about the gospel of Thomas in which a letter from the man's parents comes which reserial, his of who he is + his task here). But the whole way disinhibition began several days before the Xeras letter came + my know ing it was coming put…",
+          "matched_terms": [
+            "gospel of Thomas"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1976-09-15_Dorothy_36",
+          "citation": "Dorothy — September 15, 1976",
+          "date": "September 15, 1976",
+          "slug": "1976-09-15-dorothy-36"
+        },
+        {
+          "passage_id": 17,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_010",
+          "doc_title": "Claudia",
+          "passage_text": "…skin. Inside was outside, the future was controlling the past, the smallest least valuable objects assumed tremendous importance, there was solemn and vital information in near-silence. And then I read in the Gospel of Thomas where Christ says something like, \"The Kingdom will come when the outer is the inner, the bigger the smaller, the man the woman,\" etc., except he says, \"the image the image,\" as if that is the one constant. Ma…",
+          "matched_terms": [
+            "Gospel of Thomas"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_U_Claudia_29",
+          "citation": "Claudia — circa 1975-1976",
+          "date": "circa 1975-1976",
+          "slug": "u-claudia-29"
+        },
+        {
+          "passage_id": 18,
+          "lane": "B",
+          "source_mode": "exegesis",
+          "doc_id": "DOC_EXEG_SECTION_017",
+          "doc_title": "Pat",
+          "passage_text": "…objects + their causal processes- has simply I construed it (correctly been enrormous, yet think) as Christ, some kind of Cosmic Christ, specifically the Logos. This would account for the Gnostic Logia in the Gospel of Thomas, \"break a stick + there am I; left astone + there am 1. the whole set-ground, second signal is visible to the Holy Spirit, not just what is in scripture, but there, too. The Holy Spirit looks at reality + sees…",
+          "matched_terms": [
+            "Gospel of Thomas"
+          ],
+          "claim_type": "attestation",
+          "confidence": "high",
+          "seg_id": "SEG_EXEG_1981-04-16_Pat_79",
+          "citation": "Pat — April 16, 1981",
+          "date": "April 16, 1981",
+          "slug": "1981-04-16-pat-79"
+        }
+      ],
+      "term": {
+        "entry_id": "GNOS_gospel_thomas",
+        "label": "Gospel of Thomas",
+        "slug": "gospel-of-thomas",
+        "category": "text",
+        "tradition": "Gnostic (contested)",
+        "greek": null,
+        "gloss": "114 sayings of Jesus without narrative; found complete at Nag Hammadi. Whether it is Gnostic at all is disputed.",
+        "status": "attested",
+        "attestations": {
+          "total": 21,
+          "pkd_text": 3,
+          "editor_annotation": 18,
+          "exegesis": 21,
+          "letters": 0,
+          "valis_trilogy": 0,
+          "scholarship": 0
+        },
+        "by_year": {
+          "1975": 1,
+          "1976": 1,
+          "1981": 1
+        },
+        "by_year_rate": {
+          "1975": 0.011,
+          "1976": 0.004,
+          "1981": 0.003
+        },
+        "key_sources": [
+          "Nag Hammadi Codex II,2"
+        ]
+      }
+    }
+  ],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [
+    {
+      "term_id": "GNOS_nag_hammadi",
+      "canonical_name": "Nag Hammadi Library",
+      "slug": "nag-hammadi-library",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_jonas",
+      "canonical_name": "Hans Jonas",
+      "slug": "hans-jonas",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_jung",
+      "canonical_name": "C. G. Jung",
+      "slug": "c-g-jung",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_valentinus",
+      "canonical_name": "Valentinus",
+      "slug": "valentinus",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_irenaeus",
+      "canonical_name": "Irenaeus",
+      "slug": "irenaeus",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_apocryphon_john",
+      "canonical_name": "Apocryphon of John",
+      "slug": "apocryphon-of-john",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_corpus_hermeticum",
+      "canonical_name": "Corpus Hermeticum",
+      "slug": "corpus-hermeticum",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_pagels",
+      "canonical_name": "Elaine Pagels",
+      "slug": "elaine-pagels",
+      "relation_type": "primary"
+    },
+    {
+      "term_id": "GNOS_gospel_thomas",
+      "canonical_name": "Gospel of Thomas",
+      "slug": "gospel-of-thomas",
+      "relation_type": "primary"
+    }
+  ],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_GNOS_sophia",
+      "canonical_name": "Sophia and the Fallen Wisdom",
+      "slug": "sophia",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_black_iron_prison",
+      "canonical_name": "The Black Iron Prison",
+      "slug": "black-iron-prison",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_gnosis_and_anamnesis",
+      "canonical_name": "Gnosis and Anamnesis",
+      "slug": "gnosis-and-anamnesis",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_valis_trilogy",
+      "canonical_name": "Gnosticism in the VALIS Trilogy",
+      "slug": "valis-trilogy",
+      "study_id": "gnosticism"
+    },
+    {
+      "topic_id": "TOPIC_GNOS_orthodoxy_and_gnosis",
+      "canonical_name": "Orthodoxy and Gnosis",
+      "slug": "orthodoxy-and-gnosis",
+      "study_id": "gnosticism"
+    }
+  ]
+}
