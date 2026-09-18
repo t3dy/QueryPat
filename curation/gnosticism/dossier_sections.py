@@ -195,7 +195,7 @@ TOPICS = [
             "and God: A Gnostic Reading of Philip K. Dick' (2014) sources Dick's "
             "Gnosticism to \"Hans Jonas's The Gnostic Religion and the Encyclopedia "
             "of Philosophy\". Erik Davis, tracing the Hymn of the Pearl through "
-            "Dick's work, finds it reaching him \"via Encyclopaedia Britannica and "
+            "Dick's work, finds it reaching him \"via Encyclopedia Britannica and "
             "Hans Jonas's Gnostic Religion\". Scholars working from the documents "
             "and a keyword sweep working from the corpus independently identify "
             "reference works and one monograph.\n\n"
@@ -907,7 +907,7 @@ DOSSIER_SECTIONS = {
                 "and God: A Gnostic Reading of Philip K. Dick' (2014) sources Dick's "
                 "Gnosticism to \"Hans Jonas's The Gnostic Religion and the "
                 "Encyclopedia of Philosophy\". Erik Davis, tracing the Hymn of the "
-                "Pearl through the work, finds it reaching Dick \"via Encyclopaedia "
+                "Pearl through the work, finds it reaching Dick \"via Encyclopedia "
                 "Britannica and Hans Jonas's Gnostic Religion\", from a letter of "
                 "February 1975.",
 
@@ -1031,8 +1031,8 @@ DOSSIER_SECTIONS = {
                 "missive, \"who was I, that my brain could be World? Answer: Adam "
                 "Kadmon!\" {{GN-SOPH-14}}. The claim is then generalised into a thesis "
                 "about the whole event: \"There seems to exist no doubt that my 2-3-74 "
-                "experience is the Hermetic + Kaballist goal of becoming Adam Kadmon\" "
-                "{{GN-SOPH-11}}, with a mechanism — the organism \"incorporates reality "
+                "experience is the Hermetic t Kaballist goal of becoming Adam Kadmon\" "
+                "{{GN-SOPH-11}}, with a mechanism — the organism does \"go out + incorporate reality "
                 "so that it is inside him\" {{GN-SOPH-12}}.",
 
                 "Pistis Sophia survives into this folder, but as a state rather than a "
@@ -1091,7 +1091,7 @@ DOSSIER_SECTIONS = {
             'body': [
                 "The idea arrives before the phrase, and it arrives as a quotation. In "
                 "the November 1975 folder Dick copies out a definition: \"Gnosticism: "
-                "'The true purpose of Gnostic revelation was to free spiritual man from "
+                "'The true purpose of Gnostic develation was to free spiritual man from "
                 "astral determinism'\" {{GN-BIP-03}}. The quotation marks and the "
                 "encyclopedic phrasing both point where the rest of this study points — "
                 "to a reference work rather than a primary text.",
@@ -1140,7 +1140,7 @@ DOSSIER_SECTIONS = {
                 "The Palm Tree Garden is usually read as Dick's escape hatch — the same "
                 "world correctly perceived, the Gnostic diagnosis withdrawn. He does "
                 "write it that way: \"my vision of the palm tree garden is the final and "
-                "true vision of the Peaceable Kingdom\" {{GN-BIP-04}}, and elsewhere the "
+                "true vision of the Peacable Kingdom\" {{GN-BIP-04}}, and elsewhere the "
                 "Paraclete leads him through to it {{GN-BIP-07}}.",
 
                 "But in the same folder he settles the question against himself, and the "
@@ -1163,7 +1163,7 @@ DOSSIER_SECTIONS = {
             'body': [
                 "The formula that carries all of this into the fiction is in the "
                 "Exegesis years before the novel. By the 1978 folder it is a settled "
-                "phrase, used as shorthand — the enemy \"has yet to be overthrown ('the "
+                "phrase, used as shorthand — the enemy \"it his yet to be overthrown ('the "
                 "empire never ended')\" {{GN-BIP-15}} — and Dick notes that he had "
                 "already put it in print: the state is \"clearly articulated in 'Tears'\" "
                 "{{GN-BIP-16}}, that is, in Flow My Tears, the Policeman Said, published "
@@ -1222,8 +1222,8 @@ DOSSIER_SECTIONS = {
                 "Gnostic language; when he reasons, he uses Greek.",
 
                 "The clearest statement of the method is his own: what he saw was "
-                "\"exactly commensurate with the Platonist and Neoplatonism (and "
-                "Pythagorean) idea of rising each time, rising but forgetting, and the "
+                "\"exactly understood commensurate with the Platonist and Neoplatonism (and "
+                "Pythagorian) idea of rising each time, rising but forgetting, and the "
                 "value of anamnesis, the removal of amnesis\" {{GN-GNOS-06}}. Note "
                 "that the definition is etymological — anamnesis as the removal of "
                 "amnesia — and that he treats it as a technical term with a literature "
@@ -1516,7 +1516,7 @@ DOSSIER_SECTIONS = {
                 "escaping it — \"doing the tinkering, producing one alternate world after "
                 "another\", associated with \"the true, secret Xtian church\" "
                 "{{GN-ORTH-11}} — and the Palm Tree Garden is named as \"the final and true "
-                "vision of the Peaceable Kingdom\" {{GN-ORTH-09}}, which is Isaiah, not "
+                "vision of the Peacable Kingdom\" {{GN-ORTH-09}}, which is Isaiah, not "
                 "Valentinus.",
 
                 "Dick even polices the boundary of his own experience: if the intruding "
@@ -1535,7 +1535,7 @@ DOSSIER_SECTIONS = {
                 "only appeared to have a body and only appeared to suffer — is the "
                 "position the tradition needs, because flesh is the problem. Dick rejects "
                 "it explicitly: \"it is indeed bait but the lamb does die: he is endlessly "
-                "slaughtered. I am therefore not a docetist; Christ actually suffers + dies "
+                "slaughtered … I am therefore not a docetist; Christ actually suffers + dies "
                 "as our ransom\" {{GN-ORTH-14}}.",
 
                 "This is the sharpest sentence in the whole study for the question of what "
@@ -1547,7 +1547,7 @@ DOSSIER_SECTIONS = {
                 "problem — one that \"abolishes the issue of God the creator + God as "
                 "transmundane in contradistinction to a blind demiurge creator, + abolishes "
                 "the issue of Gnosis versus justification — as well as abolishing the "
-                "docetist controversy\" {{GN-ORTH-15}}. He wants the contradiction to stop "
+                "docetist contraversy\" {{GN-ORTH-15}}. He wants the contradiction to stop "
                 "being a contradiction. Wanting that is not the same as finding it.",
             ],
         },

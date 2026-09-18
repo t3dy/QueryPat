@@ -97,6 +97,59 @@ def group_cards(cards):
 
 CITE_RE = re.compile(r'\{\{([A-Za-z0-9-]+)\}\}')
 
+# Quotations of this length or more are machine-checked against the corpus on
+# every build, the way the Burroughs dossier checks its own. Shorter fragments
+# are too common to verify usefully.
+MIN_VERIFIED_QUOTE = 40
+
+
+def quoted_spans(text):
+    """The quoted runs in a paragraph.
+
+    Straight quotes open and close alike, so the quoted runs are the odd
+    segments of a split. Matching a regex across a pair would capture the
+    narration between two quotations instead.
+    """
+    parts = text.split('"')
+    return [parts[i] for i in range(1, len(parts), 2)]
+
+
+def normalise(text):
+    """Fold typography, not words.
+
+    The transcription varies in quote style, dashes, soft hyphens, spacing and
+    case; none of that is a difference in what Dick wrote. Anything else is.
+    """
+    t = text.lower()
+    t = t.replace('\u2019', "'").replace('\u2018', "'")
+    t = t.replace('\u201c', '"').replace('\u201d', '"')
+    t = t.replace('\u2014', '-').replace('\u2013', '-').replace('\u2011', '-')
+    t = t.replace('\u00ad', '').replace('\u2010', '-')
+    # A word broken across a line: "demi- urge" is "demiurge", not two words.
+    t = re.sub(r'(\w)[-\u2010\u2011]\s+(\w)', r'\1\2', t)
+    t = re.sub(r'[^a-z0-9]+', ' ', t)
+    return re.sub(r'\s+', ' ', t).strip()
+
+
+def verify_quotations(sections, haystack):
+    """Return the quotations in these sections that are not in the corpus."""
+    missing = []
+    for sec in sections:
+        for para in sec['body']:
+            # Strip citation markers first; they are not part of the quotation.
+            clean = CITE_RE.sub('', para)
+            for raw_quote in quoted_spans(clean):
+                if len(raw_quote) < MIN_VERIFIED_QUOTE:
+                    continue
+                quote = raw_quote.strip(' .,;')
+                # Ellipses mark an elision, so check the parts either side.
+                parts = [q for q in re.split(r'\s*[.]{3}|\s*\u2026\s*', quote)
+                         if len(q.strip()) >= 25]
+                for part in (parts or [quote]):
+                    if normalise(part) not in haystack:
+                        missing.append((sec['id'], part[:90]))
+    return missing
+
 
 def check_citations(slug, sections, cards):
     """Every {{marker}} must resolve to a card on this same topic."""
@@ -245,8 +298,18 @@ def main():
         for sec_id, marker in check_citations(
                 t['slug'], secs, cards_by_topic.get(t['slug'], [])):
             failures.append(f"{t['slug']}/{sec_id}: {{{{{marker}}}}}")
+    # Every long quotation in the prose must appear verbatim in the corpus.
+    haystack = normalise(' '.join(
+        h['context'] for h in raw['attestations']))
+    for t in prose.TOPICS:
+        secs = getattr(prose, 'DOSSIER_SECTIONS', {}).get(t['slug']) or []
+        for sec_id, quote in verify_quotations(secs, haystack):
+            failures.append(f"{t['slug']}/{sec_id}: unverified quotation \u2014 "
+                            f"\"{quote}\"")
+
     if failures:
-        print('ERROR: unresolved citation markers:', file=sys.stderr)
+        print('ERROR: unresolved citation markers or unverified quotations:',
+              file=sys.stderr)
         for f in failures:
             print('  ' + f, file=sys.stderr)
         return 1
