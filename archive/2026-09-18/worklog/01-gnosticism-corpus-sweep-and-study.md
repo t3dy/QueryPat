@@ -96,6 +96,48 @@ of the Pearl, and Laurie Jui-hua Tseng on the trilogy's literary theology.
   Simon Magus who founded Gnosticism" (October 10, 1978).
 - **(B)** Christian vocabulary outweighs Gnostic vocabulary in every folder
   (2.253 against 0.31 in 1975; still 0.533 against 0.709 in 1981).
+- **(A)** **Dick's most-cited source is an encyclopedia.** He names the
+  Encyclopaedia Britannica — "the EB" — and the Encyclopedia of Philosophy 128
+  times in his own words, more than Hans Jonas, Nag Hammadi and every named
+  Gnostic teacher combined. He argues with its articles rather than checking
+  facts in it: "The Britannica says that it is an unusual book in that it
+  presents wisdom as personified, i.e. as Lady Wisdom" (September 17, 1975);
+  "(I learned this from the Britannica)" on the archaic form of the sacraments
+  (September 15, 1976). This entry did not exist in the first sweep and was
+  added after the mention cards surfaced it.
+- **(A)** In September 1976 he reasons from "that EB article I can't find, about
+  the gospel of Thomas in which a letter from the man's parents comes" and
+  reminds the recipient "of who he is + his task here" — that is the Hymn of the
+  Pearl, which is in the Acts of Thomas, not the Gospel. He is working from
+  memory of an encyclopedia entry, and the misattribution is the evidence.
+- **(A)** Dick calls Jonas's text an **article**, not a book, and in April 1981
+  resolves to "reread Hans Jonas' article on Gnosticism". Jonas wrote the
+  Gnosticism entry for the Encyclopedia of Philosophy.
+- **(A)** He read the Nag Hammadi codices by October 1978 and used them to
+  re-read his own fiction: "It is obvious to me after reading in the Nag Hammadi
+  codices that Palmer Eldritch is beyond doubt Yaltabaoth" — of a novel
+  published in 1965.
+- **(A)** In April 1981, in one folder, he both claims the label — "It is as
+  Valentinus taught!", "my book 'Valis' is Gnostic + the explanation is Gnostic"
+  — and rejects the Gnostic Christology: "I am therefore not a docetist; Christ
+  actually suffers + dies as our ransom."
+- **(A)** He settles the Black Iron Prison / Palm Tree Garden question against
+  himself, in a sentence rarely quoted: "The BIP + PTG are both very real, + are
+  antithetical alternatives, with the BIP obtaining, due to the artifact's
+  control of this, its world (yaltabaoth)."
+- **(A)** The Sethian myth is written out in September 1976, two years before he
+  reports reading the codices: the feminine half of the Urgrund "does not
+  herself directly enter our world but is separated from it (us) by her
+  offspring the artifact (yaldabaoth)".
+- **(A)** He distinguishes the traditions accurately and says it matters to him:
+  "Here would be the crucial distinction between Neoplatonism and Gnosticism,
+  which I feel so strongly about: the former is sort of self-fertilizing … but
+  in Gnosticism you have the idea that the Savior is absolutely necessary."
+- **(A)** Sophia and his private coinage are identified outright: "Just to spell
+  it out: 'Santa Sophia' and 'Firebright' are one and the same."
+- **(B)** A pattern fault found via the cards: Dick spells the demiurge
+  **Yaltabaoth** as often as Yaldabaoth (16 and 16). The original pattern missed
+  half the occurrences; corrected, the count went from 19 to 30.
 - **(C)** J. K. Thomas (2014) sources Dick's Gnosticism to "Hans Jonas's The
   Gnostic Religion and the Encyclopedia of Philosophy"; Erik Davis traces the
   Hymn of the Pearl to him "via Encyclopaedia Britannica and Hans Jonas's
@@ -170,11 +212,32 @@ Preserved, not resolved:
   fault in `site/public/data`, which this project forbids editing directly, and
   repairing them is outside this brief. Flagged instead.
 
+## Second pass: the essays
+
+The first pass produced a register and topic pages. The second added what the
+Burroughs page has and these lacked: a real essay per topic, with the mention
+data inside the argument rather than beside it.
+
+- 96 mention cards, 16 per topic, selected from the sweep by round-robin across
+  each topic's terms — ranking alone clustered every card on whichever term sat
+  in the longest passages (the Sophia page came back 12/16 Adam Kadmon).
+- 35 essay sections across the six topics, each with its evidentiary register,
+  citing 76 cards inline with `{{card-id}}` markers.
+- `build_gnosticism_study.py` now refuses to build on an unresolved marker. It
+  caught one on the first run — a Sophia section citing a card belonging to the
+  trilogy page — which is exactly the failure it exists to prevent.
+- `MentionCards.tsx` had the Burroughs groups hardcoded; grouping is now driven
+  by `card.group_key` with the old groups kept as the fallback, so the Burroughs
+  page renders identically (verified: 72 citations, 64 cards, its own seven
+  group labels).
+- Card summaries are marked `derived` on the page where a script wrote them
+  rather than an editor, so the two can never be confused.
+
 ## Files changed
 
 Curation (new):
 - `curation/gnosticism/README.md`, `lexicon.json`, `raw-findings.json`,
-  `register.json`, `dossier_sections.py`, `dossier.json`
+  `register.json`, `dossier_sections.py`, `mention_cards.py`, `dossier.json`
 
 Scripts (new):
 - `scripts/research/gnostic_lexicon_source.py`
@@ -192,7 +255,9 @@ Site (new):
 
 Site (modified):
 - `site/src/App.tsx` — route; `site/src/components/Layout.tsx` — nav;
-  `site/src/App.css` — register styles
+  `site/src/App.css` — register and card styles
+- `site/src/components/studies/MentionCards.tsx` — grouping made data-driven
+- `site/src/pages/TopicDetail.tsx` — passes groups and wording through
 - `site/public/data/studies/index.json` — study registered
 - `site/public/data/search_index.json` — 6 topics + 111 terms
 
@@ -201,9 +266,12 @@ Site (modified):
 - `python scripts/safeguard/check_data_diff.py --worktree` → "2 data file(s)
   changed, no content lost."
 - `npm run build --prefix site` → tsc + vite clean.
-- Rendered all four routes in headless Chromium: lexicon (111 rows), study
-  index, topic detail, studies index. No console errors beyond a pre-existing
-  `/vite.svg` favicon 404.
+- Rendered in headless Chromium: lexicon (112 rows), study index, studies
+  index, and topic pages. `what-dick-actually-read` renders 7 sections, 16
+  citations, 16 cards in 7 groups; `orthodoxy-and-gnosis` 6/14/16. Clicking a
+  citation scrolls to its card and flashes it. The Burroughs page is unchanged
+  (72 citations, 64 cards, 7 groups, 14 sections). No console errors beyond a
+  pre-existing `/vite.svg` favicon 404.
 - `build_gnosticism_study.py` re-run twice: search index stable at 111 + 6, no
   duplicates.
 - `seed_gnosticism.py --check` → 6 topics, 49 packets, 127 passages. The

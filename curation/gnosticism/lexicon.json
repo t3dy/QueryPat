@@ -1,7 +1,7 @@
 {
   "artifact_type": "gnostic_lexicon",
   "generator": "scripts/research/gnostic_lexicon_source.py",
-  "entry_count": 111,
+  "entry_count": 112,
   "categories": [
     "concept",
     "heresiologist",
@@ -203,9 +203,10 @@
       "gloss": "The name of the Demiurge in Sethian myth — Sophia's misbegotten son, a lion-faced serpent who declares 'I am God and there is no other beside me' in ignorance of the Pleroma above him.",
       "why_pkd": "Dick's blind, boastful creator-tyrant. The blasphemous declaration is the line he returns to when reading the God of the Old Testament against the God he believes met him.",
       "patterns": [
-        "\\bYaldabaoth\\b",
-        "\\bIaldabaoth\\b",
-        "\\bJaldabaoth\\b"
+        "\\bYal[dt]a[bv]a?oth\\b",
+        "\\bIal[dt]abaoth\\b",
+        "\\bJal[dt]abaoth\\b",
+        "\\bYaltabaoth\\b"
       ],
       "exclude": [],
       "key_sources": [
@@ -1236,6 +1237,29 @@
       "exclude": [],
       "key_sources": [
         "Corpus Hermeticum I"
+      ]
+    },
+    {
+      "id": "GNOS_reference_works",
+      "label": "Encyclopaedia Britannica / Encyclopedia of Philosophy",
+      "category": "text",
+      "tradition": "Reference works",
+      "greek": null,
+      "gloss": "General reference: the Encyclopaedia Britannica, which Dick calls \"the EB\" and whose long signed \"macro\" articles he read as monographs, and the Encyclopedia of Philosophy, whose article on Gnosticism was written by Hans Jonas.",
+      "why_pkd": "The most consequential source in the register, and the one no reading list has. Dick names the EB more often than he names any Gnostic text, teacher or scholar, and cites it as an authority on Luther, Dionysos, pantheism, the nature of time and the \"ape of God\" theory of the counterfeit world. When he says in 1981 that he has \"reread Hans Jonas' article on Gnosticism\", article is the operative word.",
+      "patterns": [
+        "\\bthe EB\\b",
+        "\\bEB macro\\b",
+        "\\bEB article\\b",
+        "\\bBritannica\\b",
+        "\\bEncyclopa?edia Britannica\\b",
+        "\\bEncyclopa?edia of Philosophy\\b",
+        "\\bmacro article\\b"
+      ],
+      "exclude": [],
+      "key_sources": [
+        "Encyclopaedia Britannica",
+        "Encyclopedia of Philosophy"
       ]
     },
     {

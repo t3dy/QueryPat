@@ -18,7 +18,7 @@
     "1975": 87
   },
   "chronology_caveat": "Exegesis dates are folder dates: every segment in a transcription batch inherits one date, and the four batches differ in size. Compare by_year_rate (hits per segment), not by_year.",
-  "entry_count": 111,
+  "entry_count": 112,
   "by_category": {
     "pkd_coinage": 11,
     "tradition": 8,
@@ -26,10 +26,10 @@
     "concept": 34,
     "teacher": 12,
     "scholar": 17,
-    "text": 19
+    "text": 20
   },
   "by_status": {
-    "attested": 75,
+    "attested": 76,
     "unattested": 30,
     "annotation_only": 6
   },
@@ -2163,6 +2163,80 @@
       ]
     },
     {
+      "entry_id": "GNOS_reference_works",
+      "label": "Encyclopaedia Britannica / Encyclopedia of Philosophy",
+      "slug": "encyclopaedia-britannica-encyclopedia-of-philosophy",
+      "category": "text",
+      "tradition": "Reference works",
+      "greek": null,
+      "gloss": "General reference: the Encyclopaedia Britannica, which Dick calls \"the EB\" and whose long signed \"macro\" articles he read as monographs, and the Encyclopedia of Philosophy, whose article on Gnosticism was written by Hans Jonas.",
+      "why_pkd": "The most consequential source in the register, and the one no reading list has. Dick names the EB more often than he names any Gnostic text, teacher or scholar, and cites it as an authority on Luther, Dionysos, pantheism, the nature of time and the \"ape of God\" theory of the counterfeit world. When he says in 1981 that he has \"reread Hans Jonas' article on Gnosticism\", article is the operative word.",
+      "key_sources": [
+        "Encyclopaedia Britannica",
+        "Encyclopedia of Philosophy"
+      ],
+      "status": "attested",
+      "attestations": {
+        "total": 313,
+        "pkd_text": 128,
+        "editor_annotation": 185,
+        "exegesis": 305,
+        "letters": 0,
+        "valis_trilogy": 1,
+        "scholarship": 7
+      },
+      "first_attested": "1975",
+      "last_attested": "1981",
+      "peak_year": "1976",
+      "by_year": {
+        "1975": 18,
+        "1976": 46,
+        "1978": 44,
+        "1981": 12
+      },
+      "by_year_rate": {
+        "1975": 0.207,
+        "1976": 0.189,
+        "1978": 0.11,
+        "1981": 0.032
+      },
+      "exemplars": [
+        {
+          "corpus": "valis_trilogy",
+          "lane": "A",
+          "source_id": "valis_chapter_8_text",
+          "doc_id": null,
+          "slug": null,
+          "title": "VALIS, chapter 8",
+          "date_display": "1981",
+          "matched": "Encyclopedia of Philosophy",
+          "passage": "…iety of the myth, he is in a sense identical with those he calls—the once lost parts of the divine self—give rise to the moving idea of the ‘saved savior’ _(salvator salvandus)._ ” My source is reputable: _The Encyclopedia of Philosophy,_ Macmillan Publishing Company, New York, 1967; in the article on “Gnosticism.” I am trying to see how this applies to Fat. What is this “pity’s highest power”? In what way does pity have the power to heal a w…"
+        },
+        {
+          "corpus": "exegesis",
+          "lane": "B",
+          "source_id": "SEG_EXEG_1975-11-05_SECTION_013_17",
+          "doc_id": "DOC_EXEG_SECTION_013",
+          "slug": "1975-11-05-section-013-17",
+          "title": "Letter",
+          "date_display": "November 5, 1975",
+          "matched": "encyclopedia of philosophy",
+          "passage": "…--- -1- AFTERWORD What I have been drawn more L more to in my exegesis is the realization that linear time is somehow not real; which is to say, the changes in it (time as a reality is debatable, but as the k? encyclopedia of philosophy says, \"change is real\") are somehow not real. I am not back in Biblical times, but somehow John & Daniel & I found ourselves in the same reality or time frame, an eternal unchanging world above & beyond time.…"
+        },
+        {
+          "corpus": "exegesis",
+          "lane": "B",
+          "source_id": "SEG_EXEG_1975-09-17_Doris_01",
+          "doc_id": "DOC_EXEG_SECTION_011",
+          "slug": "1975-09-17-doris-01",
+          "title": "Doris",
+          "date_display": "September 17, 1975",
+          "matched": "Britannica",
+          "passage": "…eek thought converged, not in an idea, but in a man. Well, dear, I hope you get some comfort from what I've quoted. I have been reading the \"Wisdom of Solomon\" again and again, and getting a lot out of it. The Britannica says that it is an unusual book in that it presents wisdom as personified, i.e. as Lady Wisdom. It is obvious, from a reading of the book, that Philo was right to connect her/it/him with the Logos, but how int…"
+        }
+      ]
+    },
+    {
       "entry_id": "GNOS_philo",
       "label": "Philo of Alexandria",
       "slug": "philo-of-alexandria",
@@ -3176,6 +3250,78 @@
       ]
     },
     {
+      "entry_id": "GNOS_yaldabaoth",
+      "label": "Yaldabaoth",
+      "slug": "yaldabaoth",
+      "category": "concept",
+      "tradition": "Sethian",
+      "greek": null,
+      "gloss": "The name of the Demiurge in Sethian myth — Sophia's misbegotten son, a lion-faced serpent who declares 'I am God and there is no other beside me' in ignorance of the Pleroma above him.",
+      "why_pkd": "Dick's blind, boastful creator-tyrant. The blasphemous declaration is the line he returns to when reading the God of the Old Testament against the God he believes met him.",
+      "key_sources": [
+        "Apocryphon of John",
+        "On the Origin of the World"
+      ],
+      "status": "attested",
+      "attestations": {
+        "total": 118,
+        "pkd_text": 30,
+        "editor_annotation": 88,
+        "exegesis": 118,
+        "letters": 0,
+        "valis_trilogy": 0,
+        "scholarship": 0
+      },
+      "first_attested": "1976",
+      "last_attested": "1981",
+      "peak_year": "1976",
+      "by_year": {
+        "1976": 14,
+        "1978": 5,
+        "1981": 11
+      },
+      "by_year_rate": {
+        "1976": 0.058,
+        "1978": 0.013,
+        "1981": 0.029
+      },
+      "exemplars": [
+        {
+          "corpus": "exegesis",
+          "lane": "B",
+          "source_id": "SEG_EXEG_1976-09-15_Dorothy_136",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "slug": "1976-09-15-dorothy-136",
+          "title": "Dorothy",
+          "date_display": "September 15, 1976",
+          "matched": "yaldabaoth",
+          "passage": "…ion at the lowest stratum by the yang part of the urground. It is crucial that the yin part of the urgrund does not herself directly enter our world but is separated from it (us) by her offspring the artifact (yaldabaoth). Whereas the yang part does not create our world - as does Sophia through her progeny, the artifact - but does enter it directly. So this is why the ground is artifact-produced, + the set projected onto it by…"
+        },
+        {
+          "corpus": "exegesis",
+          "lane": "B",
+          "source_id": "SEG_EXEG_1976-09-15_Dorothy_138",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "slug": "1976-09-15-dorothy-138",
+          "title": "Dorothy",
+          "date_display": "September 15, 1976",
+          "matched": "yaltabaoth",
+          "passage": "…st be careful to distinguish the BIP + PTG from the irreal hologram. The BIP + PTG are both very real, + are antithetical alternatives, with the BIP obtaining, due to the artifact's control of this, its world (yaltabaoth). I seem to have been languishing in a great state of confusion, not distinguishing the hologram from the BIP. The BIP, \"Rome,\" is the real adversary. It does however appear in attenuated pluriforms again + ag…"
+        },
+        {
+          "corpus": "exegesis",
+          "lane": "B",
+          "source_id": "SEG_EXEG_1976-09-15_Dorothy_207",
+          "doc_id": "DOC_EXEG_SECTION_015",
+          "slug": "1976-09-15-dorothy-207",
+          "title": "Dorothy",
+          "date_display": "September 15, 1976",
+          "matched": "Yaltabaoth",
+          "passage": "…manent nature of the Acts or Roman (BIP) world. We're stuck, despite the illusion of time + change, + this \"mentally ill\" idea fits in with my vision of James-James. Also, it fits in with the gnostic notion of Yaltabaoth. Then the \"hostile particle\" is not from outside the unitary macro entity (how could it be?) but is a subsection that has died, fallen ill, gone mad or levelled - become pathogenic, + so phagocytosis is in pro…"
+        }
+      ]
+    },
+    {
       "entry_id": "GNOS_deus_absconditus",
       "label": "Deus absconditus",
       "slug": "deus-absconditus",
@@ -3600,78 +3746,6 @@
           "date_display": "September 15, 1976",
           "matched": "archons",
           "passage": "…rming God seems to be the denial of the world. (Or: the road to affirming the true God stems from the initial denying of the world.) The Ramparts thing -- that was a direct disavowal of the power of the warden-archons, perhaps. I wonder if this sheds any light on the mysterious Xerox missive. What I did was act as mere transfer agent between it and the bureau. Or rather between its sender and the bureau. I did nothing but _…"
-        }
-      ]
-    },
-    {
-      "entry_id": "GNOS_yaldabaoth",
-      "label": "Yaldabaoth",
-      "slug": "yaldabaoth",
-      "category": "concept",
-      "tradition": "Sethian",
-      "greek": null,
-      "gloss": "The name of the Demiurge in Sethian myth — Sophia's misbegotten son, a lion-faced serpent who declares 'I am God and there is no other beside me' in ignorance of the Pleroma above him.",
-      "why_pkd": "Dick's blind, boastful creator-tyrant. The blasphemous declaration is the line he returns to when reading the God of the Old Testament against the God he believes met him.",
-      "key_sources": [
-        "Apocryphon of John",
-        "On the Origin of the World"
-      ],
-      "status": "attested",
-      "attestations": {
-        "total": 82,
-        "pkd_text": 19,
-        "editor_annotation": 63,
-        "exegesis": 82,
-        "letters": 0,
-        "valis_trilogy": 0,
-        "scholarship": 0
-      },
-      "first_attested": "1976",
-      "last_attested": "1981",
-      "peak_year": "1981",
-      "by_year": {
-        "1976": 4,
-        "1978": 4,
-        "1981": 11
-      },
-      "by_year_rate": {
-        "1976": 0.016,
-        "1978": 0.01,
-        "1981": 0.029
-      },
-      "exemplars": [
-        {
-          "corpus": "exegesis",
-          "lane": "B",
-          "source_id": "SEG_EXEG_1976-09-15_Dorothy_136",
-          "doc_id": "DOC_EXEG_SECTION_015",
-          "slug": "1976-09-15-dorothy-136",
-          "title": "Dorothy",
-          "date_display": "September 15, 1976",
-          "matched": "yaldabaoth",
-          "passage": "…ion at the lowest stratum by the yang part of the urground. It is crucial that the yin part of the urgrund does not herself directly enter our world but is separated from it (us) by her offspring the artifact (yaldabaoth). Whereas the yang part does not create our world - as does Sophia through her progeny, the artifact - but does enter it directly. So this is why the ground is artifact-produced, + the set projected onto it by…"
-        },
-        {
-          "corpus": "exegesis",
-          "lane": "B",
-          "source_id": "SEG_EXEG_1976-09-15_Dorothy_229",
-          "doc_id": "DOC_EXEG_SECTION_015",
-          "slug": "1976-09-15-dorothy-229",
-          "title": "Dorothy",
-          "date_display": "September 15, 1976",
-          "matched": "Yaldabaoth",
-          "passage": "…ble (v. \"Scanner.\"). Further, that we are occluded will be a fact occluded off from us, which is the core-insight in \"Scanner.\" + why \"Scanner\" is so valuable in the presentation of our total actual situation. Yaldabaoth is the quasi-mind of the maze, not its creator - since in fact it does not really exist; it is a condition or state we've been put in, not a world or place at all; all it really consists of is info fired by th…"
-        },
-        {
-          "corpus": "exegesis",
-          "lane": "B",
-          "source_id": "SEG_EXEG_1978-10-10_SECTION_016_202",
-          "doc_id": "DOC_EXEG_SECTION_016",
-          "slug": "1978-10-10-section-016-202",
-          "title": "Letter",
-          "date_display": "October 10, 1978",
-          "matched": "Yaldabaoth",
-          "passage": "…005 folder 49 - 005 system the original creation employs to govern our reality - the occlusion. The twin synchronized tapes; this is expressed by & through the DNA, & programmed, \"android\" lives. This would be Yaldabaoth. The system works to some extent, but we are not fully alive, not fully born, & doomed to scripted death (\"your ancestors ate manna in the wilderness & they are all dead.\" This doesn't sound as if Jesus speaks…"
         }
       ]
     },

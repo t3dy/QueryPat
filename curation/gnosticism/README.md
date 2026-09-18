@@ -12,7 +12,8 @@ here; a regeneration can rebuild every page from this directory alone.
 | `lexicon.json` | The register of 111 Gnostic terms, teachers, texts, traditions and modern scholars. Hand-authored, emitted from `scripts/research/gnostic_lexicon_source.py`. |
 | `raw-findings.json` | Machine output of the corpus sweep. Regenerable, not hand-edited. |
 | `register.json` | `lexicon.json` joined to its attestations: counts, chronology, exemplar passages. |
-| `dossier_sections.py` | The editorial prose, topic by topic. Hand-authored; the thing to edit. |
+| `dossier_sections.py` | The editorial prose, topic by topic, plus `DOSSIER_SECTIONS` — the essays, with `{{card-id}}` citations. Hand-authored; the thing to edit. |
+| `mention_cards.py` | Selects and builds the per-topic mention cards from the sweep. |
 | `dossier.json` | The assembled artifact the seeder writes into the database. |
 
 ## Rebuilding
@@ -26,6 +27,37 @@ python scripts/research/sweep_gnosticism.py --summary # 2. raw-findings.json
 python scripts/research/build_gnostic_register.py    # 3. register.json
 python scripts/studies/build_gnosticism_study.py     # 4. dossier.json + site JSON
 ```
+
+To see the card pool on its own, which is what you want when writing or
+revising an essay:
+
+```bash
+python curation/gnosticism/mention_cards.py
+```
+
+## The essays and their citations
+
+`DOSSIER_SECTIONS` in `dossier_sections.py` holds one essay per topic, each
+section carrying its evidentiary register. Prose cites a passage with a
+`{{GN-XXX-NN}}` marker, which the site renders as a superscript link that jumps
+to that card and flashes it.
+
+**Step 4 refuses to build if a marker does not resolve to a card on the same
+topic.** A citation cannot go stale silently: change the selection, and the
+build fails and names the section and the marker. Cards are numbered in date
+order within a topic, so editing selection renumbers them — re-run
+`mention_cards.py`, check the ids, then fix the prose.
+
+Markers are topic-local. To point at a passage held by another topic, quote it
+and name the page in prose instead.
+
+### Card summaries: written or derived
+
+Each card carries a `context` line. Where `CARD_CONTEXT` in `mention_cards.py`
+supplies one it is used verbatim; otherwise a factual line is generated from the
+sweep and the card is flagged `context_derived`, which the site shows as
+*· derived*. The two are never silently mixed, so a reader can always tell
+whether an editor wrote a sentence or a script did.
 
 Step 4 writes `site/public/data/studies/gnosticism/` and adds the study to
 `studies/index.json` and `search_index.json` directly, and is idempotent — it
@@ -122,6 +154,19 @@ Pattern work is editorial. Two corrections are already baked into
 - **Plato** originally matched `Parmenides`, conflating the dialogue with the
   Presocratic. Parmenides is now a separate entry, which is the better reading
   anyway: Dick's interest is in Eleatic monism, not in Plato's dialogue.
+- **Yaldabaoth** originally missed `Yaltabaoth`, which is how Dick spells it
+  roughly half the time (16 occurrences against 16). The pattern now covers both
+  and the count rose from 19 to 30. Worth remembering when adding any entry: the
+  transcription follows Dick's spelling, not an editor's.
+
+## A source the reading lists do not have
+
+The `GNOS_reference_works` entry was added after the first sweep, when the
+mention cards showed Dick citing "the EB" and "that EB article I can't find".
+The Encyclopaedia Britannica and the Encyclopedia of Philosophy are attested 128
+times in his own words — more than Hans Jonas, Nag Hammadi and every named
+Gnostic teacher combined. Any future work on Dick's sources should treat the
+encyclopedia as a primary channel rather than a curiosity.
 
 The `Sophia` pattern deliberately matches Hagia Sophia and St Sophia as well as
 the aeon, because Dick's own usage runs the three together and separating them

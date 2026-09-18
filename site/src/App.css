@@ -2291,3 +2291,11 @@ a.cm-chip-link:hover {
   .gl-row td:last-child { padding-bottom: 0.6rem; }
   .gl-detail { padding-left: 1rem; }
 }
+
+/* Machine-derived card summary, marked so it is never read as editorial. */
+.mention-card-derived {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: italic;
+  white-space: nowrap;
+}

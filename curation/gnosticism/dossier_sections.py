@@ -127,10 +127,11 @@ TOPICS = [
             "Dick uses Gnostic concepts constantly and names the Gnostic texts "
             "almost never. The sweep puts numbers to the gap."
         ),
-        'lexicon_focus': ['GNOS_nag_hammadi', 'GNOS_jonas', 'GNOS_jung',
-                          'GNOS_valentinus', 'GNOS_irenaeus',
-                          'GNOS_apocryphon_john', 'GNOS_corpus_hermeticum',
-                          'GNOS_pagels', 'GNOS_gospel_thomas'],
+        'lexicon_focus': ['GNOS_reference_works', 'GNOS_nag_hammadi',
+                          'GNOS_jonas', 'GNOS_jung', 'GNOS_valentinus',
+                          'GNOS_irenaeus', 'GNOS_apocryphon_john',
+                          'GNOS_corpus_hermeticum', 'GNOS_pagels',
+                          'GNOS_gospel_thomas'],
         'definition': (
             "The question of transmission: by what route did late-antique Gnostic "
             "ideas reach a science-fiction writer in Santa Ana, and how much of "
@@ -543,6 +544,8 @@ TOPICS = [
     {
         'slug': 'valis-trilogy',
         'canonical_name': 'Gnosticism in the VALIS Trilogy',
+        'corpus_preference': ['valis_trilogy', 'exegesis',
+                              'valis_trilogy_summaries', 'letters'],
         'priority': 8,
         'status': 'reviewed',
         'card_description': (
@@ -729,3 +732,846 @@ TOPICS = [
         ),
     },
 ]
+
+
+# ---------------------------------------------------------------------------
+# The essays.
+#
+# Prose cites mention cards with {{GN-XXX-NN}} markers, which the site renders
+# as superscript links to the card. build_gnosticism_study.py refuses to write
+# a topic whose markers do not all resolve, so a stale citation fails the build
+# rather than reaching the page.
+#
+# Registers, per docs/RESEARCH_WORKLOG.md:
+#   A  what PKD says himself      C  what scholars argue
+#   B  what the evidence shows    D  what portal editors infer
+# ---------------------------------------------------------------------------
+
+DOSSIER_SECTIONS = {
+
+    'what-dick-actually-read': [
+        {
+            'id': 'note', 'register': 'D',
+            'heading': 'What Dick Actually Read',
+            'body': [
+                "Philip K. Dick is the most famous Gnostic of the twentieth century "
+                "and he appears to have owned almost none of the books. That is the "
+                "finding this page is built on, and it survives the obvious "
+                "objections.",
+
+                "Across 1,104 Exegesis segments — the whole of the ordered "
+                "transcription, nine and a quarter million characters — he names "
+                "Valentinus five times, Basilides once, Marcion once. He never names "
+                "Irenaeus, Hippolytus, Epiphanius or Clement of Alexandria. He never "
+                "names the Apocryphon of John, the Gospel of Truth, the Gospel of "
+                "Philip, the Hypostasis of the Archons, the Tripartite Tractate, "
+                "Trimorphic Protennoia, Thunder Perfect Mind, the Bruce Codex, the "
+                "Chaldean Oracles or the Mandaean Ginza. The Corpus Hermeticum "
+                "appears on this site only because portal editors put it there; it is "
+                "not in his text.",
+
+                "Meanwhile the ideas are everywhere. Sophia is attested 950 times in "
+                "his own words, anamnesis 1,045, gnosis 293, pleroma 105. He has the "
+                "whole system and not the library. The question this page asks is how "
+                "that is possible, and the corpus answers it in his own hand.",
+            ],
+        },
+        {
+            'id': 'eb', 'register': 'A',
+            'heading': 'The most-cited source in the Exegesis is an encyclopedia',
+            'body': [
+                "The single most consequential source in this register appears on no "
+                "reading list of Dick's Gnosticism, because it is not a work of "
+                "Gnostic scholarship. It is the Encyclopaedia Britannica, which he "
+                "calls \"the EB\", and he names it 128 times in his own words — more "
+                "often than Hans Jonas, Nag Hammadi, Jung's Gnostic writings and "
+                "every named Gnostic teacher combined.",
+
+                "He is not using it to check spellings. He reads its long signed "
+                "\"macro\" articles as monographs and argues with them. On the Wisdom "
+                "of Solomon: \"The Britannica says that it is an unusual book in that "
+                "it presents wisdom as personified, i.e. as Lady Wisdom\" "
+                "{{GN-READ-05}} — which is where a good deal of his Sophia material "
+                "starts. On metaphysics he quotes the Encyclopedia of Philosophy "
+                "directly against himself {{GN-READ-06}}. In September 1976 he "
+                "attributes his own liturgical knowledge to it: the entity controlling "
+                "him administered the sacraments \"in the highly archaic form known "
+                "only to the early Christian Church\" — and then, in parenthesis, \"I "
+                "learned this from the Britannica\" {{GN-READ-07}}.",
+
+                "The most telling instance is an article he cannot find again. "
+                "Reasoning about the Xerox missive in September 1976, he reaches for "
+                "\"that EB article I can't find, about the gospel of Thomas in which a "
+                "letter from the man's parents comes\" and reminds the recipient \"of "
+                "who he is + his task here\" {{GN-READ-08}}. That is the Hymn of the "
+                "Pearl, which is in the Acts of Thomas rather than the Gospel — and "
+                "the misattribution is itself evidence. He is working from memory of "
+                "an encyclopedia entry, not from a text on his desk.",
+            ],
+        },
+        {
+            'id': 'jung', 'register': 'A',
+            'heading': '1975: Jung arrives first, and is not enough',
+            'body': [
+                "Before the Gnostic vocabulary consolidates, the frame is Jungian. "
+                "Jung is attested 181 times and peaks earliest, at 0.379 hits per "
+                "segment in the 1975 folder, settling near 0.1 for the rest of the "
+                "corpus. In February 1975 Dick is reading his own experience straight "
+                "out of Jung's account of psychic integration and the Collective "
+                "Unconscious, which lets symbols \"arise in a modern man who did not "
+                "know them\" {{GN-READ-04}} — a theory that explains how he could "
+                "produce Gnostic material without having read any.",
+
+                "He tries the explanation on and finds it comfortable: the wisdom was "
+                "\"buried deep in my collective unconscious all these years\", "
+                "\"acquired from the archetypes\" {{GN-READ-03}}, and the whole event "
+                "is \"a giant new step in the process of human individuation\" "
+                "{{GN-READ-01}}. The Gospel of Thomas is in his hands this early too, "
+                "quoted approximately — \"Christ says something like, 'The Kingdom "
+                "will come when the outer is the inner'\" {{GN-READ-02}} — and the "
+                "\"something like\" is again the mark of a man quoting from memory.",
+
+                "What Jung gives him is permission and a mechanism. What Jung does not "
+                "give him is a cosmology in which the creator is a different being "
+                "from the true God, and it is that, not the archetypes, that he spends "
+                "the next five years working out.",
+            ],
+        },
+        {
+            'id': 'nh', 'register': 'A',
+            'heading': '1978: the codices',
+            'body': [
+                "Nag Hammadi enters the corpus in the October 1978 folder and nowhere "
+                "before it: 29 attestations, all in that one batch. The complete "
+                "English edition had appeared in 1977, so the timing is exactly what "
+                "publication allows and not a day earlier — which makes it certain "
+                "that everything he wrote about Gnosticism in 1975 and 1976 was "
+                "written without it.",
+
+                "When he does get it he uses it to re-read his own fiction. \"It is "
+                "obvious to me after reading in the Nag Hammadi codices that Palmer "
+                "Eldritch is beyond doubt Yaltabaoth — even to the point that "
+                "Yaltabaoth is described as the 'blind' god\" {{GN-READ-10}}. The "
+                "Three Stigmata of Palmer Eldritch was published in 1965. He is not "
+                "discovering a source; he is discovering that a book he wrote thirteen "
+                "years earlier had already said it.",
+
+                "He also draws the conclusion that matters for the whole late period: "
+                "\"So in 'Valis' I was right to focus on nag Hammadi … So my acosmism "
+                "+ Gnostic acosmism stems from the same source\" {{GN-READ-09}}. And "
+                "he speculates, in the sentence that becomes the plasmate doctrine, "
+                "\"What, oh what, if it were true that in 1945 at Nag Hammadi the "
+                "actual Secret Living (information / Logos) Blood of Christ was "
+                "unearthed\" {{GN-READ-11}}.",
+            ],
+        },
+        {
+            'id': 'jonas', 'register': 'A',
+            'heading': '1981: Hans Jonas, and the word is "article"',
+            'body': [
+                "Hans Jonas is credited in almost every account of Dick's Gnosticism "
+                "with supplying the framework. He is attested 26 times, and only in "
+                "the 1978 and 1981 folders — rates of 0.005 and 0.048. He arrives "
+                "after the Black Iron Prison, after the plasmate, after \"the Empire "
+                "never ended\", and five years after the experience being explained.",
+
+                "The citations are specific and real. Dick takes from Jonas the "
+                "definition of the Gnostic project as unscrambling \"the spiritual "
+                "(pneuma?) back out — the fallen divine spark imprisoned here in this "
+                "prison (v. Hans Jonas' article on Gnosticism)\" {{GN-READ-12}}, and "
+                "the reading of Gnostic acosmism as \"Faustian\" against the Greek "
+                "cosmos {{GN-READ-15}}. He is not name-dropping; he is using an "
+                "argument.",
+
+                "But note what he calls it. Not The Gnostic Religion, Jonas's book, "
+                "but \"Hans Jonas' article on Gnosticism\" — and in April 1981 he "
+                "resolves to \"reread\" it {{GN-READ-13}}. Jonas wrote the Gnosticism "
+                "entry for the Encyclopedia of Philosophy. Taken with the 128 EB "
+                "citations, the most economical reading is that Dick's Jonas is the "
+                "encyclopedia article and not the monograph.",
+
+                "By the same month he is willing to say it outright — \"It is as "
+                "Valentinus taught!\" {{GN-READ-14}} — and to classify his own novel: "
+                "\"my book 'Valis' is Gnostic + the explanation is Gnostic\" "
+                "{{GN-READ-16}}. Both are April 1981. The confident "
+                "self-identification is the last thing to arrive, not the first.",
+            ],
+        },
+        {
+            'id': 'scholars', 'register': 'C',
+            'heading': 'Two scholars, arriving independently at the same place',
+            'body': [
+                "The secondary literature in this archive reaches this conclusion "
+                "from the documents rather than from a keyword sweep, which is worth "
+                "more than either would be alone. J. K. Thomas's 'Coin-Operated Doors "
+                "and God: A Gnostic Reading of Philip K. Dick' (2014) sources Dick's "
+                "Gnosticism to \"Hans Jonas's The Gnostic Religion and the "
+                "Encyclopedia of Philosophy\". Erik Davis, tracing the Hymn of the "
+                "Pearl through the work, finds it reaching Dick \"via Encyclopaedia "
+                "Britannica and Hans Jonas's Gnostic Religion\", from a letter of "
+                "February 1975.",
+
+                "Davis's date is the one to test next. February 1975 is eleven months "
+                "before anything in this corpus, and the Hymn of the Pearl is attested "
+                "only seven times in the whole Exegesis. If the 1975 correspondence "
+                "confirms it, Dick had the Hymn before he had the framework — which "
+                "would put a narrative, not a doctrine, at the head of the whole "
+                "sequence.",
+            ],
+        },
+        {
+            'id': 'caution', 'register': 'D',
+            'heading': 'What this does not prove',
+            'body': [
+                "Attestation is not knowledge. Dick could have read a book and never "
+                "named it, and the absence of a name is weak evidence of the absence "
+                "of reading. Nobody cites everything they have read.",
+
+                "What the silence is evidence of is narrower and still substantial. "
+                "This is six years of private writing, at enormous length, with no "
+                "audience to impress and no reason to hide a source — writing in which "
+                "he names Plato 1,066 times, Parmenides 216 and Plotinus 184. A man "
+                "who reaches that readily for the Greeks, and for an encyclopedia 128 "
+                "times, and who never once reaches for Irenaeus, was probably not "
+                "reading Irenaeus.",
+
+                "And the alternative explanation is more interesting than the debunking "
+                "would be. If Dick reconstructed a recognisably Valentinian cosmology "
+                "out of encyclopedia articles and an experience, then either the system "
+                "is convergent — derivable by anyone who starts from the same problem — "
+                "or the experience he was interpreting genuinely resembled the one the "
+                "ancient texts describe. The corpus cannot decide between those, and "
+                "this page does not pretend to.",
+            ],
+        },
+    ],
+
+    'sophia': [
+        {
+            'id': 'note', 'register': 'D',
+            'heading': 'Sophia and the Fallen Wisdom',
+            'body': [
+                "Sophia is the most heavily attested Gnostic proper name in Dick's "
+                "corpus: 950 occurrences in his own words, against 85 for the demiurge "
+                "and 30 for Yaldabaoth. The asymmetry is the argument of this page. "
+                "Dick's Gnosticism is organised around the rescue of trapped wisdom far "
+                "more than around the machinery of imprisonment, and readers who come "
+                "to him expecting archons and a prison find instead a great deal of "
+                "writing about a woman who is also an idea.",
+
+                "She is also the first to arrive. Her rate is highest in the earliest "
+                "folder — 1.747 hits per segment in 1975 — and declines steadily "
+                "through 1.255, 0.737 and 0.283. General Gnostic vocabulary runs the "
+                "other way, from 0.31 in 1975 to 1.078 in 1976. The figure precedes the "
+                "cosmology that is supposed to explain her.",
+            ],
+        },
+        {
+            'id': 'firebright', 'register': 'A',
+            'heading': '1975: a presence in search of a name',
+            'body': [
+                "In the earliest folder Dick does not have a Gnostic system. He has "
+                "something in him he is trying to name, and the name he uses most is "
+                "Firebright. It is not a borrowed term; it behaves like a private "
+                "coinage for an experience that has not yet been classified.",
+
+                "The questions he asks about it are ontological and anxious. Is \"the "
+                "human being, then, merely the host for this\" {{GN-SOPH-01}}? He "
+                "writes of a process by which he will \"merge with and gradually, by "
+                "degrees, become Firebright, who is growing\" {{GN-SOPH-02}}, and "
+                "credits it with \"greater intelligence for me, better health, longer "
+                "life, even prosperity\" {{GN-SOPH-03}}.",
+
+                "The mechanism he reaches for is reproductive rather than doctrinal: an "
+                "egg \"such as a human woman ovulates\", fertilised by \"a cosmic "
+                "spermatika\", producing a zygote — and in the same breath he draws the "
+                "distinction he says he feels strongly about, that Neoplatonism is "
+                "\"self-fertilizing\" where Gnosticism requires a Saviour from outside "
+                "{{GN-SOPH-04}}. Without that intervention, he writes, \"there is no "
+                "zygote, no Firebright, no seed, no immortality\" {{GN-SOPH-05}}.",
+            ],
+        },
+        {
+            'id': 'identification', 'register': 'A',
+            'heading': 'The identification, stated flatly',
+            'body': [
+                "Then, in the same folder, he collapses the two names into one: \"Just "
+                "to spell it out: 'Santa Sophia' and 'Firebright' are one and the "
+                "same\" {{GN-SOPH-07}}. It is the pivot of the whole page. A private "
+                "coinage for a private experience is identified with a figure from "
+                "late-antique myth, and from that point the Gnostic vocabulary has "
+                "something to attach to.",
+
+                "But the identification does not stay put. Within the same run of "
+                "entries Sophia is also the Cosmic Christ and Plotinus's Nous — \"I'm "
+                "going to wing it and say that the Cosmic Christ, St. Sophia (Holy "
+                "Wisdom) are identical with Plotinus' Nous: i.e. Lord of the Universe\" "
+                "{{GN-SOPH-09}} — and the hedge is worth keeping. \"I'm going to wing "
+                "it\" is not the voice of a man reporting a doctrine.",
+
+                "He also asks the question his own identification raises and does not "
+                "answer it: \"How does the Cosmic Christ after the Incarnation differ "
+                "from his prior existence (as evidently St. Sophia)?\" {{GN-SOPH-10}}. "
+                "Elsewhere she is a physiological cycle {{GN-SOPH-08}}, and the "
+                "\"Santa Sophia\" dream is filed as evidence of the Second Advent "
+                "{{GN-SOPH-06}}.",
+            ],
+        },
+        {
+            'id': 'adam-kadmon', 'register': 'A',
+            'heading': '1978: the Jewish turn',
+            'body': [
+                "By October 1978 the figure has migrated. What was Sophia in 1975 is "
+                "increasingly Adam Kadmon, the primordial Man of Lurianic Kabbalah, and "
+                "the register of the writing changes with it — from something happening "
+                "to him to something he has become.",
+
+                "He states it without hedging: \"I had the universe inside me (this is "
+                "Adam Kadmon for sure)\" {{GN-SOPH-15}}, and, reasoning from the Xerox "
+                "missive, \"who was I, that my brain could be World? Answer: Adam "
+                "Kadmon!\" {{GN-SOPH-14}}. The claim is then generalised into a thesis "
+                "about the whole event: \"There seems to exist no doubt that my 2-3-74 "
+                "experience is the Hermetic + Kaballist goal of becoming Adam Kadmon\" "
+                "{{GN-SOPH-11}}, with a mechanism — the organism \"incorporates reality "
+                "so that it is inside him\" {{GN-SOPH-12}}.",
+
+                "Pistis Sophia survives into this folder, but as a state rather than a "
+                "book: \"a blitz of certitude (pistis sophia) about the truth of "
+                "Christ, God & Acts & myself\" {{GN-SOPH-16}}. He is using the title of "
+                "a Gnostic scripture as a psychological description, which is a fair "
+                "summary of how most of the tradition reaches him.",
+            ],
+        },
+        {
+            'id': 'departure', 'register': 'D',
+            'heading': 'What he does with her that the tradition does not',
+            'body': [
+                "In VALIS the recovery is literal. Sophia is a two-year-old child, and "
+                "the divine wisdom of the tradition is located in a person who can be "
+                "met and spoken to. The novel states the theological stake in her "
+                "directly — \"It is not God nor the gods which must prevail; it is "
+                "wisdom, Holy Wisdom\" (VALIS, chapter 11; the card for that passage "
+                "is on the trilogy page).",
+
+                "And then she dies. This is Dick's sharpest departure from his sources: "
+                "in the ancient myth Sophia is restored, the deficiency repaired, the "
+                "Fullness made whole. Making her a child who is killed converts a "
+                "cosmological guarantee into a bereavement, and there is no version of "
+                "the Valentinian system in which that happens.",
+
+                "Whether the decline in her attestation rate — from 1.747 to 0.283 — "
+                "records a loss of interest or an absorption into the terms that rise "
+                "as she falls, VALIS and Zebra, the corpus does not say. What it does "
+                "show is that she was there before the framework and outlasted most of "
+                "it, ending as a character rather than a term.",
+            ],
+        },
+    ],
+
+    'black-iron-prison': [
+        {
+            'id': 'note', 'register': 'D',
+            'heading': 'The Black Iron Prison',
+            'body': [
+                "The Black Iron Prison is Dick's most influential single coinage and "
+                "his most complete translation of Gnostic cosmology into his own terms. "
+                "It is also, in the corpus, a datable event: a phrase that barely exists "
+                "in 1975 and is everywhere by September 1976.",
+
+                "The numbers are the sharpest transition in the whole register. The "
+                "Black Iron Prison runs at 0.023 hits per segment in the 1975 folder "
+                "and 2.247 in 1976 — a hundredfold jump — before falling back to 0.654 "
+                "in 1978 and 0.293 in 1981. Whatever happened between those two folders "
+                "produced the image that has organised Dick's reception ever since.",
+            ],
+        },
+        {
+            'id': 'before', 'register': 'A',
+            'heading': 'Before the image: astral determinism',
+            'body': [
+                "The idea arrives before the phrase, and it arrives as a quotation. In "
+                "the November 1975 folder Dick copies out a definition: \"Gnosticism: "
+                "'The true purpose of Gnostic revelation was to free spiritual man from "
+                "astral determinism'\" {{GN-BIP-03}}. The quotation marks and the "
+                "encyclopedic phrasing both point where the rest of this study points — "
+                "to a reference work rather than a primary text.",
+
+                "He is already using the demiurge in 1975, though in an idiosyncratic "
+                "sense: the demiurge as daimon, immortal, containing \"recollection of "
+                "prior, perhaps all prior human culture forms\" {{GN-BIP-01}}, into "
+                "which part of a person is \"retained … forever\" {{GN-BIP-02}}. This is "
+                "closer to Jung's collective unconscious than to Yaldabaoth, and it is "
+                "worth noticing that his first demiurge is a repository rather than a "
+                "tyrant.",
+            ],
+        },
+        {
+            'id': 'sept76', 'register': 'A',
+            'heading': 'September 1976: the prison and the garden, in one sitting',
+            'body': [
+                "The September 1976 folder works the whole thing out at once, and the "
+                "two halves are born together. Dick considers \"that the black iron "
+                "Prison world is how this world actually is, in all its evil\", set "
+                "against \"the 'Palm tree' world\" as \"the authentic world of "
+                "Brahman\" {{GN-BIP-05}}, and reaches for Augustine to hold them: the "
+                "real world is \"the civitas dei of Augustine\" and the prison is the "
+                "earthly city {{GN-BIP-06}}.",
+
+                "The Gnostic furniture is all present in this sitting and correctly "
+                "used. The archons appear as \"the 7 concentric imprisoning rings\", now "
+                "\"successfully penetrated\" with \"a beach head of divinity established "
+                "here at the darkest, innermost ring\" {{GN-BIP-14}}. The rescuer is a "
+                "\"salvific stranger God\" who \"outwits the archons\" and penetrates "
+                "\"our 'copy of a copy' world to extricate us\" {{GN-BIP-10}} — the "
+                "alien God, the counterfeit cosmos and the descent, in one sentence.",
+
+                "The demiurge gets his proper name and a genealogy. The feminine half of "
+                "the Urgrund \"does not herself directly enter our world but is "
+                "separated from it (us) by her offspring the artifact (yaldabaoth)\" "
+                "{{GN-BIP-11}}. That is the Sophia myth in its Sethian form — the fallen "
+                "aeon, her misbegotten son, the barrier he constitutes — written out in "
+                "1976, two years before Dick reports reading the Nag Hammadi codices.",
+            ],
+        },
+        {
+            'id': 'choice', 'register': 'A',
+            'heading': 'He does choose, and the choice is bleak',
+            'body': [
+                "The Palm Tree Garden is usually read as Dick's escape hatch — the same "
+                "world correctly perceived, the Gnostic diagnosis withdrawn. He does "
+                "write it that way: \"my vision of the palm tree garden is the final and "
+                "true vision of the Peaceable Kingdom\" {{GN-BIP-04}}, and elsewhere the "
+                "Paraclete leads him through to it {{GN-BIP-07}}.",
+
+                "But in the same folder he settles the question against himself, and the "
+                "sentence is rarely quoted: \"The BIP + PTG are both very real, + are "
+                "antithetical alternatives, with the BIP obtaining, due to the "
+                "artifact's control of this, its world (yaltabaoth)\" {{GN-BIP-12}}. "
+                "Both real; the prison winning; and the reason given is the demiurge's "
+                "ongoing control.",
+
+                "He does leave the counterfeit world a purpose — the artifact, \"although "
+                "enslaving us in a counterfeit world, is teaching us\" {{GN-BIP-08}}, and "
+                "the Urgrund sees the whole fake \"as one Gestalt\" {{GN-BIP-09}}. That "
+                "is a pedagogical theodicy and it is not Gnostic: no archon in the "
+                "ancient sources is educating anybody.",
+            ],
+        },
+        {
+            'id': 'empire', 'register': 'A',
+            'heading': 'The Empire never ended',
+            'body': [
+                "The formula that carries all of this into the fiction is in the "
+                "Exegesis years before the novel. By the 1978 folder it is a settled "
+                "phrase, used as shorthand — the enemy \"has yet to be overthrown ('the "
+                "empire never ended')\" {{GN-BIP-15}} — and Dick notes that he had "
+                "already put it in print: the state is \"clearly articulated in 'Tears'\" "
+                "{{GN-BIP-16}}, that is, in Flow My Tears, the Policeman Said, published "
+                "in 1974.",
+
+                "This is where his archons stop being cosmological. The ancient rulers "
+                "administer the spheres; Dick's administer a history, and the claim that "
+                "Rome did not fall is falsifiable in a way that heimarmene is not. It is "
+                "the most testable proposition in his theology and the one most often "
+                "quoted free of the reasoning that produced it.",
+            ],
+        },
+        {
+            'id': 'displacement', 'register': 'B',
+            'heading': 'The coinage displaces the borrowing',
+            'body': [
+                "As the Black Iron Prison rises, the technical vocabulary it replaces "
+                "falls. The demiurge declines across the four folders from 0.161 to "
+                "0.160 to 0.048 to 0.016. The archons are attested nineteen times in six "
+                "years; heimarmene, 312 times, is almost entirely a 1976 phenomenon.",
+
+                "So Dick does not adopt the ancient terminology and elaborate it. He "
+                "uses it while he is building, and then stops needing it. What survives "
+                "into the last folders is his own vocabulary — prison, garden, Empire, "
+                "artifact — which is why the Gnostic content of the late work is easy to "
+                "feel and hard to cite.",
+            ],
+        },
+    ],
+
+    'gnosis-and-anamnesis': [
+        {
+            'id': 'note', 'register': 'D',
+            'heading': 'Gnosis and Anamnesis',
+            'body': [
+                "Anamnesis is attested 1,045 times in Dick's own words — more often "
+                "than Sophia, and three and a half times more often than gnosis "
+                "itself. Whatever he thought happened to him in March 1974, he "
+                "described it as remembering rather than learning, and the word he "
+                "reached for was Plato's.",
+
+                "It is also the steadiest term in the register: 0.759, 1.095, 1.168, "
+                "0.621 across the four folders. Where the Black Iron Prison arrives in "
+                "a rush and recedes, and Sophia declines from the start, recollection "
+                "is the constant. It shows no arrival date because it was already his "
+                "before 1974.",
+            ],
+        },
+        {
+            'id': 'greek', 'register': 'A',
+            'heading': 'He reasons in Greek philosophy, not in Gnostic myth',
+            'body': [
+                "Plato is attested 1,066 times, Parmenides 216, Plotinus 184. Between "
+                "them that is more than every named Gnostic teacher, heresiologist and "
+                "primary text in this register combined. When Dick reports, he uses "
+                "Gnostic language; when he reasons, he uses Greek.",
+
+                "The clearest statement of the method is his own: what he saw was "
+                "\"exactly commensurate with the Platonist and Neoplatonism (and "
+                "Pythagorean) idea of rising each time, rising but forgetting, and the "
+                "value of anamnesis, the removal of amnesis\" {{GN-GNOS-06}}. Note "
+                "that the definition is etymological — anamnesis as the removal of "
+                "amnesia — and that he treats it as a technical term with a literature "
+                "behind it: \"the neoplatonistic recovery of memory of divinity already "
+                "there\" {{GN-GNOS-05}}.",
+
+                "Parmenides supplies the other half. Dick takes from him the "
+                "proposition \"that reality was not as it appeared (and hence had a "
+                "veil or dokos over it)\" {{GN-GNOS-03}}, and is careful about "
+                "attribution where it matters, noting when a witness \"knew nothing of "
+                "Parmenides' proof of the dokos\" {{GN-GNOS-04}}. This is the Gnostic "
+                "conclusion reached on logical rather than mythological grounds, and "
+                "when he wants the case made without a villain it is where he goes.",
+            ],
+        },
+        {
+            'id': 'sleep', 'register': 'A',
+            'heading': 'Sleep, and the word he coined for it',
+            'body': [
+                "The negative of recollection is the condition that makes it necessary, "
+                "and here Dick and the ancient sources converge almost exactly. The "
+                "Gnostic diagnosis is that humanity is narcotised, amnesiac and unaware "
+                "of captivity; Dick's is that \"we are blinded and asleep, in a state of "
+                "forgetfulness, but this fallen state can be abolished\" {{GN-GNOS-11}}, "
+                "and that we sit in a prison and \"through amnesia + occluded perception, "
+                "do not know where we truly are nor how we got here\" {{GN-GNOS-12}}.",
+
+                "He gives the fall the tradition's own equation — souls \"fell and forgot, "
+                "having descended into nonbeing which is the same as forgetfulness\" "
+                "{{GN-GNOS-08}} — and the corresponding awakening: \"They become conscious "
+                "of their forgotten origin and task (anamnesis)\" {{GN-GNOS-02}}, which is "
+                "the Hymn of the Pearl in one sentence.",
+
+                "Occlusion, attested 526 times, is his own word for the blocking, and it "
+                "is characteristically mechanical rather than moral. The image he uses in "
+                "November 1975 is a filter: the removal \"of an occluding membrane which "
+                "filters out most of the light, allowing only a token amount to filter "
+                "through\" {{GN-GNOS-09}}. Revelation, on this account, subtracts an "
+                "obstruction rather than adding a doctrine.",
+            ],
+        },
+        {
+            'id': 'call', 'register': 'A',
+            'heading': 'The spark, and the call',
+            'body': [
+                "The two remaining pieces of the classical scheme are both present and "
+                "both used precisely. The divine spark: \"even in their ashes lived some "
+                "spark of the divine\" {{GN-GNOS-15}}, and — in a distinction that shows "
+                "he is tracking the system rather than gesturing at it — \"the Spirit in "
+                "my head was the spark of the divine + hence not Zebra\" {{GN-GNOS-13}}. "
+                "The trapped fragment and the rescuing intelligence are different things, "
+                "and he says so.",
+
+                "And the call, in the technical Manichaean form: \"I heard the voice of "
+                "the salvador salvandus calling to me, + it was the call of pure is!\" "
+                "{{GN-GNOS-14}}. The saved saviour — the redeemer who is himself part of "
+                "the fallen light — is the doctrine that lets the rescuer be continuous "
+                "with the rescued, which is exactly the problem Dick's experience set "
+                "him. In the same folder he lists the machinery it delivers from: "
+                "\"Fate, karma, heimarmene, astral determinism, planetary influences, the "
+                "Law\" {{GN-GNOS-16}}.",
+            ],
+        },
+        {
+            'id': 'contradiction', 'register': 'D',
+            'heading': 'The contradiction he never resolves',
+            'body': [
+                "If gnosis is recollection of what was always known, then nothing needs "
+                "to come from outside, and VALIS is unnecessary. If VALIS is real and "
+                "intervened, then the knowledge arrived from outside and it is not "
+                "recollection. Dick asserts both, sometimes within a single entry, and "
+                "his own hedging registers the strain: gnosis and sophia as competing "
+                "\"aspects\", one of which might \"predominate\" {{GN-GNOS-07}}.",
+
+                "The honest reading is that he needed both and could not have both. "
+                "Anamnesis makes the experience his own and defensible against the "
+                "charge of madness; intervention makes it real and defensible against "
+                "the charge of mere psychology. Giving up either one costs him something "
+                "he cannot afford, so he keeps both and the system does not close.",
+            ],
+        },
+    ],
+
+    'valis-trilogy': [
+        {
+            'id': 'note', 'register': 'D',
+            'heading': 'Gnosticism in the VALIS Trilogy',
+            'body': [
+                "The trilogy is the only place Dick submitted the system to the "
+                "discipline of having to be read. The Exegesis can assert; a novel has "
+                "to be inhabited, and the objections have to be given to somebody.",
+
+                "It also lags the Exegesis by five years. \"The Empire never ended\" is "
+                "written privately in September 1976 and published in 1981; the Black "
+                "Iron Prison and the Palm Tree Garden are worked out in the same 1976 "
+                "folder; VALIS as a term peaks in the 1978 folder at 6.16 hits per "
+                "segment — by far the highest rate in the register — three years before "
+                "the novel that carries the name.",
+            ],
+        },
+        {
+            'id': 'thesis', 'register': 'A',
+            'heading': 'The cosmology, stated plainly',
+            'body': [
+                "VALIS states the Gnostic thesis more directly than anything in the "
+                "Exegesis, because a novel cannot hedge for six years. Chapter 6 gives "
+                "the origin of evil as a structural fault rather than a moral one: "
+                "\"This is the origin of entropy, undeserved suffering, chaos and death, "
+                "as well as the Empire, the Black Iron Prison\" {{GN-VALIS-09}}, and "
+                "draws the consequence that follows — human beings \"are morally "
+                "innocent. It is the Empire in its various disguised polyforms which "
+                "tells us we have sinned\" {{GN-VALIS-10}}.",
+
+                "That is the whole Gnostic reversal in two sentences: the guilt belongs "
+                "to the system, not to the prisoner. Around it the formula repeats, and "
+                "the novel tells you it is a symptom as well as a thesis — \"Fat repeats "
+                "obsessively, 'The Empire never ended'\" {{GN-VALIS-08}} — while the "
+                "release, when it comes, is physical and unexplained: \"They were running "
+                "out of the Black Iron Prison and just laughing and laughing\" "
+                "{{GN-VALIS-14}}.",
+            ],
+        },
+        {
+            'id': 'plasmate', 'register': 'A',
+            'heading': 'The plasmate: a theory of how Gnosis travels',
+            'body': [
+                "The novel's most original contribution is a transmission mechanism, and "
+                "it is a theory about Dick's own access to the material. The plasmate "
+                "\"slumbered for nearly two thousand years in dormant seed form as living "
+                "information in the codices at Nag Hammadi, which explained why reports of "
+                "its existence had broken off abruptly around 70 A.D.\" {{GN-VALIS-07}}, "
+                "and after the murder of the apostolic Christians it \"had gone into "
+                "hiding at Nag Hammadi and was again loose in our world, and as angry as a "
+                "motherfucker\" {{GN-VALIS-03}}.",
+
+                "It is also described as \"an extra-terrestrial life form which came to "
+                "this planet thousands of years ago, and, as living information, passed "
+                "into the brains of human beings\" {{GN-VALIS-12}}. Note what this does: "
+                "it makes the 1945 discovery of the library an event in salvation history "
+                "rather than in scholarship, and it makes reading a form of infection. "
+                "One does not need to have studied the codices for them to work. Given "
+                "what the sweep shows about Dick's own sources, that is a convenient "
+                "doctrine, and it may be a sincere one.",
+
+                "The Exegesis confirms that he saw the stakes: \"So in 'Valis' I was right "
+                "to focus on nag Hammadi … So my acosmism + Gnostic acosmism stems from "
+                "the same source\" {{GN-VALIS-01}}.",
+            ],
+        },
+        {
+            'id': 'zebra', 'register': 'A',
+            'heading': 'Zebra, and the problem a novel cannot dodge',
+            'body': [
+                "Zebra — God camouflaged so exactly as to be invisible inside creation — "
+                "is attested 1,075 times and is not a Gnostic idea. A deity hiding within "
+                "the world is the opposite of a deity exiled from it. In the novel it "
+                "arrives as one of a sequence of provisional names, \"the three-eyed "
+                "people, and then Zebra, who is discorporate\" {{GN-VALIS-13}}.",
+
+                "And fiction forces the question the Exegesis can defer. \"Fat still "
+                "believed in God and Christ — and a lot else — but he wished he knew why "
+                "Zebra, his term for the Almighty Divine One, had not given early warning "
+                "about Sherri's condition and did not now heal her, and this mystery "
+                "assailed Fat's brain and turned him into a maddened thing\" "
+                "{{GN-VALIS-11}}. A cosmology that cannot account for one woman's cancer "
+                "is in trouble, and Dick puts the trouble on the page.",
+            ],
+        },
+        {
+            'id': 'di', 'register': 'A',
+            'heading': 'The Divine Invasion runs on a different system',
+            'body': [
+                "The second novel changes the source material, and the change matters more "
+                "than it is usually given credit for. Its framework is Lurianic Kabbalah, "
+                "not Gnosticism: the contraction of the infinite, the shattering of the "
+                "vessels, the scattering of the sparks, and tikkun — their gathering and "
+                "repair.",
+
+                "The book's decisive line is a restoration, not an escape: \"I have "
+                "restored the Shekhina to En Sof\" {{GN-VALIS-02}}. VALIS itself already "
+                "carries the Kabbalistic machinery — Hebrew letters on the wall that "
+                "\"permutated until they factored out into words you could read\", into "
+                "KING FELIX {{GN-VALIS-05}} — but The Divine Invasion makes it structural.",
+
+                "The difference is theological, not decorative. Luria's broken vessels are "
+                "repaired; the Gnostic spark escapes. A cosmology of repair implies the "
+                "world is worth mending, which is a position Dick's Gnosticism cannot "
+                "hold. He wrote both books in the same period and did not reconcile them.",
+            ],
+        },
+        {
+            'id': 'sophia-dies', 'register': 'D',
+            'heading': 'Sophia, and Angel Archer',
+            'body': [
+                "Sophia is attested 66 times across the trilogy chapters held here, and "
+                "the novel puts the theological stake in her without ambiguity: \"It is "
+                "not God nor the gods which must prevail; it is wisdom, Holy Wisdom\" "
+                "{{GN-VALIS-04}}. She appears as a child of two \"with the eyes of an "
+                "infinitely old person\", and it is she who names the split in the "
+                "narrator and ends it {{GN-VALIS-06}}.",
+
+                "Then she is killed, and the third novel is narrated by a woman who has "
+                "watched religion kill three people she loved and who receives no "
+                "revelation at all. Whether The Transmigration of Timothy Archer retracts "
+                "the trilogy or completes it is the standing dispute, and this portal does "
+                "not settle it. Angel Archer is either Dick's last word against his own "
+                "system or the system's final test, and the archive holds arguments both "
+                "ways.",
+
+                "A coverage note, because it bears on how much weight these readings can "
+                "take: Timothy Archer is held here only as chapter summaries, which are "
+                "portal-editor prose and are recorded in lane D. Nothing on this page "
+                "quotes it as Dick's words.",
+            ],
+        },
+    ],
+
+    'orthodoxy-and-gnosis': [
+        {
+            'id': 'note', 'register': 'D',
+            'heading': 'Orthodoxy and Gnosis',
+            'body': [
+                "The reception of Philip K. Dick has settled on Dick the Gnostic, and the "
+                "corpus does not support it — or rather, it supports it only if you do not "
+                "count. Christian vocabulary outweighs Gnostic vocabulary in every folder: "
+                "2.253 hits per segment against 0.31 in 1975, and still running alongside "
+                "it in 1981. The man writing the Exegesis is a Christian arguing with "
+                "himself, not a Gnostic with a Christian residue.",
+
+                "This page holds the contradiction open rather than resolving it, because "
+                "resolving it removes evidence. Dick asserts that the creator of this "
+                "world is blind and hostile, and that God is present in a beer can. Both "
+                "are in the corpus, at length, for six years.",
+            ],
+        },
+        {
+            'id': 'sacramental', 'register': 'A',
+            'heading': 'The instincts are sacramental from the start',
+            'body': [
+                "The earliest folder is not Gnostic in temper at all. In February 1975 "
+                "Dick reads the decay he saw as the direction \"the Holy Spirit (or "
+                "whatever you wish to deem it) was moving\" {{GN-ORTH-01}}, and the Logos "
+                "as an artist \"drawing you … more and more like Christ\" {{GN-ORTH-02}}. "
+                "That is sanctification, a thoroughly orthodox idea, and it assumes a "
+                "creation worth perfecting.",
+
+                "He also records being told off for the whole enterprise. Sharing his "
+                "\"ionosphere plasmic entity theory about the Holy Spirit\", he gets back "
+                "from Anne: \"Well, that's the sin of pride, what you're doing\" "
+                "{{GN-ORTH-03}}. He writes the rebuke down and keeps it, which is "
+                "characteristic and worth more than a hundred of his assertions.",
+
+                "The eschatology is Origen's, not Valentinus's: everything \"can, through "
+                "Him, be restored — back to that concept: the Restoration of All Things\" "
+                "{{GN-ORTH-04}}, and at the Parousia \"man is restored to his intended, "
+                "divine state\" {{GN-ORTH-07}}. Apocatastasis is universal repair. It is "
+                "the opposite of a doctrine in which a saved remnant escapes and the rest "
+                "of the cosmos is written off.",
+            ],
+        },
+        {
+            'id': 'distinction', 'register': 'A',
+            'heading': 'He knows the traditions are different',
+            'body': [
+                "It is sometimes suggested that Dick blurred these systems because he did "
+                "not know them apart. The corpus says otherwise. He draws the line himself, "
+                "and says it matters to him: \"Here would be the crucial distinction "
+                "between Neoplatonism and Gnosticism, which I feel so strongly about: the "
+                "former is sort of self-fertilizing … but in Gnosticism you have the idea "
+                "that the Savior is absolutely necessary\" {{GN-ORTH-06}}.",
+
+                "That is an accurate distinction, correctly drawn, on the point that "
+                "actually separates the two traditions. Whatever is going on in the "
+                "Exegesis, it is not confusion about what the schools taught.",
+            ],
+        },
+        {
+            'id': 'zebra', 'register': 'A',
+            'heading': 'Zebra is an incarnational idea',
+            'body': [
+                "The most-used religious image of Dick's last years is not Gnostic. Zebra "
+                "— 1,075 attestations — is God camouflaged inside creation, and a God who "
+                "hides within the world is the opposite of a God exiled from it. In "
+                "September 1976 Zebra is \"the Paraclete\", bridging worlds and leading "
+                "him through {{GN-ORTH-12}}; the structure holding the two worlds together "
+                "is \"God-as-Holy-Spirit\" {{GN-ORTH-13}}. Those are creedal terms doing "
+                "cosmological work.",
+
+                "The agents of Zebra are described as maintaining the world rather than "
+                "escaping it — \"doing the tinkering, producing one alternate world after "
+                "another\", associated with \"the true, secret Xtian church\" "
+                "{{GN-ORTH-11}} — and the Palm Tree Garden is named as \"the final and true "
+                "vision of the Peaceable Kingdom\" {{GN-ORTH-09}}, which is Isaiah, not "
+                "Valentinus.",
+
+                "Dick even polices the boundary of his own experience: if the intruding "
+                "personality was intrinsic to him, then it was not another; \"but even if "
+                "it was in me it was not me, because it talked to me, + in koine\" "
+                "{{GN-ORTH-10}}. He is arguing against the easy psychological reading, in "
+                "Greek.",
+            ],
+        },
+        {
+            'id': 'docetism', 'register': 'A',
+            'heading': 'April 1981: he rules on it',
+            'body': [
+                "On the one doctrine where the two systems cannot both be held, Dick "
+                "chooses, and chooses against the Gnostics. Docetism — the view that Christ "
+                "only appeared to have a body and only appeared to suffer — is the "
+                "position the tradition needs, because flesh is the problem. Dick rejects "
+                "it explicitly: \"it is indeed bait but the lamb does die: he is endlessly "
+                "slaughtered. I am therefore not a docetist; Christ actually suffers + dies "
+                "as our ransom\" {{GN-ORTH-14}}.",
+
+                "This is the sharpest sentence in the whole study for the question of what "
+                "Dick was. It is April 1981, the last folder, the same month as \"It is as "
+                "Valentinus taught!\" and \"my book 'Valis' is Gnostic\". He is claiming the "
+                "Gnostic label and refusing the Gnostic Christology in the same sitting.",
+
+                "He is aware of the cost, and looks for a system that would dissolve the "
+                "problem — one that \"abolishes the issue of God the creator + God as "
+                "transmundane in contradistinction to a blind demiurge creator, + abolishes "
+                "the issue of Gnosis versus justification — as well as abolishing the "
+                "docetist controversy\" {{GN-ORTH-15}}. He wants the contradiction to stop "
+                "being a contradiction. Wanting that is not the same as finding it.",
+            ],
+        },
+        {
+            'id': 'verdict', 'register': 'D',
+            'heading': 'What to do with this',
+            'body': [
+                "The corpus will not support \"Dick was a Gnostic\" as a flat statement, "
+                "and it will not support the denial either. What it supports is something "
+                "more specific: that he used Gnostic cosmology as a diagnostic instrument "
+                "and Christian theology as a commitment, and that the instrument kept "
+                "producing results the commitment could not accept.",
+
+                "That is a coherent position to be in — it is roughly where anyone ends up "
+                "who takes both the problem of evil and the incarnation seriously — but it "
+                "is not a system, and the Exegesis is six thousand pages of a man "
+                "discovering that it is not a system. Scholarship on the early fiction has "
+                "read the dualism as settled from the beginning {{GN-ORTH-16}}; the "
+                "Exegesis suggests something less resolved and more interesting.",
+
+                "Readers who want the tension removed should be aware that it is removed by "
+                "discarding half the evidence, and should choose which half deliberately "
+                "rather than by inheriting a consensus.",
+            ],
+        },
+    ],
+}

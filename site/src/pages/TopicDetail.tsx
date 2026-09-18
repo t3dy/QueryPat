@@ -5,7 +5,7 @@ import ContradictionCard from '../components/studies/ContradictionCard'
 import TopicChronology from '../components/studies/TopicChronology'
 import MentionCards from '../components/studies/MentionCards'
 import CitedText from '../components/studies/CitedText'
-import type { MentionCard } from '../components/studies/MentionCards'
+import type { MentionCard, MentionGroup } from '../components/studies/MentionCards'
 
 interface RelatedDoc {
   doc_id: string
@@ -68,6 +68,8 @@ interface TopicData {
   contradictions_summary: string | null
   dossier_sections?: DossierSection[]
   mention_cards?: MentionCard[]
+  /** Per-topic grouping for the mention cards; omit for the default. */
+  mention_groups?: MentionGroup[]
   related_thinkers: string[] | null
   editorial_notes: string | null
   open_questions: string[] | null
@@ -263,7 +265,21 @@ export default function TopicDetail() {
       )}
 
       {/* Every mention, card by card — below the essay and the machinery */}
-      <MentionCards cards={topic.mention_cards || []} />
+      <MentionCards
+        cards={topic.mention_cards || []}
+        groups={topic.mention_groups}
+        heading={topic.mention_groups ? 'The passages, one by one' : undefined}
+        intro={
+          topic.mention_groups
+            ? `${(topic.mention_cards || []).length} passages from the corpus sweep, ` +
+              `grouped by where they come from. Each card quotes the sentence the ` +
+              `passage turns on, verbatim and including the irregularities of the ` +
+              `transcription. Open a card to read the wider excerpt it was cut from, ` +
+              `or follow the link to the full entry. Cards marked "derived" carry a ` +
+              `summary written from the sweep rather than by an editor.`
+            : undefined
+        }
+      />
 
       {/* Related topics */}
       {topic.related_topics && topic.related_topics.length > 0 && (

@@ -24,6 +24,7 @@ this after a fresh sweep rebuilds the pages exactly.
 import argparse
 import importlib.util
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -43,6 +44,70 @@ SOURCE_MODE = {
     'valis_trilogy_summaries': 'editorial_summary',
     'scholarship': 'scholarship',
 }
+
+
+def load_cards():
+    spec = importlib.util.spec_from_file_location(
+        'gnostic_mention_cards', CUR / 'mention_cards.py')
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+# Cards are grouped on the page by where they come from and when. Exegesis
+# folders get their own group because the folder IS the unit of dating.
+def group_cards(cards):
+    """Assign each card a group key, and return the group definitions used."""
+    defs, order = {}, []
+    for c in cards:
+        st = c['source_type']
+        if st == 'exegesis_segment':
+            key = 'exeg-' + (c.get('dated') or 'undated').replace(' ', '-').replace(',', '')
+            label = f"The Exegesis — {c.get('dated') or 'undated'}"
+            blurb = ('One folder of the transcription. Every segment in a batch '
+                     'carries the same date, so this is a sitting, not a day.')
+        elif st == 'fiction':
+            key, label = 'fiction', 'The novels'
+            blurb = 'Published text of the VALIS trilogy, as held in this repository.'
+        elif st == 'letter':
+            key, label = 'letters', 'Letters'
+            blurb = ('Correspondence. The letters held here as full text are the '
+                     '1972-73 volume, which predates 2-3-74.')
+        elif st == 'criticism':
+            key, label = 'scholarship', 'Biography and scholarship'
+            blurb = 'What scholars argue — not Dick.'
+        elif st == 'editorial_summary':
+            key, label = 'summaries', 'Portal-editor chapter summaries'
+            blurb = ('Lane D. Editorial prose about the novels, never quoted as '
+                     "Dick's words.")
+        else:
+            key, label, blurb = st, st, ''
+        c['group_key'] = key
+        if key not in defs:
+            defs[key] = {'key': key, 'label': label, 'blurb': blurb}
+            order.append(key)
+    # Exegesis folders first and in date order, then fiction, then the rest.
+    def rank(k):
+        if k.startswith('exeg-'):
+            return (0, next(c['date'] or '' for c in cards if c['group_key'] == k))
+        return ({'fiction': 1, 'letters': 2, 'summaries': 3,
+                 'scholarship': 4}.get(k, 5), k)
+    return [defs[k] for k in sorted(order, key=rank)]
+
+
+CITE_RE = re.compile(r'\{\{([A-Za-z0-9-]+)\}\}')
+
+
+def check_citations(slug, sections, cards):
+    """Every {{marker}} must resolve to a card on this same topic."""
+    ids = {c['id'] for c in cards}
+    bad = []
+    for sec in sections:
+        for para in sec['body']:
+            for m in CITE_RE.finditer(para):
+                if m.group(1) not in ids:
+                    bad.append((sec['id'], m.group(1)))
+    return bad
 
 
 def load_prose():
@@ -168,10 +233,30 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / 'topics').mkdir(exist_ok=True)
 
+    mc = load_cards()
+    raw = json.loads((CUR / 'raw-findings.json').read_text(encoding='utf-8'))
+    cards_by_topic = mc.build(raw, reg, prose.TOPICS)
+
+    # Refuse to publish a citation that does not resolve. A stale marker must
+    # fail the build, not reach the page as a dead superscript.
+    failures = []
+    for t in prose.TOPICS:
+        secs = getattr(prose, 'DOSSIER_SECTIONS', {}).get(t['slug']) or []
+        for sec_id, marker in check_citations(
+                t['slug'], secs, cards_by_topic.get(t['slug'], [])):
+            failures.append(f"{t['slug']}/{sec_id}: {{{{{marker}}}}}")
+    if failures:
+        print('ERROR: unresolved citation markers:', file=sys.stderr)
+        for f in failures:
+            print('  ' + f, file=sys.stderr)
+        return 1
+
     counter = [0]
     topic_rows, dossier_topics = [], []
 
     for t in prose.TOPICS:
+        topic_cards = cards_by_topic.get(t['slug'], [])
+        groups = group_cards(topic_cards)
         packets = build_packets(t, reg_index, counter)
         passage_count = sum(len(p['passages']) for p in packets)
         lanes = {'A': 0, 'B': 0, 'C': 0}
@@ -209,6 +294,10 @@ def main():
             'peak_period_end': max(
                 (r['last_attested'] for r in focus if r['last_attested']),
                 default=None),
+            'dossier_sections': getattr(prose, 'DOSSIER_SECTIONS', {}).get(
+                t['slug']) or [],
+            'mention_cards': topic_cards,
+            'mention_groups': groups,
             'evidence_packets': packets,
             'contradictions': [],
             'chronology': [],
@@ -245,6 +334,8 @@ def main():
             'lane_distribution': lanes,
             'related_topics': [o['canonical_name'] for o in prose.TOPICS
                                if o['slug'] != t['slug']],
+            'mention_count': len(topic_cards),
+            'section_count': len(detail['dossier_sections']),
         })
 
     topic_rows.sort(key=lambda r: (-r['priority'], r['canonical_name']))
@@ -336,7 +427,8 @@ def main():
     print(f'wrote {OUT}')
     for r in topic_rows:
         print(f"  {r['slug']:26s} {r['evidence_count']:3d} packets  "
-              f"{r['passage_count']:3d} passages")
+              f"{r['passage_count']:3d} passages  {r['mention_count']:3d} cards  "
+              f"{r['section_count']:2d} sections")
     print(f'  register.json  {reg["entry_count"]} lexicon entries')
     print(f'registered "{STUDY_ID}" in {STUDIES_INDEX}')
     return 0

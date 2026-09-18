@@ -163,7 +163,8 @@ CONCEPTS = [
       "Dick's blind, boastful creator-tyrant. The blasphemous declaration is the "
       "line he returns to when reading the God of the Old Testament against the "
       "God he believes met him.",
-      [r'\bYaldabaoth\b', r'\bIaldabaoth\b', r'\bJaldabaoth\b'],
+      [r'\bYal[dt]a[bv]a?oth\b', r'\bIal[dt]abaoth\b',
+       r'\bJal[dt]abaoth\b', r'\bYaltabaoth\b'],
       ['Apocryphon of John', 'On the Origin of the World']),
 
     E('GNOS_samael', 'Samael', 'concept', 'Sethian / Jewish',
@@ -688,6 +689,23 @@ TEXTS = [
       [r'\bCorpus Hermeticum\b', r'\bHermetica\b', r'\bPoimandres\b',
        r'\bPymander\b', r'\bAsclepius\b'],
       ['Corpus Hermeticum I']),
+
+    E('GNOS_reference_works', 'Encyclopaedia Britannica / Encyclopedia of Philosophy',
+      'text', 'Reference works',
+      "General reference: the Encyclopaedia Britannica, which Dick calls \"the "
+      "EB\" and whose long signed \"macro\" articles he read as monographs, and "
+      "the Encyclopedia of Philosophy, whose article on Gnosticism was written by "
+      "Hans Jonas.",
+      "The most consequential source in the register, and the one no reading list "
+      "has. Dick names the EB more often than he names any Gnostic text, teacher "
+      "or scholar, and cites it as an authority on Luther, Dionysos, pantheism, "
+      "the nature of time and the \"ape of God\" theory of the counterfeit world. "
+      "When he says in 1981 that he has \"reread Hans Jonas' article on "
+      "Gnosticism\", article is the operative word.",
+      [r'\bthe EB\b', r'\bEB macro\b', r'\bEB article\b',
+       r'\bBritannica\b', r'\bEncyclopa?edia Britannica\b',
+       r'\bEncyclopa?edia of Philosophy\b', r'\bmacro article\b'],
+      ['Encyclopaedia Britannica', 'Encyclopedia of Philosophy']),
 
     E('GNOS_hymn_pearl', 'Hymn of the Pearl', 'text', 'Syriac Gnostic',
       "A prince is sent from the East to fetch a pearl from Egypt, forgets himself, "

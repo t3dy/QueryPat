@@ -25,10 +25,28 @@ export interface MentionCard {
   dating_basis?: string | null
   /** The verbatim windowed excerpt this card summarises. */
   passage?: string | null
+  /** Which group this card belongs to, when the topic supplies its own. */
+  group_key?: string | null
+  /** True when `context` is machine-derived rather than editorially written. */
+  context_derived?: boolean
+  /** Register terms in the passage beyond this topic's own. */
+  also_names?: string[]
+}
+
+/** A topic may supply its own grouping; see GROUPS for the default. */
+export interface MentionGroup {
+  key: string
+  label: string
+  blurb: string
 }
 
 interface Props {
   cards: MentionCard[]
+  /** Groups keyed to `card.group_key`. Omit to use the default grouping. */
+  groups?: MentionGroup[] | null
+  /** Heading and standfirst, when the default Burroughs wording is wrong. */
+  heading?: string
+  intro?: string
 }
 
 const GROUPS: { key: string; label: string; blurb: string; match: (c: MentionCard) => boolean }[] = [
@@ -91,7 +109,7 @@ function datingTitle(basis?: string | null): string | undefined {
   return DATING_BASIS[basis] ?? `Dated from the ${basis}`
 }
 
-export default function MentionCards({ cards }: Props) {
+export default function MentionCards({ cards, groups, heading, intro }: Props) {
   const [openNote, setOpenNote] = useState<string | null>(null)
   const [openPassage, setOpenPassage] = useState<Set<string>>(new Set())
 
@@ -104,26 +122,32 @@ export default function MentionCards({ cards }: Props) {
     })
   }
 
-  const grouped = useMemo(
-    () =>
-      GROUPS.map(g => ({ ...g, items: (cards || []).filter(g.match) })).filter(
-        g => g.items.length > 0,
-      ),
-    [cards],
-  )
+  const grouped = useMemo(() => {
+    // A topic that ships its own groups is grouped by card.group_key; the
+    // hardcoded GROUPS below are the Burroughs page's and are the fallback.
+    if (groups && groups.length > 0) {
+      return groups
+        .map(g => ({ ...g, items: (cards || []).filter(c => c.group_key === g.key) }))
+        .filter(g => g.items.length > 0)
+    }
+    return GROUPS.map(g => ({ ...g, items: (cards || []).filter(g.match) })).filter(
+      g => g.items.length > 0,
+    )
+  }, [cards, groups])
 
   if (!cards || cards.length === 0) return null
 
   return (
     <div className="detail-section">
-      <h2>Every mention, one by one</h2>
+      <h2>{heading || 'Every mention, one by one'}</h2>
       <p style={{ fontSize: '0.9rem', lineHeight: 1.65, color: 'var(--text-secondary)' }}>
-        {cards.length} passages in the archive refer to Burroughs or to his word virus.
-        Each card summarises the whole passage and where it sits in the work, then quotes
-        the sentence it turns on. Quotations are verbatim, including the transcription
-        irregularities of the source; every one is machine-checked against the underlying
-        text before it is published. Open any card to read the passage it summarises, or
-        follow the link to the full entry it was cut from.
+        {intro ||
+          `${cards.length} passages in the archive refer to Burroughs or to his word virus.
+           Each card summarises the whole passage and where it sits in the work, then quotes
+           the sentence it turns on. Quotations are verbatim, including the transcription
+           irregularities of the source; every one is machine-checked against the underlying
+           text before it is published. Open any card to read the passage it summarises, or
+           follow the link to the full entry it was cut from.`}
       </p>
 
       {grouped.map(group => (
@@ -154,7 +178,15 @@ export default function MentionCards({ cards }: Props) {
                     )}
                   </div>
 
-                  <p className="mention-card-context">{card.context}</p>
+                  <p className="mention-card-context">
+                    {card.context}
+                    {card.context_derived && (
+                      <span className="mention-card-derived"
+                            title="Summarised from the sweep, not editorially written">
+                        {' '}· derived
+                      </span>
+                    )}
+                  </p>
 
                   <blockquote className="mention-card-pith">
                     <p>{card.pith}</p>
