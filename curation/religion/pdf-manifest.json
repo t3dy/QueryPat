@@ -1,0 +1,20 @@
+{
+  "generator": "scripts/research/ingest_pdfs.py",
+  "documents": [
+    {
+      "doc_id": "PDF_MAZE_NOTES",
+      "file": "database/source_pdfs/Maze notes.pdf",
+      "text_file": "pdf-text/PDF_MAZE_NOTES.txt",
+      "pages": 16,
+      "text_chars": 26427,
+      "pages_ocred": [],
+      "pages_needing_ocr": [],
+      "extracted_utc": "2026-10-20T18:15:03+00:00",
+      "title": "Maze notes",
+      "doc_type": "notes",
+      "lane": "D",
+      "lane_assigned": false
+    }
+  ],
+  "updated_utc": "2026-10-20T18:15:03+00:00"
+}

@@ -4,6 +4,13 @@
   "study_description": "A corpus-wide survey of Christian, Gnostic, mystical, apocalyptic, and comparative-religion motifs across Philip K. Dick's novels and short stories.",
   "featured_sections": [
     {
+      "title": "How to browse",
+      "body": [
+        "Choose a tradition, then a subsection. Each finding shows the sentence it was cut from, the record it belongs to, its date and its lane. Lane A is Dick's own words; lane C is scholarship. A finding can belong to several subsections, and its tags link it to each of them.",
+        "Editorial status is shown on every finding. Relevance follows the Burroughs codes: 1 direct engagement, 2 used as a tool or dramatised, 3 passing mention, 4 thematic parallel, 5 false positive. Unreviewed findings are the sweep's output, not a judgement."
+      ]
+    },
+    {
       "title": "Religion in PKD's fiction",
       "body": [
         "Philip K. Dick's fiction keeps returning to the same religious pressure points: false worlds, hidden rulers, saving interventions, and the question of whether reality is a prison, a revelation, or both at once. Early novels such as Eye in the Sky and The Man in the High Castle already treat reality as spiritually unstable; later books like The Three Stigmata of Palmer Eldritch, Ubik, and A Maze of Death turn salvation into a battle over counterfeit transcendence; the late VALIS novels make theology explicit and autobiographical.",
@@ -35,6 +42,549 @@
         "Mysticism",
         "Apocalypse",
         "Third Eye"
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_christianity",
+      "canonical_name": "Christianity",
+      "slug": "christianity",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "Christ, Paul and the early church, the apocalypse, the Church and Rome, and the Bible as scripture. Dick’s Christianity is the frame for most of his late theology, and the most heavily mentioned tradition in the Exegesis.",
+      "passage_count": 7424,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 7415,
+        "B": 0,
+        "C": 9,
+        "D": 11544
+      },
+      "related_topics": [
+        "gnosticism",
+        "judaism",
+        "logos"
+      ],
+      "mention_count": 7424,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "christology",
+          "label": "Christ and Jesus",
+          "browse_count": 3691
+        },
+        {
+          "subsection_id": "pauline-acts",
+          "label": "Paul, Acts and the early church",
+          "browse_count": 1851
+        },
+        {
+          "subsection_id": "apocalypse",
+          "label": "Apocalypse and the Second Advent",
+          "browse_count": 513
+        },
+        {
+          "subsection_id": "church-rome",
+          "label": "The Church and Rome",
+          "browse_count": 804
+        },
+        {
+          "subsection_id": "scripture",
+          "label": "Scripture and the Bible",
+          "browse_count": 565
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_gnosticism",
+      "canonical_name": "Gnosticism",
+      "slug": "gnosticism",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "Dick called himself a Gnostic. The Gnostic study is at /studies/gnosticism; this topic indexes every mention by subsection, so the Gnostic material is reachable from the religion study as well.",
+      "passage_count": 2981,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 2950,
+        "B": 0,
+        "C": 31,
+        "D": 5412
+      },
+      "related_topics": [
+        "christianity",
+        "platonism",
+        "logos",
+        "zoroastrianism"
+      ],
+      "mention_count": 2981,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "sophia",
+          "label": "Sophia, Wisdom and the Holy Wisdom",
+          "browse_count": 1001
+        },
+        {
+          "subsection_id": "demiurge",
+          "label": "The Demiurge and the blind creator",
+          "browse_count": 107
+        },
+        {
+          "subsection_id": "anamnesis",
+          "label": "Anamnesis and recollection",
+          "browse_count": 991
+        },
+        {
+          "subsection_id": "gnostic-texts",
+          "label": "Gnostic texts",
+          "browse_count": 30
+        },
+        {
+          "subsection_id": "gnostic-general",
+          "label": "Gnostic (general)",
+          "browse_count": 852
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_zoroastrianism",
+      "canonical_name": "Zoroastrianism and Mazdaism",
+      "slug": "zoroastrianism",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "The Persian religion of light and darkness, and the traditions Dick took from it: dualism, Manichaeism and Mithraism.",
+      "passage_count": 312,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 309,
+        "B": 0,
+        "C": 3,
+        "D": 674
+      },
+      "related_topics": [
+        "gnosticism",
+        "christianity",
+        "mysticism"
+      ],
+      "mention_count": 312,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "zoroaster",
+          "label": "Zoroaster and Mazdaism",
+          "browse_count": 191
+        },
+        {
+          "subsection_id": "dualism-manichaeism",
+          "label": "Dualism and Manichaeism",
+          "browse_count": 119
+        },
+        {
+          "subsection_id": "mithraism",
+          "label": "Mithraism and the mysteries of light",
+          "browse_count": 2
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_judaism",
+      "canonical_name": "Judaism and the Torah",
+      "slug": "judaism",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "The Torah as law, as living text, and as the informational basis of reality; the Essenes and Qumran; and the Hebrew prophets Dick read as his own precursors.",
+      "passage_count": 935,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 934,
+        "B": 0,
+        "C": 1,
+        "D": 1384
+      },
+      "related_topics": [
+        "christianity",
+        "kabbalah"
+      ],
+      "mention_count": 935,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "torah",
+          "label": "The Torah",
+          "browse_count": 440
+        },
+        {
+          "subsection_id": "essenes-qumran",
+          "label": "Essenes and Qumran",
+          "browse_count": 89
+        },
+        {
+          "subsection_id": "hebrew-prophets",
+          "label": "Prophets: Elijah, Malachi, Daniel",
+          "browse_count": 406
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_kabbalah",
+      "canonical_name": "Kabbalah",
+      "slug": "kabbalah",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "The Jewish mystical tradition as Dick knew it: the Kabbalah, the sefirot and the Zohar, which he reads beside his own 1974 experience.",
+      "passage_count": 111,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 111,
+        "B": 0,
+        "C": 0,
+        "D": 297
+      },
+      "related_topics": [
+        "judaism",
+        "logos",
+        "mysticism"
+      ],
+      "mention_count": 111,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "kabbalah-general",
+          "label": "Kabbalah (general)",
+          "browse_count": 32
+        },
+        {
+          "subsection_id": "sefirot",
+          "label": "Sefirot, Malkuth and the Tree of Life",
+          "browse_count": 33
+        },
+        {
+          "subsection_id": "zohar",
+          "label": "The Zohar",
+          "browse_count": 46
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_logos",
+      "canonical_name": "Logos",
+      "slug": "logos",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "The Word: the Logos of the Fourth Gospel, Greek philosophy’s rational principle, and Dick’s identification of the Logos with information and with VALIS.",
+      "passage_count": 981,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 981,
+        "B": 0,
+        "C": 0,
+        "D": 1778
+      },
+      "related_topics": [
+        "christianity",
+        "kabbalah",
+        "gnosticism"
+      ],
+      "mention_count": 981,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "logos-word",
+          "label": "The Logos as Word and reason",
+          "browse_count": 913
+        },
+        {
+          "subsection_id": "logos-information",
+          "label": "The Logos as information",
+          "browse_count": 68
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_mercerism",
+      "canonical_name": "Mercerism",
+      "slug": "mercerism",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "Mercer and Mercerism in Do Androids Dream of Electric Sheep?: the empathy box, the fusion with Wilbur Mercer, and the religion of shared suffering that Dick returned to.",
+      "passage_count": 119,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 119,
+        "B": 0,
+        "C": 0,
+        "D": 221
+      },
+      "related_topics": [
+        "christianity",
+        "mysticism"
+      ],
+      "mention_count": 119,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "mercer-figure",
+          "label": "Wilbur Mercer",
+          "browse_count": 11
+        },
+        {
+          "subsection_id": "mercerism-religion",
+          "label": "Mercerism as religion",
+          "browse_count": 108
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_platonism",
+      "canonical_name": "Platonism, Neoplatonism and Hermeticism",
+      "slug": "platonism",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "Plato’s recollection and the Timaeus, Pythagoras, the Neoplatonists, and the Hermetic writings Dick cites beside his own experience.",
+      "passage_count": 1553,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 1543,
+        "B": 0,
+        "C": 10,
+        "D": 2102
+      },
+      "related_topics": [
+        "gnosticism",
+        "logos",
+        "mystery-religions"
+      ],
+      "mention_count": 1553,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "plato-pythagoras",
+          "label": "Plato and Pythagoras",
+          "browse_count": 1046
+        },
+        {
+          "subsection_id": "neoplatonism",
+          "label": "Plotinus and the Neoplatonists",
+          "browse_count": 325
+        },
+        {
+          "subsection_id": "hermetic",
+          "label": "Hermetic writings",
+          "browse_count": 182
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_mystery-religions",
+      "canonical_name": "Mystery religions",
+      "slug": "mystery-religions",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "Dionysus and Zagreus, the Bacchae, and the Greek mysteries Dick set beside the Gospels.",
+      "passage_count": 517,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 517,
+        "B": 0,
+        "C": 0,
+        "D": 672
+      },
+      "related_topics": [
+        "platonism",
+        "christianity"
+      ],
+      "mention_count": 517,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "dionysus-zagreus",
+          "label": "Dionysus, Zagreus and the Bacchae",
+          "browse_count": 348
+        },
+        {
+          "subsection_id": "eleusis-orphism",
+          "label": "Eleusis and Orphism",
+          "browse_count": 169
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_mysticism",
+      "canonical_name": "Mysticism and altered states",
+      "slug": "mysticism",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "The mystical experience Dick describes as the origin of his theology, and the traditions he compares it with.",
+      "passage_count": 315,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 300,
+        "B": 0,
+        "C": 15,
+        "D": 1185
+      },
+      "related_topics": [
+        "kabbalah",
+        "christianity",
+        "hinduism"
+      ],
+      "mention_count": 315,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "mystical-experience",
+          "label": "Mystical experience",
+          "browse_count": 315
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_buddhism",
+      "canonical_name": "Buddhism",
+      "slug": "buddhism",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "Buddhism in Dick’s reading: the Bardo Thodol, Tibetan Buddhism, and the Buddhist idealist tradition.",
+      "passage_count": 345,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 345,
+        "B": 0,
+        "C": 0,
+        "D": 677
+      },
+      "related_topics": [
+        "hinduism",
+        "taoism",
+        "mysticism"
+      ],
+      "mention_count": 345,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "buddhism-general",
+          "label": "Buddhism and the Bardo",
+          "browse_count": 345
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_hinduism",
+      "canonical_name": "Hinduism and Vedanta",
+      "slug": "hinduism",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "Brahman and the Upanishads, the deities Dick names, and the Vedanta he read beside Christianity.",
+      "passage_count": 455,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 455,
+        "B": 0,
+        "C": 0,
+        "D": 717
+      },
+      "related_topics": [
+        "buddhism",
+        "mysticism"
+      ],
+      "mention_count": 455,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "vedanta-brahman",
+          "label": "Brahman, Atman and the Upanishads",
+          "browse_count": 313
+        },
+        {
+          "subsection_id": "deities",
+          "label": "Hindu deities",
+          "browse_count": 142
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_taoism",
+      "canonical_name": "Taoism",
+      "slug": "taoism",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "The Tao and the Taoist writers Dick read beside the Gnostic and Christian material.",
+      "passage_count": 220,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 218,
+        "B": 0,
+        "C": 2,
+        "D": 265
+      },
+      "related_topics": [
+        "buddhism",
+        "hinduism"
+      ],
+      "mention_count": 220,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "tao",
+          "label": "The Tao",
+          "browse_count": 220
+        }
+      ]
+    },
+    {
+      "topic_id": "TOPIC_REL_islam",
+      "canonical_name": "Islam",
+      "slug": "islam",
+      "status": "mapped",
+      "priority": 0,
+      "card_description": "The Quran, Islam and Sufism, mentioned in the Exegesis and in The Divine Invasion.",
+      "passage_count": 38,
+      "evidence_count": 0,
+      "contradiction_count": 0,
+      "first_appearance": "1970s",
+      "lane_distribution": {
+        "A": 38,
+        "B": 0,
+        "C": 0,
+        "D": 24
+      },
+      "related_topics": [
+        "christianity",
+        "mysticism"
+      ],
+      "mention_count": 38,
+      "section_count": 0,
+      "subsections": [
+        {
+          "subsection_id": "islam-general",
+          "label": "Islam and Sufism",
+          "browse_count": 38
+        }
       ]
     }
   ]

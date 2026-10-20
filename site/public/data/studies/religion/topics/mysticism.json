@@ -1,0 +1,76 @@
+{
+  "topic_id": "TOPIC_REL_mysticism",
+  "study_id": "religion",
+  "canonical_name": "Mysticism and altered states",
+  "slug": "mysticism",
+  "status": "mapped",
+  "provenance": "corpus_sweep_with_editorial_review",
+  "definition": "The mystical experience Dick describes as the origin of his theology, and the traditions he compares it with.",
+  "pkd_relevance": null,
+  "in_the_fiction": null,
+  "in_the_exegesis": null,
+  "intellectual_background": null,
+  "scholarly_debate": null,
+  "chronology_summary": null,
+  "contradictions_summary": null,
+  "related_thinkers": [],
+  "editorial_notes": "Every mention is listed by subsection, with its lane, date and editorial status. Interpretive prose for this tradition is not yet written; see the subsections for the material.",
+  "open_questions": [],
+  "passage_count": 315,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": "1970s",
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
+  "mention_groups": null,
+  "subsections": [
+    {
+      "subsection_id": "mystical-experience",
+      "label": "Mystical experience",
+      "description": "Mystical, ecstatic and illuminative language used of his own 1974 experience and of other traditions.",
+      "browse_count": 315,
+      "lanes": {
+        "A": 300,
+        "C": 15,
+        "D": 1185
+      },
+      "decades": {
+        "1970s": 215,
+        "1980s": 86,
+        "1990s": 2,
+        "2000s": 4,
+        "2010s": 6
+      },
+      "reviewed": 0,
+      "excluded": 0
+    }
+  ],
+  "evidence_packets": [],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_REL_kabbalah",
+      "canonical_name": "Kabbalah",
+      "slug": "kabbalah",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_christianity",
+      "canonical_name": "Christianity",
+      "slug": "christianity",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_hinduism",
+      "canonical_name": "Hinduism and Vedanta",
+      "slug": "hinduism",
+      "study_id": "religion"
+    }
+  ]
+}

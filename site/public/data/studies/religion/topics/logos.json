@@ -1,0 +1,88 @@
+{
+  "topic_id": "TOPIC_REL_logos",
+  "study_id": "religion",
+  "canonical_name": "Logos",
+  "slug": "logos",
+  "status": "mapped",
+  "provenance": "corpus_sweep_with_editorial_review",
+  "definition": "The Word: the Logos of the Fourth Gospel, Greek philosophy’s rational principle, and Dick’s identification of the Logos with information and with VALIS.",
+  "pkd_relevance": null,
+  "in_the_fiction": null,
+  "in_the_exegesis": null,
+  "intellectual_background": null,
+  "scholarly_debate": null,
+  "chronology_summary": null,
+  "contradictions_summary": null,
+  "related_thinkers": [],
+  "editorial_notes": "Every mention is listed by subsection, with its lane, date and editorial status. Interpretive prose for this tradition is not yet written; see the subsections for the material.",
+  "open_questions": [],
+  "passage_count": 981,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": "1970s",
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
+  "mention_groups": null,
+  "subsections": [
+    {
+      "subsection_id": "logos-word",
+      "label": "The Logos as Word and reason",
+      "description": "The Logos as the Word of John 1, the rational structure of the cosmos, and the Greek term.",
+      "browse_count": 913,
+      "lanes": {
+        "A": 913,
+        "D": 1547
+      },
+      "decades": {
+        "1970s": 649,
+        "1980s": 264
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "logos-information",
+      "label": "The Logos as information",
+      "description": "Where Dick identifies the Logos with information, the living information that VALIS is, and the Torah as the same.",
+      "browse_count": 68,
+      "lanes": {
+        "A": 68,
+        "D": 231
+      },
+      "decades": {
+        "1970s": 48,
+        "1980s": 20
+      },
+      "reviewed": 0,
+      "excluded": 0
+    }
+  ],
+  "evidence_packets": [],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_REL_christianity",
+      "canonical_name": "Christianity",
+      "slug": "christianity",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_kabbalah",
+      "canonical_name": "Kabbalah",
+      "slug": "kabbalah",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_gnosticism",
+      "canonical_name": "Gnosticism",
+      "slug": "gnosticism",
+      "study_id": "religion"
+    }
+  ]
+}

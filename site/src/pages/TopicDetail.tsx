@@ -52,7 +52,18 @@ interface RelatedTopic {
   study_id: string
 }
 
+interface TopicSubsection {
+  subsection_id: string
+  label: string
+  description: string | null
+  browse_count: number
+  lanes: Record<string, number>
+  reviewed: number
+  excluded: number
+}
+
 interface TopicData {
+  subsections?: TopicSubsection[]
   topic_id: string
   study_id: string
   canonical_name: string
@@ -135,6 +146,24 @@ export default function TopicDetail() {
           )}
         </div>
       </div>
+
+      {topic.subsections && topic.subsections.length > 0 && (
+        <div className="detail-section">
+          <h2>Subsections</h2>
+          {topic.subsections.map(sub => (
+            <p key={sub.subsection_id} style={{ fontSize: '0.95rem', lineHeight: 1.6 }}>
+              <Link to={`/studies/${topic.study_id}/browse?topic=${topic.slug}&sub=${sub.subsection_id}`}
+                    className="entity-linked">
+                {sub.label}
+              </Link>{' '}
+              <span className="card-meta">
+                {sub.browse_count} findings · {sub.lanes?.A ?? 0} in PKD's words · {sub.reviewed} reviewed
+              </span>
+              {sub.description && <><br />{sub.description}</>}
+            </p>
+          ))}
+        </div>
+      )}
 
       {/* Authored dossier: an ordered essay, when the topic has one. */}
       {topic.dossier_sections && topic.dossier_sections.length > 0 && (
@@ -265,7 +294,7 @@ export default function TopicDetail() {
       )}
 
       {/* Every mention, card by card — below the essay and the machinery */}
-      <MentionCards
+      {(topic.mention_cards || []).length > 0 && <MentionCards
         cards={topic.mention_cards || []}
         groups={topic.mention_groups}
         heading={topic.mention_groups ? 'The passages, one by one' : undefined}
@@ -280,6 +309,7 @@ export default function TopicDetail() {
             : undefined
         }
       />
+      }
 
       {/* Related topics */}
       {topic.related_topics && topic.related_topics.length > 0 && (

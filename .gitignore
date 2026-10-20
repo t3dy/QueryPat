@@ -60,3 +60,5 @@ archive/snapshots/.*_db/
 
 # One-commit bypass for the data-loss guard; never commit it
 .allow-data-loss
+curation/religion/raw-findings.json
+curation/religion/religion.sqlite

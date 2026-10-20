@@ -1,0 +1,104 @@
+{
+  "topic_id": "TOPIC_REL_kabbalah",
+  "study_id": "religion",
+  "canonical_name": "Kabbalah",
+  "slug": "kabbalah",
+  "status": "mapped",
+  "provenance": "corpus_sweep_with_editorial_review",
+  "definition": "The Jewish mystical tradition as Dick knew it: the Kabbalah, the sefirot and the Zohar, which he reads beside his own 1974 experience.",
+  "pkd_relevance": null,
+  "in_the_fiction": null,
+  "in_the_exegesis": null,
+  "intellectual_background": null,
+  "scholarly_debate": null,
+  "chronology_summary": null,
+  "contradictions_summary": null,
+  "related_thinkers": [],
+  "editorial_notes": "Every mention is listed by subsection, with its lane, date and editorial status. Interpretive prose for this tradition is not yet written; see the subsections for the material.",
+  "open_questions": [],
+  "passage_count": 111,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": "1970s",
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
+  "mention_groups": null,
+  "subsections": [
+    {
+      "subsection_id": "kabbalah-general",
+      "label": "Kabbalah (general)",
+      "description": "Dick’s uses of Kabbalah, Cabbala and Qabalah.",
+      "browse_count": 32,
+      "lanes": {
+        "A": 32,
+        "D": 121
+      },
+      "decades": {
+        "1970s": 30,
+        "1980s": 2
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "sefirot",
+      "label": "Sefirot, Malkuth and the Tree of Life",
+      "description": "The ten sefirot, the lowest of them Malkuth, and the Tree of Life that carries them.",
+      "browse_count": 33,
+      "lanes": {
+        "A": 33,
+        "D": 65
+      },
+      "decades": {
+        "1970s": 28,
+        "1980s": 5
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "zohar",
+      "label": "The Zohar",
+      "description": "The Zohar as the book of the Kabbalah, and its figures such as the Shekhinah and the maiden Torah.",
+      "browse_count": 46,
+      "lanes": {
+        "A": 46,
+        "D": 111
+      },
+      "decades": {
+        "1970s": 45,
+        "1980s": 1
+      },
+      "reviewed": 0,
+      "excluded": 0
+    }
+  ],
+  "evidence_packets": [],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_REL_judaism",
+      "canonical_name": "Judaism and the Torah",
+      "slug": "judaism",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_logos",
+      "canonical_name": "Logos",
+      "slug": "logos",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_mysticism",
+      "canonical_name": "Mysticism and altered states",
+      "slug": "mysticism",
+      "study_id": "religion"
+    }
+  ]
+}

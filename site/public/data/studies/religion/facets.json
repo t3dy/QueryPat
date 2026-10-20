@@ -1,0 +1,540 @@
+{
+ "subsections": {
+  "christology": {
+   "topic_id": "christianity",
+   "label": "Christ and Jesus",
+   "lanes": {
+    "A": 3689,
+    "C": 2,
+    "D": 4880
+   },
+   "decades": {
+    "1970s": 2658,
+    "1980s": 1031
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 3691
+  },
+  "pauline-acts": {
+   "topic_id": "christianity",
+   "label": "Paul, Acts and the early church",
+   "lanes": {
+    "A": 1845,
+    "C": 6,
+    "D": 2893
+   },
+   "decades": {
+    "1970s": 1551,
+    "1980s": 291,
+    "2000s": 2,
+    "2010s": 1
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 1851
+  },
+  "apocalypse": {
+   "topic_id": "christianity",
+   "label": "Apocalypse and the Second Advent",
+   "lanes": {
+    "A": 512,
+    "C": 1,
+    "D": 1370
+   },
+   "decades": {
+    "1970s": 374,
+    "1980s": 138
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 513
+  },
+  "church-rome": {
+   "topic_id": "christianity",
+   "label": "The Church and Rome",
+   "lanes": {
+    "A": 804,
+    "D": 986
+   },
+   "decades": {
+    "1970s": 695,
+    "1980s": 107
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 804
+  },
+  "scripture": {
+   "topic_id": "christianity",
+   "label": "Scripture and the Bible",
+   "lanes": {
+    "A": 565,
+    "D": 1415
+   },
+   "decades": {
+    "1970s": 388,
+    "1980s": 175
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 565
+  },
+  "sophia": {
+   "topic_id": "gnosticism",
+   "label": "Sophia, Wisdom and the Holy Wisdom",
+   "lanes": {
+    "A": 1001,
+    "D": 1507
+   },
+   "decades": {
+    "1970s": 806,
+    "1980s": 195
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 1001
+  },
+  "demiurge": {
+   "topic_id": "gnosticism",
+   "label": "The Demiurge and the blind creator",
+   "lanes": {
+    "A": 106,
+    "C": 1,
+    "D": 318
+   },
+   "decades": {
+    "1970s": 84,
+    "1980s": 22,
+    "2010s": 1
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 107
+  },
+  "anamnesis": {
+   "topic_id": "gnosticism",
+   "label": "Anamnesis and recollection",
+   "lanes": {
+    "A": 991,
+    "D": 1695
+   },
+   "decades": {
+    "1970s": 758,
+    "1980s": 232
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 991
+  },
+  "gnostic-texts": {
+   "topic_id": "gnosticism",
+   "label": "Gnostic texts",
+   "lanes": {
+    "A": 26,
+    "C": 4,
+    "D": 104
+   },
+   "decades": {
+    "1970s": 13,
+    "1980s": 13
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 30
+  },
+  "gnostic-general": {
+   "topic_id": "gnosticism",
+   "label": "Gnostic (general)",
+   "lanes": {
+    "A": 826,
+    "C": 26,
+    "D": 1788
+   },
+   "decades": {
+    "1970s": 585,
+    "1980s": 241,
+    "2000s": 4,
+    "2010s": 11,
+    "2020s": 2
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 852
+  },
+  "zoroaster": {
+   "topic_id": "zoroastrianism",
+   "label": "Zoroaster and Mazdaism",
+   "lanes": {
+    "A": 191,
+    "D": 239
+   },
+   "decades": {
+    "1970s": 160,
+    "1980s": 31
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 191
+  },
+  "dualism-manichaeism": {
+   "topic_id": "zoroastrianism",
+   "label": "Dualism and Manichaeism",
+   "lanes": {
+    "A": 116,
+    "C": 3,
+    "D": 429
+   },
+   "decades": {
+    "1970s": 70,
+    "1980s": 46,
+    "2000s": 2
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 119
+  },
+  "mithraism": {
+   "topic_id": "zoroastrianism",
+   "label": "Mithraism and the mysteries of light",
+   "lanes": {
+    "A": 2,
+    "D": 6
+   },
+   "decades": {
+    "1980s": 2
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 2
+  },
+  "torah": {
+   "topic_id": "judaism",
+   "label": "The Torah",
+   "lanes": {
+    "A": 440,
+    "D": 572
+   },
+   "decades": {
+    "1970s": 201,
+    "1980s": 239
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 440
+  },
+  "essenes-qumran": {
+   "topic_id": "judaism",
+   "label": "Essenes and Qumran",
+   "lanes": {
+    "A": 89,
+    "D": 146
+   },
+   "decades": {
+    "1970s": 81,
+    "1980s": 8
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 89
+  },
+  "hebrew-prophets": {
+   "topic_id": "judaism",
+   "label": "Prophets: Elijah, Malachi, Daniel",
+   "lanes": {
+    "A": 405,
+    "C": 1,
+    "D": 666
+   },
+   "decades": {
+    "1970s": 266,
+    "1980s": 139,
+    "2010s": 1
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 406
+  },
+  "kabbalah-general": {
+   "topic_id": "kabbalah",
+   "label": "Kabbalah (general)",
+   "lanes": {
+    "A": 32,
+    "D": 121
+   },
+   "decades": {
+    "1970s": 30,
+    "1980s": 2
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 32
+  },
+  "sefirot": {
+   "topic_id": "kabbalah",
+   "label": "Sefirot, Malkuth and the Tree of Life",
+   "lanes": {
+    "A": 33,
+    "D": 65
+   },
+   "decades": {
+    "1970s": 28,
+    "1980s": 5
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 33
+  },
+  "zohar": {
+   "topic_id": "kabbalah",
+   "label": "The Zohar",
+   "lanes": {
+    "A": 46,
+    "D": 111
+   },
+   "decades": {
+    "1970s": 45,
+    "1980s": 1
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 46
+  },
+  "logos-word": {
+   "topic_id": "logos",
+   "label": "The Logos as Word and reason",
+   "lanes": {
+    "A": 913,
+    "D": 1547
+   },
+   "decades": {
+    "1970s": 649,
+    "1980s": 264
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 913
+  },
+  "logos-information": {
+   "topic_id": "logos",
+   "label": "The Logos as information",
+   "lanes": {
+    "A": 68,
+    "D": 231
+   },
+   "decades": {
+    "1970s": 48,
+    "1980s": 20
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 68
+  },
+  "mercer-figure": {
+   "topic_id": "mercerism",
+   "label": "Wilbur Mercer",
+   "lanes": {
+    "A": 11,
+    "D": 15
+   },
+   "decades": {
+    "1970s": 5,
+    "1980s": 6
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 11
+  },
+  "mercerism-religion": {
+   "topic_id": "mercerism",
+   "label": "Mercerism as religion",
+   "lanes": {
+    "A": 108,
+    "D": 206
+   },
+   "decades": {
+    "1970s": 77,
+    "1980s": 31
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 108
+  },
+  "plato-pythagoras": {
+   "topic_id": "platonism",
+   "label": "Plato and Pythagoras",
+   "lanes": {
+    "A": 1042,
+    "C": 4,
+    "D": 1457
+   },
+   "decades": {
+    "1970s": 758,
+    "1980s": 286,
+    "2010s": 2
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 1046
+  },
+  "neoplatonism": {
+   "topic_id": "platonism",
+   "label": "Plotinus and the Neoplatonists",
+   "lanes": {
+    "A": 324,
+    "C": 1,
+    "D": 410
+   },
+   "decades": {
+    "1970s": 217,
+    "1980s": 107
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 325
+  },
+  "hermetic": {
+   "topic_id": "platonism",
+   "label": "Hermetic writings",
+   "lanes": {
+    "A": 177,
+    "C": 5,
+    "D": 235
+   },
+   "decades": {
+    "1970s": 147,
+    "1980s": 30,
+    "2000s": 2
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 182
+  },
+  "dionysus-zagreus": {
+   "topic_id": "mystery-religions",
+   "label": "Dionysus, Zagreus and the Bacchae",
+   "lanes": {
+    "A": 348,
+    "D": 479
+   },
+   "decades": {
+    "1970s": 281,
+    "1980s": 67
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 348
+  },
+  "eleusis-orphism": {
+   "topic_id": "mystery-religions",
+   "label": "Eleusis and Orphism",
+   "lanes": {
+    "A": 169,
+    "D": 193
+   },
+   "decades": {
+    "1970s": 128,
+    "1980s": 41
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 169
+  },
+  "mystical-experience": {
+   "topic_id": "mysticism",
+   "label": "Mystical experience",
+   "lanes": {
+    "A": 300,
+    "C": 15,
+    "D": 1185
+   },
+   "decades": {
+    "1970s": 215,
+    "1980s": 86,
+    "1990s": 2,
+    "2000s": 4,
+    "2010s": 6
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 315
+  },
+  "buddhism-general": {
+   "topic_id": "buddhism",
+   "label": "Buddhism and the Bardo",
+   "lanes": {
+    "A": 345,
+    "D": 677
+   },
+   "decades": {
+    "1970s": 238,
+    "1980s": 107
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 345
+  },
+  "vedanta-brahman": {
+   "topic_id": "hinduism",
+   "label": "Brahman, Atman and the Upanishads",
+   "lanes": {
+    "A": 313,
+    "D": 568
+   },
+   "decades": {
+    "1970s": 236,
+    "1980s": 77
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 313
+  },
+  "deities": {
+   "topic_id": "hinduism",
+   "label": "Hindu deities",
+   "lanes": {
+    "A": 142,
+    "D": 149
+   },
+   "decades": {
+    "1970s": 97,
+    "1980s": 45
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 142
+  },
+  "tao": {
+   "topic_id": "taoism",
+   "label": "The Tao",
+   "lanes": {
+    "A": 218,
+    "C": 2,
+    "D": 265
+   },
+   "decades": {
+    "1970s": 152,
+    "1980s": 68
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 220
+  },
+  "islam-general": {
+   "topic_id": "islam",
+   "label": "Islam and Sufism",
+   "lanes": {
+    "A": 38,
+    "D": 24
+   },
+   "decades": {
+    "1970s": 18,
+    "1980s": 20
+   },
+   "reviewed": 0,
+   "excluded": 0,
+   "browse_count": 38
+  }
+ },
+ "generated_from": "curation/religion/religion.sqlite"
+}

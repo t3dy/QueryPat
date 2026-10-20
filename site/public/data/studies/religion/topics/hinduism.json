@@ -1,0 +1,82 @@
+{
+  "topic_id": "TOPIC_REL_hinduism",
+  "study_id": "religion",
+  "canonical_name": "Hinduism and Vedanta",
+  "slug": "hinduism",
+  "status": "mapped",
+  "provenance": "corpus_sweep_with_editorial_review",
+  "definition": "Brahman and the Upanishads, the deities Dick names, and the Vedanta he read beside Christianity.",
+  "pkd_relevance": null,
+  "in_the_fiction": null,
+  "in_the_exegesis": null,
+  "intellectual_background": null,
+  "scholarly_debate": null,
+  "chronology_summary": null,
+  "contradictions_summary": null,
+  "related_thinkers": [],
+  "editorial_notes": "Every mention is listed by subsection, with its lane, date and editorial status. Interpretive prose for this tradition is not yet written; see the subsections for the material.",
+  "open_questions": [],
+  "passage_count": 455,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": "1970s",
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
+  "mention_groups": null,
+  "subsections": [
+    {
+      "subsection_id": "vedanta-brahman",
+      "label": "Brahman, Atman and the Upanishads",
+      "description": "The metaphysics of Vedanta as Dick encountered it.",
+      "browse_count": 313,
+      "lanes": {
+        "A": 313,
+        "D": 568
+      },
+      "decades": {
+        "1970s": 236,
+        "1980s": 77
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "deities",
+      "label": "Hindu deities",
+      "description": "Shiva, Vishnu, Krishna and the other deities he names as figures for the same reality as Christ.",
+      "browse_count": 142,
+      "lanes": {
+        "A": 142,
+        "D": 149
+      },
+      "decades": {
+        "1970s": 97,
+        "1980s": 45
+      },
+      "reviewed": 0,
+      "excluded": 0
+    }
+  ],
+  "evidence_packets": [],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_REL_buddhism",
+      "canonical_name": "Buddhism",
+      "slug": "buddhism",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_mysticism",
+      "canonical_name": "Mysticism and altered states",
+      "slug": "mysticism",
+      "study_id": "religion"
+    }
+  ]
+}

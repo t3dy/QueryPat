@@ -1,0 +1,149 @@
+{
+  "topic_id": "TOPIC_REL_gnosticism",
+  "study_id": "religion",
+  "canonical_name": "Gnosticism",
+  "slug": "gnosticism",
+  "status": "mapped",
+  "provenance": "corpus_sweep_with_editorial_review",
+  "definition": "Dick called himself a Gnostic. The Gnostic study is at /studies/gnosticism; this topic indexes every mention by subsection, so the Gnostic material is reachable from the religion study as well.",
+  "pkd_relevance": null,
+  "in_the_fiction": null,
+  "in_the_exegesis": null,
+  "intellectual_background": null,
+  "scholarly_debate": null,
+  "chronology_summary": null,
+  "contradictions_summary": null,
+  "related_thinkers": [],
+  "editorial_notes": "Every mention is listed by subsection, with its lane, date and editorial status. Interpretive prose for this tradition is not yet written; see the subsections for the material.",
+  "open_questions": [],
+  "passage_count": 2981,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": "1970s",
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
+  "mention_groups": null,
+  "subsections": [
+    {
+      "subsection_id": "sophia",
+      "label": "Sophia, Wisdom and the Holy Wisdom",
+      "description": "Sophia as the fallen or redeeming feminine principle, and Hagia Sophia as the Holy Wisdom in his theology.",
+      "browse_count": 1001,
+      "lanes": {
+        "A": 1001,
+        "D": 1507
+      },
+      "decades": {
+        "1970s": 806,
+        "1980s": 195
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "demiurge",
+      "label": "The Demiurge and the blind creator",
+      "description": "The creator-god as ignorant or blind subordinate: Yaldabaoth, Ialdabaoth, Samael, the demiurge.",
+      "browse_count": 107,
+      "lanes": {
+        "A": 106,
+        "C": 1,
+        "D": 318
+      },
+      "decades": {
+        "1970s": 84,
+        "1980s": 22,
+        "2010s": 1
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "anamnesis",
+      "label": "Anamnesis and recollection",
+      "description": "Recollection of a true state before the fall, which Dick takes from Plato and from Gnostic texts.",
+      "browse_count": 991,
+      "lanes": {
+        "A": 991,
+        "D": 1695
+      },
+      "decades": {
+        "1970s": 758,
+        "1980s": 232
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "gnostic-texts",
+      "label": "Gnostic texts",
+      "description": "The Gospel of Thomas, the Hymn of the Pearl, the Pistis Sophia and the Nag Hammadi library, as Dick knew them.",
+      "browse_count": 30,
+      "lanes": {
+        "A": 26,
+        "C": 4,
+        "D": 104
+      },
+      "decades": {
+        "1970s": 13,
+        "1980s": 13
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "gnostic-general",
+      "label": "Gnostic (general)",
+      "description": "Dick’s own uses of the words Gnostic and Gnosticism, without a specific doctrine or text.",
+      "browse_count": 852,
+      "lanes": {
+        "A": 826,
+        "C": 26,
+        "D": 1788
+      },
+      "decades": {
+        "1970s": 585,
+        "1980s": 241,
+        "2000s": 4,
+        "2010s": 11,
+        "2020s": 2
+      },
+      "reviewed": 0,
+      "excluded": 0
+    }
+  ],
+  "evidence_packets": [],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_REL_christianity",
+      "canonical_name": "Christianity",
+      "slug": "christianity",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_platonism",
+      "canonical_name": "Platonism, Neoplatonism and Hermeticism",
+      "slug": "platonism",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_logos",
+      "canonical_name": "Logos",
+      "slug": "logos",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_zoroastrianism",
+      "canonical_name": "Zoroastrianism and Mazdaism",
+      "slug": "zoroastrianism",
+      "study_id": "religion"
+    }
+  ]
+}

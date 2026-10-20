@@ -1,0 +1,82 @@
+{
+  "topic_id": "TOPIC_REL_mercerism",
+  "study_id": "religion",
+  "canonical_name": "Mercerism",
+  "slug": "mercerism",
+  "status": "mapped",
+  "provenance": "corpus_sweep_with_editorial_review",
+  "definition": "Mercer and Mercerism in Do Androids Dream of Electric Sheep?: the empathy box, the fusion with Wilbur Mercer, and the religion of shared suffering that Dick returned to.",
+  "pkd_relevance": null,
+  "in_the_fiction": null,
+  "in_the_exegesis": null,
+  "intellectual_background": null,
+  "scholarly_debate": null,
+  "chronology_summary": null,
+  "contradictions_summary": null,
+  "related_thinkers": [],
+  "editorial_notes": "Every mention is listed by subsection, with its lane, date and editorial status. Interpretive prose for this tradition is not yet written; see the subsections for the material.",
+  "open_questions": [],
+  "passage_count": 119,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": "1970s",
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
+  "mention_groups": null,
+  "subsections": [
+    {
+      "subsection_id": "mercer-figure",
+      "label": "Wilbur Mercer",
+      "description": "The figure of Mercer, his hill and his suffering, in the novel and in the notebooks.",
+      "browse_count": 11,
+      "lanes": {
+        "A": 11,
+        "D": 15
+      },
+      "decades": {
+        "1970s": 5,
+        "1980s": 6
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "mercerism-religion",
+      "label": "Mercerism as religion",
+      "description": "The empathy box and the fusion of many people into one experience, read as a religion.",
+      "browse_count": 108,
+      "lanes": {
+        "A": 108,
+        "D": 206
+      },
+      "decades": {
+        "1970s": 77,
+        "1980s": 31
+      },
+      "reviewed": 0,
+      "excluded": 0
+    }
+  ],
+  "evidence_packets": [],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_REL_christianity",
+      "canonical_name": "Christianity",
+      "slug": "christianity",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_mysticism",
+      "canonical_name": "Mysticism and altered states",
+      "slug": "mysticism",
+      "study_id": "religion"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "topic_id": "TOPIC_REL_platonism",
+  "study_id": "religion",
+  "canonical_name": "Platonism, Neoplatonism and Hermeticism",
+  "slug": "platonism",
+  "status": "mapped",
+  "provenance": "corpus_sweep_with_editorial_review",
+  "definition": "Plato’s recollection and the Timaeus, Pythagoras, the Neoplatonists, and the Hermetic writings Dick cites beside his own experience.",
+  "pkd_relevance": null,
+  "in_the_fiction": null,
+  "in_the_exegesis": null,
+  "intellectual_background": null,
+  "scholarly_debate": null,
+  "chronology_summary": null,
+  "contradictions_summary": null,
+  "related_thinkers": [],
+  "editorial_notes": "Every mention is listed by subsection, with its lane, date and editorial status. Interpretive prose for this tradition is not yet written; see the subsections for the material.",
+  "open_questions": [],
+  "passage_count": 1553,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": "1970s",
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
+  "mention_groups": null,
+  "subsections": [
+    {
+      "subsection_id": "plato-pythagoras",
+      "label": "Plato and Pythagoras",
+      "description": "Platonic forms, the Timaeus, and Pythagorean number and harmony.",
+      "browse_count": 1046,
+      "lanes": {
+        "A": 1042,
+        "C": 4,
+        "D": 1457
+      },
+      "decades": {
+        "1970s": 758,
+        "1980s": 286,
+        "2010s": 2
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "neoplatonism",
+      "label": "Plotinus and the Neoplatonists",
+      "description": "Plotinus, Proclus, Porphyry, and Philo of Alexandria as the bridge from Plato to Christian and Jewish mysticism.",
+      "browse_count": 325,
+      "lanes": {
+        "A": 324,
+        "C": 1,
+        "D": 410
+      },
+      "decades": {
+        "1970s": 217,
+        "1980s": 107
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "hermetic",
+      "label": "Hermetic writings",
+      "description": "Hermes Trismegistus, the Hermetica and Asklepios.",
+      "browse_count": 182,
+      "lanes": {
+        "A": 177,
+        "C": 5,
+        "D": 235
+      },
+      "decades": {
+        "1970s": 147,
+        "1980s": 30,
+        "2000s": 2
+      },
+      "reviewed": 0,
+      "excluded": 0
+    }
+  ],
+  "evidence_packets": [],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_REL_gnosticism",
+      "canonical_name": "Gnosticism",
+      "slug": "gnosticism",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_logos",
+      "canonical_name": "Logos",
+      "slug": "logos",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_mystery-religions",
+      "canonical_name": "Mystery religions",
+      "slug": "mystery-religions",
+      "study_id": "religion"
+    }
+  ]
+}

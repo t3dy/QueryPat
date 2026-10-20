@@ -1,0 +1,105 @@
+{
+  "topic_id": "TOPIC_REL_zoroastrianism",
+  "study_id": "religion",
+  "canonical_name": "Zoroastrianism and Mazdaism",
+  "slug": "zoroastrianism",
+  "status": "mapped",
+  "provenance": "corpus_sweep_with_editorial_review",
+  "definition": "The Persian religion of light and darkness, and the traditions Dick took from it: dualism, Manichaeism and Mithraism.",
+  "pkd_relevance": null,
+  "in_the_fiction": null,
+  "in_the_exegesis": null,
+  "intellectual_background": null,
+  "scholarly_debate": null,
+  "chronology_summary": null,
+  "contradictions_summary": null,
+  "related_thinkers": [],
+  "editorial_notes": "Every mention is listed by subsection, with its lane, date and editorial status. Interpretive prose for this tradition is not yet written; see the subsections for the material.",
+  "open_questions": [],
+  "passage_count": 312,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": "1970s",
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
+  "mention_groups": null,
+  "subsections": [
+    {
+      "subsection_id": "zoroaster",
+      "label": "Zoroaster and Mazdaism",
+      "description": "Zoroaster (Zarathustra), Ahura Mazda and the Persian tradition as Dick reads it.",
+      "browse_count": 191,
+      "lanes": {
+        "A": 191,
+        "D": 239
+      },
+      "decades": {
+        "1970s": 160,
+        "1980s": 31
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "dualism-manichaeism",
+      "label": "Dualism and Manichaeism",
+      "description": "Light against darkness as the structure of the world, and Mani’s system built on it.",
+      "browse_count": 119,
+      "lanes": {
+        "A": 116,
+        "C": 3,
+        "D": 429
+      },
+      "decades": {
+        "1970s": 70,
+        "1980s": 46,
+        "2000s": 2
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "mithraism",
+      "label": "Mithraism and the mysteries of light",
+      "description": "The Roman Mithras cult and its place in the Gnostic-Persian lineage Dick traces.",
+      "browse_count": 2,
+      "lanes": {
+        "A": 2,
+        "D": 6
+      },
+      "decades": {
+        "1980s": 2
+      },
+      "reviewed": 0,
+      "excluded": 0
+    }
+  ],
+  "evidence_packets": [],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_REL_gnosticism",
+      "canonical_name": "Gnosticism",
+      "slug": "gnosticism",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_christianity",
+      "canonical_name": "Christianity",
+      "slug": "christianity",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_mysticism",
+      "canonical_name": "Mysticism and altered states",
+      "slug": "mysticism",
+      "study_id": "religion"
+    }
+  ]
+}

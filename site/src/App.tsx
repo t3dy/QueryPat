@@ -36,6 +36,7 @@ import StudiesIndex from './pages/StudiesIndex'
 import StudyIndex from './pages/StudyIndex'
 import TopicDetail from './pages/TopicDetail'
 import GnosticLexicon from './pages/GnosticLexicon'
+import ReligionBrowse from './pages/ReligionBrowse'
 import ScenesIndex from './pages/ScenesIndex'
 import SceneDetail from './pages/SceneDetail'
 import Account from './pages/Account'
@@ -88,6 +89,7 @@ function App() {
           <Route path="studies/:studyId" element={<StudyIndex />} />
           <Route path="studies/:studyId/:slug" element={<TopicDetail />} />
           <Route path="studies/gnosticism/lexicon" element={<GnosticLexicon />} />
+          <Route path="studies/religion/browse" element={<ReligionBrowse />} />
           <Route path="studies/ai/scenes" element={<ScenesIndex />} />
           <Route path="studies/ai/scenes/:sceneId" element={<SceneDetail />} />
           <Route path="tag/:tagname" element={<TagResults />} />
