@@ -35,6 +35,7 @@ def main():
         'open_questions': d.OPEN_QUESTIONS,
         'browse': {
             'intro': d.BROWSE_INTRO,
+            'toc_label': d.TOC_LABEL,
             'groups': d.GROUPS,
             'facet_kinds': [{'kind': k, 'label': lbl} for k, lbl in d.FACET_KINDS],
             'facets': d.FACETS,

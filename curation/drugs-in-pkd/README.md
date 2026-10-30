@@ -99,3 +99,20 @@ findings use only the allowed values.
   appear through Dick's comments and criticism.
 - **Not used.** The machine-extracted `claims` rows and the lexicon topics
   `amphetamine-use` and `addiction`.
+
+## Pending frontend change
+
+`browse.toc_label` ("substance, novel & theme") is in the exported topic but not
+yet read: `TopicDetail.tsx` hardcodes "Browse all N passages by book & theme".
+`archive/2026-10-30/drafts/topicdetail-toc-label.patch` adds an optional
+`toc_label` to `BrowseConfig` and makes TopicDetail use it, falling back to the
+current wording, so the Bible and Burroughs pages are unchanged. It applies to
+origin/main at 56d867bd and builds. It was held back because TopicDetail.tsx and
+MentionCards.tsx were being merged by another session; apply it with
+`git apply` once that merge has landed.
+
+Reseeding deletes and reinserts this topic's passages and contradictions, so
+their database ids change. A re-export then differs from the committed file in
+every `passage_id` and `contradiction_id`, and the pre-commit guard reads that as
+content loss. For a change that does not touch passages (a browse key, a field),
+hand-place the change into the committed JSON instead of re-exporting it.

@@ -1,0 +1,26 @@
+diff --git a/site/src/components/studies/MentionCards.tsx b/site/src/components/studies/MentionCards.tsx
+index e23c8c9..600b247 100644
+--- a/site/src/components/studies/MentionCards.tsx
++++ b/site/src/components/studies/MentionCards.tsx
+@@ -61,6 +61,8 @@ export interface BrowseConfig {
+   facets: BrowseFacet[]
+   /** Related pages elsewhere in the portal, shown above the facet rows. */
+   see_also?: { label: string; to: string }[]
++  /** Ending of the contents link, "Browse all N passages by …". */
++  toc_label?: string
+ }
+ 
+ interface Props {
+diff --git a/site/src/pages/TopicDetail.tsx b/site/src/pages/TopicDetail.tsx
+index f8f1e4a..9efcf77 100644
+--- a/site/src/pages/TopicDetail.tsx
++++ b/site/src/pages/TopicDetail.tsx
+@@ -166,7 +166,7 @@ export default function TopicDetail() {
+             </a>
+           ))}
+           <a href="#mentions" onClick={jumpTo('mentions')} className="dossier-toc-strong">
+-            Browse all {topic.mention_cards?.length} passages by book &amp; theme
++            Browse all {topic.mention_cards?.length} passages by {topic.browse.toc_label ?? 'book & theme'}
+           </a>
+           {topic.contradictions?.length > 0 && (
+             <a href="#contradictions" onClick={jumpTo('contradictions')}>Contradictions</a>

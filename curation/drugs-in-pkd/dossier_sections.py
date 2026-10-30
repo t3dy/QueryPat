@@ -509,6 +509,11 @@ SEE_ALSO = [
     {'label': 'Burroughs and the Word Virus', 'to': '/studies/intertexts/burroughs-word-virus'},
 ]
 
+# Wording for the page's table-of-contents link ("Browse all N passages by ...").
+# Read by TopicDetail once the toc_label patch lands (see README); until then
+# the page shows its built-in "book & theme".
+TOC_LABEL = 'substance, novel & theme'
+
 BROWSE_INTRO = (
     "{n} passages in the archive turn on drugs. Each card summarises the whole "
     "passage and where it sits, then quotes the sentence it turns on; every "
