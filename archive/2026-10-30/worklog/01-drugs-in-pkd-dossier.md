@@ -154,3 +154,38 @@ the drug in Flow My Tears. All in OPEN_QUESTIONS.
 
 - `archive/2026-10-30/research/2026-10-30_drugs-raw-findings.json.gz` — strong
   tier of the sweep (5,285 findings).
+
+## Follow-up: the Amphetamine Use lexicon topic
+
+Read all 116 published passages of `psychology/amphetamine-use`. Seven are about
+drugs: the Metz amphetamines (Extrapolation essay), "a lot of speed" (review of
+Anne R. Dick), the "speed-self" Exegesis entry (three duplicate segments), and the
+two section-016 amphetamine entries. 107 use "speed" for velocity or time-rate;
+one is a "stimulant" metaphor; one ("This is speed freak cith…", Exegesis 1981)
+uses the drug slang figuratively; one ("my metz speed") is a misspelling of
+"speech".
+
+Decision: fix the cause, not the output. The lexicon alias `speed` (and the
+ambiguous `stimulant`) were replaced in `scripts/studies/lexicons/
+psychology_topics.json` by drug-specific phrases ("speed freak", "a lot of
+speed", "street speed", "white crosses", methamphetamine, Methedrine, Dexamyl,
+Desoxyn). Rescanning the topic (`scan_corpus.py --topic amphetamine-use`) gives
+5 passages. The speed-self entry is no longer matched by the lexicon; it is on
+the dossier as DRG-EX-1979-SPEEDSELF.
+
+The seeder now gives amphetamine-use and addiction a related-topic link to the
+dossier and an editorial note saying their passages are unreviewed scans.
+
+Hand-placed: a raw export would null both topics' machine-drafted prose, which
+exists only in the committed JSON. Only `evidence_packets`, `passage_count`,
+`chronology`, `related_documents`, `related_topics` and `editorial_notes` were
+taken from the new export; the psychology index rows and the study's
+`total_passages` (4747 → 4636) were edited by hand. The prose is unchanged. It is
+machine-drafted and not checked here; the editorial note points readers to the
+dossier.
+
+The pre-commit guard reports the 111 removed passages as content loss, as
+expected: they are unreviewed scan output, regenerable, and removing them is the
+fix. Committing needs a `.allow-data-loss` scoped to
+`studies/psychology/topics/amphetamine-use.json` and
+`studies/psychology/index.json`, which needs the owner's approval.

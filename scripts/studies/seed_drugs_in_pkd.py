@@ -54,6 +54,19 @@ PROVENANCE = 'editorial_curation_from_corpus_evidence'
 
 RELATED_TOPICS = ['amphetamine-use', 'addiction', 'paranoia', 'psychosis', 'split-brain']
 
+LEXICON_TOPIC_NOTES = {
+    'amphetamine-use': (
+        "Passages on this topic are found by matching a word list and have not been "
+        "reviewed. Until October 2026 the list included the bare word \"speed\", and "
+        "most matches were about velocity or the speed of light; it now matches only "
+        "drug terms. For a read and sourced account, with dates and the biographers' "
+        "disagreements, see the dossier Drugs in Philip K. Dick."),
+    'addiction': (
+        "Passages on this topic are found by matching a word list and have not been "
+        "reviewed. For a read and sourced account of Dick's drug use, X-Kalay and A "
+        "Scanner Darkly, see the dossier Drugs in Philip K. Dick."),
+}
+
 RELATED_TERMS = [
     ('TERM_palmer-eldritch', 'related'), ('TERM_anamnesis', 'related'),
     ('TERM_eucharist', 'related'), ('TERM_dionysos', 'related'),
@@ -333,6 +346,20 @@ def seed(db: sqlite3.Connection, check_only: bool = False):
         if db.execute("SELECT 1 FROM names WHERE name_id = ?", (name_id,)).fetchone():
             db.execute("INSERT OR REPLACE INTO study_topic_names (topic_id, name_id, "
                        "relation_type) VALUES (?,?,?)", (TOPIC_ID, name_id, rel))
+
+    # Point the lexicon-scanned drug topics at this dossier. They are machine
+    # scans with unreviewed passages; this is the read account of the same ground.
+    for slug, note in LEXICON_TOPIC_NOTES.items():
+        row = db.execute("SELECT topic_id, related_topics FROM study_topics "
+                         "WHERE study_id = ? AND slug = ?", (STUDY_ID, slug)).fetchone()
+        if not row:
+            continue
+        related = json.loads(row[1]) if row[1] else []
+        if TOPIC_SLUG not in related:
+            related.insert(0, TOPIC_SLUG)
+        db.execute("UPDATE study_topics SET related_topics = ?, editorial_notes = ?, "
+                   "updated_at = CURRENT_TIMESTAMP WHERE topic_id = ?",
+                   (json.dumps(related), note, row[0]))
 
     db.execute("UPDATE studies SET topic_count = "
                "(SELECT COUNT(*) FROM study_topics WHERE study_id = ?) WHERE study_id = ?",

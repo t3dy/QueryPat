@@ -165,7 +165,9 @@
         "B": 17,
         "C": 1
       },
-      "related_topics": []
+      "related_topics": [
+        "drugs-in-pkd"
+      ]
     },
     {
       "topic_id": "TOPIC_PSY_false_memory",
@@ -278,16 +280,17 @@
       "status": "scanning",
       "priority": 5,
       "card_description": null,
-      "passage_count": 116,
+      "passage_count": 5,
       "evidence_count": 0,
       "contradiction_count": 0,
       "first_appearance": null,
       "lane_distribution": {
-        "A": 1,
-        "B": 112,
-        "C": 3
+        "B": 3,
+        "C": 2
       },
-      "related_topics": []
+      "related_topics": [
+        "drugs-in-pkd"
+      ]
     },
     {
       "topic_id": "TOPIC_PSY_synchronicity",
