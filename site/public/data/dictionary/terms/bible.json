@@ -3,55 +3,80 @@
   "canonical_name": "Bible",
   "slug": "bible",
   "status": "accepted",
-  "review_state": "machine-drafted",
-  "primary_category": "Top Term",
+  "review_state": "human-revised",
+  "primary_category": "Biblical Text",
   "thematic_categories": null,
   "mention_count": 326,
   "score": 0.0,
-  "definition": "The canonical scriptures of Judaism and Christianity, comprising the Hebrew Bible and the New Testament. It is both the church's authorized text and, historically, the product of contested selection that left other gospels outside the canon.",
-  "interpretive_note": "PKD reads the Bible as an information system and a partly encrypted signal: the canonical surface conceals an older Gnostic and apostolic content he believed the 1974 experience had begun decoding in him.",
+  "definition": "The scriptures of Judaism and Christianity, which Philip K. Dick read in at least five translations — King James, the Jehovah's Witnesses' New World Translation, the New English Bible, the Jerusalem Bible and the Vulgate — together with the Septuagint's apocrypha. Familiar to him from junior high, and the source of the title of A Scanner Darkly (1 Corinthians 13:12), it became after 1974 the main framework of the Exegesis.",
+  "interpretive_note": "Dick read the Bible in four incompatible ways and never chose between them: as a book of the future (\"The Bible is a book of the future\", February 1975); as a cipher describing the present (\"The Bible is code\", 1976–79); as a living organism, Philo's Torah and the plasmate (1978–80); and as a source his own novels had reproduced without his knowing — Acts in Flow My Tears. The books that do most work are Acts, Daniel, Revelation, Malachi, the Wisdom of Solomon, John and 1 Corinthians.",
   "visionary_significance": null,
-  "scholarly_caution": null,
-  "card_description": "The canonical scriptures of Judaism and Christianity, comprising the Hebrew Bible and the New Testament.",
-  "full_description": "",
-  "first_appearance": "1975-02-27",
-  "peak_usage_start": "1978",
-  "peak_usage_end": "1978",
+  "scholarly_caution": "Dick's own statements about his prior knowledge conflict. In 1976 he wrote that in 1974 he was \"almost totally unfamiliar with the Bible\"; his letters of 1962–73 quote it, title a novel from it, and compare its translations. Treat claims that the 1974 visions were independent of his reading with caution. The Exegesis section dated October 1978 contains passages from as late as 1980.",
+  "card_description": "The text Dick argued with longest: known since junior high, read after 1974 as a book of the future, a code, and a living organism.",
+  "full_description": "The scriptures of Judaism and Christianity, which Philip K. Dick read in at least five translations — King James, the Jehovah's Witnesses' New World Translation, the New English Bible, the Jerusalem Bible and the Vulgate — together with the Septuagint's apocrypha. Familiar to him from junior high, and the source of the title of A Scanner Darkly (1 Corinthians 13:12), it became after 1974 the main framework of the Exegesis.",
+  "first_appearance": "1962",
+  "peak_usage_start": "1975",
+  "peak_usage_end": "1981",
   "see_also": [
     "Acts",
-    "Advent",
-    "Anamnesis",
-    "Because",
-    "Christ",
-    "Christian",
-    "Christianity",
-    "Complete"
+    "Daniel",
+    "Revelation",
+    "Malachi",
+    "Elijah",
+    "Torah",
+    "Wisdom",
+    "Hagia Sophia",
+    "Logos",
+    "John",
+    "Paul",
+    "Qumran"
   ],
-  "provenance": null,
+  "provenance": "editorial_curation_from_corpus_evidence",
   "notes": null,
   "created_at": "2026-03-12 19:34:07",
-  "updated_at": "2026-03-12 19:37:10",
+  "updated_at": "2026-10-30 00:57:44",
   "definition_claim_ids": [],
   "definition_legacy": null,
-  "definition_generator": null,
+  "definition_generator": "curation/pkd-bible@2026-10-29",
   "interpretive_note_claim_ids": [],
   "interpretive_note_legacy": null,
-  "interpretive_note_generator": null,
+  "interpretive_note_generator": "curation/pkd-bible@2026-10-29",
   "visionary_significance_claim_ids": [],
   "visionary_significance_legacy": null,
   "visionary_significance_generator": null,
   "scholarly_caution_claim_ids": [],
   "scholarly_caution_legacy": null,
-  "scholarly_caution_generator": null,
+  "scholarly_caution_generator": "curation/pkd-bible@2026-10-29",
   "card_description_claim_ids": [],
   "card_description_legacy": null,
-  "card_description_generator": null,
+  "card_description_generator": "curation/pkd-bible@2026-10-29",
   "full_description_claim_ids": [],
   "full_description_legacy": null,
-  "full_description_generator": null,
+  "full_description_generator": "curation/pkd-bible@2026-10-29",
   "noise_score": 0.0,
   "cited_claims": {},
-  "aliases": [],
+  "aliases": [
+    {
+      "text": "Scripture",
+      "type": "alternate_name"
+    },
+    {
+      "text": "Scriptures",
+      "type": "alternate_name"
+    },
+    {
+      "text": "Old Testament",
+      "type": "alternate_name"
+    },
+    {
+      "text": "New Testament",
+      "type": "alternate_name"
+    },
+    {
+      "text": "Holy Bible",
+      "type": "alternate_name"
+    }
+  ],
   "linked_segments": [
     {
       "seg_id": "SEG_EXEG_1975-02-27_Claudia_02",
@@ -459,445 +484,145 @@
       "name": "Acts",
       "slug": "acts",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
-      "name": "Advent",
-      "slug": "advent",
+      "name": "Black Iron Prison",
+      "slug": "black-iron-prison",
       "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Anamnesis",
-      "slug": "anamnesis",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Because",
-      "slug": "because",
-      "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
       "name": "Christ",
       "slug": "christ",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
-      "name": "Christian",
-      "slug": "christian",
+      "name": "Daniel",
+      "slug": "daniel",
       "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Christianity",
-      "slug": "christianity",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Complete",
-      "slug": "complete",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Decoded",
-      "slug": "decoded",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Dialectic",
-      "slug": "dialectic",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Ditheon",
-      "slug": "ditheon",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Earth",
-      "slug": "earth",
-      "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
       "name": "Elijah",
       "slug": "elijah",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
       "name": "Empire",
       "slug": "empire",
       "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Fall",
-      "slug": "fall",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Father",
-      "slug": "father",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Felix",
-      "slug": "felix",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Firebright",
-      "slug": "firebright",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Fish",
-      "slug": "fish",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Form",
-      "slug": "form",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Gnosis",
-      "slug": "gnosis",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Gnostic",
-      "slug": "gnostic",
-      "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
       "name": "Gnosticism",
       "slug": "gnosticism",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
-      "name": "Godhead",
-      "slug": "godhead",
+      "name": "Gospel",
+      "slug": "gospel",
       "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Golden",
-      "slug": "golden",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Golden Fish",
-      "slug": "golden-fish",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Greek",
-      "slug": "greek",
-      "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
       "name": "Hagia Sophia",
       "slug": "hagia-sophia",
       "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Hegel",
-      "slug": "hegel",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Hegelian",
-      "slug": "hegelian",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Hermetic",
-      "slug": "hermetic",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Holy",
-      "slug": "holy",
-      "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
       "name": "Holy Spirit",
       "slug": "holy-spirit",
       "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Iron",
-      "slug": "iron",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "James",
-      "slug": "james",
-      "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
       "name": "Jesus",
       "slug": "jesus",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
-      "name": "Kant",
-      "slug": "kant",
+      "name": "John",
+      "slug": "john",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
-      "name": "Kingdom",
-      "slug": "kingdom",
+      "name": "King Felix",
+      "slug": "king-felix",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
-      "name": "Like",
-      "slug": "like",
+      "name": "Logos",
+      "slug": "logos",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
-      "name": "Linear",
-      "slug": "linear",
+      "name": "Malachi",
+      "slug": "malachi",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
-      "name": "Lord",
-      "slug": "lord",
+      "name": "Moses",
+      "slug": "moses",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
-      "name": "Malebranche",
-      "slug": "malebranche",
+      "name": "Paraclete",
+      "slug": "paraclete",
       "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Maze",
-      "slug": "maze",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Nixon",
-      "slug": "nixon",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Parmenides",
-      "slug": "parmenides",
-      "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
       "name": "Parousia",
       "slug": "parousia",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
       "name": "Paul",
       "slug": "paul",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
-      "name": "Philip",
-      "slug": "philip",
+      "name": "Plasmate",
+      "slug": "plasmate",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
-      "name": "Philo",
-      "slug": "philo",
+      "name": "Qumran",
+      "slug": "qumran",
       "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
-      "name": "Plato",
-      "slug": "plato",
+      "name": "Revelation",
+      "slug": "revelation",
       "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Pleroma",
-      "slug": "pleroma",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Plotinus",
-      "slug": "plotinus",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Prison",
-      "slug": "prison",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Roman",
-      "slug": "roman",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Rome",
-      "slug": "rome",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Saint Sophia",
-      "slug": "saint-sophia",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Santa Sophia",
-      "slug": "santa-sophia",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Satan",
-      "slug": "satan",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Scanner",
-      "slug": "scanner",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Since",
-      "slug": "since",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Sophia",
-      "slug": "sophia",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Spinoza",
-      "slug": "spinoza",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Spirit",
-      "slug": "spirit",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Tagore",
-      "slug": "tagore",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Therefore",
-      "slug": "therefore",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "These",
-      "slug": "these",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Thomas",
-      "slug": "thomas",
-      "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
       "name": "Torah",
       "slug": "torah",
       "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Valis",
-      "slug": "valis",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Well",
-      "slug": "well",
-      "relation": "related",
-      "confidence": 3
+      "confidence": 1
     },
     {
       "name": "Wisdom",
       "slug": "wisdom",
       "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "World",
-      "slug": "world",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Zebra",
-      "slug": "zebra",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Zebrapedia",
-      "slug": "zebrapedia",
-      "relation": "related",
-      "confidence": 3
+      "confidence": 1
     }
   ],
   "evidence": [

@@ -151,7 +151,10 @@ def export_study_index(db: sqlite3.Connection, study_id: str, out_dir: Path):
 def export_topic_detail(db: sqlite3.Connection, topic_id: str,
                          study_id: str, slug: str, out_dir: Path):
     """Export studies/{study_id}/topics/{slug}.json."""
-    topic = db.execute("""
+    # browse_config is added in place by the dossier seeders; tolerate its absence.
+    topic_cols = {c[1] for c in db.execute("PRAGMA table_info(study_topics)")}
+    browse_col = 'browse_config' if 'browse_config' in topic_cols else 'NULL'
+    topic = db.execute(f"""
         SELECT topic_id, study_id, canonical_name, slug, status,
                definition, pkd_relevance, in_the_fiction, in_the_exegesis,
                intellectual_background, scholarly_debate,
@@ -159,7 +162,7 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
                related_thinkers, editorial_notes, open_questions,
                passage_count, evidence_count, contradiction_count,
                first_appearance, peak_period_start, peak_period_end,
-               related_topics, dossier_sections, mention_cards
+               related_topics, dossier_sections, mention_cards, {browse_col}
         FROM study_topics WHERE topic_id = ?
     """, (topic_id,)).fetchone()
 
@@ -410,6 +413,7 @@ def export_topic_detail(db: sqlite3.Connection, topic_id: str,
 
         'dossier_sections': safe_json(topic[23]) if len(topic) > 23 else [],
         'mention_cards': safe_json(topic[24]) if len(topic) > 24 else [],
+        'browse': (safe_json(topic[25]) or None) if len(topic) > 25 else None,
 
         'evidence_packets': ev_packets,
         'contradictions': contradiction_list,
@@ -500,6 +504,94 @@ def run(db: sqlite3.Connection, _source: Path = None):
             export_topic_detail(db, tid, sid, slug, OUTPUT_DIR)
 
         print(f"    studies/{sid}/topics/ ({len(topics)} topic files)")
+
+    export_links(db, OUTPUT_DIR)
+
+
+def export_links(db: sqlite3.Connection, out_dir: Path):
+    """Export studies/links.json: from a term, name, segment, document or work
+    back to the authored dossiers that discuss it.
+
+    Only topics with mention cards (hand-curated dossiers) are indexed, so a
+    backlink always lands on a passage someone has read and summarised.
+    """
+    cols = {c[1] for c in db.execute("PRAGMA table_info(study_topics)")}
+    if 'mention_cards' not in cols:
+        return
+    browse_col = 'browse_config' if 'browse_config' in cols else 'NULL'
+    links = {'terms': {}, 'names': {}, 'segments': {}, 'documents': {}, 'works': {}}
+
+    def add(kind, key, entry):
+        links[kind].setdefault(key, []).append(entry)
+
+    rows = db.execute(f"""
+        SELECT topic_id, study_id, slug, canonical_name, card_description,
+               mention_cards, {browse_col}
+        FROM study_topics
+        WHERE mention_cards IS NOT NULL AND mention_cards NOT IN ('', '[]')
+        ORDER BY topic_id
+    """).fetchall()
+    for tid, sid, slug, name, desc, cards_json, browse_json in rows:
+        cards = safe_json(cards_json)
+        browse = safe_json(browse_json) or {}
+        base = {'study_id': sid, 'slug': slug, 'name': name, 'description': desc}
+        # Passages per facet label, counting every spelling the facet stands for.
+        facets = (browse.get('facets') or []) if isinstance(browse, dict) else []
+        concept_count = {}
+        for f in facets:
+            spellings = {f['label'], *(f.get('aliases') or [])}
+            concept_count[f['label']] = sum(
+                1 for c in cards if spellings & set(c.get('concepts') or []))
+
+        # A facet that links to a portal page gives that page a precise backlink:
+        # "12 passages on Acts", opening the dossier filtered to Acts.
+        facet_for = {}
+        for f in facets:
+            link = f.get('link') or ''
+            for prefix, kind in (('/dictionary/', 'terms'), ('/names/', 'names'),
+                                 ('/exegesis/works/', 'works')):
+                if link.startswith(prefix):
+                    facet_for[(kind, link[len(prefix):])] = f['label']
+
+        seen_terms = set()
+        for term_slug, rel in db.execute("""
+            SELECT t.slug, stt.relation_type FROM study_topic_terms stt
+            JOIN terms t ON t.term_id = stt.term_id
+            WHERE stt.topic_id = ? AND t.status IN ('accepted', 'provisional')
+        """, (tid,)):
+            facet = facet_for.get(('terms', term_slug))
+            add('terms', term_slug, {**base, 'relation': rel, 'facet': facet,
+                                     'count': concept_count.get(facet, 0) if facet else None})
+            seen_terms.add(term_slug)
+        for name_slug, rel in db.execute("""
+            SELECT n.slug, stn.relation_type FROM study_topic_names stn
+            JOIN names n ON n.name_id = stn.name_id WHERE stn.topic_id = ?
+        """, (tid,)):
+            facet = facet_for.get(('names', name_slug))
+            add('names', name_slug, {**base, 'relation': rel, 'facet': facet,
+                                     'count': concept_count.get(facet, 0) if facet else None})
+        for (kind, key), label in facet_for.items():
+            if kind == 'works' or (kind == 'terms' and key not in seen_terms):
+                add(kind, key, {**base, 'relation': 'facet', 'facet': label,
+                                'count': concept_count.get(label, 0)})
+
+        by_seg, by_doc = {}, {}
+        for c in cards:
+            if c.get('seg_id'):
+                by_seg.setdefault(c['seg_id'], []).append(c['id'])
+            elif c.get('doc_id'):
+                by_doc.setdefault(c['doc_id'], []).append(c['id'])
+        for seg_id, ids in by_seg.items():
+            add('segments', seg_id, {**base, 'cards': ids})
+        for doc_id, ids in by_doc.items():
+            row = db.execute("SELECT slug FROM documents WHERE doc_id = ?", (doc_id,)).fetchone()
+            if row and row[0]:
+                add('documents', row[0], {**base, 'cards': ids})
+
+    with open(out_dir / 'links.json', 'w', encoding='utf-8') as f:
+        json.dump(links, f, indent=2, ensure_ascii=False)
+    print(f"    studies/links.json ({len(rows)} dossiers; "
+          + ', '.join(f'{len(v)} {k}' for k, v in links.items()) + ')')
 
 
 if __name__ == '__main__':

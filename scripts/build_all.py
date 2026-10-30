@@ -261,6 +261,8 @@ def run_stage_5(db: sqlite3.Connection, source: Path):
     # Hand-curated topics whose passages are anchored, not lexicon-scanned.
     from studies.seed_burroughs_word_virus import seed as seed_burroughs
     seed_burroughs(db)
+    from studies.seed_pkd_bible import seed as seed_pkd_bible
+    seed_pkd_bible(db)
 
     # Gnosticism: assembled from curation/gnosticism, then seeded. The assembly
     # step re-reads the corpus sweep, so the study survives a full rebuild.

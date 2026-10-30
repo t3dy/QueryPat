@@ -48,6 +48,32 @@ ESSAY_DIR = PROJECT_DIR / 'site' / 'public' / 'data' / 'essays'
 # --------------------------------------------------------------------------
 
 PROFILES = {
+    'bible': {
+        'strong': [
+            r'\bBibles?\b', r'\b[Bb]iblical', r'\b[Ss]criptures?\b',
+            r'\b(?:Old|New) Testament\b', r'\bN\.\s?T\.(?=\s)', r'\bO\.\s?T\.(?=\s)',
+            r'\bSeptuagint\b', r'\bVulgate\b', r'\bKing James\b',
+            r'\bJerusalem Bible\b', r'\bDecoded New Testament\b',
+            r'\bNag Hammadi\b', r'\bDead Sea Scrolls?\b', r'\bApocrypha',
+            r'\bBook of (?:Acts|Daniel|Revelation|Job|Wisdom|Isaiah|Ezekiel|'
+            r'Genesis|Exodus|Malachi|Zechariah|Enoch|Ecclesiastes|Psalms|Thomas)\b',
+            r'\bActs of the Apostles\b', r'\bWisdom of Solomon\b',
+            r'\b(?:First|Second|1|2|I|II)\s?Corinthians\b', r'\bCorinthians\b',
+            r'\bRomans\s?\d', r'\bEpistles?\b', r'\bApocalypse\b',
+            r'\bEcclesiastes\b', r'\bPsalms?\b', r'\bMalachi\b', r'\bZechariah\b',
+            r'\bIsaiah\b', r'\bEzekiel\b', r'\bGospel of (?:John|Thomas|Mark|Luke|Matthew)\b',
+            r'\bFourth Gospel\b', r'\bSynoptic', r'\bQumran\b', r'\bEssenes?\b',
+        ],
+        'weak': [
+            r'\bTorah\b', r'\bGospels?\b', r'\bapostles?\b', r'\bapostolic\b',
+            r'\bprophets?\b', r'\bElijah\b', r'\bElias\b', r'\bMoses\b',
+            r'\bSt\.? Paul\b', r'\bDaniel\b', r'\bRevelation\b',
+            r'\bvv?\.\s?\d', r'\b\d{1,2}:\d{1,2}\b',   # verse references
+        ],
+        'exclude': [
+            r'Bible Belt', r'bible of (?:the )?(?:sf|science fiction)',
+        ],
+    },
     'burroughs': {
         'strong': [
             r'\bBurroughs\b', r'\bBurrough\b', r'\bEurrough',      # OCR variant

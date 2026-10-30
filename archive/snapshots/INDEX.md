@@ -19,3 +19,4 @@ committed so the history of what was archived, and when, survives.
 | `20260904T224639Z_pre-export-studies` | 2724 | 19.6 | `5898026ac` | yes | pre-export-studies |
 | `20260904T224840Z_pre-export-studies` | 2724 | 19.6 | `5898026ac` | yes | pre-export-studies |
 | `20260904T225210Z_post-card-expansion` | 2724 | 16.9 | `5898026ac` | yes | post-card-expansion |
+| `20261030T005747Z_pre-pkd-bible` | 2724 | 19.7 | `8ef909872` | yes | pre-pkd-bible |

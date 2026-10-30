@@ -1,8 +1,30 @@
 {
   "study_id": "intertexts",
   "study_label": "Intertexts & Influences",
-  "study_description": "Writers and thinkers Philip K. Dick read, argued with, and absorbed into his own vocabulary. Each topic tracks a single interlocutor across the fiction, the Exegesis, and the correspondence, and holds on to the places where Dick changed his mind about them.",
+  "study_description": "Writers, thinkers and texts Philip K. Dick read, argued with, and absorbed into his own vocabulary. Each topic tracks a single interlocutor across the fiction, the Exegesis, and the correspondence, and holds on to the places where Dick changed his mind about them.",
   "topics": [
+    {
+      "topic_id": "TOPIC_INTERTEXT_pkd_and_the_bible",
+      "canonical_name": "Philip K. Dick and the Bible",
+      "slug": "pkd-and-the-bible",
+      "status": "reviewed",
+      "priority": 10,
+      "card_description": "Dick's Bible, book by book: Acts and Flow My Tears, Daniel and the Empire, Malachi's Elijah, Holy Wisdom, scripture as code and as living information — 76 sourced passages across the Exegesis, letters, novels and scholarship.",
+      "passage_count": 76,
+      "evidence_count": 11,
+      "contradiction_count": 7,
+      "first_appearance": "1962",
+      "lane_distribution": {
+        "A": 10,
+        "B": 31,
+        "C": 7,
+        "D": 2,
+        "E": 26
+      },
+      "related_topics": [
+        "burroughs-word-virus"
+      ]
+    },
     {
       "topic_id": "TOPIC_INTERTEXT_burroughs_word_virus",
       "canonical_name": "Burroughs and the Word Virus",
@@ -20,7 +42,9 @@
         "D": 5,
         "E": 14
       },
-      "related_topics": []
+      "related_topics": [
+        "pkd-and-the-bible"
+      ]
     }
   ]
 }

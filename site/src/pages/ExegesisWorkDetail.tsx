@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { useData } from '../hooks/useData'
+import StudyBacklinks from '../components/studies/StudyBacklinks'
 
 interface Mention {
   entry_id: string
@@ -67,6 +68,8 @@ export default function ExegesisWorkDetail() {
           )}
         </p>
       </div>
+
+      <StudyBacklinks kind="works" id={slug} />
 
       {data.intro && (
         <article className="essay-body detail-section" style={{ maxWidth: 'none' }}>

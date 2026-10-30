@@ -1,0 +1,309 @@
+{
+  "term_id": "TERM_qumran",
+  "canonical_name": "Qumran",
+  "slug": "qumran",
+  "status": "accepted",
+  "review_state": "human-revised",
+  "primary_category": "Biblical Text",
+  "thematic_categories": null,
+  "mention_count": 25,
+  "score": 0.0,
+  "definition": "Qumran, the site of the Dead Sea Scrolls. Dick's 1975 novel outline To Scare the Dead has an Essene from the Qumran wadi revive in a modern man; in the Exegesis Thomas slumbers \"in a jar at Qumran\" and the scrolls Bishop James Pike studied pass to Dick as plasmate. The Zadokite fragments drive the plot of The Transmigration of Timothy Archer.",
+  "interpretive_note": null,
+  "visionary_significance": null,
+  "scholarly_caution": null,
+  "card_description": "The site of the Dead Sea Scrolls, which Dick imagined as carriers of living information.",
+  "full_description": "Qumran, the site of the Dead Sea Scrolls. Dick's 1975 novel outline To Scare the Dead has an Essene from the Qumran wadi revive in a modern man; in the Exegesis Thomas slumbers \"in a jar at Qumran\" and the scrolls Bishop James Pike studied pass to Dick as plasmate. The Zadokite fragments drive the plot of The Transmigration of Timothy Archer.",
+  "first_appearance": null,
+  "peak_usage_start": null,
+  "peak_usage_end": null,
+  "see_also": [
+    "Bible",
+    "Plasmate",
+    "Thomas",
+    "Gnosticism"
+  ],
+  "provenance": "editorial_curation_from_corpus_evidence",
+  "notes": null,
+  "created_at": "2026-03-12 19:34:07",
+  "updated_at": "2026-10-30 00:57:44",
+  "definition_claim_ids": [],
+  "definition_legacy": null,
+  "definition_generator": "curation/pkd-bible@2026-10-29",
+  "interpretive_note_claim_ids": [],
+  "interpretive_note_legacy": null,
+  "interpretive_note_generator": null,
+  "visionary_significance_claim_ids": [],
+  "visionary_significance_legacy": null,
+  "visionary_significance_generator": null,
+  "scholarly_caution_claim_ids": [],
+  "scholarly_caution_legacy": null,
+  "scholarly_caution_generator": null,
+  "card_description_claim_ids": [],
+  "card_description_legacy": null,
+  "card_description_generator": "curation/pkd-bible@2026-10-29",
+  "full_description_claim_ids": [],
+  "full_description_legacy": null,
+  "full_description_generator": "curation/pkd-bible@2026-10-29",
+  "noise_score": 0.0,
+  "cited_claims": {},
+  "aliases": [],
+  "linked_segments": [
+    {
+      "seg_id": "SEG_EXEG_U_Claudia_24",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "circa 1975-1976",
+      "summary": "Dick plots his next novel (*To Scare the Dead*), revolving around the \"Possession\" of a government agent (Nicholas Brady) by an ancient Essene spirit. He defines \"Christian Anamnesis\" as the \"Remembra",
+      "title": "U_Claudia_24.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1975-03-04_SECTION_006_01",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "March 4, 1975",
+      "summary": "Dick writes to Dr. Robert Ornstein, framing his mystical experience as the clinical activation of his brain's right hemisphere. He outlines the premise of his novel *TO SCARE THE DEAD* (VALIS), featur",
+      "title": "1975-03-04_SECTION_006_01.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_231",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_231.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1976-09-15_Dorothy_232",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "September 15, 1976",
+      "summary": "",
+      "title": "1976-09-15_Dorothy_232.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_29",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_29.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_30",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_30.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_63",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_63.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_140",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_140.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_143",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_143.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_148",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_148.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_154",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_154.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_156",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_156.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_158",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_158.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_168",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_168.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_310",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_310.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1978-10-10_SECTION_016_345",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "October 10, 1978",
+      "summary": "",
+      "title": "1978-10-10_SECTION_016_345.txt"
+    },
+    {
+      "seg_id": "SEG_EXEG_1981-04-16_Pat_07",
+      "match_type": "exact_mention",
+      "confidence": 1,
+      "date_display": "April 16, 1981",
+      "summary": "",
+      "title": "1981-04-16_Pat_07.txt"
+    }
+  ],
+  "related_terms": [
+    {
+      "name": "Absolute",
+      "slug": "absolute",
+      "relation": "related",
+      "confidence": 3
+    },
+    {
+      "name": "Acts",
+      "slug": "acts",
+      "relation": "related",
+      "confidence": 3
+    },
+    {
+      "name": "Advent",
+      "slug": "advent",
+      "relation": "related",
+      "confidence": 3
+    },
+    {
+      "name": "Anamnesis",
+      "slug": "anamnesis",
+      "relation": "related",
+      "confidence": 3
+    },
+    {
+      "name": "Ananke",
+      "slug": "ananke",
+      "relation": "related",
+      "confidence": 3
+    },
+    {
+      "name": "Bible",
+      "slug": "bible",
+      "relation": "related",
+      "confidence": 1
+    }
+  ],
+  "evidence": [
+    {
+      "text": "Recently I met Mr. Henry Korman and Mr. Tony Hiss (Tony had come by to interview me for the New Yorker). I got into a marvelous discussion with Henry about Sufi and I mentioned my admiration, bordering on fanatic enthusiasm, for your pioneer work with bilateral brain hemispheric parity. Thus, I, having learned that they know you, and am summoning my courage to write you and ask, What has become of me, since experimenting with bringing on my right hemisphere (I did it mainly by the ortho molecula",
+      "line_start": 434,
+      "line_end": 442,
+      "matched_alias": "Qumran",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "121\nthis fine bishop person dies (is killed?). Thus, in addition to the whole Essene awakening in the mind theme, we have the theme of the great bishop concerned with civil rights who mysteriously dies suddenly. What occurs to me right off is that the viewpoint character (Nicholas Brady) knows the bishop in the capacity of spying on him for the authorities (due to the bishop's civil rights stands and associations). Later, after the bishop dies, Brady had The Experience, and it seems (or has) som",
+      "line_start": 1719,
+      "line_end": 1727,
+      "matched_alias": "Qumran",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "In a sense, if it's transubstantiating us (replicating in + through us) whether it's doing the same to the world is a secondary issue; we are made immortal, + will live on somewhere. + as it takes control of more + more of us, it exerts proportionally greater + greater influence over the world.\n\nA very eerie idea just came to me. Suppose it's been dormant for many centuries - maybe dormant between the time of \"Acts\" + recently. Suppose like an anthrax virus. It was literally buried, sealed up in",
+      "line_start": 15759,
+      "line_end": 15767,
+      "matched_alias": "Qumran",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "42.\n\nSibyl did mention Jim; I even though \"Thomas\" (the Noos or a life-form that took me over) was Jim for a while. Maybe it had been Jim who had made him into a homoplasmate. I had dreamed about Allegro's book. Strange. But if it is living info, isn't this possible? Wow. What a story. + the Essenes, incl. Christ, knew that the Scrolls would be found by the end of the age of Iron (the third would pragmatically amount to the same thing).\n\nIn Apostolic times the Romans slow the (few) homoplasmates",
+      "line_start": 15769,
+      "line_end": 15777,
+      "matched_alias": "Qumran",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "Indexed\nfolder 22 - 044\n44\n\nfear there, but also a keen sense of final triumph. If Jim was made into a homoplasmate by info in the Qumran Scrolls, his (plasmate) spirit may not have passed to me until [after] his death, as with Elijah to Elisha. That would be before \"Maze\" or could be. Maybe at the time I had the \"Tears\" dream in 1970. What I must keep clear is that the plasmate predated him - it was from apostolic times + had merely annexed him, as it later did me. Is it possible that that was ",
+      "line_start": 15799,
+      "line_end": 15807,
+      "matched_alias": "Qumran",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "Indexed\nfolder 22 - 047\n47\n\n\"Thomas\" is MORE than a apostolic true secret Xtian; he is whom they have waited for. He is the Savior, who slumbered 1900 years, perhaps in a jar at Qumran.\n\nI have a confession on this: \"+ through all this time, 1. \"Siddhartha slept.\" ie underground. Even he didn't know when (\"then + now \") they'd find him. But he knew they eventually would. We eventually would.\n\n1. The first half of the book: an entire age (millennia). I hadn't though of taking this sentence LITERA",
+      "line_start": 15822,
+      "line_end": 15830,
+      "matched_alias": "Qumran",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "You [?] im making a pretty good [care for] this continuity of the immortal plasmate life from which we first encounter in history [inlas] Elijah, & then it returned to Elisha, & so on,\n\nThis explains my \"Elisha Hore-Belisha\" dream & my \"Alto [Canrrel?]\" dream. & the dream about \"Elias\" (i didn't know who that was) [weeping?],\n\nthe whole Qumran scroll thing is just a way of explaining, \"why me?\" its just a subform in the thing, which idenitfies \"thomas\" as Elijah, but mine basically ALL of them, ",
+      "line_start": 15852,
+      "line_end": 15860,
+      "matched_alias": "Qumran",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "Last edit over 5 years ago by Sheldon\n14\nComplete\n14\nWhen I saw the dialectic I did no see one principle above it. I can infer it if I wish, but I did not see it; what I saw looked like conflict. It looked like a fight to the finish with one side blind but powerful. The view that an upper & lower realm exist is platonist, but that stride (antithetical dialectic) exists between them is Qumran & Gnostic & Catharist, & esp. mystery religions (the irruption of the supra lunar into the sublunar, an i",
+      "line_start": 18109,
+      "line_end": 18117,
+      "matched_alias": "Qumran",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "Last edit almost 3 years ago by svayambhu108\n10\nNeeds Review\n10\nI 16 i two things came for me, as I knew both t would, but I didn't know if (1) would she did. come in time. 41) My guardian - tutulary - spirit guide psychopomp (the pharmacy girl) (2) My doom (the Xerox missive). + as I realized it, Boehme's blitz occurred the twin spirits of Zoroastrianism Light vs dark. Hence the post mortem experiences; my psychopomp had met me + conducted t me to safety across the narrow bridge she the spirit ",
+      "line_start": 20720,
+      "line_end": 20728,
+      "matched_alias": "Qumran",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    },
+    {
+      "text": "Last edit almost 3 years ago by svayambhu108\n152\nNeeds Review\n152\n93 Gospel's account of the light (Logos - Hagia Sophia) penetrating the darkness ach! There is the dialectic; from iran to Qumran. CK EB on 4th Gospel. \"truth vs lie, light us Darkness\" - Zoro‐ astrianism to Qumran to St John's Gospel. Valis is Ubik. Ubik specifically says, \"I am the word\" - i.e. Logos is Valis is the Logos, which is the wisdom of God, entering creation + then becoming the Paraclete while remaining God + the Logos",
+      "line_start": 24072,
+      "line_end": 24080,
+      "matched_alias": "Qumran",
+      "confidence": "moderate",
+      "source_method": "deterministic"
+    }
+  ]
+}

@@ -62,8 +62,13 @@ function sourceLabel(c: MentionCard): string {
     const [y, m, d] = c.date.split('-')
     return `[Exeg. ${d}.${m}.${y.slice(2)}]`
   }
-  if (c.source_type === 'letter') return '[letter]'
-  if (c.source_type === 'interview') return '[interview]'
+  // Cards dated per passage rather than by container carry only `dated`.
+  const year = (c.dated || '').match(/1[89]\d\d/g)?.pop()
+  const at = year ? ` ${year}` : ''
+  if (c.source_type === 'exegesis_segment') return `[Exeg.${at}]`
+  if (c.source_type === 'letter') return `[letter${at}]`
+  if (c.source_type === 'interview') return `[interview${at}]`
+  if (c.source_type === 'fiction') return `[fiction${at}]`
   if (c.source_type === 'criticism') return '[scholarship]'
   return '[source]'
 }

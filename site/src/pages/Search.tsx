@@ -6,6 +6,7 @@ import { formatSegmentTitle } from '../utils/formatTitle'
 
 interface SearchEntry {
   type: 'segment' | 'term' | 'archive' | 'name' | 'biography' | 'theophany' | 'essay' | 'scholar'
+    | 'study' | 'passage'
   id: string
   slug: string
   title: string
@@ -13,6 +14,8 @@ interface SearchEntry {
   date?: string
   author?: string
   category?: string
+  /** Books and themes of a study passage, searchable as their own key. */
+  tags?: string[]
 }
 
 const TYPE_LABELS: Record<string, string> = {
@@ -24,9 +27,13 @@ const TYPE_LABELS: Record<string, string> = {
   theophany: 'Theophany',
   essay: 'Essay',
   scholar: 'Scholar',
+  study: 'Study Dossier',
+  passage: 'Dossier Passage',
 }
 
 const GROUP_ORDER: { type: string; label: string }[] = [
+  { type: 'study', label: 'Study Dossiers' },
+  { type: 'passage', label: 'Dossier Passages' },
   { type: 'theophany', label: 'Theophanies' },
   { type: 'essay', label: 'Essays' },
   { type: 'term', label: 'Dictionary' },
@@ -47,6 +54,8 @@ function getLink(entry: SearchEntry): string {
     case 'theophany': return `/theophanies/${entry.slug}`
     case 'essay': return `/essays/${entry.slug}`
     case 'scholar': return `/scholars#${entry.id}`
+    case 'study': return `/studies/${entry.slug}`
+    case 'passage': return `/studies/${entry.slug}#card-${entry.id}`
     default: return '/'
   }
 }
@@ -78,6 +87,7 @@ export default function Search() {
         { name: 'text', weight: 1 },
         { name: 'author', weight: 1 },
         { name: 'category', weight: 2 },
+        { name: 'tags', weight: 2 },
       ],
       threshold: 0.3,
       includeMatches: true,
@@ -155,6 +165,9 @@ export default function Search() {
                   {hit.item.date && <span>{hit.item.date}</span>}
                   {hit.item.author && <span>{hit.item.author}</span>}
                   {hit.item.category && <span>{hit.item.category}</span>}
+                  {hit.item.tags?.slice(0, 4).map(t => (
+                    <span key={t} className="entity-tag">{t}</span>
+                  ))}
                 </div>
                 {hit.item.text && (
                   <p style={{ marginTop: '0.35rem', fontSize: '0.88rem', color: 'var(--text-secondary)' }}>

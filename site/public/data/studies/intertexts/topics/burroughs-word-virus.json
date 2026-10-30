@@ -1779,6 +1779,218 @@
       "passage": "… he made it through alive… **“If the ’70s and ’80s…belonged to William Burroughs, the millennium belongs to Philip K. Dick.”** **—Erik Davis** _**Details**_ A Del Rey® Book Published by The Random House …"
     }
   ],
+  "browse": {
+    "intro": "{n} passages in the archive refer to Burroughs or to his word virus. Each card summarises the whole passage and where it sits in the work, then quotes the sentence it turns on; every quotation is machine-checked against the underlying text before it is published. Pick one of Burroughs's ideas, one of Dick's, a novel or a thinker to see only the passages about it, or a lane to see one kind of source.",
+    "facet_kinds": [
+      {
+        "kind": "burroughs",
+        "label": "Burroughs's vocabulary"
+      },
+      {
+        "kind": "theme",
+        "label": "Dick's concepts"
+      },
+      {
+        "kind": "work",
+        "label": "Dick's works"
+      },
+      {
+        "kind": "people",
+        "label": "Other thinkers"
+      }
+    ],
+    "facets": [
+      {
+        "label": "word virus",
+        "kind": "burroughs",
+        "aliases": [
+          "information virus",
+          "replicating virus"
+        ]
+      },
+      {
+        "label": "Nova Mob",
+        "kind": "burroughs"
+      },
+      {
+        "label": "Nova police",
+        "kind": "burroughs"
+      },
+      {
+        "label": "cut-up",
+        "kind": "burroughs"
+      },
+      {
+        "label": "latent messages",
+        "kind": "burroughs"
+      },
+      {
+        "label": "language as control",
+        "kind": "burroughs",
+        "aliases": [
+          "language",
+          "control",
+          "syntax"
+        ]
+      },
+      {
+        "label": "Junky",
+        "kind": "burroughs",
+        "aliases": [
+          "drugs"
+        ]
+      },
+      {
+        "label": "occlusion",
+        "kind": "theme",
+        "aliases": [
+          "blindness",
+          "occluding life form"
+        ]
+      },
+      {
+        "label": "anti-information",
+        "kind": "theme",
+        "aliases": [
+          "jamming",
+          "reception"
+        ]
+      },
+      {
+        "label": "living information",
+        "kind": "theme"
+      },
+      {
+        "label": "plasmate",
+        "kind": "theme",
+        "link": "/dictionary/plasmate"
+      },
+      {
+        "label": "Logos",
+        "kind": "theme",
+        "link": "/dictionary/logos"
+      },
+      {
+        "label": "Valis",
+        "kind": "theme",
+        "link": "/dictionary/valis"
+      },
+      {
+        "label": "Black Iron Prison",
+        "kind": "theme",
+        "link": "/dictionary/black-iron-prison"
+      },
+      {
+        "label": "Zebra",
+        "kind": "theme",
+        "link": "/dictionary/zebra"
+      },
+      {
+        "label": "King Felix",
+        "kind": "theme",
+        "link": "/dictionary/king-felix"
+      },
+      {
+        "label": "Torah",
+        "kind": "theme",
+        "link": "/dictionary/torah"
+      },
+      {
+        "label": "Acts",
+        "kind": "theme",
+        "link": "/dictionary/acts"
+      },
+      {
+        "label": "Thomas",
+        "kind": "theme",
+        "link": "/dictionary/thomas",
+        "aliases": [
+          "Firebright"
+        ]
+      },
+      {
+        "label": "3-74",
+        "kind": "theme"
+      },
+      {
+        "label": "paranoia",
+        "kind": "theme"
+      },
+      {
+        "label": "Satan",
+        "kind": "theme",
+        "link": "/dictionary/satan",
+        "aliases": [
+          "Manichaeism"
+        ]
+      },
+      {
+        "label": "A Scanner Darkly",
+        "kind": "work",
+        "link": "/exegesis/works/a-scanner-darkly"
+      },
+      {
+        "label": "Ubik",
+        "kind": "work",
+        "link": "/exegesis/works/ubik"
+      },
+      {
+        "label": "VALIS",
+        "kind": "work",
+        "link": "/exegesis/works/valis"
+      },
+      {
+        "label": "A Maze of Death",
+        "kind": "work",
+        "link": "/exegesis/works/a-maze-of-death"
+      },
+      {
+        "label": "Flow My Tears",
+        "kind": "work",
+        "link": "/exegesis/works/flow-my-tears-the-policeman-said"
+      },
+      {
+        "label": "The Divine Invasion",
+        "kind": "work",
+        "link": "/exegesis/works/the-divine-invasion"
+      },
+      {
+        "label": "The Transmigration of Timothy Archer",
+        "kind": "work",
+        "aliases": [
+          "Angel Archer"
+        ]
+      },
+      {
+        "label": "Hans Jonas",
+        "kind": "people"
+      },
+      {
+        "label": "Julian Jaynes",
+        "kind": "people",
+        "link": "/names/julian-jaynes"
+      },
+      {
+        "label": "Stanislaw Lem",
+        "kind": "people"
+      },
+      {
+        "label": "Bateson",
+        "kind": "people"
+      },
+      {
+        "label": "Calvin",
+        "kind": "people"
+      },
+      {
+        "label": "Valentinus",
+        "kind": "people",
+        "aliases": [
+          "Gnosticism"
+        ]
+      }
+    ]
+  },
   "evidence_packets": [
     {
       "ev_id": "PKT-1976-ADOPTION",
@@ -1791,7 +2003,7 @@
       "lane_c_count": 0,
       "passages": [
         {
-          "passage_id": 20510,
+          "passage_id": 20714,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -1810,7 +2022,7 @@
           "date": "September 15, 1976"
         },
         {
-          "passage_id": 20511,
+          "passage_id": 20715,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -1827,7 +2039,7 @@
           "date": "September 15, 1976"
         },
         {
-          "passage_id": 20521,
+          "passage_id": 20725,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -1845,7 +2057,7 @@
           "date": "September 15, 1976"
         },
         {
-          "passage_id": 20519,
+          "passage_id": 20723,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -1864,7 +2076,7 @@
           "date": "September 15, 1976"
         },
         {
-          "passage_id": 20514,
+          "passage_id": 20718,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -1881,7 +2093,7 @@
           "date": "September 15, 1976"
         },
         {
-          "passage_id": 20518,
+          "passage_id": 20722,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -1898,7 +2110,7 @@
           "date": "September 15, 1976"
         },
         {
-          "passage_id": 20515,
+          "passage_id": 20719,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -1917,7 +2129,7 @@
           "date": "September 15, 1976"
         },
         {
-          "passage_id": 20516,
+          "passage_id": 20720,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -1935,7 +2147,7 @@
           "date": "September 15, 1976"
         },
         {
-          "passage_id": 20520,
+          "passage_id": 20724,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -1965,7 +2177,7 @@
       "lane_c_count": 0,
       "passages": [
         {
-          "passage_id": 20517,
+          "passage_id": 20721,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -1982,7 +2194,7 @@
           "date": "September 15, 1976"
         },
         {
-          "passage_id": 20512,
+          "passage_id": 20716,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -2000,7 +2212,7 @@
           "date": "September 15, 1976"
         },
         {
-          "passage_id": 20513,
+          "passage_id": 20717,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -2018,7 +2230,7 @@
           "date": "September 15, 1976"
         },
         {
-          "passage_id": 20522,
+          "passage_id": 20726,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_015",
@@ -2048,7 +2260,7 @@
       "lane_c_count": 0,
       "passages": [
         {
-          "passage_id": 20532,
+          "passage_id": 20736,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_016",
@@ -2067,7 +2279,7 @@
           "date": "October 10, 1978"
         },
         {
-          "passage_id": 20527,
+          "passage_id": 20731,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_016",
@@ -2085,7 +2297,7 @@
           "date": "October 10, 1978"
         },
         {
-          "passage_id": 20526,
+          "passage_id": 20730,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_016",
@@ -2103,7 +2315,7 @@
           "date": "October 10, 1978"
         },
         {
-          "passage_id": 20528,
+          "passage_id": 20732,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_016",
@@ -2121,7 +2333,7 @@
           "date": "October 10, 1978"
         },
         {
-          "passage_id": 20531,
+          "passage_id": 20735,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_016",
@@ -2140,7 +2352,7 @@
           "date": "October 10, 1978"
         },
         {
-          "passage_id": 20523,
+          "passage_id": 20727,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_016",
@@ -2158,7 +2370,7 @@
           "date": "October 10, 1978"
         },
         {
-          "passage_id": 20529,
+          "passage_id": 20733,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_016",
@@ -2176,7 +2388,7 @@
           "date": "October 10, 1978"
         },
         {
-          "passage_id": 20545,
+          "passage_id": 20749,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_ARCH_THE_EXEGESIS_OF_PHILIP_K_DICK_DICK_PHILI",
@@ -2208,7 +2420,7 @@
       "lane_c_count": 0,
       "passages": [
         {
-          "passage_id": 20524,
+          "passage_id": 20728,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_016",
@@ -2241,7 +2453,7 @@
       "lane_c_count": 0,
       "passages": [
         {
-          "passage_id": 20535,
+          "passage_id": 20739,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
@@ -2260,7 +2472,7 @@
           "date": "April 16, 1981"
         },
         {
-          "passage_id": 20538,
+          "passage_id": 20742,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
@@ -2278,7 +2490,7 @@
           "date": "April 16, 1981"
         },
         {
-          "passage_id": 20539,
+          "passage_id": 20743,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
@@ -2297,7 +2509,7 @@
           "date": "April 16, 1981"
         },
         {
-          "passage_id": 20541,
+          "passage_id": 20745,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
@@ -2315,7 +2527,7 @@
           "date": "April 16, 1981"
         },
         {
-          "passage_id": 20534,
+          "passage_id": 20738,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
@@ -2346,7 +2558,7 @@
       "lane_c_count": 0,
       "passages": [
         {
-          "passage_id": 20537,
+          "passage_id": 20741,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
@@ -2365,7 +2577,7 @@
           "date": "April 16, 1981"
         },
         {
-          "passage_id": 20542,
+          "passage_id": 20746,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
@@ -2383,7 +2595,7 @@
           "date": "April 16, 1981"
         },
         {
-          "passage_id": 20536,
+          "passage_id": 20740,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
@@ -2402,7 +2614,7 @@
           "date": "April 16, 1981"
         },
         {
-          "passage_id": 20540,
+          "passage_id": 20744,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
@@ -2433,7 +2645,7 @@
       "lane_c_count": 0,
       "passages": [
         {
-          "passage_id": 20554,
+          "passage_id": 20758,
           "lane": "E",
           "source_mode": "letter",
           "doc_id": "DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19",
@@ -2452,7 +2664,7 @@
           "date": "2009"
         },
         {
-          "passage_id": 20558,
+          "passage_id": 20762,
           "lane": "E",
           "source_mode": "letter",
           "doc_id": "DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19",
@@ -2471,7 +2683,7 @@
           "date": "2009"
         },
         {
-          "passage_id": 20555,
+          "passage_id": 20759,
           "lane": "E",
           "source_mode": "letter",
           "doc_id": "DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19",
@@ -2489,7 +2701,7 @@
           "date": "2009"
         },
         {
-          "passage_id": 20556,
+          "passage_id": 20760,
           "lane": "E",
           "source_mode": "letter",
           "doc_id": "DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19",
@@ -2508,7 +2720,7 @@
           "date": "2009"
         },
         {
-          "passage_id": 20557,
+          "passage_id": 20761,
           "lane": "E",
           "source_mode": "letter",
           "doc_id": "DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19",
@@ -2528,7 +2740,7 @@
           "date": "2009"
         },
         {
-          "passage_id": 20559,
+          "passage_id": 20763,
           "lane": "E",
           "source_mode": "letter",
           "doc_id": "DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19",
@@ -2546,7 +2758,7 @@
           "date": "2009"
         },
         {
-          "passage_id": 20560,
+          "passage_id": 20764,
           "lane": "E",
           "source_mode": "interview",
           "doc_id": "DOC_ARCH_PHILIP_K_DICK_IN_HIS_OWN_WORDS_GREGG_RIC",
@@ -2577,7 +2789,7 @@
       "lane_c_count": 0,
       "passages": [
         {
-          "passage_id": 20525,
+          "passage_id": 20729,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_016",
@@ -2595,7 +2807,7 @@
           "date": "October 10, 1978"
         },
         {
-          "passage_id": 20543,
+          "passage_id": 20747,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_017",
@@ -2614,7 +2826,7 @@
           "date": "April 16, 1981"
         },
         {
-          "passage_id": 20533,
+          "passage_id": 20737,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_016",
@@ -2632,7 +2844,7 @@
           "date": "October 10, 1978"
         },
         {
-          "passage_id": 20544,
+          "passage_id": 20748,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_ARCH_THE_EXEGESIS_OF_PHILIP_K_DICK_DICK_PHILI",
@@ -2665,7 +2877,7 @@
       "lane_c_count": 0,
       "passages": [
         {
-          "passage_id": 20530,
+          "passage_id": 20734,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_EXEG_SECTION_016",
@@ -2683,7 +2895,7 @@
           "date": "October 10, 1978"
         },
         {
-          "passage_id": 20548,
+          "passage_id": 20752,
           "lane": "E",
           "source_mode": "letter",
           "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI",
@@ -2701,7 +2913,7 @@
           "date": "1975-1976 (published 1992)"
         },
         {
-          "passage_id": 20550,
+          "passage_id": 20754,
           "lane": "E",
           "source_mode": "letter",
           "doc_id": "DOC_ARCH_PHILIP_K_DICK_PAUL_WILLIAMS_SELECTED_LET",
@@ -2718,7 +2930,7 @@
           "date": "1993"
         },
         {
-          "passage_id": 20551,
+          "passage_id": 20755,
           "lane": "E",
           "source_mode": "letter",
           "doc_id": "DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19",
@@ -2735,7 +2947,7 @@
           "date": "2009"
         },
         {
-          "passage_id": 20549,
+          "passage_id": 20753,
           "lane": "E",
           "source_mode": "letter",
           "doc_id": "DOC_ARCH_OCEANOFPDF_COM_SELECTED_LETTERS_OF_PHILI",
@@ -2754,7 +2966,7 @@
           "date": "1975-1976 (published 1992)"
         },
         {
-          "passage_id": 20552,
+          "passage_id": 20756,
           "lane": "E",
           "source_mode": "letter",
           "doc_id": "DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19",
@@ -2773,7 +2985,7 @@
           "date": "2009"
         },
         {
-          "passage_id": 20553,
+          "passage_id": 20757,
           "lane": "E",
           "source_mode": "letter",
           "doc_id": "DOC_ARCH_THE_SELECTED_LETTERS_OF_PHILIP_K_DICK_19",
@@ -2803,7 +3015,7 @@
       "lane_c_count": 0,
       "passages": [
         {
-          "passage_id": 20546,
+          "passage_id": 20750,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_ARCH_THE_EXEGESIS_OF_PHILIP_K_DICK_DICK_PHILI",
@@ -2822,7 +3034,7 @@
           "date": "2011"
         },
         {
-          "passage_id": 20561,
+          "passage_id": 20765,
           "lane": "E",
           "source_mode": "interview",
           "doc_id": "DOC_ARCH_HOW_TO_BUILD_A_UNIVERSE_THAT_DOESN_T_FAL",
@@ -2853,7 +3065,7 @@
       "lane_c_count": 7,
       "passages": [
         {
-          "passage_id": 20547,
+          "passage_id": 20751,
           "lane": "B",
           "source_mode": "exegesis",
           "doc_id": "DOC_ARCH_THE_EXEGESIS_OF_PHILIP_K_DICK_DICK_PHILI",
@@ -2872,7 +3084,7 @@
           "date": "2011"
         },
         {
-          "passage_id": 20572,
+          "passage_id": 20776,
           "lane": "C",
           "source_mode": "criticism",
           "doc_id": "DOC_ARCH_ANDREW_M_BUTLER_PHILIP_K_DICK_REVISED_AN",
@@ -2891,7 +3103,7 @@
           "date": "2007"
         },
         {
-          "passage_id": 20570,
+          "passage_id": 20774,
           "lane": "C",
           "source_mode": "criticism",
           "doc_id": "DOC_ARCH_DAVID_LAPOUJADE_WORLDS_BUILT_TO_FALL_APA",
@@ -2909,7 +3121,7 @@
           "date": "2020"
         },
         {
-          "passage_id": 20569,
+          "passage_id": 20773,
           "lane": "C",
           "source_mode": "criticism",
           "doc_id": "DOC_ARCH_DAVID_LAPOUJADE_WORLDS_BUILT_TO_FALL_APA",
@@ -2928,7 +3140,7 @@
           "date": "2020"
         },
         {
-          "passage_id": 20567,
+          "passage_id": 20771,
           "lane": "C",
           "source_mode": "criticism",
           "doc_id": "DOC_ARCH_DAVID_LAPOUJADE_WORLDS_BUILT_TO_FALL_APA",
@@ -2947,7 +3159,7 @@
           "date": "2020"
         },
         {
-          "passage_id": 20568,
+          "passage_id": 20772,
           "lane": "C",
           "source_mode": "criticism",
           "doc_id": "DOC_ARCH_DAVID_LAPOUJADE_WORLDS_BUILT_TO_FALL_APA",
@@ -2965,7 +3177,7 @@
           "date": "2020"
         },
         {
-          "passage_id": 20571,
+          "passage_id": 20775,
           "lane": "C",
           "source_mode": "criticism",
           "doc_id": "DOC_ARCH_DAVID_LAPOUJADE_WORLDS_BUILT_TO_FALL_APA",
@@ -2983,7 +3195,7 @@
           "date": "2020"
         },
         {
-          "passage_id": 20573,
+          "passage_id": 20777,
           "lane": "C",
           "source_mode": "criticism",
           "doc_id": "DOC_ARCH_OXFORD_BOOKWORMS_LIBRARY_STAGE_5_OXFORD_",
@@ -3001,7 +3213,7 @@
           "date": "2007"
         },
         {
-          "passage_id": 20563,
+          "passage_id": 20767,
           "lane": "D",
           "source_mode": "criticism",
           "doc_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_",
@@ -3018,7 +3230,7 @@
           "date": "1989"
         },
         {
-          "passage_id": 20566,
+          "passage_id": 20770,
           "lane": "D",
           "source_mode": "criticism",
           "doc_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_",
@@ -3036,7 +3248,7 @@
           "date": "1989"
         },
         {
-          "passage_id": 20564,
+          "passage_id": 20768,
           "lane": "D",
           "source_mode": "criticism",
           "doc_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_",
@@ -3054,7 +3266,7 @@
           "date": "1989"
         },
         {
-          "passage_id": 20565,
+          "passage_id": 20769,
           "lane": "D",
           "source_mode": "criticism",
           "doc_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_",
@@ -3073,7 +3285,7 @@
           "date": "1989"
         },
         {
-          "passage_id": 20562,
+          "passage_id": 20766,
           "lane": "D",
           "source_mode": "criticism",
           "doc_id": "DOC_ARCH_DIVINE_INVASIONS_A_LIFE_OF_PHI_LAWRENCE_",
@@ -3097,12 +3309,12 @@
   ],
   "contradictions": [
     {
-      "contradiction_id": 66,
+      "contradiction_id": 81,
       "summary": "In 1976 Dick reports throwing off a word virus that had infected him; in 1981 he denies that any information virus occludes anyone.",
       "explanation": "The headline reversal, and the least complicated of the four. The 1976 entry treats 3-74 as remission from an infection Burroughs correctly diagnosed. The 1981 entry keeps both components — living information, and occlusion — but severs the causal link and reassigns living information to the side of the remedy. Neither reading is ever retracted.",
       "contradiction_type": "early_vs_late",
       "passage_a": {
-        "passage_id": 20515,
+        "passage_id": 20719,
         "lane": "B",
         "doc_title": "Dorothy",
         "passage_text": "… is rejection of the light, the killing of it, + the promise that someday it will return. Well, it has, but disguised, as a beggar, so to speak. Burroughs may have got the real situation down in \"The Ticket That Exploded\" - the criminal virus related to words, submessages, the nova police. In 3-74 I saw the 50/50 juxtaposition he discusses. IF his view is correct, what happened to me in 3-74 is that I temporarily got well - was somehow able to throw off the word virus which had entered me + inf",
@@ -3111,7 +3323,7 @@
         "citation": "Exegesis, September 15, 1976 — 3-74 as remission from the word virus"
       },
       "passage_b": {
-        "passage_id": 20535,
+        "passage_id": 20739,
         "lane": "B",
         "doc_title": "Pat",
         "passage_text": "… The original strategy required that the ancient angelic powers not know, so those humans (the Twelve) who knew were not to tell; this time, the very same angelic powers know, and they keep humans ignorant by occluding their faculties (including memory?). Man is not occluded by an \"information virus,\" i.e. living information; on the contrary: man is occluded and the living information is sent to tell him the true situation, that Christ is here; thus the plasmate's message is: KING FELIX and var",
@@ -3121,12 +3333,12 @@
       }
     },
     {
-      "contradiction_id": 67,
+      "contradiction_id": 82,
       "summary": "The April 1981 sitting that states the reversal also keeps the occluding virus, in the same pages.",
       "explanation": "Within the same sitting Dick writes that Torah is \"like an occluding information virus\", that the living information \"controls us (as Burroughs teaches)\", and that Satan \"ensnared him as the info virus of Burroughs\". He does not choose between the readings; he sets a living hyper-information against the occluding one and leaves them in combat. Any summary presenting April 1981 as a settled reversal is tidier than the notebooks.",
       "contradiction_type": "interpretive",
       "passage_a": {
-        "passage_id": 20535,
+        "passage_id": 20739,
         "lane": "B",
         "doc_title": "Pat",
         "passage_text": "… The original strategy required that the ancient angelic powers not know, so those humans (the Twelve) who knew were not to tell; this time, the very same angelic powers know, and they keep humans ignorant by occluding their faculties (including memory?). Man is not occluded by an \"information virus,\" i.e. living information; on the contrary: man is occluded and the living information is sent to tell him the true situation, that Christ is here; thus the plasmate's message is: KING FELIX and var",
@@ -3135,7 +3347,7 @@
         "citation": "Exegesis, April 16, 1981 — the reversal stated outright (folder 90)"
       },
       "passage_b": {
-        "passage_id": 20540,
+        "passage_id": 20744,
         "lane": "B",
         "doc_title": "Pat",
         "passage_text": "… Christ)? Here the Gnostic account errs as to how the defeat was suffered. + I saw in 3-74 what primal man saw: what is really there. + it is beautiful. (On purpose.) (To beguile + cause to forget: like enchantment; + this, too, this fairy enchantment is a major theme in \"DI\"; all I need do is put it all together. It is said in scripture that Satan tempted Christ. I [saw/say] Satan won, 63-2013 D-6 he ensnared him as the info virus of Burroughs, ensnared him with beauty. So: Manichaenism, Burro",
@@ -3145,12 +3357,12 @@
       }
     },
     {
-      "contradiction_id": 68,
+      "contradiction_id": 83,
       "summary": "In October 1978 the virus is the disease and the cure, in the same section.",
       "explanation": "One passage calls the information virus \"antitoxic, de-occlusive\" and maps it onto four of Dick's own novels as the thing that lifts the occlusion. Another, in the same section, says \"Burroughs is right\" and that the occluding life form \"enslaves us and kills us\". A third rejects the frame outright: \"This is no information virus; this is blindness.\" The 1978 material is not a stage between 1976 and 1981; it already contains both poles.",
       "contradiction_type": "interpretive",
       "passage_a": {
-        "passage_id": 20524,
+        "passage_id": 20728,
         "lane": "B",
         "doc_title": "Letter",
         "passage_text": "… By a study of \"Stigmata\" one can understand transubstantiation, which was my source + theme (my intent). It's even stated in the novel that Eldritch is the Xtian God. You get a good deal of the story by combining \"Ubik\" + \"Stigmata.\" But this is not an occluding, toxifying \"virus\" - it is an antitoxic, de-occlusive. That folder 21 - 023 folder 21 - 023 is the bottom line as far as we humans are concerned: the \"information virus\" Zebra destroys the 4-pronged deformation which I have delineated ",
@@ -3159,7 +3371,7 @@
         "citation": "Exegesis, October 10, 1978 — the information virus revalued as the cure (folder 21)"
       },
       "passage_b": {
-        "passage_id": 20528,
+        "passage_id": 20732,
         "lane": "B",
         "doc_title": "Letter",
         "passage_text": "… Or she: Diana, War in heaven, and the ancestral tyranny breached, for our sake: to bring us sight and life and joy. What specifically is this secret that was stolen? It is here, in \"one’s hands.\" So presumably I Know what it is. It is (I hate to say this, but...): there is an occluding life form here; it not only occludes us, but it enslaves us and Kills us. We can’t see it; that's part of the occlusion. Bur¬ roughs is right. Is it the plasmate? maybe so. An \"information virus.\" We are under i",
@@ -3169,12 +3381,12 @@
       }
     },
     {
-      "contradiction_id": 69,
+      "contradiction_id": 84,
       "summary": "To a correspondent Dick refuses to call Burroughs's theory paranoia; to himself he had already named paranoia as one of its two sources.",
       "explanation": "The 1978 Exegesis entry attributes his own \"contamination\" reading to Burroughs's theory plus \"paranoia and paranoiac fear\". The 1981 letter to Brig Elliot declines to dismiss the same theory \"as mere paranoia on his part\". Strictly the two are compatible — one is about Dick, the other about Burroughs — but they show the difference between what the notebooks say and what the letters concede.",
       "contradiction_type": "self_vs_critic",
       "passage_a": {
-        "passage_id": 20527,
+        "passage_id": 20731,
         "lane": "B",
         "doc_title": "Letter",
         "passage_text": "… These messages operate on us subliminally or (and this is possible)(they are aimed at the secret Christian under¬ ground) or both. I doubt very much if the plasmate is an occluding agent (like Burrough's information virus). I may be wrong but I identify the plasmate's messages with the secret Christians and as an attempt to wake us to our real condition. Admittedly I am limited to the cooked material in TEARS but that, certainly, was not an occluding mechanism; if read properly, TEARS and its ",
@@ -3183,7 +3395,7 @@
         "citation": "Exegesis, October 10, 1978 — the \"contamination\" reading traced to Burroughs and to fear"
       },
       "passage_b": {
-        "passage_id": 20555,
+        "passage_id": 20759,
         "lane": "E",
         "doc_title": "The Selected Letters of Philip K. Dick: 1980-1982",
         "passage_text": "… Perhaps, then, the selfmonitoring circuit is itself malfunctioning. I cannot accept Burroughs’ view that we have been invaded by an alien virus, an information virus, yet on the other hand I cannot readily dismiss this bizarre theory as mere paranoia on his part. I think he is onto something real and impor­ tant, and that his statements do more good—far more good— than harm (that is, he states the problem correctly, although perhaps his analysis of the cause is faulty; still, merely to be awar",
@@ -3480,7 +3692,14 @@
       "relation_type": "identified_with_nova_police"
     }
   ],
-  "related_topics": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_INTERTEXT_pkd_and_the_bible",
+      "canonical_name": "Philip K. Dick and the Bible",
+      "slug": "pkd-and-the-bible",
+      "study_id": "intertexts"
+    }
+  ],
   "definition_claim_ids": [],
   "definition_generator": "curation/burroughs-word-virus@2026-09-04",
   "pkd_relevance_claim_ids": [],

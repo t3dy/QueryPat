@@ -49,6 +49,7 @@ POST_EXPORT_PASSES = [
     'clean_studies_claim_leaks',
     'clean_segment_wiki_artifacts',
     'rebuild_search_index_terms',
+    'index_study_search',
     'fix_dead_links',
 ]
 

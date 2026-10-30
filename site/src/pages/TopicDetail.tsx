@@ -5,7 +5,7 @@ import ContradictionCard from '../components/studies/ContradictionCard'
 import TopicChronology from '../components/studies/TopicChronology'
 import MentionCards from '../components/studies/MentionCards'
 import CitedText from '../components/studies/CitedText'
-import type { MentionCard, MentionGroup } from '../components/studies/MentionCards'
+import type { BrowseConfig, MentionCard, MentionGroup } from '../components/studies/MentionCards'
 
 interface RelatedDoc {
   doc_id: string
@@ -70,6 +70,7 @@ interface TopicData {
   mention_cards?: MentionCard[]
   /** Per-topic grouping for the mention cards; omit for the default. */
   mention_groups?: MentionGroup[]
+  browse?: BrowseConfig | null
   related_thinkers: string[] | null
   editorial_notes: string | null
   open_questions: string[] | null
@@ -107,6 +108,15 @@ const DOSSIER_SECTIONS: { key: keyof TopicData; label: string }[] = [
   { key: 'editorial_notes', label: 'Editorial Notes' },
 ]
 
+/** In-page jump. The site runs on a HashRouter, so a bare #anchor would be
+ *  read as a route; scroll to the element instead. */
+function jumpTo(id: string) {
+  return (e: React.MouseEvent) => {
+    e.preventDefault()
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+}
+
 export default function TopicDetail() {
   const { studyId, slug } = useParams<{ studyId: string; slug: string }>()
   const { data: topic, loading } = useData<TopicData>(
@@ -136,11 +146,31 @@ export default function TopicDetail() {
         </div>
       </div>
 
+      {/* Page contents, for the long authored dossiers. */}
+      {hasEssay && topic.browse && (
+        <nav className="dossier-toc" aria-label="On this page">
+          {topic.dossier_sections!.map(sec => (
+            <a key={sec.id} href={`#sec-${sec.id}`} onClick={jumpTo(`sec-${sec.id}`)}>
+              {sec.heading}
+            </a>
+          ))}
+          <a href="#mentions" onClick={jumpTo('mentions')} className="dossier-toc-strong">
+            Browse all {topic.mention_cards?.length} passages by book &amp; theme
+          </a>
+          {topic.contradictions?.length > 0 && (
+            <a href="#contradictions" onClick={jumpTo('contradictions')}>Contradictions</a>
+          )}
+          {topic.open_questions && topic.open_questions.length > 0 && (
+            <a href="#open-questions" onClick={jumpTo('open-questions')}>Open questions</a>
+          )}
+        </nav>
+      )}
+
       {/* Authored dossier: an ordered essay, when the topic has one. */}
       {topic.dossier_sections && topic.dossier_sections.length > 0 && (
         <div className="dossier-essay">
           {topic.dossier_sections.map(section => (
-            <div key={section.id} className="detail-section">
+            <div key={section.id} className="detail-section" id={`sec-${section.id}`}>
               <h2>{section.heading}</h2>
               {section.register && (
                 <span className={`register-badge register-${section.register.toLowerCase()}`}
@@ -185,7 +215,7 @@ export default function TopicDetail() {
 
       {/* Open questions */}
       {topic.open_questions && topic.open_questions.length > 0 && (
-        <div className="detail-section">
+        <div className="detail-section" id="open-questions">
           <h2>Open Questions</h2>
           <ul>
             {topic.open_questions.map((q, i) => (
@@ -200,7 +230,7 @@ export default function TopicDetail() {
 
       {/* Contradictions */}
       {topic.contradictions && topic.contradictions.length > 0 && (
-        <div className="detail-section">
+        <div className="detail-section" id="contradictions">
           <h2>Contradictions</h2>
           <div className="contradictions-list">
             {topic.contradictions.map((c: any) => (
@@ -267,6 +297,7 @@ export default function TopicDetail() {
       {/* Every mention, card by card — below the essay and the machinery */}
       <MentionCards
         cards={topic.mention_cards || []}
+        browse={topic.browse}
         groups={topic.mention_groups}
         heading={topic.mention_groups ? 'The passages, one by one' : undefined}
         intro={

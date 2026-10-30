@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { useData } from '../hooks/useData'
+import StudyBacklinks from '../components/studies/StudyBacklinks'
 import EntityLayout from '../components/EntityLayout'
 
 const LANE_LABELS: Record<string, string> = {
@@ -69,6 +70,7 @@ export default function ArchiveDetail() {
       tags={[{ label: doc.category, to: `/tag/${encodeURIComponent(doc.category.toLowerCase())}` }]}
       backLink={{ label: 'Back to Archive', to: '/archive' }}
     >
+      <StudyBacklinks kind="documents" id={slug} />
       {doc.page_summary && (
         <div className="detail-section">
           <h2>Summary</h2>

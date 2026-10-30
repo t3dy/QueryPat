@@ -831,6 +831,11 @@ CREATE TABLE IF NOT EXISTS study_topics (
     related_terms       TEXT,
     related_names       TEXT,
 
+    -- Authored dossiers (curation/<topic>/), added in place by their seeders
+    dossier_sections    TEXT,               -- JSON: ordered essay sections
+    mention_cards       TEXT,               -- JSON: one card per published passage
+    browse_config       TEXT,               -- JSON: card groups and facet vocabulary
+
     provenance          TEXT,
     notes               TEXT,
     created_at          TEXT DEFAULT (datetime('now')),

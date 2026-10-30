@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { useData } from '../hooks/useData'
+import StudyBacklinks from '../components/studies/StudyBacklinks'
 import { formatSegmentTitle } from '../utils/formatTitle'
 import EntityLayout from '../components/EntityLayout'
 import ExploreFooter from '../components/ExploreFooter'
@@ -149,6 +150,7 @@ export default function NameDetail() {
         </>
       }
     >
+      <StudyBacklinks kind="names" id={slug} />
       {name.card_description && !name.full_description && (
         <div className="detail-section">
           <p style={{ fontSize: '1.05rem', lineHeight: '1.6' }}>{name.card_description}</p>

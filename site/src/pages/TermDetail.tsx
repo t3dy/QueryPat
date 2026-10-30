@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { useData } from '../hooks/useData'
+import StudyBacklinks from '../components/studies/StudyBacklinks'
 import { formatSegmentTitle } from '../utils/formatTitle'
 import EntityLayout from '../components/EntityLayout'
 import ExploreFooter from '../components/ExploreFooter'
@@ -185,6 +186,7 @@ export default function TermDetail() {
         </>
       }
     >
+      <StudyBacklinks kind="terms" id={term.slug} />
       {term.aliases.length > 0 && (
         <div className="detail-section">
           <h2>Also Known As</h2>

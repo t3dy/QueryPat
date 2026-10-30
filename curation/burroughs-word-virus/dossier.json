@@ -206,5 +206,217 @@
   "Does VALIS contain a solution to the paradox Dick names, or only a dramatisation of it? — raised under 15 April 1981. He says he tried to deal with it there; whether he succeeded is a question about the novel. Resolvable by: close reading of the tractate and the Horselover Fat / Phil Dick split against this specific problem.",
   "Why does the published edition print only eight of our thirty-four passages, omitting the most interesting ones? — raised in the opening note. Editorial selection, or folders the editors did not hold? Resolvable by: comparing our folder stamps against the editors' stated selection principles.",
   "Does Dick hold contradictory positions deliberately? — raised under autumn 1980. Five incompatible readings in five months, none discarded, and he writes elsewhere that \"we are going to have to deal with propositions which are simultaneously both true and false\". Taking that seriously would change how the whole Exegesis should be read. Resolvable by: testing whether the same pattern holds across the portal's other studies."
- ]
+ ],
+ "browse": {
+  "intro": "{n} passages in the archive refer to Burroughs or to his word virus. Each card summarises the whole passage and where it sits in the work, then quotes the sentence it turns on; every quotation is machine-checked against the underlying text before it is published. Pick one of Burroughs's ideas, one of Dick's, a novel or a thinker to see only the passages about it, or a lane to see one kind of source.",
+  "facet_kinds": [
+   {
+    "kind": "burroughs",
+    "label": "Burroughs's vocabulary"
+   },
+   {
+    "kind": "theme",
+    "label": "Dick's concepts"
+   },
+   {
+    "kind": "work",
+    "label": "Dick's works"
+   },
+   {
+    "kind": "people",
+    "label": "Other thinkers"
+   }
+  ],
+  "facets": [
+   {
+    "label": "word virus",
+    "kind": "burroughs",
+    "aliases": [
+     "information virus",
+     "replicating virus"
+    ]
+   },
+   {
+    "label": "Nova Mob",
+    "kind": "burroughs"
+   },
+   {
+    "label": "Nova police",
+    "kind": "burroughs"
+   },
+   {
+    "label": "cut-up",
+    "kind": "burroughs"
+   },
+   {
+    "label": "latent messages",
+    "kind": "burroughs"
+   },
+   {
+    "label": "language as control",
+    "kind": "burroughs",
+    "aliases": [
+     "language",
+     "control",
+     "syntax"
+    ]
+   },
+   {
+    "label": "Junky",
+    "kind": "burroughs",
+    "aliases": [
+     "drugs"
+    ]
+   },
+   {
+    "label": "occlusion",
+    "kind": "theme",
+    "aliases": [
+     "blindness",
+     "occluding life form"
+    ]
+   },
+   {
+    "label": "anti-information",
+    "kind": "theme",
+    "aliases": [
+     "jamming",
+     "reception"
+    ]
+   },
+   {
+    "label": "living information",
+    "kind": "theme"
+   },
+   {
+    "label": "plasmate",
+    "kind": "theme",
+    "link": "/dictionary/plasmate"
+   },
+   {
+    "label": "Logos",
+    "kind": "theme",
+    "link": "/dictionary/logos"
+   },
+   {
+    "label": "Valis",
+    "kind": "theme",
+    "link": "/dictionary/valis"
+   },
+   {
+    "label": "Black Iron Prison",
+    "kind": "theme",
+    "link": "/dictionary/black-iron-prison"
+   },
+   {
+    "label": "Zebra",
+    "kind": "theme",
+    "link": "/dictionary/zebra"
+   },
+   {
+    "label": "King Felix",
+    "kind": "theme",
+    "link": "/dictionary/king-felix"
+   },
+   {
+    "label": "Torah",
+    "kind": "theme",
+    "link": "/dictionary/torah"
+   },
+   {
+    "label": "Acts",
+    "kind": "theme",
+    "link": "/dictionary/acts"
+   },
+   {
+    "label": "Thomas",
+    "kind": "theme",
+    "link": "/dictionary/thomas",
+    "aliases": [
+     "Firebright"
+    ]
+   },
+   {
+    "label": "3-74",
+    "kind": "theme"
+   },
+   {
+    "label": "paranoia",
+    "kind": "theme"
+   },
+   {
+    "label": "Satan",
+    "kind": "theme",
+    "link": "/dictionary/satan",
+    "aliases": [
+     "Manichaeism"
+    ]
+   },
+   {
+    "label": "A Scanner Darkly",
+    "kind": "work",
+    "link": "/exegesis/works/a-scanner-darkly"
+   },
+   {
+    "label": "Ubik",
+    "kind": "work",
+    "link": "/exegesis/works/ubik"
+   },
+   {
+    "label": "VALIS",
+    "kind": "work",
+    "link": "/exegesis/works/valis"
+   },
+   {
+    "label": "A Maze of Death",
+    "kind": "work",
+    "link": "/exegesis/works/a-maze-of-death"
+   },
+   {
+    "label": "Flow My Tears",
+    "kind": "work",
+    "link": "/exegesis/works/flow-my-tears-the-policeman-said"
+   },
+   {
+    "label": "The Divine Invasion",
+    "kind": "work",
+    "link": "/exegesis/works/the-divine-invasion"
+   },
+   {
+    "label": "The Transmigration of Timothy Archer",
+    "kind": "work",
+    "aliases": [
+     "Angel Archer"
+    ]
+   },
+   {
+    "label": "Hans Jonas",
+    "kind": "people"
+   },
+   {
+    "label": "Julian Jaynes",
+    "kind": "people",
+    "link": "/names/julian-jaynes"
+   },
+   {
+    "label": "Stanislaw Lem",
+    "kind": "people"
+   },
+   {
+    "label": "Bateson",
+    "kind": "people"
+   },
+   {
+    "label": "Calvin",
+    "kind": "people"
+   },
+   {
+    "label": "Valentinus",
+    "kind": "people",
+    "aliases": [
+     "Gnosticism"
+    ]
+   }
+  ]
+ }
 }

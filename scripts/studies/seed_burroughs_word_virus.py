@@ -33,8 +33,8 @@ CURATION = PROJECT_DIR / 'curation' / 'burroughs-word-virus'
 STUDY_ID = 'intertexts'
 STUDY_LABEL = 'Intertexts & Influences'
 STUDY_DESCRIPTION = (
-    "Writers and thinkers Philip K. Dick read, argued with, and absorbed into "
-    "his own vocabulary. Each topic tracks a single interlocutor across the "
+    "Writers, thinkers and texts Philip K. Dick read, argued with, and absorbed "
+    "into his own vocabulary. Each topic tracks a single interlocutor across the "
     "fiction, the Exegesis, and the correspondence, and holds on to the places "
     "where Dick changed his mind about them."
 )
@@ -198,10 +198,10 @@ CARRIED_COLUMNS = [
 
 
 def ensure_schema(db: sqlite3.Connection) -> bool:
-    """Widen study_passages (lanes A-E, ev_id) and add dossier_sections."""
+    """Widen study_passages (lanes A-E, ev_id); add the authored-dossier columns."""
     changed = False
     cols = {c[1] for c in db.execute("PRAGMA table_info(study_topics)")}
-    for col in ('dossier_sections', 'mention_cards'):
+    for col in ('dossier_sections', 'mention_cards', 'browse_config'):
         if col not in cols:
             db.execute(f"ALTER TABLE study_topics ADD COLUMN {col} TEXT")
             db.commit()
@@ -670,8 +670,8 @@ def seed(db: sqlite3.Connection, check_only: bool = False):
              open_questions, card_description, passage_count, evidence_count,
              contradiction_count, first_appearance, peak_period_start,
              peak_period_end, related_topics, provenance, notes, dossier_sections,
-             mention_cards)
-        VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+             mention_cards, browse_config)
+        VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
         ON CONFLICT(topic_id) DO UPDATE SET
             study_id = excluded.study_id,
             canonical_name = excluded.canonical_name,
@@ -698,6 +698,7 @@ def seed(db: sqlite3.Connection, check_only: bool = False):
             provenance = excluded.provenance,
             dossier_sections = excluded.dossier_sections,
             mention_cards = excluded.mention_cards,
+            browse_config = excluded.browse_config,
             updated_at = CURRENT_TIMESTAMP
     """, (
         TOPIC_ID, STUDY_ID, TOPIC_NAME, TOPIC_SLUG, 'reviewed', 10,
@@ -708,9 +709,10 @@ def seed(db: sqlite3.Connection, check_only: bool = False):
         fields['editorial_notes'], json.dumps(dossier['open_questions']),
         dossier['card_description'],
         len(passages), len(inventory['evidence_packets']), n_contra,
-        '1976', '1976', '1981', json.dumps([]), PROVENANCE, GENERATOR,
+        '1976', '1976', '1981', json.dumps(['pkd-and-the-bible']), PROVENANCE, GENERATOR,
         json.dumps(dossier['sections'], ensure_ascii=False),
         json.dumps(cards, ensure_ascii=False),
+        json.dumps(dossier['browse'], ensure_ascii=False) if dossier.get('browse') else None,
     ))
 
     for field in ('definition', 'pkd_relevance', 'in_the_fiction', 'in_the_exegesis',

@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { useData } from '../hooks/useData'
+import StudyBacklinks from '../components/studies/StudyBacklinks'
 import { useMemo } from 'react'
 import { formatSegmentTitle } from '../utils/formatTitle'
 import EntityLayout from '../components/EntityLayout'
@@ -187,6 +188,7 @@ export default function SegmentDetail() {
         </>
       }
     >
+      <StudyBacklinks kind="segments" id={seg.seg_id} />
       {/* Navigation between segments */}
       {seg.neighbors && seg.neighbors.length > 0 && (
         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem', fontSize: '0.85rem' }}>

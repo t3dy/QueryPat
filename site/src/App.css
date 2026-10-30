@@ -2299,3 +2299,107 @@ a.cm-chip-link:hover {
   font-style: italic;
   white-space: nowrap;
 }
+/* ── Studies: dossier contents and browse facets ── */
+.dossier-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.9rem;
+  padding: 0.75rem 1rem;
+  margin: 0 0 1.5rem;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  font-size: 0.85rem;
+}
+.dossier-toc a { color: var(--link); }
+.dossier-toc-strong { font-weight: 600; }
+
+.facet-panel {
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0 1rem;
+}
+.facet-row {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: 0.6rem;
+  align-items: start;
+  padding: 0.35rem 0;
+}
+.facet-row + .facet-row { border-top: 1px dashed var(--border-light); }
+.facet-row-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  padding-top: 0.3rem;
+}
+.facet-chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.facet-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.facet-chip:hover { border-color: var(--accent-light); }
+.facet-chip.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.facet-chip-count {
+  font-size: 0.7rem;
+  opacity: 0.75;
+}
+.facet-status {
+  margin: 0.6rem 0 0;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+.facet-clear {
+  border: none;
+  background: none;
+  color: var(--link);
+  text-decoration: underline;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+button.entity-tag { font: inherit; font-size: 0.8rem; }
+.entity-tag-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+@media (max-width: 640px) {
+  .facet-row { grid-template-columns: 1fr; gap: 0.25rem; }
+}
+
+/* ── Backlinks from entity pages into authored dossiers ── */
+.study-backlinks {
+  border-left: 3px solid var(--accent-light);
+  background: var(--accent-bg);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0 1.25rem;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 0.9rem;
+}
+.study-backlinks h3 { margin: 0 0 0.35rem; font-size: 0.95rem; }
+.study-backlinks ul { margin: 0; padding-left: 1.1rem; }
+.study-backlinks li + li { margin-top: 0.3rem; }
+.study-backlinks-desc { color: var(--text-secondary); font-size: 0.85rem; }
+
+/* In-page jumps land below the sticky site nav. */
+#mentions, #contradictions, #open-questions, .dossier-essay .detail-section,
+.mention-card { scroll-margin-top: 7rem; }
