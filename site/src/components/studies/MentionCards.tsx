@@ -59,6 +59,8 @@ export interface BrowseConfig {
   groups?: { key: string; label: string; blurb: string }[]
   facet_kinds: { kind: string; label: string }[]
   facets: BrowseFacet[]
+  /** Related pages elsewhere in the portal, shown above the facet rows. */
+  see_also?: { label: string; to: string }[]
 }
 
 interface Props {
@@ -270,6 +272,16 @@ export default function MentionCards({ cards, browse, groups, heading, intro }: 
 
       {browse && (
         <div className="facet-panel">
+          {browse.see_also && browse.see_also.length > 0 && (
+            <div className="facet-row">
+              <span className="facet-row-label">See also</span>
+              <div className="facet-chips">
+                {browse.see_also.map(l => (
+                  <Link key={l.to} to={l.to} className="entity-linked">{l.label}</Link>
+                ))}
+              </div>
+            </div>
+          )}
           {browse.facet_kinds.map(fk => {
             const items = browse.facets.filter(f => f.kind === fk.kind && facetCount.get(f.label))
             if (items.length === 0) return null

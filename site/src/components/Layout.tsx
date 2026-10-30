@@ -43,6 +43,7 @@ export default function Layout() {
         <NavLink to="/studies/intertexts/burroughs-word-virus">Burroughs</NavLink>
         <NavLink to="/studies/gnosticism/lexicon">Gnostic Lexicon</NavLink>
         <NavLink to="/studies/intertexts/pkd-and-the-bible">Bible</NavLink>
+        <NavLink to="/studies/religion/browse">Religion</NavLink>
         <NavLink to="/search">Search</NavLink>
         <NavLink to="/bookmarks">Bookmarks</NavLink>
         <AccountNav />

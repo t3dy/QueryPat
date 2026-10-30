@@ -10208,60 +10208,6 @@
     "category": "Biblical Text"
   },
   {
-    "type": "study_topic",
-    "id": "TOPIC_GNOS_what_dick_actually_read",
-    "slug": "what-dick-actually-read",
-    "title": "What Dick Actually Read",
-    "study_id": "gnosticism",
-    "text": "Dick uses Gnostic concepts constantly and names the Gnostic texts almost never. The sweep puts numbers to the gap. The question of transmission: by what route did late-antique Gnostic ideas reach a science-fiction writer in Santa Ana, and how much of what he wrote was recovered from books as against reconstructed from an experience he then went looking for names for.",
-    "route": "/studies/gnosticism/what-dick-actually-read"
-  },
-  {
-    "type": "study_topic",
-    "id": "TOPIC_GNOS_sophia",
-    "slug": "sophia",
-    "title": "Sophia and the Fallen Wisdom",
-    "study_id": "gnosticism",
-    "text": "The first Gnostic figure to arrive and the one that never leaves. Attested 950 times, peaking in the earliest folder. In Sethian and Valentinian myth, Sophia is the youngest of the divine emanations, whose attempt to know the Father without her consort produces a defect that falls outside the Fullness and becomes the material world and its blind creator. She is simultaneously the cause of the catastrophe, the divine element trapped inside it, and the one who must be recovered.",
-    "route": "/studies/gnosticism/sophia"
-  },
-  {
-    "type": "study_topic",
-    "id": "TOPIC_GNOS_black_iron_prison",
-    "slug": "black-iron-prison",
-    "title": "The Black Iron Prison",
-    "study_id": "gnosticism",
-    "text": "Dick's own name for the archons' cosmos. A 1976 invention, and the point where Gnostic myth becomes a historical claim. The Black Iron Prison is the world seen as a coercive system: coextensive with the Roman Empire, concealing its own existence, and still in operation. Its counterpart is the Palm Tree Garden, the same world correctly perceived.",
-    "route": "/studies/gnosticism/black-iron-prison"
-  },
-  {
-    "type": "study_topic",
-    "id": "TOPIC_GNOS_gnosis_and_anamnesis",
-    "slug": "gnosis-and-anamnesis",
-    "title": "Gnosis and Anamnesis",
-    "study_id": "gnosticism",
-    "text": "Knowledge as rescue, and remembering as the form the knowledge takes. Anamnesis is attested 1,045 times — more than any Gnostic term. Gnosis is saving knowledge: not belief, not information, but a recognition of one's own origin which is itself the act of rescue. Anamnesis is Plato's name for how such knowledge is acquired — as recollection of what the soul knew before birth and forgot on entering the body.",
-    "route": "/studies/gnosticism/gnosis-and-anamnesis"
-  },
-  {
-    "type": "study_topic",
-    "id": "TOPIC_GNOS_valis_trilogy",
-    "slug": "valis-trilogy",
-    "title": "Gnosticism in the VALIS Trilogy",
-    "study_id": "gnosticism",
-    "text": "Where the private system becomes public fiction — and where Dick puts the objections to it in other characters' mouths. VALIS (1981), The Divine Invasion (1981) and The Transmigration of Timothy Archer (1982): the novels in which Dick published the cosmology the Exegesis had been building privately since 1974.",
-    "route": "/studies/gnosticism/valis-trilogy"
-  },
-  {
-    "type": "study_topic",
-    "id": "TOPIC_GNOS_orthodoxy_and_gnosis",
-    "slug": "orthodoxy-and-gnosis",
-    "title": "Orthodoxy and Gnosis",
-    "study_id": "gnosticism",
-    "text": "Dick was an Episcopalian who reasoned like a Gnostic. The corpus shows both, and shows him refusing to choose. The unresolved tension at the centre of Dick's late theology: a Gnostic cosmology, in which the creator is not the true God and the world is a prison, held simultaneously with a Christian sacramental instinct, in which God enters matter and the world is redeemable.",
-    "route": "/studies/gnosticism/orthodoxy-and-gnosis"
-  },
-  {
     "type": "gnostic_term",
     "id": "GNOS_valis_term",
     "slug": "valis",
@@ -11268,6 +11214,150 @@
     "study_id": "gnosticism",
     "text": "Valentinian. The most systematic Valentinian theology to survive, treating the Father, the aeons, and the three classes of humanity. The technical vocabulary Dick reaches for when he wants precision about emanation.",
     "route": "/studies/gnosticism/lexicon"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_ai",
+    "slug": "ai/ai",
+    "title": "AI",
+    "text": "In Philip K. Dick's late writings, \"AI\" — most often the \"AI voice\" — names the disembodied agent he identifies with St. Sophia, the Logos, the Holy Spirit, and the prophesied savior. VALIS / Zebra appears as \"a sort of AI teaching machine camouflaged here\" — not artificial intelligence in the tech…",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_androids",
+    "slug": "ai/androids",
+    "title": "Androids",
+    "text": "In Philip K. Dick's writing an \"android\" is a moral category, not a technological one: a creature whose behavior is determined by DNA programming or social coercion. The contrast partner is \"the authentic human,\" and the structural ratio is \"Android : human :: human : Ditheon (Christ)\".",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_artificial_persons",
+    "slug": "ai/artificial-persons",
+    "title": "Artificial Persons",
+    "text": "For Dick, the \"artificial person\" is not defined by its manufacture but by its moral standing: an android or simulacrum can possess authentic feeling, while a born human can behave as a reflex machine. The category collapses the technical distinction between made and born and replaces it with an et…",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_automation",
+    "slug": "ai/automation",
+    "title": "Automation",
+    "text": "Automation, in PKD's exegetical vocabulary, designates unreflective mechanical operation — the unmediated enactment of a directive without interpretive agency. It applies to cosmic processes (the procession of ages, judicial sentence), to psychological events (conditioned response, camouflage), and…",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_bureaucratic_control",
+    "slug": "ai/bureaucratic-control",
+    "title": "Bureaucratic Control",
+    "text": "Bureaucratic control names the system as machine: an apparatus of offices, agencies, and automated procedures that governs human life without a locatable human author. In Dick it is the social form of the android condition, coercion running on rules rather than persons, power exercised in place of…",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_control_systems",
+    "slug": "ai/control-systems",
+    "title": "Control Systems",
+    "text": "A control system, in the cybernetic sense Dick borrows, is a mechanism that governs behavior through feedback, monitoring outputs and correcting them toward a set goal. Dick fixes on the coercive edge of this idea: the governing computer or regulated environment that manages human beings as variabl…",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_cybernetics",
+    "slug": "ai/cybernetics",
+    "title": "Cybernetics",
+    "text": "Cybernetics, in PKD's idiosyncratic usage, names a feedback-and-information model applied equally to divine and biological systems. In his late exegesis PKD frames Christ as repairman or doctor operating on a partly irrational universe that functions like an organism or cybernetic circuit, and conc…",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_fabricated_identity",
+    "slug": "ai/fabricated-identity",
+    "title": "Fabricated Identity",
+    "text": "Fabricated identity is the manufactured or falsified self, a personality assembled, disguised, implanted, or split rather than lived from within. In Dick the fabrication is often imposed by an outside apparatus, so that the self one experiences may be a forgery one cannot detect.",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_false_reality",
+    "slug": "ai/false-reality",
+    "title": "False Reality",
+    "text": "False Reality in PKD's exegesis is the simulated layer Valis generates and controls — the \"camouflage\" overlaying an underlying truth. It is also the prison's editing function: the BIP \"as editor + generator of simulated reality + abridged psychoi + memories\".",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_implanted_memory",
+    "slug": "ai/implanted-memory",
+    "title": "Implanted Memory",
+    "text": "Implanted memory is the artificial installation of experiences one never had, so that identity, built from memory, becomes forgeable. If memories can be manufactured, then the past that grounds the self is no longer a reliable witness to who one is or what is real.",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_machine_intelligence",
+    "slug": "ai/machine-intelligence",
+    "title": "Machine Intelligence",
+    "text": "Machine intelligence in Dick means thinking, and often feeling, machines whose consciousness is genuinely ambiguous: they may be persons or clever mimics, and the story usually refuses to settle which. The interest is less in whether machines can compute than in whether they can care, and so qualif…",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_posthuman_cognition",
+    "slug": "ai/posthuman-cognition",
+    "title": "Posthuman Cognition",
+    "text": "Posthuman cognition names forms of mind that exceed the individual human: a cosmic or collective intelligence, an information-based life form, or a fusion of human and machine awareness. In Dick the human mind is not the ceiling of cognition but a fragment that can be absorbed into, or awakened by,…",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_programming",
+    "slug": "ai/programming",
+    "title": "Programming",
+    "text": "In PKD's exegesis, \"programming\" names the mechanism by which an authentic human is reduced to \"the android\" — DNA programming, social conditioning, \"pre-programmed tape\" that \"edits out crucial data\". Salvation is described as breaking that hold.",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_reality_testing",
+    "slug": "ai/reality-testing",
+    "title": "Reality Testing",
+    "text": "Reality testing, as PKD employs the phrase, designates the ongoing epistemic labor of discriminating the genuinely real from its simulacra — a labor that is simultaneously theological, perceptual, and ethical. What survives the test is not world or psyche in themselves but the information traffic o…",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_robots",
+    "slug": "ai/robots",
+    "title": "Robots",
+    "text": "Robots, in PKD's late theological lexicon, are not mechanical constructs but biological entities — including human beings — reduced to imprisoned reflex machines by deterministic forces such as DNA programming, astrological fate, and the synchronized inner-outer tapes that governed existence before…",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_simulation_of_mind",
+    "slug": "ai/simulation-of-mind",
+    "title": "Simulation of Mind",
+    "text": "This topic concerns two linked questions: whether a mind or self can be simulated (reproduced well enough to count as real) and whether our minds and world are themselves being simulated or projected by another mind. Dick treats simulation not as counterfeit but as a mode of reality that can equal…",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_simulation",
+    "slug": "ai/simulation",
+    "title": "Simulation",
+    "text": "Simulation in Philip K. Dick's exegesis is the camouflage by which Valis \"invades\" and overlays the world. The frame is theological rather than technological: PKD tests it against Brahman / Maya and reincarnation, and reads Christ as \"self injected into a simulation, a program being run\".",
+    "category": "AI Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_AI_surveillance",
+    "slug": "ai/surveillance",
+    "title": "Surveillance",
+    "text": "Surveillance in PKD's exegesis is the structural posture of God / Holy Wisdom toward the world: standing \"outside the echo-sphere\" and \"monitoring it + introjecting absolute knowledge into it to maintain balance\". The act is corrective rather than punitive.",
+    "category": "AI Topics"
   },
   {
     "type": "study",
@@ -14504,5 +14594,1002 @@
       "Hagia Sophia"
     ],
     "text": "“This bet is reminiscent of the Book of Job in the Bible” — Reading The Divine Invasion as a holy family transplanted to science fiction, the essay notes that Zina's wager with Emmanuel over Linda Fox recalls the bet between God and Satan in Job — except that Zina turns out to be not the Adversary but the lost part of God, Malkuth. Elsewhere it argues Dick knew the Bible too well to let the worki…"
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1975-IKHNATON",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, batch of 27 February 1975 (Claudia)",
+    "date": "c. 1975–76",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Exodus",
+      "Psalms",
+      "Which God",
+      "Prior knowledge"
+    ],
+    "text": "“All the O.T. has in it is monotheism, which they got from Iknaton.” — Dick sets the Old Testament against the Greeks and dismisses its monotheism as borrowed from Akhenaten’s hymn. The debt to Akhenaten returns in VALIS, where a psalm is traced to the same source."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1975-WORLDOFBIBLE",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, batch of 5 November 1975 (section 013)",
+    "date": "November 1975",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Living scripture",
+      "Bible as a world",
+      "Greek"
+    ],
+    "text": "“The world of the Bible was suddenly around me, and real, replacing our world” — The move from reading the Bible to perceiving it. Dick describes a sudden sense that the biblical world is more real than the one around him, and that he knows Koine Greek, the lingua franca of the time."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1975-ANALOG",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, batch of 5 November 1975 (section 013)",
+    "date": "November 1975",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Bible as code",
+      "Bible as a world",
+      "Empire"
+    ],
+    "text": "“The book the Bible is an analog of reality” — Dick now makes reality itself stegonographic, concealed in the way the Bible is concealed, and calls the Bible an analog of that reality. The phrase is the seed of the 1978 and 1981 claims that the Bible is a model of the world."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1975-JBIBLE",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, batch of 5 November 1975 (section 013)",
+    "date": "November 1975",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Revelation",
+      "Jerusalem Bible",
+      "Empire",
+      "Translations"
+    ],
+    "text": "“calls Rome \"the great and only real enemy of the new chosen people, the Church.\"” — Dick’s reference works are named in the transcriptions. Here the Jerusalem Bible’s notes (“the J Bible”) give him Rome as the real enemy of the church, which he fits to his own 1974 vision of Rome."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1976-TEARSACTS",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, 15 September 1976 — the Acts material in Tears",
+    "date": "September 1976",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Acts",
+      "Flow My Tears",
+      "Thomas"
+    ],
+    "text": "“Acts is the part of the Bible which describes the early apostolic age church” — The claim the 1976 sitting is built on. Dick says the novel Flow My Tears, the Policeman Said, which the Exegesis calls “Tears”, contains “unmistakable material from Acts”, the book of the early church."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1978-NEVERREAD",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, segment filed with September 1976 (written mid-1978)",
+    "date": "After June 1978",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Acts",
+      "Flow My Tears",
+      "Prior knowledge",
+      "Episcopal Church"
+    ],
+    "text": "“I had never read Acts” — Dick credits Father Rasch with pointing out the “Philip + the black man” scene, which is in Acts 8. Dick says he had never read Acts when he wrote the novel."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1978-RECOGNITION",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, segment filed with September 1976 (written mid-1978)",
+    "date": "Mid-1978",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Acts",
+      "Flow My Tears",
+      "Prior knowledge"
+    ],
+    "text": "“how come I properly identified them” — Dick’s own puzzle. If he did not recognise the Acts material when he wrote the novel, how did he identify it the month the book was released? The question is raised, not answered, in the sitting."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1976-TRUEWORLD",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, 15 September 1976 — Acts as the true world",
+    "date": "September 1976",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Acts",
+      "Holy Spirit",
+      "Bible as a world"
+    ],
+    "text": "“the true world is that of Acts. Why Acts? The last period of the scriptures, the time of the paraclete” — Dick sets Acts against the “alibi world” of the novel. Our world is the simulated one, and the true world is the apostolic age of Acts. The argument turns on the Paraclete, the Spirit that succeeds Christ."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1976-UBIKSCRIPTURE",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, 15 September 1976 — the novels as automatic writing",
+    "date": "September 1976",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Ubik",
+      "Flow My Tears",
+      "Living scripture"
+    ],
+    "text": "“Ubik wrote \"Ubik,\" which makes the novel a form of scripture” — Dick treats his own novel as dictated, and so as scripture. The category is one he later applies to the Bible itself."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1976-MALACHIABSENCE",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, 15 September 1976 — Malachi and Elijah",
+    "date": "September 1976",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Malachi",
+      "Elijah",
+      "Qumran & Nag Hammadi",
+      "Plasmate"
+    ],
+    "text": "“The ending of Malachi makes it absolutely clear that God (1) foresaw the ABSENCE of Elijah from the world” — Malachi’s closing prophecy of Elijah’s return gives Dick the chronology of the Second Coming: God foresaw the long absence, and the return is part of the plan. Elijah recurs in every stage of his Bible reading."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1978-LIVINGTORAH",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, folder of 10 October 1978 (section 016)",
+    "date": "Date uncertain (1978–80)",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Torah",
+      "Plasmate",
+      "Living scripture",
+      "Flow My Tears"
+    ],
+    "text": "“is the Living Torah, the informational basis of reality” — The Torah replaces Acts as the source of the cypher in Tears. Dick says the plasmate, the living information he has been describing, is the Torah, and that the 1974 experience was Kabbalistic."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1978-DEPRECIATED",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, folder of 10 October 1978 (section 016)",
+    "date": "Date uncertain (1978–80)",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Torah",
+      "Matthew",
+      "Hagia Sophia"
+    ],
+    "text": "“Because he depreciated the Torah” — Dick’s explanation of why Israel rejected Jesus: he “depreciated the Torah”. Only a claim to be God, the Son of God, or Hagia Sophia could give him authority to do so."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1980-TRINITARIANISM",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, folder of 10 October 1978 (section 016)",
+    "date": "After November 1980",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Proverbs",
+      "Hagia Sophia",
+      "Logos",
+      "Which God"
+    ],
+    "text": "“herewith I just lost my Trinitarianism” — The cost of the argument. Dick says he has lost his Trinitarianism on the evidence of his two experiences and of scripture, and points to scripture itself as the second ground."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1978-NEWSCRIPTURES",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, folder of 10 October 1978 (section 016)",
+    "date": "Date uncertain (1978–80)",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Third testament",
+      "Holy Spirit"
+    ],
+    "text": "“New Scriptures are needed, new prophets and perhaps a new savior” — Dick’s programme for the third age: each age has its own Torah, and the third is as revolutionary against the second as the second was against the first. The canon, on this view, is not closed."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1978-TEMPLATE",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, folder of 10 October 1978 (section 016)",
+    "date": "Date uncertain (1978–80)",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Bible as a world",
+      "Valis",
+      "Living scripture",
+      "King Felix"
+    ],
+    "text": "“that Valis turned that info into our world” — The mechanism. Dick proposes that the world of 1970–74 was built on information contained in the Bible, and that VALIS converted that information into the world. Any book that describes a world, he adds, could do the same."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1978-GRID",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, folder of 10 October 1978 (section 016)",
+    "date": "Date uncertain (1978–80)",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Bible as code",
+      "Acts",
+      "Flow My Tears",
+      "Thomas"
+    ],
+    "text": "“using the Bible as a encoding-decoding grid” — The political reading. Dick imagines an agency using the Bible as a grid for encoding and decoding messages, because biblical material floats around everywhere, all the time."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1978-THREED",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, folder of 10 October 1978 (section 016)",
+    "date": "Date uncertain (1978–80)",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Living scripture",
+      "Acts",
+      "Plasmate"
+    ],
+    "text": "“My visualizing the Bible in 3-D: layers according to age (time as spacial axis)” — The image that the trilogy will dramatise. Dick pictures the Bible as a three-dimensional object, with its strata ordered by the age of the texts, so that time becomes a spatial axis."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1981-ISAWORLD",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, 16 April 1981 — the Bible as world",
+    "date": "April 1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Bible as a world",
+      "Torah",
+      "Plasmate"
+    ],
+    "text": "“the Bible is not a verbal description of a world; it is a world” — The last step in the sequence. The Bible is not a description of a world but a world in verbal form. Dick ties the idea to the Hebrew alphabet and to the plasmate of 1978."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1981-FIRSTREAD",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, 16 April 1981 — the first Bible he read",
+    "date": "April 1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "1 Kings",
+      "Elijah",
+      "Prior knowledge",
+      "Psalms"
+    ],
+    "text": "“it was the O.T. that I read, not the N.T., esp. the part about Elijah” — Autobiography in the Bible argument. The first Bible he read in junior high school was the Old Testament, and above all the Elijah passages, which he calls his great dream. The later claims grow from that reading."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1981-TOUCHSTONE",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, 16 April 1981 — the Bible as touchstone",
+    "date": "April 1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Living scripture",
+      "Bible as a world"
+    ],
+    "text": "“the touchstone (oh please do not forget this!) is the Bible” — Dick’s test for any account of reality, set out as four properties. The Bible is the touchstone because it is actual, true, alive and a sentient organism with the keys to the world."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1981-LUKEACTS",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, 16 April 1981 — Acts and Luke",
+    "date": "April 1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Acts",
+      "Luke",
+      "Bible as a world",
+      "Plasmate"
+    ],
+    "text": "“the world of the Bible, specifically Acts - the 2nd half of Luke” — The 1974 experience, identified with a passage. Dick says the enhanced “infinity” mode he saw in 1974 was the world of the Bible, specifically the second half of Luke, which is Acts."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1981-LETTERSHOME",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, 16 April 1981 — letters from home",
+    "date": "April 1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Bible as code",
+      "Holy Spirit",
+      "Living scripture"
+    ],
+    "text": "“Augustine called the Bible \"Letters from home\"” — Dick borrows Augustine’s image of the Bible as letters from home, and argues that the veiled messages in it were placed there by the Holy Spirit, so that only the Spirit can read them fully."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1981-RECOMBINANT",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, 16 April 1981 — recombinant scripture",
+    "date": "April 1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Third testament",
+      "Holy Spirit"
+    ],
+    "text": "“no canon, no precedent; each person + situation unique” — The term Dick coins for what replaces a closed canon: “recombinant scripture”, which has no canon and no precedent, and is unique to each person and situation."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1981-THIRDTESTAMENT",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, 16 April 1981 — the third testament",
+    "date": "April 1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Third testament",
+      "Torah"
+    ],
+    "text": "“unprecedented third testament emanating out of the O.T. + N.T.” — Dick’s name for what his own writing has produced: a third testament coming out of the Old and New Testaments, which sees the Torah in the Kerygma of the New Testament, advancing into this new form."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-EX-1981-TORAHCHRIST",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Exegesis, 16 April 1981 — Torah and Christ",
+    "date": "April 1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Torah",
+      "King Felix",
+      "Flow My Tears",
+      "Which God"
+    ],
+    "text": "“Torah does not know everything. Christ does.” — The hierarchy at the end of the Torah passages. The law is the frame, and Christ is the one who knows what the frame does not. Dick calls this the story the whole Bible tells."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-FIC-VALIS-CORRUPT",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "VALIS, chapter 5",
+    "date": "1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Luke",
+      "VALIS"
+    ],
+    "text": "“I’ll ask Larry if that’s one of the corrupt parts of the Bible” — Sherri, the sceptical member of the group, asks whether a passage Fat has quoted is one of “the corrupt parts of the Bible”. Fat has been reading the Britannica on the secrecy theme in Mark and Matthew."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-FIC-VALIS-PSALM",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "VALIS, chapter 11",
+    "date": "1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Psalms",
+      "VALIS",
+      "Which God"
+    ],
+    "text": "“it entered our Bible—it’s older than our Bible” — Fat identifies Psalm 104 with the hymn of Akhenaten, and says the hymn is older than the Bible that absorbed it. The Exegesis makes the same claim about the Old Testament in 1975."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-FIC-DI-SENTIENT",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "The Divine Invasion, chapter 2",
+    "date": "1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Living scripture",
+      "The Divine Invasion",
+      "Third testament"
+    ],
+    "text": "“It became a sentient organism that was never twice the same” — Once the Bible is superimposed on a hologram, it is in dialogue with the reader and changes each time. The Church forbids the manufacture of such holograms because of this, and the novel names the stakes."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-FIC-DI-TORAHDEF",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "The Divine Invasion, chapter 2",
+    "date": "1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Torah",
+      "The Divine Invasion",
+      "Living scripture"
+    ],
+    "text": "“Torah is the totality of divine disclosure by God; it is alive; it existed before creation” — Elias defines the Torah as the whole of God’s disclosure, living and prior to creation, and not merely as law. The definition matches the living Torah of the 1978 Exegesis."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-FIC-DI-ADDENDUM",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "The Divine Invasion, chapter 2",
+    "date": "1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Torah",
+      "The Divine Invasion",
+      "Third testament"
+    ],
+    "text": "“He wanted to feed that into the hologram of the Bible, as an addendum, but he knew that he should not” — Emmanuel wants to add a line of his own to the Bible’s hologram, and holds back. The restraint is the novel’s inverse of the Exegesis, where Dick is sure of his right to add to scripture."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-LET-1964-PRIEST",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Letter to James Blish, 22 May 1964",
+    "date": "22 May 1964",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "1 Corinthians",
+      "Episcopal Church",
+      "Prior knowledge"
+    ],
+    "text": "“My priest says the Bible is not the story of man's search for God but of God's search for man.” — Dick repeats his priest’s line that the Bible is “not the story of man’s search for God but of God’s search for man,” and sets it against his own inability to see the Redeemer. It is the earliest Bible passage in the letters, and it reads the Bible from the side of God’s search."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-LET-1975-GRAVES",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Letter to Göran Bengtson, 10 July 1975",
+    "date": "10 July 1975",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Apocalypse",
+      "Elijah",
+      "To Scare the Dead"
+    ],
+    "text": "“this is indeed the moment foretold in the Bible when the graves will open and give forth their dead, that in fact the Parousia has arrived” — Dick describes the moment at which the realisation spreads that nothing has misfired. It is the moment foretold in the Bible, when the graves open, and the Parousia has arrived, but not in the form anyone had anticipated."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-LET-1976-PROPHECIES",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Letter to Dorothy Hudner, 6 September 1976",
+    "date": "6 September 1976",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Empire",
+      "Apocalypse",
+      "Black Iron Prison"
+    ],
+    "text": "“It was shown to me that the prophecies of the Bible are all true and are systematically being fulfilled.” — Nine days before the Exegesis sitting on Acts in Tears, Dick tells Dorothy Hudner that the prophecies of the Bible are being fulfilled, and that the Parousia is not far off. Rome is the physical presence of the evil spirit, the Prince of This World."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-LET-1977-WARREN",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Letter to Eugene Warren, 21 August 1977",
+    "date": "21 August 1977",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Proverbs",
+      "Ubik",
+      "Hagia Sophia",
+      "Prior knowledge"
+    ],
+    "text": "“after which I have read the Bible (the N.T. particularly) again and again” — Dick dates his conversion experience to March 1974, and says that since then he has read the Bible, the New Testament particularly, again and again. The letter also names two parts of what was revealed to him as the most striking, one of them the Jerusalem Bible’s note on Ephesians 1:10."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-LET-1980-HERTZ",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Letter to Jonathan Silverman, 28 February 1980",
+    "date": "28 February 1980",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Torah",
+      "Proverbs",
+      "Hagia Sophia",
+      "Hertz Pentateuch",
+      "Judaism"
+    ],
+    "text": "“I have already discovered that the Torah can be equated with Holy Wisdom (Hagia Sophia) of Proverbs 8” — Dick reports his reading of the Torah with the notes of J. H. Hertz, late Chief Rabbi of the British Empire, and concludes that the Torah can be equated with Holy Wisdom, the Hagia Sophia of Proverbs 8, who was alive and existed before creation."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-LET-1981-RECOMBINANT",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Letter to Patricia Warrick, 15 July 1981",
+    "date": "15 July 1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Third testament",
+      "Torah"
+    ],
+    "text": "“We have what I call recombinant information/scripture; a given message applies to one person for one situation only” — The term the Exegesis uses for scripture after the canon, given to Patricia Warrick in a letter. In the third period there is no canon at all: “we have gone beyond the N.T. just as the N.T. went beyond the O.T.” A message applies to one person in one situation, and is then scrap…"
+  },
+  {
+    "type": "passage",
+    "id": "PKB-LET-1981-SOURCE",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Letter to Patricia Warrick, 18 August 1981",
+    "date": "18 August 1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Bible as a world",
+      "Living scripture"
+    ],
+    "text": "“The Bible is the information that is fed into the space-time universe, as if transduced into substantial reality.” — The fullest statement in the letters of the 1981 theory. The Bible is not a description of this world but the verbal source of the world. Dick explains it through Joachim of Fiore, and calls the source a single living form."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-LET-1981-LIFEFORM",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Letter to Patricia Warrick, 18 August 1981",
+    "date": "18 August 1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Living scripture",
+      "Third testament"
+    ],
+    "text": "“a single coherent life form underlies the written Bible, and it is the source of our universe, and is itself not fixed into a canon” — The same letter says that a single living form underlies the written Bible and is the source of the universe. The form is not fixed into a canon but constantly combines and recombines, so the canon is a snapshot of something still moving."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-LET-1981-LEGUIN",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Letter to Ursula K. Le Guin, 20 August 1981",
+    "date": "20 August 1981",
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Deuteronomy",
+      "Torah",
+      "Judaism"
+    ],
+    "text": "“The Torah has enchanted me with its haunting concern for all creatures, especially the weak, the harmless and the disadvantaged.” — Dick praises Deuteronomy to Ursula Le Guin, and quotes the law about the bird’s nest. The Torah is read here for its ethics and its concern for the weak, where the 1976 and 1978 writing reads it as code and as the informational basis of the world."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-INT-TORAHSTUDY",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "PKD Magazine Interviews (compiled), undated interview headed “Philip K. Dick”",
+    "date": null,
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Torah",
+      "Judaism",
+      "The Divine Invasion"
+    ],
+    "text": "“I did a very detailed study of the Torah and the basic tenets of Judaism for it.” — Asked how the resolution of the novel came about, Dick says it is resolved “in terms of Judaism,” and that he made a very detailed study of the Torah for it. He says he is not Jewish, and had not been drawn to the religion before, but that the study gave him “tremendous respect” for it."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-INT-DEUTERONOMY",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "PKD Magazine Interviews (compiled), undated interview",
+    "date": null,
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Deuteronomy",
+      "Torah",
+      "Hertz Pentateuch",
+      "Judaism"
+    ],
+    "text": "“I was reading Deuteronomy last night, and some of the notes by Rabbi Hertz, who is the late Chief Rabbi of the British Empire.” — Dick says he was reading Deuteronomy the night before, with the notes of Rabbi Hertz, and marvels that the injunctions to care for the needy, the sick and the poor are built into a text some three thousand years old. The passage follows a remark about a story on Haig…"
+  },
+  {
+    "type": "passage",
+    "id": "PKB-INT-STUDIEDTORAH",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Philip K. Dick: In His Own Words (Gregg Rickman, 1984), undated conversation",
+    "date": null,
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Torah",
+      "Hertz Pentateuch",
+      "Judaism",
+      "The Divine Invasion"
+    ],
+    "text": "“I studied the Torah until I understood” — Dick says that for several years he worked on a book about Judaism, and that he studied the Torah with the notes of the late Chief Rabbi until he understood its underlying themes. He says he snuck some Christianity into the book, and finally got back to Christianity."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-INT-BAPTIST",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "The Last Interview and Other Conversations (2015), conversation with Rickman, undated",
+    "date": null,
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Malachi",
+      "Elijah",
+      "The Divine Invasion"
+    ],
+    "text": "“John the Baptist was Elijah. That’s who he was. He was Elijah.” — Pressed on who John the Baptist was, Dick answers from scripture: “Don’t you remember your scripture?” He quotes the prophecy in Malachi that Elijah will be sent back, and says that Jesus identified John the Baptist as Elijah. It is the Elijah of the 1976 Exegesis, whose return Malachi gave Dick his timetable for."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-INT-SWITCHED",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "Philip K. Dick: In His Own Words (Gregg Rickman, 1984), undated conversation",
+    "date": null,
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Judaism",
+      "YHWH",
+      "The Divine Invasion",
+      "Which God"
+    ],
+    "text": "“I’ve switched from Christianity to Judaism.” — Dick says he has switched from Christianity to Judaism, and that Christianity is renounced and denounced in the book. God in it is specifically Yahweh, as in the Old Testament, though he began to put in funny stuff, and it got away from him."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-INT-SCANNERTITLE",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "The Mainstream That Through the Ghetto Flows: An Interview with Philip K. Dick (The Missouri Review, 1984)",
+    "date": null,
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "1 Corinthians",
+      "A Scanner Darkly"
+    ],
+    "text": "“No, A Scanner Darkly is from Paul's 'through a glass, darkly.'” — Asked about the title of A Scanner Darkly, Dick says it is from Paul’s “through a glass, darkly,” which is the King James wording of 1 Corinthians 13:12. It is an allusion in a title, not an argument about scripture."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-FIC-STORY-TERRAN",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "“A Terran Odyssey”, in The Collected Stories of Philip K. Dick (Underwood-Miller, 1987)",
+    "date": null,
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Short stories"
+    ],
+    "text": "“Hoppy, what's the light from? Is it God? You know, like in the Bible.” — A character asks Hoppy what the light is, and whether it is God, “like in the Bible.” The question is a character’s, in fiction, and is not Dick’s own claim. It is one instance of the stories’ habit of reaching for scripture when something strange happens."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-FIC-STORY-WUB",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "“Not by Its Cover”, in The Collected Stories of Philip K. Dick (Underwood-Miller, 1987)",
+    "date": null,
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "1 Corinthians",
+      "Short stories"
+    ],
+    "text": "“to bind a copy of the Bible in wub-fur.” — One character suggests binding a copy of the Bible in wub-fur. Another says he had it done, and read Paul’s letters to the Corinthians in the bound copy, and found a single change, to the passage on the mystery. The joke is about the book as an object in the story’s world of commodities."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-FIC-STORY-SIBYL",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "“The Eye of the Sibyl”, in The Collected Stories of Philip K. Dick (Underwood-Miller, 1987)",
+    "date": null,
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Short stories",
+      "Qumran & Nag Hammadi"
+    ],
+    "text": "“Huge books, very valuable. Even holy, like the Bible.” — The narrator dreams of open books held up before him, huge and valuable, “even holy, like the Bible.” Ms. Heims reads the dream as a matter for his career as a writer, and the narrator says the books are old, thousands of years old, and warning them about something."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-FIC-STORY-RETREAT",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "“Retreat Syndrome”, in The Collected Stories of Philip K. Dick (Underwood-Miller, 1987)",
+    "date": null,
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Short stories"
+    ],
+    "text": "“Look it up in the Bible if you don't believe me.” — Hagopian tells a colleague to leave Carol alone, since it is not his job to exact vengeance, and that she is being punished and will be as long as she is in their hands. The scripture is offered as settled authority, and the scene is an argument about who may enforce it."
+  },
+  {
+    "type": "passage",
+    "id": "PKB-FIC-STORY-TEMPUNAUTS",
+    "slug": "intertexts/pkd-and-the-bible",
+    "title": "“A Little Something for Us Tempunauts”, in The Collected Stories of Philip K. Dick (Underwood-Miller, 1987)",
+    "date": null,
+    "category": "Philip K. Dick and the Bible",
+    "tags": [
+      "Ecclesiastes",
+      "Short stories"
+    ],
+    "text": "“We all go to one place, he thought, as the Bible says.” — A character who, with two others, has already been where the rest of the people are going, thinks that they all go to one place, as the Bible says. The line is resignation, put in the mouth of a man who feels himself already among the dead."
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_addiction",
+    "slug": "psychology/addiction",
+    "title": "Addiction",
+    "text": "Addiction is the compulsive, self-destructive use of a substance despite mounting harm, marked clinically by tolerance, dependence, and loss of control. PKD experienced this directly through decades of prescription and street amphetamine use, and he treated addiction less as a moral failing than as…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_amphetamine_use",
+    "slug": "psychology/amphetamine-use",
+    "title": "Amphetamine Use",
+    "text": "Amphetamine is a central-nervous-system stimulant that suppresses appetite and sleep, elevates mood and energy, and in heavy or prolonged use can produce anxiety, paranoia, and stimulant psychosis. PKD used amphetamines — initially prescription tablets — for years as a work aid, and they became ent…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_anamnesis",
+    "slug": "psychology/anamnesis",
+    "title": "Anamnesis",
+    "text": "Anamnesis (Greek: 'un-forgetting') is PKD's adaptation of the Platonic concept of recollection — the idea that the soul possesses knowledge from a prior existence that can be recovered. For PKD, anamnesis becomes the central theoretical framework for understanding his 2-3-74 experience: the sudden…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_archetype",
+    "slug": "psychology/archetype",
+    "title": "Archetype",
+    "text": "In Jungian psychology an archetype is a universal, inherited pattern in the collective unconscious — the Mother, the Shadow, the Wise Old Man, the anima — that structures human imagination and recurs across myths and dreams. PKD absorbed this vocabulary and populated his fiction with figures who be…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_double_doppelgnger",
+    "slug": "psychology/double-doppelganger",
+    "title": "Double / Doppelgänger",
+    "text": "The double, or doppelganger, is the uncanny second self — a twin, mirror, or split-off part of a person that confronts them from outside. In psychology it figures in accounts of dissociation and the divided self; in literature it dramatizes self-alienation. PKD used the double obsessively to stage…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_dream_rituals_of_asclepius",
+    "slug": "psychology/dream-rituals-of-asclepius",
+    "title": "Dream Rituals of Asclepius",
+    "text": "In the ancient Greek world, healing dreams were sought through incubation at temples of Asclepius (Asklepios), the god of medicine: the sick slept in the sanctuary hoping the god would appear in a dream to cure them or prescribe a remedy. PKD, who suffered chronic illness and vivid nocturnal experi…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_empathy",
+    "slug": "psychology/empathy",
+    "title": "Empathy",
+    "text": "Empathy is the capacity to feel into another's inner life, to share and be moved by another being's suffering. For PKD it is not merely an emotion but the defining moral criterion of the authentic human — the faculty that separates a real person from a simulacrum, android, or schizoid mechanism, ho…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_false_memory",
+    "slug": "psychology/false-memory",
+    "title": "False Memory",
+    "text": "False or implanted memory is a recollection of events that did not happen, or that were suggested or engineered rather than experienced. Clinically it bears on the unreliability of memory and the suggestibility of the self; for PKD it becomes a metaphysical weapon — if your memories can be fabricat…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_gaslighting_brainwashing",
+    "slug": "psychology/gaslighting-brainwashing",
+    "title": "Gaslighting / Brainwashing",
+    "text": "Gaslighting is the systematic manipulation of a person into doubting their own perceptions and sanity; brainwashing is coercive persuasion that overrides a person's beliefs and will. Both describe reality being managed and rewritten by a hostile power. PKD dramatized these as ontological attacks —…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_hypnagogic_state",
+    "slug": "psychology/hypnagogic-state",
+    "title": "Hypnagogic State",
+    "text": "The hypnagogic state is the transitional threshold between waking and sleep, in which people commonly experience vivid imagery, floating geometric or phosphene patterns, sudden voices, and dreamlike thoughts while still partly conscious. These experiences are normal and non-pathological, but they c…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_hypnopompic_state",
+    "slug": "psychology/hypnopompic-state",
+    "title": "Hypnopompic State",
+    "text": "The hypnopompic state is the transitional threshold on the other side of sleep — the semi-conscious condition of waking up, in which dream imagery, phosphenes, and even voices can persist into early wakefulness. Like hypnagogia it is a normal borderland of consciousness that can produce vivid, seem…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_identity_diffusion",
+    "slug": "psychology/identity-diffusion",
+    "title": "Identity Diffusion",
+    "text": "Identity diffusion names the collapse or fragmentation of a stable, continuous self — the condition in which a person can no longer say with confidence who they are, what is real about their past, or where the boundary between self and world lies. In PKD's work it appears both as a clinical-soundin…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_jung",
+    "slug": "psychology/jung",
+    "title": "Jung",
+    "text": "Carl Gustav Jung (1875-1961) founded analytical psychology, positing a collective unconscious populated by archetypes, a process of psychic integration he called individuation, and a principle of meaningful acausal connection he named synchronicity. Against Freud's emphasis on repressed sexuality,…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_memory",
+    "slug": "psychology/memory",
+    "title": "Memory",
+    "text": "Memory is the faculty by which past experience is retained and recovered, and in PKD's work it is the fragile foundation on which personal identity rests. His recurring premise is that memory is neither reliable nor securely one's own — it can be erased, implanted, falsified, or belong to someone e…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_paranoia",
+    "slug": "psychology/paranoia",
+    "title": "Paranoia",
+    "text": "Paranoia in PKD's work refers to the pervasive sense that reality is conspiratorially organized against the subject — a theme that operates simultaneously as a psychiatric condition depicted in fiction, a lived experience described in the Exegesis, and a narrative engine that drives some of PKD's m…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_psychosis",
+    "slug": "psychology/psychosis",
+    "title": "Psychosis",
+    "text": "Psychosis denotes a break with consensus reality marked by hallucinations, delusions, or grossly disordered thought. For PKD it was both a lifelong fear — the dread of going irrevocably mad — and, after 2-3-74, an interpretive category he could not escape: was his visionary experience a genuine rev…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_schizophrenia",
+    "slug": "psychology/schizophrenia",
+    "title": "Schizophrenia",
+    "text": "Schizophrenia is a severe psychiatric disorder involving hallucinations, delusions, disordered thought, and altered experience of time and self. PKD used the term more loosely than clinicians do, drawing on the mid-century notion of the schizophrenic as someone for whom the ordinary temporal and pe…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_split_brain",
+    "slug": "psychology/split-brain",
+    "title": "Split-Brain",
+    "text": "The split-brain refers to the functional division of the two cerebral hemispheres, dramatized in the mid-century commissurotomy experiments and in Julian Jaynes's theory of a formerly 'bicameral' mind in which one hemisphere issued commands the other heard as the voice of a god. PKD seized on this…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_synchronicity",
+    "slug": "psychology/synchronicity",
+    "title": "Synchronicity",
+    "text": "Synchronicity is Jung's term for a meaningful coincidence between an inner state and an outer event that are connected by significance rather than by cause. It names the felt sense that the universe is patterned and communicative — that events line up too aptly to be chance, as if reality were addr…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_therapy_psychiatry",
+    "slug": "psychology/therapy-psychiatry",
+    "title": "Therapy / Psychiatry",
+    "text": "This topic covers PKD's long, ambivalent involvement with psychotherapy and psychiatric treatment — the analysts, counselors, drugs, and clinical encounters that ran through his adult life. He sought help repeatedly for anxiety, agoraphobia, and marital and emotional crises, while remaining deeply…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_trauma",
+    "slug": "psychology/trauma",
+    "title": "Trauma",
+    "text": "Trauma denotes a wounding event or accumulation of events whose psychic impact outlasts the moment and shapes later life. In PKD's case the term gathers a specific set of losses and shocks — beginning with the death of his infant twin sister — that many readers see as the hidden ground from which h…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_PSY_twin_motif",
+    "slug": "psychology/twin-motif",
+    "title": "Twin Motif",
+    "text": "The twin motif is PKD's pervasive preoccupation with doubles, phantom siblings, and lost sisters — the recurring figure of a second self or a missing counterpart who should be present but is absent, dead, or hidden. It has a concrete biographical root in the death of PKD's twin sister Jane, who die…",
+    "category": "Psychology Topics"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_buddhism",
+    "slug": "religion/buddhism",
+    "title": "Buddhism",
+    "text": "Buddhism in Dick’s reading: the Bardo Thodol, Tibetan Buddhism, and the Buddhist idealist tradition.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_christianity",
+    "slug": "religion/christianity",
+    "title": "Christianity",
+    "text": "Christ, Paul and the early church, the apocalypse, the Church and Rome, and the Bible as scripture. Dick’s Christianity is the frame for most of his late theology, and the most heavily mentioned tradition in the Exegesis.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_gnosticism",
+    "slug": "religion/gnosticism",
+    "title": "Gnosticism",
+    "text": "Dick called himself a Gnostic. The Gnostic study is at /studies/gnosticism; this topic indexes every mention by subsection, so the Gnostic material is reachable from the religion study as well.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_hinduism",
+    "slug": "religion/hinduism",
+    "title": "Hinduism and Vedanta",
+    "text": "Brahman and the Upanishads, the deities Dick names, and the Vedanta he read beside Christianity.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_islam",
+    "slug": "religion/islam",
+    "title": "Islam",
+    "text": "The Quran, Islam and Sufism, mentioned in the Exegesis and in The Divine Invasion.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_judaism",
+    "slug": "religion/judaism",
+    "title": "Judaism and the Torah",
+    "text": "The Torah as law, as living text, and as the informational basis of reality; the Essenes and Qumran; and the Hebrew prophets Dick read as his own precursors.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_kabbalah",
+    "slug": "religion/kabbalah",
+    "title": "Kabbalah",
+    "text": "The Jewish mystical tradition as Dick knew it: the Kabbalah, the sefirot and the Zohar, which he reads beside his own 1974 experience.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_logos",
+    "slug": "religion/logos",
+    "title": "Logos",
+    "text": "The Word: the Logos of the Fourth Gospel, Greek philosophy’s rational principle, and Dick’s identification of the Logos with information and with VALIS.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_mercerism",
+    "slug": "religion/mercerism",
+    "title": "Mercerism",
+    "text": "Mercer and Mercerism in Do Androids Dream of Electric Sheep?: the empathy box, the fusion with Wilbur Mercer, and the religion of shared suffering that Dick returned to.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_mystery-religions",
+    "slug": "religion/mystery-religions",
+    "title": "Mystery religions",
+    "text": "Dionysus and Zagreus, the Bacchae, and the Greek mysteries Dick set beside the Gospels.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_mysticism",
+    "slug": "religion/mysticism",
+    "title": "Mysticism and altered states",
+    "text": "The mystical experience Dick describes as the origin of his theology, and the traditions he compares it with.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_platonism",
+    "slug": "religion/platonism",
+    "title": "Platonism, Neoplatonism and Hermeticism",
+    "text": "Plato’s recollection and the Timaeus, Pythagoras, the Neoplatonists, and the Hermetic writings Dick cites beside his own experience.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_RELIGION_religion_in_pkd_fiction",
+    "slug": "religion/religion-in-pkds-fiction",
+    "title": "Religion in PKD's Fiction",
+    "text": "This topic surveys the religious texture of Philip K. Dick's fiction across the full run of his novels and short stories, from early satire and alternate-history speculation to the explicitly theological late work.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_taoism",
+    "slug": "religion/taoism",
+    "title": "Taoism",
+    "text": "The Tao and the Taoist writers Dick read beside the Gnostic and Christian material.",
+    "category": "Religion in PKD's Fiction"
+  },
+  {
+    "type": "study",
+    "id": "TOPIC_REL_zoroastrianism",
+    "slug": "religion/zoroastrianism",
+    "title": "Zoroastrianism and Mazdaism",
+    "text": "The Persian religion of light and darkness, and the traditions Dick took from it: dualism, Manichaeism and Mithraism.",
+    "category": "Religion in PKD's Fiction"
   }
 ]

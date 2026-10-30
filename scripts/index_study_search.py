@@ -2,13 +2,14 @@
 """Add the authored study dossiers to search_index.json.
 
 Two entry types, both rebuilt from the exported study JSON on every run:
-- `study`:   one per dossier topic (title, card description)
+- `study`:   one per study topic with a topic file (title, definition)
 - `passage`: one per mention card — the citation, its books and themes, the
              verbatim pith and the editorial summary — so a search for
              "Malachi" or "glass darkly" lands on the exact card.
 
-Only topics with mention cards are indexed. Existing study/passage entries are
-dropped first, so the pass is idempotent. Runs after export_json, which owns
+Every topic is indexed as a `study` entry; only topics with mention cards get
+`passage` entries. Entries of type `study_topic` (an earlier builder's) and
+existing study/passage entries are dropped first, so the pass is idempotent. Runs after export_json, which owns
 the rest of the index; registered in safe_export's post-export passes.
 """
 import json
@@ -28,7 +29,7 @@ def clip(text, n):
 
 def main():
     idx = json.load(open(SI, encoding="utf-8"))
-    kept = [e for e in idx if e.get("type") not in ("study", "passage")]
+    kept = [e for e in idx if e.get("type") not in ("study", "passage", "study_topic")]
     added = []
     studies = json.load(open(os.path.join(STUDIES, "index.json"), encoding="utf-8"))
     for st in studies:
@@ -39,13 +40,12 @@ def main():
         for fn in sorted(os.listdir(tdir)):
             topic = json.load(open(os.path.join(tdir, fn), encoding="utf-8"))
             cards = topic.get("mention_cards") or []
-            if not cards:
-                continue
-            slug = topic["slug"]
+            slug = topic.get("slug") or fn[:-5]
             added.append({
-                "type": "study", "id": topic["topic_id"], "slug": f"{sid}/{slug}",
-                "title": topic["canonical_name"],
-                "text": clip(topic.get("definition") or "", 300),
+                "type": "study", "id": topic.get("topic_id") or f"{sid}/{slug}",
+                "slug": f"{sid}/{slug}",
+                "title": topic.get("canonical_name") or slug,
+                "text": clip(topic.get("definition") or topic.get("card_description") or "", 300),
                 "category": st.get("study_label"),
             })
             for c in cards:

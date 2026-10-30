@@ -6,7 +6,7 @@ dictionary entries it owns (`bible`, and the promoted `revelation`, `malachi`,
 
 | File | What it is | Edit? |
 |---|---|---|
-| `findings.py` | Every published passage: source, verbatim anchor, window, card summary, verbatim pith, date and dating basis, books/themes. Evidence packets. | **Yes** — hand-curated |
+| `findings.py` | Every published passage (section 9 holds the 50 cards merged from `curation/bible/`): source, verbatim anchor, window, card summary, verbatim pith, date and dating basis, books/themes. Evidence packets. | **Yes** — hand-curated |
 | `dossier_sections.py` | Essay sections with `{{finding-id}}` citations, browse groups and facets, contradictions, open questions, structured fields. | **Yes** — hand-authored |
 | `evidence-inventory.json` | Generated from `findings.py` by `build_inventory.py`. Same shape as the Burroughs inventory. | No |
 | `dossier.json` | Generated from `dossier_sections.py` by `build_dossier.py`. | No |

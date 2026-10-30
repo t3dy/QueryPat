@@ -24,8 +24,9 @@ SUBTITLE = ("How a reader who joked about rhyming the Bible came to treat it as 
 
 CARD_DESCRIPTION = (
     "Dick's Bible, book by book: Acts and Flow My Tears, Daniel and the Empire, "
-    "Malachi's Elijah, Holy Wisdom, scripture as code and as living information — "
-    "76 sourced passages across the Exegesis, letters, novels and scholarship.")
+    "Malachi's Elijah, Holy Wisdom, scripture as code, as living information and as "
+    "a third testament, the turn to the Torah — 126 sourced passages across the "
+    "Exegesis, letters, interviews, novels, stories and scholarship.")
 
 SECTIONS = [
 
@@ -51,7 +52,9 @@ SECTIONS = [
   "order, from before 1974 to 1981. The index of books and themes underneath lets "
   "you go the other way: pick Acts, Daniel, Malachi or 1 Corinthians and see every "
   "passage in the archive that turns on it, whatever its date or source. Every "
-  "bracketed reference in the essay opens the card it cites."]},
+  "bracketed reference in the essay opens the card it cites. For the wider religious "
+  "vocabulary — Gnosticism, Kabbalah, the mystery religions — the Religion browse "
+  "pages list every tagged passage; this page is the Bible's own."]},
 
  {"id": "before", "heading": "Before 1974: a reader, not yet a believer",
   "register": "A", "body": [
@@ -66,7 +69,10 @@ SECTIONS = [
   "common property. In 1962 he describes coming out of years of agoraphobic "
   "misperception in Paul's words: he \"did see face to face\" {{PKB-LET-1962}}. In "
   "1964 the King James Bible is his example of a grand style that cannot make "
-  "imitation serious {{PKB-LET-1964}}. In 1972–73 a dream about setting the Bible "
+  "imitation serious {{PKB-LET-1964}}; three weeks earlier he had passed on his "
+  "priest's saying that the Bible \"is not the story of man's search for God but of "
+  "God's search for man\", a formula he later gave to a character in Deus Irae "
+  "{{PKB-LET-1964-PRIEST}} {{PKB-FIC-DEUSIRAE}}. In 1972–73 a dream about setting the Bible "
   "into rhymed couplets becomes a running joke with friends {{PKB-LET-1972}} "
   "{{PKB-LET-1973A}}.",
 
@@ -76,20 +82,28 @@ SECTIONS = [
   "of 1 Corinthians 15:51 side by side for his agent and prefers the Jehovah's "
   "Witnesses' New World Translation as \"so direct, so—honest\" {{PKB-LET-1973C}}. "
   "Ubik, written years earlier, already ends its chapter epigraphs with a product "
-  "that speaks as the Word of John's Gospel {{PKB-FIC-UBIK}}.",
+  "that speaks as the Word of John's Gospel {{PKB-FIC-UBIK}}. He confirmed the "
+  "Scanner title's source in interview {{PKB-INT-SCANNERTITLE}}, and in April 1981 "
+  "he wrote that the Bible he first read in junior high \"was the O.T. that I read, "
+  "not the N.T., esp. the part about Elijah\" {{PKB-EX-1981-FIRSTREAD}}.",
 
   "This matters because Dick later said the opposite. In 1976 he told his mother "
   "that when he saw the Iron Empire in 1974 \"I was almost totally unfamiliar with "
   "the Bible\" {{PKB-LET-1976-HUDNER}}. The claim makes his visions independent of "
   "his reading; his own letters do not support it, at least for the Bible as a "
-  "whole. The contradiction is recorded below rather than resolved."]},
+  "whole. In 1977 he gave a third version: his formal knowledge of Christianity was "
+  "limited until March 1974, after which he read the New Testament \"again and "
+  "again\" {{PKB-LET-1977-WARREN}}. The contradiction is recorded below rather than "
+  "resolved."]},
 
  {"id": "acts", "heading": "1975: Acts and Flow My Tears", "register": "A", "body": [
   "The discovery that organised the rest arrived in 1975. Dick's earliest dated "
   "statement of it in this archive is a July letter to Göran Bengtson: Flow My Tears, "
   "the Policeman Said \"on close inspection, contains a number of passages evidently "
   "derived from or which refer to the\" Book of Acts, which he connects to a theory "
-  "that his unconscious is an Attic Greek {{PKB-LET-1975-BENGTSON}}. To Claudia Bush "
+  "that his unconscious is an Attic Greek {{PKB-LET-1975-BENGTSON}}. The day before, "
+  "describing the novel he was planning, he had made its climax the moment \"foretold "
+  "in the Bible\" when the graves open {{PKB-LET-1975-GRAVES}}. To Claudia Bush "
   "he reads the novel's closing embrace between Felix Buckman and a black stranger "
   "as the Feast of Agape, and does not know how it got in {{PKB-LET-CLAUDIA-AGAPE}}.",
 
@@ -104,10 +118,20 @@ SECTIONS = [
   "Over the following years the Acts parallel grows from coincidence into "
   "doctrine. Acts is \"a police state\" and \"how it really is\" "
   "{{PKB-EX-1976-ACTSPRISON}}; the canonical Acts \"leaves out crucial information\" "
-  "that survives only in the novel {{PKB-EX-1976-OMITS}}; the recipient of the "
+  "that survives only in the novel {{PKB-EX-1976-OMITS}}; the novel carries "
+  "\"unmistakable material from Acts\" {{PKB-EX-1976-TEARSACTS}}, and \"the true world "
+  "is that of Acts\", the last period of scripture {{PKB-EX-1976-TRUEWORLD}}; the recipient of the "
   "revelation lives in reality \"as interpreted through + by the Acts lens/grid\", "
-  "a contemporary of Christ {{PKB-EX-1978-CONTEMPORARY}}. Dick himself allows that "
-  "he may simply have read Acts and forgotten it {{PKB-EX-1978-UNCONSCIOUS}}."]},
+  "a contemporary of Christ {{PKB-EX-1978-CONTEMPORARY}}. By April 1981 the world he "
+  "saw in 1974 is \"specifically Acts - the 2nd half of Luke\" {{PKB-EX-1981-LUKEACTS}}.",
+
+  "Had he read Acts before? He gives both answers. In the summer of 1978 he writes "
+  "flatly, \"I had never read Acts\", and credits Father Rasch with the first clue "
+  "{{PKB-EX-1978-NEVERREAD}} — then puzzles over how he could have recognised the "
+  "Acts elements the month the novel came out if he had not recognised them when he "
+  "wrote it {{PKB-EX-1978-RECOGNITION}}. In another entry of the same years he allows "
+  "that he may have read Acts and forgotten it, and rests his case instead on "
+  "material he could not have known {{PKB-EX-1978-UNCONSCIOUS}}."]},
 
  {"id": "future", "heading": "A book of the future: Daniel, Revelation and the Empire",
   "register": "A", "body": [
@@ -130,7 +154,13 @@ SECTIONS = [
   "intervention — and adds: \"I fit this latter class\" {{PKB-EX-1976-ALIENATED}}. "
   "In VALIS the hunt for Nixon in Daniel is given to the cynic Kevin, to Fat's "
   "amusement {{PKB-FIC-VALIS-DANIEL}}. And in October 1981, during a lightning "
-  "storm, he read Revelation and Daniel to his frightened cats {{PKB-LET-1981-CATS}}."]},
+  "storm, he read Revelation and Daniel to his frightened cats {{PKB-LET-1981-CATS}}.",
+
+  "To his mother in September 1976 he put the conclusion without irony: \"the "
+  "prophecies of the Bible are all true and are systematically being fulfilled\" "
+  "{{PKB-LET-1976-PROPHECIES}}. In November 1975 he had read the Jerusalem Bible's "
+  "note calling Rome the Church's only real enemy as confirmation of what he had "
+  "been shown {{PKB-EX-1975-JBIBLE}}."]},
 
  {"id": "elijah", "heading": "Elijah, Malachi and the returning Spirit", "register": "A",
   "body": [
@@ -141,13 +171,17 @@ SECTIONS = [
   "Spirit of Elijah that Malachi promises is, he decides, \"the Old Testament Hebrew "
   "concept for the Christian Holy Spirit\" {{PKB-EX-1975-ELIJAH}}. In 1976 he quotes "
   "the sun of righteousness rising with healing in its wings — and reminds himself "
-  "what Elijah did to Ahab {{PKB-EX-1976-SUN}}.",
+  "what Elijah did to Ahab {{PKB-EX-1976-SUN}}. The ending of Malachi, he decides, "
+  "shows that God foresaw Elijah's long absence and his return at the end "
+  "{{PKB-EX-1976-MALACHIABSENCE}}.",
 
   "The same verse appears in VALIS, where its promise of healing sharpens Fat's "
   "despair over his dying friend {{PKB-FIC-VALIS-MALACHI}}, and Elijah walks into "
   "The Divine Invasion as Elias Tate. In August 1981 the figure Dick reaches for is "
   "still the one from the radio serial: God as the \"still small voice\" that spoke "
-  "to Elijah {{PKB-LET-1981-STILLSMALL}}."]},
+  "to Elijah {{PKB-LET-1981-STILLSMALL}}. In interview he ran the identification on: "
+  "\"John the Baptist was Elijah\", fulfilling Malachi, and the spirit of Elijah is "
+  "what shows up in The Divine Invasion {{PKB-INT-BAPTIST}}."]},
 
  {"id": "wisdom", "heading": "Holy Wisdom from an apocryphal book", "register": "A",
   "body": [
@@ -172,10 +206,18 @@ SECTIONS = [
   "the world: the Bible \"isn't about the past; it's code to describe our world\", "
   "and Acts is now {{PKB-EX-1976-CODE}}. To decode it is to read the New Testament "
   "as \"an encoded instruction manual by which to become part of Valis\" "
-  "{{PKB-EX-1976-MANUAL}}.",
+  "{{PKB-EX-1976-MANUAL}}. The groundwork was laid in November 1975, when reality "
+  "itself became concealed writing: \"The book the Bible is an analog of reality\" "
+  "{{PKB-EX-1975-ANALOG}}. In the same 1976 sitting he calls Ubik a form of scripture, "
+  "since \"Ubik wrote 'Ubik'\" {{PKB-EX-1976-UBIKSCRIPTURE}}.",
 
   "The cipher has a structure. In one entry the testaments are opposing players: "
-  "\"O.T. encodes + N.T. decyphers\", dark against light {{PKB-EX-1978-DECYPHER}}. "
+  "\"O.T. encodes + N.T. decyphers\", dark against light {{PKB-EX-1978-DECYPHER}}. In a darker version the cipher is "
+  "technology, not revelation — an agency \"using the Bible as a encoding-decoding "
+  "grid\" because it is printed everywhere {{PKB-EX-1978-GRID}}. In 1981 he finds "
+  "the Reformers' version: the Holy Spirit hid messages in scripture that only the "
+  "Spirit in the reader can extract, and \"Augustine called the Bible 'Letters from "
+  "home'\" {{PKB-EX-1981-LETTERSHOME}}. "
   "And it is incomplete. The same Exegesis that calls the Bible code insists that "
   "Acts as canonised leaves out what Flow My Tears preserves {{PKB-EX-1976-OMITS}}. "
   "By 1981 Dick reads his own novels as two ciphers in opposite directions: Flow My "
@@ -188,7 +230,19 @@ SECTIONS = [
   "more\" {{PKB-LET-1975-WILLIAMS}}. He ended in the opposite place. Copying out "
   "Philo's image of the Torah as a living being, body the literal text and soul the "
   "hidden meaning, he exclaims: \"This is the Acts material, the living information "
-  "I saw\" {{PKB-EX-1978-TORAH}}.",
+  "I saw\" {{PKB-EX-1978-TORAH}}. Elsewhere he is \"sure that the plasmate\" is \"the "
+  "Living Torah, the informational basis of reality\" {{PKB-EX-1978-LIVINGTORAH}}.",
+
+  "The organism is also a world. Already in November 1975 \"The world of the Bible "
+  "was suddenly around me, and real, replacing our world\" {{PKB-EX-1975-WORLDOFBIBLE}}. "
+  "Later entries say Valis turned the Bible's information into our world "
+  "{{PKB-EX-1978-TEMPLATE}}, picture the Bible in three dimensions, its layers ordered "
+  "by age {{PKB-EX-1978-THREED}}, and arrive in April 1981 at the formula: \"the Bible "
+  "is not a verbal description of a world; it is a world\" {{PKB-EX-1981-ISAWORLD}}. "
+  "It is the touchstone for every other theory {{PKB-EX-1981-TOUCHSTONE}}. To Patricia "
+  "Warrick he wrote that the Bible is \"the information that is fed into the "
+  "space-time universe\", and that a single life form underlies it, \"not fixed into "
+  "a canon\" {{PKB-LET-1981-SOURCE}} {{PKB-LET-1981-LIFEFORM}}.",
 
   "The carriers of this living text are manuscripts that came out of the ground. "
   "Thomas, the personality he believed took him over, slumbered \"perhaps in a jar "
@@ -201,9 +255,51 @@ SECTIONS = [
 
   "The novels build the idea as objects. Elias's holographic Bible in The Divine "
   "Invasion yields different messages at every angle, \"an infinitude of knowledge "
-  "that ceaselessly changed\" {{PKB-FIC-DI-HOLOGRAM}}; Zina declares \"I am the "
+  "that ceaselessly changed\" {{PKB-FIC-DI-HOLOGRAM}}, until it becomes \"a sentient "
+  "organism that was never twice the same\" {{PKB-FIC-DI-SENTIENT}}; Elias defines the "
+  "Torah as alive and prior to creation {{PKB-FIC-DI-TORAHDEF}}; Zina declares \"I am the "
   "Torah\" {{PKB-FIC-DI-TORAH}}. Tseng reads the open, living scripture against the "
   "novel's Church, which wants to freeze it {{PKB-SCH-TSENG}}."]},
+
+ {"id": "third", "heading": "Recombinant scripture and a third testament",
+  "register": "A", "body": [
+  "If scripture is alive, it can grow. Reading Joachim of Fiore's three ages, Dick "
+  "concluded that the third is as revolutionary against the Christian age as that "
+  "was against the first: \"New Scriptures are needed, new prophets and perhaps a new "
+  "savior\" {{PKB-EX-1978-NEWSCRIPTURES}}.",
+
+  "By 1981 he had a name for what replaces a closed canon. \"Recombinant scripture\" "
+  "has \"no canon, no precedent; each person + situation unique\" "
+  "{{PKB-EX-1981-RECOMBINANT}}; to Patricia Warrick, a message \"applies to one person "
+  "for one situation only\" and is then scrapped {{PKB-LET-1981-RECOMBINANT}}. The "
+  "same month in the Exegesis he speaks of an \"unprecedented third testament "
+  "emanating out of the O.T. + N.T.\" {{PKB-EX-1981-THIRDTESTAMENT}}. The Divine "
+  "Invasion stages the temptation and the restraint: Emmanuel wants to add a line to "
+  "the hologram of the Bible and knows he should not {{PKB-FIC-DI-ADDENDUM}}."]},
+
+ {"id": "torah", "heading": "The Torah, and a turn to Judaism", "register": "A",
+  "body": [
+  "In February 1975 Dick had little use for the Hebrew Bible: \"All the O.T. has in "
+  "it is monotheism, which they got from Iknaton\" {{PKB-EX-1975-IKHNATON}}. Five "
+  "years later, researching the sequel to VALIS with J. H. Hertz's edition of the "
+  "Pentateuch, he equated the Torah with the Holy Wisdom of Proverbs 8 "
+  "{{PKB-LET-1980-HERTZ}}.",
+
+  "The interviews from these years go further. He made \"a very detailed study of the "
+  "Torah and the basic tenets of Judaism\" for The Divine Invasion "
+  "{{PKB-INT-TORAHSTUDY}}; he reads Deuteronomy with Hertz's notes and marvels at its "
+  "care for the poor {{PKB-INT-DEUTERONOMY}}; he says outright \"I've switched from "
+  "Christianity to Judaism\" {{PKB-INT-SWITCHED}} — and, in another conversation, "
+  "that he studied the Torah until he understood it, \"snuck in some Christianity\" "
+  "and \"finally got back to Christianity\" {{PKB-INT-STUDIEDTORAH}}. To Ursula K. "
+  "Le Guin in August 1981 the Torah's \"haunting concern for all creatures\" is what "
+  "enchants him {{PKB-LET-1981-LEGUIN}}.",
+
+  "The Exegesis keeps the two in tension rather than choosing. Jesus was rejected, "
+  "Dick argues, \"Because he depreciated the Torah\" — and only God's Wisdom could "
+  "claim that authority {{PKB-EX-1978-DEPRECIATED}}. In April 1981, in the Hamlet "
+  "allegory where the Torah is the usurping king: \"Torah does not know everything. "
+  "Christ does.\" {{PKB-EX-1981-TORAHCHRIST}}"]},
 
  {"id": "translations", "heading": "Which Bible: translations and editions",
   "register": "B", "body": [
@@ -215,9 +311,12 @@ SECTIONS = [
   "while rejecting its theology of Christ {{PKB-EX-1978-MATTHEW}}; the New English "
   "Bible, which he quotes for John 10 {{PKB-LET-1975-KORMAN}} and checks for the word "
   "\"secret\" in 1 Corinthians 2 {{PKB-EX-1981-SECRET}}; the Jerusalem Bible, "
-  "\"an official Catholic Bible\", whose notes he studies in 1981 "
+  "\"an official Catholic Bible\", whose notes he was already citing in 1975 "
+  "{{PKB-EX-1975-JBIBLE}} and studies in 1981 "
   "{{PKB-LET-1981-BLOODWATER}} {{PKB-LET-1981-AGAPE}}; and Jerome's Vulgate, the "
-  "source of the word he wanted on his gravestone, Dilexi {{PKB-LET-DILEXI}}.",
+  "source of the word he wanted on his gravestone, Dilexi {{PKB-LET-DILEXI}}. From "
+  "1980 a sixth joins them: Hertz's Hebrew-English Pentateuch, with its commentary "
+  "{{PKB-LET-1980-HERTZ}} {{PKB-INT-STUDIEDTORAH}}.",
 
   "He also read through intermediaries: the Septuagint's apocrypha "
   "{{PKB-EX-1975-SEPTUAGINT}}, The Decoded New Testament's esoteric glosses on the "
@@ -233,7 +332,9 @@ SECTIONS = [
   "Hammadi codices, he concludes that Palmer Eldritch, explicitly the Christian God "
   "of that novel, is the Gnostics' blind demiurge {{PKB-EX-1978-YALTABAOTH}}. Late "
   "in 1980 it is the Cosmic Christ of John, distinct from the human Jesus, and its "
-  "nature is agape {{PKB-EX-1980-COSMICCHRIST}}.",
+  "nature is agape {{PKB-EX-1980-COSMICCHRIST}}; in the same entry Proverbs 8 costs him "
+  "his doctrine of the Trinity: \"herewith I just lost my Trinitarianism\" "
+  "{{PKB-EX-1980-TRINITARIANISM}}.",
 
   "In April 1981 he reverses that: the king on horseback in the Tears dream is YHWH, "
   "judge and destroyer, \"not the God of the N.T., the Xtian God of agape\" but the "
@@ -249,7 +350,17 @@ SECTIONS = [
   "God's search for man\" {{PKB-FIC-DEUSIRAE}}; Fat's journal is an exegesis because "
   "it treats his revelations as scripture {{PKB-FIC-VALIS-EXEGESIS}}; Bob Arctor "
   "understands the \"glass darkly\" verse and cannot be helped by it "
-  "{{PKB-FIC-SCANNER}}. These are characters speaking, not Dick.",
+  "{{PKB-FIC-SCANNER}}. In VALIS Sherri asks whether a parable in Luke is one of "
+  "\"the corrupt parts of the Bible\" {{PKB-FIC-VALIS-CORRUPT}}, and Fat traces Psalm "
+  "104 to Ikhnaton's hymn {{PKB-FIC-VALIS-PSALM}} — the Exegesis' claim of 1975, given "
+  "to a character. These are characters speaking, not Dick.",
+
+  "The short stories reach for the Bible as ordinary speech: whether a strange light "
+  "is God, \"like in the Bible\" {{PKB-FIC-STORY-TERRAN}}; a Bible bound in wub-fur "
+  "that rewrites Corinthians {{PKB-FIC-STORY-WUB}}; a dream of huge open books, \"Even "
+  "holy, like the Bible\" {{PKB-FIC-STORY-SIBYL}}, which anticipates the Exegesis' "
+  "open books; scripture cited as authority {{PKB-FIC-STORY-RETREAT}} and as "
+  "resignation {{PKB-FIC-STORY-TEMPUNAUTS}}.",
 
   "Covertly, on Dick's own later account, the novels carried scripture he did not "
   "know he had put there — Acts in Flow My Tears, the Logos in Ubik. That is a claim "
@@ -283,7 +394,14 @@ SECTIONS = [
   "precisely. The 348 machine-extracted \"claims\" about the Bible in our database "
   "are unreviewed and are not used here; every card on this page was chosen and "
   "summarised by reading the passage, and every quotation is checked verbatim "
-  "against its source before the page is built."]},
+  "against its source before the page is built.",
+
+  "Fifty of the cards were first written for a separate study, The Bible in PKD "
+  "(October 2026), built without access to the full letters and texts. They were "
+  "merged here after each was re-anchored to its full source; where the sources "
+  "disagreed with that study, they were followed — the rhymed-couplets letter, for "
+  "instance, is to Patrice Duvic on 28 November 1972, not to Roger Zelazny, and the "
+  "\"I had never read Acts\" entry dates from mid-1978, not September 1976."]},
 ]
 
 
@@ -348,7 +466,9 @@ FACETS = [
     {'label': 'Wisdom of Solomon', 'kind': 'book', 'link': '/dictionary/wisdom'},
     {'label': 'Daniel', 'kind': 'book', 'link': '/dictionary/daniel'},
     {'label': 'Malachi', 'kind': 'book', 'link': '/dictionary/malachi'},
+    {'label': 'Deuteronomy', 'kind': 'book'},
     {'label': 'Matthew', 'kind': 'book'},
+    {'label': 'Luke', 'kind': 'book'},
     {'label': 'Gospel of John', 'kind': 'book', 'link': '/dictionary/john'},
     {'label': 'Acts', 'kind': 'book', 'link': '/dictionary/acts'},
     {'label': '1 Corinthians', 'kind': 'book'},
@@ -359,6 +479,9 @@ FACETS = [
     # Themes
     {'label': 'Bible as code', 'kind': 'theme'},
     {'label': 'Living scripture', 'kind': 'theme'},
+    {'label': 'Bible as a world', 'kind': 'theme'},
+    {'label': 'Third testament', 'kind': 'theme'},
+    {'label': 'Judaism', 'kind': 'theme', 'link': '/studies/religion/judaism'},
     {'label': 'Prior knowledge', 'kind': 'theme'},
     {'label': 'Apocalypse', 'kind': 'theme'},
     {'label': 'Empire', 'kind': 'theme', 'link': '/dictionary/empire'},
@@ -378,6 +501,7 @@ FACETS = [
     {'label': 'Septuagint', 'kind': 'edition'},
     {'label': 'Vulgate', 'kind': 'edition'},
     {'label': 'The Decoded New Testament', 'kind': 'edition'},
+    {'label': 'Hertz Pentateuch', 'kind': 'edition'},
     # Dick's works
     {'label': 'Flow My Tears', 'kind': 'work',
      'link': '/exegesis/works/flow-my-tears-the-policeman-said'},
@@ -390,6 +514,7 @@ FACETS = [
     {'label': 'The Divine Invasion', 'kind': 'work',
      'link': '/exegesis/works/the-divine-invasion'},
     {'label': 'The Transmigration of Timothy Archer', 'kind': 'work'},
+    {'label': 'Short stories', 'kind': 'work'},
 ]
 
 FACET_KINDS = [
@@ -397,6 +522,16 @@ FACET_KINDS = [
     ('theme', 'Themes'),
     ('edition', 'Translations and editions'),
     ('work', "Dick's works"),
+]
+
+SEE_ALSO = [
+    {'label': 'Religion: Scripture and the Bible',
+     'to': '/studies/religion/browse?topic=christianity&sub=scripture'},
+    {'label': 'Religion: Judaism', 'to': '/studies/religion/judaism'},
+    {'label': 'Religion: Hebrew prophets',
+     'to': '/studies/religion/browse?topic=judaism&sub=hebrew-prophets'},
+    {'label': 'Gnosticism study', 'to': '/studies/gnosticism'},
+    {'label': 'Burroughs and the Word Virus', 'to': '/studies/intertexts/burroughs-word-virus'},
 ]
 
 BROWSE_INTRO = (
@@ -425,15 +560,42 @@ CONTRADICTIONS = [
      'almost totally unfamiliar with the Bible',
      'this Jehovah’s Witnesses version is better'),
 
-    ("Had Dick read Acts before writing Flow My Tears? He allows he may have read it "
-     "and forgotten; Butler states he had not.",
-     "In the Exegesis Dick concedes the Acts parallels could come from a forgotten "
-     "reading and rests his case on the Taverner material instead. Butler's survey "
-     "states as fact that Acts was something \"he had not previously read\". The "
-     "secondary claim is stronger than the primary one.",
+    ("Had Dick read Acts before writing Flow My Tears? In mid-1978 he writes \"I had "
+     "never read Acts\"; in another entry of 1978–80 he allows he may have read it and "
+     "forgotten.",
+     "Both statements are Dick's, both in the Exegesis. The first is flat; the second "
+     "concedes the point in order to rest the case on the Taverner material, which "
+     "he could not have known. Butler's survey follows the first and states it as "
+     "fact.",
+     'interpretive',
+     'I had never read Acts',
+     'unconsciously I knew the Book of Acts'),
+
+    ("Butler states that Dick had not previously read Acts; Dick himself allows a "
+     "forgotten reading.",
+     "The secondary claim is stronger than the primary record supports.",
      'self_vs_critic',
      'unconsciously I knew the Book of Acts',
      'which he had not previously read'),
+
+    ("In 1975 the Old Testament has nothing in it but borrowed monotheism; by 1980–81 "
+     "the Torah is Holy Wisdom and \"the greatest achievement of human beings\".",
+     "The early entry sets the Hebrew Bible below the Greeks. The later letters and "
+     "interviews, written after a study of Hertz's Pentateuch, invert the judgment. "
+     "Neither is retracted.",
+     'early_vs_late',
+     'All the O.T. has in it is monotheism',
+     'the Torah can be equated with Holy Wisdom'),
+
+    ("\"I've switched from Christianity to Judaism\" — and \"I finally got back to "
+     "Christianity\".",
+     "Two interviews about the same novel, The Divine Invasion. In one, Christianity is "
+     "\"renounced and denounced in the book\"; in the other, it comes in \"through the "
+     "back door\". The April 1981 Exegesis sides with the second: \"Torah does not "
+     "know everything. Christ does.\"",
+     'interpretive',
+     'switched from Christianity to Judaism',
+     'I finally got back to Christianity'),
 
     ("In January 1975 the Bible is dispensable — its truth would spring up again if "
      "it were lost. By 1978 the text itself is alive.",
@@ -488,9 +650,12 @@ OPEN_QUESTIONS = [
     "the King James, the New World Translation and the New English Bible by 1973, "
     "but no inventory of his books survives in this archive. Resolvable by: an "
     "inventory of his library.",
-    "Did Dick know Acts before 1974? — raised under 1975. He allows a forgotten "
-    "reading; Butler denies any reading. Resolvable by: pre-1974 letters outside the "
-    "Selected Letters, or annotations in his own Bible.",
+    "Did Dick know Acts before 1974? — raised under 1975. He says both that he had "
+    "never read it and that he may have read it and forgotten. Resolvable by: "
+    "pre-1974 letters outside the Selected Letters, or annotations in his own Bible.",
+    "Where did the \"Ruah\" interview remark and the Davis talk on the Acts of Thomas "
+    "come from? — cited by the earlier Bible study but not found in this archive's "
+    "texts. Resolvable by: locating those transcripts.",
     "Was the Wisdom of Solomon letter of September 1975 sent to more than one "
     "person? — the same text is recorded once in the Exegesis (\"Dear Doris\") and "
     "once in the Selected Letters (\"Dear Sherri\"). Resolvable by: the original "
@@ -543,12 +708,16 @@ FIELDS = {
         "Junior high: the Elijah radio serial. 1962–73: Corinthians, King James, "
         "rhymed couplets, the Scanner Darkly title, comparing translations. 1975: "
         "Acts and Flow My Tears; the Bible as a book of the future; the Wisdom of "
-        "Solomon. 1976: the Bible as code. 1978–80: living scripture. 1981: YHWH; "
-        "the Jerusalem Bible."),
+        "Solomon. 1976: the Bible as code. 1978–80: living scripture; new scriptures "
+        "needed. 1980–81: the Torah in Hertz's edition; the turn to Judaism and back. "
+        "1981: YHWH; the Bible as a world; recombinant scripture and a third "
+        "testament; the Jerusalem Bible."),
     'contradictions_summary': (
-        "Seven, kept rather than resolved: his prior knowledge of the Bible; whether "
-        "he had read Acts; the Bible dispensable or alive; code or incomplete code; "
-        "which God; Bishop Archer as Christ figure or lawyer; one Jason or two."),
+        "Ten, kept rather than resolved: his prior knowledge of the Bible; whether "
+        "he had read Acts (in his own words, both ways); Butler against the record; the "
+        "Bible dispensable or alive; code or incomplete code; which God; the Old "
+        "Testament scorned or revered; Judaism or Christianity; Bishop Archer as Christ "
+        "figure or lawyer; one Jason or two."),
     'editorial_notes': (
         "Every card was chosen and summarised by reading the passage. Machine-"
         "extracted claims about the Bible in the database are unreviewed and not "

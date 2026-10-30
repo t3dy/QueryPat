@@ -38,6 +38,7 @@ def main():
             'groups': d.GROUPS,
             'facet_kinds': [{'kind': k, 'label': lbl} for k, lbl in d.FACET_KINDS],
             'facets': d.FACETS,
+            'see_also': d.SEE_ALSO,
         },
         'contradictions': [
             {'summary': s, 'explanation': e, 'type': t, 'fragment_a': a, 'fragment_b': b}

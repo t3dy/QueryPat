@@ -86,6 +86,21 @@ PACKETS = [
      "The Transmigration of Timothy Archer, Deus Irae) and, by Dick's account, "
      "covertly (Flow My Tears, Ubik, A Scanner Darkly).",
      "Fiction lane passages, each a character speaking, not Dick."),
+    ('PKB-PKT-THIRD', 'strong',
+     "From 1978 Dick holds that the canon is not closed: a third age needs new "
+     "scriptures, and by 1981 he calls what replaces the canon \"recombinant "
+     "scripture\" — a message for one person and one situation, then scrapped — and "
+     "a \"third testament\" emerging from the Old and New.",
+     "Exegesis section 016 (Joachim of Fiore's three ages), Exegesis April 1981, "
+     "letters to Patricia Warrick of July and August 1981; dramatised in The Divine "
+     "Invasion's hologram that could take an addendum."),
+    ('PKB-PKT-TORAH', 'strong',
+     "Researching The Divine Invasion in 1979–81, Dick studied the Torah in J. H. "
+     "Hertz's edition, equated it with Holy Wisdom, and said in interview that he "
+     "had switched from Christianity to Judaism — and that Christianity came back "
+     "in \"through the back door\".",
+     "Letter to Jonathan Silverman (February 1980), letter to Ursula K. Le Guin "
+     "(August 1981), and three interviews."),
     ('PKB-PKT-SCHOLARS', 'moderate',
      "Scholars have read Dick's Pauline vocabulary (1 Corinthians 13), his Acts "
      "parallels, and his open, living Bible as structural to the late novels.",
@@ -1188,3 +1203,377 @@ doc('PKB-SCH-EXTRAP', 'criticism', EXTRAP,
     "Bible too well to let the working title Valis Regained stand.",
     'This bet is reminiscent of the Book of Job in the Bible',
     'Extrapolation essay', '2011', 'publication', 'high')
+
+
+# ==========================================================================
+# 9. Ported from the 2026-10-20 study "The Bible in PKD" (curation/bible/),
+#    re-anchored against the full texts in unified.sqlite. Context and pith
+#    are that study's, checked by reading each source; ids, sources, dates,
+#    concepts and packets are set here.
+# ==========================================================================
+
+ex('PKB-EX-1975-IKHNATON', 'SEG_EXEG_U_Claudia_12', 'Exegesis, batch of 27 February 1975 (Claudia)',
+   'All the O.T. has in it is monotheism, which they got from Iknaton.', [500, 500],
+   'PKB-PKT-WHICHGOD', 'critique', ['Exodus', 'Psalms', 'Which God', 'Prior knowledge'],
+   'Dick sets the Old Testament against the Greeks and dismisses its monotheism as borrowed from Akhenaten’s hymn. The debt to Akhenaten returns in VALIS, where a psalm is traced to the same source.',
+   'All the O.T. has in it is monotheism, which they got from Iknaton.',
+   'c. 1975–76', 'record', 'low', note=None)
+
+ex('PKB-EX-1975-WORLDOFBIBLE', 'SEG_EXEG_1975-11-05_SECTION_013_19', 'Exegesis, batch of 5 November 1975 (section 013)',
+   'The world of the Bible was suddenly around me, and real, replacing our world', [500, 500],
+   'PKB-PKT-LIVING', 'self_report', ['Living scripture', 'Bible as a world', 'Greek'],
+   'The move from reading the Bible to perceiving it. Dick describes a sudden sense that the biblical world is more real than the one around him, and that he knows Koine Greek, the lingua franca of the time.',
+   'The world of the Bible was suddenly around me, and real, replacing our world',
+   'November 1975', 'record', 'medium', note=None)
+
+ex('PKB-EX-1975-ANALOG', 'SEG_EXEG_1975-11-05_SECTION_013_20', 'Exegesis, batch of 5 November 1975 (section 013)',
+   'The book the Bible is an analog of reality', [500, 500],
+   'PKB-PKT-CODE', 'definition', ['Bible as code', 'Bible as a world', 'Empire'],
+   'Dick now makes reality itself stegonographic, concealed in the way the Bible is concealed, and calls the Bible an analog of that reality. The phrase is the seed of the 1978 and 1981 claims that the Bible is a model of the world.',
+   'The book the Bible is an analog of reality',
+   'November 1975', 'record', 'medium', note=None)
+
+ex('PKB-EX-1975-JBIBLE', 'SEG_EXEG_1975-11-05_SECTION_013_13', 'Exegesis, batch of 5 November 1975 (section 013)',
+   'calls Rome "the great and only real enemy of the new chosen people, the Church."', [500, 500],
+   'PKB-PKT-TRANSLATIONS', 'comparison', ['Revelation', 'Jerusalem Bible', 'Empire', 'Translations'],
+   'Dick’s reference works are named in the transcriptions. Here the Jerusalem Bible’s notes (“the J Bible”) give him Rome as the real enemy of the church, which he fits to his own 1974 vision of Rome.',
+   'calls Rome "the great and only real enemy of the new chosen people, the Church."',
+   'November 1975', 'record', 'medium', note='"The J Bible" is read here as the Jerusalem Bible, the edition Dick quotes with its notes in 1981; the passage does not expand the abbreviation.')
+
+ex('PKB-EX-1976-TEARSACTS', 'SEG_EXEG_1976-09-15_Dorothy_159', 'Exegesis, 15 September 1976 — the Acts material in Tears',
+   'Acts is the part of the Bible which describes the early apostolic age church', [500, 500],
+   'PKB-PKT-ACTS', 'causal_theory', ['Acts', 'Flow My Tears', 'Thomas'],
+   'The claim the 1976 sitting is built on. Dick says the novel Flow My Tears, the Policeman Said, which the Exegesis calls “Tears”, contains “unmistakable material from Acts”, the book of the early church.',
+   'Acts is the part of the Bible which describes the early apostolic age church',
+   'September 1976', 'record', 'medium', note=None)
+
+ex('PKB-EX-1978-NEVERREAD', 'SEG_EXEG_1976-09-15_Dorothy_176', 'Exegesis, segment filed with September 1976 (written mid-1978)',
+   'I had never read Acts', [500, 500],
+   'PKB-PKT-ACTS', 'self_report', ['Acts', 'Flow My Tears', 'Prior knowledge', 'Episcopal Church'],
+   'Dick credits Father Rasch with pointing out the “Philip + the black man” scene, which is in Acts 8. Dick says he had never read Acts when he wrote the novel.',
+   'I had never read Acts',
+   'After June 1978', 'stamp', 'medium', note='Our record files this under September 1976, but the passage says the exculpatory story was cracked "3 weeks ago (June 1978)", so it was written in the summer of 1978. The same segment pair recurs in section 016.')
+
+ex('PKB-EX-1978-RECOGNITION', 'SEG_EXEG_1976-09-15_Dorothy_177', 'Exegesis, segment filed with September 1976 (written mid-1978)',
+   'how come I properly identified them', [500, 500],
+   'PKB-PKT-ACTS', 'unresolved', ['Acts', 'Flow My Tears', 'Prior knowledge'],
+   'Dick’s own puzzle. If he did not recognise the Acts material when he wrote the novel, how did he identify it the month the book was released? The question is raised, not answered, in the sitting.',
+   'how come I properly identified them',
+   'Mid-1978', 'stamp', 'low', note='Continues the passage dated by its reference to June 1978.')
+
+ex('PKB-EX-1976-TRUEWORLD', 'SEG_EXEG_1976-09-15_Dorothy_170', 'Exegesis, 15 September 1976 — Acts as the true world',
+   'the true world is that of Acts. Why Acts? The last period of the scriptures, the time of the paraclete', [500, 500],
+   'PKB-PKT-ACTS', 'definition', ['Acts', 'Holy Spirit', 'Bible as a world'],
+   'Dick sets Acts against the “alibi world” of the novel. Our world is the simulated one, and the true world is the apostolic age of Acts. The argument turns on the Paraclete, the Spirit that succeeds Christ.',
+   'the true world is that of Acts. Why Acts? The last period of the scriptures, the time of the paraclete',
+   'September 1976', 'record', 'medium', note=None)
+
+ex('PKB-EX-1976-UBIKSCRIPTURE', 'SEG_EXEG_1976-09-15_Dorothy_127', 'Exegesis, 15 September 1976 — the novels as automatic writing',
+   'Ubik wrote "Ubik," which makes the novel a form of scripture', [500, 500],
+   'PKB-PKT-FICTION', 'causal_theory', ['Ubik', 'Flow My Tears', 'Living scripture'],
+   'Dick treats his own novel as dictated, and so as scripture. The category is one he later applies to the Bible itself.',
+   'Ubik wrote "Ubik," which makes the novel a form of scripture',
+   'September 1976', 'record', 'medium', note=None)
+
+ex('PKB-EX-1976-MALACHIABSENCE', 'SEG_EXEG_1976-09-15_Dorothy_232', 'Exegesis, 15 September 1976 — Malachi and Elijah',
+   'The ending of Malachi makes it absolutely clear that God (1) foresaw the ABSENCE of Elijah from the world', [500, 500],
+   'PKB-PKT-ELIJAH', 'causal_theory', ['Malachi', 'Elijah', 'Qumran & Nag Hammadi', 'Plasmate'],
+   'Malachi’s closing prophecy of Elijah’s return gives Dick the chronology of the Second Coming: God foresaw the long absence, and the return is part of the plan. Elijah recurs in every stage of his Bible reading.',
+   'The ending of Malachi makes it absolutely clear that God (1) foresaw the ABSENCE of Elijah from the world',
+   'September 1976', 'record', 'medium', note=None)
+
+ex('PKB-EX-1978-LIVINGTORAH', 'SEG_EXEG_1978-10-10_SECTION_016_207', 'Exegesis, folder of 10 October 1978 (section 016)',
+   'is the Living Torah, the informational basis of reality', [500, 500],
+   'PKB-PKT-LIVING', 'definition', ['Torah', 'Plasmate', 'Living scripture', 'Flow My Tears'],
+   'The Torah replaces Acts as the source of the cypher in Tears. Dick says the plasmate, the living information he has been describing, is the Torah, and that the 1974 experience was Kabbalistic.',
+   'is the Living Torah, the informational basis of reality',
+   'Date uncertain (1978–80)', 'record', 'low', note=None)
+
+ex('PKB-EX-1978-DEPRECIATED', 'SEG_EXEG_1978-10-10_SECTION_016_226', 'Exegesis, folder of 10 October 1978 (section 016)',
+   'Because he depreciated the Torah', [500, 500],
+   'PKB-PKT-WHICHGOD', 'causal_theory', ['Torah', 'Matthew', 'Hagia Sophia'],
+   'Dick’s explanation of why Israel rejected Jesus: he “depreciated the Torah”. Only a claim to be God, the Son of God, or Hagia Sophia could give him authority to do so.',
+   'Because he depreciated the Torah',
+   'Date uncertain (1978–80)', 'record', 'low', note="Same segment as PKB-EX-1978-MATTHEW; this card turns on the opening claim, that one on the Jehovah's Witnesses.")
+
+ex('PKB-EX-1980-TRINITARIANISM', 'SEG_EXEG_1978-10-10_SECTION_016_321', 'Exegesis, folder of 10 October 1978 (section 016)',
+   'herewith I just lost my Trinitarianism', [500, 500],
+   'PKB-PKT-WHICHGOD', 'self_report', ['Proverbs', 'Hagia Sophia', 'Logos', 'Which God'],
+   'The cost of the argument. Dick says he has lost his Trinitarianism on the evidence of his two experiences and of scripture, and points to scripture itself as the second ground.',
+   'herewith I just lost my Trinitarianism',
+   'After November 1980', 'stamp', 'medium', note=None)
+
+ex('PKB-EX-1978-NEWSCRIPTURES', 'SEG_EXEG_1978-10-10_SECTION_016_251', 'Exegesis, folder of 10 October 1978 (section 016)',
+   'New Scriptures are needed, new prophets and perhaps a new savior', [500, 500],
+   'PKB-PKT-THIRD', 'causal_theory', ['Third testament', 'Holy Spirit'],
+   'Dick’s programme for the third age: each age has its own Torah, and the third is as revolutionary against the second as the second was against the first. The canon, on this view, is not closed.',
+   'New Scriptures are needed, new prophets and perhaps a new savior',
+   'Date uncertain (1978–80)', 'record', 'low', note=None)
+
+ex('PKB-EX-1978-TEMPLATE', 'SEG_EXEG_1978-10-10_SECTION_016_189', 'Exegesis, folder of 10 October 1978 (section 016)',
+   'that Valis turned that info into our world', [500, 500],
+   'PKB-PKT-LIVING', 'causal_theory', ['Bible as a world', 'Valis', 'Living scripture', 'King Felix'],
+   'The mechanism. Dick proposes that the world of 1970–74 was built on information contained in the Bible, and that VALIS converted that information into the world. Any book that describes a world, he adds, could do the same.',
+   'that Valis turned that info into our world',
+   'Date uncertain (1978–80)', 'record', 'low', note=None)
+
+ex('PKB-EX-1978-GRID', 'SEG_EXEG_1978-10-10_SECTION_016_307', 'Exegesis, folder of 10 October 1978 (section 016)',
+   'using the Bible as a encoding-decoding grid', [500, 500],
+   'PKB-PKT-CODE', 'causal_theory', ['Bible as code', 'Acts', 'Flow My Tears', 'Thomas'],
+   'The political reading. Dick imagines an agency using the Bible as a grid for encoding and decoding messages, because biblical material floats around everywhere, all the time.',
+   'using the Bible as a encoding-decoding grid',
+   'Date uncertain (1978–80)', 'record', 'low', note=None)
+
+ex('PKB-EX-1978-THREED', 'SEG_EXEG_1978-10-10_SECTION_016_151', 'Exegesis, folder of 10 October 1978 (section 016)',
+   'My visualizing the Bible in 3-D: layers according to age (time as spacial axis)', [500, 500],
+   'PKB-PKT-LIVING', 'self_report', ['Living scripture', 'Acts', 'Plasmate'],
+   'The image that the trilogy will dramatise. Dick pictures the Bible as a three-dimensional object, with its strata ordered by the age of the texts, so that time becomes a spatial axis.',
+   'My visualizing the Bible in 3-D: layers according to age (time as spacial axis)',
+   'Date uncertain (1978–80)', 'record', 'low', note=None)
+
+ex('PKB-EX-1981-ISAWORLD', 'SEG_EXEG_1981-04-16_Pat_140', 'Exegesis, 16 April 1981 — the Bible as world',
+   'the Bible is not a verbal description of a world; it is a world', [500, 500],
+   'PKB-PKT-LIVING', 'definition', ['Bible as a world', 'Torah', 'Plasmate'],
+   'The last step in the sequence. The Bible is not a description of a world but a world in verbal form. Dick ties the idea to the Hebrew alphabet and to the plasmate of 1978.',
+   'the Bible is not a verbal description of a world; it is a world',
+   'April 1981', 'record', 'high', note=None)
+
+ex('PKB-EX-1981-FIRSTREAD', 'SEG_EXEG_1981-04-16_Pat_151', 'Exegesis, 16 April 1981 — the first Bible he read',
+   'it was the O.T. that I read, not the N.T., esp. the part about Elijah', [500, 500],
+   'PKB-PKT-BEFORE', 'self_report', ['1 Kings', 'Elijah', 'Prior knowledge', 'Psalms'],
+   'Autobiography in the Bible argument. The first Bible he read in junior high school was the Old Testament, and above all the Elijah passages, which he calls his great dream. The later claims grow from that reading.',
+   'it was the O.T. that I read, not the N.T., esp. the part about Elijah',
+   'April 1981', 'record', 'high', note=None)
+
+ex('PKB-EX-1981-TOUCHSTONE', 'SEG_EXEG_1981-04-16_Pat_86', 'Exegesis, 16 April 1981 — the Bible as touchstone',
+   'the touchstone (oh please do not forget this!) is the Bible', [500, 500],
+   'PKB-PKT-LIVING', 'definition', ['Living scripture', 'Bible as a world'],
+   'Dick’s test for any account of reality, set out as four properties. The Bible is the touchstone because it is actual, true, alive and a sentient organism with the keys to the world.',
+   'the touchstone (oh please do not forget this!) is the Bible',
+   'April 1981', 'record', 'high', note=None)
+
+ex('PKB-EX-1981-LUKEACTS', 'SEG_EXEG_1981-04-16_Pat_160', 'Exegesis, 16 April 1981 — Acts and Luke',
+   'the world of the Bible, specifically Acts - the 2nd half of Luke', [500, 500],
+   'PKB-PKT-ACTS', 'self_report', ['Acts', 'Luke', 'Bible as a world', 'Plasmate'],
+   'The 1974 experience, identified with a passage. Dick says the enhanced “infinity” mode he saw in 1974 was the world of the Bible, specifically the second half of Luke, which is Acts.',
+   'the world of the Bible, specifically Acts - the 2nd half of Luke',
+   'April 1981', 'record', 'high', note=None)
+
+ex('PKB-EX-1981-LETTERSHOME', 'SEG_EXEG_1981-04-16_Pat_76', 'Exegesis, 16 April 1981 — letters from home',
+   'Augustine called the Bible "Letters from home"', [500, 500],
+   'PKB-PKT-CODE', 'comparison', ['Bible as code', 'Holy Spirit', 'Living scripture'],
+   'Dick borrows Augustine’s image of the Bible as letters from home, and argues that the veiled messages in it were placed there by the Holy Spirit, so that only the Spirit can read them fully.',
+   'Augustine called the Bible "Letters from home"',
+   'April 1981', 'record', 'high', note=None)
+
+ex('PKB-EX-1981-RECOMBINANT', 'SEG_EXEG_1981-04-16_Pat_67', 'Exegesis, 16 April 1981 — recombinant scripture',
+   'no canon, no precedent; each person + situation unique', [500, 500],
+   'PKB-PKT-THIRD', 'definition', ['Third testament', 'Holy Spirit'],
+   'The term Dick coins for what replaces a closed canon: “recombinant scripture”, which has no canon and no precedent, and is unique to each person and situation.',
+   'no canon, no precedent; each person + situation unique',
+   'April 1981', 'record', 'high', note=None)
+
+ex('PKB-EX-1981-THIRDTESTAMENT', 'SEG_EXEG_1981-04-16_Pat_118', 'Exegesis, 16 April 1981 — the third testament',
+   'unprecedented third testament emanating out of the O.T. + N.T.', [500, 500],
+   'PKB-PKT-THIRD', 'definition', ['Third testament', 'Torah'],
+   'Dick’s name for what his own writing has produced: a third testament coming out of the Old and New Testaments, which sees the Torah in the Kerygma of the New Testament, advancing into this new form.',
+   'unprecedented third testament emanating out of the O.T. + N.T.',
+   'April 1981', 'record', 'high', note=None)
+
+ex('PKB-EX-1981-TORAHCHRIST', 'SEG_EXEG_1981-04-16_Pat_43', 'Exegesis, 16 April 1981 — Torah and Christ',
+   'Torah does not know everything. Christ does.', [500, 500],
+   'PKB-PKT-WHICHGOD', 'allegory', ['Torah', 'King Felix', 'Flow My Tears', 'Which God'],
+   'The hierarchy at the end of the Torah passages. The law is the frame, and Christ is the one who knows what the frame does not. Dick calls this the story the whole Bible tells.',
+   'Torah does not know everything. Christ does.',
+   'April 1981', 'record', 'high', note=None)
+
+doc('PKB-FIC-VALIS-CORRUPT', 'fiction', 'DOC_ARCH_OCEANOFPDF_COM_THE_VALIS_TRILOGY_PHILIP_',
+    'VALIS, chapter 5',
+    'I’ll ask Larry if that’s one of the corrupt parts of the Bible', [500, 500],
+    'PKB-PKT-FICTION', 'critique', ['Luke', 'VALIS'],
+    'Sherri, the sceptical member of the group, asks whether a passage Fat has quoted is one of “the corrupt parts of the Bible”. Fat has been reading the Britannica on the secrecy theme in Mark and Matthew.',
+    'I’ll ask Larry if that’s one of the corrupt parts of the Bible',
+    'Sherri (character)', '1981', 'publication', 'high', note=None)
+
+doc('PKB-FIC-VALIS-PSALM', 'fiction', 'DOC_ARCH_OCEANOFPDF_COM_THE_VALIS_TRILOGY_PHILIP_',
+    'VALIS, chapter 11',
+    'it entered our Bible—it’s', [500, 500],
+    'PKB-PKT-FICTION', 'comparison', ['Psalms', 'VALIS', 'Which God'],
+    'Fat identifies Psalm 104 with the hymn of Akhenaten, and says the hymn is older than the Bible that absorbed it. The Exegesis makes the same claim about the Old Testament in 1975.',
+    'it entered our Bible—it’s older than our Bible',
+    'Horselover Fat (character)', '1981', 'publication', 'high', note=None)
+
+doc('PKB-FIC-DI-SENTIENT', 'fiction', 'DOC_ARCH_OCEANOFPDF_COM_THE_VALIS_TRILOGY_PHILIP_',
+    'The Divine Invasion, chapter 2',
+    'It became a sentient organism that was never twice the same', [500, 500],
+    'PKB-PKT-LIVING', 'allegory', ['Living scripture', 'The Divine Invasion', 'Third testament'],
+    'Once the Bible is superimposed on a hologram, it is in dialogue with the reader and changes each time. The Church forbids the manufacture of such holograms because of this, and the novel names the stakes.',
+    'It became a sentient organism that was never twice the same',
+    'Narrator (Emmanuel)', '1981', 'publication', 'high', note=None)
+
+doc('PKB-FIC-DI-TORAHDEF', 'fiction', 'DOC_ARCH_OCEANOFPDF_COM_THE_VALIS_TRILOGY_PHILIP_',
+    'The Divine Invasion, chapter 2',
+    'Torah is the totality of divine disclosure by God; it is alive; it existed before creation', [500, 500],
+    'PKB-PKT-LIVING', 'definition', ['Torah', 'The Divine Invasion', 'Living scripture'],
+    'Elias defines the Torah as the whole of God’s disclosure, living and prior to creation, and not merely as law. The definition matches the living Torah of the 1978 Exegesis.',
+    'Torah is the totality of divine disclosure by God; it is alive; it existed before creation',
+    'Elias (character)', '1981', 'publication', 'high', note='Elias attributes the definition to the poet Hayyim Nahman Bialik.')
+
+doc('PKB-FIC-DI-ADDENDUM', 'fiction', 'DOC_ARCH_OCEANOFPDF_COM_THE_VALIS_TRILOGY_PHILIP_',
+    'The Divine Invasion, chapter 2',
+    'He wanted to feed that into the hologram of the Bible, as an', [500, 500],
+    'PKB-PKT-FICTION', 'allegory', ['Torah', 'The Divine Invasion', 'Third testament'],
+    'Emmanuel wants to add a line of his own to the Bible’s hologram, and holds back. The restraint is the novel’s inverse of the Exegesis, where Dick is sure of his right to add to scripture.',
+    'He wanted to feed that into the hologram of the Bible, as an addendum, but he knew that he should not',
+    'Emmanuel (character)', '1981', 'publication', 'high', note=None)
+
+let('PKB-LET-1964-PRIEST', 'LET_1964-05-22_JAMES_BLISH_0062', 'Letter to James Blish, 22 May 1964',
+    'My priest says the Bible is not the stor', [500, 500],
+    'PKB-PKT-BEFORE', 'self_report', ['1 Corinthians', 'Episcopal Church', 'Prior knowledge'],
+    'Dick repeats his priest’s line that the Bible is “not the story of man’s search for God but of God’s search for man,” and sets it against his own inability to see the Redeemer. It is the earliest Bible passage in the letters, and it reads the Bible from the side of God’s search.',
+    "My priest says the Bible is not the story of man's search for God but of God's search for man.",
+    '22 May 1964', 'dateline', 'high', note="The same formula — the Bible as God's search for man — is spoken by Pete in Deus Irae (PKB-FIC-DEUSIRAE).")
+
+let('PKB-LET-1975-GRAVES', 'LET_1975-07-10_GORAN_BENGTSON_0114', 'Letter to Göran Bengtson, 10 July 1975',
+    'this is indeed the moment foretold in th', [500, 500],
+    'PKB-PKT-FUTURE', 'allegory', ['Apocalypse', 'Elijah', 'To Scare the Dead'],
+    'Dick describes the moment at which the realisation spreads that nothing has misfired. It is the moment foretold in the Bible, when the graves open, and the Parousia has arrived, but not in the form anyone had anticipated.',
+    'this is indeed the moment foretold in the Bible when the graves will open and give forth their dead, that in fact the Parousia has arrived',
+    '10 July 1975', 'dateline', 'high', note=None)
+
+let('PKB-LET-1976-PROPHECIES', 'LET_1976-09-06_DOROTHY_HUDNER_0287', 'Letter to Dorothy Hudner, 6 September 1976',
+    'It was shown to me that the prophecies of the Bible are all true and are systematically being fulfilled.', [500, 500],
+    'PKB-PKT-FUTURE', 'self_report', ['Empire', 'Apocalypse', 'Black Iron Prison'],
+    'Nine days before the Exegesis sitting on Acts in Tears, Dick tells Dorothy Hudner that the prophecies of the Bible are being fulfilled, and that the Parousia is not far off. Rome is the physical presence of the evil spirit, the Prince of This World.',
+    'It was shown to me that the prophecies of the Bible are all true and are systematically being fulfilled.',
+    '6 September 1976', 'dateline', 'high', note='The same letter as PKB-LET-1976-HUDNER, a few lines earlier.')
+
+let('PKB-LET-1977-WARREN', 'LET_1977-08-21_EUGENE_WARREN_0036', 'Letter to Eugene Warren, 21 August 1977',
+    'after which I have read the Bible (the N.T. particularly) again and again', [500, 500],
+    'PKB-PKT-BEFORE', 'self_report', ['Proverbs', 'Ubik', 'Hagia Sophia', 'Prior knowledge'],
+    'Dick dates his conversion experience to March 1974, and says that since then he has read the Bible, the New Testament particularly, again and again. The letter also names two parts of what was revealed to him as the most striking, one of them the Jerusalem Bible’s note on Ephesians 1:10.',
+    'after which I have read the Bible (the N.T. particularly) again and again',
+    '21 August 1977', 'dateline', 'high', note=None)
+
+let('PKB-LET-1980-HERTZ', 'LET_1980-02-28_JONATHAN_SILVERMAN_SCOTT_MERED_0009', 'Letter to Jonathan Silverman, 28 February 1980',
+    'I have already discovered that the Torah can be equated with Holy Wisdom (Hagia Sophia) of Proverbs 8', [500, 500],
+    'PKB-PKT-TORAH', 'definition', ['Torah', 'Proverbs', 'Hagia Sophia', 'Hertz Pentateuch', 'Judaism'],
+    'Dick reports his reading of the Torah with the notes of J. H. Hertz, late Chief Rabbi of the British Empire, and concludes that the Torah can be equated with Holy Wisdom, the Hagia Sophia of Proverbs 8, who was alive and existed before creation.',
+    'I have already discovered that the Torah can be equated with Holy Wisdom (Hagia Sophia) of Proverbs 8',
+    '28 February 1980', 'dateline', 'high', note=None)
+
+let('PKB-LET-1981-RECOMBINANT', 'LET_1981-07-15_PATRICIA_WARRICK_0103', 'Letter to Patricia Warrick, 15 July 1981',
+    'We have what I call recombinant information/scripture; a given message applies to one person for one situation only', [500, 500],
+    'PKB-PKT-THIRD', 'definition', ['Third testament', 'Torah'],
+    'The term the Exegesis uses for scripture after the canon, given to Patricia Warrick in a letter. In the third period there is no canon at all: “we have gone beyond the N.T. just as the N.T. went beyond the O.T.” A message applies to one person in one situation, and is then scrapped.',
+    'We have what I call recombinant information/scripture; a given message applies to one person for one situation only',
+    '15 July 1981', 'dateline', 'high', note=None)
+
+let('PKB-LET-1981-SOURCE', 'LET_1981-08-18_PATRICIA_WARRICK_0132', 'Letter to Patricia Warrick, 18 August 1981',
+    'The Bible is the information that is fed into the space-time universe, as if transduced into substantial reality.', [500, 500],
+    'PKB-PKT-LIVING', 'definition', ['Bible as a world', 'Living scripture'],
+    'The fullest statement in the letters of the 1981 theory. The Bible is not a description of this world but the verbal source of the world. Dick explains it through Joachim of Fiore, and calls the source a single living form.',
+    'The Bible is the information that is fed into the space-time universe, as if transduced into substantial reality.',
+    '18 August 1981', 'dateline', 'high', note=None)
+
+let('PKB-LET-1981-LIFEFORM', 'LET_1981-08-18_PATRICIA_WARRICK_0132', 'Letter to Patricia Warrick, 18 August 1981',
+    'a single coherent life form underlies the written Bible, and it is the source of our universe, and is itself not fixed into a canon', [500, 500],
+    'PKB-PKT-LIVING', 'causal_theory', ['Living scripture', 'Third testament'],
+    'The same letter says that a single living form underlies the written Bible and is the source of the universe. The form is not fixed into a canon but constantly combines and recombines, so the canon is a snapshot of something still moving.',
+    'a single coherent life form underlies the written Bible, and it is the source of our universe, and is itself not fixed into a canon',
+    '18 August 1981', 'dateline', 'high', note=None)
+
+let('PKB-LET-1981-LEGUIN', 'LET_1981-08-20_URSULA_K_LE_GUIN_0133', 'Letter to Ursula K. Le Guin, 20 August 1981',
+    'The Torah has enchanted me with its haunting concern for all creatures, especially the weak, the harmless and the disadvantaged.', [500, 500],
+    'PKB-PKT-TORAH', 'self_report', ['Deuteronomy', 'Torah', 'Judaism'],
+    'Dick praises Deuteronomy to Ursula Le Guin, and quotes the law about the bird’s nest. The Torah is read here for its ethics and its concern for the weak, where the 1976 and 1978 writing reads it as code and as the informational basis of the world.',
+    'The Torah has enchanted me with its haunting concern for all creatures, especially the weak, the harmless and the disadvantaged.',
+    '20 August 1981', 'dateline', 'high', note=None)
+
+doc('PKB-INT-TORAHSTUDY', 'interview', 'DOC_ARCH_PKD_MAGAZINE_INTERVIEWS',
+    'PKD Magazine Interviews (compiled), undated interview headed “Philip K. Dick”',
+    'I did a very detailed study of the Torah and the basic tenets of Judaism for it.', [500, 500],
+    'PKB-PKT-TORAH', 'self_report', ['Torah', 'Judaism', 'The Divine Invasion'],
+    'Asked how the resolution of the novel came about, Dick says it is resolved “in terms of Judaism,” and that he made a very detailed study of the Torah for it. He says he is not Jewish, and had not been drawn to the religion before, but that the study gave him “tremendous respect” for it.',
+    'I did a very detailed study of the Torah and the basic tenets of Judaism for it.',
+    'Philip K. Dick', None, None, None, note=None)
+
+doc('PKB-INT-DEUTERONOMY', 'interview', 'DOC_ARCH_PKD_MAGAZINE_INTERVIEWS',
+    'PKD Magazine Interviews (compiled), undated interview',
+    'I was reading Deuteronomy last night, and some of the notes by Rabbi Hertz, who is the late Chief Rabbi of the British Empire.', [500, 500],
+    'PKB-PKT-TORAH', 'self_report', ['Deuteronomy', 'Torah', 'Hertz Pentateuch', 'Judaism'],
+    'Dick says he was reading Deuteronomy the night before, with the notes of Rabbi Hertz, and marvels that the injunctions to care for the needy, the sick and the poor are built into a text some three thousand years old. The passage follows a remark about a story on Haig and Reagan, which Dick treats as a story idea.',
+    'I was reading Deuteronomy last night, and some of the notes by Rabbi Hertz, who is the late Chief Rabbi of the British Empire.',
+    'Philip K. Dick', None, None, None, note=None)
+
+doc('PKB-INT-STUDIEDTORAH', 'interview', 'DOC_ARCH_PHILIP_K_DICK_IN_HIS_OWN_WORDS_GREGG_RIC',
+    'Philip K. Dick: In His Own Words (Gregg Rickman, 1984), undated conversation',
+    'I studied the Torah until I understood', [500, 500],
+    'PKB-PKT-TORAH', 'self_report', ['Torah', 'Hertz Pentateuch', 'Judaism', 'The Divine Invasion'],
+    'Dick says that for several years he worked on a book about Judaism, and that he studied the Torah with the notes of the late Chief Rabbi until he understood its underlying themes. He says he snuck some Christianity into the book, and finally got back to Christianity.',
+    'I studied the Torah until I understood',
+    'Philip K. Dick', None, None, None, note=None)
+
+doc('PKB-INT-BAPTIST', 'interview', 'DOC_ARCH_OCEANOFPDF_COM_THE_LAST_INTERVIEW_AND_OT',
+    'The Last Interview and Other Conversations (2015), conversation with Rickman, undated',
+    'John the Baptist was Elijah. That’s who he was. He was Elijah.', [500, 500],
+    'PKB-PKT-ELIJAH', 'self_report', ['Malachi', 'Elijah', 'The Divine Invasion'],
+    'Pressed on who John the Baptist was, Dick answers from scripture: “Don’t you remember your scripture?” He quotes the prophecy in Malachi that Elijah will be sent back, and says that Jesus identified John the Baptist as Elijah. It is the Elijah of the 1976 Exegesis, whose return Malachi gave Dick his timetable for.',
+    'John the Baptist was Elijah. That’s who he was. He was Elijah.',
+    'Philip K. Dick', None, None, None, note=None)
+
+doc('PKB-INT-SWITCHED', 'interview', 'DOC_ARCH_PHILIP_K_DICK_IN_HIS_OWN_WORDS_GREGG_RIC',
+    'Philip K. Dick: In His Own Words (Gregg Rickman, 1984), undated conversation',
+    'I’ve switched from Christianity to Judaism.', [500, 500],
+    'PKB-PKT-TORAH', 'self_report', ['Judaism', 'YHWH', 'The Divine Invasion', 'Which God'],
+    'Dick says he has switched from Christianity to Judaism, and that Christianity is renounced and denounced in the book. God in it is specifically Yahweh, as in the Old Testament, though he began to put in funny stuff, and it got away from him.',
+    'I’ve switched from Christianity to Judaism.',
+    'Philip K. Dick', None, None, None, note=None)
+
+doc('PKB-INT-SCANNERTITLE', 'interview', 'DOC_ARCH_THE_MISSOURI_REVIEW_VOL_7_ISS_2_THE_MAIN',
+    'The Mainstream That Through the Ghetto Flows: An Interview with Philip K. Dick (The Missouri Review, 1984)',
+    'No, A Scanner Darkly is from', [500, 500],
+    'PKB-PKT-BEFORE', 'self_report', ['1 Corinthians', 'A Scanner Darkly'],
+    'Asked about the title of A Scanner Darkly, Dick says it is from Paul’s “through a glass, darkly,” which is the King James wording of 1 Corinthians 13:12. It is an allusion in a title, not an argument about scripture.',
+    "No, A Scanner Darkly is from Paul's 'through a glass, darkly.'",
+    'Philip K. Dick', None, None, None, note=None)
+
+doc('PKB-FIC-STORY-TERRAN', 'fiction', 'DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_',
+    '“A Terran Odyssey”, in The Collected Stories of Philip K. Dick (Underwood-Miller, 1987)',
+    "Hoppy, what's the light from? Is it God? You know, like in the Bible.", [500, 500],
+    'PKB-PKT-FICTION', 'unresolved', ['Short stories'],
+    'A character asks Hoppy what the light is, and whether it is God, “like in the Bible.” The question is a character’s, in fiction, and is not Dick’s own claim. It is one instance of the stories’ habit of reaching for scripture when something strange happens.',
+    "Hoppy, what's the light from? Is it God? You know, like in the Bible.",
+    'Character (fiction)', None, None, None, note=None)
+
+doc('PKB-FIC-STORY-WUB', 'fiction', 'DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_',
+    '“Not by Its Cover”, in The Collected Stories of Philip K. Dick (Underwood-Miller, 1987)',
+    'to bind a copy of the Bible in wub-fur.', [500, 500],
+    'PKB-PKT-FICTION', 'allegory', ['1 Corinthians', 'Short stories'],
+    'One character suggests binding a copy of the Bible in wub-fur. Another says he had it done, and read Paul’s letters to the Corinthians in the bound copy, and found a single change, to the passage on the mystery. The joke is about the book as an object in the story’s world of commodities.',
+    'to bind a copy of the Bible in wub-fur.',
+    'Character (fiction)', None, None, None, note=None)
+
+doc('PKB-FIC-STORY-SIBYL', 'fiction', 'DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_',
+    '“The Eye of the Sibyl”, in The Collected Stories of Philip K. Dick (Underwood-Miller, 1987)',
+    'Huge books, very valuable. Even holy, like the Bible.', [500, 500],
+    'PKB-PKT-FICTION', 'allegory', ['Short stories', 'Qumran & Nag Hammadi'],
+    'The narrator dreams of open books held up before him, huge and valuable, “even holy, like the Bible.” Ms. Heims reads the dream as a matter for his career as a writer, and the narrator says the books are old, thousands of years old, and warning them about something.',
+    'Huge books, very valuable. Even holy, like the Bible.',
+    'Character (fiction)', None, None, None, note='The dream of huge open holy books parallels the Exegesis entry identifying "the huge open books I saw" with the Qumran scrolls (PKB-EX-1978-SCROLLS).')
+
+doc('PKB-FIC-STORY-RETREAT', 'fiction', 'DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_',
+    '“Retreat Syndrome”, in The Collected Stories of Philip K. Dick (Underwood-Miller, 1987)',
+    "Look it up in the Bible if you don't believe me.", [500, 500],
+    'PKB-PKT-FICTION', 'critique', ['Short stories'],
+    'Hagopian tells a colleague to leave Carol alone, since it is not his job to exact vengeance, and that she is being punished and will be as long as she is in their hands. The scripture is offered as settled authority, and the scene is an argument about who may enforce it.',
+    "Look it up in the Bible if you don't believe me.",
+    'Character (fiction)', None, None, None, note=None)
+
+doc('PKB-FIC-STORY-TEMPUNAUTS', 'fiction', 'DOC_ARCH_OCEANOFPDF_COM_THE_COLLECTED_STORIES_OF_',
+    '“A Little Something for Us Tempunauts”, in The Collected Stories of Philip K. Dick (Underwood-Miller, 1987)',
+    'We all go to one place, he thought, as the Bible says.', [500, 500],
+    'PKB-PKT-FICTION', 'allegory', ['Ecclesiastes', 'Short stories'],
+    'A character who, with two others, has already been where the rest of the people are going, thinks that they all go to one place, as the Bible says. The line is resignation, put in the mouth of a man who feels himself already among the dead.',
+    'We all go to one place, he thought, as the Bible says.',
+    'Character (fiction)', None, None, None, note='"We all go to one place" echoes Ecclesiastes 3:20 ("All go unto one place").')

@@ -1,0 +1,95 @@
+{
+  "topic_id": "TOPIC_REL_mercerism",
+  "study_id": "religion",
+  "canonical_name": "Mercerism",
+  "slug": "mercerism",
+  "status": "mapped",
+  "provenance": "corpus_sweep_with_editorial_review",
+  "definition": "Mercer and Mercerism in Do Androids Dream of Electric Sheep?: the empathy box, the fusion with Wilbur Mercer, and the religion of shared suffering that Dick returned to.",
+  "pkd_relevance": null,
+  "in_the_fiction": null,
+  "in_the_exegesis": null,
+  "intellectual_background": null,
+  "scholarly_debate": null,
+  "chronology_summary": null,
+  "contradictions_summary": null,
+  "related_thinkers": [],
+  "editorial_notes": "Every mention is listed by subsection, with its lane, date and editorial status. Interpretive prose for this tradition is not yet written; see the subsections for the material.",
+  "open_questions": [],
+  "passage_count": 463,
+  "evidence_count": 0,
+  "contradiction_count": 0,
+  "first_appearance": "1960s",
+  "peak_period_start": null,
+  "peak_period_end": null,
+  "dossier_sections": [],
+  "mention_cards": [],
+  "mention_groups": null,
+  "subsections": [
+    {
+      "subsection_id": "mercer-figure",
+      "label": "Wilbur Mercer",
+      "description": "The figure of Mercer, his hill and his suffering, in the novel and in the notebooks.",
+      "browse_count": 222,
+      "lanes": {
+        "A": 139,
+        "B": 21,
+        "C": 83,
+        "D": 15
+      },
+      "decades": {
+        "1970s": 6,
+        "1980s": 55,
+        "1990s": 4,
+        "2000s": 93,
+        "2010s": 27,
+        "2020s": 10
+      },
+      "reviewed": 0,
+      "excluded": 0
+    },
+    {
+      "subsection_id": "mercerism-religion",
+      "label": "Mercerism as religion",
+      "description": "The empathy box and the fusion of many people into one experience, read as a religion.",
+      "browse_count": 241,
+      "lanes": {
+        "A": 184,
+        "B": 15,
+        "C": 57,
+        "D": 206
+      },
+      "decades": {
+        "1960s": 7,
+        "1970s": 85,
+        "1980s": 55,
+        "1990s": 4,
+        "2000s": 36,
+        "2010s": 21,
+        "2020s": 5
+      },
+      "reviewed": 0,
+      "excluded": 0
+    }
+  ],
+  "evidence_packets": [],
+  "contradictions": [],
+  "chronology": [],
+  "related_documents": [],
+  "related_terms": [],
+  "related_names": [],
+  "related_topics": [
+    {
+      "topic_id": "TOPIC_REL_christianity",
+      "canonical_name": "Christianity",
+      "slug": "christianity",
+      "study_id": "religion"
+    },
+    {
+      "topic_id": "TOPIC_REL_mysticism",
+      "canonical_name": "Mysticism and altered states",
+      "slug": "mysticism",
+      "study_id": "religion"
+    }
+  ]
+}
