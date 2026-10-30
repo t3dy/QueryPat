@@ -263,6 +263,8 @@ def run_stage_5(db: sqlite3.Connection, source: Path):
     seed_burroughs(db)
     from studies.seed_pkd_bible import seed as seed_pkd_bible
     seed_pkd_bible(db)
+    from studies.seed_drugs_in_pkd import seed as seed_drugs_in_pkd
+    seed_drugs_in_pkd(db)
 
     # Gnosticism: assembled from curation/gnosticism, then seeded. The assembly
     # step re-reads the corpus sweep, so the study survives a full rebuild.

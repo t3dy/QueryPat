@@ -74,6 +74,39 @@ PROFILES = {
             r'Bible Belt', r'bible of (?:the )?(?:sf|science fiction)',
         ],
     },
+    'drugs': {
+        # Named substances, Dick's fictional drugs, and the treatment scene.
+        # "speed" alone is deliberately weak: in the Exegesis it is mostly
+        # velocity or the speed of light (the amphetamine-use topic's error).
+        'strong': [
+            r'\bamphetamines?\b', r'\bmeth(?:amphetamine|edrine)\b',
+            r'\bSemoxydrine\b', r'\bDesoxyn\b', r'\bDexedrine\b', r'\bBenzedrine\b',
+            r'\bDexamyl\b', r'\bStelazine\b', r'\bLibrium\b', r'\bValium\b',
+            r'\bThorazine\b', r'\bpentothal\b', r'\bsodium pentathol\b',
+            r'\bLSD\b', r'\bacid trip', r'\bmescalin', r'\bpeyote\b', r'\bpsilocybin\b',
+            r'\bpsychedelics?\b', r'\bhallucinogen', r'\bheroin\b', r'\bjunkies?\b',
+            r'\bnarcotics?\b', r'\bmarijuana\b', r'\bhashish\b', r'\bcocaine\b',
+            r'\bdopers?\b', r'\bdope\b', r'\bspeed[\s\-]?freaks?\b',
+            r'\bX-?Kalay\b', r'\bSynanon\b', r'\bSubstance D\b', r'\bCan-?D\b',
+            r'\bChew-?Z\b', r'\bJJ-?180\b', r'\bKR-?3\b',
+            r'\bdrugs?\b', r'\bdrugged\b', r'\bpills?\b', r'\bstimulants?\b',
+            r'\borthomolecular\b', r'\bmegavitamin', r'\bvitamin', r'\bwater-soluble\b',
+            r'\bSacred Mushroom\b', r'\bAllegro\b', r'\bHofmann\b', r'\bLeary\b',
+            r'\bAmanita\b', r'\bergot\b', r'\bkykeon\b', r'\bDoors of Perception\b',
+        ],
+        'weak': [
+            r'\bspeed\b', r'\b(?:on|took|taking|popping|popped) (?:uppers|downers)\b',
+            r'\bhigh on\b', r'\bstoned\b', r'\bloaded\b', r'\bstrung out\b',
+            r'\baddict(?:ed|ion|s)?\b', r'\bwithdrawal\b', r'\boverdos',
+            r'\bflash-?backs?\b', r'\btrips?\b', r'\bmushrooms?\b', r'\bsoma\b',
+            r'\bprescription\b', r'\bclinic\b', r'\brehab',
+        ],
+        'exclude': [
+            r'speed of light', r'\bvelocity\b', r'speed of (?:sound|time)',
+            r'\bat (?:high|great|enormous|fantastic|full|top) speed\b',
+            r'faster than light', r'\bFTL\b',
+        ],
+    },
     'burroughs': {
         'strong': [
             r'\bBurroughs\b', r'\bBurrough\b', r'\bEurrough',      # OCR variant

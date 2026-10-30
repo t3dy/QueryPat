@@ -111,6 +111,15 @@
         "relation": "related",
         "facet": "Plasmate",
         "count": 8
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "related",
+        "facet": "Plasmate",
+        "count": 1
       }
     ],
     "scanner": [
@@ -405,6 +414,50 @@
         "facet": "Wisdom of Solomon",
         "count": 2
       }
+    ],
+    "anamnesis": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "related",
+        "facet": "Anamnesis",
+        "count": 3
+      }
+    ],
+    "dionysos": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "related",
+        "facet": "Dionysos",
+        "count": 2
+      }
+    ],
+    "eucharist": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "related",
+        "facet": "Eucharist",
+        "count": 2
+      }
+    ],
+    "palmer-eldritch": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "related",
+        "facet": "Palmer Eldritch",
+        "count": 3
+      }
     ]
   },
   "names": {
@@ -536,6 +589,15 @@
         "relation": "fictional_exegete",
         "facet": null,
         "count": null
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "dick_figure",
+        "facet": "Horselover Fat",
+        "count": 2
       }
     ],
     "jason-taverner": [
@@ -646,6 +708,171 @@
         "relation": "which_god",
         "facet": "YHWH",
         "count": 4
+      }
+    ],
+    "bob-arctor": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "substance_d_user",
+        "facet": "Bob Arctor",
+        "count": 1
+      }
+    ],
+    "castaneda": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "psychedelic_precedent",
+        "facet": null,
+        "count": null
+      }
+    ],
+    "donna": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "dealer_and_informant",
+        "facet": "Donna",
+        "count": 1
+      }
+    ],
+    "gloria-knudson": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "lsd_suicide",
+        "facet": "Gloria Knudson",
+        "count": 1
+      }
+    ],
+    "hal": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "model_for_barris",
+        "facet": "Hal",
+        "count": 2
+      }
+    ],
+    "james-barris": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "substance_d_user",
+        "facet": null,
+        "count": null
+      }
+    ],
+    "john-allegro": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "sacred_mushroom",
+        "facet": "John Allegro",
+        "count": 2
+      }
+    ],
+    "kathy-sweetscent": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "jj180_addict",
+        "facet": "Kathy Sweetscent",
+        "count": 1
+      }
+    ],
+    "kleo": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "wife_1950_1959",
+        "facet": "Kleo Apostolides",
+        "count": 2
+      }
+    ],
+    "kw-jeter": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "interlocutor",
+        "facet": "K. W. Jeter",
+        "count": 2
+      }
+    ],
+    "nancy": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "wife_1966_1970",
+        "facet": "Nancy Hackett",
+        "count": 5
+      }
+    ],
+    "palmer-eldritch": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "chew_z",
+        "facet": null,
+        "count": null
+      }
+    ],
+    "ray-nelson": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "lsd_companion",
+        "facet": "Ray Nelson",
+        "count": 3
+      }
+    ],
+    "tessa": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "wife_1973_1977",
+        "facet": "Tessa",
+        "count": 1
+      }
+    ],
+    "timothy-leary": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "blamed_in_valis",
+        "facet": "Timothy Leary",
+        "count": 1
       }
     ]
   },
@@ -1051,6 +1278,15 @@
         "cards": [
           "PKB-EX-1975-APOC"
         ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1975-MYSTERIES"
+        ]
       }
     ],
     "SEG_EXEG_1976-09-15_Dorothy_81": [
@@ -1298,6 +1534,15 @@
         "cards": [
           "PKB-EX-1975-WORLDOFBIBLE"
         ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1975-VITAMINC"
+        ]
       }
     ],
     "SEG_EXEG_1975-11-05_SECTION_013_20": [
@@ -1319,6 +1564,15 @@
         "description": "Dick's Bible, book by book: Acts and Flow My Tears, Daniel and the Empire, Malachi's Elijah, Holy Wisdom, scripture as code, as living information and as a third testament, the turn to the Torah — 126 sourced passages across the Exegesis, letters, interviews, novels, stories and scholarship.",
         "cards": [
           "PKB-EX-1975-JBIBLE"
+        ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1975-CAUSAL"
         ]
       }
     ],
@@ -1519,6 +1773,227 @@
           "PKB-EX-1981-TORAHCHRIST"
         ]
       }
+    ],
+    "SEG_EXEG_1976-09-15_Dorothy_05": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1976-ALLEGRO",
+          "DRG-EX-1976-PAVED"
+        ]
+      }
+    ],
+    "SEG_EXEG_1976-09-15_Dorothy_47": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1977-TOXIN"
+        ]
+      }
+    ],
+    "SEG_EXEG_1976-09-15_Dorothy_105": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1976-TRANSUB"
+        ]
+      }
+    ],
+    "SEG_EXEG_1976-09-15_Dorothy_76": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1977-SLAVE"
+        ]
+      }
+    ],
+    "SEG_EXEG_1976-09-15_Dorothy_77": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1977-NOTE"
+        ]
+      }
+    ],
+    "SEG_EXEG_1976-09-15_Dorothy_91": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1977-SYNANON"
+        ]
+      }
+    ],
+    "SEG_EXEG_1976-09-15_Dorothy_179": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-PLAYING"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_35": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-THREESTATES"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_287": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-NOTLSD"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_190": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-MUSHROOM"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_313": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-INGREDIENTS"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_356": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1979-SPEEDSELF"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_168": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-FASTER"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_174": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-DRIVENMAD"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_195": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-NOLONGER"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_08": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-JETER"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_109": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-IMPAIRMENT"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_09": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-OCCLUSION"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_134": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-HAL"
+        ]
+      }
+    ],
+    "SEG_EXEG_1978-10-10_SECTION_016_108": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-EX-1978-FLUSHING"
+        ]
+      }
     ]
   },
   "documents": {
@@ -1564,6 +2039,24 @@
           "PKB-LET-1975-GRAVES",
           "PKB-LET-1976-PROPHECIES"
         ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-LET-1975-SPLITBRAIN",
+          "DRG-LET-1975-ORNSTEIN",
+          "DRG-LET-1975-HEADTRIP",
+          "DRG-LET-1975-LOADED",
+          "DRG-LET-1975-FAULTY",
+          "DRG-LET-1975-ROLLCALL",
+          "DRG-LET-1976-OUI",
+          "DRG-LET-1976-BOGGS",
+          "DRG-LET-1976-MAZE",
+          "DRG-LET-1976-PENTATHOL"
+        ]
       }
     ],
     "philip-k-dick-paul-williams-selected-letters-of-philip-k-dick-1977-1979-underwoo": [
@@ -1584,6 +2077,19 @@
         "cards": [
           "PKB-LET-1977-JAYNES",
           "PKB-LET-1977-WARREN"
+        ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-LET-1977-DOPERS",
+          "DRG-LET-1977-JAYNES",
+          "DRG-LET-1977-STP",
+          "DRG-LET-1977-ICE",
+          "DRG-LET-1979-VALIS"
         ]
       }
     ],
@@ -1625,6 +2131,17 @@
           "PKB-LET-1981-LIFEFORM",
           "PKB-LET-1981-LEGUIN"
         ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-LET-1981-NOLONGER",
+          "DRG-LET-1981-UNCONSCIOUS",
+          "DRG-LET-1981-JUNKY"
+        ]
       }
     ],
     "philip-k-dick-in-his-own-words-gregg-rickman-1984": [
@@ -1645,6 +2162,16 @@
         "cards": [
           "PKB-INT-STUDIEDTORAH",
           "PKB-INT-SWITCHED"
+        ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-INT-1981-RECORD",
+          "DRG-SCH-RICKMAN-FACTS"
         ]
       }
     ],
@@ -1681,6 +2208,27 @@
         "cards": [
           "PKB-SCH-SUTIN-01",
           "PKB-SCH-SUTIN-02"
+        ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-BIO-SUTIN-BERKELEY",
+          "DRG-BIO-SUTIN-FUEL",
+          "DRG-BIO-SUTIN-ACID",
+          "DRG-BIO-SUTIN-1963",
+          "DRG-BIO-SUTIN-PILLS",
+          "DRG-BIO-SUTIN-ELLISON",
+          "DRG-BIO-SUTIN-STANFORD",
+          "DRG-BIO-SUTIN-PARANOIA",
+          "DRG-BIO-SUTIN-THREEWEEKS",
+          "DRG-BIO-SUTIN-NEVERAGAIN",
+          "DRG-BIO-SUTIN-VITAMINS",
+          "DRG-BIO-SUTIN-METZ",
+          "DRG-BIO-SUTIN-ARK"
         ]
       }
     ],
@@ -1719,6 +2267,15 @@
           "PKB-SCH-BUTLER-02",
           "PKB-SCH-BUTLER-03"
         ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-SCH-BUTLER-ELDRITCH"
+        ]
       }
     ],
     "oxford-bookworms-library-stage-5-oxford-bookworms-library-stage-5-do-androids-dr": [
@@ -1742,6 +2299,19 @@
           "PKB-INT-ELIJAH",
           "PKB-INT-BAPTIST"
         ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-INT-1974-ACID",
+          "DRG-INT-1979-AMPH",
+          "DRG-INT-1979-TWICE",
+          "DRG-INT-1979-HUXLEY",
+          "DRG-INT-1982-FLUSH"
+        ]
       }
     ],
     "oceanofpdf-com-the-selected-letters-volume-1-1938-1971-philip-k-dick": [
@@ -1754,6 +2324,22 @@
           "PKB-LET-1962",
           "PKB-LET-1964",
           "PKB-LET-1964-PRIEST"
+        ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-LET-1962-SEMOX",
+          "DRG-LET-1964-SUPPLY",
+          "DRG-LET-1964-BROCHURE",
+          "DRG-LET-1967-PSYCHOSIS",
+          "DRG-LET-1967-TRIPBOOK",
+          "DRG-LET-1969-ELDRITCH",
+          "DRG-LET-1970-MESCALIN",
+          "DRG-LET-1970-THOUSAND"
         ]
       }
     ],
@@ -1768,6 +2354,21 @@
           "PKB-LET-1973A",
           "PKB-LET-1973B",
           "PKB-LET-1973C"
+        ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-LET-1972-XKALAY",
+          "DRG-LET-1972-HEROIN",
+          "DRG-LET-1972-LINDA",
+          "DRG-LET-1973-RADIO",
+          "DRG-LET-1973-VERTEX",
+          "DRG-LET-1973-NANCY",
+          "DRG-LET-1973-RESEARCH"
         ]
       }
     ],
@@ -1803,6 +2404,20 @@
         "cards": [
           "PKB-FIC-SCANNER"
         ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-NOTE-SCANNER-DECISION",
+          "DRG-NOTE-SCANNER-NOVEL",
+          "DRG-FIC-SCANNER-BUGS",
+          "DRG-FIC-SCANNER-SLOWDEATH",
+          "DRG-FIC-SCANNER-HEMISPHERES",
+          "DRG-FIC-SCANNER-FIELD"
+        ]
       }
     ],
     "oceanofpdf-com-the-valis-trilogy-philip-k-dick": [
@@ -1824,6 +2439,16 @@
           "PKB-FIC-DI-SENTIENT",
           "PKB-FIC-DI-TORAHDEF",
           "PKB-FIC-DI-ADDENDUM"
+        ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-FIC-VALIS-UPPERS",
+          "DRG-FIC-VALIS-PLAGUE"
         ]
       }
     ],
@@ -1882,6 +2507,17 @@
           "PKB-INT-TORAHSTUDY",
           "PKB-INT-DEUTERONOMY"
         ]
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-INT-1974-BEFORE",
+          "DRG-INT-1974-CONTROL",
+          "DRG-INT-1978-AQUARIAN"
+        ]
       }
     ],
     "the-missouri-review-vol-7-iss-2-the-mainstream-that-through-the-ghetto-flows-an-": [
@@ -1909,6 +2545,62 @@
           "PKB-FIC-STORY-TEMPUNAUTS"
         ]
       }
+    ],
+    "dick-philip-k-now-wait-for-last-year-libgen-li": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-FIC-NOWWAIT-ADDICT",
+          "DRG-FIC-NOWWAIT-HASTINGS"
+        ]
+      }
+    ],
+    "oceanofpdf-com-the-search-for-philip-k-dick-anne-r-dick": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-BIO-ANNE-SEMOX",
+          "DRG-BIO-ANNE-RECREATIONAL",
+          "DRG-BIO-ANNE-MUSHROOMS",
+          "DRG-BIO-ANNE-ONCE",
+          "DRG-BIO-ANNE-SEVENTY",
+          "DRG-BIO-ANNE-POT",
+          "DRG-BIO-ANNE-DRA",
+          "DRG-BIO-ANNE-DORIS"
+        ]
+      }
+    ],
+    "oceanofpdf-com-the-divine-madness-of-philip-k-dick-kyle-arnold": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-BIO-ARNOLD-WRONGDRUG",
+          "DRG-BIO-ARNOLD-EPHEDRINE",
+          "DRG-BIO-ARNOLD-ANNE",
+          "DRG-BIO-ARNOLD-PSYCHOSIS",
+          "DRG-BIO-ARNOLD-COVERT"
+        ]
+      }
+    ],
+    "fredric-jameson-archaeologies-of-the-future-the-desire-called-utopia-and-other-sc": [
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "cards": [
+          "DRG-SCH-JAMESON-CHEWZ"
+        ]
+      }
     ]
   },
   "works": {
@@ -1930,6 +2622,15 @@
         "relation": "facet",
         "facet": "A Scanner Darkly",
         "count": 3
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "facet",
+        "facet": "A Scanner Darkly",
+        "count": 20
       }
     ],
     "ubik": [
@@ -1970,6 +2671,15 @@
         "relation": "facet",
         "facet": "VALIS",
         "count": 6
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "facet",
+        "facet": "VALIS",
+        "count": 4
       }
     ],
     "a-maze-of-death": [
@@ -1981,6 +2691,15 @@
         "relation": "facet",
         "facet": "A Maze of Death",
         "count": 2
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "facet",
+        "facet": "A Maze of Death",
+        "count": 4
       }
     ],
     "flow-my-tears-the-policeman-said": [
@@ -2001,6 +2720,15 @@
         "relation": "facet",
         "facet": "Flow My Tears",
         "count": 23
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "facet",
+        "facet": "Flow My Tears",
+        "count": 3
       }
     ],
     "the-divine-invasion": [
@@ -2032,6 +2760,15 @@
         "relation": "facet",
         "facet": "Palmer Eldritch",
         "count": 1
+      },
+      {
+        "study_id": "psychology",
+        "slug": "drugs-in-pkd",
+        "name": "Drugs in Philip K. Dick",
+        "description": "Amphetamines, LSD, mescaline, sodium pentothal and vitamins; Substance D, Can-D, Chew-Z and JJ-180; X-Kalay; and the biographers who disagree about how much, when and why — 105 sourced passages across the letters, interviews, Exegesis, novels and biographies.",
+        "relation": "facet",
+        "facet": "The Three Stigmata of Palmer Eldritch",
+        "count": 12
       }
     ],
     "deus-irae": [
