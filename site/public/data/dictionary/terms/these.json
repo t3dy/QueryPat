@@ -2,7 +2,7 @@
   "term_id": "TERM_these",
   "canonical_name": "These",
   "slug": "these",
-  "status": "accepted",
+  "status": "background",
   "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
@@ -20,7 +20,6 @@
   "see_also": [
     "Acts",
     "Anamnesis",
-    "Because",
     "Bible",
     "Christ",
     "Christian",
@@ -464,12 +463,6 @@
     {
       "name": "Anamnesis",
       "slug": "anamnesis",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Because",
-      "slug": "because",
       "relation": "related",
       "confidence": 3
     },

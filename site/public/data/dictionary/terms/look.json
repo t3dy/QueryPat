@@ -2,7 +2,7 @@
   "term_id": "TERM_look",
   "canonical_name": "Look",
   "slug": "look",
-  "status": "accepted",
+  "status": "background",
   "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
@@ -19,11 +19,7 @@
   "peak_usage_end": null,
   "see_also": [
     "Acts",
-    "Actually",
     "Advent",
-    "After",
-    "Again",
-    "Although",
     "Anamnesis",
     "Angel"
   ],
@@ -462,32 +458,8 @@
       "confidence": 3
     },
     {
-      "name": "Actually",
-      "slug": "actually",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Advent",
       "slug": "advent",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "After",
-      "slug": "after",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Again",
-      "slug": "again",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Although",
-      "slug": "although",
       "relation": "related",
       "confidence": 3
     },

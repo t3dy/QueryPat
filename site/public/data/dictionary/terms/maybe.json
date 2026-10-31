@@ -2,7 +2,7 @@
   "term_id": "TERM_maybe",
   "canonical_name": "Maybe",
   "slug": "maybe",
-  "status": "accepted",
+  "status": "background",
   "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
@@ -18,7 +18,6 @@
   "peak_usage_start": null,
   "peak_usage_end": null,
   "see_also": [
-    "Because",
     "Christ",
     "Complete",
     "Dionysos",
@@ -455,12 +454,6 @@
     }
   ],
   "related_terms": [
-    {
-      "name": "Because",
-      "slug": "because",
-      "relation": "related",
-      "confidence": 3
-    },
     {
       "name": "Christ",
       "slug": "christ",

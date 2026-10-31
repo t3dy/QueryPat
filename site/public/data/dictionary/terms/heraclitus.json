@@ -18,14 +18,10 @@
   "peak_usage_start": "1978",
   "peak_usage_end": "1978",
   "see_also": [
-    "Actually",
     "Advent",
-    "After",
-    "Again",
     "America",
     "Anamnesis",
-    "Ananke",
-    "Another"
+    "Ananke"
   ],
   "provenance": "llm_chat_extraction",
   "notes": null,
@@ -456,26 +452,8 @@
   ],
   "related_terms": [
     {
-      "name": "Actually",
-      "slug": "actually",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Advent",
       "slug": "advent",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "After",
-      "slug": "after",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Again",
-      "slug": "again",
       "relation": "related",
       "confidence": 3
     },
@@ -494,12 +472,6 @@
     {
       "name": "Ananke",
       "slug": "ananke",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Another",
-      "slug": "another",
       "relation": "related",
       "confidence": 3
     }

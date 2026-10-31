@@ -2,7 +2,7 @@
   "term_id": "TERM_therefore",
   "canonical_name": "Therefore",
   "slug": "therefore",
-  "status": "accepted",
+  "status": "background",
   "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
@@ -21,7 +21,6 @@
     "Acts",
     "Advent",
     "Anamnesis",
-    "Because",
     "Bible",
     "Christ",
     "Christian",
@@ -470,12 +469,6 @@
     {
       "name": "Anamnesis",
       "slug": "anamnesis",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Because",
-      "slug": "because",
       "relation": "related",
       "confidence": 3
     },

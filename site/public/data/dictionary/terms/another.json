@@ -2,7 +2,7 @@
   "term_id": "TERM_another",
   "canonical_name": "Another",
   "slug": "another",
-  "status": "accepted",
+  "status": "background",
   "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
@@ -18,14 +18,8 @@
   "peak_usage_start": null,
   "peak_usage_end": null,
   "see_also": [
-    "Actually",
-    "After",
-    "Again",
-    "Although",
-    "Anyhow",
     "Apollo",
-    "Back",
-    "Because"
+    "Back"
   ],
   "provenance": null,
   "notes": null,
@@ -456,30 +450,6 @@
   ],
   "related_terms": [
     {
-      "name": "Actually",
-      "slug": "actually",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "After",
-      "slug": "after",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Again",
-      "slug": "again",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Although",
-      "slug": "although",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "America",
       "slug": "america",
       "relation": "related",
@@ -488,12 +458,6 @@
     {
       "name": "Ananke",
       "slug": "ananke",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Anyhow",
-      "slug": "anyhow",
       "relation": "related",
       "confidence": 3
     },
@@ -518,18 +482,6 @@
     {
       "name": "Back",
       "slug": "back",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Because",
-      "slug": "because",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Before",
-      "slug": "before",
       "relation": "related",
       "confidence": 3
     },
@@ -560,12 +512,6 @@
     {
       "name": "Black",
       "slug": "black",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Both",
-      "slug": "both",
       "relation": "related",
       "confidence": 3
     },
@@ -630,12 +576,6 @@
       "confidence": 3
     },
     {
-      "name": "Could",
-      "slug": "could",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Covenant House",
       "slug": "covenant-house",
       "relation": "related",
@@ -662,12 +602,6 @@
     {
       "name": "Dick",
       "slug": "dick",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Does",
-      "slug": "does",
       "relation": "related",
       "confidence": 3
     },
@@ -716,18 +650,6 @@
     {
       "name": "Eucharist",
       "slug": "eucharist",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Even",
-      "slug": "even",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Except",
-      "slug": "except",
       "relation": "related",
       "confidence": 3
     },
@@ -858,12 +780,6 @@
       "confidence": 3
     },
     {
-      "name": "Just",
-      "slug": "just",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Karma",
       "slug": "karma",
       "relation": "related",
@@ -918,12 +834,6 @@
       "confidence": 3
     },
     {
-      "name": "Many",
-      "slug": "many",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "March",
       "slug": "march",
       "relation": "related",
@@ -942,12 +852,6 @@
       "confidence": 3
     },
     {
-      "name": "More",
-      "slug": "more",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Nancy",
       "slug": "nancy",
       "relation": "related",
@@ -960,32 +864,8 @@
       "confidence": 3
     },
     {
-      "name": "Okay",
-      "slug": "okay",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Once",
-      "slug": "once",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Orphism",
       "slug": "orphism",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Other",
-      "slug": "other",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Otherwise",
-      "slug": "otherwise",
       "relation": "related",
       "confidence": 3
     },
@@ -1104,12 +984,6 @@
       "confidence": 3
     },
     {
-      "name": "Somehow",
-      "slug": "somehow",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Spring",
       "slug": "spring",
       "relation": "related",
@@ -1118,12 +992,6 @@
     {
       "name": "Star Wars",
       "slug": "star-wars",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Still",
-      "slug": "still",
       "relation": "related",
       "confidence": 3
     },
@@ -1152,24 +1020,6 @@
       "confidence": 3
     },
     {
-      "name": "Their",
-      "slug": "their",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Those",
-      "slug": "those",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Through",
-      "slug": "through",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Timaeus",
       "slug": "timaeus",
       "relation": "related",
@@ -1188,32 +1038,14 @@
       "confidence": 3
     },
     {
-      "name": "Under",
-      "slug": "under",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Urgrund",
       "slug": "urgrund",
       "relation": "related",
       "confidence": 3
     },
     {
-      "name": "Very",
-      "slug": "very",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Wars",
       "slug": "wars",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Were",
-      "slug": "were",
       "relation": "related",
       "confidence": 3
     },
@@ -1238,18 +1070,6 @@
     {
       "name": "Wise",
       "slug": "wise",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Without",
-      "slug": "without",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Would",
-      "slug": "would",
       "relation": "related",
       "confidence": 3
     },

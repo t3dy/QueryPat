@@ -2,7 +2,7 @@
   "term_id": "TERM_anyhow",
   "canonical_name": "Anyhow",
   "slug": "anyhow",
-  "status": "accepted",
+  "status": "background",
   "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
@@ -20,12 +20,7 @@
   "see_also": [
     "Absolute",
     "Acts",
-    "Actually",
-    "After",
-    "Again",
-    "Although",
-    "Angel",
-    "Another"
+    "Angel"
   ],
   "provenance": null,
   "notes": null,
@@ -468,38 +463,8 @@
       "confidence": 3
     },
     {
-      "name": "Actually",
-      "slug": "actually",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "After",
-      "slug": "after",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Again",
-      "slug": "again",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Although",
-      "slug": "although",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Angel",
       "slug": "angel",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Another",
-      "slug": "another",
       "relation": "related",
       "confidence": 3
     },
@@ -518,12 +483,6 @@
     {
       "name": "Claudia",
       "slug": "claudia",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Could",
-      "slug": "could",
       "relation": "related",
       "confidence": 3
     },
@@ -548,18 +507,6 @@
     {
       "name": "Great",
       "slug": "great",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Have",
-      "slug": "have",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Just",
-      "slug": "just",
       "relation": "related",
       "confidence": 3
     },
@@ -594,18 +541,6 @@
       "confidence": 3
     },
     {
-      "name": "More",
-      "slug": "more",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Other",
-      "slug": "other",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Pentheus",
       "slug": "pentheus",
       "relation": "related",
@@ -630,12 +565,6 @@
       "confidence": 3
     },
     {
-      "name": "Still",
-      "slug": "still",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Sturgeon",
       "slug": "sturgeon",
       "relation": "related",
@@ -648,26 +577,8 @@
       "confidence": 3
     },
     {
-      "name": "Through",
-      "slug": "through",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Under",
-      "slug": "under",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
       "name": "Universe",
       "slug": "universe",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Without",
-      "slug": "without",
       "relation": "related",
       "confidence": 3
     }

@@ -2,7 +2,7 @@
   "term_id": "TERM_perhaps",
   "canonical_name": "Perhaps",
   "slug": "perhaps",
-  "status": "accepted",
+  "status": "background",
   "review_state": "machine-drafted",
   "primary_category": "Top Term",
   "thematic_categories": null,
@@ -19,7 +19,6 @@
   "peak_usage_end": null,
   "see_also": [
     "Anamnesis",
-    "Because",
     "Christ",
     "Christian",
     "Christianity",
@@ -458,12 +457,6 @@
     {
       "name": "Anamnesis",
       "slug": "anamnesis",
-      "relation": "related",
-      "confidence": 3
-    },
-    {
-      "name": "Because",
-      "slug": "because",
       "relation": "related",
       "confidence": 3
     },

@@ -134,6 +134,11 @@ def run_stage_2(db: sqlite3.Connection, source: Path):
     except ImportError:
         print("  SKIP: link_and_validate not yet implemented")
 
+    # Triage promotes frequent sentence-initial words (Because, Since, Well…);
+    # demote them and drop their see_also links before anything exports.
+    from link.demote_function_word_terms import run as demote_function_words
+    demote_function_words(db)
+
     try:
         from link.link_names import run as link_names
         link_names(db, source)
