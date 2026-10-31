@@ -107,6 +107,48 @@ PROFILES = {
             r'faster than light', r'\bFTL\b',
         ],
     },
+    'music': {
+        # Composers, works and performers Dick returns to. Bare "Bach" and
+        # "Dowland" are strong because they are unambiguous in this corpus.
+        # "Parsifal" may be Wagner's opera or its hero, "opera" and "quartet" may
+        # be figurative, and "Linda Fox" is a character — classify by reading.
+        'strong': [
+            r'\bBeethoven\b', r'\bWagner(?:ian)?\b', r'\bParsifal\b', r'\bFidelio\b',
+            r'\bDowland\b', r'\bLachrimae\b', r'\bFlow,? my tears\b', r'\bSchubert\b',
+            r'\bBach\b', r'\bHandel\b', r'\bPurcell\b', r'\bMozart\b', r'\bBrahms\b',
+            r'\bMahler\b', r'\bBerlioz\b', r'\bStrauss\b', r'\bSchumann\b',
+            r'\bLinda Ronstadt\b', r'\bRonstadt\b', r'\bLinda Fox\b', r'\bGrateful Dead\b',
+            r'\bBeatles\b', r'\bFischer-Dieskau\b', r'\bMuzak\b', r'\bRing cycle\b',
+            r'\bG(?:ö|oe?)tterd(?:ä|a)mmerung\b', r'\bMissa Solemnis\b',
+            r'\bopera\b', r'\bsymphon(?:y|ies)\b', r'\bquartets?\b', r'\blute\b',
+        ],
+        'weak': [
+            r'\bmusic(?:al)?\b', r'\brecords?\b', r'\bphonograph\b', r'\bhi-?fi\b',
+            r'\bsongs?\b', r'\bsinger\b', r'\bpiano\b', r'\bcomposer\b',
+        ],
+        'exclude': [
+            r'Johann Sebastian Bach Street', r'\bOld Bach\b',
+            r'Richard Strauss Strasse', r'Levi Strauss',
+        ],
+    },
+    'breakin': {
+        # The November 17, 1971 break-in at Santa Venetia and the theories
+        # about it. Dick's own word is usually "break-in" or "the hit".
+        'strong': [
+            r'\bbreak-?in\b', r'\bbroken into\b', r'\bburglar(?:y|ized|ies)?\b',
+            r'\bthe hit on my house\b', r'\b11[-/]17[-/]71\b', r'\bNovember 17,? 1971\b',
+            r'\bfile cabinet\b', r'\bfireproof file\b', r'\bstolen? (?:papers|files)\b',
+            r'\bSolarcon\b', r'\bMinutemen\b', r'\bBlack Panthers?\b',
+            r'\bXerox (?:missive|letter)\b', r'\bOCCP\b', r'\bPigspurt\b',
+        ],
+        'weak': [
+            r'\bFBI\b', r'\bCIA\b', r'\bKGB\b', r'\bthe Bureau\b', r'\bSanta Venetia\b',
+            r'\bHacienda Way\b', r'\bpolice\b', r'\bsafe\b', r'\bexplosi(?:ve|on)\b',
+        ],
+        'exclude': [
+            r'\bbreak-?in(?:g)? (?:a|the) (?:horse|shoes|boots)\b',
+        ],
+    },
     'burroughs': {
         'strong': [
             r'\bBurroughs\b', r'\bBurrough\b', r'\bEurrough',      # OCR variant

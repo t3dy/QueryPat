@@ -26,6 +26,8 @@ interface BioLinks {
   works?: string[]
   exegesis_work?: string
   theophany?: string
+  /** Authored study dossiers that discuss the event; `to` may carry a facet filter. */
+  studies?: { to: string; label: string }[]
 }
 interface CuratedBioEvent {
   id: string
@@ -649,6 +651,9 @@ function CuratedEventCard({ event, dictLookup, onCategoryClick, onSearchEntity }
           )}
           {(event.links.works || []).map(w => (
             <Link key={w} to={w}>{w.split('/').pop()?.replace(/-/g, ' ')}</Link>
+          ))}
+          {(event.links.studies || []).map(st => (
+            <Link key={st.to} to={st.to}>Study: {st.label} →</Link>
           ))}
           {(event.links.people || []).map(p => (
             <Link key={p} to={p}>{p.split('/').pop()?.replace(/-/g, ' ')}</Link>

@@ -139,6 +139,16 @@ def _index_by_key(seq):
     return None
 
 
+def _is_edit_of(old, new) -> bool:
+    """True if `new` is plausibly `old` with some values changed."""
+    if not (isinstance(old, dict) and isinstance(new, dict)) or not old:
+        return False
+    if any(k not in new for k in old):
+        return False
+    same = sum(1 for k in old if old[k] == new[k])
+    return same * 2 >= len(old)
+
+
 def _bag_losses(before, after, path) -> list[str]:
     """No stable key: treat the arrays as bags of content.
 
@@ -149,11 +159,27 @@ def _bag_losses(before, after, path) -> list[str]:
     after_sigs = {}
     for it in after:
         after_sigs[_signature(it)] = after_sigs.get(_signature(it), 0) + 1
-    lost = 0
+    unmatched = []
     for it in before:
         sig = _signature(it)
         if after_sigs.get(sig, 0) > 0:
             after_sigs[sig] -= 1
+        else:
+            unmatched.append(it)
+    # An entry edited in place (a corrected locator, a reworded `supports`) is
+    # not a loss: pair it with an unmatched new entry that keeps its keys and
+    # most of its values, and accept the pair if the edit lost nothing itself.
+    spare = []
+    for it in after:
+        sig = _signature(it)
+        if after_sigs.get(sig, 0) > 0:
+            after_sigs[sig] -= 1
+            spare.append(it)
+    lost = 0
+    for it in unmatched:
+        partner = next((a for a in spare if _is_edit_of(it, a)), None)
+        if partner is not None and not find_losses(it, partner):
+            spare.remove(partner)
         else:
             lost += 1
     if lost:

@@ -285,6 +285,11 @@ def main(argv: list[str]) -> int:
             n_fail += 1
             continue
 
+        if not isinstance(data, dict):
+            print(f"  FAIL  {rel}: top level is a {type(data).__name__}, not an artifact object")
+            n_fail += 1
+            continue
+
         atype = data.get("artifact_type")
         if atype not in ARTIFACT_TYPES:
             print(f"  FAIL  {rel}: unknown or missing artifact_type {atype!r}")

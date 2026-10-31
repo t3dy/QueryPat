@@ -20,7 +20,9 @@ contradict it.
 | Canonical knowledge | `database/unified.sqlite` | **Authoritative** |
 | Schema of record | `database/unified_schema.sql` | Authoritative, but **drifted** — see below |
 | Staged LLM artifacts | `artifacts/generated/` | Candidate until curated |
-| Exported JSON | `site/public/data/` | **Generated — never edit** |
+| Authored dossiers | `curation/<topic>/` → seeders in `scripts/studies/seed_*.py` | Editorial source of truth for those topics |
+| Curated biography | `site/public/data/biography/curated.json`, changed only via `curation/biography/` | **Hand-curated — no exporter writes it** |
+| Exported JSON | `site/public/data/` | Mostly generated, but parts are the **only copy** — see `.claude/rules/generated-files.md` |
 | Site | `site/src/` | Renders exports only |
 
 `database/unified.sqlite` is git-ignored and rebuilt by `scripts/build_all.py`.
@@ -33,12 +35,12 @@ contradict it.
 
 ## Never do these
 
-1. **Never edit anything in `site/public/data/`.** It is generated from the
-   database. Edit the source and re-export — but see the export warning below
-   before running any exporter.
+1. **Never regenerate or hand-edit `site/public/data/` outside the procedures in
+   `.claude/rules/generated-files.md`.** Edit the source, export to a scratch
+   directory, and hand-place only the files and fields you meant to change.
 2. **Never promote an LLM output to canonical knowledge in one step.** It enters
    as a candidate with provenance and a status, and an editorial pass promotes
-   it. See `.claude/rules/semantic-memory.md`.
+   it. See `.claude/rules/data-provenance.md`.
 3. **Never resolve a contradiction to make retrieval cleaner.** Disagreement
    between sources is the data, not a defect.
 4. **Never collapse evidentiary lanes.** Fiction is not testimony.
@@ -98,43 +100,50 @@ you did. Diff `site/public/data` before committing; a diff of hundreds of files
 means the export ate curated work. Until the post-export prose is round-tripped
 back into the database, the committed JSON is the only copy of some of it.
 
+## Start here
+
+Work directly in `C:\QueryPat` on `main`. No worktrees, no feature branches.
+Other windows may have uncommitted work in the same checkout: stage and commit
+only the files you changed (`git add <paths>`, never `git add -A`), and leave
+theirs alone. Details: `.claude/rules/environment.md`.
+
 ## Route by task
 
 | If you are working on… | Read |
 |---|---|
-| Database, schema, migrations | `.claude/rules/architecture.md`, `.claude/rules/data-provenance.md` |
-| Semantic memory (concepts, claims, episodes, edges) | `.claude/rules/semantic-memory.md` |
-| Search, ranking, retrieval | `.claude/rules/retrieval.md` |
-| Anything under `site/public/data/` or `artifacts/generated/` | `.claude/rules/generated-files.md` |
-| Provenance, lanes, confidence, review states | `.claude/rules/data-provenance.md` |
-| Tests, golden queries, validation | `.claude/rules/testing.md` |
+| Anything under `site/public/data/`, any exporter, the pre-commit guard | `.claude/rules/generated-files.md` |
+| Lanes, registers, dating, review states, contradictions | `.claude/rules/data-provenance.md` |
+| An authored study dossier (new or existing) | `.claude/rules/study-dossiers.md`, then `docs/STUDY_DOSSIERS.md` |
+| A lexicon-scanned study topic, `scan_corpus.py`, lexicons | `.claude/rules/lexicon-topics.md` |
+| The Biography page, `curated.json` | `.claude/rules/biography.md` |
+| Shared checkout, preview server, deploy, encoding | `.claude/rules/environment.md` |
+| Validating anything | `.claude/rules/testing.md` |
+| Research sessions and their records | `docs/RESEARCH_WORKLOG.md` |
+| Database, schema, the pipeline, semantic memory | `docs/ARCHITECTURE.md`; inspect the live schema with `sqlite_master` (no rule file yet) |
 | The site's community/comment features | `USERSNEXTSTEPS.md`, `supabase/schema.sql` |
 
-Compact task context packs live in `.claude/context/` — load the smallest one
-that covers your task rather than reading all of `docs/`.
-
-Long-form architecture lives in `docs/`:
-`ARCHITECTURE.md`, `SEMANTIC_MEMORY_ARCHITECTURE.md`, `DATA_FLOW.md`,
-`ONTOLOGY.md`, `RETRIEVAL.md`, `PROVENANCE.md`, `MEMORY_CONSOLIDATION.md`.
+Long-form docs that exist: `docs/ARCHITECTURE.md`, `docs/PRESERVATION.md`,
+`docs/PRESERVATION_AUDIT.md`, `docs/RESEARCH_WORKLOG.md`,
+`docs/STUDY_DOSSIERS.md`, `scripts/studies/STUDY_JSON_CONTRACTS.md`.
 
 ## How to validate a change
 
 ```bash
-python scripts/validate_semantic_memory.py     # semantic memory integrity
-python artifacts/validate_artifacts.py         # staged artifact contracts
-python scripts/audit.py                        # corpus-wide data audit
-npm run build --prefix site                    # site typecheck + build
+python scripts/safeguard/check_data_diff.py --worktree      # no curated content lost
+python scripts/studies/seed_<topic>.py --check              # a dossier: anchors, verbatim quotes
+python scripts/biography/apply_biography_curation.py --verify
+python scripts/audit.py                                     # corpus-wide data audit
+npm run build --prefix site                                 # site typecheck + build
 ```
 
-If you changed retrieval, also run the golden-query regression:
-
-```bash
-python -m pytest tests/semantic_memory -q
-```
+Then look at what you changed in the preview. Which check applies to which
+change, and the known failures on `main`: `.claude/rules/testing.md`.
 
 ## When you learn something architectural
 
-Write it down where it will outlive this conversation: a rule file if it
-constrains future work, a `docs/` page if it explains the system, and
-`HANDOVER_SEMANTIC_MEMORY.md` if it changes what someone should do next.
-Chat and commit messages are not memory.
+Write it down where it will outlive this conversation: a rule file in
+`.claude/rules/` if it constrains future work (and a row in the routing table
+above), a `docs/` page if it explains the system, a worklog entry under
+`archive/<date>/worklog/` for what a research session found and decided. Chat
+and commit messages are not memory. Keep this file a router: if a section grows
+past a paragraph, move it to a rule file.

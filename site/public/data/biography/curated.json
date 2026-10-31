@@ -13,7 +13,7 @@
     "location": "Chicago, Illinois",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a day birth entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: \"born six weeks prematurely, on December 16, 1928\", at home in Chicago; Arnold agrees and adds that Edgar delivered the twins himself. Earlier note: generated, unverified.",
     "narrative": "Philip Kindred Dick and his twin sister Jane Charlotte were born on December 16, 1928, in Chicago, six weeks premature, to Dorothy Kindred Dick and Edgar Dick. Sutin and Arnold agree on the essentials: the twins were undersized and undernourished, the household was inexperienced and financially strained, and no adequate provision was made for feeding two fragile newborns at once. Within weeks the situation became a medical emergency.\n\nThe fact of the twin birth is uncontested (Lane C). Its meaning is entirely a matter of PKD's later self-reading (Lane B). For the last decade of his life he treated the shared womb as the origin of everything — the lost half, the \"phantom\" other self he spent a career reconstructing. In the Exegesis he identifies the intact, feminine \"AI voice\" that spoke to him after 2-3-74 as Jane: \"It is my twin sister Jane.\" The biographical event is a birth; the theology PKD built on it belongs to him alone.",
     "sources": [
       {
@@ -53,9 +53,9 @@
   },
   {
     "id": "pkd_bio_1929_incubator",
-    "date": "1929-01",
-    "date_precision": "month",
-    "event": "The premature Philip is kept alive in an incubator weeks after his twin Jane dies — survival shadowed by loss.",
+    "date": "1929-01-26",
+    "date_precision": "day",
+    "event": "Jane dies on the way to the hospital; the premature Philip, about a day from death, is put into an incubator and survives.",
     "category": "health",
     "entities": [
       "Julian Hess"
@@ -63,8 +63,8 @@
     "location": "Chicago, Illinois",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a month health entry retained from Arnold. Use the source field and linked entities for deeper verification.",
-    "narrative": "Born six weeks premature in December 1928, Philip and his twin sister Jane were underweight and undernourished. Jane died in January 1929; Philip was kept alive in an incubator and pulled through. The asymmetry of that survival — one twin lost, one saved — became, in his own later telling, the wound beneath everything: the missing sister he spent a life writing toward. (The bare medical facts are Lane C; the meaning he assigned them is Lane B, and is treated in the companion entry on Jane's death.)",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: The event text said he was kept alive \"weeks after\" Jane died. Sutin (quoting Dorothy's letter), Arnold and Anne R. Dick agree that both babies were taken to the hospital together, Jane died on the way, and Philip went into the incubator that day. Sutin dates Jane's death January 26, 1929; Arnold names the incubator's inventor, Julian Hess. Earlier note: generated, unverified.",
+    "narrative": "Born six weeks premature in December 1928, Philip and his twin sister Jane were underweight and undernourished. On January 26, 1929, both were rushed to the hospital; Jane died on the way. Philip, about a day from death, was put into an incubator and fed a special formula, and pulled through. The asymmetry of that survival — one twin lost, one saved — became, in his own later telling, the wound beneath everything: the missing sister he spent a life writing toward. (The bare medical facts are Lane C; the meaning he assigned them is Lane B, and is treated in the companion entry on Jane's death.)",
     "sources": [
       {
         "author": "Sutin",
@@ -72,6 +72,20 @@
         "lane": "C",
         "locator": "ch. 1",
         "supports": "the premature twin birth, Jane's death, and Philip's incubator survival"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "ch. 1",
+        "supports": "Jane died on the way to the hospital; Julian Hess's incubator"
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "Phil in the incubator two weeks; Jane died soon after"
       }
     ],
     "lanes": [
@@ -81,8 +95,8 @@
   },
   {
     "id": "pkd_bio_1929_jane_death",
-    "date": "1929-01",
-    "date_precision": "month",
+    "date": "1929-01-26",
+    "date_precision": "day",
     "event": "Twin sister Jane Dick dies in infancy — the foundational loss PKD returns to for the rest of his life.",
     "category": "family",
     "entities": [
@@ -91,7 +105,7 @@
     "location": "Chicago, Illinois",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a month family entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies and letters in the archive: Sutin gives January 26, 1929; Anne R. Dick and Arnold agree that Jane died on the way to, or soon after reaching, the hospital. The first quote was corrected to the Exegesis's word order. Earlier note: generated, unverified.",
     "narrative": "In late January 1929, roughly six weeks after the twins' birth, Jane Charlotte Dick died. Sutin and Arnold reconstruct a chain of ordinary catastrophe: Dorothy, an inexperienced mother with two premature infants, could not adequately nourish both; the babies weakened; a doctor, alarmed at their condition, ordered them hospitalized. Jane died on the way to or shortly after reaching the hospital; Philip survived. The scholarly accounts converge on malnutrition and inadequate care as the cause, with the burn from a hot-water bottle sometimes cited among contributing injuries. Jane was buried in Fort Morgan, Colorado, under a headstone that already bore Philip's name beside hers — a stone he would visit and be buried beneath in 1982.\n\nThat Jane died in infancy is fact (Lane C). What PKD made of it is the great Lane-B thread of his interior life. He came to treat her death as the wound underlying all his fiction and the 2-3-74 experiences alike: the missing feminine half, the \"phantom\" twin, the reason \"no one else has had my experience.\" In the Exegesis he ties his lifelong subject directly to \"the senseless injury to + neglect of my sister,\" naming her death as \"the ultimate problem confronting me all my life.\" The portal keeps these lanes distinct: the infant death is history; the claim that it caused everything is PKD's own, powerful and unfalsifiable, theory of himself.",
     "sources": [
       {
@@ -121,9 +135,9 @@
     ],
     "quotes": [
       {
-        "text": "the senseless injury to + neglect of my sister... the ultimate problem confronting me all my life has been",
+        "text": "the ultimate problem confronting me all my life has been the senseless injury to + neglect of my sister",
         "speaker": "PKD",
-        "source": "Exegesis",
+        "source": "Exegesis, April 1981",
         "lane": "B"
       },
       {
@@ -355,21 +369,29 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year reading entry retained from Sutin. Use the source field and linked entities for deeper verification.",
-    "narrative": "Around 1940 Philip picked up the science-fiction pulps — the era's *Stirring Science Stories* and *Astounding* among them — and the genre took hold. He read voraciously and began to imagine writing it himself. What he would eventually do to the form — turn its ray-guns and rockets into instruments for epistemology and theology — starts here, in a boy's magazine habit.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: at twelve (December 1940) he read his first SF magazine, Stirring Science Stories, edited by Don Wollheim, who bought his first novel in 1954; by 1941 he owned stacks of Astounding, Amazing and Unknown. Sutin locator corrected from ch. 1 to ch. 2. Earlier note: generated, unverified.",
+    "narrative": "Around 1940 Philip picked up the science-fiction pulps — his first was *Stirring Science Stories*, edited by Donald Wollheim, who would buy his first novel; by 1941 he owned stacks of *Astounding*, *Amazing* and *Unknown* — and the genre took hold. He read voraciously and began to imagine writing it himself. What he would eventually do to the form — turn its ray-guns and rockets into instruments for epistemology and theology — starts here, in a boy's magazine habit.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 1",
+        "locator": "ch. 2",
         "supports": "PKD's boyhood discovery of the SF pulps"
       }
     ],
     "lanes": [
       "C"
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "quotes": [
+      {
+        "text": "I came across the magazine quite by accident; I was actually looking for POPULAR SCIENCE. I was most amazed. Stories about science?",
+        "speaker": "PKD, quoted by Sutin",
+        "source": "Divine Invasions",
+        "lane": "E"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1940_baum_reading",
@@ -598,14 +620,14 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin and Arnold: 1948, about six months. Sutin locator corrected from ch. 2 to ch. 3. Earlier note: generated, unverified.",
     "narrative": "Philip's first marriage, to Jeanette Marlin in 1948, lasted only months. He was nineteen, still finding his footing in Berkeley's bohemian-intellectual scene around the record shop and the university. The marriage's speed and collapse set a pattern — five marriages in all — that his fiction reworks as the recurring figure of the dangerous, unreachable, or departing woman (the 'dark-haired girl').",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 2",
+        "locator": "ch. 3",
         "supports": "the brief 1948 marriage to Jeanette Marlin"
       }
     ],
@@ -679,8 +701,8 @@
   },
   {
     "id": "pkd_bio_1950_marriage_kleo",
-    "date": "1950",
-    "date_precision": "year",
+    "date": "1950-06",
+    "date_precision": "month",
     "event": "PKD marries Kleo Apostolides; the Berkeley marriage spans his apprenticeship and first sales.",
     "category": "marriage",
     "entities": [
@@ -689,14 +711,14 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
-    "narrative": "Philip married Kleo Apostolides in 1950. The marriage lasted through the whole of his apprenticeship — the pulp story sales, the first novels, the FBI's mild attention to the couple's left-wing Berkeley circle — until it gave way in the mid-1950s to his involvement with Anne Rubenstein. Kleo is the steadying presence behind the years when he was learning to write for a living.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: June 1950. The narrative said the marriage gave way \"in the mid-1950s\" to Anne Rubenstein; Phil and Kleo moved to Point Reyes Station in September 1958 and he met Anne there that year. Sutin locator corrected from ch. 2 to ch. 4. Earlier note: generated, unverified.",
+    "narrative": "Philip married Kleo Apostolides in 1950. The marriage lasted through the whole of his apprenticeship — the pulp story sales, the first novels, the FBI's mild attention to the couple's left-wing Berkeley circle — and the move to Point Reyes Station in September 1958, where it gave way that year to his involvement with Anne Williams Rubenstein. Kleo is the steadying presence behind the years when he was learning to write for a living.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 2",
+        "locator": "ch. 4",
         "supports": "the 1950 marriage to Kleo Apostolides and the apprenticeship years"
       }
     ],
@@ -737,32 +759,42 @@
   },
   {
     "id": "pkd_bio_1951_first_story_sales",
-    "date": "1951",
-    "date_precision": "year",
+    "date": "1951-10",
+    "date_precision": "month",
     "event": "PKD begins selling short stories to the SF pulps, launching a torrent of early short fiction.",
     "category": "publication",
     "entities": [
       "Planet Stories",
-      "If Magazine"
+      "If Magazine",
+      "Anthony Boucher",
+      "The Magazine of Fantasy and Science Fiction"
     ],
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
-    "narrative": "In 1951-52 Philip broke through as a professional, selling story after story to the science-fiction magazines — dozens within a couple of years. The short form was his laboratory: the androids, simulacra, paranoid small men, and reality-slippage that would power the novels were all first tested at story length. He wrote, at the same time, the realist novels no one would buy.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin quotes Dick: the first sale, in October 1951, was \"Roog\" to Anthony Boucher's F&SF (Dick gives his age as twenty-one; he was twenty-two). Sutin: stories in seven different pulps in June 1953. Sutin locator corrected from ch. 3 to ch. 4. Earlier note: generated, unverified.",
+    "narrative": "In October 1951 Philip sold his first story, \"Roog\", to Anthony Boucher at *The Magazine of Fantasy and Science Fiction*; from there he broke through as a professional, selling story after story to the science-fiction magazines — dozens within a couple of years. The short form was his laboratory: the androids, simulacra, paranoid small men, and reality-slippage that would power the novels were all first tested at story length. He wrote, at the same time, the realist novels no one would buy.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 3",
+        "locator": "ch. 4",
         "supports": "the 1951-52 breakthrough into professional short-story sales"
       }
     ],
     "lanes": [
       "C"
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "quotes": [
+      {
+        "text": "In October, 1951, when I was twenty-one years old, I sold my first story: a tiny fantasy to F&SF, the magazine which Tony Boucher edited.",
+        "speaker": "PKD, quoted by Sutin",
+        "source": "Divine Invasions",
+        "lane": "E"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1951_sf_fandom",
@@ -808,6 +840,75 @@
     "notes": "Generated curation note: a year philosophical influence entry retained from Arnold. Use the source field and linked entities for deeper verification."
   },
   {
+    "id": "pkd_bio_1953_first_semoxydrine",
+    "date": "1952-1953",
+    "date_precision": "range",
+    "event": "At about twenty-four PKD begins taking Semoxydrine, a prescription methamphetamine, which he later describes as having lifted years of agoraphobic withdrawal.",
+    "category": "drug_use",
+    "entities": [
+      "Kleo Apostolides"
+    ],
+    "location": "Berkeley, California",
+    "source": "Letter to Anthony Boucher, April 25, 1962",
+    "importance": 3,
+    "narrative": "In a long letter of 1962 Dick says that at twenty-four two things rescued him from a world that had been closing in since adolescence: learning to drive, and a stimulant he spells semoxydrene, whose first dose restored a clarity he had lost over fifteen years. When it began is disputed. Sutin quotes Dick's first wife Kleo insisting that he took nothing but a single Semoxydrine sample from her physician father; Dick's stepfather's notes of 1971 record Dick saying he had been on Benzedrine \"since 1951, when Kleo's physician father gave him a prescription\".",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Letter to Anthony Boucher, April 25, 1962",
+        "lane": "E",
+        "locator": "",
+        "supports": "the first dose and its effect"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "",
+        "supports": "Kleo's denial and the stepfather's notes"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "the first 5 mg which I took cleared away the cobwebs from my brain",
+        "speaker": "PKD",
+        "source": "Letter to Anthony Boucher, April 25, 1962",
+        "lane": "E"
+      }
+    ],
+    "dispute": {
+      "summary": "Whether he took amphetamines regularly during the Berkeley marriage.",
+      "positions": [
+        {
+          "who": "Kleo, quoted by Sutin",
+          "claim": "one sample only, no other drugs"
+        },
+        {
+          "who": "Iskandar Guy, quoted by Sutin",
+          "claim": "regular low doses"
+        },
+        {
+          "who": "PKD, in his stepfather's notes of 1971",
+          "claim": "Benzedrine since 1951, on a prescription from Kleo's father"
+        }
+      ]
+    },
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "confidence": "medium",
+    "links": {
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=Amphetamines#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
+    },
+    "notes": "Added 2026-10-30. \"At twenty-four\" puts it between December 1952 and December 1953. Dossier: DRG-LET-1962-SEMOX, DRG-BIO-SUTIN-BERKELEY, DRG-BIO-SUTIN-STANFORD."
+  },
+  {
     "id": "pkd_bio_1952_wollheim_friendship",
     "date": "1952-1954",
     "date_precision": "range",
@@ -847,14 +948,14 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
-    "narrative": "Ace Books took *Solar Lottery* for its paperback line — the acceptance that made Philip a novelist. Ace's Donald Wollheim and the Ace Double format would carry much of his 1950s-60s output, the cheap paperbacks that were the genre's engine and its ghetto. PKD's ambition to escape into mainstream fiction ran alongside, and mostly failed, for another decade.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: Wollheim bought it for Ace; the Meredith Agency had the manuscript in March 1954; Dick's title was Quizmaster Take All, Wollheim's Solar Lottery. Sutin locator corrected from ch. 3 to ch. 4. Earlier note: generated, unverified.",
+    "narrative": "Donald Wollheim at Ace Books bought *Solar Lottery* (Dick's title was *Quizmaster Take All*; the Meredith Agency had the manuscript by March 1954) for its paperback line — the acceptance that made Philip a novelist. Ace's Donald Wollheim and the Ace Double format would carry much of his 1950s-60s output, the cheap paperbacks that were the genre's engine and its ghetto. PKD's ambition to escape into mainstream fiction ran alongside, and mostly failed, for another decade.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 3",
+        "locator": "ch. 4",
         "supports": "Ace's acceptance of the first novel"
       }
     ],
@@ -934,14 +1035,14 @@
     "location": "Berkeley, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: 1955, well reviewed by Boucher, Analog and Damon Knight. Sutin locator corrected from ch. 3 to ch. 4. Earlier note: generated, unverified.",
     "narrative": "*Solar Lottery* (1955) launched Philip's novel career: a densely plotted future of power-by-lottery, twitching with the paranoia about systems and hidden control that never left his work. It sold well enough to establish him as a working SF novelist. The realist novels he cared about more stayed in the drawer.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 3",
+        "locator": "ch. 4",
         "supports": "the 1955 publication and reception of Solar Lottery"
       }
     ],
@@ -953,7 +1054,15 @@
       "works": [
         "/works/solar-lottery"
       ]
-    }
+    },
+    "quotes": [
+      {
+        "text": "Isn't it a hell of a thing that this is the one they picked up first?",
+        "speaker": "PKD, recalled by Kleo",
+        "source": "Divine Invasions",
+        "lane": "C"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1955_classical_music",
@@ -985,17 +1094,17 @@
   },
   {
     "id": "pkd_bio_1956_marriage_anne",
-    "date": "1956",
-    "date_precision": "year",
-    "event": "PKD marries Anne Williams Rubenstein and moves to rural Point Reyes — the marriage of the mainstream years.",
+    "date": "1959-04-01",
+    "date_precision": "day",
+    "event": "PKD and Anne Williams Rubenstein marry before a judge in Ensenada, Mexico, on April 1, 1959, and settle in Point Reyes Station — the marriage of the mainstream years.",
     "category": "marriage",
     "entities": [
       "Anne Williams Rubinstein"
     ],
-    "location": "Berkeley, California",
+    "location": "Ensenada, Baja California, Mexico",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Corrected 2026-10-30: previously dated 1956 with Berkeley as the place. Sutin and Anne R. Dick both put the wedding in Ensenada at the start of April 1959. The id keeps the old year because ids are never renamed.",
     "narrative": "Philip married Anne Rubenstein, a widow with three daughters, and settled with her in Point Reyes Station in Marin County. The Point Reyes years (roughly 1958-64) were his most domestically settled and, by Anne's account, among his most productive — the mainstream novels and the run toward *The Man in the High Castle*. The marriage's later deterioration, and how much amphetamine and paranoia it involved, is contested between Anne's memoir and Sutin's biography.",
     "sources": [
       {
@@ -1011,6 +1120,20 @@
         "lane": "C",
         "locator": "ch. 4",
         "supports": "the 1958-64 marriage to Anne and the Point Reyes period"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "",
+        "supports": "the Ensenada wedding on April Fools' Day 1959"
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "the drive to Ensenada at the end of March 1959"
       }
     ],
     "lanes": [
@@ -1099,7 +1222,7 @@
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year health entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies and letters in the archive: Dick's own account is the 1962 letter to Anthony Boucher: on a bridge over Papermill Creek at Point Reyes Station, cut off from the people he had left behind in Berkeley, he was overwhelmed; the stimulant that had freed him to move had, he says, delivered him to the choice. Earlier note: generated, unverified.",
     "narrative": "Settling into the Point Reyes marriage, Philip went through a period of acute anxiety, agoraphobia, and psychosomatic illness that sent him into therapy. The crisis is an early instance of the pattern that recurs across his life: episodes of severe distress braided together with intense creativity. How much was situational and how much a standing condition is read differently by Sutin and by the clinician Arnold.",
     "sources": [
       {
@@ -1115,12 +1238,35 @@
         "lane": "C",
         "locator": "ch. 1",
         "supports": "the crisis within a longitudinal clinical reading"
+      },
+      {
+        "author": "PKD",
+        "work": "Letter to Anthony Boucher, April 25, 1962",
+        "lane": "E",
+        "locator": "",
+        "supports": "Dick's own account of the Point Reyes crisis"
       }
     ],
     "lanes": [
       "C"
     ],
-    "confidence": "medium"
+    "confidence": "medium",
+    "quotes": [
+      {
+        "text": "In a way, I accidentally induced a momentary psychosis by such an abrupt change of environment",
+        "speaker": "PKD",
+        "source": "Letter to Anthony Boucher, April 25, 1962",
+        "lane": "E"
+      }
+    ],
+    "links": {
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=Amphetamines#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
+    }
   },
   {
     "id": "pkd_bio_1958_mainstream_novels",
@@ -1182,8 +1328,8 @@
   },
   {
     "id": "pkd_bio_1960_daughter_laura",
-    "date": "1960",
-    "date_precision": "year",
+    "date": "1960-02-25",
+    "date_precision": "day",
     "event": "Daughter Laura Archer Dick is born to Philip and Anne in Marin County.",
     "category": "family",
     "entities": [
@@ -1193,7 +1339,7 @@
     "location": "Marin County, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year family entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies and letters in the archive: Sutin and Anne R. Dick both give February 25, 1960. Anne R. Dick recalls what Phil said on seeing the baby; he chose the name. Earlier note: generated, unverified.",
     "narrative": "Laura, Philip's first biological child, was born in 1960 during the Point Reyes marriage. Fatherhood is a quiet undercurrent in the fiction — the endangered or precognitively-sensed child (as with the later intuition about his son Christopher) — and Laura appears by name in his account of the 1963 'band of darkness' vision he shared with her.",
     "sources": [
       {
@@ -1202,12 +1348,27 @@
         "lane": "C",
         "locator": "ch. 4",
         "supports": "Laura's 1960 birth"
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "the birth on February 25, 1960, and the naming"
       }
     ],
     "lanes": [
       "C"
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "quotes": [
+      {
+        "text": "Now my sister is made up for.",
+        "speaker": "PKD, recalled by Anne R. Dick",
+        "source": "The Search for Philip K. Dick",
+        "lane": "C"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1960_taoism",
@@ -1306,7 +1467,7 @@
     "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: Putnam hardcover, 1962; Dick in a 1976 interview: \"I used the I Ching to plot the book.\" Sutin adds that Dick tossed the coins himself wherever a character consults the oracle. Earlier note: generated, unverified.",
     "narrative": "In 1962, while living at Point Reyes Station with Anne Dick, PKD published The Man in the High Castle through Putnam — the alternate history in which the Axis won the Second World War, and the novel that lifted him out of the pulp margins into serious notice. He composed it, famously, in consultation with the I Ching, letting the oracle's hexagrams help determine the plot's turns, so that the book about a novelist writing a subversive alternate history (The Grasshopper Lies Heavy) was itself partly authored by a divinatory book. It is Lane C that this was the pivotal professional success of his career; the Hugo followed the next year.\n\nThe novel matters to the later PKD as more than a career milestone. In the Exegesis he reads High Castle back as an early instance of his standing theme — that the world we take as real is a screen over another, truer state of affairs — placing it alongside Ubik, Maze, and Flow My Tears as books whose characters \"do not recognize their true condition.\" The 1962 fact is a publication; the retrospective theology is PKD's (Lane B).",
     "sources": [
       {
@@ -1339,7 +1500,15 @@
         "/works/the-man-in-the-high-castle"
       ]
     },
-    "confidence": "high"
+    "confidence": "high",
+    "quotes": [
+      {
+        "text": "I used the I Ching to plot the book.",
+        "speaker": "PKD, 1976 interview quoted by Sutin",
+        "source": "Divine Invasions",
+        "lane": "E"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1962_palmer_eldritch_sun",
@@ -1436,8 +1605,8 @@
   },
   {
     "id": "pkd_bio_1963_hugo_award",
-    "date": "1963",
-    "date_precision": "year",
+    "date": "1963-09",
+    "date_precision": "month",
     "event": "The Man in the High Castle wins the 1963 Hugo Award for Best Novel, PKD's only Hugo.",
     "category": "award",
     "entities": [
@@ -1447,14 +1616,14 @@
     "location": "Washington, D.C.",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a year award entry retained from Sutin. Use the source field and linked entities for deeper verification.",
-    "narrative": "In 1963 The Man in the High Castle won the Hugo Award for Best Novel, presented at that year's World Science Fiction Convention. It was the only Hugo PKD would ever receive, and it arrived at a strange hinge in his life: the professional vindication came just as his marriage to Anne Dick was disintegrating in Point Reyes. Sutin dates the win to 1963 and treats it as the recognition that established Dick as a major figure even as his domestic and financial life remained precarious. The award did not translate into stable income; PKD's own letters of the period show him still fighting to keep High Castle in print and pressing for royalties.\n\nThe Hugo is a plain biographical fact (Lane C). Its irony belongs to the portal's larger story: the peak of PKD's outward success coincided with the private crisis he later mythologized as \"the years of the Terrible Separation,\" the same span in which he places the Palmer-Eldritch-in-the-sun vision.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: September 1963, after Putnam sold the book to the Science Fiction Book Club in late 1962; a local reporter photographed Dick with the trophy. Anne R. Dick: the Baywood Press photographed Laura holding it. The archive does not say whether Dick attended the convention; the location is the convention's. Sutin locator corrected from ch. 6 to ch. 5. Earlier note: generated, unverified.",
+    "narrative": "In 1963 The Man in the High Castle won the Hugo Award for Best Novel, presented at that year's World Science Fiction Convention. It was the only Hugo PKD would ever receive, and it arrived at a strange hinge in his life: the professional vindication came just as his marriage to Anne Dick was disintegrating in Point Reyes. Sutin dates the win to September 1963, credits the Science Fiction Book Club edition of late 1962 with winning the fans, and treats it as the recognition that established Dick as a major figure even as his domestic and financial life remained precarious. The award did not translate into stable income; PKD's own letters of the period show him still fighting to keep High Castle in print and pressing for royalties.\n\nThe Hugo is a plain biographical fact (Lane C). Its irony belongs to the portal's larger story: the peak of PKD's outward success coincided with the private crisis he later mythologized as \"the years of the Terrible Separation,\" the same span in which he places the Palmer-Eldritch-in-the-sun vision.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 6",
+        "locator": "ch. 5",
         "supports": "dates the Hugo for High Castle to 1963; notes the coincidence with the failing Anne Dick marriage and financial strain"
       },
       {
@@ -1462,6 +1631,13 @@
         "work": "Selected Letters",
         "lane": "E",
         "supports": "contemporaneous letters show PKD still struggling to keep High Castle in print and collect royalties after the award"
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "the Baywood Press photograph of Laura with the Hugo"
       }
     ],
     "lanes": [
@@ -1476,32 +1652,131 @@
     "confidence": "high"
   },
   {
-    "id": "pkd_bio_1963_marriage_hackett",
-    "date": "1963",
+    "id": "pkd_bio_1964_first_lsd",
+    "date": "1964",
     "date_precision": "year",
-    "event": "PKD marries Nancy Hackett — the fourth marriage, spanning the peak productive years and the slide toward crisis.",
+    "event": "PKD takes LSD for the first time — by most accounts in 1964 — and finds himself in a frozen hell, judged, speaking Latin.",
+    "category": "drug_use",
+    "entities": [
+      "Ray Nelson",
+      "Jack Newkom"
+    ],
+    "location": "Oakland, California",
+    "source": "Sutin",
+    "importance": 3,
+    "narrative": "Dick told Charles Platt in 1979 that he took LSD twice, the second dose perhaps not acid at all; the first sent him \"straight to hell\": a frozen landscape, a day of wrath, Latin. \"That was in 1964.\" A month later the galleys of Palmer Eldritch arrived and he could not read them. Sutin dates the first trip to 1964, from Jack Newkom, and counts at least two that year, one with Ray Nelson; Anne R. Dick tells the Nelson trip as the only one; Gregg Rickman put Dick's first LSD at about 1967. In 1976 Dick named one passage of A Maze of Death as drawn from the first trip.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Interview by Charles Platt, May 17, 1979",
+        "lane": "E",
+        "locator": "",
+        "supports": "two trips; the first in 1964"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "",
+        "supports": "Newkom, Nelson, and \"at least two occasions\""
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "the Nelson trip as the only one"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "the fact of the matter is that I took it two times",
+        "speaker": "PKD",
+        "source": "Interview by Charles Platt, May 17, 1979",
+        "lane": "E"
+      }
+    ],
+    "dispute": {
+      "summary": "When, and how many times.",
+      "positions": [
+        {
+          "who": "PKD (1975 letter; 1979 interview)",
+          "claim": "twice; first in 1964"
+        },
+        {
+          "who": "Sutin",
+          "claim": "at least two occasions in 1964"
+        },
+        {
+          "who": "Anne R. Dick",
+          "claim": "one trip, after which he never tried it again"
+        },
+        {
+          "who": "Rickman (1984)",
+          "claim": "two or three times, not until about 1967"
+        }
+      ]
+    },
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "confidence": "medium",
+    "links": {
+      "works": [
+        "/exegesis/works/a-maze-of-death"
+      ],
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=LSD#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
+    },
+    "notes": "Added 2026-10-30. Dossier: DRG-INT-1979-TWICE, DRG-LET-1975-HEADTRIP, DRG-BIO-SUTIN-ACID, DRG-BIO-ANNE-ONCE, DRG-SCH-RICKMAN-FACTS."
+  },
+  {
+    "id": "pkd_bio_1963_marriage_hackett",
+    "date": "1966-07",
+    "date_precision": "month",
+    "event": "PKD marries Nancy Hackett in a civil ceremony in July 1966, with Bishop James Pike in attendance — his fourth marriage, after more than a year living together in Oakland.",
     "category": "marriage",
     "entities": [
       "Nancy Hackett"
     ],
-    "location": "Oakland, California",
+    "location": "Marin County, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
-    "narrative": "Philip's marriage to Anne having ended, he married Nancy Hackett in 1963. The Nancy years cover his most prolific stretch — the mid-1960s burst that produced *Palmer Eldritch*, *Now Wait for Last Year*, and many others — and their unraveling by 1970, when Nancy left with their daughter Isa, opens directly onto the San Rafael collapse, the break-in, and Vancouver.",
+    "notes": "Corrected 2026-10-30: previously dated 1963 with a narrative that put the marriage before the 1964-65 novels. Sutin: \"In July 1966 Phil and Nancy were married.\" The id keeps the old year because ids are never renamed.",
+    "narrative": "Philip met Nancy Hackett, the nineteen-year-old stepdaughter of his friend Maren Hackett, at the end of 1964, after leaving Anne and Point Reyes; she was staying with him in Oakland by early 1965. They married in July 1966 in a civil ceremony; Bishop James Pike attended and pronounced a blessing, although Phil's marriage to Anne had never been annulled. Their daughter Isolde Freya (Isa) was born on March 15, 1967. The marriage spans the pill-heavy years Nancy later described to Anne R. Dick — several doctors, several pharmacies — and ended when Nancy left with Isa in September 1970, opening onto the Santa Venetia house, the break-in and Vancouver.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
         "locator": "ch. 5",
-        "supports": "the 1963 marriage to Nancy Hackett and the productive mid-1960s"
+        "supports": "the July 1966 marriage, Pike's presence, and Isa's birth in March 1967"
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "Nancy's account of the marriage years and the pills"
       }
     ],
     "lanes": [
       "C"
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "links": {
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=Nancy%20Hackett#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
+    }
   },
   {
     "id": "pkd_bio_1963_patristic",
@@ -1543,17 +1818,17 @@
       "The Three Stigmata of Palmer Eldritch",
       "Doubleday"
     ],
-    "location": "Oakland, California",
+    "location": "Point Reyes Station, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
-    "narrative": "In 1964, in the middle of an astonishingly prolific run, Philip wrote *The Three Stigmata of Palmer Eldritch* — the novel of Can-D and Chew-Z, of a returning entrepreneur who may be God or a devouring alien god. He traced its central image, the vast metallic face with dead eyes and steel teeth, to a vision he had had of a cruel face filling the sky. It is the book he was later most frightened by, reading it in the Exegesis as a glimpse of the *anti*-God, the dark twin of the benign Ubik/Valis.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: written 1964, mailed to the Meredith Agency in March 1964 (so at Point Reyes, not Oakland), his first SF sale to Doubleday, published 1965. The face in the sky is from an unpublished headnote (c. 1976) quoted by Sutin. The narrative's \"the book he was later most frightened by\" had no source and was removed. Ellison recalls Dick calling the novel LSD-inspired (see the Drugs dossier). Sutin locator corrected from ch. 5 to ch. 6. Earlier note: generated, unverified.",
+    "narrative": "In the middle of an astonishingly prolific run at Point Reyes, Philip wrote, and in March 1964 sent off, *The Three Stigmata of Palmer Eldritch* — the novel of Can-D and Chew-Z, of a returning entrepreneur who may be God or a devouring alien god. He traced its central image, the vast metallic face with dead eyes and steel teeth, to a vision he had had of a cruel face filling the sky. It is the book he was later most frightened by, reading it in the Exegesis as a glimpse of the *anti*-God, the dark twin of the benign Ubik/Valis.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 5",
+        "locator": "ch. 6",
         "supports": "the 1964 composition and the sky-face vision behind the novel"
       },
       {
@@ -1571,7 +1846,21 @@
     "confidence": "high",
     "links": {
       "exegesis_work": "/exegesis/works/the-three-stigmata-of-palmer-eldritch"
-    }
+    },
+    "quotes": [
+      {
+        "text": "it was a vast visage of perfect evil",
+        "speaker": "PKD, unpublished headnote quoted by Sutin",
+        "source": "Divine Invasions",
+        "lane": "E"
+      },
+      {
+        "text": "Once, during the years of the Terrible Separation, I saw Palmer Eldritch in the Sun -- I saw God backward",
+        "speaker": "PKD",
+        "source": "Exegesis",
+        "lane": "B"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1964_amphetamine",
@@ -1585,7 +1874,52 @@
     "location": "Oakland, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": "Generated curation note: a range drug use entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "Enriched 2026-10-30. Dossier: DRG-LET-1964-SUPPLY, DRG-LET-1964-BROCHURE.",
+    "narrative": "By 1964 the amphetamines Dick had taken since the early 1950s were a managed supply. In September he complained that it had dried up despite two open prescriptions; in October a brochure left in a refill told him that the \"semoxydrine hydrochloride\" he had taken for seven years was methamphetamine, and that he was on its strongest dose. Sutin places Palmer Eldritch in the middle of an \"amphetamine-fueled writing streak\"; Anne R. Dick dates recreational use to this year, after he left her.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Letter to Terry and Carol Carr, October 22, 1964",
+        "lane": "E",
+        "locator": "",
+        "supports": "the dose and the brochure"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "",
+        "supports": "the 1963-64 writing streak and amphetamines"
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "recreational amphetamine use beginning after the separation"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I am up to six 7.5 mg of them a day, and 7.5 is their strongest dose",
+        "speaker": "PKD",
+        "source": "Letter to Terry and Carol Carr, October 22, 1964",
+        "lane": "E"
+      }
+    ],
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "confidence": "high",
+    "links": {
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=Amphetamines#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
+    }
   },
   {
     "id": "pkd_bio_1964_mysticism",
@@ -1713,7 +2047,50 @@
     "location": "San Rafael, California",
     "source": "Arnold",
     "importance": 3,
-    "notes": "Generated curation note: a year drug use entry retained from Arnold. Use the source field and linked entities for deeper verification."
+    "notes": "Enriched 2026-10-30. Dossier: DRG-BIO-ARNOLD-WRONGDRUG, DRG-BIO-ARNOLD-PSYCHOSIS, DRG-BIO-SUTIN-PILLS, DRG-EX-1978-DRIVENMAD.",
+    "narrative": "Arnold reads the paranoia of the Nancy years as amphetamine-induced, part of a chronic amphetamine psychosis that he argues explains everything others took for schizophrenia. Sutin documents the pills of these years — Stelazine, relaxants, Librium, Valium, Dexamyl and white crosses from a rotating set of doctors. Dick himself, looking back around 1979, gave three causes for his madness: Nancy leaving, drugs, and endogenous psychosis.",
+    "sources": [
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "amphetamine paranoia as the explanation"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "",
+        "supports": "the pills of the Nancy years"
+      }
+    ],
+    "dispute": {
+      "summary": "How much of the paranoia was the drug.",
+      "positions": [
+        {
+          "who": "Arnold (The Divine Madness)",
+          "claim": "the paranoid episodes are most parsimoniously explained by speed"
+        },
+        {
+          "who": "PKD (Exegesis, c. 1978-80)",
+          "claim": "drugs were one cause among three, with Nancy leaving and endogenous psychosis"
+        }
+      ]
+    },
+    "lanes": [
+      "B",
+      "C"
+    ],
+    "confidence": "medium",
+    "links": {
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=Paranoia#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
+    }
   },
   {
     "id": "pkd_bio_1967_voice_creator",
@@ -1786,7 +2163,7 @@
     "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: written in 1966, published 1968. Earlier note: generated, unverified.",
     "narrative": "Do Androids Dream of Electric Sheep? was published by Doubleday in 1968, written during the intensely productive San Rafael years that also produced Ubik and A Maze of Death. Arnold groups these three novels as a cluster obsessed with rescue from death: each stages a longed-for savior who arrives equivocally. In Androids the redemptive figure is Mercer, the suffering climber the empathy boxes let users share — a savior who is also, the novel reveals, a fabrication, leaving the question of whether a false messiah's compassion is still real. The book's test of the human is empathy, dramatized against androids who lack it and a bounty hunter, Deckard, who fears he may be losing it.\n\nThe 1968 publication is fact (Lane C/E). PKD's later Exegesis reads Mercer as a version of the same salvific figure he calls the Walker-on-Earth and traces across his fiction — \"Mercer + the Walker-on-Earth are one + the same\" — folding Androids into the theological through-line that runs to Ubik and Maze. The film Blade Runner, from this novel, was in production at PKD's death in 1982.",
     "sources": [
       {
@@ -1989,14 +2366,14 @@
     "location": "San Rafael, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
-    "narrative": "*Ubik* (1969) is the novel of a decaying half-life world sustained by a mysterious spray-can force. At publication it read as PKD's finest entropy-and-false-reality machine. After 2-3-74 he re-read it as unintended scripture — Runciter the Logos, Ubik the immanent Holy Spirit — the single work he returns to most in the Exegesis after *VALIS* itself.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: written 1966, published 1969. The claim that Dick returns to Ubik most often is a portal count over the transcribed Exegesis segments (register D). Sutin locator corrected from ch. 6 to ch. 7. Earlier note: generated, unverified.",
+    "narrative": "*Ubik* (1969) is the novel of a decaying half-life world sustained by a mysterious spray-can force. At publication it read as PKD's finest entropy-and-false-reality machine. After 2-3-74 he re-read it as unintended scripture — Runciter the Logos, Ubik the immanent Holy Spirit — the earlier novel of his own he returns to most often in the Exegesis (by a portal count, its title appears in 425 transcribed Exegesis segments, against 60 for *Palmer Eldritch*).",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 6",
+        "locator": "ch. 7",
         "supports": "the 1969 publication of Ubik"
       },
       {
@@ -2077,16 +2454,98 @@
     "notes": "Generated curation note: a year divorce entry retained from Sutin. Use the source field and linked entities for deeper verification."
   },
   {
+    "id": "pkd_bio_1970_05_mescaline",
+    "date": "1970-05",
+    "date_precision": "month",
+    "event": "A single large dose of mescaline gives PKD \"an overpowering love for other people\", which he writes into Flow My Tears, the Policeman Said.",
+    "category": "drug_use",
+    "entities": [],
+    "location": "San Rafael, California",
+    "source": "Letter to James, September 17, 1970",
+    "importance": 3,
+    "narrative": "Dick credited mescaline, taken once in May 1970, with what acid never gave him: a flood of love for other people. He wrote Flow My Tears, the Policeman Said between March and August that year and told correspondents it was built on that dose. In the Exegesis he later dates to the same dose the moment a \"fugal\", always-high personality took over.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Letter to James, September 17, 1970",
+        "lane": "E",
+        "locator": "",
+        "supports": "the dose and the novel"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "",
+        "supports": "May 1970, and the writing of Flow My Tears"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "With acid I never had any genuine insights, but on the mescalin I was overwhelmed by terribly powerful feelings",
+        "speaker": "PKD",
+        "source": "Letter to James, September 17, 1970",
+        "lane": "E"
+      }
+    ],
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "confidence": "high",
+    "links": {
+      "works": [
+        "/exegesis/works/flow-my-tears-the-policeman-said"
+      ],
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=Mescaline#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
+    },
+    "notes": "Added 2026-10-30. Dossier: DRG-LET-1970-MESCALIN, DRG-EX-1978-DRIVENMAD."
+  },
+  {
     "id": "pkd_bio_1973_gutter_years_narrative",
-    "date": "1970-01-01",
-    "date_precision": "year",
-    "event": "PKD describes extended period living in subculture with drug users and young people; period of narcotics involvement and criminal association",
+    "date": "1970-1972",
+    "date_precision": "range",
+    "event": "Looking back in 1973, PKD says that after each failed marriage he dropped \"gratefully\" into a life among drugs, guns and people he calls vicious — above all in the Santa Venetia house of 1970-72.",
     "category": "residence",
     "entities": [],
     "location": "California/Canada",
     "source": "letters",
     "importance": 2,
-    "notes": "Letter Sept 5, 1973: 'when the marriage failed I dropped (gratefully) into the gutter of near-illegal life: narcotics and guns and knives and oh so many crimes... I embraced truly vicious people.' States he lived with stilyagi (teen-age hoodlums) and provided shelter to young people who would otherwise be lost."
+    "notes": "Corrected 2026-10-30: previously dated 1970-01-01 (a placeholder) and paraphrased as one period; the letter describes a pattern after each failed marriage. The earlier note quoted \"I embraced truly vicious people\"; the letter reads \"I embrace truly vicious people, I suppose as an antidote to the middle class safe rational spineless world my wives had forced on me.\" The id keeps its old year because ids are never renamed.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Letter to Diane Cleaver, September 5, 1973",
+        "lane": "E",
+        "locator": "",
+        "supports": "the account of the \"gutter\" years and the young people he sheltered"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "when the marriage failed I dropped (gratefully) into the gutter of near-illegal life: narcotics and guns and knives and oh so many crimes",
+        "speaker": "PKD",
+        "source": "Letter to Diane Cleaver, September 5, 1973",
+        "lane": "E"
+      }
+    ],
+    "lanes": [
+      "E"
+    ],
+    "confidence": "high",
+    "links": {
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=Drug%20culture#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
+    }
   },
   {
     "id": "pkd_bio_1971_arnold_amphetamine_paranoia",
@@ -2130,6 +2589,58 @@
     }
   },
   {
+    "id": "pkd_bio_1971_05_stanford_ward",
+    "date": "1971-05-03",
+    "date_precision": "day",
+    "event": "PKD is admitted to the psychiatric ward of Stanford University Hospital for three days, telling the examining psychiatrist he takes a thousand Methedrine tablets a week.",
+    "category": "health",
+    "entities": [
+      "Dorothy Hudner",
+      "Joseph Hudner"
+    ],
+    "location": "Palo Alto, California",
+    "source": "Sutin",
+    "importance": 3,
+    "narrative": "In spring 1971 Dick phoned his mother to say he was a drug addict who must quit or die. A girlfriend in Palo Alto took him to the Hoover Pavilion at Stanford, where he was admitted on May 3 and released on May 6. The examining psychiatrist recorded a thousand Methedrine tablets a week at $300 a month, with Stelazine, an \"astute\" intellect without delusions, and no physical addiction. Later that year his own psychiatrist in Marin, seeing no withdrawal, took his claims of addiction for hypochondria.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "",
+        "supports": "the stepfather's notes and the Stanford records"
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "the Marin psychiatrist's view of his addiction claims"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Phil said he was taking one thousand Methedrine tabs per week",
+        "speaker": "Sutin",
+        "source": "Divine Invasions",
+        "lane": "C"
+      }
+    ],
+    "lanes": [
+      "C"
+    ],
+    "confidence": "high",
+    "links": {
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=Amphetamines#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
+    },
+    "notes": "Added 2026-10-30. Dossier: DRG-BIO-SUTIN-STANFORD, DRG-BIO-ANNE-DRA."
+  },
+  {
     "id": "pkd_bio_1971_burglary",
     "date": "1971-11-17",
     "date_precision": "day",
@@ -2143,7 +2654,7 @@
     "source": "Arnold",
     "importance": 4,
     "notes": "On the standing contradiction registry. The break-in is corroborated as an event; its agent and exact mechanics are not.",
-    "narrative": "On 17 November 1971, PKD returned to his San Rafael house to find it burglarized: the window blown in, his locked file cabinet forced open (some accounts say blown apart with explosives), and papers and stereo equipment taken. No one was ever charged. The break-in became the defining unsolved event of his life — a real intrusion he spent years trying to explain, and a rehearsal for the epistemology of 2-3-74: how do you know what happened when every account, including your own, is unreliable?\n\nPKD's theories multiplied over time. At various points he blamed the FBI, the CIA, the KGB, the right-wing Minutemen, the Black Panthers, religious fanatics, local drug dealers, jealous rivals, and — at his most candid — himself, in a blackout or as a cry for help. Both his own accounts and the scholarship treat the case as genuinely open; it is one of the portal's standing contradiction zones.",
+    "narrative": "On 17 November 1971, PKD returned to his San Rafael house to find it burglarized: the window blown in, his locked file cabinet forced open (some accounts say blown apart with explosives), and papers and stereo equipment taken. In February 1972 the investigating inspector told Dick he had broken the case: a man named Jerry Wade had been arrested with Dick's Ruger .22 pistol, stolen in the robbery. Dick's letters record no outcome beyond that, and he went on theorising. The break-in became the defining unsolved event of his life — a real intrusion he spent years trying to explain, and a rehearsal for the epistemology of 2-3-74: how do you know what happened when every account, including your own, is unreliable?\n\nPKD's theories multiplied over time. At various points he blamed the FBI, the CIA, the KGB, the right-wing Minutemen, the Black Panthers, religious fanatics, local drug dealers, jealous rivals, and — at his most candid — himself, in a blackout or as a cry for help. Both his own accounts and the scholarship treat the case as genuinely open; it is one of the portal's standing contradiction zones.",
     "sources": [
       {
         "author": "Sutin",
@@ -2164,6 +2675,13 @@
         "work": "Selected Letters / Exegesis",
         "lane": "E",
         "supports": "PKD's own shifting attributions of responsibility across letters and notebooks"
+      },
+      {
+        "author": "PKD",
+        "work": "Letter to Inspector Shine, November 4, 1972",
+        "lane": "E",
+        "locator": "",
+        "supports": "the police report of an arrest with his stolen pistol, February 1972"
       }
     ],
     "lanes": [
@@ -2184,13 +2702,25 @@
         {
           "who": "Clinical frame (Arnold)",
           "claim": "the event is entangled with amphetamine-era paranoia; parts may be misremembered or self-inflicted"
+        },
+        {
+          "who": "Marin County police, as reported by PKD (letter, November 1972)",
+          "claim": "a burglary they considered solved: a suspect arrested with his stolen pistol"
         }
       ]
     },
     "links": {
       "exegesis_work": "/exegesis/works/flow-my-tears-the-policeman-said"
     },
-    "confidence": "medium"
+    "confidence": "medium",
+    "quotes": [
+      {
+        "text": "you informed me that you had broken the case; a man named Wade (Jerry Wade I believe) had been arrested with the Ruger .22 pistol of mine stolen during this robbery",
+        "speaker": "PKD",
+        "source": "Letter to Inspector Shine, November 4, 1972",
+        "lane": "E"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1971_hospitalization",
@@ -2290,7 +2820,7 @@
     "id": "pkd_bio_1972_suicide_attempt",
     "date": "1972",
     "date_precision": "year",
-    "event": "Alone and collapsing in Vancouver after the X-Kalay convention, PKD attempts suicide in March 1972; a crisis line refers him to the X-Kalay rehab.",
+    "event": "Alone and collapsing in Vancouver after the February science-fiction convention, PKD attempts suicide in March 1972; a crisis line refers him to X-Kalay, a residential rehabilitation house for heroin addicts.",
     "category": "health",
     "entities": [
       "X-Kalay Foundation"
@@ -2298,7 +2828,7 @@
     "location": "Vancouver, British Columbia",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a year health entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Corrected 2026-10-30: the event text called the February event \"the X-Kalay convention\"; the convention was VCon, and X-Kalay was the rehabilitation house he entered after the attempt. Dossier: DRG-LET-1972-XKALAY, DRG-LET-1972-HEROIN, DRG-BIO-SUTIN-THREEWEEKS.",
     "narrative": "In February 1972 PKD flew to Vancouver as guest of honor at a science-fiction convention and decided, abruptly, to stay in Canada rather than return to California. Within weeks the isolation, the loss of the woman (Jamis) he had followed north, and the wreckage of the prior year collapsed on him. In March he made what he repeatedly called an \"almost successful\" suicide attempt. By his own account in the letters, the B.C. crisis line — Suicide Prevention / the Crisis Center — intervened and steered him into X-Kalay, a Synanon-style residential drug-rehabilitation community, where he spent roughly a month before flying to Fullerton in April. He wrote that to be admitted he had to pose as a heroin addict, \"method acting\" his way past the intake staff.\n\nThe attempt and the X-Kalay stay are attested in PKD's contemporaneous letters (Lane E) and in Sutin and Arnold (Lane C); Anne Dick notes she learned of neither until much later. The accounts diverge on specifics — the exact method is left vague even in his own telling (\"the specific details of what happened next are unclear,\" Arnold writes) — and, more sharply, on the drug context of the whole Vancouver period, which is on the portal's standing contradiction registry. What is not in dispute is the turn it produced: X-Kalay's regime of relentless work and communal pressure pulled him out of the depression, and within a week he was doing PR for them. He later mined the whole descent for A Scanner Darkly, whose New-Path rehab is X-Kalay turned malignant.",
     "sources": [
       {
@@ -2364,14 +2894,20 @@
       ]
     },
     "links": {
-      "exegesis_work": "/exegesis/works/a-scanner-darkly"
+      "exegesis_work": "/exegesis/works/a-scanner-darkly",
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=Rehabilitation#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
     },
     "confidence": "high"
   },
   {
     "id": "pkd_bio_1972_vancouver",
-    "date": "1972",
-    "date_precision": "year",
+    "date": "1972-02",
+    "date_precision": "month",
     "event": "PKD flies to Vancouver as a convention guest of honor and decides to stay — the break from his old life.",
     "category": "residence",
     "entities": [
@@ -2381,27 +2917,43 @@
     "location": "Vancouver, British Columbia",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year residence entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Dick to June, July 30, 1973: \"I flew to Canada in February of last year, made my two speeches\". Sutin locator corrected from ch. 7 to ch. 9. Earlier note: generated, unverified.",
     "narrative": "In February 1972 Philip left San Rafael for Vancouver to be guest of honor at a science-fiction convention, where he delivered \"The Android and the Human,\" and impulsively resolved to stay in Canada. The move severed him from the wreckage of the previous two years; it also stranded him, and within weeks led to the March 1972 suicide attempt and X-Kalay. Vancouver is the hinge between the San Rafael collapse and the Orange County rebirth.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 7",
+        "locator": "ch. 9",
         "supports": "the Vancouver convention and the decision to remain in Canada"
+      },
+      {
+        "author": "PKD",
+        "work": "Letter to June, July 30, 1973",
+        "lane": "E",
+        "locator": "",
+        "supports": "flew to Canada in February 1972 and gave two speeches"
       }
     ],
     "lanes": [
-      "C"
+      "C",
+      "E"
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "quotes": [
+      {
+        "text": "I flew to Canada in February of last year, made my two speeches",
+        "speaker": "PKD",
+        "source": "Letter to June, July 30, 1973",
+        "lane": "E"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1972_vancouver_x_kalay_arnold",
     "date": "1972",
     "date_precision": "year",
-    "event": "Arnold frames the X-Kalay stay as a misfit refuge — a heroin program housing a suicidal amphetamine user.",
+    "event": "Arnold describes X-Kalay as a harsh, Synanon-style program run by David Berner, built to break new residents down — the only residential addiction program in Vancouver at the time.",
     "category": "health",
     "entities": [
       "X-Kalay",
@@ -2410,15 +2962,15 @@
     "location": "Vancouver, British Columbia",
     "source": "Arnold, The Divine Madness of Philip K. Dick",
     "importance": 4,
-    "notes": "Arnold frames X-Kalay as central to the post-Vancouver drug and recovery period.",
-    "narrative": "After the suicide attempt Philip entered X-Kalay, a Synanon-style heroin-rehabilitation community. Arnold notes the mismatch — a program for hardcore narcotics addicts taking in a depressed, amphetamine-using science-fiction writer — and reads the episode as much as a search for structure and belonging as for detoxification. PKD both mocked and credited the program; it gave him a floor to stand on before Fullerton.",
+    "notes": "Corrected 2026-10-30: the previous text said Arnold frames the stay as \"a misfit refuge\" and \"a search for structure and belonging\"; Arnold's text in the archive does not say this. Dossier: DRG-LET-1972-XKALAY, DRG-LET-1975-FAULTY, DRG-EX-1977-SYNANON, DRG-BIO-SUTIN-NEVERAGAIN.",
+    "narrative": "After the suicide attempt Philip entered X-Kalay. Arnold gives its history: founded in 1967 by David Berner as a transitional community for Native people released from prison, it became a therapeutic community for addicts under Berner's dictatorial leadership, with a philosophy of breaking new residents down by name-calling and humiliation and assigning them the toilets and floors. Arnold reads A Scanner Darkly's New-Path, which grows the drug it claims to cure, as Dick's judgment on it, and notes that his paranoia outlasted the reduction in his drug use.\n\nDick's own verdict changed. From inside, in April 1972, he wrote \"I owe my life to them\"; in 1975 he called its education faulty; in the Exegesis its attack-therapy \"game\" became the equivalent of brainwashing. Sutin credits it with ending his regular amphetamine use.",
     "sources": [
       {
         "author": "Arnold",
         "work": "The Divine Madness of Philip K. Dick",
         "lane": "C",
         "locator": "ch. 1",
-        "supports": "the clinical reading of the X-Kalay stay and its mismatch"
+        "supports": "X-Kalay's history, Berner, and its methods; New-Path as its portrait"
       },
       {
         "author": "Sutin",
@@ -2426,12 +2978,59 @@
         "lane": "C",
         "locator": "ch. 7",
         "supports": "the X-Kalay chronology"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 9",
+        "supports": "the length of the stay and its effect on his amphetamine use"
+      },
+      {
+        "author": "PKD",
+        "work": "Letter to Göran Bengtson, April 3, 1972",
+        "lane": "E",
+        "locator": "",
+        "supports": "the view from inside X-Kalay"
       }
     ],
     "lanes": [
       "C"
     ],
-    "confidence": "medium"
+    "confidence": "medium",
+    "quotes": [
+      {
+        "text": "I owe my life to them.",
+        "speaker": "PKD",
+        "source": "Letter to Göran Bengtson, April 3, 1972",
+        "lane": "E"
+      }
+    ],
+    "dispute": {
+      "summary": "How long he stayed at X-Kalay is given three ways.",
+      "positions": [
+        {
+          "who": "PKD (letter to Bruce Gillespie, October 31, 1972)",
+          "claim": "he spent a month there"
+        },
+        {
+          "who": "Sutin (Divine Invasions)",
+          "claim": "the stay lasted only three weeks before its demands grated"
+        },
+        {
+          "who": "Arnold (The Divine Madness)",
+          "claim": "he underwent inpatient treatment there until March"
+        }
+      ]
+    },
+    "links": {
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=Rehabilitation#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
+    }
   },
   {
     "id": "pkd_bio_1972_ubc_lecture",
@@ -2446,7 +3045,7 @@
     "location": "University of British Columbia, Vancouver, British Columbia",
     "source": "PKD public appearances audit",
     "importance": 5,
-    "notes": "Generated curation note: a month lecture entry retained from PKD public appearances audit. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin and Dick's letters give February 1972; the CSUF manuscript finding aid's catalogue entry says March 1972. Dick to John Bush, Sept 11, 1973: it was \"the first speech I ever wrote or gave\". \"The time I made my UBC speech\" is from the letter to Hatie Rubenstein, Nov 30, 1975. Earlier note: generated, unverified.",
     "narrative": "In February 1972, as guest of honor at the Vancouver science-fiction convention, PKD delivered the address published as \"The Android and the Human\" at the University of British Columbia. It is his first major public lecture and the seed of a modest circuit that later produced the more famous Metz address (1977). The talk argues that the meaningful line runs not between people and machines but between the genuinely human — the empathic, the unpredictable, the rule-breaking — and the \"android\" mode of being: mechanical, obedient, conditioned. It is the essayistic distillation of the theme he had dramatized in Do Androids Dream, and it circulated widely enough to become a touchstone of his nonfiction.\n\nThe lecture is well attested and its content survives in print (Lane C/E). Its biographical weight lies in what followed: the trip that occasioned it became the decision to stay in Canada, which became the March collapse, the suicide attempt, and X-Kalay. PKD's own letters return to \"the time I made my UBC speech\" as the marker for that whole hinge. The speech is the last public performance of the confident Bay Area novelist before the Vancouver breakdown resets his life toward Orange County and, two years on, 2-3-74.",
     "sources": [
       {
@@ -2467,6 +3066,13 @@
         "work": "Selected Letters",
         "lane": "E",
         "supports": "PKD uses 'the time I made my UBC speech' as the reference point for the start of the Vancouver period"
+      },
+      {
+        "author": "CSUF University Archives",
+        "work": "Philip K. Dick Manuscript Collection Finding Aid (2016)",
+        "lane": "C",
+        "locator": "Box 4, Folder 1",
+        "supports": "catalogues the speech as delivered in March 1972"
       }
     ],
     "lanes": [
@@ -2478,7 +3084,28 @@
         "/works/do-androids-dream-of-electric-sheep"
       ]
     },
-    "confidence": "high"
+    "confidence": "high",
+    "dispute": {
+      "summary": "The month of the Vancouver speech.",
+      "positions": [
+        {
+          "who": "Sutin; Dick (letters)",
+          "claim": "February 1972, at the convention and at the University of British Columbia"
+        },
+        {
+          "who": "CSUF finding aid (2016)",
+          "claim": "delivered at the Vancouver convention and at UBC in March 1972"
+        }
+      ]
+    },
+    "quotes": [
+      {
+        "text": "It is, oddly, the first speech I ever wrote or gave.",
+        "speaker": "PKD",
+        "source": "Letter to John Bush, September 11, 1973",
+        "lane": "E"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1972_vancouver_arrival",
@@ -2625,14 +3252,14 @@
     "location": "Fullerton, California",
     "source": "Sutin; Selected Letters",
     "importance": 4,
-    "notes": "Generated curation note: a year family entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin and Anne R. Dick: July 25, 1973 (Christopher Kenneth Dick). A duplicated clause in the narrative was removed. Sutin locator corrected from ch. 7 to ch. 9. Earlier note: generated, unverified.",
     "narrative": "Christopher, Philip's third child and only son, was born in July 1973. His birth roots the Fullerton household that 2-3-74 would erupt into a year later — and it is Christopher whose undiagnosed hernia PKD believed the March 1974 intelligence revealed to him — an intuition he credited to the March 1974 intelligence, the most-cited apparently-veridical moment of the whole experience.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 7",
+        "locator": "ch. 9",
         "supports": "Christopher's 1973 birth"
       },
       {
@@ -2641,6 +3268,13 @@
         "lane": "E",
         "locator": "",
         "supports": "PKD's letters announcing his son's birth"
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "Christopher Kenneth Dick, born July 25, 1973"
       }
     ],
     "lanes": [
@@ -2661,7 +3295,7 @@
     "location": "Fullerton, California",
     "source": "Sutin; Selected Letters",
     "importance": 4,
-    "notes": "Generated curation note: a year marriage entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies and letters in the archive: Sutin: \"In April they were married\" (1973), in a ceremony at their apartment. The day, April 19, is not in the biographies in the archive and is unverified. Arnold puts the marriage in 1972. Earlier note: generated, unverified.",
     "narrative": "Philip married Leslie 'Tessa' Busby in April 1973, months after settling in Fullerton. Much younger than he, Tessa became the wife of his last decade: the mother of his son Christopher, a witness to 2-3-74, and — through her differing recollection of the golden-fish delivery — one of the sources whose account of that event does not always match his.",
     "sources": [
       {
@@ -2677,6 +3311,13 @@
         "lane": "E",
         "locator": "",
         "supports": "PKD's contemporaneous letters from the early Fullerton period"
+      },
+      {
+        "author": "Arnold",
+        "work": "The Divine Madness of Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "dates the marriage to 1972"
       }
     ],
     "lanes": [
@@ -2687,6 +3328,19 @@
     "links": {
       "people": [
         "/dictionary/tessa"
+      ]
+    },
+    "dispute": {
+      "summary": "The year of the marriage.",
+      "positions": [
+        {
+          "who": "Sutin (Divine Invasions)",
+          "claim": "April 1973, at their apartment, with Tessa pregnant with Christopher"
+        },
+        {
+          "who": "Arnold (The Divine Madness)",
+          "claim": "in 1972 Dick married the eighteen-year-old Tessa Busby"
+        }
       ]
     }
   },
@@ -2773,7 +3427,7 @@
     "id": "pkd_bio_1973_csuf_talk",
     "date": "1973-07",
     "date_precision": "month",
-    "event": "PKD records a talk at Cal State Fullerton, an early sign of his re-emergence into public and academic life.",
+    "event": "PKD lectures to classes at Cal State Fullerton, where Willis McNelly had brought him in 1972 — part of his re-emergence into public life.",
     "category": "lecture",
     "entities": [
       "California State University, Fullerton",
@@ -2782,14 +3436,14 @@
     "location": "California State University, Fullerton, Fullerton, California",
     "source": "PKD public appearances audit",
     "importance": 4,
-    "notes": "Generated curation note: a month lecture entry retained from PKD public appearances audit. Use the source field and linked entities for deeper verification.",
-    "narrative": "In July 1973, newly settled in Orange County, Philip recorded a talk at California State University, Fullerton. It marks his re-emergence after the long fiction hiatus of 1970-72 — the beginning of the academic and fan attention that would culminate in the Metz keynote of 1977 and the eventual donation of his manuscripts to the CSUF library.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: The entry said Dick recorded a talk at CSUF in July 1973. Neither the letters, the biographies nor the CSUF finding aid attest it. The letters show him lecturing to McNelly's classes from 1972 (Aug 30, 1972) and in 1973 (May 26; July 30). The id is kept. Sutin locator corrected from ch. 8 to ch. 9. Earlier note: generated, unverified.",
+    "narrative": "By mid-1973 Philip was lecturing to college classes at California State University, Fullerton. The connection began in April 1972, when Willis McNelly brought him down from Vancouver to archive his manuscripts in the library's special collections. (A recorded talk in July 1973, which this entry once described, is not attested in the letters, the biographies or the CSUF finding aid.) The lecturing marks his re-emergence after the long fiction hiatus of 1970-72 — the beginning of the academic and fan attention that would culminate in the Metz keynote of 1977 and the eventual donation of his manuscripts to the CSUF library.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 8",
+        "locator": "ch. 9",
         "supports": "PKD's Fullerton-period public appearances"
       },
       {
@@ -2804,7 +3458,21 @@
       "C",
       "E"
     ],
-    "confidence": "medium"
+    "confidence": "low",
+    "quotes": [
+      {
+        "text": "I lecture at the nearby University and we see many s-f people.",
+        "speaker": "PKD",
+        "source": "Letter to Susan, May 26, 1973",
+        "lane": "E"
+      },
+      {
+        "text": "I've been so busy with my writing, plus lecturing both to college classes and on the radio here",
+        "speaker": "PKD",
+        "source": "Letter to June, July 30, 1973",
+        "lane": "E"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1973_vehicle_purchase",
@@ -2916,8 +3584,8 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 5,
-    "notes": "Generated curation note: a year gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification.",
-    "narrative": "In the aftermath of the events he abbreviated 2-3-74 — the golden fish sign, the pink light, the flood of what he took to be transmitted information — PKD started keeping the handwritten notebooks that would come to be called the Exegesis. It was never a manuscript for publication; it is a private, nightly attempt to explain to himself what had happened to him. Arnold, reading it through a clinical lens, situates its beginning within a cluster of stressors — the recent oral surgery and anesthesia, an amphetamine-era baseline, the unresolved 1971 break-in, and the long grief over his twin Jane — that the writing tries to metabolize into meaning. The portal keeps that reading open alongside PKD's own.\n\nWhat the notebooks record is not a settled doctrine but a mind revising itself in real time. PKD returns nightly to the same handful of scenes and rebuilds the theory each time — Zebra, VALIS, the Holy Spirit, the plasmate, Saint Sophia — never letting an earlier explanation stand once a better one occurs to him. From the outset he cross-reads his own novels as though they were scripture written in advance: Ubik, Flow My Tears, A Maze of Death. This is the seam the whole project sits on — PKD as the unreliable narrator of his own unreliability, theorizing about an experience whose status as revelation or episode he could never finally decide.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: the Exegesis was \"begun in 1974\"; the Selected Letters chronology agrees. Arnold dates its beginning to after August 1974, when the experiences waned. The earliest dated Exegesis material in the archive is the folder filed under February 27, 1975. The narrative's account of Arnold's stressors was corrected to what his text says. Locators corrected: Arnold ch. 1 to ch. 7, Sutin ch. 8 to ch. 10. Earlier note: generated, unverified.",
+    "narrative": "In the aftermath of the events he abbreviated 2-3-74 — the golden fish sign, the pink light, the flood of what he took to be transmitted information — PKD started keeping the handwritten notebooks that would come to be called the Exegesis. It was never a manuscript for publication; it is a private, nightly attempt to explain to himself what had happened to him. Arnold, reading it through a clinical lens, sets 2-3-74 within a cluster of stressors — unpaid taxes and fear of the IRS, poverty, a new baby, a botched extraction of an impacted tooth, Percodan, blood-pressure medication and psychiatric prescriptions (by some accounts lithium), and amphetamine use that some allege but Tessa did not observe — and dates the Exegesis to after August 1974, when the experiences waned and the theorizing took over. The portal keeps that reading open alongside PKD's own.\n\nWhat the notebooks record is not a settled doctrine but a mind revising itself in real time. PKD returns nightly to the same handful of scenes and rebuilds the theory each time — Zebra, VALIS, the Holy Spirit, the plasmate, Saint Sophia — never letting an earlier explanation stand once a better one occurs to him. From the outset he cross-reads his own novels as though they were scripture written in advance: Ubik, Flow My Tears, A Maze of Death. This is the seam the whole project sits on — PKD as the unreliable narrator of his own unreliability, theorizing about an experience whose status as revelation or episode he could never finally decide.",
     "sources": [
       {
         "author": "PKD",
@@ -2929,14 +3597,14 @@
         "author": "Arnold",
         "work": "The Divine Madness of Philip K. Dick",
         "lane": "C",
-        "locator": "ch. 1",
+        "locator": "ch. 7",
         "supports": "situates the onset of the writing within a clinical, multi-causal frame"
       },
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 8",
+        "locator": "ch. 10",
         "supports": "dates the start of the Exegesis to the 1974 aftermath of 2-3-74"
       }
     ],
@@ -2950,7 +3618,15 @@
       ],
       "exegesis_work": "/exegesis/works/valis"
     },
-    "confidence": "high"
+    "confidence": "high",
+    "quotes": [
+      {
+        "text": "I suffered total psychosis in 1974. Poverty, family responsibility (a new baby) did it. & fear of the IRS.",
+        "speaker": "PKD, 1978 journal entry quoted by Arnold",
+        "source": "The Divine Madness of Philip K. Dick",
+        "lane": "B"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1974_fish_sign_arnold",
@@ -3075,7 +3751,7 @@
         "lane": "B"
       },
       {
-        "text": "And the fish sign I saw was made of gold. And I saw around me a prison, a magnet-like ring, of iron.",
+        "text": "And the fish sign I saw was made of gold. And I saw around me a prison, a magnet like ring, of iron.",
         "speaker": "PKD",
         "source": "Exegesis",
         "lane": "B"
@@ -3256,7 +3932,7 @@
     "id": "pkd_bio_1974_03_zebra",
     "date": "1974-03",
     "date_precision": "month",
-    "event": "PKD names the intelligence behind 2-3-74 'Zebra' — a mind that camouflages itself perfectly in the ordinary world.",
+    "event": "The intelligence PKD met in March 1974 is the one he named 'Zebra' in December 1976 — a mind that camouflages itself perfectly in the ordinary world.",
     "category": "gnostic_experience",
     "entities": [
       "Zebra"
@@ -3264,8 +3940,8 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a month gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification.",
-    "narrative": "In March 1974 Philip began calling the intelligence he believed was acting on him *Zebra*: a living information-field that hides in plain sight the way a zebra's stripes dissolve into the grass, mimicking ordinary reality so exactly that it is invisible. Zebra is the first of the many names — VALIS, the plasmate, the Holy Spirit — he gave the same suspected agency, and the one that best captures his intuition that God is not elsewhere but camouflaged in the trash of the everyday.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: The entry said Dick named it Zebra in March 1974. Sutin dates the \"Zebra Principle\" to December 1976, from Dick's earlier reading of a study of insect mimicry; Dick told Mark Hurst on February 11, 1977 that it came \"about a month and a half ago, while reworking VALIS\". The earliest Exegesis use in the archive is in the folder filed under September 1976. The date stays at March 1974, the experience named. VALIS (filed under Sept 1975) is the older name, so Zebra is not \"the first\". Earlier note: generated, unverified.",
+    "narrative": "The intelligence he believed acted on him in March 1974 he named *Zebra* only in December 1976, when the \"Zebra Principle\" came to him while he was reworking *VALIS*: a living information-field that hides in plain sight the way a zebra's stripes dissolve into the grass, mimicking ordinary reality so exactly that it is invisible. Zebra is the first of the many names — VALIS, the plasmate, the Holy Spirit — he gave the same suspected agency, and the one that best captures his intuition that God is not elsewhere but camouflaged in the trash of the everyday.",
     "sources": [
       {
         "author": "PKD",
@@ -3273,10 +3949,26 @@
         "lane": "B",
         "locator": "",
         "supports": "PKD's development of the Zebra concept in the Exegesis"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 11",
+        "supports": "dates the \"Zebra Principle\" to December 1976"
+      },
+      {
+        "author": "PKD",
+        "work": "Letter to Mark Hurst, February 11, 1977",
+        "lane": "E",
+        "locator": "",
+        "supports": "the Zebra Principle came \"about a month and a half ago\""
       }
     ],
     "lanes": [
-      "B"
+      "B",
+      "C",
+      "E"
     ],
     "confidence": "medium",
     "dispute": {
@@ -3295,7 +3987,15 @@
     "links": {
       "exegesis_work": "/exegesis/works/valis",
       "theophany": "/theophanies/zebra-mimicry-1974"
-    }
+    },
+    "quotes": [
+      {
+        "text": "about a month and a half ago, while reworking VALIS, the idea—not an idea but THE IDEA—suddenly popped fullblown into my mind",
+        "speaker": "PKD",
+        "source": "Letter to Mark Hurst, February 11, 1977",
+        "lane": "E"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1974_red_gold_plasmatic_energy",
@@ -3369,6 +4069,83 @@
       "exegesis_work": "/exegesis/works/valis"
     },
     "confidence": "high"
+  },
+  {
+    "id": "pkd_bio_1974_03_orthomolecular_vitamins",
+    "date": "1974-03",
+    "date_precision": "month",
+    "event": "PKD takes massive doses of water-soluble \"orthomolecular\" vitamins to switch on his right hemisphere; in mid-March, he writes, he got \"abrupt, dazzling results\".",
+    "category": "health",
+    "entities": [
+      "Robert Ornstein"
+    ],
+    "location": "Fullerton, California",
+    "source": "Letter to Malcolm Edwards, January 29, 1975",
+    "importance": 4,
+    "narrative": "Having read Robert Ornstein on the right hemisphere and drafted a novel about drug-damaged brains, Dick took the orthomolecular vitamin formula on purpose in the weeks after the February pentothal, to improve his neural firing. Sutin traces the formula to a Psychology Today article of April 1974. Dick listed the vitamins, the pentothal and later lithium among the conditions of 2-3-74, always as disinhibitors rather than causes.",
+    "sources": [
+      {
+        "author": "PKD",
+        "work": "Letter to Malcolm Edwards, January 29, 1975",
+        "lane": "E",
+        "locator": "",
+        "supports": "the plan and the result"
+      },
+      {
+        "author": "PKD",
+        "work": "Letter to Dorothy Hudner, September 15, 1976",
+        "lane": "E",
+        "locator": "",
+        "supports": "the factors listed together"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "",
+        "supports": "the Psychology Today formula"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "I was experimenting with the orthomolecular vitamin formula, and had accidentally taken 7 grams of vitamin C, much more than is indicated.",
+        "speaker": "PKD",
+        "source": "Letter to Dorothy Hudner, September 15, 1976",
+        "lane": "E"
+      }
+    ],
+    "dispute": {
+      "summary": "How much vitamin C.",
+      "positions": [
+        {
+          "who": "PKD (Exegesis, November 1975)",
+          "claim": "an overdose of seven grams a day"
+        },
+        {
+          "who": "PKD (letter, September 1976)",
+          "claim": "seven grams, taken by accident"
+        },
+        {
+          "who": "Sutin",
+          "claim": "seven grams more than the formula called for"
+        }
+      ]
+    },
+    "lanes": [
+      "B",
+      "C",
+      "E"
+    ],
+    "confidence": "high",
+    "links": {
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=Vitamins#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
+    },
+    "notes": "Added 2026-10-30. Dossier: DRG-LET-1975-SPLITBRAIN, DRG-LET-1976-PENTATHOL, DRG-EX-1975-VITAMINC, DRG-BIO-SUTIN-VITAMINS."
   },
   {
     "id": "pkd_bio_1974_ai_voice_sophia_arnold",
@@ -3471,7 +4248,7 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Consistent with Sutin (Exegesis begun in 1974) and the archive (dated Exegesis folders from February 1975). Earlier note: generated, unverified.",
     "narrative": "From 1974 the private theorizing PKD had always done became a sustained, obsessive project: the Exegesis, a nightly attempt to explain 2-3-74 by every philosophical and religious system he could reach. The speculation is genuinely systematic — hypothesis, revision, self-refutation — even as its object keeps slipping. It is the intellectual engine of everything he wrote after 1974.",
     "sources": [
       {
@@ -3500,8 +4277,8 @@
     "location": "Fullerton, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification.",
-    "narrative": "Among the earliest and most durable Exegesis structures is the Black Iron Prison: the idea that the ordinary world is a concealed prison, that beneath 1974 Fullerton lies the Rome of the first century, and that history since has been an illusion masking an unbroken carceral order — *the Empire never ended*. It is the political and Gnostic face of his theology, set against the liberating Palm Tree Garden, and the seed of *VALIS* and *Radio Free Albemuth*.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: The image is early: Dick to Bruce Gillespie, January 28, 1975, \"I saw the iron prison around us\". The name \"Black Iron Prison\" and \"the Empire never ended\" first appear in the Exegesis folder filed under September 1976, which runs to 1979, and in the letter to Hurst of February 11, 1977. Earlier note: generated, unverified.",
+    "narrative": "Among the earliest and most durable Exegesis structures is the Black Iron Prison: the idea that the ordinary world is a concealed prison, that beneath 1974 Fullerton lies the Rome of the first century, and that history since has been an illusion masking an unbroken carceral order — *the Empire never ended*. The image is early — in January 1975 he wrote that he had seen \"the iron prison around us\" while Nixon was still in office — but the name and the phrase first appear in the Exegesis folder filed under September 1976. It is the political and Gnostic face of his theology, set against the liberating Palm Tree Garden, and the seed of *VALIS* and *Radio Free Albemuth*.",
     "sources": [
       {
         "author": "PKD",
@@ -3509,16 +4286,32 @@
         "lane": "B",
         "locator": "",
         "supports": "PKD's development of the Black Iron Prison / hidden-Rome concept"
+      },
+      {
+        "author": "PKD",
+        "work": "Letter to Bruce Gillespie, January 28, 1975",
+        "lane": "E",
+        "locator": "",
+        "supports": "the iron prison seen in 1974, \"while Nixon was still in office\""
       }
     ],
     "lanes": [
-      "B"
+      "B",
+      "E"
     ],
     "confidence": "high",
     "links": {
       "exegesis_work": "/exegesis/works/valis",
       "theophany": "/theophanies/black-iron-prison-1974"
-    }
+    },
+    "quotes": [
+      {
+        "text": "Also I saw the iron prison around us (this was while Nixon was still in office)",
+        "speaker": "PKD",
+        "source": "Letter to Bruce Gillespie, January 28, 1975",
+        "lane": "E"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1974_exegesis_ongoing",
@@ -3529,10 +4322,10 @@
     "entities": [
       "Exegesis"
     ],
-    "location": "Fullerton, California",
+    "location": "Fullerton and Santa Ana, California",
     "source": "Arnold",
     "importance": 5,
-    "notes": "Generated curation note: a range religious thought entry retained from Arnold. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: \"some eight thousand pages long\". He moved to Santa Ana in 1976 (Sutin; Selected Letters chronology). Locators corrected: Sutin ch. 8-11 to ch. 10-12, Arnold ch. 1 to ch. 8. Earlier note: generated, unverified.",
     "narrative": "What began in 1974 as an attempt to explain a few weeks' experiences became the central labor of PKD's last eight years. He wrote almost nightly, by hand, accumulating an estimated eight thousand pages before his death in 1982 — a document never meant for publication and only ever partially edited into print. It is less a book than a decade-long argument with himself, circling the same events and rebuilding the theory around them again and again.\n\nThe method is relentless revision without closure. A given night's certainty — Zebra, VALIS, the plasmate, the Black Iron Prison, the two-source cosmos, Saint Sophia — is dismantled by a later night's better idea, and the discarded models are rarely thrown away so much as folded back in. Throughout, PKD reads his own fiction as inadvertent scripture, treating Ubik, Flow My Tears the Policeman Said, and A Maze of Death as texts that had encoded the revelation before he consciously received it. This is the Lane-B document par excellence: not a record of what was true, but the fullest available account of one mind theorizing about its own unreliability. It is also the seedbed of the last novels — VALIS most directly — which dramatize the Exegesis rather than merely drawing on it.",
     "sources": [
       {
@@ -3545,14 +4338,14 @@
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 8-11",
+        "locator": "ch. 10-12",
         "supports": "documents the scale and duration of the project across PKD's last years"
       },
       {
         "author": "Arnold",
         "work": "The Divine Madness of Philip K. Dick",
         "lane": "C",
-        "locator": "ch. 1",
+        "locator": "ch. 8",
         "supports": "reads the sustained writing as both clinical phenomenon and creative engine"
       }
     ],
@@ -3952,10 +4745,10 @@
       "Logos",
       "Living Information"
     ],
-    "location": "Fullerton, California",
+    "location": "Santa Ana, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a range gnostic experience entry retained from Arnold. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: \"Living information\" and \"plasmate\" first appear in the Exegesis folder filed under September 1976 (runs to 1979); the range stands. Location corrected: Dick moved to Santa Ana in 1976. Earlier note: generated, unverified.",
     "narrative": "Across 1976-78 Philip worked out one of his central late ideas: that information itself can be alive, that the universe is a vast mind processing meaning, and that 2-3-74 was that mind reaching into him and, briefly, thinking through him. Living information is where his theology meets a proto-cybernetic metaphysics — God as a self-organizing field of meaning rather than a person — and it underwrites the plasmate of *VALIS*.",
     "sources": [
       {
@@ -4070,11 +4863,11 @@
       "A Scanner Darkly",
       "Doubleday"
     ],
-    "location": "Fullerton, California",
+    "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
-    "narrative": "*A Scanner Darkly* (1977) turns the San Rafael drug years into fiction: Substance D, the split narcotics-agent/addict Bob Arctor, and a closing dedication naming friends dead or damaged by drugs. It is PKD's most personal novel and his clearest ethical statement — drug misuse as a decision with a terrible price, grieved rather than moralized. He read even this book, in the Exegesis, for what its 'dopers' understood about reality.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Doubleday, 1977. The narrative's \"closing dedication\" is the Author's Note (Sutin). Location corrected: Santa Ana from 1976. Earlier note: generated, unverified.",
+    "narrative": "*A Scanner Darkly* (1977) turns the San Rafael drug years into fiction: Substance D, the split narcotics-agent/addict Bob Arctor, and a closing Author's Note listing friends dead or damaged by drugs. It is PKD's most personal novel and his clearest ethical statement — drug misuse as a decision with a terrible price, grieved rather than moralized. He read even this book, in the Exegesis, for what its 'dopers' understood about reality.",
     "sources": [
       {
         "author": "Sutin",
@@ -4085,12 +4878,21 @@
       }
     ],
     "lanes": [
-      "C"
+      "C",
+      "E"
     ],
     "confidence": "high",
     "links": {
       "exegesis_work": "/exegesis/works/a-scanner-darkly"
-    }
+    },
+    "quotes": [
+      {
+        "text": "I myself, I am not a character in the novel; I am the novel.",
+        "speaker": "PKD",
+        "source": "A Scanner Darkly, Author's Note (quoted by Sutin)",
+        "lane": "E"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1977_jaynes_letter",
@@ -4262,6 +5064,65 @@
     }
   },
   {
+    "id": "pkd_bio_1977_09_metz_speed",
+    "date": "1977-09",
+    "date_precision": "month",
+    "event": "Nervous about flying to the Metz festival in France, PKD scores a supply of speed — by Sutin's account the only time in his last decade.",
+    "category": "drug_use",
+    "entities": [
+      "Joan Simpson"
+    ],
+    "location": "Metz, France",
+    "source": "Sutin",
+    "importance": 2,
+    "narrative": "A year earlier Dick had told a student \"I take no drugs now at all\". Sutin records one lapse: amphetamines bought for the trip to Metz, where he was guest of honour. Arnold reports unnamed sources who say he was still abusing amphetamines in 1974; Doris Sauter remembered no amphetamines in his last years, but a little grass and a little coke.",
+    "sources": [
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "",
+        "supports": "the supply for Metz"
+      },
+      {
+        "author": "PKD",
+        "work": "Letter to Dwayne Boggs, September 9, 1976",
+        "lane": "E",
+        "locator": "",
+        "supports": "\"I take no drugs now at all\""
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "Doris Sauter's account of his last years"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "the only time he resorted to amphetamines in his final decade",
+        "speaker": "Sutin",
+        "source": "Divine Invasions",
+        "lane": "C"
+      }
+    ],
+    "lanes": [
+      "C",
+      "E"
+    ],
+    "confidence": "medium",
+    "links": {
+      "studies": [
+        {
+          "to": "/studies/psychology/drugs-in-pkd?facet=Sobriety#mentions",
+          "label": "Drugs in Philip K. Dick"
+        }
+      ]
+    },
+    "notes": "Added 2026-10-30. Dossier: DRG-BIO-SUTIN-METZ, DRG-LET-1976-BOGGS, DRG-BIO-ARNOLD-COVERT, DRG-BIO-ANNE-DORIS."
+  },
+  {
     "id": "pkd_bio_1977_star_wars_warren",
     "date": "1977-10-02",
     "date_precision": "day",
@@ -4343,11 +5204,11 @@
     "entities": [
       "VALIS"
     ],
-    "location": "Fullerton, California",
+    "location": "Santa Ana, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a range religious thought entry retained from Arnold. Use the source field and linked entities for deeper verification.",
-    "narrative": "Across 1977-79 Philip pulled the sprawling Exegesis toward a system he named for VALIS — Vast Active Living Intelligence System: the rational information-deity, the plasmate, the two-source cosmology, the Black Iron Prison and the coming Kingdom. It is less a settled doctrine than a repeatedly-rebuilt scaffold, and it becomes the explicit subject of the 1981 novel, where PKD splits himself into narrator and the mad seeker Horselover Fat.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: The name is older than the range: \"the VALIS A\" is in the Exegesis section filed under September 1975, and Dick was writing Valisystem A in August 1976 (letter to Tessa, Aug 18, 1976). Sutin: VALIS written in a two-week burst in November 1978. Location corrected to Santa Ana. Earlier note: generated, unverified.",
+    "narrative": "Across 1977-79 Philip pulled the sprawling Exegesis toward a system named for VALIS — Vast Active Living Intelligence System, a name already in the Exegesis by 1975 and in *Valisystem A*, the novel he was writing in August 1976: the rational information-deity, the plasmate, the two-source cosmology, the Black Iron Prison and the coming Kingdom. It is less a settled doctrine than a repeatedly-rebuilt scaffold, and it becomes the explicit subject of the 1981 novel, where PKD splits himself into narrator and the mad seeker Horselover Fat.",
     "sources": [
       {
         "author": "PKD",
@@ -4355,10 +5216,26 @@
         "lane": "B",
         "locator": "",
         "supports": "the consolidation of the VALIS theology across the Exegesis"
+      },
+      {
+        "author": "Sutin",
+        "work": "Divine Invasions",
+        "lane": "C",
+        "locator": "ch. 11",
+        "supports": "VALIS written in two weeks, November 1978"
+      },
+      {
+        "author": "PKD",
+        "work": "Letter to Tessa Dick, August 18, 1976",
+        "lane": "E",
+        "locator": "",
+        "supports": "writing Valisystem A in August 1976"
       }
     ],
     "lanes": [
-      "B"
+      "B",
+      "C",
+      "E"
     ],
     "confidence": "high",
     "links": {
@@ -4526,7 +5403,7 @@
     "id": "pkd_bio_1981_blade_runner_visit",
     "date": "1981",
     "date_precision": "year",
-    "event": "PKD visits the Blade Runner production and, after early hostility, is won over by Ridley Scott's realized world.",
+    "event": "Hostile to the early Blade Runner script, PKD is won over by the footage — a news clip in June 1981, then a private screening of the effects reel in November, where he poses with Ridley Scott.",
     "category": "film_adaptation",
     "entities": [
       "Ridley Scott",
@@ -4535,19 +5412,27 @@
     "location": "Los Angeles, California",
     "source": "Arnold",
     "importance": 4,
-    "notes": "Generated curation note: a year film adaptation entry retained from Arnold. Use the source field and linked entities for deeper verification.",
-    "narrative": "In 1981 Philip visited the production of *Blade Runner*, the adaptation of *Do Androids Dream of Electric Sheep?*, and met director Ridley Scott. Initially wary of Hollywood and critical of early script drafts, he was reportedly stunned by the special-effects footage of the future Los Angeles — recognizing his own imagined world on the screen. He died in March 1982, months before the film's release.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin describes no set visit: Dick read Fancher's screenplay in December 1980 and loathed it; in June 1981 he saw a clip on the local news; in November the studio invited him to a private showing of a special-effects reel. The Selected Letters chronology: \"sees first scenes from Blade Runner ... on TV\". The id is kept. Sutin locator corrected from ch. 11 to ch. 12. Earlier note: generated, unverified.",
+    "narrative": "In 1981 Philip moved from hostility to enthusiasm over *Blade Runner*, the adaptation of *Do Androids Dream of Electric Sheep?*. He loathed Hampton Fancher's screenplay, read in December 1980, and took a swipe at Ridley Scott's *Alien* in print early in 1981. In June he saw a short clip from the film on the local news and was pleased; in November the studio invited him to a private showing of a reel of special effects, sending a limousine, and he posed with Ridley Scott for publicity stills. He died in March 1982, months before the film's release.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 11",
+        "locator": "ch. 12",
         "supports": "the 1981 Blade Runner set visit and PKD's shift from hostility to enthusiasm"
+      },
+      {
+        "author": "PKD",
+        "work": "Letter to Mark Hurst, March 8, 1981",
+        "lane": "E",
+        "locator": "",
+        "supports": "production about to begin; offices set up in Burbank"
       }
     ],
     "lanes": [
-      "C"
+      "C",
+      "E"
     ],
     "confidence": "high",
     "links": {
@@ -4564,22 +5449,30 @@
       "The Divine Invasion",
       "Simon and Schuster"
     ],
-    "location": "Fullerton, California",
+    "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 4,
-    "notes": "Generated curation note: a year publication entry retained from Sutin. Use the source field and linked entities for deeper verification.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Simon & Schuster, 1981; Dick to Ben Adams, January 20, 1981, expected it \"this coming April\". Location and Sutin locator (ch. 11 to ch. 12) corrected. Earlier note: generated, unverified.",
     "narrative": "*The Divine Invasion* (1981) fictionalizes the Exegesis theology directly: a God long exiled from a world fallen under the demiurge's rule engineers his own return, incarnate as the boy Emmanuel, companioned by the wise-child Zina (Sophia). Where *VALIS* is a case history of PKD's own doubt, *The Divine Invasion* is his attempt to write the cosmology straight, as myth.",
     "sources": [
       {
         "author": "Sutin",
         "work": "Divine Invasions",
         "lane": "C",
-        "locator": "ch. 11",
+        "locator": "ch. 12",
         "supports": "the 1981 publication of The Divine Invasion"
+      },
+      {
+        "author": "PKD",
+        "work": "Letter to Ben Adams, January 20, 1981",
+        "lane": "E",
+        "locator": "",
+        "supports": "Simon & Schuster publication expected that April"
       }
     ],
     "lanes": [
-      "C"
+      "C",
+      "E"
     ],
     "confidence": "high",
     "links": {
@@ -4914,8 +5807,8 @@
   },
   {
     "id": "pkd_bio_1982_stroke",
-    "date": "1982-02",
-    "date_precision": "month",
+    "date": "1982-02-18",
+    "date_precision": "day",
     "event": "Found unconscious in his Santa Ana apartment after a stroke; hospitalized and, despite initial signs of recovery, sustains further strokes.",
     "category": "health",
     "entities": [
@@ -4924,8 +5817,8 @@
     "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a month health entry retained from Sutin. Use the source field and linked entities for deeper verification.",
-    "narrative": "In mid-February 1982, PKD was found unconscious on the floor of his apartment on Cameron Street in Santa Ana, having suffered a stroke; a neighbor, alarmed at not hearing from him, alerted help and he was taken to the hospital. He had told friends in the preceding weeks that he felt unwell, and his blood pressure had long been a concern; he was fifty-three, a heavy smoker, and years of amphetamine use and a sedentary, tobacco-heavy routine had left his cardiovascular health poor. For a few days there was cautious hope — he regained some consciousness — but a second stroke followed, and his condition deteriorated toward the coma from which he would not recover.\n\nUnlike the visionary episodes of his last years, the stroke is not a contested matter of interpretation: it is a documented medical event, reconstructed by his biographers from hospital records and the accounts of the friends who kept vigil. Sutin's Divine Invasions and Arnold's The Divine Madness of Philip K. Dick both narrate the collapse and the days in the hospital as the factual close of the life, with none of the evidentiary dispute that surrounds 2-3-74.",
+    "notes": "Checked 2026-10-30 against the biographies and letters in the archive: Anne R. Dick dates it Thursday, February 18: he phoned his doctor that morning with pre-stroke symptoms, and his neighbours Juan and Su Perez found him on the floor late that afternoon (Sutin names the Perezes too). Arnold: the day after his last interview with Rickman. Earlier note: generated, unverified.",
+    "narrative": "In mid-February 1982, PKD was found unconscious on the floor of his apartment on Cameron Street in Santa Ana, having suffered a stroke; his neighbours Juan and Su Perez found him late in the afternoon of February 18, after he had phoned his doctor that morning describing pre-stroke symptoms, and he was taken to the hospital. He had told friends in the preceding weeks that he felt unwell, and his blood pressure had long been a concern; he was fifty-three, a heavy smoker, and years of amphetamine use and a sedentary, tobacco-heavy routine had left his cardiovascular health poor. For a few days there was cautious hope — he regained some consciousness — but a second stroke followed, and his condition deteriorated toward the coma from which he would not recover.\n\nUnlike the visionary episodes of his last years, the stroke is not a contested matter of interpretation: it is a documented medical event, reconstructed by his biographers from hospital records and the accounts of the friends who kept vigil. Sutin's Divine Invasions and Arnold's The Divine Madness of Philip K. Dick both narrate the collapse and the days in the hospital as the factual close of the life, with none of the evidentiary dispute that surrounds 2-3-74.",
     "sources": [
       {
         "author": "Sutin",
@@ -4944,6 +5837,13 @@
         "work": "QueryPat biography",
         "lane": "D",
         "supports": "reconstruction of the collapse and hospital sequence from converging biographical accounts"
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "Thursday, February 18; the call to his doctor; the Perezes"
       }
     ],
     "lanes": [
@@ -4964,8 +5864,8 @@
     "location": "Santa Ana, California",
     "source": "Sutin",
     "importance": 5,
-    "notes": "Generated curation note: a day death entry retained from Sutin. Use the source field and linked entities for deeper verification.",
-    "narrative": "Philip K. Dick died on March 2, 1982, in Santa Ana, California, at the age of fifty-three, never having regained consciousness after the strokes of mid-February and the heart failure that followed. He died months before Blade Runner, Ridley Scott's adaptation of Do Androids Dream of Electric Sheep?, reached theaters — the film that would begin the transformation of a hard-pressed genre writer into one of the twentieth century's most adapted and quoted novelists. His body was taken to Fort Morgan, Colorado, and buried beside his twin sister Jane, who had died in infancy in 1929 and whose absence shadowed his whole life and work; the double headstone had been inscribed with both their names since her death.\n\nThe death is a Lane C/D fact, attested in Sutin, Arnold, and the public record, and it carries none of the interpretive dispute of the visionary years. What the biographers do register is the irony PKD did not live to see: that the recognition he had wanted and largely been denied arrived almost immediately after he was gone, and that the theological questions he had spent eight years and thousands of Exegesis pages chasing were left, as he left them, open.",
+    "notes": "Checked 2026-10-30 against the biographies, letters and Exegesis in the archive: Sutin: March 2, 1982, after further strokes and heart failure. Anne R. Dick: Edgar had his ashes flown to Fort Morgan and buried beside Jane (the narrative said \"his body\"). Arnold: the parents engraved Philip's name beside Jane's on her gravestone, with \"Twins\" under both. Earlier note: generated, unverified.",
+    "narrative": "Philip K. Dick died on March 2, 1982, in Santa Ana, California, at the age of fifty-three, never having regained consciousness after the strokes of mid-February and the heart failure that followed. He died months before Blade Runner, Ridley Scott's adaptation of Do Androids Dream of Electric Sheep?, reached theaters — the film that would begin the transformation of a hard-pressed genre writer into one of the twentieth century's most adapted and quoted novelists. His ashes were flown to Fort Morgan, Colorado, and buried beside his twin sister Jane, who had died in infancy in 1929 and whose absence shadowed his whole life and work; the double headstone had been inscribed with both their names since her death.\n\nThe death is a Lane C/D fact, attested in Sutin, Arnold, and the public record, and it carries none of the interpretive dispute of the visionary years. What the biographers do register is the irony PKD did not live to see: that the recognition he had wanted and largely been denied arrived almost immediately after he was gone, and that the theological questions he had spent eight years and thousands of Exegesis pages chasing were left, as he left them, open.",
     "sources": [
       {
         "author": "Sutin",
@@ -4984,13 +5884,28 @@
         "work": "QueryPat biography",
         "lane": "D",
         "supports": "reconstruction placing the death just ahead of Blade Runner's release and posthumous fame"
+      },
+      {
+        "author": "Anne R. Dick",
+        "work": "The Search for Philip K. Dick",
+        "lane": "C",
+        "locator": "",
+        "supports": "Edgar had Phil's ashes flown to Fort Morgan and buried beside Jane"
       }
     ],
     "lanes": [
       "C",
       "D"
     ],
-    "confidence": "high"
+    "confidence": "high",
+    "quotes": [
+      {
+        "text": "when Dick's parents buried his sister, they engraved Dick's name on the tombstone next to Jane's name",
+        "speaker": "Arnold",
+        "source": "The Divine Madness of Philip K. Dick",
+        "lane": "C"
+      }
+    ]
   },
   {
     "id": "pkd_bio_1966_jung_reading",

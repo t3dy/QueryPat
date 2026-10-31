@@ -169,8 +169,11 @@ def run(db: sqlite3.Connection, project_dir: Path):
 
 
 if __name__ == '__main__':
-    db_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path('C:/QueryPat/database/unified.sqlite')
-    project_dir = Path(sys.argv[2]) if len(sys.argv) > 2 else Path('C:/QueryPat')
+    # Default to the checkout this script lives in, so a worktree audits its own
+    # database and writes its own reports.
+    here = Path(__file__).resolve().parent.parent
+    db_path = Path(sys.argv[1]) if len(sys.argv) > 1 else here / 'database' / 'unified.sqlite'
+    project_dir = Path(sys.argv[2]) if len(sys.argv) > 2 else here
     db = sqlite3.connect(str(db_path))
     run(db, project_dir)
     db.close()
